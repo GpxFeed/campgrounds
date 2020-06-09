@@ -1,5 +1,7 @@
-# campgrounds - pois for offline use
 # camping site pois and pois for camper's personal supply
 
-All pois have been taken from OSM and tested to work with Cruiser.
+- The whole story is intended for offline use on the road beyond a usable or affordable connection and in the Internet desert.
+
+- All pois have been extracted from OSM, processed and tested to work with Cruiser.
+
 https://wiki.openstreetmap.org/wiki/Cruiser
