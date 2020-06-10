@@ -1,4 +1,4 @@
-# Camping site pois - points of interest - and pois for camper's personal supply
+# Feed your routing app - camping site pois - points of interest - and pois for camper's basic supply
 
 - The whole story is primarily intended for offline use on the road beyond a usable or affordable connection and in the Internet desert.
 
