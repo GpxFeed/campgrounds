@@ -1,6 +1,6 @@
 # Feed your routing app OFFLINE.
 
-- ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/14px-Camping.16.svg.png) Camping site pois */points of interest/* and additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle or hippie bus.
+- Camping site pois ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/14px-Camping.16.svg.png) *[points of interest]* and additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle or hippie bus.
 
 - The whole story is primarily intended for offline use on the road beyond a usable or affordable Internet connection or in the Internet desert.
 
