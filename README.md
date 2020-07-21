@@ -3,9 +3,11 @@
 A collection of **Points of interest** - in GPX format
 
 - camping site pois ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/14px-Camping.16.svg.png)  
-- additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
     - 43088 camping sites
+
+- additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
+
     - 194312 supermarkets 
     - 160510 fuel stations
 
