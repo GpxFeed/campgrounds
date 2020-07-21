@@ -9,9 +9,9 @@ The whole story is primarily intended for offline use on an old quad core netboo
 
 All pois have been extracted from OSM - OpenStreetMap - trimmed with the GpxPy parser together with other Python toolsets for optimal working with Cruiser Desktop :
 
-![alt text](./cruiser.png?raw=true "Cruiser")
+  https://wiki.openstreetmap.org/wiki/Cruiser
 
-https://wiki.openstreetmap.org/wiki/Cruiser
+![alt text](./cruiser.png?raw=true "Cruiser")
 
     - 43088 camping sites
     - 194312 supermarkets 
@@ -22,7 +22,7 @@ If you find data are invalid or missing, please deal with OSM.
 # Other software using OSM data and services
 
 - Mobile software by platform
- - https://wiki.openstreetmap.org/wiki/Software
+  https://wiki.openstreetmap.org/wiki/Software
 
 - Software/Desktop 
- - https://wiki.openstreetmap.org/wiki/Software/Desktop
+  https://wiki.openstreetmap.org/wiki/Software/Desktop
