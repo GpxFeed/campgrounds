@@ -4,7 +4,7 @@ A collection of **Points of interest** - in GPX format
 
 - camping site pois
 
-    - 43088 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/14px-Camping.16.svg.png)
+    - 43088 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/28px-Camping.16.svg.png)
 
 - additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
