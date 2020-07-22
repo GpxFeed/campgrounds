@@ -8,12 +8,12 @@ A collection of **Points of interest** - in GPX format
 
 - additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
-    - 194312 supermarkets 
-    - 160510 fuel stations
+    - 194312 supermarkets   ![alt text](https://wiki.openstreetmap.org/wiki/File:Supermarket-14.svg)
+    - 160510 fuel stations  ![alt text](https://wiki.openstreetmap.org/wiki/File:Fuel-16.svg)
 
 The whole story is primarily intended for offline use on an old quad core netbook while traveling on the road beyond a usable or affordable Internet connection or in the Internet desert and and looking step by step for the next magic place to stay.
 
-All pois have been extracted from OSM - OpenStreetMap - trimmed with the GpxPy parser together with other Python toolsets for optimal working with Cruiser Desktop :
+All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
 
