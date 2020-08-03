@@ -28,7 +28,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Blanchardstown addr:postal_district=D15
     addr:street=Main Street brand=SuperValu brand:wikidata=Q7642081
     brand:wikipedia=en:SuperValu (Ireland) name=SuperValu
-    shop=supermarket id=node/249338235</desc>
+    old_name=Superquinn shop=supermarket id=node/249338235</desc>
   </wpt>
   <wpt lat="52.6664679" lon="-8.5524086">
     <name>SuperValu</name>
@@ -764,8 +764,10 @@ version="1.1" creator="togpx">
   <wpt lat="53.116147" lon="-9.1480711">
     <name>Spar</name>
     <desc>brand=Spar brand:wikidata=Q610492 brand:wikipedia=en:Spar
-    (retailer) name=Spar opening_hours=Mo-Sa 08:30-19:30; Su
-    08:30-19:00 operator=Geraldine Linnane shop=supermarket
+    (retailer) cash_withdrawal=yes
+    cash_withdrawal:purchase_required=yes name=Spar
+    opening_hours=Mo-Sa 08:30-19:30; Su 08:30-19:00
+    operator=Geraldine Linnane payment:cards=yes shop=supermarket
     wheelchair=yes id=node/541650329</desc>
   </wpt>
   <wpt lat="53.3210641" lon="-6.2560798">
@@ -1263,8 +1265,11 @@ version="1.1" creator="togpx">
   <wpt lat="53.9449757" lon="-8.080152">
     <name>Tesco</name>
     <desc>brand=Tesco brand:wikidata=Q487494
-    brand:wikipedia=en:Tesco name=Tesco operator=Tesco Ireland
-    shop=supermarket id=node/908757433</desc>
+    brand:wikipedia=en:Tesco building=yes name=Tesco
+    shop=supermarket id=way/195831691 brand=Tesco
+    brand:wikidata=Q487494 brand:wikipedia=en:Tesco name=Tesco
+    operator=Tesco Ireland shop=supermarket
+    id=node/908757433</desc>
   </wpt>
   <wpt lat="53.342661" lon="-6.2421308">
     <name>Supernatural Food Market</name>
@@ -1350,8 +1355,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.2642986" lon="-8.926085">
     <name>Lidl</name>
-    <desc>brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
-    name=Lidl shop=supermarket id=node/947390568</desc>
+    <desc>addr:city=Oranmore brand=Lidl brand:wikidata=Q151954
+    brand:wikipedia=en:Lidl name=Lidl shop=supermarket
+    id=node/947390568</desc>
   </wpt>
   <wpt lat="53.3622689" lon="-6.2730977">
     <name>Tesco</name>
@@ -1458,17 +1464,6 @@ version="1.1" creator="togpx">
     <name>node/1143176357</name>
     <desc>shop=supermarket id=node/1143176357</desc>
   </wpt>
-  <wpt lat="52.4728372" lon="-8.1595094">
-    <name>SuperValu</name>
-    <desc>building=yes shop=supermarket id=way/580239063
-    addr:street=Link Road brand=SuperValu brand:wikidata=Q7642081
-    brand:wikipedia=en:SuperValu (Ireland) name=SuperValu
-    shop=supermarket id=node/1154978524</desc>
-  </wpt>
-  <wpt lat="52.2480639" lon="-7.1230843">
-    <name>Buy Lo</name>
-    <desc>name=Buy Lo shop=supermarket id=node/1154978739</desc>
-  </wpt>
   <wpt lat="53.345671" lon="-6.2601578">
     <name>Tesco Metro</name>
     <desc>addr:city=Dublin addr:street=Fleet Street brand=Tesco
@@ -1488,7 +1483,7 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.2697039" lon="-8.9307384">
     <name>Tesco</name>
-    <desc>brand=Tesco brand:wikidata=Q487494
+    <desc>addr:city=Oranmore brand=Tesco brand:wikidata=Q487494
     brand:wikipedia=en:Tesco name=Tesco payment:amex=yes
     payment:coins=yes payment:laser=yes payment:maestro=yes
     payment:mastercard=yes payment:notes=yes payment:visa=yes
@@ -1540,6 +1535,12 @@ version="1.1" creator="togpx">
     <name>Spar</name>
     <desc>brand=Spar brand:wikidata=Q610492 brand:wikipedia=en:Spar
     (retailer) name=Spar shop=supermarket id=node/1219266976</desc>
+  </wpt>
+  <wpt lat="52.4779305" lon="-8.1774908">
+    <name>Dunnes Stores</name>
+    <desc>brand=Dunnes Stores brand:wikidata=Q1266203
+    brand:wikipedia=en:Dunnes Stores name=Dunnes Stores
+    shop=supermarket id=node/1226919945</desc>
   </wpt>
   <wpt lat="52.665425" lon="-8.625418">
     <name>Tesco</name>
@@ -1980,10 +1981,6 @@ version="1.1" creator="togpx">
     <name>Regans</name>
     <desc>name=Regans shop=supermarket id=node/1601684118</desc>
   </wpt>
-  <wpt lat="53.469025" lon="-9.1072413">
-    <name>Joyces</name>
-    <desc>name=Joyces shop=supermarket id=node/1601723624</desc>
-  </wpt>
   <wpt lat="53.4698044" lon="-9.1012972">
     <name>Keadys Supermarket</name>
     <desc>name=Keadys Supermarket shop=supermarket
@@ -2412,11 +2409,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.522863" lon="-6.101434">
     <name>Tesco Supermarket</name>
-    <desc>addr:street=Whitestown Road atm=yes brand=Tesco
-    delivery=yes designation=Supermarket internet_access=wlan
-    name=Tesco Supermarket opening_hours=Mo-Sa 08:00-22:00; Su
-    08:00-20:00 operator=Tesco Ireland shop=supermarket
-    source=Survey wheelchair=yes id=node/2211669224</desc>
+    <desc>addr:city=Rush addr:street=Whitestown Road atm=yes
+    brand=Tesco delivery=yes designation=Supermarket
+    internet_access=wlan name=Tesco Supermarket opening_hours=Mo-Sa
+    08:00-22:00; Su 08:00-20:00 operator=Tesco Ireland
+    shop=supermarket source=Survey wheelchair=yes
+    id=node/2211669224</desc>
   </wpt>
   <wpt lat="53.3954309" lon="-7.7212589">
     <name>SuperValu</name>
@@ -2684,10 +2682,11 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:SuperValu (Ireland) building=yes
     name=SuperValu shop=supermarket id=way/800567438
     brand=SuperValu brand:wikidata=Q7642081
-    brand:wikipedia=en:SuperValu (Ireland) name=Hurley's SuperValu
-    phone=+353 21 463 1570 shop=supermarket
-    website=https://www.facebook.com/Hurleys-SuperValu-Midleton-1176732322372925/
-    wheelchair=yes id=node/2750398196</desc>
+    brand:wikipedia=en:SuperValu (Ireland)
+    facebook=https://www.facebook.com/Hurleys-SuperValu-Midleton-1176732322372925
+    name=Hurley's SuperValu phone=+353 21 463 1570 shop=supermarket
+    website=https://supervalu.ie wheelchair=yes
+    id=node/2750398196</desc>
   </wpt>
   <wpt lat="51.9161114" lon="-8.1791709">
     <name>Tesco</name>
@@ -2840,10 +2839,10 @@ version="1.1" creator="togpx">
     <desc>name=Gerrys shop=supermarket id=node/3011362780</desc>
   </wpt>
   <wpt lat="53.1387572" lon="-8.9383809">
-    <name>Burkes Londis Plus</name>
+    <name>Burkes Spar</name>
     <desc>addr:city=Kinvara addr:street=Main Street name=Burkes
-    Londis Plus operator=Londis phone=+353 (0)91 637 250
-    shop=supermarket id=node/3039439305</desc>
+    Spar operator=Spar phone=+353 (0)91 637 250 shop=supermarket
+    id=node/3039439305</desc>
   </wpt>
   <wpt lat="53.9214065" lon="-6.4008473">
     <name>node/3044828133</name>
@@ -3127,9 +3126,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.6570055" lon="-8.6269248">
     <name>Sami Swoi - Polish food store</name>
-    <desc>name=Sami Swoi - Polish food store note=Polish Food Store
-    operator=Sami Swoi Limited shop=supermarket
-    id=node/3796299016</desc>
+    <desc>addr:city=Limerick name=Sami Swoi - Polish food store
+    note=Polish Food Store operator=Sami Swoi Limited
+    shop=supermarket id=node/3796299016</desc>
   </wpt>
   <wpt lat="54.6528013" lon="-8.1080455">
     <name>Aldi</name>
@@ -3319,7 +3318,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.3673099" lon="-7.331715">
     <name>Doherty's</name>
-    <desc>name=Doherty's opening_hours=08:00-20:00 shop=supermarket
+    <desc>name=Doherty's opening_hours=Mo-Th 08:00-21:00; Fr-Sa
+    08:00-22:00; Su 09:00-21:00 shop=supermarket
     id=node/4415535091</desc>
   </wpt>
   <wpt lat="51.8928807" lon="-8.463766">
@@ -4049,7 +4049,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.6603372" lon="-8.6340592">
     <name>Foodland</name>
-    <desc>name=Foodland shop=supermarket id=node/6370172471</desc>
+    <desc>addr:city=Limerick name=Foodland shop=supermarket
+    id=node/6370172471</desc>
   </wpt>
   <wpt lat="52.3125238" lon="-7.1758548">
     <name>node/6404546826</name>
@@ -4169,13 +4170,6 @@ version="1.1" creator="togpx">
     Sa-Su 09:00-21:00 operator=Aldi Stores (Ireland) Limited
     phone:IE=1800-991828 shop=supermarket
     website=https://www.aldi.ie/ id=node/6680167916</desc>
-  </wpt>
-  <wpt lat="52.4751487" lon="-8.1578">
-    <name>Lidl</name>
-    <desc>brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
-    building=yes name=Lidl shop=supermarket id=way/222578200
-    brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
-    name=Lidl shop=supermarket id=node/6742652576</desc>
   </wpt>
   <wpt lat="52.6622684" lon="-8.6286091">
     <name>Alex Findlater &amp; Company Ltd</name>
@@ -4302,7 +4296,7 @@ version="1.1" creator="togpx">
     <name>Hickey's Supermarket</name>
     <desc>name=Hickey's Supermarket shop=supermarket
     type=multipolygon id=relation/6001456</desc>
-    <link href="1x2y3z"></link>
+    <link href="**"></link>
   </wpt>
   <wpt lat="55.082252" lon="-7.6864107666483426">
     <name>Lidl</name>
@@ -4533,8 +4527,9 @@ version="1.1" creator="togpx">
     <name>Tesco</name>
     <desc>brand=Tesco brand:wikidata=Q487494
     brand:wikipedia=en:Tesco building=supermarket name=Tesco
-    opening_hours=24/7 operator=Tesco Ireland shop=supermarket
-    id=way/35861314</desc>
+    opening_hours=Mo-Sa 07:00-20:00; Su 08:00-20:00
+    opening_hours:covid19=same operator=Tesco Ireland
+    shop=supermarket id=way/35861314</desc>
   </wpt>
   <wpt lat="52.16306095" lon="-7.160139750162713">
     <name>Tesco</name>
@@ -5138,7 +5133,7 @@ version="1.1" creator="togpx">
   <wpt lat="53.288836950000004" lon="-6.222991899999999">
     <name>Brady's</name>
     <desc>addr:housenumber=7A addr:street=Drummartin Road
-    building=shop name=Brady's operator=Centra shop=supermarket
+    building=retail name=Brady's operator=Centra shop=supermarket
     id=way/90606046</desc>
   </wpt>
   <wpt lat="52.342693600000004" lon="-6.4655969422786645">
@@ -5573,7 +5568,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.349215099999995" lon="-7.424386563495027">
     <name>Lidl</name>
     <desc>brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
-    building=shop name=Lidl shop=supermarket
+    building=retail name=Lidl shop=supermarket
     id=way/149629352</desc>
   </wpt>
   <wpt lat="52.35185525" lon="-7.392732798551112">
@@ -5585,7 +5580,7 @@ version="1.1" creator="togpx">
   <wpt lat="53.45311285" lon="-7.1046058894885755">
     <name>Tesco</name>
     <desc>addr:street=Kinnegad Bypass brand=Tesco
-    brand:wikidata=Q487494 brand:wikipedia=en:Tesco building=shop
+    brand:wikidata=Q487494 brand:wikipedia=en:Tesco building=retail
     name=Tesco opening_hours=Mo-Sa 08:00-22:00; Su 10:00-20:00
     operator=Tesco Ireland shop=supermarket source=Bing
     id=way/149708847</desc>
@@ -5644,8 +5639,8 @@ version="1.1" creator="togpx">
   <wpt lat="52.956668949999994" lon="-7.795952240518867">
     <name>Tesco</name>
     <desc>brand=Tesco brand:wikidata=Q487494
-    brand:wikipedia=en:Tesco building=shop name=Tesco
-    shop=supermarket id=way/152920262</desc>
+    brand:wikipedia=en:Tesco building=retail name=Tesco
+    operator=Tesco Ireland shop=supermarket id=way/152920262</desc>
   </wpt>
   <wpt lat="52.68066345" lon="-7.80060815">
     <name>Aldi</name>
@@ -5666,7 +5661,7 @@ version="1.1" creator="togpx">
     building=yes name=Lidl operator=Lidl Ireland GmbH
     shop=supermarket id=way/153201413</desc>
   </wpt>
-  <wpt lat="52.35522765" lon="-7.684460456163513">
+  <wpt lat="52.35539015" lon="-7.684565488404051">
     <name>Dunnes Stores</name>
     <desc>addr:city=Clonmel addr:street=Davis Road brand=Dunnes
     Stores brand:wikidata=Q1266203 brand:wikipedia=en:Dunnes Stores
@@ -5792,7 +5787,7 @@ version="1.1" creator="togpx">
   <wpt lat="53.291775" lon="-6.263839034367112">
     <name>Lidl</name>
     <desc>brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
-    building=shop name=Lidl shop=supermarket
+    building=retail name=Lidl shop=supermarket
     id=way/164365616</desc>
   </wpt>
   <wpt lat="52.65685605" lon="-6.658752077429286">
@@ -6199,7 +6194,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.542750299999994" lon="-7.390638949999987">
     <name>SuperValu</name>
     <desc>brand=SuperValu brand:wikidata=Q7642081
-    brand:wikipedia=en:SuperValu (Ireland) building=shop
+    brand:wikipedia=en:SuperValu (Ireland) building=retail
     name=SuperValu shop=supermarket wheelchair=yes
     id=way/189966749</desc>
   </wpt>
@@ -6479,6 +6474,11 @@ version="1.1" creator="togpx">
     <name>Applegreen Clones</name>
     <desc>building=retail name=Applegreen Clones shop=supermarket
     id=way/222003243</desc>
+  </wpt>
+  <wpt lat="52.47516400000001" lon="-8.157803832182818">
+    <name>Lidl</name>
+    <desc>brand=Lidl brand:wikidata=Q151954 brand:wikipedia=en:Lidl
+    building=yes name=Lidl shop=supermarket id=way/222578200</desc>
   </wpt>
   <wpt lat="52.7946425" lon="-7.829695397771719">
     <name>Lidl</name>
@@ -7046,10 +7046,6 @@ version="1.1" creator="togpx">
     name=SuperValu shop=supermarket source=Local Knowledge
     id=way/292999933</desc>
   </wpt>
-  <wpt lat="53.18173505" lon="-7.977287957856612">
-    <name>way/294604128</name>
-    <desc>building=yes shop=supermarket id=way/294604128</desc>
-  </wpt>
   <wpt lat="53.32592015" lon="-6.254817286886741">
     <name>SuperValu</name>
     <desc>addr:city=Dublin addr:street=Ranelagh brand=SuperValu
@@ -7520,15 +7516,17 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.47563315" lon="-8.161296569860042">
     <name>Aldi</name>
-    <desc>brand=Aldi brand:wikidata=Q125054 brand:wikipedia=en:Aldi
-    building=retail
+    <desc>addr:city=Tipperary addr:housename=Aldi addr:postcode=E34
+    D786 addr:street=Mitchell Street brand=Aldi
+    brand:wikidata=Q125054 brand:wikipedia=en:Aldi building=retail
     contact:facebook=https://www.facebook.com/AldiIreland
     contact:instagram=https://www.instagram.com/aldi_ireland/
     contact:linkedin=https://www.linkedin.com/company/aldi-ireland
     contact:twitter=https://twitter.com/Aldi_Ireland
     contact:youtube=https://www.youtube.com/user/AldiIreland
-    email=customer.service@aldi.ie name=Aldi operator=Aldi Stores
-    (Ireland) Limited phone:IE=1800-991828 shop=supermarket
+    email=customer.service@aldi.ie name=Aldi opening_hours=Mo-Su
+    09:00-20:00 operator=Aldi Stores (Ireland) Limited
+    phone:IE=1800-991828 shop=supermarket
     website=https://www.aldi.ie/ id=way/445996269</desc>
   </wpt>
   <wpt lat="53.3399013" lon="-6.308086369029072">
@@ -7839,6 +7837,12 @@ version="1.1" creator="togpx">
     <desc>building=yes name=Mróz Maynooth origin=polish
     shop=supermarket id=way/579222479</desc>
   </wpt>
+  <wpt lat="52.472991" lon="-8.15956267495914">
+    <name>SuperValu</name>
+    <desc>brand=SuperValu brand:wikidata=Q7642081
+    brand:wikipedia=en:SuperValu (Ireland) building=yes
+    name=SuperValu shop=supermarket id=way/580239063</desc>
+  </wpt>
   <wpt lat="52.3421116" lon="-6.491458115495533">
     <name>Aldi</name>
     <desc>addr:city=Wexford addr:street=Newtown Road brand=Aldi
@@ -7914,6 +7918,10 @@ version="1.1" creator="togpx">
     <name>Kujawiak</name>
     <desc>building=yes name=Kujawiak origin=polish shop=supermarket
     id=way/617981141</desc>
+  </wpt>
+  <wpt lat="52.35123505" lon="-7.7159318009368185">
+    <name>way/638748343</name>
+    <desc>building=yes shop=supermarket id=way/638748343</desc>
   </wpt>
   <wpt lat="51.8737319" lon="-8.439163631385696">
     <name>Totu</name>
@@ -8233,13 +8241,6 @@ version="1.1" creator="togpx">
     Limited phone:IE=1800-991828 shop=supermarket
     website=https://www.aldi.ie/ id=way/781194206</desc>
   </wpt>
-  <wpt lat="53.2819583" lon="-6.294887933882072">
-    <name>Costcutter</name>
-    <desc>addr:street=Taylors Lane brand=Costcutter
-    brand:wikidata=Q5175072 brand:wikipedia=en:Costcutter
-    building=yes name=Costcutter opening_hours=sunrise-sunset
-    operator=Costcutter shop=supermarket id=way/809146590</desc>
-  </wpt>
   <wpt lat="53.731231699999995" lon="-6.890114486904766">
     <name>Aldi</name>
     <desc>brand=Aldi brand:wikidata=Q125054 brand:wikipedia=en:Aldi
@@ -8252,6 +8253,20 @@ version="1.1" creator="togpx">
     email=customer.service@aldi.ie name=Aldi operator=Aldi Stores
     (Ireland) Limited phone:IE=1800-991828 shop=supermarket
     website=https://www.aldi.ie/ id=way/814511984</desc>
+  </wpt>
+  <wpt lat="53.4690394" lon="-9.107456404189852">
+    <name>Joyces</name>
+    <desc>building=retail name=Joyces operator=Joyces
+    shop=supermarket id=way/825346489</desc>
+  </wpt>
+  <wpt lat="53.45295545" lon="-7.099856050744824">
+    <name>way/825409329</name>
+    <desc>building=retail fixme=Lidl or Aldi? shop=supermarket
+    id=way/825409329</desc>
+  </wpt>
+  <wpt lat="53.93877985" lon="-8.103303924880175">
+    <name>way/832645467</name>
+    <desc>building=yes shop=supermarket id=way/832645467</desc>
   </wpt>
   <trk>
     <name>Hickey's Supermarket</name>
@@ -11035,6 +11050,8 @@ version="1.1" creator="togpx">
       <trkpt lat="52.3555102" lon="-7.6854845"></trkpt>
       <trkpt lat="52.3554264" lon="-7.6854303"></trkpt>
       <trkpt lat="52.3554937" lon="-7.6851511"></trkpt>
+      <trkpt lat="52.3553539" lon="-7.6850607"></trkpt>
+      <trkpt lat="52.3552943" lon="-7.6850222"></trkpt>
       <trkpt lat="52.3548837" lon="-7.6847568"></trkpt>
       <trkpt lat="52.3549418" lon="-7.6845162"></trkpt>
       <trkpt lat="52.3548705" lon="-7.6844702"></trkpt>
@@ -12283,6 +12300,24 @@ version="1.1" creator="togpx">
       <trkpt lat="53.0689855" lon="-8.8191495"></trkpt>
       <trkpt lat="53.0690152" lon="-8.8192103"></trkpt>
       <trkpt lat="53.0688717" lon="-8.8194043"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Tesco</name>
+    <trkseg>
+      <trkpt lat="53.9451496" lon="-8.080553"></trkpt>
+      <trkpt lat="53.9448281" lon="-8.0807079"></trkpt>
+      <trkpt lat="53.9446204" lon="-8.0794636"></trkpt>
+      <trkpt lat="53.9446391" lon="-8.0794546"></trkpt>
+      <trkpt lat="53.9446115" lon="-8.0792898"></trkpt>
+      <trkpt lat="53.9447515" lon="-8.0792224"></trkpt>
+      <trkpt lat="53.944779" lon="-8.0793872"></trkpt>
+      <trkpt lat="53.9449419" lon="-8.0793087"></trkpt>
+      <trkpt lat="53.944979" lon="-8.0795309"></trkpt>
+      <trkpt lat="53.9450284" lon="-8.0795071"></trkpt>
+      <trkpt lat="53.9451334" lon="-8.0801363"></trkpt>
+      <trkpt lat="53.945084" lon="-8.0801601"></trkpt>
+      <trkpt lat="53.9451496" lon="-8.080553"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14018,16 +14053,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/294604128</name>
-    <trkseg>
-      <trkpt lat="53.1817562" lon="-7.9774885"></trkpt>
-      <trkpt lat="53.1816216" lon="-7.9773631"></trkpt>
-      <trkpt lat="53.1817139" lon="-7.9770874"></trkpt>
-      <trkpt lat="53.1818485" lon="-7.9772129"></trkpt>
-      <trkpt lat="53.1817562" lon="-7.9774885"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>SuperValu</name>
     <trkseg>
       <trkpt lat="53.3258331" lon="-6.2545547"></trkpt>
@@ -15620,7 +15645,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/580239063</name>
+    <name>SuperValu</name>
     <trkseg>
       <trkpt lat="52.4726277" lon="-8.1593257"></trkpt>
       <trkpt lat="52.4728699" lon="-8.1592042"></trkpt>
@@ -15630,13 +15655,9 @@ version="1.1" creator="togpx">
       <trkpt lat="52.4732574" lon="-8.1593213"></trkpt>
       <trkpt lat="52.4732534" lon="-8.1593478"></trkpt>
       <trkpt lat="52.4732668" lon="-8.1593566"></trkpt>
-      <trkpt lat="52.4732413" lon="-8.1595996"></trkpt>
-      <trkpt lat="52.4732789" lon="-8.1595908"></trkpt>
-      <trkpt lat="52.4732789" lon="-8.1596858"></trkpt>
-      <trkpt lat="52.4732978" lon="-8.1596835"></trkpt>
-      <trkpt lat="52.4732937" lon="-8.1597321"></trkpt>
-      <trkpt lat="52.4733072" lon="-8.1597299"></trkpt>
-      <trkpt lat="52.4733086" lon="-8.1600105"></trkpt>
+      <trkpt lat="52.4732471" lon="-8.1595996"></trkpt>
+      <trkpt lat="52.4732524" lon="-8.1597457"></trkpt>
+      <trkpt lat="52.4732471" lon="-8.1599916"></trkpt>
       <trkpt lat="52.4728188" lon="-8.1599089"></trkpt>
       <trkpt lat="52.4728174" lon="-8.1597432"></trkpt>
       <trkpt lat="52.4727663" lon="-8.1597366"></trkpt>
@@ -15790,6 +15811,18 @@ version="1.1" creator="togpx">
       <trkpt lat="52.517258" lon="-7.8875353"></trkpt>
       <trkpt lat="52.5172136" lon="-7.8874606"></trkpt>
       <trkpt lat="52.5172517" lon="-7.8873995"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/638748343</name>
+    <trkseg>
+      <trkpt lat="52.3513795" lon="-7.7161435"></trkpt>
+      <trkpt lat="52.3510667" lon="-7.7160891"></trkpt>
+      <trkpt lat="52.3510906" lon="-7.7157201"></trkpt>
+      <trkpt lat="52.3514258" lon="-7.7157784"></trkpt>
+      <trkpt lat="52.3514094" lon="-7.7160309"></trkpt>
+      <trkpt lat="52.351387" lon="-7.716027"></trkpt>
+      <trkpt lat="52.3513795" lon="-7.7161435"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16459,19 +16492,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Costcutter</name>
-    <trkseg>
-      <trkpt lat="53.2818837" lon="-6.2948107"></trkpt>
-      <trkpt lat="53.2819848" lon="-6.2947692"></trkpt>
-      <trkpt lat="53.2820012" lon="-6.2947625"></trkpt>
-      <trkpt lat="53.282031" lon="-6.2949659"></trkpt>
-      <trkpt lat="53.2819556" lon="-6.2949969"></trkpt>
-      <trkpt lat="53.281961" lon="-6.2950342"></trkpt>
-      <trkpt lat="53.281919" lon="-6.2950514"></trkpt>
-      <trkpt lat="53.2818837" lon="-6.2948107"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Aldi</name>
     <trkseg>
       <trkpt lat="53.7311305" lon="-6.8904862"></trkpt>
@@ -16483,6 +16503,53 @@ version="1.1" creator="togpx">
       <trkpt lat="53.7313603" lon="-6.8903588"></trkpt>
       <trkpt lat="53.7313329" lon="-6.8902815"></trkpt>
       <trkpt lat="53.7311305" lon="-6.8904862"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Joyces</name>
+    <trkseg>
+      <trkpt lat="53.4691509" lon="-9.1072788"></trkpt>
+      <trkpt lat="53.4691468" lon="-9.1075255"></trkpt>
+      <trkpt lat="53.4691503" lon="-9.1076367"></trkpt>
+      <trkpt lat="53.4690705" lon="-9.10763"></trkpt>
+      <trkpt lat="53.4690672" lon="-9.1077412"></trkpt>
+      <trkpt lat="53.4690076" lon="-9.1077363"></trkpt>
+      <trkpt lat="53.4690092" lon="-9.1076966"></trkpt>
+      <trkpt lat="53.4689429" lon="-9.1076604"></trkpt>
+      <trkpt lat="53.46899" lon="-9.1074873"></trkpt>
+      <trkpt lat="53.4689373" lon="-9.1074565"></trkpt>
+      <trkpt lat="53.4690116" lon="-9.1071548"></trkpt>
+      <trkpt lat="53.4691521" lon="-9.1072513"></trkpt>
+      <trkpt lat="53.4691509" lon="-9.1072788"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/825409329</name>
+    <trkseg>
+      <trkpt lat="53.453101" lon="-7.1001225"></trkpt>
+      <trkpt lat="53.4528214" lon="-7.1001497"></trkpt>
+      <trkpt lat="53.4526103" lon="-7.1001746"></trkpt>
+      <trkpt lat="53.4525959" lon="-7.0998305"></trkpt>
+      <trkpt lat="53.4525681" lon="-7.0998337"></trkpt>
+      <trkpt lat="53.4525627" lon="-7.0997208"></trkpt>
+      <trkpt lat="53.4525706" lon="-7.09972"></trkpt>
+      <trkpt lat="53.4525667" lon="-7.0996174"></trkpt>
+      <trkpt lat="53.4531745" lon="-7.0995518"></trkpt>
+      <trkpt lat="53.4531786" lon="-7.0996583"></trkpt>
+      <trkpt lat="53.4531352" lon="-7.099663"></trkpt>
+      <trkpt lat="53.453141" lon="-7.0998145"></trkpt>
+      <trkpt lat="53.4530895" lon="-7.0998201"></trkpt>
+      <trkpt lat="53.453101" lon="-7.1001225"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/832645467</name>
+    <trkseg>
+      <trkpt lat="53.9389591" lon="-8.1036192"></trkpt>
+      <trkpt lat="53.938667" lon="-8.1034142"></trkpt>
+      <trkpt lat="53.9388927" lon="-8.1028147"></trkpt>
+      <trkpt lat="53.9390993" lon="-8.1030448"></trkpt>
+      <trkpt lat="53.9389591" lon="-8.1036192"></trkpt>
     </trkseg>
   </trk>
 </gpx>
