@@ -1,6 +1,6 @@
 Feed your routing applications OFFLINE.
 
-# A collection of camping sites and camper supplementals as **Points of interest** in the GPX format for download
+# A collection of camping sites and camper supplementals as **Points of interest** in the GPX format for download 
 
 - Camping site pois
 
