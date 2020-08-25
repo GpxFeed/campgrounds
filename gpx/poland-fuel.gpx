@@ -3,6 +3,15 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
 version="1.1" creator="togpx">
+  <metadata>
+    <copyright>
+      <license>"osm3s": { "timestamp_osm_base":
+      "2020-08-24T10:46:03Z", "timestamp_areas_base":
+      "2020-08-24T07:15:03Z", "copyright": "The data included in
+      this document is from www.openstreetmap.org. The data is made
+      available under ODbL." }</license>
+    </copyright>
+  </metadata>
   <wpt lat="54.0698193" lon="18.4542078">
     <name>Stacja Benzynowa</name>
     <desc>amenity=fuel name=Stacja Benzynowa operator=BLISKA
@@ -221,10 +230,6 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>amenity=fuel created_by=Potlatch 0.10a name=Shell
     opening_hours=24/7 id=node/227465314</desc>
-  </wpt>
-  <wpt lat="50.7083017" lon="18.7489285">
-    <name>node/228246040</name>
-    <desc>amenity=fuel created_by=JOSM id=node/228246040</desc>
   </wpt>
   <wpt lat="50.0899347" lon="19.8933333">
     <name>Orlen</name>
@@ -662,7 +667,8 @@ version="1.1" creator="togpx">
   <wpt lat="52.2685146" lon="21.1192748">
     <name>Moya</name>
     <desc>addr:city=Warszawa addr:housenumber=239
-    addr:street=Chełmżyńska amenity=fuel name=Moya operator=Moya
+    addr:street=Chełmżyńska amenity=fuel brand=Moya
+    brand:wikidata=Q62297700 name=Moya operator=Moya
     id=node/275061325</desc>
   </wpt>
   <wpt lat="52.2804078" lon="21.1134755">
@@ -745,13 +751,6 @@ version="1.1" creator="togpx">
     <name>Wasbruk</name>
     <desc>amenity=fuel name=Wasbruk operator=Wasbruk
     id=node/279153253</desc>
-  </wpt>
-  <wpt lat="52.0797333" lon="21.0341541">
-    <name>Shell</name>
-    <desc>addr:city=Piaseczno addr:housenumber=20
-    addr:postcode=05-500 addr:street=Armii Krajowej amenity=fuel
-    name=Shell note=TODO: shell or statoil? operator=Shell
-    phone=+48227163860 id=node/279153263</desc>
   </wpt>
   <wpt lat="52.2515517" lon="21.2931159">
     <name>node/279857505</name>
@@ -900,12 +899,14 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Niemce addr:postcode=21-025
     addr:street=Przemysłowa amenity=fuel brand=Orlen
-    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen name=Orlen
-    operator=Orlen id=node/292350920</desc>
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    diet:vegan=yes name=Orlen operator=Orlen
+    id=node/292350920</desc>
   </wpt>
   <wpt lat="53.4646719" lon="14.7868979">
     <name>Orlen</name>
-    <desc>amenity=fuel name=Orlen operator=Orlen
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen name=Orlen operator=Orlen
     id=node/293183350</desc>
   </wpt>
   <wpt lat="53.407704" lon="14.5175342">
@@ -990,7 +991,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel brand=Amic fuel:diesel=yes
     fuel:octane_95=yes fuel:octane_98=yes name=Amic Energy
     old_name=Lukoil opening_hours=24/7 operator=Amic Polska
-    phone=71 722 44 96 website=https://amicenergy.pl
+    phone=+48 71 722 44 96 website=https://amicenergy.pl
     id=node/301639000</desc>
   </wpt>
   <wpt lat="54.3933825" lon="18.6217892">
@@ -1260,8 +1261,8 @@ version="1.1" creator="togpx">
     name=Agromarket id=node/328132272</desc>
   </wpt>
   <wpt lat="50.4795539" lon="17.9722281">
-    <name>node/330097029</name>
-    <desc>amenity=fuel id=node/330097029</desc>
+    <name>Shell</name>
+    <desc>amenity=fuel name=Shell id=node/330097029</desc>
   </wpt>
   <wpt lat="53.5456167" lon="14.8011204">
     <name>Shell</name>
@@ -1568,9 +1569,10 @@ version="1.1" creator="togpx">
   <wpt lat="51.414369" lon="21.9754918">
     <name>Carrefour</name>
     <desc>addr:city=Puławy addr:postcode=24-100 amenity=fuel
-    fuel:diesel=yes fuel:octane_95=yes name=Carrefour
-    opening_hours=Mo-Sa 07:00-22:00, Su 08:00-21:00
-    id=node/362733825</desc>
+    brand=Carrefour brand:wikidata=Q217599
+    brand:wikipedia=fr:Carrefour (enseigne) fuel:diesel=yes
+    fuel:octane_95=yes name=Carrefour opening_hours=Mo-Sa
+    07:00-22:00, Su 08:00-21:00 id=node/362733825</desc>
   </wpt>
   <wpt lat="51.4680258" lon="22.4707233">
     <name>Stacja Paliw "Petropol"</name>
@@ -2480,13 +2482,16 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel brand=Lotos Optima name=Lotos Optima
     id=node/476214768</desc>
   </wpt>
-  <wpt lat="53.4498426" lon="20.033386">
+  <wpt lat="53.4497992" lon="20.0333305">
     <name>Orlen</name>
-    <desc>addr:city=Dombrowno amenity=fuel name=Orlen
-    operator=Orlen source=http://ump.waw.pl/ retrieved 12:40:28
-    08/23/09
+    <desc>addr:city=Dombrowno addr:housenumber=5
+    addr:postcode=14-120 amenity=fuel amenity_1=cafe brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Orlen operator=Orlen
+    source=http://ump.waw.pl/ retrieved 12:40:28 08/23/09
     (UMP-Ciechanow/src/POI-Ciechanow.paliwo.pnt-converted.txt)
-    id=node/476214790</desc>
+    toilets=yes id=node/476214790</desc>
   </wpt>
   <wpt lat="53.254399" lon="20.8967901">
     <name>Huzar</name>
@@ -2518,9 +2523,10 @@ version="1.1" creator="togpx">
   <wpt lat="52.8575023" lon="20.6353581">
     <name>Orlen</name>
     <desc>addr:city=Ciechanów addr:housenumber=4
-    addr:postcode=06-400 addr:street=Sońska amenity=fuel name=Orlen
-    operator=Orlen phone=+48236723078 source=http://ump.waw.pl/
-    retrieved 12:40:28 08/23/09
+    addr:postcode=06-400 addr:street=Sońska amenity=fuel
+    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    name=Orlen operator=Orlen phone=+48236723078
+    source=http://ump.waw.pl/ retrieved 12:40:28 08/23/09
     (UMP-Ciechanow/src/POI-Ciechanow.paliwo.pnt-converted.txt)
     id=node/476214955</desc>
   </wpt>
@@ -2968,15 +2974,16 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Słupca addr:city:simc=0949247
     addr:housenumber=66C addr:postcode=62-400
-    addr:street=Warszawska amenity=fuel brand=Orlen cafe=yes
-    diaper=yes fuel:HGV_diesel=yes fuel:diesel=yes
+    addr:street=Warszawska amenity=fuel brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen cafe=yes
+    changing_table=yes fuel:HGV_diesel=yes fuel:diesel=yes
     fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes internet_access=wlan internet_access:fee=no
     name=Orlen opening_hours=24/7 operator=PKN Orlen
     payment:credit_cards=yes payment:debit_cards=yes
     payment:dkv=yes payment:uta=yes phone=+48242560603 ref=603
-    shop=yes toilets=yes website=https://www.orlen.pl/
-    wheelchair=yes id=node/529534460</desc>
+    toilets=yes website=https://www.orlen.pl/ wheelchair=yes
+    id=node/529534460</desc>
   </wpt>
   <wpt lat="52.5797675" lon="14.6408615">
     <name>Circle K Express</name>
@@ -4724,12 +4731,6 @@ version="1.1" creator="togpx">
     <name>node/799215692</name>
     <desc>amenity=fuel fuel:lpg=yes id=node/799215692</desc>
   </wpt>
-  <wpt lat="52.7334586" lon="15.2546431">
-    <name>Circle K</name>
-    <desc>amenity=fuel brand=Statoil fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Circle K
-    opening_hours=24/7 shop=yes id=node/800539908</desc>
-  </wpt>
   <wpt lat="50.4480809" lon="19.0387507">
     <name>BZ</name>
     <desc>addr:city=Sączów addr:housenumber=49 addr:postcode=42-595
@@ -5145,9 +5146,9 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes name=Orlen shop=yes
     id=node/885994423</desc>
   </wpt>
-  <wpt lat="50.715901" lon="16.6509983">
-    <name>Lotos Optima</name>
-    <desc>amenity=fuel name=Lotos Optima id=node/890485223</desc>
+  <wpt lat="50.7158498" lon="16.6513275">
+    <name>Pieprzyk</name>
+    <desc>amenity=fuel name=Pieprzyk id=node/890485223</desc>
   </wpt>
   <wpt lat="51.1061215" lon="22.5006856">
     <name>LPG</name>
@@ -7060,11 +7061,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes name=BP Mazury
     opening_hours=24/7 shop=yes id=node/1341979718</desc>
   </wpt>
-  <wpt lat="53.7481683" lon="20.252856">
-    <name>Circle K</name>
-    <desc>amenity=fuel brand=Statoil name=Circle K operator=Statoil
-    id=node/1341981525</desc>
-  </wpt>
   <wpt lat="53.7713528" lon="20.445606">
     <name>LOTOS</name>
     <desc>amenity=fuel brand=Lotos name=LOTOS
@@ -8143,10 +8139,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.222533" lon="21.2449282">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen fuel:HGV_diesel=yes
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen fuel:HGV_diesel=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes name=Orlen opening_hours=24/7 operator=Orlen
-    shop=convenience wheelchair=yes id=node/1475028806</desc>
+    wheelchair=yes id=node/1475028806</desc>
   </wpt>
   <wpt lat="50.2417308" lon="18.838303">
     <name>BP Halemba</name>
@@ -8831,22 +8828,23 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.2234581" lon="21.2448404">
     <name>BP</name>
-    <desc>amenity=fuel brand=BP fuel:HGV_diesel=yes fuel:diesel=yes
+    <desc>amenity=fuel brand=BP brand:wikidata=Q152057
+    brand:wikipedia=en:BP fuel:HGV_diesel=yes fuel:diesel=yes
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=BP
     opening_hours=24/7 operator=BP id=node/1671175473</desc>
   </wpt>
   <wpt lat="52.1793904" lon="18.1206818">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen description=STOP Cafe Bistro
-    diaper=yes fuel:HGV_diesel=yes fuel:adblue=yes fuel:diesel=yes
-    fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes internet_access=wlan internet_access:fee=no
-    name=Orlen opening_hours=24/7 operator=PKN Orlen
-    payment:credit_cards=yes payment:debit_cards=yes
-    payment:dkv=yes payment:uta=yes phone=+48242564038 ref=4038
-    shop=yes shower=yes toilets=yes toilets:wheelchair=yes
-    website=https://www.orlen.pl/ wheelchair=yes
-    id=node/1672453030</desc>
+    <desc>amenity=fuel brand=Orlen changing_table=yes
+    description=STOP Cafe Bistro fuel:HGV_diesel=yes
+    fuel:adblue=yes fuel:diesel=yes fuel:discount=Vitay
+    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes
+    internet_access=wlan internet_access:fee=no name=Orlen
+    opening_hours=24/7 operator=PKN Orlen payment:credit_cards=yes
+    payment:debit_cards=yes payment:dkv=yes payment:uta=yes
+    phone=+48242564038 ref=4038 shop=yes shower=yes toilets=yes
+    toilets:wheelchair=yes website=https://www.orlen.pl/
+    wheelchair=yes id=node/1672453030</desc>
   </wpt>
   <wpt lat="52.1800209" lon="18.1248801">
     <name>Orlen</name>
@@ -9109,12 +9107,13 @@ version="1.1" creator="togpx">
     <desc>addr:housenumber=77 addr:place=Zasieki
     addr:postcode=68-343 amenity=fuel brand=Circle K
     brand:wikidata=Q3268010 brand:wikipedia=en:Circle K
-    currency:EUR=yes diaper=yes fuel:HGV_diesel=yes fuel:diesel=yes
-    fuel:discount=Premium Club fuel:octane_91=no fuel:octane_95=yes
-    fuel:octane_98=yes name=Circle K opening_hours=24/7
-    payment:credit_cards=yes payment:dkv=yes payment:routex=yes
-    payment:uta=yes phone=+48691604101 shop=yes toilets=yes
-    website=http://www.statoil.pl id=node/1726552761</desc>
+    changing_table=yes currency:EUR=yes fuel:HGV_diesel=yes
+    fuel:diesel=yes fuel:discount=Premium Club fuel:octane_91=no
+    fuel:octane_95=yes fuel:octane_98=yes name=Circle K
+    opening_hours=24/7 payment:credit_cards=yes payment:dkv=yes
+    payment:routex=yes payment:uta=yes phone=+48691604101
+    toilets=yes website=http://www.statoil.pl
+    id=node/1726552761</desc>
   </wpt>
   <wpt lat="54.1627825" lon="15.5484483">
     <name>Pek</name>
@@ -9411,15 +9410,17 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.2229112" lon="21.2299316">
     <name>BP</name>
-    <desc>amenity=fuel brand=BP fuel:HGV_diesel=yes fuel:lpg=yes
-    name=BP opening_hours=24/7 id=node/1760898589</desc>
+    <desc>amenity=fuel brand=BP brand:wikidata=Q152057
+    brand:wikipedia=en:BP fuel:HGV_diesel=yes fuel:lpg=yes name=BP
+    opening_hours=24/7 id=node/1760898589</desc>
   </wpt>
   <wpt lat="52.2239011" lon="21.228583">
     <name>Orlen</name>
     <desc>addr:city=Warszawa addr:housenumber=41
     addr:postcode=05-077 addr:street=Trakt Brzeski amenity=fuel
-    brand=Orlen fuel:diesel=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Orlen id=node/1761633189</desc>
+    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes
+    name=Orlen id=node/1761633189</desc>
   </wpt>
   <wpt lat="50.8198176" lon="15.4389429">
     <name>Müller</name>
@@ -9513,9 +9514,10 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes name=Stacja Paliw 24h
     id=node/1770568571</desc>
   </wpt>
-  <wpt lat="53.9611717" lon="14.78476">
+  <wpt lat="53.9610869" lon="14.7849399">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen fuel:diesel=yes fuel:lpg=yes
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen fuel:diesel=yes fuel:lpg=yes
     fuel:octane_95=yes name=Orlen id=node/1771310387</desc>
   </wpt>
   <wpt lat="50.3259679" lon="19.0308555">
@@ -9612,12 +9614,6 @@ version="1.1" creator="togpx">
     <name>Lotos</name>
     <desc>amenity=fuel brand=Lotos name=Lotos operator=MOP
     Malankowo Zachód A1 id=node/1778514281</desc>
-  </wpt>
-  <wpt lat="50.2831366" lon="18.8551161">
-    <name>node/1779004045</name>
-    <desc>amenity=fuel fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes opening_hours=24/7
-    operator=Tesco id=node/1779004045</desc>
   </wpt>
   <wpt lat="51.6186391" lon="16.859391">
     <name>Orlen</name>
@@ -10037,12 +10033,6 @@ version="1.1" creator="togpx">
     Su 09:00-22:00 operator=Delfin source=survey
     id=node/1818905736</desc>
   </wpt>
-  <wpt lat="51.8071275" lon="18.7261366">
-    <name>node/1819464202</name>
-    <desc>amenity=fuel fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes shop=convenience
-    id=node/1819464202</desc>
-  </wpt>
   <wpt lat="52.6521079" lon="19.0828873">
     <name>Olkop</name>
     <desc>amenity=fuel brand=Olkop name=Olkop operator="Olkop"
@@ -10371,14 +10361,6 @@ version="1.1" creator="togpx">
   <wpt lat="50.2734441" lon="18.8221809">
     <name>node/1839224602</name>
     <desc>amenity=fuel fuel:lpg=yes id=node/1839224602</desc>
-  </wpt>
-  <wpt lat="50.3192402" lon="19.0786165">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
-    brand:wikipedia=en:PKN Orlen building=yes name=Orlen
-    id=way/763348663 amenity=fuel brand=Orlen
-    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen name=Orlen
-    id=node/1840155863</desc>
   </wpt>
   <wpt lat="53.854557" lon="20.9637199">
     <name>node/1841187469</name>
@@ -10770,14 +10752,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.3253035" lon="14.6530662">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen diaper=yes fuel:HGV_diesel=yes
-    fuel:adblue=yes fuel:diesel=yes fuel:discount=Vitay
-    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes
-    internet_access=wlan internet_access:fee=no name=Orlen
-    opening_hours=24/7 operator=PKN Orlen payment:credit_cards=yes
-    payment:debit_cards=yes payment:dkv=yes payment:uta=yes
-    phone=+48242564390 ref=4390 shop=yes toilets=yes
-    website=https://www.orlen.pl/ wheelchair=yes
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen changing_table=yes
+    fuel:HGV_diesel=yes fuel:adblue=yes fuel:diesel=yes
+    fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes internet_access=wlan internet_access:fee=no
+    name=Orlen opening_hours=24/7 operator=PKN Orlen
+    payment:credit_cards=yes payment:debit_cards=yes
+    payment:dkv=yes payment:uta=yes phone=+48242564390 ref=4390
+    toilets=yes website=https://www.orlen.pl/ wheelchair=yes
     id=node/1866432145</desc>
   </wpt>
   <wpt lat="52.0551542" lon="15.1173692">
@@ -11027,10 +11010,6 @@ version="1.1" creator="togpx">
   <wpt lat="53.0109769" lon="20.9039535">
     <name>node/1884623091</name>
     <desc>amenity=fuel id=node/1884623091</desc>
-  </wpt>
-  <wpt lat="53.6510324" lon="20.0508487">
-    <name>node/1886055999</name>
-    <desc>amenity=fuel operator=Statoil id=node/1886055999</desc>
   </wpt>
   <wpt lat="53.845228" lon="14.6136116">
     <name>Orlen</name>
@@ -11419,10 +11398,14 @@ version="1.1" creator="togpx">
     fuel:lpg=no fuel:octane_95=yes fuel:octane_98=no name=Petrodom
     operator=Poczta Polska id=node/1907822804</desc>
   </wpt>
-  <wpt lat="53.1100081" lon="19.0551207">
+  <wpt lat="53.1100629" lon="19.0550689">
     <name>Orlen</name>
-    <desc>amenity=fuel fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes name=Orlen id=node/1907919623</desc>
+    <desc>addr:city=Golub-Dobrzyń addr:housenumber=15
+    addr:postcode=87-400 addr:street=Marszałka Józefa Piłsudskiego
+    amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    id=node/1907919623</desc>
   </wpt>
   <wpt lat="53.1078552" lon="19.0666378">
     <name>OLKOP</name>
@@ -11916,16 +11899,6 @@ version="1.1" creator="togpx">
     brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
     fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes
     name=Orlen id=node/1996867238</desc>
-  </wpt>
-  <wpt lat="50.324669" lon="19.118885">
-    <name>Lotos</name>
-    <desc>amenity=fuel brand=Lotos brand:wikidata=Q1256909
-    brand:wikipedia=pl:Grupa Lotos name=Lotos id=way/767644788
-    addr:city=Będzin addr:country=PL addr:housenumber=23
-    addr:postcode=42-500 addr:street=Czeladzka amenity=fuel
-    brand=Lotos fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Lotos shop=yes
-    id=node/1996867239</desc>
   </wpt>
   <wpt lat="50.352896" lon="19.086824">
     <name>Nieczynna stacja LPG</name>
@@ -12568,7 +12541,7 @@ version="1.1" creator="togpx">
     <name>node/2091643257</name>
     <desc>amenity=fuel brand=Styr-Kar id=node/2091643257</desc>
   </wpt>
-  <wpt lat="51.3954194" lon="21.1130243">
+  <wpt lat="51.3954365" lon="21.1130124">
     <name>Orlen</name>
     <desc>amenity=fuel brand=Orlen fuel:diesel=yes fuel:lpg=yes
     fuel:octane_95=yes fuel:octane_98=yes name=Orlen
@@ -12576,12 +12549,12 @@ version="1.1" creator="togpx">
     payment:uta=yes shop=yes wheelchair=yes
     id=node/2092184410</desc>
   </wpt>
-  <wpt lat="51.4063363" lon="21.1224928">
-    <name>BP Siódemka</name>
+  <wpt lat="51.4063044" lon="21.1225071">
+    <name>BP</name>
     <desc>addr:city=Radom addr:housenumber=5 addr:street=Kielecka
     amenity=fuel brand=BP fuel:HGV_diesel=yes fuel:diesel=yes
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=BP
-    Siódemka opening_hours=24/7 shop=yes source:addr=EMUiA
+    opening_hours=24/7 shop=yes source:addr=EMUiA
     (emuia.geoportal.gov.pl) id=node/2092184411</desc>
   </wpt>
   <wpt lat="51.4102468" lon="21.1828941">
@@ -13188,10 +13161,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel fuel:lpg=yes name=Autogaz
     id=node/2176225539</desc>
   </wpt>
-  <wpt lat="51.2948163" lon="22.738925">
-    <name>node/2177264587</name>
-    <desc>amenity=fuel id=node/2177264587</desc>
-  </wpt>
   <wpt lat="50.041598" lon="18.6814424">
     <name>Statoil</name>
     <desc>amenity=fuel brand=Statoil name=Statoil
@@ -13222,11 +13191,12 @@ version="1.1" creator="togpx">
     id=node/2182271076</desc>
   </wpt>
   <wpt lat="50.7913655" lon="19.1385639">
-    <name>Statoil</name>
+    <name>Circle K</name>
     <desc>addr:city=Częstochowa addr:housenumber=64/68
     addr:postcode=42-216 addr:street=Piotra Bardowskiego
-    amenity=fuel brand=Statoil fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Statoil
+    amenity=fuel brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Circle K
     source=e.czestochowa.pl id=node/2183500203</desc>
   </wpt>
   <wpt lat="50.7806374" lon="19.1478371">
@@ -13327,12 +13297,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.9885653" lon="17.0658455">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen description=STOP Cafe
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen description=STOP Cafe
     fuel:HGV_diesel=yes fuel:diesel=yes fuel:discount=Vitay
     fuel:lpg=yes fuel:octane_95=yes name=Orlen operator=PKN Orlen
     payment:credit_cards=yes payment:debit_cards=yes
     payment:dkv=yes payment:uta=yes phone=+48242561473 ref=1473
-    shop=yes toilets=yes toilets:wheelchair=yes
+    toilets=yes toilets:wheelchair=yes
     website=https://www.orlen.pl/ wheelchair=yes
     id=node/2195173519</desc>
   </wpt>
@@ -13358,13 +13329,13 @@ version="1.1" creator="togpx">
     fuel:octane_91=no fuel:octane_95=yes fuel:octane_98=yes
     name=Grosik id=node/2200300576</desc>
   </wpt>
-  <wpt lat="53.905414" lon="15.2025751">
-    <name>BP Gryfice</name>
+  <wpt lat="53.9054215" lon="15.202335">
+    <name>BP</name>
     <desc>addr:city=Gryfice addr:housenumber=25
     addr:postcode=72-300 addr:street=Starogrodzka amenity=fuel
     brand=BP fuel:GTL_diesel=yes fuel:HGV_diesel=yes
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes name=BP Gryfice
-    opening_hours=24/7 operator=BP shop=kiosk
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes name=BP
+    official_name=BP Gryfice opening_hours=24/7 operator=BP
     source=gryfice.e-mapa.net wheelchair=yes
     id=node/2201190239</desc>
   </wpt>
@@ -13763,14 +13734,6 @@ version="1.1" creator="togpx">
     <name>node/2284003360</name>
     <desc>amenity=fuel fuel:lpg=yes id=node/2284003360</desc>
   </wpt>
-  <wpt lat="50.3169172" lon="19.0709349">
-    <name>Circle K</name>
-    <desc>amenity=fuel brand=Circle K brand:wikidata=Q3268010
-    brand:wikipedia=en:Circle K building=yes fuel:biodiesel=yes
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Circle K opening_hours=24/7 shop=yes
-    id=node/2284533804</desc>
-  </wpt>
   <wpt lat="53.0873699" lon="19.1972461">
     <name>node/2286673095</name>
     <desc>amenity=fuel fuel:diesel=yes fuel:octane_95=yes
@@ -13885,10 +13848,6 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes name=Watis opening_hours=24/7 phone=+48 61
     875 44 66 website=http://www.watis.com.pl/
     id=node/2305793819</desc>
-  </wpt>
-  <wpt lat="51.2736715" lon="22.4878419">
-    <name>node/2309567873</name>
-    <desc>amenity=fuel fuel:lpg=yes id=node/2309567873</desc>
   </wpt>
   <wpt lat="52.405195" lon="20.3195354">
     <name>Stacja Paliw Huzar</name>
@@ -14409,17 +14368,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes name=Intermarché
     phone=+48625880707 shop=no id=node/2361226585</desc>
   </wpt>
-  <wpt lat="52.7450277" lon="15.157338">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
-    brand:wikipedia=en:PKN Orlen fuel:HGV_diesel=yes
-    fuel:adblue=yes fuel:diesel=yes fuel:discount=Vitay
-    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Orlen
-    opening_hours=24/7 payment:credit_cards=yes payment:dkv=yes
-    payment:uta=yes ref=7446 toilets=yes toilets:wheelchair=yes
-    website=https://www.orlen.pl/ wheelchair=yes
-    id=node/2362297698</desc>
-  </wpt>
   <wpt lat="52.4153504" lon="19.4711148">
     <name>Stacja Paliw</name>
     <desc>amenity=fuel name=Stacja Paliw id=node/2362880439</desc>
@@ -14438,17 +14386,6 @@ version="1.1" creator="togpx">
     <name>Stacja -LPG</name>
     <desc>amenity=fuel fuel:lpg=yes name=Stacja -LPG
     id=node/2364950955</desc>
-  </wpt>
-  <wpt lat="52.739244" lon="15.1902264">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen diaper=yes fuel:HGV_diesel=yes
-    fuel:diesel=yes fuel:discount=Vitay fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes internet_access=wlan
-    internet_access:fee=no name=Orlen opening_hours=24/7
-    payment:credit_cards=yes payment:dkv=yes payment:uta=yes
-    phone=+48242560021 ref=21 shop=yes toilets=yes
-    website=https://www.orlen.pl/ wheelchair=yes
-    id=node/2365544605</desc>
   </wpt>
   <wpt lat="51.2647049" lon="22.5735156">
     <name>Shell</name>
@@ -14650,11 +14587,6 @@ version="1.1" creator="togpx">
     <name>Watkem</name>
     <desc>amenity=fuel name=Watkem opening_hours=Mo-Sa 05:30-23:30;
     Su 07:00-22:00 id=node/2390922159</desc>
-  </wpt>
-  <wpt lat="51.3560265" lon="18.5234401">
-    <name>Shell</name>
-    <desc>amenity=fuel brand=Shell name=Shell
-    id=node/2391032285</desc>
   </wpt>
   <wpt lat="52.2326936" lon="19.3694161">
     <name>Carrefour</name>
@@ -15023,7 +14955,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.5308539" lon="17.7631656">
     <name>Lotos</name>
-    <desc>amenity=fuel name=Lotos id=node/2419626932</desc>
+    <desc>amenity=fuel brand=Lotos brand:wikidata=Q1256909
+    brand:wikipedia=pl:Grupa Lotos name=Lotos
+    id=node/2419626932</desc>
   </wpt>
   <wpt lat="52.2258691" lon="19.3433605">
     <name>node/2419735931</name>
@@ -15104,13 +15038,6 @@ version="1.1" creator="togpx">
     addr:place=Szyszków addr:postcode=23-423 amenity=fuel
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes name=Stacja Paliw id=node/2424079882</desc>
-  </wpt>
-  <wpt lat="49.5941249" lon="19.9296273">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen fuel:GTL_diesel=yes
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Orlen opening_hours=24/7 operator=Orlen
-    shop=yes wheelchair=yes id=node/2424404858</desc>
   </wpt>
   <wpt lat="52.1763359" lon="22.2787308">
     <name>Axan</name>
@@ -15209,8 +15136,8 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel id=node/2429412049</desc>
   </wpt>
   <wpt lat="49.7664548" lon="18.6526689">
-    <name>Arge</name>
-    <desc>amenity=fuel name=Arge opening_hours=24/7
+    <name>amic energy</name>
+    <desc>amenity=fuel name=amic energy opening_hours=24/7
     shop=convenience id=node/2429664217</desc>
   </wpt>
   <wpt lat="49.9173318" lon="21.438489">
@@ -15270,9 +15197,9 @@ version="1.1" creator="togpx">
     id=node/2435205556</desc>
   </wpt>
   <wpt lat="52.0628471" lon="19.1984795">
-    <name>Orlen</name>
+    <name>Bliska</name>
     <desc>amenity=fuel fuel:biodiesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    fuel:octane_95=yes fuel:octane_98=yes name=Bliska
     id=node/2435734101</desc>
   </wpt>
   <wpt lat="52.0752625" lon="19.1920959">
@@ -15519,7 +15446,7 @@ version="1.1" creator="togpx">
     shop=yes toilets=yes website=https://www.orlen.pl/
     wheelchair=yes id=node/2467909688</desc>
   </wpt>
-  <wpt lat="52.1998051" lon="21.992293">
+  <wpt lat="52.199859" lon="21.9923013">
     <name>Moya</name>
     <desc>amenity=fuel brand=Moya fuel:diesel=yes fuel:lpg=yes
     fuel:octane_95=yes fuel:octane_98=yes name=Moya
@@ -15633,7 +15560,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.717801" lon="19.1525929">
     <name>Shell</name>
-    <desc>amenity=fuel name=Shell id=node/2477599561</desc>
+    <desc>amenity=fuel brand=Shell brand:wikidata=Q154950
+    brand:wikipedia=en:Royal Dutch Shell name=Shell
+    id=node/2477599561</desc>
   </wpt>
   <wpt lat="49.7760048" lon="18.8566103">
     <name>UNIWAR</name>
@@ -16253,10 +16182,6 @@ version="1.1" creator="togpx">
   <wpt lat="51.2380371" lon="18.5330453">
     <name>Moya</name>
     <desc>amenity=fuel name=Moya id=node/2563766408</desc>
-  </wpt>
-  <wpt lat="50.1416707" lon="22.2571617">
-    <name>node/2566085439</name>
-    <desc>amenity=fuel fixme=name? id=node/2566085439</desc>
   </wpt>
   <wpt lat="50.6454427" lon="17.6467186">
     <name>node/2566097509</name>
@@ -17021,11 +16946,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.8976912" lon="19.7050911">
     <name>Shell</name>
-    <desc>amenity=fuel brand=Shell fuel:HGV_diesel=yes
+    <desc>amenity=fuel brand=Shell brand:wikidata=Q154950
+    brand:wikipedia=en:Royal Dutch Shell fuel:HGV_diesel=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes internet_access=wlan internet_access:fee=no
     name=Shell operator=Shell Polska payment:credit_cards=yes
-    payment:debit_cards=yes phone=511830354 shop=yes
+    payment:debit_cards=yes phone=511830354
     website=https://www.shell.pl/ id=node/2787456577</desc>
   </wpt>
   <wpt lat="52.1560997" lon="20.6872893">
@@ -17090,7 +17016,7 @@ version="1.1" creator="togpx">
     Cekanowo source:addr=slupno.e-mapa.net
     id=node/2795441406</desc>
   </wpt>
-  <wpt lat="51.2331862" lon="20.8646897">
+  <wpt lat="51.2331386" lon="20.8646552">
     <name>Orlen</name>
     <desc>amenity=fuel name=Orlen id=node/2795525803</desc>
   </wpt>
@@ -18196,9 +18122,10 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel fuel:HGV_diesel=yes fuel:diesel=yes
     fuel:lpg=yes fuel:octane_95=yes id=node/2989265420</desc>
   </wpt>
-  <wpt lat="50.2954376" lon="22.7220069">
-    <name>node/2992030673</name>
-    <desc>amenity=fuel id=node/2992030673</desc>
+  <wpt lat="50.2949392" lon="22.7221095">
+    <name>Masz-Drew</name>
+    <desc>amenity=fuel brand=Masz-Drew name=Masz-Drew
+    id=node/2992030673</desc>
   </wpt>
   <wpt lat="50.4663909" lon="22.7419348">
     <name>node/2992030682</name>
@@ -18601,6 +18528,12 @@ version="1.1" creator="togpx">
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes name=Stacja
     paliw Olkop opening_hours=24/7 operator=Olkop phone=54 270 16
     35 source:addr=brzuze.e-mapa.net id=node/3051150046</desc>
+  </wpt>
+  <wpt lat="53.0875124" lon="19.382169">
+    <name>Stacja Paliw Zalmet II</name>
+    <desc>addr:housenumber=35 addr:place=Rusinowo
+    addr:postcode=87-500 amenity=fuel name=Stacja Paliw Zalmet II
+    source:addr=rypin.e-mapa.net id=node/3051154100</desc>
   </wpt>
   <wpt lat="52.4722443" lon="19.3062941">
     <name>Orlen</name>
@@ -19257,6 +19190,13 @@ version="1.1" creator="togpx">
     name=Paszkiewicz Holding opening_hours=24/7 shop=no
     id=node/3207268465</desc>
   </wpt>
+  <wpt lat="52.1471536" lon="22.2235754">
+    <name>node/3209847836</name>
+    <desc>addr:city=Żelków-Kolonia addr:city:simc=0686925
+    addr:housenumber=45 addr:postcode=08-110 addr:street=Siedlecka
+    addr:street:sym_ul=19769 amenity=fuel
+    source:addr=siedlce.e-mapa.net id=node/3209847836</desc>
+  </wpt>
   <wpt lat="50.0094392" lon="22.6759759">
     <name>node/3211406035</name>
     <desc>amenity=fuel brand=Orlen operator=Orlen
@@ -19706,15 +19646,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.2306948" lon="18.2877683">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen cafe=yes description=STOP Cafe
-    Bistro diaper=yes fuel:HGV_diesel=yes fuel:diesel=yes
-    fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Orlen opening_hours=24/7 operator=PKN
-    Orlen payment:credit_cards=yes payment:debit_cards=yes
-    payment:dkv=yes payment:uta=yes phone=+48242561362 ref=1362
-    shop=yes toilets=yes toilets:wheelchair=yes
-    website=https://www.orlen.pl/ wheelchair=yes
-    id=node/3302451118</desc>
+    <desc>amenity=fuel brand=Orlen cafe=yes changing_table=yes
+    description=STOP Cafe Bistro fuel:HGV_diesel=yes
+    fuel:diesel=yes fuel:discount=Vitay fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    opening_hours=24/7 operator=PKN Orlen payment:credit_cards=yes
+    payment:debit_cards=yes payment:dkv=yes payment:uta=yes
+    phone=+48242561362 ref=1362 shop=yes toilets=yes
+    toilets:wheelchair=yes website=https://www.orlen.pl/
+    wheelchair=yes id=node/3302451118</desc>
   </wpt>
   <wpt lat="52.234733" lon="18.2679127">
     <name>Orlen</name>
@@ -20063,10 +20003,10 @@ version="1.1" creator="togpx">
     id=node/3307802777</desc>
   </wpt>
   <wpt lat="51.9112103" lon="16.1846679">
-    <name>Bliska</name>
-    <desc>amenity=fuel brand=Bliska fuel:biodiesel=yes
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen fuel:biodiesel=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Bliska opening_hours=24/7
+    fuel:octane_98=yes name=Orlen opening_hours=24/7
     payment:credit_cards=yes payment:debit_cards=yes
     payment:dkv=yes payment:uta=yes ref=7323 shop=yes toilets=yes
     website=http://www.bliska.pl id=node/3308217536</desc>
@@ -20111,11 +20051,6 @@ version="1.1" creator="togpx">
   <wpt lat="53.0553953" lon="21.633055">
     <name>node/3310196956</name>
     <desc>amenity=fuel id=node/3310196956</desc>
-  </wpt>
-  <wpt lat="51.1773513" lon="18.1431159">
-    <name>node/3310805838</name>
-    <desc>amenity=fuel brand=Gal-gas fuel:lpg=yes
-    id=node/3310805838</desc>
   </wpt>
   <wpt lat="52.4576995" lon="16.9038686">
     <name>Orlen</name>
@@ -20196,15 +20131,15 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel name=Stacja paliw id=node/3342624200</desc>
   </wpt>
   <wpt lat="52.2498635" lon="17.8212413">
-    <name>Shell</name>
+    <name>Watis</name>
     <desc>addr:city:simc=0295254 addr:housenumber=105
     addr:place=Wierzbocice addr:postcode=62-400 amenity=fuel
     brand=Shell fuel:HGV_diesel=yes fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_100=yes fuel:octane_95=yes name=Shell
+    fuel:octane_100=yes fuel:octane_95=yes name=Watis
     operator=Shell Polska payment:credit_cards=yes
     payment:debit_cards=yes payment:dkv=yes payment:uta=yes
     ref=4033 shop=yes source:addr=slupca.e-mapa.net toilets=yes
-    website=https://www.shell.pl/ id=node/3352118904</desc>
+    website=http://www.watis.com.pl/ id=node/3352118904</desc>
   </wpt>
   <wpt lat="53.2181262" lon="14.9719797">
     <name>Stacja Paliw 1</name>
@@ -21013,7 +20948,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.5879876" lon="14.6554862">
     <name>Orlen</name>
     <desc>addr:city=Kostrzyn nad Odrą addr:street=Gorzowska
-    amenity=fuel brand=Orlen diaper=yes fuel:adblue=yes
+    amenity=fuel brand=Orlen changing_table=yes fuel:adblue=yes
     fuel:diesel=yes fuel:discount=Vitay fuel:lpg=yes
     fuel:octane_95=yes fuel:octane_98=yes internet_access=wlan
     internet_access:fee=no name=Orlen opening_hours=24/7
@@ -21574,9 +21509,10 @@ version="1.1" creator="togpx">
     name=BP Raba Wyżna opening_hours=24/7 id=node/3668539730</desc>
   </wpt>
   <wpt lat="50.2476642" lon="21.3103688">
-    <name>BP Zgórsko</name>
-    <desc>amenity=fuel brand=BP fuel:HGV_diesel=yes fuel:lpg=yes
-    name=BP Zgórsko opening_hours=24/7 id=node/3668542652</desc>
+    <name>BP</name>
+    <desc>amenity=fuel brand=BP brand:wikidata=Q152057
+    brand:wikipedia=en:BP fuel:HGV_diesel=yes fuel:lpg=yes name=BP
+    opening_hours=24/7 id=node/3668542652</desc>
   </wpt>
   <wpt lat="50.2924063" lon="19.182703">
     <name>BP Zagórze</name>
@@ -22021,8 +21957,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.962732" lon="16.9335321">
     <name>Moya</name>
-    <desc>amenity=fuel brand=Moya fuel:diesel=yes
-    fuel:octane_95=yes name=Moya opening_hours=24/7
+    <desc>amenity=fuel id=way/835800679 amenity=fuel brand=Moya
+    fuel:diesel=yes fuel:octane_95=yes name=Moya opening_hours=24/7
     payment:credit_cards=yes payment:dkv=yes payment:eurowag=yes
     payment:uta=yes shop=yes toilets=yes
     website=https://moyastacja.pl/ wheelchair=yes
@@ -22091,9 +22027,9 @@ version="1.1" creator="togpx">
     <name>Nevada Center</name>
     <desc>amenity=fuel fuel:HGV_diesel=yes fuel:adblue=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Nevada Center opening_hours=24/7
-    payment:credit_cards=yes payment:dkv=yes payment:uta=yes
-    shop=yes website=http://www.nevadacenter.pl
+    fuel:octane_98=yes internet_access=wlan name=Nevada Center
+    opening_hours=24/7 payment:credit_cards=yes payment:dkv=yes
+    payment:uta=yes shop=yes website=http://www.nevadacenter.pl
     id=node/3733194965</desc>
   </wpt>
   <wpt lat="51.491302" lon="22.8319426">
@@ -22465,8 +22401,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.4075152" lon="22.2221387">
     <name>Orlen</name>
-    <desc>amenity=fuel name=Orlen id=way/703142371 amenity=fuel
-    brand=Orlen name=Orlen id=node/3845877589</desc>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen name=Orlen id=way/703142371
+    amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen name=Orlen
+    id=node/3845877589</desc>
   </wpt>
   <wpt lat="51.7725897" lon="22.6087968">
     <name>node/3846421960</name>
@@ -22592,7 +22531,7 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>amenity=fuel name=Orlen id=node/3894049078</desc>
   </wpt>
-  <wpt lat="51.902083" lon="17.9991449">
+  <wpt lat="51.9020892" lon="17.9991291">
     <name>node/3895989312</name>
     <desc>amenity=fuel fuel:lpg=yes id=node/3895989312</desc>
   </wpt>
@@ -23444,7 +23383,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.841431" lon="20.621124">
     <name>Statoil</name>
-    <desc>amenity=fuel name=Statoil id=node/4200341943</desc>
+    <desc>amenity=fuel brand=Statoil brand:wikidata=Q1776022
+    brand:wikipedia=en:Equinor name=Statoil
+    id=node/4200341943</desc>
   </wpt>
   <wpt lat="50.1458416" lon="18.8673757">
     <name>Uni-Naft</name>
@@ -23536,10 +23477,10 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel name=green id=node/4218646368</desc>
   </wpt>
   <wpt lat="53.2601576" lon="19.3948058">
-    <name>LPG - Statoli</name>
+    <name>LPG - Statoil</name>
     <desc>addr:city=Brodnica addr:housenumber=6
     addr:postcode=87-300 addr:street=Sądowa amenity=fuel name=LPG -
-    Statoli id=node/4221587889</desc>
+    Statoil id=node/4221587889</desc>
   </wpt>
   <wpt lat="50.014099" lon="21.0061559">
     <name>ORLEN</name>
@@ -25442,11 +25383,6 @@ version="1.1" creator="togpx">
     <desc>addr:postcode=06-300 amenity=fuel name=Gramax
     name:pl=Gramax id=node/5018109622</desc>
   </wpt>
-  <wpt lat="51.0905559" lon="19.8671918">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen fuel:diesel=yes fuel:lpg=no
-    fuel:octane_95=yes name=Orlen id=node/5023688524</desc>
-  </wpt>
   <wpt lat="52.2234842" lon="16.5115262">
     <name>Avia</name>
     <desc>amenity=fuel brand=Avia brand:wikidata=Q300147
@@ -25828,13 +25764,9 @@ version="1.1" creator="togpx">
     operator=Mlekovita shop=yes id=node/5206775775</desc>
   </wpt>
   <wpt lat="52.5938791" lon="16.5900486">
-    <name>Transpol</name>
+    <name>Mercoli</name>
     <desc>amenity=fuel fuel:diesel=yes fuel:octane_95=yes
-    name=Transpol opening_hours=24/7 id=node/5208452122</desc>
-  </wpt>
-  <wpt lat="53.1288531" lon="22.1644838">
-    <name>node/5211906948</name>
-    <desc>amenity=fuel id=node/5211906948</desc>
+    name=Mercoli opening_hours=24/7 id=node/5208452122</desc>
   </wpt>
   <wpt lat="51.679165" lon="20.1916373">
     <name>Orlen</name>
@@ -26025,11 +25957,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel name=Orlen opening_hours=24/7
     id=node/5297946721</desc>
   </wpt>
-  <wpt lat="54.5255512" lon="18.5155109">
-    <name>BP</name>
-    <desc>addr:street=Morska amenity=fuel name=BP
-    id=node/5303893221</desc>
-  </wpt>
   <wpt lat="51.8734109" lon="16.0796214">
     <name>Orlen</name>
     <desc>amenity=fuel name=Orlen id=node/5308272857</desc>
@@ -26146,11 +26073,12 @@ version="1.1" creator="togpx">
     <name>LPG</name>
     <desc>amenity=fuel name=LPG id=node/5367209167</desc>
   </wpt>
-  <wpt lat="53.9808342" lon="14.7967004">
+  <wpt lat="53.9808575" lon="14.7966986">
     <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen fuel:diesel=yes fuel:lpg=yes
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen fuel:diesel=yes fuel:lpg=yes
     fuel:octane_95=yes fuel:octane_98=yes name=Orlen
-    opening_hours=24/7 operator=Orlen shop=yes wheelchair=yes
+    opening_hours=24/7 operator=Orlen wheelchair=yes
     id=node/5381117314</desc>
   </wpt>
   <wpt lat="49.8511679" lon="20.7958982">
@@ -26750,7 +26678,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.3668529" lon="16.8095514">
     <name>Orlen</name>
-    <desc>amenity=fuel name=Orlen id=node/5744209056</desc>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen name=Orlen
+    id=node/5744209056</desc>
   </wpt>
   <wpt lat="52.2304439" lon="19.3666048">
     <name>Wasbruk</name>
@@ -26888,11 +26818,6 @@ version="1.1" creator="togpx">
     <name>node/5827453534</name>
     <desc>amenity=fuel id=node/5827453534</desc>
   </wpt>
-  <wpt lat="52.4450818" lon="21.3178893">
-    <name>node/5827453535</name>
-    <desc>amenity=fuel building=yes operator=Orlen shop=yes
-    id=node/5827453535</desc>
-  </wpt>
   <wpt lat="52.4515987" lon="21.4041572">
     <name>node/5827453536</name>
     <desc>amenity=fuel building=yes car_wash=yes shop=yes
@@ -26906,7 +26831,7 @@ version="1.1" creator="togpx">
     <name>Greg-Mar</name>
     <desc>amenity=fuel name=Greg-Mar id=node/5834127742</desc>
   </wpt>
-  <wpt lat="52.1959981" lon="22.0484832">
+  <wpt lat="52.1963274" lon="22.0481255">
     <name>Orlen</name>
     <desc>amenity=fuel name=Orlen opening_hours=24/7
     id=node/5838485591</desc>
@@ -27256,8 +27181,8 @@ version="1.1" creator="togpx">
     id=node/6217412485</desc>
   </wpt>
   <wpt lat="52.7686949" lon="18.2513518">
-    <name>node/6218860134</name>
-    <desc>amenity=fuel id=node/6218860134</desc>
+    <name>Huzar</name>
+    <desc>amenity=fuel name=Huzar id=node/6218860134</desc>
   </wpt>
   <wpt lat="50.0419183" lon="19.7974174">
     <name>Promerol</name>
@@ -27313,9 +27238,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.4068043" lon="22.2217751">
     <name>Axan</name>
-    <desc>addr:city=Sokołów Podlaski addr:postcode=08-300
-    addr:street=Węgrowska amenity=fuel fuel:adblue=yes
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    <desc>addr:city=Sokołów Podlaski addr:housenumber=5
+    addr:postcode=08-300 addr:street=Węgrowska amenity=fuel
+    fuel:adblue=yes fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes name=Axan id=node/6277164319</desc>
   </wpt>
   <wpt lat="51.7229648" lon="19.6446283">
@@ -27538,11 +27463,11 @@ version="1.1" creator="togpx">
     Oil id=node/6447447192</desc>
   </wpt>
   <wpt lat="52.2705599" lon="20.9697844">
-    <name>MZA Warszawa</name>
+    <name>stacja paliw MZA Warszawa</name>
     <desc>addr:housenumber=52 addr:street=Włościańska amenity=fuel
-    brand=MZA Warszawa fuel:diesel=yes name=MZA Warszawa
-    opening_hours=24/7 operator=Orlen payment:credit_cards=yes
-    id=node/6448711495</desc>
+    brand=MZA Warszawa fuel:diesel=yes name=stacja paliw MZA
+    Warszawa opening_hours=24/7 operator=MZA Sp. z o.o.
+    payment:credit_cards=yes id=node/6448711495</desc>
   </wpt>
   <wpt lat="53.0654553" lon="19.3962197">
     <name>Olkop</name>
@@ -27653,11 +27578,14 @@ version="1.1" creator="togpx">
     payment:cash=yes payment:visa=yes self_service=yes shop=yes
     id=node/6525642274</desc>
   </wpt>
-  <wpt lat="51.278083" lon="22.535981">
+  <wpt lat="51.2780993" lon="22.5360381">
     <name>Orlen</name>
-    <desc>addr:housenumber=27 addr:street=Aleksandra Zelwerowicza
-    amenity=fuel brand=Orlen name=Orlen opening_hours=24/7 shop=yes
-    wheelchair=yes id=node/6528191162</desc>
+    <desc>addr:city=Lublin addr:housenumber=27 addr:postcode=20-875
+    addr:street=Aleksandra Zelwerowicza amenity=fuel brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Orlen opening_hours=24/7 wheelchair=yes
+    id=node/6528191162</desc>
   </wpt>
   <wpt lat="51.975337" lon="22.754394">
     <name>Orlen</name>
@@ -28153,7 +28081,8 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city:simc=0586320 addr:housenumber=74
     addr:place=Wróblewo addr:postcode=62-025 amenity=fuel
-    brand=Shell name=Shell opening_hours=24/7 source:addr=EMUiA
+    brand=Shell brand:wikidata=Q154950 brand:wikipedia=en:Royal
+    Dutch Shell name=Shell opening_hours=24/7 source:addr=EMUiA
     (kostrzyn.e-mapa.net) id=node/6938255031</desc>
   </wpt>
   <wpt lat="52.3639984" lon="17.2016306">
@@ -28365,6 +28294,13 @@ version="1.1" creator="togpx">
   <wpt lat="52.2146057" lon="21.1324818">
     <name>node/7159325233</name>
     <desc>amenity=fuel fuel:lpg=yes id=node/7159325233</desc>
+  </wpt>
+  <wpt lat="52.1057935" lon="17.0423162">
+    <name>BP</name>
+    <desc>addr:city=Mechlin addr:housenumber=20
+    addr:postcode=63-100 addr:street=Średzka amenity=fuel brand=BP
+    brand:wikidata=Q152057 brand:wikipedia=en:BP name=BP
+    source:addr=EMUiA id=node/7179552745</desc>
   </wpt>
   <wpt lat="51.4306144" lon="21.1495158">
     <name>Lotos</name>
@@ -28655,10 +28591,6 @@ version="1.1" creator="togpx">
     name=Orlen opening_hours=24/7 phone=413756085
     id=node/7448103086</desc>
   </wpt>
-  <wpt lat="50.3806111" lon="18.6331147">
-    <name>Avia</name>
-    <desc>amenity=fuel name=Avia id=node/7454430329</desc>
-  </wpt>
   <wpt lat="50.1557165" lon="19.3318934">
     <name>Radtur</name>
     <desc>addr:city=Jaworzno addr:housenumber=129
@@ -28933,6 +28865,103 @@ version="1.1" creator="togpx">
     <name>node/7775546264</name>
     <desc>amenity=fuel id=node/7775546264</desc>
   </wpt>
+  <wpt lat="52.9122572" lon="18.4829945">
+    <name>Circle K</name>
+    <desc>amenity=fuel name=Circle K id=node/7780612769</desc>
+  </wpt>
+  <wpt lat="54.3263513" lon="19.1177502">
+    <name>Orlen</name>
+    <desc>amenity=fuel name=Orlen id=node/7780765665</desc>
+  </wpt>
+  <wpt lat="52.3440248" lon="22.2479949">
+    <name>Axan</name>
+    <desc>addr:city=Bielany-Żyłaki addr:housenumber=14
+    addr:postcode=08-311 addr:street=Siedlecka amenity=fuel
+    name=Axan id=node/7784818494</desc>
+  </wpt>
+  <wpt lat="51.2585026" lon="17.0441484">
+    <name>Orlen</name>
+    <desc>amenity=fuel name=Orlen opening_hours=24/7 operator=PKN
+    Orlen wheelchair=yes id=node/7787544487</desc>
+  </wpt>
+  <wpt lat="52.4948254" lon="22.1857699">
+    <name>node/7792397722</name>
+    <desc>addr:city=Skibniew-Podawce addr:housenumber=2
+    addr:postcode=08-300 addr:street=Wiśniowa amenity=fuel
+    id=node/7792397722</desc>
+  </wpt>
+  <wpt lat="50.0978064" lon="21.5930095">
+    <name>node/7798214206</name>
+    <desc>amenity=fuel id=node/7798214206</desc>
+  </wpt>
+  <wpt lat="52.1558379" lon="21.0906877">
+    <name>node/7802236255</name>
+    <desc>amenity=fuel id=node/7802236255</desc>
+  </wpt>
+  <wpt lat="52.2774058" lon="21.0254239">
+    <name>Bal Pol</name>
+    <desc>amenity=fuel name=Bal Pol id=node/7803348071</desc>
+  </wpt>
+  <wpt lat="51.6352212" lon="14.8616288">
+    <name>Piepszyk</name>
+    <desc>addr:city=Królów addr:postcode=68-212 addr:street=Stacja
+    Paliw MJZ przy KD-12 amenity=fuel brand=Piepszyk
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes name=Piepszyk
+    phone=48601404144 self_service=yes website=https://pieprzyk.pl/
+    id=node/7809709889</desc>
+  </wpt>
+  <wpt lat="49.6987139" lon="21.7474921">
+    <name>Kubuś</name>
+    <desc>amenity=fuel name=Kubuś id=node/7809966062</desc>
+  </wpt>
+  <wpt lat="51.3822426" lon="21.1596939">
+    <name>node/7811114629</name>
+    <desc>amenity=fuel brand=TYXON id=node/7811114629</desc>
+  </wpt>
+  <wpt lat="50.1416463" lon="22.2571823">
+    <name>node/7811717499</name>
+    <desc>amenity=fuel fixme=name? id=node/7811717499</desc>
+  </wpt>
+  <wpt lat="51.1800871" lon="17.1973449">
+    <name>F1</name>
+    <desc>addr:city=Długołęka addr:housenumber=6d
+    addr:postcode=55-095 addr:street=Wrocławska amenity=fuel
+    fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes name=F1
+    opening_hours=Mo-Sa 06:00-22:00, Sun 09:00-21:00 phone=+48 71
+    315 31 81 self_service=yes id=node/7813240034</desc>
+  </wpt>
+  <wpt lat="50.7082031" lon="18.7488314">
+    <name>node/7817177796</name>
+    <desc>amenity=fuel brand=mOYA id=way/837560473 amenity=fuel
+    brand=Moya id=node/7817177796</desc>
+  </wpt>
+  <wpt lat="51.0169278" lon="16.7535689">
+    <name>Shell</name>
+    <desc>amenity=fuel brand=Shell brand:wikidata=Q154950
+    brand:wikipedia=en:Royal Dutch Shell name=Shell
+    id=node/7826882966</desc>
+  </wpt>
+  <wpt lat="52.6995227" lon="18.800916">
+    <name>Lotos Optima</name>
+    <desc>addr:city=Bądkowo addr:housenumber=1 addr:postcode=87-704
+    addr:street=Włocławska amenity=fuel brand=Lotos Optima
+    email=p745@stacje.lotospaliwa.pl fuel:HGV_diesel=yes
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Lotos Optima opening_hours=24/7
+    payment:dkv=yes payment:eurowag=yes payment:uta=yes
+    phone=+48542724555 ref=SP745 toilets=yes
+    website=http://www.lotosoptima.pl id=node/7826979371</desc>
+  </wpt>
+  <wpt lat="50.8633196" lon="18.9481027">
+    <name>node/7829900922</name>
+    <desc>amenity=fuel id=node/7829900922</desc>
+  </wpt>
+  <wpt lat="51.3876206" lon="19.3698644">
+    <name>SKORPION PHU</name>
+    <desc>addr:city=Zawady addr:housenumber=62 addr:postcode=97-400
+    amenity=fuel fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=SKORPION PHU id=node/7837893371</desc>
+  </wpt>
   <wpt lat="51.2280092" lon="22.622789746538178">
     <name>relation/2273938</name>
     <desc>amenity=fuel building=yes type=multipolygon
@@ -28973,6 +29002,13 @@ version="1.1" creator="togpx">
     <name>relation/10097522</name>
     <desc>amenity=fuel type=multipolygon
     id=relation/10097522</desc>
+  </wpt>
+  <wpt lat="52.07985875" lon="21.03384115">
+    <name>Shell</name>
+    <desc>addr:city=Piaseczno addr:housenumber=20
+    addr:postcode=05-500 addr:street=Armii Krajowej amenity=fuel
+    building=yes name=Shell note=TODO: shell or statoil?
+    operator=Shell phone=+48227163860 id=way/29300051</desc>
   </wpt>
   <wpt lat="52.12565725" lon="21.0669769">
     <name>way/30014981</name>
@@ -29762,11 +29798,6 @@ version="1.1" creator="togpx">
     website=https://www.orlen.pl/ wheelchair=yes
     id=way/101176444</desc>
   </wpt>
-  <wpt lat="51.11724725" lon="17.06488217403864">
-    <name>way/101217065</name>
-    <desc>access=private amenity=fuel building=yes noname=yes
-    id=way/101217065</desc>
-  </wpt>
   <wpt lat="51.79053165" lon="19.41979448431929">
     <name>Orlen</name>
     <desc>addr:city=Łódź addr:housenumber=143 addr:postcode=91-041
@@ -30395,7 +30426,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Puławy addr:city:simc=0956810
     addr:housenumber=70 addr:postcode=24-100
     addr:street=Włostowicka addr:street:sym_ul=24526 amenity=fuel
-    brand=BP building=commercial fuel:lpg=yes name=BP
+    brand=BP brand:wikidata=Q152057 brand:wikipedia=en:BP
+    building=commercial fuel:lpg=yes name=BP
     source:addr=mpulawy.e-mapa.net id=way/127245292</desc>
   </wpt>
   <wpt lat="51.87076545" lon="19.320166910487096">
@@ -30524,7 +30556,8 @@ version="1.1" creator="togpx">
     <name>Muller</name>
     <desc>addr:city=Krzeszów addr:housenumber=12
     addr:postcode=58-405 addr:street=Michała Willmanna amenity=fuel
-    building=yes name=Muller source=Bing
+    building=yes fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Muller source=Bing
     source:geometry=geoportal.gov.pl, GPS id=way/136180251</desc>
   </wpt>
   <wpt lat="51.11978945" lon="20.851193597635394">
@@ -30815,6 +30848,12 @@ version="1.1" creator="togpx">
   <wpt lat="52.2116703" lon="20.733165650118433">
     <name>way/149549076</name>
     <desc>amenity=fuel id=way/149549076</desc>
+  </wpt>
+  <wpt lat="54.5065923" lon="18.375216216645825">
+    <name>MGT Sp. z o.o.</name>
+    <desc>addr:city=Łężyce addr:housenumber=4 addr:postcode=84-200
+    addr:street=Jeżynowa amenity=fuel name=MGT Sp. z o.o.
+    id=way/149630880</desc>
   </wpt>
   <wpt lat="51.658039" lon="19.356526849549354">
     <name>way/150212420</name>
@@ -31242,13 +31281,6 @@ version="1.1" creator="togpx">
     brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
     building=yes name=Orlen id=way/166010856</desc>
   </wpt>
-  <wpt lat="54.4500308" lon="18.436491773727273">
-    <name>way/166135498</name>
-    <desc>amenity=fuel brand=Lotos fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes operator=Lotos
-    shop=convenience source=survey surface=cobblestone
-    id=way/166135498</desc>
-  </wpt>
   <wpt lat="52.27180525" lon="20.96590846720155">
     <name>way/166326396</name>
     <desc>amenity=fuel brand=BP building=yes fuel:HGV_diesel=yes
@@ -31620,7 +31652,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.0910858" lon="18.575781124343678">
     <name>Lotos</name>
-    <desc>amenity=fuel building=yes name=Lotos
+    <desc>addr:city=Rybnik addr:housenumber=83 addr:postcode=44-203
+    addr:street=Żorska amenity=fuel building=yes layer=1 name=Lotos
     id=way/169425014</desc>
   </wpt>
   <wpt lat="54.33007895" lon="18.20566022878645">
@@ -32416,7 +32449,7 @@ version="1.1" creator="togpx">
     <name>Lotos</name>
     <desc>addr:city=Mikołów addr:housenumber=245
     addr:street=Gliwicka amenity=fuel brand=Lotos
-    brand:wikidata=Q1256909 brand:wikipedia=en:Grupa Lotos
+    brand:wikidata=Q1256909 brand:wikipedia=pl:Grupa Lotos
     fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes
     name=Lotos opening_hours=24/7 operator=Lotos source:addr=EMUiA
     id=way/179860290</desc>
@@ -32571,10 +32604,11 @@ version="1.1" creator="togpx">
   <wpt lat="54.5325883" lon="17.76002490107799">
     <name>Circle K</name>
     <desc>addr:city=Lębork addr:housenumber=2 addr:postcode=84-300
-    addr:street=Abrahama amenity=fuel contact:phone=+48598631660
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Circle K opening_hours=24/7
-    operator=Statoil id=way/180626394</desc>
+    addr:street=Abrahama amenity=fuel brand=Circle K
+    brand:wikidata=Q3268010 brand:wikipedia=en:Circle K
+    contact:phone=+48598631660 fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Circle K
+    opening_hours=24/7 operator=Statoil id=way/180626394</desc>
   </wpt>
   <wpt lat="54.257197500000004" lon="18.647937825059195">
     <name>Circle K</name>
@@ -32796,11 +32830,16 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Wieliczka addr:city:simc=0952232
     addr:housenumber=4 addr:postcode=32-020 addr:street=Krakowska
-    addr:street:sym_ul=09796 amenity=fuel
+    addr:street:sym_ul=09796 amenity=fuel changing_table=yes
+    changing_table:count=1 changing_table:fee=no
+    changing_table:location=unisex_toilet
     contact:website=http://www.orlen.pl/ description=stacja numer
     0578 fuel:HGV_diesel=yes fuel:diesel=yes fuel:lpg=no
     fuel:octane_95=yes fuel:octane_98=yes name=Orlen
-    source:addr=wieliczka.e-mapa.net id=way/182056523</desc>
+    shop=convenience source:addr=wieliczka.e-mapa.net toilets=yes
+    toilets:access=yes toilets:disposal=flush toilets:fee=no
+    toilets:position=seated;urinal toilets:wheelchair=designated
+    id=way/182056523</desc>
   </wpt>
   <wpt lat="52.33093345" lon="16.804469416274692">
     <name>SKR Komorniki</name>
@@ -33426,6 +33465,16 @@ version="1.1" creator="togpx">
     opening_hours=24/7 shop=yes source=UM Gorzów
     id=way/193958341</desc>
   </wpt>
+  <wpt lat="52.733409" lon="15.254705184786555">
+    <name>Circle K</name>
+    <desc>addr:city=Gorzów Wielkopolski addr:housenumber=70
+    addr:postcode=66-400 addr:street=Warszawska amenity=fuel
+    brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K building=retail building:levels=1
+    building:usage:pl=Handlowo-usługowy fuel:diesel=yes
+    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Circle
+    K opening_hours=24/7 source=UM Gorzów id=way/193967303</desc>
+  </wpt>
   <wpt lat="52.30530520000001" lon="16.13074967421804">
     <name>way/193972298</name>
     <desc>amenity=fuel id=way/193972298</desc>
@@ -33441,18 +33490,19 @@ version="1.1" creator="togpx">
     addr:postcode=43-346 addr:street=Warszawska amenity=fuel
     building=yes name=Lotos id=way/194195981</desc>
   </wpt>
-  <wpt lat="51.2974926" lon="17.7755893">
+  <wpt lat="51.29752925" lon="17.77555901903621">
     <name>Lotos</name>
     <desc>addr:housenumber=74B addr:place=Słupia pod Bralinem
-    addr:postcode=63-642 amenity=fuel brand=Lotos building=yes
-    email=p119@stacje.lotospaliwa.pl fuel:HGV_diesel=yes
-    fuel:diesel=yes fuel:discount=Navigator fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Lotos
+    addr:postcode=63-642 amenity=fuel brand=Lotos
+    brand:wikidata=Q1256909 brand:wikipedia=pl:Grupa Lotos
+    building=commercial email=p119@stacje.lotospaliwa.pl
+    fuel:HGV_diesel=yes fuel:diesel=yes fuel:discount=Navigator
+    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Lotos
     payment:credit_cards=yes payment:debit_cards=yes
     payment:dkv=yes payment:eurowag=yes payment:uta=yes
-    phone=+48609569092 ref=SP119 shop=yes
-    source:addr=perzow.e-mapa.net toilets=yes
-    website=http://www.lotos.pl/ id=way/194362626</desc>
+    phone=+48609569092 ref=SP119 source:addr=perzow.e-mapa.net
+    toilets=yes website=http://www.lotos.pl/
+    id=way/194362626</desc>
   </wpt>
   <wpt lat="52.20617895" lon="18.66630331192434">
     <name>Polmax</name>
@@ -33752,7 +33802,7 @@ version="1.1" creator="togpx">
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=BP
     opening_hours=24/7 shop=yes id=way/201312248</desc>
   </wpt>
-  <wpt lat="52.11901885" lon="21.103974899999994">
+  <wpt lat="52.11904695" lon="21.103956159510602">
     <name>way/201754096</name>
     <desc>addr:city=Warszawa addr:city:simc=0918123
     addr:housenumber=2 addr:postcode=02-968 addr:street=Łukasza
@@ -34667,9 +34717,10 @@ version="1.1" creator="togpx">
     addr:housenumber=4 addr:postcode=02-324
     addr:street=Podpułkownika Mieczysława Sokołowskiego "Grzymały"
     addr:street:sym_ul=31638 amenity=fuel brand=BP building=retail
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_98=yes name=BP
-    Kameleon opening_hours=24/7 operator=BP
-    source:addr=mapa.um.warszawa.pl id=way/217947521</desc>
+    building:levels=1 fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_98=yes name=BP Kameleon opening_hours=24/7
+    operator=BP source:addr=mapa.um.warszawa.pl
+    id=way/217947521</desc>
   </wpt>
   <wpt lat="50.2741192" lon="19.126921654799556">
     <name>way/217984021</name>
@@ -34833,14 +34884,6 @@ version="1.1" creator="togpx">
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes name=Orlen source=Starostwo Powiatowe Będzin
     id=way/219301621</desc>
-  </wpt>
-  <wpt lat="50.3247506" lon="19.11920056163955">
-    <name>Lotos</name>
-    <desc>addr:city=Będzin addr:housenumber=23 addr:postcode=42-500
-    addr:street=Czeladzka amenity=fuel brand=Lotos
-    brand:wikidata=Q1256909 brand:wikipedia=pl:Grupa Lotos
-    building:levels=1 building:use:pl=Handlowo-usługowy name=Lotos
-    source=Starostwo Powiatowe Będzin id=way/219336727</desc>
   </wpt>
   <wpt lat="50.315901350000004" lon="19.13347666692415">
     <name>Delta Oil</name>
@@ -35399,7 +35442,7 @@ version="1.1" creator="togpx">
     <name>way/226699165</name>
     <desc>addr:city=Sosnowiec addr:housenumber=61
     addr:street=Marszałka Józefa Piłsudskiego amenity=fuel
-    brand=Statoil building=yes id=way/226699165</desc>
+    brand=Circle K building=yes id=way/226699165</desc>
   </wpt>
   <wpt lat="51.2154202" lon="17.403276583946827">
     <name>Shell</name>
@@ -35533,8 +35576,9 @@ version="1.1" creator="togpx">
     addr:postcode=55-010 addr:street=Zasłuczańska amenity=fuel
     brand=Lotos Optima brand:wikidata=Q1256909
     brand:wikipedia=pl:Grupa Lotos building=yes name=Lotos Optima
-    opening_hours=24/7 operator=Lotos phone=519 076 381 ref=SP509
-    source:geometry=geoportal.gov.pl, GPS id=way/229454138</desc>
+    opening_hours=24/7 operator=Lotos phone=+48 519 076 381
+    ref=SP509 source:geometry=geoportal.gov.pl, GPS
+    id=way/229454138</desc>
   </wpt>
   <wpt lat="50.4949366" lon="17.3491557689308">
     <name>way/229470512</name>
@@ -36201,18 +36245,6 @@ version="1.1" creator="togpx">
     Dutch Shell building=yes name=Shell opening_hours=24/7
     id=way/235804825</desc>
   </wpt>
-  <wpt lat="51.909408" lon="21.605376749999998">
-    <name>Orlen</name>
-    <desc>amenity=fuel brand=Orlen building=yes name=Orlen
-    opening_hours=24/7 shop=yes id=way/235805447</desc>
-  </wpt>
-  <wpt lat="51.90961085" lon="21.60512893476432">
-    <name>Orlen</name>
-    <desc>addr:city=Garwolin addr:housenumber=64
-    addr:postcode=08-400 addr:street=Tadeusza Kościuszki
-    amenity=fuel brand=Orlen building=yes name=Orlen
-    opening_hours=24/7 shop=yes id=way/235805449</desc>
-  </wpt>
   <wpt lat="51.5897806" lon="21.98406989716339">
     <name>BP</name>
     <desc>amenity=fuel brand=BP brand:wikidata=Q152057
@@ -36238,10 +36270,12 @@ version="1.1" creator="togpx">
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes layer=1
     operator=Shell id=way/235830643</desc>
   </wpt>
-  <wpt lat="51.2330835" lon="17.493819545307083">
+  <wpt lat="51.233092299999996" lon="17.493800030208877">
     <name>Euro Tank</name>
-    <desc>amenity=fuel brand=Statoil building=yes name=Euro Tank
-    opening_hours=24/7 shop=yes id=way/236013987</desc>
+    <desc>amenity=fuel brand=Crkle K building=yes building:levels=1
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes height=4 name=Euro Tank opening_hours=24/7
+    shop=yes id=way/236013987</desc>
   </wpt>
   <wpt lat="52.3005823" lon="15.303009810283449">
     <name>Grokar</name>
@@ -36370,10 +36404,13 @@ version="1.1" creator="togpx">
     Sa 07:00-22:00; Su 09:00-22:00 source:addr=wlen.e-mapa.net
     source:geometry=geoportal.gov.pl, GPS id=way/237487799</desc>
   </wpt>
-  <wpt lat="53.7479082" lon="20.252748099999998">
+  <wpt lat="53.74808165" lon="20.25271534542653">
     <name>Circle K</name>
-    <desc>addr:city=Gietrzwałd amenity=fuel building=yes
-    name=Circle K id=way/237550288</desc>
+    <desc>addr:city=Gietrzwałd addr:housenumber=36
+    addr:postcode=11-036 addr:street=Olsztyńska amenity=fuel
+    brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K building=yes name=Circle K
+    id=way/237550288</desc>
   </wpt>
   <wpt lat="50.09164545" lon="22.232253874014404">
     <name>way/237587651</name>
@@ -36594,8 +36631,9 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel building=yes id=way/238834739</desc>
   </wpt>
   <wpt lat="49.49977035" lon="19.10050894545936">
-    <name>way/238862030</name>
-    <desc>amenity=fuel brand=Orlen building=yes
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen building=yes name=Orlen
     id=way/238862030</desc>
   </wpt>
   <wpt lat="52.262470449999995" lon="21.03815191418264">
@@ -36797,6 +36835,14 @@ version="1.1" creator="togpx">
     fuel:HGV_diesel=yes fuel:biodiesel=yes fuel:diesel=yes
     fuel:octane_95=yes layer=1 name=Webo id=way/239938186</desc>
   </wpt>
+  <wpt lat="51.80711155" lon="18.726117962749452">
+    <name>way/239997989</name>
+    <desc>addr:city=Pęczniew addr:housenumber=12
+    addr:postcode=99-235 addr:street=Spółdzielcza amenity=fuel
+    brand=Magrol building=yes fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes opening_hours=24/7 shop=convenience
+    id=way/239997989</desc>
+  </wpt>
   <wpt lat="51.6883263" lon="18.325706455607143">
     <name>Olkop</name>
     <desc>addr:housenumber=130 addr:place=Szczytniki
@@ -36836,8 +36882,9 @@ version="1.1" creator="togpx">
     Rolniczych id=way/240297097</desc>
   </wpt>
   <wpt lat="53.9168112" lon="15.203752596454203">
-    <name>way/240330294</name>
-    <desc>amenity=fuel operator=Orlen id=way/240330294</desc>
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen name=Orlen operator=Orlen
+    id=way/240330294</desc>
   </wpt>
   <wpt lat="52.30515115" lon="20.932481012443645">
     <name>Orlen</name>
@@ -39176,8 +39223,8 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Ślesin addr:housenumber=29A
     addr:postcode=62-561 addr:street=Kleczewska amenity=fuel
-    brand=Orlen building=yes description=STOP Cafe Bistro
-    diaper=yes fuel:HGV_diesel=yes fuel:adblue=yes fuel:diesel=yes
+    brand=Orlen building=yes changing_table=yes description=STOP
+    Cafe Bistro fuel:HGV_diesel=yes fuel:adblue=yes fuel:diesel=yes
     fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes internet_access=wlan internet_access:fee=no
     name=Orlen opening_hours=24/7 operator=PKN Orlen
@@ -39208,8 +39255,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.301779100000005" lon="16.912975300000003">
     <name>Orlen</name>
     <desc>addr:city=Oborniki Śląskie addr:housenumber=17
-    addr:street=Józefa Piłsudskiego amenity=fuel building=yes
-    name=Orlen id=way/286933766</desc>
+    addr:street=Józefa Piłsudskiego amenity=fuel brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    building=yes name=Orlen id=way/286933766</desc>
   </wpt>
   <wpt lat="53.57837265" lon="19.58816712729291">
     <name>Stacja " Orlen "</name>
@@ -39590,7 +39638,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel landuse=retail name=Stacja paliw Orlen nr
     4273 operator=PKN Orlen id=way/292074231</desc>
   </wpt>
-  <wpt lat="52.312893599999995" lon="21.183296612684806">
+  <wpt lat="52.31291865" lon="21.18329760916955">
     <name>Stacja paliw Orlen nr 4348</name>
     <desc>amenity=fuel landuse=commercial name=Stacja paliw Orlen
     nr 4348 operator=PKN Orlen id=way/292080306</desc>
@@ -39835,7 +39883,8 @@ version="1.1" creator="togpx">
     <name>Oktan</name>
     <desc>amenity=fuel brand=Oktan building=yes fuel:diesel=yes
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Oktan
-    opening_hours=24/7 shop=yes id=way/293976119</desc>
+    opening_hours=24/7 shop=yes wheelchair=yes
+    id=way/293976119</desc>
   </wpt>
   <wpt lat="52.425033299999996" lon="21.424347849999997">
     <name>Bliska</name>
@@ -40370,12 +40419,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel brand=Sieńko i syn building=roof
     fuel:diesel=yes fuel:octane_95=yes id=way/299683324</desc>
   </wpt>
-  <wpt lat="51.17989625" lon="17.197426538668225">
-    <name>F1</name>
-    <desc>addr:city=Długołęka addr:housenumber=6
-    addr:postcode=55-095 addr:street=Wrocławska amenity=fuel
-    building=yes name=F1 id=way/299689342</desc>
-  </wpt>
   <wpt lat="49.287804949999995" lon="19.971073641445074">
     <name>Shell Select</name>
     <desc>amenity=fuel building=retail contact:phone=+48571303136
@@ -40480,10 +40523,11 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Circle K name=Circle K operator=Circle K
     id=way/300486321</desc>
   </wpt>
-  <wpt lat="52.2001655" lon="21.45266835952584">
-    <name>LOTOS OPTIMA</name>
-    <desc>addr:city=Dębe Wielkie addr:postcode=05-311 amenity=fuel
-    name=LOTOS OPTIMA opening_hours=24/7 id=way/300621903</desc>
+  <wpt lat="52.20008725" lon="21.452735258174897">
+    <name>Lotos Optima</name>
+    <desc>amenity=fuel brand=Lotos Optima brand:wikidata=Q1256909
+    brand:wikipedia=pl:Grupa Lotos name=Lotos Optima
+    opening_hours=24/7 self_service=no id=way/300621903</desc>
   </wpt>
   <wpt lat="51.658795999999995" lon="16.112115970639532">
     <name>way/300631074</name>
@@ -40774,11 +40818,11 @@ version="1.1" creator="togpx">
     building=yes name=Stacja paliw LPG id=way/304211264</desc>
   </wpt>
   <wpt lat="51.469034699999995" lon="16.6140944213964">
-    <name>Bliska</name>
+    <name>Orlen</name>
     <desc>addr:city=Wińsko addr:housenumber=1 addr:postcode=56-160
-    addr:street=Szkolna amenity=fuel brand=Bliska building=yes
+    addr:street=Szkolna amenity=fuel brand=Orlen building=yes
     fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes
-    name=Bliska operator=PKN Orlen payment:credit_cards=yes
+    name=Orlen operator=PKN Orlen payment:credit_cards=yes
     payment:debit_cards=yes payment:dkv=yes payment:uta=yes
     phone=242561101 ref=1101 source=survey source:addr=EMUiA
     (emuia.gugik.gov.pl) source:geometry=polska.e-mapa.net:
@@ -41440,12 +41484,14 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Kościan addr:city:simc=0954484
     addr:housenumber=62 addr:postcode=64-000 addr:street=Śmigielska
-    amenity=fuel brand=Orlen building=yes cafe=yes diaper=yes
-    fuel:HGV_diesel=yes fuel:diesel=yes fuel:discount=Vitay
-    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Orlen
-    opening_hours=24/7 payment:cash=yes payment:credit_cards=yes
+    amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen building=yes cafe=yes
+    changing_table=yes fuel:HGV_diesel=yes fuel:diesel=yes
+    fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Orlen opening_hours=24/7
+    payment:cash=yes payment:credit_cards=yes
     payment:debit_cards=yes payment:dkv=yes payment:uta=yes
-    phone=+48242560287 ref=287 shop=yes source:addr=EMUiA@iMPA
+    phone=+48242560287 ref=287 source:addr=EMUiA@iMPA
     (mkoscian.e-mapa.net) toilets=yes website=https://www.orlen.pl/
     wheelchair=yes id=way/313242367</desc>
   </wpt>
@@ -41458,19 +41504,9 @@ version="1.1" creator="togpx">
     55 website=https://www.circlek.pl/ id=way/313272715</desc>
   </wpt>
   <wpt lat="52.7807369" lon="18.259373073943028">
-    <name>way/313272725</name>
-    <desc>amenity=fuel building=roof layer=1
+    <name>BP</name>
+    <desc>amenity=fuel building=roof layer=1 name=BP
     id=way/313272725</desc>
-  </wpt>
-  <wpt lat="51.791050049999996" lon="19.449777608268924">
-    <name>Circle K</name>
-    <desc>addr:city=Łódź addr:country=PL addr:housenumber=65
-    addr:postcode=91-463 addr:street=Zgierska amenity=fuel
-    brand=Circle K building=yes fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_92=yes fuel:octane_95=yes fuel:octane_98=yes
-    name=Circle K opening_hours=24/7 source=mapa.lodz.pl
-    source:addr=EMUiA (emuia.geoportal.gov.pl)
-    id=way/313412370</desc>
   </wpt>
   <wpt lat="52.4451878" lon="20.977964334629718">
     <name>way/313493728</name>
@@ -42184,7 +42220,7 @@ version="1.1" creator="togpx">
     zapytanie source:addr=swietajnoszczycienskie.e-mapa.net
     id=way/323532436</desc>
   </wpt>
-  <wpt lat="50.1334305" lon="19.966678295232207">
+  <wpt lat="50.1334284" lon="19.966661622426734">
     <name>BP Bibice</name>
     <desc>addr:city=Bibice addr:housenumber=13 addr:postcode=32-087
     addr:street=Na Czekaj amenity=fuel brand=BP building=retail
@@ -42607,15 +42643,17 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7910767" lon="19.137563250224552">
     <name>Bliska</name>
-    <desc>amenity=fuel building=roof layer=1 name=Bliska
+    <desc>amenity=fuel brand=Bliska brand:wikidata=Q4016378
+    brand:wikipedia=pl:Bliska building=roof layer=1 name=Bliska
     source:geometry=geoportal.gov.pl:ortofoto
     id=way/330453339</desc>
   </wpt>
   <wpt lat="50.79361515" lon="19.133999079538825">
-    <name>Statoil</name>
-    <desc>amenity=fuel brand=Statoil building=roof fuel:diesel=yes
+    <name>Circle K</name>
+    <desc>amenity=fuel brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K building=roof fuel:diesel=yes
     fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes layer=1
-    name=Statoil source:geometry=geoportal.gov.pl:ortofoto
+    name=Circle K source:geometry=geoportal.gov.pl:ortofoto
     id=way/330453342</desc>
   </wpt>
   <wpt lat="54.5676758" lon="18.022462079796412">
@@ -43372,6 +43410,17 @@ version="1.1" creator="togpx">
   <wpt lat="51.64533795" lon="19.49085115227106">
     <name>way/344716237</name>
     <desc>amenity=fuel building=yes id=way/344716237</desc>
+  </wpt>
+  <wpt lat="49.5939854" lon="19.929722443800372">
+    <name>Orlen</name>
+    <desc>addr:city:simc=0463467 addr:housenumber=82A
+    addr:place=Chabówka addr:postcode=34-720 amenity=fuel
+    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    building=yes fuel:GTL_diesel=yes fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    opening_hours=24/7 operator=Orlen
+    source:addr=emuia.gugik.gov.pl wheelchair=yes
+    id=way/345330362</desc>
   </wpt>
   <wpt lat="52.20766485" lon="17.485265886734695">
     <name>way/345553102</name>
@@ -44171,6 +44220,13 @@ version="1.1" creator="togpx">
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes id=way/361210678</desc>
   </wpt>
+  <wpt lat="51.090647399999995" lon="19.867221946238935">
+    <name>Orlen</name>
+    <desc>addr:city=Przedbórz addr:postcode=97-570
+    addr:street=Leśna amenity=fuel brand=Orlen building=retail
+    fuel:diesel=yes fuel:lpg=no fuel:octane_95=yes name=Orlen
+    id=way/361244954</desc>
+  </wpt>
   <wpt lat="53.5279427" lon="18.208230755807037">
     <name>way/361320856</name>
     <desc>amenity=fuel building=yes id=way/361320856</desc>
@@ -44476,7 +44532,7 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes name=BP Dorohucza
     opening_hours=24/7 shop=yes id=way/363045874</desc>
   </wpt>
-  <wpt lat="50.063304200000005" lon="21.993621280174644">
+  <wpt lat="50.06325715" lon="21.993640246392538">
     <name>BP Miłocin</name>
     <desc>addr:city=Rzeszów addr:housenumber=40b
     addr:street=Warszawska amenity=fuel brand=BP building=yes
@@ -44486,7 +44542,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.73108415" lon="19.16041455">
     <name>Auchan</name>
-    <desc>amenity=fuel building=roof layer=1 name=Auchan
+    <desc>amenity=fuel brand=Auchan brand:wikidata=Q758603
+    brand:wikipedia=en:Auchan building=roof layer=1 name=Auchan
     operator=Auchan id=way/363050799</desc>
   </wpt>
   <wpt lat="53.7072903" lon="16.710337550874094">
@@ -44772,9 +44829,9 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes name=BP Lotnik
     opening_hours=24/7 operator=BP id=way/369103117</desc>
   </wpt>
-  <wpt lat="51.2448805" lon="22.107130846888857">
+  <wpt lat="51.24488935" lon="22.10710384632867">
     <name>way/369925510</name>
-    <desc>amenity=fuel building=yes id=way/369925510</desc>
+    <desc>amenity=fuel building=retail id=way/369925510</desc>
   </wpt>
   <wpt lat="50.806356449999996" lon="23.04317805">
     <name>Plon</name>
@@ -45542,7 +45599,7 @@ version="1.1" creator="togpx">
     <name>way/386462838</name>
     <desc>amenity=fuel building=roof id=way/386462838</desc>
   </wpt>
-  <wpt lat="52.16989135" lon="20.936269305162526">
+  <wpt lat="52.1698875" lon="20.93627183492736">
     <name>Orlen</name>
     <desc>addr:city=Warszawa addr:city:simc=0918123
     addr:housenumber=51 addr:postcode=02-183 addr:street=Aleja
@@ -46008,28 +46065,18 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:BP name=BP id=way/397677351</desc>
   </wpt>
   <wpt lat="52.49289315" lon="16.43086703608378">
-    <name>Total Sękowo</name>
+    <name>Total</name>
     <desc>addr:city=Sękowo addr:city:simc=0583289
     addr:housenumber=10B addr:postcode=64-541 addr:street=Lipowa
-    amenity=fuel building=commercial name=Total Sękowo
-    source:addr=duszniki.e-mapa.net wifi=yes
+    amenity=fuel brand=Total brand:wikidata=Q154037
+    brand:wikipedia=fr:Total (entreprise) building=commercial
+    name=Total source:addr=duszniki.e-mapa.net wifi=yes
     id=way/397698987</desc>
   </wpt>
   <wpt lat="51.2513662" lon="15.5795862">
     <name>MPS</name>
     <desc>amenity=fuel building=yes name=MPS
     id=way/397755258</desc>
-  </wpt>
-  <wpt lat="52.69951055" lon="18.800907908708055">
-    <name>Lotos Optima</name>
-    <desc>addr:city=Bądkowo addr:postcode=87-704
-    addr:street=Włocławska amenity=fuel brand=Lotos Optima
-    building=yes email=p745@stacje.lotospaliwa.pl
-    fuel:HGV_diesel=yes fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Lotos Optima
-    opening_hours=24/7 payment:dkv=yes payment:eurowag=yes
-    payment:uta=yes phone=+48542724555 ref=SP745 toilets=yes
-    website=http://www.lotosoptima.pl id=way/397757011</desc>
   </wpt>
   <wpt lat="54.751624050000004" lon="17.55817508097244">
     <name>Orlen</name>
@@ -46203,13 +46250,13 @@ version="1.1" creator="togpx">
     id=way/402787339</desc>
   </wpt>
   <wpt lat="52.961736900000005" lon="14.6158194">
-    <name>Orlen 4247</name>
-    <desc>addr:city=Trzcińsko-Zdrój addr:postcode=74-510
-    addr:street=Dworcowa amenity=fuel brand=Bliska building=roof
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen building=roof fuel:HGV_diesel=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
-    fuel:octane_98=yes name=Orlen 4247 opening_hours=24/7
-    payment:dkv=yes payment:uta=yes phone=+48 24 377 42 47 shop=yes
-    id=way/402871693</desc>
+    fuel:octane_98=yes name=Orlen opening_hours=24/7
+    payment:dkv=yes payment:uta=yes phone=+48 24 256 4247 ref=4247
+    shop=yes wheelchair=yes id=way/402871693</desc>
   </wpt>
   <wpt lat="52.9193399" lon="14.847994961981978">
     <name>MALDROBUD</name>
@@ -46438,9 +46485,11 @@ version="1.1" creator="togpx">
     Energetyka id=way/409085254</desc>
   </wpt>
   <wpt lat="51.20311185" lon="17.386278489550556">
-    <name>way/409584112</name>
-    <desc>amenity=fuel building=roof layer=1
-    id=way/409584112</desc>
+    <name>Station Service E. Leclerc</name>
+    <desc>amenity=fuel brand=E.Leclerc brand:wikidata=Q1273376
+    brand:wikipedia=fr:E.Leclerc building=roof fuel:diesel=yes
+    fuel:octane_95=yes fuel:octane_98=yes layer=1 name=Station
+    Service E. Leclerc id=way/409584112</desc>
   </wpt>
   <wpt lat="50.4379931" lon="16.61088025">
     <name>Orlen</name>
@@ -46917,10 +46966,10 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes fuel:octane_98=yes id=way/427704693</desc>
   </wpt>
   <wpt lat="52.89912005" lon="18.42433182290214">
-    <name>Stacja Paliw KRAK-TAR</name>
+    <name>Krak-Tar</name>
     <desc>amenity=fuel building=yes fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes name=Stacja Paliw KRAK-TAR
-    opening_hours=24/7 source=survey
+    fuel:octane_95=yes name=Krak-Tar opening_hours=24/7
+    source=survey
     website=http://naszastacja.pl/o-nas/nasze-stacje/stacja-paliw-gniewkowo/
     id=way/427973322</desc>
   </wpt>
@@ -47058,10 +47107,10 @@ version="1.1" creator="togpx">
     paliw source:addr=wronki.e-mapa.net id=way/435130978</desc>
   </wpt>
   <wpt lat="52.526572400000006" lon="21.681417493842474">
-    <name>Shell</name>
-    <desc>amenity=fuel brand=Shell fuel:HGV_diesel=yes
-    fuel:diesel=yes fuel:octane_95=yes fuel:octane_98=yes
-    name=Shell id=way/435176944</desc>
+    <name>Wagat</name>
+    <desc>amenity=fuel fuel:HGV_diesel=yes fuel:diesel=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Wagat
+    id=way/435176944</desc>
   </wpt>
   <wpt lat="49.6995449" lon="19.201065629433714">
     <name>Bliska</name>
@@ -47676,8 +47725,9 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Częstochowa addr:housenumber=7B
     addr:postcode=42-200 addr:street=Aleja Wojska Polskiego
-    amenity=fuel building=yes fuel:diesel=yes fuel:lpg=yes
-    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen building=yes fuel:diesel=yes
+    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Orlen
     opening_hours=24/7 payment:dkv=yes payment:uta=yes ref=7073
     toilets=yes id=way/458367373</desc>
   </wpt>
@@ -47985,12 +48035,6 @@ version="1.1" creator="togpx">
     <name>way/476320129</name>
     <desc>amenity=fuel id=way/476320129</desc>
   </wpt>
-  <wpt lat="50.46045615" lon="19.65677938985283">
-    <name>ARLIN</name>
-    <desc>addr:city=Pilica addr:housenumber=8A addr:postcode=42-436
-    addr:street=Adama Mickiewicza amenity=fuel name=ARLIN
-    operator=ARLIN id=way/477350113</desc>
-  </wpt>
   <wpt lat="52.34911425" lon="14.565829351501357">
     <name>Intermarché</name>
     <desc>amenity=fuel brand=Intermarche fuel:diesel=yes
@@ -48212,7 +48256,7 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes name=Orlen opening_hours=24/7 shop=yes
     wheelchair=yes id=way/490974818</desc>
   </wpt>
-  <wpt lat="54.2076267" lon="21.748347354783164">
+  <wpt lat="54.2076266" lon="21.74833881463807">
     <name>Orlen</name>
     <desc>addr:city=Węgorzewo addr:housenumber=13
     addr:postcode=11-600 addr:street=Generała Józefa Bema
@@ -48688,7 +48732,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel brand=Orlen landuse=retail
     id=way/508293276</desc>
   </wpt>
-  <wpt lat="50.10171825" lon="18.545818259478693">
+  <wpt lat="50.10177415" lon="18.545819186640344">
     <name>LOTOS Optima SF792 Rybnik</name>
     <desc>addr:city=Rybnik addr:housenumber=31 addr:postcode=44-200
     addr:street=Gliwicka amenity=fuel brand=LOTOS Optima
@@ -49176,7 +49220,7 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes name=Stacja Paliw Grader opening_hours=24/7
     id=way/539883911</desc>
   </wpt>
-  <wpt lat="50.255842900000005" lon="19.18749228754728">
+  <wpt lat="50.255842900000005" lon="19.187490459101575">
     <name>Orlen</name>
     <desc>amenity=fuel brand=Orlen name=Orlen
     id=way/540015782</desc>
@@ -49380,9 +49424,11 @@ version="1.1" creator="togpx">
     <name>way/551325858</name>
     <desc>amenity=fuel id=way/551325858</desc>
   </wpt>
-  <wpt lat="51.09734445" lon="19.875214999999997">
-    <name>way/551363982</name>
-    <desc>amenity=fuel building=yes id=way/551363982</desc>
+  <wpt lat="51.097296650000004" lon="19.875260155174725">
+    <name>Majka</name>
+    <desc>amenity=fuel building=yes fuel:HGV_diesel=yes
+    fuel:diesel=yes fuel:octane_95=yes name=Majka shop=yes
+    id=way/551363982</desc>
   </wpt>
   <wpt lat="49.8586466" lon="20.538743501871657">
     <name>Auto Oaza</name>
@@ -49618,8 +49664,9 @@ version="1.1" creator="togpx">
     (emuia.geoportal.gov.pl) id=way/568622823</desc>
   </wpt>
   <wpt lat="52.67838515" lon="18.313745776585712">
-    <name>way/568654352</name>
-    <desc>amenity=fuel building=roof id=way/568654352</desc>
+    <name>Olkop</name>
+    <desc>amenity=fuel building=roof name=Olkop
+    id=way/568654352</desc>
   </wpt>
   <wpt lat="49.6981172" lon="19.18028015">
     <name>Statoil</name>
@@ -49677,11 +49724,14 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel building=yes id=way/570667418</desc>
   </wpt>
   <wpt lat="54.147392350000004" lon="19.387940014167675">
-    <name>Lotos</name>
-    <desc>addr:city=Elbląg addr:housenumber=24 addr:postcode=82-300
-    addr:street=Warszawska amenity=fuel building=roof
-    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes name=Lotos
+    <name>Stacja paliw Moya</name>
+    <desc>addr:city=Elbląg addr:housenumber=124
+    addr:postcode=82-300 addr:street=Warszawska amenity=fuel
+    brand=Moya building=roof email=elblag@moyastacja.pl
+    fuel:adblue=yes fuel:diesel=yes fuel:diesel_plus=yes
+    fuel:lpg=yes fuel:octane_95=yes name=Stacja paliw Moya
     opening_hours=24/7 phone=+48 55 234 65 35
+    website=https://moyastacja.pl/stacje-paliw/91.html
     id=way/570754246</desc>
   </wpt>
   <wpt lat="52.10923855" lon="21.264255499999997">
@@ -50065,6 +50115,15 @@ version="1.1" creator="togpx">
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes shop=yes id=way/623047725</desc>
   </wpt>
+  <wpt lat="51.355921499999994" lon="18.52374902282879">
+    <name>Shell</name>
+    <desc>addr:housenumber=103 addr:place=Chojny
+    addr:postcode=98-360 amenity=fuel brand=Shell
+    brand:wikidata=Q154950 brand:wikipedia=en:Royal Dutch Shell
+    building=commercial fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Shell operator=Shell
+    id=way/623798945</desc>
+  </wpt>
   <wpt lat="52.18226455" lon="20.783614350451987">
     <name>BP</name>
     <desc>amenity=fuel brand=BP building=yes fuel:diesel=yes
@@ -50165,6 +50224,10 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel building=commercial
     source:geometry=geoportal.gov.pl:ISOK_CIEŃ-laser
     source:user=zVID id=way/639690203</desc>
+  </wpt>
+  <wpt lat="50.26872925" lon="22.396148563686708">
+    <name>way/640374568</name>
+    <desc>amenity=fuel id=way/640374568</desc>
   </wpt>
   <wpt lat="50.23037825" lon="18.97239672276423">
     <name>Orlen</name>
@@ -50285,12 +50348,12 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <desc>addr:city=Siewierz addr:housenumber=67
     addr:postcode=42-470 addr:street=Bytomska amenity=fuel
+    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
     building=yes fuel:HGV_diesel=yes fuel:adblue=yes
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     internet_access=wlan internet_access:fee=no name=Orlen
     opening_hours=24/7 operator=Orlen payment:dkv=yes
-    payment:uta=yes phone=+48 24 256 40 89 shop=kiosk
-    id=way/654563006</desc>
+    payment:uta=yes phone=+48 24 256 40 89 id=way/654563006</desc>
   </wpt>
   <wpt lat="51.682113799999996" lon="17.47369400000001">
     <name>Pieprzyk</name>
@@ -50647,8 +50710,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.7370899" lon="19.821888402363662">
     <name>Orlen</name>
-    <desc>addr:housenumber=8A addr:street=Partyzantów amenity=fuel
-    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    <desc>addr:city=Koluszki addr:housenumber=8A
+    addr:street=Partyzantów amenity=fuel brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
     fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
     fuel:octane_98=yes name=Orlen id=way/673835485</desc>
   </wpt>
@@ -50749,8 +50813,8 @@ version="1.1" creator="togpx">
     id=way/680036586</desc>
   </wpt>
   <wpt lat="52.40749345" lon="22.219844296519526">
-    <name>DarGaz</name>
-    <desc>amenity=fuel name=DarGaz id=way/680185530</desc>
+    <name>way/680185530</name>
+    <desc>amenity=fuel id=way/680185530</desc>
   </wpt>
   <wpt lat="50.0437876" lon="19.79278103474887">
     <name>way/680433367</name>
@@ -50850,7 +50914,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.5127744" lon="19.196025230154948">
     <name>Shell</name>
-    <desc>amenity=fuel name=Shell id=way/684708988</desc>
+    <desc>amenity=fuel brand=Shell brand:wikidata=Q154950
+    brand:wikipedia=en:Royal Dutch Shell name=Shell
+    id=way/684708988</desc>
   </wpt>
   <wpt lat="52.942446700000005" lon="21.761133037651494">
     <name>Orlen</name>
@@ -51003,7 +51069,7 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes name=BP opening_hours=24/7
     id=way/696774541</desc>
   </wpt>
-  <wpt lat="51.0874885" lon="19.853395392495447">
+  <wpt lat="51.0874586" lon="19.853433392495447">
     <name>way/697411333</name>
     <desc>addr:city=Przedbórz addr:city:simc=0968026
     addr:postcode=97-570 addr:street=Radomszczańska
@@ -51433,9 +51499,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.7955818" lon="20.243029969092124">
     <name>Partner</name>
-    <desc>amenity=fuel brand=Slovnaft building=roof fuel:diesel=yes
-    fuel:lpg=yes fuel:octane_95=yes layer=1 name=Partner
-    opening_hours=24/7 payment:cash=yes payment:credit_cards=yes
+    <desc>amenity=fuel brand=Slovnaft building=roof
+    building:levels=1 fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes layer=1 name=Partner opening_hours=24/7
+    payment:cash=yes payment:credit_cards=yes
     payment:debit_cards=yes self_service=yes
     id=way/722896706</desc>
   </wpt>
@@ -51620,7 +51687,8 @@ version="1.1" creator="togpx">
   <wpt lat="51.10861335" lon="21.633602826237322">
     <name>Orlen</name>
     <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
-    brand:wikipedia=en:PKN Orlen name=Orlen id=way/749066231</desc>
+    brand:wikipedia=en:PKN Orlen building=yes name=Orlen
+    id=way/749066231</desc>
   </wpt>
   <wpt lat="52.023508" lon="18.52338122160623">
     <name>way/749158821</name>
@@ -51878,6 +51946,19 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes name=Total Obornicka shop=yes
     source:addr=sip.geopoz.pl source:geometry=Geopoz: budynki
     ewidencyjne id=way/766353345</desc>
+  </wpt>
+  <wpt lat="52.7448955" lon="15.15732904168508">
+    <name>Orlen</name>
+    <desc>addr:city=Gorzów Wielkopolski addr:housenumber=1
+    addr:postcode=66-400 addr:street=Złotego Smoka amenity=fuel
+    brand=Orlen brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    fuel:HGV_diesel=yes fuel:adblue=yes fuel:diesel=yes
+    fuel:discount=Vitay fuel:electricity=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes landuse=retail name=Orlen
+    opening_hours=24/7 payment:credit_cards=yes payment:dkv=yes
+    payment:uta=yes ref=7446 self_service=yes toilets=yes
+    toilets:wheelchair=yes website=https://www.orlen.pl/
+    wheelchair=yes id=way/766429363</desc>
   </wpt>
   <wpt lat="52.55187465" lon="19.724724919691198">
     <name>e-co</name>
@@ -52345,7 +52426,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel building=yes name=Orlen
     id=way/826437752</desc>
   </wpt>
-  <wpt lat="52.22197875" lon="21.105697582749052">
+  <wpt lat="52.22197715" lon="21.105694749999998">
     <name>Circle K</name>
     <desc>addr:city=Warszawa addr:housenumber=5
     addr:postcode=03-982 addr:street=Stoczniowców amenity=fuel
@@ -52403,6 +52484,105 @@ version="1.1" creator="togpx">
     addr:street=Gostyńska amenity=fuel brand=Orlen
     brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen name=Orlen
     id=way/831863321</desc>
+  </wpt>
+  <wpt lat="50.6824486" lon="16.62013385747077">
+    <name>Intermarché</name>
+    <desc>amenity=fuel name=Intermarché opening_hours=Mo-Sa
+    08:00-21:00; Su 09:00-18:00 id=way/833869027</desc>
+  </wpt>
+  <wpt lat="52.445066999999995" lon="21.31785249554784">
+    <name>way/834308715</name>
+    <desc>amenity=fuel building=roof layer=1 operator=Orlen
+    shop=yes id=way/834308715</desc>
+  </wpt>
+  <wpt lat="54.52542035" lon="18.516201248234246">
+    <name>BP</name>
+    <desc>addr:street=Morska amenity=fuel name=BP
+    id=way/835133787</desc>
+  </wpt>
+  <wpt lat="50.460320550000006" lon="19.656719345906343">
+    <name>Arlin</name>
+    <desc>amenity=fuel building=yes name=Arlin
+    id=way/835529806</desc>
+  </wpt>
+  <wpt lat="51.90955815" lon="21.605137859951107">
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen fuel:diesel=yes fuel:lpg=yes
+    fuel:octane_95=yes fuel:octane_98=yes name=Orlen
+    id=way/836915953</desc>
+  </wpt>
+  <wpt lat="50.2566168" lon="19.188273524357214">
+    <name>Shell</name>
+    <desc>amenity=fuel brand=Shell name=Shell
+    id=way/837071276</desc>
+  </wpt>
+  <wpt lat="52.2689991" lon="21.07730257826443">
+    <name>stacja paliw - biopaliwo</name>
+    <desc>amenity=fuel fuel:biodiesel=yes name=stacja paliw -
+    biopaliwo id=way/837440256</desc>
+  </wpt>
+  <wpt lat="51.2492829" lon="22.605050802072803">
+    <name>way/837842015</name>
+    <desc>amenity=fuel id=way/837842015</desc>
+  </wpt>
+  <wpt lat="53.651029" lon="20.05073636270987">
+    <name>Circle K</name>
+    <desc>addr:city=Grabin addr:city:simc=0484995
+    addr:housenumber=22 addr:place=Grabin addr:postcode=14-106
+    amenity=fuel brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K building=yes fuel:diesel=yes
+    fuel:lpg=yes fuel:octane_95=yes fuel:octane_98=yes name=Circle
+    K self_service=no source:addr=emuia.gugik.gov.pl
+    id=way/838085281</desc>
+  </wpt>
+  <wpt lat="51.7910505" lon="19.449777056132632">
+    <name>Circle K</name>
+    <desc>addr:city=Łódź addr:country=PL addr:housenumber=65
+    addr:postcode=91-463 addr:street=Zgierska amenity=fuel
+    brand=Circle K building=yes car_wash=true fuel:diesel=yes
+    fuel:lpg=yes fuel:octane_92=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Circle K opening_hours=24/7
+    source=mapa.lodz.pl source:addr=EMUiA (emuia.geoportal.gov.pl)
+    id=way/839045490</desc>
+  </wpt>
+  <wpt lat="50.324602150000004" lon="19.11888193939169">
+    <name>Lotos</name>
+    <desc>addr:city=Będzin addr:country=PL addr:housenumber=23
+    addr:postcode=42-500 addr:street=Czeladzka amenity=fuel
+    brand=Lotos fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Lotos shop=yes id=way/839111688</desc>
+  </wpt>
+  <wpt lat="50.3191535" lon="19.078645259808802">
+    <name>Orlen</name>
+    <desc>amenity=fuel brand=Orlen brand:wikidata=Q971649
+    brand:wikipedia=en:PKN Orlen name=Orlen id=way/839112609</desc>
+  </wpt>
+  <wpt lat="50.31682805" lon="19.070971502759694">
+    <name>Circle K</name>
+    <desc>amenity=fuel brand=Circle K brand:wikidata=Q3268010
+    brand:wikipedia=en:Circle K building=yes fuel:biodiesel=yes
+    fuel:diesel=yes fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes name=Circle K opening_hours=24/7 shop=yes
+    id=way/839114813</desc>
+  </wpt>
+  <wpt lat="52.7392978" lon="15.19047483145171">
+    <name>Orlen</name>
+    <desc>addr:city=Gorzów Wielkopolski addr:housenumber=45
+    addr:street=Myśliborska amenity=fuel brand=Orlen
+    brand:wikidata=Q971649 brand:wikipedia=en:PKN Orlen
+    changing_table=yes fuel:HGV_diesel=yes fuel:diesel=yes
+    fuel:discount=Vitay fuel:lpg=yes fuel:octane_95=yes
+    fuel:octane_98=yes internet_access=wlan internet_access:fee=no
+    landuse=retail name=Orlen opening_hours=24/7
+    payment:credit_cards=yes payment:dkv=yes payment:uta=yes
+    phone=+48242560021 ref=21 toilets=yes
+    website=https://www.orlen.pl/ wheelchair=yes
+    id=way/839434239</desc>
+  </wpt>
+  <wpt lat="52.358118450000006" lon="21.271379766237114">
+    <name>S</name>
+    <desc>amenity=fuel name=S id=way/839827456</desc>
   </wpt>
   <wpt lat="52.07106415" lon="15.059273383324511">
     <name>Shell Osiecznica</name>
@@ -52575,6 +52755,16 @@ version="1.1" creator="togpx">
       <trkpt lat="52.0709402" lon="15.0586795"></trkpt>
       <trkpt lat="52.0705956" lon="15.059231"></trkpt>
       <trkpt lat="52.0705614" lon="15.0589783"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell</name>
+    <trkseg>
+      <trkpt lat="52.0799406" lon="21.0338434"></trkpt>
+      <trkpt lat="52.0798163" lon="21.0337272"></trkpt>
+      <trkpt lat="52.0797769" lon="21.0338389"></trkpt>
+      <trkpt lat="52.0799012" lon="21.0339551"></trkpt>
+      <trkpt lat="52.0799406" lon="21.0338434"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -53863,16 +54053,6 @@ version="1.1" creator="togpx">
       <trkpt lat="51.7791006" lon="14.9861419"></trkpt>
       <trkpt lat="51.779158" lon="14.9859919"></trkpt>
       <trkpt lat="51.7790892" lon="14.9859231"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/101217065</name>
-    <trkseg>
-      <trkpt lat="51.1172438" lon="17.0649145"></trkpt>
-      <trkpt lat="51.1172618" lon="17.0649056"></trkpt>
-      <trkpt lat="51.1172507" lon="17.0648498"></trkpt>
-      <trkpt lat="51.1172328" lon="17.0648589"></trkpt>
-      <trkpt lat="51.1172438" lon="17.0649145"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -55648,6 +55828,24 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>MGT Sp. z o.o.</name>
+    <trkseg>
+      <trkpt lat="54.5067384" lon="18.3752655"></trkpt>
+      <trkpt lat="54.5067223" lon="18.3751275"></trkpt>
+      <trkpt lat="54.5066273" lon="18.3751604"></trkpt>
+      <trkpt lat="54.5066207" lon="18.3751058"></trkpt>
+      <trkpt lat="54.5065573" lon="18.375128"></trkpt>
+      <trkpt lat="54.5065639" lon="18.3751829"></trkpt>
+      <trkpt lat="54.5064693" lon="18.3752165"></trkpt>
+      <trkpt lat="54.5064852" lon="18.3753543"></trkpt>
+      <trkpt lat="54.5065159" lon="18.3753433"></trkpt>
+      <trkpt lat="54.5065164" lon="18.3753474"></trkpt>
+      <trkpt lat="54.5065218" lon="18.3753454"></trkpt>
+      <trkpt lat="54.5065212" lon="18.3753416"></trkpt>
+      <trkpt lat="54.5067384" lon="18.3752655"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/150212420</name>
     <trkseg>
       <trkpt lat="51.6580182" lon="19.3561699"></trkpt>
@@ -56312,19 +56510,6 @@ version="1.1" creator="togpx">
       <trkpt lat="53.7875365" lon="20.4971142"></trkpt>
       <trkpt lat="53.7877253" lon="20.4972752"></trkpt>
       <trkpt lat="53.7877962" lon="20.4970368"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/166135498</name>
-    <trkseg>
-      <trkpt lat="54.4498615" lon="18.4357906"></trkpt>
-      <trkpt lat="54.4496494" lon="18.4354704"></trkpt>
-      <trkpt lat="54.4494816" lon="18.4364095"></trkpt>
-      <trkpt lat="54.449753" lon="18.4366128"></trkpt>
-      <trkpt lat="54.4502205" lon="18.436963"></trkpt>
-      <trkpt lat="54.4502645" lon="18.4366763"></trkpt>
-      <trkpt lat="54.4502001" lon="18.4365347"></trkpt>
-      <trkpt lat="54.4498615" lon="18.4357906"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -58307,6 +58492,7 @@ version="1.1" creator="togpx">
     <name>Lotos</name>
     <trkseg>
       <trkpt lat="50.2201729" lon="18.8273046"></trkpt>
+      <trkpt lat="50.2198444" lon="18.8269469"></trkpt>
       <trkpt lat="50.2197606" lon="18.8268557"></trkpt>
       <trkpt lat="50.2196844" lon="18.8270114"></trkpt>
       <trkpt lat="50.2196402" lon="18.8269681"></trkpt>
@@ -58317,6 +58503,7 @@ version="1.1" creator="togpx">
       <trkpt lat="50.2195516" lon="18.8276894"></trkpt>
       <trkpt lat="50.2197586" lon="18.8278889"></trkpt>
       <trkpt lat="50.2198779" lon="18.8280039"></trkpt>
+      <trkpt lat="50.2199931" lon="18.8277761"></trkpt>
       <trkpt lat="50.2200107" lon="18.8277413"></trkpt>
       <trkpt lat="50.2201729" lon="18.8273046"></trkpt>
     </trkseg>
@@ -60047,6 +60234,22 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Circle K</name>
+    <trkseg>
+      <trkpt lat="52.7333834" lon="15.2549022"></trkpt>
+      <trkpt lat="52.7334346" lon="15.2548046"></trkpt>
+      <trkpt lat="52.7334925" lon="15.2546941"></trkpt>
+      <trkpt lat="52.7335335" lon="15.2546159"></trkpt>
+      <trkpt lat="52.7334446" lon="15.2544891"></trkpt>
+      <trkpt lat="52.7333345" lon="15.254699"></trkpt>
+      <trkpt lat="52.7333425" lon="15.2547105"></trkpt>
+      <trkpt lat="52.7333339" lon="15.2547266"></trkpt>
+      <trkpt lat="52.733291" lon="15.2547573"></trkpt>
+      <trkpt lat="52.7333385" lon="15.2549354"></trkpt>
+      <trkpt lat="52.7333834" lon="15.2549022"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/193972298</name>
     <trkseg>
       <trkpt lat="52.3053841" lon="16.1306852"></trkpt>
@@ -60087,11 +60290,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lotos</name>
     <trkseg>
-      <trkpt lat="51.2976927" lon="17.7754897"></trkpt>
-      <trkpt lat="51.297571" lon="17.7752792"></trkpt>
-      <trkpt lat="51.2972925" lon="17.7756889"></trkpt>
-      <trkpt lat="51.2974142" lon="17.7758994"></trkpt>
-      <trkpt lat="51.2976927" lon="17.7754897"></trkpt>
+      <trkpt lat="51.2976998" lon="17.7754893"></trkpt>
+      <trkpt lat="51.2975859" lon="17.7752926"></trkpt>
+      <trkpt lat="51.2973111" lon="17.7756993"></trkpt>
+      <trkpt lat="51.2973877" lon="17.7758315"></trkpt>
+      <trkpt lat="51.2974726" lon="17.7758254"></trkpt>
+      <trkpt lat="51.2976998" lon="17.7754893"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -60697,11 +60901,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/201754096</name>
     <trkseg>
-      <trkpt lat="52.1190909" lon="21.1039342"></trkpt>
-      <trkpt lat="52.1190297" lon="21.1038519"></trkpt>
-      <trkpt lat="52.1189468" lon="21.1040156"></trkpt>
-      <trkpt lat="52.119008" lon="21.1040979"></trkpt>
-      <trkpt lat="52.1190909" lon="21.1039342"></trkpt>
+      <trkpt lat="52.1191272" lon="21.1039019"></trkpt>
+      <trkpt lat="52.1190658" lon="21.103818"></trkpt>
+      <trkpt lat="52.1189667" lon="21.1040105"></trkpt>
+      <trkpt lat="52.1190281" lon="21.1040943"></trkpt>
+      <trkpt lat="52.1191272" lon="21.1039019"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -62473,18 +62677,6 @@ version="1.1" creator="togpx">
       <trkpt lat="50.3578399" lon="19.1219568"></trkpt>
       <trkpt lat="50.3576598" lon="19.1218437"></trkpt>
       <trkpt lat="50.3576215" lon="19.1219945"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Lotos</name>
-    <trkseg>
-      <trkpt lat="50.3246795" lon="19.11931"></trkpt>
-      <trkpt lat="50.3247242" lon="19.1192941"></trkpt>
-      <trkpt lat="50.324777" lon="19.1192755"></trkpt>
-      <trkpt lat="50.3248392" lon="19.1192533"></trkpt>
-      <trkpt lat="50.324816" lon="19.1190932"></trkpt>
-      <trkpt lat="50.3246562" lon="19.1191497"></trkpt>
-      <trkpt lat="50.3246795" lon="19.11931"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -64564,28 +64756,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Orlen</name>
-    <trkseg>
-      <trkpt lat="51.9094133" lon="21.6052701"></trkpt>
-      <trkpt lat="51.909353" lon="21.6053176"></trkpt>
-      <trkpt lat="51.9094027" lon="21.6054834"></trkpt>
-      <trkpt lat="51.909463" lon="21.6054359"></trkpt>
-      <trkpt lat="51.9094133" lon="21.6052701"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Orlen</name>
-    <trkseg>
-      <trkpt lat="51.9097227" lon="21.6052847"></trkpt>
-      <trkpt lat="51.9096265" lon="21.6049637"></trkpt>
-      <trkpt lat="51.9096044" lon="21.6048901"></trkpt>
-      <trkpt lat="51.909499" lon="21.6049732"></trkpt>
-      <trkpt lat="51.9095197" lon="21.6050423"></trkpt>
-      <trkpt lat="51.9096173" lon="21.6053678"></trkpt>
-      <trkpt lat="51.9097227" lon="21.6052847"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>BP</name>
     <trkseg>
       <trkpt lat="51.5898414" lon="21.9839277"></trkpt>
@@ -64634,15 +64804,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>Euro Tank</name>
     <trkseg>
-      <trkpt lat="51.2331811" lon="17.4938687"></trkpt>
-      <trkpt lat="51.2331491" lon="17.4937559"></trkpt>
-      <trkpt lat="51.2331711" lon="17.4937388"></trkpt>
-      <trkpt lat="51.2331471" lon="17.4936547"></trkpt>
-      <trkpt lat="51.2331225" lon="17.4936643"></trkpt>
-      <trkpt lat="51.2329591" lon="17.4937804"></trkpt>
-      <trkpt lat="51.2330005" lon="17.4939507"></trkpt>
-      <trkpt lat="51.2330445" lon="17.4939784"></trkpt>
-      <trkpt lat="51.2331811" lon="17.4938687"></trkpt>
+      <trkpt lat="51.2331832" lon="17.4938675"></trkpt>
+      <trkpt lat="51.2331499" lon="17.4937445"></trkpt>
+      <trkpt lat="51.2331293" lon="17.4936683"></trkpt>
+      <trkpt lat="51.2331265" lon="17.4936578"></trkpt>
+      <trkpt lat="51.2329697" lon="17.4937658"></trkpt>
+      <trkpt lat="51.2329865" lon="17.4938279"></trkpt>
+      <trkpt lat="51.2329959" lon="17.4938214"></trkpt>
+      <trkpt lat="51.2330225" lon="17.49392"></trkpt>
+      <trkpt lat="51.2330403" lon="17.4939312"></trkpt>
+      <trkpt lat="51.2330581" lon="17.4939423"></trkpt>
+      <trkpt lat="51.2331326" lon="17.4938909"></trkpt>
+      <trkpt lat="51.2331352" lon="17.4939005"></trkpt>
+      <trkpt lat="51.2331832" lon="17.4938675"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -64859,11 +65033,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Circle K</name>
     <trkseg>
-      <trkpt lat="53.7479696" lon="20.2526126"></trkpt>
-      <trkpt lat="53.7478461" lon="20.2526135"></trkpt>
-      <trkpt lat="53.7478468" lon="20.2528836"></trkpt>
-      <trkpt lat="53.7479703" lon="20.2528827"></trkpt>
-      <trkpt lat="53.7479696" lon="20.2526126"></trkpt>
+      <trkpt lat="53.7481917" lon="20.2525911"></trkpt>
+      <trkpt lat="53.7478473" lon="20.252602"></trkpt>
+      <trkpt lat="53.7478468" lon="20.2528908"></trkpt>
+      <trkpt lat="53.7479716" lon="20.2528869"></trkpt>
+      <trkpt lat="53.7479698" lon="20.2528405"></trkpt>
+      <trkpt lat="53.7481939" lon="20.2528317"></trkpt>
+      <trkpt lat="53.7481917" lon="20.2525911"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -65184,7 +65360,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/238862030</name>
+    <name>Orlen</name>
     <trkseg>
       <trkpt lat="49.4997196" lon="19.1005681"></trkpt>
       <trkpt lat="49.499809" lon="19.1005869"></trkpt>
@@ -65470,6 +65646,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/239997989</name>
+    <trkseg>
+      <trkpt lat="51.8071788" lon="18.7260703"></trkpt>
+      <trkpt lat="51.8070822" lon="18.7260079"></trkpt>
+      <trkpt lat="51.8070451" lon="18.7261662"></trkpt>
+      <trkpt lat="51.8071409" lon="18.726228"></trkpt>
+      <trkpt lat="51.8071788" lon="18.7260703"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Olkop</name>
     <trkseg>
       <trkpt lat="51.6884506" lon="18.3257345"></trkpt>
@@ -65521,7 +65707,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/240330294</name>
+    <name>Orlen</name>
     <trkseg>
       <trkpt lat="53.9166555" lon="15.2035715"></trkpt>
       <trkpt lat="53.9166759" lon="15.2036317"></trkpt>
@@ -69306,8 +69492,8 @@ version="1.1" creator="togpx">
   <trk>
     <name>BP "Łysica"</name>
     <trkseg>
-      <trkpt lat="50.8776176" lon="20.646702"></trkpt>
-      <trkpt lat="50.8776138" lon="20.6467221"></trkpt>
+      <trkpt lat="50.877613" lon="20.6467268"></trkpt>
+      <trkpt lat="50.8776063" lon="20.6467347"></trkpt>
       <trkpt lat="50.8776001" lon="20.6467396"></trkpt>
       <trkpt lat="50.8775854" lon="20.6467431"></trkpt>
       <trkpt lat="50.8775688" lon="20.6467408"></trkpt>
@@ -69341,17 +69527,17 @@ version="1.1" creator="togpx">
       <trkpt lat="50.8776316" lon="20.6475528"></trkpt>
       <trkpt lat="50.8778038" lon="20.6472666"></trkpt>
       <trkpt lat="50.8778546" lon="20.6471687"></trkpt>
-      <trkpt lat="50.8779045" lon="20.647107"></trkpt>
-      <trkpt lat="50.8778461" lon="20.6470319"></trkpt>
-      <trkpt lat="50.8778259" lon="20.6470468"></trkpt>
-      <trkpt lat="50.877808" lon="20.6470556"></trkpt>
-      <trkpt lat="50.8777929" lon="20.6470572"></trkpt>
-      <trkpt lat="50.8777773" lon="20.6470532"></trkpt>
+      <trkpt lat="50.8778831" lon="20.6471295"></trkpt>
+      <trkpt lat="50.8778283" lon="20.6470456"></trkpt>
+      <trkpt lat="50.8778129" lon="20.6470582"></trkpt>
+      <trkpt lat="50.8778034" lon="20.6470602"></trkpt>
+      <trkpt lat="50.8777898" lon="20.6470614"></trkpt>
+      <trkpt lat="50.8777761" lon="20.6470501"></trkpt>
       <trkpt lat="50.8776653" lon="20.6468922"></trkpt>
       <trkpt lat="50.8776563" lon="20.6468546"></trkpt>
       <trkpt lat="50.877657" lon="20.6468244"></trkpt>
-      <trkpt lat="50.8776692" lon="20.6467771"></trkpt>
-      <trkpt lat="50.8776176" lon="20.646702"></trkpt>
+      <trkpt lat="50.8776637" lon="20.6468027"></trkpt>
+      <trkpt lat="50.877613" lon="20.6467268"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -70576,7 +70762,10 @@ version="1.1" creator="togpx">
       <trkpt lat="52.3133691" lon="21.1830714"></trkpt>
       <trkpt lat="52.3127333" lon="21.1824472"></trkpt>
       <trkpt lat="52.3124804" lon="21.1826985"></trkpt>
-      <trkpt lat="52.3127985" lon="21.1840423"></trkpt>
+      <trkpt lat="52.3125942" lon="21.183056"></trkpt>
+      <trkpt lat="52.3126262" lon="21.1832235"></trkpt>
+      <trkpt lat="52.3126814" lon="21.1835409"></trkpt>
+      <trkpt lat="52.3128486" lon="21.1839971"></trkpt>
       <trkpt lat="52.3129887" lon="21.183935"></trkpt>
     </trkseg>
   </trk>
@@ -71771,16 +71960,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>F1</name>
-    <trkseg>
-      <trkpt lat="51.1799108" lon="17.1973197"></trkpt>
-      <trkpt lat="51.1798466" lon="17.1973511"></trkpt>
-      <trkpt lat="51.1798817" lon="17.1975334"></trkpt>
-      <trkpt lat="51.1799459" lon="17.1975019"></trkpt>
-      <trkpt lat="51.1799108" lon="17.1973197"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Shell Select</name>
     <trkseg>
       <trkpt lat="49.2879024" lon="19.971071"></trkpt>
@@ -71975,13 +72154,13 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>LOTOS OPTIMA</name>
+    <name>Lotos Optima</name>
     <trkseg>
-      <trkpt lat="52.2005436" lon="21.4521675"></trkpt>
-      <trkpt lat="52.199685" lon="21.452539"></trkpt>
-      <trkpt lat="52.1997874" lon="21.4531692"></trkpt>
-      <trkpt lat="52.2006461" lon="21.4527977"></trkpt>
-      <trkpt lat="52.2005436" lon="21.4521675"></trkpt>
+      <trkpt lat="52.2005089" lon="21.4522418"></trkpt>
+      <trkpt lat="52.1996463" lon="21.4526099"></trkpt>
+      <trkpt lat="52.1996656" lon="21.4532231"></trkpt>
+      <trkpt lat="52.2006005" lon="21.4528366"></trkpt>
+      <trkpt lat="52.2005089" lon="21.4522418"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -72526,7 +72705,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Bliska</name>
+    <name>Orlen</name>
     <trkseg>
       <trkpt lat="51.4690694" lon="16.6141147"></trkpt>
       <trkpt lat="51.4690697" lon="16.6140806"></trkpt>
@@ -73713,7 +73892,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/313272725</name>
+    <name>BP</name>
     <trkseg>
       <trkpt lat="52.7807907" lon="18.2591683"></trkpt>
       <trkpt lat="52.7806998" lon="18.2591583"></trkpt>
@@ -73724,23 +73903,6 @@ version="1.1" creator="togpx">
       <trkpt lat="52.7806857" lon="18.2595782"></trkpt>
       <trkpt lat="52.780774" lon="18.2595878"></trkpt>
       <trkpt lat="52.7807907" lon="18.2591683"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Circle K</name>
-    <trkseg>
-      <trkpt lat="51.7911718" lon="19.4498799"></trkpt>
-      <trkpt lat="51.7911508" lon="19.4498038"></trkpt>
-      <trkpt lat="51.7911027" lon="19.4496388"></trkpt>
-      <trkpt lat="51.7910812" lon="19.4495612"></trkpt>
-      <trkpt lat="51.7910709" lon="19.449569"></trkpt>
-      <trkpt lat="51.7910257" lon="19.4496031"></trkpt>
-      <trkpt lat="51.7909837" lon="19.4496349"></trkpt>
-      <trkpt lat="51.7909404" lon="19.4496676"></trkpt>
-      <trkpt lat="51.7909786" lon="19.4498046"></trkpt>
-      <trkpt lat="51.7910082" lon="19.4499107"></trkpt>
-      <trkpt lat="51.7910292" lon="19.449986"></trkpt>
-      <trkpt lat="51.7911718" lon="19.4498799"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -75043,12 +75205,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>BP Bibice</name>
     <trkseg>
-      <trkpt lat="50.1334825" lon="19.9666046"></trkpt>
-      <trkpt lat="50.1334096" lon="19.9665735"></trkpt>
-      <trkpt lat="50.1333908" lon="19.966675"></trkpt>
-      <trkpt lat="50.1333787" lon="19.9667523"></trkpt>
-      <trkpt lat="50.1334514" lon="19.966783"></trkpt>
-      <trkpt lat="50.1334825" lon="19.9666046"></trkpt>
+      <trkpt lat="50.1334797" lon="19.9665786"></trkpt>
+      <trkpt lat="50.1334098" lon="19.9665508"></trkpt>
+      <trkpt lat="50.1333906" lon="19.9666643"></trkpt>
+      <trkpt lat="50.133377" lon="19.9667439"></trkpt>
+      <trkpt lat="50.133447" lon="19.9667727"></trkpt>
+      <trkpt lat="50.1334797" lon="19.9665786"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -75367,6 +75529,7 @@ version="1.1" creator="togpx">
       <trkpt lat="49.7367019" lon="21.4662432"></trkpt>
       <trkpt lat="49.7364298" lon="21.4661159"></trkpt>
       <trkpt lat="49.7363859" lon="21.4663404"></trkpt>
+      <trkpt lat="49.7363667" lon="21.4664386"></trkpt>
       <trkpt lat="49.7363384" lon="21.4665835"></trkpt>
       <trkpt lat="49.7366105" lon="21.4667107"></trkpt>
       <trkpt lat="49.7367019" lon="21.4662432"></trkpt>
@@ -75700,7 +75863,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Statoil</name>
+    <name>Circle K</name>
     <trkseg>
       <trkpt lat="50.7935395" lon="19.1337241"></trkpt>
       <trkpt lat="50.7934763" lon="19.133795"></trkpt>
@@ -77139,6 +77302,18 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="49.5940735" lon="19.9297414"></trkpt>
+      <trkpt lat="49.5940441" lon="19.9297609"></trkpt>
+      <trkpt lat="49.5939519" lon="19.9294327"></trkpt>
+      <trkpt lat="49.5938713" lon="19.9294864"></trkpt>
+      <trkpt lat="49.5940189" lon="19.9300123"></trkpt>
+      <trkpt lat="49.5941289" lon="19.9299392"></trkpt>
+      <trkpt lat="49.5940735" lon="19.9297414"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/345553102</name>
     <trkseg>
       <trkpt lat="52.2076887" lon="17.4852176"></trkpt>
@@ -78511,6 +78686,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="51.090644" lon="19.8671501"></trkpt>
+      <trkpt lat="51.0906056" lon="19.8672496"></trkpt>
+      <trkpt lat="51.0906508" lon="19.8672938"></trkpt>
+      <trkpt lat="51.0906892" lon="19.8671942"></trkpt>
+      <trkpt lat="51.090644" lon="19.8671501"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/361320856</name>
     <trkseg>
       <trkpt lat="53.528001" lon="18.2081902"></trkpt>
@@ -79012,11 +79197,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>BP Miłocin</name>
     <trkseg>
-      <trkpt lat="50.0633975" lon="21.993687"></trkpt>
-      <trkpt lat="50.0633655" lon="21.9934937"></trkpt>
-      <trkpt lat="50.0632109" lon="21.9935555"></trkpt>
-      <trkpt lat="50.0632429" lon="21.9937489"></trkpt>
-      <trkpt lat="50.0633975" lon="21.993687"></trkpt>
+      <trkpt lat="50.0633811" lon="21.9936576"></trkpt>
+      <trkpt lat="50.0633531" lon="21.9934964"></trkpt>
+      <trkpt lat="50.0631332" lon="21.9935893"></trkpt>
+      <trkpt lat="50.0631612" lon="21.9937501"></trkpt>
+      <trkpt lat="50.0632304" lon="21.9937209"></trkpt>
+      <trkpt lat="50.0632359" lon="21.9937525"></trkpt>
+      <trkpt lat="50.0632839" lon="21.9937323"></trkpt>
+      <trkpt lat="50.0632784" lon="21.993701"></trkpt>
+      <trkpt lat="50.0633811" lon="21.9936576"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -79713,15 +79902,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/369925510</name>
     <trkseg>
-      <trkpt lat="51.2449046" lon="22.1070046"></trkpt>
-      <trkpt lat="51.2448169" lon="22.1070092"></trkpt>
-      <trkpt lat="51.2448191" lon="22.1071139"></trkpt>
-      <trkpt lat="51.2448534" lon="22.1071121"></trkpt>
-      <trkpt lat="51.2448564" lon="22.1072571"></trkpt>
-      <trkpt lat="51.2449911" lon="22.10725"></trkpt>
-      <trkpt lat="51.2449872" lon="22.1070653"></trkpt>
-      <trkpt lat="51.244918" lon="22.1070689"></trkpt>
-      <trkpt lat="51.2449046" lon="22.1070046"></trkpt>
+      <trkpt lat="51.2449427" lon="22.1071617"></trkpt>
+      <trkpt lat="51.2449371" lon="22.1070346"></trkpt>
+      <trkpt lat="51.2448513" lon="22.1070442"></trkpt>
+      <trkpt lat="51.2448569" lon="22.1071714"></trkpt>
+      <trkpt lat="51.2449218" lon="22.1071641"></trkpt>
+      <trkpt lat="51.2449427" lon="22.1071617"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -81015,8 +81201,8 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <trkseg>
       <trkpt lat="52.1698274" lon="20.9363017"></trkpt>
-      <trkpt lat="52.1699553" lon="20.9364412"></trkpt>
-      <trkpt lat="52.1700107" lon="20.9362929"></trkpt>
+      <trkpt lat="52.1699476" lon="20.9364474"></trkpt>
+      <trkpt lat="52.170008" lon="20.9363045"></trkpt>
       <trkpt lat="52.1698015" lon="20.9360725"></trkpt>
       <trkpt lat="52.1698274" lon="20.9363017"></trkpt>
     </trkseg>
@@ -81977,7 +82163,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Total Sękowo</name>
+    <name>Total</name>
     <trkseg>
       <trkpt lat="52.4929307" lon="16.4309621"></trkpt>
       <trkpt lat="52.4929388" lon="16.4307822"></trkpt>
@@ -81994,16 +82180,6 @@ version="1.1" creator="togpx">
       <trkpt lat="51.2513685" lon="15.579701"></trkpt>
       <trkpt lat="51.2514295" lon="15.5796407"></trkpt>
       <trkpt lat="51.2513639" lon="15.5794714"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Lotos Optima</name>
-    <trkseg>
-      <trkpt lat="52.6994888" lon="18.8007819"></trkpt>
-      <trkpt lat="52.6994335" lon="18.8009368"></trkpt>
-      <trkpt lat="52.6995323" lon="18.8010347"></trkpt>
-      <trkpt lat="52.6995886" lon="18.8008772"></trkpt>
-      <trkpt lat="52.6994888" lon="18.8007819"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -82321,7 +82497,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Orlen 4247</name>
+    <name>Orlen</name>
     <trkseg>
       <trkpt lat="52.9618356" lon="14.6156892"></trkpt>
       <trkpt lat="52.9616344" lon="14.6156976"></trkpt>
@@ -82748,7 +82924,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/409584112</name>
+    <name>Station Service E. Leclerc</name>
     <trkseg>
       <trkpt lat="51.2032046" lon="17.3862511"></trkpt>
       <trkpt lat="51.2030456" lon="17.3861714"></trkpt>
@@ -83623,7 +83799,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Stacja Paliw KRAK-TAR</name>
+    <name>Krak-Tar</name>
     <trkseg>
       <trkpt lat="52.8991154" lon="18.4241702"></trkpt>
       <trkpt lat="52.8990596" lon="18.4242052"></trkpt>
@@ -83840,7 +84016,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Shell</name>
+    <name>Wagat</name>
     <trkseg>
       <trkpt lat="52.5260931" lon="21.6809351"></trkpt>
       <trkpt lat="52.5260592" lon="21.6811546"></trkpt>
@@ -85510,16 +85686,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ARLIN</name>
-    <trkseg>
-      <trkpt lat="50.4607481" lon="19.6562929"></trkpt>
-      <trkpt lat="50.4600856" lon="19.6564351"></trkpt>
-      <trkpt lat="50.4601642" lon="19.6572505"></trkpt>
-      <trkpt lat="50.4608267" lon="19.6571432"></trkpt>
-      <trkpt lat="50.4607481" lon="19.6562929"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Intermarché</name>
     <trkseg>
       <trkpt lat="52.3491135" lon="14.5657712"></trkpt>
@@ -85916,8 +86082,8 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <trkseg>
       <trkpt lat="54.2077608" lon="21.7482609"></trkpt>
-      <trkpt lat="54.2075658" lon="21.7481256"></trkpt>
-      <trkpt lat="54.2074927" lon="21.7484339"></trkpt>
+      <trkpt lat="54.2075656" lon="21.7481015"></trkpt>
+      <trkpt lat="54.2074897" lon="21.7484303"></trkpt>
       <trkpt lat="54.2076876" lon="21.7485691"></trkpt>
       <trkpt lat="54.207716" lon="21.7484484"></trkpt>
       <trkpt lat="54.2078202" lon="21.748514"></trkpt>
@@ -86848,11 +87014,9 @@ version="1.1" creator="togpx">
       <trkpt lat="50.1015856" lon="18.5458848"></trkpt>
       <trkpt lat="50.1015851" lon="18.5459344"></trkpt>
       <trkpt lat="50.1015973" lon="18.5459859"></trkpt>
-      <trkpt lat="50.1018013" lon="18.5460644"></trkpt>
-      <trkpt lat="50.1018132" lon="18.5460643"></trkpt>
-      <trkpt lat="50.1018248" lon="18.5460608"></trkpt>
-      <trkpt lat="50.1018371" lon="18.5460536"></trkpt>
-      <trkpt lat="50.1018479" lon="18.5460432"></trkpt>
+      <trkpt lat="50.1017361" lon="18.5460198"></trkpt>
+      <trkpt lat="50.1018122" lon="18.5460079"></trkpt>
+      <trkpt lat="50.1018468" lon="18.5459974"></trkpt>
       <trkpt lat="50.1019033" lon="18.5456717"></trkpt>
     </trkseg>
   </trk>
@@ -87834,7 +87998,7 @@ version="1.1" creator="togpx">
     <name>Orlen</name>
     <trkseg>
       <trkpt lat="50.2559027" lon="19.186648"></trkpt>
-      <trkpt lat="50.2554262" lon="19.1877906"></trkpt>
+      <trkpt lat="50.2554148" lon="19.1877881"></trkpt>
       <trkpt lat="50.2554507" lon="19.1878113"></trkpt>
       <trkpt lat="50.2557362" lon="19.1880864"></trkpt>
       <trkpt lat="50.2557831" lon="19.1881333"></trkpt>
@@ -88274,13 +88438,13 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/551363982</name>
+    <name>Majka</name>
     <trkseg>
-      <trkpt lat="51.0973406" lon="19.8752692"></trkpt>
-      <trkpt lat="51.0973778" lon="19.8752024"></trkpt>
-      <trkpt lat="51.0973483" lon="19.8751608"></trkpt>
-      <trkpt lat="51.0973111" lon="19.8752276"></trkpt>
-      <trkpt lat="51.0973406" lon="19.8752692"></trkpt>
+      <trkpt lat="51.0972928" lon="19.8753144"></trkpt>
+      <trkpt lat="51.09733" lon="19.8752476"></trkpt>
+      <trkpt lat="51.0973005" lon="19.8752059"></trkpt>
+      <trkpt lat="51.0972633" lon="19.8752728"></trkpt>
+      <trkpt lat="51.0972928" lon="19.8753144"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -88789,7 +88953,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/568654352</name>
+    <name>Olkop</name>
     <trkseg>
       <trkpt lat="52.6784079" lon="18.3136211"></trkpt>
       <trkpt lat="52.6783067" lon="18.3137595"></trkpt>
@@ -88902,7 +89066,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Lotos</name>
+    <name>Stacja paliw Moya</name>
     <trkseg>
       <trkpt lat="54.1475661" lon="19.3879609"></trkpt>
       <trkpt lat="54.1474916" lon="19.3878358"></trkpt>
@@ -89675,6 +89839,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Shell</name>
+    <trkseg>
+      <trkpt lat="51.3558709" lon="18.5239813"></trkpt>
+      <trkpt lat="51.3560321" lon="18.523714"></trkpt>
+      <trkpt lat="51.3559395" lon="18.5235708"></trkpt>
+      <trkpt lat="51.3559035" lon="18.5236305"></trkpt>
+      <trkpt lat="51.3557783" lon="18.5238381"></trkpt>
+      <trkpt lat="51.3558709" lon="18.5239813"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>BP</name>
     <trkseg>
       <trkpt lat="52.1821078" lon="20.7833618"></trkpt>
@@ -89948,6 +90123,16 @@ version="1.1" creator="togpx">
       <trkpt lat="50.6516378" lon="21.2606179"></trkpt>
       <trkpt lat="50.6516972" lon="21.2606272"></trkpt>
       <trkpt lat="50.6516996" lon="21.2605884"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/640374568</name>
+    <trkseg>
+      <trkpt lat="50.2687379" lon="22.3960804"></trkpt>
+      <trkpt lat="50.2687063" lon="22.3960891"></trkpt>
+      <trkpt lat="50.2687206" lon="22.3962167"></trkpt>
+      <trkpt lat="50.2687522" lon="22.3962081"></trkpt>
+      <trkpt lat="50.2687379" lon="22.3960804"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -90826,8 +91011,8 @@ version="1.1" creator="togpx">
       <trkpt lat="51.7228811" lon="19.6447612"></trkpt>
       <trkpt lat="51.7228993" lon="19.6447255"></trkpt>
       <trkpt lat="51.722875" lon="19.6446932"></trkpt>
-      <trkpt lat="51.7229043" lon="19.6446414"></trkpt>
-      <trkpt lat="51.7229622" lon="19.6445387"></trkpt>
+      <trkpt lat="51.7229044" lon="19.644644"></trkpt>
+      <trkpt lat="51.7229649" lon="19.6445385"></trkpt>
       <trkpt lat="51.7229954" lon="19.6444773"></trkpt>
       <trkpt lat="51.7230121" lon="19.6445024"></trkpt>
       <trkpt lat="51.7230402" lon="19.6444536"></trkpt>
@@ -91091,7 +91276,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>DarGaz</name>
+    <name>way/680185530</name>
     <trkseg>
       <trkpt lat="52.4075219" lon="22.2197556"></trkpt>
       <trkpt lat="52.407463" lon="22.2197619"></trkpt>
@@ -91627,11 +91812,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/697411333</name>
     <trkseg>
-      <trkpt lat="51.0875091" lon="19.8533408"></trkpt>
-      <trkpt lat="51.0874541" lon="19.8533628"></trkpt>
-      <trkpt lat="51.0874679" lon="19.85345"></trkpt>
-      <trkpt lat="51.0875228" lon="19.853428"></trkpt>
-      <trkpt lat="51.0875091" lon="19.8533408"></trkpt>
+      <trkpt lat="51.0874792" lon="19.8533788"></trkpt>
+      <trkpt lat="51.0874242" lon="19.8534008"></trkpt>
+      <trkpt lat="51.087438" lon="19.853488"></trkpt>
+      <trkpt lat="51.0874929" lon="19.853466"></trkpt>
+      <trkpt lat="51.0874792" lon="19.8533788"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -93420,16 +93605,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Orlen</name>
-    <trkseg>
-      <trkpt lat="50.3192726" lon="19.0785098"></trkpt>
-      <trkpt lat="50.3191637" lon="19.078711"></trkpt>
-      <trkpt lat="50.3192197" lon="19.0787811"></trkpt>
-      <trkpt lat="50.3193256" lon="19.0785818"></trkpt>
-      <trkpt lat="50.3192726" lon="19.0785098"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/764091920</name>
     <trkseg>
       <trkpt lat="52.0972729" lon="18.5922651"></trkpt>
@@ -93546,6 +93721,56 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="52.7449314" lon="15.158449"></trkpt>
+      <trkpt lat="52.745307" lon="15.1567624"></trkpt>
+      <trkpt lat="52.7453095" lon="15.1567498"></trkpt>
+      <trkpt lat="52.7453138" lon="15.1567139"></trkpt>
+      <trkpt lat="52.7453157" lon="15.1566829"></trkpt>
+      <trkpt lat="52.7453132" lon="15.1566535"></trkpt>
+      <trkpt lat="52.7453097" lon="15.1566265"></trkpt>
+      <trkpt lat="52.7453027" lon="15.1565939"></trkpt>
+      <trkpt lat="52.7452953" lon="15.1565637"></trkpt>
+      <trkpt lat="52.7452852" lon="15.156537"></trkpt>
+      <trkpt lat="52.7452749" lon="15.1565128"></trkpt>
+      <trkpt lat="52.74526" lon="15.1564918"></trkpt>
+      <trkpt lat="52.7452452" lon="15.1564734"></trkpt>
+      <trkpt lat="52.7452311" lon="15.156456"></trkpt>
+      <trkpt lat="52.7452141" lon="15.1564401"></trkpt>
+      <trkpt lat="52.7452015" lon="15.1564311"></trkpt>
+      <trkpt lat="52.7445544" lon="15.1560069"></trkpt>
+      <trkpt lat="52.7445316" lon="15.1561066"></trkpt>
+      <trkpt lat="52.7447234" lon="15.1562363"></trkpt>
+      <trkpt lat="52.7447575" lon="15.1562756"></trkpt>
+      <trkpt lat="52.7447752" lon="15.1563001"></trkpt>
+      <trkpt lat="52.7447854" lon="15.1563175"></trkpt>
+      <trkpt lat="52.744792" lon="15.1563331"></trkpt>
+      <trkpt lat="52.7447983" lon="15.1563501"></trkpt>
+      <trkpt lat="52.7448033" lon="15.1563665"></trkpt>
+      <trkpt lat="52.7448073" lon="15.1563817"></trkpt>
+      <trkpt lat="52.7448107" lon="15.1563962"></trkpt>
+      <trkpt lat="52.7448138" lon="15.1564152"></trkpt>
+      <trkpt lat="52.7448161" lon="15.1564387"></trkpt>
+      <trkpt lat="52.7448174" lon="15.1564639"></trkpt>
+      <trkpt lat="52.7448175" lon="15.1564846"></trkpt>
+      <trkpt lat="52.744817" lon="15.1565064"></trkpt>
+      <trkpt lat="52.7448157" lon="15.1565196"></trkpt>
+      <trkpt lat="52.7448109" lon="15.1565428"></trkpt>
+      <trkpt lat="52.7447758" lon="15.1567128"></trkpt>
+      <trkpt lat="52.7447734" lon="15.1567391"></trkpt>
+      <trkpt lat="52.7447731" lon="15.1567668"></trkpt>
+      <trkpt lat="52.7447719" lon="15.1568032"></trkpt>
+      <trkpt lat="52.7447725" lon="15.1568227"></trkpt>
+      <trkpt lat="52.7447752" lon="15.1568433"></trkpt>
+      <trkpt lat="52.7447785" lon="15.1568618"></trkpt>
+      <trkpt lat="52.7448043" lon="15.1570909"></trkpt>
+      <trkpt lat="52.7448596" lon="15.1571229"></trkpt>
+      <trkpt lat="52.7446046" lon="15.158254"></trkpt>
+      <trkpt lat="52.7449314" lon="15.158449"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>e-co</name>
     <trkseg>
       <trkpt lat="52.5519212" lon="19.724635"></trkpt>
@@ -93553,16 +93778,6 @@ version="1.1" creator="togpx">
       <trkpt lat="52.5518281" lon="19.7248148"></trkpt>
       <trkpt lat="52.5519463" lon="19.7247324"></trkpt>
       <trkpt lat="52.5519212" lon="19.724635"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Lotos</name>
-    <trkseg>
-      <trkpt lat="50.3245394" lon="19.1188606"></trkpt>
-      <trkpt lat="50.3245543" lon="19.1189612"></trkpt>
-      <trkpt lat="50.3247957" lon="19.1188779"></trkpt>
-      <trkpt lat="50.3247821" lon="19.1187732"></trkpt>
-      <trkpt lat="50.3245394" lon="19.1188606"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -93758,8 +93973,10 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="52.5843443" lon="22.1540632"></trkpt>
       <trkpt lat="52.5842258" lon="22.1540894"></trkpt>
+      <trkpt lat="52.5842284" lon="22.1541215"></trkpt>
       <trkpt lat="52.5842375" lon="22.1542329"></trkpt>
       <trkpt lat="52.5843559" lon="22.1542067"></trkpt>
+      <trkpt lat="52.5843477" lon="22.1541054"></trkpt>
       <trkpt lat="52.5843443" lon="22.1540632"></trkpt>
     </trkseg>
   </trk>
@@ -94433,8 +94650,9 @@ version="1.1" creator="togpx">
       <trkpt lat="50.5496016" lon="22.7381474"></trkpt>
       <trkpt lat="50.5495755" lon="22.7377005"></trkpt>
       <trkpt lat="50.5496114" lon="22.7376489"></trkpt>
-      <trkpt lat="50.5497273" lon="22.7377655"></trkpt>
-      <trkpt lat="50.5496829" lon="22.7374544"></trkpt>
+      <trkpt lat="50.5497508" lon="22.7377505"></trkpt>
+      <trkpt lat="50.5497195" lon="22.7374384"></trkpt>
+      <trkpt lat="50.5496427" lon="22.7375266"></trkpt>
       <trkpt lat="50.5495732" lon="22.7375661"></trkpt>
       <trkpt lat="50.5494828" lon="22.7375661"></trkpt>
       <trkpt lat="50.5492426" lon="22.738241"></trkpt>
@@ -94694,11 +94912,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Circle K</name>
     <trkseg>
-      <trkpt lat="52.2220699" lon="21.1057877"></trkpt>
-      <trkpt lat="52.2220174" lon="21.1055356"></trkpt>
-      <trkpt lat="52.2218843" lon="21.105608"></trkpt>
-      <trkpt lat="52.2219401" lon="21.1058601"></trkpt>
-      <trkpt lat="52.2220699" lon="21.1057877"></trkpt>
+      <trkpt lat="52.2220697" lon="21.1057832"></trkpt>
+      <trkpt lat="52.2220154" lon="21.1055312"></trkpt>
+      <trkpt lat="52.2218846" lon="21.1056063"></trkpt>
+      <trkpt lat="52.2219389" lon="21.1058583"></trkpt>
+      <trkpt lat="52.2220697" lon="21.1057832"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -94776,6 +94994,229 @@ version="1.1" creator="togpx">
       <trkpt lat="51.8835776" lon="17.0659701"></trkpt>
       <trkpt lat="51.8837152" lon="17.0659361"></trkpt>
       <trkpt lat="51.883704" lon="17.0658165"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Intermarché</name>
+    <trkseg>
+      <trkpt lat="50.6824304" lon="16.6197637"></trkpt>
+      <trkpt lat="50.6822548" lon="16.6199232"></trkpt>
+      <trkpt lat="50.6824668" lon="16.620504"></trkpt>
+      <trkpt lat="50.6826423" lon="16.6203444"></trkpt>
+      <trkpt lat="50.6824304" lon="16.6197637"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/834308715</name>
+    <trkseg>
+      <trkpt lat="52.4449992" lon="21.3177301"></trkpt>
+      <trkpt lat="52.445063" lon="21.3180177"></trkpt>
+      <trkpt lat="52.4451347" lon="21.3179748"></trkpt>
+      <trkpt lat="52.445071" lon="21.3176873"></trkpt>
+      <trkpt lat="52.4449992" lon="21.3177301"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>BP</name>
+    <trkseg>
+      <trkpt lat="54.5255951" lon="18.5154726"></trkpt>
+      <trkpt lat="54.5251075" lon="18.5167366"></trkpt>
+      <trkpt lat="54.5252456" lon="18.5169028"></trkpt>
+      <trkpt lat="54.5257554" lon="18.5156603"></trkpt>
+      <trkpt lat="54.5255951" lon="18.5154726"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Arlin</name>
+    <trkseg>
+      <trkpt lat="50.4604568" lon="19.6568501"></trkpt>
+      <trkpt lat="50.4603084" lon="19.6564692"></trkpt>
+      <trkpt lat="50.4601843" lon="19.6565885"></trkpt>
+      <trkpt lat="50.4603327" lon="19.6569695"></trkpt>
+      <trkpt lat="50.4604568" lon="19.6568501"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/835800679</name>
+    <trkseg>
+      <trkpt lat="52.9627603" lon="16.9335848"></trkpt>
+      <trkpt lat="52.9627367" lon="16.9334194"></trkpt>
+      <trkpt lat="52.9626578" lon="16.9334477"></trkpt>
+      <trkpt lat="52.9626818" lon="16.9336172"></trkpt>
+      <trkpt lat="52.9627603" lon="16.9335848"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="51.9099922" lon="21.6051681"></trkpt>
+      <trkpt lat="51.9099249" lon="21.6049451"></trkpt>
+      <trkpt lat="51.9099036" lon="21.6049516"></trkpt>
+      <trkpt lat="51.909883" lon="21.6049522"></trkpt>
+      <trkpt lat="51.9098523" lon="21.604948"></trkpt>
+      <trkpt lat="51.9098329" lon="21.6049415"></trkpt>
+      <trkpt lat="51.9098164" lon="21.6049269"></trkpt>
+      <trkpt lat="51.9097995" lon="21.6048844"></trkpt>
+      <trkpt lat="51.9097848" lon="21.6048378"></trkpt>
+      <trkpt lat="51.9097357" lon="21.6046586"></trkpt>
+      <trkpt lat="51.9097086" lon="21.6045549"></trkpt>
+      <trkpt lat="51.9096837" lon="21.6044536"></trkpt>
+      <trkpt lat="51.9091267" lon="21.604845"></trkpt>
+      <trkpt lat="51.9094326" lon="21.6058278"></trkpt>
+      <trkpt lat="51.9099289" lon="21.6054566"></trkpt>
+      <trkpt lat="51.9099147" lon="21.6053999"></trkpt>
+      <trkpt lat="51.9099922" lon="21.6053362"></trkpt>
+      <trkpt lat="51.9099529" lon="21.6051982"></trkpt>
+      <trkpt lat="51.9099922" lon="21.6051681"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell</name>
+    <trkseg>
+      <trkpt lat="50.2567361" lon="19.1890918"></trkpt>
+      <trkpt lat="50.2571692" lon="19.1879391"></trkpt>
+      <trkpt lat="50.2568646" lon="19.187564"></trkpt>
+      <trkpt lat="50.2564975" lon="19.1875961"></trkpt>
+      <trkpt lat="50.2562889" lon="19.1879348"></trkpt>
+      <trkpt lat="50.2560988" lon="19.1883951"></trkpt>
+      <trkpt lat="50.2567361" lon="19.1890918"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>stacja paliw - biopaliwo</name>
+    <trkseg>
+      <trkpt lat="52.2689705" lon="21.0772911"></trkpt>
+      <trkpt lat="52.2689934" lon="21.0773515"></trkpt>
+      <trkpt lat="52.2690302" lon="21.0773154"></trkpt>
+      <trkpt lat="52.2690048" lon="21.0772529"></trkpt>
+      <trkpt lat="52.2689705" lon="21.0772911"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/837560473</name>
+    <trkseg>
+      <trkpt lat="50.7083892" lon="18.7489053"></trkpt>
+      <trkpt lat="50.7083309" lon="18.7485956"></trkpt>
+      <trkpt lat="50.7081303" lon="18.7484629"></trkpt>
+      <trkpt lat="50.7080597" lon="18.7485355"></trkpt>
+      <trkpt lat="50.7081124" lon="18.7489779"></trkpt>
+      <trkpt lat="50.7083892" lon="18.7489053"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/837842015</name>
+    <trkseg>
+      <trkpt lat="51.249315" lon="22.6049644"></trkpt>
+      <trkpt lat="51.2492805" lon="22.6049504"></trkpt>
+      <trkpt lat="51.2492509" lon="22.6051373"></trkpt>
+      <trkpt lat="51.2492853" lon="22.6051512"></trkpt>
+      <trkpt lat="51.249315" lon="22.6049644"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Circle K</name>
+    <trkseg>
+      <trkpt lat="53.6510801" lon="20.0506709"></trkpt>
+      <trkpt lat="53.6509312" lon="20.0506481"></trkpt>
+      <trkpt lat="53.6509233" lon="20.0507934"></trkpt>
+      <trkpt lat="53.6509857" lon="20.050803"></trkpt>
+      <trkpt lat="53.6510723" lon="20.0508163"></trkpt>
+      <trkpt lat="53.6510741" lon="20.0507813"></trkpt>
+      <trkpt lat="53.6510801" lon="20.0506709"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Circle K</name>
+    <trkseg>
+      <trkpt lat="51.7911716" lon="19.4498826"></trkpt>
+      <trkpt lat="51.7911504" lon="19.4498041"></trkpt>
+      <trkpt lat="51.7911052" lon="19.449637"></trkpt>
+      <trkpt lat="51.7910848" lon="19.4495616"></trkpt>
+      <trkpt lat="51.7910714" lon="19.449571"></trkpt>
+      <trkpt lat="51.7910258" lon="19.4496033"></trkpt>
+      <trkpt lat="51.7909833" lon="19.4496334"></trkpt>
+      <trkpt lat="51.7909427" lon="19.4496621"></trkpt>
+      <trkpt lat="51.7909809" lon="19.449803"></trkpt>
+      <trkpt lat="51.7910097" lon="19.4499096"></trkpt>
+      <trkpt lat="51.7910296" lon="19.4499831"></trkpt>
+      <trkpt lat="51.7911716" lon="19.4498826"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Lotos</name>
+    <trkseg>
+      <trkpt lat="50.3249178" lon="19.1193665"></trkpt>
+      <trkpt lat="50.3247915" lon="19.1184487"></trkpt>
+      <trkpt lat="50.3243871" lon="19.1184415"></trkpt>
+      <trkpt lat="50.3243264" lon="19.1184593"></trkpt>
+      <trkpt lat="50.3243514" lon="19.1187374"></trkpt>
+      <trkpt lat="50.3245282" lon="19.1192686"></trkpt>
+      <trkpt lat="50.3246761" lon="19.1193685"></trkpt>
+      <trkpt lat="50.324714" lon="19.1194476"></trkpt>
+      <trkpt lat="50.3249178" lon="19.1193665"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="50.3192176" lon="19.0782202"></trkpt>
+      <trkpt lat="50.3191076" lon="19.0782772"></trkpt>
+      <trkpt lat="50.3189755" lon="19.078522"></trkpt>
+      <trkpt lat="50.3189604" lon="19.0790485"></trkpt>
+      <trkpt lat="50.3190841" lon="19.0791115"></trkpt>
+      <trkpt lat="50.3191994" lon="19.0789879"></trkpt>
+      <trkpt lat="50.3194369" lon="19.0784674"></trkpt>
+      <trkpt lat="50.3194369" lon="19.0782487"></trkpt>
+      <trkpt lat="50.3192176" lon="19.0782202"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Circle K</name>
+    <trkseg>
+      <trkpt lat="50.3170967" lon="19.0708212"></trkpt>
+      <trkpt lat="50.3170481" lon="19.0707059"></trkpt>
+      <trkpt lat="50.316907" lon="19.0706703"></trkpt>
+      <trkpt lat="50.3166839" lon="19.0706845"></trkpt>
+      <trkpt lat="50.3166277" lon="19.0707404"></trkpt>
+      <trkpt lat="50.3166323" lon="19.0709555"></trkpt>
+      <trkpt lat="50.3167491" lon="19.0712538"></trkpt>
+      <trkpt lat="50.3170534" lon="19.0713073"></trkpt>
+      <trkpt lat="50.3170967" lon="19.0708212"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="52.7397024" lon="15.1900496"></trkpt>
+      <trkpt lat="52.739005" lon="15.1895372"></trkpt>
+      <trkpt lat="52.7388126" lon="15.1902557"></trkpt>
+      <trkpt lat="52.7388756" lon="15.1903013"></trkpt>
+      <trkpt lat="52.7388053" lon="15.1905665"></trkpt>
+      <trkpt lat="52.7388603" lon="15.1906063"></trkpt>
+      <trkpt lat="52.7388162" lon="15.1907737"></trkpt>
+      <trkpt lat="52.7391355" lon="15.1909872"></trkpt>
+      <trkpt lat="52.7391162" lon="15.1910659"></trkpt>
+      <trkpt lat="52.7394601" lon="15.1913148"></trkpt>
+      <trkpt lat="52.7397818" lon="15.1901023"></trkpt>
+      <trkpt lat="52.7397024" lon="15.1900496"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>S</name>
+    <trkseg>
+      <trkpt lat="52.3579451" lon="21.2705995"></trkpt>
+      <trkpt lat="52.3579007" lon="21.2706469"></trkpt>
+      <trkpt lat="52.3578555" lon="21.2706981"></trkpt>
+      <trkpt lat="52.3577676" lon="21.2706326"></trkpt>
+      <trkpt lat="52.357593" lon="21.2707705"></trkpt>
+      <trkpt lat="52.3575991" lon="21.2708479"></trkpt>
+      <trkpt lat="52.3578464" lon="21.2717512"></trkpt>
+      <trkpt lat="52.3578591" lon="21.2718067"></trkpt>
+      <trkpt lat="52.3578494" lon="21.2718613"></trkpt>
+      <trkpt lat="52.3578712" lon="21.2719586"></trkpt>
+      <trkpt lat="52.3583562" lon="21.2715586"></trkpt>
+      <trkpt lat="52.3582918" lon="21.2714102"></trkpt>
+      <trkpt lat="52.3579451" lon="21.2705995"></trkpt>
     </trkseg>
   </trk>
   <trk>
