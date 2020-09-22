@@ -8,7 +8,7 @@ Feed your routing applications OFFLINE.
     
 - Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are instead also suitable for campers with tent etc.
 
-    - 15028 caravansites    ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 15028 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
