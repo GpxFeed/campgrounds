@@ -4,12 +4,16 @@ Feed your routing applications OFFLINE.
 
 - Camping site pois
 
-    - 44408 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 44427 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    
+- Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are instead also suitable for campers with tent etc.
+
+    - 15028 caravansites    ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
-    - 195211 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 160916 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 195240 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 160939 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 The whole story is primarily intended for offline use on an old quad core netbook while traveling on the road beyond a usable or affordable Internet connection or in the Internet desert and looking step by step for the next magic place to stay.
 
