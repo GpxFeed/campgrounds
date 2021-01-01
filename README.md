@@ -17,6 +17,10 @@ The whole story is primarily intended for offline use on an old quad core netboo
     - 199575 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
     - 163116 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
+- Countries
+
+    - andorra albania austria bosnia-and-herzegovina belgium bulgaria belarus switzerland cyprus czech-republic germany denmark estonia spain finland faroe-islands france united-kingdom guernsey gibraltar greenland greece croatia hungary ireland isle-of-man iceland italy jersey liechtenstein lithuania luxembourg latvia monaco moldova montenegro north-macedonia malta netherlands norway poland portugal romania serbia russia sweden slovenia svalbard-and-jan-mayen slovakia san-marino ukraine city-of-the-vatican
+    
 All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
@@ -44,3 +48,4 @@ Elevation data missing in OSM were added by the NASA Shuttle Radar Topography Mi
 - Tested on the Desktop
     - https://www.routeconverter.com/
     - https://github.com/tumic0/GPXSee
+
