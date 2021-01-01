@@ -19,8 +19,8 @@ The whole story is primarily intended for offline use on an old quad core netboo
 
 - Countries
 
-    - andorra albania austria bosnia-and-herzegovina belgium bulgaria belarus switzerland cyprus czech-republic germany denmark estonia spain finland faroe-islands france united-kingdom guernsey gibraltar greenland greece croatia hungary ireland isle-of-man iceland italy jersey liechtenstein lithuania luxembourg latvia monaco moldova montenegro north-macedonia malta netherlands norway poland portugal romania serbia russia sweden slovenia svalbard-and-jan-mayen slovakia san-marino ukraine city-of-the-vatican
-    
+    - Andorra, Albania, Austria, Bosnia and Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Cyprus, Czech Republic, Germany, Denmark, Estonia, Spain, Finland, Faroe Islands, France, United Kingdom, Guernsey, Gibraltar, Greenland, Greece, Croatia, Hungary, Ireland, Isle of Man, Iceland, Italy, Jersey, Liechtenstein, Lithuania, Luxembourg, Latvia, Monaco, Moldova, Montenegro, North Macedonia, Malta, Netherlands, Norway, Poland, Portugal, Romania, Serbia, Russia, Sweden, Slovenia, Svalbard and Jan Mayen, Slovakia, San Marino, Ukraine, City of the Vatican
+
 All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
@@ -48,4 +48,3 @@ Elevation data missing in OSM were added by the NASA Shuttle Radar Topography Mi
 - Tested on the Desktop
     - https://www.routeconverter.com/
     - https://github.com/tumic0/GPXSee
-
