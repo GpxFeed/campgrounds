@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2020-12-09T17:38:03Z", "timestamp_areas_base":
-      "2020-12-09T17:23:02Z", "copyright": "The data included in
+      "2021-01-02T19:04:03Z", "timestamp_areas_base":
+      "2021-01-02T18:51:02Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -131,7 +131,7 @@ version="1.1" creator="togpx">
     <desc>name=Profi; shop=supermarket; id=node/300393634</desc>
   </wpt>
   <wpt lat="45.082183" lon="25.5067469">
-    <ele>369.000000</ele>
+    <ele>369</ele>
     <name>node/304660410</name>
     <desc>ele=369.000000; shop=supermarket;
     id=node/304660410</desc>
@@ -148,7 +148,7 @@ version="1.1" creator="togpx">
     name:ro=Diana; shop=supermarket; id=node/304662435</desc>
   </wpt>
   <wpt lat="44.2623827" lon="26.0924653">
-    <ele>64.000000</ele>
+    <ele>64</ele>
     <name>Magazin</name>
     <desc>created_by=Potlatch 0.10e; ele=64.000000; name=Magazin;
     shop=supermarket; id=node/304845723</desc>
@@ -321,8 +321,9 @@ version="1.1" creator="togpx">
   <wpt lat="44.2129585" lon="28.6035123">
     <ele>28</ele>
     <name>Carrefour</name>
-    <desc>name=Carrefour; shop=supermarket;
-    id=node/442034930</desc>
+    <desc>brand=Carrefour; brand:wikidata=Q217599;
+    brand:wikipedia=fr:Carrefour (enseigne); name=Carrefour;
+    shop=supermarket; id=node/442034930</desc>
   </wpt>
   <wpt lat="44.0534308" lon="28.599744">
     <ele>10</ele>
@@ -554,9 +555,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Sibiu; addr:housenumber=1 - 3;
     addr:postcode=550183; addr:street=Strada Avram Iancu;
     is_in:city=Sibiu; is_in:country=Romania; is_in:country_code=RO;
-    is_in:county=Sibiu; name=Carrefour Express; opening_hours=L -
-    S: 7:00 - 23:00, D: 7:00 - 22:00; operator=BILLA Romania;
-    shop=supermarket; id=node/588870625</desc>
+    is_in:county=Sibiu; name=Carrefour Express; opening_hours=Mo-Su
+    07:00-20:00; operator=BILLA Romania; shop=supermarket;
+    id=node/588870625</desc>
   </wpt>
   <wpt lat="46.191849" lon="21.308118">
     <ele>108</ele>
@@ -1284,6 +1285,7 @@ version="1.1" creator="togpx">
     <name>Profi</name>
     <desc>addr:city=Hârlău; addr:housenumber=14;
     addr:postcode=705100; addr:street=Strada Petru Rareș;
+    brand=Profi; brand:wikidata=Q956664; brand:wikipedia=en:Profi;
     name=Profi; opening_hours=Mo-Sa 07:00-22:00, Su 08:00-22:00;
     shop=supermarket; website=https://www.profi.ro/;
     id=node/1369170100</desc>
@@ -1667,7 +1669,14 @@ version="1.1" creator="togpx">
     shop=supermarket; website=https://www.profi.ro; wheelchair=yes;
     id=node/1853342512</desc>
   </wpt>
-  <wpt lat="44.9262219" lon="26.0285062">
+  <wpt lat="44.9285979" lon="26.0250517">
+    <ele>149</ele>
+    <name>Mega Image</name>
+    <desc>brand=Mega Image; brand:wikidata=Q6808085;
+    brand:wikipedia=en:Mega Image; name=Mega Image;
+    shop=supermarket; id=node/1877606833</desc>
+  </wpt>
+  <wpt lat="44.9261982" lon="26.0285411">
     <ele>152</ele>
     <name>Carrefour Market</name>
     <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
@@ -2008,7 +2017,8 @@ version="1.1" creator="togpx">
     addr:postcode:source=Date de la Poșta Română, publicate sub
     Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
-    addr:street=Strada Oituz; is_in:city=Petroșani; name=Lidl;
+    addr:street=Strada Oituz; brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; is_in:city=Petroșani; name=Lidl;
     opening_hours=Mo-Sa 08:00-21:00, Su 08:00-20:00;
     shop=supermarket; website=https://www.lidl.ro/;
     id=node/2124940385</desc>
@@ -2024,7 +2034,8 @@ version="1.1" creator="togpx">
   <wpt lat="44.9413294" lon="26.0247419">
     <ele>156</ele>
     <name>Class</name>
-    <desc>name=Class; shop=supermarket; id=node/2163974799</desc>
+    <desc>addr:city=Ploiești; name=Class; shop=supermarket;
+    id=node/2163974799</desc>
   </wpt>
   <wpt lat="45.1186977" lon="25.6684745">
     <ele>415</ele>
@@ -2091,18 +2102,6 @@ version="1.1" creator="togpx">
     addr:street=Strada Sergent Nițu Vasile; brand=Mega Image;
     brand:wikidata=Q6808085; brand:wikipedia=en:Mega Image;
     name=Mega Image; shop=supermarket; id=node/2207065213</desc>
-  </wpt>
-  <wpt lat="45.4184536" lon="23.3686391">
-    <ele>619</ele>
-    <name>Penny</name>
-    <desc>addr:city=Petroșani; addr:postcode=332014;
-    addr:street=Strada Mihai Viteazu; brand=Penny;
-    brand:wikidata=Q284688; brand:wikipedia=en:Penny (supermarket);
-    building=yes; is_in:city=Petroșani; name=Penny;
-    shop=supermarket; id=way/210717611; addr:city=Petroșani;
-    brand=Penny; brand:wikidata=Q284688; brand:wikipedia=en:Penny
-    (supermarket); is_in:city=Petroșani; name=Penny;
-    shop=supermarket; id=node/2209727466</desc>
   </wpt>
   <wpt lat="45.7553247" lon="21.2306626">
     <ele>93</ele>
@@ -2375,12 +2374,15 @@ version="1.1" creator="togpx">
   <wpt lat="45.3540292" lon="23.210917">
     <ele>673</ele>
     <name>Lidl</name>
-    <desc>name=Lidl; shop=supermarket; id=node/2402462130</desc>
+    <desc>brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; name=Lidl; shop=supermarket;
+    id=node/2402462130</desc>
   </wpt>
   <wpt lat="46.838878" lon="26.5059797">
     <ele>275</ele>
-    <name>node/2415242112</name>
-    <desc>shop=supermarket; id=node/2415242112</desc>
+    <name>La Doi Pași</name>
+    <desc>name=La Doi Pași; shop=supermarket;
+    id=node/2415242112</desc>
   </wpt>
   <wpt lat="44.0632649" lon="28.6388775">
     <ele>16</ele>
@@ -2473,18 +2475,6 @@ version="1.1" creator="togpx">
     <desc>name=Mega Image; shop=supermarket;
     id=node/2455286115</desc>
   </wpt>
-  <wpt lat="46.7796745" lon="23.5824145">
-    <ele>367</ele>
-    <name>La Doi Pași</name>
-    <desc>addr:city=Cluj-Napoca; addr:country=RO;
-    addr:housenumber=60; addr:postcode=400165;
-    addr:postcode:source=Date de la Poșta Română, publicate sub
-    Licența pentru Guvernare Deschisă v1.0 la
-    http://date.gov.ro/organization/posta-romana;
-    addr:street=Strada Emil Racoviță; building=supermarket; name=La
-    Doi Pași; opening_hours=Mo-Sa 07:00-24:00, Su 08:00-22:00;
-    shop=supermarket; id=node/2455401230</desc>
-  </wpt>
   <wpt lat="44.110761" lon="24.3554904">
     <ele>104</ele>
     <name>Ana Maria</name>
@@ -2519,7 +2509,8 @@ version="1.1" creator="togpx">
     addr:postcode=021642; addr:street=Șoseaua Pantelimon;
     is_in:city=București; name=Marius Supermarket;
     opening_hours=Mo-Su 07:00-22:00; operator=M.G Nicom Serv Impex;
-    shop=supermarket; source=survey; id=node/2456560968</desc>
+    shop=supermarket; source=survey; wheelchair=yes;
+    id=node/2456560968</desc>
   </wpt>
   <wpt lat="47.926989" lon="23.8978773">
     <ele>271</ele>
@@ -2702,8 +2693,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Ploiești; addr:housenumber=2;
     addr:postcode=100176; addr:street=Strada Calomfirescu;
     brand=Cora; brand:wikidata=Q686643; brand:wikipedia=en:Cora
-    (hypermarket); name=Cora; shop=supermarket;
-    id=node/2522588992</desc>
+    (hypermarket); contact:email=pl@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 815 400;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 07:30-21:30; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=node/2522588992</desc>
   </wpt>
   <wpt lat="46.7774459" lon="23.6083194">
     <ele>334</ele>
@@ -2880,9 +2877,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="44.427277" lon="26.0661717">
     <ele>88</ele>
-    <name>Carrefour Panduri</name>
-    <desc>addr:housenumber=71; addr:street=Șoseaua Panduri;
-    name=Carrefour Panduri; opening_hours=Mo-Sa 08:00-22:00,Su
+    <name>Carrefour Market</name>
+    <desc>addr:city=București; addr:housenumber=71;
+    addr:street=Șoseaua Panduri; brand=Carrefour Market;
+    brand:wikidata=Q2689639; brand:wikipedia=fr:Carrefour Market;
+    name=Carrefour Market; opening_hours=Mo-Sa 08:00-22:00, Su
     08:00-20:00; phone=+40374201134; shop=supermarket;
     id=node/2637553770</desc>
   </wpt>
@@ -2912,7 +2911,9 @@ version="1.1" creator="togpx">
   <wpt lat="45.657357" lon="25.5622083">
     <ele>542</ele>
     <name>Auchan</name>
-    <desc>name=Auchan; shop=supermarket; id=node/2657458407</desc>
+    <desc>brand=Auchan; brand:wikidata=Q758603;
+    brand:wikipedia=en:Auchan; name=Auchan; shop=supermarket;
+    id=node/2657458407</desc>
   </wpt>
   <wpt lat="44.3850189" lon="26.109721">
     <ele>82</ele>
@@ -3000,7 +3001,9 @@ version="1.1" creator="togpx">
   <wpt lat="45.3491325" lon="23.1957616">
     <ele>665</ele>
     <name>Penny</name>
-    <desc>name=Penny; shop=supermarket; id=node/2748983073</desc>
+    <desc>brand=Penny; brand:wikidata=Q284688;
+    brand:wikipedia=en:Penny (supermarket); name=Penny;
+    shop=supermarket; id=node/2748983073</desc>
   </wpt>
   <wpt lat="46.9240801" lon="25.3517747">
     <ele>658</ele>
@@ -3341,6 +3344,7 @@ version="1.1" creator="togpx">
     <name>Profi</name>
     <desc>addr:city=Vulcan; addr:housenumber=1A;
     addr:postcode=336200; addr:street=Bulevardul Mihai Viteazu;
+    brand=Profi; brand:wikidata=Q956664; brand:wikipedia=en:Profi;
     name=Profi; opening_hours=Mo-Sa 07:00-22:00, Su 08:00-20:00;
     shop=supermarket; source=Profi RomFood, April 2014;
     website=https://www.profi.ro/; id=node/2812854401</desc>
@@ -3608,7 +3612,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=București; addr:housenumber=92;
     addr:postcode=021638; addr:street=Șoseaua Pantelimon;
     is_in:city=București; name=Profi Non; opening_hours=24/7;
-    shop=supermarket; id=node/2942589801</desc>
+    shop=supermarket; wheelchair=yes; id=node/2942589801</desc>
   </wpt>
   <wpt lat="46.3610941" lon="25.7991661">
     <ele>667</ele>
@@ -3770,23 +3774,24 @@ version="1.1" creator="togpx">
     <name>Profi City</name>
     <desc>addr:city=Cluj-Napoca; addr:country=RO;
     addr:housenumber=18; addr:postcode=400420;
-    addr:street=Bulevardul Nicolae Titulescu;
+    addr:street=Bulevardul Nicolae Titulescu; brand=Profi;
     description=Supermarket; email=marketing@profi.ro; name=Profi
     City; opening_hours=Mo-Su 07:00-23:00, Sa 08:00-23:00;
-    phone=+40725-334363; shop=supermarket; source=Owner;
+    phone=+40 725 334 363; shop=supermarket; source=Owner;
     website=https://www.profi.ro/; id=node/2978710649</desc>
   </wpt>
-  <wpt lat="46.7692978" lon="23.6160114">
+  <wpt lat="46.7693108" lon="23.6159617">
     <ele>348</ele>
-    <name>Profi</name>
+    <name>Profi City</name>
     <desc>addr:city=Cluj-Napoca; addr:country=RO;
     addr:housenumber=163; addr:postcode=400407;
     addr:street=Bulevardul Nicolae Titulescu; brand=Profi;
     brand:wikidata=Q956664; brand:wikipedia=en:Profi;
-    description=Supermarket; email=marketing@profi.ro; name=Profi;
-    opening_hours=Mo-Su 07:00-23:00, Sa 08:00-23:00;
-    phone=+40725-334365; shop=supermarket; source=Owner;
-    website=https://www.profi.ro/; id=node/2978714087</desc>
+    description=Supermarket; email=marketing@profi.ro; name=Profi
+    City; opening_hours=Mo-Su 07:00-23:00, Sa 08:00-23:00;
+    phone=+40 725 334 365; shop=supermarket; source=Owner;
+    website=https://www.profi.ro/; wheelchair=no;
+    id=node/2978714087</desc>
   </wpt>
   <wpt lat="46.7560093" lon="23.5834563">
     <ele>429</ele>
@@ -3951,15 +3956,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.7565664" lon="23.558441">
     <ele>376</ele>
-    <name>Profi</name>
+    <name>Profi City</name>
     <desc>addr:city=Cluj-Napoca; addr:country=RO;
     addr:housenumber=5; addr:postcode=400650; addr:street=Strada
-    Ion Meșter; brand=Profi; brand:wikidata=Q956664;
-    brand:wikipedia=en:Profi; description=Supermarket;
-    email=marketing@profi.ro; name=Profi; opening_hours=Mo-Su
-    08:00-21:00; phone=+40720-722117; shop=supermarket;
-    source=Owner; website=https://www.profi.ro/;
-    id=node/2984172211</desc>
+    Ion Meșter; description=Supermarket; email=marketing@profi.ro;
+    name=Profi City; opening_hours=Mo-Su 08:00-21:00;
+    phone=+40720-722117; shop=supermarket; source=Owner;
+    website=https://www.profi.ro/; id=node/2984172211</desc>
   </wpt>
   <wpt lat="46.8646299" lon="23.0265656">
     <ele>546</ele>
@@ -4180,15 +4183,15 @@ version="1.1" creator="togpx">
     phone=+40728285240; shop=supermarket; source=Owner;
     website=https://www.profi.ro/; id=node/2987282214</desc>
   </wpt>
-  <wpt lat="45.036975" lon="23.270736">
+  <wpt lat="45.0370018" lon="23.2706065">
     <ele>206</ele>
     <name>Profi</name>
     <desc>addr:housenumber=44; addr:postcode=210235;
-    addr:street=Strada Victoriei; description=Supermarket;
-    email=marketing@profi.ro; name=Profi; opening_hours=Mo-Sa
-    07:00-22:00, Su 08:00-22:00; phone=+40731-160532;
-    shop=supermarket; source=Owner; website=https://www.profi.ro/;
-    id=node/2987359312</desc>
+    addr:street=Strada Victoriei; brand=Profi;
+    description=Supermarket; email=marketing@profi.ro; name=Profi;
+    opening_hours=Mo-Sa 07:00-22:00, Su 08:00-22:00; phone=+40 731
+    160 532; shop=supermarket; source=Owner;
+    website=https://www.profi.ro/; id=node/2987359312</desc>
   </wpt>
   <wpt lat="46.5824196" lon="26.9082905">
     <ele>162</ele>
@@ -4767,9 +4770,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=București; addr:housenumber=391;
     addr:postcode=040055; addr:street=Calea Văcărești; brand=Cora;
     brand:wikidata=Q686643; brand:wikipedia=en:Cora (hypermarket);
-    email=su@cora.ro; name=Cora; opening_hours=Mo-Su 08:00-22:00;
-    phone=+40374 11 75 00; shop=supermarket;
-    website=https://www.cora.ro/; wheelchair=yes;
+    contact:email=su@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40374 11 75 00;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; wheelchair=yes;
     id=node/3324123961</desc>
   </wpt>
   <wpt lat="47.8457555" lon="25.9126058">
@@ -5049,7 +5057,7 @@ version="1.1" creator="togpx">
     http://date.gov.ro/organization/posta-romana; addr:street=Calea
     Dorobanților; brand=Carrefour Market; brand:wikidata=Q2689639;
     brand:wikipedia=fr:Carrefour Market; name=Carrefour Market;
-    opening_hours=Mo-Sa 08:00-22:00 Su 09:00-18:00;
+    opening_hours=Mo-Sa 08:00-22:00, Su 09:00-18:00;
     shop=supermarket; id=node/3623083967</desc>
   </wpt>
   <wpt lat="46.7504977" lon="23.5618336">
@@ -5274,9 +5282,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.5608142" lon="23.8183383">
     <ele>310</ele>
     <name>Kaufland</name>
-    <desc>name=Kaufland; opening_hours=Mo-Sa 08:00-21:00, Su
-    08:00-18:00; shop=supermarket; wheelchair=limited;
-    id=node/3744021825</desc>
+    <desc>brand=Kaufland; name=Kaufland; opening_hours=Mo-Sa
+    08:00-21:00, Su 08:00-18:00; shop=supermarket;
+    wheelchair=limited; id=node/3744021825</desc>
   </wpt>
   <wpt lat="44.4439056" lon="26.0067178">
     <ele>90</ele>
@@ -5406,8 +5414,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.7816431" lon="22.888038">
     <ele>124</ele>
     <name>Profi</name>
-    <desc>building=yes; shop=supermarket; id=way/384140660;
-    name=Profi; shop=supermarket; id=node/3830418020</desc>
+    <desc>brand=Profi; brand:wikidata=Q956664;
+    brand:wikipedia=en:Profi; name=Profi; shop=supermarket;
+    id=node/3830418020</desc>
   </wpt>
   <wpt lat="44.4008792" lon="26.1004399">
     <ele>81</ele>
@@ -5436,7 +5445,7 @@ version="1.1" creator="togpx">
     brand:wikidata=Q2689639; name=Carrefour Market;
     shop=supermarket; id=node/3836372772</desc>
   </wpt>
-  <wpt lat="44.193145" lon="28.6382458">
+  <wpt lat="44.1931825" lon="28.6382535">
     <ele>24</ele>
     <name>Perla</name>
     <desc>addr:city=Constanța; addr:country=RO;
@@ -5965,6 +5974,12 @@ version="1.1" creator="togpx">
     08:00-20:00; phone=0800110111; shop=supermarket;
     website=https://www.penny.ro/; id=node/4193132597</desc>
   </wpt>
+  <wpt lat="45.0335756" lon="23.270195">
+    <ele>203</ele>
+    <name>La Tică</name>
+    <desc>name=La Tică; opening_hours=24/7; shop=supermarket;
+    wheelchair=no; id=node/4202851828</desc>
+  </wpt>
   <wpt lat="46.1447425" lon="25.8595793">
     <ele>662</ele>
     <name>Autoservire Albert</name>
@@ -6010,8 +6025,9 @@ version="1.1" creator="togpx">
   <wpt lat="44.4215811" lon="26.0654331">
     <ele>86</ele>
     <name>Mega Image</name>
-    <desc>addr:street=Strada Mihail Sebastian; name=Mega Image;
-    shop=supermarket; id=node/4210766189</desc>
+    <desc>addr:street=Strada Mihail Sebastian; brand=Mega Image;
+    brand:wikidata=Q6808085; brand:wikipedia=en:Mega Image;
+    name=Mega Image; shop=supermarket; id=node/4210766189</desc>
   </wpt>
   <wpt lat="44.420148" lon="26.1241337">
     <ele>72</ele>
@@ -6161,9 +6177,9 @@ version="1.1" creator="togpx">
   <wpt lat="44.9392297" lon="26.0264835">
     <ele>158</ele>
     <name>Cobra Black Serv</name>
-    <desc>addr:housenumber=7; addr:street=Strada Gheorghe Lazăr;
-    name=Cobra Black Serv; shop=supermarket;
-    id=node/4285770792</desc>
+    <desc>addr:city=Ploiești; addr:housenumber=7;
+    addr:street=Strada Gheorghe Lazăr; name=Cobra Black Serv;
+    shop=supermarket; id=node/4285770792</desc>
   </wpt>
   <wpt lat="44.9357233" lon="26.043116">
     <ele>143</ele>
@@ -6404,7 +6420,7 @@ version="1.1" creator="togpx">
     http://date.gov.ro/organization/posta-romana;
     addr:street=Strada Rahovei; is_in:city=Sibiu;
     is_in:country=Romania; is_in:county=Sibiu; name=Carrefour
-    Express; opening_hours=L - S: 08:00 - 22:00, D: 08:00 - 20:00;
+    Express; opening_hours=Mo-Sa 08:00-22:00, Su 08:00-20:00;
     operator=Carrefour; shop=supermarket;
     website=https://www.carrefour.ro/; id=node/4303171090</desc>
   </wpt>
@@ -7190,14 +7206,6 @@ version="1.1" creator="togpx">
     name:ro=Coral Market 1; shop=supermarket;
     id=node/4411395290</desc>
   </wpt>
-  <wpt lat="45.4197226" lon="23.3691148">
-    <ele>619</ele>
-    <name>Carrefour Market</name>
-    <desc>addr:city=Petroșani; addr:housename=Carrefour Market;
-    addr:street=Strada Horia; brand=Carrefour Market;
-    brand:wikidata=Q2689639; name=Carrefour Market;
-    shop=supermarket; id=node/4411414065</desc>
-  </wpt>
   <wpt lat="44.457202" lon="26.0470022">
     <ele>84</ele>
     <name>Ove market</name>
@@ -7453,12 +7461,6 @@ version="1.1" creator="togpx">
     <desc>addr:housenumber=42; addr:street=Strada Siminocului;
     name=Vio-Flor Prodservicom; name:ro=Vio-Flor Prodservicom;
     shop=supermarket; id=node/4454757991</desc>
-  </wpt>
-  <wpt lat="46.7593636" lon="23.6143762">
-    <ele>371</ele>
-    <name>Carrefour Express</name>
-    <desc>name=Carrefour Express; shop=supermarket;
-    id=node/4457105092</desc>
   </wpt>
   <wpt lat="45.1470477" lon="26.8044828">
     <ele>99</ele>
@@ -7719,9 +7721,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.7474712" lon="26.6660899">
     <ele>164</ele>
-    <name>Penny Market 2</name>
+    <name>Penny</name>
     <desc>addr:city=Botoșani; addr:street=Calea Națională;
-    name=Penny Market 2; shop=supermarket;
+    brand=Penny; brand:wikidata=Q284688; brand:wikipedia=en:Penny
+    (supermarket); name=Penny; shop=supermarket;
     id=node/4545199670</desc>
   </wpt>
   <wpt lat="46.0640084" lon="23.5545601">
@@ -7758,12 +7761,12 @@ version="1.1" creator="togpx">
     07:30-20:00, Su 09:00-18:00; shop=supermarket;
     website=https://www.profi.ro/; id=node/4551158389</desc>
   </wpt>
-  <wpt lat="46.9338475" lon="26.3473641">
+  <wpt lat="46.9337163" lon="26.3471435">
     <ele>317</ele>
-    <name>Carrefour Market</name>
-    <desc>addr:city=Piatra Neamț; brand=Carrefour Market;
-    brand:wikidata=Q2689639; brand:wikipedia=fr:Carrefour Market;
-    name=Carrefour Market; shop=supermarket;
+    <name>Carrefour</name>
+    <desc>addr:city=Piatra Neamț; brand=Carrefour;
+    brand:wikidata=Q217599; brand:wikipedia=fr:Carrefour
+    (enseigne); name=Carrefour; shop=supermarket;
     id=node/4551227211</desc>
   </wpt>
   <wpt lat="45.1442089" lon="26.810158">
@@ -7837,8 +7840,9 @@ version="1.1" creator="togpx">
     <name>Penny</name>
     <desc>brand=Penny; brand:wikidata=Q284688;
     brand:wikipedia=en:Penny (supermarket); building=yes;
-    name=Penny; shop=supermarket; id=way/464675543; name=Penny;
-    shop=supermarket; id=node/4597607592</desc>
+    name=Penny; shop=supermarket; id=way/464675543; brand=Penny;
+    brand:wikidata=Q284688; brand:wikipedia=en:Penny (supermarket);
+    name=Penny; shop=supermarket; id=node/4597607592</desc>
   </wpt>
   <wpt lat="44.4794587" lon="26.1052632">
     <ele>87</ele>
@@ -9055,8 +9059,14 @@ version="1.1" creator="togpx">
     <ele>202</ele>
     <name>Cora</name>
     <desc>addr:city=Baia Mare; addr:housenumber=73;
-    addr:street=Strada Victoriei; name=Cora; operator=Cora;
-    shop=supermarket; id=node/5273307880</desc>
+    addr:street=Strada Victoriei; contact:email=bm@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 156 900;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=node/5273307880</desc>
   </wpt>
   <wpt lat="45.4292175" lon="28.0157237">
     <ele>51</ele>
@@ -10489,15 +10499,6 @@ version="1.1" creator="togpx">
     <desc>name=Niram Com Sat; shop=supermarket;
     id=node/6012155485</desc>
   </wpt>
-  <wpt lat="44.9450699" lon="25.9649765">
-    <ele>183</ele>
-    <name>Auchan Ploiești</name>
-    <desc>addr:city=Ploiești; addr:housename=Auchan Ploiești;
-    addr:postcode=100537; building=yes; name=Auchan Ploiești;
-    shop=supermarket; website=https://www.auchan.ro/;
-    id=way/82489525; name=Auchan; shop=supermarket;
-    id=node/6015872295</desc>
-  </wpt>
   <wpt lat="47.1442577" lon="23.8765664">
     <ele>240</ele>
     <name>Profi</name>
@@ -10599,8 +10600,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="44.4461082" lon="26.1351119">
     <ele>80</ele>
-    <name>node/6053541493</name>
-    <desc>shop=supermarket; id=node/6053541493</desc>
+    <name>Shop and Go Megaimage</name>
+    <desc>name=Shop and Go Megaimage; opening_hours=Mo-Su
+    07:00-22:00; shop=supermarket; wheelchair=yes;
+    id=node/6053541493</desc>
   </wpt>
   <wpt lat="44.41513" lon="26.1538713">
     <ele>75</ele>
@@ -10621,7 +10624,9 @@ version="1.1" creator="togpx">
     <name>Mega Discount Market</name>
     <desc>addr:city=București; addr:housenumber=10;
     addr:postcode=021631; addr:street=Șoseaua Pantelimon; name=Mega
-    Discount Market; shop=supermarket; id=node/6053541807</desc>
+    Discount Market; opening_hours=Mo-Fr 08:00-20:00, Sa
+    08:00-18:00, Su 08:00-16:00; shop=supermarket;
+    wheelchair=limited; id=node/6053541807</desc>
   </wpt>
   <wpt lat="44.3685847" lon="26.1442767">
     <ele>75</ele>
@@ -10783,13 +10788,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Timișoara; addr:housenumber=74;
     addr:street=Strada Victor Hugo; name=Profi City;
     shop=supermarket; id=node/6079207793</desc>
-  </wpt>
-  <wpt lat="44.4641645" lon="26.1011198">
-    <ele>86</ele>
-    <name>Auchan</name>
-    <desc>addr:housenumber=159-165; addr:street=Calea Floreasca;
-    brand=Auchan; name=Auchan; shop=supermarket;
-    id=node/6083206687</desc>
   </wpt>
   <wpt lat="45.9902424" lon="23.9336951">
     <ele>366</ele>
@@ -11141,8 +11139,9 @@ version="1.1" creator="togpx">
     <ele>348</ele>
     <name>Mega Image</name>
     <desc>brand=Mega Image; brand:wikidata=Q6808085;
-    brand:wikipedia=en:Mega Image; name=Mega Image;
-    shop=supermarket; id=node/6298771289</desc>
+    brand:wikipedia=en:Mega Image; level=0; name=Mega Image;
+    opening_hours=Mo-Sa 07:00-21:00, Su 08:00-21:00;
+    shop=supermarket; wheelchair=yes; id=node/6298771289</desc>
   </wpt>
   <wpt lat="46.7486293" lon="23.5902383">
     <ele>473</ele>
@@ -11150,10 +11149,11 @@ version="1.1" creator="togpx">
     <desc>name=Mega Image Shop&amp;Go; shop=supermarket;
     id=node/6298778069</desc>
   </wpt>
-  <wpt lat="46.7620544" lon="23.6070518">
+  <wpt lat="46.7620429" lon="23.6070828">
     <ele>367</ele>
     <name>Mega Image Shop&amp;Go</name>
-    <desc>name=Mega Image Shop&amp;Go; shop=supermarket;
+    <desc>name=Mega Image Shop&amp;Go; opening_hours=Mo-Su
+    07:00-21:00; shop=supermarket; wheelchair=yes;
     id=node/6298781685</desc>
   </wpt>
   <wpt lat="46.7764265" lon="23.604203">
@@ -11642,12 +11642,12 @@ version="1.1" creator="togpx">
     <desc>name=Penny Market; shop=supermarket;
     id=node/6452616086</desc>
   </wpt>
-  <wpt lat="45.6060696" lon="21.0589074">
-    <ele>84</ele>
+  <wpt lat="47.215584" lon="26.3135501">
+    <ele>402</ele>
     <name>Profi</name>
     <desc>brand=Profi; brand:wikidata=Q956664;
     brand:wikipedia=en:Profi; name=Profi; shop=supermarket;
-    id=node/6454859014</desc>
+    id=node/6452616087</desc>
   </wpt>
   <wpt lat="44.3918595" lon="27.846694">
     <ele>49</ele>
@@ -13149,12 +13149,6 @@ version="1.1" creator="togpx">
     <name>Kinaf</name>
     <desc>name=Kinaf; shop=supermarket; id=node/6954562785</desc>
   </wpt>
-  <wpt lat="46.7617436" lon="23.5973556">
-    <ele>385</ele>
-    <name>Bradetul</name>
-    <desc>name=Bradetul; shop=supermarket;
-    id=node/6957935486</desc>
-  </wpt>
   <wpt lat="46.7677878" lon="23.6355275">
     <ele>329</ele>
     <name>Mega Image</name>
@@ -13210,12 +13204,13 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Mega Image; name=Mega Image;
     shop=supermarket; id=node/6972772048</desc>
   </wpt>
-  <wpt lat="44.4690891" lon="26.0500252">
+  <wpt lat="44.4691595" lon="26.0501239">
     <ele>87</ele>
-    <name>LIDL</name>
+    <name>Lidl</name>
     <desc>addr:city=București; addr:housenumber=18-24;
-    addr:street=Strada Mureș; name=LIDL; shop=supermarket;
-    id=node/6974530915</desc>
+    addr:postcode=012275; addr:street=Strada Mureș; brand=Lidl;
+    brand:wikidata=Q151954; brand:wikipedia=en:Lidl; name=Lidl;
+    shop=supermarket; id=node/6974530915</desc>
   </wpt>
   <wpt lat="47.1658943" lon="27.5898084">
     <ele>80</ele>
@@ -13613,8 +13608,15 @@ version="1.1" creator="togpx">
     <ele>10</ele>
     <name>Cora</name>
     <desc>brand=Cora; brand:wikidata=Q686643;
-    brand:wikipedia=en:Cora (hypermarket); name=Cora;
-    shop=supermarket; id=node/7124646835</desc>
+    brand:wikipedia=en:Cora (hypermarket);
+    contact:email=cp@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 114 600;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=node/7124646835</desc>
   </wpt>
   <wpt lat="44.1988233" lon="28.6106065">
     <ele>24</ele>
@@ -14236,12 +14238,6 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su 07:00-21:00; shop=supermarket;
     id=node/7541871649</desc>
   </wpt>
-  <wpt lat="44.4082279" lon="26.1503525">
-    <ele>65</ele>
-    <name>Kaufland Fizicienilor</name>
-    <desc>name=Kaufland Fizicienilor; shop=supermarket;
-    id=node/7553381766</desc>
-  </wpt>
   <wpt lat="45.7630423" lon="21.2077824">
     <ele>87</ele>
     <name>Profi</name>
@@ -14415,7 +14411,8 @@ version="1.1" creator="togpx">
     <name>Mega Image Shop&amp;Go</name>
     <desc>addr:city=Florești; addr:housenumber=200;
     addr:street=Strada Răzoare; name=Mega Image Shop&amp;Go;
-    shop=supermarket; id=node/7726488154</desc>
+    opening_hours=Mo-Su 07:00-21:00; shop=supermarket;
+    id=node/7726488154</desc>
   </wpt>
   <wpt lat="46.6727974" lon="28.0582436">
     <ele>98</ele>
@@ -14488,6 +14485,13 @@ version="1.1" creator="togpx">
     <name>Profi Loco</name>
     <desc>name=Profi Loco; shop=supermarket;
     id=node/7764747134</desc>
+  </wpt>
+  <wpt lat="44.4254085" lon="26.0664108">
+    <ele>86</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; brand:wikidata=Q956664;
+    brand:wikipedia=en:Profi; name=Profi; shop=supermarket;
+    id=node/7769994193</desc>
   </wpt>
   <wpt lat="46.9650574" lon="25.5604607">
     <ele>809</ele>
@@ -14660,13 +14664,6 @@ version="1.1" creator="togpx">
     <name>Mega Image</name>
     <desc>name=Mega Image; shop=supermarket;
     id=node/7881191280</desc>
-  </wpt>
-  <wpt lat="46.7741587" lon="23.5880324">
-    <ele>338</ele>
-    <name>Mega Image Shop&amp;Go</name>
-    <desc>addr:city=Cluj-Napoca; addr:housenumber=1;
-    addr:street=Piața Mihai Viteazu; name=Mega Image Shop&amp;Go;
-    shop=supermarket; id=node/7887905228</desc>
   </wpt>
   <wpt lat="44.4464161" lon="26.1681305">
     <ele>74</ele>
@@ -14874,22 +14871,6 @@ version="1.1" creator="togpx">
     payment:visa=yes; shop=supermarket; start_date=2020/09/31;
     website=https://www.profi.ro; id=node/8040668745</desc>
   </wpt>
-  <wpt lat="46.7997366" lon="23.6114375">
-    <ele>342</ele>
-    <name>Auchan</name>
-    <desc>addr:city=Cluj-Napoca; addr:country=RO;
-    addr:housenumber=1-5; addr:postcode=400641;
-    addr:postcode:source=Date de la Poșta Română, publicate sub
-    Licența pentru Guvernare Deschisă v1.0 la
-    http://date.gov.ro/organization/posta-romana;
-    addr:street=Bulevardul Muncii; brand=Auchan;
-    brand:wikidata=Q758603; brand:wikipedia=en:Auchan;
-    building=yes; name=Auchan; operator=Auchan; shop=supermarket;
-    source=Local survey; website=https://www.auchan.ro/node/613;
-    id=way/155046023; addr:housenumber=1-15; addr:street=Bulevardul
-    Muncii; name=Auchan Iris; shop=supermarket;
-    id=node/8048012537</desc>
-  </wpt>
   <wpt lat="44.4435328" lon="26.007252">
     <ele>90</ele>
     <name>MegaImage</name>
@@ -15023,6 +15004,135 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Mega Image; name=Mega Image;
     shop=supermarket; id=node/8207935831</desc>
   </wpt>
+  <wpt lat="45.761379" lon="21.2443831">
+    <ele>91</ele>
+    <name>Mega Image</name>
+    <desc>brand=Mega Image; brand:wikidata=Q6808085;
+    brand:wikipedia=en:Mega Image; name=Mega Image;
+    shop=supermarket; id=node/8212817026</desc>
+  </wpt>
+  <wpt lat="45.7492346" lon="21.240675">
+    <ele>88</ele>
+    <name>Profi City</name>
+    <desc>name=Profi City; operator=Profi; shop=supermarket;
+    id=node/8213971426</desc>
+  </wpt>
+  <wpt lat="47.0716968" lon="21.9258796">
+    <ele>130</ele>
+    <name>Regina Market</name>
+    <desc>name=Regina Market; shop=supermarket;
+    id=node/8221151217</desc>
+  </wpt>
+  <wpt lat="45.6490206" lon="25.6107294">
+    <ele>572</ele>
+    <name>Carrefour</name>
+    <desc>brand=Carrefour; brand:wikidata=Q217599;
+    brand:wikipedia=fr:Carrefour (enseigne); name=Carrefour;
+    shop=supermarket; id=node/8224414079</desc>
+  </wpt>
+  <wpt lat="44.9338743" lon="26.033021">
+    <ele>150</ele>
+    <name>Mega Image</name>
+    <desc>brand=Mega Image; brand:wikidata=Q6808085;
+    brand:wikipedia=en:Mega Image; name=Mega Image;
+    shop=supermarket; id=node/8226106808</desc>
+  </wpt>
+  <wpt lat="44.9338696" lon="26.032164">
+    <ele>149</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; brand:wikidata=Q956664;
+    brand:wikipedia=en:Profi; name=Profi; shop=supermarket;
+    id=node/8226106809</desc>
+  </wpt>
+  <wpt lat="45.1831589" lon="28.8104965">
+    <ele>10</ele>
+    <name>La Doi Pasi</name>
+    <desc>addr:city=Tulcea; addr:housenumber=38; addr:street=strada
+    Gloriei; name=La Doi Pasi; shop=supermarket;
+    website=https://www.la-doi-pasi.ro/; id=node/8240708746</desc>
+  </wpt>
+  <wpt lat="46.0802592" lon="23.5862663">
+    <ele>226</ele>
+    <name>Carrefour Market</name>
+    <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
+    brand:wikipedia=fr:Carrefour Market; name=Carrefour Market;
+    shop=supermarket; id=node/8243390203</desc>
+  </wpt>
+  <wpt lat="44.1892649" lon="28.634243">
+    <ele>20</ele>
+    <name>Alfa Beta</name>
+    <desc>name=Alfa Beta; shop=supermarket;
+    id=node/8245052805</desc>
+  </wpt>
+  <wpt lat="46.7647559" lon="23.6065993">
+    <ele>362</ele>
+    <name>Mega Image</name>
+    <desc>brand=Mega Image; level=0; name=Mega Image;
+    opening_hours=Mo-Su 07:00-21:00; shop=supermarket;
+    wheelchair=yes; id=node/8257525380</desc>
+  </wpt>
+  <wpt lat="46.767466" lon="23.6021679">
+    <ele>350</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; name=Profi; opening_hours=Mo-Sa 07:00-21:00,
+    Su 08:00-21:00; shop=supermarket; wheelchair=yes;
+    id=node/8259832040</desc>
+  </wpt>
+  <wpt lat="46.0828316" lon="23.5831342">
+    <ele>227</ele>
+    <name>Dacia Market</name>
+    <desc>name=Dacia Market; opening_hours=Mo-Sa 07:00-21:00, Su
+    08:00-16:00; shop=supermarket; id=node/8274205247</desc>
+  </wpt>
+  <wpt lat="45.9656683" lon="23.5576886">
+    <ele>249</ele>
+    <name>Dacia Market</name>
+    <desc>name=Dacia Market; shop=supermarket;
+    id=node/8274264751</desc>
+  </wpt>
+  <wpt lat="45.0359847" lon="23.2745104">
+    <ele>205</ele>
+    <name>Diana</name>
+    <desc>name=Diana; opening_hours=Mo-Fr 07:00-21:00, Sa
+    07:00-20:00, Su 07:00-18:00, PH closed; shop=supermarket;
+    wheelchair=no; id=node/8278915543</desc>
+  </wpt>
+  <wpt lat="45.0349342" lon="23.2701022">
+    <ele>204</ele>
+    <name>Succes</name>
+    <desc>name=Succes; shop=supermarket; id=node/8279016942</desc>
+  </wpt>
+  <wpt lat="45.037238" lon="23.272652">
+    <ele>206</ele>
+    <name>Mondial</name>
+    <desc>name=Mondial; shop=supermarket; wheelchair=limited;
+    id=node/8279081280</desc>
+  </wpt>
+  <wpt lat="45.0387902" lon="23.2709111">
+    <ele>207</ele>
+    <name>Carrefour</name>
+    <desc>brand=Carrefour; name=Carrefour; shop=supermarket;
+    wheelchair=designated; id=node/8281373981</desc>
+  </wpt>
+  <wpt lat="45.0432075" lon="23.2738938">
+    <ele>207</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; name=Profi; shop=supermarket;
+    id=node/8281392124</desc>
+  </wpt>
+  <wpt lat="45.7630523" lon="21.2400936">
+    <ele>89</ele>
+    <name>Mega Image Shop&amp;Go</name>
+    <desc>name=Mega Image Shop&amp;Go; shop=supermarket;
+    id=node/8284052851</desc>
+  </wpt>
+  <wpt lat="45.0378457" lon="23.267644">
+    <ele>205</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; brand:wikidata=Q956664;
+    brand:wikipedia=en:Profi; name=Profi; shop=supermarket;
+    id=node/8284215407</desc>
+  </wpt>
   <wpt lat="45.0500047" lon="25.952088706493505">
     <ele>253</ele>
     <name>relation/3948732</name>
@@ -15074,16 +15184,18 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="44.4078966" lon="26.1396060586711">
     <ele>65</ele>
-    <name>Auchan Vitan</name>
+    <name>Auchan</name>
     <desc>CLC:details=This item has been retagged to make it
     invisible in renderings, but still available for edits.;
     CLC:explanation=See
     http://wiki.openstreetmap.org/wiki/Romania_CLC_Import.;
     addr:city=București; addr:housenumber=236;
-    addr:postcode=031303; addr:street=Calea Vitan; building=retail;
-    building:levels=2; is_in=București; name=Auchan Vitan;
-    opening_hours=Mo-Su 07:00-23:00; pre-CLC:landuse=retail;
-    shop=supermarket; id=way/13860273</desc>
+    addr:postcode=031303; addr:street=Calea Vitan; brand=Auchan;
+    brand:wikidata=Q758603; brand:wikipedia=en:Auchan;
+    building=retail; building:levels=2; is_in=București;
+    name=Auchan; opening_hours=Mo-Su 07:00-23:00;
+    pre-CLC:landuse=retail; shop=supermarket;
+    id=way/13860273</desc>
   </wpt>
   <wpt lat="46.5099968" lon="24.512757099751337">
     <ele>306</ele>
@@ -15125,10 +15237,15 @@ version="1.1" creator="togpx">
     Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
     addr:street=Șoseaua Vergului; building=commercial;
-    email=pa@cora.ro; is_in:city=București; name=Cora Pantelimon;
-    opening_hours=Mo-Su 08:00-22:00; phone=+4 021 205 35 00;
-    shop=supermarket; website=https://www.cora.ro/;
-    id=way/23580951</desc>
+    contact:email=pa@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+4 021 205 35 00;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania;
+    is_in:city=București; name=Cora Pantelimon; opening_hours=Mo-Su
+    08:00-22:00; operator=S.C. Romania Hypermarche S.A.;
+    shop=supermarket; id=way/23580951</desc>
   </wpt>
   <wpt lat="44.502963449999996" lon="26.078393833402473">
     <ele>88</ele>
@@ -15570,6 +15687,15 @@ version="1.1" creator="togpx">
     <desc>name=Piața Agroalimentara; shop=supermarket;
     id=way/81893788</desc>
   </wpt>
+  <wpt lat="44.9450559" lon="25.96500021324122">
+    <ele>180</ele>
+    <name>Auchan</name>
+    <desc>addr:city=Ploiești; addr:housename=Auchan Ploiești;
+    addr:postcode=100537; brand=Auchan; brand:wikidata=Q758603;
+    brand:wikipedia=en:Auchan; building=yes; name=Auchan;
+    shop=supermarket; website=https://www.auchan.ro/;
+    id=way/82489525</desc>
+  </wpt>
   <wpt lat="44.92692395" lon="25.992708489024537">
     <ele>163</ele>
     <name>Carrefour Market</name>
@@ -15594,10 +15720,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="44.943087250000005" lon="25.978226950000003">
     <ele>175</ele>
-    <name>Selgros Ploiești</name>
+    <name>Selgros</name>
     <desc>addr:city=Ploiești; addr:housename=Selgros Ploiești;
     addr:housenumber=366A; addr:postcode=100537; addr:street=Strada
-    Gheorghe Gr. Cantacuzino; building=yes; name=Selgros Ploiești;
+    Gheorghe Gr. Cantacuzino; building=yes; name=Selgros;
     shop=supermarket; website=https://www.selgros.ro/;
     id=way/84005280</desc>
   </wpt>
@@ -15647,10 +15773,15 @@ version="1.1" creator="togpx">
     http://date.gov.ro/organization/posta-romana;
     addr:street=Bulevardul 1 Decembrie 1918; brand=Cora;
     brand:wikidata=Q686643; brand:wikipedia=en:Cora (hypermarket);
-    building=retail; building:levels=1; name=Cora;
-    opening_hours=Mo-Su 08:00-22:00; roof:levels=0;
-    shop=supermarket; source=Bing; wheelchair=yes;
-    id=way/89744205</desc>
+    building=retail; building:levels=1; contact:email=cj@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 264 506 500;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 07:30-21:30; operator=S.C. Romania
+    Hypermarche S.A.; roof:levels=0; shop=supermarket; source=Bing;
+    wheelchair=yes; id=way/89744205</desc>
   </wpt>
   <wpt lat="46.7601492" lon="23.550232445105966">
     <ele>369</ele>
@@ -15833,12 +15964,6 @@ version="1.1" creator="togpx">
     <name>Metro</name>
     <desc>brand=Metro; building=yes; name=Metro; shop=supermarket;
     id=way/107425508</desc>
-  </wpt>
-  <wpt lat="44.197700749999996" lon="28.602752899239654">
-    <ele>33</ele>
-    <name>Metro</name>
-    <desc>building=yes; name=Metro; shop=supermarket;
-    id=way/107425514</desc>
   </wpt>
   <wpt lat="45.7329344" lon="21.209877095155242">
     <ele>88</ele>
@@ -16093,6 +16218,15 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Lidl; building=yes; name=Lidl;
     shop=supermarket; id=way/133380063</desc>
   </wpt>
+  <wpt lat="44.9453106" lon="25.963307606837354">
+    <ele>184</ele>
+    <name>Jumbo</name>
+    <desc>addr:city=Ploiești; addr:housename=Jumbo Ploiești;
+    addr:postcode=100537; brand=Jumbo; brand:wikidata=Q2262314;
+    brand:wikipedia=en:Jumbo (supermarket); building=yes;
+    name=Jumbo; shop=supermarket; website=http://www.jumbo.gr/en/;
+    id=way/133663649</desc>
+  </wpt>
   <wpt lat="44.18660415" lon="28.6222799470437">
     <ele>40</ele>
     <name>SYM Supermarket</name>
@@ -16195,8 +16329,15 @@ version="1.1" creator="togpx">
     <name>Cora Lujerului</name>
     <desc>addr:city=București; addr:housenumber=19;
     addr:postcode=061076; addr:street=Bulevardul Iuliu Maniu;
-    building=commercial; name=Cora Lujerului; opening_hours=Mo-Su
-    08:00-22:00; shop=supermarket; id=way/152249244</desc>
+    building=commercial; contact:email=lj@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 21 407 5500;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora
+    Lujerului; opening_hours=Mo-Su 07:30-22:00; operator=S.C.
+    Romania Hypermarche S.A.; shop=supermarket;
+    id=way/152249244</desc>
   </wpt>
   <wpt lat="45.0038931" lon="26.443903318002782">
     <ele>122</ele>
@@ -16329,6 +16470,20 @@ version="1.1" creator="togpx">
     addr:street=Strada Observatorului; building=yes; name=Profi;
     shop=supermarket; id=way/154991529</desc>
   </wpt>
+  <wpt lat="46.79938555" lon="23.6114136130506">
+    <ele>342</ele>
+    <name>Auchan</name>
+    <desc>addr:city=Cluj-Napoca; addr:country=RO;
+    addr:housenumber=1-5; addr:postcode=400641;
+    addr:postcode:source=Date de la Poșta Română, publicate sub
+    Licența pentru Guvernare Deschisă v1.0 la
+    http://date.gov.ro/organization/posta-romana;
+    addr:street=Bulevardul Muncii; brand=Auchan;
+    brand:wikidata=Q758603; brand:wikipedia=en:Auchan;
+    building=yes; name=Auchan; operator=Auchan; shop=supermarket;
+    source=Local survey; website=https://www.auchan.ro/node/613;
+    id=way/155046023</desc>
+  </wpt>
   <wpt lat="46.77743505" lon="23.648776547290225">
     <ele>325</ele>
     <name>Selgros</name>
@@ -16388,7 +16543,13 @@ version="1.1" creator="togpx">
     <desc>building=yes; name=Kaufland; shop=supermarket;
     id=way/162359956</desc>
   </wpt>
-  <wpt lat="45.792849149999995" lon="24.13015855059638">
+  <wpt lat="44.400045500000004" lon="26.146891066695822">
+    <ele>63</ele>
+    <name>La Cocoș</name>
+    <desc>addr:city=București; building=yes; name=La Cocoș;
+    shop=supermarket; id=way/164199379</desc>
+  </wpt>
+  <wpt lat="45.79282955" lon="24.130182650596375">
     <ele>408</ele>
     <name>Lidl</name>
     <desc>brand=Lidl; brand:wikidata=Q151954;
@@ -16713,9 +16874,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.074371049999996" lon="21.9183067166828">
     <ele>123</ele>
-    <name>Carrefour Market</name>
-    <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
-    building=yes; building:levels=1; name=Carrefour Market;
+    <name>Supeco</name>
+    <desc>building=yes; building:levels=1; name=Supeco;
     opening_hours=Mo-Fr 08:00-22:00, Sa,Su 08:00-21:00;
     shop=supermarket; id=way/190501475</desc>
   </wpt>
@@ -17066,11 +17226,31 @@ version="1.1" creator="togpx">
     Image; opening_hours=24/7; shop=supermarket;
     id=way/210709288</desc>
   </wpt>
+  <wpt lat="45.41848525" lon="23.36867711218374">
+    <ele>619</ele>
+    <name>Penny</name>
+    <desc>addr:city=Petroșani; addr:housenumber=11;
+    addr:postcode=332014; addr:street=Strada Mihai Viteazu;
+    brand=Penny; brand:wikidata=Q284688; brand:wikipedia=en:Penny
+    (supermarket); building=yes; is_in:city=Petroșani; name=Penny;
+    shop=supermarket; id=way/210717611</desc>
+  </wpt>
+  <wpt lat="45.41992075" lon="23.36908279774677">
+    <ele>619</ele>
+    <name>Carrefour Market</name>
+    <desc>addr:city=Petroșani; addr:housenumber=7;
+    addr:street=Strada Horia; brand=Carrefour Market;
+    brand:wikidata=Q2689639; brand:wikipedia=fr:Carrefour Market;
+    building=yes; is_in:city=Petroșani; name=Carrefour Market;
+    shop=supermarket; id=way/210717964</desc>
+  </wpt>
   <wpt lat="45.4472148" lon="23.38815908551366">
     <ele>649</ele>
     <name>Penny Market</name>
-    <desc>building=yes; name=Penny Market; shop=supermarket;
-    source=survey, Bing , legea544/2001; id=way/210736280</desc>
+    <desc>brand=Penny; brand:wikidata=Q284688;
+    brand:wikipedia=en:Penny (supermarket); building=yes;
+    name=Penny Market; shop=supermarket; source=survey, Bing ,
+    legea544/2001; id=way/210736280</desc>
   </wpt>
   <wpt lat="45.39048005" lon="23.37598140456666">
     <ele>579</ele>
@@ -17224,8 +17404,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.422787400000004" lon="23.36610275711989">
     <ele>613</ele>
     <name>Petroșani</name>
-    <desc>addr:city=Petroșani; building=yes; is_in:city=Petroșani;
-    shop=supermarket; id=way/218093628</desc>
+    <desc>addr:city=Petroșani; building=yes; shop=supermarket;
+    id=way/218093628</desc>
   </wpt>
   <wpt lat="47.194320149999996" lon="23.05732157822225">
     <ele>259</ele>
@@ -17312,8 +17492,14 @@ version="1.1" creator="togpx">
     http://date.gov.ro/organization/posta-romana;
     addr:street=Strada Cumpenei; brand=Cora;
     brand:wikidata=Q686643; brand:wikipedia=en:Cora (hypermarket);
-    building=yes; name=Cora; shop=supermarket;
-    id=way/220780606</desc>
+    building=yes; contact:email=ct@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 173 400;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=way/220780606</desc>
   </wpt>
   <wpt lat="44.1031048" lon="28.6060277">
     <ele>22</ele>
@@ -17342,8 +17528,9 @@ version="1.1" creator="togpx">
     <ele>607</ele>
     <name>Carrefour</name>
     <desc>addr:city=Brașov; addr:housenumber=107; addr:street=Calea
-    București; building=retail; name=Carrefour; shop=supermarket;
-    id=way/222027503</desc>
+    București; brand=Carrefour; brand:wikidata=Q217599;
+    brand:wikipedia=fr:Carrefour (enseigne); building=retail;
+    name=Carrefour; shop=supermarket; id=way/222027503</desc>
   </wpt>
   <wpt lat="45.60992425" lon="22.950244281633523">
     <ele>315</ele>
@@ -17420,8 +17607,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=București; addr:housenumber=152;
     addr:postcode=051543; addr:street=Șoseaua Alexandria;
     brand=Cora; brand:wikidata=Q686643; brand:wikipedia=en:Cora
-    (hypermarket); building=yes; name=Cora; opening_hours=Mo-Su
-    08:00-22:00; shop=supermarket; id=way/223158341</desc>
+    (hypermarket); building=yes; contact:email=ae@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 175 900;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=way/223158341</desc>
   </wpt>
   <wpt lat="46.77966335000001" lon="24.71272334507046">
     <ele>367</ele>
@@ -17941,10 +18134,12 @@ version="1.1" creator="togpx">
     <desc>building=yes; name=Penny Market; shop=supermarket;
     id=way/243168448</desc>
   </wpt>
-  <wpt lat="44.565604300000004" lon="27.350303441738752">
+  <wpt lat="44.565603749999994" lon="27.35030428140498">
     <ele>24</ele>
     <name>Lidl</name>
-    <desc>building=yes; name=Lidl; operator=Lidl; shop=supermarket;
+    <desc>brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; building=yes; name=Lidl;
+    operator=Lidl; shop=supermarket;
     website=https://www.lidl.ro/cps/rde/SID-8AB9F095-7B194B22/www_lidl_ro/hs.xsl/index.htm;
     id=way/243731814</desc>
   </wpt>
@@ -17984,15 +18179,24 @@ version="1.1" creator="togpx">
     <desc>addr:city=Drobeta-Turnu Severin; addr:housenumber=1;
     addr:street=Strada Constructorilor; brand=Cora;
     brand:wikidata=Q686643; brand:wikipedia=en:Cora (hypermarket);
-    building=yes; name=Cora; shop=supermarket;
-    id=way/247187299</desc>
+    building=yes; contact:email=da@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 189 400;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-22:00; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=way/247187299</desc>
   </wpt>
   <wpt lat="45.63992555" lon="25.627304761599408">
     <ele>596</ele>
     <name>Mega Image</name>
-    <desc>addr:housenumber=2A; building=public; building:levels=1;
-    name=Mega Image; opening_hours=Mo-Fr 08:00-11:45, Sa
-    08:00-22:00, Su 08:00-21:00; roof:levels=0; shop=supermarket;
+    <desc>addr:city=Brașov; addr:housenumber=2A;
+    addr:postcode=500365; addr:street=Strada Berzei; brand=Mega
+    Image; brand:wikidata=Q6808085; brand:wikipedia=en:Mega Image;
+    building=public; building:levels=1; name=Mega Image;
+    opening_hours=Mo-Fr 08:00-11:45, Sa 08:00-22:00, Su
+    08:00-21:00; roof:levels=0; shop=supermarket;
     id=way/247777320</desc>
   </wpt>
   <wpt lat="45.4094886" lon="23.376516371846684">
@@ -18626,8 +18830,15 @@ version="1.1" creator="togpx">
     <ele>160</ele>
     <name>Cora</name>
     <desc>brand=Cora; brand:wikidata=Q686643;
-    brand:wikipedia=en:Cora (hypermarket); building=yes; name=Cora;
-    shop=supermarket; id=way/301439593</desc>
+    brand:wikipedia=en:Cora (hypermarket); building=yes;
+    contact:email=bc@cora.ro;
+    contact:facebook=www.facebook.com/corahipermarket;
+    contact:instagram=www.instagram.com/cora_romania;
+    contact:phone=+40 374 173 900;
+    contact:website=https://www.cora.ro/;
+    contact:youtube=www.youtube.com/user/coraromania; name=Cora;
+    opening_hours=Mo-Su 08:00-21:30; operator=S.C. Romania
+    Hypermarche S.A.; shop=supermarket; id=way/301439593</desc>
   </wpt>
   <wpt lat="46.07769555" lon="25.601879750000002">
     <ele>488</ele>
@@ -18706,14 +18917,13 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Mega Image; building=yes; name=Mega Image;
     shop=supermarket; id=way/306089497</desc>
   </wpt>
-  <wpt lat="46.19988765" lon="21.295491265643165">
+  <wpt lat="46.19989855" lon="21.29556128632474">
     <ele>108</ele>
-    <name>Penny Market</name>
+    <name>Jysk</name>
     <desc>addr:city=Arad; addr:housenumber=Nr. 206-218;
     addr:postcode=310375; addr:street=Calea Aurel Vlaicu;
-    building=yes; building:levels=2; name=Penny Market;
-    operator=Penny Market; shop=supermarket;
-    id=way/306488459</desc>
+    building=yes; building:levels=2; layer=1; name=Jysk;
+    operator=Jysk; shop=supermarket; id=way/306488459</desc>
   </wpt>
   <wpt lat="46.1996716" lon="21.29370249939604">
     <ele>110</ele>
@@ -18783,7 +18993,7 @@ version="1.1" creator="togpx">
     Aurel Vlaicu; building=yes; name=Unicarm; shop=supermarket;
     id=way/308623827</desc>
   </wpt>
-  <wpt lat="46.19869075" lon="21.297068520188375">
+  <wpt lat="46.198713049999995" lon="21.297106120188378">
     <ele>108</ele>
     <name>Venoli Impex</name>
     <desc>addr:city=Arad; addr:housenumber=2/A;
@@ -18814,12 +19024,12 @@ version="1.1" creator="togpx">
     operator=Galea Florica; shop=supermarket;
     id=way/309110375</desc>
   </wpt>
-  <wpt lat="46.2049502" lon="21.2929702">
+  <wpt lat="46.204978" lon="21.2930265">
     <ele>106</ele>
     <name>Kurt German Market</name>
-    <desc>addr:city=Arad; addr:street=Strada Poetului;
-    building=yes; name=Kurt German Market; shop=supermarket;
-    id=way/309110971</desc>
+    <desc>addr:city=Arad; addr:housenumber=101B; addr:street=Strada
+    Poetului; building=yes; name=Kurt German Market;
+    shop=supermarket; id=way/309110971</desc>
   </wpt>
   <wpt lat="45.77955645" lon="21.372851097352743">
     <ele>96</ele>
@@ -19113,12 +19323,6 @@ version="1.1" creator="togpx">
     Doja; building=yes; name=Vass Mix; shop=supermarket;
     id=way/348035569</desc>
   </wpt>
-  <wpt lat="45.67919835" lon="27.189005447907398">
-    <ele>49</ele>
-    <name>Praktiker</name>
-    <desc>building=yes; name=Praktiker; shop=supermarket;
-    id=way/358475344</desc>
-  </wpt>
   <wpt lat="45.839595200000005" lon="24.986184920454548">
     <ele>426</ele>
     <name>Lidl</name>
@@ -19404,6 +19608,13 @@ version="1.1" creator="togpx">
     <name>Market</name>
     <desc>building=yes; name=Market; shop=supermarket;
     id=way/400460591</desc>
+  </wpt>
+  <wpt lat="44.945448049999996" lon="26.02112937604307">
+    <ele>158</ele>
+    <name>Mega Image</name>
+    <desc>brand=Mega Image; brand:wikidata=Q6808085;
+    brand:wikipedia=en:Mega Image; building=yes; name=Mega Image;
+    shop=supermarket; id=way/402193002</desc>
   </wpt>
   <wpt lat="44.41034975" lon="26.123271240770386">
     <ele>66</ele>
@@ -19818,13 +20029,13 @@ version="1.1" creator="togpx">
     id=way/453087123</desc>
   </wpt>
   <wpt lat="46.53299935" lon="22.455768227729486">
-    <ele>250 m.</ele>
+    <ele>250</ele>
     <name>Profi.</name>
     <desc>building=yes; ele=250 m.; name=Profi.; shop=supermarket;
     id=way/453959712</desc>
   </wpt>
   <wpt lat="46.53565595" lon="22.453726647241492">
-    <ele>250 m.</ele>
+    <ele>250</ele>
     <name>Unicarm.</name>
     <desc>building=yes; ele=250 m.; name=Unicarm.;
     shop=supermarket; id=way/454920860</desc>
@@ -20036,6 +20247,13 @@ version="1.1" creator="togpx">
     operator=Kaufland România; shop=supermarket;
     website=https://www.kaufland.ro/; id=way/477342268</desc>
   </wpt>
+  <wpt lat="46.80027055" lon="23.755010507854923">
+    <ele>307</ele>
+    <name>Penny</name>
+    <desc>brand=Penny; brand:wikidata=Q284688;
+    brand:wikipedia=en:Penny (supermarket); building=yes;
+    name=Penny; shop=supermarket; id=way/478480467</desc>
+  </wpt>
   <wpt lat="45.340638150000004" lon="24.247583556130113">
     <ele>317</ele>
     <name>Anabella</name>
@@ -20060,11 +20278,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.55377645" lon="23.880527159541064">
     <ele>297</ele>
     <name>Lidl</name>
-    <desc>addr:city=Câmpia Turzii; addr:postcode=405100; atm=yes;
-    brand=Lidl; brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
-    building=retail; delivery=no; internet_access=no; name=Lidl;
-    opening_hours=Mo-Sa 08:00-21:00, Su 08:00-19:00;
-    shop=supermarket; id=way/480988866</desc>
+    <desc>addr:city=Câmpia Turzii; addr:street=Strada
+    Laminoriștilor; atm=yes; brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; building=retail; delivery=no;
+    internet_access=no; name=Lidl; opening_hours=Mo-Sa 08:00-21:00,
+    Su 08:00-19:00; shop=supermarket; id=way/480988866</desc>
   </wpt>
   <wpt lat="44.44481785" lon="26.14382758471313">
     <ele>81</ele>
@@ -20212,7 +20430,13 @@ version="1.1" creator="togpx">
   <wpt lat="46.5814602" lon="25.05446755">
     <ele>432</ele>
     <name>Kaufland</name>
-    <desc>building=yes; name=Kaufland; shop=supermarket;
+    <desc>addr:city=Sovata; addr:housenumber=58;
+    addr:postcode=545500; addr:street=Strada Primăverii;
+    brand=Kaufland; brand:wikidata=Q685967;
+    brand:wikipedia=en:Kaufland; building=yes; name=Kaufland;
+    opening_hours=Mo-Sa 08:00-21:00, Su 08:00-18:00;
+    payment:cards=yes; payment:cash=yes; payment:contactless=yes;
+    shop=supermarket; website=https://www.kaufland.ro/;
     id=way/506750999</desc>
   </wpt>
   <wpt lat="45.76279675" lon="22.911086256269126">
@@ -20266,12 +20490,13 @@ version="1.1" creator="togpx">
     <desc>building=yes; name=KEMPOL; shop=supermarket;
     wheelchair=yes; id=way/521608540</desc>
   </wpt>
-  <wpt lat="44.50050215" lon="26.068593236733427">
+  <wpt lat="44.500534200000004" lon="26.068600852826428">
     <ele>90</ele>
     <name>Mega Image</name>
-    <desc>brand=Mega Image; brand:wikidata=Q6808085;
-    brand:wikipedia=en:Mega Image; building=yes; name=Mega Image;
-    shop=supermarket; id=way/523960101</desc>
+    <desc>addr:city=București; brand=Mega Image;
+    brand:wikidata=Q6808085; brand:wikipedia=en:Mega Image;
+    building=yes; name=Mega Image; shop=supermarket;
+    id=way/523960101</desc>
   </wpt>
   <wpt lat="44.8498358" lon="24.8462258">
     <ele>331</ele>
@@ -20281,8 +20506,10 @@ version="1.1" creator="togpx">
   <wpt lat="46.5602262" lon="23.815157958599656">
     <ele>312</ele>
     <name>Lidl</name>
-    <desc>building=retail; name=Lidl; opening_hours=Mo-Sa
-    08:00-21:00, Su 08:00-19:00; shop=supermarket;
+    <desc>addr:city=Turda; addr:housenumber=33;
+    addr:postcode=401124; addr:street=Calea Victoriei;
+    building=retail; name=Lidl; opening_hours=Mo-Sa 08:00-21:00, Su
+    08:00-19:00; shop=supermarket; website=https://www.lidl.ro;
     id=way/528204287</desc>
   </wpt>
   <wpt lat="44.47652495" lon="26.09298827593031">
@@ -20745,9 +20972,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.6637513" lon="25.565486079294296">
     <ele>536</ele>
-    <name>Penny Market</name>
-    <desc>building=yes; name=Penny Market; shop=supermarket;
-    id=way/663307173</desc>
+    <name>Penny</name>
+    <desc>brand=Penny; brand:wikidata=Q284688;
+    brand:wikipedia=en:Penny (supermarket); building=yes;
+    name=Penny; shop=supermarket; id=way/663307173</desc>
   </wpt>
   <wpt lat="47.1502585" lon="27.57294418864738">
     <ele>37</ele>
@@ -20933,6 +21161,14 @@ version="1.1" creator="togpx">
     payment:mastercard=yes; payment:visa=yes; shop=supermarket;
     id=way/701778827</desc>
   </wpt>
+  <wpt lat="44.27731825" lon="28.61816395042225">
+    <ele>1</ele>
+    <name>Kaufland</name>
+    <desc>brand=Kaufland; brand:wikidata=Q685967;
+    brand:wikipedia=en:Kaufland; building=yes; building:levels=1;
+    height=6; name=Kaufland; shop=supermarket;
+    id=way/704109171</desc>
+  </wpt>
   <wpt lat="45.7100964" lon="27.183482853545108">
     <ele>53</ele>
     <name>Mega Image</name>
@@ -21023,7 +21259,7 @@ version="1.1" creator="togpx">
     (supermarket); building=yes; name=Penny; shop=supermarket;
     id=way/723967303</desc>
   </wpt>
-  <wpt lat="44.407636600000004" lon="26.149726805997897">
+  <wpt lat="44.40764365" lon="26.14970284535584">
     <ele>64</ele>
     <name>Lidl</name>
     <desc>addr:city=București; addr:postcode=032067;
@@ -21308,7 +21544,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Lidl; building=yes; name=Lidl;
     shop=supermarket; id=way/801912871</desc>
   </wpt>
-  <wpt lat="45.722725100000005" lon="21.298502217636276">
+  <wpt lat="45.72261555" lon="21.29857967160325">
     <ele>88</ele>
     <name>Penny</name>
     <desc>addr:city=Moșnița Nouă; addr:housenumber=2;
@@ -21324,7 +21560,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Lidl; building=yes; name=Lidl;
     shop=supermarket; id=way/802413270</desc>
   </wpt>
-  <wpt lat="45.72226415" lon="21.30069535395603">
+  <wpt lat="45.7219044" lon="21.30014455">
     <ele>87</ele>
     <name>Lidl</name>
     <desc>addr:city=Moșnița Nouă; addr:housenumber=1;
@@ -21705,6 +21941,44 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Profi; building=yes; name=Profi Bereasca;
     shop=supermarket; id=way/882127361</desc>
   </wpt>
+  <wpt lat="45.6060239" lon="21.058864164729897">
+    <ele>84</ele>
+    <name>Profi</name>
+    <desc>brand=Profi; brand:wikidata=Q956664;
+    brand:wikipedia=en:Profi; building=retail; name=Profi;
+    shop=supermarket; id=way/885012231</desc>
+  </wpt>
+  <wpt lat="44.5017551" lon="26.065213820365564">
+    <ele>90</ele>
+    <name>Kaufland</name>
+    <desc>addr:city=București; addr:housenumber=4-6;
+    addr:postcode=013821; addr:street=Șoseaua Gheorghe Ionescu
+    Sisești; brand=Kaufland; brand:wikidata=Q685967;
+    brand:wikipedia=en:Kaufland; building=yes; name=Kaufland;
+    shop=supermarket; id=way/886216030</desc>
+  </wpt>
+  <wpt lat="44.4082025" lon="26.150828742915216">
+    <ele>65</ele>
+    <name>Kaufland</name>
+    <desc>brand=Kaufland; brand:wikidata=Q685967;
+    brand:wikipedia=en:Kaufland; building=yes; name=Kaufland;
+    shop=supermarket; id=way/886599072</desc>
+  </wpt>
+  <wpt lat="44.98632725" lon="25.641417150000002">
+    <ele>265</ele>
+    <name>Lidl</name>
+    <desc>brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; building=yes; name=Lidl;
+    shop=supermarket; id=way/889021475</desc>
+  </wpt>
+  <wpt lat="45.7068536" lon="21.23517613321492">
+    <ele>89</ele>
+    <name>Penny</name>
+    <desc>addr:housenumber=2; addr:street=Strada Gării;
+    brand=Penny; brand:wikidata=Q284688; brand:wikipedia=en:Penny
+    (supermarket); building=yes; name=Penny; shop=supermarket;
+    id=way/891225290</desc>
+  </wpt>
   <trk>
     <name>relation/3948732</name>
     <trkseg>
@@ -21779,7 +22053,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Auchan Vitan</name>
+    <name>Auchan</name>
     <trkseg>
       <trkpt lat="44.4082958" lon="26.1384731"></trkpt>
       <trkpt lat="44.408017" lon="26.1387466"></trkpt>
@@ -22626,7 +22900,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Auchan Ploiești</name>
+    <name>Auchan</name>
     <trkseg>
       <trkpt lat="44.9452763" lon="25.9659804"></trkpt>
       <trkpt lat="44.9455744" lon="25.9642722"></trkpt>
@@ -22687,7 +22961,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Selgros Ploiești</name>
+    <name>Selgros</name>
     <trkseg>
       <trkpt lat="44.9428642" lon="25.9772421"></trkpt>
       <trkpt lat="44.9424303" lon="25.9786828"></trkpt>
@@ -23015,18 +23289,6 @@ version="1.1" creator="togpx">
       <trkpt lat="44.1357202" lon="28.6236558"></trkpt>
       <trkpt lat="44.1359608" lon="28.6226643"></trkpt>
       <trkpt lat="44.1353195" lon="28.6223622"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Metro</name>
-    <trkseg>
-      <trkpt lat="44.1983309" lon="28.6024173"></trkpt>
-      <trkpt lat="44.1974051" lon="28.6019691"></trkpt>
-      <trkpt lat="44.1971205" lon="28.6031126"></trkpt>
-      <trkpt lat="44.1973664" lon="28.6032317"></trkpt>
-      <trkpt lat="44.1979964" lon="28.6035367"></trkpt>
-      <trkpt lat="44.1980463" lon="28.6035608"></trkpt>
-      <trkpt lat="44.1983309" lon="28.6024173"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23398,6 +23660,25 @@ version="1.1" creator="togpx">
       <trkpt lat="47.1522643" lon="27.573313"></trkpt>
       <trkpt lat="47.1525043" lon="27.5730627"></trkpt>
       <trkpt lat="47.152332" lon="27.5726894"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Jumbo</name>
+    <trkseg>
+      <trkpt lat="44.9454639" lon="25.9642136"></trkpt>
+      <trkpt lat="44.9456108" lon="25.9633493"></trkpt>
+      <trkpt lat="44.9457157" lon="25.9633849"></trkpt>
+      <trkpt lat="44.9458267" lon="25.9627317"></trkpt>
+      <trkpt lat="44.945724" lon="25.9626969"></trkpt>
+      <trkpt lat="44.9457406" lon="25.9625995"></trkpt>
+      <trkpt lat="44.9451573" lon="25.9624016"></trkpt>
+      <trkpt lat="44.9451407" lon="25.9624988"></trkpt>
+      <trkpt lat="44.9450818" lon="25.9624788"></trkpt>
+      <trkpt lat="44.945013" lon="25.9628835"></trkpt>
+      <trkpt lat="44.9449769" lon="25.963096"></trkpt>
+      <trkpt lat="44.9450361" lon="25.9631162"></trkpt>
+      <trkpt lat="44.9448831" lon="25.9640166"></trkpt>
+      <trkpt lat="44.9454639" lon="25.9642136"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23932,17 +24213,31 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>La Cocoș</name>
+    <trkseg>
+      <trkpt lat="44.3995574" lon="26.1459424"></trkpt>
+      <trkpt lat="44.3992313" lon="26.1471013"></trkpt>
+      <trkpt lat="44.4005336" lon="26.1478257"></trkpt>
+      <trkpt lat="44.400855" lon="26.1466935"></trkpt>
+      <trkpt lat="44.4007745" lon="26.1466487"></trkpt>
+      <trkpt lat="44.400785" lon="26.1466119"></trkpt>
+      <trkpt lat="44.4006548" lon="26.1465395"></trkpt>
+      <trkpt lat="44.4006439" lon="26.146578"></trkpt>
+      <trkpt lat="44.3995574" lon="26.1459424"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="45.792557" lon="24.1301587"></trkpt>
-      <trkpt lat="45.7927219" lon="24.130494"></trkpt>
-      <trkpt lat="45.7929764" lon="24.1302365"></trkpt>
-      <trkpt lat="45.7930018" lon="24.1302881"></trkpt>
-      <trkpt lat="45.7931719" lon="24.130116"></trkpt>
-      <trkpt lat="45.7930107" lon="24.1297884"></trkpt>
-      <trkpt lat="45.7926963" lon="24.1301065"></trkpt>
-      <trkpt lat="45.7926672" lon="24.1300472"></trkpt>
-      <trkpt lat="45.792557" lon="24.1301587"></trkpt>
+      <trkpt lat="45.7925374" lon="24.1301828"></trkpt>
+      <trkpt lat="45.7927023" lon="24.1305181"></trkpt>
+      <trkpt lat="45.7929568" lon="24.1302606"></trkpt>
+      <trkpt lat="45.7929822" lon="24.1303122"></trkpt>
+      <trkpt lat="45.7931523" lon="24.1301401"></trkpt>
+      <trkpt lat="45.7929911" lon="24.1298125"></trkpt>
+      <trkpt lat="45.7926767" lon="24.1301306"></trkpt>
+      <trkpt lat="45.7926476" lon="24.1300713"></trkpt>
+      <trkpt lat="45.7925374" lon="24.1301828"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -24513,7 +24808,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Carrefour Market</name>
+    <name>Supeco</name>
     <trkseg>
       <trkpt lat="47.0744496" lon="21.9178416"></trkpt>
       <trkpt lat="47.0740441" lon="21.9184531"></trkpt>
@@ -24822,6 +25117,7 @@ version="1.1" creator="togpx">
       <trkpt lat="44.4151372" lon="26.1364341"></trkpt>
       <trkpt lat="44.4158571" lon="26.1355042"></trkpt>
       <trkpt lat="44.4159111" lon="26.1354345"></trkpt>
+      <trkpt lat="44.4158855" lon="26.1353958"></trkpt>
       <trkpt lat="44.4155614" lon="26.1349047"></trkpt>
       <trkpt lat="44.4148953" lon="26.1357755"></trkpt>
       <trkpt lat="44.4145842" lon="26.1361921"></trkpt>
@@ -25110,6 +25406,16 @@ version="1.1" creator="togpx">
       <trkpt lat="45.4185793" lon="23.3689092"></trkpt>
       <trkpt lat="45.4185764" lon="23.3688193"></trkpt>
       <trkpt lat="45.4185641" lon="23.3684338"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Carrefour Market</name>
+    <trkseg>
+      <trkpt lat="45.4201589" lon="23.3688609"></trkpt>
+      <trkpt lat="45.4196642" lon="23.3689072"></trkpt>
+      <trkpt lat="45.4196826" lon="23.3693047"></trkpt>
+      <trkpt lat="45.4201772" lon="23.3692584"></trkpt>
+      <trkpt lat="45.4201589" lon="23.3688609"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -26777,14 +27083,14 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="44.5653528" lon="27.3502399"></trkpt>
-      <trkpt lat="44.5654674" lon="27.3506136"></trkpt>
-      <trkpt lat="44.5656243" lon="27.3505096"></trkpt>
-      <trkpt lat="44.565612" lon="27.3504626"></trkpt>
-      <trkpt lat="44.56585" lon="27.3503191"></trkpt>
-      <trkpt lat="44.5657442" lon="27.3499973"></trkpt>
-      <trkpt lat="44.5655966" lon="27.3500888"></trkpt>
-      <trkpt lat="44.5653528" lon="27.3502399"></trkpt>
+      <trkpt lat="44.5653524" lon="27.3502397"></trkpt>
+      <trkpt lat="44.5654687" lon="27.3506088"></trkpt>
+      <trkpt lat="44.5656265" lon="27.3505108"></trkpt>
+      <trkpt lat="44.5656111" lon="27.3504621"></trkpt>
+      <trkpt lat="44.5658454" lon="27.3503166"></trkpt>
+      <trkpt lat="44.5657445" lon="27.3499962"></trkpt>
+      <trkpt lat="44.5655964" lon="27.3500882"></trkpt>
+      <trkpt lat="44.5653524" lon="27.3502397"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28066,19 +28372,19 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Penny Market</name>
+    <name>Jysk</name>
     <trkseg>
-      <trkpt lat="46.1995676" lon="21.2956171"></trkpt>
-      <trkpt lat="46.2000409" lon="21.295819"></trkpt>
-      <trkpt lat="46.2001266" lon="21.2954054"></trkpt>
-      <trkpt lat="46.1999305" lon="21.2953175"></trkpt>
-      <trkpt lat="46.1999418" lon="21.2952524"></trkpt>
-      <trkpt lat="46.1998291" lon="21.2952035"></trkpt>
-      <trkpt lat="46.19982" lon="21.2952426"></trkpt>
-      <trkpt lat="46.1998448" lon="21.2952524"></trkpt>
-      <trkpt lat="46.1998381" lon="21.2952882"></trkpt>
-      <trkpt lat="46.1998088" lon="21.2952784"></trkpt>
-      <trkpt lat="46.1995676" lon="21.2956171"></trkpt>
+      <trkpt lat="46.1996159" lon="21.2956868"></trkpt>
+      <trkpt lat="46.2000892" lon="21.2958887"></trkpt>
+      <trkpt lat="46.2001749" lon="21.2954751"></trkpt>
+      <trkpt lat="46.1999788" lon="21.2953872"></trkpt>
+      <trkpt lat="46.1999882" lon="21.2952966"></trkpt>
+      <trkpt lat="46.1998923" lon="21.2952544"></trkpt>
+      <trkpt lat="46.1998776" lon="21.2952895"></trkpt>
+      <trkpt lat="46.1999042" lon="21.295302"></trkpt>
+      <trkpt lat="46.1998929" lon="21.2953284"></trkpt>
+      <trkpt lat="46.1998682" lon="21.2953173"></trkpt>
+      <trkpt lat="46.1996159" lon="21.2956868"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28219,13 +28525,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Venoli Impex</name>
     <trkseg>
-      <trkpt lat="46.1987896" lon="21.2969688"></trkpt>
-      <trkpt lat="46.1987047" lon="21.2969268"></trkpt>
-      <trkpt lat="46.1986768" lon="21.2970444"></trkpt>
-      <trkpt lat="46.1986397" lon="21.2970261"></trkpt>
-      <trkpt lat="46.1986185" lon="21.2971157"></trkpt>
-      <trkpt lat="46.1987406" lon="21.2971761"></trkpt>
-      <trkpt lat="46.1987896" lon="21.2969688"></trkpt>
+      <trkpt lat="46.1988119" lon="21.2970064"></trkpt>
+      <trkpt lat="46.198727" lon="21.2969644"></trkpt>
+      <trkpt lat="46.1986991" lon="21.297082"></trkpt>
+      <trkpt lat="46.198662" lon="21.2970637"></trkpt>
+      <trkpt lat="46.1986408" lon="21.2971533"></trkpt>
+      <trkpt lat="46.1987629" lon="21.2972137"></trkpt>
+      <trkpt lat="46.1988119" lon="21.2970064"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28255,11 +28561,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Kurt German Market</name>
     <trkseg>
-      <trkpt lat="46.2052954" lon="21.2928924"></trkpt>
-      <trkpt lat="46.2046344" lon="21.2927542"></trkpt>
-      <trkpt lat="46.204605" lon="21.293048"></trkpt>
-      <trkpt lat="46.205266" lon="21.2931862"></trkpt>
-      <trkpt lat="46.2052954" lon="21.2928924"></trkpt>
+      <trkpt lat="46.2053232" lon="21.2929487"></trkpt>
+      <trkpt lat="46.2046622" lon="21.2928105"></trkpt>
+      <trkpt lat="46.2046328" lon="21.2931043"></trkpt>
+      <trkpt lat="46.2052938" lon="21.2932425"></trkpt>
+      <trkpt lat="46.2053232" lon="21.2929487"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28765,22 +29071,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Praktiker</name>
-    <trkseg>
-      <trkpt lat="45.6797426" lon="27.1890504"></trkpt>
-      <trkpt lat="45.6788884" lon="27.1883245"></trkpt>
-      <trkpt lat="45.6786419" lon="27.1889186"></trkpt>
-      <trkpt lat="45.6788228" lon="27.1890723"></trkpt>
-      <trkpt lat="45.6788032" lon="27.1891196"></trkpt>
-      <trkpt lat="45.6791884" lon="27.189447"></trkpt>
-      <trkpt lat="45.6792083" lon="27.189399"></trkpt>
-      <trkpt lat="45.6793062" lon="27.1894822"></trkpt>
-      <trkpt lat="45.6794717" lon="27.1890832"></trkpt>
-      <trkpt lat="45.6796619" lon="27.1892448"></trkpt>
-      <trkpt lat="45.6797426" lon="27.1890504"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Lidl</name>
     <trkseg>
       <trkpt lat="45.8398922" lon="24.9861487"></trkpt>
@@ -29098,16 +29388,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/384140660</name>
-    <trkseg>
-      <trkpt lat="47.7818453" lon="22.8874124"></trkpt>
-      <trkpt lat="47.7813831" lon="22.8878293"></trkpt>
-      <trkpt lat="47.7816828" lon="22.8885784"></trkpt>
-      <trkpt lat="47.782147" lon="22.888147"></trkpt>
-      <trkpt lat="47.7818453" lon="22.8874124"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Penny Market</name>
     <trkseg>
       <trkpt lat="45.9745185" lon="24.6122467"></trkpt>
@@ -29253,6 +29533,16 @@ version="1.1" creator="togpx">
       <trkpt lat="45.2175918" lon="26.69391"></trkpt>
       <trkpt lat="45.2174555" lon="26.6937449"></trkpt>
       <trkpt lat="45.2173916" lon="26.6938513"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Mega Image</name>
+    <trkseg>
+      <trkpt lat="44.9455814" lon="26.0210804"></trkpt>
+      <trkpt lat="44.9453448" lon="26.0209947"></trkpt>
+      <trkpt lat="44.9453216" lon="26.0212119"></trkpt>
+      <trkpt lat="44.9455513" lon="26.0212387"></trkpt>
+      <trkpt lat="44.9455814" lon="26.0210804"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30343,6 +30633,22 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Penny</name>
+    <trkseg>
+      <trkpt lat="46.8004588" lon="23.7552865"></trkpt>
+      <trkpt lat="46.8003279" lon="23.7547008"></trkpt>
+      <trkpt lat="46.8001577" lon="23.7547845"></trkpt>
+      <trkpt lat="46.8001457" lon="23.7547383"></trkpt>
+      <trkpt lat="46.8000908" lon="23.7547688"></trkpt>
+      <trkpt lat="46.8001021" lon="23.7548092"></trkpt>
+      <trkpt lat="46.8000903" lon="23.7548158"></trkpt>
+      <trkpt lat="46.8002132" lon="23.7553194"></trkpt>
+      <trkpt lat="46.8003602" lon="23.7552492"></trkpt>
+      <trkpt lat="46.8003771" lon="23.7553276"></trkpt>
+      <trkpt lat="46.8004588" lon="23.7552865"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Anabella</name>
     <trkseg>
       <trkpt lat="45.3407078" lon="24.2473427"></trkpt>
@@ -30747,13 +31053,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Mega Image</name>
     <trkseg>
-      <trkpt lat="44.5007712" lon="26.0686614"></trkpt>
-      <trkpt lat="44.5004499" lon="26.0682981"></trkpt>
-      <trkpt lat="44.5002854" lon="26.0685841"></trkpt>
-      <trkpt lat="44.5005544" lon="26.0688884"></trkpt>
-      <trkpt lat="44.5006692" lon="26.0686888"></trkpt>
-      <trkpt lat="44.5007215" lon="26.0687479"></trkpt>
-      <trkpt lat="44.5007712" lon="26.0686614"></trkpt>
+      <trkpt lat="44.5008023" lon="26.0686669"></trkpt>
+      <trkpt lat="44.5004871" lon="26.0683019"></trkpt>
+      <trkpt lat="44.5003159" lon="26.0685925"></trkpt>
+      <trkpt lat="44.5005813" lon="26.0688998"></trkpt>
+      <trkpt lat="44.5007001" lon="26.0686981"></trkpt>
+      <trkpt lat="44.50075" lon="26.0687558"></trkpt>
+      <trkpt lat="44.5008023" lon="26.0686669"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -31571,7 +31877,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Penny Market</name>
+    <name>Penny</name>
     <trkseg>
       <trkpt lat="45.6638023" lon="25.5649916"></trkpt>
       <trkpt lat="45.6636117" lon="25.5650411"></trkpt>
@@ -31891,6 +32197,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Kaufland</name>
+    <trkseg>
+      <trkpt lat="44.2774543" lon="28.6178209"></trkpt>
+      <trkpt lat="44.2771884" lon="28.6178163"></trkpt>
+      <trkpt lat="44.2771821" lon="28.618507"></trkpt>
+      <trkpt lat="44.2774481" lon="28.6185116"></trkpt>
+      <trkpt lat="44.2774543" lon="28.6178209"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Mega Image</name>
     <trkseg>
       <trkpt lat="45.7101328" lon="27.1832496"></trkpt>
@@ -32048,11 +32364,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="44.4078834" lon="26.1493909"></trkpt>
-      <trkpt lat="44.4075983" lon="26.1492477"></trkpt>
-      <trkpt lat="44.4073898" lon="26.1500673"></trkpt>
-      <trkpt lat="44.4076749" lon="26.1502052"></trkpt>
-      <trkpt lat="44.4078834" lon="26.1493909"></trkpt>
+      <trkpt lat="44.4079353" lon="26.1493578"></trkpt>
+      <trkpt lat="44.4076111" lon="26.1491967"></trkpt>
+      <trkpt lat="44.4073904" lon="26.1500669"></trkpt>
+      <trkpt lat="44.4076762" lon="26.150209"></trkpt>
+      <trkpt lat="44.4078298" lon="26.1496037"></trkpt>
+      <trkpt lat="44.4078682" lon="26.1496227"></trkpt>
+      <trkpt lat="44.4079353" lon="26.1493578"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -32451,11 +32769,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Penny</name>
     <trkseg>
-      <trkpt lat="45.7229899" lon="21.2982232"></trkpt>
-      <trkpt lat="45.7225808" lon="21.2980791"></trkpt>
-      <trkpt lat="45.7224603" lon="21.2987813"></trkpt>
-      <trkpt lat="45.7228694" lon="21.2989253"></trkpt>
-      <trkpt lat="45.7229899" lon="21.2982232"></trkpt>
+      <trkpt lat="45.7229472" lon="21.2984048"></trkpt>
+      <trkpt lat="45.7223641" lon="21.2982274"></trkpt>
+      <trkpt lat="45.7222913" lon="21.2987495"></trkpt>
+      <trkpt lat="45.722867" lon="21.2989376"></trkpt>
+      <trkpt lat="45.7229472" lon="21.2984048"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -32479,11 +32797,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="45.7222085" lon="21.3002711"></trkpt>
-      <trkpt lat="45.7220818" lon="21.3010391"></trkpt>
-      <trkpt lat="45.7223198" lon="21.3011196"></trkpt>
-      <trkpt lat="45.7224464" lon="21.3003516"></trkpt>
-      <trkpt lat="45.7222085" lon="21.3002711"></trkpt>
+      <trkpt lat="45.7215966" lon="21.2998007"></trkpt>
+      <trkpt lat="45.7215202" lon="21.3002429"></trkpt>
+      <trkpt lat="45.7222122" lon="21.3004884"></trkpt>
+      <trkpt lat="45.7222886" lon="21.3000462"></trkpt>
+      <trkpt lat="45.7215966" lon="21.2998007"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -33122,6 +33440,70 @@ version="1.1" creator="togpx">
       <trkpt lat="44.9525633" lon="26.0442034"></trkpt>
       <trkpt lat="44.952649" lon="26.0440826"></trkpt>
       <trkpt lat="44.9524578" lon="26.0437848"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Profi</name>
+    <trkseg>
+      <trkpt lat="45.6061513" lon="21.0588437"></trkpt>
+      <trkpt lat="45.6060706" lon="21.0586935"></trkpt>
+      <trkpt lat="45.6058966" lon="21.0588846"></trkpt>
+      <trkpt lat="45.6059772" lon="21.0590348"></trkpt>
+      <trkpt lat="45.6061513" lon="21.0588437"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaufland</name>
+    <trkseg>
+      <trkpt lat="44.5024075" lon="26.064951"></trkpt>
+      <trkpt lat="44.5020289" lon="26.0644703"></trkpt>
+      <trkpt lat="44.5015283" lon="26.0652455"></trkpt>
+      <trkpt lat="44.5019819" lon="26.0658212"></trkpt>
+      <trkpt lat="44.5024182" lon="26.0651455"></trkpt>
+      <trkpt lat="44.5023433" lon="26.0650504"></trkpt>
+      <trkpt lat="44.5024075" lon="26.064951"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaufland</name>
+    <trkseg>
+      <trkpt lat="44.4086064" lon="26.1502945"></trkpt>
+      <trkpt lat="44.4081535" lon="26.150077"></trkpt>
+      <trkpt lat="44.4078551" lon="26.1512945"></trkpt>
+      <trkpt lat="44.4081132" lon="26.1514184"></trkpt>
+      <trkpt lat="44.4080923" lon="26.151504"></trkpt>
+      <trkpt lat="44.4082515" lon="26.1515805"></trkpt>
+      <trkpt lat="44.4082731" lon="26.1514924"></trkpt>
+      <trkpt lat="44.4083172" lon="26.1515136"></trkpt>
+      <trkpt lat="44.4085041" lon="26.1507506"></trkpt>
+      <trkpt lat="44.4084664" lon="26.1507325"></trkpt>
+      <trkpt lat="44.408546" lon="26.1504081"></trkpt>
+      <trkpt lat="44.4085751" lon="26.1504221"></trkpt>
+      <trkpt lat="44.4086064" lon="26.1502945"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Lidl</name>
+    <trkseg>
+      <trkpt lat="44.9863519" lon="25.6409169"></trkpt>
+      <trkpt lat="44.9860863" lon="25.6410698"></trkpt>
+      <trkpt lat="44.9863026" lon="25.6419174"></trkpt>
+      <trkpt lat="44.9865682" lon="25.6417645"></trkpt>
+      <trkpt lat="44.9863519" lon="25.6409169"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Penny</name>
+    <trkseg>
+      <trkpt lat="45.7070586" lon="21.2348268"></trkpt>
+      <trkpt lat="45.7069347" lon="21.2347876"></trkpt>
+      <trkpt lat="45.7067725" lon="21.2347363"></trkpt>
+      <trkpt lat="45.7066846" lon="21.2353057"></trkpt>
+      <trkpt lat="45.7066546" lon="21.2352962"></trkpt>
+      <trkpt lat="45.7066327" lon="21.2352893"></trkpt>
+      <trkpt lat="45.7065987" lon="21.2355095"></trkpt>
+      <trkpt lat="45.7069365" lon="21.2356166"></trkpt>
+      <trkpt lat="45.7070586" lon="21.2348268"></trkpt>
     </trkseg>
   </trk>
 </gpx>
