@@ -2,6 +2,8 @@ Feed your routing applications OFFLINE.
 
 # A collection of camping sites and camper supplementals for download as "Points of Interest" in the GPX format
 
+*Read this in other languages: [English](README.md), [German](README.de.md)
+
 The whole story is primarily intended for offline use on an old quad core netbook while traveling on the road beyond a usable or affordable Internet connection or in the Internet desert and looking step by step for the next magic place to stay.
 
 - Camping site pois
