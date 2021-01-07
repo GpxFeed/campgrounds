@@ -19,7 +19,7 @@ The whole story is primarily intended for offline use on an old quad core netboo
 
 - Countries
 
-    - Andorra, Albania, Austria, Bosnia and Herzegovina, Belgium, Bulgaria, Belarus, Switzerland, Cyprus, Czech Republic, Germany, Denmark, Estonia, Spain, Finland, Faroe Islands, France, United Kingdom, Guernsey, Gibraltar, Greenland, Greece, Croatia, Hungary, Ireland, Isle of Man, Iceland, Italy, Jersey, Liechtenstein, Lithuania, Luxembourg, Latvia, Monaco, Moldova, Montenegro, North Macedonia, Malta, Netherlands, Norway, Poland, Portugal, Romania, Serbia, Russia, Sweden, Slovenia, Svalbard and Jan Mayen, Slovakia, San Marino, Ukraine, City of the Vatican
+    - (AD) Andorra, (AL) Albania, (AT) Austria, (BA) Bosnia and Herzegovina, (BE) Belgium, (BG) Bulgaria, (BY) Belarus, (CH) Switzerland, (CY) Cyprus, (CZ) Czech Republic, (DE) Germany, (DK) Denmark, (EE) Estonia, (ES) Spain, (FI) Finland, (FO) Faroe Islands, (FR) France, (GB) United Kingdom, (GG) Guernsey, (GI) Gibraltar, (GL) Greenland, (GR) Greece, (HR) Croatia, (HU) Hungary, (IE) Ireland, (IM) Isle of Man, (IS) Iceland, (IT) Italy, (JE) Jersey, (LI) Liechtenstein, (LT) Lithuania, (LU) Luxembourg, (LV) Latvia, (MC) Monaco, (MD) Moldova, (ME) Montenegro, (MK) North Macedonia, (MT) Malta, (NL) Netherlands, (NO) Norway, (PL) Poland, (PT) Portugal, (RO) Romania, (RS) Serbia, (RU) Russia, (SE) Sweden, (SI) Slovenia, (SJ) Svalbard and Jan Mayen, (SK) Slovakia, (SM) San Marino, (UA) Ukraine, (VA) City of the Vatican
 
 All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
 
@@ -27,9 +27,9 @@ All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy]
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
 
-If you find data are invalid or missing, please deal with OSM.
+Elevation data missing in OSM were added by the [NASA Shuttle Radar Topography Mission](https://en.wikipedia.org/wiki/Shuttle_Radar_Topography_Mission) as public release version, if available there. 
 
-Elevation data missing in OSM were added by the NASA Shuttle Radar Topography Mission as public release version, if available there. 
+If you find data are invalid or missing, please deal with OSM - for getting a clean next issue.
 
 # Other GPX camping site poi sources
 
@@ -48,3 +48,4 @@ Elevation data missing in OSM were added by the NASA Shuttle Radar Topography Mi
 - Tested on the Desktop
     - https://www.routeconverter.com/
     - https://github.com/tumic0/GPXSee
+
