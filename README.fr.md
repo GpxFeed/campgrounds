@@ -1,6 +1,6 @@
 Alimentez vos applications de routage OFFLINE.
 
-# Une collection de campings et de parcs de loisirs à télécharger en tant que "Points d'intérêt" au format GPX.
+# Une collection de campings et d'emplacements pour camping-cars à télécharger en tant que "Points d'intérêt" au format GPX.
 
 * Lisez ceci dans d'autres langues : [Anglais](README.md), [Allemand](README.de.md), [Français](README.fr.md)
 
