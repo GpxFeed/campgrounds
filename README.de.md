@@ -2,7 +2,7 @@ Füttern Sie Ihre Routing-Anwendungen OFFLINE.
 
 # Eine Sammlung von Campingplätzen und Wohnmobilstellplätzen zum Download als "Points of Interest" im GPX-Format
 
-*Lese dies in anderen Sprachen: [Englisch](README.md), [Deutsch](README.de.md)
+*Lese dies in anderen Sprachen: [Englisch](README.md), [Deutsch](README.de.md), [Französisch](README.fr.md)
 
 Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alten Quad-Core-Netbook gedacht, wenn man unterwegs jenseits einer brauchbaren oder bezahlbaren Internetverbindung oder in der Internet-Wüste unterwegs ist und Schritt für Schritt den nächsten magischen Platz zum Übernachten sucht.
 
