@@ -4,7 +4,7 @@ Alimentez vos applications de routage OFFLINE.
 
 * Lisez ceci dans d'autres langues : [Anglais](README.md), [Allemand](README.de.md), [Français](README.fr.md)
 
-Toute l'histoire est principalement destinée à être utilisée hors ligne sur un vieux netbook quadricœur, lorsque vous êtes sur la route au-delà d'une connexion internet utilisable ou abordable, ou dans le désert de l'internet, en cherchant pas à pas le prochain endroit magique où séjourner.
+L'ensemble de l'application est principalement destinée à être utilisée hors ligne sur un vieux netbook quadricœur, lorsque vous êtes sur la route au-delà d'une connexion internet utilisable ou abordable, ou dans le désert de l'internet, en cherchant pas à pas le prochain endroit magique où séjourner.
 
 - POIs de Camping 
 
