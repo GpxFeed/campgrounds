@@ -50,4 +50,3 @@ Wenn Sie feststellen, dass Daten falsch sind oder fehlen, wenden Sie sich bitte 
 - Getestet auf dem Desktop
     - https://www.routeconverter.com/
     - https://github.com/tumic0/GPXSee
-.
