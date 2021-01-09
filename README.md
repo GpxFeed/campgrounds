@@ -50,5 +50,3 @@ If you find data are invalid or missing, please deal with OSM - for getting a cl
 - Tested on the Desktop
     - https://www.routeconverter.com/
     - https://github.com/tumic0/GPXSee
-
-.
