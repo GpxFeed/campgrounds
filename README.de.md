@@ -8,7 +8,7 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
 - Campingplatz Pois
 
-    - 46044 Camping Plätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 46044 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
 
