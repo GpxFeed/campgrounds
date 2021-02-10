@@ -23,8 +23,6 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
     (AD) Andorre, (AL) Albanie, (AT) Autriche, (BA) Bosnie-Herzégovine, (BE) Belgique, (BG) Bulgarie, (BY) Belarus, (CH) Suisse, (CY) Chypre, (CZ) République tchèque, (DE) Allemagne, (DK) Danemark, (EE) Estonie, (ES) Espagne, (FI) Finlande, (FO) Îles Féroé, (FR) France, (GB) Royaume-Uni, (GG) Guernesey, (GI) Gibraltar, (GL) Groenland, (GR) Grèce, (HR) Croatie, (HU) Hongrie, (IE) Irlande, (IM) Île de Man, (IS) Islande, (IT) Italie, (JE) Jersey, (LI) Liechtenstein, (LT) Lituanie, (LU) Luxembourg, (LV) Lettonie, (MC) Monaco, (MD) Moldavie, (ME) Monténégro, (MK) Macédoine du Nord, (MT) Malte, (NL) Pays-Bas, (NO) Norvège, (PL) Pologne, (PT) Portugal, (RO) Roumanie, (RS) Serbie, (RU) Russie, (SE) Suède, (SI) Slovénie, (SJ) Spitzberg et Jan Mayen, (SK) Slovaquie, (SM) Saint-Marin, (UA) Ukraine, (VA) Cité du Vatican
 
-Traduit avec www.DeepL.com/Translator (version gratuite)
-
 Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'analyseur [GpxPy](http://github.com/tkrajina/gpxpy) ainsi que d'autres outils Python pour un fonctionnement optimal avec Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
