@@ -23,8 +23,6 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
     - (AD) Andorra, (AL) Albanien, (AT) Österreich, (BA) Bosnien und Herzegowina, (BE) Belgien, (BG) Bulgarien, (BY) Weißrussland, (CH) Schweiz, (CY) Zypern, (CZ) Tschechische Republik, (DE) Deutschland, (DK) Dänemark, (EE) Estland, (ES) Spanien, (FI) Finnland, (FO) Färöer Inseln, (FR) Frankreich, (GB) Vereinigtes Königreich, (GG) Guernsey, (GI) Gibraltar, (GL) Grönland, (GR) Griechenland, (HR) Kroatien, (HU) Ungarn, (IE) Irland, (IM) Isle of Man, (IS) Island, (IT) Italien, (JE) Jersey, (LI) Liechtenstein, (LT) Litauen, (LU) Luxemburg, (LV) Lettland, (MC) Monaco, (MD) Moldawien, (ME) Montenegro, (MK) Nordmazedonien, (MT) Malta, (NL) Niederlande, (NO) Norwegen, (PL) Polen, (PT) Portugal, (RO) Rumänien, (RS) Serbien, (RU) Russland, (SE) Schweden, (SI) Slowenien, (SJ) Spitzbergen und Jan Mayen, (SK) Slowakei, (SM) San Marino, (UA) Ukraine, (VA) Vatikanstadt
 
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
-
 Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](http://github.com/tkrajina/gpxpy)-Parser zusammen mit anderen Python-Werkzeugsätzen für das optimale Arbeiten mit Cruiser Desktop getrimmt (Data -> Import -> Filter: *.gpx) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
