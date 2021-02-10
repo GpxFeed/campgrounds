@@ -21,7 +21,9 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
 - Pays
 
-    - (AD) Andorra, (AL) Albania, (AT) Austria, (BA) Bosnia and Herzegovina, (BE) Belgium, (BG) Bulgaria, (BY) Belarus, (CH) Switzerland, (CY) Cyprus, (CZ) Czech Republic, (DE) Germany, (DK) Denmark, (EE) Estonia, (ES) Spain, (FI) Finland, (FO) Faroe Islands, (FR) France, (GB) United Kingdom, (GG) Guernsey, (GI) Gibraltar, (GL) Greenland, (GR) Greece, (HR) Croatia, (HU) Hungary, (IE) Ireland, (IM) Isle of Man, (IS) Iceland, (IT) Italy, (JE) Jersey, (LI) Liechtenstein, (LT) Lithuania, (LU) Luxembourg, (LV) Latvia, (MC) Monaco, (MD) Moldova, (ME) Montenegro, (MK) North Macedonia, (MT) Malta, (NL) Netherlands, (NO) Norway, (PL) Poland, (PT) Portugal, (RO) Romania, (RS) Serbia, (RU) Russia, (SE) Sweden, (SI) Slovenia, (SJ) Svalbard and Jan Mayen, (SK) Slovakia, (SM) San Marino, (UA) Ukraine, (VA) City of the Vatican
+    (AD) Andorre, (AL) Albanie, (AT) Autriche, (BA) Bosnie-Herzégovine, (BE) Belgique, (BG) Bulgarie, (BY) Belarus, (CH) Suisse, (CY) Chypre, (CZ) République tchèque, (DE) Allemagne, (DK) Danemark, (EE) Estonie, (ES) Espagne, (FI) Finlande, (FO) Îles Féroé, (FR) France, (GB) Royaume-Uni, (GG) Guernesey, (GI) Gibraltar, (GL) Groenland, (GR) Grèce, (HR) Croatie, (HU) Hongrie, (IE) Irlande, (IM) Île de Man, (IS) Islande, (IT) Italie, (JE) Jersey, (LI) Liechtenstein, (LT) Lituanie, (LU) Luxembourg, (LV) Lettonie, (MC) Monaco, (MD) Moldavie, (ME) Monténégro, (MK) Macédoine du Nord, (MT) Malte, (NL) Pays-Bas, (NO) Norvège, (PL) Pologne, (PT) Portugal, (RO) Roumanie, (RS) Serbie, (RU) Russie, (SE) Suède, (SI) Slovénie, (SJ) Spitzberg et Jan Mayen, (SK) Slovaquie, (SM) Saint-Marin, (UA) Ukraine, (VA) Cité du Vatican
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
 
 Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'analyseur [GpxPy](http://github.com/tkrajina/gpxpy) ainsi que d'autres outils Python pour un fonctionnement optimal avec Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
 
