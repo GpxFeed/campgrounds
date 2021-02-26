@@ -1,6 +1,6 @@
 Feed your routing applications OFFLINE.
 
-# A collection of camping sites and camper supplementals for download as "Points of Interest" in the GPX format
+# <h1>A collection of camping sites and camper supplementals for download as "Points of Interest" / POIs in the GPX format</h1>
 
 *Read this in other languages: [English](README.md), [German](README.de.md), [French](README.fr.md)
 
@@ -33,13 +33,13 @@ Elevation data missing in OSM were added by the [NASA Shuttle Radar Topography M
 
 If you find data are invalid or missing, please deal with OSM - for getting a clean next issue.
 
-# Other GPX camping site poi sources
+# <h2>Other GPX camping site poi sources</h2>
 
 - http://www.archiescampings.eu/
 
 - http://www.uscampgrounds.info/
 
-# Other software using OSM data and services
+# <h2>Other software using OSM data and services</h2>
 
 - Mobile software by platform
     - https://wiki.openstreetmap.org/wiki/Software
