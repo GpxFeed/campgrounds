@@ -1,6 +1,6 @@
 Füttern Sie Ihre Routing-Anwendungen OFFLINE.
 
-# Eine Sammlung von Campingplätzen und Wohnmobilstellplätzen zum Download als "Points of Interest" im GPX-Format
+# <h1>Eine Sammlung von Campingplätzen und Wohnmobilstellplätzen zum Download als "Points of Interest" / POIs im GPX-Format</h1>
 
 *Lese dies in anderen Sprachen: [Englisch](README.md), [Deutsch](README.de.md), [Französisch](README.fr.md)
 
@@ -33,13 +33,13 @@ In OSM fehlende Höhendaten wurden von der [NASA Shuttle Radar Topography Missio
 
 Wenn Sie feststellen, dass Daten falsch sind oder fehlen, wenden Sie sich bitte an OSM - um eine saubere nächste Ausgabe zu erhalten.
 
-# Andere Quellen für GPX-Campingplatz-Pois
+# <h2>Andere Quellen für GPX-Campingplatz-Pois</h2>
 
 - http://www.archiescampings.eu/
 
 - http://www.uscampgrounds.info/
 
-# Andere Software, die OSM-Daten und -Dienste nutzt
+# <h2>Andere Software, die OSM-Daten und -Dienste nutzt</h2>
 
 - Handy-Software nach Plattform
     - https://wiki.openstreetmap.org/wiki/Software
