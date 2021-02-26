@@ -6,19 +6,16 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-01-25T18:45:02Z", "timestamp_areas_base":
-      "2021-01-25T17:56:03Z", "copyright": "The data included in
+      "2021-02-25T12:09:57Z", "timestamp_areas_base":
+      "2021-02-25T11:39:13Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
-      public release version, if available there. }</license>
+      public release version, if available there. } // { Check for
+      latest version of this file on:
+      https://github.com/GpxFeed/campgrounds }</license>
     </copyright>
   </metadata>
-  <wpt lat="62.17668" lon="27.86427">
-    <name>FI0004</name>
-    <desc>created_by=JOSM; name=FI0004; tourism=camp_site;
-    id=node/26861402</desc>
-  </wpt>
   <wpt lat="61.5394235" lon="28.1593233">
     <name>Koskenselkä</name>
     <desc>access=yes; addr:city=Puumala; addr:housenumber=98;
@@ -1946,8 +1943,9 @@ version="1.1" creator="togpx">
   <wpt lat="63.1485477" lon="30.7472312">
     <name>Lapinniemi telttailualue</name>
     <desc>access=yes; backcountry=yes; fee=no; internet_access=no;
-    name=Lapinniemi telttailualue; operator=Metsähallitus;
-    tourism=camp_site; id=node/5948350841</desc>
+    name=Lapinniemi telttailualue; openfire=yes;
+    operator=Metsähallitus; toilets=yes; tourism=camp_site;
+    id=node/5948350841</desc>
   </wpt>
   <wpt lat="60.3704246" lon="22.5128891">
     <name>
@@ -2551,19 +2549,21 @@ version="1.1" creator="togpx">
     <desc>tourism=camp_site; id=node/7836610402</desc>
   </wpt>
   <wpt lat="63.1408466" lon="30.7917146">
-    <name>node/7846996185</name>
-    <desc>name:en=Camping; tourism=camp_site;
-    id=node/7846996185</desc>
+    <name>Virtaniemi</name>
+    <desc>access=yes; backcountry=yes; capacity=5; fee=no;
+    name=Virtaniemi; name:en=Virtaniemi; openfire=yes; toilets=yes;
+    tourism=camp_site; id=node/7846996185</desc>
   </wpt>
   <wpt lat="63.0897174" lon="30.7465908">
-    <name>node/7848359085</name>
-    <desc>name:en=Camping; tourism=camp_site;
-    id=node/7848359085</desc>
+    <name>Teretinniemi</name>
+    <desc>access=yes; backcountry=yes; capacity=5; fee=no;
+    name=Teretinniemi; name:en=Teretinniemi; openfire=yes;
+    toilets=yes; tourism=camp_site; id=node/7848359085</desc>
   </wpt>
   <wpt lat="63.114316" lon="30.6576772">
     <name>node/7848361085</name>
-    <desc>name:en=Camping; tourism=camp_site;
-    id=node/7848361085</desc>
+    <desc>backcountry=yes; fee=no; name:en=Camping; openfire=yes;
+    tourism=camp_site; id=node/7848361085</desc>
   </wpt>
   <wpt lat="66.2547687" lon="29.4374822">
     <name>Siilastupa</name>
@@ -2658,6 +2658,22 @@ version="1.1" creator="togpx">
     <desc>access=customers; addr:city=Äkäslompolo; fee=yes;
     tourism=camp_site; id=node/8338282585</desc>
   </wpt>
+  <wpt lat="60.374118" lon="26.3159754">
+    <name>Källan leirialue</name>
+    <desc>group_only=yes; name=Källan leirialue; name:sv=Källa
+    lägerområde; tourism=camp_site;
+    website=https://www.loviisa.fi/kulttuuri-ja-vapaa-aika/harrastukset-ja-vapaa-aika/liikunta-ja-ulkoilu/liikuntapaikat-ja-tilat/ulkoilu-ja-luonnon-virkistyskaytto/;
+    id=node/8420966062</desc>
+  </wpt>
+  <wpt lat="60.1354685" lon="24.6992178">
+    <ele>17</ele>
+    <name>Matasaaren leirikeskus</name>
+    <desc>access=customers; addr:housenumber=3;
+    addr:street=Matasaarentie; name=Matasaaren leirikeskus;
+    name:fi=Matasaari Matasaaren leirikeskus; name:sv=Mataskärs
+    lägergård; operator=Mataskärstiftelsen; tourism=camp_site;
+    website=http://www.mataskar.fi/; id=node/8437398399</desc>
+  </wpt>
   <wpt lat="62.7551572" lon="22.844307327013546">
     <name>Seinäjoen Leirintäalue</name>
     <desc>cabins=yes; caravans=yes; name=Seinäjoen Leirintäalue;
@@ -2706,12 +2722,17 @@ version="1.1" creator="togpx">
     washing_machine=yes; website=http://www.arcticcamping.com/;
     id=relation/10620032</desc>
   </wpt>
-  <wpt lat="63.306501749999995" lon="30.00455639036646">
+  <wpt lat="63.30632045" lon="30.004553847941033">
     <name>Lomakylä Timitraniemi Camping</name>
-    <desc>area=yes; caravans=yes; fee=yes; name=Lomakylä
-    Timitraniemi Camping; opening_hours=Jun-Sep; tents=yes;
-    tourism=camp_site; website=https://timitra.com;
-    id=way/23221621</desc>
+    <desc>access=yes; addr:city=Lieksa; addr:postcode=81720;
+    addr:street=Timitrantie; area=yes; cabins=yes;
+    camp_site=serviced; capacity:cabins=45; capacity:caravans=58;
+    caravans=yes; email=contact@timitra.com; fee=yes; kitchen=yes;
+    name=Lomakylä Timitraniemi Camping; name:en=Timitraniemi
+    Holiday village; openfire=yes; opening_hours=Jun-Sep;
+    phone=+358 45 1237166; power_supply=yes; reservation=yes;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    website=https://timitra.com; id=way/23221621</desc>
   </wpt>
   <wpt lat="63.100723450000004" lon="21.573259365118584">
     <name>Top Camping</name>
@@ -2725,8 +2746,10 @@ version="1.1" creator="togpx">
     tourism=camp_site; id=way/31046461</desc>
   </wpt>
   <wpt lat="63.1300497" lon="30.73102271349787">
-    <name>way/35897135</name>
-    <desc>fee=yes; tourism=camp_site; id=way/35897135</desc>
+    <name>Suomu</name>
+    <desc>access=yes; drinking_water=yes; fee=yes; name=Suomu;
+    openfire=yes; toilets=yes; tourism=camp_site;
+    id=way/35897135</desc>
   </wpt>
   <wpt lat="62.263637200000005" lon="21.362385810649826">
     <name>Pukinsaari-Bockholmen Camping</name>
@@ -3766,6 +3789,15 @@ version="1.1" creator="togpx">
     website=https://valkeisjarvenleirintaalue.fi/;
     id=way/889601468</desc>
   </wpt>
+  <wpt lat="60.9036287" lon="24.51724224174154">
+    <name>Virala Camping</name>
+    <desc>access=yes; addr:city=Janakkala; addr:housenumber=86;
+    addr:postcode=14240; addr:street=Saarelantie; fee=yes;
+    name=Virala Camping; phone=0400775991; shower=yes; toilets=yes;
+    tourism=camp_site;
+    website=https://leirintaopas.fi/alueet/virala-camping;
+    id=way/903829392</desc>
+  </wpt>
   <trk>
     <name>Seinäjoen Leirintäalue</name>
     <trkseg>
@@ -3996,16 +4028,52 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lomakylä Timitraniemi Camping</name>
     <trkseg>
-      <trkpt lat="63.3070053" lon="30.0074155"></trkpt>
-      <trkpt lat="63.3070315" lon="30.006606"></trkpt>
-      <trkpt lat="63.3075328" lon="30.0051469"></trkpt>
-      <trkpt lat="63.3075328" lon="30.0027007"></trkpt>
-      <trkpt lat="63.3074364" lon="30.0017995"></trkpt>
-      <trkpt lat="63.3071472" lon="30.001542"></trkpt>
-      <trkpt lat="63.3059712" lon="30.0028724"></trkpt>
+      <trkpt lat="63.3069744" lon="30.0074387"></trkpt>
+      <trkpt lat="63.307" lon="30.0069813"></trkpt>
+      <trkpt lat="63.3070532" lon="30.006667"></trkpt>
+      <trkpt lat="63.3071493" lon="30.0063157"></trkpt>
+      <trkpt lat="63.307219" lon="30.006121"></trkpt>
+      <trkpt lat="63.3074261" lon="30.0057454"></trkpt>
+      <trkpt lat="63.3074969" lon="30.0056793"></trkpt>
+      <trkpt lat="63.3075472" lon="30.0055542"></trkpt>
+      <trkpt lat="63.30755" lon="30.0055046"></trkpt>
+      <trkpt lat="63.3075502" lon="30.0054223"></trkpt>
+      <trkpt lat="63.3074521" lon="30.0051794"></trkpt>
+      <trkpt lat="63.3074975" lon="30.0040305"></trkpt>
+      <trkpt lat="63.3075582" lon="30.0026187"></trkpt>
+      <trkpt lat="63.3075557" lon="30.0022515"></trkpt>
+      <trkpt lat="63.3075278" lon="30.0019831"></trkpt>
+      <trkpt lat="63.3074948" lon="30.0018178"></trkpt>
+      <trkpt lat="63.3074504" lon="30.0017006"></trkpt>
+      <trkpt lat="63.3073889" lon="30.0016326"></trkpt>
+      <trkpt lat="63.307343" lon="30.0016071"></trkpt>
+      <trkpt lat="63.307306" lon="30.0016056"></trkpt>
+      <trkpt lat="63.3072457" lon="30.0016247"></trkpt>
+      <trkpt lat="63.3070796" lon="30.0017614"></trkpt>
+      <trkpt lat="63.3068628" lon="30.0020056"></trkpt>
+      <trkpt lat="63.3067932" lon="30.0020472"></trkpt>
+      <trkpt lat="63.306641" lon="30.0020847"></trkpt>
+      <trkpt lat="63.3066241" lon="30.002093"></trkpt>
+      <trkpt lat="63.3066018" lon="30.0020944"></trkpt>
+      <trkpt lat="63.3064852" lon="30.0021713"></trkpt>
+      <trkpt lat="63.3064652" lon="30.0021593"></trkpt>
+      <trkpt lat="63.3064645" lon="30.0020772"></trkpt>
+      <trkpt lat="63.306456" lon="30.0020532"></trkpt>
+      <trkpt lat="63.3064426" lon="30.0020559"></trkpt>
+      <trkpt lat="63.3064228" lon="30.002108"></trkpt>
+      <trkpt lat="63.3064063" lon="30.0023081"></trkpt>
+      <trkpt lat="63.3063453" lon="30.0023691"></trkpt>
+      <trkpt lat="63.3062956" lon="30.0025343"></trkpt>
+      <trkpt lat="63.3060526" lon="30.002812"></trkpt>
+      <trkpt lat="63.306008" lon="30.002822"></trkpt>
+      <trkpt lat="63.3058925" lon="30.0027856"></trkpt>
+      <trkpt lat="63.3058216" lon="30.0028549"></trkpt>
+      <trkpt lat="63.3057549" lon="30.0028499"></trkpt>
+      <trkpt lat="63.3056173" lon="30.0026818"></trkpt>
       <trkpt lat="63.3054965" lon="30.002513"></trkpt>
-      <trkpt lat="63.3053986" lon="30.0024417"></trkpt>
-      <trkpt lat="63.3052974" lon="30.0026911"></trkpt>
+      <trkpt lat="63.3053986" lon="30.0024327"></trkpt>
+      <trkpt lat="63.3053433" lon="30.0025517"></trkpt>
+      <trkpt lat="63.3052019" lon="30.0026219"></trkpt>
       <trkpt lat="63.3050983" lon="30.0027913"></trkpt>
       <trkpt lat="63.3053324" lon="30.0036764"></trkpt>
       <trkpt lat="63.305148" lon="30.0039947"></trkpt>
@@ -4014,7 +4082,7 @@ version="1.1" creator="togpx">
       <trkpt lat="63.3059982" lon="30.0058164"></trkpt>
       <trkpt lat="63.3059411" lon="30.0059908"></trkpt>
       <trkpt lat="63.3059144" lon="30.00617"></trkpt>
-      <trkpt lat="63.3070053" lon="30.0074155"></trkpt>
+      <trkpt lat="63.3069744" lon="30.0074387"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -4096,7 +4164,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/35897135</name>
+    <name>Suomu</name>
     <trkseg>
       <trkpt lat="63.1302773" lon="30.7307319"></trkpt>
       <trkpt lat="63.1296898" lon="30.730463"></trkpt>
@@ -6883,6 +6951,7 @@ version="1.1" creator="togpx">
       <trkpt lat="60.4421754" lon="26.2359911"></trkpt>
       <trkpt lat="60.4419781" lon="26.2357276"></trkpt>
       <trkpt lat="60.4418547" lon="26.235561"></trkpt>
+      <trkpt lat="60.4417855" lon="26.2354761"></trkpt>
       <trkpt lat="60.4417083" lon="26.2353953"></trkpt>
       <trkpt lat="60.4416319" lon="26.2353224"></trkpt>
       <trkpt lat="60.4415026" lon="26.2352308"></trkpt>
@@ -6894,6 +6963,7 @@ version="1.1" creator="togpx">
       <trkpt lat="60.4406674" lon="26.2351973"></trkpt>
       <trkpt lat="60.4404943" lon="26.2353153"></trkpt>
       <trkpt lat="60.440366" lon="26.2354604"></trkpt>
+      <trkpt lat="60.4403116" lon="26.2355661"></trkpt>
       <trkpt lat="60.4402613" lon="26.2356639"></trkpt>
       <trkpt lat="60.4401699" lon="26.2359325"></trkpt>
       <trkpt lat="60.4401005" lon="26.2362168"></trkpt>
@@ -6901,8 +6971,10 @@ version="1.1" creator="togpx">
       <trkpt lat="60.4400677" lon="26.2369141"></trkpt>
       <trkpt lat="60.4400989" lon="26.2372484"></trkpt>
       <trkpt lat="60.440166" lon="26.2375878"></trkpt>
+      <trkpt lat="60.4402312" lon="26.2377636"></trkpt>
       <trkpt lat="60.4403146" lon="26.237921"></trkpt>
       <trkpt lat="60.4405095" lon="26.2381536"></trkpt>
+      <trkpt lat="60.4406001" lon="26.2382684"></trkpt>
       <trkpt lat="60.4407502" lon="26.2384756"></trkpt>
       <trkpt lat="60.440768" lon="26.2385193"></trkpt>
       <trkpt lat="60.440792" lon="26.2385711"></trkpt>
@@ -6939,6 +7011,8 @@ version="1.1" creator="togpx">
       <trkpt lat="60.4419083" lon="26.2379543"></trkpt>
       <trkpt lat="60.4419696" lon="26.2378593"></trkpt>
       <trkpt lat="60.441994" lon="26.2378373"></trkpt>
+      <trkpt lat="60.4420772" lon="26.2374835"></trkpt>
+      <trkpt lat="60.4421346" lon="26.2372394"></trkpt>
       <trkpt lat="60.442386" lon="26.2361617"></trkpt>
     </trkseg>
   </trk>
@@ -7547,6 +7621,30 @@ version="1.1" creator="togpx">
       <trkpt lat="63.4337777" lon="24.8907387"></trkpt>
       <trkpt lat="63.4335522" lon="24.8909104"></trkpt>
       <trkpt lat="63.4333267" lon="24.8909211"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Virala Camping</name>
+    <trkseg>
+      <trkpt lat="60.9027787" lon="24.5167901"></trkpt>
+      <trkpt lat="60.9025681" lon="24.5178902"></trkpt>
+      <trkpt lat="60.9037853" lon="24.5185725"></trkpt>
+      <trkpt lat="60.9038153" lon="24.5190504"></trkpt>
+      <trkpt lat="60.9038255" lon="24.5192114"></trkpt>
+      <trkpt lat="60.9038883" lon="24.5192097"></trkpt>
+      <trkpt lat="60.9040068" lon="24.5191579"></trkpt>
+      <trkpt lat="60.9041186" lon="24.519226"></trkpt>
+      <trkpt lat="60.9042131" lon="24.5191152"></trkpt>
+      <trkpt lat="60.9044953" lon="24.5192763"></trkpt>
+      <trkpt lat="60.9046799" lon="24.5181815"></trkpt>
+      <trkpt lat="60.9046016" lon="24.5172079"></trkpt>
+      <trkpt lat="60.9041729" lon="24.5166406"></trkpt>
+      <trkpt lat="60.904322" lon="24.5158932"></trkpt>
+      <trkpt lat="60.9041506" lon="24.5156402"></trkpt>
+      <trkpt lat="60.9038319" lon="24.5158396"></trkpt>
+      <trkpt lat="60.9034721" lon="24.5161232"></trkpt>
+      <trkpt lat="60.9031702" lon="24.5168361"></trkpt>
+      <trkpt lat="60.9027787" lon="24.5167901"></trkpt>
     </trkseg>
   </trk>
   <trk>
