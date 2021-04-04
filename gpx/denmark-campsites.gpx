@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-02-25T13:10:12Z", "timestamp_areas_base":
-      "2021-02-25T12:49:43Z", "copyright": "The data included in
+      "2021-04-03T20:38:12Z", "timestamp_areas_base":
+      "2021-04-03T20:12:42Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -110,7 +110,7 @@ version="1.1" creator="togpx">
     <ele>130</ele>
     <name>Gl. Elevshelter</name>
     <desc>backcountry=yes; motor_vehicle=no; name=Gl. Elevshelter;
-    shelters=1; tourism=camp_site; id=node/538060778</desc>
+    shelter=1; tourism=camp_site; id=node/538060778</desc>
   </wpt>
   <wpt lat="56.1358429" lon="9.5889258">
     <ele>41</ele>
@@ -335,7 +335,7 @@ version="1.1" creator="togpx">
     <name>Højen - Shelterplads</name>
     <desc>backcountry=yes; drinking_water=yes; motor_vehicle=no;
     name=Højen - Shelterplads; openfire=yes; operator=Privat;
-    phone=+45 21 76 30 30; shelters=yes; tourism=camp_site;
+    phone=+45 21 76 30 30; shelter=yes; tourism=camp_site;
     website=http://udinaturen.dk/facilitet/h%C3%B8jen/8398;
     id=node/1324643396</desc>
   </wpt>
@@ -412,6 +412,13 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; motor_vehicle=no; openfire=yes;
     tourism=camp_site; id=node/1449538390</desc>
   </wpt>
+  <wpt lat="55.8156383" lon="11.7264306">
+    <ele>13</ele>
+    <name>node/1503010280</name>
+    <desc>backcountry=yes; tourism=camp_site;
+    url=https://udinaturen.dk/shelter/6774;
+    id=node/1503010280</desc>
+  </wpt>
   <wpt lat="54.9734397" lon="9.7586759">
     <ele>2</ele>
     <name>Arnkil - Primitiv Teltplads</name>
@@ -425,7 +432,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.7389911" lon="10.896601">
     <ele>47</ele>
     <name>node/1565637748</name>
-    <desc>fixme=Primitiv teltplads?; tourism=camp_site;
+    <desc>backcountry=yes; tourism=camp_site;
+    url=https://udinaturen.dk/shelter/6777;
     id=node/1565637748</desc>
   </wpt>
   <wpt lat="56.0604545" lon="8.852541">
@@ -511,7 +519,7 @@ version="1.1" creator="togpx">
     <ele>51</ele>
     <name>Brønhøj Skov shelter</name>
     <desc>backcountry=yes; motor_vehicle=no; name=Brønhøj Skov
-    shelter; openfire=yes; shelters=1; tourism=camp_site;
+    shelter; openfire=yes; shelter=1; tourism=camp_site;
     id=node/1810155309</desc>
   </wpt>
   <wpt lat="55.1535106" lon="11.9974569">
@@ -677,17 +685,6 @@ version="1.1" creator="togpx">
     <name>Natur Pladser - fri Overnatting</name>
     <desc>backcountry=yes; motor_vehicle=no; name=Natur Pladser -
     fri Overnatting; tourism=camp_site; id=node/2562154182</desc>
-  </wpt>
-  <wpt lat="55.1664156" lon="9.3690428">
-    <ele>56</ele>
-    <name>Stengelmose/Skovby - Primitive Teltplads</name>
-    <desc>backcountry=yes; camp_site=basic; description=primitiv
-    overnatning; drinking_water=no; fee=no; motor_vehicle=no;
-    name=Stengelmose/Skovby - Primitive Teltplads; openfire=yes;
-    operator=Haderslev Kommune; phone=+45 74 34 23 12; toilets=no;
-    tourism=camp_site;
-    website=http://udinaturen.dk/facilitet/teltplads-stengelmose-skovby/5311;
-    id=node/2603003846</desc>
   </wpt>
   <wpt lat="55.4347202" lon="9.1090671">
     <ele>23</ele>
@@ -1499,11 +1496,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.5160322" lon="11.1540053">
     <ele>2</ele>
-    <name>node/5761277609</name>
+    <name>Dalby shelterplads</name>
     <desc>backcountry=yes; description=2 shelters, picnic table,
     stay is free - donations are welcome; drinking_water=yes;
-    fireplace=yes; motor_vehicle=no; toilets=yes;
-    tourism=camp_site; id=node/5761277609</desc>
+    fireplace=yes; motor_vehicle=no; name=Dalby shelterplads;
+    toilets=yes; tourism=camp_site;
+    url=https://www.facebook.com/groups/2400708233291549/;
+    id=node/5761277609</desc>
   </wpt>
   <wpt lat="56.0051178" lon="12.36135">
     <ele>29</ele>
@@ -1933,17 +1932,24 @@ version="1.1" creator="togpx">
     url=https://udinaturen.dk/shelter/3598;
     id=node/8410538152</desc>
   </wpt>
-  <wpt lat="56.033638" lon="9.4833343">
-    <ele>88</ele>
-    <name>Lystruphave Bibelcamping</name>
-    <desc>name=Lystruphave Bibelcamping; tourism=camp_site;
-    id=node/8413025726</desc>
-  </wpt>
   <wpt lat="55.0247827" lon="12.2943959">
     <ele>14</ele>
     <name>node/8449719815</name>
     <desc>backcountry=yes; internet_access=no; tents=yes;
     tourism=camp_site; id=node/8449719815</desc>
+  </wpt>
+  <wpt lat="54.8470771" lon="10.7823086">
+    <ele>3</ele>
+    <name>node/8496894204</name>
+    <desc>caravans=no; drinking_water=yes; tents=yes;
+    tourism=camp_site; id=node/8496894204</desc>
+  </wpt>
+  <wpt lat="54.7509723" lon="11.6609477">
+    <ele>10</ele>
+    <name>node/8539612776</name>
+    <desc>tourism=camp_site;
+    url=https://www.fjeldecamp.dk/447665401;
+    id=node/8539612776</desc>
   </wpt>
   <wpt lat="55.30521924999999" lon="10.824698334487852">
     <ele>6</ele>
@@ -1999,8 +2005,7 @@ version="1.1" creator="togpx">
     <name>Skoleskoven shelterplads</name>
     <desc>backcountry=yes; description=shelterplads;
     motor_vehicle=no; name=Skoleskoven shelterplads; openfire=yes;
-    shelters=2; surface=grass; tourism=camp_site;
-    type=multipolygon;
+    shelter=2; surface=grass; tourism=camp_site; type=multipolygon;
     website=http://udinaturen.dk/facilitet/skoleskoven-ved-vejen/5272;
     id=relation/7624866</desc>
   </wpt>
@@ -2054,6 +2059,16 @@ version="1.1" creator="togpx">
     motor_vehicle=no; name=Fjordcentret; operator=Kyst- &amp;
     Fjordcentret; tourism=camp_site; type=multipolygon;
     id=relation/12351765</desc>
+  </wpt>
+  <wpt lat="56.8027001" lon="9.8761759">
+    <ele>80</ele>
+    <name>Mosskovpavillonen - Shelterplads</name>
+    <desc>backcountry=yes; caravans=no; drinking_water=yes;
+    email=HIM@nst.dk; fireplace=yes; motor_vehicle=no;
+    name=Mosskovpavillonen - Shelterplads; operator=Naturstyrelsen;
+    phone=+45 72 54 30 00; tents=yes; tourism=camp_site;
+    type=multipolygon; url=https://udinaturen.dk/shelter/2135;
+    wheelchair=yes; id=relation/12476434</desc>
   </wpt>
   <wpt lat="55.729649800000004" lon="9.135706740566349">
     <ele>64</ele>
@@ -2209,7 +2224,7 @@ version="1.1" creator="togpx">
     website=https://firstcamp.dk/destination/lakolk-strand-romo/;
     wheelchair=limited; id=way/33919059</desc>
   </wpt>
-  <wpt lat="54.71155685" lon="11.977895898815255">
+  <wpt lat="54.71155685" lon="11.977894394168167">
     <ele>-1</ele>
     <name>Marielyst Ny Camping</name>
     <desc>motor_vehicle=yes; name=Marielyst Ny Camping;
@@ -2334,7 +2349,7 @@ version="1.1" creator="togpx">
     <desc>motor_vehicle=yes; name=Stubbekøbing Campingplads;
     tourism=camp_site; id=way/46679547</desc>
   </wpt>
-  <wpt lat="55.0057788" lon="11.874003389276808">
+  <wpt lat="55.0057788" lon="11.873985327202249">
     <ele>1</ele>
     <name>Ore Strandcamping</name>
     <desc>motor_vehicle=yes; name=Ore Strandcamping;
@@ -2505,7 +2520,7 @@ version="1.1" creator="togpx">
     website=https://www.syltemae-camping.dk/;
     id=way/80202996</desc>
   </wpt>
-  <wpt lat="55.031363850000005" lon="10.525656228709423">
+  <wpt lat="55.0313637" lon="10.525655434046593">
     <ele>6</ele>
     <name>Rantzausminde Camping</name>
     <desc>caravans=yes; motor_vehicle=yes; name=Rantzausminde
@@ -2765,7 +2780,7 @@ version="1.1" creator="togpx">
     website=http://www.sonderbystrandcamping.dk/;
     id=way/96107613</desc>
   </wpt>
-  <wpt lat="57.35595355" lon="10.515334931691536">
+  <wpt lat="57.356160200000005" lon="10.515897558003822">
     <ele>4</ele>
     <name>Hedebo Strand Camping</name>
     <desc>motor_vehicle=yes; name=Hedebo Strand Camping;
@@ -2890,7 +2905,7 @@ version="1.1" creator="togpx">
     phone=+45 74 56 61 25; tourism=camp_site;
     website=http://anslet.dk-camp.dk/; id=way/96935435</desc>
   </wpt>
-  <wpt lat="56.16848565" lon="10.730351113854201">
+  <wpt lat="56.16848565" lon="10.730250437121212">
     <ele>29</ele>
     <name>Blushøj Camping</name>
     <desc>motor_vehicle=yes; name=Blushøj Camping;
@@ -3107,7 +3122,7 @@ version="1.1" creator="togpx">
     <desc>motor_vehicle=yes; name=Solholm Camping;
     tourism=camp_site; id=way/98856765</desc>
   </wpt>
-  <wpt lat="55.5633384" lon="11.162364779724205">
+  <wpt lat="55.56334665" lon="11.16217095349575">
     <ele>1</ele>
     <name>Bjerge Sydstrand Camping</name>
     <desc>fvst:navnelbnr=556573; motor_vehicle=yes; name=Bjerge
@@ -3314,8 +3329,8 @@ version="1.1" creator="togpx">
     <name>Nordstrand - TopCamp</name>
     <desc>alt_name=Nordstrand Camping A/S; description=DK0045;
     motor_vehicle=yes; name=Nordstrand - TopCamp; phone=+45 98 42
-    93 50; source=Geodatastyrelsen : FOT ortofoto; tents=yes;
-    tourism=camp_site; website=https://www.nordstrand-camping.dk/;
+    93 50; tents=yes; tourism=camp_site;
+    website=https://www.nordstrand-camping.dk/;
     id=way/101541632</desc>
   </wpt>
   <wpt lat="56.01390885" lon="10.266955018057256">
@@ -3350,7 +3365,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://www.fornaescamping.dk/;
     id=way/101985353</desc>
   </wpt>
-  <wpt lat="56.83066185" lon="9.846345564218556">
+  <wpt lat="56.83066185" lon="9.846339894137731">
     <ele>81</ele>
     <name>Safari Camping</name>
     <desc>motor_vehicle=yes; name=Safari Camping;
@@ -3372,8 +3387,8 @@ version="1.1" creator="togpx">
     Strand Camping; phone=+4574575597; tourism=camp_site;
     website=https://www.gaasevig.dk/; id=way/102220567</desc>
   </wpt>
-  <wpt lat="56.3885892" lon="10.912998662209397">
-    <ele>5</ele>
+  <wpt lat="56.388430549999995" lon="10.911851337492045">
+    <ele>7</ele>
     <name>Grenaa Strand Camping</name>
     <desc>alt_name=Grenå Strand Camping; caravans=yes;
     internet_access=wlan; internet_access:fee=no;
@@ -3395,7 +3410,7 @@ version="1.1" creator="togpx">
     <desc>motor_vehicle=yes; name=Krik Vig Camping; tents=yes;
     tourism=camp_site; id=way/102609864</desc>
   </wpt>
-  <wpt lat="55.186091000000005" lon="9.655046161838095">
+  <wpt lat="55.1861161" lon="9.655103086519626">
     <ele>17</ele>
     <name>Halk Strand Camping</name>
     <desc>motor_vehicle=yes; name=Halk Strand Camping;
@@ -3456,7 +3471,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://www.holmeaacamping.dk/;
     id=way/103722407</desc>
   </wpt>
-  <wpt lat="56.817412000000004" lon="8.670727441787918">
+  <wpt lat="56.817412000000004" lon="8.670728218362335">
     <ele>6</ele>
     <name>Dragstrup Camping</name>
     <desc>motor_vehicle=yes; name=Dragstrup Camping; tents=yes;
@@ -3506,8 +3521,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.349186450000005" lon="8.462751904294947">
     <ele>9</ele>
-    <name>Camping klitten</name>
-    <desc>motor_vehicle=yes; name=Camping klitten;
+    <name>Camping Klitten</name>
+    <desc>motor_vehicle=yes; name=Camping Klitten;
     tourism=camp_site; website=http://www.campingklitten.dk;
     id=way/104236306</desc>
   </wpt>
@@ -3590,7 +3605,7 @@ version="1.1" creator="togpx">
     Camping; sanitary_dump_station=customers; tents=yes;
     tourism=camp_site; wheelchair=limited; id=way/106809930</desc>
   </wpt>
-  <wpt lat="56.812968" lon="9.183052677267225">
+  <wpt lat="56.812971000000005" lon="9.183019311504756">
     <ele>21</ele>
     <name>Ertebølle Strand Camping</name>
     <desc>fvst:navnelbnr=22384; motor_vehicle=yes; name=Ertebølle
@@ -3801,7 +3816,7 @@ version="1.1" creator="togpx">
     Camping; tourism=camp_site; website=http://www.spodsbjerg.dk/;
     id=way/115348283</desc>
   </wpt>
-  <wpt lat="55.44794075" lon="11.547717264066625">
+  <wpt lat="55.447730750000005" lon="11.548005837714047">
     <ele>42</ele>
     <name>Sorø camping</name>
     <desc>bike_friend=yes; fvst:fixme=fvst:no_pos;
@@ -3914,7 +3929,7 @@ version="1.1" creator="togpx">
     tents=yes; tourism=camp_site;
     website=https://www.humlumcamping.dk/; id=way/118446416</desc>
   </wpt>
-  <wpt lat="55.524723449999996" lon="11.107908280964955">
+  <wpt lat="55.5247282" lon="11.107880503109865">
     <ele>1</ele>
     <name>Reersø Camping</name>
     <desc>fvst:navnelbnr=764176; motor_vehicle=yes; name=Reersø
@@ -4056,8 +4071,8 @@ version="1.1" creator="togpx">
     tents=yes; tourism=camp_site;
     website=https://halsstrandcamping.dk/; id=way/121184758</desc>
   </wpt>
-  <wpt lat="55.17763085" lon="10.074679317124936">
-    <ele>8</ele>
+  <wpt lat="55.178169249999996" lon="10.073793120169686">
+    <ele>9</ele>
     <name>Løgismosestrand Camping</name>
     <desc>motor_vehicle=yes; name=Løgismosestrand Camping;
     tourism=camp_site; website=https://www.logismosestrand.dk/;
@@ -4203,7 +4218,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=http://www.199.dk/;
     id=way/126064442</desc>
   </wpt>
-  <wpt lat="55.7019046" lon="12.513953277151362">
+  <wpt lat="55.7019046" lon="12.513959875932862">
     <ele>29</ele>
     <name>Bellahøj Camping</name>
     <desc>barrier=fence; motor_vehicle=yes; name=Bellahøj Camping;
@@ -4261,7 +4276,7 @@ version="1.1" creator="togpx">
   <wpt lat="55.3985214" lon="12.288169954766579">
     <ele>9</ele>
     <name>Nordstevns Camping</name>
-    <desc>alt_name=Stevns camping; cabins=yes; caravans=yes;
+    <desc>alt_name=Stevns Camping; cabins=yes; caravans=yes;
     fvst:navnelbnr=87859; internet_access=wlan; motor_vehicle=yes;
     name=Nordstevns Camping; tents=yes; tourism=camp_site;
     website=https://www.stevnscamping.dk/; id=way/136392973</desc>
@@ -4272,8 +4287,8 @@ version="1.1" creator="togpx">
     <desc>motor_vehicle=yes; name=Hou Strand Camping;
     tourism=camp_site; id=way/136429726</desc>
   </wpt>
-  <wpt lat="56.5345018" lon="9.330265713047897">
-    <ele>17</ele>
+  <wpt lat="56.5344065" lon="9.331247065979444">
+    <ele>18</ele>
     <name>Hjarbæk Fjord Camping</name>
     <desc>caravans=yes; motor_vehicle=yes; name=Hjarbæk Fjord
     Camping; tents=yes; tourism=camp_site;
@@ -4522,7 +4537,7 @@ version="1.1" creator="togpx">
     website=https://www.danhostel-haderslev.dk/haderslev-bycamping/;
     wheelchair=yes; id=way/165224060</desc>
   </wpt>
-  <wpt lat="55.04364265" lon="10.708311933220202">
+  <wpt lat="55.0436538" lon="10.708314348922206">
     <ele>1</ele>
     <name>Thurø Camping</name>
     <desc>caravans=yes; email=info@thuroecamping.dk; fax=+45 62 20
@@ -4532,15 +4547,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.932279300000005" lon="10.259806398408276">
     <ele>7</ele>
-    <name>Dokkedal camping</name>
-    <desc>caravans=yes; motor_vehicle=yes; name=Dokkedal camping;
+    <name>Dokkedal Camping</name>
+    <desc>caravans=yes; motor_vehicle=yes; name=Dokkedal Camping;
     tents=yes; tourism=camp_site; id=way/165490475</desc>
   </wpt>
   <wpt lat="56.50310505" lon="8.583466095258224">
     <ele>3</ele>
     <name>Bremdal Camping</name>
     <desc>motor_vehicle=yes; name=Bremdal Camping; tents=yes;
-    tourism=camp_site; id=way/165825143</desc>
+    tourism=camp_site; website=http://www.bremdal-camping.dk/;
+    id=way/165825143</desc>
   </wpt>
   <wpt lat="55.689796" lon="12.39003213538559">
     <ele>27</ele>
@@ -4596,7 +4612,7 @@ version="1.1" creator="togpx">
     name=Gattenborg Camping; tourism=camp_site;
     website=https://www.hobrocamping.dk/; id=way/170616163</desc>
   </wpt>
-  <wpt lat="55.1296071" lon="15.150450661344738">
+  <wpt lat="55.1296094" lon="15.150450068516337">
     <ele>17</ele>
     <name>Hullehavn Camping</name>
     <desc>area=yes; motor_vehicle=yes; name=Hullehavn Camping;
@@ -4750,7 +4766,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://www.nissumfjordcamping.dk/;
     id=way/197497891</desc>
   </wpt>
-  <wpt lat="56.1254074" lon="9.710911807705894">
+  <wpt lat="56.12542019999999" lon="9.711024407903228">
     <ele>75</ele>
     <name>Terrassen Camping</name>
     <desc>motor_vehicle=yes; name=Terrassen Camping;
@@ -4774,7 +4790,8 @@ version="1.1" creator="togpx">
     <ele>4</ele>
     <name>Asaa Camping og Hytteby</name>
     <desc>motor_vehicle=yes; name=Asaa Camping og Hytteby;
-    tourism=camp_site; id=way/200829321</desc>
+    tourism=camp_site; website=https://www.asaacamping.dk/;
+    id=way/200829321</desc>
   </wpt>
   <wpt lat="55.239946700000004" lon="10.472359871236893">
     <ele>74</ele>
@@ -4844,7 +4861,7 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; natural=grassland; tourism=camp_site;
     url=https://udinaturen.dk/shelter/2143; id=way/218680377</desc>
   </wpt>
-  <wpt lat="55.052035849999996" lon="8.826168480077786">
+  <wpt lat="55.0518448" lon="8.825983968384797">
     <ele>6</ele>
     <name>Bredebro Camping</name>
     <desc>camp_site=deluxe; caravans=yes; fee=yes;
@@ -4922,7 +4939,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=http://www.praesto-camping.dk/;
     id=way/225720505</desc>
   </wpt>
-  <wpt lat="55.6250204" lon="9.833571368812358">
+  <wpt lat="55.62507495" lon="9.83393274251921">
     <ele>23</ele>
     <name>Trelde Næs Camping</name>
     <desc>alt_name=MyCamp Trelde Næs; int_name=Trelde Naes Camping;
@@ -5014,11 +5031,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.13559325" lon="9.690157697260101">
     <ele>95</ele>
-    <name>Askehøj camping</name>
-    <desc>motor_vehicle=yes; name=Askehøj camping;
+    <name>Askehøj Camping</name>
+    <desc>motor_vehicle=yes; name=Askehøj Camping;
     tourism=camp_site; id=way/229448904</desc>
   </wpt>
-  <wpt lat="56.9806459" lon="10.299428791567593">
+  <wpt lat="56.980800200000004" lon="10.299857372994948">
     <ele>2</ele>
     <name>Egense Strand Camping</name>
     <desc>motor_vehicle=yes; name=Egense Strand Camping;
@@ -5138,7 +5155,7 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>Østersøparken</name>
     <desc>motor_vehicle=yes; name=Østersøparken; tourism=camp_site;
-    id=way/231577578</desc>
+    url=https://www.ostersoparken.dk/; id=way/231577578</desc>
   </wpt>
   <wpt lat="56.568213" lon="8.292030008418646">
     <ele>0</ele>
@@ -5369,7 +5386,7 @@ version="1.1" creator="togpx">
     <desc>motor_vehicle=yes; name=Slagelse Vandrehjem og Camping;
     tourism=camp_site; id=way/238124697</desc>
   </wpt>
-  <wpt lat="55.46440975" lon="11.944474487574674">
+  <wpt lat="55.464425899999995" lon="11.944464686454186">
     <ele>29</ele>
     <name>Corona Camping</name>
     <desc>motor_vehicle=yes; name=Corona Camping;
@@ -5646,14 +5663,6 @@ version="1.1" creator="togpx">
     water; internet_access=no; motor_vehicle=no; name=Hasselø
     Natursti; source=Geodatastyrelsen : FOT ortofoto;
     tourism=camp_site; wheelchair=yes; id=way/303521011</desc>
-  </wpt>
-  <wpt lat="56.0505497" lon="9.745758988244965">
-    <ele>33</ele>
-    <name>Hulbakken</name>
-    <desc>backcountry=yes; description=Fri teltplads;
-    motor_vehicle=no; name=Hulbakken;
-    source=http://www.udinaturen.dk/facilitet/hulbakken/12161;
-    tourism=camp_site; id=way/305823683</desc>
   </wpt>
   <wpt lat="55.97277355" lon="10.254742376602739">
     <ele>4</ele>
@@ -6022,7 +6031,8 @@ version="1.1" creator="togpx">
     drinking_water=no; fee=no; internet_access=no;
     motor_vehicle=no; name=Havlykkevej Strand; openfire=yes;
     picnic_table=yes; reservation=no; tents=yes; toilets=yes;
-    tourism=camp_site; id=way/387141703</desc>
+    tourism=camp_site; url=https://udinaturen.dk/shelter/4688;
+    id=way/387141703</desc>
   </wpt>
   <wpt lat="57.02731595" lon="10.14920381097177">
     <ele>1</ele>
@@ -7015,7 +7025,8 @@ version="1.1" creator="togpx">
     <name>Alheden Skov, Stendal Plantage</name>
     <desc>backcountry=yes; bin=yes; drinking_water=yes; fee=no;
     motor_vehicle=no; name=Alheden Skov, Stendal Plantage;
-    openfire=yes; tourism=camp_site; id=way/530286739</desc>
+    openfire=yes; tourism=camp_site;
+    url=https://udinaturen.dk/shelter/3932; id=way/530286739</desc>
   </wpt>
   <wpt lat="56.1698022" lon="10.096757456797317">
     <ele>41</ele>
@@ -7329,15 +7340,6 @@ version="1.1" creator="togpx">
     bålplads; motor_vehicle=no; openfire=yes; shelter=yes;
     tourism=camp_site; id=way/546792376</desc>
   </wpt>
-  <wpt lat="54.91224435" lon="11.84617959503763">
-    <ele>33</ele>
-    <name>Bavnehøj Fritidshøj</name>
-    <desc>backcountry=yes; description=Shelterplads m 2 shelter +
-    bålplads; motor_vehicle=no; name=Bavnehøj Fritidshøj;
-    openfire=yes; shelter=yes; tourism=camp_site;
-    website=https://www.visitdenmark.dk/da/danmark/shelterplads-bavnehoej-fritidsomraade-gdk615463;
-    id=way/546792377</desc>
-  </wpt>
   <wpt lat="54.9148451" lon="11.981855158221812">
     <ele>1</ele>
     <name>Sortsø Fritidshavn</name>
@@ -7376,7 +7378,9 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>way/549544124</name>
     <desc>backcountry=yes; motor_vehicle=no; openfire=yes;
-    tourism=camp_site; id=way/549544124</desc>
+    tourism=camp_site;
+    url=https://www.sydkystdanmark.dk/ferie/soeg-efter-oplevelser/feddet-naturlejrplads-gdk1059143;
+    id=way/549544124</desc>
   </wpt>
   <wpt lat="55.04421015" lon="12.204349075390285">
     <ele>4</ele>
@@ -7547,7 +7551,7 @@ version="1.1" creator="togpx">
     email=teknik@vejen.dk; fee=no; motor_vehicle=no; name=Shelter-
     &amp; teltplads Bække; openfire=yes; operator=Privat; phone=+45
     79965000; tourism=camp_site;
-    website=http://udinaturen.dk/facilitet/Shelter--og-teltplads-B%C3%A6kke/19807;
+    website=https://www.visitvejen.dk/visitvejen/planlaeg-din-tur/teltplads-og-shelters-ved-klebaek-baekke-gdk969159;
     id=way/574715811</desc>
   </wpt>
   <wpt lat="55.62348125" lon="9.094064496374514">
@@ -7633,8 +7637,7 @@ version="1.1" creator="togpx">
     <name>Lejrpladsen Ved Hejresøen</name>
     <desc>backcountry=yes; caravans=no; motor_vehicle=no;
     name=Lejrpladsen Ved Hejresøen; openfire=yes; tents=yes;
-    tourism=camp_site;
-    website=https://naturstyrelsen.dk/udinaturen/detaljer.aspx?facilitet=12218;
+    tourism=camp_site; website=https://udinaturen.dk/shelter/4744;
     id=way/575490872</desc>
   </wpt>
   <wpt lat="55.594741400000004" lon="12.55296560679823">
@@ -7954,7 +7957,7 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; motor_vehicle=no; tourism=camp_site;
     id=way/604349153</desc>
   </wpt>
-  <wpt lat="55.145118749999995" lon="12.013339245413086">
+  <wpt lat="55.145118749999995" lon="12.01333856177241">
     <ele>0</ele>
     <name>Even Overdrev</name>
     <desc>backcountry=yes; motor_vehicle=no; name=Even Overdrev;
@@ -8156,8 +8159,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.257478250000005" lon="12.394671096327107">
     <ele>12</ele>
-    <name>way/623558613</name>
-    <desc>backcountry=yes; motor_vehicle=no; tourism=camp_site;
+    <name>Naturlejrplads Boesdal Kalkbrud</name>
+    <desc>backcountry=yes; motor_vehicle=no; name=Naturlejrplads
+    Boesdal Kalkbrud; tourism=camp_site;
+    url=https://www.sydkystdanmark.dk/ferie/soeg-efter-oplevelser/naturlejrplads-boesdal-kalkbrud-gdk1058566;
     id=way/623558613</desc>
   </wpt>
   <wpt lat="55.2658256" lon="8.971693558363711">
@@ -8395,7 +8400,7 @@ version="1.1" creator="togpx">
     motor_vehicle=no; openfire=yes; tents=yes; tourism=camp_site;
     id=way/700042719</desc>
   </wpt>
-  <wpt lat="55.3123162" lon="9.465106027015494">
+  <wpt lat="55.3123162" lon="9.465111083543846">
     <ele>31</ele>
     <name>way/703429863</name>
     <desc>backcountry=yes; description=wild Zeltplatz;
@@ -8437,8 +8442,9 @@ version="1.1" creator="togpx">
   <wpt lat="55.420589199999995" lon="9.15705375009647">
     <ele>37</ele>
     <name>Bålhytte og shelter ved Skodborg Børnesø</name>
-    <desc>caravans=no; motor_vehicle=no; name=Bålhytte og shelter
-    ved Skodborg Børnesø; tourism=camp_site;
+    <desc>caravans=no; internet_access=no; motor_vehicle=no;
+    name=Bålhytte og shelter ved Skodborg Børnesø;
+    tourism=camp_site;
     website=https://www.visitvejen.dk/baalhytte-og-shelter-ved-skodborg-boernesoe-gdk991815;
     id=way/712090005</desc>
   </wpt>
@@ -8472,10 +8478,10 @@ version="1.1" creator="togpx">
     <name>Skrivergårdens Teltplads</name>
     <desc>alt_name=Rise Shelterplads; caravans=no; description=2
     små shelters, das, simpel bruser, simpelt udekøkken;
-    description:en=Low key camping spot (cyclists/hikers only!)
-    with 2 shelters, basic amenities (outdoor toilet, cold shower,
-    fire place, sink).; ; Ample shade and space for tents.; ; Quiet
-    neighborhood but highway is audible in the distance;
+    description:en=Low key camping spot (cyclists/hikers only) with
+    2 shelters, basic amenities (outdoor toilet, cold shower, fire
+    place, sink). Ample shade and space for tents. Quiet
+    neighborhood but highway is audible in the distance.;
     drinking_water=yes; fee=20 kr; motor_vehicle=no;
     name=Skrivergårdens Teltplads; operator=Rise Sogneråd;
     phone=+4520139078; tents=yes; tourism=camp_site;
@@ -8579,11 +8585,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.782780149999994" lon="11.943718933506673">
     <ele>36</ele>
-    <name>https://svanholm.dk/index.php?id=182</name>
+    <name>https://svanholm.dk/besog-os/events/shelters/</name>
     <desc>backcountry=yes; description=Naturlejrplads, drevet af
     Svanholm Storkollektiv; fee=yes; motor_vehicle=no;
     operator=Svanholm Storkollektiv; tourism=camp_site;
-    website=https://svanholm.dk/index.php?id=182;
+    website=https://svanholm.dk/besog-os/events/shelters/;
     id=way/798890568</desc>
   </wpt>
   <wpt lat="55.4112581" lon="8.877093395738296">
@@ -8780,19 +8786,29 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://www.skamlingcamping.dk;
     id=way/857362567</desc>
   </wpt>
-  <wpt lat="56.8029285" lon="9.876156862933179">
-    <ele>80</ele>
-    <name>Mosskovpavillonen - Shelterplads</name>
-    <desc>backcountry=yes; caravans=no; motor_vehicle=no;
-    name=Mosskovpavillonen - Shelterplads; operator=Naturstyrelsen;
-    phone=+45 72 54 30 00; tents=yes; tourism=camp_site;
-    url=https://udinaturen.dk/shelter/2135; id=way/886630112</desc>
-  </wpt>
   <wpt lat="56.06378515" lon="9.228525486759683">
     <ele>92</ele>
     <name>way/902801276</name>
     <desc>backcountry=yes; description=Primitiv overnatningsplads;
     tourism=camp_site; id=way/902801276</desc>
+  </wpt>
+  <wpt lat="55.6085651" lon="8.92674417190068">
+    <ele>41</ele>
+    <name>way/912628182</name>
+    <desc>backcountry=yes; tourism=camp_site;
+    url=https://www.visitvejen.dk/visitvejen/planlaeg-din-tur/overnatningsplads-og-shelter-ved-hovborg-gdk976316;
+    id=way/912628182</desc>
+  </wpt>
+  <wpt lat="55.16648825" lon="9.369033430582522">
+    <ele>56</ele>
+    <name>Stengelmose/Skovby - Primitive Teltplads</name>
+    <desc>backcountry=yes; camp_site=basic; description=primitiv
+    overnatning; drinking_water=no; fee=no; motor_vehicle=no;
+    name=Stengelmose/Skovby - Primitive Teltplads; openfire=yes;
+    operator=Haderslev Kommune; phone=+45 74 34 23 12; toilets=no;
+    tourism=camp_site;
+    website=http://udinaturen.dk/facilitet/teltplads-stengelmose-skovby/5311;
+    id=way/914161430</desc>
   </wpt>
   <trk>
     <name>Nyborg Strandcamping</name>
@@ -9178,8 +9194,48 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0322531" lon="10.6178144"></trkpt>
       <trkpt lat="55.0323545" lon="10.6175418"></trkpt>
       <trkpt lat="55.0325965" lon="10.6168617"></trkpt>
-      <trkpt lat="55.0320166" lon="10.6162317"></trkpt>
-      <trkpt lat="55.0318382" lon="10.6160506"></trkpt>
+      <trkpt lat="55.0320341" lon="10.6162662"></trkpt>
+      <trkpt lat="55.0320256" lon="10.6162742"></trkpt>
+      <trkpt lat="55.0320162" lon="10.6162763"></trkpt>
+      <trkpt lat="55.0319982" lon="10.6162726"></trkpt>
+      <trkpt lat="55.0319892" lon="10.6162875"></trkpt>
+      <trkpt lat="55.0319855" lon="10.616305"></trkpt>
+      <trkpt lat="55.0319865" lon="10.6163215"></trkpt>
+      <trkpt lat="55.0319909" lon="10.6163356"></trkpt>
+      <trkpt lat="55.0320029" lon="10.6163503"></trkpt>
+      <trkpt lat="55.0320102" lon="10.6163657"></trkpt>
+      <trkpt lat="55.0320184" lon="10.6163849"></trkpt>
+      <trkpt lat="55.0320237" lon="10.6164137"></trkpt>
+      <trkpt lat="55.0320251" lon="10.6164463"></trkpt>
+      <trkpt lat="55.0320226" lon="10.6164759"></trkpt>
+      <trkpt lat="55.032013" lon="10.6165155"></trkpt>
+      <trkpt lat="55.0319943" lon="10.6165604"></trkpt>
+      <trkpt lat="55.0319785" lon="10.6165856"></trkpt>
+      <trkpt lat="55.0319628" lon="10.6166053"></trkpt>
+      <trkpt lat="55.031951" lon="10.6166187"></trkpt>
+      <trkpt lat="55.0319424" lon="10.6166221"></trkpt>
+      <trkpt lat="55.031933" lon="10.6166138"></trkpt>
+      <trkpt lat="55.031924" lon="10.6166076"></trkpt>
+      <trkpt lat="55.0319143" lon="10.6166047"></trkpt>
+      <trkpt lat="55.0319071" lon="10.6166104"></trkpt>
+      <trkpt lat="55.0318999" lon="10.6166187"></trkpt>
+      <trkpt lat="55.0318919" lon="10.6166212"></trkpt>
+      <trkpt lat="55.0318875" lon="10.6166473"></trkpt>
+      <trkpt lat="55.0318854" lon="10.6166635"></trkpt>
+      <trkpt lat="55.0318841" lon="10.6166918"></trkpt>
+      <trkpt lat="55.0318783" lon="10.6167087"></trkpt>
+      <trkpt lat="55.0318731" lon="10.6166973"></trkpt>
+      <trkpt lat="55.031869" lon="10.6166678"></trkpt>
+      <trkpt lat="55.0318609" lon="10.6166453"></trkpt>
+      <trkpt lat="55.031849" lon="10.6166212"></trkpt>
+      <trkpt lat="55.0318384" lon="10.6166053"></trkpt>
+      <trkpt lat="55.0318259" lon="10.6165889"></trkpt>
+      <trkpt lat="55.0318101" lon="10.6165747"></trkpt>
+      <trkpt lat="55.0318025" lon="10.6165846"></trkpt>
+      <trkpt lat="55.031786" lon="10.6165842"></trkpt>
+      <trkpt lat="55.0317758" lon="10.6165761"></trkpt>
+      <trkpt lat="55.0317603" lon="10.616561"></trkpt>
+      <trkpt lat="55.0317251" lon="10.6167248"></trkpt>
       <trkpt lat="55.0316385" lon="10.6169387"></trkpt>
       <trkpt lat="55.0316267" lon="10.6169787"></trkpt>
       <trkpt lat="55.0316075" lon="10.6170357"></trkpt>
@@ -9197,7 +9253,21 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0315223" lon="10.6176222"></trkpt>
       <trkpt lat="55.0315081" lon="10.6176357"></trkpt>
       <trkpt lat="55.0314986" lon="10.6176424"></trkpt>
-      <trkpt lat="55.0312681" lon="10.618532"></trkpt>
+      <trkpt lat="55.0313773" lon="10.6181196"></trkpt>
+      <trkpt lat="55.0313703" lon="10.6181504"></trkpt>
+      <trkpt lat="55.0313688" lon="10.6181651"></trkpt>
+      <trkpt lat="55.0313687" lon="10.618178"></trkpt>
+      <trkpt lat="55.0313663" lon="10.6181919"></trkpt>
+      <trkpt lat="55.0313566" lon="10.6182199"></trkpt>
+      <trkpt lat="55.0313508" lon="10.6182458"></trkpt>
+      <trkpt lat="55.0313457" lon="10.6182744"></trkpt>
+      <trkpt lat="55.0313428" lon="10.6182982"></trkpt>
+      <trkpt lat="55.0313388" lon="10.6183138"></trkpt>
+      <trkpt lat="55.031325" lon="10.6183535"></trkpt>
+      <trkpt lat="55.0313171" lon="10.6183718"></trkpt>
+      <trkpt lat="55.0313102" lon="10.618389"></trkpt>
+      <trkpt lat="55.0313019" lon="10.6184157"></trkpt>
+      <trkpt lat="55.031267" lon="10.618532"></trkpt>
       <trkpt lat="55.0312056" lon="10.6187591"></trkpt>
       <trkpt lat="55.0311855" lon="10.6188268"></trkpt>
       <trkpt lat="55.0311681" lon="10.6188857"></trkpt>
@@ -9252,15 +9322,15 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0336835" lon="10.6203553"></trkpt>
       <trkpt lat="55.0337852" lon="10.6196021"></trkpt>
       <trkpt lat="55.0336912" lon="10.619569"></trkpt>
-      <trkpt lat="55.0336536" lon="10.6195565"></trkpt>
-      <trkpt lat="55.0336516" lon="10.6195557"></trkpt>
+      <trkpt lat="55.0336536" lon="10.6195564"></trkpt>
+      <trkpt lat="55.0336516" lon="10.6195556"></trkpt>
       <trkpt lat="55.0336491" lon="10.6195546"></trkpt>
-      <trkpt lat="55.0335272" lon="10.6195021"></trkpt>
-      <trkpt lat="55.0334122" lon="10.6194533"></trkpt>
-      <trkpt lat="55.033181" lon="10.6193523"></trkpt>
-      <trkpt lat="55.0331842" lon="10.6193366"></trkpt>
-      <trkpt lat="55.0330286" lon="10.6192418"></trkpt>
-      <trkpt lat="55.0330033" lon="10.6192264"></trkpt>
+      <trkpt lat="55.0334134" lon="10.6194498"></trkpt>
+      <trkpt lat="55.0332543" lon="10.6193775"></trkpt>
+      <trkpt lat="55.0331822" lon="10.6193447"></trkpt>
+      <trkpt lat="55.0331841" lon="10.6193355"></trkpt>
+      <trkpt lat="55.0330287" lon="10.6192407"></trkpt>
+      <trkpt lat="55.0330035" lon="10.6192253"></trkpt>
       <trkpt lat="55.0329888" lon="10.619297"></trkpt>
       <trkpt lat="55.0328456" lon="10.6192198"></trkpt>
       <trkpt lat="55.0328494" lon="10.6192011"></trkpt>
@@ -9343,11 +9413,165 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0317234" lon="10.6196235"></trkpt>
     </trkseg>
     <trkseg>
-      <trkpt lat="55.0318675" lon="10.619897"></trkpt>
-      <trkpt lat="55.0318562" lon="10.6199466"></trkpt>
-      <trkpt lat="55.0317923" lon="10.6199025"></trkpt>
-      <trkpt lat="55.0318036" lon="10.6198528"></trkpt>
-      <trkpt lat="55.0318675" lon="10.619897"></trkpt>
+      <trkpt lat="55.0313712" lon="10.6185862"></trkpt>
+      <trkpt lat="55.031329" lon="10.6185509"></trkpt>
+      <trkpt lat="55.0313475" lon="10.6184839"></trkpt>
+      <trkpt lat="55.0313507" lon="10.6184851"></trkpt>
+      <trkpt lat="55.0313554" lon="10.6184676"></trkpt>
+      <trkpt lat="55.0313911" lon="10.6184969"></trkpt>
+      <trkpt lat="55.0313864" lon="10.6185147"></trkpt>
+      <trkpt lat="55.0313896" lon="10.6185192"></trkpt>
+      <trkpt lat="55.0313712" lon="10.6185862"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0315073" lon="10.6186115"></trkpt>
+      <trkpt lat="55.0314864" lon="10.6186843"></trkpt>
+      <trkpt lat="55.0314483" lon="10.6186515"></trkpt>
+      <trkpt lat="55.0314492" lon="10.6186449"></trkpt>
+      <trkpt lat="55.0314394" lon="10.6186361"></trkpt>
+      <trkpt lat="55.031457" lon="10.6185746"></trkpt>
+      <trkpt lat="55.0314666" lon="10.618583"></trkpt>
+      <trkpt lat="55.0314688" lon="10.6185782"></trkpt>
+      <trkpt lat="55.0315073" lon="10.6186115"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0316282" lon="10.6187112"></trkpt>
+      <trkpt lat="55.0316083" lon="10.6187847"></trkpt>
+      <trkpt lat="55.03157" lon="10.618753"></trkpt>
+      <trkpt lat="55.0315707" lon="10.6187467"></trkpt>
+      <trkpt lat="55.0315608" lon="10.6187383"></trkpt>
+      <trkpt lat="55.0315779" lon="10.6186762"></trkpt>
+      <trkpt lat="55.0315874" lon="10.6186842"></trkpt>
+      <trkpt lat="55.0315896" lon="10.6186792"></trkpt>
+      <trkpt lat="55.0316282" lon="10.6187112"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0316474" lon="10.6187559"></trkpt>
+      <trkpt lat="55.0316515" lon="10.6187644"></trkpt>
+      <trkpt lat="55.0316515" lon="10.6187782"></trkpt>
+      <trkpt lat="55.0316501" lon="10.6187909"></trkpt>
+      <trkpt lat="55.0316481" lon="10.6188048"></trkpt>
+      <trkpt lat="55.0316431" lon="10.6188222"></trkpt>
+      <trkpt lat="55.0316373" lon="10.6188309"></trkpt>
+      <trkpt lat="55.0316314" lon="10.6188243"></trkpt>
+      <trkpt lat="55.0316304" lon="10.6188139"></trkpt>
+      <trkpt lat="55.0316318" lon="10.618797"></trkpt>
+      <trkpt lat="55.0316335" lon="10.6187843"></trkpt>
+      <trkpt lat="55.0316366" lon="10.6187698"></trkpt>
+      <trkpt lat="55.0316408" lon="10.6187589"></trkpt>
+      <trkpt lat="55.0316474" lon="10.6187559"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0318807" lon="10.6185968"></trkpt>
+      <trkpt lat="55.0318807" lon="10.6186531"></trkpt>
+      <trkpt lat="55.0318668" lon="10.6186853"></trkpt>
+      <trkpt lat="55.0318407" lon="10.6187095"></trkpt>
+      <trkpt lat="55.0317977" lon="10.6186961"></trkpt>
+      <trkpt lat="55.0317562" lon="10.6186612"></trkpt>
+      <trkpt lat="55.0317008" lon="10.6185968"></trkpt>
+      <trkpt lat="55.0316685" lon="10.6185566"></trkpt>
+      <trkpt lat="55.0316625" lon="10.6185376"></trkpt>
+      <trkpt lat="55.0316564" lon="10.6185534"></trkpt>
+      <trkpt lat="55.0316332" lon="10.6186318"></trkpt>
+      <trkpt lat="55.031538" lon="10.6185524"></trkpt>
+      <trkpt lat="55.0314789" lon="10.6184997"></trkpt>
+      <trkpt lat="55.0314724" lon="10.618498"></trkpt>
+      <trkpt lat="55.031466" lon="10.6184933"></trkpt>
+      <trkpt lat="55.0314607" lon="10.6184835"></trkpt>
+      <trkpt lat="55.0314008" lon="10.6184282"></trkpt>
+      <trkpt lat="55.0313895" lon="10.6184197"></trkpt>
+      <trkpt lat="55.0313742" lon="10.6184109"></trkpt>
+      <trkpt lat="55.0313635" lon="10.6184041"></trkpt>
+      <trkpt lat="55.0313591" lon="10.6183949"></trkpt>
+      <trkpt lat="55.0313524" lon="10.6183906"></trkpt>
+      <trkpt lat="55.0313468" lon="10.6183902"></trkpt>
+      <trkpt lat="55.0313405" lon="10.6183875"></trkpt>
+      <trkpt lat="55.0313354" lon="10.6183827"></trkpt>
+      <trkpt lat="55.031331" lon="10.618375"></trkpt>
+      <trkpt lat="55.0313312" lon="10.6183627"></trkpt>
+      <trkpt lat="55.0313345" lon="10.6183484"></trkpt>
+      <trkpt lat="55.0313394" lon="10.618337"></trkpt>
+      <trkpt lat="55.031346" lon="10.6183313"></trkpt>
+      <trkpt lat="55.0313539" lon="10.6183279"></trkpt>
+      <trkpt lat="55.0313632" lon="10.6183261"></trkpt>
+      <trkpt lat="55.0313632" lon="10.6183201"></trkpt>
+      <trkpt lat="55.0313676" lon="10.6183202"></trkpt>
+      <trkpt lat="55.0313726" lon="10.6183225"></trkpt>
+      <trkpt lat="55.0313781" lon="10.6183274"></trkpt>
+      <trkpt lat="55.0313845" lon="10.6183302"></trkpt>
+      <trkpt lat="55.0314064" lon="10.6182662"></trkpt>
+      <trkpt lat="55.03141" lon="10.618268"></trkpt>
+      <trkpt lat="55.0314155" lon="10.6182518"></trkpt>
+      <trkpt lat="55.0314495" lon="10.618287"></trkpt>
+      <trkpt lat="55.031444" lon="10.6183032"></trkpt>
+      <trkpt lat="55.0314466" lon="10.6183076"></trkpt>
+      <trkpt lat="55.0314249" lon="10.6183718"></trkpt>
+      <trkpt lat="55.0314535" lon="10.6184027"></trkpt>
+      <trkpt lat="55.0314751" lon="10.6183388"></trkpt>
+      <trkpt lat="55.0314785" lon="10.6183407"></trkpt>
+      <trkpt lat="55.0314843" lon="10.6183236"></trkpt>
+      <trkpt lat="55.0315182" lon="10.6183586"></trkpt>
+      <trkpt lat="55.0315125" lon="10.6183756"></trkpt>
+      <trkpt lat="55.0315155" lon="10.6183802"></trkpt>
+      <trkpt lat="55.0314937" lon="10.6184442"></trkpt>
+      <trkpt lat="55.0315214" lon="10.6184734"></trkpt>
+      <trkpt lat="55.0315431" lon="10.6184094"></trkpt>
+      <trkpt lat="55.0315463" lon="10.6184114"></trkpt>
+      <trkpt lat="55.031552" lon="10.6183947"></trkpt>
+      <trkpt lat="55.031586" lon="10.6184298"></trkpt>
+      <trkpt lat="55.0315806" lon="10.6184458"></trkpt>
+      <trkpt lat="55.0315834" lon="10.6184509"></trkpt>
+      <trkpt lat="55.0315617" lon="10.6185149"></trkpt>
+      <trkpt lat="55.0315725" lon="10.6185244"></trkpt>
+      <trkpt lat="55.0315812" lon="10.6185291"></trkpt>
+      <trkpt lat="55.0315877" lon="10.6185278"></trkpt>
+      <trkpt lat="55.031594" lon="10.6185233"></trkpt>
+      <trkpt lat="55.0315993" lon="10.6185154"></trkpt>
+      <trkpt lat="55.0316027" lon="10.6185045"></trkpt>
+      <trkpt lat="55.0316045" lon="10.618491"></trkpt>
+      <trkpt lat="55.0316048" lon="10.6184812"></trkpt>
+      <trkpt lat="55.0316038" lon="10.6184696"></trkpt>
+      <trkpt lat="55.031602" lon="10.6184586"></trkpt>
+      <trkpt lat="55.0316125" lon="10.6184273"></trkpt>
+      <trkpt lat="55.0316224" lon="10.6184353"></trkpt>
+      <trkpt lat="55.0316304" lon="10.6184371"></trkpt>
+      <trkpt lat="55.0316438" lon="10.6184353"></trkpt>
+      <trkpt lat="55.0316532" lon="10.6184627"></trkpt>
+      <trkpt lat="55.0316685" lon="10.6184332"></trkpt>
+      <trkpt lat="55.0316947" lon="10.6184037"></trkpt>
+      <trkpt lat="55.0317285" lon="10.618401"></trkpt>
+      <trkpt lat="55.0317761" lon="10.6184386"></trkpt>
+      <trkpt lat="55.0318484" lon="10.6185324"></trkpt>
+      <trkpt lat="55.0318807" lon="10.6185968"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0315418" lon="10.6183452"></trkpt>
+      <trkpt lat="55.0313873" lon="10.618188"></trkpt>
+      <trkpt lat="55.0313852" lon="10.6181774"></trkpt>
+      <trkpt lat="55.0313846" lon="10.6181632"></trkpt>
+      <trkpt lat="55.0313866" lon="10.6181501"></trkpt>
+      <trkpt lat="55.0313907" lon="10.618134"></trkpt>
+      <trkpt lat="55.0313932" lon="10.6181278"></trkpt>
+      <trkpt lat="55.031396" lon="10.6181272"></trkpt>
+      <trkpt lat="55.0313975" lon="10.6181321"></trkpt>
+      <trkpt lat="55.0314005" lon="10.6181446"></trkpt>
+      <trkpt lat="55.0314046" lon="10.6181551"></trkpt>
+      <trkpt lat="55.0314127" lon="10.6181657"></trkpt>
+      <trkpt lat="55.0314243" lon="10.6181763"></trkpt>
+      <trkpt lat="55.0314535" lon="10.6182015"></trkpt>
+      <trkpt lat="55.0314915" lon="10.6182378"></trkpt>
+      <trkpt lat="55.031549" lon="10.6182993"></trkpt>
+      <trkpt lat="55.0315512" lon="10.6183027"></trkpt>
+      <trkpt lat="55.0315521" lon="10.6183065"></trkpt>
+      <trkpt lat="55.031552" lon="10.6183121"></trkpt>
+      <trkpt lat="55.0315418" lon="10.6183452"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.0318937" lon="10.619897"></trkpt>
+      <trkpt lat="55.0318824" lon="10.6199466"></trkpt>
+      <trkpt lat="55.0318185" lon="10.6199025"></trkpt>
+      <trkpt lat="55.0318298" lon="10.6198528"></trkpt>
+      <trkpt lat="55.0318937" lon="10.619897"></trkpt>
     </trkseg>
     <trkseg>
       <trkpt lat="55.031745" lon="10.6197925"></trkpt>
@@ -9739,6 +9963,30 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Mosskovpavillonen - Shelterplads</name>
+    <trkseg>
+      <trkpt lat="56.8027001" lon="9.8761759"></trkpt>
+      <trkpt lat="56.8026381" lon="9.8761913"></trkpt>
+      <trkpt lat="56.8026091" lon="9.8763227"></trkpt>
+      <trkpt lat="56.8026561" lon="9.8764133"></trkpt>
+      <trkpt lat="56.8027144" lon="9.8764046"></trkpt>
+      <trkpt lat="56.8027423" lon="9.8762738"></trkpt>
+      <trkpt lat="56.8027001" lon="9.8761759"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="56.8030111" lon="9.8762034"></trkpt>
+      <trkpt lat="56.8029975" lon="9.876027"></trkpt>
+      <trkpt lat="56.802952" lon="9.8759258"></trkpt>
+      <trkpt lat="56.8028998" lon="9.8758976"></trkpt>
+      <trkpt lat="56.8028323" lon="9.8760197"></trkpt>
+      <trkpt lat="56.8028499" lon="9.876249"></trkpt>
+      <trkpt lat="56.802905" lon="9.8763965"></trkpt>
+      <trkpt lat="56.8029586" lon="9.8764059"></trkpt>
+      <trkpt lat="56.8029938" lon="9.8763643"></trkpt>
+      <trkpt lat="56.8030111" lon="9.8762034"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Legoland Holiday Village</name>
     <trkseg>
       <trkpt lat="55.7298666" lon="9.1386335"></trkpt>
@@ -9981,7 +10229,7 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="56.3760396" lon="8.1230322"></trkpt>
       <trkpt lat="56.3760513" lon="8.1231617"></trkpt>
-      <trkpt lat="56.3760746" lon="8.1234202"></trkpt>
+      <trkpt lat="56.3760751" lon="8.1234197"></trkpt>
       <trkpt lat="56.3760886" lon="8.1235674"></trkpt>
       <trkpt lat="56.3761018" lon="8.1237403"></trkpt>
       <trkpt lat="56.3762577" lon="8.1254222"></trkpt>
@@ -10043,11 +10291,11 @@ version="1.1" creator="togpx">
       <trkpt lat="55.7383356" lon="8.1833486"></trkpt>
       <trkpt lat="55.7382609" lon="8.1832145"></trkpt>
       <trkpt lat="55.7381582" lon="8.1833956"></trkpt>
-      <trkpt lat="55.738242" lon="8.1835806"></trkpt>
-      <trkpt lat="55.738303" lon="8.1841983"></trkpt>
-      <trkpt lat="55.7381621" lon="8.1841787"></trkpt>
-      <trkpt lat="55.7380971" lon="8.1842948"></trkpt>
-      <trkpt lat="55.7379867" lon="8.1840786"></trkpt>
+      <trkpt lat="55.7380623" lon="8.1835826"></trkpt>
+      <trkpt lat="55.7379284" lon="8.1838162"></trkpt>
+      <trkpt lat="55.7380233" lon="8.1840012"></trkpt>
+      <trkpt lat="55.7379946" lon="8.1840477"></trkpt>
+      <trkpt lat="55.7379775" lon="8.1840793"></trkpt>
       <trkpt lat="55.7378777" lon="8.1838936"></trkpt>
     </trkseg>
   </trk>
@@ -10091,7 +10339,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.5955346" lon="12.3413546"></trkpt>
       <trkpt lat="55.5949314" lon="12.3402965"></trkpt>
       <trkpt lat="55.5942251" lon="12.3389487"></trkpt>
-      <trkpt lat="55.5936415" lon="12.3381646"></trkpt>
+      <trkpt lat="55.5937476" lon="12.3379929"></trkpt>
       <trkpt lat="55.5934938" lon="12.3384015"></trkpt>
       <trkpt lat="55.5930474" lon="12.3391176"></trkpt>
       <trkpt lat="55.592708" lon="12.3397507"></trkpt>
@@ -10291,8 +10539,8 @@ version="1.1" creator="togpx">
       <trkpt lat="54.712833" lon="11.9790997"></trkpt>
       <trkpt lat="54.7128834" lon="11.9789997"></trkpt>
       <trkpt lat="54.7129638" lon="11.9786779"></trkpt>
-      <trkpt lat="54.7110182" lon="11.9749471"></trkpt>
-      <trkpt lat="54.7108675" lon="11.9751388"></trkpt>
+      <trkpt lat="54.7109477" lon="11.9748076"></trkpt>
+      <trkpt lat="54.7108133" lon="11.9750275"></trkpt>
       <trkpt lat="54.710802" lon="11.9752394"></trkpt>
       <trkpt lat="54.7098544" lon="11.9766937"></trkpt>
     </trkseg>
@@ -10646,9 +10894,9 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0062986" lon="11.8733937"></trkpt>
       <trkpt lat="55.0061161" lon="11.873218"></trkpt>
       <trkpt lat="55.0054415" lon="11.8726672"></trkpt>
-      <trkpt lat="55.0051579" lon="11.8735036"></trkpt>
-      <trkpt lat="55.0049571" lon="11.8747257"></trkpt>
-      <trkpt lat="55.0067215" lon="11.8754525"></trkpt>
+      <trkpt lat="55.0051421" lon="11.8734862"></trkpt>
+      <trkpt lat="55.0049635" lon="11.8746684"></trkpt>
+      <trkpt lat="55.0067242" lon="11.8754451"></trkpt>
       <trkpt lat="55.0070922" lon="11.8741433"></trkpt>
       <trkpt lat="55.0071103" lon="11.8740806"></trkpt>
       <trkpt lat="55.0071477" lon="11.8739516"></trkpt>
@@ -10857,12 +11105,8 @@ version="1.1" creator="togpx">
       <trkpt lat="56.2171261" lon="9.669102"></trkpt>
       <trkpt lat="56.2170814" lon="9.6691771"></trkpt>
       <trkpt lat="56.2170705" lon="9.6691976"></trkpt>
-      <trkpt lat="56.2170545" lon="9.6692079"></trkpt>
       <trkpt lat="56.217045" lon="9.6692113"></trkpt>
-      <trkpt lat="56.2170373" lon="9.6692093"></trkpt>
       <trkpt lat="56.2170248" lon="9.6692042"></trkpt>
-      <trkpt lat="56.2170168" lon="9.6691985"></trkpt>
-      <trkpt lat="56.2169993" lon="9.6691838"></trkpt>
       <trkpt lat="56.2169657" lon="9.6691489"></trkpt>
       <trkpt lat="56.2169941" lon="9.6702956"></trkpt>
       <trkpt lat="56.217425" lon="9.6704715"></trkpt>
@@ -11309,8 +11553,8 @@ version="1.1" creator="togpx">
   <trk>
     <name>Rantzausminde Camping</name>
     <trkseg>
-      <trkpt lat="55.0311418" lon="10.5271499"></trkpt>
-      <trkpt lat="55.0325549" lon="10.5269574"></trkpt>
+      <trkpt lat="55.0311415" lon="10.5271484"></trkpt>
+      <trkpt lat="55.0325544" lon="10.5269546"></trkpt>
       <trkpt lat="55.0320239" lon="10.5242427"></trkpt>
       <trkpt lat="55.0319502" lon="10.5240542"></trkpt>
       <trkpt lat="55.0318627" lon="10.5239525"></trkpt>
@@ -11318,7 +11562,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0305453" lon="10.5249559"></trkpt>
       <trkpt lat="55.0304647" lon="10.5254437"></trkpt>
       <trkpt lat="55.0307876" lon="10.5260044"></trkpt>
-      <trkpt lat="55.0311418" lon="10.5271499"></trkpt>
+      <trkpt lat="55.0311415" lon="10.5271484"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12128,7 +12372,7 @@ version="1.1" creator="togpx">
       <trkpt lat="54.9938213" lon="9.9748841"></trkpt>
       <trkpt lat="54.9936773" lon="9.9751131"></trkpt>
       <trkpt lat="54.99377" lon="9.9752485"></trkpt>
-      <trkpt lat="54.9938424" lon="9.9753595"></trkpt>
+      <trkpt lat="54.9938436" lon="9.9753565"></trkpt>
       <trkpt lat="54.9939214" lon="9.9754806"></trkpt>
       <trkpt lat="54.9939938" lon="9.9755917"></trkpt>
       <trkpt lat="54.9940532" lon="9.9756827"></trkpt>
@@ -12298,28 +12542,80 @@ version="1.1" creator="togpx">
   <trk>
     <name>Hedebo Strand Camping</name>
     <trkseg>
-      <trkpt lat="57.3557411" lon="10.5113605"></trkpt>
-      <trkpt lat="57.3551852" lon="10.5117063"></trkpt>
-      <trkpt lat="57.3548922" lon="10.5118832"></trkpt>
-      <trkpt lat="57.3546751" lon="10.510829"></trkpt>
-      <trkpt lat="57.3538887" lon="10.5112244"></trkpt>
-      <trkpt lat="57.3537947" lon="10.5113713"></trkpt>
-      <trkpt lat="57.3537835" lon="10.5115396"></trkpt>
-      <trkpt lat="57.3542542" lon="10.5146449"></trkpt>
-      <trkpt lat="57.354272" lon="10.514779"></trkpt>
-      <trkpt lat="57.3542175" lon="10.5148975"></trkpt>
-      <trkpt lat="57.3541095" lon="10.514934"></trkpt>
-      <trkpt lat="57.3548075" lon="10.5177712"></trkpt>
-      <trkpt lat="57.3548883" lon="10.5181097"></trkpt>
-      <trkpt lat="57.3556639" lon="10.5179107"></trkpt>
-      <trkpt lat="57.3557526" lon="10.51821"></trkpt>
-      <trkpt lat="57.3567367" lon="10.5175416"></trkpt>
-      <trkpt lat="57.3581752" lon="10.5169344"></trkpt>
-      <trkpt lat="57.3577548" lon="10.5147026"></trkpt>
-      <trkpt lat="57.356481" lon="10.5151349"></trkpt>
-      <trkpt lat="57.3564217" lon="10.5151116"></trkpt>
-      <trkpt lat="57.3561545" lon="10.5137653"></trkpt>
-      <trkpt lat="57.3557411" lon="10.5113605"></trkpt>
+      <trkpt lat="57.3557446" lon="10.5113485"></trkpt>
+      <trkpt lat="57.3557118" lon="10.5113902"></trkpt>
+      <trkpt lat="57.3556903" lon="10.5114508"></trkpt>
+      <trkpt lat="57.3555796" lon="10.5115092"></trkpt>
+      <trkpt lat="57.3554819" lon="10.5115552"></trkpt>
+      <trkpt lat="57.3554501" lon="10.5115702"></trkpt>
+      <trkpt lat="57.3554607" lon="10.5116467"></trkpt>
+      <trkpt lat="57.3553772" lon="10.511686"></trkpt>
+      <trkpt lat="57.3553689" lon="10.5116254"></trkpt>
+      <trkpt lat="57.3553629" lon="10.5116282"></trkpt>
+      <trkpt lat="57.3551885" lon="10.5117204"></trkpt>
+      <trkpt lat="57.3548808" lon="10.5118691"></trkpt>
+      <trkpt lat="57.3548616" lon="10.5117367"></trkpt>
+      <trkpt lat="57.3548952" lon="10.5117199"></trkpt>
+      <trkpt lat="57.3548331" lon="10.5112917"></trkpt>
+      <trkpt lat="57.3548104" lon="10.511303"></trkpt>
+      <trkpt lat="57.3547759" lon="10.511097"></trkpt>
+      <trkpt lat="57.3547307" lon="10.5108858"></trkpt>
+      <trkpt lat="57.3547158" lon="10.5108482"></trkpt>
+      <trkpt lat="57.354696" lon="10.5108254"></trkpt>
+      <trkpt lat="57.3546771" lon="10.5108161"></trkpt>
+      <trkpt lat="57.3542391" lon="10.5110286"></trkpt>
+      <trkpt lat="57.3543462" lon="10.5116482"></trkpt>
+      <trkpt lat="57.3544129" lon="10.5121755"></trkpt>
+      <trkpt lat="57.3544245" lon="10.5122658"></trkpt>
+      <trkpt lat="57.3544336" lon="10.512334"></trkpt>
+      <trkpt lat="57.3544618" lon="10.5125328"></trkpt>
+      <trkpt lat="57.3545214" lon="10.5129458"></trkpt>
+      <trkpt lat="57.3545464" lon="10.5130835"></trkpt>
+      <trkpt lat="57.3545538" lon="10.5131"></trkpt>
+      <trkpt lat="57.3545628" lon="10.513108"></trkpt>
+      <trkpt lat="57.3546898" lon="10.5131174"></trkpt>
+      <trkpt lat="57.354701" lon="10.5131402"></trkpt>
+      <trkpt lat="57.3547292" lon="10.5132958"></trkpt>
+      <trkpt lat="57.3547703" lon="10.5135229"></trkpt>
+      <trkpt lat="57.3547325" lon="10.5136304"></trkpt>
+      <trkpt lat="57.3547423" lon="10.5136994"></trkpt>
+      <trkpt lat="57.3548027" lon="10.5141306"></trkpt>
+      <trkpt lat="57.3548642" lon="10.5145162"></trkpt>
+      <trkpt lat="57.3549168" lon="10.5148754"></trkpt>
+      <trkpt lat="57.3549623" lon="10.5149188"></trkpt>
+      <trkpt lat="57.3549843" lon="10.514921"></trkpt>
+      <trkpt lat="57.355009" lon="10.5149219"></trkpt>
+      <trkpt lat="57.3550294" lon="10.5150286"></trkpt>
+      <trkpt lat="57.3550887" lon="10.5153578"></trkpt>
+      <trkpt lat="57.3550818" lon="10.5153691"></trkpt>
+      <trkpt lat="57.3550806" lon="10.5153964"></trkpt>
+      <trkpt lat="57.3549811" lon="10.5153576"></trkpt>
+      <trkpt lat="57.3548802" lon="10.5153209"></trkpt>
+      <trkpt lat="57.3547784" lon="10.5152841"></trkpt>
+      <trkpt lat="57.3546827" lon="10.5151872"></trkpt>
+      <trkpt lat="57.3545822" lon="10.5151195"></trkpt>
+      <trkpt lat="57.3544746" lon="10.515058"></trkpt>
+      <trkpt lat="57.3543654" lon="10.5149802"></trkpt>
+      <trkpt lat="57.3542635" lon="10.5149193"></trkpt>
+      <trkpt lat="57.3541138" lon="10.5149206"></trkpt>
+      <trkpt lat="57.3547896" lon="10.5177931"></trkpt>
+      <trkpt lat="57.3548793" lon="10.5181915"></trkpt>
+      <trkpt lat="57.3556758" lon="10.5179259"></trkpt>
+      <trkpt lat="57.3557532" lon="10.5182411"></trkpt>
+      <trkpt lat="57.3559081" lon="10.5182652"></trkpt>
+      <trkpt lat="57.3559768" lon="10.5182585"></trkpt>
+      <trkpt lat="57.3560448" lon="10.5182102"></trkpt>
+      <trkpt lat="57.3561012" lon="10.5181096"></trkpt>
+      <trkpt lat="57.3561649" lon="10.5179688"></trkpt>
+      <trkpt lat="57.356732" lon="10.5175625"></trkpt>
+      <trkpt lat="57.3582005" lon="10.5169281"></trkpt>
+      <trkpt lat="57.3577809" lon="10.5147743"></trkpt>
+      <trkpt lat="57.3572051" lon="10.5150224"></trkpt>
+      <trkpt lat="57.3571791" lon="10.5149218"></trkpt>
+      <trkpt lat="57.3564767" lon="10.5151337"></trkpt>
+      <trkpt lat="57.3564195" lon="10.5151029"></trkpt>
+      <trkpt lat="57.3561555" lon="10.5137926"></trkpt>
+      <trkpt lat="57.3557446" lon="10.5113485"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12684,7 +12980,7 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1673584" lon="10.732375"></trkpt>
       <trkpt lat="56.1675531" lon="10.7326064"></trkpt>
       <trkpt lat="56.1680567" lon="10.7330803"></trkpt>
-      <trkpt lat="56.1686253" lon="10.7336154"></trkpt>
+      <trkpt lat="56.1690434" lon="10.7335457"></trkpt>
       <trkpt lat="56.1694198" lon="10.7337213"></trkpt>
       <trkpt lat="56.1694534" lon="10.7333566"></trkpt>
       <trkpt lat="56.1694688" lon="10.7328499"></trkpt>
@@ -12716,8 +13012,9 @@ version="1.1" creator="togpx">
       <trkpt lat="56.6213086" lon="8.7224603"></trkpt>
       <trkpt lat="56.6203974" lon="8.7234931"></trkpt>
       <trkpt lat="56.6207515" lon="8.722557"></trkpt>
-      <trkpt lat="56.6199502" lon="8.7218007"></trkpt>
-      <trkpt lat="56.6192007" lon="8.7230854"></trkpt>
+      <trkpt lat="56.6199264" lon="8.7217575"></trkpt>
+      <trkpt lat="56.6190675" lon="8.7229701"></trkpt>
+      <trkpt lat="56.6194421" lon="8.7239134"></trkpt>
       <trkpt lat="56.6196256" lon="8.7243756"></trkpt>
       <trkpt lat="56.6208015" lon="8.7271862"></trkpt>
       <trkpt lat="56.6211737" lon="8.7282784"></trkpt>
@@ -13031,7 +13328,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1739822" lon="12.1001619"></trkpt>
       <trkpt lat="55.1737699" lon="12.1004742"></trkpt>
       <trkpt lat="55.1736262" lon="12.1011422"></trkpt>
-      <trkpt lat="55.1728526" lon="12.1004614"></trkpt>
+      <trkpt lat="55.1729346" lon="12.1005566"></trkpt>
       <trkpt lat="55.1720847" lon="12.1026617"></trkpt>
       <trkpt lat="55.1723609" lon="12.1030162"></trkpt>
       <trkpt lat="55.1718831" lon="12.10453"></trkpt>
@@ -13484,13 +13781,22 @@ version="1.1" creator="togpx">
   <trk>
     <name>Bjerge Sydstrand Camping</name>
     <trkseg>
-      <trkpt lat="55.5632419" lon="11.1651415"></trkpt>
+      <trkpt lat="55.5632396" lon="11.165112"></trkpt>
+      <trkpt lat="55.563402" lon="11.1637992"></trkpt>
+      <trkpt lat="55.5634175" lon="11.1636718"></trkpt>
+      <trkpt lat="55.5634301" lon="11.1635729"></trkpt>
+      <trkpt lat="55.5634566" lon="11.1633579"></trkpt>
+      <trkpt lat="55.5634767" lon="11.1632325"></trkpt>
+      <trkpt lat="55.5634987" lon="11.1631005"></trkpt>
       <trkpt lat="55.5639566" lon="11.1598237"></trkpt>
       <trkpt lat="55.5636159" lon="11.1597046"></trkpt>
-      <trkpt lat="55.5634349" lon="11.1596413"></trkpt>
-      <trkpt lat="55.5628229" lon="11.1638573"></trkpt>
-      <trkpt lat="55.5626655" lon="11.1649414"></trkpt>
-      <trkpt lat="55.5632419" lon="11.1651415"></trkpt>
+      <trkpt lat="55.563419" lon="11.1596346"></trkpt>
+      <trkpt lat="55.5632913" lon="11.1604477"></trkpt>
+      <trkpt lat="55.562961" lon="11.1627585"></trkpt>
+      <trkpt lat="55.5628351" lon="11.1636704"></trkpt>
+      <trkpt lat="55.5628183" lon="11.163797"></trkpt>
+      <trkpt lat="55.5626746" lon="11.1648824"></trkpt>
+      <trkpt lat="55.5632396" lon="11.165112"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14293,8 +14599,8 @@ version="1.1" creator="togpx">
     <name>Safari Camping</name>
     <trkseg>
       <trkpt lat="56.8323253" lon="9.8455897"></trkpt>
-      <trkpt lat="56.8319945" lon="9.8456369"></trkpt>
-      <trkpt lat="56.8319741" lon="9.8451423"></trkpt>
+      <trkpt lat="56.8320007" lon="9.8456302"></trkpt>
+      <trkpt lat="56.8319896" lon="9.8451394"></trkpt>
       <trkpt lat="56.831246" lon="9.8453038"></trkpt>
       <trkpt lat="56.8312632" lon="9.8456841"></trkpt>
       <trkpt lat="56.8299699" lon="9.8460334"></trkpt>
@@ -14306,10 +14612,10 @@ version="1.1" creator="togpx">
       <trkpt lat="56.8290266" lon="9.8475369"></trkpt>
       <trkpt lat="56.8293739" lon="9.8474514"></trkpt>
       <trkpt lat="56.8300777" lon="9.8473188"></trkpt>
-      <trkpt lat="56.8300447" lon="9.8469892"></trkpt>
-      <trkpt lat="56.8321473" lon="9.8464966"></trkpt>
-      <trkpt lat="56.8323528" lon="9.8464441"></trkpt>
-      <trkpt lat="56.8323902" lon="9.8464374"></trkpt>
+      <trkpt lat="56.8300445" lon="9.8469754"></trkpt>
+      <trkpt lat="56.832149" lon="9.8464909"></trkpt>
+      <trkpt lat="56.8323532" lon="9.8464389"></trkpt>
+      <trkpt lat="56.8323906" lon="9.8464289"></trkpt>
       <trkpt lat="56.8323253" lon="9.8455897"></trkpt>
     </trkseg>
   </trk>
@@ -14378,36 +14684,38 @@ version="1.1" creator="togpx">
   <trk>
     <name>Grenaa Strand Camping</name>
     <trkseg>
-      <trkpt lat="56.3874683" lon="10.9094085"></trkpt>
-      <trkpt lat="56.38742" lon="10.9094933"></trkpt>
-      <trkpt lat="56.3870949" lon="10.9100639"></trkpt>
-      <trkpt lat="56.385946" lon="10.9084926"></trkpt>
-      <trkpt lat="56.3857898" lon="10.9087779"></trkpt>
-      <trkpt lat="56.3857827" lon="10.9097825"></trkpt>
-      <trkpt lat="56.3856561" lon="10.9100762"></trkpt>
-      <trkpt lat="56.3856262" lon="10.9108647"></trkpt>
-      <trkpt lat="56.3856285" lon="10.911464"></trkpt>
-      <trkpt lat="56.3857886" lon="10.9130681"></trkpt>
-      <trkpt lat="56.3866955" lon="10.9137845"></trkpt>
-      <trkpt lat="56.3870718" lon="10.9130312"></trkpt>
-      <trkpt lat="56.3881419" lon="10.9140258"></trkpt>
-      <trkpt lat="56.3881712" lon="10.9148467"></trkpt>
-      <trkpt lat="56.3883581" lon="10.9149707"></trkpt>
-      <trkpt lat="56.390317" lon="10.9162808"></trkpt>
-      <trkpt lat="56.3908884" lon="10.9165735"></trkpt>
-      <trkpt lat="56.3911095" lon="10.9161407"></trkpt>
+      <trkpt lat="56.3875461" lon="10.90935"></trkpt>
+      <trkpt lat="56.3873762" lon="10.9094764"></trkpt>
+      <trkpt lat="56.3870339" lon="10.9090386"></trkpt>
+      <trkpt lat="56.3860096" lon="10.9077252"></trkpt>
+      <trkpt lat="56.3854074" lon="10.9086279"></trkpt>
+      <trkpt lat="56.3854299" lon="10.9096569"></trkpt>
+      <trkpt lat="56.3854449" lon="10.9102301"></trkpt>
+      <trkpt lat="56.3854574" lon="10.9109026"></trkpt>
+      <trkpt lat="56.3854724" lon="10.9115254"></trkpt>
+      <trkpt lat="56.3856997" lon="10.9134751"></trkpt>
+      <trkpt lat="56.3865642" lon="10.9141115"></trkpt>
+      <trkpt lat="56.3871026" lon="10.9143806"></trkpt>
+      <trkpt lat="56.3879534" lon="10.914811"></trkpt>
+      <trkpt lat="56.3881607" lon="10.9148923"></trkpt>
+      <trkpt lat="56.3887004" lon="10.9151901"></trkpt>
+      <trkpt lat="56.3902868" lon="10.9163004"></trkpt>
+      <trkpt lat="56.3909813" lon="10.9166163"></trkpt>
+      <trkpt lat="56.3911437" lon="10.9162598"></trkpt>
+      <trkpt lat="56.3909538" lon="10.9157327"></trkpt>
       <trkpt lat="56.3907271" lon="10.9148138"></trkpt>
-      <trkpt lat="56.3900995" lon="10.9138896"></trkpt>
-      <trkpt lat="56.3904261" lon="10.9138771"></trkpt>
-      <trkpt lat="56.3903879" lon="10.9136083"></trkpt>
-      <trkpt lat="56.390252" lon="10.913067"></trkpt>
-      <trkpt lat="56.3900884" lon="10.9127587"></trkpt>
-      <trkpt lat="56.3898771" lon="10.9118775"></trkpt>
-      <trkpt lat="56.3897701" lon="10.9113879"></trkpt>
-      <trkpt lat="56.3894732" lon="10.9106047"></trkpt>
-      <trkpt lat="56.3888203" lon="10.9114073"></trkpt>
-      <trkpt lat="56.3878226" lon="10.9090966"></trkpt>
-      <trkpt lat="56.3874683" lon="10.9094085"></trkpt>
+      <trkpt lat="56.3906353" lon="10.9144139"></trkpt>
+      <trkpt lat="56.3905166" lon="10.9138633"></trkpt>
+      <trkpt lat="56.3904342" lon="10.9135586"></trkpt>
+      <trkpt lat="56.390313" lon="10.913017"></trkpt>
+      <trkpt lat="56.3902281" lon="10.9126469"></trkpt>
+      <trkpt lat="56.390022" lon="10.9117736"></trkpt>
+      <trkpt lat="56.3899208" lon="10.9112862"></trkpt>
+      <trkpt lat="56.3896647" lon="10.9101714"></trkpt>
+      <trkpt lat="56.3894549" lon="10.9090747"></trkpt>
+      <trkpt lat="56.38927" lon="10.9080051"></trkpt>
+      <trkpt lat="56.3878559" lon="10.9091108"></trkpt>
+      <trkpt lat="56.3875461" lon="10.90935"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14433,8 +14741,8 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1504098" lon="9.4956945"></trkpt>
       <trkpt lat="55.1503209" lon="9.4954531"></trkpt>
       <trkpt lat="55.1501953" lon="9.4954424"></trkpt>
-      <trkpt lat="55.1502517" lon="9.4944281"></trkpt>
-      <trkpt lat="55.1496293" lon="9.494459"></trkpt>
+      <trkpt lat="55.1502287" lon="9.494707"></trkpt>
+      <trkpt lat="55.1496799" lon="9.4946494"></trkpt>
       <trkpt lat="55.1495458" lon="9.4944632"></trkpt>
       <trkpt lat="55.1492704" lon="9.4942354"></trkpt>
       <trkpt lat="55.1490101" lon="9.4941916"></trkpt>
@@ -14479,9 +14787,13 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1875988" lon="9.6553627"></trkpt>
       <trkpt lat="55.1870494" lon="9.6551593"></trkpt>
       <trkpt lat="55.186993" lon="9.6551384"></trkpt>
-      <trkpt lat="55.1868356" lon="9.6550801"></trkpt>
-      <trkpt lat="55.187102" lon="9.6534069"></trkpt>
-      <trkpt lat="55.1860084" lon="9.6529314"></trkpt>
+      <trkpt lat="55.1867788" lon="9.6550543"></trkpt>
+      <trkpt lat="55.1869044" lon="9.6542653"></trkpt>
+      <trkpt lat="55.1869969" lon="9.6535902"></trkpt>
+      <trkpt lat="55.1867456" lon="9.6534693"></trkpt>
+      <trkpt lat="55.1867594" lon="9.6533707"></trkpt>
+      <trkpt lat="55.1865128" lon="9.653253"></trkpt>
+      <trkpt lat="55.1860612" lon="9.6530461"></trkpt>
       <trkpt lat="55.1860088" lon="9.6530221"></trkpt>
       <trkpt lat="55.1860102" lon="9.6533799"></trkpt>
       <trkpt lat="55.186011" lon="9.6535773"></trkpt>
@@ -14495,6 +14807,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1859441" lon="9.657067"></trkpt>
       <trkpt lat="55.186171" lon="9.6571566"></trkpt>
       <trkpt lat="55.186409" lon="9.6572241"></trkpt>
+      <trkpt lat="55.186992" lon="9.6574018"></trkpt>
       <trkpt lat="55.1872898" lon="9.6574926"></trkpt>
     </trkseg>
   </trk>
@@ -14510,7 +14823,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.5784894" lon="12.6282967"></trkpt>
       <trkpt lat="55.578492" lon="12.6283321"></trkpt>
       <trkpt lat="55.5787959" lon="12.6286572"></trkpt>
-      <trkpt lat="55.579045" lon="12.6292045"></trkpt>
+      <trkpt lat="55.5790255" lon="12.6291509"></trkpt>
       <trkpt lat="55.5792861" lon="12.6299403"></trkpt>
       <trkpt lat="55.579408" lon="12.6302561"></trkpt>
       <trkpt lat="55.5795604" lon="12.630575"></trkpt>
@@ -14671,9 +14984,7 @@ version="1.1" creator="togpx">
       <trkpt lat="56.8173354" lon="8.6716167"></trkpt>
       <trkpt lat="56.8173353" lon="8.6716944"></trkpt>
       <trkpt lat="56.8173348" lon="8.6719833"></trkpt>
-      <trkpt lat="56.8175492" lon="8.6720399"></trkpt>
-      <trkpt lat="56.8176068" lon="8.6720551"></trkpt>
-      <trkpt lat="56.8180785" lon="8.6721797"></trkpt>
+      <trkpt lat="56.8175041" lon="8.6720314"></trkpt>
       <trkpt lat="56.8187488" lon="8.672385"></trkpt>
       <trkpt lat="56.8187581" lon="8.6714064"></trkpt>
       <trkpt lat="56.8187453" lon="8.671203"></trkpt>
@@ -14804,7 +15115,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping klitten</name>
+    <name>Camping Klitten</name>
     <trkseg>
       <trkpt lat="55.3496784" lon="8.4638586"></trkpt>
       <trkpt lat="55.3495231" lon="8.4611316"></trkpt>
@@ -15004,6 +15315,8 @@ version="1.1" creator="togpx">
       <trkpt lat="57.3609365" lon="10.5107679"></trkpt>
       <trkpt lat="57.3608963" lon="10.5103826"></trkpt>
       <trkpt lat="57.3608786" lon="10.5101968"></trkpt>
+      <trkpt lat="57.3608747" lon="10.509709"></trkpt>
+      <trkpt lat="57.3608422" lon="10.5093428"></trkpt>
       <trkpt lat="57.360786" lon="10.5093018"></trkpt>
       <trkpt lat="57.3607593" lon="10.5090946"></trkpt>
       <trkpt lat="57.3608888" lon="10.5088405"></trkpt>
@@ -15121,7 +15434,7 @@ version="1.1" creator="togpx">
     <name>Ertebølle Strand Camping</name>
     <trkseg>
       <trkpt lat="56.8115567" lon="9.1831759"></trkpt>
-      <trkpt lat="56.8126527" lon="9.1843312"></trkpt>
+      <trkpt lat="56.8126587" lon="9.184231"></trkpt>
       <trkpt lat="56.8136533" lon="9.185386"></trkpt>
       <trkpt lat="56.8137348" lon="9.1848386"></trkpt>
       <trkpt lat="56.813813" lon="9.1843138"></trkpt>
@@ -15854,9 +16167,9 @@ version="1.1" creator="togpx">
       <trkpt lat="55.4457781" lon="11.5480784"></trkpt>
       <trkpt lat="55.4458015" lon="11.5480009"></trkpt>
       <trkpt lat="55.4460837" lon="11.5482574"></trkpt>
-      <trkpt lat="55.447143" lon="11.5489041"></trkpt>
-      <trkpt lat="55.4473201" lon="11.5480825"></trkpt>
-      <trkpt lat="55.4488702" lon="11.5491713"></trkpt>
+      <trkpt lat="55.4481733" lon="11.5495276"></trkpt>
+      <trkpt lat="55.4483269" lon="11.5491146"></trkpt>
+      <trkpt lat="55.4484532" lon="11.5487874"></trkpt>
       <trkpt lat="55.4488836" lon="11.5491084"></trkpt>
       <trkpt lat="55.4491515" lon="11.5478559"></trkpt>
       <trkpt lat="55.4490998" lon="11.5478158"></trkpt>
@@ -16182,12 +16495,14 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="55.5250848" lon="11.1091223"></trkpt>
       <trkpt lat="55.5253226" lon="11.1071724"></trkpt>
-      <trkpt lat="55.5254196" lon="11.1064281"></trkpt>
-      <trkpt lat="55.5250658" lon="11.1061491"></trkpt>
-      <trkpt lat="55.5247857" lon="11.1060069"></trkpt>
-      <trkpt lat="55.5246475" lon="11.1059788"></trkpt>
-      <trkpt lat="55.5242619" lon="11.1061384"></trkpt>
-      <trkpt lat="55.5241564" lon="11.1062537"></trkpt>
+      <trkpt lat="55.5253329" lon="11.107093"></trkpt>
+      <trkpt lat="55.5254295" lon="11.106395"></trkpt>
+      <trkpt lat="55.5252858" lon="11.1062274"></trkpt>
+      <trkpt lat="55.525067" lon="11.1061073"></trkpt>
+      <trkpt lat="55.5247952" lon="11.10594"></trkpt>
+      <trkpt lat="55.524625" lon="11.1059411"></trkpt>
+      <trkpt lat="55.5242548" lon="11.1060903"></trkpt>
+      <trkpt lat="55.5241351" lon="11.1062223"></trkpt>
       <trkpt lat="55.5241435" lon="11.1064348"></trkpt>
       <trkpt lat="55.5241936" lon="11.1067513"></trkpt>
       <trkpt lat="55.5244988" lon="11.1080224"></trkpt>
@@ -16707,14 +17022,18 @@ version="1.1" creator="togpx">
   <trk>
     <name>Løgismosestrand Camping</name>
     <trkseg>
-      <trkpt lat="55.1761061" lon="10.0738862"></trkpt>
+      <trkpt lat="55.1761408" lon="10.0738449"></trkpt>
       <trkpt lat="55.1760868" lon="10.0757193"></trkpt>
       <trkpt lat="55.1791556" lon="10.0756162"></trkpt>
       <trkpt lat="55.1794451" lon="10.0756699"></trkpt>
       <trkpt lat="55.1795427" lon="10.0746354"></trkpt>
       <trkpt lat="55.1795296" lon="10.0741822"></trkpt>
-      <trkpt lat="55.1794865" lon="10.0734539"></trkpt>
-      <trkpt lat="55.1761061" lon="10.0738862"></trkpt>
+      <trkpt lat="55.1796167" lon="10.0734029"></trkpt>
+      <trkpt lat="55.1792705" lon="10.0717351"></trkpt>
+      <trkpt lat="55.178726" lon="10.0718414"></trkpt>
+      <trkpt lat="55.1776102" lon="10.0720328"></trkpt>
+      <trkpt lat="55.1776125" lon="10.0736044"></trkpt>
+      <trkpt lat="55.1761408" lon="10.0738449"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -17163,9 +17482,11 @@ version="1.1" creator="togpx">
       <trkpt lat="55.6994356" lon="12.5131315"></trkpt>
       <trkpt lat="55.7000769" lon="12.5138138"></trkpt>
       <trkpt lat="55.7008854" lon="12.5146623"></trkpt>
-      <trkpt lat="55.7029097" lon="12.5169319"></trkpt>
-      <trkpt lat="55.7031625" lon="12.517275"></trkpt>
-      <trkpt lat="55.703064" lon="12.5176007"></trkpt>
+      <trkpt lat="55.7029275" lon="12.5169783"></trkpt>
+      <trkpt lat="55.7027677" lon="12.5174671"></trkpt>
+      <trkpt lat="55.7029551" lon="12.5175325"></trkpt>
+      <trkpt lat="55.7029641" lon="12.5175679"></trkpt>
+      <trkpt lat="55.7029861" lon="12.5176737"></trkpt>
       <trkpt lat="55.7042291" lon="12.5168009"></trkpt>
       <trkpt lat="55.7039904" lon="12.5149689"></trkpt>
       <trkpt lat="55.704354" lon="12.5139056"></trkpt>
@@ -17329,10 +17650,10 @@ version="1.1" creator="togpx">
       <trkpt lat="56.5504405" lon="8.6318654"></trkpt>
       <trkpt lat="56.5505436" lon="8.6302981"></trkpt>
       <trkpt lat="56.5506517" lon="8.6303121"></trkpt>
-      <trkpt lat="56.5508989" lon="8.6274391"></trkpt>
-      <trkpt lat="56.5509027" lon="8.6273548"></trkpt>
-      <trkpt lat="56.5506634" lon="8.626924"></trkpt>
-      <trkpt lat="56.5504394" lon="8.6266927"></trkpt>
+      <trkpt lat="56.5508992" lon="8.6274332"></trkpt>
+      <trkpt lat="56.5506892" lon="8.6273497"></trkpt>
+      <trkpt lat="56.5507118" lon="8.6269372"></trkpt>
+      <trkpt lat="56.5504534" lon="8.6268724"></trkpt>
       <trkpt lat="56.5502563" lon="8.6268372"></trkpt>
       <trkpt lat="56.5485375" lon="8.6267295"></trkpt>
       <trkpt lat="56.5484396" lon="8.6286181"></trkpt>
@@ -17411,14 +17732,14 @@ version="1.1" creator="togpx">
     <name>Hjarbæk Fjord Camping</name>
     <trkseg>
       <trkpt lat="56.5348109" lon="9.3334956"></trkpt>
-      <trkpt lat="56.5350091" lon="9.3310992"></trkpt>
+      <trkpt lat="56.5349987" lon="9.3310992"></trkpt>
       <trkpt lat="56.5354632" lon="9.3268801"></trkpt>
       <trkpt lat="56.5341927" lon="9.3271443"></trkpt>
-      <trkpt lat="56.5341073" lon="9.3279442"></trkpt>
-      <trkpt lat="56.5337386" lon="9.3313983"></trkpt>
-      <trkpt lat="56.5335774" lon="9.3339249"></trkpt>
-      <trkpt lat="56.5340776" lon="9.3338901"></trkpt>
-      <trkpt lat="56.534029" lon="9.3333838"></trkpt>
+      <trkpt lat="56.5340992" lon="9.3279388"></trkpt>
+      <trkpt lat="56.5337284" lon="9.331381"></trkpt>
+      <trkpt lat="56.5335672" lon="9.3339211"></trkpt>
+      <trkpt lat="56.5335051" lon="9.3350127"></trkpt>
+      <trkpt lat="56.5346203" lon="9.3354848"></trkpt>
       <trkpt lat="56.5348109" lon="9.3334956"></trkpt>
     </trkseg>
   </trk>
@@ -17492,6 +17813,7 @@ version="1.1" creator="togpx">
     <name>Hasle Camping</name>
     <trkseg>
       <trkpt lat="55.1778303" lon="14.7048737"></trkpt>
+      <trkpt lat="55.1778411" lon="14.7050128"></trkpt>
       <trkpt lat="55.1784044" lon="14.7075022"></trkpt>
       <trkpt lat="55.1784679" lon="14.7077845"></trkpt>
       <trkpt lat="55.1787888" lon="14.7075659"></trkpt>
@@ -18020,6 +18342,7 @@ version="1.1" creator="togpx">
     <name>Strandparken Camping</name>
     <trkseg>
       <trkpt lat="57.0550646" lon="9.8847836"></trkpt>
+      <trkpt lat="57.0551435" lon="9.8855606"></trkpt>
       <trkpt lat="57.0553186" lon="9.88727"></trkpt>
       <trkpt lat="57.0557772" lon="9.8868329"></trkpt>
       <trkpt lat="57.0563855" lon="9.8862857"></trkpt>
@@ -18213,20 +18536,20 @@ version="1.1" creator="togpx">
   <trk>
     <name>Thurø Camping</name>
     <trkseg>
-      <trkpt lat="55.0435129" lon="10.7105593"></trkpt>
+      <trkpt lat="55.0435352" lon="10.7105875"></trkpt>
       <trkpt lat="55.0448698" lon="10.7092477"></trkpt>
       <trkpt lat="55.0450145" lon="10.7082465"></trkpt>
       <trkpt lat="55.0448977" lon="10.7071294"></trkpt>
       <trkpt lat="55.0445394" lon="10.7074909"></trkpt>
       <trkpt lat="55.0437724" lon="10.7060057"></trkpt>
-      <trkpt lat="55.0422773" lon="10.7081292"></trkpt>
+      <trkpt lat="55.0422335" lon="10.7080112"></trkpt>
       <trkpt lat="55.042686" lon="10.7093201"></trkpt>
       <trkpt lat="55.0429811" lon="10.709583"></trkpt>
-      <trkpt lat="55.0435129" lon="10.7105593"></trkpt>
+      <trkpt lat="55.0435352" lon="10.7105875"></trkpt>
     </trkseg>
   </trk>
   <trk>
-    <name>Dokkedal camping</name>
+    <name>Dokkedal Camping</name>
     <trkseg>
       <trkpt lat="56.9334267" lon="10.2583551"></trkpt>
       <trkpt lat="56.932812" lon="10.2582157"></trkpt>
@@ -18437,9 +18760,9 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1289829" lon="15.1509585"></trkpt>
       <trkpt lat="55.1290239" lon="15.150958"></trkpt>
       <trkpt lat="55.1291399" lon="15.1509729"></trkpt>
-      <trkpt lat="55.1294009" lon="15.1512385"></trkpt>
+      <trkpt lat="55.1294039" lon="15.1512348"></trkpt>
       <trkpt lat="55.1294242" lon="15.1512622"></trkpt>
-      <trkpt lat="55.1294956" lon="15.1513373"></trkpt>
+      <trkpt lat="55.1295002" lon="15.151336"></trkpt>
       <trkpt lat="55.1297325" lon="15.1518479"></trkpt>
       <trkpt lat="55.1299243" lon="15.1520054"></trkpt>
       <trkpt lat="55.1301219" lon="15.151853"></trkpt>
@@ -18896,7 +19219,7 @@ version="1.1" creator="togpx">
       <trkpt lat="56.319085" lon="8.1472915"></trkpt>
       <trkpt lat="56.3187383" lon="8.1471675"></trkpt>
       <trkpt lat="56.3187305" lon="8.1476833"></trkpt>
-      <trkpt lat="56.3187223" lon="8.1482293"></trkpt>
+      <trkpt lat="56.3187129" lon="8.1482915"></trkpt>
       <trkpt lat="56.3187139" lon="8.1487852"></trkpt>
       <trkpt lat="56.3186848" lon="8.1507187"></trkpt>
       <trkpt lat="56.3190448" lon="8.1508507"></trkpt>
@@ -18916,7 +19239,8 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1241426" lon="9.7099353"></trkpt>
       <trkpt lat="56.124141" lon="9.709958"></trkpt>
       <trkpt lat="56.1241345" lon="9.7100528"></trkpt>
-      <trkpt lat="56.1241973" lon="9.7104873"></trkpt>
+      <trkpt lat="56.1241589" lon="9.7102918"></trkpt>
+      <trkpt lat="56.1241832" lon="9.7104637"></trkpt>
       <trkpt lat="56.1242277" lon="9.7105848"></trkpt>
       <trkpt lat="56.1242637" lon="9.7106781"></trkpt>
       <trkpt lat="56.1243378" lon="9.7108786"></trkpt>
@@ -18924,15 +19248,17 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1247256" lon="9.7113569"></trkpt>
       <trkpt lat="56.1247983" lon="9.7118228"></trkpt>
       <trkpt lat="56.1248401" lon="9.7120695"></trkpt>
-      <trkpt lat="56.1249145" lon="9.7130775"></trkpt>
-      <trkpt lat="56.1257317" lon="9.7120726"></trkpt>
-      <trkpt lat="56.1257464" lon="9.711688"></trkpt>
-      <trkpt lat="56.1260113" lon="9.7113063"></trkpt>
-      <trkpt lat="56.1263553" lon="9.7119238"></trkpt>
-      <trkpt lat="56.1263762" lon="9.7121944"></trkpt>
-      <trkpt lat="56.1262053" lon="9.7128816"></trkpt>
-      <trkpt lat="56.1272585" lon="9.7129819"></trkpt>
+      <trkpt lat="56.1249489" lon="9.7133618"></trkpt>
+      <trkpt lat="56.1258169" lon="9.7121102"></trkpt>
+      <trkpt lat="56.1259153" lon="9.71168"></trkpt>
+      <trkpt lat="56.125965" lon="9.7114672"></trkpt>
+      <trkpt lat="56.1263563" lon="9.7119308"></trkpt>
+      <trkpt lat="56.1263756" lon="9.7121995"></trkpt>
+      <trkpt lat="56.126209" lon="9.7128832"></trkpt>
+      <trkpt lat="56.1272712" lon="9.7129853"></trkpt>
+      <trkpt lat="56.1272904" lon="9.7124972"></trkpt>
       <trkpt lat="56.1273161" lon="9.711842"></trkpt>
+      <trkpt lat="56.1273008" lon="9.7113977"></trkpt>
       <trkpt lat="56.1272785" lon="9.7107498"></trkpt>
       <trkpt lat="56.1259939" lon="9.7106699"></trkpt>
       <trkpt lat="56.1259883" lon="9.7100045"></trkpt>
@@ -19206,17 +19532,22 @@ version="1.1" creator="togpx">
   <trk>
     <name>Bredebro Camping</name>
     <trkseg>
-      <trkpt lat="55.0525761" lon="8.8258717"></trkpt>
+      <trkpt lat="55.0526026" lon="8.8258892"></trkpt>
+      <trkpt lat="55.0523483" lon="8.8254346"></trkpt>
+      <trkpt lat="55.0522193" lon="8.8260649"></trkpt>
+      <trkpt lat="55.0518813" lon="8.8258544"></trkpt>
+      <trkpt lat="55.0520674" lon="8.824937"></trkpt>
       <trkpt lat="55.0518083" lon="8.8245121"></trkpt>
-      <trkpt lat="55.0514668" lon="8.8257333"></trkpt>
-      <trkpt lat="55.051155" lon="8.8265655"></trkpt>
-      <trkpt lat="55.0512671" lon="8.8266577"></trkpt>
-      <trkpt lat="55.0511048" lon="8.8273707"></trkpt>
-      <trkpt lat="55.0515068" lon="8.8275642"></trkpt>
-      <trkpt lat="55.0515794" lon="8.8273672"></trkpt>
-      <trkpt lat="55.0522634" lon="8.8274492"></trkpt>
-      <trkpt lat="55.0524975" lon="8.8262436"></trkpt>
-      <trkpt lat="55.0525761" lon="8.8258717"></trkpt>
+      <trkpt lat="55.0514661" lon="8.8258002"></trkpt>
+      <trkpt lat="55.0511687" lon="8.8265672"></trkpt>
+      <trkpt lat="55.0512222" lon="8.8266106"></trkpt>
+      <trkpt lat="55.0512851" lon="8.8266617"></trkpt>
+      <trkpt lat="55.051118" lon="8.8274201"></trkpt>
+      <trkpt lat="55.0515087" lon="8.8276045"></trkpt>
+      <trkpt lat="55.0515997" lon="8.8273631"></trkpt>
+      <trkpt lat="55.0522773" lon="8.827454"></trkpt>
+      <trkpt lat="55.0525193" lon="8.8262594"></trkpt>
+      <trkpt lat="55.0526026" lon="8.8258892"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -19443,19 +19774,24 @@ version="1.1" creator="togpx">
       <trkpt lat="55.6241929" lon="9.8315902"></trkpt>
       <trkpt lat="55.6238213" lon="9.8313447"></trkpt>
       <trkpt lat="55.6237107" lon="9.8314518"></trkpt>
-      <trkpt lat="55.6235392" lon="9.8322034"></trkpt>
-      <trkpt lat="55.6234489" lon="9.8329655"></trkpt>
-      <trkpt lat="55.624538" lon="9.8336091"></trkpt>
-      <trkpt lat="55.6242419" lon="9.8351241"></trkpt>
-      <trkpt lat="55.6241566" lon="9.837052"></trkpt>
-      <trkpt lat="55.6246259" lon="9.8375352"></trkpt>
-      <trkpt lat="55.6263584" lon="9.832085"></trkpt>
-      <trkpt lat="55.62674" lon="9.8302161"></trkpt>
+      <trkpt lat="55.62351" lon="9.8325861"></trkpt>
+      <trkpt lat="55.6235922" lon="9.8331016"></trkpt>
+      <trkpt lat="55.6245348" lon="9.8336915"></trkpt>
+      <trkpt lat="55.6241874" lon="9.8349739"></trkpt>
+      <trkpt lat="55.6241158" lon="9.8369784"></trkpt>
+      <trkpt lat="55.6248567" lon="9.8377673"></trkpt>
+      <trkpt lat="55.62596" lon="9.8338848"></trkpt>
+      <trkpt lat="55.6264332" lon="9.8325893"></trkpt>
+      <trkpt lat="55.6267709" lon="9.8312134"></trkpt>
+      <trkpt lat="55.6270048" lon="9.8301069"></trkpt>
+      <trkpt lat="55.6269367" lon="9.8299849"></trkpt>
       <trkpt lat="55.6264835" lon="9.8304451"></trkpt>
       <trkpt lat="55.6262604" lon="9.8305264"></trkpt>
       <trkpt lat="55.6256787" lon="9.8304637"></trkpt>
       <trkpt lat="55.625603" lon="9.830458"></trkpt>
+      <trkpt lat="55.6255072" lon="9.8307219"></trkpt>
       <trkpt lat="55.6254149" lon="9.830976"></trkpt>
+      <trkpt lat="55.6252932" lon="9.8309367"></trkpt>
       <trkpt lat="55.6244864" lon="9.8306761"></trkpt>
     </trkseg>
   </trk>
@@ -19757,7 +20093,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Askehøj camping</name>
+    <name>Askehøj Camping</name>
     <trkseg>
       <trkpt lat="56.1348034" lon="9.6931824"></trkpt>
       <trkpt lat="56.1351932" lon="9.6929346"></trkpt>
@@ -19787,6 +20123,13 @@ version="1.1" creator="togpx">
       <trkpt lat="56.9817722" lon="10.2989383"></trkpt>
       <trkpt lat="56.9812343" lon="10.2988918"></trkpt>
       <trkpt lat="56.9812597" lon="10.2980953"></trkpt>
+      <trkpt lat="56.9810057" lon="10.2980753"></trkpt>
+      <trkpt lat="56.9809823" lon="10.2988411"></trkpt>
+      <trkpt lat="56.9806608" lon="10.2988236"></trkpt>
+      <trkpt lat="56.9804735" lon="10.298815"></trkpt>
+      <trkpt lat="56.9804387" lon="10.2988131"></trkpt>
+      <trkpt lat="56.9802146" lon="10.2988008"></trkpt>
+      <trkpt lat="56.9802427" lon="10.2980076"></trkpt>
       <trkpt lat="56.9799896" lon="10.2979947"></trkpt>
       <trkpt lat="56.9799451" lon="10.2989465"></trkpt>
       <trkpt lat="56.9798273" lon="10.2989379"></trkpt>
@@ -20162,7 +20505,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.6074392" lon="12.380926"></trkpt>
       <trkpt lat="55.60752" lon="12.3809913"></trkpt>
       <trkpt lat="55.6076091" lon="12.3811268"></trkpt>
-      <trkpt lat="55.6076711" lon="12.381434"></trkpt>
+      <trkpt lat="55.6077698" lon="12.3814664"></trkpt>
       <trkpt lat="55.607877" lon="12.381768"></trkpt>
       <trkpt lat="55.608103" lon="12.3826721"></trkpt>
       <trkpt lat="55.6079486" lon="12.3828636"></trkpt>
@@ -20754,14 +21097,18 @@ version="1.1" creator="togpx">
       <trkpt lat="55.3346087" lon="9.8920252"></trkpt>
       <trkpt lat="55.3349057" lon="9.8909299"></trkpt>
       <trkpt lat="55.3357666" lon="9.8912022"></trkpt>
-      <trkpt lat="55.3359393" lon="9.8912568"></trkpt>
-      <trkpt lat="55.3360952" lon="9.8909346"></trkpt>
-      <trkpt lat="55.3361669" lon="9.8907862"></trkpt>
-      <trkpt lat="55.3361823" lon="9.890723"></trkpt>
-      <trkpt lat="55.3362073" lon="9.8906202"></trkpt>
-      <trkpt lat="55.3362944" lon="9.8902629"></trkpt>
-      <trkpt lat="55.3365272" lon="9.8899006"></trkpt>
-      <trkpt lat="55.3365698" lon="9.8896845"></trkpt>
+      <trkpt lat="55.3359283" lon="9.8912707"></trkpt>
+      <trkpt lat="55.3359901" lon="9.8911822"></trkpt>
+      <trkpt lat="55.3360366" lon="9.8910588"></trkpt>
+      <trkpt lat="55.3360771" lon="9.8909502"></trkpt>
+      <trkpt lat="55.3361411" lon="9.8907624"></trkpt>
+      <trkpt lat="55.336161" lon="9.890694"></trkpt>
+      <trkpt lat="55.3361793" lon="9.8905921"></trkpt>
+      <trkpt lat="55.3362334" lon="9.8904204"></trkpt>
+      <trkpt lat="55.3363196" lon="9.8902474"></trkpt>
+      <trkpt lat="55.3363974" lon="9.8901093"></trkpt>
+      <trkpt lat="55.3365134" lon="9.8898947"></trkpt>
+      <trkpt lat="55.3365546" lon="9.889707"></trkpt>
       <trkpt lat="55.3364754" lon="9.889633"></trkpt>
       <trkpt lat="55.335413" lon="9.8890527"></trkpt>
       <trkpt lat="55.3350926" lon="9.8888777"></trkpt>
@@ -20997,7 +21344,8 @@ version="1.1" creator="togpx">
       <trkpt lat="55.4633913" lon="11.944844"></trkpt>
       <trkpt lat="55.4639772" lon="11.9446044"></trkpt>
       <trkpt lat="55.4641582" lon="11.9448753"></trkpt>
-      <trkpt lat="55.464292" lon="11.9453742"></trkpt>
+      <trkpt lat="55.4642753" lon="11.9453067"></trkpt>
+      <trkpt lat="55.4643325" lon="11.9453439"></trkpt>
       <trkpt lat="55.4645193" lon="11.9452013"></trkpt>
       <trkpt lat="55.4647755" lon="11.9455673"></trkpt>
       <trkpt lat="55.4647643" lon="11.945816"></trkpt>
@@ -21007,6 +21355,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.4649129" lon="11.9463672"></trkpt>
       <trkpt lat="55.4653009" lon="11.9462111"></trkpt>
       <trkpt lat="55.4655122" lon="11.9459938"></trkpt>
+      <trkpt lat="55.4651872" lon="11.9448026"></trkpt>
       <trkpt lat="55.4649709" lon="11.9440599"></trkpt>
       <trkpt lat="55.4650718" lon="11.9439105"></trkpt>
       <trkpt lat="55.4649645" lon="11.943601"></trkpt>
@@ -22103,17 +22452,6 @@ version="1.1" creator="togpx">
       <trkpt lat="54.7332488" lon="11.8742841"></trkpt>
       <trkpt lat="54.7333741" lon="11.8739461"></trkpt>
       <trkpt lat="54.7332689" lon="11.8737933"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Hulbakken</name>
-    <trkseg>
-      <trkpt lat="56.0502798" lon="9.7468044"></trkpt>
-      <trkpt lat="56.0508196" lon="9.7465246"></trkpt>
-      <trkpt lat="56.0515506" lon="9.7458808"></trkpt>
-      <trkpt lat="56.0511192" lon="9.7444002"></trkpt>
-      <trkpt lat="56.0499329" lon="9.7453444"></trkpt>
-      <trkpt lat="56.0502798" lon="9.7468044"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -25403,16 +25741,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Bavnehøj Fritidshøj</name>
-    <trkseg>
-      <trkpt lat="54.9123401" lon="11.8460931"></trkpt>
-      <trkpt lat="54.9122338" lon="11.8459928"></trkpt>
-      <trkpt lat="54.9121486" lon="11.846266"></trkpt>
-      <trkpt lat="54.9122549" lon="11.8463664"></trkpt>
-      <trkpt lat="54.9123401" lon="11.8460931"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Sortsø Fritidshavn</name>
     <trkseg>
       <trkpt lat="54.9148281" lon="11.9816496"></trkpt>
@@ -26514,12 +26842,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Even Overdrev</name>
     <trkseg>
-      <trkpt lat="55.1452252" lon="12.0132313"></trkpt>
+      <trkpt lat="55.1452248" lon="12.0132199"></trkpt>
       <trkpt lat="55.1451041" lon="12.0131904"></trkpt>
       <trkpt lat="55.1450612" lon="12.013179"></trkpt>
       <trkpt lat="55.1449918" lon="12.0133466"></trkpt>
       <trkpt lat="55.1451334" lon="12.0134989"></trkpt>
-      <trkpt lat="55.1452252" lon="12.0132313"></trkpt>
+      <trkpt lat="55.1452248" lon="12.0132199"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -26849,7 +27177,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/623558613</name>
+    <name>Naturlejrplads Boesdal Kalkbrud</name>
     <trkseg>
       <trkpt lat="55.2576365" lon="12.3946354"></trkpt>
       <trkpt lat="55.2575142" lon="12.3943913"></trkpt>
@@ -27261,7 +27589,13 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="55.3124784" lon="9.4655129"></trkpt>
       <trkpt lat="55.312154" lon="9.4641316"></trkpt>
-      <trkpt lat="55.3119624" lon="9.4651213"></trkpt>
+      <trkpt lat="55.3119853" lon="9.4649899"></trkpt>
+      <trkpt lat="55.3119754" lon="9.4650636"></trkpt>
+      <trkpt lat="55.31197" lon="9.4651233"></trkpt>
+      <trkpt lat="55.3119769" lon="9.4651535"></trkpt>
+      <trkpt lat="55.3119933" lon="9.4651844"></trkpt>
+      <trkpt lat="55.31203" lon="9.4652172"></trkpt>
+      <trkpt lat="55.3121261" lon="9.4652675"></trkpt>
       <trkpt lat="55.3124784" lon="9.4655129"></trkpt>
     </trkseg>
   </trk>
@@ -27850,21 +28184,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Mosskovpavillonen - Shelterplads</name>
-    <trkseg>
-      <trkpt lat="56.8030111" lon="9.8762034"></trkpt>
-      <trkpt lat="56.8029975" lon="9.876027"></trkpt>
-      <trkpt lat="56.802952" lon="9.8759258"></trkpt>
-      <trkpt lat="56.8028998" lon="9.8758976"></trkpt>
-      <trkpt lat="56.8028323" lon="9.8760197"></trkpt>
-      <trkpt lat="56.8028499" lon="9.876249"></trkpt>
-      <trkpt lat="56.802905" lon="9.8763965"></trkpt>
-      <trkpt lat="56.8029586" lon="9.8764059"></trkpt>
-      <trkpt lat="56.8029938" lon="9.8763643"></trkpt>
-      <trkpt lat="56.8030111" lon="9.8762034"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/902801276</name>
     <trkseg>
       <trkpt lat="56.0640418" lon="9.2286665"></trkpt>
@@ -27894,6 +28213,28 @@ version="1.1" creator="togpx">
       <trkpt lat="56.0639601" lon="9.2288029"></trkpt>
       <trkpt lat="56.0640158" lon="9.2287463"></trkpt>
       <trkpt lat="56.0640418" lon="9.2286665"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/912628182</name>
+    <trkseg>
+      <trkpt lat="55.6087247" lon="8.9267505"></trkpt>
+      <trkpt lat="55.6085156" lon="8.926587"></trkpt>
+      <trkpt lat="55.6084694" lon="8.9267906"></trkpt>
+      <trkpt lat="55.6086146" lon="8.9268999"></trkpt>
+      <trkpt lat="55.6086491" lon="8.9270697"></trkpt>
+      <trkpt lat="55.6087247" lon="8.9267505"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Stengelmose/Skovby - Primitive Teltplads</name>
+    <trkseg>
+      <trkpt lat="55.1664584" lon="9.3687543"></trkpt>
+      <trkpt lat="55.1664388" lon="9.3687482"></trkpt>
+      <trkpt lat="55.1664254" lon="9.3688528"></trkpt>
+      <trkpt lat="55.1664254" lon="9.3691465"></trkpt>
+      <trkpt lat="55.1665181" lon="9.369121"></trkpt>
+      <trkpt lat="55.1664584" lon="9.3687543"></trkpt>
     </trkseg>
   </trk>
 </gpx>
