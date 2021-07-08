@@ -1,6 +1,7 @@
 Alimentez vos applications de routage OFFLINE.
 
-# <h1>Une collection de campings et d'emplacements pour camping-cars à télécharger en tant que "Points of Interest" / POIs au format GPX.</h1>
+# Ajustement fin - Transformez votre planificateur d'itinéraire en une application de camping.
+# Une collection de campings et d'emplacements pour camping-cars à télécharger en tant que "Points of Interest" / POIs au format GPX.
 
 * Lisez ceci dans d'autres langues : [Anglais](README.md), [Allemand](README.de.md), [Français](README.fr.md)
 
