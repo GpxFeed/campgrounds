@@ -1,6 +1,6 @@
 Feed your routing applications OFFLINE.
 
-# Tune up - turn your route- / road trip planner into a camping app.
+# Tune up - turn your route- / road trip planner into an offline camping app.
 # A collection of camping sites and camper supplementals for download as "Points of Interest" / POIs in the GPX format
 
 *Read this in other languages: [English](README.md), [German](README.de.md), [French](README.fr.md)
