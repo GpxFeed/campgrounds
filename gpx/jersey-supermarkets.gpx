@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-06-26T17:07:56Z", "timestamp_areas_base":
-      "2021-06-26T15:07:18Z", "copyright": "The data included in
+      "2021-07-23T14:48:20Z", "timestamp_areas_base":
+      "2021-07-23T14:01:42Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -32,7 +32,8 @@ version="1.1" creator="togpx">
     cash_withdrawal:type=checkout; contact:phone=+44 1534 888349;
     max_level=1; min_level=-1; name=Waitrose;
     official_name=Waitrose &amp; Partners; opening_hours=Mo-Sa
-    08:00-21:00, Su 10:00-16:00, PH 09:00-18:00;
+    08:00-21:00 open, easter-Fr Su 10:00-16:00 open, PH 09:00-18:00
+    open, Jan 1,May 9,Dec 25-26 closed;
     opening_hours:url=http://www.waitrose.com/content/waitrose/en/bf_home/bf/336.html;
     shop=supermarket; toilets=yes; toilets:access=customers;
     website=http://www.waitrose.com/content/waitrose/en/bf_home/bf/336.html;
@@ -41,7 +42,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.1863896" lon="-2.1051994">
     <ele>12</ele>
     <name>Co-Op Locale</name>
-    <desc>name=Co-Op Locale; opening_hours=Mo-Sa 07:00-21:00, Su
+    <desc>
+    contact:website=https://www.channelislands.coop/je/food/our-stores/locale-don-street/;
+    name=Co-Op Locale; opening_hours=Mo-Sa 07:00-21:00, Su
     07:00-20:00; shop=supermarket</desc>
   </wpt>
   <wpt lat="49.2329284" lon="-2.2027909">
@@ -105,8 +108,10 @@ version="1.1" creator="togpx">
   <wpt lat="49.188971" lon="-2.0406129">
     <ele>9</ele>
     <name>Co-op Locale Grouville</name>
-    <desc>name=Co-op Locale Grouville; opening_hours=Mo-Su
-    07:30-20:00; shop=supermarket</desc>
+    <desc>
+    contact:website=https://www.channelislands.coop/je/food/our-stores/locale-grouville/;
+    name=Co-op Locale Grouville; opening_hours=Mo-Su 07:30-20:00;
+    shop=supermarket</desc>
   </wpt>
   <wpt lat="49.1767745" lon="-2.0888539">
     <ele>8</ele>
@@ -126,10 +131,12 @@ version="1.1" creator="togpx">
     <ele>85</ele>
     <name>Co-op Grand Marché St Peter</name>
     <desc>addr:city=St Peter; addr:postcode=JE3 7AG;
-    addr:street=Rue de l'Église; building=retail; name=Co-op Grand
-    Marché St Peter; opening_hours=Mo-Sa 08:00-21:00, Su off;
-    operator=Channel Islands Co-operative Society;
-    phone=01534879822; shop=supermarket</desc>
+    addr:street=Rue de l'Église; building=retail; contact:phone=+44
+    1534 879822;
+    contact:website=https://www.channelislands.coop/je/food/our-stores/grand-march%C3%A9-st-peter/;
+    name=Co-op Grand Marché St Peter; opening_hours=Mo-Sa
+    08:00-21:00, Su off; operator=Channel Islands Co-operative
+    Society; shop=supermarket</desc>
   </wpt>
   <wpt lat="49.197976" lon="-2.096256752843689">
     <ele>25</ele>
@@ -150,28 +157,64 @@ version="1.1" creator="togpx">
     <desc>addr:city=Saint Helier; addr:country=JE;
     addr:parish=Saint Helier; addr:postcode=JE2 4YE; addr:street=La
     Rue le Masurier; atm=yes; brand=Co-Op; building=retail;
-    check_date=2021-06-11; level=0; name=Grande Marché;
-    name:fr=Grande Marché; opening_hours=Mo-Sa 07:30-21:00;
-    operator=Channel Islands Co-Operative Society;
-    shop=supermarket; short_name=Co-Op; surveillance=indoor;
-    surveillance:type=camera; surveillance:zone=building, shop,
-    parking; survey:date=2021-06-11; wheelchair=yes</desc>
-  </wpt>
-  <wpt lat="49.1917508" lon="-2.101933645821629">
-    <ele>15</ele>
-    <name>CoOp Locale</name>
-    <desc>name=CoOp Locale; opening_hours=Mo-Su 07:30-20:00;
-    shop=supermarket; wheelchair=yes</desc>
+    check_date=2021-06-11;
+    contact:website=https://www.channelislands.coop/je/food/our-stores/grand-march%C3%A9-st-helier/;
+    level=0; name=Grande Marché; name:fr=Grande Marché;
+    opening_hours=Mo-Sa 07:30-21:00; operator=Channel Islands
+    Co-Operative Society; shop=supermarket; short_name=Co-Op;
+    surveillance=indoor; surveillance:type=camera;
+    surveillance:zone=building, shop, parking;
+    survey:date=2021-06-11; wheelchair=yes</desc>
   </wpt>
   <wpt lat="49.195630300000005" lon="-2.102215665922677">
     <ele>20</ele>
     <name>Waitrose</name>
-    <desc>addr:housename=Waitrose; brand=Waitrose;
-    brand:wikidata=Q771734; brand:wikipedia=en:Waitrose &amp;
-    Partners; building=supermarket; building:levels=2;
+    <desc>addr:city=Saint Helier; addr:country=JE;
+    addr:housename=Waitrose; addr:parish=Saint Helier;
+    addr:postcode=JE2 3GA; addr:street=Vallee des Vaux; branch=St
+    Helier; brand=Waitrose; brand:wikidata=Q771734;
+    brand:wikipedia=en:Waitrose &amp; Partners;
+    building=supermarket; building:levels=2; cash_withdrawal=yes;
+    cash_withdrawal:fee=no; cash_withdrawal:foreign_cards=yes;
+    cash_withdrawal:limit=50; cash_withdrawal:purchase_minimum=no;
+    cash_withdrawal:purchase_required=yes;
+    cash_withdrawal:type=checkout; check_date=2021-06-27;
+    contact:phone=+44 1534 888201;
+    description:cash_withdrawal:foreign_cards=Staff said that as
+    long as they're ‘Chip &amp; PIN’ they'll be accepted.;
+    diet:dairy_free=yes; diet:fruitarian=yes; diet:gluten_free=yes;
+    diet:halal=no; diet:kosher=yes; diet:lacto_vegetarian=yes;
+    diet:lactose_free=yes; diet:ovo_vegetarian=yes;
+    diet:pescetarian=yes; diet:raw=yes; diet:vegan=yes;
+    diet:vegetarian=yes; dog=no; internet_access=wlan;
+    internet_access:description=Access requires registration
+    beforehand. Network conducts surveillance.;
+    internet_access:fee=no; internet_access:operator=O2;
+    internet_access:ssid=O2 Wifi; kids_area=no; level=0;
     name=Waitrose; official_name=Waitrose &amp; Partners;
-    opening_hours=Mo-Sa 08:00-21:00; organic=yes; roof:levels=1;
-    shop=supermarket; toilets=yes; toilets:access=customers</desc>
+    opening_hours=Mo-Sa 08:00-21:00 open, easter-Fr Su 10:00-16:00
+    open, PH 09:00-18:00 open, Jan 1,May 9,Dec 25-26 closed;
+    opening_hours:signed=yes;
+    opening_hours:url=http://www.waitrose.com/content/waitrose/en/bf_home/bf/334.html;
+    organic=yes; payment:american_express=yes;
+    payment:apple_pay=yes; payment:cash=yes;
+    payment:contactless=yes; payment:credit_cards=yes;
+    payment:cryptocurrencies=no; payment:debit_cards=yes;
+    payment:electronic_purses=no; payment:google_pay=yes;
+    payment:jcb=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:samsung_pay=yes; payment:visa=yes;
+    payment:visa_debit=yes; payment:visa_electron=yes; ref=334;
+    roof:levels=1; self_checkout=yes; shop=supermarket;
+    smoking=outside; source:brand=survey;
+    source:internet_access=survey; source:level=survey;
+    source:organic=survey; source:ref=survey;
+    source:self_checkout=survey; source:shop=survey;
+    source:surveillance=survey; surveillance:type=camera, wlan;
+    toilets=yes; toilets:access=customers;
+    website=http://www.waitrose.com/content/waitrose/en/bf_home/bf/334.html;
+    wheelchair=yes; wheelchair:description=Flat &amp; smooth floor
+    throughout, wide doorway &amp; aisles, all on ground floor.
+    Ramp from road into carpark.</desc>
   </wpt>
   <wpt lat="49.1693198" lon="-2.08349852252251">
     <ele>8</ele>
@@ -184,9 +227,10 @@ version="1.1" creator="togpx">
     <ele>12</ele>
     <name>Co-operative Locale</name>
     <desc>addr:city=Parish of St Clement; addr:street=Grande Route
-    de la Cote; building=retail; name=Co-operative Locale;
-    operator=Channel Islands Co-operative Society;
-    shop=supermarket; wheelchair=yes</desc>
+    de la Cote; building=retail;
+    contact:website=https://www.channelislands.coop/je/food/our-stores/locale-pontac/;
+    name=Co-operative Locale; operator=Channel Islands Co-operative
+    Society; shop=supermarket; wheelchair=yes</desc>
   </wpt>
   <wpt lat="49.23938655" lon="-2.111717388887153">
     <ele>129</ele>
@@ -196,9 +240,11 @@ version="1.1" creator="togpx">
   <wpt lat="49.1974345" lon="-2.1592429827503636">
     <ele>8</ele>
     <name>Co-operative Locale</name>
-    <desc>landuse=retail; name=Co-operative Locale;
-    operator=Channel Islands Co-operative Society;
-    shop=supermarket; wheelchair=yes</desc>
+    <desc>
+    contact:website=https://www.channelislands.coop/je/food/our-stores/locale-beaumont/;
+    landuse=retail; name=Co-operative Locale; operator=Channel
+    Islands Co-operative Society; shop=supermarket;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="49.179687400000006" lon="-2.084713622298262">
     <ele>9</ele>
@@ -208,13 +254,13 @@ version="1.1" creator="togpx">
     branch=St Saviour; brand=Waitrose; brand:wikidata=Q771734;
     brand:wikipedia=en:Waitrose &amp; Partners;
     building=supermarket; building:colour=brown;
-    cash_withdrawal=yes; cash_withdrawal:fee=purchase_required;
+    cash_withdrawal=yes; cash_withdrawal:fee=no;
     cash_withdrawal:foreign_cards=yes; cash_withdrawal:limit=50;
     cash_withdrawal:purchase_minimum=no;
     cash_withdrawal:purchase_required=yes;
     cash_withdrawal:type=checkout; changing_table=yes;
     changing_table:count=1; changing_table:fee=no;
-    changing_table:location=dedicated_room; check_date=2021-06-23;
+    changing_table:location=dedicated_room; check_date=2021-06-27;
     contact:phone=+44 1534 280168;
     description:cash_withdrawal:foreign_cards=Staff said that as
     long as they're ‘Chip &amp; PIN’ they'll be accepted.;
@@ -229,7 +275,7 @@ version="1.1" creator="togpx">
     internet_access:ssid=O2 Wifi; kids_area=no; level=0;
     name=Waitrose; official_name=Waitrose &amp; Partners;
     opening_hours=Mo-Sa 08:00-21:00 open, easter-Fr Su 10:00-16:00
-    open, PH 09:00-18:00 open, Dec 25-Dec 26,Jan 1,May 9 closed;
+    open, PH 09:00-18:00 open, Jan 1,May 9,Dec 25-26 closed;
     opening_hours:signed=yes;
     opening_hours:url=http://www.waitrose.com/content/waitrose/en/bf_home/bf/332.html;
     organic=yes; payment:american_express=yes;
@@ -240,15 +286,17 @@ version="1.1" creator="togpx">
     payment:jcb=yes; payment:maestro=yes; payment:mastercard=yes;
     payment:samsung_pay=yes; payment:visa=yes;
     payment:visa_debit=yes; payment:visa_electron=yes; ramp=yes;
-    roof:colour=white; roof:material=metal; shop=supermarket;
-    smoking=outside; source:area=Maxar Premium Imagery (Beta);
-    source:atm=survey; source:branch=survey; source:brand=survey;
+    ref=332; roof:colour=white; roof:material=metal;
+    self_checkout=yes; shop=supermarket; smoking=outside;
+    source:area=Maxar Premium Imagery (Beta); source:atm=survey;
+    source:branch=survey; source:brand=survey;
     source:cash_withdrawal=survey; source:changing_table=survey;
     source:contact=survey; source:diet=survey; source:dog=survey;
     source:internet_access=survey; source:kids_area=survey;
     source:level=survey; source:opening_hours=survey;
     source:organic=survey; source:payment=survey;
-    source:ramp=survey; source:shop=survey; source:smoking=survey;
+    source:ramp=survey; source:self_checkout=survey;
+    source:shop=survey; source:smoking=survey;
     source:surveillance=survey; source:toilets=survey;
     source:wheelchair=survey; surveillance=indoor, outdoor;
     surveillance:type=camera, wlan; surveillance:zone=shop,
@@ -302,19 +350,6 @@ version="1.1" creator="togpx">
       <trkpt lat="49.1887713" lon="-2.0984679"></trkpt>
       <trkpt lat="49.1888824" lon="-2.0985043"></trkpt>
       <trkpt lat="49.1887506" lon="-2.0994465"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>CoOp Locale</name>
-    <trkseg>
-      <trkpt lat="49.1918818" lon="-2.1021625"></trkpt>
-      <trkpt lat="49.1917871" lon="-2.1022216"></trkpt>
-      <trkpt lat="49.1916111" lon="-2.1016626"></trkpt>
-      <trkpt lat="49.1917043" lon="-2.1016322"></trkpt>
-      <trkpt lat="49.1917145" lon="-2.1016442"></trkpt>
-      <trkpt lat="49.1917946" lon="-2.1019019"></trkpt>
-      <trkpt lat="49.191822" lon="-2.1019837"></trkpt>
-      <trkpt lat="49.1918818" lon="-2.1021625"></trkpt>
     </trkseg>
   </trk>
   <trk>
