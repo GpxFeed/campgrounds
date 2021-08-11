@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-07-23T17:37:29Z", "timestamp_areas_base":
-      "2021-07-23T16:20:36Z", "copyright": "The data included in
+      "2021-08-10T16:09:42Z", "timestamp_areas_base":
+      "2021-08-10T14:56:18Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -486,8 +486,10 @@ version="1.1" creator="togpx">
   <wpt lat="41.8444431" lon="23.4835987">
     <ele>907</ele>
     <name>Петрол</name>
-    <desc>amenity=fuel; name=Петрол; name:en=Petrol;
-    operator=Петрол АД; wheelchair=limited</desc>
+    <desc>amenity=fuel; brand=Петрол; brand:en=Petrol AD;
+    brand:wikidata=Q24315; brand:wikipedia=en:Petrol AD;
+    name=Петрол; name:en=Petrol; operator=Петрол АД;
+    wheelchair=limited</desc>
   </wpt>
   <wpt lat="42.000082" lon="24.0868898">
     <ele>780</ele>
@@ -1320,13 +1322,6 @@ version="1.1" creator="togpx">
     <name>Vik 2000</name>
     <desc>amenity=fuel; name=Vik 2000</desc>
   </wpt>
-  <wpt lat="42.1344612" lon="25.0665413">
-    <ele>145</ele>
-    <name>OMV</name>
-    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; name=OMV; opening_hours=24/7;
-    operator=OMV; phone=+359(2)93298127</desc>
-  </wpt>
   <wpt lat="42.0489732" lon="25.350874">
     <ele>132</ele>
     <name>node/578045252</name>
@@ -1887,7 +1882,8 @@ version="1.1" creator="togpx">
   <wpt lat="41.851198" lon="23.4810657">
     <ele>883</ele>
     <name>Газпром</name>
-    <desc>amenity=fuel; brand=OMV; name=Газпром; name:en=Gazprom;
+    <desc>amenity=fuel; brand=Gazprom; brand:wikidata=Q102673;
+    brand:wikipedia=en:Gazprom; name=Газпром; name:en=Gazprom;
     operator=Газпром</desc>
   </wpt>
   <wpt lat="42.2844756" lon="23.124651">
@@ -3556,8 +3552,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="43.8537394" lon="26.0012418">
     <ele>52</ele>
-    <name>Perfekt</name>
-    <desc>amenity=fuel; name=Perfekt; operator=Perfekt</desc>
+    <name>Петрол</name>
+    <desc>amenity=fuel; name=Петрол; name:en=Petrol;
+    operator=Perfekt</desc>
   </wpt>
   <wpt lat="43.114903" lon="23.6956144">
     <ele>223</ele>
@@ -6234,7 +6231,18 @@ version="1.1" creator="togpx">
   <wpt lat="42.4476091" lon="25.5278392">
     <ele>356</ele>
     <name>node/8935820465</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:gasoline=yes</desc>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:gasoline=yes;
+    self_service=no; working=06.00 до 22.00</desc>
+  </wpt>
+  <wpt lat="43.4219219" lon="28.2597824">
+    <ele>156</ele>
+    <name>Rompetrol</name>
+    <desc>amenity=fuel; brand=Rompetrol; name=Rompetrol</desc>
+  </wpt>
+  <wpt lat="42.6060051" lon="23.036292">
+    <ele>702</ele>
+    <name>Перник</name>
+    <desc>addr:city=Перник; addr:postcode=2306; amenity=fuel</desc>
   </wpt>
   <wpt lat="42.1899125" lon="25.33364153215271">
     <ele>185</ele>
@@ -6281,11 +6289,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="43.85383255" lon="25.96390096414597">
     <ele>45</ele>
-    <name>Lukoil - Pliska</name>
-    <desc>amenity=fuel; brand=Lukoil; building=yes;
-    building:levels=1; layer=1; name=Lukoil - Pliska;
-    roof:colour=maroon; roof:height=3; roof:material=roof_tiles;
-    roof:shape=hipped; wheelchair=yes</desc>
+    <name>Лукойл</name>
+    <desc>addr:street=Плиска; amenity=fuel; brand=Lukoil;
+    building=yes; building:levels=1; layer=1; name=Лукойл;
+    name:en=Lukoil; roof:colour=maroon; roof:height=3;
+    roof:material=roof_tiles; roof:shape=hipped;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="42.71824175" lon="23.254274806152992">
     <ele>577</ele>
@@ -7427,7 +7436,7 @@ version="1.1" creator="togpx">
   <wpt lat="43.83424905" lon="25.96830504616455">
     <ele>76</ele>
     <name>way/242050822</name>
-    <desc>amenity=fuel; brand=Lukoil; building=3m;
+    <desc>amenity=fuel; brand=Lukoil; building=yes;
     fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes</desc>
   </wpt>
@@ -7564,8 +7573,8 @@ version="1.1" creator="togpx">
     <name>Gazprom</name>
     <desc>amenity=fuel; brand=Gazprom; building=yes;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; layer=1; name=Gazprom; operator=Gazprom;
-    shop=yes</desc>
+    fuel:octane_95=yes; layer=1; name=Gazprom; name:bg=Газпром;
+    operator=Gazprom; shop=yes</desc>
   </wpt>
   <wpt lat="43.59766365" lon="26.25100315">
     <ele>217</ele>
@@ -8370,6 +8379,12 @@ version="1.1" creator="togpx">
     <name>way/382897888</name>
     <desc>amenity=fuel; building=yes</desc>
   </wpt>
+  <wpt lat="43.27788975" lon="26.909717399999998">
+    <ele>270</ele>
+    <name>Lukoil</name>
+    <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
+    brand:wikipedia=en:Lukoil; name=Lukoil</desc>
+  </wpt>
   <wpt lat="42.1525884" lon="24.6927004">
     <ele>165</ele>
     <name>Лукойл</name>
@@ -8660,12 +8675,14 @@ version="1.1" creator="togpx">
   <wpt lat="41.844723450000004" lon="23.484321204491973">
     <ele>905</ele>
     <name>Лукойл</name>
-    <desc>amenity=fuel; brand=Lukoil; fuel:HGV_diesel=yes;
+    <desc>amenity=fuel; brand=Лукойл; brand:en=Lukoil;
+    brand:ru=Лукойл; brand:wikidata=Q329347;
+    brand:wikipedia=ru:Лукойл; fuel:HGV_diesel=yes;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Лукойл; name:en=Lukoil;
-    operator=Лукойл България ЕООД; payment:coins=yes;
-    payment:mastercard=yes; payment:notes=yes; payment:visa=yes;
-    shop=convenience; wheelchair=limited</desc>
+    name:ru=Лукойл; operator=Лукойл България ЕООД;
+    payment:coins=yes; payment:mastercard=yes; payment:notes=yes;
+    payment:visa=yes; shop=convenience; wheelchair=limited</desc>
   </wpt>
   <wpt lat="42.7383662" lon="23.289084880706987">
     <ele>533</ele>
@@ -9231,12 +9248,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="42.6616834" lon="23.377314235536872">
     <ele>575</ele>
-    <name>ОМВ</name>
+    <name>OMV</name>
     <desc>addr:street=бул. Цариградско шосе; amenity=fuel;
-    brand=ОМВ; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=roof; int_name=OMV; name=ОМВ; name:en=OMV;
-    opening_hours=24/7; operator=ОМВ България ООД;
-    phone=+359(2)93298107; wheelchair=yes</desc>
+    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
+    building=roof; int_name=OMV; name=OMV; name:en=OMV;
+    opening_hours=24/7; operator=ОМВ България ООД; phone=+359
+    293298107; wheelchair=yes</desc>
   </wpt>
   <wpt lat="42.711765650000004" lon="23.26876769386945">
     <ele>573</ele>
@@ -9849,6 +9866,13 @@ version="1.1" creator="togpx">
     <name>way/947308419</name>
     <desc>amenity=fuel</desc>
   </wpt>
+  <wpt lat="42.134473650000004" lon="25.06676935858593">
+    <ele>143</ele>
+    <name>OMV</name>
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    brand:wikipedia=en:OMV; building=yes; name=OMV;
+    opening_hours=24/7; operator=OMV; phone=+359(2)93298127</desc>
+  </wpt>
   <trk>
     <name>Бензиностанция</name>
     <trkseg>
@@ -9990,7 +10014,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Lukoil - Pliska</name>
+    <name>Лукойл</name>
     <trkseg>
       <trkpt lat="43.8538459" lon="25.9637148"></trkpt>
       <trkpt lat="43.853722" lon="25.963775"></trkpt>
@@ -14461,6 +14485,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Lukoil</name>
+    <trkseg>
+      <trkpt lat="43.2779383" lon="26.9097056"></trkpt>
+      <trkpt lat="43.2778879" lon="26.9096497"></trkpt>
+      <trkpt lat="43.2778412" lon="26.9097292"></trkpt>
+      <trkpt lat="43.2778916" lon="26.9097851"></trkpt>
+      <trkpt lat="43.2779383" lon="26.9097056"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Лукойл</name>
     <trkseg>
       <trkpt lat="42.1526767" lon="24.6926164"></trkpt>
@@ -16211,7 +16245,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ОМВ</name>
+    <name>OMV</name>
     <trkseg>
       <trkpt lat="42.6614974" lon="23.3774276"></trkpt>
       <trkpt lat="42.6616077" lon="23.3775716"></trkpt>
@@ -17326,6 +17360,17 @@ version="1.1" creator="togpx">
       <trkpt lat="43.3394854" lon="27.1886194"></trkpt>
       <trkpt lat="43.3395298" lon="27.1886559"></trkpt>
       <trkpt lat="43.3396348" lon="27.1884466"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV</name>
+    <trkseg>
+      <trkpt lat="42.1345698" lon="25.0667395"></trkpt>
+      <trkpt lat="42.1345505" lon="25.0667252"></trkpt>
+      <trkpt lat="42.1344373" lon="25.0666415"></trkpt>
+      <trkpt lat="42.1343774" lon="25.0667971"></trkpt>
+      <trkpt lat="42.13451" lon="25.066898"></trkpt>
+      <trkpt lat="42.1345698" lon="25.0667395"></trkpt>
     </trkseg>
   </trk>
 </gpx>
