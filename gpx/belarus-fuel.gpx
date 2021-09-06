@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-08-10T10:03:12Z", "timestamp_areas_base":
-      "2021-08-10T08:27:29Z", "copyright": "The data included in
+      "2021-09-05T23:08:52Z", "timestamp_areas_base":
+      "2021-09-05T23:02:40Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -128,7 +128,7 @@ version="1.1" creator="togpx">
     contact:email=dispetcher@lukoil.by; contact:phone=+375 17
     2019916;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=6052;
-    fuel:diesel=yes; fuel:gtl_diesel=yes; fuel:lpg=yes;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_92=yes; fuel:octane_98=yes; name=Лукойл № 65;
     opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
     Белоруссия"; payment:cash=yes; payment:e100=yes;
@@ -856,7 +856,7 @@ version="1.1" creator="togpx">
   <wpt lat="54.0125955" lon="28.1838215">
     <ele>184</ele>
     <name>Лукойл № 87</name>
-    <desc>amenity=fuel; brand=Лукойл; contact:phone=++375177666508;
+    <desc>amenity=fuel; brand=Лукойл; contact:phone=+375177666508;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=5009406;
     fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     name=Лукойл № 87; opening_hours=Mo-Su 00:10-23:40;
@@ -2705,16 +2705,6 @@ version="1.1" creator="togpx">
     №17; opening_hours=24/7; operator=РУП
     "Белоруснефть-Минскоблнефтепродукт"; ref=17</desc>
   </wpt>
-  <wpt lat="53.0953956" lon="25.2420157">
-    <ele>162</ele>
-    <name>Белоруснефть №29</name>
-    <desc>amenity=fuel; brand=Белоруснефть; fixme=Возможно заправка
-    закрыта или на реконструкции: ее нет на сайте Белоруснефти;
-    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Белоруснефть №29; opening_hours=7:00-21:00;
-    operator=Белоруснефть; phone=+375-1562-91639;
-    website=https://www.belorusneft.by/</desc>
-  </wpt>
   <wpt lat="54.1936331" lon="27.8340736">
     <ele>223</ele>
     <name>Лукойл № 74</name>
@@ -2745,10 +2735,12 @@ version="1.1" creator="togpx">
     "Белоруснефть-Гроднооблнефтепродукт"; ref=АЗС 26;
     vacuum_cleaner=yes</desc>
   </wpt>
-  <wpt lat="53.2797896" lon="29.4897604">
+  <wpt lat="53.2796536" lon="29.4895587">
     <ele>159</ele>
     <name>Белоруснефть №32</name>
-    <desc>amenity=fuel; contact:phone=+375 2237 78139;
+    <desc>amenity=fuel; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
+    contact:phone=+375 2237 78139;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=$guid;
     fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     guid:belorusneft=B89F84F7E3E74F70E043BF0BA8C03722;
@@ -3169,8 +3161,8 @@ version="1.1" creator="togpx">
     operator=ИООО "ЛУКОЙЛ Белоруссия"; payment:credit_cards=yes;
     payment:debit_cards=yes; ref=40; vacuum_cleaner=yes</desc>
   </wpt>
-  <wpt lat="52.1811725" lon="29.8657145">
-    <ele>135</ele>
+  <wpt lat="52.1812942" lon="29.8659559">
+    <ele>136</ele>
     <name>Белоруснефть №68</name>
     <desc>addr:housenumber=1; addr:street=Юбилейная улица;
     amenity=fuel; fuel:diesel=yes; fuel:octane_92=yes;
@@ -3333,15 +3325,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.548834" lon="25.0604755">
     <ele>159</ele>
-    <name>Белоруснефть №45</name>
-    <desc>amenity=fuel; brand=Белоруснефть; compressed_air=yes;
-    contact:phone=+375 1643 55271;
+    <name>Белоруснефть № 45</name>
+    <desc>amenity=fuel; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
+    compressed_air=yes; contact:phone=+375 1643 55271;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=B89F84F7E2B74F70E043BF0BA8C03722;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_92=yes;
     fuel:octane_95=yes;
     guid:belorusneft=B89F84F7E2B74F70E043BF0BA8C03722;
     internet_access=wlan; internet_access:fee=no; name=Белоруснефть
-    №45; opening_hours=24/7; operator=РУП
+    № 45; opening_hours=24/7; operator=РУП
     "Белоруснефть-Брестоблнефтепродукт"; ref=АЗС 45;
     self_service=yes; shop=convenience; vacuum_cleaner=yes</desc>
   </wpt>
@@ -3668,12 +3661,14 @@ version="1.1" creator="togpx">
     08:00-17:00; operator=Белтрансгаз; phone=+375-214-423134,
     +375-214-483764; website=https://www.metan.by/</desc>
   </wpt>
-  <wpt lat="53.8568331" lon="30.2535871">
+  <wpt lat="53.8572297" lon="30.2539304">
     <ele>171</ele>
     <name>Белоруснефть № 4</name>
-    <desc>amenity=fuel; compressed_air=yes; contact:phone=+375(222)
-    45-73-89; contact:website=http://www.belorusneft.by;
-    fuel:lpg=yes; name=Белоруснефть № 4; name:ru=Белоруснефть № 4;
+    <desc>amenity=fuel; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
+    compressed_air=yes; contact:phone=+375(222) 45-73-89;
+    contact:website=http://www.belorusneft.by; fuel:lpg=yes;
+    name=Белоруснефть № 4; name:ru=Белоруснефть № 4;
     official_name=МАЗС № 4; opening_hours=Mo-Su 07:00-23:00;
     operator=ПО «Белоруснефть»; payment:credit_cards=yes;
     payment:debit_cards=yes; ref=4; vacuum_cleaner=yes</desc>
@@ -4453,11 +4448,12 @@ version="1.1" creator="togpx">
   <wpt lat="53.5638558" lon="27.4712536">
     <ele>196</ele>
     <name>Белоруснефть №73</name>
-    <desc>amenity=fuel; brand=Белоруснефть; contact:phone=+375 1718
-    35184;
+    <desc>amenity=fuel; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
+    construction=yes; contact:phone=+375 1718 35184;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=B89F84F7E3AD4F70E043BF0BA8C03722;
-    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_92=yes;
-    fuel:octane_95=yes;
+    disused:amenity=fuel; fuel:adblue:canister=yes;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     guid:belorusneft=B89F84F7E3AD4F70E043BF0BA8C03722;
     internet_access=wlan; internet_access:fee=no; name=Белоруснефть
     №73; opening_hours=24/7; operator=РУП
@@ -6214,7 +6210,8 @@ version="1.1" creator="togpx">
     <ele>136</ele>
     <name>Белоруснефть №79</name>
     <desc>addr:housenumber=140; addr:street=Брестская улица;
-    amenity=fuel; brand=Белоруснефть; compressed_air=yes;
+    amenity=fuel; brand=Белоруснефть; brand:wikidata=Q4082693;
+    brand:wikipedia=ru:Белоруснефть; compressed_air=yes;
     contact:phone=+375 16 5647465;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=B89F84F7E4314F70E043BF0BA8C03722;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_92=yes;
@@ -6586,7 +6583,7 @@ version="1.1" creator="togpx">
     "Белоруснефть-Могилевоблнефтепродукт"; ref=МАЗС 69;
     self_service=yes; shop=convenience; vacuum_cleaner=yes</desc>
   </wpt>
-  <wpt lat="54.4913837" lon="26.3655477">
+  <wpt lat="54.4913757" lon="26.3655772">
     <ele>161</ele>
     <name>https://www.lukoil.by/</name>
     <desc>amenity=fuel; contact:email=dispetcher@lukoil.by;
@@ -7236,7 +7233,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Лукойл; brand:wikidata=Q329347;
     brand:wikipedia=ru:Лукойл; contact:phone=+375 1593 78314;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=85206;
-    fuel:diesel=yes; fuel:gtl_diesel=yes; fuel:octane_92=yes;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_92=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Лукойл № 85;
     opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
     Белоруссия"; ref=85</desc>
@@ -7300,8 +7297,9 @@ version="1.1" creator="togpx">
     <ele>139</ele>
     <name>Газпромнефть №23</name>
     <desc>addr:housenumber=1; addr:street=улица Боровика;
-    amenity=fuel; brand=Газпромнефть; contact:phone=+375 17
-    2390609; contact:website=https://gpnbonus.by/; fuel:diesel=yes;
+    amenity=fuel; brand=Газпромнефть; brand:wikidata=Q1461799;
+    brand:wikipedia=en:Gazprom Neft; contact:phone=+375 17 2390609;
+    contact:website=https://gpnbonus.by/; fuel:diesel=yes;
     fuel:octane_92=yes; fuel:octane_95=yes; name=Газпромнефть №23;
     opening_hours=24/7; operator=ИООО "Газпромнефть –
     Белнефтепродукт"; ref=23</desc>
@@ -7830,7 +7828,9 @@ version="1.1" creator="togpx">
   <wpt lat="53.5641359" lon="27.4716759">
     <ele>196</ele>
     <name>Белоруснефть №73</name>
-    <desc>addr:postcode=223418; amenity=fuel; fuel:lpg=yes;
+    <desc>addr:postcode=223418; amenity=fuel; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
+    construction=yes; disused:amenity=fuel; fuel:lpg=yes;
     name=Белоруснефть №73; opening_hours=Mo-Su 07:00-23:00;
     operator=Белоруснефть; phone=+375(1718)3-51-84;
     website=https://www.belorusneft.by/</desc>
@@ -8435,8 +8435,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.8148666" lon="27.6704142">
     <ele>129</ele>
     <name>АЗС №1</name>
-    <desc>amenity=fuel; brand=БелНефтеГрупп; fuel:diesel=yes;
-    fuel:hgv_diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    <desc>amenity=fuel; brand=БелНефтеГрупп; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     name=АЗС №1; operator=ООО "БелНефтеГрупп"</desc>
   </wpt>
   <wpt lat="55.3536474" lon="27.4856351">
@@ -8941,16 +8941,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Орокс; fuel:diesel=yes;
     opening_hours=24/7; shop=yes</desc>
   </wpt>
-  <wpt lat="53.8962302" lon="27.5977374">
-    <ele>195</ele>
-    <name>Славнефть АЗС 73</name>
-    <desc>addr:city=Минск; addr:housenumber=9;
-    addr:postcode=220037; addr:street=переулок Козлова;
-    amenity=fuel; brand=Славнефть; fuel:diesel=yes;
-    fuel:octane_92=yes; fuel:octane_95=yes; name=Славнефть АЗС 73;
-    opening_hours=24/7; operator=РН-Запад; shop=kiosk;
-    wheelchair=limited</desc>
-  </wpt>
   <wpt lat="52.8533845" lon="27.2067672">
     <ele>166</ele>
     <name>Белоруснефть № 43</name>
@@ -9273,7 +9263,8 @@ version="1.1" creator="togpx">
   <wpt lat="53.7270307" lon="30.2554296">
     <ele>154</ele>
     <name>Склад ГСМ</name>
-    <desc>amenity=fuel; name=Склад ГСМ</desc>
+    <desc>amenity=fuel; name=Склад ГСМ;
+    opening_hours:signed=no</desc>
   </wpt>
   <wpt lat="52.1209391" lon="23.8269551">
     <ele>134</ele>
@@ -9319,8 +9310,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.8165733" lon="27.6722905">
     <ele>127</ele>
     <name>ООО "БелНефтеГрупп"</name>
-    <desc>amenity=fuel; brand=БелНефтеГрупп; fuel:diesel=yes;
-    fuel:hgv_diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    <desc>amenity=fuel; brand=БелНефтеГрупп; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     operator=ООО "БелНефтеГрупп"</desc>
   </wpt>
   <wpt lat="51.953017" lon="24.5866478">
@@ -9386,13 +9377,6 @@ version="1.1" creator="togpx">
     maxheight=4.7; name=АЗС №18; opening_hours=24/7; operator=ОАО
     "Лиданефтепродукт"; ref=АЗС 18; self_service=yes;
     shop=convenience</desc>
-  </wpt>
-  <wpt lat="53.9224526" lon="27.1764113">
-    <ele>298</ele>
-    <name>Роснефть АЗС 3</name>
-    <desc>amenity=fuel; brand=Роснефть; fuel:diesel=yes;
-    fuel:octane_92=yes; fuel:octane_95=yes; name=Роснефть АЗС 3;
-    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.4319257" lon="30.9698441">
     <ele>150</ele>
@@ -9649,8 +9633,8 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Белоруснефть; compressed_air=yes;
     contact:phone=+375 1591 20531;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=B89F84F7E36C4F70E043BF0BA8C03722;
-    fuel:adblue=yes; fuel:adblue:canister=yes; fuel:diesel=yes;
-    fuel:hgv_diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    fuel:HGV_diesel=yes; fuel:adblue=yes; fuel:adblue:canister=yes;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     fuel:octane_98=yes;
     guid:belorusneft=B89F84F7E36C4F70E043BF0BA8C03722;
     kids_area=yes; landuse=commercial; name=Белоруснефть № 40;
@@ -9818,13 +9802,6 @@ version="1.1" creator="togpx">
     name=Татнефть №1; name:ru=Татнефть №1; opening_hours=24/7;
     operator=ИООО "Татбелнефтепродукт"; ref=1;
     vacuum_cleaner=yes</desc>
-  </wpt>
-  <wpt lat="54.1705974" lon="27.211899">
-    <ele>195</ele>
-    <name>Роснефть АЗС 8</name>
-    <desc>amenity=fuel; brand=Роснефть; fuel:diesel=yes;
-    fuel:octane_92=yes; fuel:octane_95=yes; layer=1; name=Роснефть
-    АЗС 8; opening_hours=24/7; operator=РН-Запад; ref=66</desc>
   </wpt>
   <wpt lat="53.8490795" lon="27.4361139">
     <ele>229</ele>
@@ -10892,17 +10869,19 @@ version="1.1" creator="togpx">
     addr:street=Тростенецкая улица; amenity=fuel;
     building=yes</desc>
   </wpt>
-  <wpt lat="53.933070099999995" lon="27.555078700000003">
+  <wpt lat="53.9330545" lon="27.5550362">
     <ele>202</ele>
     <name>Лукойл № 68</name>
     <desc>addr:housenumber=38; addr:street=Орловская улица;
-    amenity=fuel; brand=Лукойл; building=yes; contact:phone=+375 17
-    3348366;
+    amenity=fuel; brand=Лукойл; brand:en=Lukoil; brand:ru=Лукойл;
+    brand:wikidata=Q329347; brand:wikipedia=ru:Лукойл;
+    building=yes; building:levels=2; contact:phone=+375 17 3348366;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=6021;
     fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_92=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Лукойл № 68;
-    opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
-    Белоруссия"; ref=68; shop=yes; vacuum_cleaner=yes</desc>
+    name:en=Lukoil; name:ru=Лукойл; opening_hours=Mo-Su
+    00:10-23:40; operator=ИООО "ЛУКОЙЛ Белоруссия"; ref=68;
+    vacuum_cleaner=yes</desc>
   </wpt>
   <wpt lat="53.874266000000006" lon="27.555969750000003">
     <ele>211</ele>
@@ -10938,8 +10917,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Минск; addr:housenumber=20;
     addr:street=проспект Жукова; amenity=fuel; brand=Славнефть;
     fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    layer=1; name=Славнефть АЗС 7; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    fuel:octane_98=yes; layer=1; name=Славнефть АЗС 7;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.89460135" lon="27.49935168448967">
     <ele>234</ele>
@@ -11071,9 +11050,11 @@ version="1.1" creator="togpx">
   <wpt lat="53.7991095" lon="27.762975035185086">
     <ele>198</ele>
     <name>Роснефть АЗС 11</name>
-    <desc>amenity=fuel; brand=Роснефть; building=yes;
-    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Роснефть АЗС 11; opening_hours=24/7;
+    <desc>amenity=fuel; brand=Роснефть; brand:en=Rosneft;
+    brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building=yes; fuel:diesel=yes;
+    fuel:octane_92=yes; fuel:octane_95=yes; name=Роснефть АЗС 11;
+    name:en=Rosneft; name:ru=Роснефть; opening_hours=24/7;
     operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.85271615" lon="27.427067706818008">
@@ -11116,9 +11097,11 @@ version="1.1" creator="togpx">
     <name>Роснефть АЗС 5</name>
     <desc>addr:city=Бобруйск; addr:housenumber=36;
     addr:street=улица Гагарина; amenity=fuel; brand=Роснефть;
-    building:levels=1; fuel:diesel=yes; fuel:octane_92=yes;
-    fuel:octane_95=yes; name=Роснефть АЗС 5; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    brand:en=Rosneft; brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building:levels=1;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    name=Роснефть АЗС 5; name:en=Rosneft; name:ru=Роснефть;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.892951249999996" lon="27.612107570961815">
     <ele>214</ele>
@@ -11151,14 +11134,14 @@ version="1.1" creator="togpx">
     "Белоруснефть-Брестоблнефтепродукт"; ref=АЗС 17;
     self_service=yes; vacuum_cleaner=yes</desc>
   </wpt>
-  <wpt lat="53.91565745" lon="30.373022467412447">
+  <wpt lat="53.915737050000004" lon="30.373102767412455">
     <ele>178</ele>
-    <name>Роснефть АЗС 21</name>
+    <name>Роснефть №&#160;21</name>
     <desc>addr:housenumber=71А; addr:street=проспект Мира;
-    amenity=fuel; brand=Роснефть; building:levels=1;
-    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Роснефть АЗС 21; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    amenity=fuel; brand=Роснефть; building=retail;
+    building:levels=1; fuel:diesel=yes; fuel:octane_92=yes;
+    fuel:octane_95=yes; name=Роснефть №&#160;21;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="55.1661062" lon="30.19896725">
     <ele>156</ele>
@@ -11422,10 +11405,12 @@ version="1.1" creator="togpx">
   <wpt lat="53.7960631" lon="27.76029194569695">
     <ele>194</ele>
     <name>Роснефть АЗС 10</name>
-    <desc>amenity=fuel; brand=Роснефть; building=yes;
-    building:levels=1; fuel:diesel=yes; fuel:octane_92=yes;
-    fuel:octane_95=yes; name=Роснефть АЗС 10; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    <desc>amenity=fuel; brand=Роснефть; brand:en=Rosneft;
+    brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building=yes; building:levels=1;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    name=Роснефть АЗС 10; name:en=Rosneft; name:ru=Роснефть;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.84442265" lon="27.47043405836972">
     <ele>230</ele>
@@ -11481,6 +11466,15 @@ version="1.1" creator="togpx">
     fuel:octane_92=yes; fuel:octane_95=yes; name=А-100 № 34;
     opening_hours=24/7; operator=ГК «А-100 АЗС»; ref=34;
     self_service=yes</desc>
+  </wpt>
+  <wpt lat="53.878365200000005" lon="30.390207645451888">
+    <ele>174</ele>
+    <name>Роснефть АЗС 17</name>
+    <desc>addr:housenumber=69А; addr:street=проспект Димитрова;
+    amenity=fuel; brand=Роснефть; building=retail;
+    building:levels=1; fuel:diesel=yes; fuel:octane_92=yes;
+    fuel:octane_95=yes; name=Роснефть АЗС 17; opening_hours=24/7;
+    operator=РН-Запад</desc>
   </wpt>
   <wpt lat="53.95271765" lon="27.98732767760475">
     <ele>211</ele>
@@ -11801,13 +11795,25 @@ version="1.1" creator="togpx">
     source=http://www.rn-west.by/nasha-set/adresa-azs.html;
     website=http://www.rn-west.by/; wheelchair=limited</desc>
   </wpt>
-  <wpt lat="53.92317145" lon="27.165665848020055">
+  <wpt lat="53.9225056" lon="27.17576902909275">
+    <ele>303</ele>
+    <name>Роснефть АЗС 3</name>
+    <desc>amenity=fuel; brand=Роснефть; brand:en=Rosneft;
+    brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building:levels=1;
+    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
+    name=Роснефть АЗС 3; name:en=Rosneft; name:ru=Роснефть;
+    operator=РН-Запад</desc>
+  </wpt>
+  <wpt lat="53.92317145" lon="27.16566585338715">
     <ele>302</ele>
     <name>Роснефть АЗС 2</name>
-    <desc>amenity=fuel; brand=Роснефть; building:levels=1;
+    <desc>amenity=fuel; brand=Роснефть; brand:en=Rosneft;
+    brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building:levels=1;
     fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Роснефть АЗС 2; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    name=Роснефть АЗС 2; name:en=Rosneft; name:ru=Роснефть;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="52.0637152" lon="27.7733927">
     <ele>122</ele>
@@ -12196,15 +12202,17 @@ version="1.1" creator="togpx">
     <name>Лукойл № 79</name>
     <desc>addr:full=155 км дороги М3 Минск-Витебск;
     addr:place=155-й км дороги М3 Минск-Витебск; amenity=fuel;
-    brand=Лукойл; building=yes; building:levels=1;
-    compressed_air=yes; contact:email=dispetcher@lukoil.by;
-    contact:phone=+375 2132 34588;
+    brand=Лукойл; brand:en=Lukoil; brand:ru=Лукойл;
+    brand:wikidata=Q329347; brand:wikipedia=ru:Лукойл;
+    building=yes; building:levels=1; compressed_air=yes;
+    contact:email=dispetcher@lukoil.by; contact:phone=+375 2132
+    34588;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=7940;
     description=155 км дороги М3 Минск-Витебск; fuel:diesel=yes;
     fuel:octane=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Лукойл № 79; name:ru=Лукoйл №79; opening_hours=Mo-Su
-    00:10-23:40; operator=ИООО "ЛУКОЙЛ Белоруссия"; ref=79;
-    shop=kiosk; vacuum_cleaner=yes</desc>
+    name=Лукойл № 79; name:en=Lukoil; name:ru=Лукoйл №79;
+    opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
+    Белоруссия"; ref=79; shop=kiosk; vacuum_cleaner=yes</desc>
   </wpt>
   <wpt lat="52.21352280000001" lon="28.5762371546814">
     <ele>125</ele>
@@ -12226,6 +12234,15 @@ version="1.1" creator="togpx">
     <name>way/275861433</name>
     <desc>amenity=fuel; building=yes; fuel:diesel=yes;
     fuel:lpg=yes; fuel:octane_92=yes; fuel:octane_95=yes</desc>
+  </wpt>
+  <wpt lat="54.17051845" lon="27.211771483890836">
+    <ele>195</ele>
+    <name>Роснефть АЗС 8</name>
+    <desc>addr:street=45 км, Р-28; amenity=fuel; brand=Роснефть;
+    brand:en=Rosneft; brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; fuel:diesel=yes;
+    fuel:octane_92=yes; fuel:octane_95=yes; name=Роснефть АЗС 8;
+    name:en=Rosneft; name:ru=Роснефть; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="51.789228" lon="23.6545183">
     <ele>144</ele>
@@ -12726,9 +12743,9 @@ version="1.1" creator="togpx">
     <ele>176</ele>
     <name>Роснефть АЗС 15</name>
     <desc>addr:housenumber=97; addr:street=Ленинская улица;
-    amenity=fuel; brand=Роснефть; building=yes; building:levels=1;
-    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Роснефть АЗС 15; opening_hours=24/7;
+    amenity=fuel; brand=Роснефть; building=retail;
+    building:levels=1; fuel:diesel=yes; fuel:octane_92=yes;
+    fuel:octane_95=yes; name=Роснефть АЗС 15; opening_hours=24/7;
     operator=РН-Запад</desc>
   </wpt>
   <wpt lat="54.121182700000006" lon="31.121979500000002">
@@ -12742,7 +12759,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Лукойл; contact:phone=+375 1592
     45793;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=6026;
-    fuel:diesel=yes; fuel:gtl_diesel=yes; fuel:octane_92=yes;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_92=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Лукойл № 58;
     opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
     Белоруссия"; ref=58</desc>
@@ -12831,12 +12848,12 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Лукойл; building=retail;
     building:levels=1; contact:phone=+375 163 641764;
     contact:website=http://lukoil.by/ru/ForMotorists/PetrolStation?type=gasStation&amp;id=6051;
-    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:hgv_diesel=yes;
-    fuel:octane_92=yes; fuel:octane_95=yes; name=Лукойл № 18;
-    name:ru=Лукойл № 18; official_name=АЗС № 18;
-    opening_hours=Mo-Su 00:10-23:40; operator=ИООО "ЛУКОЙЛ
-    Белоруссия"; payment:cash=yes; payment:credit_cards=yes;
-    payment:debit_cards=yes; ref=18</desc>
+    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_92=yes;
+    fuel:octane_95=yes; name=Лукойл № 18; name:ru=Лукойл № 18;
+    official_name=АЗС № 18; opening_hours=Mo-Su 00:10-23:40;
+    operator=ИООО "ЛУКОЙЛ Белоруссия"; payment:cash=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    ref=18</desc>
   </wpt>
   <wpt lat="52.02148855" lon="29.207911599999996">
     <ele>167</ele>
@@ -12845,12 +12862,7 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
     name=Белоруснефть №37</desc>
   </wpt>
-  <wpt lat="53.8785469" lon="30.39048310632478">
-    <ele>174</ele>
-    <name>way/390686204</name>
-    <desc>amenity=fuel</desc>
-  </wpt>
-  <wpt lat="53.91147755" lon="30.28541339505899">
+  <wpt lat="53.911472849999996" lon="30.285350570527147">
     <ele>175</ele>
     <name>Белоруснефть № 71</name>
     <desc>amenity=fuel; compressed_air=yes; contact:phone=+375(222)
@@ -13418,14 +13430,6 @@ version="1.1" creator="togpx">
     fuel:octane_92=yes; fuel:octane_95=yes; height=4; name=Нафтан;
     opening_hours=24/7; shop=no</desc>
   </wpt>
-  <wpt lat="53.311268850000005" lon="26.522754481874998">
-    <ele>160</ele>
-    <name>Славнефть АЗС №53</name>
-    <desc>addr:city=Городея; addr:housenumber=3; addr:street=улица
-    Строителей; amenity=fuel; brand=Славнефть; fuel:diesel=yes;
-    fuel:octane_92=yes; name=Славнефть АЗС №53; opening_hours=24/7;
-    operator=РН-Запад</desc>
-  </wpt>
   <wpt lat="53.9165472" lon="27.4136818726632">
     <ele>237</ele>
     <name>А-100 № 23</name>
@@ -13734,10 +13738,12 @@ version="1.1" creator="togpx">
     <ele>211</ele>
     <name>Роснефть АЗС 1</name>
     <desc>addr:city=Минск; addr:housenumber=3Б; addr:street=улица
-    Ваупшасова; amenity=fuel; brand=Роснефть; building=retail;
-    fuel:diesel=yes; fuel:octane_92=yes; fuel:octane_95=yes;
-    name=Роснефть АЗС 1; opening_hours=24/7;
-    operator=РН-Запад</desc>
+    Ваупшасова; amenity=fuel; brand=Роснефть; brand:en=Rosneft;
+    brand:ru=Роснефть; brand:wikidata=Q1141123;
+    brand:wikipedia=ru:Роснефть; building=retail; fuel:diesel=yes;
+    fuel:octane_92=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Роснефть АЗС 1; name:en=Rosneft; name:ru=Роснефть;
+    opening_hours=24/7; operator=РН-Запад</desc>
   </wpt>
   <wpt lat="52.158704650000004" lon="24.08599345">
     <ele>139</ele>
@@ -13800,13 +13806,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:cng=yes; fuel:lpg=yes; name=Несвиж;
     name:ru=Несвиж; opening_hours=24/7; operator=Белтрансгаз;
     phone=+375-1770-53254; website=https://www.metan.by/</desc>
-  </wpt>
-  <wpt lat="53.95545735" lon="27.72375406736495">
-    <ele>226</ele>
-    <name>Трайпл</name>
-    <desc>amenity=fuel; brand=Трайпл; fuel:diesel=yes;
-    fuel:octane_91=yes; fuel:octane_95=yes; name=Трайпл;
-    opening_hours=24/7; operator=Трайпл</desc>
   </wpt>
   <wpt lat="53.62588135" lon="24.729100383611406">
     <ele>182</ele>
@@ -13962,7 +13961,7 @@ version="1.1" creator="togpx">
     phone=+375-1593-32697; ref=АЗС 58; vacuum_cleaner=yes;
     website=https://www.belorusneft.by/</desc>
   </wpt>
-  <wpt lat="52.9292251" lon="24.3566808199587">
+  <wpt lat="52.9295183" lon="24.35681897102034">
     <ele>191</ele>
     <name>Белоруснефть</name>
     <desc>amenity=fuel; brand=Белоруснефть;
@@ -13979,7 +13978,8 @@ version="1.1" creator="togpx">
   <wpt lat="53.745938" lon="29.880024258733393">
     <ele>163</ele>
     <name>Колхозная</name>
-    <desc>amenity=fuel; name=Колхозная; self_service=no</desc>
+    <desc>amenity=fuel; name=Колхозная; opening_hours:signed=no;
+    self_service=no</desc>
   </wpt>
   <wpt lat="55.78548295" lon="27.430198583820097">
     <ele>136</ele>
@@ -14066,13 +14066,15 @@ version="1.1" creator="togpx">
     <ele>185</ele>
     <name>Белоруснефть №80</name>
     <desc>amenity=fuel; area=yes; brand=Белоруснефть;
+    brand:wikidata=Q4082693; brand:wikipedia=ru:Белоруснефть;
     compressed_air=yes; contact:phone=+375 1718 60985;
     contact:website=https://azs.belorusneft.by/beloil-map/station?id=B89F84F7E3B34F70E043BF0BA8C03722;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_92=yes;
     fuel:octane_95=yes;
     guid:belorusneft=B89F84F7E3B34F70E043BF0BA8C03722;
     highway=service; internet_access=yes; internet_access:fee=no;
-    name=Белоруснефть №80; opening_hours=24/7; operator=РУП
+    landuse=construction; name=Белоруснефть №80;
+    opening_hours=24/7; operator=РУП
     "Белоруснефть-Минскоблнефтепродукт"; ref=АЗС 80;
     surface=asphalt; toilets=yes</desc>
   </wpt>
@@ -14113,6 +14115,13 @@ version="1.1" creator="togpx">
     <ele>164</ele>
     <name>way/958375570</name>
     <desc>amenity=fuel</desc>
+  </wpt>
+  <wpt lat="52.12078785" lon="26.04211555393868">
+    <ele>141</ele>
+    <name>Топливохранилище</name>
+    <desc>addr:city=Пинск; addr:street=проезд Калиновского;
+    amenity=fuel; name=Топливохранилище; operator=РУП
+    "Бреставтодор"</desc>
   </wpt>
   <wpt lat="52.43085605" lon="30.94723845953764">
     <ele>131</ele>
@@ -14254,17 +14263,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Лукойл № 68</name>
     <trkseg>
-      <trkpt lat="53.9331651" lon="27.5549647"></trkpt>
-      <trkpt lat="53.9330961" lon="27.5549647"></trkpt>
-      <trkpt lat="53.9330961" lon="27.5548967"></trkpt>
-      <trkpt lat="53.9330551" lon="27.5548967"></trkpt>
-      <trkpt lat="53.9330551" lon="27.5549647"></trkpt>
-      <trkpt lat="53.9329631" lon="27.5549647"></trkpt>
-      <trkpt lat="53.9329631" lon="27.5552607"></trkpt>
-      <trkpt lat="53.9330385" lon="27.5552607"></trkpt>
-      <trkpt lat="53.9330851" lon="27.5552607"></trkpt>
-      <trkpt lat="53.9331651" lon="27.5551867"></trkpt>
-      <trkpt lat="53.9331651" lon="27.5549647"></trkpt>
+      <trkpt lat="53.9331495" lon="27.5549222"></trkpt>
+      <trkpt lat="53.9330805" lon="27.5549222"></trkpt>
+      <trkpt lat="53.9330805" lon="27.5548542"></trkpt>
+      <trkpt lat="53.9330395" lon="27.5548542"></trkpt>
+      <trkpt lat="53.9330395" lon="27.5549222"></trkpt>
+      <trkpt lat="53.9329475" lon="27.5549222"></trkpt>
+      <trkpt lat="53.9329475" lon="27.5552182"></trkpt>
+      <trkpt lat="53.9330229" lon="27.5552182"></trkpt>
+      <trkpt lat="53.9330695" lon="27.5552182"></trkpt>
+      <trkpt lat="53.9331495" lon="27.5551442"></trkpt>
+      <trkpt lat="53.9331495" lon="27.5549222"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14573,19 +14582,19 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Роснефть АЗС 21</name>
+    <name>Роснефть №&#160;21</name>
     <trkseg>
-      <trkpt lat="53.9156185" lon="30.3727658"></trkpt>
-      <trkpt lat="53.9156011" lon="30.3727925"></trkpt>
-      <trkpt lat="53.915511" lon="30.3729307"></trkpt>
-      <trkpt lat="53.9156909" lon="30.3732688"></trkpt>
-      <trkpt lat="53.915757" lon="30.3731675"></trkpt>
-      <trkpt lat="53.9157391" lon="30.3731337"></trkpt>
-      <trkpt lat="53.9157804" lon="30.3730702"></trkpt>
-      <trkpt lat="53.9157289" lon="30.3729733"></trkpt>
-      <trkpt lat="53.9156703" lon="30.3728631"></trkpt>
-      <trkpt lat="53.9156446" lon="30.3728149"></trkpt>
-      <trkpt lat="53.9156185" lon="30.3727658"></trkpt>
+      <trkpt lat="53.9156981" lon="30.3728461"></trkpt>
+      <trkpt lat="53.9156807" lon="30.3728728"></trkpt>
+      <trkpt lat="53.9155906" lon="30.373011"></trkpt>
+      <trkpt lat="53.9157705" lon="30.3733491"></trkpt>
+      <trkpt lat="53.9158366" lon="30.3732478"></trkpt>
+      <trkpt lat="53.9158187" lon="30.373214"></trkpt>
+      <trkpt lat="53.91586" lon="30.3731505"></trkpt>
+      <trkpt lat="53.9158085" lon="30.3730536"></trkpt>
+      <trkpt lat="53.9157499" lon="30.3729434"></trkpt>
+      <trkpt lat="53.9157242" lon="30.3728952"></trkpt>
+      <trkpt lat="53.9156981" lon="30.3728461"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14951,6 +14960,7 @@ version="1.1" creator="togpx">
       <trkpt lat="53.7961782" lon="27.7604311"></trkpt>
       <trkpt lat="53.7961525" lon="27.7602838"></trkpt>
       <trkpt lat="53.7961309" lon="27.7601753"></trkpt>
+      <trkpt lat="53.796141" lon="27.7602244"></trkpt>
       <trkpt lat="53.7961117" lon="27.7600595"></trkpt>
     </trkseg>
   </trk>
@@ -15013,6 +15023,23 @@ version="1.1" creator="togpx">
       <trkpt lat="53.9608558" lon="27.6264224"></trkpt>
       <trkpt lat="53.960846" lon="27.6264774"></trkpt>
       <trkpt lat="53.9608251" lon="27.6265416"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Роснефть АЗС 17</name>
+    <trkseg>
+      <trkpt lat="53.8784393" lon="30.3900175"></trkpt>
+      <trkpt lat="53.8784094" lon="30.3899714"></trkpt>
+      <trkpt lat="53.8783849" lon="30.3899737"></trkpt>
+      <trkpt lat="53.8783156" lon="30.3901396"></trkpt>
+      <trkpt lat="53.8783129" lon="30.3902687"></trkpt>
+      <trkpt lat="53.8783455" lon="30.3904024"></trkpt>
+      <trkpt lat="53.8784026" lon="30.3903793"></trkpt>
+      <trkpt lat="53.8784094" lon="30.390301"></trkpt>
+      <trkpt lat="53.8783985" lon="30.390165"></trkpt>
+      <trkpt lat="53.8784188" lon="30.3901274"></trkpt>
+      <trkpt lat="53.878442" lon="30.3900843"></trkpt>
+      <trkpt lat="53.8784393" lon="30.3900175"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15387,6 +15414,26 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Роснефть АЗС 3</name>
+    <trkseg>
+      <trkpt lat="53.9224202" lon="27.1756392"></trkpt>
+      <trkpt lat="53.9224085" lon="27.1757116"></trkpt>
+      <trkpt lat="53.9224312" lon="27.1757222"></trkpt>
+      <trkpt lat="53.9224113" lon="27.1758452"></trkpt>
+      <trkpt lat="53.9224787" lon="27.1758767"></trkpt>
+      <trkpt lat="53.9224833" lon="27.1758486"></trkpt>
+      <trkpt lat="53.9225337" lon="27.1758722"></trkpt>
+      <trkpt lat="53.9225279" lon="27.1759079"></trkpt>
+      <trkpt lat="53.9225577" lon="27.1759218"></trkpt>
+      <trkpt lat="53.9225624" lon="27.1758923"></trkpt>
+      <trkpt lat="53.922594" lon="27.175907"></trkpt>
+      <trkpt lat="53.9226115" lon="27.175799"></trkpt>
+      <trkpt lat="53.9225931" lon="27.1757904"></trkpt>
+      <trkpt lat="53.9226038" lon="27.1757248"></trkpt>
+      <trkpt lat="53.9224202" lon="27.1756392"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Роснефть АЗС 2</name>
     <trkseg>
       <trkpt lat="53.9230898" lon="27.1655342"></trkpt>
@@ -15398,6 +15445,7 @@ version="1.1" creator="togpx">
       <trkpt lat="53.9232299" lon="27.1656834"></trkpt>
       <trkpt lat="53.9232245" lon="27.1656538"></trkpt>
       <trkpt lat="53.9231935" lon="27.1654809"></trkpt>
+      <trkpt lat="53.9231313" lon="27.1655129"></trkpt>
       <trkpt lat="53.9230898" lon="27.1655342"></trkpt>
     </trkseg>
   </trk>
@@ -15926,6 +15974,16 @@ version="1.1" creator="togpx">
       <trkpt lat="54.2311014" lon="27.0915063"></trkpt>
       <trkpt lat="54.2311321" lon="27.0911953"></trkpt>
       <trkpt lat="54.2311468" lon="27.0910465"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Роснефть АЗС 8</name>
+    <trkseg>
+      <trkpt lat="54.1705278" lon="27.2119025"></trkpt>
+      <trkpt lat="54.170596" lon="27.2117739"></trkpt>
+      <trkpt lat="54.1705091" lon="27.2116406"></trkpt>
+      <trkpt lat="54.1704415" lon="27.2117689"></trkpt>
+      <trkpt lat="54.1705278" lon="27.2119025"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16701,27 +16759,13 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/390686204</name>
-    <trkseg>
-      <trkpt lat="53.8783432" lon="30.3898084"></trkpt>
-      <trkpt lat="53.8780662" lon="30.3899273"></trkpt>
-      <trkpt lat="53.8782401" lon="30.3907725"></trkpt>
-      <trkpt lat="53.878551" lon="30.391046"></trkpt>
-      <trkpt lat="53.8790198" lon="30.390887"></trkpt>
-      <trkpt lat="53.878816" lon="30.3897807"></trkpt>
-      <trkpt lat="53.8785428" lon="30.389926"></trkpt>
-      <trkpt lat="53.8783432" lon="30.3898084"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Белоруснефть № 71</name>
     <trkseg>
-      <trkpt lat="53.9119159" lon="30.2850832"></trkpt>
-      <trkpt lat="53.9112829" lon="30.2846802"></trkpt>
-      <trkpt lat="53.9112498" lon="30.2848266"></trkpt>
-      <trkpt lat="53.9110423" lon="30.2857442"></trkpt>
-      <trkpt lat="53.9116722" lon="30.2861472"></trkpt>
-      <trkpt lat="53.9119159" lon="30.2850832"></trkpt>
+      <trkpt lat="53.9118908" lon="30.2849883"></trkpt>
+      <trkpt lat="53.9113046" lon="30.2846181"></trkpt>
+      <trkpt lat="53.9110391" lon="30.285704"></trkpt>
+      <trkpt lat="53.9116411" lon="30.2860826"></trkpt>
+      <trkpt lat="53.9118908" lon="30.2849883"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -17500,16 +17544,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Славнефть АЗС №53</name>
-    <trkseg>
-      <trkpt lat="53.3112993" lon="26.5226685"></trkpt>
-      <trkpt lat="53.3112153" lon="26.5227987"></trkpt>
-      <trkpt lat="53.3112384" lon="26.5228405"></trkpt>
-      <trkpt lat="53.3113224" lon="26.5227102"></trkpt>
-      <trkpt lat="53.3112993" lon="26.5226685"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>А-100 № 23</name>
     <trkseg>
       <trkpt lat="53.9158321" lon="27.4128074"></trkpt>
@@ -17982,24 +18016,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Белоруснефть №60</name>
-    <trkseg>
-      <trkpt lat="54.4368529" lon="29.6041646"></trkpt>
-      <trkpt lat="54.4365961" lon="29.6042559"></trkpt>
-      <trkpt lat="54.4362124" lon="29.6041189"></trkpt>
-      <trkpt lat="54.4362047" lon="29.6042381"></trkpt>
-      <trkpt lat="54.436171" lon="29.6047634"></trkpt>
-      <trkpt lat="54.4362146" lon="29.6052324"></trkpt>
-      <trkpt lat="54.4363098" lon="29.6062555"></trkpt>
-      <trkpt lat="54.4366522" lon="29.606088"></trkpt>
-      <trkpt lat="54.4369709" lon="29.6052862"></trkpt>
-      <trkpt lat="54.4369414" lon="29.6049258"></trkpt>
-      <trkpt lat="54.4369739" lon="29.6047482"></trkpt>
-      <trkpt lat="54.4369237" lon="29.6045097"></trkpt>
-      <trkpt lat="54.4368529" lon="29.6041646"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Белоруснефть</name>
     <trkseg>
       <trkpt lat="53.830567" lon="25.3640775"></trkpt>
@@ -18029,18 +18045,6 @@ version="1.1" creator="togpx">
       <trkpt lat="53.2729118" lon="26.6036649"></trkpt>
       <trkpt lat="53.2734295" lon="26.6030656"></trkpt>
       <trkpt lat="53.2730602" lon="26.6021486"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Трайпл</name>
-    <trkseg>
-      <trkpt lat="53.9550786" lon="27.7249337"></trkpt>
-      <trkpt lat="53.9556932" lon="27.7248454"></trkpt>
-      <trkpt lat="53.9556072" lon="27.7227419"></trkpt>
-      <trkpt lat="53.9553075" lon="27.7225158"></trkpt>
-      <trkpt lat="53.9551481" lon="27.7225259"></trkpt>
-      <trkpt lat="53.9550328" lon="27.7238783"></trkpt>
-      <trkpt lat="53.9550786" lon="27.7249337"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -18152,16 +18156,6 @@ version="1.1" creator="togpx">
       <trkpt lat="53.3070026" lon="28.6616035"></trkpt>
       <trkpt lat="53.3070647" lon="28.6616007"></trkpt>
       <trkpt lat="53.307062" lon="28.6614331"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/698700558</name>
-    <trkseg>
-      <trkpt lat="53.9057565" lon="30.3665282"></trkpt>
-      <trkpt lat="53.9051911" lon="30.3671446"></trkpt>
-      <trkpt lat="53.9053685" lon="30.3676035"></trkpt>
-      <trkpt lat="53.9059124" lon="30.3670232"></trkpt>
-      <trkpt lat="53.9057565" lon="30.3665282"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -18301,13 +18295,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Белоруснефть</name>
     <trkseg>
-      <trkpt lat="52.9296596" lon="24.3577293"></trkpt>
-      <trkpt lat="52.9303661" lon="24.3551196"></trkpt>
-      <trkpt lat="52.9302952" lon="24.3547441"></trkpt>
-      <trkpt lat="52.9298311" lon="24.3543723"></trkpt>
-      <trkpt lat="52.9296138" lon="24.3546113"></trkpt>
-      <trkpt lat="52.9288364" lon="24.3572059"></trkpt>
-      <trkpt lat="52.9296596" lon="24.3577293"></trkpt>
+      <trkpt lat="52.9296919" lon="24.3577186"></trkpt>
+      <trkpt lat="52.929991" lon="24.3565734"></trkpt>
+      <trkpt lat="52.9296226" lon="24.3561388"></trkpt>
+      <trkpt lat="52.929414" lon="24.3559602"></trkpt>
+      <trkpt lat="52.9290725" lon="24.3572542"></trkpt>
+      <trkpt lat="52.9296919" lon="24.3577186"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -18681,6 +18674,16 @@ version="1.1" creator="togpx">
       <trkpt lat="53.8300546" lon="30.3400119"></trkpt>
       <trkpt lat="53.8301164" lon="30.340014"></trkpt>
       <trkpt lat="53.8301173" lon="30.3399454"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Топливохранилище</name>
+    <trkseg>
+      <trkpt lat="52.1207305" lon="26.0420012"></trkpt>
+      <trkpt lat="52.1207392" lon="26.0422384"></trkpt>
+      <trkpt lat="52.1208365" lon="26.0422278"></trkpt>
+      <trkpt lat="52.1208365" lon="26.0419953"></trkpt>
+      <trkpt lat="52.1207305" lon="26.0420012"></trkpt>
     </trkseg>
   </trk>
   <trk>
