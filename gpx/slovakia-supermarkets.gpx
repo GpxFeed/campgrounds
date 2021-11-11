@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2021-10-11T23:30:42Z", "timestamp_areas_base":
-      "2021-10-11T23:12:28Z", "copyright": "The data included in
+      "2021-11-11T01:58:29Z", "timestamp_areas_base":
+      "2021-11-11T00:13:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -78,7 +78,7 @@ version="1.1" creator="togpx">
     <ele>203</ele>
     <name>Tesco Extra</name>
     <desc>addr:city=Bratislava; addr:housenumber=1C;
-    addr:postcode=84104; addr:street=Lamačská cesta;
+    addr:postcode=841 04; addr:street=Lamačská cesta;
     branch=Bratislava Lamač; brand=Tesco Extra;
     brand:wikidata=Q25172225; brand:wikipedia=en:Tesco Extra;
     level=1; name=Tesco Extra; note=hypermarket;
@@ -415,7 +415,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.1540742" lon="17.0600217">
     <ele>155</ele>
     <name>Billa</name>
-    <desc>addr:city=Bratislava; addr:postcode=84104;
+    <desc>addr:city=Bratislava; addr:postcode=841 04;
     addr:street=Segnerova; brand=Billa; brand:wikidata=Q537781;
     brand:wikipedia=en:Billa (supermarket); name=Billa;
     opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00;
@@ -423,11 +423,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.5949138" lon="17.8201933">
     <ele>162</ele>
-    <name>Coop Jednota</name>
+    <name>Potraviny Mix</name>
     <desc>brand=COOP Jednota; brand:wikidata=Q41629254;
     brand:wikipedia=sk:COOP Jednota Slovensko;
-    is_in=&lt;different&gt;; name=Coop Jednota; operator=COOP
-    Jednota Slovensko; shop=supermarket</desc>
+    is_in=&lt;different&gt;; name=Potraviny Mix;
+    opening_hours=Mo-Fr 06:00-17:45, Sa 06:00-12:00, Su
+    08:00-11:30; operator=COOP Jednota Slovensko;
+    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    payment:visa_debit=yes; payment:visa_electron=yes;
+    shop=supermarket</desc>
   </wpt>
   <wpt lat="48.42303" lon="19.1574602">
     <ele>403</ele>
@@ -517,12 +521,6 @@ version="1.1" creator="togpx">
     <ele>269</ele>
     <name>COOP</name>
     <desc>is_in=Krupina; name=COOP; operator=COOP Jednota
-    Slovensko; shop=supermarket</desc>
-  </wpt>
-  <wpt lat="47.790049" lon="18.6014963">
-    <ele>112</ele>
-    <name>COOP Jednota</name>
-    <desc>is_in=Mužla; name=COOP Jednota; operator=COOP Jednota
     Slovensko; shop=supermarket</desc>
   </wpt>
   <wpt lat="47.7921193" lon="18.5971069">
@@ -1100,7 +1098,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.576244" lon="19.1268748">
     <ele>293</ele>
     <name>BILLA</name>
-    <desc>name=BILLA; operator=BILLA; shop=supermarket</desc>
+    <desc>name=BILLA; opening_hours=Mo-Fr 07:00-19:00, Sa
+    07:00-14:00, Su off; operator=BILLA; shop=supermarket;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="48.5638468" lon="19.1567727">
     <ele>297</ele>
@@ -1704,8 +1704,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.9962841" lon="21.2409713">
     <ele>257</ele>
-    <name>CBA</name>
-    <desc>name=CBA; shop=supermarket</desc>
+    <name>CBA Karmen</name>
+    <desc>addr:city=Prešov; addr:housenumber=47;
+    addr:postcode=08001; addr:street=Hlavná; name=CBA Karmen;
+    shop=supermarket</desc>
   </wpt>
   <wpt lat="48.9939798" lon="21.2436632">
     <ele>257</ele>
@@ -1934,7 +1936,7 @@ version="1.1" creator="togpx">
     <ele>195</ele>
     <name>Terno</name>
     <desc>addr:city=Bratislava; addr:country=SK;
-    addr:housenumber=2; addr:postcode=84104; addr:street=Lackova;
+    addr:housenumber=2; addr:postcode=841 04; addr:street=Lackova;
     addr:streetnumber=2; name=Terno; old_name=Moja Samoška;
     opening_hours=Mo-Fr 06:00-20:00, Sa 07:00-20:00, Su
     07:00-13:00; operator=TERNO real estate s.r.o.;
@@ -2032,11 +2034,6 @@ version="1.1" creator="togpx">
     <ele>381</ele>
     <name>Kriváň</name>
     <desc>name=Kriváň; shop=supermarket</desc>
-  </wpt>
-  <wpt lat="48.3152178" lon="18.0903196">
-    <ele>144</ele>
-    <name>CBA</name>
-    <desc>name=CBA; shop=supermarket</desc>
   </wpt>
   <wpt lat="48.8441838" lon="17.9939708">
     <ele>209</ele>
@@ -2201,9 +2198,11 @@ version="1.1" creator="togpx">
   <wpt lat="48.9915519" lon="21.2722446">
     <ele>270</ele>
     <name>Fresh Plus</name>
-    <desc>brand=Fresh Plus; brand:wikidata=Q50737403;
-    brand:wikipedia=sk:FRESH; name=Fresh Plus; shop=supermarket;
-    source=survey</desc>
+    <desc>addr:city=Prešov; addr:housenumber=13;
+    addr:postcode=08001; addr:street=Justičná; brand=Fresh Plus;
+    brand:wikidata=Q50737403; brand:wikipedia=sk:FRESH; name=Fresh
+    Plus; opening_hours=Mo-Su 07:00-21:00; phone=+421 51 770 47 45;
+    shop=supermarket; source=survey</desc>
   </wpt>
   <wpt lat="47.98663" lon="18.16309">
     <ele>119</ele>
@@ -3000,7 +2999,7 @@ version="1.1" creator="togpx">
     <ele>139</ele>
     <name>Terno</name>
     <desc>addr:conscriptionnumber=3124; addr:country=SK;
-    addr:housenumber=3124/3a; addr:postcode=83102;
+    addr:housenumber=3124/3a; addr:postcode=831 02;
     addr:street=Nobelova; addr:streetnumber=3a; name=Terno;
     shop=supermarket</desc>
   </wpt>
@@ -3485,7 +3484,7 @@ version="1.1" creator="togpx">
     <ele>157</ele>
     <name>Terno</name>
     <desc>addr:city=Bratislava; addr:housenumber=52;
-    addr:postcode=84107; addr:street=Eisnerova; name=Terno;
+    addr:postcode=841 07; addr:street=Eisnerova; name=Terno;
     opening_hours=Mo-Fr 06:00-20:00, Sa 06:30-19:00;
     shop=supermarket; website=https://www.terno.sk/</desc>
   </wpt>
@@ -3587,8 +3586,10 @@ version="1.1" creator="togpx">
   <wpt lat="47.8554969" lon="17.7707973">
     <ele>112</ele>
     <name>Billa</name>
-    <desc>name=Billa; opening_hours=Mo-Sa 07:00-21:00, Su
-    08:00-19:00; shop=supermarket</desc>
+    <desc>brand=Billa; brand:wikidata=Q537781;
+    brand:wikipedia=de:Billa; contact:phone=+421 903 696 218;
+    name=Billa; opening_hours=Mo-Sa 07:00-20:00, Su 08:00-19:00;
+    shop=supermarket</desc>
   </wpt>
   <wpt lat="47.8567193" lon="17.770216">
     <ele>111</ele>
@@ -3726,7 +3727,7 @@ version="1.1" creator="togpx">
     <ele>130</ele>
     <name>Kraj</name>
     <desc>addr:city=Ivanka pri Dunaji; addr:conscriptionnumber=147;
-    addr:housenumber=147/40; addr:postcode=90028;
+    addr:housenumber=147/40; addr:postcode=900 28;
     addr:street=Moyzesova; addr:streetnumber=40; name=Kraj;
     opening_hours=Mo-Su 06:00-20:00; shop=supermarket;
     website=https://www.krajpotravin.sk/predajne/ivanka-pri-dunaji</desc>
@@ -3804,13 +3805,16 @@ version="1.1" creator="togpx">
     <name>Coop</name>
     <desc>name=Coop; shop=supermarket</desc>
   </wpt>
-  <wpt lat="49.1711907" lon="18.8201741">
+  <wpt lat="49.1712058" lon="18.8202701">
     <ele>423</ele>
-    <name>COOP Jednota SUPERMARKET</name>
-    <desc>name=COOP Jednota SUPERMARKET; opening_hours=Mo-Fr
-    06:00-19:00, Sa 06:00-13:00, Su 07:00-12:00; phone=+421 417 051
-    076; shop=supermarket; short_name=COOP;
-    website=https://www.coop.sk/</desc>
+    <name>COOP Jednota</name>
+    <desc>addr:city=Stráňavy; addr:housenumber=345;
+    addr:place=Stráňavy; addr:postcode=01325; brand=COOP Jednota;
+    brand:wikidata=Q41629254; brand:wikipedia=sk:COOP Jednota
+    Slovensko; name=COOP Jednota; opening_hours=Mo-Fr 06:00-19:00,
+    Sa 06:00-13:00, Su 08:00-12:00; phone=+421 417 051 076;
+    shop=supermarket; short_name=COOP;
+    website=https://www.coopjednotaza.sk/</desc>
   </wpt>
   <wpt lat="49.0043751" lon="21.2383614">
     <ele>257</ele>
@@ -4904,11 +4908,6 @@ version="1.1" creator="togpx">
     <desc>name=CBA Karmen; name:sk=CBA Karmen;
     shop=supermarket</desc>
   </wpt>
-  <wpt lat="48.3297287" lon="18.1112721">
-    <ele>219</ele>
-    <name>Potraviny M-Trade</name>
-    <desc>name=Potraviny M-Trade; shop=supermarket</desc>
-  </wpt>
   <wpt lat="48.8062966" lon="19.6417832">
     <ele>497</ele>
     <name>COOP Jednota</name>
@@ -4989,8 +4988,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.9091467" lon="18.1676914">
     <ele>278</ele>
-    <name>CBA</name>
-    <desc>name=CBA; shop=supermarket</desc>
+    <name>Koruna</name>
+    <desc>level=0; name=Koruna; old_name=CBA; opening_hours=Mo-Fr
+    06:00-19:00, Sa 06:00-14:00, Su 08:00-12:00; shop=supermarket;
+    source=survey</desc>
   </wpt>
   <wpt lat="48.2229534" lon="17.2309784">
     <ele>132</ele>
@@ -5001,7 +5002,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.198072" lon="17.2085315">
     <ele>129</ele>
     <name>Potraviny Veranda</name>
-    <desc>addr:postcode=83107; addr:street=Široká; name=Potraviny
+    <desc>addr:postcode=831 07; addr:street=Široká; name=Potraviny
     Veranda; name:en=Grocery Veranda; name:sk=Potraviny Veranda;
     opening_hours=Mo-Su 10:00-22:00; shop=supermarket</desc>
   </wpt>
@@ -5395,7 +5396,7 @@ version="1.1" creator="togpx">
     <ele>138</ele>
     <name>Yeme</name>
     <desc>addr:city=Bratislava; addr:housenumber=6-8;
-    addr:postcode=81109; addr:street=Landererova;
+    addr:postcode=811 09; addr:street=Landererova;
     diet:gluten_free=yes; diet:lactose_free=yes; diet:vegan=yes;
     diet:vegetarian=yes; name=Yeme; opening_hours=Mo-Su
     07:00-21:00; organic=yes; payment:cash=yes;
@@ -5536,12 +5537,14 @@ version="1.1" creator="togpx">
   <wpt lat="48.580367" lon="19.1447358">
     <ele>320</ele>
     <name>COOP Jednota</name>
-    <desc>name=COOP Jednota; shop=supermarket</desc>
+    <desc>name=COOP Jednota; opening_hours=Mo-Fr 06:00-17:30, Sa
+    06:00-11:30, Su off; shop=supermarket</desc>
   </wpt>
   <wpt lat="48.580515" lon="19.1465099">
     <ele>327</ele>
     <name>CBA</name>
-    <desc>name=CBA; shop=supermarket</desc>
+    <desc>name=CBA; opening_hours=Mo-Fr 06:15-18:00, Sa
+    06:15-14:00, Su 07:00-12:00; shop=supermarket</desc>
   </wpt>
   <wpt lat="48.3264919" lon="17.6597633">
     <ele>132</ele>
@@ -5551,7 +5554,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.2275878" lon="17.9303034">
     <ele>129</ele>
     <name>COOP Jednota</name>
-    <desc>name=COOP Jednota; shop=supermarket</desc>
+    <desc>brand=COOP Jednota; brand:wikidata=Q41629254;
+    brand:wikipedia=sk:COOP Jednota Slovensko; name=COOP Jednota;
+    shop=supermarket</desc>
   </wpt>
   <wpt lat="49.1074646" lon="19.0393079">
     <ele>401</ele>
@@ -5886,11 +5891,10 @@ version="1.1" creator="togpx">
     <name>Potraviny</name>
     <desc>name=Potraviny; shop=supermarket</desc>
   </wpt>
-  <wpt lat="49.3659179" lon="19.614505">
+  <wpt lat="49.365883" lon="19.6145466">
     <ele>644</ele>
     <name>COOP</name>
-    <desc>addr:city=Trstená; addr:street=Oslobodenia; name=COOP;
-    shop=supermarket</desc>
+    <desc>name=COOP; shop=supermarket</desc>
   </wpt>
   <wpt lat="48.1441346" lon="17.113378">
     <ele>145</ele>
@@ -6139,7 +6143,7 @@ version="1.1" creator="togpx">
     <name>Fajne potraviny</name>
     <desc>air_conditioning=yes; currency:EUR=yes;
     email=info@fajnepotraviny.sk; level=0; name=Fajne potraviny;
-    opening_hours=Mo-Fr 07:00-20:00, Sa 08:00-16:00;
+    opening_hours=Mo-Fr 07:00-20:00, Sa 08:00-20:00;
     opening_hours:covid19=same; operator=Fajne s.r.o.; organic=yes;
     payment:cash=yes; payment:coins=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; phone=+421 55 600 5700;
@@ -6590,11 +6594,12 @@ version="1.1" creator="togpx">
     shop=supermarket; stroller=yes;
     website=https://www.freshobchod.sk/; wheelchair=yes</desc>
   </wpt>
-  <wpt lat="48.0982655" lon="17.30294">
-    <ele>126</ele>
+  <wpt lat="48.0984106" lon="17.3027358">
+    <ele>127</ele>
     <name>Billa</name>
     <desc>brand=Billa; brand:wikidata=Q537781;
     brand:wikipedia=en:Billa (supermarket); name=Billa;
+    opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00, PH off;
     shop=supermarket</desc>
   </wpt>
   <wpt lat="49.3489985" lon="18.7894477">
@@ -6625,8 +6630,8 @@ version="1.1" creator="togpx">
     <name>CBA Karmen</name>
     <desc>addr:city=Prešov; addr:housenumber=3;
     addr:postcode=08001; addr:street=Námestie Kráľovnej pokoja;
-    name=CBA Karmen; opening_hours=Mo-Fr 06:00-17:30; phone=0915
-    914 166; shop=supermarket;
+    name=CBA Karmen; opening_hours=Mo-Fr 06:00-17:30; phone=+421
+    915 914 166; shop=supermarket;
     website=https://www.karmen.sk/</desc>
   </wpt>
   <wpt lat="49.0065209" lon="21.2226576">
@@ -6635,7 +6640,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Prešov; addr:housenumber=50;
     addr:postcode=08001; addr:street=Volgogradská; brand=Milk-Agro;
     brand:wikidata=Q64173785; name=Milk-Agro; opening_hours=Mo-Fr
-    06:00-18:00, Sa 06:00-12:00; phone=051/771 61 00;
+    06:00-18:00, Sa 06:00-12:00; phone=+421 51 771 61 00;
     shop=supermarket</desc>
   </wpt>
   <wpt lat="48.9929552" lon="21.2437071">
@@ -6649,9 +6654,10 @@ version="1.1" creator="togpx">
   <wpt lat="48.9859334" lon="21.2539018">
     <ele>242</ele>
     <name>Fresh Plus</name>
-    <desc>brand=Fresh Plus; brand:wikidata=Q50737403;
-    brand:wikipedia=sk:FRESH; name=Fresh Plus;
-    shop=supermarket</desc>
+    <desc>addr:city=Prešov; addr:housenumber=1C;
+    addr:postcode=08001; addr:street=Solivarská; brand=Fresh Plus;
+    brand:wikidata=Q50737403; brand:wikipedia=sk:FRESH; name=Fresh
+    Plus; shop=supermarket</desc>
   </wpt>
   <wpt lat="49.0119285" lon="21.2732129">
     <ele>265</ele>
@@ -6770,7 +6776,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.151881" lon="17.0588958">
     <ele>165</ele>
     <name>Potraviny Karlofka</name>
-    <desc>addr:housenumber=10; addr:postcode=84104;
+    <desc>addr:housenumber=10; addr:postcode=841 04;
     addr:street=Jurigovo námestie; name=Potraviny Karlofka;
     name:en=Grocery Karlofka; shop=supermarket</desc>
   </wpt>
@@ -6887,7 +6893,7 @@ version="1.1" creator="togpx">
     <ele>236</ele>
     <name>Do pohára</name>
     <desc>addr:city=Bratislava-Dúbravka; addr:housenumber=9;
-    addr:postcode=84101; addr:street=Koprivnická; addr:unit=B;
+    addr:postcode=841 01; addr:street=Koprivnická; addr:unit=B;
     name=Do pohára; opening_hours=Mo-Fr 09:00-12:00,14:00-19:00, Sa
     09:00-12:00; phone=+421 905 105 929; shop=supermarket;
     website=dopohara.sk</desc>
@@ -6967,7 +6973,7 @@ version="1.1" creator="togpx">
     <name>Dom zdravia Drc Aura - Zdravá výživa</name>
     <desc>addr:city=Prešov; addr:housenumber=55;
     addr:postcode=08001; addr:street=Hlavná; name=Dom zdravia Drc
-    Aura - Zdravá výživa; organic=only; phone=051/772 04 26;
+    Aura - Zdravá výživa; organic=only; phone=+421 51 772 04 26;
     shop=supermarket</desc>
   </wpt>
   <wpt lat="49.1929162" lon="20.9607524">
@@ -7004,7 +7010,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Prešov; addr:housenumber=13379/9A;
     addr:postcode=08001; addr:street=Volgogradská; name=Zdravý
     obchod MKVV - Serafin; opening_hours=Mo-Fr 09:00-17:00;
-    organic=only; phone=0908 683 653; shop=supermarket;
+    organic=only; phone=+421 908 683 653; shop=supermarket;
     website=https://www.serafinbyliny.sk</desc>
   </wpt>
   <wpt lat="48.996122" lon="21.228409">
@@ -7013,7 +7019,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Prešov; addr:housenumber=1;
     addr:postcode=08001; addr:street=Fučíkova; brand=Milk-Agro;
     brand:wikidata=Q64173785; name=Milk-Agro; opening_hours=Mo-Fr
-    06:00-18:00, Sa 06:00-12:00; phone=051/774 47 08;
+    06:00-18:00, Sa 06:00-12:00; phone=+421 51 774 47 08;
     shop=supermarket; website=https://www.milkagro.sk</desc>
   </wpt>
   <wpt lat="48.9950018" lon="21.2423247">
@@ -7022,7 +7028,60 @@ version="1.1" creator="togpx">
     <desc>addr:city=Prešov; addr:housenumber=2879/17;
     addr:postcode=08001; addr:street=Hlavná; name=Zdravá výživa;
     opening_hours=Mo-Fr 08:30-17:00, Sa 09:00-12:00; organic=only;
-    phone=051/772 11 93; shop=supermarket</desc>
+    phone=+421 51 772 11 93; shop=supermarket</desc>
+  </wpt>
+  <wpt lat="48.5613119" lon="19.260742">
+    <ele>336</ele>
+    <name>COOP Jednota</name>
+    <desc>addr:city=Zvolenská Slatina; addr:housenumber=298;
+    addr:postcode=96201; addr:street=Malá strana; brand=COOP
+    Jednota; brand:wikidata=Q41629254; brand:wikipedia=sk:COOP
+    Jednota Slovensko; name=COOP Jednota; opening_hours=Mo-Th
+    06:00-18:00, Fr 06:00-19:00, Sa,Su 06:00-12:00;
+    phone=+421911031633; shop=supermarket;
+    website=https://www.coop.sk/</desc>
+  </wpt>
+  <wpt lat="49.0850427" lon="19.62716">
+    <ele>584</ele>
+    <name>LUKAS LM spol. s r.o.</name>
+    <desc>addr:city=Liptovský Mikuláš; addr:housenumber=1386;
+    addr:postcode=03101; addr:street=Kpt. Nálepku;
+    addr:unit=výdajný sklad; email=obchod@lukaslm.sk; name=LUKAS LM
+    spol. s r.o.; name:sk=Zváracia Technika; opening_hours=Mo -
+    Fr7:00 - 16:00; opening_hours:covid19=open; operator=LUKAS LM
+    spol. s r.o.; payment:cash=yes; payment:credit_cards=yes;
+    phone=+421445621874; shop=supermarket;
+    website=www.lukaslm.sk</desc>
+  </wpt>
+  <wpt lat="48.3092459" lon="17.2878123">
+    <ele>171</ele>
+    <name>Manped</name>
+    <desc>addr:housenumber=80; addr:street=Pezinská; name=Manped;
+    opening_hours=Mo-Sa 07:00-18:00; shop=supermarket</desc>
+  </wpt>
+  <wpt lat="48.9038291" lon="18.020487">
+    <ele>205</ele>
+    <name>Billa</name>
+    <desc>name=Billa; shop=supermarket;
+    website=https://www.billa.sk</desc>
+  </wpt>
+  <wpt lat="48.3120105" lon="18.0693823">
+    <ele>146</ele>
+    <name>Tesco Hypermarket</name>
+    <desc>addr:city=Nitra; addr:country=SK; addr:housenumber=5;
+    addr:postcode=94901; addr:street=Bratislavská;
+    addr:streetnumber=5; branch=Nitra; internet_access=wlan;
+    name=Tesco Hypermarket; opening_hours=Mo-Su 06:00-22:00;
+    operator=Tesco Stores SR; phone=+421 37 77 55 111;
+    shop=supermarket; source=kapor2;
+    website=https://tesco.sk/obchody/detail-obchodu/nitra-hypermarket/</desc>
+  </wpt>
+  <wpt lat="49.414349" lon="18.5502233">
+    <ele>541</ele>
+    <name>COOP Jednota Supermarket</name>
+    <desc>name=COOP Jednota Supermarket; opening_hours=Mo-Fr
+    06:00-18:00, Sa 06:00-12:00, Su 07:00-12:00, PH closed;
+    ref=14-020; shop=supermarket</desc>
   </wpt>
   <wpt lat="47.87098535" lon="18.195649177216204">
     <ele>114</ele>
@@ -7154,11 +7213,12 @@ version="1.1" creator="togpx">
     <ele>214</ele>
     <name>Kraj</name>
     <desc>addr:city=Bratislava; addr:conscriptionnumber=1915;
-    addr:country=SK; addr:housenumber=51; addr:postcode=811 02;
-    addr:street=Drotárska cesta; addr:streetnumber=51;
-    building=retail; building:levels=1; name=Kraj;
-    opening_hours=Mo-Fr 06:30-21:00, Sa 06:30-20:00, Su
-    07:00-17:00; shop=supermarket;
+    addr:country=SK; addr:housenumber=1915/51; addr:postcode=811
+    02; addr:street=Drotárska cesta; addr:streetnumber=51;
+    addr:suburb=Staré Mesto; building=retail; building:levels=1;
+    name=Kraj; opening_hours=Mo-Fr 06:30-21:00, Sa 06:30-20:00, Su
+    07:00-17:00; ref:minvskaddress=34997831; shop=supermarket;
+    source:addr=minvskaddress 2021-10;
     website=http://www.ternoslovensko.sk/predajne/s-terno-drotarska</desc>
   </wpt>
   <wpt lat="48.7409742" lon="21.267221180200757">
@@ -7242,7 +7302,7 @@ version="1.1" creator="togpx">
     <ele>133</ele>
     <name>Terno</name>
     <desc>addr:city=Bratislava; addr:housenumber=22;
-    addr:postcode=83107; addr:street=Osloboditeľská;
+    addr:postcode=831 07; addr:street=Osloboditeľská;
     building=retail; is_in=Bratislava - Vajnory; name=Terno;
     operator=Terno; shop=supermarket; source=kapor2</desc>
   </wpt>
@@ -7380,11 +7440,13 @@ version="1.1" creator="togpx">
     <ele>181</ele>
     <name>Tesco Expres</name>
     <desc>addr:city=Bratislava; addr:conscriptionnumber=7785;
-    addr:country=SK; addr:housenumber=7785/2;
-    addr:street=Tešedíkova; addr:streetnumber=2; branch=Záhorská
-    Bystrica; building=commercial; name=Tesco Expres;
-    opening_hours=Mo-Sa 06:00-22:00, Su 07:00-21:00; operator=Tesco
-    Stores SR; shop=supermarket;
+    addr:country=SK; addr:housenumber=7785/2; addr:postcode=84106;
+    addr:street=Tešedíkova; addr:streetnumber=2;
+    addr:suburb=Záhorská Bystrica; branch=Záhorská Bystrica;
+    building=commercial; name=Tesco Expres; opening_hours=Mo-Sa
+    06:00-22:00, Su 07:00-21:00; operator=Tesco Stores SR;
+    ref:minvskaddress=6208136; shop=supermarket;
+    source:addr=minvskaddress 2021-10;
     website=https://tesco.sk/obchody/detail-obchodu/zahorska-bystrica-expres/</desc>
   </wpt>
   <wpt lat="48.38260345" lon="20.021052288800483">
@@ -7397,9 +7459,10 @@ version="1.1" creator="togpx">
     <ele>160</ele>
     <name>KRAJ</name>
     <desc>addr:city=Bratislava; addr:conscriptionnumber=6134;
-    addr:country=SK; addr:housenumber=6134/1; addr:street=Námestie
-    Jána Kostru; addr:streetnumber=1; building=retail; name=KRAJ;
-    opening_hours=Mo-Su 06:30-21:00; shop=supermarket</desc>
+    addr:country=SK; addr:housenumber=6134; addr:place=Devínska
+    Nová Ves; addr:postcode=841 07; building=retail; name=KRAJ;
+    opening_hours=Mo-Su 06:30-21:00; ref:minvskaddress=7100996914;
+    shop=supermarket; source:addr=minvskaddress 2021-10</desc>
   </wpt>
   <wpt lat="48.2044778" lon="17.2971496590068">
     <ele>144</ele>
@@ -7905,12 +7968,14 @@ version="1.1" creator="togpx">
     <ele>301</ele>
     <name>Lidl</name>
     <desc>addr:city=Rožňava; addr:conscriptionnumber=3826;
-    addr:housenumber=3826/50; addr:postcode=04801;
+    addr:country=SK; addr:housenumber=3826/50; addr:postcode=04801;
     addr:street=Šafárikova; addr:streetnumber=50;
     addr:suburb=Rožňava; brand=Lidl; brand:wikidata=Q151954;
     brand:wikipedia=en:Lidl; building=supermarket; name=Lidl;
     name:sk=Lidl; opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00;
-    ref:vatin=SK2020279415; shop=supermarket; source=kapor2</desc>
+    ref:minvskaddress=7102558243; ref:vatin=SK2020279415;
+    shop=supermarket; source=kapor2; source:addr=minvskaddress
+    2021-10</desc>
   </wpt>
   <wpt lat="48.7594615" lon="19.1672125050264">
     <ele>419</ele>
@@ -8059,7 +8124,7 @@ version="1.1" creator="togpx">
     source:conscriptionnumber=kapor2; source:street=municipality;
     source:streetnumber=municipality</desc>
   </wpt>
-  <wpt lat="47.79285085" lon="18.718136442654675">
+  <wpt lat="47.7928508" lon="18.718136428230423">
     <ele>109</ele>
     <name>Billa</name>
     <desc>addr:conscriptionnumber=909; addr:housenumber=909/110;
@@ -8612,15 +8677,15 @@ version="1.1" creator="togpx">
     ref:minvskaddress=10195911; shop=supermarket; source=kapor2;
     source:addr=minvskaddress 2020-12</desc>
   </wpt>
-  <wpt lat="48.553725400000005" lon="18.174381182291306">
+  <wpt lat="48.55379465" lon="18.174386453146944">
     <ele>165</ele>
     <name>Kaufland</name>
     <desc>addr:city=Topoľčany; addr:conscriptionnumber=4598;
     addr:country=SK; addr:housenumber=4598/25A;
     addr:postcode=95503; addr:street=Streďanská;
     addr:streetnumber=25A; building=retail; building:levels=1;
-    import=budovy201004; is_in=Topoľčany; name=Kaufland;
-    shop=supermarket; source=kapor2</desc>
+    is_in=Topoľčany; name=Kaufland; shop=supermarket;
+    source=kapor2</desc>
   </wpt>
   <wpt lat="48.56921965" lon="18.164049055814626">
     <ele>183</ele>
@@ -8856,7 +8921,7 @@ version="1.1" creator="togpx">
     <ele>128</ele>
     <name>COOP Jednota</name>
     <desc>addr:city=Dunajská Lužná; addr:conscriptionnumber=1;
-    addr:country=SK; addr:housenumber=1/5; addr:postcode=90042;
+    addr:country=SK; addr:housenumber=1/5; addr:postcode=900 42;
     addr:street=Námestie svätého Martina; addr:streetnumber=5;
     addr:suburb=Nové Košariská; building=retail; name=COOP Jednota;
     ref:minvskaddress=7101456285; shop=supermarket; source=kapor2;
@@ -9098,7 +9163,7 @@ version="1.1" creator="togpx">
     <ele>145</ele>
     <name>Lidl</name>
     <desc>addr:city=Bratislava; addr:housenumber=6183;
-    addr:postcode=84104; addr:street=Karloveská; brand=Lidl;
+    addr:postcode=841 04; addr:street=Karloveská; brand=Lidl;
     brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
     building=retail; building:levels=1; import=budovy201004;
     layer=1; name=Lidl; opening_hours=Mo-Sa 07:00-21:00, Su
@@ -9492,13 +9557,6 @@ version="1.1" creator="togpx">
     website=https://tesco.sk/obchody/detail-obchodu/liptovsky-mikulas-hypermarket/;
     wheelchair=yes</desc>
   </wpt>
-  <wpt lat="48.2127664" lon="17.013627062363827">
-    <ele>151</ele>
-    <name>Metro</name>
-    <desc>addr:city=Bratislava; addr:conscriptionnumber=7081;
-    addr:housenumber=7081; building=commercial; name=Metro;
-    shop=supermarket; source=kapor2; wheelchair=yes</desc>
-  </wpt>
   <wpt lat="48.25498555" lon="17.86619238143892">
     <ele>129</ele>
     <name>COOP Jednota</name>
@@ -9590,11 +9648,13 @@ version="1.1" creator="togpx">
     <ele>137</ele>
     <name>Terno</name>
     <desc>addr:city=Bratislava; addr:conscriptionnumber=3219;
-    addr:country=SK; addr:housenumber=1; addr:street=Starhradská;
-    addr:streetnumber=1; addr:suburb=Petržalka; building=retail;
-    building:levels=1; name=Terno; opening_hours=Mo-Fr 06:30-21:00,
-    Sa 06:30-20:00, Su 07:00-15:00; operator=TERNO real estate
-    s.r.o.; shop=supermarket; source=kapor2;
+    addr:country=SK; addr:housenumber=3219/1; addr:postcode=851 05;
+    addr:street=Starhradská; addr:streetnumber=1;
+    addr:suburb=Petržalka; building=retail; building:levels=1;
+    name=Terno; opening_hours=Mo-Fr 06:30-21:00, Sa 06:30-20:00, Su
+    07:00-15:00; operator=TERNO real estate s.r.o.;
+    ref:minvskaddress=35593591; shop=supermarket; source=kapor2;
+    source:addr=minvskaddress 2021-10;
     website=https://www.terno.sk/predajna/terno-starhradska-1</desc>
   </wpt>
   <wpt lat="48.217377850000005" lon="17.3928295385858">
@@ -9656,17 +9716,6 @@ version="1.1" creator="togpx">
     addr:street=Vansovej; addr:streetnumber=16; building=yes;
     name=COOP Jednota; operator=COOP Jednota;
     shop=supermarket</desc>
-  </wpt>
-  <wpt lat="48.3120069" lon="18.06946976635895">
-    <ele>146</ele>
-    <name>Tesco Hypermarket</name>
-    <desc>addr:city=Nitra; addr:country=SK; addr:housenumber=5;
-    addr:postcode=94901; addr:street=Bratislavská;
-    addr:streetnumber=5; branch=Nitra; building:part=retail;
-    internet_access=wlan; name=Tesco Hypermarket;
-    opening_hours=Mo-Su 06:00-22:00; operator=Tesco Stores SR;
-    phone=+421 37 77 55 111; shop=supermarket; source=kapor2;
-    website=https://tesco.sk/obchody/detail-obchodu/nitra-hypermarket/</desc>
   </wpt>
   <wpt lat="48.43120635" lon="21.978993539980813">
     <ele>101</ele>
@@ -10005,9 +10054,10 @@ version="1.1" creator="togpx">
     <ele>501</ele>
     <name>TESCO</name>
     <desc>addr:city=Turčianske Teplice; addr:housenumber=203/2027;
-    addr:postcode=03901; addr:street=SNP; building=yes;
+    addr:postcode=03901; addr:street=SNP; building=retail;
+    building:levels=1; check_date:opening_hours=2021-10-15;
     is_in=Turčianske Teplice; name=TESCO; opening_hours=Mo-Su
-    06:00-21:00; shop=supermarket; source=kapor2;
+    06:00-21:00; roof:levels=0; shop=supermarket; source=kapor2;
     wheelchair=yes</desc>
   </wpt>
   <wpt lat="48.0047214" lon="17.4392269078668">
@@ -10548,10 +10598,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.1388672" lon="20.990473256053605">
     <ele>366</ele>
-    <name>Jednota</name>
+    <name>COOP Jednota</name>
     <desc>addr:city=Rožkovany; addr:conscriptionnumber=318;
-    addr:housenumber=318; addr:place=Rožkovany; building=yes;
-    name=Jednota; shop=supermarket; source=kapor2;
+    addr:housenumber=318; addr:place=Rožkovany; brand=COOP Jednota;
+    brand:wikidata=Q41629254; brand:wikipedia=sk:COOP Jednota
+    Slovensko; building=yes; layer=1; name=COOP Jednota;
+    shop=supermarket; source=kapor2;
     source:conscriptionnumber=kapor2</desc>
   </wpt>
   <wpt lat="47.89711495" lon="18.413773717060156">
@@ -10815,8 +10867,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.575459800000004" lon="19.150280724468608">
     <ele>304</ele>
     <name>Lidl</name>
-    <desc>building=retail; name=Lidl; opening_hours=Mo-Sa
-    07:00-21:00, Su 08:00-20:00; shop=supermarket</desc>
+    <desc>building=retail; building:levels=1; name=Lidl;
+    opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00; roof:levels=1;
+    roof:shape=gabled; shop=supermarket; wheelchair=yes</desc>
   </wpt>
   <wpt lat="47.86116655" lon="17.759761263549073">
     <ele>109</ele>
@@ -11051,8 +11104,8 @@ version="1.1" creator="togpx">
     addr:housenumber=6321/7; addr:street=Mlynská dolina;
     addr:streetnumber=7; brand=Kaufland; brand:wikidata=Q685967;
     brand:wikipedia=en:Kaufland; building=retail; name=Kaufland;
-    opening_hours=Mo-Su 07:00-22:00; shop=supermarket;
-    source=kapor2</desc>
+    opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00;
+    shop=supermarket; source=kapor2</desc>
   </wpt>
   <wpt lat="48.0150857" lon="17.800498621604937">
     <ele>110</ele>
@@ -11404,8 +11457,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bratislava; addr:conscriptionnumber=13688;
     addr:country=SK; addr:housenumber=13688/46A; addr:postcode=831
     04; addr:street=Tomášikova; addr:streetnumber=46A;
-    addr:suburb=III; building=retail; building:levels=2; name=yeme;
-    opening_hours=Mo-Su 07:00-21:00; organic=yes; shop=supermarket;
+    addr:suburb=Nové Mesto; building=retail; building:levels=2;
+    name=yeme; opening_hours=Mo-Su 07:00-21:00; organic=yes;
+    ref:minvskaddress=10709435; shop=supermarket;
+    source:addr=minvskaddress 2021-10;
     website=https://www.yeme.sk/</desc>
   </wpt>
   <wpt lat="48.657884749999994" lon="17.022649112869694">
@@ -11564,6 +11619,12 @@ version="1.1" creator="togpx">
     <name>COOP Jednota</name>
     <desc>building=yes; name=COOP Jednota; shop=supermarket</desc>
   </wpt>
+  <wpt lat="47.790039050000004" lon="18.601498490699136">
+    <ele>112</ele>
+    <name>COOP Jednota</name>
+    <desc>name=COOP Jednota; operator=COOP Jednota Slovensko;
+    shop=supermarket; source=kapor2</desc>
+  </wpt>
   <wpt lat="48.6508633" lon="20.525438140205775">
     <ele>282</ele>
     <name>Kaufland</name>
@@ -11683,7 +11744,7 @@ version="1.1" creator="togpx">
     <ele>147</ele>
     <name>Lidl</name>
     <desc>addr:city=Bratislava; addr:conscriptionnumber=9920;
-    addr:country=SK; addr:housenumber=2C; addr:postcode=83152;
+    addr:country=SK; addr:housenumber=2C; addr:postcode=831 52;
     addr:street=Pekná cesta; addr:streetnumber=2; building=retail;
     building:levels=1; name=Lidl; opening_hours=Mo-Sa 07:00-21:00,
     Su 08:00-21:00; operator=Lidl; shop=supermarket</desc>
@@ -12092,12 +12153,12 @@ version="1.1" creator="togpx">
     shop=supermarket; start_date=2020-10-16; stroller=yes;
     website=https://www.freshobchod.sk/; wheelchair=yes</desc>
   </wpt>
-  <wpt lat="48.76401755" lon="17.826650671421813">
+  <wpt lat="48.76409605" lon="17.826511881655357">
     <ele>199</ele>
     <name>Lidl</name>
     <desc>brand=Lidl; brand:wikidata=Q151954;
     brand:wikipedia=en:Lidl; building=yes; building:levels=1;
-    name=Lidl; shop=supermarket</desc>
+    name=Lidl; shop=supermarket; source=kapor2</desc>
   </wpt>
   <wpt lat="49.313079349999995" lon="21.57191699862703">
     <ele>239</ele>
@@ -12185,6 +12246,22 @@ version="1.1" creator="togpx">
     <name>Stopshop S1</name>
     <desc>building=yes; name=Stopshop S1; shop=supermarket;
     source=kapor2</desc>
+  </wpt>
+  <wpt lat="49.00611915" lon="21.542794154870123">
+    <ele>179</ele>
+    <name>way/992263880</name>
+    <desc>brand=CBA; building=yes; shop=supermarket</desc>
+  </wpt>
+  <wpt lat="48.20746525" lon="17.01717066162823">
+    <ele>160</ele>
+    <name>Kaufland</name>
+    <desc>brand=Kaufland; brand:wikidata=Q685967;
+    brand:wikipedia=en:Kaufland; building=yes; building:levels=0;
+    name=Kaufland; opening_hours=Mo-Sa 07:00-21:00, Su 08:00-20:00;
+    opening_hours:covid19=same; payment:cash=yes;
+    payment:debit_cards=yes; payment:mastercard=yes;
+    payment:visa=yes; shop=supermarket;
+    website=https://www.kaufland.sk/</desc>
   </wpt>
   <trk>
     <name>OC Budúcnosť</name>
@@ -13896,7 +13973,8 @@ version="1.1" creator="togpx">
   <trk>
     <name>Billa</name>
     <trkseg>
-      <trkpt lat="47.7929683" lon="18.7184537"></trkpt>
+      <trkpt lat="47.7929682" lon="18.7184537"></trkpt>
+      <trkpt lat="47.7930883" lon="18.7181945"></trkpt>
       <trkpt lat="47.7930936" lon="18.7181837"></trkpt>
       <trkpt lat="47.7927334" lon="18.7178193"></trkpt>
       <trkpt lat="47.7926596" lon="18.7179778"></trkpt>
@@ -13905,7 +13983,7 @@ version="1.1" creator="togpx">
       <trkpt lat="47.7925687" lon="18.7179865"></trkpt>
       <trkpt lat="47.7925495" lon="18.7180291"></trkpt>
       <trkpt lat="47.7925568" lon="18.718037"></trkpt>
-      <trkpt lat="47.7929683" lon="18.7184537"></trkpt>
+      <trkpt lat="47.7929682" lon="18.7184537"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14955,14 +15033,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Kaufland</name>
     <trkseg>
-      <trkpt lat="48.5535068" lon="18.1737541"></trkpt>
-      <trkpt lat="48.5534374" lon="18.1739042"></trkpt>
-      <trkpt lat="48.5534762" lon="18.1739464"></trkpt>
-      <trkpt lat="48.5532981" lon="18.1743296"></trkpt>
-      <trkpt lat="48.553944" lon="18.1750086"></trkpt>
-      <trkpt lat="48.5541917" lon="18.174473"></trkpt>
-      <trkpt lat="48.5541143" lon="18.1743918"></trkpt>
-      <trkpt lat="48.5535068" lon="18.1737541"></trkpt>
+      <trkpt lat="48.5536042" lon="18.1738552"></trkpt>
+      <trkpt lat="48.5534326" lon="18.1736772"></trkpt>
+      <trkpt lat="48.553284" lon="18.1739968"></trkpt>
+      <trkpt lat="48.5533968" lon="18.1741136"></trkpt>
+      <trkpt lat="48.5532988" lon="18.1743297"></trkpt>
+      <trkpt lat="48.553944" lon="18.1750077"></trkpt>
+      <trkpt lat="48.554259" lon="18.1743276"></trkpt>
+      <trkpt lat="48.5540524" lon="18.1741104"></trkpt>
+      <trkpt lat="48.5540262" lon="18.1741661"></trkpt>
+      <trkpt lat="48.5536453" lon="18.1737648"></trkpt>
+      <trkpt lat="48.5536042" lon="18.1738552"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16448,62 +16529,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Metro</name>
-    <trkseg>
-      <trkpt lat="48.2120234" lon="17.0134053"></trkpt>
-      <trkpt lat="48.2120262" lon="17.0134125"></trkpt>
-      <trkpt lat="48.2122441" lon="17.0140343"></trkpt>
-      <trkpt lat="48.2122131" lon="17.0140602"></trkpt>
-      <trkpt lat="48.2122684" lon="17.0142199"></trkpt>
-      <trkpt lat="48.2123003" lon="17.0143121"></trkpt>
-      <trkpt lat="48.2123326" lon="17.014287"></trkpt>
-      <trkpt lat="48.2123733" lon="17.0144024"></trkpt>
-      <trkpt lat="48.2125096" lon="17.0147923"></trkpt>
-      <trkpt lat="48.2125117" lon="17.0147904"></trkpt>
-      <trkpt lat="48.2130801" lon="17.0143454"></trkpt>
-      <trkpt lat="48.2131011" lon="17.0144047"></trkpt>
-      <trkpt lat="48.2127355" lon="17.0146908"></trkpt>
-      <trkpt lat="48.2127973" lon="17.0148665"></trkpt>
-      <trkpt lat="48.2128069" lon="17.014893"></trkpt>
-      <trkpt lat="48.2128322" lon="17.0149651"></trkpt>
-      <trkpt lat="48.2132323" lon="17.0146526"></trkpt>
-      <trkpt lat="48.2132518" lon="17.0147054"></trkpt>
-      <trkpt lat="48.2132575" lon="17.014724"></trkpt>
-      <trkpt lat="48.2132606" lon="17.0147209"></trkpt>
-      <trkpt lat="48.2135138" lon="17.0145223"></trkpt>
-      <trkpt lat="48.2135202" lon="17.0145179"></trkpt>
-      <trkpt lat="48.2134585" lon="17.0143431"></trkpt>
-      <trkpt lat="48.2134388" lon="17.0142861"></trkpt>
-      <trkpt lat="48.2134373" lon="17.0142805"></trkpt>
-      <trkpt lat="48.2133096" lon="17.0143803"></trkpt>
-      <trkpt lat="48.2132717" lon="17.0142712"></trkpt>
-      <trkpt lat="48.2132502" lon="17.014288"></trkpt>
-      <trkpt lat="48.2132292" lon="17.0142286"></trkpt>
-      <trkpt lat="48.2132656" lon="17.0142002"></trkpt>
-      <trkpt lat="48.213177" lon="17.013946"></trkpt>
-      <trkpt lat="48.2130911" lon="17.0136988"></trkpt>
-      <trkpt lat="48.2131158" lon="17.0136797"></trkpt>
-      <trkpt lat="48.213068" lon="17.0135425"></trkpt>
-      <trkpt lat="48.2130422" lon="17.0135626"></trkpt>
-      <trkpt lat="48.2128075" lon="17.0128918"></trkpt>
-      <trkpt lat="48.2128718" lon="17.0128414"></trkpt>
-      <trkpt lat="48.2128001" lon="17.0126368"></trkpt>
-      <trkpt lat="48.2125052" lon="17.0128672"></trkpt>
-      <trkpt lat="48.2125053" lon="17.0128681"></trkpt>
-      <trkpt lat="48.212549" lon="17.012994"></trkpt>
-      <trkpt lat="48.2122958" lon="17.0131918"></trkpt>
-      <trkpt lat="48.212269" lon="17.0131139"></trkpt>
-      <trkpt lat="48.2122133" lon="17.0131581"></trkpt>
-      <trkpt lat="48.2122004" lon="17.0131677"></trkpt>
-      <trkpt lat="48.2122099" lon="17.0132245"></trkpt>
-      <trkpt lat="48.212166" lon="17.0132592"></trkpt>
-      <trkpt lat="48.2121757" lon="17.0132865"></trkpt>
-      <trkpt lat="48.2120728" lon="17.0133673"></trkpt>
-      <trkpt lat="48.2120267" lon="17.0134032"></trkpt>
-      <trkpt lat="48.2120234" lon="17.0134053"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>COOP Jednota</name>
     <trkseg>
       <trkpt lat="48.2550761" lon="17.8661311"></trkpt>
@@ -16771,31 +16796,6 @@ version="1.1" creator="togpx">
       <trkpt lat="48.9923587" lon="21.273989"></trkpt>
       <trkpt lat="48.9923904" lon="21.2741929"></trkpt>
       <trkpt lat="48.9926282" lon="21.274103"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Tesco Hypermarket</name>
-    <trkseg>
-      <trkpt lat="48.3115491" lon="18.0697139"></trkpt>
-      <trkpt lat="48.3117109" lon="18.0698739"></trkpt>
-      <trkpt lat="48.3116909" lon="18.0699179"></trkpt>
-      <trkpt lat="48.3118801" lon="18.0701023"></trkpt>
-      <trkpt lat="48.311899" lon="18.0700583"></trkpt>
-      <trkpt lat="48.3122729" lon="18.0704255"></trkpt>
-      <trkpt lat="48.3128047" lon="18.0692083"></trkpt>
-      <trkpt lat="48.3124883" lon="18.068897"></trkpt>
-      <trkpt lat="48.31236" lon="18.0691899"></trkpt>
-      <trkpt lat="48.3120844" lon="18.0689186"></trkpt>
-      <trkpt lat="48.3121041" lon="18.0688715"></trkpt>
-      <trkpt lat="48.3119532" lon="18.0687221"></trkpt>
-      <trkpt lat="48.3120606" lon="18.0684772"></trkpt>
-      <trkpt lat="48.3118042" lon="18.0682262"></trkpt>
-      <trkpt lat="48.311676" lon="18.0685207"></trkpt>
-      <trkpt lat="48.3112724" lon="18.0694436"></trkpt>
-      <trkpt lat="48.311379" lon="18.0695479"></trkpt>
-      <trkpt lat="48.3113592" lon="18.0695941"></trkpt>
-      <trkpt lat="48.3115281" lon="18.0697603"></trkpt>
-      <trkpt lat="48.3115491" lon="18.0697139"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -18351,7 +18351,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Jednota</name>
+    <name>COOP Jednota</name>
     <trkseg>
       <trkpt lat="49.1389719" lon="20.9905084"></trkpt>
       <trkpt lat="49.1389759" lon="20.990493"></trkpt>
@@ -19471,6 +19471,7 @@ version="1.1" creator="togpx">
       <trkpt lat="48.1593941" lon="17.1743737"></trkpt>
       <trkpt lat="48.159382" lon="17.1741933"></trkpt>
       <trkpt lat="48.1594367" lon="17.1741851"></trkpt>
+      <trkpt lat="48.1594339" lon="17.1741428"></trkpt>
       <trkpt lat="48.1594292" lon="17.1740738"></trkpt>
       <trkpt lat="48.159388" lon="17.17408"></trkpt>
       <trkpt lat="48.159385" lon="17.1740357"></trkpt>
@@ -19923,15 +19924,21 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/487767240</name>
+    <name>COOP Jednota</name>
     <trkseg>
-      <trkpt lat="47.7902223" lon="18.6012987"></trkpt>
-      <trkpt lat="47.7900944" lon="18.6011874"></trkpt>
-      <trkpt lat="47.7900472" lon="18.6012866"></trkpt>
-      <trkpt lat="47.7899809" lon="18.6012359"></trkpt>
-      <trkpt lat="47.7898801" lon="18.601488"></trkpt>
-      <trkpt lat="47.790054" lon="18.6017383"></trkpt>
-      <trkpt lat="47.7902223" lon="18.6012987"></trkpt>
+      <trkpt lat="47.7900977" lon="18.6015629"></trkpt>
+      <trkpt lat="47.790205" lon="18.6014203"></trkpt>
+      <trkpt lat="47.7900909" lon="18.6012332"></trkpt>
+      <trkpt lat="47.7899985" lon="18.6013582"></trkpt>
+      <trkpt lat="47.7899723" lon="18.601394"></trkpt>
+      <trkpt lat="47.7899426" lon="18.6013462"></trkpt>
+      <trkpt lat="47.7898723" lon="18.601442"></trkpt>
+      <trkpt lat="47.7900277" lon="18.601695"></trkpt>
+      <trkpt lat="47.7900652" lon="18.6016905"></trkpt>
+      <trkpt lat="47.7900789" lon="18.601672"></trkpt>
+      <trkpt lat="47.7900504" lon="18.6016256"></trkpt>
+      <trkpt lat="47.7900641" lon="18.6016075"></trkpt>
+      <trkpt lat="47.7900977" lon="18.6015629"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -20894,11 +20901,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="48.7640908" lon="17.8261433"></trkpt>
-      <trkpt lat="48.7637263" lon="17.8269343"></trkpt>
-      <trkpt lat="48.7639443" lon="17.827162"></trkpt>
-      <trkpt lat="48.7643017" lon="17.8263671"></trkpt>
-      <trkpt lat="48.7640908" lon="17.8261433"></trkpt>
+      <trkpt lat="48.763781" lon="17.8267279"></trkpt>
+      <trkpt lat="48.7637252" lon="17.8268498"></trkpt>
+      <trkpt lat="48.7639744" lon="17.8271057"></trkpt>
+      <trkpt lat="48.7643722" lon="17.8262194"></trkpt>
+      <trkpt lat="48.7642891" lon="17.8261348"></trkpt>
+      <trkpt lat="48.7642871" lon="17.8261394"></trkpt>
+      <trkpt lat="48.7643064" lon="17.8261593"></trkpt>
+      <trkpt lat="48.7642827" lon="17.8262139"></trkpt>
+      <trkpt lat="48.7641467" lon="17.8260755"></trkpt>
+      <trkpt lat="48.7640454" lon="17.8263027"></trkpt>
+      <trkpt lat="48.7640104" lon="17.8262666"></trkpt>
+      <trkpt lat="48.7637967" lon="17.8267441"></trkpt>
+      <trkpt lat="48.763781" lon="17.8267279"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -21050,6 +21065,39 @@ version="1.1" creator="togpx">
       <trkpt lat="48.5720748" lon="19.1115872"></trkpt>
       <trkpt lat="48.5720673" lon="19.1115948"></trkpt>
       <trkpt lat="48.57206" lon="19.1116066"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/992263880</name>
+    <trkseg>
+      <trkpt lat="49.0061985" lon="21.5426135"></trkpt>
+      <trkpt lat="49.0061776" lon="21.5426617"></trkpt>
+      <trkpt lat="49.0061354" lon="21.5426192"></trkpt>
+      <trkpt lat="49.0060199" lon="21.5428853"></trkpt>
+      <trkpt lat="49.0061029" lon="21.5429691"></trkpt>
+      <trkpt lat="49.0062394" lon="21.5426547"></trkpt>
+      <trkpt lat="49.0061985" lon="21.5426135"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaufland</name>
+    <trkseg>
+      <trkpt lat="48.2079865" lon="17.0163001"></trkpt>
+      <trkpt lat="48.2070145" lon="17.0170067"></trkpt>
+      <trkpt lat="48.2069962" lon="17.017019"></trkpt>
+      <trkpt lat="48.2072464" lon="17.0178343"></trkpt>
+      <trkpt lat="48.2072658" lon="17.0178166"></trkpt>
+      <trkpt lat="48.2077005" lon="17.0174803"></trkpt>
+      <trkpt lat="48.2076647" lon="17.0173676"></trkpt>
+      <trkpt lat="48.2080758" lon="17.0170565"></trkpt>
+      <trkpt lat="48.2080624" lon="17.0170137"></trkpt>
+      <trkpt lat="48.2080186" lon="17.0168741"></trkpt>
+      <trkpt lat="48.2080651" lon="17.0168312"></trkpt>
+      <trkpt lat="48.2080079" lon="17.0166595"></trkpt>
+      <trkpt lat="48.2079614" lon="17.0166864"></trkpt>
+      <trkpt lat="48.2079042" lon="17.0165093"></trkpt>
+      <trkpt lat="48.2080294" lon="17.0164074"></trkpt>
+      <trkpt lat="48.2079865" lon="17.0163001"></trkpt>
     </trkseg>
   </trk>
 </gpx>
