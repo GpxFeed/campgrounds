@@ -9,16 +9,16 @@ The whole application is primarily intended for offline use on an old quad core 
 
 - Camping site pois
 
-    - 49037 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 49197 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are nevertheless also suitable for campers with tent etc.
 
-    - 16533 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 16616 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
-    - 206950 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 166360 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 207624 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 167066 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Countries
 
