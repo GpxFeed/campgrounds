@@ -9,16 +9,16 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
 - POIs de Camping 
 
-    - 49282 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 49340 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc.
 
-    - 16697 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 16749 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - POIs supplémentaire pour les besoins fondamentaux du campeur voyageur lui-même et de sa camionnette, sa moto avec side-car ou son bus hippie.
 
-    - 208948 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 167475 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 209734 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 167617 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Pays
 
