@@ -3,6 +3,8 @@ Alimentez vos applications de routage OFFLINE.
 # Ajustement fin - Transformez votre planificateur d'itinéraire en une application de camping hors-ligne.
 # Une collection de campings et d'emplacements pour camping-cars à télécharger en tant que "Points of Interest" / POIs au format GPX.
 
+[Télécharger ZIP](https://github.com/GpxFeed/campgrounds/archive/refs/heads/master.zip)
+
 * Lisez ceci dans d'autres langues : [Anglais](README.md), [Allemand](README.de.md), [Français](README.fr.md)
 
 L'ensemble de l'application est principalement destinée à être utilisée hors ligne sur un vieux netbook quadricœur, lorsque vous êtes sur la route au-delà d'une connexion internet utilisable ou abordable, ou dans le désert de l'internet, en cherchant pas à pas le prochain endroit magique où séjourner.
