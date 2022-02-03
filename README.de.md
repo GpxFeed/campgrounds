@@ -3,6 +3,8 @@ Füttern Sie Ihre Routing-Anwendungen OFFLINE.
 # Tune up - Verwandeln Sie Ihren Routenplaner in eine offline Camping-App.
 # Eine Sammlung von Campingplätzen und Wohnmobilstellplätzen zum Download als "Points of Interest" / POIs im GPX-Format
 
+[Download ZIP](https://github.com/GpxFeed/campgrounds/archive/refs/heads/master.zip)
+
 *Lese dies in anderen Sprachen: [Englisch](README.md), [Deutsch](README.de.md), [Französisch](README.fr.md)
 
 Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alten Quad-Core-Netbook gedacht, wenn man unterwegs jenseits einer brauchbaren oder bezahlbaren Internetverbindung oder in der Internet-Wüste unterwegs ist und Schritt für Schritt den nächsten magischen Platz zum Übernachten sucht.
