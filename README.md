@@ -3,6 +3,8 @@ Feed your routing applications OFFLINE.
 # Tune up - turn your route- / road trip planner into an offline camping app.
 # A collection of camping sites and camper supplementals for download as "Points of Interest" / POIs in the GPX format
 
+[Download ZIP](https://github.com/GpxFeed/campgrounds/archive/refs/heads/master.zip)
+
 *Read this in other languages: [English](README.md), [German](README.de.md), [French](README.fr.md)
 
 The whole application is primarily intended for offline use on an old quad core netbook while traveling on the road beyond a usable or affordable Internet connection or in the Internet desert and looking step by step for the next magic place to stay.
