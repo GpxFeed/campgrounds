@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-04-16T00:45:27Z", "timestamp_areas_base":
-      "2022-04-16T00:27:23Z", "copyright": "The data included in
+      "2022-05-08T22:56:09Z", "timestamp_areas_base":
+      "2022-05-08T22:43:00Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -66,10 +66,10 @@ version="1.1" creator="togpx">
   <wpt lat="60.488522" lon="5.377541">
     <name>Shell Haukås Nyborg</name>
     <desc>amenity=fuel; branch=Haukås Nyborg; brand=Shell;
-    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; fuel:taxfree_diesel=yes; hgv=yes;
-    name=Shell Haukås Nyborg; opening_hours=24/7; phone=+47
-    55538500; ref:st1=9144</desc>
+    brand:wikidata=Q110716465; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes;
+    fuel:taxfree_diesel=yes; hgv=yes; name=Shell Haukås Nyborg;
+    opening_hours=24/7; phone=+47 55538500; ref:st1=9144</desc>
   </wpt>
   <wpt lat="58.039477" lon="7.433563">
     <ele>20</ele>
@@ -2194,9 +2194,9 @@ version="1.1" creator="togpx">
     <ele>111</ele>
     <name>Uno-X Lillestrøm</name>
     <desc>amenity=fuel; automated=yes; branch=Lillestrøm;
-    brand=Uno-X; email=automat@unox.no; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Uno-X Lillestrøm; opening_hours=24/7;
-    ref:yx=466</desc>
+    brand=Uno-X; compressed_air=no; email=automat@unox.no;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Uno-X Lillestrøm;
+    opening_hours=24/7; ref:yx=466</desc>
   </wpt>
   <wpt lat="65.863658" lon="13.194903">
     <name>Shell Halsøy</name>
@@ -4803,9 +4803,9 @@ version="1.1" creator="togpx">
     <ele>161</ele>
     <name>Esso Tveita</name>
     <desc>amenity=fuel; branch=Tveita; brand=Esso; car_wash=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    fuel:propane=yes; name=Esso Tveita; opening_hours=24/7;
-    phone=+47 23126520; ref:esso=100115331;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; fuel:propane=yes; name=Esso Tveita;
+    opening_hours=24/7; phone=+47 23126520; ref:esso=100115331;
     trailer:rental=yes</desc>
   </wpt>
   <wpt lat="59.27202" lon="11.0835157">
@@ -8038,8 +8038,8 @@ version="1.1" creator="togpx">
     source:date=2012-04-16</desc>
     <link href="http://rinna-olje.no/"></link>
   </wpt>
-  <wpt lat="59.1246768" lon="10.2201395">
-    <ele>6</ele>
+  <wpt lat="59.1246868" lon="10.2199799">
+    <ele>7</ele>
     <name>YX Park</name>
     <desc>amenity=fuel; branch=Park; brand=YX 7-Eleven;
     email=park.711no7529@7-eleven.no; fuel:diesel=yes;
@@ -13124,7 +13124,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; branch=Nebbenes øst; brand=Shell;
     fuel:adblue=yes; fuel:diesel=yes; hgv=yes; name=Shell CRT
     Nebbenes øst; opening_hours=24/7; phone=+47 63955542;
-    ref:st1=4631</desc>
+    ref:st1=4631; wheelchair=yes</desc>
   </wpt>
   <wpt lat="59.9106042" lon="10.5614588">
     <ele>50</ele>
@@ -16257,8 +16257,8 @@ version="1.1" creator="togpx">
     fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:taxfree_diesel=yes;
     hgv=yes; name=YX Truck Hovdmoen; ref:yx=10501119</desc>
   </wpt>
-  <wpt lat="58.240075" lon="8.2989232">
-    <ele>113</ele>
+  <wpt lat="58.2400559" lon="8.2991954">
+    <ele>108</ele>
     <name>YX Truck Lillesand</name>
     <desc>amenity=fuel; branch=Lillesand; brand=YX;
     fuel:HGV_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
@@ -16615,6 +16615,12 @@ version="1.1" creator="togpx">
     brand=Tanken; fixme=please complete attributes; name=Tanken
     Nedstrand Marina; website=https://tanken.one/stasjoner/</desc>
     <link href="https://tanken.one/stasjoner/"></link>
+  </wpt>
+  <wpt lat="58.8399172" lon="5.7234444">
+    <ele>30</ele>
+    <name>node/9724938007</name>
+    <desc>amenity=fuel; brand=CirkleK; fuel:diesel=yes;
+    fuel:octane_95=yes</desc>
   </wpt>
   <wpt lat="59.514190299999996" lon="10.204788553836094">
     <ele>123</ele>
@@ -17063,11 +17069,12 @@ version="1.1" creator="togpx">
     <ele>19</ele>
     <name>Shell Storgata Larvik</name>
     <desc>TYPE=#323 Bensinstasjon; amenity=fuel; branch=Storgata
-    Larvik; brand=Shell; building=retail; car_wash=yes;
-    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Shell Storgata Larvik;
-    opening_hours=24/7; phone=+47 45235754;
-    ref:bygningsnr=163037041; ref:st1=9058; self_service=no</desc>
+    Larvik; brand=Shell; building=retail; building:levels=2;
+    car_wash=yes; fuel:HGV_diesel=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell Storgata
+    Larvik; opening_hours=24/7; phone=+47 45235754;
+    ref:bygningsnr=163037041; ref:st1=9058; roof:levels=0;
+    self_service=no</desc>
   </wpt>
   <wpt lat="60.141590449999995" lon="11.17118270522417">
     <ele>208</ele>
@@ -17776,7 +17783,6 @@ version="1.1" creator="togpx">
       <trkpt lat="59.996993" lon="11.039745"></trkpt>
       <trkpt lat="59.997046" lon="11.03985"></trkpt>
       <trkpt lat="59.99704" lon="11.039863"></trkpt>
-      <trkpt lat="59.9970534" lon="11.0398897"></trkpt>
       <trkpt lat="59.997061" lon="11.039905"></trkpt>
       <trkpt lat="59.997105" lon="11.039816"></trkpt>
       <trkpt lat="59.997113" lon="11.039831"></trkpt>
