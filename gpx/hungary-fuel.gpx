@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-05-08T23:14:24Z", "timestamp_areas_base":
-      "2022-05-08T22:43:00Z", "copyright": "The data included in
+      "2022-05-22T19:03:41Z", "timestamp_areas_base":
+      "2022-05-22T18:18:07Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1252,7 +1252,8 @@ version="1.1" creator="togpx">
     <ele>122</ele>
     <name>OIL!</name>
     <desc>addr:city=Szob; addr:housenumber=45; addr:postcode=2628;
-    addr:street=Dózsa György utca; amenity=fuel; name=OIL!</desc>
+    addr:street=Dózsa György utca; amenity=fuel; brand=OIL!;
+    brand:wikidata=Q2007561; name=OIL!</desc>
   </wpt>
   <wpt lat="46.3833887" lon="18.8153475">
     <ele>89</ele>
@@ -1724,15 +1725,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Sümeg; addr:postcode=8330; amenity=fuel;
     brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; name=Shell</desc>
-  </wpt>
-  <wpt lat="47.6957455" lon="18.7240097">
-    <ele>248</ele>
-    <name>Thiko Benzinkút</name>
-    <desc>addr:city=Csolnok; addr:conscriptionnumber=0182/3;
-    addr:housenumber=6; addr:postcode=2521; addr:street=Dorogi út;
-    amenity=fuel; brand=Thiko; fuel:octane_95=yes; name=Thiko
-    Benzinkút; opening_hours=Mo-Su 06:00-22:00; operator=THIKO
-    Kft.</desc>
   </wpt>
   <wpt lat="46.2130938" lon="19.7939254">
     <ele>113</ele>
@@ -4125,16 +4117,17 @@ version="1.1" creator="togpx">
     payment:mastercard=yes; payment:mastercard_contactless=yes;
     payment:mastercard_electronic=yes; payment:visa=yes;
     payment:visa_electron=yes; ref:HU:company=01-10-041683;
-    ref:vatin:hu=10625790-4-44; rent:lpg_bottles=yes; shop=yes;
-    source:www.mol.hu:date=2021-12-17; truck=yes;
+    ref:vatin:hu=10625790-4-44; rent:lpg_bottles=yes;
+    source=website; source:date=2021-12-17; truck=yes;
     wheelchair=yes</desc>
     <link href="https://www.mol.hu"></link>
   </wpt>
   <wpt lat="47.24141" lon="18.633233">
     <ele>121</ele>
     <name>MOL</name>
-    <desc>amenity=fuel; brand=MOL; name=MOL; operator=MOL;
-    website=https://mol.hu/; wheelchair=yes</desc>
+    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    name=MOL; operator=MOL; website=https://mol.hu/;
+    wheelchair=yes</desc>
     <link href="https://mol.hu/"></link>
   </wpt>
   <wpt lat="46.9545942" lon="18.1546941">
@@ -4158,7 +4151,7 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes</desc>
     <link href="http://www.tabol.hu"></link>
   </wpt>
-  <wpt lat="47.7382518" lon="18.1180503">
+  <wpt lat="47.7380308" lon="18.118157">
     <ele>110</ele>
     <name>OMV</name>
     <desc>addr:city=Komárom; addr:housenumber=49;
@@ -7483,8 +7476,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.7348058" lon="18.0423674">
     <ele>144</ele>
     <name>AGIP Tab</name>
-    <desc>amenity=fuel; building=yes; fixme=verify: AGIP megszűnt
-    pár éve; name=AGIP Tab; operator=TAB-OL Kft.</desc>
+    <desc>amenity=fuel; building=yes; compressed_air=yes;
+    fixme=verify: AGIP megszűnt pár éve; name=AGIP Tab;
+    operator=TAB-OL Kft.</desc>
   </wpt>
   <wpt lat="46.4664187" lon="16.985117">
     <ele>141</ele>
@@ -11503,12 +11497,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.1043912" lon="20.8143352">
     <ele>115</ele>
-    <name>CNG töltőállomás</name>
+    <name>http://mvkzrt.hu/cng-toltoallomas</name>
     <desc>addr:city=Miskolc; addr:housenumber=1;
     addr:postcode=3527; addr:street=Szondi György utca;
-    amenity=fuel; fuel:cng=yes; name=CNG töltőállomás;
-    opening_hours=24/7; operator=Miskolc Városi Közlekedési Zrt.;
-    payment:cards=yes; payment:cash=no;
+    amenity=fuel; fuel:cng=yes; opening_hours=24/7;
+    operator=Miskolc Városi Közlekedési Zrt.; payment:cards=yes;
+    payment:cash=no;
     website=http://mvkzrt.hu/cng-toltoallomas</desc>
     <link href="http://mvkzrt.hu/cng-toltoallomas"></link>
   </wpt>
@@ -11557,12 +11551,17 @@ version="1.1" creator="togpx">
     <ele>170</ele>
     <name>BGW</name>
     <desc>addr:city=Nagytarcsa; addr:postcode=2142;
-    addr:street=Naplás út; amenity=fuel; brand=BGW;
-    check_date:opening_hours=2021-11-06; fuel:adblue=yes;
-    fuel:cng=yes; fuel:diesel=yes; fuel:lpg=yes;
+    addr:street=Naplás út; amenity=fuel; architect=Hild György
+    okl.építészmérnök, 4. Csoport Építészműterem Kft.;
+    architect:en=György Hild, 4. Csoport Építészműterem LTD;
+    brand=BGW; check_date:opening_hours=2021-11-06;
+    fuel:adblue=yes; fuel:cng=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=BGW;
     opening_hours=Mo-Su 00:00-22:00; operator=BGW;
+    website=https://www.bgw.hu/hu/a-bgw-vilaga/galeria/event/nagytarcsa_toltoallomas;
     wheelchair=yes</desc>
+    <link href="https://www.bgw.hu/hu/a-bgw-vilaga/galeria/event/nagytarcsa_toltoallomas">
+    </link>
   </wpt>
   <wpt lat="46.7565786" lon="18.4040246">
     <ele>104</ele>
@@ -11768,7 +11767,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Volánbusz Zrt.; name:hu=Volánbusz
     Zrt.; operator=Volánbusz Zrt.</desc>
   </wpt>
-  <wpt lat="47.7422887" lon="18.0855982">
+  <wpt lat="47.742272" lon="18.0855538">
     <ele>117</ele>
     <name>Oil!</name>
     <desc>amenity=fuel; name=Oil!;
@@ -14438,8 +14437,8 @@ version="1.1" creator="togpx">
     payment:mastercard_electronic=yes; payment:visa=yes;
     payment:visa_electron=yes; ref:HU:company=01-10-041683;
     ref:vatin:hu=10625790-4-44; rent:lpg_bottles=yes;
-    self_service=yes; source:www.mol.hu:date=2020-09-28; truck=no;
-    name=Lipóti benzinkút</desc>
+    self_service=yes; source=website; source:date=2020-09-28;
+    truck=no; building=roof; name=Lipóti benzinkút</desc>
     <link href="https://www.mol.hu"></link>
   </wpt>
   <wpt lat="47.47466" lon="19.0843">
@@ -14732,6 +14731,12 @@ version="1.1" creator="togpx">
     <ele>106</ele>
     <name>1.</name>
     <desc>amenity=fuel; name=1.; name:hu=1. időgép</desc>
+  </wpt>
+  <wpt lat="45.856273" lon="18.2676889">
+    <ele>94</ele>
+    <name>OMV</name>
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    name=OMV</desc>
   </wpt>
   <wpt lat="47.508252150000004" lon="18.328795012617917">
     <ele>175</ele>
@@ -18491,7 +18496,7 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Balatonboglár; addr:housenumber=30;
     addr:postcode=8630; addr:street=Klapka György utca;
-    amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; building=roof;
     name=Shell; operator=Shell;
     website=https://www.shell.hu/</desc>
@@ -21126,8 +21131,9 @@ version="1.1" creator="togpx">
     <ele>121</ele>
     <name>Eco Smart CNG és üzemanyagtöltő állomás</name>
     <desc>addr:city=Göd; addr:housenumber=108; addr:postcode=2131;
-    addr:street=Nemeskéri-Kiss Miklós út; amenity=fuel; name=Eco
-    Smart CNG és üzemanyagtöltő állomás</desc>
+    addr:street=Nemeskéri-Kiss Miklós út; amenity=fuel;
+    building=roof; layer=1; name=Eco Smart CNG és üzemanyagtöltő
+    állomás</desc>
   </wpt>
   <wpt lat="46.6658499" lon="20.23625485">
     <ele>77</ele>
@@ -24597,6 +24603,15 @@ version="1.1" creator="togpx">
     wheelchair=limited</desc>
     <link href="https://www.shell.hu/"></link>
   </wpt>
+  <wpt lat="47.69575655" lon="18.724040603211222">
+    <ele>248</ele>
+    <name>Thiko Benzinkút</name>
+    <desc>addr:city=Csolnok; addr:conscriptionnumber=0182/3;
+    addr:housenumber=6; addr:postcode=2521; addr:street=Dorogi út;
+    amenity=fuel; brand=Thiko; building=yes; fuel:octane_95=yes;
+    name=Thiko Benzinkút; opening_hours=Mo-Su 06:00-22:00;
+    operator=THIKO Kft.</desc>
+  </wpt>
   <wpt lat="48.3340754" lon="21.102953154556282">
     <ele>141</ele>
     <name>MOL</name>
@@ -25867,10 +25882,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Orgovány; addr:housenumber=1;
     addr:postcode=6077; addr:street=Tóth sor; amenity=fuel;
     building=retail; compressed_air=yes; currency:HUF=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Csík Kút; name:signed=no; opening_hours=Mo-Su 05:00-21:00;
-    operator=Csík Kút Kft.; operator:addr=6077 Orgovány, Tóth sor
-    1.; payment:american_express=yes; payment:cash=yes;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    name=Csík Kút; opening_hours=Mo-Su 05:00-21:00; operator=Csík
+    Kút Kft.; operator:addr=6077 Orgovány, Tóth sor 1.;
+    payment:american_express=yes; payment:cash=yes;
     payment:contactless=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:visa=yes;
     payment:visa_debit=yes; payment:visa_electron=yes;
@@ -26309,7 +26324,7 @@ version="1.1" creator="togpx">
     website=http://www.envikut.hu</desc>
     <link href="http://www.envikut.hu"></link>
   </wpt>
-  <wpt lat="47.400549999999996" lon="21.72285708415984">
+  <wpt lat="47.4005121" lon="21.7228320252551">
     <ele>108</ele>
     <name>MOL</name>
     <desc>addr:city=Hosszúpályi; addr:housenumber=1/A;
@@ -34423,6 +34438,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Thiko Benzinkút</name>
+    <trkseg>
+      <trkpt lat="47.6957726" lon="18.7239207"></trkpt>
+      <trkpt lat="47.6957264" lon="18.7239262"></trkpt>
+      <trkpt lat="47.6957335" lon="18.7240441"></trkpt>
+      <trkpt lat="47.6957405" lon="18.7241608"></trkpt>
+      <trkpt lat="47.6957871" lon="18.7241544"></trkpt>
+      <trkpt lat="47.6957726" lon="18.7239207"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>MOL</name>
     <trkseg>
       <trkpt lat="48.3341821" lon="21.1029297"></trkpt>
@@ -35840,17 +35866,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>MOL</name>
     <trkseg>
-      <trkpt lat="47.4006481" lon="21.7229093"></trkpt>
-      <trkpt lat="47.4006335" lon="21.722887"></trkpt>
-      <trkpt lat="47.4006136" lon="21.7228566"></trkpt>
-      <trkpt lat="47.4005553" lon="21.7227676"></trkpt>
-      <trkpt lat="47.400459" lon="21.7228872"></trkpt>
-      <trkpt lat="47.4005043" lon="21.722962"></trkpt>
-      <trkpt lat="47.4005357" lon="21.7229184"></trkpt>
-      <trkpt lat="47.4005447" lon="21.722932"></trkpt>
-      <trkpt lat="47.4005668" lon="21.7229653"></trkpt>
-      <trkpt lat="47.4005872" lon="21.7229961"></trkpt>
-      <trkpt lat="47.4006481" lon="21.7229093"></trkpt>
+      <trkpt lat="47.4006176" lon="21.7229052"></trkpt>
+      <trkpt lat="47.4006028" lon="21.7228799"></trkpt>
+      <trkpt lat="47.4005852" lon="21.7228499"></trkpt>
+      <trkpt lat="47.4005206" lon="21.7227395"></trkpt>
+      <trkpt lat="47.4004226" lon="21.7228646"></trkpt>
+      <trkpt lat="47.400469" lon="21.722944"></trkpt>
+      <trkpt lat="47.4005038" lon="21.7228995"></trkpt>
+      <trkpt lat="47.4005204" lon="21.7229279"></trkpt>
+      <trkpt lat="47.4005395" lon="21.7229566"></trkpt>
+      <trkpt lat="47.4005543" lon="21.722986"></trkpt>
+      <trkpt lat="47.4006176" lon="21.7229052"></trkpt>
     </trkseg>
   </trk>
   <trk>
