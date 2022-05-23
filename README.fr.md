@@ -13,7 +13,7 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
     - 49859 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
-- POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc.
+- POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc. <br><br>Sur environ 1500 aires de camping-cars françaises, le nom de l'aire est malheureusement - "Parking jour uniquement". Le nom dit tout.
 
     - 33343 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
