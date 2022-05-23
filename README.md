@@ -13,7 +13,7 @@ The whole application is primarily intended for offline use on an old quad core 
 
     - 49859 camping sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
-- Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are nevertheless also suitable for campers with tent etc.
+- Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are nevertheless also suitable for campers with tent etc. <br><br>With approx. 1500 French caravan sites, the site name unfortunately appears as - "Parking jour uniquement" = "Daytime parking only". The name says it all.
 
     - 33343 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
