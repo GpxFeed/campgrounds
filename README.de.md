@@ -13,7 +13,7 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
     - 49859 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
-- Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
+- Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet. <br><br>Bei ca. 1500 französischen Wohnmobilstellplätzen erscheint leider als Platzname - "Parking jour uniquement" = "Parken nur tagsüber". Der Name sagt alles.
 
     - 33343 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
