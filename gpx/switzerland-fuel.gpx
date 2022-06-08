@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-05-22T19:41:11Z", "timestamp_areas_base":
-      "2022-05-22T19:19:00Z", "copyright": "The data included in
+      "2022-06-08T10:31:25Z", "timestamp_areas_base":
+      "2022-06-08T08:34:58Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -388,8 +388,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=320;
     addr:postcode=8038; addr:street=Mythenquai; amenity=fuel;
     branch=Zürich Wollishofen; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=BP Service Wollishofen</desc>
+    brand:wikipedia=en:BP; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=BP Service
+    Wollishofen</desc>
   </wpt>
   <wpt lat="47.5278765" lon="7.7003458">
     <ele>271</ele>
@@ -844,7 +845,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.9715346" lon="9.5514028">
     <ele>517</ele>
     <name>Coop</name>
-    <desc>amenity=fuel; name=Coop; wheelchair=yes</desc>
+    <desc>amenity=fuel; compressed_air=yes; name=Coop;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="47.2365959" lon="7.2824556">
     <ele>695</ele>
@@ -1282,8 +1284,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.4832546" lon="7.5461208">
     <ele>326</ele>
     <name>AVIA</name>
-    <desc>amenity=fuel; created_by=Potlatch 0.9c; name=AVIA;
-    opening_hours=24/7</desc>
+    <desc>amenity=fuel; brand=Avia; brand:wikidata=Q300147;
+    name=AVIA; opening_hours=24/7</desc>
   </wpt>
   <wpt lat="47.2130312" lon="8.3638034">
     <ele>497</ele>
@@ -1381,9 +1383,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Jona; addr:housenumber=84; addr:postcode=8645;
     addr:street=St. Gallerstrasse; amenity=fuel; branch=Jona;
     brand=Socar; brand:wikidata=Q1622293; brand:wikipedia=en:SOCAR;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=SOCAR Jona; operator=SOCAR Energy Switzerland;
-    website=https://www.socarenergy.ch/</desc>
+    compressed_air=no; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=SOCAR Jona; operator=SOCAR Energy
+    Switzerland; website=https://www.socarenergy.ch/</desc>
     <link href="https://www.socarenergy.ch/"></link>
   </wpt>
   <wpt lat="47.2969613" lon="8.8398837">
@@ -1652,7 +1654,7 @@ version="1.1" creator="togpx">
     <ele>306</ele>
     <name>Avia</name>
     <desc>amenity=fuel; brand=Avia; brand:wikidata=Q300147;
-    name=Avia; operator=Avia</desc>
+    compressed_air=yes; name=Avia; operator=Avia</desc>
   </wpt>
   <wpt lat="46.7680292" lon="7.3523004">
     <ele>1096</ele>
@@ -2064,7 +2066,7 @@ version="1.1" creator="togpx">
     <name>SOCAR Buchs ZH</name>
     <desc>addr:city=Buchs ZH; addr:housenumber=2;
     addr:postcode=8107; addr:street=Eichstrasse; amenity=fuel;
-    branch=Buchs ZH; brand=SOCAR; brand:wikidata=Q1622293;
+    branch=Buchs ZH; brand=Socar; brand:wikidata=Q1622293;
     name=SOCAR Buchs ZH; opening_hours=24/7; operator=SOCAR Energy
     Switzerland; shop=no;
     website=https://www.socarenergy.ch/</desc>
@@ -2634,12 +2636,12 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
     brand:wikipedia=en:BP; name=BP; operator=BP</desc>
   </wpt>
-  <wpt lat="47.420659" lon="9.367181">
+  <wpt lat="47.4206438" lon="9.36708">
     <ele>673</ele>
     <name>socar</name>
-    <desc>amenity=fuel; brand=Socar; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; maxheight=3.5;
-    name=socar; shop=convenience</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    maxheight=3.5; name=socar; shop=convenience</desc>
   </wpt>
   <wpt lat="46.4897328" lon="6.3989245">
     <ele>464</ele>
@@ -2695,13 +2697,6 @@ version="1.1" creator="togpx">
     website=https://www.migrol.ch/de/</desc>
     <link href="https://www.migrol.ch/de/"></link>
   </wpt>
-  <wpt lat="47.134248" lon="8.0455809">
-    <ele>531</ele>
-    <name>Agrola</name>
-    <desc>amenity=fuel; brand=Agrola; brand:wikidata=Q397351;
-    brand:wikipedia=de:Agrola; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Agrola; operator=LANDI Rottal</desc>
-  </wpt>
   <wpt lat="47.49898" lon="8.7927573">
     <ele>474</ele>
     <name>AVIA</name>
@@ -2712,9 +2707,9 @@ version="1.1" creator="togpx">
     <name>Tamoil</name>
     <desc>amenity=fuel; automated=yes; branch=Zürich
     Scheuchzerstrasse; brand=Tamoil; brand:wikidata=Q706793;
-    capacity=1; fuel:diesel=yes; fuel:octane_95=yes; name=Tamoil;
-    opening_hours=24/7; self_service=yes; shop=no;
-    wheelchair=yes</desc>
+    capacity=1; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Tamoil; opening_hours=24/7;
+    self_service=yes; shop=no; wheelchair=yes</desc>
   </wpt>
   <wpt lat="47.1758326" lon="8.451709">
     <ele>416</ele>
@@ -4764,8 +4759,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.0103939" lon="8.9543075">
     <ele>284</ele>
-    <name>AGIP</name>
-    <desc>amenity=fuel; name=AGIP</desc>
+    <name>Agip</name>
+    <desc>amenity=fuel; brand=Agip; brand:wikidata=Q377915;
+    name=Agip</desc>
   </wpt>
   <wpt lat="46.006899" lon="8.9498052">
     <ele>308</ele>
@@ -4982,7 +4978,7 @@ version="1.1" creator="togpx">
     <ele>773</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; name=BP</desc>
+    brand:wikipedia=en:BP; compressed_air=yes; name=BP</desc>
   </wpt>
   <wpt lat="47.5117553" lon="7.7239716">
     <ele>283</ele>
@@ -5170,7 +5166,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.0144151" lon="9.496763">
     <ele>496</ele>
     <name>Ruedi Rüssel</name>
-    <desc>amenity=fuel; name=Ruedi Rüssel</desc>
+    <desc>amenity=fuel; brand=Ruedi Rüssel;
+    brand:wikidata=Q111725154; name=Ruedi Rüssel</desc>
   </wpt>
   <wpt lat="46.0824025" lon="7.2072406">
     <ele>812</ele>
@@ -5458,8 +5455,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.6177086" lon="8.5659455">
     <ele>1499</ele>
     <name>Hubrol</name>
-    <desc>amenity=fuel; fuel:diesel=yes; name=Hubrol;
-    opening_hours=24/7 "mit Karte"; operator=Hubrol</desc>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Hubrol; opening_hours=24/7; operator=Hubrol;
+    self_service=yes; vending_machine=fuel</desc>
   </wpt>
   <wpt lat="47.5872586" lon="8.2944504">
     <ele>343</ele>
@@ -6040,8 +6038,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.4638514" lon="9.1873904">
     <ele>1634</ele>
     <name>Socar</name>
-    <desc>amenity=fuel; brand=Socar; name=Socar;
-    name:de=Socar</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    name=Socar; name:de=Socar</desc>
   </wpt>
   <wpt lat="45.850212" lon="8.9849412">
     <ele>323</ele>
@@ -6354,9 +6352,9 @@ version="1.1" creator="togpx">
     <ele>409</ele>
     <name>BP Emil Frey Altstetten</name>
     <desc>amenity=fuel; branch=Emil Frey Autohaus Altstetten;
-    brand=BP; brand:wikidata=Q152057; fuel:diesel=yes;
-    fuel:octane_95=yes; name=BP Emil Frey Altstetten;
-    shop=no</desc>
+    brand=BP; brand:wikidata=Q152057; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; name=BP Emil Frey
+    Altstetten; shop=no</desc>
   </wpt>
   <wpt lat="47.2747939" lon="8.8257725">
     <ele>510</ele>
@@ -6399,8 +6397,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.2247827" lon="9.0431641">
     <ele>240</ele>
     <name>Agip</name>
-    <desc>amenity=fuel; fixme=Please check name and brand. Agip
-    becomes Eni. See
+    <desc>amenity=fuel; brand=Agip; brand:wikidata=Q377915;
+    fixme=Please check name and brand. Agip becomes Eni. See
     http://lists.openstreetmap.ch/pipermail/talk-ch/2019-January/009849.html
     for (german) discussion.; fuel:lpg=yes; name=Agip;
     shop=kiosk</desc>
@@ -6450,8 +6448,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.1676604" lon="8.7785537">
     <ele>223</ele>
     <name>Eni</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Eni; operator=City; shop=kiosk</desc>
+    <desc>amenity=fuel; brand=Eni; brand:wikidata=Q565594;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Eni; operator=City; shop=kiosk</desc>
   </wpt>
   <wpt lat="46.1636698" lon="8.7738914">
     <ele>213</ele>
@@ -6533,7 +6532,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.6896573" lon="9.5619857">
     <ele>1371</ele>
     <name>Migrol</name>
-    <desc>amenity=fuel; name=Migrol</desc>
+    <desc>amenity=fuel; brand=Migrol; brand:wikidata=Q1747771;
+    name=Migrol</desc>
   </wpt>
   <wpt lat="46.8269841" lon="6.4966911">
     <ele>1133</ele>
@@ -7050,7 +7050,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.3951648" lon="8.6552844">
     <ele>756</ele>
     <name>node/939637420</name>
-    <desc>amenity=fuel</desc>
+    <desc>amenity=fuel; compressed_air=no</desc>
   </wpt>
   <wpt lat="47.5318693" lon="7.6117466">
     <ele>285</ele>
@@ -7411,7 +7411,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.2470406" lon="7.8767964">
     <ele>693</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; fuel:GTL_diesel=yes;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Shell; operator=shell</desc>
@@ -7617,13 +7617,16 @@ version="1.1" creator="togpx">
   <wpt lat="46.7053845" lon="8.5990383">
     <ele>925</ele>
     <name>Ruedi Rüssel</name>
-    <desc>amenity=fuel; name=Ruedi Rüssel</desc>
+    <desc>amenity=fuel; brand=Ruedi Rüssel;
+    brand:wikidata=Q111725154; name=Ruedi Rüssel; self_service=yes;
+    vending_machine=fuel</desc>
   </wpt>
   <wpt lat="46.7075548" lon="8.6004224">
     <ele>907</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; name=Shell</desc>
+    brand:wikipedia=en:Royal Dutch Shell; name=Shell;
+    operator=Shell; self_service=yes; vending_machine=fuel</desc>
   </wpt>
   <wpt lat="46.1991678" lon="9.0289357">
     <ele>230</ele>
@@ -7644,7 +7647,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.8325723" lon="9.4451452">
     <ele>586</ele>
     <name>Ruedi Rüssel</name>
-    <desc>amenity=fuel; name=Ruedi Rüssel</desc>
+    <desc>amenity=fuel; brand=Ruedi Rüssel;
+    brand:wikidata=Q111725154; name=Ruedi Rüssel</desc>
   </wpt>
   <wpt lat="45.8742448" lon="8.9398081">
     <ele>501</ele>
@@ -7730,7 +7734,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes</desc>
   </wpt>
-  <wpt lat="46.9020251" lon="8.6233247">
+  <wpt lat="46.9019808" lon="8.6231533">
     <ele>432</ele>
     <name>Bootstankstelle</name>
     <desc>amenity=fuel; name=Bootstankstelle;
@@ -8019,8 +8023,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.1927088" lon="8.7186248">
     <ele>544</ele>
     <name>Power Station Niederberger</name>
-    <desc>amenity=fuel; brand=Independent; name=Power Station
-    Niederberger; opening_hours=24/7; shop=no</desc>
+    <desc>amenity=fuel; brand=Independent; compressed_air=yes;
+    name=Power Station Niederberger; opening_hours=24/7;
+    shop=no</desc>
   </wpt>
   <wpt lat="47.4252829" lon="8.7441568">
     <ele>601</ele>
@@ -8586,9 +8591,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Genève; addr:postcode=1209; addr:street=Chemin
     du Petit-Saconnex; amenity=fuel; brand=Tamoil;
     brand:wikidata=Q706793; brand:wikipedia=en:Tamoil;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Tamoil; note=Fresh baked bread, Ice in bags;
-    opening_hours=Mo-Su 06:00-22:00; operator=Tamoil</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Tamoil; note=Fresh baked bread, Ice in
+    bags; opening_hours=Mo-Su 06:00-22:00; operator=Tamoil</desc>
   </wpt>
   <wpt lat="46.2237738" lon="6.131151">
     <ele>449</ele>
@@ -8596,9 +8601,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Genève; addr:housenumber=5; addr:postcode=1209;
     addr:street=Chemin du Petit-Saconnex; amenity=fuel;
     brand=Shell; brand:wikidata=Q154950; brand:wikipedia=en:Royal
-    Dutch Shell; fuel:biodiesel=no; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Parc-de-Budé; opening_hours=Mo-Su
-    06:00-21:00; operator=Shell</desc>
+    Dutch Shell; compressed_air=no; fuel:biodiesel=no;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Parc-de-Budé;
+    opening_hours=Mo-Su 06:00-21:00; operator=Shell</desc>
   </wpt>
   <wpt lat="47.559441" lon="8.05761">
     <ele>318</ele>
@@ -9152,8 +9157,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.5797861" lon="8.612637">
     <ele>357</ele>
-    <name>node/1768343014</name>
-    <desc>amenity=fuel; brand=BP</desc>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    name=BP</desc>
   </wpt>
   <wpt lat="47.533994" lon="9.3463656">
     <ele>446</ele>
@@ -9517,12 +9523,14 @@ version="1.1" creator="togpx">
     <ele>422</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; name=Shell</desc>
+    brand:wikipedia=en:Royal Dutch Shell; compressed_air=yes;
+    name=Shell</desc>
   </wpt>
   <wpt lat="47.4370715" lon="8.2916991">
     <ele>427</ele>
     <name>node/1835614800</name>
-    <desc>amenity=fuel; wheelchair=limited</desc>
+    <desc>amenity=fuel; compressed_air=no;
+    wheelchair=limited</desc>
   </wpt>
   <wpt lat="47.4440522" lon="9.0689804">
     <ele>544</ele>
@@ -9534,11 +9542,11 @@ version="1.1" creator="togpx">
     <name>node/1842989342</name>
     <desc>amenity=fuel; brand=Avia; opening_hours=24/7</desc>
   </wpt>
-  <wpt lat="47.5777194" lon="8.9747771">
+  <wpt lat="47.5777503" lon="8.9746831">
     <ele>402</ele>
     <name>Garage Debrunner</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Garage Debrunner</desc>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; name=Garage Debrunner</desc>
   </wpt>
   <wpt lat="47.6950212" lon="8.5830796">
     <ele>440</ele>
@@ -10049,7 +10057,7 @@ version="1.1" creator="togpx">
     brand=Migrol; brand:wikidata=Q1747771;
     brand:wikipedia=de:Migrol; name=Migrol Tankstelle Glarus;
     opening_hours=24/7; operator=Migrol; self_service=yes; shop=no;
-    website=https://www.migrol.ch/de/</desc>
+    vending_machine=fuel; website=https://www.migrol.ch/de/</desc>
     <link href="https://www.migrol.ch/de/"></link>
   </wpt>
   <wpt lat="47.1546586" lon="7.0145577">
@@ -11089,8 +11097,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.1549808" lon="8.7717833">
     <ele>208</ele>
     <name>Piccadilly</name>
-    <desc>amenity=fuel; brand=SOCAR; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Piccadilly</desc>
+    <desc>amenity=fuel; brand=SOCAR; brand:wikidata=Q1622293;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Piccadilly</desc>
   </wpt>
   <wpt lat="46.4629113" lon="7.1010222">
     <ele>904</ele>
@@ -11208,21 +11216,23 @@ version="1.1" creator="togpx">
     <desc>addr:city=Luzern; addr:postcode=6014; amenity=fuel;
     operator=BP</desc>
   </wpt>
-  <wpt lat="47.6096247" lon="8.5339869">
+  <wpt lat="47.6096267" lon="8.5340093">
     <ele>413</ele>
-    <name>Wesag Auto AG</name>
+    <name>Avia Wesag Auto AG</name>
     <desc>addr:city=Rafz; addr:postcode=8197; addr:street=Badener
-    Landstrasse; amenity=fuel; building=yes; email=info@wesag.ch;
-    name=Wesag Auto AG; operator=Wesag Auto AG; phone=+41 44 869 03
-    33; website=https://www.wesag.ch/</desc>
+    Landstrasse; amenity=fuel; brand=Avia; brand:wikidata=Q300147;
+    building=yes; compressed_air=yes; email=info@wesag.ch;
+    name=Avia Wesag Auto AG; operator=Wesag Auto AG; phone=+41 44
+    869 03 33; website=https://www.wesag.ch/</desc>
     <link href="https://www.wesag.ch/"></link>
   </wpt>
   <wpt lat="47.6110084" lon="8.5396384">
     <ele>418</ele>
-    <name>Tamoil</name>
+    <name>Tamoil Garage Sigrist</name>
     <desc>addr:city=Rafz; addr:postcode=8197;
-    addr:street=Landstrasse; amenity=fuel; building=yes;
-    name=Tamoil; operator=Tamoil</desc>
+    addr:street=Landstrasse; amenity=fuel; brand=Tamoil;
+    brand:wikidata=Q706793; building=yes; compressed_air=yes;
+    name=Tamoil Garage Sigrist; operator=Tamoil</desc>
   </wpt>
   <wpt lat="46.2254452" lon="6.1082473">
     <ele>423</ele>
@@ -11989,7 +11999,7 @@ version="1.1" creator="togpx">
     <name>Garage H. Widmer</name>
     <desc>amenity=fuel; name=Garage H. Widmer</desc>
   </wpt>
-  <wpt lat="46.2784295" lon="6.9330649">
+  <wpt lat="46.2784661" lon="6.9328956">
     <ele>397</ele>
     <name>Combustia</name>
     <desc>amenity=fuel; operator=Combustia</desc>
@@ -12240,7 +12250,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.1670288" lon="8.7897479">
     <ele>216</ele>
     <name>Socar</name>
-    <desc>amenity=fuel; brand=Socar; name=Socar</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    name=Socar</desc>
   </wpt>
   <wpt lat="46.5922794" lon="6.4030194">
     <ele>662</ele>
@@ -12764,7 +12775,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bühler; addr:housenumber=105;
     addr:street=Dorfstrasse; amenity=fuel; brand=Migrol;
     brand:wikidata=Q1747771; brand:wikipedia=de:Migrol;
-    name=Migrol</desc>
+    compressed_air=yes; name=Migrol</desc>
   </wpt>
   <wpt lat="47.3255258" lon="9.5680812">
     <ele>421</ele>
@@ -13147,8 +13158,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.0704895" lon="9.4780094">
     <ele>481</ele>
-    <name>AGROLA</name>
-    <desc>amenity=fuel; name=AGROLA</desc>
+    <name>Agrola</name>
+    <desc>amenity=fuel; brand=Agrola; brand:wikidata=Q397351;
+    name=Agrola</desc>
   </wpt>
   <wpt lat="46.2482565" lon="6.9549637">
     <ele>416</ele>
@@ -13203,8 +13215,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.1644166" lon="8.7680468">
     <ele>222</ele>
     <name>BP</name>
-    <desc>amenity=fuel; brand=BP; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=BP</desc>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=BP</desc>
   </wpt>
   <wpt lat="47.4047294" lon="8.052012">
     <ele>375</ele>
@@ -13518,13 +13531,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
     name=Tamoil</desc>
   </wpt>
-  <wpt lat="46.619899" lon="7.1626794">
+  <wpt lat="46.6198732" lon="7.1626533">
     <ele>884</ele>
     <name>Tamoil</name>
     <desc>addr:housenumber=11; addr:street=Rue du Centre;
     amenity=fuel; brand=Tamoil; brand:wikidata=Q706793;
     brand:wikipedia=en:Tamoil; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Tamoil</desc>
+    name=Tamoil; self_service=yes</desc>
   </wpt>
   <wpt lat="47.0513078" lon="8.2726018">
     <ele>497</ele>
@@ -13675,12 +13688,14 @@ version="1.1" creator="togpx">
   <wpt lat="46.8727696" lon="9.5344012">
     <ele>575</ele>
     <name>Socar</name>
-    <desc>amenity=fuel; name=Socar; shop=convenience</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    name=Socar; shop=convenience</desc>
   </wpt>
   <wpt lat="46.8728691" lon="9.5340214">
     <ele>569</ele>
     <name>Socar</name>
-    <desc>amenity=fuel; name=Socar; shop=convenience</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    name=Socar; shop=convenience</desc>
   </wpt>
   <wpt lat="46.65885" lon="7.4948946">
     <ele>759</ele>
@@ -13771,9 +13786,10 @@ version="1.1" creator="togpx">
   <wpt lat="47.4478363" lon="9.5099862">
     <ele>808</ele>
     <name>node/3913188274</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=no; opening_hours=24/7; payment:cash=yes;
-    payment:credit_cards=yes; payment:debit_cards=yes</desc>
+    <desc>amenity=fuel; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=no; opening_hours=24/7;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes</desc>
   </wpt>
   <wpt lat="47.2616911" lon="9.041978">
     <ele>797</ele>
@@ -14402,9 +14418,10 @@ version="1.1" creator="togpx">
     <name>BEBECO</name>
     <desc>addr:city=Chur; addr:country=CH; addr:housenumber=108;
     addr:postcode=7007; addr:street=Kasernenstrasse; amenity=fuel;
-    brand=BEBECO; fuel:diesel=yes; fuel:octane_95=yes; name=BEBECO;
-    opening_hours=Mo-Fr 07:30-11:45, 13:30-16:45;
-    operator=Schweizer Armee; payment:bebeco=yes;
+    brand=BEBECO; brand:wikidata=Q62274373; fuel:diesel=yes;
+    fuel:octane_95=yes; name=BEBECO; opening_hours=Mo-Fr
+    07:30-11:45,13:30-16:45; operator=Schweizer Armee;
+    payment:bebeco=yes;
     url=http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_graub_nden/7007_chur_zentrum.html</desc>
     <link href="http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_graub_nden/7007_chur_zentrum.html">
     </link>
@@ -14426,8 +14443,8 @@ version="1.1" creator="togpx">
     <name>BEBECO</name>
     <desc>access=private; addr:city=Hinterrhein;
     addr:postcode=7438; amenity=fuel; brand=BEBECO;
-    fuel:diesel=yes; fuel:octane_95=yes; name=BEBECO;
-    opening_hours=24/7; operator=Schweizer Armee;
+    brand:wikidata=Q62274373; fuel:diesel=yes; fuel:octane_95=yes;
+    name=BEBECO; opening_hours=24/7; operator=Schweizer Armee;
     payment:bebeco=yes;
     url=http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_graub_nden/7438_hinterrhein.html</desc>
     <link href="http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_graub_nden/7438_hinterrhein.html">
@@ -14485,7 +14502,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bellinzona; addr:postcode=6501; amenity=fuel;
     brand=BEBECO; brand:wikidata=Q62274373; fuel:diesel=yes;
     fuel:octane_95=yes; name=BEBECO; opening_hours=Mo-Fr
-    07:30-11:45, 13:30-16:45; operator=Schweizer Armee;
+    07:30-11:45,13:30-16:45; operator=Schweizer Armee;
     payment:bebeco=yes;
     url=http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_tessin/6501_bellinzona.html</desc>
     <link href="http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_tessin/6501_bellinzona.html">
@@ -14506,9 +14523,10 @@ version="1.1" creator="togpx">
     <ele>199</ele>
     <name>BEBECO</name>
     <desc>addr:city=Riazzino; addr:postcode=6595; amenity=fuel;
-    brand=BEBECO; fixme=check/adjust position; fuel:diesel=yes;
-    fuel:octane_95=yes; name=BEBECO; opening_hours=Mo-Fr
-    06:00-20:00; operator=Schweizer Armee; payment:bebeco=yes;
+    brand=BEBECO; brand:wikidata=Q62274373; fixme=check/adjust
+    position; fuel:diesel=yes; fuel:octane_95=yes; name=BEBECO;
+    opening_hours=Mo-Fr 06:00-20:00; operator=Schweizer Armee;
+    payment:bebeco=yes;
     url=http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_tessin/6595_riazzino.html</desc>
     <link href="http://www.lba.admin.ch/internet/lba/de/home/dienstleistungen/bebeco0/kanton_tessin/6595_riazzino.html">
     </link>
@@ -14617,7 +14635,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.8499778" lon="9.5048256">
     <ele>563</ele>
     <name>Socar</name>
-    <desc>amenity=fuel; brand=Socar; name=Socar</desc>
+    <desc>amenity=fuel; brand=Socar; brand:wikidata=Q1622293;
+    name=Socar</desc>
   </wpt>
   <wpt lat="47.4735135" lon="8.2249951">
     <ele>360</ele>
@@ -14845,10 +14864,17 @@ version="1.1" creator="togpx">
     brand=Shell; brand:wikidata=Q154950; brand:wikipedia=en:Royal
     Dutch Shell; name=Shell</desc>
   </wpt>
-  <wpt lat="47.4195113" lon="9.3642323">
+  <wpt lat="47.419519" lon="9.364246">
     <ele>684</ele>
-    <name>AVIA</name>
-    <desc>amenity=fuel; operator=AVIA</desc>
+    <name>Avia</name>
+    <desc>amenity=fuel; brand=Avia; brand:wikidata=Q300147;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Avia;
+    opening_hours=24/7; operator=AVIA;
+    payment:american_express=yes; payment:avia=yes;
+    payment:cash=yes; payment:coins=no; payment:contactless=yes;
+    payment:maestro=yes; payment:mastercard=yes;
+    payment:postfinance_card=yes; payment:reka=yes;
+    payment:v_pay=yes; payment:visa=yes</desc>
   </wpt>
   <wpt lat="47.4858278" lon="8.4520921">
     <ele>468</ele>
@@ -15091,7 +15117,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.0764797" lon="9.4835323">
     <ele>476</ele>
     <name>Ruedi Rüssel</name>
-    <desc>amenity=fuel; name=Ruedi Rüssel; name:de=Ruedi
+    <desc>amenity=fuel; brand=Ruedi Rüssel;
+    brand:wikidata=Q111725154; name=Ruedi Rüssel; name:de=Ruedi
     Rüssel</desc>
   </wpt>
   <wpt lat="47.6602456" lon="9.1418678">
@@ -15148,13 +15175,14 @@ version="1.1" creator="togpx">
     <name>node/4490580195</name>
     <desc>amenity=fuel; brand=BP</desc>
   </wpt>
-  <wpt lat="47.0593134" lon="8.3017477">
+  <wpt lat="47.0593682" lon="8.3018416">
     <ele>459</ele>
     <name>Ruedi Rüssel</name>
-    <desc>addr:housenumber=8; addr:street=Spitalstrasse;
-    amenity=fuel; name=Ruedi Rüssel; name:de=Ruedi Rüssel;
-    name:fr=Ruedi Rüssel; opening_hours=24/7; operator=Mercedes
-    Benz</desc>
+    <desc>addr:city=Luzern; addr:housenumber=8; addr:postcode=6004;
+    addr:street=Spitalstrasse; amenity=fuel; brand=Ruedi Rüssel;
+    fuel:benzin=yes; fuel:diesel=yes; name=Ruedi Rüssel;
+    opening_hours=24/7; operator=Ruedi Rüssel;
+    self_service=yes</desc>
   </wpt>
   <wpt lat="47.5777304" lon="9.3189866">
     <ele>465</ele>
@@ -15558,10 +15586,11 @@ version="1.1" creator="togpx">
     <ele>464</ele>
     <name>Avia Forchstrasse</name>
     <desc>amenity=fuel; automated=yes; branch=Zürich Forchstrasse;
-    brand=Avia; brand:wikidata=Q300147; fuel:diesel=no;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Avia Forchstrasse;
-    opening_hours=24/7; operator=Avia Osterwalder Zürich;
-    self_service=yes; shop=no; wheelchair=yes</desc>
+    brand=Avia; brand:wikidata=Q300147; compressed_air=no;
+    fuel:diesel=no; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Avia Forchstrasse; opening_hours=24/7; operator=Avia
+    Osterwalder Zürich; self_service=yes; shop=no;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="47.3770637" lon="8.5114068">
     <ele>413</ele>
@@ -15575,9 +15604,9 @@ version="1.1" creator="togpx">
     <ele>419</ele>
     <name>Avia Zur Palme</name>
     <desc>amenity=fuel; branch=Zürich Haus zur Palme; brand=Avia;
-    brand:wikidata=Q300147; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Avia Zur Palme; operator=A.H. Meyer
-    &amp; Cie</desc>
+    brand:wikidata=Q300147; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Avia Zur Palme;
+    operator=A.H. Meyer &amp; Cie</desc>
   </wpt>
   <wpt lat="47.3876457" lon="8.5333362">
     <ele>421</ele>
@@ -16715,10 +16744,11 @@ version="1.1" creator="togpx">
     <name>Garage Kaufmann</name>
     <desc>addr:city=Berneck; addr:country=CH; addr:housenumber=34;
     addr:postcode=9442; addr:street=Auerstrasse; amenity=fuel;
-    brand=RUEDI RÜSSEL; fuel:HGV_diesel=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Garage Kaufmann; opening_hours=24/7;
-    operator=Garage Kaufmann AG; payment:credit_cards=yes;
-    payment:debit_cards=yes; payment:notes=yes</desc>
+    brand=RUEDI RÜSSEL; brand:wikidata=Q111725154;
+    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Garage Kaufmann; opening_hours=24/7; operator=Garage
+    Kaufmann AG; payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:notes=yes</desc>
   </wpt>
   <wpt lat="47.1042994" lon="9.4982046">
     <ele>462</ele>
@@ -17201,8 +17231,9 @@ version="1.1" creator="togpx">
     <name>Landi Bachtel</name>
     <desc>addr:city=Steg im Tösstal; addr:postcode=8496;
     addr:street=Bahnhofstrasse; amenity=fuel; brand=Agrola;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    operator=Landi Bachtel</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; opening_hours=24/7; operator=Landi
+    Bachtel</desc>
   </wpt>
   <wpt lat="47.4951105" lon="7.7236395">
     <ele>312</ele>
@@ -17243,7 +17274,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.8088138" lon="9.5322498">
     <ele>1129</ele>
     <name>eni</name>
-    <desc>amenity=fuel; name=eni</desc>
+    <desc>amenity=fuel; brand=Eni; brand:wikidata=Q565594;
+    name=eni</desc>
   </wpt>
   <wpt lat="47.5242451" lon="7.604393">
     <ele>290</ele>
@@ -17764,8 +17796,9 @@ version="1.1" creator="togpx">
     addr:housenumber=96; addr:postcode=8200;
     addr:street=Mühlenstrasse; amenity=fuel; branch=Schaffhausen
     Rheinfall; brand=SOCAR; brand:wikidata=Q1622293;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=SOCAR Rheinfall; operator=SOCAR Energy Switzerland;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=SOCAR Rheinfall; opening_hours=Mo-Sa
+    06:00-22:00, Su 07:00-22:00; operator=SOCAR Energy Switzerland;
     payment:american_express=yes; payment:cash=yes;
     payment:cryptocurrencies=no;
     payment:electronic_purses=Cumulus,SOCAR Card;
@@ -18024,7 +18057,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.2003274" lon="6.1369138">
     <ele>379</ele>
     <name>node/7606126485</name>
-    <desc>amenity=fuel</desc>
+    <desc>access=private; amenity=fuel</desc>
   </wpt>
   <wpt lat="47.5447787" lon="9.285074">
     <ele>455</ele>
@@ -19474,6 +19507,43 @@ version="1.1" creator="togpx">
     payment:maestro=yes; payment:mastercard=yes;
     self_service=yes</desc>
   </wpt>
+  <wpt lat="47.4199227" lon="9.3626561">
+    <ele>680</ele>
+    <name>Avia</name>
+    <desc>amenity=fuel; brand=Avia; brand:wikidata=Q300147;
+    currency:CHF=yes; currency:EUR=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Avia; opening_hours=24/7;
+    payment:american_express=yes; payment:cash=yes;
+    payment:coins=no; payment:contactless=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:postfinance_card=yes;
+    payment:reka=yes; payment:v_pay=yes; payment:visa=yes</desc>
+  </wpt>
+  <wpt lat="47.3480203" lon="7.915381">
+    <ele>410</ele>
+    <name>node/9775806410</name>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
+    self_service=yes</desc>
+  </wpt>
+  <wpt lat="47.1890951" lon="7.973966">
+    <ele>488</ele>
+    <name>Shell Nebikon</name>
+    <desc>addr:housenumber=28; addr:postcode=6244; amenity=fuel;
+    name=Shell Nebikon; name:de=Moveri Nebikon; opening_hours=24/7;
+    operator=Shell</desc>
+  </wpt>
+  <wpt lat="47.0424706" lon="7.3835997">
+    <ele>522</ele>
+    <name>Agrola</name>
+    <desc>amenity=fuel; brand=Agrola; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    operator=Agrola; shop=yes</desc>
+  </wpt>
+  <wpt lat="46.6841076" lon="7.0915588">
+    <ele>726</ele>
+    <name>Tamoil</name>
+    <desc>amenity=fuel; brand=Tamoil; brand:wikidata=Q706793;
+    name=Tamoil</desc>
+  </wpt>
   <wpt lat="45.975848799999994" lon="8.87279829486755">
     <ele>317</ele>
     <name>Esso</name>
@@ -19722,7 +19792,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Eglisau; addr:country=CH; addr:housenumber=39;
     addr:postcode=8193; addr:street=Schaffhauserstrasse;
     amenity=fuel; branch=Eglisau; brand=Shell;
-    brand:wikidata=Q154950; building=roof; layer=1; name=Shell
+    brand:wikidata=Q110716465; building=roof; layer=1; name=Shell
     Eglisau; operator=Shell (Switzerland);
     website=https://find.shell.com/ch/fuel/10023426-shell-eglisau/de_CH</desc>
     <link href="https://find.shell.com/ch/fuel/10023426-shell-eglisau/de_CH">
@@ -19777,15 +19847,6 @@ version="1.1" creator="togpx">
     brand=Esso; brand:wikidata=Q867662; brand:wikipedia=en:Esso;
     building=yes; name=Autos Carrefour Dorigny SA; operator=ESSO;
     source=Orthophoto Ville de Lausanne 2008</desc>
-  </wpt>
-  <wpt lat="47.0423474" lon="7.384085720241934">
-    <ele>519</ele>
-    <name>Landi</name>
-    <desc>addr:city=Schüpfen; addr:country=CH; addr:housenumber=4b;
-    addr:postcode=3054; addr:street=Bernstrasse; amenity=fuel;
-    branch=Agrola; building=roof; ele=519; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; operator=Landi;
-    payment:credit_cards=yes</desc>
   </wpt>
   <wpt lat="46.517094549999996" lon="6.605959049404696">
     <ele>393</ele>
@@ -20256,9 +20317,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.194793950000005" lon="6.193275391351633">
     <ele>416</ele>
-    <name>way/85648399</name>
-    <desc>amenity=fuel; brand=Tamoil; building=roof;
-    fuel:diesel=yes; fuel:octane_95=yes</desc>
+    <name>Tamoil</name>
+    <desc>amenity=fuel; brand=Tamoil; brand:wikidata=Q706793;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Tamoil; self_service=yes</desc>
   </wpt>
   <wpt lat="46.5224176" lon="6.660405126986241">
     <ele>572</ele>
@@ -20634,11 +20696,11 @@ version="1.1" creator="togpx">
   <wpt lat="47.16493800000001" lon="9.479035014844511">
     <ele>447</ele>
     <name>Agrola</name>
-    <desc>amenity=fuel; brand=Agrola; building=yes;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Agrola; opening_hours=Mo-Sa
-    06:00-22:00, Su 07:00-21:00; operator=LANDI Buchs;
-    source=http://www.agrola.ch/; wheelchair=yes</desc>
+    <desc>amenity=fuel; brand=Agrola; brand:wikidata=Q397351;
+    building=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Agrola;
+    opening_hours=Mo-Sa 06:00-22:00, Su 07:00-21:00; operator=LANDI
+    Buchs; source=http://www.agrola.ch/; wheelchair=yes</desc>
     <link href="http://www.agrola.ch/"></link>
   </wpt>
   <wpt lat="47.31148725" lon="9.561499755784403">
@@ -20715,8 +20777,9 @@ version="1.1" creator="togpx">
     <ele>452</ele>
     <name>Erdgastankstelle Winterthur Grüze</name>
     <desc>amenity=fuel; building=roof; building:levels=1;
-    building:roof=flat; fuel:cng=yes; name=Erdgastankstelle
-    Winterthur Grüze; operator=Stadtwerke Winterthur</desc>
+    building:roof=flat; compressed_air=no; fuel:cng=yes;
+    name=Erdgastankstelle Winterthur Grüze; operator=Stadtwerke
+    Winterthur</desc>
   </wpt>
   <wpt lat="47.42766245" lon="7.1735780988227145">
     <ele>476</ele>
@@ -20866,9 +20929,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.49833675" lon="7.596951184308498">
     <ele>297</ele>
-    <name>way/149745525</name>
+    <name>Avia</name>
     <desc>addr:housenumber=44; addr:street=Baselstrasse;
-    amenity=fuel; brand=AVIA; building=yes; source=Bing</desc>
+    amenity=fuel; brand=Avia; brand:wikidata=Q300147; building=yes;
+    name=Avia; source=Bing</desc>
   </wpt>
   <wpt lat="47.33312239999999" lon="8.712100907782197">
     <ele>440</ele>
@@ -23342,8 +23406,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.17641035" lon="8.88420285">
     <ele>198</ele>
     <name>Tamoil</name>
-    <desc>addr:postcode=6595; amenity=fuel; building=yes;
-    name=Tamoil</desc>
+    <desc>addr:postcode=6595; amenity=fuel; brand=Tamoil;
+    brand:wikidata=Q706793; building=yes; name=Tamoil</desc>
   </wpt>
   <wpt lat="46.159526299999996" lon="8.982481579358817">
     <ele>214</ele>
@@ -23536,8 +23600,9 @@ version="1.1" creator="togpx">
     <ele>578</ele>
     <name>Agip</name>
     <desc>addr:country=CH; addr:housenumber=159;
-    addr:street=Kasernenstrasse; amenity=fuel; building=commercial;
-    fixme=Please check name and brand. Agip becomes Eni. See
+    addr:street=Kasernenstrasse; amenity=fuel; brand=Agip;
+    brand:wikidata=Q377915; building=commercial; fixme=Please check
+    name and brand. Agip becomes Eni. See
     http://lists.openstreetmap.ch/pipermail/talk-ch/2019-January/009849.html
     for (german) discussion.; name=Agip; name:de=Erdgas;
     name:en=CNG Fuel; name:fr=GNV; name:gsw=M; name:it=Metano;
@@ -23688,8 +23753,8 @@ version="1.1" creator="togpx">
     <name>Agip</name>
     <desc>addr:city=Chur; addr:country=CH; addr:housenumber=24;
     addr:postcode=7000; addr:street=Rossbodenstrasse; amenity=fuel;
-    brand=Agip; building=roof; fixme=Please check name and brand.
-    Agip becomes Eni. See
+    brand=Agip; brand:wikidata=Q377915; building=roof; fixme=Please
+    check name and brand. Agip becomes Eni. See
     http://lists.openstreetmap.ch/pipermail/talk-ch/2019-January/009849.html
     for (german) discussion.; name=Agip</desc>
   </wpt>
@@ -23818,9 +23883,10 @@ version="1.1" creator="togpx">
     addr:postcode=8320; addr:street=Kempttalstrasse;
     alt_name=Migrol Fehraltdorf; amenity=fuel; automated=yes;
     branch=Fehraltdorf; brand=Migrol; brand:wikidata=Q1747771;
-    brand:wikipedia=de:Migrol; building=roof; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Migrol Tankstelle Fehraltdorf;
-    opening_hours=24/7; operator=Migrol; self_service=yes; shop=no;
+    brand:wikipedia=de:Migrol; building=roof; compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Migrol Tankstelle
+    Fehraltdorf; opening_hours=24/7; operator=Migrol;
+    self_service=yes; shop=no;
     website=https://www.migrol.ch/de/</desc>
     <link href="https://www.migrol.ch/de/"></link>
   </wpt>
@@ -23932,7 +23998,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.846924349999995" lon="9.512925050470095">
     <ele>576</ele>
     <name>bp</name>
-    <desc>amenity=fuel; building=yes; name=bp</desc>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    building=yes; name=bp</desc>
   </wpt>
   <wpt lat="45.97982115" lon="8.877196836256186">
     <ele>303</ele>
@@ -24956,7 +25023,7 @@ version="1.1" creator="togpx">
     building=roof; layer=1; name=Coop; operator=Coop Mineraloel
     AG</desc>
   </wpt>
-  <wpt lat="47.0325626" lon="8.628640881887236">
+  <wpt lat="47.032562850000005" lon="8.628640832124006">
     <ele>459</ele>
     <name>Coop</name>
     <desc>amenity=fuel; branch=Seewen Markt; brand=Coop;
@@ -25150,7 +25217,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.44868555" lon="9.509084330577625">
     <ele>803</ele>
     <name>way/965275860</name>
-    <desc>amenity=fuel; fuel:electricity=yes</desc>
+    <desc>amenity=fuel; compressed_air=no;
+    fuel:electricity=yes</desc>
   </wpt>
   <wpt lat="46.6680042" lon="6.803377188411741">
     <ele>508</ele>
@@ -25195,9 +25263,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.8219617" lon="6.940724570521034">
     <ele>450</ele>
     <name>Tamoil</name>
-    <desc>amenity=fuel; area=yes; brand=Tamoil;
-    brand:wikidata=Q706793; brand:wikipedia=en:Tamoil;
-    building=roof; name=Tamoil</desc>
+    <desc>amenity=fuel; brand=Tamoil; brand:wikidata=Q706793;
+    brand:wikipedia=en:Tamoil; building=roof; name=Tamoil</desc>
   </wpt>
   <wpt lat="46.156385349999994" lon="6.0963238502354296">
     <ele>437</ele>
@@ -25764,16 +25831,6 @@ version="1.1" creator="togpx">
       <trkpt lat="46.5213905" lon="6.5866181"></trkpt>
       <trkpt lat="46.5214089" lon="6.5866702"></trkpt>
       <trkpt lat="46.5215054" lon="6.5865978"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/44633849</name>
-    <trkseg>
-      <trkpt lat="47.0423223" lon="7.3840231"></trkpt>
-      <trkpt lat="47.0423105" lon="7.3841342"></trkpt>
-      <trkpt lat="47.0423725" lon="7.3841483"></trkpt>
-      <trkpt lat="47.0423843" lon="7.3840373"></trkpt>
-      <trkpt lat="47.0423223" lon="7.3840231"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -26523,7 +26580,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/85648399</name>
+    <name>Tamoil</name>
     <trkseg>
       <trkpt lat="46.1948286" lon="6.193214"></trkpt>
       <trkpt lat="46.1947435" lon="6.1932448"></trkpt>
@@ -27592,7 +27649,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/149745525</name>
+    <name>Avia</name>
     <trkseg>
       <trkpt lat="47.4983247" lon="7.596922"></trkpt>
       <trkpt lat="47.4982963" lon="7.5968899"></trkpt>
@@ -34403,16 +34460,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Coop</name>
     <trkseg>
-      <trkpt lat="47.0326518" lon="8.6286607"></trkpt>
-      <trkpt lat="47.0325862" lon="8.6284949"></trkpt>
-      <trkpt lat="47.0325373" lon="8.6285352"></trkpt>
-      <trkpt lat="47.0325218" lon="8.6284863"></trkpt>
-      <trkpt lat="47.0324441" lon="8.6285475"></trkpt>
-      <trkpt lat="47.0325073" lon="8.628707"></trkpt>
-      <trkpt lat="47.032539" lon="8.6287868"></trkpt>
-      <trkpt lat="47.0326146" lon="8.6287247"></trkpt>
-      <trkpt lat="47.0326047" lon="8.6287012"></trkpt>
-      <trkpt lat="47.0326518" lon="8.6286607"></trkpt>
+      <trkpt lat="47.0326518" lon="8.6286613"></trkpt>
+      <trkpt lat="47.032587" lon="8.6284941"></trkpt>
+      <trkpt lat="47.0325387" lon="8.6285344"></trkpt>
+      <trkpt lat="47.0325199" lon="8.6284858"></trkpt>
+      <trkpt lat="47.0324773" lon="8.6285213"></trkpt>
+      <trkpt lat="47.0324454" lon="8.628548"></trkpt>
+      <trkpt lat="47.0325072" lon="8.6287071"></trkpt>
+      <trkpt lat="47.0325384" lon="8.6287878"></trkpt>
+      <trkpt lat="47.0326142" lon="8.6287246"></trkpt>
+      <trkpt lat="47.0326048" lon="8.6287005"></trkpt>
+      <trkpt lat="47.0326518" lon="8.6286613"></trkpt>
     </trkseg>
   </trk>
   <trk>

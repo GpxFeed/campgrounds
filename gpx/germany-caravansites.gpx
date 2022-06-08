@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-05-22T18:30:11Z", "timestamp_areas_base":
-      "2022-05-22T18:18:07Z", "copyright": "The data included in
+      "2022-06-08T09:09:25Z", "timestamp_areas_base":
+      "2022-06-08T08:34:58Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -695,9 +695,12 @@ version="1.1" creator="togpx">
     <ele>200</ele>
     <name>Wohnmobilstellplatz Durbach</name>
     <desc>addr:city=Durbach; addr:postcode=77770;
-    addr:street=Festplatz; capacity=15; fee=yes;
-    name=Wohnmobilstellplatz Durbach; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
+    addr:street=Festplatz; capacity=15; capacity:caravans=15;
+    charge=8 EUR; fee=yes; internet_access=wlan;
+    internet_access:fee=no; internet_access:ssid=Festplatz-Durbach;
+    name=Wohnmobilstellplatz Durbach; operator=Gemeinde Durbach;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site;
     website=https://www.durbach.de/Media/Attraktionen/Wohnmobilstellplatz-Durbach-Festplatz</desc>
     <link href="https://www.durbach.de/Media/Attraktionen/Wohnmobilstellplatz-Durbach-Festplatz">
     </link>
@@ -793,8 +796,10 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Ebersweier</name>
     <desc>addr:city=Durbach; addr:housenumber=33;
     addr:postcode=77770; addr:street=Wiesenstraße; capacity=6;
-    fee=yes; name=Wohnmobilstellplatz Ebersweier; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
+    capacity:caravans=6; charge=8 EUR; fee=yes; internet_access=no;
+    name=Wohnmobilstellplatz Ebersweier; operator=Gemeinde Durbach;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site;
     website=https://www.durbach.de/Media/Attraktionen/Wohnmobilstellplatz-Durbach-Festplatz</desc>
     <link href="https://www.durbach.de/Media/Attraktionen/Wohnmobilstellplatz-Durbach-Festplatz">
     </link>
@@ -848,6 +853,11 @@ version="1.1" creator="togpx">
     Wiesenfühlung; phone=+49 35603 61839; tourism=caravan_site;
     website=http://wiesenfühlung.de</desc>
     <link href="http://wiesenfühlung.de"></link>
+  </wpt>
+  <wpt lat="51.596907" lon="6.2532888">
+    <ele>21</ele>
+    <name>node/877324637</name>
+    <desc>tourism=caravan_site</desc>
   </wpt>
   <wpt lat="51.7928514" lon="11.1480872">
     <ele>121</ele>
@@ -1462,8 +1472,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.7603468" lon="11.4202127">
     <ele>368</ele>
     <name>Am Hallenbad</name>
-    <desc>name=Am Hallenbad; tourism=caravan_site;
-    wheelchair=yes</desc>
+    <desc>capacity=11; fee=yes; name=Am Hallenbad;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; wheelchair=yes</desc>
   </wpt>
   <wpt lat="50.1415025" lon="7.7088616">
     <ele>265</ele>
@@ -1901,8 +1912,10 @@ version="1.1" creator="togpx">
   <wpt lat="49.2315672" lon="10.4955577">
     <ele>420</ele>
     <name>Stellplatz Herrieden</name>
-    <desc>name=Stellplatz Herrieden; power_supply=yes;
-    tourism=caravan_site</desc>
+    <desc>fee=no; fee:conditional=yes @ (stay &gt; 3 days);
+    internet_access=no; name=Stellplatz Herrieden;
+    power_supply=yes; sanitary_dump_station=no; shower=no;
+    tents=no; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.8646896" lon="6.1513739">
     <ele>143</ele>
@@ -2663,8 +2676,8 @@ version="1.1" creator="togpx">
     <desc>name=Wohnmobilstellplatz Mechelshof;
     tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="50.0851506" lon="6.7990258">
-    <ele>308</ele>
+  <wpt lat="50.0842517" lon="6.7986891">
+    <ele>305</ele>
     <name>Heidsmühle</name>
     <desc>name=Heidsmühle; tourism=caravan_site</desc>
   </wpt>
@@ -5420,11 +5433,6 @@ version="1.1" creator="togpx">
     operator=Stadt Blumberg; power_supply=no;
     sanitary_dump_station=no; tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="54.4207568" lon="9.90595">
-    <ele>16</ele>
-    <name>node/5117927715</name>
-    <desc>tourism=caravan_site</desc>
-  </wpt>
   <wpt lat="50.5495986" lon="7.2171026">
     <ele>71</ele>
     <name>node/5135147923</name>
@@ -6003,7 +6011,7 @@ version="1.1" creator="togpx">
     <link href="http://www.meinhardsee.de/pdf/Preisliste_2018_camper.pdf">
     </link>
   </wpt>
-  <wpt lat="54.4305605" lon="10.1659666">
+  <wpt lat="54.4305841" lon="10.1661861">
     <ele>0</ele>
     <name>Olympiahafen Schilksee</name>
     <desc>capacity=30; fee=€12; internet_access=no;
@@ -6330,9 +6338,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.2463459" lon="10.8246486">
     <ele>379</ele>
-    <name>node/6551602212</name>
-    <desc>capacity=3; fee=no; power_supply=yes;
-    tourism=caravan_site</desc>
+    <name>Wohnmobilübernachtungsplätze an der Fränkischen
+    Rezat</name>
+    <desc>capacity=3; capacity:caravans=3; fee=no;
+    name=Wohnmobilübernachtungsplätze an der Fränkischen Rezat;
+    power_supply=yes; sanitary_dump_station=yes; shower=no;
+    tents=no; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="51.4114054" lon="12.7983699">
     <ele>125</ele>
@@ -6402,11 +6413,6 @@ version="1.1" creator="togpx">
     <ele>1</ele>
     <name>node/6666735505</name>
     <desc>sanitary_dump_station=yes; tourism=caravan_site</desc>
-  </wpt>
-  <wpt lat="50.1625529" lon="6.3355773">
-    <ele>407</ele>
-    <name>node/6695054736</name>
-    <desc>tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.3451044" lon="9.8819339">
     <ele>454</ele>
@@ -6902,8 +6908,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.2557839" lon="8.0272754">
     <ele>437</ele>
-    <name>Wohnmobilstellpaltz</name>
-    <desc>capacity=2; internet_access=no; name=Wohnmobilstellpaltz;
+    <name>Wohnmobilstellplatz</name>
+    <desc>capacity=2; internet_access=no; name=Wohnmobilstellplatz;
     power_supply=no; sanitary_dump_station=no;
     tourism=caravan_site</desc>
   </wpt>
@@ -7303,11 +7309,6 @@ version="1.1" creator="togpx">
     <name>Reisemobilstellplatz</name>
     <desc>name=Reisemobilstellplatz; operator=Gemeinde Witzwort;
     phone=+494864290; tourism=caravan_site</desc>
-  </wpt>
-  <wpt lat="53.2840364" lon="12.9489809">
-    <ele>84</ele>
-    <name>node/7869783705</name>
-    <desc>sanitary_dump_station=yes; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="53.6698817" lon="7.9097088">
     <ele>-1</ele>
@@ -7883,8 +7884,9 @@ version="1.1" creator="togpx">
     <ele>304</ele>
     <name>Stellplatz am Kurpark</name>
     <desc>addr:postcode=59889; addr:street=Eberhard-Koenig-Straße;
-    capacity:caravans=6; internet_access=wlan; name=Stellplatz am
-    Kurpark; tourism=caravan_site</desc>
+    capacity=6; capacity:caravans=6; fee=no; internet_access=wlan;
+    name=Stellplatz am Kurpark; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.9696999" lon="9.7900696">
     <ele>196</ele>
@@ -8318,7 +8320,9 @@ version="1.1" creator="togpx">
   <wpt lat="50.9174365" lon="9.2453441">
     <ele>213</ele>
     <name>node/9218529680</name>
-    <desc>tourism=caravan_site</desc>
+    <desc>capacity=4; fee=no; internet_access=wlan;
+    internet_access:fee=no; reservation=no;
+    sanitary_dump_station=no; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="49.9703697" lon="7.9303456">
     <ele>81</ele>
@@ -8671,7 +8675,9 @@ version="1.1" creator="togpx">
     <ele>640</ele>
     <name>Freyung</name>
     <desc>addr:city=Freyung; addr:housenumber=43;
-    addr:postcode=94078; addr:street=Bahnhofstraße;
+    addr:postcode=94078; addr:street=Bahnhofstraße; charge=5.00
+    EUR/24 hours; fee=yes; motorcar=yes; power_supply=no;
+    sanitary_dump_station=no; surface=chipseal;
     tourism=caravan_site</desc>
   </wpt>
   <wpt lat="48.1354689" lon="12.596363">
@@ -8717,6 +8723,72 @@ version="1.1" creator="togpx">
     name=Restaurant Gerling; tourism=caravan_site;
     website=www.cafe-gerling.de</desc>
     <link href="www.cafe-gerling.de"></link>
+  </wpt>
+  <wpt lat="50.5893751" lon="8.6837774">
+    <ele>161</ele>
+    <name>
+    https://www.giessen.de/Erleben/Tourismus/%C3%9Cbernachten/Campingpl%C3%A4tze-und-Wohnmobile/index.php?object=tx,2874.1&amp;ModID=9&amp;FID=1894.10022.1&amp;NavID=1894.261&amp;La=1</name>
+    <desc>capacity=6; fee=no; operator=Stadt Gießen;
+    power_supply=yes; sanitary_dump_station=no;
+    tourism=caravan_site;
+    website=https://www.giessen.de/Erleben/Tourismus/%C3%9Cbernachten/Campingpl%C3%A4tze-und-Wohnmobile/index.php?object=tx,2874.1&amp;ModID=9&amp;FID=1894.10022.1&amp;NavID=1894.261&amp;La=1</desc>
+    <link href="https://www.giessen.de/Erleben/Tourismus/%C3%9Cbernachten/Campingpl%C3%A4tze-und-Wohnmobile/index.php?object=tx,2874.1%26ModID=9%26FID=1894.10022.1%26NavID=1894.261%26La=1">
+    </link>
+  </wpt>
+  <wpt lat="50.991252" lon="8.5483163">
+    <ele>346</ele>
+    <name>Festplatz</name>
+    <desc>description=Kostenlos ohne alles; name=Festplatz;
+    tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="51.2820287" lon="8.0892506">
+    <ele>470</ele>
+    <name>Wohnmobil Stellplatz</name>
+    <desc>addr:city=Sundern; addr:housenumber=2;
+    addr:postcode=59846; addr:street=Am Alten Brunnen;
+    name=Wohnmobil Stellplatz; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="51.2806564" lon="8.0904496">
+    <ele>466</ele>
+    <name>Wohnmobil Stellplatz</name>
+    <desc>name=Wohnmobil Stellplatz; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="53.7551969" lon="9.5449426">
+    <ele>-3</ele>
+    <name>https://landvergnuegen.com/</name>
+    <desc>addr:city=Kollmar; addr:housenumber=41;
+    addr:postcode=25377; addr:street=Moorhusen;
+    capacity:caravans=3; fee=yes; fee:conditional=yes @ (stay &gt;
+    30 minutes); power_supply=no; sanitary_dump_station=no;
+    tents=no; tourism=caravan_site;
+    website=https://landvergnuegen.com/</desc>
+    <link href="https://landvergnuegen.com/"></link>
+  </wpt>
+  <wpt lat="50.9958187" lon="10.1590959">
+    <ele>199</ele>
+    <name>Gerstungen</name>
+    <desc>addr:city=Gerstungen; addr:housenumber=1;
+    addr:postcode=99834; addr:street=An der Elte;
+    capacity:caravans=6; charge=5 EUR;
+    description=Gebührenpflichtiger Stellplatz für 6 Mobile am
+    Ortsrand von Lauchröden . Der Stellplatz liegt in Flussnähe.
+    Überwiegend ebener Platz. Untergrund mit Schotterrasen, Wiese.
+    ÖPNV-Anschluss in der Nähe. Am Platz: Strom, Hunde erlaubt. In
+    der Nähe: Schloss/Bur; fee=yes; internet_access=no;
+    power_supply=yes; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="51.3519457" lon="13.2378512">
+    <ele>87</ele>
+    <name>Strehla</name>
+    <desc>addr:city=Strehla; addr:postcode=01616;
+    addr:street=Riesaer Straße; capacity:caravans=20; fee=no;
+    internet_access=no; power_supply=no; sanitary_dump_station=no;
+    tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="51.8581549" lon="9.507688">
+    <ele>123</ele>
+    <name>node/9798041060</name>
+    <desc>tourism=caravan_site</desc>
   </wpt>
   <wpt lat="51.0442956" lon="13.7435537">
     <ele>116</ele>
@@ -9030,7 +9102,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.30588015" lon="13.307990409713415">
     <ele>90</ele>
     <name>Elbparkplatz</name>
-    <desc>fee=no; name=Elbparkplatz; power_supply=no;
+    <desc>addr:city=Riesa; addr:postcode=01589;
+    addr:street=Elbstraße; capacity:caravans=8; fee=yes;
+    internet_access=no; name=Elbparkplatz; power_supply=no;
     sanitary_dump_station=no; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="47.7376327" lon="8.980540969183304">
@@ -9483,8 +9557,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.94202265" lon="11.634908998842402">
     <ele>370</ele>
     <name>Wohnmobilstellplatz an der Lohengrintherme</name>
-    <desc>amenity=parking; fee=yes; name=Wohnmobilstellplatz an der
-    Lohengrintherme; parking=surface; tourism=caravan_site</desc>
+    <desc>access=customers; amenity=parking; fee=yes;
+    name=Wohnmobilstellplatz an der Lohengrintherme;
+    parking=surface; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.14258455" lon="7.231897563716106">
     <ele>91</ele>
@@ -10738,7 +10813,7 @@ version="1.1" creator="togpx">
     <link href="https://www.oppenweiler.de/index.php?id=128">
     </link>
   </wpt>
-  <wpt lat="52.8997215" lon="8.352937264285613">
+  <wpt lat="52.8997215" lon="8.352937050191446">
     <ele>23</ele>
     <name>Auecamp</name>
     <desc>addr:city=Wildeshausen; addr:country=DE;
@@ -10835,7 +10910,7 @@ version="1.1" creator="togpx">
     <desc>access=yes; amenity=parking; fee=no; parking=surface;
     tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="49.4694663" lon="8.167613823208956">
+  <wpt lat="49.46947395" lon="8.167610169658593">
     <ele>129</ele>
     <name>Stellplatz an der Silz</name>
     <desc>capacity=90; contact:phone=+49 6322 9354500;
@@ -12441,8 +12516,8 @@ version="1.1" creator="togpx">
     <desc>capacity=17; description=18€ / 24h; fee=yes;
     name=Wohnmobilstellplatz Döbele; tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="51.9027762" lon="7.010011813671273">
-    <ele>62</ele>
+  <wpt lat="51.90220735" lon="7.009064763325664">
+    <ele>59</ele>
     <name>Erholungsgebiet Waldvelen</name>
     <desc>alt_name=ven der Buss; name=Erholungsgebiet Waldvelen;
     note=Ferienwohnungen und Mobilstellplätze;
@@ -13179,9 +13254,9 @@ version="1.1" creator="togpx">
     <ele>0</ele>
     <name>Wohnmobilstellplatz Dagebüll</name>
     <desc>addr:street=Am Badeteich; capacity=10; fee=yes;
-    name=Wohnmobilstellplatz Dagebüll; power_supply=yes;
-    sanitary_dump_station=no; tourism=caravan_site;
-    water_point=yes;
+    mobile=+49 171 6979646; name=Wohnmobilstellplatz Dagebüll;
+    phone=+49 4667 349; power_supply=yes; sanitary_dump_station=no;
+    tourism=caravan_site; water_point=yes;
     website=https://hofwoogebreeger.wordpress.com/</desc>
     <link href="https://hofwoogebreeger.wordpress.com/"></link>
   </wpt>
@@ -13204,7 +13279,7 @@ version="1.1" creator="togpx">
     <desc>access=private; description:de=nur für Vereinsmitglieder
     und deren Angehörige; tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="48.51037905" lon="8.372933280704999">
+  <wpt lat="48.51043315" lon="8.372999750993937">
     <ele>532</ele>
     <name>Wohnmobilstellplatz Baiersbronn</name>
     <desc>capacity=12; description=5€ + 2,60€/P (Taxe);
@@ -13520,7 +13595,7 @@ version="1.1" creator="togpx">
     <link href="https://www.bad-orb.info/Hotel-Ferienwohnung-Pension/Wohnmobilstellplatz/Ihr-Platz-im-Gruenen">
     </link>
   </wpt>
-  <wpt lat="53.04534065" lon="7.229320879423418">
+  <wpt lat="53.04534065" lon="7.229321637721887">
     <ele>0</ele>
     <name>way/181567237</name>
     <desc>tourism=caravan_site</desc>
@@ -14106,16 +14181,23 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Pfronten</name>
     <desc>addr:city=Pfronten; addr:housenumber=7;
     addr:postcode=87459; addr:street=Am Wiesele; capacity=44;
-    capacity:caravans=44; charge=14 €;
-    check_date:internet_access=2021-10-23; description=Der Platz
-    bsitrzt ein Abstempelkarten System. Ab der 10 Übernachtung ist
-    die 11. Kostenlos.; Bezahlt wird in Bar in der Rezeption.;
-    fee=yes; internet_access=wlan; internet_access:fee=no;
+    caravans=no; charge=14 €;
+    check_date:internet_access=2021-10-23;
+    contact:email=info@wohnmobilstellplatz-pfronten.de;
+    contact:phone=+49 8363 6437;
+    contact:website=https://www.wohnmobilstellplatz-pfronten.de/;
+    description=Der Platz bsitrzt ein Abstempelkarten System. Ab
+    der 10 Übernachtung ist die 11. Kostenlos. Bezahlt wird in Bar
+    in der Rezeption.; dog=yes; dryer=yes; fee=yes;
+    internet_access=wlan; internet_access:fee=no;
     name=Wohnmobilstellplatz Pfronten; operator=Familie Wohlfart;
-    power_supply=yes; sanitary_dump_station=yes; tents=no;
-    tourism=caravan_site; water_point=yes;
-    website=http://www.wohnmobilstellplatz-pfronten.de</desc>
-    <link href="http://www.wohnmobilstellplatz-pfronten.de"></link>
+    power_supply=yes; sanitary_dump_station=yes;
+    sanitary_dump_station:chemical_toilet=yes;
+    sanitary_dump_station:grey_water=yes; shower=yes; tents=no;
+    toilets=yes; tourism=caravan_site; washing_machine=yes;
+    water_point=yes</desc>
+    <link href="https://www.wohnmobilstellplatz-pfronten.de/">
+    </link>
   </wpt>
   <wpt lat="49.6023414" lon="9.470972359418198">
     <ele>280</ele>
@@ -15163,8 +15245,9 @@ version="1.1" creator="togpx">
   <wpt lat="52.509584000000004" lon="9.081090628233515">
     <ele>31</ele>
     <name>Wohnmobil Parkplatz</name>
-    <desc>fee=yes; name=Wohnmobil Parkplatz; power_supply=yes;
-    tents=no; tourism=caravan_site; wheelchair=limited</desc>
+    <desc>addr:city=Stolzenau; addr:postcode=31592; fee=yes;
+    name=Wohnmobil Parkplatz; power_supply=yes; tents=no;
+    tourism=caravan_site; wheelchair=limited</desc>
   </wpt>
   <wpt lat="48.639105" lon="13.186537666531258">
     <ele>302</ele>
@@ -15299,12 +15382,13 @@ version="1.1" creator="togpx">
     <name>way/239900235</name>
     <desc>tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="52.900292699999994" lon="8.427158991066747">
-    <ele>19</ele>
+  <wpt lat="52.90064955" lon="8.42750641424651">
+    <ele>18</ele>
     <name>Wohnmobilplatz "Am Kandel"</name>
-    <desc>amenity=parking; capacity=16; caravans=no; dogs=yes;
-    fee=yes; int_name=Motorhome; name=Wohnmobilplatz "Am Kandel";
-    power_supply=yes; tents=no; tourism=caravan_site</desc>
+    <desc>amenity=parking; capacity=22; caravans=no; dogs=yes;
+    fee=yes; int_name=Motorhome; motorhome=yes; name=Wohnmobilplatz
+    "Am Kandel"; power_supply=yes; tents=no;
+    tourism=caravan_site</desc>
   </wpt>
   <wpt lat="51.1866012" lon="10.167040799739855">
     <ele>168</ele>
@@ -16020,10 +16104,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bad Salzungen; addr:housenumber=1;
     addr:postcode=36433; addr:street=Am Flößrasen;
     alt_name=Erlebnisinsel Flößrasen; capacity=80;
-    capacity:caravans=80; charge=14€ plus Kurtaxe p. Person;
+    capacity:caravans=80; charge=14.00 EUR/1 day,1.50
+    EUR/tourist_tax pppd;
     contact:email=info@sole-reisemobilhafen.de; contact:phone=+49
-    3695 6934-0; description=Gut angelegt aber WLan funktioniert
-    schlecht oder gar nicht.; Strom über Token die in der Rezeption
+    3695 6934-0; description=Gut angelegt aber WLAN funktioniert
+    schlecht oder gar nicht. Strom über Token die in der Rezeption
     oder in der Therme erhältlich sind.; fee=yes;
     internet_access=wlan; internet_access:fee=customers; name=Sole
     Reisemobilhafen; operator=Sole - Heilbad
@@ -16186,7 +16271,8 @@ version="1.1" creator="togpx">
     <desc>capacity=24; email=hafen@sprenger-barhoeft-maritim.de;
     fee=yes; name=Stellplatz Barhöft; phone=+49 38323 531, +49 151
     58502706; power_supply=yes; tourism=caravan_site;
-    website=http://www.hafen-barhoeft.de/Caravanplatz/caravanplatz.html</desc>
+    website=http://www.hafen-barhoeft.de/Caravanplatz/caravanplatz.html;
+    wheelchair=limited</desc>
     <link href="http://www.hafen-barhoeft.de/Caravanplatz/caravanplatz.html">
     </link>
   </wpt>
@@ -16507,12 +16593,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.907620449999996" lon="12.687351505959366">
     <ele>314</ele>
-    <name>http://www.bogen.de/default.asp?pid=4999</name>
+    <name>
+    https://www.bogen.de/freizeit-und-tourismus/service-fuer-gaeste/wohnmobilstellplaetze</name>
     <desc>capacity=5; fee=yes; operator=Stadtwerke Bogen;
-    power_supply=yes; tourism=caravan_site;
-    website=http://www.bogen.de/default.asp?pid=4999;
+    power_supply=yes; sanitary_dump_station=yes; socket:cee_blue=4;
+    tourism=caravan_site; water_supply=yes;
+    website=https://www.bogen.de/freizeit-und-tourismus/service-fuer-gaeste/wohnmobilstellplaetze;
     wheelchair=yes</desc>
-    <link href="http://www.bogen.de/default.asp?pid=4999"></link>
+    <link href="https://www.bogen.de/freizeit-und-tourismus/service-fuer-gaeste/wohnmobilstellplaetze">
+    </link>
   </wpt>
   <wpt lat="50.92428115" lon="8.411783515254292">
     <ele>328</ele>
@@ -17155,8 +17244,10 @@ version="1.1" creator="togpx">
     <ele>679</ele>
     <name>Reisemobilstellplatz Erbeskopf</name>
     <desc>access=yes; amenity=parking; capacity=50; fee=yes;
-    name=Reisemobilstellplatz Erbeskopf; opening_hours=Mo-Su
-    09:00-17:00; operator=Verbandsgemeinde Thalfang am Erbeskopf;
+    name=Reisemobilstellplatz Erbeskopf;
+    name:de=Reisemobilstellplatz Erbeskopf, Ausgangspunkt
+    Wanderung; opening_hours=Mo-Su 09:00-17:00;
+    operator=Verbandsgemeinde Thalfang am Erbeskopf;
     parking=surface; phone=+496504778; power_supply=5;
     sanitary_dump_station=yes; tents=no; tourism=caravan_site;
     website=https://www.erbeskopf.de/tourismus-kultur/camping-wohnmobilplaetze/wohnmobilstellplaetze.html;
@@ -18344,7 +18435,7 @@ version="1.1" creator="togpx">
     <name>way/373892670</name>
     <desc>capacity=4; fee=no; tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="49.69515285" lon="8.205554477019778">
+  <wpt lat="49.6951702" lon="8.205561563518943">
     <ele>147</ele>
     <name>Weingut Huppert</name>
     <desc>name=Weingut Huppert; tourism=caravan_site</desc>
@@ -18515,8 +18606,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.634394799999995" lon="7.940136003093681">
     <ele>884</ele>
     <name>way/385023702</name>
-    <desc>fixme=Offizieller Camping/Wohnmobilstellplatz oder nur
-    von der Luftsportgemeinschaft ?; tourism=caravan_site</desc>
+    <desc>access=private; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.949908199999996" lon="11.09511277134034">
     <ele>258</ele>
@@ -18977,7 +19067,7 @@ version="1.1" creator="togpx">
   <wpt lat="49.322706499999995" lon="11.028610096481144">
     <ele>349</ele>
     <name>Stellplatz am Stadtpark</name>
-    <desc>capacity=4; dogs=yes; name=Stellplatz am Stadtpark;
+    <desc>capacity=4; dog=yes; name=Stellplatz am Stadtpark;
     operator=Stadt Schwabach; tents=no; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="50.3062391" lon="7.310380037809051">
@@ -19039,7 +19129,7 @@ version="1.1" creator="togpx">
   <wpt lat="49.9473813" lon="11.576751907692309">
     <ele>336</ele>
     <name>Wohnmobilstellplatz Innenstadt</name>
-    <desc>amenity=parking; capacity=4; fee=yes;
+    <desc>access=yes; amenity=parking; capacity=4; fee=yes;
     name=Wohnmobilstellplatz Innenstadt; parking=surface;
     tourism=caravan_site; wheelchair=yes</desc>
   </wpt>
@@ -19051,8 +19141,9 @@ version="1.1" creator="togpx">
   <wpt lat="50.455237749999995" lon="8.900190521764149">
     <ele>132</ele>
     <name>Trais-Horloffer-See</name>
-    <desc>capacity=6; contact:email=info@hungen.de;
-    contact:phone=+49 6402 850; fee=no; internet_access=yes;
+    <desc>capacity=6; charge=1.00 EUR/1 day;
+    contact:email=info@hungen.de; contact:phone=+49 6402 850;
+    fee=0,50€/h, max 13h; internet_access=yes;
     name=Trais-Horloffer-See; operator=Stadt Hungen;
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site; water_point=yes;
@@ -19152,8 +19243,9 @@ version="1.1" creator="togpx">
     <ele>187</ele>
     <name>Wohnmobil Stellplatz Badehaus</name>
     <desc>amenity=water_point; amenity_1=sanitary_dump_station;
-    capacity=2; fee=yes; name=Wohnmobil Stellplatz Badehaus;
-    tourism=caravan_site; wheelchair=yes</desc>
+    capacity=2; description=VE: 5 Euro; fee=yes; name=Wohnmobil
+    Stellplatz Badehaus; tourism=caravan_site;
+    wheelchair=yes</desc>
   </wpt>
   <wpt lat="48.81697645" lon="11.789850492647021">
     <ele>355</ele>
@@ -20273,7 +20365,14 @@ version="1.1" creator="togpx">
     power_supply=no; surface=fine_gravel;
     tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="50.97886" lon="10.323668222194689">
+  <wpt lat="50.6684686" lon="6.803453735595191">
+    <ele>152</ele>
+    <name>way/483716173</name>
+    <desc>access=customers; description=Wohnmobilstellplatz;
+    fee=no; power_supply=no; sanitary_dump_station=no;
+    surface=gravel; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="50.97886055" lon="10.32366835">
     <ele>220</ele>
     <name>Eisenach</name>
     <desc>addr:city=Eisenach; addr:postcode=99817;
@@ -20559,8 +20658,8 @@ version="1.1" creator="togpx">
     addr:street=Am See; capacity=18; fee=yes; name=Seehof Netzen;
     operator=Hotel Restaurant Seehof; phone=+49 33827670;
     power_supply=yes; sanitary_dump_station=customers;
-    tourism=caravan_site;
-    website=http://www.seehof-netzen.de</desc>
+    tourism=caravan_site; website=http://www.seehof-netzen.de;
+    wheelchair=yes</desc>
     <link href="http://www.seehof-netzen.de"></link>
   </wpt>
   <wpt lat="50.38766345" lon="11.781195349903449">
@@ -20796,7 +20895,7 @@ version="1.1" creator="togpx">
     contact:email=mail@wohnmobilpark-markt-wald.de;
     contact:phone=+49 8262 1429;
     contact:website=https://www.wohnmobilpark-markt-wald.de/wohnmobilpark/;
-    dogs=yes; fee=yes; name=Wohnmobilpark Settele; operator=Familie
+    dog=yes; fee=yes; name=Wohnmobilpark Settele; operator=Familie
     Settele; power_supply=yes; tourism=caravan_site</desc>
     <link href="https://www.wohnmobilpark-markt-wald.de/wohnmobilpark/">
     </link>
@@ -21392,13 +21491,6 @@ version="1.1" creator="togpx">
     name=Wohnmobilstellplatz in Witzenhausen am Wehrturm;
     power=yes; tents=no; tourism=caravan_site</desc>
   </wpt>
-  <wpt lat="50.6681169" lon="6.802786381809314">
-    <ele>154</ele>
-    <name>way/583290453</name>
-    <desc>access=customers; description=Wohnmobilstellplatz;
-    fee=no; power_supply=no; sanitary_dump_station=no;
-    surface=gravel; tourism=caravan_site</desc>
-  </wpt>
   <wpt lat="51.7888349" lon="10.960759059373885">
     <ele>233</ele>
     <name>way/583953652</name>
@@ -21493,12 +21585,13 @@ version="1.1" creator="togpx">
   <wpt lat="48.801197" lon="13.54111495">
     <ele>669</ele>
     <name>Freizeitpark Solla</name>
-    <desc>capacity=10; contact:email=touristinfo@freyung.de;
-    contact:phone=+49 8551 588150; description=Gebühr 6€ (12/2019)
-    laut HP - Offen Ganzjährig; fee=yes; name=Freizeitpark Solla;
-    operator=Stadt Freyung; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    water_point=yes;
+    <desc>capacity=10; charge=8.00 EUR/1 night;
+    contact:email=touristinfo@freyung.de; contact:phone=+49 8551
+    588150; description=Gebühr 8€ (05/2022) laut HP - Offen
+    Ganzjährig, Wasser Strom extra; fee=yes; name=Freizeitpark
+    Solla; operator=Stadt Freyung; power_supply=yes;
+    sanitary_dump_station=yes; surface=grass_paver;
+    tourism=caravan_site; water_point=yes;
     website=https://www.freyung.de/de/gastgeber-und-service/gastgeber/campingplaetze.html</desc>
     <link href="https://www.freyung.de/de/gastgeber-und-service/gastgeber/campingplaetze.html">
     </link>
@@ -22692,8 +22785,8 @@ version="1.1" creator="togpx">
   <wpt lat="50.55478205" lon="8.497610024558192">
     <ele>148</ele>
     <name>Wohnmobilstellplatz Lahninsel</name>
-    <desc>capacity=5; charge=10.00 EUR/24 hours; contact:phone=+49
-    6441 997755; fee=yes; internet_access=no; maxstay=3 days;
+    <desc>capacity=5; charge=8 EUR/24 hours; contact:phone=+49 6441
+    997755; fee=yes; internet_access=no; maxstay=3 days;
     name=Wohnmobilstellplatz Lahninsel; operator=Stadt Wetzlar;
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site; water_point=yes;
@@ -23253,15 +23346,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.832186449999995" lon="7.230174689934014">
     <ele>57</ele>
-    <name>Haus Waldfrieden</name>
+    <name>https://haus-waldfrieden.eshop.t-online.de/</name>
     <desc>addr:city=Dülmen; addr:country=DE; addr:housenumber=20;
     addr:postcode=48249; addr:street=Börnste; capacity=13;
     email=info@haus-waldfrieden.de; fee=yes; internet_access=no;
-    name=Haus Waldfrieden; opening_hours=24/7; operator=Haus
-    Waldfrieden; payment:cryptocurrencies=no;
-    payment:electronic_purses=no; phone=+49 2594 2273;
-    power_supply=yes; sanitary_dump_station=no; tents=no;
-    tourism=caravan_site;
+    opening_hours=24/7; operator=Haus Waldfrieden;
+    payment:cryptocurrencies=no; payment:electronic_purses=no;
+    phone=+49 2594 2273; power_supply=yes;
+    sanitary_dump_station=no; tents=no; tourism=caravan_site;
     website=https://haus-waldfrieden.eshop.t-online.de/</desc>
     <link href="https://haus-waldfrieden.eshop.t-online.de/">
     </link>
@@ -23414,7 +23506,7 @@ version="1.1" creator="togpx">
     <name>Goethe Camping</name>
     <desc>addr:city=Wetzlar; addr:postcode=35576;
     addr:street=Falkenstraße; capacity=21; capacity:caravans=21;
-    charge=12€ mit Strom 10€ ohne Strom; description=Ganzjährig
+    charge=12,50€ mit Strom 10€ ohne Strom; description=Ganzjährig
     geöffnet - Erweiterung des Platzes in 2022;
     email=info@goethe-camping.com; fee=yes; internet_access=no;
     name=Goethe Camping; opening_hours=24/7;
@@ -23473,9 +23565,10 @@ version="1.1" creator="togpx">
   <wpt lat="50.43084845" lon="9.184140070256952">
     <ele>340</ele>
     <name>Reisemobilhafen am Gederner See</name>
-    <desc>capacity=13; fee=yes; name=Reisemobilhafen am Gederner
-    See; power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; water_point=yes;
+    <desc>capacity=13; charge=11.00 EUR/24 hours; fee=yes;
+    name=Reisemobilhafen am Gederner See; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    water_point=yes;
     website=https://www.campingpark-gedern.de/seite/225921/reisemobilhafen.html</desc>
     <link href="https://www.campingpark-gedern.de/seite/225921/reisemobilhafen.html">
     </link>
@@ -23930,6 +24023,11 @@ version="1.1" creator="togpx">
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes;
     tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="47.67943135" lon="9.832202071402982">
+    <ele>548</ele>
+    <name>Wohnwagen-Campingplatz</name>
+    <desc>name=Wohnwagen-Campingplatz; tourism=caravan_site</desc>
   </wpt>
   <wpt lat="49.879137150000005" lon="12.345126444084482">
     <ele>493</ele>
@@ -24775,6 +24873,21 @@ version="1.1" creator="togpx">
     <desc>capacity=4; fee=no; power_supply=yes; surface=asphalt;
     tourism=caravan_site; water_point=y</desc>
   </wpt>
+  <wpt lat="53.93258635" lon="13.42548852901512">
+    <ele>13</ele>
+    <name>Caravan Resort Gützkow</name>
+    <desc>addr:housenumber=12; addr:street=Zum Kosenowsee;
+    contact:mobile=+49 162 1322 000; name=Caravan Resort Gützkow;
+    tourism=caravan_site;
+    website=https://caravan-guetzkow.de/</desc>
+    <link href="https://caravan-guetzkow.de/"></link>
+  </wpt>
+  <wpt lat="50.8094754" lon="6.6459470044862154">
+    <ele>110</ele>
+    <name>Wohnmobilstellplatz Nörvenich</name>
+    <desc>capacity=2; fee=no; maxstay=48 h;
+    name=Wohnmobilstellplatz Nörvenich; tourism=caravan_site</desc>
+  </wpt>
   <wpt lat="49.7494356" lon="10.636667089084895">
     <ele>323</ele>
     <name>Morelo WoMo Stellplatz</name>
@@ -24820,8 +24933,9 @@ version="1.1" creator="togpx">
   <wpt lat="54.350397" lon="10.140944539418877">
     <ele>9</ele>
     <name>Stadt Kiel</name>
-    <desc>fee=yes; internet_access=no; opening_hours=May-Sep open,
-    Oct-Mar closed; operator=Stadt Kiel; sanitary_dump_station=no;
+    <desc>fee=no; internet_access=no; maxstay=8h;
+    opening_hours=May-Sep, Oct-Mar Off; operator=Stadt Kiel;
+    power_supply=no; sanitary_dump_station=no;
     tourism=caravan_site</desc>
   </wpt>
   <wpt lat="49.60685325" lon="7.512987072730067">
@@ -24897,7 +25011,7 @@ version="1.1" creator="togpx">
     contact:mobile=+49170 81 32 294;
     contact:website=https://www.ruhmannsfelden.de/tourismus/wohnmobilstellplatz/;
     description=Im Juli ist der Stellplatz wegen Volksfestbetrieb
-    geschlossen.; fee=no; opening_hours=24/7, Jul off;
+    geschlossen.; fee=yes; opening_hours=24/7, Jul off;
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site</desc>
     <link href="https://www.ruhmannsfelden.de/tourismus/wohnmobilstellplatz/">
@@ -24998,6 +25112,48 @@ version="1.1" creator="togpx">
     <name>way/1062554331</name>
     <desc>FIXME=Fertigstellung im Sommer 2022. Bitte genaue
     Parameter ergänzen.; power_supply=yes;
+    tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="53.1887604" lon="12.918751443486187">
+    <ele>60</ele>
+    <name>Rheinsberg</name>
+    <desc>addr:city=Rheinsberg; addr:postcode=16831;
+    addr:street=Winkel; capacity:caravans=10; internet_access=no;
+    sanitary_dump_station=yes; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="48.315834800000005" lon="9.507697216247346">
+    <ele>612</ele>
+    <name>Wohnmobilstellplatz Heiligental</name>
+    <desc>addr:city=Münsingen; addr:housenumber=1;
+    addr:postcode=72525; addr:street=Heiligental;
+    capacity:caravans=4; fee=yes; internet_access=no;
+    name=Wohnmobilstellplatz Heiligental; operator=Stadt Münsingen;
+    power_supply=yes; reservation=no; sanitary_dump_station=yes;
+    tourism=caravan_site;
+    website=https://www.muensingen.com/aufenthalt/uebernachten/campingplaetze-und-wohnmobilstellplaetze/im-heiligental</desc>
+    <link href="https://www.muensingen.com/aufenthalt/uebernachten/campingplaetze-und-wohnmobilstellplaetze/im-heiligental">
+    </link>
+  </wpt>
+  <wpt lat="53.69543925" lon="14.258173515674052">
+    <ele>0</ele>
+    <name>way/1065846270</name>
+    <desc>tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="51.74710965" lon="11.02775716192463">
+    <ele>168</ele>
+    <name>way/1065910174</name>
+    <desc>fee=yes; tourism=caravan_site</desc>
+  </wpt>
+  <wpt lat="52.9424146" lon="8.328952038345419">
+    <ele>19</ele>
+    <name>way/1067267048</name>
+    <desc>access=customers; capacity=10; note=Kunden Landvergnügen;
+    power_supply=yes; tourism=caravan_site; water_point=yes</desc>
+  </wpt>
+  <wpt lat="50.45739665" lon="8.771955219409964">
+    <ele>169</ele>
+    <name>way/1067711589</name>
+    <desc>caravans=no; fee=no; tents=no;
     tourism=caravan_site</desc>
   </wpt>
   <wpt lat="48.00974975" lon="8.535849418565086">
@@ -28728,18 +28884,20 @@ version="1.1" creator="togpx">
   <trk>
     <name>Auecamp</name>
     <trkseg>
+      <trkpt lat="52.8989453" lon="8.3550301"></trkpt>
+      <trkpt lat="52.898964" lon="8.3550442"></trkpt>
+      <trkpt lat="52.8989643" lon="8.3551794"></trkpt>
+      <trkpt lat="52.8998187" lon="8.3557744"></trkpt>
+      <trkpt lat="52.9006862" lon="8.3562582"></trkpt>
+      <trkpt lat="52.8996243" lon="8.3495537"></trkpt>
       <trkpt lat="52.8991761" lon="8.3495243"></trkpt>
-      <trkpt lat="52.8992113" lon="8.3506584"></trkpt>
+      <trkpt lat="52.8991919" lon="8.3506705"></trkpt>
       <trkpt lat="52.8991601" lon="8.3516967"></trkpt>
       <trkpt lat="52.8992126" lon="8.3531711"></trkpt>
       <trkpt lat="52.8991958" lon="8.3537108"></trkpt>
       <trkpt lat="52.8991404" lon="8.3541173"></trkpt>
       <trkpt lat="52.8989328" lon="8.3541575"></trkpt>
-      <trkpt lat="52.8989473" lon="8.3551714"></trkpt>
-      <trkpt lat="52.8998187" lon="8.3557744"></trkpt>
-      <trkpt lat="52.9006862" lon="8.3562582"></trkpt>
-      <trkpt lat="52.8996243" lon="8.3495537"></trkpt>
-      <trkpt lat="52.8991761" lon="8.3495243"></trkpt>
+      <trkpt lat="52.8989453" lon="8.3550301"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28867,8 +29025,9 @@ version="1.1" creator="togpx">
       <trkpt lat="49.4695635" lon="8.1682514"></trkpt>
       <trkpt lat="49.4700922" lon="8.1681305"></trkpt>
       <trkpt lat="49.4702399" lon="8.1680909"></trkpt>
-      <trkpt lat="49.4700353" lon="8.166776"></trkpt>
-      <trkpt lat="49.4695482" lon="8.1669213"></trkpt>
+      <trkpt lat="49.4700594" lon="8.1668144"></trkpt>
+      <trkpt lat="49.4698608" lon="8.1669034"></trkpt>
+      <trkpt lat="49.4697584" lon="8.1668268"></trkpt>
       <trkpt lat="49.4693844" lon="8.1669868"></trkpt>
       <trkpt lat="49.4691652" lon="8.1671009"></trkpt>
       <trkpt lat="49.4685848" lon="8.1675878"></trkpt>
@@ -29529,8 +29688,8 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="51.4447358" lon="6.5758624"></trkpt>
       <trkpt lat="51.4445804" lon="6.5753877"></trkpt>
-      <trkpt lat="51.4443987" lon="6.5752248"></trkpt>
-      <trkpt lat="51.4445311" lon="6.5761554"></trkpt>
+      <trkpt lat="51.4443857" lon="6.5751926"></trkpt>
+      <trkpt lat="51.4445215" lon="6.5761588"></trkpt>
       <trkpt lat="51.4445441" lon="6.5761508"></trkpt>
       <trkpt lat="51.4446369" lon="6.5761187"></trkpt>
       <trkpt lat="51.4446514" lon="6.5762203"></trkpt>
@@ -31700,19 +31859,49 @@ version="1.1" creator="togpx">
   <trk>
     <name>Erholungsgebiet Waldvelen</name>
     <trkseg>
-      <trkpt lat="51.9043141" lon="7.0109931"></trkpt>
-      <trkpt lat="51.9030034" lon="7.0086328"></trkpt>
-      <trkpt lat="51.9023524" lon="7.0075538"></trkpt>
-      <trkpt lat="51.9020352" lon="7.0078905"></trkpt>
-      <trkpt lat="51.901746" lon="7.008269"></trkpt>
-      <trkpt lat="51.9016715" lon="7.0081241"></trkpt>
-      <trkpt lat="51.9014412" lon="7.0087401"></trkpt>
+      <trkpt lat="51.9043467" lon="7.0110721"></trkpt>
+      <trkpt lat="51.9034646" lon="7.0095571"></trkpt>
+      <trkpt lat="51.9029699" lon="7.0087052"></trkpt>
+      <trkpt lat="51.902653" lon="7.0081401"></trkpt>
+      <trkpt lat="51.9024453" lon="7.0077243"></trkpt>
+      <trkpt lat="51.9024295" lon="7.0076543"></trkpt>
+      <trkpt lat="51.9024097" lon="7.0075661"></trkpt>
+      <trkpt lat="51.9022797" lon="7.0069176"></trkpt>
+      <trkpt lat="51.902135" lon="7.0063591"></trkpt>
+      <trkpt lat="51.902082" lon="7.0064047"></trkpt>
+      <trkpt lat="51.9016186" lon="7.0067587"></trkpt>
+      <trkpt lat="51.9014664" lon="7.0068982"></trkpt>
+      <trkpt lat="51.9014068" lon="7.0069331"></trkpt>
+      <trkpt lat="51.9012578" lon="7.0069572"></trkpt>
+      <trkpt lat="51.9010146" lon="7.006406"></trkpt>
+      <trkpt lat="51.9007436" lon="7.0064792"></trkpt>
+      <trkpt lat="51.9005884" lon="7.0065187"></trkpt>
+      <trkpt lat="51.901147" lon="7.0073502"></trkpt>
+      <trkpt lat="51.9011081" lon="7.0074172"></trkpt>
+      <trkpt lat="51.9010911" lon="7.0074364"></trkpt>
+      <trkpt lat="51.9001761" lon="7.0084709"></trkpt>
+      <trkpt lat="51.9007519" lon="7.0095447"></trkpt>
+      <trkpt lat="51.9009517" lon="7.0095429"></trkpt>
+      <trkpt lat="51.9010046" lon="7.0095657"></trkpt>
+      <trkpt lat="51.9014718" lon="7.0088058"></trkpt>
       <trkpt lat="51.9016265" lon="7.0108858"></trkpt>
-      <trkpt lat="51.9016437" lon="7.0116606"></trkpt>
-      <trkpt lat="51.9016174" lon="7.0120503"></trkpt>
-      <trkpt lat="51.9026284" lon="7.0119194"></trkpt>
-      <trkpt lat="51.902924" lon="7.0116154"></trkpt>
-      <trkpt lat="51.9043141" lon="7.0109931"></trkpt>
+      <trkpt lat="51.9017736" lon="7.0116539"></trkpt>
+      <trkpt lat="51.9018363" lon="7.0116444"></trkpt>
+      <trkpt lat="51.901857" lon="7.011939"></trkpt>
+      <trkpt lat="51.9018983" lon="7.0118791"></trkpt>
+      <trkpt lat="51.9019207" lon="7.0118194"></trkpt>
+      <trkpt lat="51.9019397" lon="7.0117443"></trkpt>
+      <trkpt lat="51.9019475" lon="7.0116873"></trkpt>
+      <trkpt lat="51.9019484" lon="7.0116317"></trkpt>
+      <trkpt lat="51.9021093" lon="7.0116055"></trkpt>
+      <trkpt lat="51.9023485" lon="7.0113266"></trkpt>
+      <trkpt lat="51.9026396" lon="7.0110209"></trkpt>
+      <trkpt lat="51.9026596" lon="7.0111059"></trkpt>
+      <trkpt lat="51.9029521" lon="7.0116751"></trkpt>
+      <trkpt lat="51.9029649" lon="7.0117463"></trkpt>
+      <trkpt lat="51.9029809" lon="7.0117396"></trkpt>
+      <trkpt lat="51.9043113" lon="7.0110956"></trkpt>
+      <trkpt lat="51.9043467" lon="7.0110721"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -33055,7 +33244,7 @@ version="1.1" creator="togpx">
       <trkpt lat="54.7265682" lon="8.6949446"></trkpt>
       <trkpt lat="54.7265613" lon="8.6953826"></trkpt>
       <trkpt lat="54.7268074" lon="8.6953348"></trkpt>
-      <trkpt lat="54.7267882" lon="8.6945386"></trkpt>
+      <trkpt lat="54.7268099" lon="8.6945466"></trkpt>
       <trkpt lat="54.7267453" lon="8.6945424"></trkpt>
     </trkseg>
   </trk>
@@ -33099,13 +33288,13 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Baiersbronn</name>
     <trkseg>
       <trkpt lat="48.5104841" lon="8.3730119"></trkpt>
-      <trkpt lat="48.5104445" lon="8.372924"></trkpt>
       <trkpt lat="48.5103759" lon="8.3726936"></trkpt>
-      <trkpt lat="48.5103081" lon="8.3725402"></trkpt>
-      <trkpt lat="48.5102768" lon="8.3725924"></trkpt>
+      <trkpt lat="48.5102917" lon="8.3725763"></trkpt>
+      <trkpt lat="48.5102586" lon="8.3725649"></trkpt>
       <trkpt lat="48.510278" lon="8.3728121"></trkpt>
       <trkpt lat="48.5102942" lon="8.3729464"></trkpt>
       <trkpt lat="48.5103822" lon="8.3731704"></trkpt>
+      <trkpt lat="48.5105065" lon="8.3730901"></trkpt>
       <trkpt lat="48.5104841" lon="8.3730119"></trkpt>
     </trkseg>
   </trk>
@@ -33592,10 +33781,11 @@ version="1.1" creator="togpx">
       <trkpt lat="53.0432473" lon="7.2290688"></trkpt>
       <trkpt lat="53.0437791" lon="7.2295508"></trkpt>
       <trkpt lat="53.0431338" lon="7.230546"></trkpt>
-      <trkpt lat="53.0441609" lon="7.2320827"></trkpt>
+      <trkpt lat="53.0441719" lon="7.2320791"></trkpt>
       <trkpt lat="53.0455722" lon="7.2304441"></trkpt>
+      <trkpt lat="53.0464909" lon="7.2294477"></trkpt>
       <trkpt lat="53.0464894" lon="7.229379"></trkpt>
-      <trkpt lat="53.0468699" lon="7.2294005"></trkpt>
+      <trkpt lat="53.0468895" lon="7.2293763"></trkpt>
       <trkpt lat="53.0475729" lon="7.2285315"></trkpt>
     </trkseg>
   </trk>
@@ -36641,16 +36831,24 @@ version="1.1" creator="togpx">
   <trk>
     <name>Wohnmobilplatz "Am Kandel"</name>
     <trkseg>
-      <trkpt lat="52.900473" lon="8.4268897"></trkpt>
-      <trkpt lat="52.9001701" lon="8.4268796"></trkpt>
-      <trkpt lat="52.9001603" lon="8.4274304"></trkpt>
-      <trkpt lat="52.9004153" lon="8.4274379"></trkpt>
-      <trkpt lat="52.900468" lon="8.4278815"></trkpt>
-      <trkpt lat="52.900654" lon="8.4275922"></trkpt>
-      <trkpt lat="52.9006039" lon="8.4274775"></trkpt>
-      <trkpt lat="52.9006116" lon="8.4270867"></trkpt>
-      <trkpt lat="52.9005168" lon="8.4270541"></trkpt>
-      <trkpt lat="52.900473" lon="8.4268897"></trkpt>
+      <trkpt lat="52.90049" lon="8.4268924"></trkpt>
+      <trkpt lat="52.9002591" lon="8.42694"></trkpt>
+      <trkpt lat="52.900276" lon="8.4274378"></trkpt>
+      <trkpt lat="52.9002749" lon="8.4274665"></trkpt>
+      <trkpt lat="52.9002559" lon="8.4275559"></trkpt>
+      <trkpt lat="52.9002746" lon="8.4275718"></trkpt>
+      <trkpt lat="52.9004314" lon="8.427549"></trkpt>
+      <trkpt lat="52.9004502" lon="8.4277889"></trkpt>
+      <trkpt lat="52.9006702" lon="8.4277263"></trkpt>
+      <trkpt lat="52.9008748" lon="8.4277046"></trkpt>
+      <trkpt lat="52.9010447" lon="8.4276724"></trkpt>
+      <trkpt lat="52.9009282" lon="8.427144"></trkpt>
+      <trkpt lat="52.9007333" lon="8.4272522"></trkpt>
+      <trkpt lat="52.9006135" lon="8.4272929"></trkpt>
+      <trkpt lat="52.9006229" lon="8.4270974"></trkpt>
+      <trkpt lat="52.9006289" lon="8.4268986"></trkpt>
+      <trkpt lat="52.9005492" lon="8.4269026"></trkpt>
+      <trkpt lat="52.90049" lon="8.4268924"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -41484,11 +41682,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Weingut Huppert</name>
     <trkseg>
-      <trkpt lat="49.6952619" lon="8.2051723"></trkpt>
-      <trkpt lat="49.6949424" lon="8.2052984"></trkpt>
-      <trkpt lat="49.6950438" lon="8.2059898"></trkpt>
-      <trkpt lat="49.6953566" lon="8.2057139"></trkpt>
-      <trkpt lat="49.6952619" lon="8.2051723"></trkpt>
+      <trkpt lat="49.6952657" lon="8.2051711"></trkpt>
+      <trkpt lat="49.6949615" lon="8.2052903"></trkpt>
+      <trkpt lat="49.6950747" lon="8.2060091"></trkpt>
+      <trkpt lat="49.6953691" lon="8.2057178"></trkpt>
+      <trkpt lat="49.6952657" lon="8.2051711"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -44539,14 +44737,95 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/483716173</name>
+    <trkseg>
+      <trkpt lat="50.6679474" lon="6.8029462"></trkpt>
+      <trkpt lat="50.6679544" lon="6.8029771"></trkpt>
+      <trkpt lat="50.6679575" lon="6.8030126"></trkpt>
+      <trkpt lat="50.6679596" lon="6.803049"></trkpt>
+      <trkpt lat="50.6678942" lon="6.8030519"></trkpt>
+      <trkpt lat="50.6678916" lon="6.8031033"></trkpt>
+      <trkpt lat="50.6678879" lon="6.8031536"></trkpt>
+      <trkpt lat="50.6678815" lon="6.8032021"></trkpt>
+      <trkpt lat="50.6678697" lon="6.8032384"></trkpt>
+      <trkpt lat="50.6678555" lon="6.8032854"></trkpt>
+      <trkpt lat="50.667841" lon="6.8033353"></trkpt>
+      <trkpt lat="50.6678206" lon="6.803387"></trkpt>
+      <trkpt lat="50.6678039" lon="6.8034339"></trkpt>
+      <trkpt lat="50.6677858" lon="6.803474"></trkpt>
+      <trkpt lat="50.6677725" lon="6.8035036"></trkpt>
+      <trkpt lat="50.66776" lon="6.8035373"></trkpt>
+      <trkpt lat="50.667743" lon="6.8036049"></trkpt>
+      <trkpt lat="50.6677378" lon="6.8036443"></trkpt>
+      <trkpt lat="50.6677354" lon="6.8036574"></trkpt>
+      <trkpt lat="50.6677334" lon="6.8036682"></trkpt>
+      <trkpt lat="50.6677296" lon="6.8036877"></trkpt>
+      <trkpt lat="50.6677513" lon="6.8036849"></trkpt>
+      <trkpt lat="50.6677997" lon="6.8036897"></trkpt>
+      <trkpt lat="50.6679412" lon="6.803679"></trkpt>
+      <trkpt lat="50.6682967" lon="6.8037665"></trkpt>
+      <trkpt lat="50.6685019" lon="6.8038389"></trkpt>
+      <trkpt lat="50.6685252" lon="6.8038664"></trkpt>
+      <trkpt lat="50.6685405" lon="6.8038932"></trkpt>
+      <trkpt lat="50.6685456" lon="6.8039261"></trkpt>
+      <trkpt lat="50.6685388" lon="6.8039596"></trkpt>
+      <trkpt lat="50.6685061" lon="6.8039797"></trkpt>
+      <trkpt lat="50.6684959" lon="6.8040106"></trkpt>
+      <trkpt lat="50.6685035" lon="6.8040468"></trkpt>
+      <trkpt lat="50.668535" lon="6.8040971"></trkpt>
+      <trkpt lat="50.6690886" lon="6.8042381"></trkpt>
+      <trkpt lat="50.6691882" lon="6.8032793"></trkpt>
+      <trkpt lat="50.6691731" lon="6.8032686"></trkpt>
+      <trkpt lat="50.669152" lon="6.8032599"></trkpt>
+      <trkpt lat="50.6691346" lon="6.8032498"></trkpt>
+      <trkpt lat="50.6691134" lon="6.8032354"></trkpt>
+      <trkpt lat="50.6684365" lon="6.8030726"></trkpt>
+      <trkpt lat="50.6684387" lon="6.8030483"></trkpt>
+      <trkpt lat="50.6684435" lon="6.8030141"></trkpt>
+      <trkpt lat="50.6684466" lon="6.8029853"></trkpt>
+      <trkpt lat="50.6684498" lon="6.8029538"></trkpt>
+      <trkpt lat="50.6684874" lon="6.8028706"></trkpt>
+      <trkpt lat="50.668325" lon="6.8028244"></trkpt>
+      <trkpt lat="50.6683114" lon="6.802711"></trkpt>
+      <trkpt lat="50.668246" lon="6.8026272"></trkpt>
+      <trkpt lat="50.6681285" lon="6.8025806"></trkpt>
+      <trkpt lat="50.6681053" lon="6.8025798"></trkpt>
+      <trkpt lat="50.6680817" lon="6.8025815"></trkpt>
+      <trkpt lat="50.6680589" lon="6.802582"></trkpt>
+      <trkpt lat="50.66801" lon="6.8025803"></trkpt>
+      <trkpt lat="50.6679964" lon="6.8025851"></trkpt>
+      <trkpt lat="50.6679735" lon="6.8025913"></trkpt>
+      <trkpt lat="50.66795" lon="6.802594"></trkpt>
+      <trkpt lat="50.667924" lon="6.8026004"></trkpt>
+      <trkpt lat="50.6678967" lon="6.8025992"></trkpt>
+      <trkpt lat="50.6678713" lon="6.802597"></trkpt>
+      <trkpt lat="50.6678242" lon="6.8025877"></trkpt>
+      <trkpt lat="50.6677993" lon="6.8025882"></trkpt>
+      <trkpt lat="50.6677979" lon="6.8026282"></trkpt>
+      <trkpt lat="50.6677951" lon="6.8026549"></trkpt>
+      <trkpt lat="50.6677917" lon="6.802691"></trkpt>
+      <trkpt lat="50.6677623" lon="6.8027593"></trkpt>
+      <trkpt lat="50.6677717" lon="6.8027901"></trkpt>
+      <trkpt lat="50.6677925" lon="6.8028126"></trkpt>
+      <trkpt lat="50.6678212" lon="6.8028066"></trkpt>
+      <trkpt lat="50.6678462" lon="6.802811"></trkpt>
+      <trkpt lat="50.6678709" lon="6.802825"></trkpt>
+      <trkpt lat="50.6678935" lon="6.8028473"></trkpt>
+      <trkpt lat="50.6679119" lon="6.8028671"></trkpt>
+      <trkpt lat="50.6679277" lon="6.8028881"></trkpt>
+      <trkpt lat="50.6679413" lon="6.8029166"></trkpt>
+      <trkpt lat="50.6679474" lon="6.8029462"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/484236138</name>
     <trkseg>
-      <trkpt lat="50.978943" lon="10.3240184"></trkpt>
-      <trkpt lat="50.9788702" lon="10.3233196"></trkpt>
-      <trkpt lat="50.9787836" lon="10.3233321"></trkpt>
-      <trkpt lat="50.9788179" lon="10.3237174"></trkpt>
-      <trkpt lat="50.9788498" lon="10.324015"></trkpt>
-      <trkpt lat="50.978943" lon="10.3240184"></trkpt>
+      <trkpt lat="50.978936" lon="10.3240013"></trkpt>
+      <trkpt lat="50.9788738" lon="10.3233151"></trkpt>
+      <trkpt lat="50.9787851" lon="10.3233354"></trkpt>
+      <trkpt lat="50.9788197" lon="10.323717"></trkpt>
+      <trkpt lat="50.9788473" lon="10.3240216"></trkpt>
+      <trkpt lat="50.978936" lon="10.3240013"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -45877,7 +46156,7 @@ version="1.1" creator="togpx">
       <trkpt lat="48.2248069" lon="10.2918367"></trkpt>
       <trkpt lat="48.2246607" lon="10.291986"></trkpt>
       <trkpt lat="48.224216" lon="10.2925528"></trkpt>
-      <trkpt lat="48.2244791" lon="10.2929969"></trkpt>
+      <trkpt lat="48.2244451" lon="10.2929446"></trkpt>
       <trkpt lat="48.2246799" lon="10.292551"></trkpt>
       <trkpt lat="48.2246211" lon="10.2923837"></trkpt>
       <trkpt lat="48.2247206" lon="10.2922541"></trkpt>
@@ -46231,49 +46510,6 @@ version="1.1" creator="togpx">
       <trkpt lat="51.3408208" lon="9.8545392"></trkpt>
       <trkpt lat="51.3409513" lon="9.8543433"></trkpt>
       <trkpt lat="51.3409004" lon="9.8542588"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/583290453</name>
-    <trkseg>
-      <trkpt lat="50.6678212" lon="6.8028066"></trkpt>
-      <trkpt lat="50.6678462" lon="6.802811"></trkpt>
-      <trkpt lat="50.6678709" lon="6.802825"></trkpt>
-      <trkpt lat="50.6678935" lon="6.8028473"></trkpt>
-      <trkpt lat="50.6679119" lon="6.8028671"></trkpt>
-      <trkpt lat="50.6679277" lon="6.8028881"></trkpt>
-      <trkpt lat="50.6679413" lon="6.8029166"></trkpt>
-      <trkpt lat="50.6679474" lon="6.8029462"></trkpt>
-      <trkpt lat="50.6680264" lon="6.8029699"></trkpt>
-      <trkpt lat="50.6684365" lon="6.8030726"></trkpt>
-      <trkpt lat="50.6684387" lon="6.8030483"></trkpt>
-      <trkpt lat="50.6684435" lon="6.8030141"></trkpt>
-      <trkpt lat="50.6684466" lon="6.8029853"></trkpt>
-      <trkpt lat="50.6684498" lon="6.8029538"></trkpt>
-      <trkpt lat="50.6684874" lon="6.8028706"></trkpt>
-      <trkpt lat="50.668325" lon="6.8028244"></trkpt>
-      <trkpt lat="50.6683114" lon="6.802711"></trkpt>
-      <trkpt lat="50.668246" lon="6.8026272"></trkpt>
-      <trkpt lat="50.6681285" lon="6.8025806"></trkpt>
-      <trkpt lat="50.6681053" lon="6.8025798"></trkpt>
-      <trkpt lat="50.6680817" lon="6.8025815"></trkpt>
-      <trkpt lat="50.6680589" lon="6.802582"></trkpt>
-      <trkpt lat="50.66801" lon="6.8025803"></trkpt>
-      <trkpt lat="50.6679964" lon="6.8025851"></trkpt>
-      <trkpt lat="50.6679735" lon="6.8025913"></trkpt>
-      <trkpt lat="50.66795" lon="6.802594"></trkpt>
-      <trkpt lat="50.667924" lon="6.8026004"></trkpt>
-      <trkpt lat="50.6678967" lon="6.8025992"></trkpt>
-      <trkpt lat="50.6678713" lon="6.802597"></trkpt>
-      <trkpt lat="50.6678242" lon="6.8025877"></trkpt>
-      <trkpt lat="50.6677993" lon="6.8025882"></trkpt>
-      <trkpt lat="50.6677979" lon="6.8026282"></trkpt>
-      <trkpt lat="50.6677951" lon="6.8026549"></trkpt>
-      <trkpt lat="50.6677917" lon="6.802691"></trkpt>
-      <trkpt lat="50.6677623" lon="6.8027593"></trkpt>
-      <trkpt lat="50.6677717" lon="6.8027901"></trkpt>
-      <trkpt lat="50.6677925" lon="6.8028126"></trkpt>
-      <trkpt lat="50.6678212" lon="6.8028066"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -49139,7 +49375,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Haus Waldfrieden</name>
+    <name>way/820849475</name>
     <trkseg>
       <trkpt lat="51.8323051" lon="7.2300653"></trkpt>
       <trkpt lat="51.8321201" lon="7.2300172"></trkpt>
@@ -50165,6 +50401,17 @@ version="1.1" creator="togpx">
       <trkpt lat="53.4849541" lon="12.759692"></trkpt>
       <trkpt lat="53.4851884" lon="12.7596089"></trkpt>
       <trkpt lat="53.4851282" lon="12.7592267"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Wohnwagen-Campingplatz</name>
+    <trkseg>
+      <trkpt lat="47.6789287" lon="9.8320042"></trkpt>
+      <trkpt lat="47.6792589" lon="9.8329446"></trkpt>
+      <trkpt lat="47.6799554" lon="9.8323801"></trkpt>
+      <trkpt lat="47.6799099" lon="9.8323121"></trkpt>
+      <trkpt lat="47.6796038" lon="9.8314604"></trkpt>
+      <trkpt lat="47.6789287" lon="9.8320042"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -51493,6 +51740,32 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Caravan Resort Gützkow</name>
+    <trkseg>
+      <trkpt lat="53.9316857" lon="13.4262296"></trkpt>
+      <trkpt lat="53.9323421" lon="13.42657"></trkpt>
+      <trkpt lat="53.932357" lon="13.4263715"></trkpt>
+      <trkpt lat="53.9328157" lon="13.4265868"></trkpt>
+      <trkpt lat="53.9329133" lon="13.4262983"></trkpt>
+      <trkpt lat="53.9330339" lon="13.4257543"></trkpt>
+      <trkpt lat="53.933236" lon="13.4250301"></trkpt>
+      <trkpt lat="53.9332739" lon="13.424609"></trkpt>
+      <trkpt lat="53.9332594" lon="13.4244834"></trkpt>
+      <trkpt lat="53.9316125" lon="13.4245189"></trkpt>
+      <trkpt lat="53.9316857" lon="13.4262296"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Wohnmobilstellplatz Nörvenich</name>
+    <trkseg>
+      <trkpt lat="50.8094265" lon="6.6460109"></trkpt>
+      <trkpt lat="50.809512" lon="6.6460288"></trkpt>
+      <trkpt lat="50.8095242" lon="6.6458831"></trkpt>
+      <trkpt lat="50.8094388" lon="6.6458652"></trkpt>
+      <trkpt lat="50.8094265" lon="6.6460109"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Morelo WoMo Stellplatz</name>
     <trkseg>
       <trkpt lat="49.7498316" lon="10.6362006"></trkpt>
@@ -51876,6 +52149,68 @@ version="1.1" creator="togpx">
       <trkpt lat="50.5625313" lon="12.6345561"></trkpt>
       <trkpt lat="50.5625121" lon="12.6352222"></trkpt>
       <trkpt lat="50.5629207" lon="12.6354349"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1065081983</name>
+    <trkseg>
+      <trkpt lat="53.1889037" lon="12.9184643"></trkpt>
+      <trkpt lat="53.1883509" lon="12.9186202"></trkpt>
+      <trkpt lat="53.1886171" lon="12.9190342"></trkpt>
+      <trkpt lat="53.1889552" lon="12.9189492"></trkpt>
+      <trkpt lat="53.1889037" lon="12.9184643"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Wohnmobilstellplatz Heiligental</name>
+    <trkseg>
+      <trkpt lat="48.3157869" lon="9.5075576"></trkpt>
+      <trkpt lat="48.3157136" lon="9.5077115"></trkpt>
+      <trkpt lat="48.3158827" lon="9.5078441"></trkpt>
+      <trkpt lat="48.3159417" lon="9.5076555"></trkpt>
+      <trkpt lat="48.3157869" lon="9.5075576"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1065846270</name>
+    <trkseg>
+      <trkpt lat="53.695259" lon="14.258308"></trkpt>
+      <trkpt lat="53.6958005" lon="14.2584206"></trkpt>
+      <trkpt lat="53.6959252" lon="14.2580438"></trkpt>
+      <trkpt lat="53.6958426" lon="14.2580183"></trkpt>
+      <trkpt lat="53.6956195" lon="14.2576951"></trkpt>
+      <trkpt lat="53.695259" lon="14.258308"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1065910174</name>
+    <trkseg>
+      <trkpt lat="51.7478639" lon="11.027444"></trkpt>
+      <trkpt lat="51.7478118" lon="11.0272298"></trkpt>
+      <trkpt lat="51.7477621" lon="11.0272145"></trkpt>
+      <trkpt lat="51.7463724" lon="11.0280109"></trkpt>
+      <trkpt lat="51.7464572" lon="11.0283428"></trkpt>
+      <trkpt lat="51.7478639" lon="11.027444"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1067267048</name>
+    <trkseg>
+      <trkpt lat="52.9426045" lon="8.3285674"></trkpt>
+      <trkpt lat="52.9421536" lon="8.3291575"></trkpt>
+      <trkpt lat="52.9422247" lon="8.3293372"></trkpt>
+      <trkpt lat="52.9426562" lon="8.3287713"></trkpt>
+      <trkpt lat="52.9426045" lon="8.3285674"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1067711589</name>
+    <trkseg>
+      <trkpt lat="50.4574878" lon="8.7714973"></trkpt>
+      <trkpt lat="50.4571071" lon="8.7717727"></trkpt>
+      <trkpt lat="50.4573055" lon="8.7723817"></trkpt>
+      <trkpt lat="50.4576886" lon="8.7722367"></trkpt>
+      <trkpt lat="50.4574878" lon="8.7714973"></trkpt>
     </trkseg>
   </trk>
   <trk>
