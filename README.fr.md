@@ -11,16 +11,16 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
 - POIs de Camping 
 
-    - 49859 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 49908 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
-- POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc. <br><br>Sur environ 1500 aires de camping-cars françaises, le nom de l'aire est malheureusement - "Parking jour uniquement". Le nom dit tout.
+- POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc.
 
-    - 33343 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 17008 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - POIs supplémentaire pour les besoins fondamentaux du campeur voyageur lui-même et de sa camionnette, sa moto avec side-car ou son bus hippie.
 
-    - 212029 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 169094 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 212260 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 169182 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Pays
 
