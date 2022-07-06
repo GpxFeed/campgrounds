@@ -15,7 +15,7 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
 - Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
 
-    - 16616 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 17076 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Zusätzliche Pois für die Grundversorgung des reisenden Campers selbst und seines Kleintransporters, Motorrades, Gespanns oder Hippie-Busses
 
