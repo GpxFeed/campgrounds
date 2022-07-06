@@ -15,7 +15,7 @@ The whole application is primarily intended for offline use on an old quad core 
 
 - Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are nevertheless also suitable for campers with tent etc.
 
-    - 16616 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 17076 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
