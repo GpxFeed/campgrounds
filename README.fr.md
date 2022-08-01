@@ -1,7 +1,7 @@
 Alimentez vos applications de routage OFFLINE.
 
 # Ajustement fin - Transformez votre planificateur d'itinéraire en une application de camping hors-ligne.
-# Une collection de campings et d'emplacements pour camping-cars à télécharger en tant que "Points of Interest" / POIs au format GPX.
+# Une collection de campings et d'emplacements pour camping-cars pour les nomades du camping à télécharger en tant que "Points of Interest" / POIs au format GPX.
 
 [Télécharger ZIP](https://github.com/GpxFeed/campgrounds/archive/refs/heads/master.zip)
 
@@ -11,16 +11,16 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
 - POIs de Camping 
 
-    - 50034 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 50193 Sites de camping   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc.
 
-    - 17076 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 16993 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - POIs supplémentaire pour les besoins fondamentaux du campeur voyageur lui-même et de sa camionnette, sa moto avec side-car ou son bus hippie.
 
-    - 212597 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 169482 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 212892 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 169748 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Pays
 
