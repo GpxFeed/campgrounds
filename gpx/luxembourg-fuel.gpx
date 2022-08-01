@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-07-05T19:45:47Z", "timestamp_areas_base":
-      "2022-07-05T17:13:36Z", "copyright": "The data included in
+      "2022-07-31T18:06:24Z", "timestamp_areas_base":
+      "2022-07-20T11:06:24Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -375,7 +375,7 @@ version="1.1" creator="togpx">
   <wpt lat="49.6084978" lon="6.1506708">
     <ele>273</ele>
     <name>Total Luxembourg</name>
-    <desc>amenity=fuel; name=Total Luxembourg;
+    <desc>amenity=fuel; compressed_air=yes; name=Total Luxembourg;
     operator=Total</desc>
   </wpt>
   <wpt lat="49.4817353" lon="6.0429935">
@@ -843,8 +843,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Echternach; addr:country=LU;
     addr:housenumber=109; addr:postcode=6562; addr:street=Route de
     Luxembourg; amenity=fuel; brand=Esso; brand:wikidata=Q867662;
-    brand:wikipedia=en:Esso; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Esso</desc>
+    brand:wikipedia=en:Esso; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Esso</desc>
   </wpt>
   <wpt lat="49.7657546" lon="5.8797084">
     <ele>269</ele>
@@ -940,11 +940,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
     brand:wikipedia=en:Kuwait Petroleum Corporation; name=Q8;
     name:fr=Q8</desc>
-  </wpt>
-  <wpt lat="49.7037364" lon="6.2167557">
-    <ele>329</ele>
-    <name>Voyages Josy Clement</name>
-    <desc>amenity=fuel; operator=Voyages Josy Clement</desc>
   </wpt>
   <wpt lat="49.6220943" lon="6.0488507">
     <ele>327</ele>
@@ -1200,17 +1195,19 @@ version="1.1" creator="togpx">
     <ele>308</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; building=yes; fuel:GTL_diesel=yes;
-    fuel:HGV_diesel=no; fuel:biodiesel=no; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes; layer=-1;
-    name=BP; opening_hours=24/7; operator=BP</desc>
+    brand:wikipedia=en:BP; building=yes; compressed_air=yes;
+    fuel:GTL_diesel=yes; fuel:HGV_diesel=no; fuel:biodiesel=no;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=-1; location=surface; name=BP;
+    opening_hours=24/7; operator=BP</desc>
   </wpt>
   <wpt lat="49.63540345" lon="5.970245151443095">
     <ele>308</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; building=yes; fuel:GTL_diesel=no;
-    fuel:HGV_diesel=yes; layer=-1; name=BP; operator=BP</desc>
+    brand:wikipedia=en:BP; building=yes; compressed_air=yes;
+    fuel:GTL_diesel=no; fuel:HGV_diesel=yes; layer=-1;
+    location=surface; name=BP; operator=BP</desc>
   </wpt>
   <wpt lat="49.653130149999996" lon="6.127683738633243">
     <ele>231</ele>
@@ -1351,14 +1348,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Luxembourg; addr:country=LU;
     addr:housenumber=430; addr:postcode=2222; addr:street=Rue de
     Neudorf; amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; building=yes; name=Shell;
-    operator=Shell</desc>
+    brand:wikipedia=en:Royal Dutch Shell; building=yes;
+    compressed_air=yes; name=Shell; opening_hours=Mo-Sa
+    07:00-21:30; operator=Shell</desc>
   </wpt>
   <wpt lat="49.59906445" lon="6.124221951445635">
     <ele>273</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; building=roof; operator=Shell;
-    source=bing</desc>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    building=roof; name=Shell; operator=Shell; source=bing</desc>
   </wpt>
   <wpt lat="49.59959085" lon="6.118851508491641">
     <ele>262</ele>
@@ -1542,7 +1540,7 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Luxembourg; addr:country=LU;
     addr:housenumber=306; addr:postcode=1471; addr:street=Route
-    d'Esch; amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    d'Esch; amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; building=yes; name=Shell;
     operator=Shell</desc>
   </wpt>
@@ -1551,7 +1549,8 @@ version="1.1" creator="togpx">
     <name>Q8</name>
     <desc>addr:city=Luxembourg; addr:country=LU;
     addr:housenumber=260; addr:postcode=1471; addr:street=Route
-    d'Esch; amenity=fuel; building=yes; operator=Q8</desc>
+    d'Esch; amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
+    building=yes; name=Q8; operator=Q8</desc>
   </wpt>
   <wpt lat="49.97419855" lon="6.090051937329344">
     <ele>512</ele>
@@ -2478,7 +2477,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/164340663</name>
+    <name>Shell</name>
     <trkseg>
       <trkpt lat="49.5991057" lon="6.1241063"></trkpt>
       <trkpt lat="49.5990306" lon="6.1241014"></trkpt>
@@ -2840,7 +2839,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/208158954</name>
+    <name>Q8</name>
     <trkseg>
       <trkpt lat="49.5925653" lon="6.1165877"></trkpt>
       <trkpt lat="49.5925038" lon="6.1165894"></trkpt>
