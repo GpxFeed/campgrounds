@@ -6,7 +6,7 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-08-29T12:04:06Z", "timestamp_areas_base":
+      "2022-10-01T19:08:22Z", "timestamp_areas_base":
       "2022-07-20T10:48:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
@@ -20,8 +20,8 @@ version="1.1" creator="togpx">
     <ele>82</ele>
     <name>Lukoil</name>
     <desc>addr:city=București; addr:housenumber=14;
-    addr:street=Strada Reșița; amenity=fuel; name=Lukoil;
-    id=node/101007882</desc>
+    addr:street=Strada Reșița; addr:street:source=survey;
+    amenity=fuel; name=Lukoil; id=node/101007882</desc>
   </wpt>
   <wpt lat="44.3885386" lon="26.1094391">
     <ele>80</ele>
@@ -378,8 +378,8 @@ version="1.1" creator="togpx">
   <wpt lat="44.4234491" lon="26.0955297">
     <ele>71</ele>
     <name>Petrom - 11 Iunie</name>
-    <desc>addr:city=București; addr:country=RO;
-    addr:housenumber=10; addr:postcode=040172;
+    <desc>addr.source:street=survey; addr:city=București;
+    addr:country=RO; addr:housenumber=10; addr:postcode=040172;
     addr:postcode:source=Date de la Poșta Română, publicate sub
     Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
@@ -434,7 +434,8 @@ version="1.1" creator="togpx">
     <ele>201</ele>
     <name>OMV</name>
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; name=OMV; operator=OMV;
+    brand:wikipedia=en:OMV; compressed_air=yes; name=OMV;
+    opening_hours=PH,Mo-Su 12:00; operator=OMV;
     id=node/259484212</desc>
   </wpt>
   <wpt lat="43.8966277" lon="25.9715855">
@@ -756,8 +757,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.7979346" lon="22.9001783">
     <ele>123</ele>
-    <name>node/299949356</name>
-    <desc>amenity=fuel; id=node/299949356</desc>
+    <name>MOL</name>
+    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    name=MOL; id=node/299949356</desc>
   </wpt>
   <wpt lat="45.6196363" lon="25.7069246">
     <ele>637</ele>
@@ -1107,11 +1109,14 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Bulrom Gas; operator=Bulrom Gas;
     id=node/364762898</desc>
   </wpt>
-  <wpt lat="45.2757715" lon="27.976411">
+  <wpt lat="45.2757724" lon="27.976411">
     <ele>22</ele>
-    <name>Petrom</name>
-    <desc>amenity=fuel; name=Petrom; opening_hours=24/7;
-    id=node/366142799</desc>
+    <name>OMV Petrom</name>
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    building=yes; building:levels=1; fuel:diesel=yes;
+    fuel:gasoline=yes; name=OMV Petrom; operator=OMV Petrom;
+    id=way/1093268114; ; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; opening_hours=24/7; id=node/366142799</desc>
   </wpt>
   <wpt lat="47.1431995" lon="27.6517523">
     <ele>38</ele>
@@ -1348,12 +1353,6 @@ version="1.1" creator="togpx">
     <name>Rompetrol</name>
     <desc>amenity=fuel; name=Rompetrol; id=node/455914171</desc>
   </wpt>
-  <wpt lat="46.9898925" lon="22.6308195">
-    <ele>344</ele>
-    <name>West Oil</name>
-    <desc>amenity=fuel; fixme=name; name=West Oil;
-    id=node/471290459</desc>
-  </wpt>
   <wpt lat="45.8628261" lon="23.2189928">
     <ele>207</ele>
     <name>Lukoil</name>
@@ -1363,8 +1362,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.0894996" lon="21.6917076">
     <ele>128</ele>
     <name>PETROM</name>
-    <desc>amenity=fuel; name=PETROM; operator=OMV;
-    id=node/472424465</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=PETROM; operator=OMV; id=node/472424465</desc>
   </wpt>
   <wpt lat="46.1143454" lon="24.2333265">
     <ele>283</ele>
@@ -1461,8 +1460,7 @@ version="1.1" creator="togpx">
     <ele>123</ele>
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    name=Petrom; id=node/492911805; ; name=Benzinăria Petrom;
-    id=way/1074303971</desc>
+    name=Petrom; id=node/492911805</desc>
   </wpt>
   <wpt lat="45.1566073" lon="26.8109575">
     <ele>96</ele>
@@ -1521,7 +1519,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.065677" lon="21.9289469">
     <ele>125</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; name=Petrom; id=node/506535623</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; opening_hours=24/7; operator=Petrom; phone=0372
+    483549; id=node/506535623</desc>
   </wpt>
   <wpt lat="45.6780414" lon="27.188576">
     <ele>48</ele>
@@ -2014,12 +2014,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.4148107" lon="26.1650134">
     <ele>70</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=51;
-    addr:postcode=030455; addr:street=Bulevardul Nicolae
-    Grigorescu; amenity=fuel; brand=Petrom;
-    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
-    name=Petrom; operator=Petrom; id=node/639267011; ;
-    building=yes; layer=1; id=way/173139819</desc>
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=51; addr:postcode=030455;
+    addr:street=Bulevardul Nicolae Grigorescu; amenity=fuel;
+    brand=Petrom; brand:wikidata=Q1755034;
+    brand:wikipedia=en:Petrom; name=Petrom; operator=Petrom;
+    id=node/639267011; ; building=yes; layer=1;
+    id=way/173139819</desc>
   </wpt>
   <wpt lat="44.4215631" lon="26.1366245">
     <ele>76</ele>
@@ -2270,12 +2271,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Alsan Peco; operator=Alsan Peco;
     id=node/860933740</desc>
   </wpt>
-  <wpt lat="47.5523944" lon="25.9061215">
+  <wpt lat="47.5524321" lon="25.9061709">
     <ele>466</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Petrom;
-    operator=Petrom; shop=kiosk; id=node/860933751</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Petrom; operator=Petrom; shop=kiosk;
+    id=node/860933751</desc>
   </wpt>
   <wpt lat="47.6689029" lon="26.2739081">
     <ele>278</ele>
@@ -2405,16 +2407,11 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:lpg=yes; fuel:octane_98=yes;
     name=privat; operator=Indipend.; id=node/915263594</desc>
   </wpt>
-  <wpt lat="45.6621865" lon="25.978121">
+  <wpt lat="45.6619826" lon="25.9780499">
     <ele>751</ele>
-    <name>Stație Peco</name>
-    <desc>amenity=fuel; name=Stație Peco; id=node/915263699</desc>
-  </wpt>
-  <wpt lat="45.6549666" lon="25.9865607">
-    <ele>739</ele>
-    <name>Stație de Carburanți</name>
-    <desc>amenity=fuel; name=Stație de Carburanți; name:ro=Stație
-    de Carburanți; id=node/915263700</desc>
+    <name>RO Oscar</name>
+    <desc>addr:city=Brădet; amenity=fuel; name=RO Oscar;
+    id=node/915263699</desc>
   </wpt>
   <wpt lat="46.9411319" lon="26.3157456">
     <ele>346</ele>
@@ -3053,12 +3050,13 @@ version="1.1" creator="togpx">
     <name>GT Oil</name>
     <desc>amenity=fuel; name=GT Oil; id=node/1589077142</desc>
   </wpt>
-  <wpt lat="45.6668111" lon="26.0558111">
+  <wpt lat="45.6667891" lon="26.0558209">
     <ele>695</ele>
     <name>Petrom</name>
-    <desc>addr:city=Întorsura Buzăului; amenity=fuel; brand=Petrom;
-    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
-    name=Petrom; id=node/1591985648</desc>
+    <desc>addr:city=Întorsura Buzăului; addr:street=Strada Mihai
+    Viteazul; amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    brand:wikipedia=en:Petrom; name=Petrom;
+    id=node/1591985648</desc>
   </wpt>
   <wpt lat="45.1843431" lon="25.6660196">
     <ele>549</ele>
@@ -3567,7 +3565,7 @@ version="1.1" creator="togpx">
     opening_hours=24/7; id=node/1886717008</desc>
     <link href="https://www.rompetrol.ro/"></link>
   </wpt>
-  <wpt lat="45.7048122" lon="25.4515033">
+  <wpt lat="45.7048263" lon="25.4515053">
     <ele>555</ele>
     <name>OMV</name>
     <desc>addr:city=Codlea; addr:street=Strada Lungă; amenity=fuel;
@@ -3741,7 +3739,7 @@ version="1.1" creator="togpx">
     <ele>502</ele>
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; name=Petrom;
+    brand:wikipedia=en:Petrom; name=Petrom; wheelchair=yes;
     id=node/2002370334</desc>
   </wpt>
   <wpt lat="47.1175809" lon="21.7975449">
@@ -3879,7 +3877,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.7121429" lon="25.6789369">
     <ele>525</ele>
     <name>Benzinărie</name>
-    <desc>amenity=fuel; name=Benzinărie; id=node/2088416686</desc>
+    <desc>addr:city=Hărman; amenity=fuel; name=Benzinărie;
+    id=node/2088416686</desc>
   </wpt>
   <wpt lat="46.7646678" lon="23.3606197">
     <ele>415</ele>
@@ -4396,8 +4395,8 @@ version="1.1" creator="togpx">
   <wpt lat="44.5558995" lon="23.5124224">
     <ele>114</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; name=Petrom;
-    opening_hours=24/7; id=node/2325324382</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; opening_hours=24/7; id=node/2325324382</desc>
   </wpt>
   <wpt lat="44.5335807" lon="24.5375941">
     <ele>227</ele>
@@ -4468,7 +4467,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.6100837" lon="25.658282">
     <ele>652</ele>
     <name>MOL</name>
-    <desc>amenity=fuel; brand=MOL; fuel:diesel=yes; fuel:lpg=yes;
+    <desc>addr:city=Săcele; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_100=yes; fuel:octane_98=yes; name=MOL; operator=MOL
     România; id=node/2335041790</desc>
   </wpt>
@@ -4726,6 +4726,11 @@ version="1.1" creator="togpx">
     phone=+40746211217; website=https://www.lukoil.ro/;
     id=node/2383474325</desc>
     <link href="https://www.lukoil.ro/"></link>
+  </wpt>
+  <wpt lat="46.2442455" lon="27.6776209">
+    <ele>68</ele>
+    <name>Lukoil</name>
+    <desc>amenity=fuel; name=Lukoil; id=node/2383531899</desc>
   </wpt>
   <wpt lat="46.4169004" lon="26.466096">
     <ele>383</ele>
@@ -5217,15 +5222,11 @@ version="1.1" creator="togpx">
   <wpt lat="44.4123974" lon="26.021759">
     <ele>87</ele>
     <name>Drive Gas GPL</name>
-    <desc>addr:city=București; addr:housenumber=63;
-    addr:postcode=061702; addr:street=Prelungirea Ghencea;
-    amenity=fuel; fuel:lpg=yes; name=Drive Gas GPL; source=survey;
-    id=node/2535980937</desc>
-  </wpt>
-  <wpt lat="45.7342514" lon="25.4379462">
-    <ele>551</ele>
-    <name>Lukoil</name>
-    <desc>amenity=fuel; name=Lukoil; id=node/2555152729</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=63; addr:postcode=061702;
+    addr:street=Prelungirea Ghencea; amenity=fuel; fuel:lpg=yes;
+    name=Drive Gas GPL; source=survey; id=node/2535980937</desc>
   </wpt>
   <wpt lat="47.1837782" lon="24.2086579">
     <ele>261</ele>
@@ -5329,9 +5330,9 @@ version="1.1" creator="togpx">
   <wpt lat="45.3840456" lon="25.5372208">
     <ele>863</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; name=Petrom; operator=Petrom;
-    id=node/2613409280</desc>
+    <desc>addr:city=Bușteni; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    name=Petrom; operator=Petrom; id=node/2613409280</desc>
   </wpt>
   <wpt lat="44.3417331" lon="23.6945801">
     <ele>80</ele>
@@ -5825,8 +5826,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.4015282" lon="24.2981088">
     <ele>342</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; name=Petrom; operator=Petrom;
-    id=node/3187986387</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; operator=Petrom; id=node/3187986387</desc>
   </wpt>
   <wpt lat="47.0615989" lon="21.911381">
     <ele>120</ele>
@@ -6424,7 +6425,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.6783396" lon="22.4649114">
     <ele>136</ele>
     <name>RomPetrol</name>
-    <desc>amenity=fuel; name=RomPetrol; id=node/3334249600</desc>
+    <desc>addr:city=Carei; amenity=fuel; brand=Rompetrol;
+    brand:wikidata=Q1788862; name=RomPetrol;
+    id=node/3334249600</desc>
   </wpt>
   <wpt lat="44.59444" lon="22.7296">
     <ele>46</ele>
@@ -6523,8 +6526,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.3304" lon="25.33449">
     <ele>492</ele>
-    <name>node/3334249810</name>
-    <desc>amenity=fuel; id=node/3334249810</desc>
+    <name>Petrom</name>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; opening_hours=24/7; operator=Petrom; phone=0372
+    428590; id=node/3334249810</desc>
   </wpt>
   <wpt lat="45.8043538" lon="24.077692">
     <ele>434</ele>
@@ -6569,8 +6574,10 @@ version="1.1" creator="togpx">
     <ele>90</ele>
     <name>Petrom</name>
     <desc>addr:city=Craiova; addr:street=Strada Ana Ipătescu;
-    amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Petrom; id=node/3334250803</desc>
+    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Petrom; opening_hours=24/7; operator=Petrom; phone=0372
+    484137; id=node/3334250803</desc>
   </wpt>
   <wpt lat="46.2186248" lon="23.9765667">
     <ele>253</ele>
@@ -7144,9 +7151,7 @@ version="1.1" creator="togpx">
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; phone=+40 372 484529;
-    website=https://www.petrom.ro/; id=node/3914071717</desc>
-    <link href="https://www.petrom.ro/"></link>
+    phone=+40 372 484529; id=node/3914071717</desc>
   </wpt>
   <wpt lat="45.8404722" lon="21.3521214">
     <ele>133</ele>
@@ -7182,10 +7187,7 @@ version="1.1" creator="togpx">
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; phone=+40 372 484528;
-    website=https://www.petrom.ro/; wheelchair=yes;
-    id=node/3915191834</desc>
-    <link href="https://www.petrom.ro/"></link>
+    phone=+40 372 484528; wheelchair=yes; id=node/3915191834</desc>
   </wpt>
   <wpt lat="47.706705" lon="25.849232">
     <ele>465</ele>
@@ -7212,14 +7214,14 @@ version="1.1" creator="togpx">
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; id=node/4021554943</desc>
+    id=node/4021554943</desc>
   </wpt>
   <wpt lat="45.7893362" lon="24.0103798">
     <ele>443</ele>
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; id=node/4022252843</desc>
+    id=node/4022252843</desc>
   </wpt>
   <wpt lat="44.1526764" lon="28.3547405">
     <ele>86</ele>
@@ -7238,14 +7240,14 @@ version="1.1" creator="togpx">
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; id=node/4022275479</desc>
+    id=node/4022275479</desc>
   </wpt>
   <wpt lat="45.9655974" lon="23.4687015">
     <ele>248</ele>
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    operator=Petrom; id=node/4022278289</desc>
+    id=node/4022278289</desc>
   </wpt>
   <wpt lat="46.7145418" lon="25.6024679">
     <ele>809</ele>
@@ -7789,8 +7791,8 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=GPL; name:hu=LPG;
     id=node/4475188094</desc>
   </wpt>
-  <wpt lat="44.6688773" lon="23.3831636">
-    <ele>122</ele>
+  <wpt lat="44.6691114" lon="23.3834264">
+    <ele>121</ele>
     <name>node/4504773092</name>
     <desc>amenity=fuel; id=node/4504773092</desc>
   </wpt>
@@ -7803,16 +7805,18 @@ version="1.1" creator="togpx">
   <wpt lat="44.4221556" lon="26.0371178">
     <ele>87</ele>
     <name>GPL Rompetrol</name>
-    <desc>addr:housenumber=45; addr:street=Drumul Taberei;
-    amenity=fuel; brand=Rompetrol; name=GPL Rompetrol;
-    operator=Rompetrol; id=node/4518095091</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=45; addr:street=Drumul Taberei; amenity=fuel;
+    brand=Rompetrol; name=GPL Rompetrol; operator=Rompetrol;
+    id=node/4518095091</desc>
   </wpt>
   <wpt lat="45.9207534" lon="23.6548256">
     <ele>275</ele>
     <name>MOL</name>
     <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); name=MOL; operator=MOL;
-    id=node/4534783268; ; id=way/884350366</desc>
+    brand:wikipedia=en:MOL (company); compressed_air=yes; name=MOL;
+    operator=MOL; id=node/4534783268; ; id=way/884350366</desc>
   </wpt>
   <wpt lat="45.9223489" lon="23.6644178">
     <ele>270</ele>
@@ -8688,10 +8692,13 @@ version="1.1" creator="togpx">
     <name>Top Gas</name>
     <desc>amenity=fuel; name=Top Gas; id=node/5645438926</desc>
   </wpt>
-  <wpt lat="45.7177905" lon="25.7621122">
+  <wpt lat="45.7176613" lon="25.7618319">
     <ele>520</ele>
-    <name>JA Petrol</name>
-    <desc>amenity=fuel; name=JA Petrol; id=node/5648416713</desc>
+    <name>RO OSCAR</name>
+    <desc>addr:city=Prejmer; amenity=fuel; brand=oscar; name=RO
+    OSCAR; operator=Ro; phone=0723334541;
+    website=https://www.benzinariile.ro/; id=node/5648416713</desc>
+    <link href="https://www.benzinariile.ro/"></link>
   </wpt>
   <wpt lat="44.2021217" lon="24.3498914">
     <ele>106</ele>
@@ -8811,7 +8818,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.369604" lon="25.5423662">
     <ele>841</ele>
     <name>Mol</name>
-    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    <desc>addr:city=Sinaia; addr:street=Bulevardul Ferdinand;
+    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL (company); name=Mol; opening_hours=24/7;
     operator=Mol; id=node/5769896470</desc>
   </wpt>
@@ -8903,11 +8911,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.8738296" lon="26.1882018">
     <ele>100</ele>
     <name>Rompetrol</name>
-    <desc>amenity=fuel; brand=Rompetrol;
-    contact:email=infoline@rompetrol.com; contact:phone=+40 727 798
-    343; contact:website=https://www.rompetrol.ro/;
-    fuel:diesel=yes; fuel:octane=yes; name=Rompetrol;
-    opening_hours=24/7; id=node/6052820427</desc>
+    <desc>addr:city=Dumbrava; amenity=fuel; brand=Rompetrol;
+    brand:wikidata=Q1788862; contact:email=infoline@rompetrol.com;
+    contact:phone=+40 727 798 343;
+    contact:website=https://www.rompetrol.ro/; fuel:diesel=yes;
+    fuel:octane=yes; name=Rompetrol; opening_hours=24/7;
+    operator=Rompetrol; id=node/6052820427</desc>
     <link href="https://www.rompetrol.ro/"></link>
   </wpt>
   <wpt lat="43.9513049" lon="25.9806926">
@@ -12352,8 +12361,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.6718916" lon="25.6418144">
     <ele>557</ele>
     <name>Lukoil</name>
-    <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    name=Lukoil; id=node/9894538685</desc>
+    <desc>addr:city=Brașov; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; name=Lukoil; id=node/9894538685</desc>
   </wpt>
   <wpt lat="45.2962898" lon="26.0004119">
     <ele>543</ele>
@@ -12403,6 +12412,35 @@ version="1.1" creator="togpx">
     fuel:lpg=yes; name=Lukoil; opening_hours=24/7;
     id=way/823935931; ; id=node/9947565735</desc>
   </wpt>
+  <wpt lat="44.449644" lon="26.2218363">
+    <ele>73</ele>
+    <name>CNG GAZ 202208 mam alimentat</name>
+    <desc>amenity=fuel; name=CNG GAZ 202208 mam alimentat;
+    id=node/9986399917</desc>
+  </wpt>
+  <wpt lat="45.37385" lon="23.3670764">
+    <ele>560</ele>
+    <name>Peco</name>
+    <desc>amenity=fuel; name=Peco; id=node/10011342158</desc>
+  </wpt>
+  <wpt lat="46.4259002" lon="21.84202">
+    <ele>107</ele>
+    <name>Petrom</name>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; id=node/10023346924</desc>
+  </wpt>
+  <wpt lat="46.2269444" lon="27.6730252">
+    <ele>67</ele>
+    <name>node/10028683369</name>
+    <desc>amenity=fuel; id=node/10028683369</desc>
+  </wpt>
+  <wpt lat="44.8832262" lon="23.3945377">
+    <ele>178</ele>
+    <name>Oil MW</name>
+    <desc>addr:city=Țicleni; addr:postcode=215600;
+    addr:street=Strada Stadionului; amenity=fuel; name=Oil MW;
+    id=way/1097669580; ; name=OIL MW; id=node/10050714771</desc>
+  </wpt>
   <wpt lat="45.22190575" lon="26.67206075522767">
     <ele>166</ele>
     <name>Benzinărie</name>
@@ -12431,9 +12469,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.4259689" lon="26.047643373513896">
     <ele>90</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=5A;
-    addr:postcode=061533; addr:street=Strada Sibiu; amenity=fuel;
-    brand=Petrom; brand:wikidata=Q1755034;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=5A; addr:postcode=061533; addr:street=Strada
+    Sibiu; amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; building=roof; name=Petrom;
     id=way/32275541</desc>
   </wpt>
@@ -12490,9 +12529,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.4157863" lon="26.174286928714235">
     <ele>71</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=138;
-    addr:postcode=032469; addr:postcode:source=Date de la Poșta
-    Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=138; addr:postcode=032469;
+    addr:postcode:source=Date de la Poșta Română, publicate sub
+    Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
     addr:street=Bulevardul 1 Decembrie 1918; amenity=fuel;
     brand=Lukoil; brand:wikidata=Q329347;
@@ -12666,10 +12706,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.937086949999994" lon="26.01951146681409">
     <ele>156</ele>
     <name>Lukoil</name>
-    <desc>addr:housenumber=35; addr:street=Strada Mărășești;
-    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; name=Lukoil;
-    id=way/95597521</desc>
+    <desc>addr:city=Ploiești; addr:housenumber=35;
+    addr:street=Strada Mărășești; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
+    building=roof; name=Lukoil; id=way/95597521</desc>
   </wpt>
   <wpt lat="44.93879665" lon="26.013898807397958">
     <ele>161</ele>
@@ -12721,9 +12761,9 @@ version="1.1" creator="togpx">
   <wpt lat="45.76786495" lon="21.221927786124468">
     <ele>89</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; building=yes; fuel:diesel=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrom;
-    id=way/97818478</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    building=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=Petrom; id=way/97818478</desc>
   </wpt>
   <wpt lat="45.7677267" lon="21.228478404255668">
     <ele>88</ele>
@@ -12890,9 +12930,10 @@ version="1.1" creator="togpx">
     addr:postcode=300004; addr:postcode:source=Date de la Poșta
     Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
-    addr:street=Bulevardul Republicii; amenity=fuel;
-    building=retail; name=MOL; opening_hours=24/7; operator=MOL
-    Romania; shop=yes; id=way/107710338</desc>
+    addr:street=Bulevardul Republicii; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; building=retail; name=MOL;
+    opening_hours=24/7; operator=MOL Romania;
+    id=way/107710338</desc>
   </wpt>
   <wpt lat="44.2019588" lon="28.63002885063544">
     <ele>10</ele>
@@ -13109,10 +13150,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.43426325" lon="26.008180034569964">
     <ele>90</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=194;
-    addr:postcode=061125; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181; building=roof;
-    layer=1; name=MOL; id=way/144932943</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=194; addr:postcode=061125;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; building=roof; layer=1; name=MOL;
+    id=way/144932943</desc>
   </wpt>
   <wpt lat="44.44045845" lon="26.188471120969744">
     <ele>72</ele>
@@ -13161,11 +13204,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.4332831" lon="26.0928910784892">
     <ele>70</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=26;
-    addr:postcode=050032; addr:street=Splaiul Independenței;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=yes; name=Petrom;
-    opening_hours=24/7; id=way/167231768</desc>
+    <desc>addr.source:street=survey; addr:city=București;
+    addr:housenumber=26; addr:postcode=050032; addr:street=Splaiul
+    Independenței; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=yes; name=Petrom; opening_hours=24/7;
+    id=way/167231768</desc>
   </wpt>
   <wpt lat="46.522192849999996" lon="24.60446829631055">
     <ele>331</ele>
@@ -13180,11 +13224,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.43837515" lon="26.069294413452603">
     <ele>75</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=191;
-    addr:postcode=050099; addr:street=Splaiul Independenței;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=yes; name=Petrom;
-    id=way/170950529</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=191; addr:postcode=050099; addr:street=Splaiul
+    Independenței; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=yes; name=Petrom; id=way/170950529</desc>
   </wpt>
   <wpt lat="46.55808235" lon="26.911940492639378">
     <ele>166</ele>
@@ -13251,7 +13296,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.37035275" lon="25.542341553301476">
     <ele>838</ele>
     <name>Lukoil</name>
-    <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
+    <desc>addr:street=Bulevardul Ferdinand; amenity=fuel;
+    brand=Lukoil; brand:wikidata=Q329347;
     brand:wikipedia=en:Lukoil; building=yes; name=Lukoil;
     operator=Lukoil; id=way/183823413</desc>
   </wpt>
@@ -13352,16 +13398,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Timișoara; addr:street=Calea Aradului;
     amenity=fuel; building=yes; name=Petrom;
     id=way/202302188</desc>
-  </wpt>
-  <wpt lat="45.785828050000006" lon="21.218575604838705">
-    <ele>90</ele>
-    <name>MOL</name>
-    <desc>addr:city=Timișoara; addr:housenumber=60;
-    addr:postcode=300291; addr:postcode:source=Date de la Poșta
-    Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
-    http://date.gov.ro/organization/posta-romana; addr:street=Calea
-    Aradului; amenity=fuel; brand=Mol; building=yes; name=MOL;
-    opening_hours=24/7; shop=yes; id=way/202302523</desc>
   </wpt>
   <wpt lat="46.74744935" lon="23.59342020528794">
     <ele>474</ele>
@@ -13782,20 +13818,22 @@ version="1.1" creator="togpx">
   <wpt lat="44.43463705" lon="26.044421189118722">
     <ele>91</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=8;
-    addr:postcode=060802; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
-    operator=MOL; id=way/225711670</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=8; addr:postcode=060802;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; name=MOL; operator=MOL; id=way/225711670</desc>
   </wpt>
   <wpt lat="44.4338897" lon="26.041577698359966">
     <ele>90</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=15B;
-    addr:postcode=061103; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
-    id=way/225715077</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=15B; addr:postcode=061103;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; name=MOL; id=way/225715077</desc>
   </wpt>
   <wpt lat="44.9287868" lon="25.99183871984205">
     <ele>166</ele>
@@ -13823,11 +13861,11 @@ version="1.1" creator="togpx">
   <wpt lat="44.3898399" lon="26.1246039049809">
     <ele>81</ele>
     <name>OMV</name>
-    <desc>addr:city=București; addr:housenumber=8;
-    addr:postcode=041914; addr:street=Șoseaua Berceni;
-    amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; building=roof; name=OMV; phone=0372
-    866598; id=way/227328531</desc>
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=8; addr:postcode=041914; addr:street=Șoseaua
+    Berceni; addr:street:source=survey; amenity=fuel; brand=OMV;
+    brand:wikidata=Q168238; brand:wikipedia=en:OMV; building=roof;
+    name=OMV; phone=0372 866598; id=way/227328531</desc>
   </wpt>
   <wpt lat="45.29061025" lon="27.979978400969387">
     <ele>19</ele>
@@ -14191,12 +14229,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.3755225" lon="26.11152932344737">
     <ele>77</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=28;
-    addr:postcode=041711; addr:street=Strada Turnu Măgurele;
-    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; layer=1; name=Lukoil;
-    opening_hours=24/7; operator=Lukoil; source=survey;
-    id=way/238476095</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=28; addr:postcode=041711; addr:street=Strada
+    Turnu Măgurele; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
+    building=roof; layer=1; name=Lukoil; opening_hours=24/7;
+    operator=Lukoil; source=survey; id=way/238476095</desc>
   </wpt>
   <wpt lat="44.3775647" lon="26.098618544900212">
     <ele>81</ele>
@@ -14213,18 +14252,21 @@ version="1.1" creator="togpx">
   <wpt lat="44.44257935" lon="26.036123599999996">
     <ele>90</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=48;
-    addr:postcode=060782; addr:street=Șoseaua Virtuții;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=48; addr:postcode=060782; addr:street=Șoseaua
+    Virtuții; amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; building=roof; layer=1; name=Petrom;
     opening_hours=24/7; operator=Petrom; id=way/238488970</desc>
   </wpt>
   <wpt lat="44.442117350000004" lon="26.035822592858274">
     <ele>90</ele>
     <name>Rompetrol</name>
-    <desc>addr:city=București; addr:housenumber=42-48;
-    addr:postcode=060786; addr:postcode:source=Date de la Poșta
-    Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=42-48; addr:postcode=060786;
+    addr:postcode:source=Date de la Poșta Română, publicate sub
+    Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
     addr:street=Șoseaua Virtuții; amenity=fuel; brand=Rompetrol;
     brand:wikidata=Q1788862; brand:wikipedia=en:Rompetrol;
@@ -14237,9 +14279,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.44395265" lon="26.036038597564104">
     <ele>89</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=27;
-    addr:postcode=060842; addr:street=Șoseaua Virtuții;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=27; addr:postcode=060842; addr:street=Șoseaua
+    Virtuții; amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; building=roof; layer=1;
     local:picture=wami-20090519-000095-26,036267-44,443833.jpg;
     name=Petrom; opening_hours=Mo-Su 00:00-24:00; operator=Petrom;
@@ -14325,11 +14368,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.4383025" lon="26.056518288771265">
     <ele>75</ele>
     <name>OMV</name>
-    <desc>addr:city=București; addr:housenumber=5;
-    addr:postcode=061341; addr:street=Bulevardul General Vasile
-    Milea; amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; building=yes; layer=1; name=OMV;
-    id=way/239359996</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=5; addr:postcode=061341;
+    addr:street=Bulevardul General Vasile Milea; amenity=fuel;
+    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
+    building=yes; layer=1; name=OMV; id=way/239359996</desc>
   </wpt>
   <wpt lat="44.98215755" lon="26.232513355485814">
     <ele>125</ele>
@@ -14406,20 +14450,23 @@ version="1.1" creator="togpx">
   <wpt lat="44.428123049999996" lon="26.03819829865492">
     <ele>87</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=18;
-    addr:postcode=061329; addr:street=Bulevardul Timișoara;
-    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; layer=1; name=Lukoil;
-    id=way/240409901</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=18; addr:postcode=061329;
+    addr:street=Bulevardul Timișoara; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
+    building=roof; layer=1; name=Lukoil; id=way/240409901</desc>
   </wpt>
   <wpt lat="44.4285554" lon="26.045922802282057">
     <ele>87</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=8C;
-    addr:postcode=061306; addr:street=Bulevardul Timișoara;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=retail; name=Petrom;
-    opening_hours=24/7; id=way/240410555</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=8C; addr:postcode=061306;
+    addr:street=Bulevardul Timișoara; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=retail; name=Petrom; opening_hours=24/7;
+    id=way/240410555</desc>
   </wpt>
   <wpt lat="47.9212005" lon="23.91245511503385">
     <ele>277</ele>
@@ -14433,8 +14480,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.57378115" lon="25.614783908202305">
     <ele>739</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; building=yes; name=Petrom;
-    id=way/241098720</desc>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    building=yes; name=Petrom; id=way/241098720</desc>
   </wpt>
   <wpt lat="44.40498455" lon="26.207439830214618">
     <ele>66</ele>
@@ -14596,14 +14643,16 @@ version="1.1" creator="togpx">
     <ele>95</ele>
     <name>Lukoil</name>
     <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; layer=1; name=Lukoil;
-    id=way/244431531</desc>
+    brand:wikipedia=en:Lukoil; building=roof; compressed_air=yes;
+    layer=1; name=Lukoil; id=way/244431531</desc>
   </wpt>
   <wpt lat="44.375676350000006" lon="26.118753448883794">
     <ele>76</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=110-112;
-    addr:postcode=041712; addr:street=Strada Turnu Măgurele;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=110-112; addr:postcode=041712;
+    addr:street=Strada Turnu Măgurele; addr:street:source=survey;
     amenity=fuel; brand=MOL; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL (company); building=roof; layer=1;
     name=MOL; operator=MOL; id=way/244879451</desc>
@@ -14652,11 +14701,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.383487849999995" lon="26.13819048619785">
     <ele>83</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=25;
-    addr:postcode=042054; addr:street=Strada Sergent Ion Iriceanu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; layer=1;
-    name=MOL; id=way/245280092</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=25; addr:postcode=042054; addr:street=Strada
+    Sergent Ion Iriceanu; addr:street:source=survey; amenity=fuel;
+    brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:MOL
+    (company); building=roof; layer=1; name=MOL;
+    id=way/245280092</desc>
   </wpt>
   <wpt lat="44.3103605" lon="23.819540722125115">
     <ele>111</ele>
@@ -14728,9 +14779,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.44635815" lon="26.06058249554273">
     <ele>79</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=4;
-    addr:postcode=060073; addr:street=Șoseaua Orhideelor;
-    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=4; addr:postcode=060073; addr:street=Șoseaua
+    Orhideelor; amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
     brand:wikipedia=en:Lukoil; building=roof; name=Lukoil;
     id=way/256806132</desc>
   </wpt>
@@ -15009,7 +15061,7 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; name=MOL;
     opening_hours=24/7; id=way/274955517</desc>
   </wpt>
-  <wpt lat="46.76111795" lon="23.5669634390547">
+  <wpt lat="46.76110105" lon="23.56689360134684">
     <ele>361</ele>
     <name>Lukoil</name>
     <desc>addr:city=Cluj-Napoca; addr:country=RO; addr:street=Calea
@@ -15023,7 +15075,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Cluj-Napoca; addr:country=RO;
     addr:housenumber=15; addr:street=Strada Anton Pann;
     amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=yes; name=Lukoil;
+    brand:wikipedia=en:Lukoil; building=yes; fuel:diesel=yes;
+    name=Lukoil; name:ro=Lukoil; self_service=yes;
     id=way/275802767</desc>
   </wpt>
   <wpt lat="46.78781225" lon="23.596982300635773">
@@ -15032,7 +15085,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Cluj-Napoca; addr:country=RO;
     addr:street=Strada Oașului; amenity=fuel; brand=Petrom;
     brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
-    building=retail; name=Petrom; operator=Petrom;
+    building=retail; name=Petrom; name:ro=Petrom; operator=Petrom;
     id=way/276177322</desc>
   </wpt>
   <wpt lat="46.7809389" lon="23.631894723378068">
@@ -15110,11 +15163,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.3976655" lon="26.042542095440343">
     <ele>83</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=166;
-    addr:postcode=051543; addr:street=Șoseaua Alexandria;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=roof; name=Petrom;
-    id=way/279533995</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=166; addr:postcode=051543; addr:street=Șoseaua
+    Alexandria; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=roof; name=Petrom; id=way/279533995</desc>
   </wpt>
   <wpt lat="45.839408399999996" lon="27.434150778224073">
     <ele>34</ele>
@@ -15400,11 +15454,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.43473645" lon="25.988479929423846">
     <ele>92</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=486;
-    addr:postcode=061127; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=roof; layer=1; name=Petrom;
-    operator=Petrom; id=way/303003758</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=486; addr:postcode=061127;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=roof; layer=1; name=Petrom; operator=Petrom;
+    id=way/303003758</desc>
   </wpt>
   <wpt lat="44.1582736" lon="28.632116745158214">
     <ele>28</ele>
@@ -15565,11 +15621,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.43424415" lon="25.986418446620576">
     <ele>91</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=205-211;
-    addr:postcode=061125; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; layer=1;
-    name=MOL; operator=MOL; id=way/313664865</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=205-211; addr:postcode=061125;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; layer=1; name=MOL; operator=MOL;
+    id=way/313664865</desc>
   </wpt>
   <wpt lat="46.78808745" lon="23.5785499">
     <ele>340</ele>
@@ -15624,12 +15682,12 @@ version="1.1" creator="togpx">
     id=way/318918306</desc>
     <link href="https://www.socar.ro/"></link>
   </wpt>
-  <wpt lat="45.6113824" lon="25.659399099844237">
+  <wpt lat="45.6113871" lon="25.659433999844246">
     <ele>648</ele>
     <name>Lukoil</name>
-    <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=yes; name=Lukoil;
-    id=way/319621583</desc>
+    <desc>addr:city=Săcele; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
+    building=yes; name=Lukoil; id=way/319621583</desc>
   </wpt>
   <wpt lat="46.210231949999994" lon="21.350093104631085">
     <ele>109</ele>
@@ -15676,20 +15734,22 @@ version="1.1" creator="togpx">
   <wpt lat="44.43199475" lon="26.0337266">
     <ele>97</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=32-34;
-    addr:postcode=061133; addr:street=Strada Lujerului;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
-    id=way/321413839</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=32-34; addr:postcode=061133;
+    addr:street=Strada Lujerului; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; name=MOL; id=way/321413839</desc>
   </wpt>
   <wpt lat="44.4449943" lon="26.07466685">
     <ele>82</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=29;
-    addr:postcode=010865; addr:street=Bulevardul Dinicu Golescu;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; layer=1;
-    name=MOL; id=way/326062450</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=29; addr:postcode=010865;
+    addr:street=Bulevardul Dinicu Golescu; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; layer=1; name=MOL; id=way/326062450</desc>
   </wpt>
   <wpt lat="46.1810287" lon="21.33091392783193">
     <ele>109</ele>
@@ -15901,8 +15961,8 @@ version="1.1" creator="togpx">
   <wpt lat="44.4098263" lon="26.09045353722802">
     <ele>83</ele>
     <name>Rompetrol</name>
-    <desc>addr:street=Șoseaua Viilor; amenity=fuel;
-    brand=Rompetrol; brand:wikidata=Q1788862;
+    <desc>addr:city=București; addr:street=Șoseaua Viilor;
+    amenity=fuel; brand=Rompetrol; brand:wikidata=Q1788862;
     brand:wikipedia=en:Rompetrol; building=roof;
     contact:email=infoline@rompetrol.com; contact:phone=+40 372 707
     286; contact:website=https://www.rompetrol.ro/; name=Rompetrol;
@@ -15975,11 +16035,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.4342508" lon="25.99542723135588">
     <ele>91</ele>
     <name>OMV</name>
-    <desc>addr:city=București; addr:housenumber=390-400;
-    addr:postcode=061101; addr:street=Bulevardul Iuliu Maniu;
-    amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; building=roof; layer=1; name=OMV;
-    operator=OMV; id=way/374248380</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=390-400; addr:postcode=061101;
+    addr:street=Bulevardul Iuliu Maniu; amenity=fuel; brand=OMV;
+    brand:wikidata=Q168238; brand:wikipedia=en:OMV; building=roof;
+    layer=1; name=OMV; operator=OMV; id=way/374248380</desc>
   </wpt>
   <wpt lat="44.4530403" lon="25.96066182451738">
     <ele>95</ele>
@@ -16035,9 +16096,10 @@ version="1.1" creator="togpx">
   <wpt lat="45.2900733" lon="25.064651516211413">
     <ele>628</ele>
     <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; building=roof; name=Petrom;
-    old_name=Euroil; id=way/382009202</desc>
+    <desc>addr:city=Câmpulung; amenity=fuel; brand=Petrom;
+    brand:wikidata=Q1755034; brand:wikipedia=en:Petrom;
+    building=roof; name=Petrom; old_name=Euroil;
+    id=way/382009202</desc>
   </wpt>
   <wpt lat="44.409271000000004" lon="26.178692661152006">
     <ele>72</ele>
@@ -16096,11 +16158,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.3821346" lon="26.133008775069314">
     <ele>82</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=53-57;
-    addr:postcode=041908; addr:street=Strada Măriuca; amenity=fuel;
-    brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:MOL
-    (company); building=roof; name=MOL; operator=MOL;
-    id=way/397040388</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=53-57; addr:postcode=041908;
+    addr:street=Strada Măriuca; addr:street:source=survey;
+    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
+    operator=MOL; id=way/397040388</desc>
   </wpt>
   <wpt lat="44.88223195" lon="24.83388676886336">
     <ele>285</ele>
@@ -16233,11 +16297,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.41176215" lon="26.0137283">
     <ele>87</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=44;
-    addr:postcode=061714; addr:street=Prelungirea Ghencea;
-    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; name=Lukoil;
-    opening_hours=24/7; operator=Lukoil; id=way/414205588</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=44; addr:postcode=061714;
+    addr:street=Prelungirea Ghencea; amenity=fuel; brand=Lukoil;
+    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
+    building=roof; name=Lukoil; opening_hours=24/7;
+    operator=Lukoil; id=way/414205588</desc>
   </wpt>
   <wpt lat="44.45320555" lon="25.961861839115752">
     <ele>96</ele>
@@ -16352,9 +16418,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.4192819" lon="26.035003725515324">
     <ele>86</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=23;
-    addr:postcode=061444; addr:street=Strada Brașov; amenity=fuel;
-    brand=Petrom; brand:wikidata=Q1755034;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=23; addr:postcode=061444; addr:street=Strada
+    Brașov; amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; building=roof; name=Petrom;
     id=way/427064005</desc>
   </wpt>
@@ -16537,7 +16604,8 @@ version="1.1" creator="togpx">
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
     brand:wikipedia=en:Petrom; building=yes; name=Petrom;
-    opening_hours=24/7; operator=Petrom; id=way/454068707</desc>
+    opening_hours=24/7; operator=Petrom; phone=0372 866366;
+    id=way/454068707</desc>
   </wpt>
   <wpt lat="46.54538095" lon="22.45577017093113">
     <ele>260</ele>
@@ -16598,7 +16666,7 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=OMV; phone=+40 372 855619;
     id=way/462517202</desc>
   </wpt>
-  <wpt lat="45.7460405" lon="21.25376320698594">
+  <wpt lat="45.746019000000004" lon="21.25371630698594">
     <ele>87</ele>
     <name>Lukoil</name>
     <desc>amenity=fuel; building=yes; name=Lukoil;
@@ -16770,9 +16838,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.416887700000004" lon="26.013428532934924">
     <ele>84</ele>
     <name>Rompetrol</name>
-    <desc>addr:city=București; addr:housenumber=93-95;
-    addr:street=Strada Valea Oltului; amenity=fuel;
-    brand=Rompetrol; building=roof;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=93-95; addr:street=Strada Valea Oltului;
+    amenity=fuel; brand=Rompetrol; building=roof;
     contact:email=infoline@rompetrol.com; contact:phone=+40 372 764
     876; contact:website=https://www.rompetrol.ro/;
     fuel:diesel=yes; fuel:octane=yes; name=Rompetrol;
@@ -16920,9 +16989,9 @@ version="1.1" creator="togpx">
     <ele>126</ele>
     <name>Lukoil</name>
     <desc>addr:city=Carei; amenity=fuel; brand=Lukoil;
-    building=retail; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; name=Lukoil; opening_hours=24/7;
-    operator=Lukoil; id=way/523307378</desc>
+    brand:wikidata=Q329347; building=retail; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; name=Lukoil;
+    opening_hours=24/7; operator=Lukoil; id=way/523307378</desc>
   </wpt>
   <wpt lat="44.515749650000004" lon="26.016202540159163">
     <ele>94</ele>
@@ -16978,11 +17047,11 @@ version="1.1" creator="togpx">
   <wpt lat="44.48686445" lon="26.092418962909733">
     <ele>84</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=76-80;
-    addr:postcode=014285; addr:street=Strada Nicolae G. Caramfil;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
-    id=way/529618174</desc>
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=76-80; addr:postcode=014285;
+    addr:street=Strada Nicolae G. Caramfil; amenity=fuel;
+    brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:MOL
+    (company); building=roof; name=MOL; id=way/529618174</desc>
   </wpt>
   <wpt lat="44.493397349999995" lon="26.063320106451094">
     <ele>85</ele>
@@ -17034,11 +17103,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.48027935" lon="26.10189934546866">
     <ele>85</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=1;
-    addr:postcode=014253; addr:street=Strada Căpitan Aviator
-    Alexandru Șerbănescu; amenity=fuel; brand=Lukoil;
-    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
-    building=roof; name=Lukoil; id=way/547396767</desc>
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=1; addr:postcode=014253; addr:street=Strada
+    Căpitan Aviator Alexandru Șerbănescu; amenity=fuel;
+    brand=Lukoil; brand:wikidata=Q329347;
+    brand:wikipedia=en:Lukoil; building=roof; name=Lukoil;
+    id=way/547396767</desc>
   </wpt>
   <wpt lat="44.49433165" lon="26.031405626635255">
     <ele>90</ele>
@@ -17239,8 +17309,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.85698175" lon="26.309652019063314">
     <ele>284</ele>
-    <name>way/633873133</name>
-    <desc>amenity=fuel; brand=Petrom; id=way/633873133</desc>
+    <name>Petrom</name>
+    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
+    name=Petrom; opening_hours=Mo-Su 06:00-18:00; operator=Petrom;
+    phone=0372 483920; id=way/633873133</desc>
   </wpt>
   <wpt lat="43.82284545" lon="24.66275238831797">
     <ele>41</ele>
@@ -17364,10 +17436,11 @@ version="1.1" creator="togpx">
   <wpt lat="44.41776765" lon="26.05815024117375">
     <ele>84</ele>
     <name>Petrom</name>
-    <desc>addr:city=București; addr:housenumber=2A;
-    addr:postcode=051734; addr:street=Șoseaua Antiaeriană;
-    amenity=fuel; brand=Petrom; building=roof; name=Petrom;
-    id=way/665664876</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=2A; addr:postcode=051734; addr:street=Șoseaua
+    Antiaeriană; amenity=fuel; brand=Petrom; building=roof;
+    name=Petrom; id=way/665664876</desc>
   </wpt>
   <wpt lat="44.39823015" lon="25.980046124208464">
     <ele>86</ele>
@@ -17455,11 +17528,11 @@ version="1.1" creator="togpx">
   <wpt lat="44.39474175" lon="26.119971290635668">
     <ele>86</ele>
     <name>MOL</name>
-    <desc>addr:city=București; addr:housenumber=83A;
-    addr:postcode=041325; addr:street=Șoseaua Olteniței;
-    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=roof; name=MOL;
-    operator=MOL; id=way/667527084</desc>
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=83A; addr:postcode=041325; addr:street=Șoseaua
+    Olteniței; addr:street:source=survey; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; brand:wikipedia=en:MOL (company);
+    building=roof; name=MOL; operator=MOL; id=way/667527084</desc>
   </wpt>
   <wpt lat="44.9560371" lon="26.007912001128158">
     <ele>168</ele>
@@ -17565,7 +17638,7 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes; layer=1; name=MOL; operator=MOL;
     id=way/668553093</desc>
   </wpt>
-  <wpt lat="44.9421152" lon="25.458952714736277">
+  <wpt lat="44.94208745" lon="25.45892621673104">
     <ele>284</ele>
     <name>Octan</name>
     <desc>addr:street=Aleea Mănăstirea Dealu; amenity=fuel;
@@ -17581,9 +17654,10 @@ version="1.1" creator="togpx">
   <wpt lat="44.4157851" lon="26.174122601091">
     <ele>72</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=138;
-    addr:postcode=032469; addr:postcode:source=Date de la Poșta
-    Română, publicate sub Licența pentru Guvernare Deschisă v1.0 la
+    <desc>addr.source:housenumber=survey; addr:city=București;
+    addr:housenumber=138; addr:postcode=032469;
+    addr:postcode:source=Date de la Poșta Română, publicate sub
+    Licența pentru Guvernare Deschisă v1.0 la
     http://date.gov.ro/organization/posta-romana;
     addr:street=Bulevardul 1 Decembrie 1918; amenity=fuel;
     brand=Lukoil; brand:wikidata=Q329347;
@@ -17713,11 +17787,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.42055055" lon="26.075604728065493">
     <ele>84</ele>
     <name>Lukoil</name>
-    <desc>addr:city=București; addr:housenumber=52;
-    addr:postcode=050883; addr:street=Bulevardul Tudor
-    Vladimirescu; amenity=fuel; brand=Lukoil;
-    brand:wikidata=Q329347; brand:wikipedia=en:Lukoil;
-    building=roof; name=Lukoil; id=way/677821783</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=52; addr:postcode=050883;
+    addr:street=Bulevardul Tudor Vladimirescu; amenity=fuel;
+    brand=Lukoil; brand:wikidata=Q329347;
+    brand:wikipedia=en:Lukoil; building=roof; name=Lukoil;
+    id=way/677821783</desc>
   </wpt>
   <wpt lat="46.7777386" lon="23.615456912504712">
     <ele>337</ele>
@@ -18054,7 +18130,7 @@ version="1.1" creator="togpx">
   <wpt lat="45.7125319" lon="21.193241758405726">
     <ele>87</ele>
     <name>OMV</name>
-    <desc>addr:city=Timișoara; addr:housenumber=191;
+    <desc>addr:city=Timișoara; addr:housenumber=203;
     addr:street=Calea Șagului; amenity=fuel; brand=OMV;
     brand:wikidata=Q168238; brand:wikipedia=en:OMV; building=yes;
     name=OMV; opening_hours=24/7; operator=OMV; phone=0372 866225;
@@ -18303,24 +18379,6 @@ version="1.1" creator="togpx">
     fuel:lpg=yes; fuel:octane_95=yes; name=Lukoil;
     self_service=yes; id=way/863006767</desc>
   </wpt>
-  <wpt lat="46.19377265" lon="21.090467009020276">
-    <ele>104</ele>
-    <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    phone=+40 372 484527; website=https://www.petrom.ro/;
-    id=way/882626127</desc>
-    <link href="https://www.petrom.ro/"></link>
-  </wpt>
-  <wpt lat="46.19446005" lon="21.090952999999992">
-    <ele>103</ele>
-    <name>Petrom</name>
-    <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
-    brand:wikipedia=en:Petrom; name=Petrom; opening_hours=24/7;
-    phone=+40 372 484527; website=https://www.petrom.ro/;
-    id=way/882626128</desc>
-    <link href="https://www.petrom.ro/"></link>
-  </wpt>
   <wpt lat="45.440626" lon="27.96105260696828">
     <ele>56</ele>
     <name>way/885134202</name>
@@ -18448,11 +18506,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.44693205" lon="26.076326270361875">
     <ele>85</ele>
     <name>OMV</name>
-    <desc>addr:city=București; addr:housenumber=183;
-    addr:postcode=051023; addr:street=Calea Griviței; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    name=OMV; opening_hours=24/7; operator=OMV; phone=+40 372 855
-    528; id=way/897948618</desc>
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=183; addr:postcode=051023; addr:street=Calea
+    Griviței; amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    brand:wikipedia=en:OMV; name=OMV; opening_hours=24/7;
+    operator=OMV; phone=+40 372 855 528; id=way/897948618</desc>
   </wpt>
   <wpt lat="46.728422699999996" lon="25.581984038265304">
     <ele>793</ele>
@@ -18492,12 +18551,13 @@ version="1.1" creator="togpx">
   <wpt lat="44.43150815" lon="26.002619283288226">
     <ele>90</ele>
     <name>Engie GNC</name>
-    <desc>addr:city=București; addr:housenumber=1G;
-    addr:postcode=062203; addr:street=Strada Preciziei;
-    amenity=fuel; brand=Engie; building=roof; fuel:cng=yes;
-    fuel:electricity=yes; name=Engie GNC; name:en=Engie CNG;
-    name:ro=Engie GNC; opening_hours=Mo-Fr 07:30-21:00, Sa
-    08:00-12:00; operator=Engie; payment:cash=yes;
+    <desc>addr.source:housenumber=survey;
+    addr.source:street=survey; addr:city=București;
+    addr:housenumber=1G; addr:postcode=062203; addr:street=Strada
+    Preciziei; amenity=fuel; brand=Engie; building=roof;
+    fuel:cng=yes; fuel:electricity=yes; name=Engie GNC;
+    name:en=Engie CNG; name:ro=Engie GNC; opening_hours=Mo-Fr
+    07:30-21:00, Sa 08:00-12:00; operator=Engie; payment:cash=yes;
     payment:credit_cards=yes; payment:debit_cards=yes;
     website=https://www.engie.ro/; id=way/904415882</desc>
     <link href="https://www.engie.ro/"></link>
@@ -18915,14 +18975,14 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Petrom; building=yes; name=Petrom;
     id=way/1034993399</desc>
   </wpt>
-  <wpt lat="47.247040600000005" lon="26.709433986451273">
+  <wpt lat="47.24708215" lon="26.709364026755974">
     <ele>244</ele>
     <name>Rompetrol</name>
     <desc>amenity=fuel; brand=Rompetrol; brand:wikidata=Q1788862;
     brand:wikipedia=en:Rompetrol; building=yes; compressed_air=yes;
     name=Rompetrol; id=way/1036209182</desc>
   </wpt>
-  <wpt lat="47.2438548" lon="26.72373301356727">
+  <wpt lat="47.2438612" lon="26.723671313567266">
     <ele>235</ele>
     <name>Petrom</name>
     <desc>amenity=fuel; brand=Petrom; brand:wikidata=Q1755034;
@@ -18964,6 +19024,12 @@ version="1.1" creator="togpx">
     <ele>252</ele>
     <name>way/1073800388</name>
     <desc>amenity=fuel; id=way/1073800388</desc>
+  </wpt>
+  <wpt lat="47.7817529" lon="22.876334468104353">
+    <ele>123</ele>
+    <name>Benzinăria Petrom</name>
+    <desc>amenity=fuel; name=Benzinăria Petrom;
+    id=way/1074303971</desc>
   </wpt>
   <wpt lat="46.44833775" lon="24.24314382922477">
     <ele>275</ele>
@@ -19054,6 +19120,30 @@ version="1.1" creator="togpx">
     <ele>619</ele>
     <name>way/1089411609</name>
     <desc>amenity=fuel; id=way/1089411609</desc>
+  </wpt>
+  <wpt lat="44.966534949999996" lon="23.50424875975401">
+    <ele>211</ele>
+    <name>Rompetrol</name>
+    <desc>addr:street=Strada Trandafirilor; amenity=fuel;
+    brand=Rompetrol; brand:wikidata=Q1788862; name=Rompetrol;
+    id=way/1091822205</desc>
+  </wpt>
+  <wpt lat="44.966663350000005" lon="23.504181636616828">
+    <ele>211</ele>
+    <name>Rompetrol</name>
+    <desc>amenity=fuel; brand=Rompetrol; brand:wikidata=Q1788862;
+    name=Rompetrol; id=way/1091822206</desc>
+  </wpt>
+  <wpt lat="45.7858158" lon="21.218494895496324">
+    <ele>90</ele>
+    <name>MOL</name>
+    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    building=yes; name=MOL; id=way/1093092441</desc>
+  </wpt>
+  <wpt lat="45.34917025" lon="25.1639762">
+    <ele>649</ele>
+    <name>Forte Gaz</name>
+    <desc>amenity=fuel; name=Forte Gaz; id=way/1098858149</desc>
   </wpt>
   <trk>
     <name>Benzinărie</name>
@@ -20764,20 +20854,6 @@ version="1.1" creator="togpx">
       <trkpt lat="45.7862609" lon="21.2175041"></trkpt>
       <trkpt lat="45.7861327" lon="21.2173173"></trkpt>
       <trkpt lat="45.786059" lon="21.2174213"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>MOL</name>
-    <trkseg>
-      <trkpt lat="45.7858864" lon="21.2184314"></trkpt>
-      <trkpt lat="45.7857697" lon="21.218506"></trkpt>
-      <trkpt lat="45.7856593" lon="21.2185833"></trkpt>
-      <trkpt lat="45.7856905" lon="21.218679"></trkpt>
-      <trkpt lat="45.785716" lon="21.2187575"></trkpt>
-      <trkpt lat="45.7859733" lon="21.2185853"></trkpt>
-      <trkpt lat="45.7859467" lon="21.2185035"></trkpt>
-      <trkpt lat="45.7859164" lon="21.2185238"></trkpt>
-      <trkpt lat="45.7858864" lon="21.2184314"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23543,11 +23619,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lukoil</name>
     <trkseg>
-      <trkpt lat="46.7611364" lon="23.5668483"></trkpt>
-      <trkpt lat="46.7610569" lon="23.5668857"></trkpt>
-      <trkpt lat="46.7610995" lon="23.5670786"></trkpt>
-      <trkpt lat="46.7611788" lon="23.5670412"></trkpt>
-      <trkpt lat="46.7611364" lon="23.5668483"></trkpt>
+      <trkpt lat="46.7611168" lon="23.5667894"></trkpt>
+      <trkpt lat="46.7610451" lon="23.5668219"></trkpt>
+      <trkpt lat="46.7610853" lon="23.5669975"></trkpt>
+      <trkpt lat="46.7611634" lon="23.5669636"></trkpt>
+      <trkpt lat="46.7611453" lon="23.5668941"></trkpt>
+      <trkpt lat="46.7611168" lon="23.5667894"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -24614,13 +24691,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lukoil</name>
     <trkseg>
-      <trkpt lat="45.6113473" lon="25.6592335"></trkpt>
-      <trkpt lat="45.6112819" lon="25.6593026"></trkpt>
-      <trkpt lat="45.6114003" lon="25.6595315"></trkpt>
-      <trkpt lat="45.6113645" lon="25.6595694"></trkpt>
-      <trkpt lat="45.6114087" lon="25.6596548"></trkpt>
-      <trkpt lat="45.61151" lon="25.6595478"></trkpt>
-      <trkpt lat="45.6113473" lon="25.6592335"></trkpt>
+      <trkpt lat="45.611352" lon="25.6592684"></trkpt>
+      <trkpt lat="45.6112866" lon="25.6593375"></trkpt>
+      <trkpt lat="45.611405" lon="25.6595664"></trkpt>
+      <trkpt lat="45.6113692" lon="25.6596043"></trkpt>
+      <trkpt lat="45.6114134" lon="25.6596897"></trkpt>
+      <trkpt lat="45.6115147" lon="25.6595827"></trkpt>
+      <trkpt lat="45.611352" lon="25.6592684"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -25406,6 +25483,7 @@ version="1.1" creator="togpx">
     <name>Lukoil</name>
     <trkseg>
       <trkpt lat="44.4094018" lon="26.1786312"></trkpt>
+      <trkpt lat="44.4093667" lon="26.17862"></trkpt>
       <trkpt lat="44.4093227" lon="26.1786059"></trkpt>
       <trkpt lat="44.4093155" lon="26.17865"></trkpt>
       <trkpt lat="44.4091901" lon="26.1786098"></trkpt>
@@ -26348,13 +26426,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lukoil</name>
     <trkseg>
-      <trkpt lat="45.7460923" lon="21.2536715"></trkpt>
-      <trkpt lat="45.7459216" lon="21.2537363"></trkpt>
-      <trkpt lat="45.7459465" lon="21.253871"></trkpt>
-      <trkpt lat="45.7460011" lon="21.2538502"></trkpt>
-      <trkpt lat="45.7460799" lon="21.2538203"></trkpt>
-      <trkpt lat="45.7461172" lon="21.2538061"></trkpt>
-      <trkpt lat="45.7460923" lon="21.2536715"></trkpt>
+      <trkpt lat="45.7460708" lon="21.2536246"></trkpt>
+      <trkpt lat="45.7459001" lon="21.2536894"></trkpt>
+      <trkpt lat="45.745925" lon="21.2538241"></trkpt>
+      <trkpt lat="45.7459796" lon="21.2538033"></trkpt>
+      <trkpt lat="45.7460584" lon="21.2537734"></trkpt>
+      <trkpt lat="45.7460957" lon="21.2537592"></trkpt>
+      <trkpt lat="45.7460708" lon="21.2536246"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -27429,7 +27507,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/633873133</name>
+    <name>Petrom</name>
     <trkseg>
       <trkpt lat="47.8566128" lon="26.3098821"></trkpt>
       <trkpt lat="47.8567982" lon="26.309917"></trkpt>
@@ -27965,11 +28043,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Octan</name>
     <trkseg>
-      <trkpt lat="44.9420714" lon="25.4591364"></trkpt>
-      <trkpt lat="44.9422462" lon="25.4589467"></trkpt>
-      <trkpt lat="44.942159" lon="25.4587619"></trkpt>
-      <trkpt lat="44.9419828" lon="25.4589818"></trkpt>
-      <trkpt lat="44.9420714" lon="25.4591364"></trkpt>
+      <trkpt lat="44.9420398" lon="25.4590497"></trkpt>
+      <trkpt lat="44.9421822" lon="25.4588831"></trkpt>
+      <trkpt lat="44.9421351" lon="25.4588027"></trkpt>
+      <trkpt lat="44.9419927" lon="25.4589694"></trkpt>
+      <trkpt lat="44.9420398" lon="25.4590497"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -29450,26 +29528,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Petrom</name>
-    <trkseg>
-      <trkpt lat="46.193786" lon="21.0903724"></trkpt>
-      <trkpt lat="46.193712" lon="21.0905076"></trkpt>
-      <trkpt lat="46.1937593" lon="21.0905616"></trkpt>
-      <trkpt lat="46.1938333" lon="21.0904265"></trkpt>
-      <trkpt lat="46.193786" lon="21.0903724"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Petrom</name>
-    <trkseg>
-      <trkpt lat="46.1944734" lon="21.0908584"></trkpt>
-      <trkpt lat="46.1943994" lon="21.0909935"></trkpt>
-      <trkpt lat="46.1944467" lon="21.0910476"></trkpt>
-      <trkpt lat="46.1945207" lon="21.0909125"></trkpt>
-      <trkpt lat="46.1944734" lon="21.0908584"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/884350366</name>
     <trkseg>
       <trkpt lat="45.9208095" lon="23.6547887"></trkpt>
@@ -30457,27 +30515,31 @@ version="1.1" creator="togpx">
   <trk>
     <name>Rompetrol</name>
     <trkseg>
-      <trkpt lat="47.2471424" lon="26.7093323"></trkpt>
-      <trkpt lat="47.2469505" lon="26.7094167"></trkpt>
-      <trkpt lat="47.2469717" lon="26.7095212"></trkpt>
-      <trkpt lat="47.2469905" lon="26.7095129"></trkpt>
-      <trkpt lat="47.2470907" lon="26.7094689"></trkpt>
-      <trkpt lat="47.2471636" lon="26.7094369"></trkpt>
-      <trkpt lat="47.2471424" lon="26.7093323"></trkpt>
+      <trkpt lat="47.2471652" lon="26.7092706"></trkpt>
+      <trkpt lat="47.2470271" lon="26.7093313"></trkpt>
+      <trkpt lat="47.2469733" lon="26.709355"></trkpt>
+      <trkpt lat="47.2469945" lon="26.7094595"></trkpt>
+      <trkpt lat="47.2470133" lon="26.7094512"></trkpt>
+      <trkpt lat="47.2470508" lon="26.7094347"></trkpt>
+      <trkpt lat="47.2471135" lon="26.7094072"></trkpt>
+      <trkpt lat="47.2471864" lon="26.7093752"></trkpt>
+      <trkpt lat="47.2471652" lon="26.7092706"></trkpt>
     </trkseg>
   </trk>
   <trk>
     <name>Petrom</name>
     <trkseg>
-      <trkpt lat="47.2440685" lon="26.7235344"></trkpt>
-      <trkpt lat="47.2439753" lon="26.7235281"></trkpt>
-      <trkpt lat="47.2439719" lon="26.7236382"></trkpt>
-      <trkpt lat="47.2437558" lon="26.7236238"></trkpt>
-      <trkpt lat="47.2437495" lon="26.7238286"></trkpt>
-      <trkpt lat="47.2439562" lon="26.7238424"></trkpt>
-      <trkpt lat="47.2439538" lon="26.7239202"></trkpt>
-      <trkpt lat="47.2440563" lon="26.7239271"></trkpt>
-      <trkpt lat="47.2440685" lon="26.7235344"></trkpt>
+      <trkpt lat="47.2440749" lon="26.7234727"></trkpt>
+      <trkpt lat="47.2440444" lon="26.7234707"></trkpt>
+      <trkpt lat="47.2439817" lon="26.7234664"></trkpt>
+      <trkpt lat="47.2439783" lon="26.7235765"></trkpt>
+      <trkpt lat="47.2437622" lon="26.7235621"></trkpt>
+      <trkpt lat="47.2437559" lon="26.7237669"></trkpt>
+      <trkpt lat="47.2439626" lon="26.7237807"></trkpt>
+      <trkpt lat="47.2439602" lon="26.7238585"></trkpt>
+      <trkpt lat="47.2439878" lon="26.7238604"></trkpt>
+      <trkpt lat="47.2440627" lon="26.7238654"></trkpt>
+      <trkpt lat="47.2440749" lon="26.7234727"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30568,11 +30630,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Benzinăria Petrom</name>
     <trkseg>
-      <trkpt lat="47.7817341" lon="22.8761278"></trkpt>
-      <trkpt lat="47.7816453" lon="22.8763273"></trkpt>
-      <trkpt lat="47.7818141" lon="22.8764797"></trkpt>
-      <trkpt lat="47.7818877" lon="22.8763226"></trkpt>
-      <trkpt lat="47.7817341" lon="22.8761278"></trkpt>
+      <trkpt lat="47.7818312" lon="22.8760753"></trkpt>
+      <trkpt lat="47.7816746" lon="22.8763778"></trkpt>
+      <trkpt lat="47.7818653" lon="22.8765351"></trkpt>
+      <trkpt lat="47.7819482" lon="22.8762286"></trkpt>
+      <trkpt lat="47.7818312" lon="22.8760753"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30721,6 +30783,76 @@ version="1.1" creator="togpx">
       <trkpt lat="46.9673868" lon="25.198028"></trkpt>
       <trkpt lat="46.9674425" lon="25.1980257"></trkpt>
       <trkpt lat="46.9674393" lon="25.1978972"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Rompetrol</name>
+    <trkseg>
+      <trkpt lat="44.9665499" lon="23.5041882"></trkpt>
+      <trkpt lat="44.9664909" lon="23.5042337"></trkpt>
+      <trkpt lat="44.96652" lon="23.5043093"></trkpt>
+      <trkpt lat="44.9665791" lon="23.5042638"></trkpt>
+      <trkpt lat="44.9665499" lon="23.5041882"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Rompetrol</name>
+    <trkseg>
+      <trkpt lat="44.9667051" lon="23.5041765"></trkpt>
+      <trkpt lat="44.9666854" lon="23.5041295"></trkpt>
+      <trkpt lat="44.9666217" lon="23.5041872"></trkpt>
+      <trkpt lat="44.9666413" lon="23.5042335"></trkpt>
+      <trkpt lat="44.9667051" lon="23.5041765"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>MOL</name>
+    <trkseg>
+      <trkpt lat="45.7858109" lon="21.2183961"></trkpt>
+      <trkpt lat="45.7857663" lon="21.2184258"></trkpt>
+      <trkpt lat="45.7858207" lon="21.2185937"></trkpt>
+      <trkpt lat="45.7858653" lon="21.2185639"></trkpt>
+      <trkpt lat="45.7858109" lon="21.2183961"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV Petrom</name>
+    <trkseg>
+      <trkpt lat="45.2757798" lon="27.9763314"></trkpt>
+      <trkpt lat="45.2756861" lon="27.9763999"></trkpt>
+      <trkpt lat="45.2757307" lon="27.9765233"></trkpt>
+      <trkpt lat="45.2757471" lon="27.9765114"></trkpt>
+      <trkpt lat="45.2757433" lon="27.976553"></trkpt>
+      <trkpt lat="45.2757763" lon="27.9765758"></trkpt>
+      <trkpt lat="45.2757879" lon="27.9766097"></trkpt>
+      <trkpt lat="45.2758213" lon="27.9765868"></trkpt>
+      <trkpt lat="45.2758075" lon="27.9765463"></trkpt>
+      <trkpt lat="45.2758218" lon="27.9765117"></trkpt>
+      <trkpt lat="45.275799" lon="27.9764927"></trkpt>
+      <trkpt lat="45.2758299" lon="27.97647"></trkpt>
+      <trkpt lat="45.2757798" lon="27.9763314"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Oil MW</name>
+    <trkseg>
+      <trkpt lat="44.8832335" lon="23.3944506"></trkpt>
+      <trkpt lat="44.883219" lon="23.3944552"></trkpt>
+      <trkpt lat="44.8831474" lon="23.3944779"></trkpt>
+      <trkpt lat="44.8831229" lon="23.3944856"></trkpt>
+      <trkpt lat="44.8831401" lon="23.3945937"></trkpt>
+      <trkpt lat="44.8832507" lon="23.3945587"></trkpt>
+      <trkpt lat="44.8832335" lon="23.3944506"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Forte Gaz</name>
+    <trkseg>
+      <trkpt lat="45.3493623" lon="25.1638424"></trkpt>
+      <trkpt lat="45.3490308" lon="25.1637455"></trkpt>
+      <trkpt lat="45.3489782" lon="25.16411"></trkpt>
+      <trkpt lat="45.3493097" lon="25.1642069"></trkpt>
+      <trkpt lat="45.3493623" lon="25.1638424"></trkpt>
     </trkseg>
   </trk>
 </gpx>

@@ -6,7 +6,7 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-08-29T11:33:38Z", "timestamp_areas_base":
+      "2022-10-01T19:30:40Z", "timestamp_areas_base":
       "2022-07-20T10:48:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
@@ -125,7 +125,8 @@ version="1.1" creator="togpx">
   <wpt lat="54.9027804" lon="23.9315848">
     <ele>76</ele>
     <name>Šilas</name>
-    <desc>name=Šilas; shop=supermarket; id=node/365338320</desc>
+    <desc>name=Šilas; opening_hours=Mo-Su 07:30-23:00;
+    shop=supermarket; id=node/365338320</desc>
   </wpt>
   <wpt lat="55.1363204" lon="26.1673378">
     <ele>197</ele>
@@ -517,7 +518,7 @@ version="1.1" creator="togpx">
     addr:postcode=01314; addr:street=Kauno g.; brand=IKI;
     brand:wikidata=Q1653981; brand:wikipedia=lt:IKI (parduotuvių
     tinklas); name=IKI EXPRESS Šopeno; opening_hours=Mo-Su
-    08:00-22:00, ; operator=Palink; phone=+37080011454;
+    08:00-22:00; operator=Palink; phone=+37080011454;
     shop=supermarket; type=IKI Express;
     website=https://www.iki.lt/; id=node/724279485</desc>
     <link href="https://www.iki.lt/"></link>
@@ -1037,12 +1038,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.7101869" lon="25.1873419">
     <ele>160</ele>
-    <name>IKI Pilaitė</name>
+    <name>IKI</name>
     <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=1;
-    addr:street=Priegliaus g.; level=1; name=IKI Pilaitė;
-    opening_hours=Mo-Su 08:00-22:00; operator=Palink; phone=+370 5
-    240 6440; shop=supermarket; type=IKI;
-    website=https://www.iki.lt/; id=node/1363071443</desc>
+    addr:street=Priegliaus g.; branch=Pilaitė; brand=IKI;
+    brand:wikidata=Q1653981; level=1; name=IKI; opening_hours=Mo-Su
+    08:00-22:00; operator=Palink; phone=+370 5 240 6440;
+    shop=supermarket; type=IKI; website=https://www.iki.lt/;
+    id=node/1363071443</desc>
     <link href="https://www.iki.lt/"></link>
   </wpt>
   <wpt lat="55.3500151" lon="21.4741078">
@@ -1387,6 +1389,14 @@ version="1.1" creator="togpx">
     addr:street=Lietuvininkų g.; name=IKI Lietuvninkų;
     opening_hours=08:00-22:00; shop=supermarket; type=IKI;
     id=node/2139859916</desc>
+  </wpt>
+  <wpt lat="55.0409064" lon="24.9573322">
+    <ele>113</ele>
+    <name>IKI Širvintos</name>
+    <desc>addr:city=Širvintos; addr:contact=yes;
+    addr:housenumber=59; addr:street=Vilniaus g.; level=1; name=IKI
+    Širvintos; opening_hours=Mo-Sa 08:00-21:00, Su 08:00-19:00;
+    shop=supermarket; type=IKI; id=node/2139861474</desc>
   </wpt>
   <wpt lat="54.3078566" lon="25.3842782">
     <ele>181</ele>
@@ -1772,14 +1782,6 @@ version="1.1" creator="togpx">
     addr:street=Turgaus g.; name=Aibė; shop=supermarket;
     id=node/3570226194</desc>
   </wpt>
-  <wpt lat="56.0294907" lon="21.0858853">
-    <ele>1</ele>
-    <name>Maxima X</name>
-    <desc>addr:city=Palanga; addr:contact=yes; addr:housenumber=1;
-    addr:street=Mokyklos g.; diet:kosher=no; name=Maxima X;
-    opening_hours=PH,Mo-Su 07:00-24:00; shop=supermarket;
-    wheelchair=yes; id=node/3581973805</desc>
-  </wpt>
   <wpt lat="55.7145838" lon="21.1290311">
     <ele>8</ele>
     <name>Maxima X</name>
@@ -2051,10 +2053,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Panevėžys; addr:contact=yes;
     addr:housenumber=85; addr:street=Smėlynės g.; brand=Norfa XL;
     brand:wikidata=Q1998983; brand:wikipedia=lt:Norfa;
-    contact:phone=+37065652413; contact:website=norfa.lt;
+    contact:phone=+37065652413; contact:website=https://norfa.lt;
     name=Norfa XL; opening_hours=Mo-Sa 08:00-22:00, Su 09:00-21:00;
     shop=supermarket; wheelchair=yes; id=node/4290059296</desc>
-    <link href="norfa.lt"></link>
+    <link href="https://norfa.lt"></link>
   </wpt>
   <wpt lat="55.720635" lon="24.3478265">
     <ele>54</ele>
@@ -2268,6 +2270,13 @@ version="1.1" creator="togpx">
     website=https://www.iki.lt/; id=node/5200299851</desc>
     <link href="https://www.iki.lt/"></link>
   </wpt>
+  <wpt lat="56.3026612" lon="22.3401833">
+    <ele>67</ele>
+    <name>Rimi</name>
+    <desc>addr:city=Mažeikiai; addr:housenumber=38;
+    addr:postcode=89163; addr:street=Žemaitijos g.; name=Rimi;
+    shop=supermarket; id=node/5256554472</desc>
+  </wpt>
   <wpt lat="54.9038321" lon="23.8990186">
     <ele>28</ele>
     <name>Maxima XX</name>
@@ -2336,8 +2345,8 @@ version="1.1" creator="togpx">
     name=Radijo ryšio sistemos; payment:bitcoin=yes;
     payment:cash=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; phone=+37052603146; shop=supermarket;
-    website=www.rrs.lt; id=node/5853578592</desc>
-    <link href="www.rrs.lt"></link>
+    website=https://www.rrs.lt; id=node/5853578592</desc>
+    <link href="https://www.rrs.lt"></link>
   </wpt>
   <wpt lat="55.9066052" lon="23.2571688">
     <ele>131</ele>
@@ -2353,9 +2362,12 @@ version="1.1" creator="togpx">
     <name>IKI Lentvaris</name>
     <desc>addr:city=Lentvaris; addr:contact=yes;
     addr:housenumber=38; addr:postcode=25116;
-    addr:street=Geležinkelio g.; name=IKI Lentvaris;
-    opening_hours=08:00-22:00; operator=Palink; shop=supermarket;
-    website=https://www.iki.lt/; id=node/6171432894</desc>
+    addr:street=Geležinkelio g.; check_date=2022-09-25;
+    check_date:opening_hours=2022-09-25; name=IKI Lentvaris;
+    opening_hours=08:00-22:00; operator=Palink;
+    payment:mastercard=yes; payment:visa=yes; shop=supermarket;
+    website=https://www.iki.lt/; wheelchair=yes;
+    id=node/6171432894</desc>
     <link href="https://www.iki.lt/"></link>
   </wpt>
   <wpt lat="55.9428323" lon="23.3251134">
@@ -2415,14 +2427,15 @@ version="1.1" creator="togpx">
     addr:street=Vytauto g.; level=1; name=MAXIMA X; operator=Maxima
     LT, UAB; shop=supermarket; id=node/6717810080</desc>
   </wpt>
-  <wpt lat="54.6871138" lon="25.2818099">
-    <ele>103</ele>
+  <wpt lat="54.6875061" lon="25.2816946">
+    <ele>101</ele>
     <name>Lidl</name>
     <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=9;
     addr:postcode=01105; addr:street=Gedimino pr.; branch=Gedimino;
     brand=Lidl; brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
-    name=Lidl; opening_hours=Mo-Su 08:00-22:00; phone=+37080010011;
-    shop=supermarket; website=https://www.lidl.lt/; wheelchair=yes;
+    level=-1; name=Lidl; opening_hours=Mo-Su 08:00-22:00;
+    phone=+37080010011; shop=supermarket;
+    website=https://www.lidl.lt/; wheelchair=yes;
     id=node/6721194773</desc>
     <link href="https://www.lidl.lt/"></link>
   </wpt>
@@ -2477,7 +2490,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Joniškis; addr:housenumber=9;
     addr:street=Statybininkų g.; brand=Norfa XL;
     brand:wikidata=Q1998983; brand:wikipedia=lt:Norfa; name=Norfa
-    XL; opening_hours=Mo-Sa 7:00-22:00, Su 9:00-20:00, ;
+    XL; opening_hours=Mo-Sa 07:00-22:00, Su 09:00-20:00;
     opening_hours:url=http://www.norfa.lt/lt/parduotuves/;
     shop=supermarket; id=node/7784739339</desc>
     <link href="http://www.norfa.lt/lt/parduotuves/"></link>
@@ -2540,6 +2553,13 @@ version="1.1" creator="togpx">
     <desc>addr:postcode=68156; name=Kubas; opening_hours=Mo-Su
     08:00-22:00; shop=supermarket; id=node/8027716885</desc>
   </wpt>
+  <wpt lat="54.8410276" lon="25.4687923">
+    <ele>109</ele>
+    <name>Lidl</name>
+    <desc>addr:city=Nemenčinė; addr:housenumber=42;
+    addr:street=Vilniaus g.; building=retail; fixme=Nėr ortofoto;
+    name=Lidl; shop=supermarket; id=node/8093107884</desc>
+  </wpt>
   <wpt lat="54.6064675" lon="25.3831971">
     <ele>195</ele>
     <name>Maxima X</name>
@@ -2568,6 +2588,62 @@ version="1.1" creator="togpx">
     check_date:opening_hours=2022-07-20; name=IKI;
     opening_hours=Mo-Su 08:00-22:00; opening_hours:covid19=same;
     shop=supermarket; id=node/8486555209</desc>
+  </wpt>
+  <wpt lat="55.2440616" lon="22.2963387">
+    <ele>31</ele>
+    <name>Mere</name>
+    <desc>addr:city=Tauragė; addr:housenumber=2A;
+    addr:street=Gaurės g.; name=Mere; shop=supermarket;
+    id=node/8509431187</desc>
+  </wpt>
+  <wpt lat="55.7072155" lon="21.164618">
+    <ele>6</ele>
+    <name>Mere</name>
+    <desc>addr:city=Klaipėda; addr:housenumber=51;
+    addr:street=Tilžės g.; name=Mere; shop=supermarket;
+    id=node/8509579444</desc>
+  </wpt>
+  <wpt lat="54.9153037" lon="23.9917997">
+    <ele>71</ele>
+    <name>Mere</name>
+    <desc>addr:city=Kaunas; addr:housenumber=14;
+    addr:street=Pramonės pr.; name=Mere; shop=supermarket;
+    id=node/8509726579</desc>
+  </wpt>
+  <wpt lat="54.8821281" lon="24.0077963">
+    <ele>38</ele>
+    <name>Mere</name>
+    <desc>addr:city=Kaunas; addr:housenumber=18D; addr:street=T.
+    Masiulio g.; name=Mere; shop=supermarket;
+    id=node/8509742443</desc>
+  </wpt>
+  <wpt lat="55.7055813" lon="24.3810054">
+    <ele>63</ele>
+    <name>Mere</name>
+    <desc>addr:city=Panevėžys; addr:housenumber=151;
+    addr:street=Ramygalos g.; name=Mere; shop=supermarket;
+    id=node/8509842129</desc>
+  </wpt>
+  <wpt lat="56.3016342" lon="22.3375966">
+    <ele>63</ele>
+    <name>Mere</name>
+    <desc>addr:city=Mažeikiai; addr:housenumber=17B;
+    addr:street=Naftininkų g.; name=Mere; shop=supermarket;
+    id=node/8509962651</desc>
+  </wpt>
+  <wpt lat="54.564351" lon="23.3290246">
+    <ele>72</ele>
+    <name>Mere</name>
+    <desc>addr:city=Tarpučiai; addr:contact=yes;
+    addr:housenumber=78; addr:street=Vilkaviškio g.; name=Mere;
+    shop=supermarket; id=node/8510010995</desc>
+  </wpt>
+  <wpt lat="54.4327692" lon="24.0149465">
+    <ele>112</ele>
+    <name>Mere</name>
+    <desc>addr:city=Alytus; addr:housenumber=31A;
+    addr:street=Pramonės g.; name=Mere; shop=supermarket;
+    id=node/8510061761</desc>
   </wpt>
   <wpt lat="55.8100867" lon="23.5431487">
     <ele>126</ele>
@@ -2677,6 +2753,13 @@ version="1.1" creator="togpx">
     addr:street=Marių g.; name=Express Market; shop=supermarket;
     id=node/9169336854</desc>
   </wpt>
+  <wpt lat="54.9189183" lon="23.969556">
+    <ele>72</ele>
+    <name>Mere</name>
+    <desc>addr:city=Kaunas; addr:contact=yes; addr:housenumber=49A;
+    addr:postcode=49438; addr:street=V. Krėvės pr.; name=Mere;
+    shop=supermarket; id=node/9171315793</desc>
+  </wpt>
   <wpt lat="55.4874802" lon="22.1945447">
     <ele>105</ele>
     <name>Norfa</name>
@@ -2685,19 +2768,12 @@ version="1.1" creator="togpx">
     website=https://www.norfa.lt; id=node/9198873310</desc>
     <link href="https://www.norfa.lt"></link>
   </wpt>
-  <wpt lat="54.7365053" lon="25.2115723">
+  <wpt lat="54.7366026" lon="25.2114525">
     <ele>177</ele>
     <name>Maxima XXX</name>
     <desc>brand=Maxima XXX; brand:wikidata=Q1881222;
     brand:wikipedia=en:Maxima Group; name=Maxima XXX;
     shop=supermarket; id=node/9335922158</desc>
-  </wpt>
-  <wpt lat="54.7301874" lon="25.3321454">
-    <ele>130</ele>
-    <name>Lidl</name>
-    <desc>addr:city=Vilnius; addr:housenumber=15;
-    addr:postcode=15173; addr:street=Nemenčinės pl.; fixme=No
-    ortho; name=Lidl; shop=supermarket; id=node/9759192330</desc>
   </wpt>
   <wpt lat="54.6992079" lon="25.2831897">
     <ele>110</ele>
@@ -2718,13 +2794,8 @@ version="1.1" creator="togpx">
   <wpt lat="54.7207383" lon="25.2781692">
     <ele>119</ele>
     <name>Express market</name>
-    <desc>name=Express market; shop=supermarket;
-    id=node/9830683617</desc>
-  </wpt>
-  <wpt lat="55.9019505" lon="21.2506699">
-    <ele>18</ele>
-    <name>AIBĖ</name>
-    <desc>name=AIBĖ; shop=supermarket; id=node/9853163375</desc>
+    <desc>name=Express market; opening_hours=Mo-Su 08:00-22:00;
+    shop=supermarket; id=node/9830683617</desc>
   </wpt>
   <wpt lat="54.6671562" lon="25.2139214">
     <ele>115</ele>
@@ -2739,6 +2810,28 @@ version="1.1" creator="togpx">
     07:00-21:00, Su 08:00-18:00; shop=supermarket;
     website=https://epromo.lt/; id=node/9944070617</desc>
     <link href="https://epromo.lt/"></link>
+  </wpt>
+  <wpt lat="55.0742319" lon="22.7467849">
+    <ele>16</ele>
+    <name>Mere</name>
+    <desc>name=Mere; shop=supermarket; id=node/9976742955</desc>
+  </wpt>
+  <wpt lat="54.7091577" lon="25.1847292">
+    <ele>156</ele>
+    <name>IKI</name>
+    <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=42;
+    addr:street=Priegliaus g.; branch=Pilaitė; brand=IKI;
+    brand:wikidata=Q1653981; level=1; name=IKI; operator=Palink;
+    shop=supermarket; type=IKI; website=https://www.iki.lt/;
+    id=node/10008857724</desc>
+    <link href="https://www.iki.lt/"></link>
+  </wpt>
+  <wpt lat="55.7221936" lon="21.1537095">
+    <ele>5</ele>
+    <name>Maxima XX</name>
+    <desc>brand=Maxima XX; brand:wikidata=Q1881222; name=Maxima XX;
+    opening_hours=Mo-Su 08:00-22:00; shop=supermarket;
+    id=node/10011808226</desc>
   </wpt>
   <wpt lat="55.72130205" lon="24.36563149193288">
     <ele>54</ele>
@@ -2763,11 +2856,12 @@ version="1.1" creator="togpx">
     <name>Lidl</name>
     <desc>addr:city=Vilnius; addr:housenumber=34;
     addr:postcode=07178; addr:street=Dūkštų g.; brand=Lidl;
-    brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
-    name=Lidl; opening_hours=Mo-Su 8:00-22:00; operator=UAB "Lidl
-    Lietuva"; phone=+37080010011; shop=supermarket;
-    type=multipolygon; website=https://www.lidl.lt/;
-    wheelchair=yes; id=relation/6779145</desc>
+    brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
+    building=retail; building:levels=1; name=Lidl;
+    opening_hours=Mo-Su 8:00-22:00; operator=UAB "Lidl Lietuva";
+    phone=+37080010011; shop=supermarket; type=multipolygon;
+    website=https://www.lidl.lt/; wheelchair=yes;
+    id=relation/6779145</desc>
     <link href="https://www.lidl.lt/"></link>
   </wpt>
   <wpt lat="55.8927055" lon="21.262729343617565">
@@ -2854,7 +2948,7 @@ version="1.1" creator="togpx">
     id=way/24373851</desc>
     <link href="https://www.maxima.lt/"></link>
   </wpt>
-  <wpt lat="54.675123850000006" lon="25.257279030234137">
+  <wpt lat="54.675215699999995" lon="25.257287855075514">
     <ele>131</ele>
     <name>Rimi Mylia</name>
     <desc>addr:city=Vilnius; addr:housenumber=4;
@@ -3323,7 +3417,7 @@ version="1.1" creator="togpx">
     <name>Elimart</name>
     <desc>addr:city=Joniškis; addr:housenumber=87;
     addr:postcode=84174; addr:street=V. Kudirkos g.; building=yes;
-    name=Elimart; opening_hours=Mo-Su 08:00-22:00, ;
+    name=Elimart; opening_hours=Mo-Su 08:00-22:00;
     shop=supermarket; id=way/70793004</desc>
   </wpt>
   <wpt lat="56.2278369" lon="23.60535338329456">
@@ -3388,7 +3482,7 @@ version="1.1" creator="togpx">
     id=way/79865344</desc>
     <link href="https://www.rimi.lt/"></link>
   </wpt>
-  <wpt lat="54.7122362" lon="25.301977347687902">
+  <wpt lat="54.71229565" lon="25.301978236993445">
     <ele>122</ele>
     <name>Hyper Rimi</name>
     <desc>addr:city=Vilnius; addr:housenumber=64;
@@ -3635,6 +3729,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vilnius; addr:housenumber=151;
     addr:postcode=08221; addr:street=Kalvarijų g.;
     building=commercial; building:levels=2; layer=1; name=Norfa;
+    opening_hours=Mo-Sa 07:00-22:00, Su 09:00-21:00;
     shop=supermarket; wheelchair=yes; id=way/96867878</desc>
   </wpt>
   <wpt lat="55.27997515" lon="23.96332611914314">
@@ -3728,6 +3823,14 @@ version="1.1" creator="togpx">
     addr:postcode=62411; addr:street=Ūdrijos g.; building=retail;
     name=RIMI Hypermarket; opening_hours=Mo-Su 08:00-23:00;
     shop=supermarket; id=way/98330174</desc>
+  </wpt>
+  <wpt lat="54.39637995" lon="24.0273325991837">
+    <ele>106</ele>
+    <name>"Aibė"</name>
+    <desc>addr:city=Alytus; addr:housenumber=2;
+    addr:postcode=63411; addr:street=Topolių g.; building=yes;
+    building:levels=0; name="Aibė"; shop=supermarket;
+    id=way/98335411</desc>
   </wpt>
   <wpt lat="55.68832505" lon="21.17863025285468">
     <ele>12</ele>
@@ -4296,7 +4399,7 @@ version="1.1" creator="togpx">
     g.; building=yes; name=Norfa XL; shop=supermarket;
     wheelchair=no; id=way/134078765</desc>
   </wpt>
-  <wpt lat="54.872742099999996" lon="24.214915366291933">
+  <wpt lat="54.872766999999996" lon="24.214940611515427">
     <ele>71</ele>
     <name>Maxima X</name>
     <desc>addr:city=Rumšiškės; addr:country=LT;
@@ -5019,8 +5122,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Kaunas; addr:housenumber=116;
     addr:postcode=44147; addr:street=Savanorių pr.;
     building=retail; building:levels=1; name=Šilas;
-    opening_hours=Mo-Su 07:30-23:00; roof:shape=flat;
-    shop=supermarket; wheelchair=yes; id=way/188200427</desc>
+    opening_hours=Mo-Su 07:30-23:00; payment:credit_cards=yes;
+    payment:debit_cards=yes; roof:shape=flat; shop=supermarket;
+    wheelchair=yes; id=way/188200427</desc>
   </wpt>
   <wpt lat="55.3862242" lon="23.126612008839828">
     <ele>97</ele>
@@ -6115,7 +6219,7 @@ version="1.1" creator="togpx">
     name=Maxima X; shop=supermarket; source=ORT10LT;
     id=way/280416450</desc>
   </wpt>
-  <wpt lat="54.31312605" lon="25.38429135310046">
+  <wpt lat="54.3131203" lon="25.38429227567962">
     <ele>178</ele>
     <name>Maxima X</name>
     <desc>addr:city=Šalčininkai; addr:housenumber=11;
@@ -6473,6 +6577,15 @@ version="1.1" creator="togpx">
     <desc>addr:postcode=47314; building=yes; name=Maxima X;
     shop=supermarket; id=way/352241483</desc>
   </wpt>
+  <wpt lat="56.029453700000005" lon="21.085891289366142">
+    <ele>1</ele>
+    <name>Maxima X</name>
+    <desc>addr:city=Palanga; addr:contact=yes; addr:housenumber=1;
+    addr:postcode=00303; addr:street=Mokyklos g.; building=retail;
+    building:levels=1; diet:kosher=no; name=Maxima X;
+    opening_hours=PH,Mo-Su 07:00-24:00; roof:shape=flat;
+    shop=supermarket; wheelchair=yes; id=way/352407120</desc>
+  </wpt>
   <wpt lat="54.93377005" lon="23.721419349999998">
     <ele>25</ele>
     <name>Bostonas</name>
@@ -6501,10 +6614,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vilnius; addr:housenumber=180;
     addr:postcode=08221; addr:street=Kalvarijų g.; brand=Lidl;
     brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
-    name=Lidl; opening_hours=Mo-Su 07:00-23:00; operator=UAB "Lidl
-    Lietuva"; phone=+37080010011; shop=supermarket;
-    website=https://www.lidl.lt/lt/index.htm; wheelchair=yes;
-    id=way/361919398</desc>
+    building:levels=1; name=Lidl; opening_hours=Mo-Su 07:00-23:00;
+    operator=UAB "Lidl Lietuva"; phone=+37080010011;
+    shop=supermarket; website=https://www.lidl.lt/lt/index.htm;
+    wheelchair=yes; id=way/361919398</desc>
     <link href="https://www.lidl.lt/lt/index.htm"></link>
   </wpt>
   <wpt lat="54.9266695" lon="23.97562968136201">
@@ -7128,13 +7241,14 @@ version="1.1" creator="togpx">
     name=Lidl; opening_hours=Mo-Su 08:00-22:00; shop=supermarket;
     id=way/560584747</desc>
   </wpt>
-  <wpt lat="54.9118141" lon="23.947178468898272">
+  <wpt lat="54.91177835" lon="23.94718129459386">
     <ele>75</ele>
     <name>Šilas</name>
     <desc>addr:city=Kaunas; addr:housenumber=31A;
-    addr:street=Taikos pr.; building=yes; name=Šilas;
-    opening_hours=7:30-23:00; shop=supermarket;
-    id=way/565853136</desc>
+    addr:street=Taikos pr.; building=retail; building:levels=2;
+    name=Šilas; opening_hours=7:30-23:00; payment:credit_cards=yes;
+    payment:debit_cards=yes; roof:shape=flat; shop=supermarket;
+    wheelchair=yes; id=way/565853136</desc>
   </wpt>
   <wpt lat="54.664692" lon="25.270709642002817">
     <ele>152</ele>
@@ -7229,7 +7343,7 @@ version="1.1" creator="togpx">
     09:00-16:00; phone=+370 315 77106; shop=supermarket;
     id=way/611620085</desc>
   </wpt>
-  <wpt lat="54.91558190000001" lon="23.901300196530386">
+  <wpt lat="54.91555555" lon="23.90147080359116">
     <ele>29</ele>
     <name>Rimi „Varniai“</name>
     <desc>addr:city=Kaunas; addr:housenumber=41;
@@ -7474,7 +7588,7 @@ version="1.1" creator="togpx">
     addr:street=Islandijos pl.; brand=Lidl; building=retail;
     name=Lidl; shop=supermarket; id=way/784946655</desc>
   </wpt>
-  <wpt lat="55.9302012" lon="23.29764205027179">
+  <wpt lat="55.93020135" lon="23.297640838196642">
     <ele>121</ele>
     <name>Maxima X</name>
     <desc>addr:city=Šiauliai; addr:housenumber=33;
@@ -7520,6 +7634,15 @@ version="1.1" creator="togpx">
     website=https://www.rimi.lt; id=way/831140535</desc>
     <link href="https://www.rimi.lt"></link>
   </wpt>
+  <wpt lat="56.3111136" lon="22.877831130252062">
+    <ele>76</ele>
+    <name>Mere</name>
+    <desc>addr:city=Naujoji Akmenė; addr:housenumber=31A;
+    addr:street=Eibučių g.; building=yes; name=Mere;
+    opening_hours=Mo-Su 08:00-21:00; payment:cash=yes;
+    payment:credit_cards=yes; shop=supermarket;
+    id=way/838365681</desc>
+  </wpt>
   <wpt lat="54.73491025" lon="25.217546900000002">
     <ele>174</ele>
     <name>Rimi</name>
@@ -7559,7 +7682,7 @@ version="1.1" creator="togpx">
     10:00-20:00; operator=UAB Norfos mažmena; shop=supermarket;
     id=way/853370295</desc>
   </wpt>
-  <wpt lat="54.84510565" lon="25.459480342240454">
+  <wpt lat="54.8451059" lon="25.45948047010946">
     <ele>108</ele>
     <name>Norfa XL</name>
     <desc>addr:city=Nemenčinė; addr:housenumber=2;
@@ -7686,9 +7809,11 @@ version="1.1" creator="togpx">
   <wpt lat="54.66832535" lon="25.10427381633418">
     <ele>103</ele>
     <name>Norfa XL</name>
-    <desc>brand=Norfa XL; brand:wikidata=Q1998983;
-    brand:wikipedia=lt:Norfa; building=yes; name=Norfa XL;
-    shop=supermarket; id=way/974697320</desc>
+    <desc>addr:city=Grigiškės; addr:housenumber=71;
+    addr:street=Kovo 11-osios g.; brand=Norfa XL;
+    brand:wikidata=Q1998983; brand:wikipedia=lt:Norfa;
+    building=yes; name=Norfa XL; shop=supermarket;
+    id=way/974697320</desc>
   </wpt>
   <wpt lat="55.1692503" lon="26.003623908527757">
     <ele>158</ele>
@@ -7830,6 +7955,13 @@ version="1.1" creator="togpx">
     Pergalės; brand=Lidl; brand:wikidata=Q151954; building=yes;
     building:levels=1; name=Lidl; opening_hours=Mo-Su 07:00-22:00;
     shop=supermarket; smoking=no; id=way/1087709308</desc>
+  </wpt>
+  <wpt lat="54.73019465" lon="25.332192364589126">
+    <ele>130</ele>
+    <name>Lidl</name>
+    <desc>addr:city=Vilnius; addr:housenumber=15;
+    addr:postcode=15173; addr:street=Nemenčinės pl.; building=yes;
+    name=Lidl; shop=supermarket; id=way/1090709220</desc>
   </wpt>
   <trk>
     <name>IKI Stumbras</name>
@@ -7999,23 +8131,26 @@ version="1.1" creator="togpx">
   <trk>
     <name>Rimi Mylia</name>
     <trkseg>
-      <trkpt lat="54.6756624" lon="25.2581492"></trkpt>
+      <trkpt lat="54.6756622" lon="25.2581433"></trkpt>
       <trkpt lat="54.6756168" lon="25.2577917"></trkpt>
       <trkpt lat="54.6756829" lon="25.2577662"></trkpt>
       <trkpt lat="54.6756584" lon="25.2575734"></trkpt>
       <trkpt lat="54.6755584" lon="25.2567867"></trkpt>
-      <trkpt lat="54.6755355" lon="25.2566063"></trkpt>
-      <trkpt lat="54.6754843" lon="25.2566174"></trkpt>
-      <trkpt lat="54.6754491" lon="25.2563057"></trkpt>
-      <trkpt lat="54.6747986" lon="25.2560939"></trkpt>
-      <trkpt lat="54.6745901" lon="25.2561662"></trkpt>
-      <trkpt lat="54.6745703" lon="25.2562206"></trkpt>
+      <trkpt lat="54.6755382" lon="25.2566217"></trkpt>
+      <trkpt lat="54.675485" lon="25.25664"></trkpt>
+      <trkpt lat="54.6754422" lon="25.25632"></trkpt>
+      <trkpt lat="54.6748105" lon="25.2561972"></trkpt>
+      <trkpt lat="54.6748027" lon="25.2560868"></trkpt>
+      <trkpt lat="54.6745901" lon="25.2561543"></trkpt>
+      <trkpt lat="54.6745693" lon="25.25622"></trkpt>
       <trkpt lat="54.6745447" lon="25.2562864"></trkpt>
-      <trkpt lat="54.6744206" lon="25.2566812"></trkpt>
-      <trkpt lat="54.6744966" lon="25.257306"></trkpt>
-      <trkpt lat="54.6746249" lon="25.2572651"></trkpt>
-      <trkpt lat="54.6747783" lon="25.2584924"></trkpt>
-      <trkpt lat="54.6756624" lon="25.2581492"></trkpt>
+      <trkpt lat="54.6744495" lon="25.2565802"></trkpt>
+      <trkpt lat="54.6745399" lon="25.257281"></trkpt>
+      <trkpt lat="54.6746448" lon="25.2572485"></trkpt>
+      <trkpt lat="54.6747783" lon="25.2583973"></trkpt>
+      <trkpt lat="54.6749823" lon="25.2583245"></trkpt>
+      <trkpt lat="54.6749892" lon="25.2583791"></trkpt>
+      <trkpt lat="54.6756622" lon="25.2581433"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -8883,8 +9018,11 @@ version="1.1" creator="togpx">
       <trkpt lat="54.7129589" lon="25.3010302"></trkpt>
       <trkpt lat="54.7129261" lon="25.3010294"></trkpt>
       <trkpt lat="54.7129282" lon="25.3007662"></trkpt>
+      <trkpt lat="54.7119971" lon="25.3007431"></trkpt>
       <trkpt lat="54.7118782" lon="25.3007402"></trkpt>
+      <trkpt lat="54.711868" lon="25.3019745"></trkpt>
       <trkpt lat="54.7118579" lon="25.3031963"></trkpt>
+      <trkpt lat="54.7119556" lon="25.3031963"></trkpt>
       <trkpt lat="54.7125958" lon="25.3032145"></trkpt>
       <trkpt lat="54.7125942" lon="25.3034029"></trkpt>
       <trkpt lat="54.7129003" lon="25.3034105"></trkpt>
@@ -9501,6 +9639,18 @@ version="1.1" creator="togpx">
       <trkpt lat="54.4071321" lon="24.0157484"></trkpt>
       <trkpt lat="54.407109" lon="24.0157914"></trkpt>
       <trkpt lat="54.4070852" lon="24.015775"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>"Aibė"</name>
+    <trkseg>
+      <trkpt lat="54.3965056" lon="24.0272972"></trkpt>
+      <trkpt lat="54.3964306" lon="24.027132"></trkpt>
+      <trkpt lat="54.3963039" lon="24.0273016"></trkpt>
+      <trkpt lat="54.3962831" lon="24.0272557"></trkpt>
+      <trkpt lat="54.3962335" lon="24.0273221"></trkpt>
+      <trkpt lat="54.3963293" lon="24.0275332"></trkpt>
+      <trkpt lat="54.3965056" lon="24.0272972"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10498,12 +10648,11 @@ version="1.1" creator="togpx">
     <name>Maxima X</name>
     <trkseg>
       <trkpt lat="54.8724691" lon="24.2148243"></trkpt>
-      <trkpt lat="54.8729149" lon="24.2152937"></trkpt>
       <trkpt lat="54.8729781" lon="24.2153603"></trkpt>
       <trkpt lat="54.8730271" lon="24.2152199"></trkpt>
       <trkpt lat="54.8729642" lon="24.2151537"></trkpt>
-      <trkpt lat="54.8730154" lon="24.2150068"></trkpt>
-      <trkpt lat="54.8725693" lon="24.214537"></trkpt>
+      <trkpt lat="54.8730159" lon="24.2150054"></trkpt>
+      <trkpt lat="54.8725698" lon="24.2145355"></trkpt>
       <trkpt lat="54.8724691" lon="24.2148243"></trkpt>
     </trkseg>
   </trk>
@@ -13537,8 +13686,6 @@ version="1.1" creator="togpx">
       <trkpt lat="54.3078414" lon="25.3847523"></trkpt>
       <trkpt lat="54.3077277" lon="25.3847743"></trkpt>
       <trkpt lat="54.3077262" lon="25.3847502"></trkpt>
-      <trkpt lat="54.307702" lon="25.3847549"></trkpt>
-      <trkpt lat="54.3076603" lon="25.384763"></trkpt>
       <trkpt lat="54.307632" lon="25.3847685"></trkpt>
       <trkpt lat="54.3076336" lon="25.384793"></trkpt>
       <trkpt lat="54.3076149" lon="25.3847966"></trkpt>
@@ -13548,7 +13695,6 @@ version="1.1" creator="togpx">
     <name>Maxima X</name>
     <trkseg>
       <trkpt lat="54.3132238" lon="25.3838244"></trkpt>
-      <trkpt lat="54.3130283" lon="25.3838556"></trkpt>
       <trkpt lat="54.3129846" lon="25.3838626"></trkpt>
       <trkpt lat="54.3130168" lon="25.3844561"></trkpt>
       <trkpt lat="54.3129504" lon="25.3844667"></trkpt>
@@ -14087,6 +14233,18 @@ version="1.1" creator="togpx">
       <trkpt lat="54.9300754" lon="23.815039"></trkpt>
       <trkpt lat="54.9299855" lon="23.81512"></trkpt>
       <trkpt lat="54.9301472" lon="23.8156637"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Maxima X</name>
+    <trkseg>
+      <trkpt lat="56.0291475" lon="21.0860468"></trkpt>
+      <trkpt lat="56.029672" lon="21.0860418"></trkpt>
+      <trkpt lat="56.0296711" lon="21.0857367"></trkpt>
+      <trkpt lat="56.0292358" lon="21.0857407"></trkpt>
+      <trkpt lat="56.0292363" lon="21.0859163"></trkpt>
+      <trkpt lat="56.0291471" lon="21.0859171"></trkpt>
+      <trkpt lat="56.0291475" lon="21.0860468"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14751,6 +14909,7 @@ version="1.1" creator="togpx">
       <trkpt lat="54.6885779" lon="25.4219855"></trkpt>
       <trkpt lat="54.6885815" lon="25.4214423"></trkpt>
       <trkpt lat="54.6881863" lon="25.4214346"></trkpt>
+      <trkpt lat="54.6881823" lon="25.4220511"></trkpt>
       <trkpt lat="54.6881815" lon="25.4221836"></trkpt>
     </trkseg>
   </trk>
@@ -15026,7 +15185,8 @@ version="1.1" creator="togpx">
       <trkpt lat="54.9116529" lon="23.9469607"></trkpt>
       <trkpt lat="54.9117288" lon="23.9474782"></trkpt>
       <trkpt lat="54.9118994" lon="23.9471756"></trkpt>
-      <trkpt lat="54.9116507" lon="23.9467512"></trkpt>
+      <trkpt lat="54.9118279" lon="23.9470612"></trkpt>
+      <trkpt lat="54.9116541" lon="23.9467493"></trkpt>
       <trkpt lat="54.9115975" lon="23.9468353"></trkpt>
       <trkpt lat="54.9116529" lon="23.9469607"></trkpt>
     </trkseg>
@@ -15213,20 +15373,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>Rimi „Varniai“</name>
     <trkseg>
-      <trkpt lat="54.9158799" lon="23.9011862"></trkpt>
-      <trkpt lat="54.9157863" lon="23.9008395"></trkpt>
-      <trkpt lat="54.9157064" lon="23.9007983"></trkpt>
-      <trkpt lat="54.9157248" lon="23.9006904"></trkpt>
-      <trkpt lat="54.9156041" lon="23.9006283"></trkpt>
-      <trkpt lat="54.9155379" lon="23.9010174"></trkpt>
-      <trkpt lat="54.9154958" lon="23.9009958"></trkpt>
-      <trkpt lat="54.9153596" lon="23.9018047"></trkpt>
-      <trkpt lat="54.9153277" lon="23.9019833"></trkpt>
-      <trkpt lat="54.9155165" lon="23.902073"></trkpt>
-      <trkpt lat="54.9155597" lon="23.9018297"></trkpt>
-      <trkpt lat="54.9156173" lon="23.9018606"></trkpt>
-      <trkpt lat="54.9157528" lon="23.9019334"></trkpt>
-      <trkpt lat="54.9158799" lon="23.9011862"></trkpt>
+      <trkpt lat="54.9158551" lon="23.9011964"></trkpt>
+      <trkpt lat="54.9157465" lon="23.9008238"></trkpt>
+      <trkpt lat="54.9157144" lon="23.9008072"></trkpt>
+      <trkpt lat="54.9157299" lon="23.9007158"></trkpt>
+      <trkpt lat="54.9155889" lon="23.9006433"></trkpt>
+      <trkpt lat="54.9155222" lon="23.901036"></trkpt>
+      <trkpt lat="54.9154781" lon="23.9010133"></trkpt>
+      <trkpt lat="54.9153471" lon="23.9017851"></trkpt>
+      <trkpt lat="54.9153143" lon="23.901978"></trkpt>
+      <trkpt lat="54.915622" lon="23.9021361"></trkpt>
+      <trkpt lat="54.9156627" lon="23.9018963"></trkpt>
+      <trkpt lat="54.9157304" lon="23.9019311"></trkpt>
+      <trkpt lat="54.9158551" lon="23.9011964"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15565,14 +15724,14 @@ version="1.1" creator="togpx">
   <trk>
     <name>Maxima X</name>
     <trkseg>
-      <trkpt lat="55.9303156" lon="23.2971101"></trkpt>
-      <trkpt lat="55.9302753" lon="23.2972043"></trkpt>
-      <trkpt lat="55.929984" lon="23.2978846"></trkpt>
-      <trkpt lat="55.9301271" lon="23.2980798"></trkpt>
-      <trkpt lat="55.9304032" lon="23.297435"></trkpt>
-      <trkpt lat="55.9303231" lon="23.2973258"></trkpt>
-      <trkpt lat="55.9303787" lon="23.2971962"></trkpt>
-      <trkpt lat="55.9303156" lon="23.2971101"></trkpt>
+      <trkpt lat="55.9303146" lon="23.2971092"></trkpt>
+      <trkpt lat="55.9302752" lon="23.2972024"></trkpt>
+      <trkpt lat="55.9299852" lon="23.2978873"></trkpt>
+      <trkpt lat="55.9301275" lon="23.2980793"></trkpt>
+      <trkpt lat="55.9304015" lon="23.2974321"></trkpt>
+      <trkpt lat="55.9303232" lon="23.2973265"></trkpt>
+      <trkpt lat="55.9303786" lon="23.2971956"></trkpt>
+      <trkpt lat="55.9303146" lon="23.2971092"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15629,6 +15788,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Mere</name>
+    <trkseg>
+      <trkpt lat="56.3113926" lon="22.8776155"></trkpt>
+      <trkpt lat="56.3108123" lon="22.8777656"></trkpt>
+      <trkpt lat="56.3108346" lon="22.8780467"></trkpt>
+      <trkpt lat="56.311415" lon="22.8778967"></trkpt>
+      <trkpt lat="56.3113926" lon="22.8776155"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Rimi</name>
     <trkseg>
       <trkpt lat="54.7352576" lon="25.2171867"></trkpt>
@@ -15682,14 +15851,14 @@ version="1.1" creator="togpx">
   <trk>
     <name>Norfa XL</name>
     <trkseg>
-      <trkpt lat="54.8449699" lon="25.4588259"></trkpt>
-      <trkpt lat="54.8447994" lon="25.4590252"></trkpt>
-      <trkpt lat="54.8448614" lon="25.4591831"></trkpt>
-      <trkpt lat="54.8447448" lon="25.4593155"></trkpt>
-      <trkpt lat="54.8448405" lon="25.4595749"></trkpt>
-      <trkpt lat="54.8449611" lon="25.4599019"></trkpt>
-      <trkpt lat="54.8452414" lon="25.4596015"></trkpt>
-      <trkpt lat="54.8449699" lon="25.4588259"></trkpt>
+      <trkpt lat="54.8449674" lon="25.4588346"></trkpt>
+      <trkpt lat="54.8447994" lon="25.4590193"></trkpt>
+      <trkpt lat="54.8448604" lon="25.4591863"></trkpt>
+      <trkpt lat="54.8447451" lon="25.4593131"></trkpt>
+      <trkpt lat="54.8448406" lon="25.4595748"></trkpt>
+      <trkpt lat="54.8449612" lon="25.4599057"></trkpt>
+      <trkpt lat="54.8452444" lon="25.4595942"></trkpt>
+      <trkpt lat="54.8449674" lon="25.4588346"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16090,6 +16259,19 @@ version="1.1" creator="togpx">
       <trkpt lat="54.6927887" lon="25.4122719"></trkpt>
       <trkpt lat="54.6927526" lon="25.412206"></trkpt>
       <trkpt lat="54.6924627" lon="25.4120746"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Lidl</name>
+    <trkseg>
+      <trkpt lat="54.7304113" lon="25.3319906"></trkpt>
+      <trkpt lat="54.7303023" lon="25.3318093"></trkpt>
+      <trkpt lat="54.7299811" lon="25.3323886"></trkpt>
+      <trkpt lat="54.7301349" lon="25.3326444"></trkpt>
+      <trkpt lat="54.7301986" lon="25.3325295"></trkpt>
+      <trkpt lat="54.7302355" lon="25.332463"></trkpt>
+      <trkpt lat="54.7301907" lon="25.3323884"></trkpt>
+      <trkpt lat="54.7304113" lon="25.3319906"></trkpt>
     </trkseg>
   </trk>
 </gpx>
