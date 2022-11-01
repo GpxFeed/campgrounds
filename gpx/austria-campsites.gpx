@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-10-01T17:22:39Z", "timestamp_areas_base":
-      "2022-07-20T10:48:09Z", "copyright": "The data included in
+      "2022-11-01T19:47:37Z", "timestamp_areas_base":
+      "2022-11-01T13:56:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -195,7 +195,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.899526" lon="13.1673579">
     <ele>511</ele>
     <name>Camping Fenninger Spitz</name>
-    <desc>name=Camping Fenninger Spitz; tourism=camp_site;
+    <desc>caravans=yes; drinking_water=yes; name=Camping Fenninger
+    Spitz; shower=yes; tents=yes; tourism=camp_site;
     id=node/1214993800</desc>
   </wpt>
   <wpt lat="46.5902241" lon="13.9138635">
@@ -370,11 +371,6 @@ version="1.1" creator="togpx">
     <desc>addr:housenumber=21; addr:postcode=9560;
     addr:street=Kirchgasse; name=Otthon; tourism=camp_site;
     id=node/4232282892</desc>
-  </wpt>
-  <wpt lat="47.5162498" lon="9.8656566">
-    <ele>528</ele>
-    <name>node/4238210190</name>
-    <desc>tourism=camp_site; id=node/4238210190</desc>
   </wpt>
   <wpt lat="46.5873949" lon="14.5841847">
     <ele>526</ele>
@@ -816,6 +812,16 @@ version="1.1" creator="togpx">
     addr:street=Faller Straße; name=Camping Kaltenböck;
     tourism=camp_site; id=node/9976558629</desc>
   </wpt>
+  <wpt lat="48.7203675" lon="15.5289925">
+    <ele>475</ele>
+    <name>Waldcamp Messern</name>
+    <desc>caravans=yes; contact:mobile=+4367761148166;
+    description=Platzgebühr für Gäste pro Nacht: Erwachsene 5,00€,
+    Kinder 2,50€, Warmwasser Dusche 5,00€, Zelt 5,00€, Auto 5,00€,
+    Wohnmobil 7,00 Euro mit Strom 10€; fee=yes; motor_vehicle=yes;
+    name=Waldcamp Messern; tents=yes; tourism=camp_site;
+    id=node/10141234290</desc>
+  </wpt>
   <wpt lat="47.356526" lon="10.187831820102652">
     <ele>1099</ele>
     <name>Hallers Alpencamping</name>
@@ -1085,11 +1091,13 @@ version="1.1" creator="togpx">
     <ele>164</ele>
     <name>Donaupark Camping Klosterneuburg</name>
     <desc>addr:city=Klosterneuburg; addr:country=AT;
-    addr:postcode=3400; addr:street=In der Au;
+    addr:housenumber=1; addr:postcode=3400; addr:street=An der Au;
     capacity:caravans=100; capacity:tents=50; caravans=yes;
-    dog=leashed; fee=yes; name=Donaupark Camping Klosterneuburg;
-    power_supply=yes; sanitary_dump_station=yes; shower=yes;
-    static_caravans=yes; tents=yes; toilets=yes; tourism=camp_site;
+    dog=leashed; email=campklosterneuburg@oeamtc.at; fee=yes;
+    internet_access=wlan; name=Donaupark Camping Klosterneuburg;
+    phone=+43 2243 25877; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; static_caravans=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
     website=http://www.campingklosterneuburg.at;
     id=way/8654617</desc>
     <link href="http://www.campingklosterneuburg.at"></link>
@@ -1165,13 +1173,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.215240300000005" lon="16.24991367294875">
     <ele>247</ele>
-    <name>Camping Wien West</name>
-    <desc>capacity:cabins=25; caravans=yes;
-    internet_access=wlan,terminal; landcover=grass; leisure=park;
-    name=Camping Wien West; tourism=camp_site;
-    website=http://www.campingwien.at/ww/de/;
+    <name>Camping Wien West 2</name>
+    <desc>addr:city=Wien; addr:housenumber=80; addr:postcode=1140;
+    addr:street=Hüttelbergstraße; capacity:cabins=25; caravans=yes;
+    email=west@campingwien.at; fee=yes;
+    internet_access=wlan,terminal; landcover=grass; name=Camping
+    Wien West 2; phone=+43 19142314; tents=yes; tourism=camp_site;
+    website=https://www.campingwien.at/camping-wien-west/;
     id=way/26212558</desc>
-    <link href="http://www.campingwien.at/ww/de/"></link>
+    <link href="https://www.campingwien.at/camping-wien-west/">
+    </link>
   </wpt>
   <wpt lat="47.258873" lon="9.583329885174185">
     <ele>445</ele>
@@ -1396,7 +1407,7 @@ version="1.1" creator="togpx">
     <ele>613</ele>
     <name>Camping Mayrhofen</name>
     <desc>addr:city=Mayrhofen; addr:housenumber=125a;
-    addr:postcode=6290; addr:street=Laubichl; caravans=yes;
+    addr:place=Laubichl; addr:postcode=6290; caravans=yes;
     email=camping@alpenparadies.com; fee=yes; internet_access=yes;
     name=Camping Mayrhofen; operator=Familie Hermann Kröll;
     phone=+43 664 8851 8866; shower=yes; tents=yes; toilets=yes;
@@ -1958,15 +1969,17 @@ version="1.1" creator="togpx">
   <wpt lat="48.21003315" lon="16.44705234070034">
     <ele>172</ele>
     <name>Camping Neue Donau</name>
-    <desc>addr:city=Wien; addr:country=AT; addr:street=Am
-    Kleehäufel; barrier=fence; cabins=no; caravans=yes;
-    email=neuedonau@campingwien.at; fax=+43-1-202 4020;
-    internet_access=terminal; name=Camping Neue Donau;
-    opening_hours=Apr-Sep; phone=+43-1-202 4010; tents=yes;
+    <desc>addr:city=Wien; addr:country=AT; addr:postcode=1220;
+    addr:street=Am Kleehäufel; barrier=fence; cabins=no;
+    caravans=yes; email=neuedonau@campingwien.at; fax=+43 1
+    2024020; fee=yes; internet_access=wlan; internet_access:fee=no;
+    name=Camping Neue Donau; opening_hours=Apr-Sep; phone=+43 1
+    2024010; shower=yes; tents=yes; toilets=yes;
     toilets:wheelchair=yes; tourism=camp_site;
-    website=www.wiencamping.at; wheelchair=yes;
-    id=way/83192114</desc>
-    <link href="www.wiencamping.at"></link>
+    website=https://www.campingwien.at/camping-wien-neue-donau/;
+    wheelchair=yes; id=way/83192114</desc>
+    <link href="https://www.campingwien.at/camping-wien-neue-donau/">
+    </link>
   </wpt>
   <wpt lat="47.31537885" lon="10.498618474941594">
     <ele>1002</ele>
@@ -2053,7 +2066,7 @@ version="1.1" creator="togpx">
     website=https://www.hell-tirol.at/; id=way/89636812</desc>
     <link href="https://www.hell-tirol.at/"></link>
   </wpt>
-  <wpt lat="47.14207225" lon="9.927574753752705">
+  <wpt lat="47.142070200000006" lon="9.927573085678869">
     <ele>700</ele>
     <name>Walch's Camping</name>
     <desc>contact:email=info@landhauswalch.at; contact:fax=+43 5552
@@ -2202,7 +2215,7 @@ version="1.1" creator="togpx">
     sanitary_dump_station=yes; shower=yes; static_caravans=no;
     swimming_pool=no; tents=yes; toilets=yes; tourism=camp_site;
     washing_machine=yes; website=www.seecamping-weissensee.at;
-    wheelchair=Eingeschränkt; id=way/114003291</desc>
+    wheelchair=limited; id=way/114003291</desc>
     <link href="www.seecamping-weissensee.at"></link>
   </wpt>
   <wpt lat="46.6990233" lon="14.144844412189554">
@@ -2423,7 +2436,7 @@ version="1.1" creator="togpx">
     <ele>588</ele>
     <name>Campingdorf Hofer</name>
     <desc>addr:city=Zell am Ziller; addr:housenumber=33;
-    addr:postcode=6280; addr:street=Gerlosstraße; caravans=yes;
+    addr:place=Gerlosstraße; addr:postcode=6280; caravans=yes;
     email=info@campingdorf.at; fee=yes; name=Campingdorf Hofer;
     phone=+43 5282 2248; shower=yes; source=Bing; tents=yes;
     toilets=yes; tourism=camp_site;
@@ -2666,8 +2679,8 @@ version="1.1" creator="togpx">
     <desc>name=Camping Hotel Traube; tourism=camp_site;
     id=way/130331869</desc>
   </wpt>
-  <wpt lat="46.9975994" lon="10.012273922965225">
-    <ele>921</ele>
+  <wpt lat="46.9977432" lon="10.012589484173228">
+    <ele>924</ele>
     <name>NOVA Camping</name>
     <desc>name=NOVA Camping; tourism=camp_site;
     id=way/130652401</desc>
@@ -3363,7 +3376,7 @@ version="1.1" creator="togpx">
     <ele>560</ele>
     <name>Camping Inntal</name>
     <desc>addr:city=Wiesing; addr:country=AT; addr:housenumber=100;
-    addr:postcode=6210; addr:street=Dorf; caravans=yes;
+    addr:place=Dorf; addr:postcode=6210; caravans=yes;
     email=info@camping-inntal.at; fee=yes; internet_access=wlan;
     name=Camping Inntal; phone=+43 5244 62693; shower=yes;
     tents=yes; toilets=yes; tourism=camp_site;
@@ -3726,7 +3739,7 @@ version="1.1" creator="togpx">
     id=way/234004192</desc>
     <link href="http://www.ottensteinersee.at"></link>
   </wpt>
-  <wpt lat="47.24214215" lon="12.211115283987631">
+  <wpt lat="47.2421427" lon="12.211101598153167">
     <ele>884</ele>
     <name>Camping Viktoria</name>
     <desc>addr:city=Wald im Pinzgau; addr:country=AT;
@@ -4068,9 +4081,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.211701500000004" lon="16.25351244604324">
     <ele>252</ele>
-    <name>Camping Wien-West</name>
-    <desc>barrier=fence; landuse=grass; name=Camping Wien-West;
-    tourism=camp_site; id=way/335203216</desc>
+    <name>Camping Wien West 1</name>
+    <desc>addr:city=Wien; addr:housenumber=80; addr:postcode=1140;
+    addr:street=Hüttelbergstraße; barrier=fence; caravans=yes;
+    email=west@campingwien.at; fee=yes; name=Camping Wien West 1;
+    phone=+43 19142314; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site;
+    website=https://www.campingwien.at/camping-wien-west/;
+    id=way/335203216</desc>
+    <link href="https://www.campingwien.at/camping-wien-west/">
+    </link>
   </wpt>
   <wpt lat="46.7974019" lon="13.596702054392212">
     <ele>628</ele>
@@ -4156,7 +4176,7 @@ version="1.1" creator="togpx">
     <ele>1264</ele>
     <name>Camping Gerlos / Schönachhof</name>
     <desc>addr:city=Gerlos; addr:housenumber=242;
-    addr:postcode=6281; addr:street=Gerlos; caravans=yes;
+    addr:place=Gerlos; addr:postcode=6281; caravans=yes;
     email=info@schoenachhof-tirol.com; fee=yes;
     internet_access=wlan; name=Camping Gerlos / Schönachhof;
     operator=Familie Kammerlander; phone=Tel. : +43 5284 5273
@@ -4375,7 +4395,7 @@ version="1.1" creator="togpx">
     id=way/468778105</desc>
     <link href="https://www.camping-hobitsch.at/"></link>
   </wpt>
-  <wpt lat="47.23960445" lon="10.74622394976241">
+  <wpt lat="47.23960445" lon="10.746223699792214">
     <ele>767</ele>
     <name>Aktiv Camping Imst</name>
     <desc>addr:city=Imst; addr:housenumber=10; addr:postcode=6460;
@@ -4945,7 +4965,7 @@ version="1.1" creator="togpx">
     <desc>charge=12€/day; fee=yes; tourism=camp_site;
     id=way/813339276</desc>
   </wpt>
-  <wpt lat="47.0296278" lon="9.957403253560958">
+  <wpt lat="47.0296278" lon="9.957403254953409">
     <ele>793</ele>
     <name>Waldcamping Badmunt</name>
     <desc>addr:city=St. Gallenkirch; addr:country=AT;
@@ -5336,8 +5356,9 @@ version="1.1" creator="togpx">
     <ele>568</ele>
     <name>Gastgarten Tanna</name>
     <desc>addr:city=Andelsbuch; addr:housenumber=228;
-    addr:postcode=6866; addr:street=Tanna; name=Gastgarten Tanna;
-    operator=Maria Kohler und Franz Felder; phone=+436649551652;
+    addr:postcode=6866; addr:street=Tanna; caravans=no; fee=yes;
+    name=Gastgarten Tanna; operator=Maria Kohler und Franz Felder;
+    phone=+43 664 7815421; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site;
     website=https://www.tanna-ferienhofheidegg.at/tanna;
     id=way/1075016027</desc>
@@ -6507,7 +6528,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping Wien West</name>
+    <name>Camping Wien West 2</name>
     <trkseg>
       <trkpt lat="48.2134334" lon="16.2506109"></trkpt>
       <trkpt lat="48.2142423" lon="16.2506125"></trkpt>
@@ -8651,7 +8672,7 @@ version="1.1" creator="togpx">
       <trkpt lat="47.1424242" lon="9.9268303"></trkpt>
       <trkpt lat="47.1423959" lon="9.926814"></trkpt>
       <trkpt lat="47.1423058" lon="9.92678"></trkpt>
-      <trkpt lat="47.1418387" lon="9.9266281"></trkpt>
+      <trkpt lat="47.1418346" lon="9.926624"></trkpt>
       <trkpt lat="47.1417541" lon="9.9266006"></trkpt>
       <trkpt lat="47.1416894" lon="9.9267652"></trkpt>
       <trkpt lat="47.1415366" lon="9.9271536"></trkpt>
@@ -10042,6 +10063,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>S.N.P. Camping</name>
     <trkseg>
+      <trkpt lat="47.2430882" lon="12.2103627"></trkpt>
+      <trkpt lat="47.2427965" lon="12.2105988"></trkpt>
+      <trkpt lat="47.2429563" lon="12.211137"></trkpt>
+      <trkpt lat="47.243043" lon="12.2114819"></trkpt>
+      <trkpt lat="47.2428592" lon="12.2117911"></trkpt>
       <trkpt lat="47.2429806" lon="12.2120202"></trkpt>
       <trkpt lat="47.2429777" lon="12.2119237"></trkpt>
       <trkpt lat="47.2430146" lon="12.2117567"></trkpt>
@@ -10056,13 +10082,6 @@ version="1.1" creator="togpx">
       <trkpt lat="47.2434298" lon="12.2103882"></trkpt>
       <trkpt lat="47.2433704" lon="12.2102601"></trkpt>
       <trkpt lat="47.2430882" lon="12.2103627"></trkpt>
-      <trkpt lat="47.242903" lon="12.2104965"></trkpt>
-      <trkpt lat="47.2427952" lon="12.2105795"></trkpt>
-      <trkpt lat="47.2427911" lon="12.2105806"></trkpt>
-      <trkpt lat="47.2429563" lon="12.211137"></trkpt>
-      <trkpt lat="47.243043" lon="12.2114819"></trkpt>
-      <trkpt lat="47.2428592" lon="12.2117911"></trkpt>
-      <trkpt lat="47.2429806" lon="12.2120202"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10325,12 +10344,31 @@ version="1.1" creator="togpx">
   <trk>
     <name>NOVA Camping</name>
     <trkseg>
-      <trkpt lat="46.9984159" lon="10.013467"></trkpt>
+      <trkpt lat="46.9981096" lon="10.0128874"></trkpt>
+      <trkpt lat="46.9980163" lon="10.012693"></trkpt>
+      <trkpt lat="46.9980501" lon="10.0126581"></trkpt>
+      <trkpt lat="46.9980216" lon="10.0126061"></trkpt>
       <trkpt lat="46.9972029" lon="10.0107397"></trkpt>
       <trkpt lat="46.9971432" lon="10.0106055"></trkpt>
       <trkpt lat="46.9966616" lon="10.0110192"></trkpt>
+      <trkpt lat="46.9976567" lon="10.0130325"></trkpt>
       <trkpt lat="46.9979959" lon="10.0137189"></trkpt>
-      <trkpt lat="46.9984159" lon="10.013467"></trkpt>
+      <trkpt lat="46.9978297" lon="10.0138128"></trkpt>
+      <trkpt lat="46.9979404" lon="10.0140662"></trkpt>
+      <trkpt lat="46.9979797" lon="10.0141843"></trkpt>
+      <trkpt lat="46.998083" lon="10.0145625"></trkpt>
+      <trkpt lat="46.9980986" lon="10.0145571"></trkpt>
+      <trkpt lat="46.9982212" lon="10.0144699"></trkpt>
+      <trkpt lat="46.9982641" lon="10.01425"></trkpt>
+      <trkpt lat="46.9981992" lon="10.0141118"></trkpt>
+      <trkpt lat="46.9982834" lon="10.0140274"></trkpt>
+      <trkpt lat="46.9984471" lon="10.0143868"></trkpt>
+      <trkpt lat="46.9986309" lon="10.0142097"></trkpt>
+      <trkpt lat="46.998448" lon="10.0138088"></trkpt>
+      <trkpt lat="46.9984557" lon="10.013802"></trkpt>
+      <trkpt lat="46.9988262" lon="10.0134733"></trkpt>
+      <trkpt lat="46.9984443" lon="10.012524"></trkpt>
+      <trkpt lat="46.9981096" lon="10.0128874"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12398,6 +12436,9 @@ version="1.1" creator="togpx">
       <trkpt lat="47.8457885" lon="16.9275058"></trkpt>
       <trkpt lat="47.8459687" lon="16.9268432"></trkpt>
       <trkpt lat="47.8451599" lon="16.926249"></trkpt>
+      <trkpt lat="47.8449743" lon="16.9269492"></trkpt>
+      <trkpt lat="47.8448256" lon="16.9275104"></trkpt>
+      <trkpt lat="47.8447141" lon="16.9279308"></trkpt>
       <trkpt lat="47.8440275" lon="16.9305214"></trkpt>
     </trkseg>
   </trk>
@@ -13112,12 +13153,14 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camping Viktoria</name>
     <trkseg>
-      <trkpt lat="47.2420543" lon="12.2116545"></trkpt>
-      <trkpt lat="47.2424153" lon="12.2114046"></trkpt>
-      <trkpt lat="47.2422674" lon="12.2107499"></trkpt>
-      <trkpt lat="47.24223" lon="12.2105843"></trkpt>
+      <trkpt lat="47.2422938" lon="12.2107077"></trkpt>
+      <trkpt lat="47.2422684" lon="12.2106431"></trkpt>
+      <trkpt lat="47.2422311" lon="12.210548"></trkpt>
       <trkpt lat="47.2418332" lon="12.2108218"></trkpt>
       <trkpt lat="47.2420543" lon="12.2116545"></trkpt>
+      <trkpt lat="47.2424105" lon="12.2114122"></trkpt>
+      <trkpt lat="47.2424541" lon="12.2113828"></trkpt>
+      <trkpt lat="47.2422938" lon="12.2107077"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -13917,7 +13960,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping Wien-West</name>
+    <name>Camping Wien West 1</name>
     <trkseg>
       <trkpt lat="48.2127876" lon="16.2525719"></trkpt>
       <trkpt lat="48.212532" lon="16.2519001"></trkpt>
@@ -14747,12 +14790,12 @@ version="1.1" creator="togpx">
       <trkpt lat="47.2397312" lon="10.7452654"></trkpt>
       <trkpt lat="47.2395375" lon="10.7456994"></trkpt>
       <trkpt lat="47.2394378" lon="10.7456068"></trkpt>
-      <trkpt lat="47.2392776" lon="10.7454459"></trkpt>
-      <trkpt lat="47.2391275" lon="10.7457525"></trkpt>
+      <trkpt lat="47.2392931" lon="10.7454705"></trkpt>
+      <trkpt lat="47.2391318" lon="10.7457552"></trkpt>
       <trkpt lat="47.2393885" lon="10.7460133"></trkpt>
-      <trkpt lat="47.2391719" lon="10.7465025"></trkpt>
+      <trkpt lat="47.2391806" lon="10.7465068"></trkpt>
       <trkpt lat="47.2396714" lon="10.7469598"></trkpt>
-      <trkpt lat="47.2398749" lon="10.7462184"></trkpt>
+      <trkpt lat="47.2398633" lon="10.7461942"></trkpt>
       <trkpt lat="47.240026" lon="10.7455103"></trkpt>
     </trkseg>
   </trk>
@@ -15783,16 +15826,8 @@ version="1.1" creator="togpx">
   <trk>
     <name>Waldcamping Badmunt</name>
     <trkseg>
-      <trkpt lat="47.0298609" lon="9.9556705"></trkpt>
-      <trkpt lat="47.0296488" lon="9.9560966"></trkpt>
-      <trkpt lat="47.0296745" lon="9.9562298"></trkpt>
-      <trkpt lat="47.0294348" lon="9.9566853"></trkpt>
-      <trkpt lat="47.0289687" lon="9.9571216"></trkpt>
-      <trkpt lat="47.0290853" lon="9.9573372"></trkpt>
-      <trkpt lat="47.029221" lon="9.9575883"></trkpt>
-      <trkpt lat="47.0291333" lon="9.9578431"></trkpt>
-      <trkpt lat="47.0295007" lon="9.9582884"></trkpt>
       <trkpt lat="47.0296068" lon="9.9585405"></trkpt>
+      <trkpt lat="47.0298247" lon="9.9579954"></trkpt>
       <trkpt lat="47.0299231" lon="9.9577492"></trkpt>
       <trkpt lat="47.0299432" lon="9.9576178"></trkpt>
       <trkpt lat="47.0300364" lon="9.9573657"></trkpt>
@@ -15801,6 +15836,22 @@ version="1.1" creator="togpx">
       <trkpt lat="47.0302782" lon="9.956282"></trkpt>
       <trkpt lat="47.0301936" lon="9.9559253"></trkpt>
       <trkpt lat="47.0298609" lon="9.9556705"></trkpt>
+      <trkpt lat="47.0296488" lon="9.9560966"></trkpt>
+      <trkpt lat="47.0296745" lon="9.9562298"></trkpt>
+      <trkpt lat="47.0294348" lon="9.9566853"></trkpt>
+      <trkpt lat="47.0289687" lon="9.9571216"></trkpt>
+      <trkpt lat="47.0290853" lon="9.9573372"></trkpt>
+      <trkpt lat="47.0290156" lon="9.9574309"></trkpt>
+      <trkpt lat="47.0290826" lon="9.9575373"></trkpt>
+      <trkpt lat="47.0293544" lon="9.957355"></trkpt>
+      <trkpt lat="47.0293431" lon="9.9575859"></trkpt>
+      <trkpt lat="47.0291651" lon="9.9576772"></trkpt>
+      <trkpt lat="47.0292591" lon="9.9580263"></trkpt>
+      <trkpt lat="47.0294438" lon="9.9580231"></trkpt>
+      <trkpt lat="47.029385" lon="9.9585278"></trkpt>
+      <trkpt lat="47.0292387" lon="9.9589355"></trkpt>
+      <trkpt lat="47.0295476" lon="9.9587743"></trkpt>
+      <trkpt lat="47.0296068" lon="9.9585405"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16578,6 +16629,7 @@ version="1.1" creator="togpx">
       <trkpt lat="47.1332501" lon="14.3625079"></trkpt>
       <trkpt lat="47.133427" lon="14.3632962"></trkpt>
       <trkpt lat="47.1339521" lon="14.3631406"></trkpt>
+      <trkpt lat="47.1339109" lon="14.3628091"></trkpt>
       <trkpt lat="47.1337861" lon="14.3618037"></trkpt>
       <trkpt lat="47.1335881" lon="14.3617485"></trkpt>
     </trkseg>

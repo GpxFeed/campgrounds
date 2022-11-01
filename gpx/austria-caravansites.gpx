@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-10-01T17:23:39Z", "timestamp_areas_base":
-      "2022-07-20T10:48:09Z", "copyright": "The data included in
+      "2022-11-01T17:33:28Z", "timestamp_areas_base":
+      "2022-11-01T13:56:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -34,12 +34,6 @@ version="1.1" creator="togpx">
     <desc>capacity=2; fee=no; name=Stellplatz Vordernberg;
     power_supply=yes; tourism=caravan_site;
     id=node/609288440</desc>
-  </wpt>
-  <wpt lat="48.4909758" lon="14.9566313">
-    <ele>838</ele>
-    <name>Stellplatz für Wohnmobile</name>
-    <desc>name=Stellplatz für Wohnmobile; tourism=caravan_site;
-    id=way/293704127; ; id=node/718692322</desc>
   </wpt>
   <wpt lat="47.1894103" lon="16.4090491">
     <ele>278</ele>
@@ -310,11 +304,10 @@ version="1.1" creator="togpx">
     <name>Stellplatz auf dem ÖGB Parkplatz</name>
     <desc>addr:city=Wiener Neustadt; addr:housenumber=18;
     addr:postcode=2700; addr:street=Gröhrmühlgasse;
-    capacity:caravans=6; charge=3 EURO/Tag; fee=yes;
-    internet_access=yes; internet_access:fee=no; name=Stellplatz
-    auf dem ÖGB Parkplatz; power_supply=yes;
-    sanitary_dump_station=no; tourism=caravan_site;
-    id=node/10010925619</desc>
+    capacity:caravans=5; charge=3 EURO/Tag; fee=yes;
+    internet_access:fee=no; name=Stellplatz auf dem ÖGB Parkplatz;
+    power_supply=yes; sanitary_dump_station=no;
+    tourism=caravan_site; id=node/10010925619</desc>
   </wpt>
   <wpt lat="47.4497411" lon="12.8310695">
     <ele>758</ele>
@@ -327,13 +320,6 @@ version="1.1" creator="togpx">
     <name>Stellplatz am Steinernen Meer</name>
     <desc>name=Stellplatz am Steinernen Meer; tourism=caravan_site;
     id=node/10013331917</desc>
-  </wpt>
-  <wpt lat="48.7585845" lon="14.9930092">
-    <ele>507</ele>
-    <name>Stellplatz</name>
-    <desc>name=Stellplatz; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    id=way/1094092753; ; id=node/10020565419</desc>
   </wpt>
   <wpt lat="48.3726589" lon="14.5160937">
     <ele>464</ele>
@@ -401,11 +387,12 @@ version="1.1" creator="togpx">
     <name>Reisemobil-Stellplatz Wien</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=49-53;
     addr:postcode=1230; addr:street=Perfektastraße;
-    at_bev:addr_date=2017-10-01; capacity=167; charge=20€;
-    email=office@reisemobilstellplatz-wien.at; fax=+43 1 863 11 12;
+    at_bev:addr_date=2017-10-01; capacity:caravans=167; charge=20€;
+    email=office@reisemobilstellplatz-wien.at; fax=+43 1 8631112;
     fee=yes; internet_access=wlan; internet_access:fee=yes;
-    name=Reisemobil-Stellplatz Wien; phone=+43 664 433 7271;
-    power_supply=yes; tourism=caravan_site;
+    name=Reisemobil-Stellplatz Wien; phone=+43 664 4337271;
+    power_supply=yes; shower=yes; tents=no; toilets=yes;
+    tourism=caravan_site;
     website=http://www.reisemobilstellplatz-wien.at;
     id=way/80877695</desc>
     <link href="http://www.reisemobilstellplatz-wien.at"></link>
@@ -610,6 +597,15 @@ version="1.1" creator="togpx">
     tourism=caravan_site; water_point=yes; water_point:fee=yes;
     id=way/292355262</desc>
   </wpt>
+  <wpt lat="48.49097375" lon="14.956699386962871">
+    <ele>833</ele>
+    <name>way/293704127</name>
+    <desc>charge=12 EUR/24hour; description=Anmeldung und Bezahlung
+    per Meldezettel im Gebäude des Stockschützen, dort befinden
+    sich auch die Toiletten und Duschen.; fee=yes; motorcar=yes;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    toilets=yes; tourism=caravan_site; id=way/293704127</desc>
+  </wpt>
   <wpt lat="48.01128195" lon="13.653895949999999">
     <ele>425</ele>
     <name>Wohnmobil Stellplatz Vöcklabruck</name>
@@ -649,7 +645,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.33524715" lon="16.299169820652047">
     <ele>169</ele>
     <name>way/407475794</name>
-    <desc>capacity=3; sanitary_dump_station=yes;
+    <desc>capacity=3; name:signed=no; sanitary_dump_station=yes;
     tourism=caravan_site; id=way/407475794</desc>
   </wpt>
   <wpt lat="47.565091249999995" lon="14.233440738508975">
@@ -772,11 +768,13 @@ version="1.1" creator="togpx">
     <desc>access=yes; addr:city=Gemeinde Zwettl;
     addr:housenumber=47; addr:postcode=3910;
     addr:street=Teichhäuser; barrier=fence; capacity:caravans=10;
-    description=Aufgrund der Platzeinteilung ist die Länge des
-    Reisemobils auf max. 8m begrenzt. Bei Höhe und Gewicht gibt es
-    keine Beschränkung.; dog=leashed; fee=yes; internet_access=no;
-    operator=Wirtshaus - Kinderparadies zur Minidampfbahn;
-    power_supply=yes; sanitary_dump_station=yes;
+    caravans=yes; description=Aufgrund der Platzeinteilung ist die
+    Länge des Reisemobils auf max. 8m begrenzt. Bei Höhe und
+    Gewicht gibt es keine Beschränkung. Stromversorgung an jedem
+    der 10 Plätze.; dog=leashed; fee=yes; internet_access=no;
+    motorcar=yes; motorcycle=yes; operator=Wirtshaus -
+    Kinderparadies zur Minidampfbahn; power_supply=yes,schuko;
+    sanitary_dump_station=yes; surface=grass; tents=yes;
     tourism=caravan_site;
     website=https://www.minidampfbahn.at/wohnmobil-abstellplatz/;
     id=way/676577811</desc>
@@ -889,8 +887,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.888241699999995" lon="15.399888403003757">
     <ele>460</ele>
     <name>Wohnwagenstellplatz Karlstein/Thaya</name>
-    <desc>name=Wohnwagenstellplatz Karlstein/Thaya;
-    power_supply=yes; tourism=caravan_site;
+    <desc>charge=10EUR/24hour; drinking_water=yes; fee=yes;
+    name=Wohnwagenstellplatz Karlstein/Thaya; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
     id=way/1006264357</desc>
   </wpt>
   <wpt lat="48.3616141" lon="16.537399710958343">
@@ -968,6 +967,13 @@ version="1.1" creator="togpx">
     sanitary_dump_station=yes; tourism=caravan_site;
     id=way/1094092083</desc>
   </wpt>
+  <wpt lat="48.75870755" lon="14.99284445565003">
+    <ele>507</ele>
+    <name>Stellplatz</name>
+    <desc>name=Stellplatz; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1094092753</desc>
+  </wpt>
   <wpt lat="47.40112255" lon="11.774901087374317">
     <ele>750</ele>
     <name>Stellplatz am Gasthof Rieder</name>
@@ -979,6 +985,15 @@ version="1.1" creator="togpx">
     website=https://www.gasthaushotel-rieder.at/;
     id=way/1096681910</desc>
     <link href="https://www.gasthaushotel-rieder.at/"></link>
+  </wpt>
+  <wpt lat="48.605537749999996" lon="15.171697991224367">
+    <ele>514</ele>
+    <name>way/1108304947</name>
+    <desc>caravans=yes; description=Strom und Wasser gegen Gebühr,
+    öffentliche Toilette unmittelbar daneben.; drinking_water=yes;
+    fee=no; motorcar=yes; power_supply=cee_17_blue;
+    sanitary_dump_station=yes; surface=asphalt; toilets=yes;
+    tourism=caravan_site; id=way/1108304947</desc>
   </wpt>
   <trk>
     <name>Weinland Camping</name>
@@ -1653,7 +1668,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Stellplatz für Wohnmobile</name>
+    <name>way/293704127</name>
     <trkseg>
       <trkpt lat="48.4911954" lon="14.9564279"></trkpt>
       <trkpt lat="48.4908744" lon="14.9563291"></trkpt>
@@ -1939,7 +1954,9 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="48.6619643" lon="15.1545263"></trkpt>
       <trkpt lat="48.6620882" lon="15.1544783"></trkpt>
+      <trkpt lat="48.6622043" lon="15.1544332"></trkpt>
       <trkpt lat="48.6622075" lon="15.154432"></trkpt>
+      <trkpt lat="48.6622068" lon="15.1544249"></trkpt>
       <trkpt lat="48.6621608" lon="15.1539604"></trkpt>
       <trkpt lat="48.6619259" lon="15.154003"></trkpt>
       <trkpt lat="48.6619643" lon="15.1545263"></trkpt>
@@ -2278,6 +2295,16 @@ version="1.1" creator="togpx">
       <trkpt lat="47.4012788" lon="11.7754175"></trkpt>
       <trkpt lat="47.4013458" lon="11.7751543"></trkpt>
       <trkpt lat="47.4013867" lon="11.77476"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1108304947</name>
+    <trkseg>
+      <trkpt lat="48.6055981" lon="15.1718065"></trkpt>
+      <trkpt lat="48.6056151" lon="15.1716135"></trkpt>
+      <trkpt lat="48.6054774" lon="15.1715882"></trkpt>
+      <trkpt lat="48.6054547" lon="15.1717832"></trkpt>
+      <trkpt lat="48.6055981" lon="15.1718065"></trkpt>
     </trkseg>
   </trk>
 </gpx>

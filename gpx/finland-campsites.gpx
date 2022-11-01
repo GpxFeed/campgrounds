@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-10-01T18:00:11Z", "timestamp_areas_base":
-      "2022-07-20T10:48:09Z", "copyright": "The data included in
+      "2022-11-01T18:15:09Z", "timestamp_areas_base":
+      "2022-11-01T13:56:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -536,7 +536,7 @@ version="1.1" creator="togpx">
   <wpt lat="62.2220846" lon="28.9037721">
     <name>Hirviniemi</name>
     <desc>access=yes; backcountry=yes; camp_site=basic; capacity=3;
-    drinking_water=no; fee=no; mapillary=USEF9naiWCPWcQZATRvr3Q;
+    drinking_water=no; fee=no; mapillary=4018838024874925;
     name=Hirviniemi; openfire=yes; operator=Metsähallitus;
     toilets=yes; tourism=camp_site; id=node/1125443162</desc>
   </wpt>
@@ -651,9 +651,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="63.3130071" lon="28.0147126">
     <name>Hiekko</name>
-    <desc>backcountry=yes; caravans=no; name=Hiekko;
-    place=locality; tents=yes; tourism=camp_site;
-    id=node/1169742309</desc>
+    <desc>access=yes; backcountry=yes; bbq=yes; capacity:tents=3;
+    caravans=no; fee=no; name=Hiekko; place=locality; tents=yes;
+    toilets=yes; tourism=camp_site; id=node/1169742309</desc>
   </wpt>
   <wpt lat="60.2143978" lon="20.2338391">
     <ele>14</ele>
@@ -667,15 +667,10 @@ version="1.1" creator="togpx">
     <desc>name=Eräveikkojen maja; tourism=camp_site;
     id=node/1311499919</desc>
   </wpt>
-  <wpt lat="60.9847009" lon="22.6111467">
-    <name>Klemelaavu</name>
-    <desc>name=Klemelaavu; tourism=camp_site;
-    id=node/1311499994</desc>
-  </wpt>
-  <wpt lat="60.9795798" lon="22.5988321">
+  <wpt lat="60.9797959" lon="22.5984049">
     <name>Rajalaavu</name>
-    <desc>name=Rajalaavu; tourism=camp_site;
-    id=node/1311499996</desc>
+    <desc>amenity=shelter; name=Rajalaavu; shelter_type=lean_to;
+    tourism=camp_site; id=node/1311499996</desc>
   </wpt>
   <wpt lat="60.9902998" lon="22.6098163">
     <name>Vampulan ulkoilumaja</name>
@@ -1063,7 +1058,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="63.6362358" lon="28.4510405">
     <name>node/2286672348</name>
-    <desc>tourism=camp_site; id=node/2286672348</desc>
+    <desc>backcountry=yes; fixme=is this real?; tourism=camp_site;
+    id=node/2286672348</desc>
   </wpt>
   <wpt lat="60.5728975" lon="21.3062404">
     <name>Kustavin Lomapalvelut</name>
@@ -2014,12 +2010,20 @@ version="1.1" creator="togpx">
     <link href="http://www.matkatupa.fi"></link>
   </wpt>
   <wpt lat="62.0954176" lon="28.4630792">
-    <name>node/6541846752</name>
-    <desc>tourism=camp_site; id=node/6541846752</desc>
+    <name>Mäntyluoto telttailualue</name>
+    <desc>access=yes; addr:city=Rantasalmi; backcountry=yes;
+    capacity:tents=2; drinking_water=no; fee=no; name=Mäntyluoto
+    telttailualue; openfire=yes; opening_hours=24/7;
+    operator=Metsähallitus; tents=yes; toilets=yes;
+    tourism=camp_site; wheelchair=no; id=node/6541846752</desc>
   </wpt>
   <wpt lat="62.1146322" lon="28.3767282">
-    <name>node/6541846758</name>
-    <desc>tourism=camp_site; id=node/6541846758</desc>
+    <name>Pieni-Lappi telttailualue</name>
+    <desc>access=yes; addr:city=Rantasalmi; backcountry=yes;
+    capacity:tents=5; drinking_water=no; fee=no; name=Pieni-Lappi
+    telttailualue; openfire=yes; operator=Metsähallitus; tents=yes;
+    toilets=yes; tourism=camp_site; wheelchair=no;
+    id=node/6541846758</desc>
   </wpt>
   <wpt lat="59.9466217" lon="21.7617217">
     <ele>13</ele>
@@ -2254,11 +2258,13 @@ version="1.1" creator="togpx">
     name=Ruskorannan leirintä; opening_hours=Jun-Aug;
     operator=Härmäin Invalidit ry; payment:cash=yes;
     payment:mobilepay=yes; shower=yes; toilets=yes;
-    tourism=camp_site; id=node/7261211669</desc>
+    tourism=camp_site; id=node/7261211669; ; access=customers;
+    fee=no; id=way/1106133315</desc>
   </wpt>
   <wpt lat="63.0468402" lon="27.3927321">
-    <name>node/7392153634</name>
-    <desc>group_only=yes; tourism=camp_site;
+    <name>Kauraniemi leirikeskus</name>
+    <desc>access=customers; fixme=name?; group_only=yes;
+    name=Kauraniemi leirikeskus; tourism=camp_site;
     id=node/7392153634</desc>
   </wpt>
   <wpt lat="62.5358309" lon="25.8383968">
@@ -2386,9 +2392,12 @@ version="1.1" creator="togpx">
     <desc>caravans=no; name=Kyrön Loma; tourism=camp_site;
     id=node/7709537624</desc>
   </wpt>
-  <wpt lat="62.1799713" lon="28.9121496">
-    <name>node/7727120635</name>
-    <desc>tourism=camp_site; id=node/7727120635</desc>
+  <wpt lat="62.1798039" lon="28.9128301">
+    <name>Käkövesi telttailualue</name>
+    <desc>access=yes; backcountry=yes; capacity:tents=10;
+    drinking_water=no; fee=no; name=Käkövesi telttailualue;
+    openfire=yes; operator=Metsähallitus; tents=yes; toilets=yes;
+    tourism=camp_site; id=node/7727120635</desc>
   </wpt>
   <wpt lat="60.1693409" lon="25.1438229">
     <ele>21</ele>
@@ -2893,6 +2902,16 @@ version="1.1" creator="togpx">
     <name>Enonranta</name>
     <desc>backcountry=yes; name=Enonranta; tourism=camp_site;
     wheelchair=no; id=node/9964411848</desc>
+  </wpt>
+  <wpt lat="61.3128991" lon="23.7507011">
+    <name>Partiokolo</name>
+    <desc>group_only=yes; name=Partiokolo; tourism=camp_site;
+    id=node/10087095111</desc>
+  </wpt>
+  <wpt lat="60.9845475" lon="22.6111507">
+    <name>Klemenlaavu</name>
+    <desc>amenity=shelter; name=Klemenlaavu; shelter_type=lean_to;
+    tourism=camp_site; id=node/10125010554</desc>
   </wpt>
   <wpt lat="59.9020047" lon="23.107167">
     <ele>0</ele>
@@ -3481,7 +3500,7 @@ version="1.1" creator="togpx">
     <desc>access=yes; addr:city=Kouvola; addr:housenumber=22;
     addr:postcode=45200; addr:street=Käyrälammentie; bbq=yes;
     cabins=yes; cafe=yes; camp_site=deluxe; capacity:cabins=29;
-    capacity:caravans=100; capacity:chalets=4; capacity:tents=yes;
+    capacity:caravans=100; capacity:chalets=4; capacity:tents=5;
     caravans=yes; dog=leashed; drinking_water=yes; dryer=yes;
     email=tykkimaki.resort@sok.fi; fee=yes; hot_water=yes;
     internet_access=wlan; kitchen=yes; lit=yes; motor_vehicle=yes;
@@ -3912,7 +3931,7 @@ version="1.1" creator="togpx">
     id=way/700732057</desc>
     <link href="https://www.livonsaarencaravan.fi/"></link>
   </wpt>
-  <wpt lat="62.596318999999994" lon="29.74068556418827">
+  <wpt lat="62.596318999999994" lon="29.740736706279492">
     <name>Holiday Linnunlahti</name>
     <desc>caravans=yes; fee=yes; name=Holiday Linnunlahti;
     start_date=1999; tents=yes; tourism=camp_site;
@@ -4423,6 +4442,18 @@ version="1.1" creator="togpx">
     website=https://www.kyyjarvicamping.fi;
     id=way/1095638350</desc>
     <link href="https://www.kyyjarvicamping.fi"></link>
+  </wpt>
+  <wpt lat="60.6506453" lon="25.06957652268187">
+    <name>Kaitaniemen leirikeskus</name>
+    <desc>access=customers; addr:city=Hyvinkää;
+    addr:housenumber=32; addr:postcode=05950;
+    addr:street=Kaitalantie; alt_name=Leirikeskus Kaitaniemi;
+    email=info@kaitaniemi.fi; fee=yes;
+    image=https://kaitaniemi.fi/wp-content/uploads/2022/04/scaled-1-e1651493102904-1024x570.jpg;
+    name=Kaitaniemen leirikeskus; phone=040 5052852;
+    tourism=camp_site; website=https://kaitaniemi.fi;
+    id=way/1105627707</desc>
+    <link href="https://kaitaniemi.fi"></link>
   </wpt>
   <wpt lat="59.90194675" lon="23.09461760464466">
     <ele>0</ele>
@@ -5736,6 +5767,7 @@ version="1.1" creator="togpx">
     <name>Camping Silversand</name>
     <trkseg>
       <trkpt lat="59.8511144" lon="22.9962688"></trkpt>
+      <trkpt lat="59.8510463" lon="22.9966604"></trkpt>
       <trkpt lat="59.8507679" lon="22.998261"></trkpt>
       <trkpt lat="59.8509414" lon="23.0000387"></trkpt>
       <trkpt lat="59.8506854" lon="23.0013276"></trkpt>
@@ -5744,6 +5776,7 @@ version="1.1" creator="togpx">
       <trkpt lat="59.8506908" lon="23.0021216"></trkpt>
       <trkpt lat="59.8516331" lon="23.005146"></trkpt>
       <trkpt lat="59.8548122" lon="23.0007096"></trkpt>
+      <trkpt lat="59.8548989" lon="23.0000498"></trkpt>
       <trkpt lat="59.8549354" lon="22.999772"></trkpt>
       <trkpt lat="59.8548129" lon="22.9997029"></trkpt>
       <trkpt lat="59.8544001" lon="22.9993666"></trkpt>
@@ -7722,8 +7755,8 @@ version="1.1" creator="togpx">
       <trkpt lat="62.5963035" lon="29.7387501"></trkpt>
       <trkpt lat="62.5956657" lon="29.7390238"></trkpt>
       <trkpt lat="62.5954854" lon="29.739337"></trkpt>
-      <trkpt lat="62.5948615" lon="29.7413108"></trkpt>
-      <trkpt lat="62.5972071" lon="29.7434692"></trkpt>
+      <trkpt lat="62.5948374" lon="29.7413711"></trkpt>
+      <trkpt lat="62.5971899" lon="29.7435673"></trkpt>
       <trkpt lat="62.5977713" lon="29.7401751"></trkpt>
     </trkseg>
   </trk>
@@ -9519,6 +9552,51 @@ version="1.1" creator="togpx">
       <trkpt lat="63.0439299" lon="24.6019928"></trkpt>
       <trkpt lat="63.0433985" lon="24.603104"></trkpt>
       <trkpt lat="63.043666" lon="24.6043646"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaitaniemen leirikeskus</name>
+    <trkseg>
+      <trkpt lat="60.6514157" lon="25.0697279"></trkpt>
+      <trkpt lat="60.6516155" lon="25.0694704"></trkpt>
+      <trkpt lat="60.6516249" lon="25.0692555"></trkpt>
+      <trkpt lat="60.651647" lon="25.0687515"></trkpt>
+      <trkpt lat="60.6514525" lon="25.0683867"></trkpt>
+      <trkpt lat="60.6509161" lon="25.0684082"></trkpt>
+      <trkpt lat="60.6503745" lon="25.0689661"></trkpt>
+      <trkpt lat="60.650178" lon="25.0689044"></trkpt>
+      <trkpt lat="60.6500327" lon="25.0688588"></trkpt>
+      <trkpt lat="60.6492408" lon="25.0700969"></trkpt>
+      <trkpt lat="60.6497729" lon="25.0713523"></trkpt>
+      <trkpt lat="60.6499488" lon="25.0713712"></trkpt>
+      <trkpt lat="60.6512904" lon="25.0696274"></trkpt>
+      <trkpt lat="60.6514157" lon="25.0697279"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Ruskorannan leirintä</name>
+    <trkseg>
+      <trkpt lat="63.2764641" lon="22.9631415"></trkpt>
+      <trkpt lat="63.2761956" lon="22.9632553"></trkpt>
+      <trkpt lat="63.2760463" lon="22.9650318"></trkpt>
+      <trkpt lat="63.2761394" lon="22.9647684"></trkpt>
+      <trkpt lat="63.2761758" lon="22.9647478"></trkpt>
+      <trkpt lat="63.2762145" lon="22.9647748"></trkpt>
+      <trkpt lat="63.2763541" lon="22.9650665"></trkpt>
+      <trkpt lat="63.2764849" lon="22.9651842"></trkpt>
+      <trkpt lat="63.2766735" lon="22.9652114"></trkpt>
+      <trkpt lat="63.2768576" lon="22.9651399"></trkpt>
+      <trkpt lat="63.2770148" lon="22.9651213"></trkpt>
+      <trkpt lat="63.2770075" lon="22.9645651"></trkpt>
+      <trkpt lat="63.2768426" lon="22.9645933"></trkpt>
+      <trkpt lat="63.2767175" lon="22.9646054"></trkpt>
+      <trkpt lat="63.2766115" lon="22.9645691"></trkpt>
+      <trkpt lat="63.2766194" lon="22.9643465"></trkpt>
+      <trkpt lat="63.276587" lon="22.9641251"></trkpt>
+      <trkpt lat="63.2765032" lon="22.964012"></trkpt>
+      <trkpt lat="63.2763965" lon="22.9637192"></trkpt>
+      <trkpt lat="63.2764" lon="22.963371"></trkpt>
+      <trkpt lat="63.2764641" lon="22.9631415"></trkpt>
     </trkseg>
   </trk>
   <trk>
