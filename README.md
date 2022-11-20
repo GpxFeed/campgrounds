@@ -26,7 +26,7 @@ The whole application is primarily intended for offline use on an old quad core 
 
     - (AD) Andorra, (AL) Albania, (AT) Austria, (BA) Bosnia and Herzegovina, (BE) Belgium, (BG) Bulgaria, (BY) Belarus, (CH) Switzerland, (CY) Cyprus, (CZ) Czech Republic, (DE) Germany, (DK) Denmark, (EE) Estonia, (ES) Spain, (FI) Finland, (FO) Faroe Islands, (FR) France, (GB) United Kingdom, (GE) Georgia, (GG) Guernsey, (GI) Gibraltar, (GL) Greenland, (GR) Greece, (HR) Croatia, (HU) Hungary, (IE) Ireland, (IM) Isle of Man, (IS) Iceland, (IT) Italy, (JE) Jersey, (LI) Liechtenstein, (LT) Lithuania, (LU) Luxembourg, (LV) Latvia, (MC) Monaco, (MD) Moldova, (ME) Montenegro, (MK) North Macedonia, (MT) Malta, (NL) Netherlands, (NO) Norway, (PL) Poland, (PT) Portugal, (RO) Romania, (RS) Serbia, (RU) Russia, (SE) Sweden, (SI) Slovenia, (SJ) Svalbard and Jan Mayen, (SK) Slovakia, (SM) San Marino, (UA) Ukraine, (VA) City of the Vatican
 
-All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop (Data -> Import -> Filter: *.gpx) :
+All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy](http://github.com/tkrajina/gpxpy) parser together with other Python toolsets for optimal working with Cruiser Desktop (Routing/Data -> Import -> File Type: *.gpx) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
 
