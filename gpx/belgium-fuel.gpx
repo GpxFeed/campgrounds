@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-11-01T17:39:38Z", "timestamp_areas_base":
-      "2022-11-01T13:56:09Z", "copyright": "The data included in
+      "2022-11-30T14:12:39Z", "timestamp_areas_base":
+      "2022-11-30T10:32:09Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -773,13 +773,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=fr:TotalEnergies; name=Total; note=no drinking
     water; id=node/252796373</desc>
   </wpt>
-  <wpt lat="50.9727936" lon="4.4998331">
-    <ele>8</ele>
-    <name>Q8</name>
-    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
-    brand:wikipedia=en:Kuwait Petroleum Corporation; name=Q8;
-    id=node/252797567</desc>
-  </wpt>
   <wpt lat="50.4727803" lon="4.5431723">
     <ele>165</ele>
     <name>Total Fleurus - Station Kaisin</name>
@@ -910,9 +903,9 @@ version="1.1" creator="togpx">
     <name>DATS 24 Ath</name>
     <desc>addr:city=Ath; addr:housenumber=116; addr:postcode=7800;
     addr:street=Chaussée de Bruxelles; amenity=fuel; brand=DATS 24;
-    fuel:cng=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=DATS 24 Ath; opening_hours=24/7;
-    operator=Colruyt; self_service=yes;
+    compressed_air=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=DATS 24 Ath;
+    opening_hours=24/7; operator=Colruyt; self_service=yes;
     website=https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/3733;
     id=node/261585999</desc>
     <link href="https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/3733">
@@ -1236,7 +1229,8 @@ version="1.1" creator="togpx">
     <name>Q8</name>
     <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
     brand:wikipedia=en:Kuwait Petroleum Corporation; name=Q8;
-    opening_hours=24/7; operator=Q8; id=node/285878516</desc>
+    opening_hours=24/7; operator=Q8; self_service=yes;
+    id=node/285878516</desc>
   </wpt>
   <wpt lat="50.57243" lon="4.6983232">
     <ele>148</ele>
@@ -1539,14 +1533,19 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.6975002" lon="4.363479">
     <ele>84</ele>
-    <name>DATS 24 Braine-l'Alleud</name>
-    <desc>addr:city=Braine-l'Alleud; addr:country=BE;
-    addr:housenumber=469; addr:postcode=1420; addr:street=Chaussée
-    d'Alsemberg; amenity=fuel; brand=DATS 24; description=Chaussée
-    d’Alsemberg, 469 - 1420 Braine-L'Alleud; fuel:cng=no;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=DATS 24 Braine-l'Alleud; opening_hours=24/7; operator=DATS
-    24; shop=no; id=node/302193443</desc>
+    <name>DATS 24</name>
+    <desc>addr:city=Braine-l'Alleud; addr:housenumber=469;
+    addr:postcode=1420; addr:street=Chaussée d'Alsemberg;
+    amenity=fuel; brand=DATS 24; brand:wikidata=Q15725576;
+    fuel:cng=no; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=DATS 24; opening_hours=24/7;
+    operator=Colruyt Group; payment:bancontact=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:v_pay=yes;
+    payment:visa=yes; self_service=yes; shop=no;
+    website=https://customer.dats24.be/wps/portal/datscustomer/fr/b2c/locator#!/3481;
+    id=node/302193443</desc>
+    <link href="https://customer.dats24.be/wps/portal/datscustomer/fr/b2c/locator#!/3481">
+    </link>
   </wpt>
   <wpt lat="50.6761459" lon="4.2746542">
     <ele>95</ele>
@@ -1660,9 +1659,10 @@ version="1.1" creator="togpx">
     <name>Power</name>
     <desc>addr:city=Wervik; addr:housenumber=106;
     addr:postcode=8940; addr:street=Ten Brielenlaan; amenity=fuel;
-    brand=Power; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; fuel:petroleum=yes; fuel:tweetakt=yes;
-    name=Power; operator=Gabriëls; self_service=yes;
+    brand=Power; brand:wikidata=Q98380874; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; fuel:petroleum=yes;
+    fuel:tweetakt=yes; name=Power; operator=Gabriëls;
+    self_service=yes;
     source=https://carbu.com/belgie/index.php/station/power/wervik/8940/1499;
     website=https://www.poweroil.be/nl/vind-een-tankstation/power-wervik;
     id=node/315230828</desc>
@@ -3154,8 +3154,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Herent; addr:housenumber=89;
     addr:postcode=3020; addr:street=Omleiding; amenity=fuel;
     brand=Q8; brand:wikidata=Q1634762; brand:wikipedia=en:Kuwait
-    Petroleum Corporation; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Q8; operator=Q8; self_service=yes;
+    Petroleum Corporation; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Q8; operator=Q8;
+    self_service=yes;
     website=https://www.q8.be/nl/stations/q8-herent-omleiding;
     id=node/559460886</desc>
     <link href="https://www.q8.be/nl/stations/q8-herent-omleiding">
@@ -3288,8 +3289,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7000191" lon="3.580584">
     <ele>41</ele>
-    <name>Europetrol</name>
-    <desc>amenity=fuel; compressed_air=yes; name=Europetrol;
+    <name>Shell Express</name>
+    <desc>amenity=fuel; brand=Shell; compressed_air=yes; name=Shell
+    Express; opening_hours=24/7; shop=no; wheelchair=yes;
     id=node/567203234</desc>
   </wpt>
   <wpt lat="51.3910921" lon="4.5727853">
@@ -5895,8 +5897,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.0061572" lon="4.207051">
     <ele>11</ele>
-    <name>node/1323385565</name>
-    <desc>amenity=fuel; brand=Texaco; id=node/1323385565</desc>
+    <name>Esso tankstation</name>
+    <desc>addr:city=buggenhout; addr:housenumber=154;
+    addr:postcode=9255; addr:street=Kasteelstraat; amenity=fuel;
+    brand=Esso; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Esso tankstation;
+    id=node/1323385565</desc>
   </wpt>
   <wpt lat="51.0759551" lon="2.655083">
     <ele>3</ele>
@@ -5934,9 +5940,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.2061145" lon="4.3984878">
     <ele>9</ele>
     <name>G&amp;V</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=G&amp;V; operator=G&amp;V Energy
-    Group; id=node/1338425267</desc>
+    <desc>amenity=fuel; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=G&amp;V;
+    operator=G&amp;V Energy Group; id=node/1338425267</desc>
   </wpt>
   <wpt lat="51.0287612" lon="4.2492785">
     <ele>6</ele>
@@ -6354,8 +6360,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.9271301" lon="4.2305331">
     <ele>36</ele>
-    <name>node/1483496316</name>
-    <desc>amenity=fuel; id=node/1483496316</desc>
+    <name>TotalEnergies</name>
+    <desc>amenity=fuel; brand=TotalEnergies; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=TotalEnergies;
+    operator=TotalEnergies; self_service=yes;
+    id=node/1483496316</desc>
   </wpt>
   <wpt lat="50.903855" lon="2.7842645">
     <ele>16</ele>
@@ -7557,16 +7566,19 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.9476801" lon="2.8625311">
     <ele>7</ele>
-    <name>Total</name>
-    <desc>addr:city=Merkem; addr:housenumber=12;
-    addr:postcode=8650; addr:street=Iepersteenweg; amenity=fuel;
-    brand=Total; brand:wikidata=Q154037; brand:wikipedia=fr:Total
-    (entreprise); fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Total; opening_hours=24/7;
-    operator=Total; self_service=yes;
-    website=https://store.total.be/nl_BE/NB003447;
+    <name>TotalEnergies Merkem</name>
+    <desc>addr:city=Houthulst; addr:country=BE;
+    addr:housenumber=12; addr:postcode=8650;
+    addr:street=Iepersteenweg; addr:suburb=Merkem; amenity=fuel;
+    brand=TotalEnergies; brand:wikidata=Q154037;
+    brand:wikipedia=fr:TotalEnergies (entreprise); fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=TotalEnergies
+    Merkem; opening_hours=24/7; operator=TotalEnergies;
+    self_service=yes;
+    website=https://store.totalenergies.be/nl_BE/NB003447;
     id=node/1726255241</desc>
-    <link href="https://store.total.be/nl_BE/NB003447"></link>
+    <link href="https://store.totalenergies.be/nl_BE/NB003447">
+    </link>
   </wpt>
   <wpt lat="50.4336802" lon="3.9472346">
     <ele>60</ele>
@@ -8639,10 +8651,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7103203" lon="2.8844052">
     <ele>19</ele>
-    <name>node/1906026352</name>
-    <desc>amenity=fuel; brand=Q8; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; shop=yes;
-    id=node/1906026352</desc>
+    <name>Q8</name>
+    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Q8; id=node/1906026352</desc>
   </wpt>
   <wpt lat="50.6982229" lon="5.2602569">
     <ele>120</ele>
@@ -8888,7 +8900,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=fr:Total (entreprise); name=Total;
     operator=Total; id=node/2020108943</desc>
   </wpt>
-  <wpt lat="50.5865218" lon="3.8459718">
+  <wpt lat="50.5865167" lon="3.8459047">
     <ele>54</ele>
     <name>Total</name>
     <desc>amenity=fuel; brand=Total; brand:wikidata=Q154037;
@@ -8984,19 +8996,6 @@ version="1.1" creator="togpx">
     website=https://vanraak.be/nl/particulieren/tanken/lommel;
     id=node/2078054305</desc>
     <link href="https://vanraak.be/nl/particulieren/tanken/lommel">
-    </link>
-  </wpt>
-  <wpt lat="51.2358327" lon="5.3760075">
-    <ele>42</ele>
-    <name>Esso</name>
-    <desc>addr:city=Lommel; addr:housenumber=234b;
-    addr:postcode=3920; addr:street=Luikersteenweg; amenity=fuel;
-    brand=Esso; brand:wikidata=Q867662; brand:wikipedia=en:Esso;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Esso; operator=Grote Barrier NV;
-    website=https://www.essofuelfinder.be/nl-be/lommel--stationgrotebarriernv-100175190;
-    id=node/2078473455</desc>
-    <link href="https://www.essofuelfinder.be/nl-be/lommel--stationgrotebarriernv-100175190">
     </link>
   </wpt>
   <wpt lat="51.2356104" lon="5.451418">
@@ -9258,8 +9257,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.6013041" lon="4.1249293">
     <ele>89</ele>
-    <name>node/2148944113</name>
-    <desc>amenity=fuel; id=node/2148944113</desc>
+    <name>Q8</name>
+    <desc>amenity=fuel; compressed_air=yes; name=Q8;
+    opening_hours=PH,Mo-Su 00:00-24:00; id=node/2148944113</desc>
   </wpt>
   <wpt lat="51.24653" lon="3.1348314">
     <ele>1</ele>
@@ -9324,7 +9324,7 @@ version="1.1" creator="togpx">
     <link href="https://www.essofuelfinder.be/nl-be/minderhout-essominderhout-100359705">
     </link>
   </wpt>
-  <wpt lat="50.6078531" lon="5.8553577">
+  <wpt lat="50.6078454" lon="5.855374">
     <ele>187</ele>
     <name>Lukoil</name>
     <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
@@ -11615,11 +11615,6 @@ version="1.1" creator="togpx">
     <link href="https://www.poweroil.be/nl/vind-een-tankstation/power-brakel">
     </link>
   </wpt>
-  <wpt lat="50.8048925" lon="4.0229467">
-    <ele>41</ele>
-    <name>Octa+</name>
-    <desc>amenity=fuel; name=Octa+; id=node/4148801051</desc>
-  </wpt>
   <wpt lat="50.807991" lon="4.0237755">
     <ele>44</ele>
     <name>Total</name>
@@ -12426,11 +12421,11 @@ version="1.1" creator="togpx">
     website=https://www.gulf.be/; id=node/5033056121</desc>
     <link href="https://www.gulf.be/"></link>
   </wpt>
-  <wpt lat="50.6065783" lon="5.8555213">
+  <wpt lat="50.6065989" lon="5.8554786">
     <ele>190</ele>
-    <name>node/5034414574</name>
+    <name>Total</name>
     <desc>addr:housenumber=17; addr:street=Rue Albert 1er;
-    amenity=fuel; id=node/5034414574</desc>
+    amenity=fuel; name=Total; id=node/5034414574</desc>
   </wpt>
   <wpt lat="50.9223982" lon="3.6780827">
     <ele>38</ele>
@@ -12942,8 +12937,9 @@ version="1.1" creator="togpx">
     <name>Power</name>
     <desc>addr:city=Gullegem; addr:housenumber=185;
     addr:postcode=8560; addr:street=Heulestraat; amenity=fuel;
-    brand=Power; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Power; operator=Gabriëls;
+    brand=Power; brand:wikidata=Q98380874; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Power;
+    operator=Gabriëls;
     website=https://www.poweroil.be/nl/vind-een-tankstation/power-gullegem;
     id=node/5718495687</desc>
     <link href="https://www.poweroil.be/nl/vind-een-tankstation/power-gullegem">
@@ -12984,7 +12980,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Q8; name=Q8;
     id=node/5773197886</desc>
   </wpt>
-  <wpt lat="51.095683" lon="5.5896887">
+  <wpt lat="51.0956123" lon="5.589686">
     <ele>68</ele>
     <name>Esso</name>
     <desc>addr:city=Gruitrode; addr:housenumber=32;
@@ -13123,8 +13119,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Herstal; addr:housenumber=201;
     addr:postcode=4040; addr:street=Rue de Hermée; amenity=fuel;
     brand=Shell; brand:wikidata=Q154950; brand:wikipedia=en:Royal
-    Dutch Shell; fuel:adblue=yes; fuel:diesel=yes; fuel:lng=yes;
-    name=Shell; operator=Shell;
+    Dutch Shell; fuel:adblue=yes; fuel:diesel=yes; name=Shell;
+    operator=Shell;
     website=https://www.shell.nl/klanten/shell-tankpas-voor-bedrijven/ons-netwerk.html;
     id=node/5952207070</desc>
     <link href="https://www.shell.nl/klanten/shell-tankpas-voor-bedrijven/ons-netwerk.html">
@@ -13212,9 +13208,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7765531" lon="3.0179909">
     <ele>19</ele>
-    <name>node/6135826086</name>
+    <name>Power</name>
     <desc>amenity=fuel; brand=Power; brand:wikidata=Q98380874;
-    id=node/6135826086</desc>
+    name=Power; id=node/6135826086</desc>
   </wpt>
   <wpt lat="50.4810863" lon="4.7692155">
     <ele>180</ele>
@@ -13377,9 +13373,10 @@ version="1.1" creator="togpx">
     <name>DATS 24 Wevelgem</name>
     <desc>addr:city=Wevelgem; addr:housenumber=226;
     addr:postcode=8560; addr:street=Kortrijkstraat; amenity=fuel;
-    brand=DATS 24; fuel:cng=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=DATS 24 Wevelgem;
-    opening_hours=24/7; operator=Colruyt; self_service=yes;
+    brand=DATS 24; brand:wikidata=Q15725576; fuel:cng=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=DATS 24 Wevelgem; opening_hours=24/7; operator=Colruyt;
+    self_service=yes;
     website=https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/2010;
     wheelchair=yes; id=node/6326942114</desc>
     <link href="https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/2010">
@@ -13403,10 +13400,10 @@ version="1.1" creator="togpx">
     <name>DATS 24 Waregem</name>
     <desc>addr:city=Sint-Eloois-Vijve; addr:housenumber=568A;
     addr:postcode=8793; addr:street=Gentseweg; amenity=fuel;
-    brand=DATS 24; compressed_air=yes; fuel:adblue=yes;
-    fuel:cng=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=DATS 24 Waregem; opening_hours=24/7;
-    operator=Colruyt Group; self_service=yes;
+    brand=DATS 24; brand:wikidata=Q15725576; compressed_air=yes;
+    fuel:adblue=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=DATS 24 Waregem;
+    opening_hours=24/7; operator=Colruyt Group; self_service=yes;
     website=https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/4563;
     id=node/6327028942</desc>
     <link href="https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/4563">
@@ -13699,7 +13696,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762; name=Q8;
     id=node/6530335049</desc>
   </wpt>
-  <wpt lat="50.714018" lon="3.5791567">
+  <wpt lat="50.7140091" lon="3.5791414">
     <ele>44</ele>
     <name>Esso</name>
     <desc>addr:city=Dergneau; addr:housenumber=96;
@@ -15315,16 +15312,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.0663312" lon="3.0920785">
     <ele>20</ele>
-    <name>Texaco</name>
+    <name>Esso</name>
     <desc>addr:city=Torhout; addr:housenumber=13;
     addr:postcode=8820; addr:street=Vredelaan; amenity=fuel;
-    brand=Texaco; brand:wikidata=Q775060;
-    brand:wikipedia=en:Texaco; fuel:adblue=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Texaco;
-    opening_hours=24/7; operator=EG Group; self_service=yes;
-    website=https://www.texaco.be/nl-be/tankstations/detail/m8xe225z5pqac17elhuu4iz1j;
+    brand=Esso; brand:wikidata=Q867662; brand:wikipedia=en:Esso;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Esso; opening_hours=24/7; operator=ExxonMobil;
+    self_service=yes;
+    website=https://www.esso.be/nl-be/find-station/torhout--esso-100361371;
     id=node/6814779821</desc>
-    <link href="https://www.texaco.be/nl-be/tankstations/detail/m8xe225z5pqac17elhuu4iz1j">
+    <link href="https://www.esso.be/nl-be/find-station/torhout--esso-100361371">
     </link>
   </wpt>
   <wpt lat="51.0701126" lon="3.0864749">
@@ -16481,11 +16478,12 @@ version="1.1" creator="togpx">
     <link href="https://store.totalenergies.be/nl_BE/NB003136">
     </link>
   </wpt>
-  <wpt lat="50.9791037" lon="2.9168011">
+  <wpt lat="50.9791151" lon="2.9168175">
     <ele>12</ele>
     <name>Vansevenant Express</name>
-    <desc>addr:city=Houthulst; addr:housenumber=75;
-    addr:postcode=8650; addr:street=Stokstraat; amenity=fuel;
+    <desc>addr:city=Houthulst; addr:country=BE;
+    addr:housenumber=75; addr:postcode=8650;
+    addr:street=Stokstraat; addr:suburb=Klerken; amenity=fuel;
     brand=Vansevenant; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Vansevenant Express;
     operator=Vansevenant; self_service=yes;
@@ -17576,16 +17574,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.9206185" lon="3.3400377">
     <ele>13</ele>
-    <name>Total</name>
+    <name>Gabriëls - Oostrozebeke</name>
     <desc>addr:city=Oostrozebeke; addr:housenumber=56;
     addr:postcode=8780; addr:street=Wielsbekestraat; amenity=fuel;
-    brand=Total; brand:wikidata=Q154037; brand:wikipedia=fr:Total
-    (entreprise); fuel:diesel=yes; fuel:gasoil=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; fuel:petroleum=yes;
-    name=Total; operator=Total; self_service=yes;
-    website=https://store.total.be/nl_BE/NB005115;
+    brand=Gabriëls; brand:wikipedia=fr:Total (entreprise);
+    fuel:diesel=yes; fuel:gasoil=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; fuel:petroleum=yes; name=Gabriëls -
+    Oostrozebeke; not:brand:wikidata=Q154037; operator=Gabriëls;
+    self_service=yes; website=https://www.gabriels.be/nl;
     id=node/6892951702</desc>
-    <link href="https://store.total.be/nl_BE/NB005115"></link>
+    <link href="https://www.gabriels.be/nl"></link>
   </wpt>
   <wpt lat="50.9184459" lon="3.2701226">
     <ele>15</ele>
@@ -19046,8 +19044,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7767077" lon="3.0129039">
     <ele>19</ele>
-    <name>node/7894567998</name>
-    <desc>amenity=fuel; brand=Esso; id=node/7894567998</desc>
+    <name>Esso</name>
+    <desc>amenity=fuel; brand=Esso; brand:wikidata=Q867662;
+    name=Esso; id=node/7894567998</desc>
   </wpt>
   <wpt lat="51.0975095" lon="3.8371615">
     <ele>6</ele>
@@ -19468,12 +19467,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; name=Total;
     operator=Total Belgium; self_service=yes;
     id=node/8809284555</desc>
-  </wpt>
-  <wpt lat="51.4765026" lon="4.7278417">
-    <ele>9</ele>
-    <name>Shell Truck Diesel</name>
-    <desc>amenity=fuel; name=Shell Truck Diesel;
-    opening_hours=24/7; id=node/8840170017</desc>
   </wpt>
   <wpt lat="50.9705183" lon="5.3600389">
     <ele>40</ele>
@@ -19911,6 +19904,87 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; compressed_air=yes; name=Texaco;
     id=node/10138041835</desc>
   </wpt>
+  <wpt lat="50.4391448" lon="3.8443245">
+    <ele>32</ele>
+    <name>DATS 24 Quaregnon</name>
+    <desc>addr:city=Wasmuel; addr:housenumber=12;
+    addr:postcode=7390; addr:street=Sentier du pied vert;
+    amenity=fuel; brand=DATS 24; brand:wikidata=Q15725576;
+    fuel:adblue=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=DATS 24 Quaregnon;
+    operator=Colruyt; self_service=yes; id=node/10151730320</desc>
+  </wpt>
+  <wpt lat="50.3508527" lon="5.5002276">
+    <ele>136</ele>
+    <name>Total Barvaux</name>
+    <desc>amenity=fuel; brand=Total; name=Total Barvaux;
+    id=node/10186533368</desc>
+  </wpt>
+  <wpt lat="50.6914772" lon="4.3255323">
+    <ele>67</ele>
+    <name>DATS 24</name>
+    <desc>addr:city=Braine-l'Alleud; addr:housenumber=489;
+    addr:postcode=1420; addr:street=Chaussée de Tubize;
+    amenity=fuel; brand=DATS 24; brand:wikidata=Q15725576;
+    fuel:adblue=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=DATS 24;
+    opening_hours=24/7; operator=Colruyt Group;
+    payment:bancontact=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:v_pay=yes; payment:visa=yes;
+    self_service=yes;
+    website=https://customer.dats24.be/wps/portal/datscustomer/fr/b2c/locator#!/7090;
+    id=node/10202709310</desc>
+    <link href="https://customer.dats24.be/wps/portal/datscustomer/fr/b2c/locator#!/7090">
+    </link>
+  </wpt>
+  <wpt lat="50.9717128" lon="5.4541049">
+    <ele>71</ele>
+    <name>Bouts Tankstation</name>
+    <desc>amenity=fuel; name=Bouts Tankstation;
+    id=node/10216879492</desc>
+  </wpt>
+  <wpt lat="50.6940849" lon="5.6257322">
+    <ele>132</ele>
+    <name>Shell LNG</name>
+    <desc>addr:city=Herstal; addr:housenumber=201;
+    addr:postcode=4040; addr:street=Rue de Hermée; amenity=fuel;
+    brand=Shell; brand:wikidata=Q154950; brand:wikipedia=en:Royal
+    Dutch Shell; fuel:lng=yes; name=Shell LNG; operator=Shell;
+    website=https://www.shell.nl/klanten/shell-tankpas-voor-bedrijven/ons-netwerk.html;
+    id=node/10218306199</desc>
+    <link href="https://www.shell.nl/klanten/shell-tankpas-voor-bedrijven/ons-netwerk.html">
+    </link>
+  </wpt>
+  <wpt lat="51.2594836" lon="4.2636529">
+    <ele>6</ele>
+    <name>Total CNG - LNG</name>
+    <desc>amenity=fuel; name=Total CNG - LNG;
+    id=node/10219991442</desc>
+  </wpt>
+  <wpt lat="49.7038443" lon="5.6276795">
+    <ele>353</ele>
+    <name>G&amp;V CNG - LNC Truck</name>
+    <desc>amenity=fuel; name=G&amp;V CNG - LNC Truck;
+    website=https://www.gvtruck.be/nl/netwerk/gv-truck-habay-la-vieille;
+    id=node/10219997601</desc>
+    <link href="https://www.gvtruck.be/nl/netwerk/gv-truck-habay-la-vieille">
+    </link>
+  </wpt>
+  <wpt lat="49.7039969" lon="5.6269982">
+    <ele>354</ele>
+    <name>G&amp;V Truck</name>
+    <desc>amenity=fuel; name=G&amp;V Truck;
+    website=https://www.gvtruck.be/nl/netwerk/gv-truck-habay-la-vieille;
+    id=node/10219997602</desc>
+    <link href="https://www.gvtruck.be/nl/netwerk/gv-truck-habay-la-vieille">
+    </link>
+  </wpt>
+  <wpt lat="50.810378" lon="4.2396873">
+    <ele>43</ele>
+    <name>Total Energies</name>
+    <desc>amenity=fuel; name=Total Energies;
+    id=node/10225382543</desc>
+  </wpt>
   <wpt lat="50.85349965" lon="4.695982980249111">
     <ele>42</ele>
     <name>Q8</name>
@@ -20174,13 +20248,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Total; building=roof;
     id=way/85160464</desc>
   </wpt>
-  <wpt lat="50.8890752" lon="4.765711194835943">
+  <wpt lat="50.8890839" lon="4.7657089779001485">
     <ele>38</ele>
     <name>Lukoil</name>
     <desc>addr:city=Kessel-Lo; addr:housenumber=718;
     addr:street=Diestsesteenweg; amenity=fuel; brand=Lukoil;
-    building=yes; name=Lukoil; operator=Lukoil;
-    id=way/87453190</desc>
+    brand:wikidata=Q329347; building=yes; name=Lukoil;
+    operator=Lukoil; id=way/87453190</desc>
   </wpt>
   <wpt lat="51.157149149999995" lon="4.382383876604871">
     <ele>13</ele>
@@ -20262,7 +20336,7 @@ version="1.1" creator="togpx">
     <link href="https://www.tankstationvansevenant.be/site/portfolio/brugseweg-151-langemark-poelkapelle/">
     </link>
   </wpt>
-  <wpt lat="50.709955699999995" lon="4.401332100000001">
+  <wpt lat="50.70991895" lon="4.401335589339622">
     <ele>116</ele>
     <name>Shell Express</name>
     <desc>addr:city=Waterloo; addr:housenumber=295;
@@ -20391,7 +20465,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Texaco; building=yes;
     operator=Texaco; id=way/97350440</desc>
   </wpt>
-  <wpt lat="50.709194600000004" lon="4.401582295257356">
+  <wpt lat="50.7091994" lon="4.401570206177141">
     <ele>116</ele>
     <name>Q8</name>
     <desc>addr:city=Waterloo; addr:housenumber=305a;
@@ -20445,11 +20519,13 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; name=Lukoil;
     opening_hours=24/7; id=way/99793228</desc>
   </wpt>
-  <wpt lat="51.06410835" lon="4.110527535457355">
-    <ele>3</ele>
+  <wpt lat="51.064171200000004" lon="4.110585378388523">
+    <ele>2</ele>
     <name>Esso Andoretti</name>
-    <desc>amenity=fuel; building=yes; name=Esso Andoretti;
-    id=way/100005961</desc>
+    <desc>addr:housenumber=55,55A; addr:street=Hamsesteenweg;
+    amenity=fuel; building=commercial; name=Esso Andoretti;
+    source:geometry:date=2020-02-24;
+    source:geometry:ref=Gbg/286148; id=way/100005961</desc>
   </wpt>
   <wpt lat="51.369819" lon="4.5066569">
     <ele>20</ele>
@@ -20579,7 +20655,7 @@ version="1.1" creator="togpx">
     <link href="https://www.maes-oil.be/nl/tankstation/gosselies-esso/">
     </link>
   </wpt>
-  <wpt lat="51.1807061" lon="4.3891753166803165">
+  <wpt lat="51.18071405" lon="4.3891553877941565">
     <ele>11</ele>
     <name>Esso Express</name>
     <desc>addr:housenumber=28; addr:postcode=2610;
@@ -21582,9 +21658,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.2775428" lon="4.717247006395089">
     <ele>20</ele>
-    <name>Avia</name>
+    <name>Sa’ llys station Zoersel</name>
     <desc>addr:housenumber=73; addr:street=Oostmallebaan;
-    amenity=fuel; name=Avia; operator=Avia; id=way/182674530</desc>
+    amenity=fuel; brand=TinQ; name=Sa’ llys station Zoersel;
+    operator=TinQ; id=way/182674530</desc>
   </wpt>
   <wpt lat="50.6144083" lon="5.511145947652752">
     <ele>62</ele>
@@ -21657,8 +21734,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Wilsele; addr:housenumber=267;
     addr:postcode=3012; addr:street=Aarschotsesteenweg;
     amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=roof; fuel:diesel=yes;
-    fuel:e10=yes; fuel:octane_98=yes; name=Lukoil;
+    brand:wikipedia=en:Lukoil; building=roof; compressed_air=yes;
+    fuel:diesel=yes; fuel:e10=yes; fuel:octane_98=yes; name=Lukoil;
     opening_hours=24/7; operator=Lukoil; self_service=yes;
     website=https://www.lukoil.be/go/nl/lukoil_station.cfm?id=215;
     id=way/197815703</desc>
@@ -22263,22 +22340,6 @@ version="1.1" creator="togpx">
     operator=Texaco; ref:UrbIS=7529492; wheelchair=limited;
     id=way/238321824</desc>
   </wpt>
-  <wpt lat="50.6914373" lon="4.32555885475463">
-    <ele>67</ele>
-    <name>DATS 24 Braine-l'Alleud 2</name>
-    <desc>addr:city=Braine-l'Alleud - Wauthier-Braine;
-    addr:housenumber=489; addr:postcode=1420; addr:street=Chaussée
-    de Tubize; amenity=fuel; brand=Dats 24; building=roof;
-    fuel:cng=yes; fuel:diesel=yes; fuel:e10=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=DATS 24
-    Braine-l'Alleud 2; operator=Colruyt; payment:maestro=yes;
-    payment:mastercard=yes; payment:v_pay=yes; payment:visa=yes;
-    self_service=yes;
-    website=https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/7090;
-    id=way/239971488</desc>
-    <link href="https://customer.dats24.be/wps/portal/datscustomer/nl/b2c/locator#!/7090">
-    </link>
-  </wpt>
   <wpt lat="50.636978600000006" lon="5.153840439413456">
     <ele>151</ele>
     <name>way/240896690</name>
@@ -22352,19 +22413,21 @@ version="1.1" creator="togpx">
     fuel:lpg=yes; name=Lukoil; operator=Lukoil; source=survey;
     id=way/242453781</desc>
   </wpt>
-  <wpt lat="50.77778145" lon="4.301362445418876">
+  <wpt lat="50.7777564" lon="4.301371565615687">
     <ele>20</ele>
-    <name>Total Ruisbroek</name>
-    <desc>amenity=fuel; building=roof; internet_access=wlan;
-    name=Total Ruisbroek; opening_hours=24/7; operator=Total;
-    source:geometry:date=2017-07-12;
+    <name>Total</name>
+    <desc>amenity=fuel; branch=Ruisbroek; brand=Total;
+    brand:wikidata=Q154037; building=roof; internet_access=wlan;
+    name=Total; opening_hours=24/7; operator=Total;
+    self_service=yes; source:geometry:date=2017-07-12;
     source:geometry:ref=Gba/520879; id=way/245146089</desc>
   </wpt>
   <wpt lat="50.77925315" lon="4.300268624737702">
     <ele>21</ele>
-    <name>TOTAL</name>
-    <desc>amenity=fuel; building=roof; operator=TOTAL;
-    source:geometry:date=2017-07-12;
+    <name>Total</name>
+    <desc>amenity=fuel; branch=Ruisbroek; brand=Total;
+    brand:wikidata=Q154037; building=roof; name=Total;
+    operator=TOTAL; source:geometry:date=2017-07-12;
     source:geometry:ref=Gba/520880; id=way/245146107</desc>
   </wpt>
   <wpt lat="50.49304615" lon="4.894117774993438">
@@ -22590,8 +22653,9 @@ version="1.1" creator="togpx">
   <wpt lat="50.7051753" lon="4.431898407593711">
     <ele>116</ele>
     <name>Lukoil</name>
-    <desc>amenity=fuel; brand=Lukoil; building=roof; layer=1;
-    name=Lukoil; id=way/253680303</desc>
+    <desc>addr:housenumber=431; addr:street=Chaussée de Louvain;
+    amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
+    building=roof; layer=1; name=Lukoil; id=way/253680303</desc>
   </wpt>
   <wpt lat="50.7058137" lon="4.43415255">
     <ele>116</ele>
@@ -22933,9 +22997,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Wilsele; addr:housenumber=450;
     addr:postcode=3012; addr:street=Aarschotsesteenweg;
     amenity=fuel; brand=Q8 Easy; brand:wikidata=Q1806948;
-    brand:wikipedia=nl:Q8 Easy; building=roof; fuel:diesel=yes;
-    fuel:e10=yes; fuel:octane_98=yes; name=Q8 Easy;
-    opening_hours=24/7; operator=Q8; self_service=yes;
+    brand:wikipedia=nl:Q8 Easy; building=roof; compressed_air=no;
+    fuel:diesel=yes; fuel:e10=yes; fuel:octane_98=yes; name=Q8
+    Easy; opening_hours=24/7; operator=Q8; self_service=yes;
     website=https://www.q8.be/nl/stations/q8-easy-leuven-wilsele;
     id=way/292571035</desc>
     <link href="https://www.q8.be/nl/stations/q8-easy-leuven-wilsele">
@@ -23019,9 +23083,10 @@ version="1.1" creator="togpx">
     <ele>1</ele>
     <name>Gabriëls</name>
     <desc>amenity=fuel; brand=Gabriëls; building=roof;
-    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Gabriëls; opening_hours=24/7;
-    operator=Motorhuis Simoens; self_service=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Gabriëls;
+    opening_hours=24/7; operator=Motorhuis Simoens;
+    self_service=yes;
     website=https://www.gabriels.be/tankstations/gabriels-blankenberge;
     id=way/300651660</desc>
     <link href="https://www.gabriels.be/tankstations/gabriels-blankenberge">
@@ -23616,17 +23681,16 @@ version="1.1" creator="togpx">
     id=way/357205232</desc>
     <link href="https://www.q8.be/nl/stations/q8-crisnee"></link>
   </wpt>
-  <wpt lat="51.16578285" lon="5.038570519846579">
+  <wpt lat="51.1658069" lon="5.03858789802306">
     <ele>22</ele>
-    <name>VdB Energie</name>
-    <desc>addr:city=Geel; addr:housenumber=120; addr:postcode=2440;
-    addr:street=Molseweg; amenity=fuel; brand=VdB Energie;
-    fuel:diesel=yes; fuel:e10=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=VdB Energie; operator=VdB Energie;
-    self_service=yes;
-    website=https://vdbenergie.be/nl/tankstations;
-    id=way/357430692</desc>
-    <link href="https://vdbenergie.be/nl/tankstations"></link>
+    <name>TotalEnergies</name>
+    <desc>addr:housenumber=120; addr:street=Molseweg; amenity=fuel;
+    branch=Express Geel; brand=Total; brand:wikidata=Q154037;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=TotalEnergies; opening_hours=24/7;
+    operator:website=https://services.totalenergies.be;
+    phone=+3222889501; self_service=yes; id=way/357430692</desc>
+    <link href="https://services.totalenergies.be"></link>
   </wpt>
   <wpt lat="51.1976574" lon="3.825280079859488">
     <ele>3</ele>
@@ -25256,7 +25320,7 @@ version="1.1" creator="togpx">
     <link href="https://ids.q8.com/nl/stations/ids-beringen-paal-be0657">
     </link>
   </wpt>
-  <wpt lat="51.47285935" lon="4.726957795966429">
+  <wpt lat="51.4731124" lon="4.727062474841061">
     <ele>8</ele>
     <name>International Diesel Service</name>
     <desc>amenity=fuel; brand=Q8; building=roof; name=International
@@ -25342,10 +25406,11 @@ version="1.1" creator="togpx">
     website=https://www.vd-energie.be/nl; id=way/511273588</desc>
     <link href="https://www.vd-energie.be/nl"></link>
   </wpt>
-  <wpt lat="50.8962243" lon="4.431978035871795">
+  <wpt lat="50.89609945" lon="4.4317980663504795">
     <ele>20</ele>
     <name>Dats 24</name>
-    <desc>amenity=fuel; name=Dats 24; id=way/512147983</desc>
+    <desc>amenity=fuel; brand=DATS 24; brand:wikidata=Q15725576;
+    building=roof; name=Dats 24; id=way/512147983</desc>
   </wpt>
   <wpt lat="50.99326665" lon="5.241514194689678">
     <ele>29</ele>
@@ -27723,6 +27788,12 @@ version="1.1" creator="togpx">
     <link href="https://www.gabriels.be/nl/tankstation-vinden/gabriels-aarschot">
     </link>
   </wpt>
+  <wpt lat="50.4026803" lon="3.8881558909090916">
+    <ele>121</ele>
+    <name>way/996478624</name>
+    <desc>addr:housenumber=77; addr:street=Rue des Saules;
+    amenity=fuel; building=yes; id=way/996478624</desc>
+  </wpt>
   <wpt lat="50.42160515" lon="4.171417099999999">
     <ele>107</ele>
     <name>DATS 24</name>
@@ -28052,8 +28123,41 @@ version="1.1" creator="togpx">
     <link href="https://www.maes-oil.be/nl/tankstation/brustem-esso/">
     </link>
   </wpt>
-  <wpt lat="50.92302875" lon="3.1946978697944397">
-    <ele>16</ele>
+  <wpt lat="51.0307156" lon="4.7731947272756035">
+    <ele>11</ele>
+    <name>Bruyninckx</name>
+    <desc>amenity=fuel; building=roof; name=Bruyninckx;
+    id=way/1112286082</desc>
+  </wpt>
+  <wpt lat="50.44693115" lon="4.176217737379867">
+    <ele>100</ele>
+    <name>Maes</name>
+    <desc>amenity=fuel; name=Maes; id=way/1112441151</desc>
+  </wpt>
+  <wpt lat="50.80488015" lon="4.022951552377403">
+    <ele>41</ele>
+    <name>Octa+</name>
+    <desc>amenity=fuel; building=roof; name=Octa+;
+    source:geometry:date=2010-05-04;
+    source:geometry:ref=Gba/165984; id=way/1115692384</desc>
+  </wpt>
+  <wpt lat="50.9727949" lon="4.4997895341557275">
+    <ele>8</ele>
+    <name>Q8</name>
+    <desc>addr:housenumber=477; addr:street=Tervuursesteenweg;
+    amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
+    brand:wikipedia=en:Kuwait Petroleum Corporation; building=roof;
+    name=Q8; id=way/1117491998</desc>
+  </wpt>
+  <wpt lat="51.47592065" lon="4.727606754939462">
+    <ele>9</ele>
+    <name>Shell truck Diesel</name>
+    <desc>addr:housenumber=11; addr:street=Riyadhstraat;
+    amenity=fuel; brand=Shell; fuel:diesel=yes; name=Shell truck
+    Diesel; opening_hours=24/7; id=way/1118079729</desc>
+  </wpt>
+  <wpt lat="51.47592065" lon="4.727606754939462">
+    <ele>9</ele>
     <name>way/201735349</name>
     <desc>amenity=fuel; highway=service; service=driveway;
     id=way/201735349</desc>
@@ -28449,12 +28553,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lukoil</name>
     <trkseg>
-      <trkpt lat="50.889135" lon="4.7656912"></trkpt>
-      <trkpt lat="50.8890154" lon="4.7655839"></trkpt>
-      <trkpt lat="50.8889916" lon="4.7655887"></trkpt>
-      <trkpt lat="50.8890076" lon="4.7657984"></trkpt>
-      <trkpt lat="50.8891417" lon="4.7657715"></trkpt>
-      <trkpt lat="50.889135" lon="4.7656912"></trkpt>
+      <trkpt lat="50.8891437" lon="4.7656885"></trkpt>
+      <trkpt lat="50.8890241" lon="4.7655812"></trkpt>
+      <trkpt lat="50.8889943" lon="4.7655869"></trkpt>
+      <trkpt lat="50.8890142" lon="4.7657981"></trkpt>
+      <trkpt lat="50.8891504" lon="4.7657688"></trkpt>
+      <trkpt lat="50.8891437" lon="4.7656885"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28585,11 +28689,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Shell Express</name>
     <trkseg>
-      <trkpt lat="50.7100581" lon="4.4012518"></trkpt>
-      <trkpt lat="50.709845" lon="4.4012868"></trkpt>
-      <trkpt lat="50.7098533" lon="4.4014124"></trkpt>
-      <trkpt lat="50.7100664" lon="4.4013774"></trkpt>
-      <trkpt lat="50.7100581" lon="4.4012518"></trkpt>
+      <trkpt lat="50.7100568" lon="4.401251"></trkpt>
+      <trkpt lat="50.7098448" lon="4.4012878"></trkpt>
+      <trkpt lat="50.7098532" lon="4.4014077"></trkpt>
+      <trkpt lat="50.7099847" lon="4.4013848"></trkpt>
+      <trkpt lat="50.7099934" lon="4.4015102"></trkpt>
+      <trkpt lat="50.7100739" lon="4.4014962"></trkpt>
+      <trkpt lat="50.7100568" lon="4.401251"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28775,15 +28881,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Q8</name>
     <trkseg>
-      <trkpt lat="50.7093299" lon="4.4015622"></trkpt>
-      <trkpt lat="50.7092201" lon="4.4014982"></trkpt>
-      <trkpt lat="50.7092292" lon="4.4014595"></trkpt>
-      <trkpt lat="50.7091455" lon="4.4014107"></trkpt>
-      <trkpt lat="50.7090726" lon="4.4017225"></trkpt>
-      <trkpt lat="50.709155" lon="4.4017706"></trkpt>
-      <trkpt lat="50.7091691" lon="4.4017104"></trkpt>
-      <trkpt lat="50.7092801" lon="4.4017751"></trkpt>
-      <trkpt lat="50.7093299" lon="4.4015622"></trkpt>
+      <trkpt lat="50.7093443" lon="4.4015482"></trkpt>
+      <trkpt lat="50.7092252" lon="4.4014808"></trkpt>
+      <trkpt lat="50.7092317" lon="4.4014521"></trkpt>
+      <trkpt lat="50.7091455" lon="4.4014033"></trkpt>
+      <trkpt lat="50.7090771" lon="4.4017048"></trkpt>
+      <trkpt lat="50.70916" lon="4.4017517"></trkpt>
+      <trkpt lat="50.7091736" lon="4.401692"></trkpt>
+      <trkpt lat="50.7092959" lon="4.4017612"></trkpt>
+      <trkpt lat="50.7093443" lon="4.4015482"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28857,15 +28963,26 @@ version="1.1" creator="togpx">
   <trk>
     <name>Esso Andoretti</name>
     <trkseg>
-      <trkpt lat="51.0640374" lon="4.1102937"></trkpt>
-      <trkpt lat="51.063933" lon="4.1104496"></trkpt>
-      <trkpt lat="51.0640839" lon="4.1106693"></trkpt>
-      <trkpt lat="51.0641418" lon="4.110631"></trkpt>
-      <trkpt lat="51.0642092" lon="4.1107281"></trkpt>
-      <trkpt lat="51.0641328" lon="4.1108797"></trkpt>
-      <trkpt lat="51.0641803" lon="4.1109504"></trkpt>
-      <trkpt lat="51.0643104" lon="4.1107102"></trkpt>
-      <trkpt lat="51.0640374" lon="4.1102937"></trkpt>
+      <trkpt lat="51.0642549" lon="4.110793"></trkpt>
+      <trkpt lat="51.0642567" lon="4.1107957"></trkpt>
+      <trkpt lat="51.0643066" lon="4.1107086"></trkpt>
+      <trkpt lat="51.0643122" lon="4.1106983"></trkpt>
+      <trkpt lat="51.0642991" lon="4.1106782"></trkpt>
+      <trkpt lat="51.0643102" lon="4.110659"></trkpt>
+      <trkpt lat="51.064296" lon="4.1106379"></trkpt>
+      <trkpt lat="51.0643363" lon="4.1105682"></trkpt>
+      <trkpt lat="51.0643476" lon="4.1105485"></trkpt>
+      <trkpt lat="51.0643288" lon="4.1105213"></trkpt>
+      <trkpt lat="51.0643178" lon="4.110541"></trkpt>
+      <trkpt lat="51.0642751" lon="4.110479"></trkpt>
+      <trkpt lat="51.0642223" lon="4.1105722"></trkpt>
+      <trkpt lat="51.064029" lon="4.1102923"></trkpt>
+      <trkpt lat="51.0639322" lon="4.1104601"></trkpt>
+      <trkpt lat="51.0639612" lon="4.1105021"></trkpt>
+      <trkpt lat="51.0640743" lon="4.1106664"></trkpt>
+      <trkpt lat="51.0641376" lon="4.1106241"></trkpt>
+      <trkpt lat="51.0642048" lon="4.110721"></trkpt>
+      <trkpt lat="51.0642549" lon="4.110793"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -29061,11 +29178,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Esso Express</name>
     <trkseg>
-      <trkpt lat="51.1807821" lon="4.3890835"></trkpt>
-      <trkpt lat="51.1806489" lon="4.3890537"></trkpt>
-      <trkpt lat="51.1806302" lon="4.3892672"></trkpt>
-      <trkpt lat="51.1807633" lon="4.3892969"></trkpt>
-      <trkpt lat="51.1807821" lon="4.3890835"></trkpt>
+      <trkpt lat="51.1808561" lon="4.3890822"></trkpt>
+      <trkpt lat="51.1806001" lon="4.3890148"></trkpt>
+      <trkpt lat="51.1805781" lon="4.3892323"></trkpt>
+      <trkpt lat="51.180828" lon="4.3892942"></trkpt>
+      <trkpt lat="51.1808561" lon="4.3890822"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -29098,8 +29215,10 @@ version="1.1" creator="togpx">
       <trkpt lat="51.1796912" lon="4.3888223"></trkpt>
       <trkpt lat="51.1796712" lon="4.3888163"></trkpt>
       <trkpt lat="51.1796291" lon="4.3888604"></trkpt>
+      <trkpt lat="51.1796209" lon="4.3889333"></trkpt>
       <trkpt lat="51.1796141" lon="4.3889935"></trkpt>
       <trkpt lat="51.1798095" lon="4.3890452"></trkpt>
+      <trkpt lat="51.1798149" lon="4.3889936"></trkpt>
       <trkpt lat="51.1798218" lon="4.3889287"></trkpt>
     </trkseg>
   </trk>
@@ -30368,7 +30487,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Avia</name>
+    <name>Sa’ llys station Zoersel</name>
     <trkseg>
       <trkpt lat="51.2776541" lon="4.7171677"></trkpt>
       <trkpt lat="51.2776228" lon="4.7171074"></trkpt>
@@ -31366,18 +31485,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>DATS 24 Braine-l'Alleud 2</name>
-    <trkseg>
-      <trkpt lat="50.6913255" lon="4.325564"></trkpt>
-      <trkpt lat="50.6913581" lon="4.3256836"></trkpt>
-      <trkpt lat="50.6914531" lon="4.325619"></trkpt>
-      <trkpt lat="50.6915405" lon="4.3255596"></trkpt>
-      <trkpt lat="50.6915079" lon="4.32544"></trkpt>
-      <trkpt lat="50.6914215" lon="4.3254987"></trkpt>
-      <trkpt lat="50.6913255" lon="4.325564"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/240896690</name>
     <trkseg>
       <trkpt lat="50.6369673" lon="5.1537347"></trkpt>
@@ -31467,9 +31574,9 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Total Ruisbroek</name>
+    <name>Total</name>
     <trkseg>
-      <trkpt lat="50.7778473" lon="4.3015017"></trkpt>
+      <trkpt lat="50.7778449" lon="4.3015047"></trkpt>
       <trkpt lat="50.7780177" lon="4.3013762"></trkpt>
       <trkpt lat="50.7781548" lon="4.3012751"></trkpt>
       <trkpt lat="50.7781895" lon="4.3012496"></trkpt>
@@ -31488,11 +31595,14 @@ version="1.1" creator="togpx">
       <trkpt lat="50.7772477" lon="4.3015677"></trkpt>
       <trkpt lat="50.7775333" lon="4.301733"></trkpt>
       <trkpt lat="50.7775555" lon="4.3017167"></trkpt>
-      <trkpt lat="50.7778473" lon="4.3015017"></trkpt>
+      <trkpt lat="50.7775411" lon="4.3017083"></trkpt>
+      <trkpt lat="50.7777972" lon="4.30152"></trkpt>
+      <trkpt lat="50.7778022" lon="4.3015367"></trkpt>
+      <trkpt lat="50.7778449" lon="4.3015047"></trkpt>
     </trkseg>
   </trk>
   <trk>
-    <name>way/245146107</name>
+    <name>Total</name>
     <trkseg>
       <trkpt lat="50.7791913" lon="4.3001152"></trkpt>
       <trkpt lat="50.7790081" lon="4.3002498"></trkpt>
@@ -33282,13 +33392,15 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>VdB Energie</name>
+    <name>TotalEnergies</name>
     <trkseg>
-      <trkpt lat="51.1657324" lon="5.0386677"></trkpt>
-      <trkpt lat="51.1658595" lon="5.038602"></trkpt>
-      <trkpt lat="51.1658333" lon="5.0384733"></trkpt>
-      <trkpt lat="51.1657062" lon="5.0385391"></trkpt>
-      <trkpt lat="51.1657324" lon="5.0386677"></trkpt>
+      <trkpt lat="51.1657376" lon="5.0387016"></trkpt>
+      <trkpt lat="51.1657765" lon="5.0386794"></trkpt>
+      <trkpt lat="51.1658668" lon="5.0386277"></trkpt>
+      <trkpt lat="51.1658373" lon="5.0384964"></trkpt>
+      <trkpt lat="51.1657496" lon="5.0385466"></trkpt>
+      <trkpt lat="51.1657081" lon="5.0385704"></trkpt>
+      <trkpt lat="51.1657376" lon="5.0387016"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -35349,15 +35461,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>International Diesel Service</name>
     <trkseg>
-      <trkpt lat="51.4729741" lon="4.7269132"></trkpt>
-      <trkpt lat="51.4729508" lon="4.7269025"></trkpt>
-      <trkpt lat="51.4727946" lon="4.7268422"></trkpt>
-      <trkpt lat="51.4726982" lon="4.7268092"></trkpt>
-      <trkpt lat="51.4726735" lon="4.7269777"></trkpt>
-      <trkpt lat="51.4727645" lon="4.7270125"></trkpt>
-      <trkpt lat="51.4729241" lon="4.7270729"></trkpt>
-      <trkpt lat="51.4729495" lon="4.7270817"></trkpt>
-      <trkpt lat="51.4729741" lon="4.7269132"></trkpt>
+      <trkpt lat="51.4733001" lon="4.7270447"></trkpt>
+      <trkpt lat="51.4729495" lon="4.7269116"></trkpt>
+      <trkpt lat="51.4727931" lon="4.7268523"></trkpt>
+      <trkpt lat="51.4726453" lon="4.7267962"></trkpt>
+      <trkpt lat="51.4726204" lon="4.7269649"></trkpt>
+      <trkpt lat="51.4727635" lon="4.7270192"></trkpt>
+      <trkpt lat="51.4729231" lon="4.7270797"></trkpt>
+      <trkpt lat="51.4732753" lon="4.7272133"></trkpt>
+      <trkpt lat="51.4733001" lon="4.7270447"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -35444,11 +35556,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Dats 24</name>
     <trkseg>
-      <trkpt lat="50.8963757" lon="4.4318935"></trkpt>
-      <trkpt lat="50.8961985" lon="4.431727"></trkpt>
-      <trkpt lat="50.896073" lon="4.4320625"></trkpt>
-      <trkpt lat="50.8962501" lon="4.4322291"></trkpt>
-      <trkpt lat="50.8963757" lon="4.4318935"></trkpt>
+      <trkpt lat="50.8961796" lon="4.4318061"></trkpt>
+      <trkpt lat="50.8960616" lon="4.4316857"></trkpt>
+      <trkpt lat="50.8960192" lon="4.43179"></trkpt>
+      <trkpt lat="50.8961373" lon="4.4319104"></trkpt>
+      <trkpt lat="50.8961796" lon="4.4318061"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -38662,6 +38774,24 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/996478624</name>
+    <trkseg>
+      <trkpt lat="50.402504" lon="3.8882283"></trkpt>
+      <trkpt lat="50.4025025" lon="3.8882454"></trkpt>
+      <trkpt lat="50.4026361" lon="3.8883873"></trkpt>
+      <trkpt lat="50.4026459" lon="3.8883705"></trkpt>
+      <trkpt lat="50.4026713" lon="3.8884027"></trkpt>
+      <trkpt lat="50.4026893" lon="3.8884127"></trkpt>
+      <trkpt lat="50.4028624" lon="3.8879997"></trkpt>
+      <trkpt lat="50.4027367" lon="3.8878736"></trkpt>
+      <trkpt lat="50.40271" lon="3.8879395"></trkpt>
+      <trkpt lat="50.4026898" lon="3.8879122"></trkpt>
+      <trkpt lat="50.4026568" lon="3.887884"></trkpt>
+      <trkpt lat="50.4025976" lon="3.8880134"></trkpt>
+      <trkpt lat="50.402504" lon="3.8882283"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>DATS 24</name>
     <trkseg>
       <trkpt lat="50.421662" lon="4.1713329"></trkpt>
@@ -39224,6 +39354,75 @@ version="1.1" creator="togpx">
       <trkpt lat="50.9227736" lon="3.1951575"></trkpt>
       <trkpt lat="50.9229348" lon="3.1952676"></trkpt>
       <trkpt lat="50.9231227" lon="3.1945484"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Bruyninckx</name>
+    <trkseg>
+      <trkpt lat="51.0307192" lon="4.773294"></trkpt>
+      <trkpt lat="51.0307526" lon="4.77323"></trkpt>
+      <trkpt lat="51.0307766" lon="4.7732616"></trkpt>
+      <trkpt lat="51.0307956" lon="4.7732245"></trkpt>
+      <trkpt lat="51.0307814" lon="4.7732065"></trkpt>
+      <trkpt lat="51.0307913" lon="4.7731862"></trkpt>
+      <trkpt lat="51.0307747" lon="4.7731646"></trkpt>
+      <trkpt lat="51.0307766" lon="4.7731601"></trkpt>
+      <trkpt lat="51.0307213" lon="4.7730884"></trkpt>
+      <trkpt lat="51.0306422" lon="4.7732425"></trkpt>
+      <trkpt lat="51.0306977" lon="4.7733133"></trkpt>
+      <trkpt lat="51.030712" lon="4.7732859"></trkpt>
+      <trkpt lat="51.0307192" lon="4.773294"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Maes</name>
+    <trkseg>
+      <trkpt lat="50.4469865" lon="4.1760819"></trkpt>
+      <trkpt lat="50.4469339" lon="4.176139"></trkpt>
+      <trkpt lat="50.4468835" lon="4.1761937"></trkpt>
+      <trkpt lat="50.4468364" lon="4.1762448"></trkpt>
+      <trkpt lat="50.4468822" lon="4.1763488"></trkpt>
+      <trkpt lat="50.4468977" lon="4.1763313"></trkpt>
+      <trkpt lat="50.4469284" lon="4.1762966"></trkpt>
+      <trkpt lat="50.4469796" lon="4.1762387"></trkpt>
+      <trkpt lat="50.4470301" lon="4.1761815"></trkpt>
+      <trkpt lat="50.4469865" lon="4.1760819"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Octa+</name>
+    <trkseg>
+      <trkpt lat="50.804828" lon="4.0228879"></trkpt>
+      <trkpt lat="50.8048236" lon="4.0230008"></trkpt>
+      <trkpt lat="50.8049323" lon="4.0230143"></trkpt>
+      <trkpt lat="50.8049368" lon="4.0229033"></trkpt>
+      <trkpt lat="50.804828" lon="4.0228879"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Q8</name>
+    <trkseg>
+      <trkpt lat="50.9727175" lon="4.4997931"></trkpt>
+      <trkpt lat="50.9728115" lon="4.499933"></trkpt>
+      <trkpt lat="50.9728568" lon="4.4998492"></trkpt>
+      <trkpt lat="50.9728816" lon="4.4998033"></trkpt>
+      <trkpt lat="50.9727783" lon="4.4996454"></trkpt>
+      <trkpt lat="50.9727369" lon="4.4996371"></trkpt>
+      <trkpt lat="50.9727287" lon="4.4996504"></trkpt>
+      <trkpt lat="50.9726775" lon="4.4997336"></trkpt>
+      <trkpt lat="50.9727175" lon="4.4997931"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell truck Diesel</name>
+    <trkseg>
+      <trkpt lat="51.4764203" lon="4.7279009"></trkpt>
+      <trkpt lat="51.4761735" lon="4.7277188"></trkpt>
+      <trkpt lat="51.4757003" lon="4.7273698"></trkpt>
+      <trkpt lat="51.4756669" lon="4.7274959"></trkpt>
+      <trkpt lat="51.476141" lon="4.7278421"></trkpt>
+      <trkpt lat="51.4763869" lon="4.7280216"></trkpt>
+      <trkpt lat="51.4764203" lon="4.7279009"></trkpt>
     </trkseg>
   </trk>
   <trk>
