@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-11-30T15:22:33Z", "timestamp_areas_base":
-      "2022-11-30T10:32:09Z", "copyright": "The data included in
+      "2022-12-18T14:46:09Z", "timestamp_areas_base":
+      "2022-12-18T11:58:39Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -461,7 +461,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Eischen; addr:housenumber=1A;
     addr:postcode=8469; addr:street=La Gaichel; amenity=fuel;
     brand=Esso; brand:wikidata=Q867662; brand:wikipedia=en:Esso;
-    name=Esso; operator=Esso; ref:caclr=207308;
+    compressed_air=yes; name=Esso; operator=Esso; ref:caclr=207308;
     id=node/980980023</desc>
   </wpt>
   <wpt lat="49.7899332" lon="6.2194177">
@@ -662,8 +662,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.7258936" lon="5.840076">
     <ele>294</ele>
     <name>Total</name>
-    <desc>amenity=fuel; brand=Total; name=Total; operator=Total;
-    id=node/1477560852</desc>
+    <desc>amenity=fuel; brand=Total; compressed_air=yes;
+    name=Total; operator=Total; id=node/1477560852</desc>
   </wpt>
   <wpt lat="49.4660674" lon="6.0362419">
     <ele>295</ele>
@@ -898,9 +898,9 @@ version="1.1" creator="togpx">
     <ele>269</ele>
     <name>Aral</name>
     <desc>amenity=fuel; brand=Aral; brand:wikidata=Q565734;
-    brand:wikipedia=en:Aral AG; fuel:GTL_diesel=yes;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_98=yes;
-    name=Aral; id=node/2095556708</desc>
+    brand:wikipedia=en:Aral AG; compressed_air=yes;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_98=yes; name=Aral; id=node/2095556708</desc>
   </wpt>
   <wpt lat="49.511461" lon="6.1902641">
     <ele>257</ele>
@@ -1385,8 +1385,10 @@ version="1.1" creator="togpx">
     addr:postcode=9412; addr:street=Rue de la Frontière;
     amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
     brand:wikipedia=en:Kuwait Petroleum Corporation; building=yes;
-    fuel:diesel=yes; fuel:octane_91=yes; fuel:octane_95=yes;
-    name=Q8 Shop Vinandy; shop=kiosk; id=way/158932301</desc>
+    fuel:diesel=yes; fuel:e10=yes; fuel:octane_95=no;
+    fuel:octane_98=yes; name=Q8 Shop Vinandy; opening_hours=Mo-Fr
+    06:30-21:00, Sa,Su 07:30-21:00; phone=+352 849361; shop=kiosk;
+    id=way/158932301</desc>
   </wpt>
   <wpt lat="49.6175982" lon="6.11138758201995">
     <ele>281</ele>
@@ -1904,7 +1906,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Echternach; addr:country=LU;
     addr:housenumber=42; addr:postcode=6490; addr:street=Route de
     Wasserbillig; amenity=fuel; brand=Aral; brand:wikidata=Q565734;
-    brand:wikipedia=en:Aral AG; building=yes; fuel:GTL_diesel=yes;
+    brand:wikipedia=en:Aral AG; building=yes; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Aral;
     opening_hours=Mo-Su 06:00-22:00; operator=Aral;
     id=way/511711128</desc>
@@ -2026,7 +2028,7 @@ version="1.1" creator="togpx">
     <ele>498</ele>
     <name>ESSO</name>
     <desc>addr:city=Heiderscheid; addr:housenumber=3;
-    addr:postcode=9156; addr:street=Fuussekaul; amenity=fuel;
+    addr:place=Fuussekaul; addr:postcode=9156; amenity=fuel;
     brand=Esso; brand:wikidata=Q867662; brand:wikipedia=en:Esso;
     building=commercial; building:levels=1; name=ESSO;
     id=way/696216878</desc>
@@ -2096,10 +2098,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.5953722" lon="6.213442370739161">
     <ele>321</ele>
-    <name>Contern</name>
+    <name>Station Total</name>
     <desc>addr:city=Contern; addr:housenumber=4;
     addr:postcode=5315; addr:street=Rue Daniel Grün; amenity=fuel;
-    brand=Total; building=yes; id=way/987133350</desc>
+    brand=Total; building=yes; name=Station Total;
+    id=way/987133350</desc>
   </wpt>
   <wpt lat="49.544484" lon="5.820725015735277">
     <ele>269</ele>
@@ -3788,7 +3791,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/987133350</name>
+    <name>Station Total</name>
     <trkseg>
       <trkpt lat="49.5952011" lon="6.2134117"></trkpt>
       <trkpt lat="49.5952041" lon="6.2134278"></trkpt>
