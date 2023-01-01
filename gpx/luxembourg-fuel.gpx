@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-12-18T14:46:09Z", "timestamp_areas_base":
-      "2022-12-18T11:58:39Z", "copyright": "The data included in
+      "2022-12-31T23:20:35Z", "timestamp_areas_base":
+      "2022-12-31T23:11:11Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -171,10 +171,10 @@ version="1.1" creator="togpx">
     <name>Aral</name>
     <desc>addr:city=Differdange; addr:country=LU;
     addr:housenumber=182; addr:postcode=4670; addr:street=Rue de
-    Soleuvre; amenity=fuel; brand=Aral; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Aral;
-    opening_hours=Mo-Sa 05:30-22:00, Su 07:00-22:00; operator=Aral;
-    phone=+352 58 64 17; shop=kiosk; wheelchair=yes;
+    Soleuvre; amenity=fuel; brand=Aral; brand:wikidata=Q565734;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Aral; opening_hours=Mo-Sa 05:30-22:00, Su 07:00-22:00;
+    operator=Aral; phone=+352 58 64 17; shop=kiosk; wheelchair=yes;
     id=node/270800739</desc>
   </wpt>
   <wpt lat="49.5212529" lon="5.9104704">
@@ -182,9 +182,9 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Differdange; addr:country=LU;
     addr:housenumber=181; addr:postcode=4670; addr:street=Rue de
-    Soleuvre; amenity=fuel; brand=Shell; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell;
-    opening_hours=Mo-Su 06:00-21:00; operator=Shell;
+    Soleuvre; amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Shell; opening_hours=Mo-Su 06:00-21:00; operator=Shell;
     id=node/270800740</desc>
   </wpt>
   <wpt lat="49.5472594" lon="6.3618458">
@@ -416,7 +416,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.4848976" lon="6.3574359">
     <ele>148</ele>
     <name>Aral</name>
-    <desc>amenity=fuel; brand=Aral; operator=Aral; wheelchair=yes;
+    <desc>amenity=fuel; brand=Aral; brand:wikidata=Q565734;
+    name=Aral; operator=Aral; wheelchair=yes;
     id=node/747317216</desc>
   </wpt>
   <wpt lat="49.4692633" lon="6.356117">
@@ -1663,14 +1664,17 @@ version="1.1" creator="togpx">
     brand=Aral; name=Aral; operator=Aral; ref:caclr=74478;
     id=way/234298290</desc>
   </wpt>
-  <wpt lat="49.7565698" lon="6.098917947895982">
+  <wpt lat="49.75656445" lon="6.098919000322233">
     <ele>260</ele>
-    <name>Total</name>
+    <name>TotalEnergies Mersch</name>
     <desc>addr:city=Mersch; addr:housenumber=72;
     addr:postcode=7525; addr:street=Rue de Colmar-Berg;
     amenity=fuel; brand=Total; brand:wikidata=Q154037;
-    brand:wikipedia=fr:Total (entreprise); building=yes; layer=1;
-    name=Total; wheelchair=limited; id=way/235476539</desc>
+    brand:wikipedia=fr:Total (entreprise); building=yes;
+    fuel:Excellium_98=yes; fuel:adblue:canister=yes;
+    fuel:diesel=yes; fuel:excellium_diesel=yes; fuel:octane_95=yes;
+    layer=1; name=TotalEnergies Mersch; wheelchair=limited;
+    id=way/235476539</desc>
   </wpt>
   <wpt lat="49.54760585" lon="6.359670394731813">
     <ele>203</ele>
@@ -1791,11 +1795,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.747555750000004" lon="6.1108484058758314">
     <ele>218</ele>
-    <name>ESSO EG</name>
+    <name>Esso Mersch</name>
     <desc>addr:city=Rollingen; addr:housenumber=4;
     addr:postcode=7540; addr:street=Rue de Luxembourg;
-    amenity=fuel; building=yes; name=ESSO EG; ref:caclr=124148;
-    wheelchair=limited; id=way/316698222</desc>
+    amenity=fuel; brand=Esso; brand:wikidata=Q867662; building=yes;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Esso Mersch; opening_hours=Mo-Sa
+    06:.-22:00, Su, PH 08:00-20:00; ref:caclr=124148;
+    self_service=yes; wheelchair=limited; id=way/316698222</desc>
   </wpt>
   <wpt lat="49.6764431" lon="6.428015697481879">
     <ele>192</ele>
@@ -3032,13 +3039,13 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Total</name>
+    <name>TotalEnergies Mersch</name>
     <trkseg>
-      <trkpt lat="49.7567239" lon="6.0989822"></trkpt>
-      <trkpt lat="49.7565757" lon="6.098671"></trkpt>
-      <trkpt lat="49.7564156" lon="6.0988537"></trkpt>
-      <trkpt lat="49.7565639" lon="6.0991649"></trkpt>
-      <trkpt lat="49.7567239" lon="6.0989822"></trkpt>
+      <trkpt lat="49.756725" lon="6.0989875"></trkpt>
+      <trkpt lat="49.7565767" lon="6.098662"></trkpt>
+      <trkpt lat="49.756404" lon="6.0988504"></trkpt>
+      <trkpt lat="49.7565522" lon="6.099176"></trkpt>
+      <trkpt lat="49.756725" lon="6.0989875"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -3275,7 +3282,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ESSO EG</name>
+    <name>Esso Mersch</name>
     <trkseg>
       <trkpt lat="49.7476259" lon="6.1110419"></trkpt>
       <trkpt lat="49.7476388" lon="6.1107662"></trkpt>
