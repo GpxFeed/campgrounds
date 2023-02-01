@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-12-31T23:26:37Z", "timestamp_areas_base":
-      "2022-12-31T23:11:11Z", "copyright": "The data included in
+      "2023-02-01T12:58:24Z", "timestamp_areas_base":
+      "2023-02-01T10:19:21Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -187,9 +187,9 @@ version="1.1" creator="togpx">
     <desc>addr:country=SE; addr:housenumber=31; addr:postcode=915
     31; addr:street=Storgatan; branch=Robertsfors; brand=Coop;
     name=Coop Robertsfors; opening_hours=Mo-Su 08:00-21:00;
-    phone=+46-934-39770; shop=supermarket;
+    phone=+46-934-39770; shop=supermarket; toilets:wheelchair=no;
     website=https://www.coop.se/butiker-erbjudanden/coop-konsum/coop-konsum-robertsfors/;
-    id=node/158814545</desc>
+    wheelchair=yes; id=node/158814545</desc>
     <link href="https://www.coop.se/butiker-erbjudanden/coop-konsum/coop-konsum-robertsfors/">
     </link>
   </wpt>
@@ -200,9 +200,9 @@ version="1.1" creator="togpx">
     Supermarket; brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
     email=joakim.x.eriksson@supermarket.ica.se; name=ICA
     Supermarket Robertsfors; opening_hours=Mo-Su 08:00-21:00;
-    phone=+46-934-55345; shop=supermarket;
+    phone=+46-934-55345; shop=supermarket; toilets:wheelchair=yes;
     website=https://www.ica.se/butiker/supermarket/robertsfors/ica-supermarket-robertsfors-238/start/;
-    id=node/158814547</desc>
+    wheelchair=yes; id=node/158814547</desc>
     <link href="https://www.ica.se/butiker/supermarket/robertsfors/ica-supermarket-robertsfors-238/start/">
     </link>
   </wpt>
@@ -487,8 +487,15 @@ version="1.1" creator="togpx">
   <wpt lat="57.2390001" lon="18.377277">
     <ele>25</ele>
     <name>Konsum Hemse</name>
-    <desc>name=Konsum Hemse; shop=supermarket; source=survey;
+    <desc>addr:city=Hemse; addr:country=SE; addr:housenumber=9;
+    addr:postcode=62350; addr:street=Järnvägsgatan; brand=Coop
+    (Sweden); brand:wikidata=Q15229319; name=Konsum Hemse;
+    opening_hours=Mo-Sa 08:00-20:00, Su 09:00-20:00; phone=+46 10
+    7473020; shop=supermarket; source=survey;
+    website=https://www.coop.se/butiker-erbjudanden/coop/coop-hemse/;
     id=node/272661792</desc>
+    <link href="https://www.coop.se/butiker-erbjudanden/coop/coop-hemse/">
+    </link>
   </wpt>
   <wpt lat="57.6393081" lon="18.3127629">
     <ele>45</ele>
@@ -556,9 +563,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Umeå; addr:country=SE; addr:postcode=90328;
     addr:street=Järnvägstorget; branch=Nära; brand=ICA Nära;
     brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
-    check_date:opening_hours=2021-09-27;
+    check_date:opening_hours=2023-01-22;
     email=christer.norman@nara.ica.se; name=ICA Nära Bågen;
-    opening_hours=Mo-Fr 08:00-23:00, Sa-Su 09:00-23:00; phone=+46
+    opening_hours=Mo-Fr 07:30-23:00, Sa,Su 09:00-23:00; phone=+46
     90 770218; shop=supermarket; surveillance=indoor;
     surveillance:start_date=2000-12-20; surveillance:type=camera;
     website=https://www.ica.se/butiker/nara/umea/ica-nara-bagen-9599/start/;
@@ -585,7 +592,7 @@ version="1.1" creator="togpx">
     <ele>79</ele>
     <name>Hemköp</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=9;
-    addr:postcode=41510; addr:street=Kortedala Torg; brand=Hemköp;
+    addr:place=Kortedala Torg; addr:postcode=41510; brand=Hemköp;
     brand:wikidata=Q10521746; contact:phone=+46 31 43 06 70;
     contact:website=https://www.hemkop.se/Butiker/Hemkop-Goteborg-Kortedala/;
     name=Hemköp; opening_hours=Mo-Fr 08:00-22:00, Sa-Su
@@ -614,9 +621,9 @@ version="1.1" creator="togpx">
   <wpt lat="57.6962192" lon="11.9340689">
     <ele>18</ele>
     <name>Willys hemma</name>
-    <desc>brand=Willys; name=Willys hemma; opening_hours=Mo-Fr
-    08:00-21:00, Sa,Su 09:00-21:00; shop=supermarket;
-    id=node/287450862</desc>
+    <desc>brand=Willys; brand:wikidata=Q10720214; name=Willys
+    hemma; opening_hours=Mo-Fr 08:00-21:00, Sa,Su 09:00-21:00;
+    shop=supermarket; id=node/287450862</desc>
   </wpt>
   <wpt lat="57.6972771" lon="11.9276093">
     <ele>7</ele>
@@ -911,13 +918,12 @@ version="1.1" creator="togpx">
     <ele>66</ele>
     <name>Tempo Guldheden</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=1;
-    addr:postcode=413 21; addr:street=Guldhedstorget;
+    addr:place=Guldhedstorget; addr:postcode=413 21;
     air_conditioning=yes; branch=Tempo; brand=Tempo;
-    building:levels=1; check_date=2022-10-29; currency:SEK=yes;
-    name=Tempo Guldheden; name:sv=Tempo Guldheden;
-    opening_hours=Mo-Sa 09:00-21:00 Su 10:00-21:00; organic=yes;
-    payment:credit_cards=yes; phone=+46 31 18 69 66;
-    shop=supermarket; stroller=yes; wheelchair=yes;
+    check_date=2022-10-29; currency:SEK=yes; name=Tempo Guldheden;
+    name:sv=Tempo Guldheden; opening_hours=Mo-Sa 09:00-21:00, Su
+    10:00-21:00; organic=yes; payment:credit_cards=yes; phone=+46
+    31 18 69 66; shop=supermarket; stroller=yes; wheelchair=yes;
     id=node/320761709</desc>
   </wpt>
   <wpt lat="58.6919743" lon="11.2551319">
@@ -1162,9 +1168,8 @@ version="1.1" creator="togpx">
     <name>Stigmyhrs livs</name>
     <desc>addr:country=SE; addr:housenumber=3;
     addr:street=Wallesvägen; name=Stigmyhrs livs;
-    opening_hours=Mo-Sa 09:00-19:00, Su 10:00-18:00;
-    shop=supermarket; snowmobile=yes; source=local_knowledge;
-    id=node/365857670</desc>
+    opening_hours=24/7; shop=supermarket; snowmobile=yes;
+    source=local_knowledge; id=node/365857670</desc>
   </wpt>
   <wpt lat="63.3956755" lon="13.0864701">
     <name>Coop Konsum</name>
@@ -1231,7 +1236,7 @@ version="1.1" creator="togpx">
     <desc>name=COOP Konsum Frösön; shop=supermarket;
     wheelchair=yes; id=node/387475417</desc>
   </wpt>
-  <wpt lat="57.6401576" lon="11.9526949">
+  <wpt lat="57.6400867" lon="11.9525496">
     <ele>6</ele>
     <name>Willys</name>
     <desc>brand=Willys; contact:phone=+46-31-748 11 00;
@@ -1279,10 +1284,11 @@ version="1.1" creator="togpx">
     <name>Hemköp</name>
     <desc>addr:country=SE; addr:housenumber=21;
     addr:street=Brogatan; branch=Mölndals city; brand=Hemköp;
-    contact:email=info.molndal@hemkop.se; contact:fax=+4631879244;
-    contact:phone=+4631879245; name=Hemköp; opening_hours=Mo-Fr
-    08:00-21:00, Sa 08:00-20:00, Su 10:00-20:00; operator=Hemköp;
-    shop=supermarket; id=node/410236450</desc>
+    brand:wikidata=Q10521746; contact:email=info.molndal@hemkop.se;
+    contact:fax=+4631879244; contact:phone=+4631879245;
+    name=Hemköp; opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-20:00,
+    Su 10:00-20:00; operator=Hemköp; shop=supermarket;
+    id=node/410236450</desc>
   </wpt>
   <wpt lat="59.0512423" lon="12.7013551">
     <ele>50</ele>
@@ -1621,7 +1627,7 @@ version="1.1" creator="togpx">
     addr:postcode=21212; addr:street=Östra Förstadsgatan;
     brand=Hemköp; brand:wikidata=Q10521746;
     brand:wikipedia=sv:Hemköp; check_date:opening_hours=2022-11-21;
-    email=info.malmo.plaza@hemkop.se; name=Hemköp;
+    email=info.malmo.plaza@hemkop.se; level=0; name=Hemköp;
     opening_hours=Mo-Su 07:00-23:00; opening_hours:covid19=same;
     payment:cash=yes; phone=+46-40-189080; shop=supermarket;
     website=https://www.hemkop.se/butik/4199; wheelchair=yes;
@@ -2419,8 +2425,8 @@ version="1.1" creator="togpx">
     addr:housenumber=26; addr:postcode=87131;
     addr:street=Storgatan; brand=Hemköp; brand:wikidata=Q10521746;
     brand:wikipedia=sv:Hemköp; name=Hemköp; opening_hours=Mo-Su
-    08:00-22:00; operator=Axfood AB; shop=supermarket;
-    source=local_knowledge;
+    08:00-22:00; operator=Axfood AB; payment:cash=yes;
+    shop=supermarket; source=local_knowledge;
     website=https://www.hemkop.se/butik/4791; wheelchair=yes;
     id=node/519160585</desc>
     <link href="https://www.hemkop.se/butik/4791"></link>
@@ -3108,8 +3114,9 @@ version="1.1" creator="togpx">
     <ele>50</ele>
     <name>Ica Supermarket Hagsätra</name>
     <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; name=Ica Supermarket Hagsätra;
-    opening_hours=Mo-Su 07:00-22:00; organic=yes; shop=supermarket;
+    brand:wikipedia=sv:Ica; internet_access=yes; name=Ica
+    Supermarket Hagsätra; opening_hours=Mo-Su 07:00-22:00;
+    organic=yes; payment:cash=yes; shop=supermarket;
     id=node/637944651</desc>
   </wpt>
   <wpt lat="59.2569281" lon="18.0277518">
@@ -3295,7 +3302,7 @@ version="1.1" creator="togpx">
   <wpt lat="57.673177" lon="11.912563">
     <ele>69</ele>
     <name>Hemköp</name>
-    <desc>brand=Hemköo; name=Hemköp; opening_hours=Mo-Fr
+    <desc>brand=Hemköp; name=Hemköp; opening_hours=Mo-Fr
     06:30-23:00, Sa,Su 07:00-23:00; shop=supermarket;
     wheelchair=yes; id=node/670307959</desc>
   </wpt>
@@ -3584,7 +3591,8 @@ version="1.1" creator="togpx">
     <name>Coop Eriksberg</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=7;
     addr:postcode=41761; addr:street=Kolhamnsgatan; branch=Göteborg
-    Eriksberg; brand=Coop; contact:phone=+46107418890;
+    Eriksberg; brand=Coop (Sweden); brand:wikidata=Q15229319;
+    contact:phone=+46107418890;
     contact:website=https://www.coop.se/butiker-varor--erbjudanden/butiker-import/coop-extra/coop-extra-eriksberg/;
     name=Coop Eriksberg; opening_hours=Mo-Su 07:00-23:00;
     operator=Coop; shop=supermarket; id=node/709070783</desc>
@@ -5969,8 +5977,8 @@ version="1.1" creator="togpx">
     <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
     brand:wikipedia=sv:Ica; name=ICA Supermarket City;
     opening_hours=Mo-Fr 07:00-21:00, Sa, Su 08:00-21:00;
-    payment:credit_cards=yes; payment:debit_cards=yes;
-    shop=supermarket; surveillance=indoor;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; shop=supermarket; surveillance=indoor;
     surveillance:type=camera; wheelchair=yes;
     id=node/1477609408</desc>
   </wpt>
@@ -6170,8 +6178,8 @@ version="1.1" creator="togpx">
   <wpt lat="57.3877982" lon="15.806451">
     <ele>96</ele>
     <name>Coop</name>
-    <desc>brand=Coop; name=Coop; shop=supermarket;
-    id=node/1561728557</desc>
+    <desc>brand=Coop; name=Coop; opening_hours=Mo-Su 06:00-22:00;
+    shop=supermarket; id=node/1561728557</desc>
   </wpt>
   <wpt lat="59.3230071" lon="18.0055939">
     <ele>18</ele>
@@ -6594,7 +6602,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Umeå; addr:country=SE; addr:housenumber=1;
     addr:postcode=90432; addr:street=Verkstadsgatan; brand=ICA
     Supermarket; brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
-    name=ICA Supermarket Teg; shop=supermarket;
+    name=ICA Supermarket Teg; opening_hours=Mo-Fr 06:00-22:00, Sa
+    08:00-20:00, Su 08:00-22:00; shop=supermarket;
     website=https://www.ica.se/supermarket/teg;
     id=node/1700752367</desc>
     <link href="https://www.ica.se/supermarket/teg"></link>
@@ -6927,7 +6936,7 @@ version="1.1" creator="togpx">
     addr:housenumber=47; addr:postcode=172 65;
     addr:street=Landsvägen; brand=Lidl; brand:wikidata=Q151954;
     brand:wikipedia=en:Lidl; name=Lidl; opening_hours=Mo-Fr
-    08:00-20:00, Sa 09:00-19:00, Su 10:00-19:00; shop=supermarket;
+    08:00-20:00, Sa 08:00-19:00, Su 09:00-19:00; shop=supermarket;
     id=node/1831230579</desc>
   </wpt>
   <wpt lat="58.5673896" lon="11.9964766">
@@ -7059,12 +7068,6 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su 07:00-22:00; operator=ICA;
     phone=+46-225-595590; shop=supermarket;
     id=node/1853892057</desc>
-  </wpt>
-  <wpt lat="58.3513654" lon="11.8484489">
-    <ele>10</ele>
-    <name>Överskottsbolaget</name>
-    <desc>name=Överskottsbolaget; shop=supermarket;
-    id=node/1856210646</desc>
   </wpt>
   <wpt lat="56.456888" lon="13.5934397">
     <ele>103</ele>
@@ -7268,8 +7271,8 @@ version="1.1" creator="togpx">
     <name>Coop Konsum Avenyn</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=26;
     addr:postcode=411 36; addr:street=Kungsportsavenyen;
-    branch=Göteborg; brand=Coop; check_date=2022-12-11;
-    contact:phone=+46 010 7415450;
+    branch=Göteborg; brand=Coop (Sweden); brand:wikidata=Q15229319;
+    check_date=2022-12-11; contact:phone=+46 010 7415450;
     contact:website=https://www.coop.se/; level=-1; name=Coop
     Konsum Avenyn; opening_hours=Mo-Su 08:00-23:00; operator=Coop;
     shop=supermarket; id=node/1931055522</desc>
@@ -7345,7 +7348,7 @@ version="1.1" creator="togpx">
     <name>Maxi ICA Stormarknad Härnösand</name>
     <desc>brand=Maxi ICA Stormarknad; brand:wikidata=Q1663776;
     name=Maxi ICA Stormarknad Härnösand; opening_hours=08:00-22:00;
-    shop=supermarket; short_name=ICA Maxi;
+    payment:cash=yes; shop=supermarket; short_name=ICA Maxi;
     website=https://www.ica.se/butiker/maxi/harnosand/maxi-ica-stormarknad-harnosand-13764/start/;
     wheelchair=yes; id=node/1971923527</desc>
     <link href="https://www.ica.se/butiker/maxi/harnosand/maxi-ica-stormarknad-harnosand-13764/start/">
@@ -7745,14 +7748,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Umeå; addr:country=SE; addr:housenumber=4;
     addr:postcode=90352; addr:street=Timotejvägen; alt_name=HPs
     matjour; brand=ICA Nära; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; check_date:opening_hours=2021-08-05;
+    brand:wikipedia=sv:Ica; check_date:opening_hours=2023-01-03;
     email=anders.pettersson@nara.ica.se; name=ICA Nära Västerslätt;
     old_name=HP:s Livs; opening_hours=Mo-Fr 08:00-22:00, Sa-Su
     09:00-21:00; payment:cash=yes; phone=+46 90 779034;
     shop=supermarket; surveillance=indoor;
     surveillance:start_date=2000-09-19; surveillance:type=camera;
     website=https://www.ica.se/butiker/nara/umea/hps-matjour-293/start/;
-    id=node/2276093095</desc>
+    wheelchair=yes; id=node/2276093095</desc>
     <link href="https://www.ica.se/butiker/nara/umea/hps-matjour-293/start/">
     </link>
   </wpt>
@@ -8087,7 +8090,7 @@ version="1.1" creator="togpx">
   <wpt lat="58.3885414" lon="13.8442763">
     <ele>154</ele>
     <name>Hemköp</name>
-    <desc>addr:postcode=541 30; addr:street=Petter Helens Gata;
+    <desc>addr:postcode=541 30; addr:street=Petter Heléns Gata;
     brand=Hemköp; brand:wikidata=Q10521746;
     brand:wikipedia=sv:Hemköp; name=Hemköp; shop=supermarket;
     id=node/2410699289</desc>
@@ -8460,7 +8463,7 @@ version="1.1" creator="togpx">
     brand=Hemköp; contact:phone=+46 31-56 76 40;
     contact:website=https://www.hemkop.se/Butiker/Hemkop-Goteborg-Torslanda/;
     name=Hemköp; operator=Hemköp; shop=supermarket; source=local
-    knowledge; id=node/2689800323</desc>
+    knowledge; wheelchair=yes; id=node/2689800323</desc>
     <link href="https://www.hemkop.se/Butiker/Hemkop-Goteborg-Torslanda/">
     </link>
   </wpt>
@@ -8620,7 +8623,8 @@ version="1.1" creator="togpx">
     <name>Shammars Livs &amp; Fika</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=16;
     addr:postcode=41517; addr:street=Keplers gata; name=Shammars
-    Livs &amp; Fika; shop=supermarket; id=node/2769258683</desc>
+    Livs &amp; Fika; opening_hours=Mo-Su 10:00-21:00;
+    shop=supermarket; id=node/2769258683</desc>
   </wpt>
   <wpt lat="56.8788749" lon="14.8065152">
     <ele>170</ele>
@@ -9002,11 +9006,15 @@ version="1.1" creator="togpx">
     <desc>name=Handlarn; shop=supermarket;
     id=node/3089421752</desc>
   </wpt>
-  <wpt lat="63.7668698" lon="19.3099556">
-    <name>Handlarn</name>
-    <desc>name=Handlarn; opening_hours=Mo, Fr 10:00-18:00, Tu-Th
-    10:00-17:00, Sa 10:00-14:00; shop=supermarket;
-    id=node/3089421753</desc>
+  <wpt lat="63.7668535" lon="19.3099382">
+    <name>Handlar'n Nyåker</name>
+    <desc>addr:city=NYÅKER; addr:housenumber=68; addr:postcode=914
+    94; addr:street=Byvägen; name=Handlar'n Nyåker;
+    opening_hours=Mo, Fr 10:00-18:00, Tu-Th 10:00-17:00, Sa
+    10:00-14:00; payment:cash=yes; payment:credit_cards=yes;
+    phone=+46 930 500 14; shop=supermarket;
+    website=http://www.handlarn.se; id=node/3089421753</desc>
+    <link href="http://www.handlarn.se"></link>
   </wpt>
   <wpt lat="59.3460827" lon="18.0396">
     <ele>42</ele>
@@ -9427,11 +9435,12 @@ version="1.1" creator="togpx">
   <wpt lat="59.3128546" lon="18.4309901">
     <ele>23</ele>
     <name>Willys Värmdö</name>
-    <desc>name=Willys Värmdö; opening_hours=Mo-Sa 08:00-21:00, Su
-    10:00-21:00; payment:coins=yes; payment:maestro=yes;
-    payment:mastercard=yes; payment:notes=yes; payment:visa=yes;
-    payment:visa_debit=yes; payment:visa_electron=yes;
-    shop=supermarket; wheelchair=yes; id=node/3582096796</desc>
+    <desc>brand=Willys; brand:wikidata=Q10720214; name=Willys
+    Värmdö; opening_hours=Mo-Sa 08:00-21:00, Su 10:00-21:00;
+    payment:coins=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:notes=yes; payment:visa=yes; payment:visa_debit=yes;
+    payment:visa_electron=yes; shop=supermarket; wheelchair=yes;
+    id=node/3582096796</desc>
   </wpt>
   <wpt lat="59.3944313" lon="17.916169">
     <ele>34</ele>
@@ -9462,7 +9471,8 @@ version="1.1" creator="togpx">
     addr:housenumber=181; addr:postcode=12556;
     addr:street=Svartlösavägen; brand=ICA Nära;
     brand:wikidata=Q1663776; brand:wikipedia=sv:Ica; name=Ica Nära
-    Älvsjö; shop=supermarket; id=node/3613053920</desc>
+    Älvsjö; opening_hours=PH,Mo-Su 08:00-22:00; shop=supermarket;
+    id=node/3613053920</desc>
   </wpt>
   <wpt lat="55.6537847" lon="13.1121289">
     <ele>9</ele>
@@ -9514,8 +9524,9 @@ version="1.1" creator="togpx">
     <ele>19</ele>
     <name>Willys</name>
     <desc>brand=Willys; brand:wikidata=Q10720214;
-    brand:wikipedia=sv:Willys; name=Willys; opening_hours=Mo-Su
-    08:00-21:00; shop=supermarket; id=node/3662785897</desc>
+    brand:wikipedia=sv:Willys; check_date:opening_hours=2023-01-24;
+    name=Willys; opening_hours=Mo-Su 08:00-21:00; shop=supermarket;
+    id=node/3662785897</desc>
   </wpt>
   <wpt lat="60.2165429" lon="14.9577907">
     <ele>166</ele>
@@ -9565,7 +9576,7 @@ version="1.1" creator="togpx">
     <link href="http://www.konsumvarmland.se/index.php?option=com_butiker%26task=free%26ButiksID=166026">
     </link>
   </wpt>
-  <wpt lat="56.3851878" lon="14.0019989">
+  <wpt lat="56.3853586" lon="14.0019627">
     <ele>76</ele>
     <name>Netto</name>
     <desc>brand=Netto; brand:wikidata=Q552652;
@@ -11155,8 +11166,9 @@ version="1.1" creator="togpx">
   <wpt lat="62.6346666" lon="17.9342979">
     <name>Lidl</name>
     <desc>brand=Lidl; brand:wikidata=Q151954;
-    brand:wikipedia=en:Lidl; name=Lidl; shop=supermarket;
-    id=node/5280931928</desc>
+    brand:wikipedia=en:Lidl; name=Lidl; opening_hours=Mo-Fr
+    08:00-20:00, Sa 08:00-19:00, Su 09:00-19:00; shop=supermarket;
+    wheelchair=yes; id=node/5280931928</desc>
   </wpt>
   <wpt lat="59.2759801" lon="17.9097816">
     <ele>42</ele>
@@ -11683,7 +11695,8 @@ version="1.1" creator="togpx">
     <name>ICA Supermarket Västermalmsgallerian</name>
     <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
     brand:wikipedia=sv:Ica; name=ICA Supermarket
-    Västermalmsgallerian; operator=ICA; shop=supermarket;
+    Västermalmsgallerian; opening_hours=Mo-Fr 07:00-22:00, Sa, Su
+    08:00-22:00; operator=ICA; shop=supermarket;
     website=https://www.ica.se/butiker/supermarket/stockholm/ica-supermarket-vastermalmsgallerian-11063/start/;
     id=node/6482470630</desc>
     <link href="https://www.ica.se/butiker/supermarket/stockholm/ica-supermarket-vastermalmsgallerian-11063/start/">
@@ -11766,6 +11779,11 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Coop Butiker &amp; Stormarknader; name=Stora
     Coop; shop=supermarket; source=survey; wheelchair=yes;
     id=node/6611387675</desc>
+  </wpt>
+  <wpt lat="62.6335025" lon="17.9388502">
+    <name>SU livsmedel</name>
+    <desc>name=SU livsmedel; opening_hours=Mo-Fr 10:00-19:00, Sa,Su
+    10:00-16:00; shop=supermarket; id=node/6622061089</desc>
   </wpt>
   <wpt lat="58.5709122" lon="16.1701883">
     <ele>39</ele>
@@ -13169,31 +13187,6 @@ version="1.1" creator="togpx">
     website=https://www.nelins.se/; id=node/9737347765</desc>
     <link href="http://www.nelins.se"></link>
   </wpt>
-  <wpt lat="59.2822831" lon="18.4252741">
-    <ele>20</ele>
-    <name>Ingaröhallen</name>
-    <desc>building=retail; building:colour=lightyellow;
-    name=Ingaröhallen; opening_hours=Mo-Fr 07:00-22:00, Sa-Su
-    08:00-20:45; roof:colour=palegreen; shop=supermarket;
-    toilets:access=permissive; wheelchair=limited; id=way/39267924;
-    ; id=node/9743180691</desc>
-  </wpt>
-  <wpt lat="59.3097594" lon="18.3830866">
-    <ele>45</ele>
-    <name>Coop Forum</name>
-    <desc>addr:city=Gustavsberg; addr:country=SE;
-    addr:housenumber=34; addr:postcode=134 39;
-    addr:street=Gustavsbergsvägen; building=retail;
-    building:levels=1; name=Coop Forum; opening_hours=Mo-Su
-    07:00-22:00; phone=+46107417200; roof:levels=1;
-    roof:shape=flat; shop=supermarket;
-    website=https://www.coop.se/Butiker-varor--erbjudanden/Butiker-import/Stora-Coop/Stora-Coop-Varmdo/;
-    wheelchair=yes; id=way/184869052; ; brand=Coop (Sweden);
-    brand:wikidata=Q15229319; name=Coop Värmdö marknad;
-    id=node/9743180692</desc>
-    <link href="https://www.coop.se/Butiker-varor--erbjudanden/Butiker-import/Stora-Coop/Stora-Coop-Varmdo/">
-    </link>
-  </wpt>
   <wpt lat="59.3880468" lon="17.9294354">
     <ele>37</ele>
     <name>Rinkeby Matcenter</name>
@@ -13503,12 +13496,6 @@ version="1.1" creator="togpx">
     Konsum; shop=supermarket; id=node/10060283423; ; brand=Coop
     Konsum; building=retail; id=way/282792169</desc>
   </wpt>
-  <wpt lat="59.4511603" lon="16.3212311">
-    <ele>9</ele>
-    <name>Ica Nära</name>
-    <desc>branch=Bron; brand=Ica Nära; brand:wikidata=Q1663776;
-    name=Ica Nära; shop=supermarket; id=node/10060296635</desc>
-  </wpt>
   <wpt lat="59.2011358" lon="18.1290477">
     <ele>43</ele>
     <name>Willys</name>
@@ -13673,31 +13660,6 @@ version="1.1" creator="togpx">
     name=Ica Nära; opening_hours=Mo-Fr 06:00-22:00, Sa,Su
     08:00-22:00; shop=supermarket; id=node/10129838036</desc>
   </wpt>
-  <wpt lat="59.2868737" lon="18.6889775">
-    <ele>18</ele>
-    <name>ICA Nära Stavsnäs</name>
-    <desc>brand=ICA Nära; building=retail; building:levels=1;
-    name=ICA Nära Stavsnäs; not:brand:wikidata=Q1663776;
-    shop=supermarket; smoking=no; id=way/245617723; ;
-    branch=stavsnäs; brand=Ica Nära; brand:wikidata=Q1663776;
-    name=Ica Nära; id=node/10129864867</desc>
-  </wpt>
-  <wpt lat="59.310758" lon="18.6978668">
-    <ele>12</ele>
-    <name>ICA Nära Djurö</name>
-    <desc>addr:city=Djurhamn; addr:country=SE; addr:housenumber=10;
-    addr:postcode=139 73; addr:street=Gransbergsvägen; brand=ICA
-    Nära; brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
-    building=yes; name=ICA Nära Djurö; shop=supermarket;
-    id=way/302570727; ; branch=Djurö; brand=Ica Nära; name=Ica
-    Nära; id=node/10130218723</desc>
-  </wpt>
-  <wpt lat="59.2211569" lon="18.5371643">
-    <ele>16</ele>
-    <name>Bistro Björkvik</name>
-    <desc>name=Bistro Björkvik; shop=supermarket;
-    id=node/10130250409</desc>
-  </wpt>
   <wpt lat="55.6024489" lon="12.979759">
     <ele>6</ele>
     <name>Ica Nära</name>
@@ -13711,19 +13673,6 @@ version="1.1" creator="togpx">
     <name>Willys</name>
     <desc>brand=Willys; brand:wikidata=Q10720214; name=Willys;
     shop=supermarket; id=node/10131974609</desc>
-  </wpt>
-  <wpt lat="59.3104186" lon="18.3838865">
-    <ele>48</ele>
-    <name>City Gross</name>
-    <desc>addr:city=Gustavsberg; addr:country=SE;
-    addr:housenumber=34; addr:postcode=134 39;
-    addr:street=Gustavsbergsvägen; building=retail;
-    building:levels=2; check_date:opening_hours=2020-12-13;
-    name=City Gross; opening_hours=Mo-Su 07:00-22:00; operator=City
-    Gross; shop=supermarket;
-    website=https://www.citygross.se/butiker/varmdo/;
-    id=way/449008605; ; id=node/10149320954</desc>
-    <link href="https://www.citygross.se/butiker/varmdo/"></link>
   </wpt>
   <wpt lat="55.5911286" lon="12.9394443">
     <ele>3</ele>
@@ -13762,6 +13711,23 @@ version="1.1" creator="togpx">
     shop=supermarket; wheelchair=yes; id=way/260426402; ; name=ICA
     Supermarket Alundahallen; id=node/10225707331</desc>
   </wpt>
+  <wpt lat="59.863069" lon="17.6353287">
+    <ele>15</ele>
+    <name>Never Closed Uppsala</name>
+    <desc>addr:city=Uppsala; addr:country=SE; addr:housenumber=13;
+    addr:postcode=75332; addr:street=Kungsgatan; branch=Never
+    Closed; description=Convenience store open 24/7 providing food,
+    snacks, candy, drinks, household products, and more.;
+    email=hello@neverclosed.se;
+    image=https://neverclosed.se/ws/media-library/9a35aeb10e834211be39604764ce8bd2/uppsala.webp;
+    name=Never Closed Uppsala; opening_hours=24/7; operator=Never
+    Closed; payment:credit_cards=yes; payment:debit_cards=yes;
+    phone=+46102040044; shop=supermarket;
+    website=https://neverclosed.se/vara-butiker/never-closed-uppsala/;
+    id=node/10235644209</desc>
+    <link href="https://neverclosed.se/vara-butiker/never-closed-uppsala/">
+    </link>
+  </wpt>
   <wpt lat="59.3587775" lon="18.000667">
     <ele>22</ele>
     <name>Asian Food Market</name>
@@ -13789,6 +13755,143 @@ version="1.1" creator="togpx">
     <name>Orientkungen</name>
     <desc>name=Orientkungen; shop=supermarket;
     id=node/10278294951</desc>
+  </wpt>
+  <wpt lat="56.2803489" lon="14.5115996">
+    <ele>64</ele>
+    <name>Never Closed</name>
+    <desc>addr:city=Olofström; addr:housenumber=51;
+    addr:postcode=29338; addr:street=Ingenjörsgatan;
+    branch=Olofström; brand=Never Closed;
+    description:en=Convenience store open 24/7 providing food,
+    snacks, candy, drinks, household products, and more.;
+    email=hello@neverclosed.se;
+    image=https://neverclosed.se/ws/media-library/0ae3b62888eb4dd1a2615b333b5d097f/olofstrom-4.webp;
+    name=Never Closed; opening_hours=24/7; operator=Never Closed;
+    payment:american_express=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes; phone=+46102040044;
+    shop=supermarket;
+    website=https://neverclosed.se/vara-butiker/never-closed-olofstrom/;
+    id=node/10303284086</desc>
+    <link href="https://neverclosed.se/vara-butiker/never-closed-olofstrom/">
+    </link>
+  </wpt>
+  <wpt lat="57.7815554" lon="14.2417791">
+    <ele>138</ele>
+    <name>Never Closed</name>
+    <desc>addr:city=Jönköping; addr:housenumber=2A;
+    addr:postcode=55464; addr:street=Tellusplatsen;
+    branch=Jönköping; brand=Never Closed; description=Convenience
+    store open 24/7 providing food, snacks, candy, drinks,
+    household products, and more.; email=hello@neverclosed.se;
+    image=https://neverclosed.se/ws/media-library/ce2e36b1ddec4bba8b2653b29c1536a3/jonkoping.webp;
+    name=Never Closed; opening_hours=24/7; operator=Never Closed;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    phone=+46102040044; shop=supermarket;
+    website=https://neverclosed.se/vara-butiker/never-closed-jonkoping/;
+    id=node/10303331976</desc>
+    <link href="https://neverclosed.se/vara-butiker/never-closed-jonkoping/">
+    </link>
+  </wpt>
+  <wpt lat="55.5471338" lon="13.0835824">
+    <ele>44</ele>
+    <name>Never Closed Oxie</name>
+    <desc>addr:city=Oxie; addr:country=SE; addr:housenumber=58;
+    addr:postcode=23837; addr:street=Panelgatan;
+    description=Convenience store open 24/7 providing food, snacks,
+    candy, drinks, household products, and more.;
+    email=hello@neverclosed.se;
+    image=https://neverclosed.se/ws/media-library/4b82424141744846b54f93412c2e6f49/oxie.webp;
+    name=Never Closed Oxie; opening_hours=24/7; operator=Never
+    Closed; payment:credit_cards=yes; payment:debit_cards=yes;
+    phone=+46102040044; shop=supermarket;
+    website=https://neverclosed.se/vara-butiker/never-closed-oxie/;
+    id=node/10303378850</desc>
+    <link href="https://neverclosed.se/vara-butiker/never-closed-oxie/">
+    </link>
+  </wpt>
+  <wpt lat="58.0793049" lon="11.9490945">
+    <ele>50</ele>
+    <name>Never Closed</name>
+    <desc>addr:city=Ucklum; addr:country=SE; addr:housenumber=129;
+    addr:postcode=44494; addr:street=Norra HÄRGUSSERÖD;
+    branch=Ucklum; brand=Never Closed; description=Välkommen att
+    besöka den obemannade dygnet runt butiken i Ucklumstappen. 🤩;
+    email=info@matbodenvast.se;
+    image=https://neverclosed.se/ws/media-library/70e80204cd724530b248e6258df66bbe/ucklum.webp;
+    name=Never Closed; opening_hours=24/7; operator=Never Closed;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    phone=073-800 66 53; shop=supermarket;
+    website=https://neverclosed.se/; id=node/10303454528</desc>
+    <link href="https://neverclosed.se/"></link>
+  </wpt>
+  <wpt lat="65.8169868" lon="21.7083573">
+    <name>ICA Kvantum</name>
+    <desc>name=ICA Kvantum; shop=supermarket;
+    id=node/10307575073</desc>
+  </wpt>
+  <wpt lat="59.9546131" lon="17.6918678">
+    <ele>35</ele>
+    <name>Ica Solen</name>
+    <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
+    brand:wikipedia=sv:Ica; building=retail; name=Ica Solen;
+    operator=Ica; shop=supermarket; wheelchair=yes;
+    id=way/123634020; ; id=node/10316539138</desc>
+  </wpt>
+  <wpt lat="57.712273" lon="11.8937793">
+    <ele>34</ele>
+    <name>Shahi Livs</name>
+    <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=22;
+    addr:postcode=41830; addr:street=Blidvädersgatan;
+    description:en=Bangladeshi/Indian/Pakistani fresh vegetables,
+    fishes, spices &amp; many more products are available.;
+    name=Shahi Livs; opening_hours=Mo-Sa 10:00-20:00, Su
+    11:00-19:00; payment:cards=yes; payment:cash=yes;
+    payment:swish=yes; phone=031-53 57 60; shop=supermarket;
+    id=node/10538110334</desc>
+  </wpt>
+  <wpt lat="57.7694873" lon="12.2689024">
+    <ele>22</ele>
+    <name>Hemköp Lerum</name>
+    <desc>brand=Hemköp; brand:wikidata=Q10521746; name=Hemköp
+    Lerum; shop=supermarket; id=node/10539783163</desc>
+  </wpt>
+  <wpt lat="62.6335513" lon="17.9389061">
+    <name>TWN Habesha Shop</name>
+    <desc>name=TWN Habesha Shop; opening_hours=Mo-Fr 09:00-20:00,
+    Sa,Su 11:00-18:00; shop=supermarket; id=node/10542748620</desc>
+  </wpt>
+  <wpt lat="56.6913207" lon="12.8818586">
+    <ele>10</ele>
+    <name>Frennarps Hallen</name>
+    <desc>name=Frennarps Hallen; shop=supermarket;
+    id=node/10542862203</desc>
+  </wpt>
+  <wpt lat="55.5675423" lon="13.0101023">
+    <ele>20</ele>
+    <name>Coop</name>
+    <desc>brand=Coop (Sweden); brand:wikidata=Q15229319; name=Coop;
+    shop=supermarket; id=node/10570157688</desc>
+  </wpt>
+  <wpt lat="59.3062476" lon="18.1234665">
+    <ele>27</ele>
+    <name>Hemköp</name>
+    <desc>addr:city=Nacka; addr:country=SE; addr:housenumber=15;
+    addr:postcode=131 54; addr:street=Smedjegatan; brand=Hemköp;
+    brand:wikidata=Q10521746; name=Hemköp; shop=supermarket;
+    id=node/10575448903</desc>
+  </wpt>
+  <wpt lat="58.0852736" lon="11.9573898">
+    <ele>65</ele>
+    <name>24Sju</name>
+    <desc>name=24Sju; opening_hours=24/7; payment:credit_cards=yes;
+    shop=supermarket; id=node/10578856808</desc>
+  </wpt>
+  <wpt lat="56.0353217" lon="14.1591427">
+    <ele>4</ele>
+    <name>Willy:s</name>
+    <desc>name=Willy:s; shop=supermarket;
+    id=node/10579327772</desc>
   </wpt>
   <wpt lat="55.88695215" lon="12.849365329846936">
     <ele>13</ele>
@@ -13844,10 +13947,11 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Ica; building=retail; building:levels=4;
     contact:website=https://www.ica.se/butiker/maxi/solna/maxi-ica-stormarknad-solna-11920/start/;
     name=Maxi ICA Stormarknad Solna; opening_hours=Mo-Su
-    06:00-23:00; operator=ICA; shop=supermarket; short_name=ICA
-    Maxi; toilets=yes; toilets:access=yes; toilets:wheelchair=yes;
-    type=multipolygon; website=http://www.maxisolna.se;
-    wheelchair=yes; id=relation/14574526</desc>
+    06:00-23:00; operator=ICA; roof:shape=flat; shop=supermarket;
+    short_name=ICA Maxi; toilets=yes; toilets:access=yes;
+    toilets:wheelchair=yes; type=multipolygon;
+    website=http://www.maxisolna.se; wheelchair=yes;
+    id=relation/14574526</desc>
     <link href="https://www.ica.se/butiker/maxi/solna/maxi-ica-stormarknad-solna-11920/start/">
     </link>
   </wpt>
@@ -13957,7 +14061,7 @@ version="1.1" creator="togpx">
     09:00-19:00; operator=Lidl; shop=supermarket;
     id=way/24885317</desc>
   </wpt>
-  <wpt lat="61.799798100000004" lon="16.553251872088637">
+  <wpt lat="61.79978175" lon="16.55325056234009">
     <name>ICA Supermarket Delsbohallen</name>
     <desc>addr:city=Delsbo; addr:country=SE; addr:housenumber=5;
     addr:postcode=82471; addr:street=Edevägen; brand=ICA
@@ -13971,7 +14075,7 @@ version="1.1" creator="togpx">
     <link href="https://www.ica.se/butiker/supermarket/hudiksvall/ica-supermarket-delsbohallen-401/start/">
     </link>
   </wpt>
-  <wpt lat="61.800737999999996" lon="16.55381486401579">
+  <wpt lat="61.800778300000005" lon="16.553844127611757">
     <name>Hemköp</name>
     <desc>addr:country=SE; addr:housenumber=9;
     addr:street=Edevägen; brand=Hemköp; brand:wikidata=Q10521746;
@@ -13984,9 +14088,10 @@ version="1.1" creator="togpx">
     <name>Lidl</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=2;
     addr:postcode=415 17; addr:street=Gärdsås Torg;
-    branch=Göteborg; brand=Lidl; building=yes; name=Lidl;
-    opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-20:00, Su
-    09:00-22:00; shop=supermarket; id=way/26130253</desc>
+    branch=Göteborg; brand=Lidl; brand:wikidata=Q151954;
+    building=retail; name=Lidl; opening_hours=Mo-Fr 08:00-21:00, Sa
+    08:00-20:00, Su 09:00-20:00; payment:cash=yes;
+    shop=supermarket; wheelchair=yes; id=way/26130253</desc>
   </wpt>
   <wpt lat="60.5474504" lon="14.366439329870127">
     <name>hemköp</name>
@@ -14313,6 +14418,15 @@ version="1.1" creator="togpx">
     wheelchair=yes; id=way/38160943</desc>
     <link href="https://www.coop.se/butiker-erbjudanden/coop/coop-lagerhyddan/">
     </link>
+  </wpt>
+  <wpt lat="59.28231835" lon="18.42503395326112">
+    <ele>20</ele>
+    <name>Ingaröhallen</name>
+    <desc>building=retail; building:colour=lightyellow;
+    name=Ingaröhallen; opening_hours=Mo-Fr 07:00-22:00, Sa-Su
+    08:00-20:45; roof:colour=palegreen; shop=supermarket;
+    toilets:access=permissive; wheelchair=limited;
+    id=way/39267924</desc>
   </wpt>
   <wpt lat="63.174811399999996" lon="14.695724722657001">
     <name>COOP Forum</name>
@@ -14812,15 +14926,6 @@ version="1.1" creator="togpx">
     operator=ICA; shop=supermarket; source=local_knowledge;
     id=way/74849642</desc>
   </wpt>
-  <wpt lat="59.3312624" lon="18.395713439829514">
-    <ele>35</ele>
-    <name>Matnära</name>
-    <desc>addr:city=Gustavsberg; addr:country=SE;
-    addr:housenumber=1; addr:postcode=134 36;
-    addr:street=Markörstigen; building=retail; building:levels=1;
-    name=Matnära; shop=supermarket; start_date=1975..1976;
-    id=way/75669366</desc>
-  </wpt>
   <wpt lat="59.2432773" lon="18.197132370042745">
     <ele>62</ele>
     <name>Lidl</name>
@@ -14931,8 +15036,9 @@ version="1.1" creator="togpx">
     <ele>192</ele>
     <name>ICA Supermarket Byttorp</name>
     <desc>branch=Borås Byttorp; brand=ICA Supermarket;
-    brand:wikidata=Q1663776; brand:wikipedia=sv:Ica; building=yes;
-    name=ICA Supermarket Byttorp; shop=supermarket;
+    brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
+    building=retail; name=ICA Supermarket Byttorp;
+    opening_hours=PH,Mo-Su 08:00-21:00; shop=supermarket;
     id=way/87775873</desc>
   </wpt>
   <wpt lat="63.16320735" lon="14.654074944471352">
@@ -15737,12 +15843,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.6840225" lon="12.007117968910649">
     <ele>9</ele>
-    <name>Coop Kallebäck</name>
+    <name>Coop</name>
     <desc>addr:city=Göteborg; addr:country=SE; addr:housenumber=11;
     addr:postcode=412 75; addr:street=Ostgatan; brand=Coop
     (Sweden); brand:wikidata=Q15229319; brand:wikipedia=sv:Coop
-    Butiker &amp; Stormarknader; building=supermarket; name=Coop
-    Kallebäck; opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-20:00, Su
+    Butiker &amp; Stormarknader; building=supermarket; name=Coop;
+    opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-20:00, Su
     10:00-20:00; operator=Coop; shop=supermarket;
     id=way/112897238</desc>
   </wpt>
@@ -15790,8 +15896,8 @@ version="1.1" creator="togpx">
     <ele>113</ele>
     <name>City Gross</name>
     <desc>brand=City Gross; brand:wikidata=Q10453555;
-    brand:wikipedia=sv:City Gross; building=yes; name=City Gross;
-    opening_hours=08:00-22:00; shop=supermarket;
+    brand:wikipedia=sv:City Gross; building=retail; name=City
+    Gross; opening_hours=08:00-22:00; shop=supermarket;
     wikidata=Q10453555; wikipedia=sv:City Gross;
     id=way/114316001</desc>
   </wpt>
@@ -15904,9 +16010,9 @@ version="1.1" creator="togpx">
     <name>Coop Grisbacka</name>
     <desc>addr:city=Umeå; addr:country=SE; addr:housenumber=2A;
     addr:postcode=90354; addr:street=Tallparksvägen; brand=Coop;
-    building=yes; name=Coop Grisbacka; opening_hours=Mo-Su,PH
-    07:00-23:00; operator=Coop; phone=+46 90 171270;
-    shop=supermarket; surveillance=indoor;
+    building=retail; check_date:opening_hours=2023-01-14; name=Coop
+    Grisbacka; opening_hours=Mo-Su,PH 07:00-23:00; operator=Coop;
+    phone=+46 90 171270; shop=supermarket; surveillance=indoor;
     surveillance:start_date=1999-11-22; surveillance:type=camera;
     website=https://www.coop.se/butiker-erbjudanden/coop/coop-grisbacka/;
     id=way/121177154</desc>
@@ -15924,13 +16030,13 @@ version="1.1" creator="togpx">
     09:00-20:00; shop=supermarket; wheelchair=yes;
     id=way/121185050</desc>
   </wpt>
-  <wpt lat="63.8305487" lon="20.234069357755985">
+  <wpt lat="63.83054865" lon="20.234071287014828">
     <name>ICA Supermarket Hedlunda</name>
     <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; building=yes; name=ICA Supermarket
+    brand:wikipedia=sv:Ica; building=retail; name=ICA Supermarket
     Hedlunda; opening_hours=Mo-Fr 09:00-21:00, Sa 09:00-19:00,
-    Su,PH 11:00-19:00; operator=ICA; shop=supermarket;
-    id=way/121216586</desc>
+    Su,PH 11:00-19:00; operator=ICA; payment:cash=yes;
+    shop=supermarket; wheelchair=yes; id=way/121216586</desc>
   </wpt>
   <wpt lat="58.427981849999995" lon="15.585635619556097">
     <ele>44</ele>
@@ -15963,14 +16069,6 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su,PH 07:00-22:00; operator=Konsum;
     shop=supermarket; wheelchair=yes; id=way/123634019</desc>
   </wpt>
-  <wpt lat="59.954622150000006" lon="17.691879507251258">
-    <ele>35</ele>
-    <name>Ica Solen</name>
-    <desc>brand=ICA Supermarket; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; building=retail; name=Ica Solen;
-    operator=Ica; shop=supermarket; wheelchair=yes;
-    id=way/123634020</desc>
-  </wpt>
   <wpt lat="57.1369024" lon="12.717615139958157">
     <ele>73</ele>
     <name>ICA Supermarket</name>
@@ -16001,8 +16099,8 @@ version="1.1" creator="togpx">
     <name>ICA Kvantum</name>
     <desc>brand=ICA Kvantum; brand:wikidata=Q1663776;
     brand:wikipedia=sv:Ica; building=yes; layer=1; name=ICA
-    Kvantum; opening_hours=Mo-Su 08:00-21:00; shop=supermarket;
-    id=way/126129464</desc>
+    Kvantum; old_name=Hanöhallen; opening_hours=Mo-Su 08:00-21:00;
+    shop=supermarket; id=way/126129464</desc>
   </wpt>
   <wpt lat="59.376091200000005" lon="16.525459375182187">
     <ele>19</ele>
@@ -16177,14 +16275,14 @@ version="1.1" creator="togpx">
     roof:levels=1; roof:shape=flat; shop=supermarket;
     id=way/134806059</desc>
   </wpt>
-  <wpt lat="57.76210125" lon="12.26239365">
+  <wpt lat="57.76213785" lon="12.262413746917506">
     <ele>26</ele>
     <name>ICA Supermarket Servett</name>
     <desc>addr:city=Lerum; addr:country=SE; addr:housenumber=7;
-    addr:street=Almekärrsvägen; branch=Lerum; brand=ICA
+    addr:street=Almekärrsvägen; branch=Affär; brand=ICA
     Supermarket; brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
-    building=yes; name=ICA Supermarket Servett; shop=supermarket;
-    id=way/134823724</desc>
+    building=service; name=ICA Supermarket Servett;
+    shop=supermarket; id=way/134823724</desc>
   </wpt>
   <wpt lat="59.60622295" lon="16.531686168194582">
     <ele>32</ele>
@@ -17085,6 +17183,20 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Fr 07:00-21:00, Sa,Su 08:00-20:00;
     shop=supermarket; id=way/184770697</desc>
   </wpt>
+  <wpt lat="59.309402950000006" lon="18.38268974390403">
+    <ele>45</ele>
+    <name>Stora Coop Värmdö</name>
+    <desc>addr:city=Gustavsberg; addr:country=SE;
+    addr:housenumber=34; addr:postcode=134 39;
+    addr:street=Gustavsbergsvägen; building=retail;
+    building:levels=1; name=Stora Coop Värmdö; opening_hours=Mo-Su
+    07:00-22:00; phone=+46107417200; roof:levels=1;
+    roof:shape=flat; shop=supermarket;
+    website=https://www.coop.se/Butiker-varor--erbjudanden/Butiker-import/Stora-Coop/Stora-Coop-Varmdo/;
+    wheelchair=yes; id=way/184869052</desc>
+    <link href="https://www.coop.se/Butiker-varor--erbjudanden/Butiker-import/Stora-Coop/Stora-Coop-Varmdo/">
+    </link>
+  </wpt>
   <wpt lat="59.31174235" lon="14.129004088809957">
     <ele>62</ele>
     <name>ICA Maxi Kristinehamn</name>
@@ -17519,12 +17631,13 @@ version="1.1" creator="togpx">
     </link>
   </wpt>
   <wpt lat="60.508672950000005" lon="15.541674212746011">
-    <name>ICA Ornäs</name>
-    <desc>brand=ICA Nära; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; building=yes; building:levels=1;
-    name=ICA Ornäs; opening_hours=Mo-Fr 08:00-20:00, Sa,Su
-    09:00-17:00; operator=ICA; roof:shape=gabled; shop=supermarket;
-    source=Bing; id=way/214771836</desc>
+    <name>ICA Ornäs Handel</name>
+    <desc>alt_name=ICA Nära; brand=ICA Nära;
+    brand:wikidata=Q1663776; brand:wikipedia=sv:Ica; building=yes;
+    building:levels=1; name=ICA Ornäs Handel; opening_hours=Mo-Fr
+    08:00-20:00, Sa,Su 09:00-17:00; operator=ICA;
+    roof:shape=gabled; shop=supermarket; source=Bing;
+    id=way/214771836</desc>
   </wpt>
   <wpt lat="59.65216375" lon="17.087065320984507">
     <ele>28</ele>
@@ -17660,16 +17773,15 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Hemköp; building=commercial; name=Hemköp;
     shop=supermarket; wheelchair=yes; id=way/220986323</desc>
   </wpt>
-  <wpt lat="59.311889" lon="18.42687989484076">
+  <wpt lat="59.311889" lon="18.426879892022022">
     <ele>22</ele>
-    <name>Maxi ICA Stormarknad Värmdö</name>
-    <desc>brand=Maxi ICA Stormarknad; brand:wikidata=Q1663776;
-    brand:wikipedia=sv:Ica; building=supermarket; name=Maxi ICA
-    Stormarknad Värmdö; shop=supermarket; short_name=ICA Maxi;
-    website=https://www.ica.se/butiker/maxi/varmdo/maxi-ica-stormarknad-varmdo-14819/start/;
-    id=way/221658763</desc>
-    <link href="https://www.ica.se/butiker/maxi/varmdo/maxi-ica-stormarknad-varmdo-14819/start/">
-    </link>
+    <name>Ica Maxi Stormarknad</name>
+    <desc>addr:city=Värmdö; addr:country=SE; addr:housenumber=6;
+    addr:postcode=134 44; addr:street=Afrodites väg; brand=Maxi ICA
+    Stormarknad; brand:wikidata=Q1663776; building=supermarket;
+    entrance=yes; name=Ica Maxi Stormarknad; opening_hours=Mo-Su
+    07:00-22:00; payment:cash=yes; shop=supermarket; short_name=ICA
+    Maxi; id=way/221658763</desc>
   </wpt>
   <wpt lat="55.5079731" lon="13.243682100000001">
     <ele>49</ele>
@@ -17786,7 +17898,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Södertälje; addr:country=SE;
     addr:housenumber=21; addr:postcode=15270; addr:street=Erik
     Dahlbergs väg; building=retail; building:levels=1;
-    check_date=2022-06-23; name=Coop Konsum Folkparken;
+    check_date=2023-01-15; name=Coop Konsum Folkparken;
     opening_hours=Mo-Fr 07:00-22:00, Sa,Su 08:00-22:00;
     roof:shape=flat; shop=supermarket; source=Bing;
     id=way/230116901</desc>
@@ -17975,7 +18087,7 @@ version="1.1" creator="togpx">
     Sa,Su 08:00-21:00; shop=supermarket; wheelchair=yes;
     id=way/238278107</desc>
   </wpt>
-  <wpt lat="59.1525745" lon="14.6895121607978">
+  <wpt lat="59.1525607" lon="14.6895161607978">
     <ele>105</ele>
     <name>ICA Träffen</name>
     <desc>addr:city=Mullhyttan; addr:country=SE;
@@ -18115,20 +18227,36 @@ version="1.1" creator="togpx">
     08:00-21:00, Sa, Su 09:00-21:00; shop=supermarket;
     id=way/245086620</desc>
   </wpt>
+  <wpt lat="59.2867915" lon="18.688968103748294">
+    <ele>18</ele>
+    <name>ICA Nära Stavsnäshallen</name>
+    <desc>addr:city=Stavsnäs; addr:country=SE; addr:housenumber=1;
+    addr:postcode=139 71; addr:street=Storskogsvägen; brand=ICA
+    Nära; building=retail; building:levels=1; name=ICA Nära
+    Stavsnäshallen; not:brand:wikidata=Q1663776;
+    phone=+46857150013; shop=supermarket;
+    website=https://www.ica.se/nara/stavsnashallen;
+    id=way/245617723</desc>
+    <link href="https://www.ica.se/nara/stavsnashallen"></link>
+  </wpt>
   <wpt lat="56.66721105" lon="12.820581683648605">
     <ele>16</ele>
     <name>Lidl</name>
     <desc>branch=Halmstad; brand=Lidl; building=yes; name=Lidl;
     shop=supermarket; id=way/246283813</desc>
   </wpt>
-  <wpt lat="56.74636905" lon="12.95230995113365">
+  <wpt lat="56.7463355" lon="12.952283297411151">
     <ele>19</ele>
     <name>Matöppet Åledshallen</name>
     <desc>addr:city=Åled; addr:country=SE; addr:housenumber=33;
     addr:postcode=313 50; addr:street=Ålängesvägen; branch=Åled;
     brand=Matöppet; building=yes; name=Matöppet Åledshallen;
     opening_hours=Mo-Fr 09:00-19:00, Sa 09:00-17:00, Su
-    10:00-14:00; shop=supermarket; id=way/246284252</desc>
+    10:00-14:00; phone=(035) 390 11; post_office=post_partner;
+    post_office:service_provider=PostNord,DB Schenker;
+    shop=supermarket; website=https://www.aledshallen.se/;
+    id=way/246284252</desc>
+    <link href="https://www.aledshallen.se/"></link>
   </wpt>
   <wpt lat="63.17062145" lon="14.692029192872967">
     <name>ICA Kvantum</name>
@@ -18428,7 +18556,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Lidl; building=retail; name=Lidl;
     shop=supermarket; id=way/257751255</desc>
   </wpt>
-  <wpt lat="58.0311922" lon="14.97051085">
+  <wpt lat="58.0311788" lon="14.97048175">
     <ele>161</ele>
     <name>Coop Tranås</name>
     <desc>building=yes; name=Coop Tranås; opening_hours=6:00-23:00;
@@ -18767,11 +18895,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.91384705" lon="13.106094136455415">
     <ele>56</ele>
-    <name>Netto Svalöv</name>
+    <name>Coop Svalöv</name>
     <desc>addr:country=SE; addr:housenumber=24;
-    addr:street=Luggudevägen; building=yes; name=Netto Svalöv;
-    opening_hours=Mo-Fr 08:00-20:00, Sa 09:00-18:00, Su
-    10:00-18:00; shop=supermarket; id=way/274545609</desc>
+    addr:street=Luggudevägen; building=yes; name=Coop Svalöv;
+    not:brand:wikidata=Q15229319; opening_hours=Mo-Fr 08:00-20:00,
+    Sa 08:00-19:00, Su 9:00-19:00; phone=+46 10 746 36 10;
+    shop=supermarket; id=way/274545609</desc>
   </wpt>
   <wpt lat="59.946181300000006" lon="12.910716634805457">
     <ele>115</ele>
@@ -18928,7 +19057,7 @@ version="1.1" creator="togpx">
     name=Ica Nordingrå; name:en=ICA supermarket; roof:levels=0;
     shop=supermarket; id=way/288633036</desc>
   </wpt>
-  <wpt lat="57.4828824" lon="13.349500290658604">
+  <wpt lat="57.48286895" lon="13.349572688888895">
     <ele>164</ele>
     <name>ICA Kvantum Tranemo</name>
     <desc>branch=Tranemo; brand=ICA Kvantum;
@@ -19115,7 +19244,7 @@ version="1.1" creator="togpx">
     07:00-22:00; operator=Coop Karlshamn; phone=+46-454589800;
     shop=supermarket; wheelchair=yes; id=way/294492578</desc>
   </wpt>
-  <wpt lat="59.34460055" lon="13.504438974409299">
+  <wpt lat="59.34460085" lon="13.504519229477026">
     <ele>49</ele>
     <name>Stora Coop Hammarö</name>
     <desc>addr:city=Hammarö; addr:country=SE; addr:housenumber=7;
@@ -19124,10 +19253,10 @@ version="1.1" creator="togpx">
     Stormarknader; building=retail; email=3800@coopvarmland.se;
     name=Stora Coop Hammarö; opening_hours=Mo-Su 07:00-22:00;
     opening_hours:covid19=same; payment:credit_cards=yes;
-    payment:debit_cards=yes; payment:mastercard=yes;
-    payment:visa=yes; phone=+46104108750; shop=supermarket;
+    payment:mastercard=yes; payment:visa=yes; phone=+46104108750;
+    shop=supermarket;
     website=https://coopvarmland.se/vara-butiker/stora-coop-hammaro/;
-    id=way/294498783</desc>
+    wheelchair=yes; id=way/294498783</desc>
     <link href="https://coopvarmland.se/vara-butiker/stora-coop-hammaro/">
     </link>
   </wpt>
@@ -19384,6 +19513,17 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Ica; building=retail; name=ICA Kvantum;
     opening_hours=Mo-Su 07:00-22:00; shop=supermarket;
     id=way/302287132</desc>
+  </wpt>
+  <wpt lat="59.3107453" lon="18.697771501853268">
+    <ele>12</ele>
+    <name>ICA Nära Djurö</name>
+    <desc>addr:city=Djurhamn; addr:country=SE; addr:housenumber=10;
+    addr:postcode=139 73; addr:street=Gransbergsvägen; brand=ICA
+    Nära; brand:wikidata=Q1663776; brand:wikipedia=sv:Ica;
+    building=retail; email=jorgen.frej@nara.ica.se; name=ICA Nära
+    Djurö; phone=+46857150401; shop=supermarket;
+    website=https://www.ica.se/nara/djuro; id=way/302570727</desc>
+    <link href="https://www.ica.se/nara/djuro"></link>
   </wpt>
   <wpt lat="58.6762812" lon="17.088977375843406">
     <ele>13</ele>
@@ -19824,7 +19964,7 @@ version="1.1" creator="togpx">
     contact:phone=+464440097; name=ICA nära - Hövdingen;
     operator=ICA; shop=supermarket; id=way/334552980</desc>
   </wpt>
-  <wpt lat="59.17435775" lon="14.873627546757842">
+  <wpt lat="59.174357" lon="14.873643756337177">
     <ele>69</ele>
     <name>Coop</name>
     <desc>brand=Coop; building=commercial; name=Coop;
@@ -19858,6 +19998,13 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Ica; building=yes; name=ICA Nära Lekeberg;
     opening_hours=Mo-Su 09:00-20:00; operator=ICA;
     shop=supermarket; id=way/338544605</desc>
+  </wpt>
+  <wpt lat="59.451167999999996" lon="16.321228555515226">
+    <ele>9</ele>
+    <name>Ica Nära</name>
+    <desc>branch=Bron; brand=Ica Nära; brand:wikidata=Q1663776;
+    brand:wikipedia=sv:Ica; building=yes; name=Ica Nära;
+    shop=supermarket; id=way/338800408</desc>
   </wpt>
   <wpt lat="58.23955805" lon="11.45792404425707">
     <ele>13</ele>
@@ -19906,7 +20053,7 @@ version="1.1" creator="togpx">
     seamark:type=small_craft_facility; shop=supermarket;
     id=way/346017772</desc>
   </wpt>
-  <wpt lat="57.9323087" lon="12.856011356540652">
+  <wpt lat="57.93230835" lon="12.85595893343164">
     <ele>170</ele>
     <name>ICA Nära Gabrielssons</name>
     <desc>brand=ICA Nära; brand:wikidata=Q1663776;
@@ -20811,6 +20958,19 @@ version="1.1" creator="togpx">
     <name>Coop Konsum Åmotfors</name>
     <desc>building=retail; name=Coop Konsum Åmotfors;
     shop=supermarket; id=way/447947743</desc>
+  </wpt>
+  <wpt lat="59.31033715" lon="18.383652581320273">
+    <ele>48</ele>
+    <name>City Gross</name>
+    <desc>addr:city=Gustavsberg; addr:country=SE;
+    addr:housenumber=34; addr:postcode=134 39;
+    addr:street=Gustavsbergsvägen; building=retail;
+    building:levels=2; check_date:opening_hours=2020-12-13;
+    name=City Gross; opening_hours=Mo-Su 07:00-22:00; operator=City
+    Gross; shop=supermarket;
+    website=https://www.citygross.se/butiker/varmdo/;
+    id=way/449008605</desc>
+    <link href="https://www.citygross.se/butiker/varmdo/"></link>
   </wpt>
   <wpt lat="61.71784805" lon="16.169522520653565">
     <name>ICA supermarket Järvsö</name>
@@ -21719,7 +21879,7 @@ version="1.1" creator="togpx">
     <link href="https://netto.se/butiker/skoevde/henriksbergsgatan-18/11e96660f8904f1c81c00e4a94f9ffad/">
     </link>
   </wpt>
-  <wpt lat="58.409123050000005" lon="13.881013331156844">
+  <wpt lat="58.40909295" lon="13.880968731156841">
     <ele>127</ele>
     <name>Willys</name>
     <desc>addr:city=Skövde; addr:country=SE; addr:housenumber=25;
@@ -21876,11 +22036,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.649843849999996" lon="12.916509288727477">
     <ele>14</ele>
-    <name>Netto</name>
+    <name>Coop</name>
     <desc>addr:city=Halmstad; addr:country=SE; addr:housenumber=2;
-    addr:postcode=302 61; addr:street=Fyllingevägen; brand=Coop
-    Fyllinge; brand:wikidata=Q552652; brand:wikipedia=da:Netto
-    (supermarkedskæde); building=yes; name=Netto; shop=supermarket;
+    addr:postcode=302 61; addr:street=Fyllingevägen; brand=Coop;
+    building=retail; name=Coop; shop=supermarket;
     source=DigitalGlobe Standard; id=way/616239916</desc>
   </wpt>
   <wpt lat="57.16973595" lon="14.583828865108664">
@@ -22540,7 +22699,7 @@ version="1.1" creator="togpx">
     <link href="https://www.ica.se/butiker/supermarket/motala/ica-supermarket-charlottenborg-2187/">
     </link>
   </wpt>
-  <wpt lat="59.260404949999995" lon="18.10642095327151">
+  <wpt lat="59.26037085" lon="18.106251253271513">
     <ele>35</ele>
     <name>Willys</name>
     <desc>brand=Willys; brand:wikidata=Q10720214;
@@ -22723,7 +22882,8 @@ version="1.1" creator="togpx">
     <name>Willys</name>
     <desc>brand=Willys; brand:wikidata=Q10720214;
     brand:wikipedia=sv:Willys; building=yes; name=Willys;
-    shop=supermarket; id=way/892224997</desc>
+    opening_hours=Mo-Fr 08:00-21:00; shop=supermarket;
+    id=way/892224997</desc>
   </wpt>
   <wpt lat="60.96211055" lon="16.448054774583124">
     <name>Tempo Åmot</name>
@@ -22888,7 +23048,7 @@ version="1.1" creator="togpx">
     <ele>29</ele>
     <name>Lidl</name>
     <desc>addr:city=Halmstad; addr:country=SE; addr:housenumber=1;
-    addr:postcode=302 31; addr:street=Tegelbruket;
+    addr:place=Tegelbruket; addr:postcode=302 31;
     air_conditioning=yes; brand=Lidl; brand:wikidata=Q151954;
     brand:wikipedia=sv:Lidl; building=yes; building:levels=1;
     diet:vegan=yes; diet:vegetarian=yes; name=Lidl;
@@ -23270,6 +23430,11 @@ version="1.1" creator="togpx">
     payment:cash=yes; payment:credit_cards=yes; shop=supermarket;
     id=way/1074322216</desc>
   </wpt>
+  <wpt lat="65.8155543" lon="21.688837666345407">
+    <name>Ibolognesi</name>
+    <desc>building=yes; name=Ibolognesi; shop=supermarket;
+    id=way/1077646195</desc>
+  </wpt>
   <wpt lat="56.7190602" lon="13.123255877592282">
     <ele>80</ele>
     <name>Matöppet Simlångsdalen</name>
@@ -23304,6 +23469,7 @@ version="1.1" creator="togpx">
     <name>ICA Nära</name>
     <desc>brand=ICA Nära; brand:wikidata=Q1663776;
     brand:wikipedia=sv:Ica; building=supermarket; name=ICA Nära;
+    opening_hours=Mo-Fr 06:30-21:00, Sa,Su 08:00-21:00;
     shop=supermarket; id=way/1084415637</desc>
   </wpt>
   <wpt lat="59.6998161" lon="15.09968063002513">
@@ -23571,6 +23737,13 @@ version="1.1" creator="togpx">
     <name>Stora Coop</name>
     <desc>building=yes; name=Stora Coop; shop=supermarket;
     id=way/1111629977</desc>
+  </wpt>
+  <wpt lat="57.49981725000001" lon="13.112897898872038">
+    <ele>150</ele>
+    <name>Coop</name>
+    <desc>brand=Coop (Sweden); brand:wikidata=Q15229319;
+    building=yes; name=Coop; shop=supermarket;
+    id=way/1130772873</desc>
   </wpt>
   <trk>
     <name>Good Food</name>
@@ -23917,23 +24090,29 @@ version="1.1" creator="togpx">
   <trk>
     <name>ICA Supermarket Delsbohallen</name>
     <trkseg>
-      <trkpt lat="61.800079" lon="16.5531795"></trkpt>
-      <trkpt lat="61.7995758" lon="16.5528811"></trkpt>
-      <trkpt lat="61.7995172" lon="16.5533243"></trkpt>
-      <trkpt lat="61.8000204" lon="16.5536226"></trkpt>
-      <trkpt lat="61.8000494" lon="16.5534036"></trkpt>
-      <trkpt lat="61.800079" lon="16.5531795"></trkpt>
+      <trkpt lat="61.8000275" lon="16.5531991"></trkpt>
+      <trkpt lat="61.8000349" lon="16.5531376"></trkpt>
+      <trkpt lat="61.799536" lon="16.5528728"></trkpt>
+      <trkpt lat="61.7995302" lon="16.5529157"></trkpt>
+      <trkpt lat="61.7995126" lon="16.552908"></trkpt>
+      <trkpt lat="61.7994595" lon="16.5533349"></trkpt>
+      <trkpt lat="61.8000388" lon="16.5536279"></trkpt>
+      <trkpt lat="61.8000678" lon="16.5534089"></trkpt>
+      <trkpt lat="61.8000901" lon="16.5532332"></trkpt>
+      <trkpt lat="61.8000275" lon="16.5531991"></trkpt>
     </trkseg>
   </trk>
   <trk>
     <name>Hemköp</name>
     <trkseg>
-      <trkpt lat="61.8005603" lon="16.5535064"></trkpt>
-      <trkpt lat="61.8005344" lon="16.5536872"></trkpt>
-      <trkpt lat="61.8005092" lon="16.5538627"></trkpt>
-      <trkpt lat="61.8009157" lon="16.5541233"></trkpt>
-      <trkpt lat="61.8009667" lon="16.553767"></trkpt>
-      <trkpt lat="61.8005603" lon="16.5535064"></trkpt>
+      <trkpt lat="61.8005648" lon="16.5535233"></trkpt>
+      <trkpt lat="61.8005325" lon="16.5537668"></trkpt>
+      <trkpt lat="61.8005066" lon="16.5539625"></trkpt>
+      <trkpt lat="61.8006241" lon="16.5540321"></trkpt>
+      <trkpt lat="61.8006346" lon="16.5539531"></trkpt>
+      <trkpt lat="61.800922" lon="16.5541235"></trkpt>
+      <trkpt lat="61.8009697" lon="16.5537635"></trkpt>
+      <trkpt lat="61.8005648" lon="16.5535233"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23949,6 +24128,7 @@ version="1.1" creator="togpx">
       <trkpt lat="57.7617879" lon="12.0508797"></trkpt>
       <trkpt lat="57.7615181" lon="12.0514479"></trkpt>
       <trkpt lat="57.7614763" lon="12.0513782"></trkpt>
+      <trkpt lat="57.7613847" lon="12.0515712"></trkpt>
       <trkpt lat="57.7613558" lon="12.051632"></trkpt>
     </trkseg>
   </trk>
@@ -25539,16 +25719,6 @@ version="1.1" creator="togpx">
       <trkpt lat="60.516799" lon="15.4152179"></trkpt>
       <trkpt lat="60.5167923" lon="15.41513"></trkpt>
       <trkpt lat="60.5169773" lon="15.4150722"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Matnära</name>
-    <trkseg>
-      <trkpt lat="59.3311269" lon="18.3958311"></trkpt>
-      <trkpt lat="59.331297" lon="18.395996"></trkpt>
-      <trkpt lat="59.3313979" lon="18.3955957"></trkpt>
-      <trkpt lat="59.3312278" lon="18.3954309"></trkpt>
-      <trkpt lat="59.3311269" lon="18.3958311"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -27206,7 +27376,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Coop Kallebäck</name>
+    <name>Coop</name>
     <trkseg>
       <trkpt lat="57.6840855" lon="12.0066317"></trkpt>
       <trkpt lat="57.6839595" lon="12.0066364"></trkpt>
@@ -27536,8 +27706,8 @@ version="1.1" creator="togpx">
     <name>ICA Supermarket Hedlunda</name>
     <trkseg>
       <trkpt lat="63.8305905" lon="20.2336619"></trkpt>
-      <trkpt lat="63.8303942" lon="20.2342605"></trkpt>
-      <trkpt lat="63.8305439" lon="20.2343903"></trkpt>
+      <trkpt lat="63.8303947" lon="20.2342576"></trkpt>
+      <trkpt lat="63.8305438" lon="20.2343983"></trkpt>
       <trkpt lat="63.8305535" lon="20.2343084"></trkpt>
       <trkpt lat="63.8306292" lon="20.2343763"></trkpt>
       <trkpt lat="63.8307102" lon="20.233871"></trkpt>
@@ -27979,6 +28149,7 @@ version="1.1" creator="togpx">
     <name>ICA Supermarket Servett</name>
     <trkseg>
       <trkpt lat="57.762323" lon="12.2620908"></trkpt>
+      <trkpt lat="57.7620748" lon="12.2619546"></trkpt>
       <trkpt lat="57.7620016" lon="12.2619144"></trkpt>
       <trkpt lat="57.7618795" lon="12.2626965"></trkpt>
       <trkpt lat="57.7622009" lon="12.2628729"></trkpt>
@@ -29683,7 +29854,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Coop Forum</name>
+    <name>Stora Coop Värmdö</name>
     <trkseg>
       <trkpt lat="59.310184" lon="18.3828312"></trkpt>
       <trkpt lat="59.309885" lon="18.3826032"></trkpt>
@@ -30480,7 +30651,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ICA Ornäs</name>
+    <name>ICA Ornäs Handel</name>
     <trkseg>
       <trkpt lat="60.508603" lon="15.5414"></trkpt>
       <trkpt lat="60.5085989" lon="15.5414536"></trkpt>
@@ -30801,9 +30972,10 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Maxi ICA Stormarknad Värmdö</name>
+    <name>Ica Maxi Stormarknad</name>
     <trkseg>
       <trkpt lat="59.311926" lon="18.4261089"></trkpt>
+      <trkpt lat="59.3116095" lon="18.4264581"></trkpt>
       <trkpt lat="59.3114476" lon="18.4266368"></trkpt>
       <trkpt lat="59.3115507" lon="18.4270001"></trkpt>
       <trkpt lat="59.3116474" lon="18.4272397"></trkpt>
@@ -30812,8 +30984,8 @@ version="1.1" creator="togpx">
       <trkpt lat="59.3119323" lon="18.4278553"></trkpt>
       <trkpt lat="59.3120158" lon="18.4277471"></trkpt>
       <trkpt lat="59.312054" lon="18.4278745"></trkpt>
-      <trkpt lat="59.3122543" lon="18.4276529"></trkpt>
-      <trkpt lat="59.3123254" lon="18.4263872"></trkpt>
+      <trkpt lat="59.3122781" lon="18.4276283"></trkpt>
+      <trkpt lat="59.3123404" lon="18.4263847"></trkpt>
       <trkpt lat="59.311926" lon="18.4261089"></trkpt>
     </trkseg>
   </trk>
@@ -31378,15 +31550,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>ICA Träffen</name>
     <trkseg>
-      <trkpt lat="59.1525057" lon="14.6892159"></trkpt>
-      <trkpt lat="59.1524207" lon="14.689355"></trkpt>
-      <trkpt lat="59.1524562" lon="14.6894377"></trkpt>
-      <trkpt lat="59.1524133" lon="14.6895079"></trkpt>
-      <trkpt lat="59.1524798" lon="14.6896626"></trkpt>
-      <trkpt lat="59.1524624" lon="14.6896911"></trkpt>
-      <trkpt lat="59.1524979" lon="14.6897737"></trkpt>
-      <trkpt lat="59.1526433" lon="14.6895359"></trkpt>
-      <trkpt lat="59.1525057" lon="14.6892159"></trkpt>
+      <trkpt lat="59.1524919" lon="14.6892199"></trkpt>
+      <trkpt lat="59.1524069" lon="14.689359"></trkpt>
+      <trkpt lat="59.1524424" lon="14.6894417"></trkpt>
+      <trkpt lat="59.1523995" lon="14.6895119"></trkpt>
+      <trkpt lat="59.152466" lon="14.6896666"></trkpt>
+      <trkpt lat="59.1524486" lon="14.6896951"></trkpt>
+      <trkpt lat="59.1524841" lon="14.6897777"></trkpt>
+      <trkpt lat="59.1526295" lon="14.6895399"></trkpt>
+      <trkpt lat="59.1524919" lon="14.6892199"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -31562,7 +31734,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ICA Nära Stavsnäs</name>
+    <name>ICA Nära Stavsnäshallen</name>
     <trkseg>
       <trkpt lat="59.2870004" lon="18.6888703"></trkpt>
       <trkpt lat="59.2868371" lon="18.6887512"></trkpt>
@@ -31597,14 +31769,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Matöppet Åledshallen</name>
     <trkseg>
-      <trkpt lat="56.7464955" lon="12.9523818"></trkpt>
-      <trkpt lat="56.7464156" lon="12.9523441"></trkpt>
-      <trkpt lat="56.74645" lon="12.9521016"></trkpt>
-      <trkpt lat="56.7463225" lon="12.9520415"></trkpt>
-      <trkpt lat="56.7462655" lon="12.9520146"></trkpt>
-      <trkpt lat="56.7462" lon="12.9524767"></trkpt>
-      <trkpt lat="56.7464643" lon="12.9526014"></trkpt>
-      <trkpt lat="56.7464955" lon="12.9523818"></trkpt>
+      <trkpt lat="56.7464895" lon="12.9523859"></trkpt>
+      <trkpt lat="56.7464052" lon="12.9523415"></trkpt>
+      <trkpt lat="56.7464428" lon="12.9521038"></trkpt>
+      <trkpt lat="56.7462658" lon="12.9520107"></trkpt>
+      <trkpt lat="56.7461969" lon="12.9524463"></trkpt>
+      <trkpt lat="56.7464582" lon="12.9525838"></trkpt>
+      <trkpt lat="56.7464895" lon="12.9523859"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -32104,11 +32275,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Coop Tranås</name>
     <trkseg>
-      <trkpt lat="58.0309024" lon="14.9707693"></trkpt>
-      <trkpt lat="58.0311541" lon="14.9711119"></trkpt>
-      <trkpt lat="58.031482" lon="14.9702524"></trkpt>
-      <trkpt lat="58.0312303" lon="14.9699098"></trkpt>
-      <trkpt lat="58.0309024" lon="14.9707693"></trkpt>
+      <trkpt lat="58.030889" lon="14.9707402"></trkpt>
+      <trkpt lat="58.0311407" lon="14.9710828"></trkpt>
+      <trkpt lat="58.0314686" lon="14.9702233"></trkpt>
+      <trkpt lat="58.0312169" lon="14.9698807"></trkpt>
+      <trkpt lat="58.030889" lon="14.9707402"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -32661,7 +32832,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Netto Svalöv</name>
+    <name>Coop Svalöv</name>
     <trkseg>
       <trkpt lat="55.9139352" lon="13.1057641"></trkpt>
       <trkpt lat="55.9136463" lon="13.1060205"></trkpt>
@@ -32967,29 +33138,29 @@ version="1.1" creator="togpx">
   <trk>
     <name>ICA Kvantum Tranemo</name>
     <trkseg>
-      <trkpt lat="57.4833105" lon="13.3492141"></trkpt>
-      <trkpt lat="57.4829087" lon="13.3488798"></trkpt>
-      <trkpt lat="57.4828561" lon="13.348836"></trkpt>
-      <trkpt lat="57.4828197" lon="13.3489874"></trkpt>
-      <trkpt lat="57.4827777" lon="13.3491621"></trkpt>
-      <trkpt lat="57.4827495" lon="13.3491386"></trkpt>
-      <trkpt lat="57.4827329" lon="13.3491248"></trkpt>
-      <trkpt lat="57.4827085" lon="13.3492263"></trkpt>
-      <trkpt lat="57.4826983" lon="13.3492687"></trkpt>
-      <trkpt lat="57.4826643" lon="13.3492405"></trkpt>
-      <trkpt lat="57.4826355" lon="13.3492165"></trkpt>
-      <trkpt lat="57.4826154" lon="13.3493"></trkpt>
-      <trkpt lat="57.4824734" lon="13.3498907"></trkpt>
-      <trkpt lat="57.4826988" lon="13.3500783"></trkpt>
-      <trkpt lat="57.4828384" lon="13.3501944"></trkpt>
-      <trkpt lat="57.4828561" lon="13.3501208"></trkpt>
-      <trkpt lat="57.4830793" lon="13.3503065"></trkpt>
-      <trkpt lat="57.4831334" lon="13.3500814"></trkpt>
-      <trkpt lat="57.4831462" lon="13.3500282"></trkpt>
-      <trkpt lat="57.4831856" lon="13.3498643"></trkpt>
-      <trkpt lat="57.4831594" lon="13.3498425"></trkpt>
-      <trkpt lat="57.4832579" lon="13.3494332"></trkpt>
-      <trkpt lat="57.4833105" lon="13.3492141"></trkpt>
+      <trkpt lat="57.4832463" lon="13.3492058"></trkpt>
+      <trkpt lat="57.4828866" lon="13.3488956"></trkpt>
+      <trkpt lat="57.4828513" lon="13.3490371"></trkpt>
+      <trkpt lat="57.4828067" lon="13.3489987"></trkpt>
+      <trkpt lat="57.4827222" lon="13.3493221"></trkpt>
+      <trkpt lat="57.4826537" lon="13.3492702"></trkpt>
+      <trkpt lat="57.4826346" lon="13.349367"></trkpt>
+      <trkpt lat="57.4825906" lon="13.3493333"></trkpt>
+      <trkpt lat="57.4825535" lon="13.3495152"></trkpt>
+      <trkpt lat="57.4825571" lon="13.3495199"></trkpt>
+      <trkpt lat="57.4824861" lon="13.3498489"></trkpt>
+      <trkpt lat="57.4830162" lon="13.350306"></trkpt>
+      <trkpt lat="57.4830985" lon="13.3499758"></trkpt>
+      <trkpt lat="57.4830566" lon="13.3499397"></trkpt>
+      <trkpt lat="57.4830858" lon="13.3498226"></trkpt>
+      <trkpt lat="57.4831277" lon="13.3498587"></trkpt>
+      <trkpt lat="57.4831673" lon="13.3496998"></trkpt>
+      <trkpt lat="57.4831968" lon="13.3497253"></trkpt>
+      <trkpt lat="57.4832357" lon="13.3495692"></trkpt>
+      <trkpt lat="57.4832061" lon="13.3495437"></trkpt>
+      <trkpt lat="57.4832431" lon="13.3493954"></trkpt>
+      <trkpt lat="57.4832069" lon="13.3493641"></trkpt>
+      <trkpt lat="57.4832463" lon="13.3492058"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -33289,11 +33460,23 @@ version="1.1" creator="togpx">
   <trk>
     <name>Stora Coop Hammarö</name>
     <trkseg>
-      <trkpt lat="59.3448793" lon="13.5039565"></trkpt>
-      <trkpt lat="59.3443104" lon="13.5039922"></trkpt>
-      <trkpt lat="59.3443218" lon="13.5049221"></trkpt>
-      <trkpt lat="59.3448964" lon="13.5048847"></trkpt>
-      <trkpt lat="59.3448793" lon="13.5039565"></trkpt>
+      <trkpt lat="59.3449034" lon="13.5039834"></trkpt>
+      <trkpt lat="59.3443288" lon="13.5040233"></trkpt>
+      <trkpt lat="59.3443457" lon="13.5049601"></trkpt>
+      <trkpt lat="59.3444757" lon="13.5049527"></trkpt>
+      <trkpt lat="59.3444781" lon="13.5050652"></trkpt>
+      <trkpt lat="59.3445484" lon="13.5050977"></trkpt>
+      <trkpt lat="59.3445554" lon="13.5050367"></trkpt>
+      <trkpt lat="59.3446463" lon="13.5050314"></trkpt>
+      <trkpt lat="59.3446466" lon="13.5050024"></trkpt>
+      <trkpt lat="59.3447483" lon="13.5049988"></trkpt>
+      <trkpt lat="59.3447492" lon="13.5050356"></trkpt>
+      <trkpt lat="59.3448365" lon="13.5050438"></trkpt>
+      <trkpt lat="59.344838" lon="13.504987"></trkpt>
+      <trkpt lat="59.3448875" lon="13.5049864"></trkpt>
+      <trkpt lat="59.3448875" lon="13.5049224"></trkpt>
+      <trkpt lat="59.3449203" lon="13.5049202"></trkpt>
+      <trkpt lat="59.3449034" lon="13.5039834"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -34511,13 +34694,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Coop</name>
     <trkseg>
-      <trkpt lat="59.1742955" lon="14.8732147"></trkpt>
-      <trkpt lat="59.1741582" lon="14.873618"></trkpt>
-      <trkpt lat="59.1743052" lon="14.8738086"></trkpt>
-      <trkpt lat="59.1742856" lon="14.8738662"></trkpt>
-      <trkpt lat="59.1744103" lon="14.8740278"></trkpt>
-      <trkpt lat="59.1745672" lon="14.8735669"></trkpt>
-      <trkpt lat="59.1742955" lon="14.8732147"></trkpt>
+      <trkpt lat="59.1742867" lon="14.8732364"></trkpt>
+      <trkpt lat="59.1741564" lon="14.8736146"></trkpt>
+      <trkpt lat="59.174305" lon="14.8738095"></trkpt>
+      <trkpt lat="59.1742857" lon="14.8738654"></trkpt>
+      <trkpt lat="59.174409" lon="14.8740271"></trkpt>
+      <trkpt lat="59.1745585" lon="14.8735929"></trkpt>
+      <trkpt lat="59.1742867" lon="14.8732364"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -34566,6 +34749,20 @@ version="1.1" creator="togpx">
       <trkpt lat="59.1730813" lon="14.8690366"></trkpt>
       <trkpt lat="59.1730959" lon="14.8689566"></trkpt>
       <trkpt lat="59.1729598" lon="14.868862"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Ica Nära</name>
+    <trkseg>
+      <trkpt lat="59.4512217" lon="16.3208844"></trkpt>
+      <trkpt lat="59.4510099" lon="16.3210357"></trkpt>
+      <trkpt lat="59.4510351" lon="16.3211721"></trkpt>
+      <trkpt lat="59.4509973" lon="16.3211991"></trkpt>
+      <trkpt lat="59.4510223" lon="16.3213349"></trkpt>
+      <trkpt lat="59.4510648" lon="16.3213045"></trkpt>
+      <trkpt lat="59.4511143" lon="16.3215727"></trkpt>
+      <trkpt lat="59.4513214" lon="16.3214248"></trkpt>
+      <trkpt lat="59.4512217" lon="16.3208844"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -34668,15 +34865,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>ICA Nära Gabrielssons</name>
     <trkseg>
-      <trkpt lat="57.9325747" lon="12.8556014"></trkpt>
-      <trkpt lat="57.9324729" lon="12.8556774"></trkpt>
-      <trkpt lat="57.9323352" lon="12.8557802"></trkpt>
-      <trkpt lat="57.9322822" lon="12.8558199"></trkpt>
-      <trkpt lat="57.9319916" lon="12.8560368"></trkpt>
-      <trkpt lat="57.9319424" lon="12.8560735"></trkpt>
-      <trkpt lat="57.9320279" lon="12.8564276"></trkpt>
-      <trkpt lat="57.9326601" lon="12.8559662"></trkpt>
-      <trkpt lat="57.9325747" lon="12.8556014"></trkpt>
+      <trkpt lat="57.9325701" lon="12.8555918"></trkpt>
+      <trkpt lat="57.9324712" lon="12.8556699"></trkpt>
+      <trkpt lat="57.9323346" lon="12.8557777"></trkpt>
+      <trkpt lat="57.9322821" lon="12.8558192"></trkpt>
+      <trkpt lat="57.9319938" lon="12.8560469"></trkpt>
+      <trkpt lat="57.9319466" lon="12.8560841"></trkpt>
+      <trkpt lat="57.9320074" lon="12.8563571"></trkpt>
+      <trkpt lat="57.932338" lon="12.856096"></trkpt>
+      <trkpt lat="57.9323752" lon="12.8562633"></trkpt>
+      <trkpt lat="57.9325055" lon="12.8561603"></trkpt>
+      <trkpt lat="57.9324703" lon="12.8560022"></trkpt>
+      <trkpt lat="57.9326329" lon="12.8558738"></trkpt>
+      <trkpt lat="57.9325701" lon="12.8555918"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -37502,13 +37703,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Willys</name>
     <trkseg>
-      <trkpt lat="58.4087468" lon="13.8811384"></trkpt>
-      <trkpt lat="58.4093506" lon="13.8815978"></trkpt>
-      <trkpt lat="58.4094993" lon="13.8808882"></trkpt>
-      <trkpt lat="58.4088955" lon="13.8804289"></trkpt>
-      <trkpt lat="58.4088692" lon="13.8805542"></trkpt>
-      <trkpt lat="58.4088378" lon="13.8807043"></trkpt>
-      <trkpt lat="58.4087468" lon="13.8811384"></trkpt>
+      <trkpt lat="58.4087167" lon="13.8810938"></trkpt>
+      <trkpt lat="58.4093205" lon="13.8815532"></trkpt>
+      <trkpt lat="58.4094692" lon="13.8808436"></trkpt>
+      <trkpt lat="58.4088654" lon="13.8803843"></trkpt>
+      <trkpt lat="58.4088391" lon="13.8805096"></trkpt>
+      <trkpt lat="58.4088077" lon="13.8806597"></trkpt>
+      <trkpt lat="58.4087167" lon="13.8810938"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -37734,7 +37935,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Netto</name>
+    <name>Coop</name>
     <trkseg>
       <trkpt lat="56.6498813" lon="12.916115"></trkpt>
       <trkpt lat="56.6496336" lon="12.9164381"></trkpt>
@@ -38157,7 +38358,6 @@ version="1.1" creator="togpx">
       <trkpt lat="59.342864" lon="13.5057528"></trkpt>
       <trkpt lat="59.3428113" lon="13.5050148"></trkpt>
       <trkpt lat="59.3426008" lon="13.5049734"></trkpt>
-      <trkpt lat="59.3426295" lon="13.5043644"></trkpt>
       <trkpt lat="59.3426433" lon="13.5040191"></trkpt>
     </trkseg>
   </trk>
@@ -38881,11 +39081,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Willys</name>
     <trkseg>
-      <trkpt lat="59.2601764" lon="18.107008"></trkpt>
-      <trkpt lat="59.2606369" lon="18.1070045"></trkpt>
-      <trkpt lat="59.2606335" lon="18.1058382"></trkpt>
-      <trkpt lat="59.2601686" lon="18.105833"></trkpt>
-      <trkpt lat="59.2601764" lon="18.107008"></trkpt>
+      <trkpt lat="59.2601423" lon="18.1068383"></trkpt>
+      <trkpt lat="59.2606028" lon="18.1068348"></trkpt>
+      <trkpt lat="59.2605994" lon="18.1056685"></trkpt>
+      <trkpt lat="59.2601345" lon="18.1056633"></trkpt>
+      <trkpt lat="59.2601423" lon="18.1068383"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -40066,6 +40266,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Ibolognesi</name>
+    <trkseg>
+      <trkpt lat="65.8155757" lon="21.6887433"></trkpt>
+      <trkpt lat="65.8155123" lon="21.6888048"></trkpt>
+      <trkpt lat="65.8155329" lon="21.688932"></trkpt>
+      <trkpt lat="65.8155964" lon="21.6888705"></trkpt>
+      <trkpt lat="65.8155757" lon="21.6887433"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Matöppet Simlångsdalen</name>
     <trkseg>
       <trkpt lat="56.7192049" lon="13.1233274"></trkpt>
@@ -40521,6 +40731,20 @@ version="1.1" creator="togpx">
       <trkpt lat="55.3837613" lon="13.1257348"></trkpt>
       <trkpt lat="55.3843985" lon="13.1262432"></trkpt>
       <trkpt lat="55.3845618" lon="13.1256093"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Coop</name>
+    <trkseg>
+      <trkpt lat="57.5000558" lon="13.1127258"></trkpt>
+      <trkpt lat="57.4995283" lon="13.1127405"></trkpt>
+      <trkpt lat="57.499529" lon="13.1128282"></trkpt>
+      <trkpt lat="57.4996135" lon="13.1128258"></trkpt>
+      <trkpt lat="57.4996154" lon="13.113069"></trkpt>
+      <trkpt lat="57.5000191" lon="13.1130577"></trkpt>
+      <trkpt lat="57.5000196" lon="13.1131286"></trkpt>
+      <trkpt lat="57.500059" lon="13.1131275"></trkpt>
+      <trkpt lat="57.5000558" lon="13.1127258"></trkpt>
     </trkseg>
   </trk>
 </gpx>

@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2022-12-31T23:04:02Z", "timestamp_areas_base":
-      "2022-12-31T22:10:26Z", "copyright": "The data included in
+      "2023-02-01T11:33:10Z", "timestamp_areas_base":
+      "2023-02-01T10:19:21Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -67,10 +67,10 @@ version="1.1" creator="togpx">
   <wpt lat="47.5019449" lon="12.0835275">
     <ele>513</ele>
     <name>Gutmann</name>
-    <desc>amenity=fuel; fuel:1_25=yes; fuel:1_50=yes;
-    fuel:GTL_diesel=no; fuel:HGV_diesel=no; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Gutmann;
-    id=node/27288970</desc>
+    <desc>amenity=fuel; compressed_air=yes; fuel:1_25=yes;
+    fuel:1_50=yes; fuel:GTL_diesel=no; fuel:HGV_diesel=no;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Gutmann; id=node/27288970</desc>
   </wpt>
   <wpt lat="47.3990527" lon="14.8273588">
     <ele>710</ele>
@@ -827,7 +827,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.284585" lon="11.1638056">
     <ele>606</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; name=Shell;
     id=node/243721659</desc>
   </wpt>
@@ -1402,8 +1402,9 @@ version="1.1" creator="togpx">
     addr:housenumber=61; addr:postcode=6804;
     addr:street=Königshofstraße; amenity=fuel; brand=OMV;
     brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    contact:phone=+43 5522 73589; name=OMV; opening_hours=24/7;
-    toilets:wheelchair=no; wheelchair=yes; id=node/275615953</desc>
+    compressed_air=yes; contact:phone=+43 5522 73589; name=OMV;
+    opening_hours=24/7; toilets:wheelchair=no; wheelchair=yes;
+    id=node/275615953</desc>
   </wpt>
   <wpt lat="48.3117191" lon="14.2287807">
     <ele>283</ele>
@@ -1665,11 +1666,15 @@ version="1.1" creator="togpx">
   <wpt lat="48.2381044" lon="16.4606809">
     <ele>157</ele>
     <name>Jet</name>
-    <desc>addr:city=Wien; addr:country=AT; addr:housenumber=50;
+    <desc>addr:city=Wien; addr:country=AT; addr:housenumber=52;
     addr:postcode=1220; addr:street=Hirschstettner Straße;
-    amenity=fuel; fuel:diesel=yes; fuel:octane_91=yes;
-    fuel:octane_95=yes; name=Jet; opening_hours=Mo-Su 05:00-24:00;
+    amenity=fuel; brand=JET; brand:wikidata=Q568940;
+    fuel:diesel=yes; fuel:octane_91=yes; fuel:octane_95=yes;
+    name=Jet; opening_hours=Mo-Su 05:00-24:00;
+    website=https://www.jet-tankstellen.at/de/index.php;
     wheelchair=yes; id=node/286900282</desc>
+    <link href="https://www.jet-tankstellen.at/de/index.php">
+    </link>
   </wpt>
   <wpt lat="46.6251" lon="13.8218323">
     <ele>529</ele>
@@ -1778,8 +1783,9 @@ version="1.1" creator="togpx">
     <name>OMV</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=228;
     addr:postcode=1230; addr:street=Speisinger Straße;
-    amenity=fuel; check_date=2022-12-12; compressed_air=yes;
-    name=OMV; opening_hours=Mo-Fr 06:00-22:00, Sa-Su 06:30-21:00;
+    amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    check_date=2022-12-12; compressed_air=yes; name=OMV;
+    opening_hours=Mo-Fr 06:00-22:00, Sa-Su 06:30-21:00;
     id=node/289936645</desc>
   </wpt>
   <wpt lat="48.1538959" lon="16.3012476">
@@ -2114,7 +2120,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=215;
     addr:postcode=1230; addr:street=Breitenfurter Straße;
     amenity=fuel; brand=Eni; brand:wikidata=Q565594;
-    brand:wikipedia=en:Eni; name=Eni; id=node/297782315</desc>
+    brand:wikipedia=en:Eni; compressed_air=yes; name=Eni;
+    id=node/297782315</desc>
   </wpt>
   <wpt lat="48.2089702" lon="15.3816386">
     <ele>220</ele>
@@ -2393,8 +2400,8 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Tankstelle Schlager;
     operator=Schlager; id=node/311147070</desc>
   </wpt>
-  <wpt lat="48.8544243" lon="15.2850344">
-    <ele>490</ele>
+  <wpt lat="48.8543178" lon="15.2849767">
+    <ele>493</ele>
     <name>Classic</name>
     <desc>amenity=fuel; building=yes; name=Classic;
     id=node/311180288</desc>
@@ -2454,7 +2461,8 @@ version="1.1" creator="togpx">
     <name>BP</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=2;
     addr:postcode=1210; addr:street=Einzingergasse; amenity=fuel;
-    name=BP; id=node/314726999</desc>
+    brand=BP; brand:wikidata=Q152057; name=BP;
+    id=node/314726999</desc>
   </wpt>
   <wpt lat="47.7326917" lon="16.0874704">
     <ele>363</ele>
@@ -2633,8 +2641,9 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=2b;
     addr:postcode=1150; addr:street=Oeverseestraße; amenity=fuel;
-    name=Shell; wheelchair=yes; id=node/319684246; ;
-    building=industrial; source=Wien: Mehrzweckkarte (wien.gv.at);
+    brand=Shell; brand:wikidata=Q110716465; name=Shell;
+    wheelchair=yes; id=node/319684246; ; building=industrial;
+    source=Wien: Mehrzweckkarte (wien.gv.at);
     id=way/37332369</desc>
   </wpt>
   <wpt lat="47.6489991" lon="15.8582671">
@@ -2789,7 +2798,8 @@ version="1.1" creator="togpx">
     <name>OIL!</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=50;
     addr:postcode=1100; addr:street=Himberger Straße; amenity=fuel;
-    name=OIL!; id=node/327927504</desc>
+    brand=OIL!; brand:wikidata=Q2007561; name=OIL!;
+    id=node/327927504</desc>
   </wpt>
   <wpt lat="48.1641388" lon="16.3908073">
     <ele>243</ele>
@@ -2875,8 +2885,9 @@ version="1.1" creator="togpx">
     <name>Turmöl</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=7;
     addr:postcode=1150; addr:street=Hollergasse; amenity=fuel;
-    brand=Turmöl; name=Turmöl; opening_hours=Mo-Fr 07:00-20:00, Sa
-    07:00-19:00, Su,PH off; id=node/328798395</desc>
+    brand=Turmöl; brand:wikidata=Q1473279; name=Turmöl;
+    opening_hours=Mo-Fr 07:00-20:00, Sa 07:00-19:00, Su,PH off;
+    id=node/328798395</desc>
   </wpt>
   <wpt lat="48.1993269" lon="16.3296509">
     <ele>229</ele>
@@ -3265,7 +3276,7 @@ version="1.1" creator="togpx">
     wheelchair=yes; id=node/332029393</desc>
     <link href="https://www.bp.com/"></link>
   </wpt>
-  <wpt lat="46.6176395" lon="13.860544">
+  <wpt lat="46.6176708" lon="13.8607505">
     <ele>496</ele>
     <name>Eni</name>
     <desc>addr:city=Villach; addr:country=AT; addr:housenumber=74;
@@ -3634,11 +3645,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.6090719" lon="14.3304903">
     <ele>435</ele>
-    <name>BP</name>
+    <name>Turmöl</name>
     <desc>addr:city=Klagenfurt am Wörthersee; addr:country=AT;
     addr:housenumber=315; addr:postcode=9020; addr:street=Südring;
-    amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; fuel:cng=yes; name=BP; operator=BP;
+    amenity=fuel; fuel:cng=yes; name=Turmöl;
     id=node/370148343</desc>
   </wpt>
   <wpt lat="47.350277" lon="15.0084629">
@@ -3772,11 +3782,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.6981848" lon="15.8362043">
     <ele>486</ele>
-    <name>BP</name>
-    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; name=BP; opening_hours=Mo-Fr
-    05:30-19:00, Sa 06:00-07:00, PH,Su 07:00-19:00;
-    id=node/403405957</desc>
+    <name>Slanar</name>
+    <desc>addr:city=Reichenau an der Rax; addr:country=AT;
+    addr:housenumber=92; addr:postcode=2651;
+    addr:street=Hauptstraße; amenity=fuel; brand=BP;
+    brand:wikidata=Q152057; brand:wikipedia=en:BP;
+    contact:phone=+43 2666 52424; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Slanar;
+    opening_hours=Mo-Fr 05:30-19:00, Sa 06:00-07:00, PH,Su
+    07:00-19:00; operator=Slanar GmbH; id=node/403405957</desc>
   </wpt>
   <wpt lat="47.3032925" lon="10.4847212">
     <ele>1007</ele>
@@ -3893,7 +3907,7 @@ version="1.1" creator="togpx">
     payment:cash=yes; payment:diners_club=yes; payment:dkv=yes;
     payment:maestro=yes; payment:mastercard=yes;
     payment:routex=yes; payment:uta=yes; payment:visa=yes;
-    shop=yes; id=node/419011516</desc>
+    shop=yes; wheelchair=yes; id=node/419011516</desc>
   </wpt>
   <wpt lat="47.9809148" lon="14.2718952">
     <ele>371</ele>
@@ -4496,9 +4510,9 @@ version="1.1" creator="togpx">
     <ele>546</ele>
     <name>BP</name>
     <desc>addr:city=Weer; addr:country=AT;
-    addr:housenumber=Raststation Weer Nord; addr:postcode=6116;
-    addr:street=Inntal Autobahn; amenity=fuel; brand=BP;
-    brand:wikidata=Q152057; brand:wikipedia=en:BP;
+    addr:housename=Raststation Weer Nord; addr:housenumber=2;
+    addr:postcode=6116; addr:street=Inntal Autobahn; amenity=fuel;
+    brand=BP; brand:wikidata=Q152057; brand:wikipedia=en:BP;
     fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=BP; opening_hours=Mo-Su 05:00-24:00;
     operator=Engleder Handels GmbH; phone=+43 522468388;
@@ -4957,9 +4971,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.3966799" lon="15.581487">
     <ele>196</ele>
     <name>Bönisch</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_100=no;
-    fuel:octane_91=no; fuel:octane_95=no; fuel:octane_98=no;
-    name=Bönisch; operator=Bönisch-Krainz OG;
+    <desc>amenity=fuel; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_100=no; fuel:octane_91=no; fuel:octane_95=no;
+    fuel:octane_98=no; name=Bönisch; operator=Bönisch-Krainz OG;
     id=node/706354352</desc>
   </wpt>
   <wpt lat="48.2316744" lon="13.6183872">
@@ -5082,8 +5096,8 @@ version="1.1" creator="togpx">
   <wpt lat="48.4324356" lon="15.6908216">
     <ele>194</ele>
     <name>node/765039981</name>
-    <desc>amenity=fuel; fixme=incomplete; fuel:diesel=yes;
-    id=node/765039981</desc>
+    <desc>amenity=fuel; compressed_air=no; fixme=incomplete;
+    fuel:diesel=yes; id=node/765039981</desc>
   </wpt>
   <wpt lat="47.8013496" lon="13.0148998">
     <ele>429</ele>
@@ -5570,15 +5584,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
     brand:wikipedia=en:OMV; name=OMV BP; id=node/920074499</desc>
   </wpt>
-  <wpt lat="47.7234709" lon="13.4243296">
-    <ele>557</ele>
-    <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; contact:phone=+43 6
-    13720059; name=Shell; old_brand=Euro Petrol Diskont;
-    opening_hours=Mo-Su 06:00-22:00; ref=12582938;
-    id=node/920202220</desc>
-  </wpt>
   <wpt lat="47.7173621" lon="13.5907966">
     <ele>488</ele>
     <name>Turmöl</name>
@@ -5880,7 +5885,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.1502148" lon="10.5813812">
     <ele>770</ele>
     <name>Jet</name>
-    <desc>amenity=fuel; brand=Jet; brand:wikidata=Q568940;
+    <desc>amenity=fuel; brand=JET; brand:wikidata=Q568940;
     brand:wikipedia=en:Jet (brand); contact:phone=+43 5442 61928;
     contact:website=https://www.jet-tankstellen.at; name=Jet;
     name:de=Jet; name:en=Jet; opening_hours=Mo-Su 06:00-24:00;
@@ -7024,18 +7029,20 @@ version="1.1" creator="togpx">
   <wpt lat="47.9038812" lon="13.1203969">
     <ele>540</ele>
     <name>LM Energie</name>
-    <desc>amenity=fuel; brand=BP; operator=LM Energie;
-    id=node/1597646659</desc>
+    <desc>amenity=fuel; brand=BP; compressed_air=yes; operator=LM
+    Energie; id=node/1597646659</desc>
   </wpt>
   <wpt lat="47.2190071" lon="15.9015024">
     <ele>326</ele>
     <name>OMV Tankstelle Prem</name>
     <desc>addr:city=Kaindorf; addr:country=AT;
     addr:housenumber=224; addr:place=Kaindorf; addr:postcode=8224;
-    amenity=fuel; at_bev:addr_date=2018-10-01; brand=OMV; name=OMV
-    Tankstelle Prem; name:de=OMV Tankstelle Prem; name:en=OMV
-    Tankstelle Prem; opening_hours=Mo-Sa 06:00-22:00, Su
-    08:00-21:00; id=node/1599331952</desc>
+    amenity=fuel; at_bev:addr_date=2018-10-01; brand=OMV;
+    brand:wikidata=Q168238; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=OMV Tankstelle
+    Prem; name:de=OMV Tankstelle Prem; name:en=OMV Tankstelle Prem;
+    opening_hours=Mo-Sa 06:00-22:00, Su 08:00-21:00;
+    id=node/1599331952</desc>
   </wpt>
   <wpt lat="47.4947226" lon="16.5106928">
     <ele>243</ele>
@@ -7911,10 +7918,11 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Eni; brand:wikidata=Q565594;
     brand:wikipedia=en:Eni; name=Eni; id=node/1937389699</desc>
   </wpt>
-  <wpt lat="48.2258044" lon="16.6949948">
-    <ele>148</ele>
-    <name>turmöl</name>
-    <desc>amenity=fuel; brand=turmöl; name=turmöl;
+  <wpt lat="48.225904" lon="16.6949493">
+    <ele>149</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057; name=BP;
+    opening_hours=Mo-Fr 06:00-19:00, Sa-Su 07:00-19:00;
     id=node/1949862615</desc>
   </wpt>
   <wpt lat="48.2464584" lon="16.7001762">
@@ -8247,11 +8255,6 @@ version="1.1" creator="togpx">
     id=node/2151733350</desc>
     <link href="http://yachthafen-kuchelau.businesscard.at/produkte/Yachthafen-Kuchelau-Tankstelle-fuer-Motorboote-und-Yachten_8955__1769">
     </link>
-  </wpt>
-  <wpt lat="47.4223733" lon="15.2726874">
-    <ele>503</ele>
-    <name>node/2153596075</name>
-    <desc>amenity=fuel; id=node/2153596075</desc>
   </wpt>
   <wpt lat="47.154334" lon="14.4155177">
     <ele>746</ele>
@@ -8709,8 +8712,8 @@ version="1.1" creator="togpx">
   <wpt lat="48.2962264" lon="14.3083899">
     <ele>260</ele>
     <name>Shell Tankstelle</name>
-    <desc>amenity=fuel; contact:fax=+43 732 6545624;
-    contact:phone=+43 732 654562;
+    <desc>amenity=fuel; compressed_air=yes; contact:fax=+43 732
+    6545624; contact:phone=+43 732 654562;
     contact:website=http://www.shell.at; fuel:diesel=yes;
     fuel:octane_91=yes; fuel:octane_95=yes; name=Shell Tankstelle;
     opening_hours=Mo-Fr 05:30-22:00, PH,Sa,Su 07:00-22:00;
@@ -8920,8 +8923,9 @@ version="1.1" creator="togpx">
     <name>Eni</name>
     <desc>addr:city=Wien; addr:country=AT; addr:housenumber=180;
     addr:postcode=1210; addr:street=Leopoldauer Straße;
-    amenity=fuel; name=Eni; opening_hours=24/7; shop=convenience;
-    tobacco=yes; id=node/2510177589</desc>
+    amenity=fuel; brand=Eni; brand:wikidata=Q565594; name=Eni;
+    opening_hours=24/7; shop=convenience; tobacco=yes;
+    id=node/2510177589</desc>
   </wpt>
   <wpt lat="48.0665665" lon="16.6044874">
     <ele>161</ele>
@@ -9073,8 +9077,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.5956603" lon="15.6621864">
     <ele>253</ele>
-    <name>node/2774954431</name>
-    <desc>amenity=fuel; brand=Shell; id=node/2774954431</desc>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    name=Shell; id=node/2774954431</desc>
   </wpt>
   <wpt lat="47.9056967" lon="15.6197705">
     <ele>500</ele>
@@ -9264,7 +9269,7 @@ version="1.1" creator="togpx">
     <ele>166</ele>
     <name>IQ</name>
     <desc>addr:city=Stockerau; addr:country=AT; addr:housenumber=1;
-    addr:postcode=2000; addr:street=Donaukraftwerkstrasse;
+    addr:postcode=2000; addr:street=Donaukraftwerk-Straße;
     amenity=fuel; name=IQ; website=https://www.iqtanken.com/;
     id=node/3059821561</desc>
     <link href="https://www.iqtanken.com/"></link>
@@ -10160,10 +10165,11 @@ version="1.1" creator="togpx">
     addr:housenumber=17; addr:postcode=3500; addr:street=Steiner
     Donaulände; amenity=fuel; brand=Shell;
     brand:wikidata=Q110716465; brand:wikipedia=en:Royal Dutch
-    Shell; contact:email=shell20360@shellstationen.at;
-    contact:phone=+43 2732 844 24; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell;
-    opening_hours=24/7; payment:dkv=yes; shop=supermarket;
+    Shell; compressed_air=yes;
+    contact:email=shell20360@shellstationen.at; contact:phone=+43
+    2732 844 24; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Shell; opening_hours=24/7;
+    payment:dkv=yes; shop=supermarket;
     website=https://find.shell.com/at/fuel/10022684-krems-stein-steinerdonaulaende;
     wheelchair=yes; id=node/4267811289</desc>
     <link href="https://find.shell.com/at/fuel/10022684-krems-stein-steinerdonaulaende">
@@ -10328,7 +10334,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.226695" lon="10.7473254">
     <ele>730</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutsch Shell; fuel:GTL_diesel=yes;
     fuel:diesel=yes; fuel:octane_95=yes; name=Shell;
     operator=Gutmann; payment:dkv=yes; payment:uta=yes;
@@ -10784,13 +10790,12 @@ version="1.1" creator="togpx">
     <name>Turmöl</name>
     <desc>addr:city=Oeynhausen; addr:country=AT;
     addr:housenumber=108; addr:postcode=2512; addr:street=Triester
-    Straße; amenity=fuel; brand=Turmöl;
+    Straße; amenity=fuel; brand=Turmöl; brand:wikidata=Q1473279;
     email=oeynhausen@doppler-tankstellen.at; fax=+43 2252 44720;
-    fixme=check what octane "Racing Super" has;
     fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Turmöl; opening_hours=Mo-Fr 06:00-21:00, Sa-Su
-    07:00-20:00; operator=Turmöl; phone=+43 2252 44720;
-    id=node/5159544244</desc>
+    fuel:octane_98=yes; name=Turmöl; opening_hours=Mo-Fr
+    06:00-21:00, Sa-Su 07:00-20:00; operator=Turmöl; phone=+43 2252
+    44720; self_service=yes; id=node/5159544244</desc>
   </wpt>
   <wpt lat="48.4325126" lon="15.6204826">
     <ele>295</ele>
@@ -10989,12 +10994,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.9960795" lon="16.2987231">
     <ele>203</ele>
-    <name>Stiglechner Tankstellen GmbH</name>
+    <name>Shell</name>
     <desc>addr:city=Oeynhausen; addr:country=AT;
     addr:housenumber=108; addr:postcode=2512;
     addr:street=Triesterstraße; amenity=fuel; brand=Shell;
-    fuel:GTL_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    brand:wikidata=Q110716465; fuel:GTL_diesel=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Shell;
     opening_hours=Mo-Sa 06:00-21:00, Su 07:00-20:00;
     operator=Stiglechner Tankstellen GmbH;
     source:addr=http://oeynhausen.open-closed.at/shell-offnungszeiten-der-triesterstrasse-108;
@@ -11116,8 +11122,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Krems an der Donau; addr:country=AT;
     addr:housenumber=15; addr:postcode=3500;
     addr:street=Wachaustraße; amenity=fuel; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Turmöl Quick;
+    brand:wikipedia=en:Royal Dutch Shell; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Turmöl Quick;
     id=node/5354279425</desc>
   </wpt>
   <wpt lat="47.2644295" lon="11.3658155">
@@ -11576,8 +11582,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Krems an der Donau; addr:country=AT;
     addr:housenumber=47; addr:postcode=3500; addr:street=An der
     Schütt; amenity=fuel; brand=JET; brand:wikidata=Q568940;
-    brand:wikipedia=en:Jet (brand); fuel:diesel=yes; name=JET;
-    operator=JET; phone=+43 2732 746 45;
+    brand:wikipedia=en:Jet (brand); compressed_air=yes;
+    fuel:diesel=yes; name=JET; operator=JET; phone=+43 2732 746 45;
     website=https://www.jet-tankstellen.at/; wheelchair=yes;
     id=node/5781418621</desc>
     <link href="https://www.jet-tankstellen.at/"></link>
@@ -11633,10 +11639,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rohrendorf bei Krems; addr:country=AT;
     addr:housenumber=3; addr:postcode=3495; addr:street=Obere
     Wienerstraße; amenity=fuel; at_bev:addr_date=2018-04-02;
-    fuel:1_25=yes; fuel:1_50=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=TOP; phone=+43 2732 838 95; shop=yes;
-    website=http://www.toptankstellen.at; wheelchair=limited;
-    id=node/5888317411</desc>
+    compressed_air=yes; fuel:1_25=yes; fuel:1_50=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=TOP; phone=+43 2732
+    838 95; shop=yes; website=http://www.toptankstellen.at;
+    wheelchair=limited; id=node/5888317411</desc>
     <link href="http://www.toptankstellen.at"></link>
   </wpt>
   <wpt lat="46.6624133" lon="14.6266803">
@@ -12142,7 +12148,7 @@ version="1.1" creator="togpx">
     <link href="http://www.weichberger.at/cms/oberndorf-an-der-melk">
     </link>
   </wpt>
-  <wpt lat="48.1198313" lon="16.944501">
+  <wpt lat="48.1198173" lon="16.9445539">
     <ele>252</ele>
     <name>Lagerhaus</name>
     <desc>amenity=fuel; brand=Genol; fuel:diesel=yes;
@@ -12979,8 +12985,8 @@ version="1.1" creator="togpx">
     <ele>806</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; name=Shell;
-    opening_hours=Mo-Su,PH 06:00-22:00; toilets=yes;
+    brand:wikipedia=en:Royal Dutch Shell; compressed_air=yes;
+    name=Shell; opening_hours=Mo-Su,PH 06:00-22:00; toilets=yes;
     toilets:access=customers; id=node/8569125402</desc>
   </wpt>
   <wpt lat="47.2286032" lon="12.0480219">
@@ -13001,7 +13007,7 @@ version="1.1" creator="togpx">
     <name>Jet</name>
     <desc>addr:city=Tribuswinkel; addr:country=AT;
     addr:housenumber=14; addr:postcode=2512;
-    addr:street=Ebreichsdorfer Straße; amenity=fuel; brand=Jet;
+    addr:street=Ebreichsdorfer Straße; amenity=fuel; brand=JET;
     brand:wikidata=Q568940; brand:wikipedia=en:Jet (brand);
     name=Jet; opening_hours=Mo-Sa 05:00-23:00, Su 06:00-23:00;
     phone=+43 2252 805643; id=node/8668496259</desc>
@@ -13367,9 +13373,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Wattens; addr:country=AT; addr:housenumber=26;
     addr:postcode=6112; addr:street=Salzburger Straße;
     amenity=fuel; brand=Eni; brand:wikidata=Q565594;
-    brand:wikipedia=en:Eni; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Eni; payment:routex=yes;
-    id=node/9133414863</desc>
+    brand:wikipedia=en:Eni; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Eni;
+    payment:routex=yes; id=node/9133414863</desc>
   </wpt>
   <wpt lat="47.5182039" lon="12.0674333">
     <ele>497</ele>
@@ -13746,6 +13752,61 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Tankstelle Rahm;
     id=node/10207441644</desc>
   </wpt>
+  <wpt lat="46.6630104" lon="14.6217435">
+    <ele>470</ele>
+    <name>JET</name>
+    <desc>addr:city=Völkermarkt; addr:country=AT;
+    addr:housenumber=7; addr:postcode=9100;
+    addr:street=Umfahrungsstraße; amenity=fuel; brand=JET;
+    brand:wikidata=Q568940; contact:phone=+43 4232 55152;
+    fuel:diesel=yes; fuel:octane_95=yes; name=JET;
+    opening_hours=Mo-Sa 05:00-23:00, Su 06:00-23:00;
+    id=node/10298386852</desc>
+  </wpt>
+  <wpt lat="47.473947" lon="12.6345559">
+    <ele>1006</ele>
+    <name>node/10300850294</name>
+    <desc>access=private; amenity=fuel; id=node/10300850294</desc>
+  </wpt>
+  <wpt lat="47.2542079" lon="11.3990571">
+    <ele>587</ele>
+    <name>Gutmann</name>
+    <desc>amenity=fuel; brand=Eni; operator=Gutmann;
+    id=node/10301416009</desc>
+  </wpt>
+  <wpt lat="46.5974517" lon="13.8387411">
+    <ele>494</ele>
+    <name>node/10554174710</name>
+    <desc>amenity=fuel; id=node/10554174710</desc>
+  </wpt>
+  <wpt lat="47.2874037" lon="12.8089586">
+    <ele>750</ele>
+    <name>node/10560355071</name>
+    <desc>amenity=fuel; id=node/10560355071</desc>
+  </wpt>
+  <wpt lat="47.2195294" lon="15.9022175">
+    <ele>326</ele>
+    <name>Tankstelle Gschiel</name>
+    <desc>addr:city=Kaindorf; addr:country=AT;
+    addr:housenumber=340; addr:place=Kaindorf; addr:postcode=8224;
+    amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Tankstelle Gschiel; operator=Gschiel Franz A. Ges. m.b.H.;
+    self_service=yes; id=node/10576034832</desc>
+  </wpt>
+  <wpt lat="48.247217" lon="16.4661148">
+    <ele>157</ele>
+    <name>BP LKW</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    fuel:adblue=yes; fuel:diesel=yes; name=BP LKW;
+    opening_hours=24/7; self_service=yes;
+    id=node/10576543130</desc>
+  </wpt>
+  <wpt lat="48.2722172" lon="16.4310742">
+    <ele>159</ele>
+    <name>Lohberger</name>
+    <desc>amenity=fuel; fuel:diesel=yes; name=Lohberger;
+    self_service=yes; id=node/10597248941</desc>
+  </wpt>
   <wpt lat="47.374727" lon="15.082231253400945">
     <ele>547</ele>
     <name>Stadtwerke</name>
@@ -13792,10 +13853,11 @@ version="1.1" creator="togpx">
     <name>disk Tankstelle</name>
     <desc>addr:city=Zams; addr:country=AT; addr:housenumber=14;
     addr:postcode=6511; addr:street=Hauptstraße; amenity=fuel;
-    building=yes,roof; fuel:cng=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=disk Tankstelle;
-    operator=Gutmann; self_service=yes; source=geoimage.at;
-    type=multipolygon; id=relation/13317349</desc>
+    building=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=disk
+    Tankstelle; operator=Gutmann; self_service=yes;
+    source=geoimage.at; type=multipolygon;
+    id=relation/13317349</desc>
     <link href="geoimage.at"></link>
   </wpt>
   <wpt lat="47.00742465" lon="11.509290341379572">
@@ -13976,14 +14038,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; name=Socar;
     id=way/31910380</desc>
   </wpt>
-  <wpt lat="48.27590885" lon="16.396819360900718">
-    <ele>158</ele>
-    <name>AGM Sild</name>
-    <desc>addr:city=Wien; addr:country=AT; addr:housenumber=7;
-    addr:postcode=1210; addr:street=Ödenburger Straße;
-    amenity=fuel; building=yes; name=AGM Sild;
-    id=way/32560083</desc>
-  </wpt>
   <wpt lat="48.28123455" lon="16.412099573361957">
     <ele>159</ele>
     <name>OMV</name>
@@ -14010,8 +14064,8 @@ version="1.1" creator="togpx">
     addr:housenumber=99; addr:postcode=6800;
     addr:street=Hämmerlestraße; amenity=fuel; brand=BP;
     brand:wikidata=Q152057; brand:wikipedia=en:BP; building=roof;
-    fuel:cng=yes; name=BP; opening_hours=Mo-Su 06:00-22:00;
-    operator=BP; id=way/36738554</desc>
+    compressed_air=yes; fuel:cng=yes; name=BP; opening_hours=Mo-Su
+    06:00-22:00; operator=BP; id=way/36738554</desc>
   </wpt>
   <wpt lat="48.1472609" lon="13.973985677464102">
     <ele>334</ele>
@@ -14825,17 +14879,17 @@ version="1.1" creator="togpx">
     <name>Loistank</name>
     <desc>addr:city=Langenlois; addr:country=AT;
     addr:housenumber=42; addr:postcode=3550; addr:street=Wiener
-    Straße; amenity=fuel; building=roof; name=Loistank;
-    source=Bing; id=way/85832910</desc>
+    Straße; amenity=fuel; building=roof; compressed_air=yes;
+    name=Loistank; source=Bing; id=way/85832910</desc>
   </wpt>
   <wpt lat="48.47611585" lon="15.698184728842044">
     <ele>206</ele>
     <name>Avanti</name>
     <desc>amenity=fuel; brand=Avanti; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; building=roof; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Avanti; opening_hours=24/7;
-    operator=Avanti; phone=+43 800 202055; source=Bing;
-    id=way/85891421</desc>
+    brand:wikipedia=en:OMV; building=roof; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Avanti;
+    opening_hours=24/7; operator=Avanti; phone=+43 800 202055;
+    source=Bing; id=way/85891421</desc>
   </wpt>
   <wpt lat="47.459303750000004" lon="9.644080864798369">
     <ele>401</ele>
@@ -14856,13 +14910,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.7286903" lon="16.213830292320825">
     <ele>310</ele>
-    <name>Wagner Tankstelle</name>
+    <name>Reginas Tankstelle</name>
     <desc>addr:city=Bad Erlach; addr:country=AT;
     addr:housenumber=8; addr:postcode=2822; addr:street=Wiener
     Neustädter Straße; amenity=fuel; building=roof;
-    fixme=Name/korrekte Beschreibung.; layer=1; name=Wagner
-    Tankstelle; opening_hours=Mo-Fr 06:00-20:00; operator=Josef
-    Gilan; phone=+43 2627 48276; id=way/86435152</desc>
+    fuel:diesel=yes; fuel:octane_95=yes; layer=1; name=Reginas
+    Tankstelle; opening_hours=Mo-Fr 06:00-20:00; phone=+43 2627
+    48276; self_service=no;
+    website=https://www.reginastankstelle.at/;
+    id=way/86435152</desc>
+    <link href="https://www.reginastankstelle.at/"></link>
   </wpt>
   <wpt lat="47.27397565" lon="16.234442559800886">
     <ele>307</ele>
@@ -14881,16 +14938,6 @@ version="1.1" creator="togpx">
     addr:street=Gewerbepark; amenity=fuel;
     at_bev:addr_date=2019-04-01; name=A1; opening_hours=Mo-Sa
     06:00-22:00, Su 07:00-21:00; id=way/86748521</desc>
-  </wpt>
-  <wpt lat="47.69829025" lon="15.836279698361952">
-    <ele>486</ele>
-    <name>Opel Slanar</name>
-    <desc>addr:city=Reichenau an der Rax; addr:country=AT;
-    addr:housenumber=92; addr:postcode=2651;
-    addr:street=Hauptstraße; amenity=fuel; amenity_1=car_wash;
-    brand=Opel,Chevrolet; name=Opel Slanar;
-    website=https://www.opelslanar.at/; id=way/86871340</desc>
-    <link href="https://www.opelslanar.at/"></link>
   </wpt>
   <wpt lat="47.43243725" lon="11.878981532793489">
     <ele>528</ele>
@@ -15460,7 +15507,7 @@ version="1.1" creator="togpx">
     operator=A1 Tankstellenbetrieb GmbH; self_service=yes;
     id=way/99202863</desc>
   </wpt>
-  <wpt lat="47.49375905" lon="14.483066618034599">
+  <wpt lat="47.4937583" lon="14.483064130118825">
     <ele>697</ele>
     <name>BP</name>
     <desc>addr:city=Trieben; addr:country=AT; addr:housenumber=2;
@@ -16046,7 +16093,7 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=OMV; source=bing;
     toilets:wheelchair=yes; id=way/109612893</desc>
   </wpt>
-  <wpt lat="47.689427300000006" lon="13.624283232365485">
+  <wpt lat="47.68945535" lon="13.624265442501791">
     <ele>474</ele>
     <name>Turmöl</name>
     <desc>addr:city=Bad Ischl; addr:country=AT;
@@ -16430,7 +16477,7 @@ version="1.1" creator="togpx">
     <name>Jet</name>
     <desc>addr:city=Sankt Johann im Pongau; addr:country=AT;
     addr:housenumber=13; addr:postcode=5600;
-    addr:street=Bundesstraße; amenity=fuel; brand=Jet;
+    addr:street=Bundesstraße; amenity=fuel; brand=JET;
     brand:wikidata=Q568940; brand:wikipedia=en:Jet (brand);
     building=yes; fuel:diesel=yes; fuel:octane_91=yes;
     fuel:octane_95=yes; name=Jet; opening_hours=Mo-Sa 06:30-21:30,
@@ -17900,8 +17947,9 @@ version="1.1" creator="togpx">
     <ele>517</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; building=roof; layer=1;
-    name=Shell; id=way/147186712</desc>
+    brand:wikipedia=en:Royal Dutch Shell; building=roof;
+    compressed_air=yes; layer=1; name=Shell;
+    id=way/147186712</desc>
   </wpt>
   <wpt lat="47.80142895" lon="13.014257029458918">
     <ele>429</ele>
@@ -18311,10 +18359,10 @@ version="1.1" creator="togpx">
     <ele>564</ele>
     <name>Hofer Diskont</name>
     <desc>amenity=fuel; brand=Hofer Diskont;
-    brand:wikidata=Q107803455; building=roof; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Hofer Diskont; opening_hours=Mo-Su
-    06:00-22:00; operator=Avanti; shop=no;
-    website=https://www.diskonttanken.at; wheelchair=yes;
+    brand:wikidata=Q107803455; building=roof; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; layer=1; name=Hofer
+    Diskont; opening_hours=Mo-Su 06:00-22:00; operator=Avanti;
+    shop=no; website=https://www.diskonttanken.at; wheelchair=yes;
     id=way/157684189</desc>
     <link href="https://www.diskonttanken.at"></link>
   </wpt>
@@ -18858,6 +18906,20 @@ version="1.1" creator="togpx">
     payment:account_cards=yes; payment:mastercard=yes; shop=no;
     id=way/169825941</desc>
   </wpt>
+  <wpt lat="47.713022699999996" lon="13.485518542844328">
+    <ele>549</ele>
+    <name>Eni</name>
+    <desc>addr:city=Strobl; addr:country=AT; addr:housenumber=4;
+    addr:postcode=5350; addr:street=Wolfgangseestraße;
+    amenity=fuel; at_bev:addr_date=2022-04-03; brand=Eni;
+    brand:wikidata=Q565594; brand:wikipedia=en:Eni;
+    building=commercial; contact:email=info.resch@autohaus.at;
+    contact:phone=+43 6137 75 75;
+    contact:website=http://www.auto-resch.at; fuel:cng=yes;
+    name=Eni; opening_hours=Mo-Su 06:00-22:00; source=geomiage.at;
+    id=way/169940368</desc>
+    <link href="http://www.auto-resch.at"></link>
+  </wpt>
   <wpt lat="46.82710385" lon="14.839962676959619">
     <ele>445</ele>
     <name>Jet</name>
@@ -18883,19 +18945,6 @@ version="1.1" creator="togpx">
     <name>qp</name>
     <desc>alt_name=Qualitäts Power; amenity=fuel; building=roof;
     layer=1; name=qp; id=way/170431551</desc>
-  </wpt>
-  <wpt lat="47.7131055" lon="13.485511016202945">
-    <ele>549</ele>
-    <name>Eni</name>
-    <desc>addr:city=Strobl; addr:country=AT; addr:housenumber=4;
-    addr:postcode=5350; addr:street=Wolfgangseestraße;
-    amenity=fuel; at_bev:addr_date=2022-04-01; brand=Eni;
-    brand:wikidata=Q565594; brand:wikipedia=en:Eni;
-    contact:email=info.resch@autohaus.at; contact:phone=+43 6137 75
-    75; contact:website=http://www.auto-resch.at; fuel:cng=yes;
-    landuse=commercial; name=Eni; opening_hours=Mo-Su 06:00-22:00;
-    id=way/170466433</desc>
-    <link href="http://www.auto-resch.at"></link>
   </wpt>
   <wpt lat="47.32413305" lon="11.199154989946383">
     <ele>1194</ele>
@@ -19444,8 +19493,9 @@ version="1.1" creator="togpx">
     <name>Avia XPress</name>
     <desc>addr:city=Inzing; addr:country=AT; addr:housenumber=46;
     addr:postcode=6401; addr:street=Hauptstraße; amenity=fuel;
-    brand=Avia; building=yes; contact:phone=+43 5238 88102;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Avia XPress;
+    brand=Avia; brand:wikidata=Q300147; building=yes;
+    contact:phone=+43 5238 88102; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Avia XPress;
     opening_hours=06:00-22:00; operator=Seifriedsberger;
     payment:diners_club=yes; payment:dkv=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:uta=yes; payment:visa=yes;
@@ -19855,8 +19905,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Fürstenfeld; addr:housenumber=30;
     addr:postcode=8280; addr:street=Körmenderstraße; amenity=fuel;
     brand=Avanti; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=house; layer=1; name=Avanti; opening_hours=24/7;
-    operator=Avanti; phone=+43 800 202055; self_service=yes;
+    building=retail; full_service=no; layer=1; name=Avanti;
+    opening_hours=24/7; operator=Avanti; payment:debit_cards=yes;
+    phone=+43 800 202055; self_service=yes; shop=no;
     id=way/201764093</desc>
   </wpt>
   <wpt lat="47.03679405" lon="16.09310828502273">
@@ -20187,12 +20238,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Amstetten; addr:country=AT;
     addr:housenumber=39; addr:postcode=3300;
     addr:street=Ybbsstraße; amenity=fuel; brand=BP;
-    building=commercial; contact:website=http://www.bp.com;
-    name=BP-Tankstelle Sklenar GmbH; operator=BP Europa SE
-    Zweigniederlassung BP Austria; shop=yes; source=basemap.at,
-    geoimage.at, video; tenant=Sklenar GmbH;
-    id=way/217184775</desc>
-    <link href="http://www.bp.com"></link>
+    brand:wikidata=Q152057; building=commercial;
+    contact:website=https://www.bp.com/; fuel:diesel=yes;
+    fuel:octane_95=yes; name=BP-Tankstelle Sklenar GmbH;
+    opening_hours=Mo-Th 06:00-22:00, Sa 07:00-22:00, Su
+    07:00-21:00; operator=BP Europa SE Zweigniederlassung BP
+    Austria; source=basemap.at,geoimage.at,video; tenant=Sklenar
+    GmbH; id=way/217184775</desc>
+    <link href="https://www.bp.com/"></link>
   </wpt>
   <wpt lat="47.419430199999994" lon="15.001504259940692">
     <ele>660</ele>
@@ -21066,7 +21119,9 @@ version="1.1" creator="togpx">
     addr:housenumber=498; addr:place=Markt; addr:postcode=5570;
     amenity=fuel; at_bev:addr_date=2021-04-01; brand=Eni;
     brand:wikidata=Q565594; brand:wikipedia=en:Eni; building=roof;
-    name=Eni; id=way/243863676</desc>
+    fuel:diesel=yes; fuel:octane_91=yes; fuel:octane_95=yes;
+    name=Eni; opening_hours=24/7; self_service=yes;
+    id=way/243863676</desc>
   </wpt>
   <wpt lat="47.91282705" lon="16.386308200000002">
     <ele>215</ele>
@@ -21348,12 +21403,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.25488115" lon="13.036252286906526">
     <ele>351</ele>
-    <name>BP</name>
+    <name>M3</name>
     <desc>addr:city=Braunau am Inn; addr:country=AT;
     addr:housenumber=9; addr:postcode=5280; addr:street=Salzburger
     Straße; amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; building=yes; layer=1; name=BP;
-    wheelchair=yes; id=way/259090657</desc>
+    brand:wikipedia=en:BP; building=yes; layer=1; name=M3;
+    payment:bancomat=yes; payment:contactless=yes;
+    payment:girocard=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:v_pay=yes; wheelchair=yes;
+    id=way/259090657</desc>
   </wpt>
   <wpt lat="48.5018611" lon="14.076800003716935">
     <ele>643</ele>
@@ -22195,8 +22253,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Eisenstadt; addr:country=AT;
     addr:housenumber=20; addr:postcode=7000;
     addr:street=Mattersburger Straße; amenity=fuel;
-    at_bev:addr_date=2020-10-01; building=yes; name=Eni;
-    id=way/325279316</desc>
+    at_bev:addr_date=2020-10-01; brand=Eni; brand:wikidata=Q565594;
+    building=yes; name=Eni; id=way/325279316</desc>
   </wpt>
   <wpt lat="47.833158350000005" lon="16.522965384885268">
     <ele>152</ele>
@@ -22255,7 +22313,7 @@ version="1.1" creator="togpx">
     Marchat Tankstopp; operator=Hörhan &amp; Marchat Tankstopp
     GmbH; id=way/327716301</desc>
   </wpt>
-  <wpt lat="46.95819605" lon="15.887445199999998">
+  <wpt lat="46.95822295" lon="15.8874323">
     <ele>280</ele>
     <name>Lagerhaus Feldbach</name>
     <desc>amenity=fuel; building=roof; fuel:diesel=yes;
@@ -23337,16 +23395,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.415564" lon="13.807873208753225">
     <ele>696</ele>
-    <name>AP Diskont</name>
+    <name>Turmöl Quick</name>
     <desc>addr:city=Ennsling; addr:country=AT; addr:housenumber=89;
     addr:place=Höhenfeld; addr:postcode=8967; amenity=fuel;
-    at_bev:addr_date=2018-04-02; brand=AP Diskont; building=roof;
-    layer=1; name=AP Diskont; note=Tankstelle; official_name=AP
-    Trading GmbH; opening_hours=Mo-Su 06:00-21:00; roof=yes;
-    website=https://www.austropetrol.com/wp/?page_id=604;
+    at_bev:addr_date=2018-04-02; building=roof; layer=1;
+    name=Turmöl Quick; note=Tankstelle; opening_hours=24/7;
+    roof=yes; website=https://www.turmöl.at;
     id=way/413728723</desc>
-    <link href="https://www.austropetrol.com/wp/?page_id=604">
-    </link>
+    <link href="https://www.turmöl.at"></link>
   </wpt>
   <wpt lat="48.0575472" lon="13.780266064894395">
     <ele>382</ele>
@@ -23487,7 +23543,7 @@ version="1.1" creator="togpx">
     payment:maestro=yes; payment:mastercard=yes; payment:notes=yes;
     payment:visa=yes; shop=no; id=way/435429839</desc>
   </wpt>
-  <wpt lat="48.35817175" lon="16.314895181329767">
+  <wpt lat="48.35818155" lon="16.314919231068686">
     <ele>166</ele>
     <name>Jet</name>
     <desc>amenity=fuel; brand=JET; brand:wikidata=Q568940;
@@ -24080,9 +24136,10 @@ version="1.1" creator="togpx">
   <wpt lat="47.59207965" lon="13.17551962478979">
     <ele>477</ele>
     <name>ENI</name>
-    <desc>amenity=fuel; atm=yes; building=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=ENI; toilets=yes;
-    vacuum_cleaner=yes; id=way/487391257</desc>
+    <desc>amenity=fuel; atm=yes; building=yes; compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=ENI; toilets=yes; vacuum_cleaner=yes;
+    id=way/487391257</desc>
   </wpt>
   <wpt lat="46.68189985" lon="15.230108847058238">
     <ele>375</ele>
@@ -24322,11 +24379,11 @@ version="1.1" creator="togpx">
   <wpt lat="47.9746217" lon="16.28083694640475">
     <ele>222</ele>
     <name>Hofer Diskont</name>
-    <desc>addr:street=Haidhofstraße; amenity=fuel; brand=Diskont;
-    brand:wikidata=Q107803455; building=roof; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Hofer Diskont; opening_hours=24/7;
-    operator=Avanti; shop=no; website=https://www.diskonttanken.at;
-    id=way/531520836</desc>
+    <desc>addr:street=Haidhofstraße; amenity=fuel; brand=Hofer
+    Diskont; brand:wikidata=Q107803455; building=roof;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Hofer Diskont;
+    opening_hours=24/7; operator=Avanti; shop=no;
+    website=https://www.diskonttanken.at; id=way/531520836</desc>
     <link href="https://www.diskonttanken.at"></link>
   </wpt>
   <wpt lat="48.003994750000004" lon="13.851497567057176">
@@ -24654,11 +24711,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Schruns; addr:country=AT; addr:housenumber=42;
     addr:postcode=6780; addr:street=Rätikonstraße; amenity=fuel;
     brand=Shell; brand:wikidata=Q154950; brand:wikipedia=en:Royal
-    Dutch Shell; building=retail; contact:phone=+43 5556 72573;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Shell; opening_hours=Mo-Su,PH 06:00-22:00; shop=kiosk;
-    toilets=yes; toilets:access=customers;
-    website=https://www.shell.at/; id=way/612497839</desc>
+    Dutch Shell; building=retail; compressed_air=yes;
+    contact:phone=+43 5556 72573; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Shell;
+    opening_hours=Mo-Su,PH 06:00-22:00; shop=kiosk; toilets=yes;
+    toilets:access=customers; website=https://www.shell.at/;
+    id=way/612497839</desc>
     <link href="https://www.shell.at/"></link>
   </wpt>
   <wpt lat="48.260354899999996" lon="13.940846873711566">
@@ -25320,9 +25378,10 @@ version="1.1" creator="togpx">
   <wpt lat="48.3861531" lon="16.238397150000004">
     <ele>176</ele>
     <name>Genol</name>
-    <desc>amenity=fuel; compressed_air=yes; fuel:adblue=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Genol;
-    operator=Lagerhaus; self_service=yes; id=way/859794520</desc>
+    <desc>amenity=fuel; brand=Genol; compressed_air=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Genol; operator=Lagerhaus; self_service=yes;
+    id=way/859794520</desc>
   </wpt>
   <wpt lat="48.22225495" lon="14.40913067580233">
     <ele>251</ele>
@@ -25596,7 +25655,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; operator=NTD Witzmann GmbH;
     id=way/1037422632</desc>
   </wpt>
-  <wpt lat="47.97813055" lon="15.183065136873697">
+  <wpt lat="47.9780968" lon="15.183240862293712">
     <ele>349</ele>
     <name>Zapfwerk</name>
     <desc>addr:city=St. Anton an der Jeßnitz; addr:country=AT;
@@ -25753,6 +25812,15 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Genol; building=roof;
     id=way/1120522301</desc>
   </wpt>
+  <wpt lat="47.72347190000001" lon="13.42430631315316">
+    <ele>557</ele>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    brand:wikipedia=en:Royal Dutch Shell; building=roof;
+    contact:phone=+43 6 13720059; name=Shell; old_brand=Euro Petrol
+    Diskont; opening_hours=Mo-Su 06:00-22:00; ref=12582938;
+    id=way/1130621172</desc>
+  </wpt>
   <wpt lat="46.705907100000005" lon="15.14257170806723">
     <ele>732</ele>
     <name>Eibiswald</name>
@@ -25767,8 +25835,9 @@ version="1.1" creator="togpx">
     <ele>379</ele>
     <name>OMV</name>
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    building=yes; fuel:diesel=yes; fuel:octane_98=yes; layer=1;
-    name=OMV; self_service=no; id=way/1096802516</desc>
+    building=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=OMV; self_service=no;
+    id=way/1096802516</desc>
   </wpt>
   <wpt lat="46.783747899999995" lon="15.54265873479887">
     <ele>272</ele>
@@ -26225,16 +26294,6 @@ version="1.1" creator="togpx">
       <trkpt lat="48.3496631" lon="15.7473264"></trkpt>
       <trkpt lat="48.3497238" lon="15.7473486"></trkpt>
       <trkpt lat="48.3498007" lon="15.7469561"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>AGM Sild</name>
-    <trkseg>
-      <trkpt lat="48.2758239" lon="16.3968064"></trkpt>
-      <trkpt lat="48.2758859" lon="16.396943"></trkpt>
-      <trkpt lat="48.2759939" lon="16.3968323"></trkpt>
-      <trkpt lat="48.2759318" lon="16.3966957"></trkpt>
-      <trkpt lat="48.2758239" lon="16.3968064"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -27470,7 +27529,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Wagner Tankstelle</name>
+    <name>Reginas Tankstelle</name>
     <trkseg>
       <trkpt lat="47.7285862" lon="16.2137864"></trkpt>
       <trkpt lat="47.7286333" lon="16.213967"></trkpt>
@@ -27503,20 +27562,6 @@ version="1.1" creator="togpx">
       <trkpt lat="47.2723468" lon="16.2366245"></trkpt>
       <trkpt lat="47.2724222" lon="16.236485"></trkpt>
       <trkpt lat="47.2722241" lon="16.2362539"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Opel Slanar</name>
-    <trkseg>
-      <trkpt lat="47.6981862" lon="15.8364213"></trkpt>
-      <trkpt lat="47.6982864" lon="15.8364911"></trkpt>
-      <trkpt lat="47.6983412" lon="15.8363249"></trkpt>
-      <trkpt lat="47.6983763" lon="15.8362065"></trkpt>
-      <trkpt lat="47.6983976" lon="15.8361348"></trkpt>
-      <trkpt lat="47.6982941" lon="15.836067"></trkpt>
-      <trkpt lat="47.6982473" lon="15.8362247"></trkpt>
-      <trkpt lat="47.6982281" lon="15.8362888"></trkpt>
-      <trkpt lat="47.6981862" lon="15.8364213"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28383,15 +28428,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>BP</name>
     <trkseg>
-      <trkpt lat="47.4938777" lon="14.4830562"></trkpt>
-      <trkpt lat="47.4939175" lon="14.4830663"></trkpt>
-      <trkpt lat="47.4939434" lon="14.482844"></trkpt>
-      <trkpt lat="47.4936379" lon="14.482766"></trkpt>
-      <trkpt lat="47.4936121" lon="14.4829874"></trkpt>
+      <trkpt lat="47.493841" lon="14.4833545"></trkpt>
+      <trkpt lat="47.4938837" lon="14.4829776"></trkpt>
+      <trkpt lat="47.4938915" lon="14.4829094"></trkpt>
+      <trkpt lat="47.4939005" lon="14.4828297"></trkpt>
+      <trkpt lat="47.493637" lon="14.4827642"></trkpt>
+      <trkpt lat="47.4936117" lon="14.4829878"></trkpt>
       <trkpt lat="47.4936756" lon="14.4830037"></trkpt>
-      <trkpt lat="47.4936403" lon="14.483306"></trkpt>
-      <trkpt lat="47.4938425" lon="14.4833576"></trkpt>
-      <trkpt lat="47.4938777" lon="14.4830562"></trkpt>
+      <trkpt lat="47.4936414" lon="14.4833048"></trkpt>
+      <trkpt lat="47.493841" lon="14.4833545"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -29273,9 +29318,11 @@ version="1.1" creator="togpx">
       <trkpt lat="47.6893643" lon="13.62422"></trkpt>
       <trkpt lat="47.6893506" lon="13.6242136"></trkpt>
       <trkpt lat="47.6893049" lon="13.6243734"></trkpt>
-      <trkpt lat="47.6893486" lon="13.6243969"></trkpt>
-      <trkpt lat="47.6893747" lon="13.6244831"></trkpt>
-      <trkpt lat="47.6894356" lon="13.6244438"></trkpt>
+      <trkpt lat="47.6893442" lon="13.6244002"></trkpt>
+      <trkpt lat="47.6893571" lon="13.6244414"></trkpt>
+      <trkpt lat="47.6893931" lon="13.6244146"></trkpt>
+      <trkpt lat="47.6893825" lon="13.6243839"></trkpt>
+      <trkpt lat="47.6894115" lon="13.6243668"></trkpt>
       <trkpt lat="47.689419" lon="13.6243922"></trkpt>
       <trkpt lat="47.6895424" lon="13.6243151"></trkpt>
       <trkpt lat="47.6894917" lon="13.624138"></trkpt>
@@ -33661,6 +33708,18 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Eni</name>
+    <trkseg>
+      <trkpt lat="47.7131893" lon="13.4854933"></trkpt>
+      <trkpt lat="47.7129667" lon="13.4853833"></trkpt>
+      <trkpt lat="47.7129234" lon="13.485577"></trkpt>
+      <trkpt lat="47.7129444" lon="13.4855874"></trkpt>
+      <trkpt lat="47.7130787" lon="13.4856538"></trkpt>
+      <trkpt lat="47.713146" lon="13.485687"></trkpt>
+      <trkpt lat="47.7131893" lon="13.4854933"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Jet</name>
     <trkseg>
       <trkpt lat="46.8270586" lon="14.8398865"></trkpt>
@@ -33695,21 +33754,6 @@ version="1.1" creator="togpx">
       <trkpt lat="48.3620063" lon="14.0316521"></trkpt>
       <trkpt lat="48.3621002" lon="14.031631"></trkpt>
       <trkpt lat="48.3620888" lon="14.0315168"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Eni</name>
-    <trkseg>
-      <trkpt lat="47.7132402" lon="13.4861486"></trkpt>
-      <trkpt lat="47.7134504" lon="13.4851262"></trkpt>
-      <trkpt lat="47.7127783" lon="13.484673"></trkpt>
-      <trkpt lat="47.7128166" lon="13.4853209"></trkpt>
-      <trkpt lat="47.712821" lon="13.4854627"></trkpt>
-      <trkpt lat="47.7128401" lon="13.485861"></trkpt>
-      <trkpt lat="47.7128644" lon="13.4861606"></trkpt>
-      <trkpt lat="47.7130417" lon="13.4861341"></trkpt>
-      <trkpt lat="47.7131693" lon="13.4861227"></trkpt>
-      <trkpt lat="47.7132402" lon="13.4861486"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -37254,7 +37298,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>BP</name>
+    <name>M3</name>
     <trkseg>
       <trkpt lat="48.2549142" lon="13.0361461"></trkpt>
       <trkpt lat="48.2548837" lon="13.0360863"></trkpt>
@@ -38683,11 +38727,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/328662896</name>
     <trkseg>
-      <trkpt lat="46.9582375" lon="15.8873793"></trkpt>
-      <trkpt lat="46.9581514" lon="15.8873839"></trkpt>
-      <trkpt lat="46.9581546" lon="15.8875111"></trkpt>
-      <trkpt lat="46.9582407" lon="15.8875065"></trkpt>
-      <trkpt lat="46.9582375" lon="15.8873793"></trkpt>
+      <trkpt lat="46.9582644" lon="15.8873664"></trkpt>
+      <trkpt lat="46.9581783" lon="15.887371"></trkpt>
+      <trkpt lat="46.9581815" lon="15.8874982"></trkpt>
+      <trkpt lat="46.9582676" lon="15.8874936"></trkpt>
+      <trkpt lat="46.9582644" lon="15.8873664"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -40234,7 +40278,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>AP Diskont</name>
+    <name>Turmöl Quick</name>
     <trkseg>
       <trkpt lat="47.4156022" lon="13.8078059"></trkpt>
       <trkpt lat="47.4155934" lon="13.8077726"></trkpt>
@@ -40475,11 +40519,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Jet</name>
     <trkseg>
-      <trkpt lat="48.3582425" lon="16.3144941"></trkpt>
-      <trkpt lat="48.357848" lon="16.3149847"></trkpt>
-      <trkpt lat="48.358101" lon="16.3153056"></trkpt>
-      <trkpt lat="48.3584482" lon="16.314828"></trkpt>
-      <trkpt lat="48.3582425" lon="16.3144941"></trkpt>
+      <trkpt lat="48.3582184" lon="16.3144458"></trkpt>
+      <trkpt lat="48.3578364" lon="16.3149673"></trkpt>
+      <trkpt lat="48.3581447" lon="16.3154035"></trkpt>
+      <trkpt lat="48.3584972" lon="16.3148186"></trkpt>
+      <trkpt lat="48.3582184" lon="16.3144458"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -43622,18 +43666,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Zapfwerk</name>
     <trkseg>
-      <trkpt lat="47.9782881" lon="15.1821747"></trkpt>
-      <trkpt lat="47.9780035" lon="15.1828779"></trkpt>
-      <trkpt lat="47.9779607" lon="15.1831134"></trkpt>
-      <trkpt lat="47.977693" lon="15.1833104"></trkpt>
-      <trkpt lat="47.9775484" lon="15.1835534"></trkpt>
-      <trkpt lat="47.9774966" lon="15.1844156"></trkpt>
-      <trkpt lat="47.977604" lon="15.1844439"></trkpt>
-      <trkpt lat="47.9776927" lon="15.1843503"></trkpt>
-      <trkpt lat="47.9782576" lon="15.1833388"></trkpt>
-      <trkpt lat="47.9785377" lon="15.1825717"></trkpt>
-      <trkpt lat="47.9785916" lon="15.1824"></trkpt>
-      <trkpt lat="47.9782881" lon="15.1821747"></trkpt>
+      <trkpt lat="47.9784506" lon="15.1827403"></trkpt>
+      <trkpt lat="47.9782153" lon="15.1825671"></trkpt>
+      <trkpt lat="47.9778378" lon="15.1836624"></trkpt>
+      <trkpt lat="47.9779783" lon="15.1837774"></trkpt>
+      <trkpt lat="47.9782414" lon="15.1833187"></trkpt>
+      <trkpt lat="47.9784506" lon="15.1827403"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -43831,6 +43869,22 @@ version="1.1" creator="togpx">
       <trkpt lat="48.7572503" lon="15.1761894"></trkpt>
       <trkpt lat="48.7573582" lon="15.175977"></trkpt>
       <trkpt lat="48.7571685" lon="15.1757453"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell</name>
+    <trkseg>
+      <trkpt lat="47.7234637" lon="13.4241469"></trkpt>
+      <trkpt lat="47.7233645" lon="13.4242979"></trkpt>
+      <trkpt lat="47.7233853" lon="13.424328"></trkpt>
+      <trkpt lat="47.7234229" lon="13.4243826"></trkpt>
+      <trkpt lat="47.7234579" lon="13.4244335"></trkpt>
+      <trkpt lat="47.7234801" lon="13.4244657"></trkpt>
+      <trkpt lat="47.7235793" lon="13.4243148"></trkpt>
+      <trkpt lat="47.7235534" lon="13.4242772"></trkpt>
+      <trkpt lat="47.7235213" lon="13.4242306"></trkpt>
+      <trkpt lat="47.7234842" lon="13.4241767"></trkpt>
+      <trkpt lat="47.7234637" lon="13.4241469"></trkpt>
     </trkseg>
   </trk>
   <trk>
