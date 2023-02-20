@@ -26,7 +26,7 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
     - (AD) Andorra, (AL) Albania, (AT) Austria, (BA) Bosnia and Herzegovina, (BE) Belgium, (BG) Bulgaria, (BY) Belarus, (CH) Switzerland, (CY) Cyprus, (CZ) Czech Republic, (DE) Germany, (DK) Denmark, (EE) Estonia, (ES) Spain, (FI) Finland, (FO) Faroe Islands, (FR) France, (GB) United Kingdom, (GE) Georgia, (GG) Guernsey, (GI) Gibraltar, (GL) Greenland, (GR) Greece, (HR) Croatia, (HU) Hungary, (IE) Ireland, (IM) Isle of Man, (IS) Iceland, (IT) Italy, (JE) Jersey, (LI) Liechtenstein, (LT) Lithuania, (LU) Luxembourg, (LV) Latvia, (MC) Monaco, (MD) Moldova, (ME) Montenegro, (MK) North Macedonia, (MT) Malta, (NL) Netherlands, (NO) Norway, (PL) Poland, (PT) Portugal, (RO) Romania, (RS) Serbia, (RU) Russia, (SE) Sweden, (SI) Slovenia, (SJ) Svalbard and Jan Mayen, (SK) Slovakia, (SM) San Marino, (UA) Ukraine, (VA) City of the Vatican
 
-Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'analyseur [GpxPy](http://github.com/tkrajina/gpxpy) ainsi que d'autres outils Python pour un fonctionnement optimal avec Cruiser Desktop (Routage/Données -> Importer -> Fichier: *.gpx) :
+Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'analyseur [GpxPy](http://github.com/tkrajina/gpxpy) ainsi que d'autres outils Python pour un fonctionnement optimal avec Cruiser Desktop 3.0.9 (Routage -> Importer -> Nom et Type de Fichier: *.gpx -> Ovrier -> Superposition ) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
 
