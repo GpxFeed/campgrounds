@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-02-01T12:47:07Z", "timestamp_areas_base":
-      "2023-02-01T10:19:21Z", "copyright": "The data included in
+      "2023-02-27T01:17:54Z", "timestamp_areas_base":
+      "2023-02-27T00:34:24Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -479,7 +479,7 @@ version="1.1" creator="togpx">
     addr:street=Boulevard Barnaart; capacity=14;
     email=info@campingdeduinrand.nl; fee=yes; name=Caravanpark de
     Duinrand; phone=+31 23 571 2412; power_supply=no; source=local
-    knowledge; tents=no; tourism=caravan_site;
+    knowledge; tents=no; toilets=yes; tourism=caravan_site;
     website=http://www.campingdeduinrand.nl/;
     id=node/2765474839</desc>
     <link href="http://www.campingdeduinrand.nl/"></link>
@@ -709,16 +709,6 @@ version="1.1" creator="togpx">
     addr:postcode=6002RX; addr:street=Suffolkweg Zuid;
     name=Camperplaats Weert; tourism=caravan_site;
     id=node/3199801968</desc>
-  </wpt>
-  <wpt lat="53.2053009" lon="5.7967682">
-    <ele>2</ele>
-    <name>Camperplaatsen Wissesdwinger</name>
-    <desc>capacity=2; charge=EUR 6.50/day; fee=yes; maxstay=2 days;
-    name=Camperplaatsen Wissesdwinger; note=Pay at the parking
-    meter. No tents.
-    http://www.vvvleeuwarden.nl/detail/camperplaatsen-wissesdwinger/282d860c-0174-4b3f-9c42-3de3ef41e037;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; id=node/3206795297</desc>
   </wpt>
   <wpt lat="51.4093082" lon="5.9060795">
     <ele>36</ele>
@@ -1172,8 +1162,8 @@ version="1.1" creator="togpx">
   <wpt lat="51.5485989" lon="3.4551938">
     <ele>0</ele>
     <name>node/5611699524</name>
-    <desc>description:de=Parkplatz tagsüber; tourism=caravan_site;
-    id=node/5611699524</desc>
+    <desc>description:de=Parkplatz tagsüber; toilets=no;
+    tourism=caravan_site; id=node/5611699524</desc>
   </wpt>
   <wpt lat="51.3276773" lon="5.5558934">
     <ele>22</ele>
@@ -1778,6 +1768,17 @@ version="1.1" creator="togpx">
     <name>node/10079295317</name>
     <desc>addr:street=Rechtestraat; tourism=caravan_site;
     id=node/10079295317</desc>
+  </wpt>
+  <wpt lat="51.8859829" lon="5.9500923">
+    <ele>9</ele>
+    <name>Camperpark Lingewaard</name>
+    <desc>addr:city=Gendt; addr:housenumber=64;
+    addr:postcode=6691EH; addr:street=Zandvoort;
+    capacity:caravans=20; charge=16; designation=camper; fee=yes;
+    name=Camperpark Lingewaard;
+    note=https://camperparklingewaard.nl/; payment:cash=yes;
+    payment:pin=yes; start_date=2017; tents=no;
+    tourism=caravan_site; id=node/10678376296</desc>
   </wpt>
   <wpt lat="51.53390935" lon="4.077836872765818">
     <ele>-2</ele>
@@ -3396,12 +3397,6 @@ version="1.1" creator="togpx">
     power_supply=yes; shower=yes; toilets=yes;
     tourism=caravan_site; id=way/933880417</desc>
   </wpt>
-  <wpt lat="51.81655245" lon="3.8987773299243873">
-    <ele>-1</ele>
-    <name>Klepperstee</name>
-    <desc>landuse=village_green; name=Klepperstee;
-    tourism=caravan_site; wheelchair=yes; id=way/940822582</desc>
-  </wpt>
   <wpt lat="53.2313858" lon="5.818716596692799">
     <ele>-2</ele>
     <name>Camperplaats Jelsum</name>
@@ -3817,6 +3812,11 @@ version="1.1" creator="togpx">
     DL; addr:street=Woerdsestraat 4; name=De Woerdt;
     power_supply=yes; tourism=caravan_site;
     id=way/1133847081</desc>
+  </wpt>
+  <wpt lat="52.04598205" lon="5.018671020812153">
+    <ele>2</ele>
+    <name>way/1142394654</name>
+    <desc>tourism=caravan_site; id=way/1142394654</desc>
   </wpt>
   <trk>
     <name>Gorishoek</name>
@@ -8225,8 +8225,8 @@ version="1.1" creator="togpx">
       <trkpt lat="52.1121855" lon="6.0540718"></trkpt>
       <trkpt lat="52.111982" lon="6.0536427"></trkpt>
       <trkpt lat="52.1119242" lon="6.0536662"></trkpt>
-      <trkpt lat="52.1116644" lon="6.0546085"></trkpt>
-      <trkpt lat="52.1117522" lon="6.0546968"></trkpt>
+      <trkpt lat="52.111671" lon="6.0545723"></trkpt>
+      <trkpt lat="52.1117975" lon="6.0547102"></trkpt>
       <trkpt lat="52.1119122" lon="6.0549419"></trkpt>
       <trkpt lat="52.1121855" lon="6.0540718"></trkpt>
     </trkseg>
@@ -10576,17 +10576,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Klepperstee</name>
-    <trkseg>
-      <trkpt lat="51.8166743" lon="3.8986719"></trkpt>
-      <trkpt lat="51.8164306" lon="3.8988446"></trkpt>
-      <trkpt lat="51.816423" lon="3.8988763"></trkpt>
-      <trkpt lat="51.8164255" lon="3.8988859"></trkpt>
-      <trkpt lat="51.8166834" lon="3.8987041"></trkpt>
-      <trkpt lat="51.8166743" lon="3.8986719"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Camperplaats Jelsum</name>
     <trkseg>
       <trkpt lat="53.2322833" lon="5.8198078"></trkpt>
@@ -11461,6 +11450,19 @@ version="1.1" creator="togpx">
       <trkpt lat="51.8890069" lon="5.8744155"></trkpt>
       <trkpt lat="51.8889095" lon="5.8737189"></trkpt>
       <trkpt lat="51.8887631" lon="5.8737128"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1142394654</name>
+    <trkseg>
+      <trkpt lat="52.045853" lon="5.0188532"></trkpt>
+      <trkpt lat="52.046129" lon="5.018809"></trkpt>
+      <trkpt lat="52.0461281" lon="5.0187141"></trkpt>
+      <trkpt lat="52.0461244" lon="5.0185957"></trkpt>
+      <trkpt lat="52.0461133" lon="5.018594"></trkpt>
+      <trkpt lat="52.0461111" lon="5.0184586"></trkpt>
+      <trkpt lat="52.0458391" lon="5.0185659"></trkpt>
+      <trkpt lat="52.045853" lon="5.0188532"></trkpt>
     </trkseg>
   </trk>
 </gpx>
