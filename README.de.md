@@ -38,8 +38,6 @@ Wenn Sie feststellen, dass Daten falsch sind oder fehlen, wenden Sie sich bitte 
 
 # <h2>Andere Quellen für GPX-Campingplatz-Pois</h2>
 
-- http://www.archiescampings.eu/
-
 - http://www.uscampgrounds.info/
 
 # <h2>Andere Software, die OSM-Daten und -Dienste nutzt</h2>
