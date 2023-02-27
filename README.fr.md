@@ -38,8 +38,6 @@ Si vous constatez que des données sont incorrectes ou manquantes, veuillez cont
 
 # <h2>Autres sources pour GPX Campsite Pois</h2>
 
-- http://www.archiescampings.eu/
-
 - http://www.uscampgrounds.info/
 
 # <h2>Autres logiciels qui utilisent les données et les services de l'OSM</h2>
