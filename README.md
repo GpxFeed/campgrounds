@@ -38,6 +38,10 @@ If you find data are invalid or missing, please deal with OSM - for getting a cl
 
 # <h2>Other GPX camping site poi sources</h2>
 
+- https://www.flosm.de/html/POI-Karte.html
+
+- https://opencampingmap.org
+
 - http://www.uscampgrounds.info/
 
 # <h2>Other software using OSM data and services</h2>
