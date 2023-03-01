@@ -38,6 +38,10 @@ Wenn Sie feststellen, dass Daten falsch sind oder fehlen, wenden Sie sich bitte 
 
 # <h2>Andere Quellen für GPX-Campingplatz-Pois</h2>
 
+- https://www.flosm.de/html/POI-Karte.html
+
+- https://opencampingmap.org
+
 - http://www.uscampgrounds.info/
 
 # <h2>Andere Software, die OSM-Daten und -Dienste nutzt</h2>
