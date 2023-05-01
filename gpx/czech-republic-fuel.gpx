@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-04-01T00:33:54Z", "timestamp_areas_base":
-      "2023-03-31T22:48:38Z", "copyright": "The data included in
+      "2023-04-30T22:56:54Z", "timestamp_areas_base":
+      "2023-04-30T20:35:58Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1662,9 +1662,9 @@ version="1.1" creator="togpx">
     <ele>489</ele>
     <name>Shell</name>
     <desc>addr:city=Jablonec nad Nisou; addr:street=Želivského;
-    amenity=fuel; brand=Shell; compressed_air=yes; name=Shell;
-    opening_hours=24/7; operator=Shell Czech Republic, a.s.;
-    shop=yes; id=node/291100311</desc>
+    amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    compressed_air=yes; name=Shell; opening_hours=24/7;
+    operator=Shell Czech Republic, a.s.; id=node/291100311</desc>
   </wpt>
   <wpt lat="49.3977618" lon="15.60539">
     <ele>525</ele>
@@ -2923,8 +2923,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Verušičky; addr:conscriptionnumber=60;
     addr:country=CZ; addr:housenumber=60; addr:place=Verušičky;
     addr:postcode=36452; amenity=fuel; brand=Medos Agro Travel;
-    name=Medos Agro; ref:ruian=12012793; source:addr=ruian;
-    id=node/351792915</desc>
+    name=Medos Agro; ref:ruian:addr=12012793;
+    source:addr=cuzk:ruian; id=node/351792915</desc>
   </wpt>
   <wpt lat="49.8220484" lon="17.2029103">
     <ele>280</ele>
@@ -4480,7 +4480,8 @@ version="1.1" creator="togpx">
     <name>Benzina Habry</name>
     <desc>addr:city=Habry; addr:housenumber=410;
     addr:postcode=58281; addr:street=Pražská; amenity=fuel;
-    brand=Benzina; name=Benzina Habry; id=node/550023521</desc>
+    brand=Benzina; check_date=2023-04-04; name=Benzina Habry;
+    id=node/550023521</desc>
   </wpt>
   <wpt lat="49.3304847" lon="13.5401551">
     <ele>524</ele>
@@ -4602,7 +4603,7 @@ version="1.1" creator="togpx">
   <wpt lat="50.1095768" lon="14.6395044">
     <ele>270</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; name=Shell;
     name:en=Shell; id=node/569118063</desc>
   </wpt>
@@ -4870,7 +4871,7 @@ version="1.1" creator="togpx">
   <wpt lat="50.1389056" lon="14.1005217">
     <ele>400</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; compressed_air=yes;
     name=Shell; opening_hours=Mo-Su 06:00-22:00;
     id=node/622982468</desc>
@@ -5808,10 +5809,13 @@ version="1.1" creator="togpx">
   <wpt lat="49.9599542" lon="16.9758171">
     <ele>312</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Shell;
-    opening_hours=24/7; operator=Shell Czech Republic, a.s.;
-    id=node/872789320</desc>
+    <desc>addr:city=Šumperk; addr:conscriptionnumber=2846;
+    addr:country=CZ; addr:housenumber=2846/1c; addr:place=Šumperk;
+    addr:postcode=78701; addr:street=Jesenická;
+    addr:streetnumber=1c; amenity=fuel; brand=Shell;
+    brand:wikidata=Q110716465; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Shell; opening_hours=24/7; operator=Shell Czech Republic,
+    a.s.; id=node/872789320</desc>
   </wpt>
   <wpt lat="50.1020954" lon="13.7395858">
     <ele>325</ele>
@@ -5835,10 +5839,10 @@ version="1.1" creator="togpx">
   <wpt lat="50.1057254" lon="13.7510848">
     <ele>326</ele>
     <name>RoBiN OIL Rakovník</name>
-    <desc>amenity=fuel; email=cs78@robinoil.cz; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; kiosk=yes; name=RoBiN OIL
-    Rakovník; opening_hours=24/7; operator=RoBiN OIL s.r.o.;
-    toilets=yes;
+    <desc>amenity=fuel; compressed_air=yes; email=cs78@robinoil.cz;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes; kiosk=yes;
+    name=RoBiN OIL Rakovník; opening_hours=24/7; operator=RoBiN OIL
+    s.r.o.; toilets=yes;
     website=http://www.robinoil.cz/index.php/cerpaci-stanice/vyhledavani-cs/63;
     id=node/876214527</desc>
     <link href="http://www.robinoil.cz/index.php/cerpaci-stanice/vyhledavani-cs/63">
@@ -6012,22 +6016,23 @@ version="1.1" creator="togpx">
   <wpt lat="49.8313844" lon="18.2821745">
     <ele>213</ele>
     <name>Eurobit, Ostrava - Místecká</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; name=Eurobit, Ostrava - Místecká;
-    operator=EUROBIT - čerpací stanice s.r.o.; shop=yes;
-    website=https://www.eurobit.cz/; id=node/906702468</desc>
+    <desc>amenity=fuel; compressed_air=yes; fuel:diesel=yes;
+    fuel:e85=yes; fuel:octane_95=yes; name=Eurobit, Ostrava -
+    Místecká; opening_hours=24/7; operator=EUROBIT - čerpací
+    stanice s.r.o.; shop=yes; website=https://www.eurobit.cz/;
+    id=node/906702468</desc>
     <link href="https://www.eurobit.cz/"></link>
   </wpt>
   <wpt lat="49.8277102" lon="18.2818082">
     <ele>205</ele>
     <name>Benzina - Ostrava, Karolína</name>
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; fuel:adblue:canister=yes;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    internet_access=wlan; internet_access:fee=no; name=Benzina -
-    Ostrava, Karolína; opening_hours=24/7; operator=Unipetrol RPA,
-    s.r.o. – Benzina; website=https://www.benzina.cz/;
-    id=node/906702756</desc>
+    brand:wikipedia=cs:Benzina; compressed_air=yes;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=no; name=Benzina - Ostrava, Karolína;
+    opening_hours=24/7; operator=Unipetrol RPA, s.r.o. – Benzina;
+    website=https://www.benzina.cz/; id=node/906702756</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
   <wpt lat="49.9219674" lon="14.633782">
@@ -6654,14 +6659,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.1839902" lon="16.371595">
     <ele>317</ele>
-    <name>Adosa Rosice</name>
-    <desc>amenity=fuel; description=22:00-05:00 tankautomat;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Adosa Rosice; opening_hours=24/7; operator=ADOSA a.s.;
-    website=https://www.adosa.cz/cerpaci-stanice-rosice/;
-    id=node/1156583318</desc>
-    <link href="https://www.adosa.cz/cerpaci-stanice-rosice/">
-    </link>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    description=22:00-05:00 tankautomat; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell;
+    opening_hours=24/7; id=node/1156583318</desc>
   </wpt>
   <wpt lat="49.8076867" lon="18.2710027">
     <ele>228</ele>
@@ -7468,8 +7470,8 @@ version="1.1" creator="togpx">
     addr:conscriptionnumber=1855; addr:country=CZ;
     addr:housenumber=1855; addr:postcode=25001; addr:street=Zápská;
     amenity=fuel; fuel:cng=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Karoil; ref:ruian=19969091;
-    source:addr=ruian; id=node/1433287550</desc>
+    fuel:octane_95=yes; name=Karoil; ref:ruian:addr=19969091;
+    source:addr=cuzk:ruian; id=node/1433287550</desc>
   </wpt>
   <wpt lat="50.1434195" lon="14.1127971">
     <ele>363</ele>
@@ -7929,7 +7931,7 @@ version="1.1" creator="togpx">
     fuel:e10=no; fuel:e85=yes; fuel:electricity=no; fuel:lpg=no;
     fuel:octane_100=no; fuel:octane_91=no; fuel:octane_95=yes;
     fuel:octane_98=yes; name=ČSAD; operator=ČSAD;
-    ref:ruian=28484193; source:addr=ruian;
+    ref:ruian:addr=28484193; source:addr=cuzk:ruian;
     id=node/1695267012</desc>
   </wpt>
   <wpt lat="49.4739041" lon="17.1243157">
@@ -8204,10 +8206,10 @@ version="1.1" creator="togpx">
     website=https://www.benzina.cz/; id=node/1769283484</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
-  <wpt lat="50.5127012" lon="15.5559722">
+  <wpt lat="50.5127486" lon="15.5559467">
     <ele>509</ele>
     <name>Karel Rulf</name>
-    <desc>amenity=fuel; operator=Karel Rulf;
+    <desc>amenity=fuel; compressed_air=no; operator=Karel Rulf;
     id=node/1769688393</desc>
   </wpt>
   <wpt lat="48.9886701" lon="14.4784669">
@@ -9735,8 +9737,8 @@ version="1.1" creator="togpx">
     addr:street=Předmostí; addr:streetnumber=4; amenity=fuel;
     brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; name=Shell;
-    opening_hours=Mo-Su 06:00-22:00; ref:ruian=31036295;
-    source:addr=ruian; id=node/2292756574</desc>
+    opening_hours=Mo-Su 06:00-22:00; ref:ruian:addr=31036295;
+    source:addr=cuzk:ruian; id=node/2292756574</desc>
   </wpt>
   <wpt lat="50.1582467" lon="17.5742841">
     <ele>386</ele>
@@ -10017,8 +10019,8 @@ version="1.1" creator="togpx">
     <name>Pchery</name>
     <desc>addr:city=Pchery; addr:conscriptionnumber=361;
     addr:country=CZ; addr:housenumber=361; addr:postcode=27308;
-    addr:street=5. května; amenity=fuel; ref:ruian=27426254;
-    source:addr=ruian; id=node/2347130290</desc>
+    addr:street=5. května; amenity=fuel; ref:ruian:addr=27426254;
+    source:addr=cuzk:ruian; id=node/2347130290</desc>
   </wpt>
   <wpt lat="48.8696368" lon="17.0066783">
     <ele>241</ele>
@@ -10078,9 +10080,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.7638234" lon="17.1993939">
     <ele>241</ele>
-    <name>node/2366264092</name>
+    <name>MJM agro, a. s. - čerpací stanice</name>
     <desc>amenity=fuel; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; id=node/2366264092</desc>
+    fuel:octane_95=yes; name=MJM agro, a. s. - čerpací stanice;
+    operator=MJM agro, a.s.; id=node/2366264092</desc>
   </wpt>
   <wpt lat="50.7697931" lon="14.2081062">
     <ele>136</ele>
@@ -10348,7 +10351,7 @@ version="1.1" creator="togpx">
     addr:country=CZ; addr:housenumber=890; addr:postcode=37701;
     addr:street=Václavská; amenity=fuel; brand=Benzina;
     brand:wikidata=Q11130894; brand:wikipedia=cs:Benzina;
-    name=Benzina; ref:ruian=31348769; source:addr=ruian;
+    name=Benzina; ref:ruian:addr=31348769; source:addr=cuzk:ruian;
     id=node/2397668044</desc>
   </wpt>
   <wpt lat="50.9634933" lon="14.5589227">
@@ -10476,8 +10479,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Velešín; addr:conscriptionnumber=469;
     addr:country=CZ; addr:housenumber=469; addr:postcode=38232;
     addr:street=Kaplická; amenity=fuel; brand=Benzina;
-    brand:wikidata=Q11130894; name=Benzina; ref:ruian=25492403;
-    source:addr=ruian; id=node/2410891148</desc>
+    brand:wikidata=Q11130894; name=Benzina;
+    ref:ruian:addr=25492403; source:addr=cuzk:ruian;
+    id=node/2410891148</desc>
   </wpt>
   <wpt lat="48.9100435" lon="13.8717451">
     <ele>791</ele>
@@ -10917,7 +10921,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Ročov; addr:conscriptionnumber=224;
     addr:country=CZ; addr:housenumber=224; addr:place=Ročov;
     addr:postcode=43967; amenity=fuel; name=PEP OIL;
-    ref:ruian=27366324; source:addr=ruian;
+    ref:ruian:addr=27366324; source:addr=cuzk:ruian;
     id=node/2545747020</desc>
   </wpt>
   <wpt lat="49.2121829" lon="15.8339236">
@@ -11335,9 +11339,9 @@ version="1.1" creator="togpx">
     fuel:e85=yes; fuel:octane_95=yes; name=Tank Ono - ČS Sokolov;
     opening_hours=24/7; operator=Tank Ono s.r.o.; payment:cash=yes;
     payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
-    payment:visa=yes; phone=+420 724 300 593; ref:ruian=41828062;
-    shop=yes; source:addr=ruian; toilets=yes;
-    website=http://www.tank-ono.cz/; wheelchair=yes;
+    payment:visa=yes; phone=+420 724 300 593;
+    ref:ruian:addr=41828062; shop=yes; source:addr=cuzk:ruian;
+    toilets=yes; website=http://www.tank-ono.cz/; wheelchair=yes;
     id=node/2705286264</desc>
     <link href="http://www.tank-ono.cz/"></link>
   </wpt>
@@ -14068,12 +14072,13 @@ version="1.1" creator="togpx">
     <ele>287</ele>
     <name>Benzina - Zlín, Jižní Svahy</name>
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; fuel:GTL_diesel=yes;
-    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    internet_access=wlan; internet_access:fee=no; name=Benzina -
-    Zlín, Jižní Svahy; opening_hours=05:00-23:00;
-    operator=Unipetrol RPA, s.r.o. – Benzina;
-    website=https://www.benzina.cz/; id=node/3946570661</desc>
+    brand:wikipedia=cs:Benzina; compressed_air=yes;
+    fuel:GTL_diesel=yes; fuel:adblue:canister=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=no; name=Benzina - Zlín, Jižní Svahy;
+    opening_hours=05:00-23:00; operator=Unipetrol RPA, s.r.o. –
+    Benzina; website=https://www.benzina.cz/;
+    id=node/3946570661</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
   <wpt lat="49.7269664" lon="18.1946819">
@@ -14588,7 +14593,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=DZ-oil; name:cs=DZ-oil;
     id=node/4458305690</desc>
   </wpt>
-  <wpt lat="49.9668027" lon="16.4011879">
+  <wpt lat="49.9667881" lon="16.4011609">
     <ele>328</ele>
     <name>coop 24 Ústí nad Orlicí</name>
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
@@ -14859,7 +14864,7 @@ version="1.1" creator="togpx">
   <wpt lat="50.1121987" lon="14.2822278">
     <ele>354</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; fuel:diesel=yes;
     fuel:lpg=yes; fuel:octane_91=yes; fuel:octane_95=yes;
     name=Shell; name:cs=Shell; name:en=Shell; opening_hours=24/7;
@@ -14891,8 +14896,8 @@ version="1.1" creator="togpx">
     <ele>220</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Shell plc; name=Shell; name:en=Shell;
-    id=node/4828735725</desc>
+    brand:wikipedia=en:Shell plc; compressed_air=yes; name=Shell;
+    name:en=Shell; id=node/4828735725</desc>
   </wpt>
   <wpt lat="49.7896424" lon="16.4827557">
     <ele>446</ele>
@@ -16091,7 +16096,7 @@ version="1.1" creator="togpx">
   <wpt lat="49.8252611" lon="18.2781861">
     <ele>216</ele>
     <name>EuroOil Ostrava, Vítkovická</name>
-    <desc>amenity=fuel; brand=EuroOil;
+    <desc>amenity=fuel; brand=EuroOil; compressed_air=yes;
     contact:website=https://www.ceproas.cz/eurooil;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes; name=EuroOil
     Ostrava, Vítkovická; opening_hours=Mo-Su 05:30-21:00;
@@ -16965,7 +16970,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=EuroOil; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=EuroOil Loučovice;
     opening_hours=Mo-Su 06:00-19:00; operator=Čepro, a.s.; ref=230;
-    id=node/5695399485</desc>
+    vending=fuel; vending_machine=fuel; id=node/5695399485</desc>
   </wpt>
   <wpt lat="49.865362" lon="16.3252543">
     <ele>375</ele>
@@ -17469,10 +17474,11 @@ version="1.1" creator="togpx">
     <ele>221</ele>
     <name>MOL, Pardubice - Jana Zajíce</name>
     <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); fuel:diesel=yes;
-    fuel:octane_95=yes; name=MOL, Pardubice - Jana Zajíce;
-    opening_hours=05:00-22:00; operator=MOL Česká republika,
-    s.r.o.; website=https://molcesko.cz/; id=node/6429862988</desc>
+    brand:wikipedia=en:MOL (company); compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=MOL, Pardubice - Jana
+    Zajíce; opening_hours=05:00-22:00; operator=MOL Česká
+    republika, s.r.o.; website=https://molcesko.cz/;
+    id=node/6429862988</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
   <wpt lat="50.2210397" lon="15.8070927">
@@ -18080,10 +18086,11 @@ version="1.1" creator="togpx">
   <wpt lat="50.0033922" lon="14.6602222">
     <ele>362</ele>
     <name>Benzina</name>
-    <desc>amenity=fuel; brand=Benzina; fuel:adblue:canister=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    internet_access=wlan; internet_access:fee=no; name=Benzina;
-    opening_hours=24/7; operator=Unipetrol RPA, s.r.o. – Benzina;
+    <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; internet_access=wlan;
+    internet_access:fee=no; name=Benzina; opening_hours=24/7;
+    operator=Unipetrol RPA, s.r.o. – Benzina;
     id=node/7384302871</desc>
   </wpt>
   <wpt lat="49.7946363" lon="14.6792134">
@@ -18099,7 +18106,8 @@ version="1.1" creator="togpx">
   <wpt lat="50.0672909" lon="14.3346396">
     <ele>283</ele>
     <name>Tomegas</name>
-    <desc>amenity=fuel; fuel:lpg=yes; name=Tomegas;
+    <desc>amenity=fuel; fuel:cng=yes; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; name=Tomegas;
     opening_hours=24/7; id=node/7470148579</desc>
   </wpt>
   <wpt lat="50.1037563" lon="14.5272609">
@@ -20483,7 +20491,7 @@ version="1.1" creator="togpx">
     <ele>303</ele>
     <name>Pumpa</name>
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Pumpa; id=node/10304848145</desc>
+    name=Pumpa; start_date=2021; id=node/10304848145</desc>
   </wpt>
   <wpt lat="49.4314536" lon="14.5546894">
     <ele>480</ele>
@@ -20606,6 +20614,52 @@ version="1.1" creator="togpx">
     website=https://www.fillpump.cz/; id=node/10775251705</desc>
     <link href="https://www.fillpump.cz/"></link>
   </wpt>
+  <wpt lat="49.5254302" lon="12.9372852">
+    <ele>374</ele>
+    <name>Agropodnik Domažlice, a. s.</name>
+    <desc>addr:street=Nádražní; amenity=fuel; fuel:diesel=yes;
+    fuel:octane_95=yes; operator=Agropodnik Domažlice, a. s.;
+    self_service=yes; id=node/10801429004</desc>
+  </wpt>
+  <wpt lat="49.2904894" lon="17.0972069">
+    <ele>234</ele>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    name=Shell; id=node/10805159408</desc>
+  </wpt>
+  <wpt lat="49.1248642" lon="13.2099466">
+    <ele>718</ele>
+    <name>one1 - Alžbětín</name>
+    <desc>amenity=fuel; brand=F1; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=one1 - Alžbětín;
+    opening_hours=Mo-Su 05:00-22:00; shop=yes;
+    id=node/10805189284</desc>
+  </wpt>
+  <wpt lat="49.6493202" lon="12.532737">
+    <ele>520</ele>
+    <name>Free1 GAS - Rozvadov TIR CZ</name>
+    <desc>amenity=fuel; brand=Free1 GAS; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; name=Free1 GAS - Rozvadov TIR CZ;
+    opening_hours=24/7; shop=convenience;
+    id=node/10811296390</desc>
+  </wpt>
+  <wpt lat="49.6486212" lon="12.5329274">
+    <ele>519</ele>
+    <name>Free1 Gas</name>
+    <desc>amenity=fuel; brand=Free1 GAS; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Free1 Gas;
+    opening_hours=24/7; operator=Free1 Gas; phone=+420379571652;
+    self_service=yes; shop=convenience; id=node/10811304911</desc>
+  </wpt>
+  <wpt lat="49.6437201" lon="12.5291347">
+    <ele>514</ele>
+    <name>Free1 GAS - Rozvadov TIR D</name>
+    <desc>amenity=fuel; brand=Free1 GAS; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=Free1 GAS - Rozvadov TIR D;
+    opening_hours=24/7; operator=Free1 GAS; phone=+420379571652;
+    self_service=yes; id=node/10814472644</desc>
+  </wpt>
   <wpt lat="50.034549850000005" lon="14.535948902263113">
     <ele>293</ele>
     <name>Shell</name>
@@ -20654,9 +20708,10 @@ version="1.1" creator="togpx">
   <wpt lat="49.99825935" lon="14.65559368943143">
     <ele>325</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; building=civic;
-    building:ruian:type=15; fuel:diesel=yes; layer=1; name=Shell;
-    name:cs=Shell; ref:ruian:building=39909271; source=cuzk:ruian;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    building=civic; building:ruian:type=15; fuel:diesel=yes;
+    layer=1; name=Shell; name:cs=Shell;
+    ref:ruian:building=39909271; source=cuzk:ruian;
     id=way/27010728</desc>
   </wpt>
   <wpt lat="50.0569262" lon="14.513816934129494">
@@ -21530,11 +21585,11 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=HDB; building=roof; source=cuzk:km;
     id=way/62076840</desc>
   </wpt>
-  <wpt lat="49.9659915" lon="16.404730972277644">
+  <wpt lat="49.9659919" lon="16.404733133480004">
     <ele>338</ele>
     <name>Benzina - Ústí Nad Orlicí, Moravská</name>
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; fuel:GTL_diesel=yes;
+    brand:wikipedia=cs:Benzina; building=roof; fuel:GTL_diesel=yes;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
     internet_access=wlan; internet_access:fee=no; name=Benzina -
     Ústí Nad Orlicí, Moravská; opening_hours=05:00-22:00;
@@ -21737,13 +21792,13 @@ version="1.1" creator="togpx">
     <ele>186</ele>
     <name>Benzina</name>
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; building:ruian:type=15;
-    fuel:1_25=no; fuel:1_50=no; fuel:GTL_diesel=no;
-    fuel:HGV_diesel=no; fuel:biodiesel=no; fuel:biogas=no;
-    fuel:cng=no; fuel:diesel=yes; fuel:e10=no; fuel:e85=no;
-    fuel:electricity=no; fuel:octane_100=no; fuel:octane_91=no;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Benzina;
-    operator=Benzina; ref:ruian:building=46109951;
+    brand:wikipedia=cs:Benzina; building=transportation;
+    building:ruian:type=15; fuel:1_25=no; fuel:1_50=no;
+    fuel:GTL_diesel=no; fuel:HGV_diesel=no; fuel:biodiesel=no;
+    fuel:biogas=no; fuel:cng=no; fuel:diesel=yes; fuel:e10=no;
+    fuel:e85=no; fuel:electricity=no; fuel:octane_100=no;
+    fuel:octane_91=no; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Benzina; operator=Benzina; ref:ruian:building=46109951;
     source=cuzk:ruian; id=way/76740430</desc>
   </wpt>
   <wpt lat="50.4095633" lon="12.928216176132228">
@@ -21869,7 +21924,7 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     name=Shell; source=cuzk:km,survey; id=way/82952066</desc>
   </wpt>
-  <wpt lat="49.57235885" lon="15.743370753736922">
+  <wpt lat="49.5723589" lon="15.74337069317496">
     <ele>461</ele>
     <name>Nord</name>
     <desc>amenity=fuel; building=civic; building:levels=1;
@@ -21929,11 +21984,12 @@ version="1.1" creator="togpx">
     opening_hours=24/7; ref:ruian:building=21994170;
     roof:shape=flat; source=cuzk:ruian; id=way/90068780</desc>
   </wpt>
-  <wpt lat="48.8540395" lon="16.10932431347477">
+  <wpt lat="48.85403885" lon="16.10932882101402">
     <ele>258</ele>
     <name>way/90085239</name>
-    <desc>amenity=fuel; brand=UniCorn; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; source=cuzk:km;
+    <desc>amenity=fuel; brand=UniCorn; building=industrial;
+    building:ruian:type=16; fuel:diesel=yes; fuel:octane_95=yes;
+    ref:ruian:building=47489782; source=cuzk:ruian;
     id=way/90085239</desc>
   </wpt>
   <wpt lat="49.85459485" lon="18.422031942641368">
@@ -21945,15 +22001,15 @@ version="1.1" creator="togpx">
     name=W8 Orlová; operator=W8; ref:ruian:building=26189551;
     self_service=yes; id=way/90271759</desc>
   </wpt>
-  <wpt lat="49.7532485" lon="16.47705916463415">
+  <wpt lat="49.753246649999994" lon="16.477062098067623">
     <ele>437</ele>
-    <name>Svitavy</name>
+    <name>Benzina</name>
     <desc>addr:city=Svitavy; addr:conscriptionnumber=716;
     addr:country=CZ; addr:housenumber=716/1; addr:postcode=56802;
     addr:street=U Tří mostů; addr:streetnumber=1; amenity=fuel;
-    brand=Benzina; building=yes; opening_hours=24/7;
-    ref:ruian=18912982; shop=yes; source=cuzk:km;
-    source:addr=ruian; id=way/90472076</desc>
+    brand=Benzina; brand:wikidata=Q11130894; building=yes;
+    name=Benzina; opening_hours=24/7; ref:ruian=18912982;
+    source=cuzk:km; source:addr=ruian; id=way/90472076</desc>
   </wpt>
   <wpt lat="49.15326535" lon="16.62932465947239">
     <ele>197</ele>
@@ -22238,12 +22294,12 @@ version="1.1" creator="togpx">
     ref:ruian:building=26245485; source=cuzk:ruian;
     start_date=2007-06-21; id=way/108243357</desc>
   </wpt>
-  <wpt lat="49.72205005" lon="13.412134929636359">
+  <wpt lat="49.722051699999994" lon="13.412133924487424">
     <ele>345</ele>
     <name>way/109349975</name>
-    <desc>amenity=fuel; building=civic; building:ruian:type=15;
-    ref:ruian:building=48515680; source=cuzk:ruian;
-    id=way/109349975</desc>
+    <desc>amenity=fuel; building=civic; building:levels=1;
+    building:ruian:type=15; ref:ruian:building=23997435;
+    source=cuzk:ruian; id=way/109349975</desc>
   </wpt>
   <wpt lat="49.735634700000006" lon="13.328166944551587">
     <ele>352</ele>
@@ -22836,9 +22892,8 @@ version="1.1" creator="togpx">
     <name>C.S. Cargo</name>
     <desc>amenity=fuel; building=civic; building:ruian:type=5;
     fuel:diesel=yes; fuel:octane_95=yes; name=C.S. Cargo;
-    operator=C.S.Cargo; ref:ruian=42217008;
-    ref:ruian:building=42217008; source=cuzk:ruian;
-    id=way/194509812</desc>
+    operator=C.S.Cargo; ref:ruian:building=42217008;
+    source=cuzk:ruian; id=way/194509812</desc>
   </wpt>
   <wpt lat="48.86631525" lon="16.82472205392571">
     <ele>163</ele>
@@ -22846,16 +22901,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building=civic; building:ruian:type=5;
     ref:ruian:building=10033467; source=cuzk:ruian;
     id=way/199534157</desc>
-  </wpt>
-  <wpt lat="49.6433052" lon="12.528810803895178">
-    <ele>513</ele>
-    <name>Free1 GAS</name>
-    <desc>amenity=fuel; brand=Free1 GAS; building=yes;
-    building:ruian:type=19; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; layer=1; name=Free1 GAS;
-    opening_hours=24/7; operator=Free1 GAS; phone=+420379571652;
-    ref:ruian:building=49763237; self_service=yes;
-    source=cuzk:ruian; id=way/199647482</desc>
   </wpt>
   <wpt lat="49.0528642" lon="13.797304064957718">
     <ele>700</ele>
@@ -22991,6 +23036,13 @@ version="1.1" creator="togpx">
     id=way/207909822</desc>
     <link href="https://www.omv.cz/"></link>
   </wpt>
+  <wpt lat="49.7919866" lon="12.65598365433759">
+    <ele>473</ele>
+    <name>way/207964781</name>
+    <desc>access=yes; amenity=fuel; building=roof;
+    building:ruian:type=17; layer=1; ref:ruian:building=38328020;
+    source=cuzk:ruian; id=way/207964781</desc>
+  </wpt>
   <wpt lat="50.190770400000005" lon="15.806175336158347">
     <ele>226</ele>
     <name>Tesco</name>
@@ -23122,15 +23174,15 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
     brand:wikipedia=cs:Benzina; building=industrial;
     building:levels=1; building:ruian:type=16; name=Benzina;
-    operator=Benzina s.r.o.; ref:ruian=41143540;
-    ref:ruian:building=54197899; source=cuzk:ruian;
-    start_date=1998-08-20; id=way/222792734</desc>
+    operator=Benzina s.r.o.; ref:ruian:building=54197899;
+    source=cuzk:ruian; start_date=1998-08-20;
+    id=way/222792734</desc>
   </wpt>
   <wpt lat="50.50508979999999" lon="14.05152363028476">
     <ele>153</ele>
     <name>way/222792759</name>
     <desc>amenity=fuel; building=residential; building:levels=1;
-    building:ruian:type=3; fuel:lpg=yes; ref:ruian=25092511;
+    building:ruian:type=3; fuel:lpg=yes;
     ref:ruian:building=25092511; source=cuzk:ruian;
     start_date=2002-04-22; id=way/222792759</desc>
   </wpt>
@@ -23348,17 +23400,17 @@ version="1.1" creator="togpx">
     internet_access:fee=no; name=Benzina; opening_hours=24/7;
     operator=Unipetrol RPA, s.r.o. – Benzina;
     ref:ruian:addr=25990152; ref:ruian:building=25495852;
-    roof:levels=1; source=cuzk:ruian; source:addr=cuzk:ruian;
-    start_date=2004-05-01; website=https://www.benzina.cz/;
-    id=way/257063592</desc>
+    roof:levels=1; source=cuzk:ruian; start_date=2004-05-01;
+    website=https://www.benzina.cz/; id=way/257063592</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
   <wpt lat="49.9840959" lon="14.6030472">
     <ele>342</ele>
     <name>Shell Česká republika</name>
     <desc>access=customers; amenity=fuel; brand=Shell;
-    building=yes; building:ruian:type=15; fee=no; name=Shell Česká
-    republika; ref:ruian:building=48706728; source=cuzk:ruian;
+    brand:wikidata=Q110716465; building=yes;
+    building:ruian:type=15; fee=no; name=Shell Česká republika;
+    ref:ruian:building=48706728; source=cuzk:ruian;
     toilets:disposal=flush; toilets:position=seated,urinal;
     wheelchair=yes; id=way/257140228</desc>
   </wpt>
@@ -23525,10 +23577,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.47536375" lon="15.013840485194194">
     <ele>566</ele>
-    <name>LPG</name>
+    <name>NOVOPLYN</name>
     <desc>amenity=fuel; building=transportation;
-    building:ruian:type=19; name=LPG; ref:ruian:building=39265706;
-    source=cuzk:ruian; id=way/280776164</desc>
+    building:ruian:type=19; fuel:lpg=yes; name=NOVOPLYN;
+    ref:ruian:building=39265706; source=cuzk:ruian;
+    id=way/280776164</desc>
   </wpt>
   <wpt lat="48.81679335" lon="14.302057597531451">
     <ele>509</ele>
@@ -23623,9 +23676,8 @@ version="1.1" creator="togpx">
     internet_access:fee=no; name=Benzina; opening_hours=24/7;
     operator=Unipetrol RPA, s.r.o. – Benzina;
     ref:ruian:addr=25990161; ref:ruian:building=25495861;
-    source=cuzk:ruian; source:addr=cuzk:ruian;
-    start_date=2004-05-01; website=https://www.benzina.cz/;
-    id=way/299031866</desc>
+    source=cuzk:ruian; start_date=2004-05-01;
+    website=https://www.benzina.cz/; id=way/299031866</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
   <wpt lat="50.920374800000005" lon="14.607991607478635">
@@ -24130,6 +24182,14 @@ version="1.1" creator="togpx">
     source=cuzk:ruian; start_date=2007-07-24;
     id=way/482007646</desc>
   </wpt>
+  <wpt lat="48.9891321" lon="16.14350661290859">
+    <ele>359</ele>
+    <name>as</name>
+    <desc>amenity=fuel; building=industrial;
+    building:ruian:type=16; fuel:diesel=yes; fuel:octane_95=yes;
+    name=as; ref:ruian:building=42887771; source=cuzk:ruian;
+    id=way/483697650</desc>
+  </wpt>
   <wpt lat="49.35304669999999" lon="16.649347054269764">
     <ele>276</ele>
     <name>OMV</name>
@@ -24438,25 +24498,14 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building=yes; name=K &amp; P čerpací
     stanice; self_service=yes; id=way/701777440</desc>
   </wpt>
-  <wpt lat="49.64862025" lon="12.532931051932824">
-    <ele>519</ele>
-    <name>Free1 Gas</name>
-    <desc>addr:conscriptionnumber=277; addr:housenumber=277;
-    addr:place=Rozvadov; addr:postcode=34806; amenity=fuel;
-    brand=Free1 GAS; building=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Free1 Gas;
-    opening_hours=24/7; operator=Free1 Gas; phone=+420379571652;
-    ref:ruian:addr=74473328; self_service=yes; shop=convenience;
-    id=way/714512110</desc>
-  </wpt>
   <wpt lat="48.812275400000004" lon="14.322645140852751">
     <ele>496</ele>
     <name>MOL</name>
     <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL (company); building=roof;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    layer=1; name=MOL; opening_hours=Mo-Su 05:00-23:00;
-    payment:cash=yes; payment:credit_cards=yes;
+    compressed_air=separate; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=MOL; opening_hours=Mo-Su
+    05:00-23:00; payment:cash=yes; payment:credit_cards=yes;
     id=way/722620860</desc>
   </wpt>
   <wpt lat="49.77728315" lon="14.685075153565604">
@@ -24589,11 +24638,6 @@ version="1.1" creator="togpx">
     <ele>464</ele>
     <name>way/875777675</name>
     <desc>amenity=fuel; self_service=no; id=way/875777675</desc>
-  </wpt>
-  <wpt lat="49.15422755" lon="15.00235014103812">
-    <ele>464</ele>
-    <name>way/876243160</name>
-    <desc>amenity=fuel; id=way/876243160</desc>
   </wpt>
   <wpt lat="49.184687499999995" lon="16.648633785994726">
     <ele>239</ele>
@@ -24776,7 +24820,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.083895549999994" lon="15.437399800000001">
     <ele>469</ele>
     <name>ICOM</name>
-    <desc>amenity=fuel; operator=ICOM; start_date=2024;
+    <desc>amenity=fuel; brand=ICOM; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=ICOM;
+    opening_hours:covid19=24/7; operator=ICOM; start_date=2024;
     id=way/1154124841</desc>
   </wpt>
   <wpt lat="49.05024255" lon="14.12102350890591">
@@ -26292,11 +26338,11 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="49.966076" lon="16.404751"></trkpt>
       <trkpt lat="49.966081" lon="16.404691"></trkpt>
-      <trkpt lat="49.965974" lon="16.404565"></trkpt>
-      <trkpt lat="49.965938" lon="16.404643"></trkpt>
-      <trkpt lat="49.965971" lon="16.404681"></trkpt>
-      <trkpt lat="49.96592" lon="16.404796"></trkpt>
-      <trkpt lat="49.966009" lon="16.404896"></trkpt>
+      <trkpt lat="49.9659746" lon="16.404571"></trkpt>
+      <trkpt lat="49.9659414" lon="16.4046422"></trkpt>
+      <trkpt lat="49.9659749" lon="16.40468"></trkpt>
+      <trkpt lat="49.9659209" lon="16.4047958"></trkpt>
+      <trkpt lat="49.9660089" lon="16.4048949"></trkpt>
       <trkpt lat="49.966076" lon="16.404751"></trkpt>
     </trkseg>
   </trk>
@@ -26605,6 +26651,8 @@ version="1.1" creator="togpx">
       <trkpt lat="50.1907523" lon="14.6469178"></trkpt>
       <trkpt lat="50.1907288" lon="14.6469775"></trkpt>
       <trkpt lat="50.1908152" lon="14.6470582"></trkpt>
+      <trkpt lat="50.1908243" lon="14.6470347"></trkpt>
+      <trkpt lat="50.1908643" lon="14.6469309"></trkpt>
       <trkpt lat="50.1908729" lon="14.6469085"></trkpt>
       <trkpt lat="50.1908285" lon="14.6468659"></trkpt>
     </trkseg>
@@ -26806,17 +26854,18 @@ version="1.1" creator="togpx">
   <trk>
     <name>Nord</name>
     <trkseg>
-      <trkpt lat="49.572416" lon="15.7433558"></trkpt>
-      <trkpt lat="49.5723829" lon="15.7432763"></trkpt>
-      <trkpt lat="49.572316" lon="15.7433403"></trkpt>
-      <trkpt lat="49.572342" lon="15.7434018"></trkpt>
+      <trkpt lat="49.5724169" lon="15.7433561"></trkpt>
+      <trkpt lat="49.5723894" lon="15.7432907"></trkpt>
+      <trkpt lat="49.572383" lon="15.7432755"></trkpt>
+      <trkpt lat="49.5723167" lon="15.7433419"></trkpt>
+      <trkpt lat="49.5723419" lon="15.7434018"></trkpt>
       <trkpt lat="49.5723397" lon="15.743404"></trkpt>
-      <trkpt lat="49.5723431" lon="15.7434121"></trkpt>
-      <trkpt lat="49.5723454" lon="15.7434099"></trkpt>
-      <trkpt lat="49.5723723" lon="15.7434745"></trkpt>
-      <trkpt lat="49.5724077" lon="15.7434381"></trkpt>
-      <trkpt lat="49.5723853" lon="15.7433865"></trkpt>
-      <trkpt lat="49.572416" lon="15.7433558"></trkpt>
+      <trkpt lat="49.5723431" lon="15.743412"></trkpt>
+      <trkpt lat="49.5723454" lon="15.7434097"></trkpt>
+      <trkpt lat="49.5723724" lon="15.7434738"></trkpt>
+      <trkpt lat="49.5724079" lon="15.7434382"></trkpt>
+      <trkpt lat="49.5723863" lon="15.7433868"></trkpt>
+      <trkpt lat="49.5724169" lon="15.7433561"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -26932,11 +26981,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/90085239</name>
     <trkseg>
-      <trkpt lat="48.854121" lon="16.109361"></trkpt>
-      <trkpt lat="48.854095" lon="16.109224"></trkpt>
-      <trkpt lat="48.853956" lon="16.109288"></trkpt>
-      <trkpt lat="48.853984" lon="16.109425"></trkpt>
-      <trkpt lat="48.854121" lon="16.109361"></trkpt>
+      <trkpt lat="48.8539831" lon="16.1094285"></trkpt>
+      <trkpt lat="48.8541217" lon="16.1093672"></trkpt>
+      <trkpt lat="48.8540946" lon="16.1092292"></trkpt>
+      <trkpt lat="48.8539559" lon="16.1092904"></trkpt>
+      <trkpt lat="48.8539831" lon="16.1094285"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -26951,20 +27000,20 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/90472076</name>
+    <name>Benzina</name>
     <trkseg>
-      <trkpt lat="49.753399" lon="16.476996"></trkpt>
-      <trkpt lat="49.753384" lon="16.476809"></trkpt>
-      <trkpt lat="49.753179" lon="16.476839"></trkpt>
-      <trkpt lat="49.753196" lon="16.477114"></trkpt>
+      <trkpt lat="49.7533894" lon="16.4770058"></trkpt>
+      <trkpt lat="49.7533781" lon="16.4768136"></trkpt>
+      <trkpt lat="49.7531808" lon="16.4768413"></trkpt>
+      <trkpt lat="49.7531968" lon="16.4771151"></trkpt>
       <trkpt lat="49.753176" lon="16.477118"></trkpt>
       <trkpt lat="49.753168" lon="16.477133"></trkpt>
-      <trkpt lat="49.753179" lon="16.4773"></trkpt>
-      <trkpt lat="49.753318" lon="16.477279"></trkpt>
-      <trkpt lat="49.753306" lon="16.477091"></trkpt>
-      <trkpt lat="49.753301" lon="16.477085"></trkpt>
-      <trkpt lat="49.753303" lon="16.477009"></trkpt>
-      <trkpt lat="49.753399" lon="16.476996"></trkpt>
+      <trkpt lat="49.753178" lon="16.4773019"></trkpt>
+      <trkpt lat="49.7533201" lon="16.4772817"></trkpt>
+      <trkpt lat="49.7533094" lon="16.4771005"></trkpt>
+      <trkpt lat="49.7533014" lon="16.4771016"></trkpt>
+      <trkpt lat="49.7532965" lon="16.4770188"></trkpt>
+      <trkpt lat="49.7533894" lon="16.4770058"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -27435,17 +27484,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/109349975</name>
     <trkseg>
-      <trkpt lat="49.7220889" lon="13.4122047"></trkpt>
-      <trkpt lat="49.7221218" lon="13.412194"></trkpt>
-      <trkpt lat="49.7220907" lon="13.411971"></trkpt>
-      <trkpt lat="49.7220881" lon="13.4119719"></trkpt>
-      <trkpt lat="49.7220802" lon="13.4119156"></trkpt>
-      <trkpt lat="49.7219819" lon="13.4119477"></trkpt>
-      <trkpt lat="49.7220199" lon="13.4122226"></trkpt>
-      <trkpt lat="49.7219825" lon="13.4122348"></trkpt>
-      <trkpt lat="49.7219998" lon="13.4123611"></trkpt>
-      <trkpt lat="49.7221049" lon="13.4123262"></trkpt>
-      <trkpt lat="49.7220889" lon="13.4122047"></trkpt>
+      <trkpt lat="49.7220905" lon="13.4122037"></trkpt>
+      <trkpt lat="49.7221235" lon="13.412193"></trkpt>
+      <trkpt lat="49.7220924" lon="13.41197"></trkpt>
+      <trkpt lat="49.7220897" lon="13.4119708"></trkpt>
+      <trkpt lat="49.7220819" lon="13.4119146"></trkpt>
+      <trkpt lat="49.7219835" lon="13.4119467"></trkpt>
+      <trkpt lat="49.7220215" lon="13.4122216"></trkpt>
+      <trkpt lat="49.7219841" lon="13.4122338"></trkpt>
+      <trkpt lat="49.7219954" lon="13.412316"></trkpt>
+      <trkpt lat="49.7220014" lon="13.4123601"></trkpt>
+      <trkpt lat="49.7221065" lon="13.4123252"></trkpt>
+      <trkpt lat="49.7221007" lon="13.4122809"></trkpt>
+      <trkpt lat="49.7220905" lon="13.4122037"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28419,16 +28470,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Free1 GAS</name>
-    <trkseg>
-      <trkpt lat="49.6433938" lon="12.5286194"></trkpt>
-      <trkpt lat="49.6432809" lon="12.5285785"></trkpt>
-      <trkpt lat="49.6432165" lon="12.5290022"></trkpt>
-      <trkpt lat="49.6433295" lon="12.5290431"></trkpt>
-      <trkpt lat="49.6433938" lon="12.5286194"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/199739084</name>
     <trkseg>
       <trkpt lat="49.680061" lon="18.3493679"></trkpt>
@@ -28662,6 +28703,20 @@ version="1.1" creator="togpx">
       <trkpt lat="49.8851208" lon="14.7085005"></trkpt>
       <trkpt lat="49.8851586" lon="14.7083312"></trkpt>
       <trkpt lat="49.8847284" lon="14.7081089"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/207964781</name>
+    <trkseg>
+      <trkpt lat="49.7919338" lon="12.6558565"></trkpt>
+      <trkpt lat="49.7919346" lon="12.6559413"></trkpt>
+      <trkpt lat="49.791922" lon="12.6559415"></trkpt>
+      <trkpt lat="49.7919234" lon="12.6561124"></trkpt>
+      <trkpt lat="49.7920518" lon="12.6561106"></trkpt>
+      <trkpt lat="49.7920517" lon="12.6559392"></trkpt>
+      <trkpt lat="49.7920392" lon="12.6559394"></trkpt>
+      <trkpt lat="49.7920386" lon="12.6558551"></trkpt>
+      <trkpt lat="49.7919338" lon="12.6558565"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -29381,7 +29436,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>LPG</name>
+    <name>NOVOPLYN</name>
     <trkseg>
       <trkpt lat="49.4754203" lon="15.0138348"></trkpt>
       <trkpt lat="49.4753116" lon="15.0138048"></trkpt>
@@ -30389,6 +30444,20 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>as</name>
+    <trkseg>
+      <trkpt lat="48.9891598" lon="16.1434526"></trkpt>
+      <trkpt lat="48.9890933" lon="16.1435275"></trkpt>
+      <trkpt lat="48.989116" lon="16.1435737"></trkpt>
+      <trkpt lat="48.9891181" lon="16.1435713"></trkpt>
+      <trkpt lat="48.98911" lon="16.1435552"></trkpt>
+      <trkpt lat="48.9891461" lon="16.1435131"></trkpt>
+      <trkpt lat="48.9891542" lon="16.1435291"></trkpt>
+      <trkpt lat="48.9891797" lon="16.1434994"></trkpt>
+      <trkpt lat="48.9891598" lon="16.1434526"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>OMV</name>
     <trkseg>
       <trkpt lat="49.3534016" lon="16.6489428"></trkpt>
@@ -30912,17 +30981,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Free1 Gas</name>
-    <trkseg>
-      <trkpt lat="49.6485877" lon="12.532674"></trkpt>
-      <trkpt lat="49.6484745" lon="12.5330032"></trkpt>
-      <trkpt lat="49.648476" lon="12.5330431"></trkpt>
-      <trkpt lat="49.6486528" lon="12.5331881"></trkpt>
-      <trkpt lat="49.6487763" lon="12.5328287"></trkpt>
-      <trkpt lat="49.6485877" lon="12.532674"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>MOL</name>
     <trkseg>
       <trkpt lat="48.8121503" lon="14.3225434"></trkpt>
@@ -31195,22 +31253,6 @@ version="1.1" creator="togpx">
       <trkpt lat="49.155386" lon="15.0085802"></trkpt>
       <trkpt lat="49.1554567" lon="15.0085586"></trkpt>
       <trkpt lat="49.1554506" lon="15.0084209"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/876243160</name>
-    <trkseg>
-      <trkpt lat="49.1541147" lon="15.0022579"></trkpt>
-      <trkpt lat="49.1541582" lon="15.0025171"></trkpt>
-      <trkpt lat="49.1543468" lon="15.0024389"></trkpt>
-      <trkpt lat="49.1543435" lon="15.0024252"></trkpt>
-      <trkpt lat="49.1543367" lon="15.002428"></trkpt>
-      <trkpt lat="49.1543311" lon="15.0024232"></trkpt>
-      <trkpt lat="49.1542969" lon="15.00223"></trkpt>
-      <trkpt lat="49.1543001" lon="15.0022215"></trkpt>
-      <trkpt lat="49.1543155" lon="15.0022151"></trkpt>
-      <trkpt lat="49.1543094" lon="15.0021786"></trkpt>
-      <trkpt lat="49.1541147" lon="15.0022579"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -31652,7 +31694,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/1154124841</name>
+    <name>ICOM</name>
     <trkseg>
       <trkpt lat="49.0839205" lon="15.4372743"></trkpt>
       <trkpt lat="49.083839" lon="15.4373011"></trkpt>
