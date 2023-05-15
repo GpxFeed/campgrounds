@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-04-30T23:06:55Z", "timestamp_areas_base":
-      "2023-04-30T20:35:58Z", "copyright": "The data included in
+      "2023-05-15T11:30:24Z", "timestamp_areas_base":
+      "2023-04-25T08:53:24Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -168,7 +168,7 @@ version="1.1" creator="togpx">
     Celje; opening_hours=Mo-Fr 07:30-15:30; operator=Istrabenz
     plini; id=node/2081134150</desc>
   </wpt>
-  <wpt lat="46.6459817" lon="15.8436539">
+  <wpt lat="46.6459601" lon="15.8436539">
     <ele>354</ele>
     <name>KZ Oil</name>
     <desc>amenity=fuel; name=KZ Oil; id=node/2174962736</desc>
@@ -352,13 +352,14 @@ version="1.1" creator="togpx">
     Bič; opening_hours=24/7; operator=Shell Ardia d.o.o.;
     id=node/5709660705</desc>
   </wpt>
-  <wpt lat="46.415607" lon="15.8849786">
+  <wpt lat="46.4156616" lon="15.8850177">
     <ele>219</ele>
     <name>OMV</name>
-    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    <desc>addr:city=Ptuj; addr:postcode=2250; addr:street=Puhova
+    ulica; amenity=fuel; brand=OMV; brand:wikidata=Q168238;
     brand:wikipedia=en:OMV; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=OMV; opening_hours=Mo-Su 06:00-22:00;
-    operator=OMV; id=node/5788625582</desc>
+    operator=OMV; id=node/5788625582; ; id=way/1169423835</desc>
   </wpt>
   <wpt lat="45.5762301" lon="13.80329">
     <ele>80</ele>
@@ -425,9 +426,13 @@ version="1.1" creator="togpx">
     <desc>addr:city=Nova Gorica; addr:country=SI;
     addr:housenumber=3A; addr:postcode=5000; addr:street=Vipavska
     cesta; amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
-    compressed_air=yes; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Petrol - Rožna dolina;
-    operator=Petrol; shop=convenience; id=node/7977026778</desc>
+    compressed_air=yes;
+    contact:website=https://www.petrol.si/prodajna-mesta/0122-bs-rozna-dolina-bencinski-servis;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    name=Petrol - Rožna dolina; operator=Petrol; shop=convenience;
+    id=node/7977026778</desc>
+    <link href="https://www.petrol.si/prodajna-mesta/0122-bs-rozna-dolina-bencinski-servis">
+    </link>
   </wpt>
   <wpt lat="46.0276458" lon="14.4353168">
     <ele>296</ele>
@@ -1478,8 +1483,9 @@ version="1.1" creator="togpx">
     brand=Petrol; building=yes; contact:phone=+386 4 5885050;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2385;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Petrol - Podkoren; opening_hours=Mo-Fr 10:00-18:00;
-    operator=Petrol d.d.; id=way/192427786</desc>
+    name=Petrol - Podkoren; not:brand:wikidata=Q174824;
+    opening_hours=Mo-Fr 10:00-18:00; operator=Petrol d.d.;
+    id=way/192427786</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2385">
     </link>
   </wpt>
@@ -2009,7 +2015,7 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2331">
     </link>
   </wpt>
-  <wpt lat="46.05701635" lon="14.60110501651316">
+  <wpt lat="46.057011849999995" lon="14.601058006118219">
     <ele>278</ele>
     <name>Petrol - Ljubljana - Zalog</name>
     <desc>addr:city=Ljubljana - Polje; addr:housenumber=255;
@@ -2369,8 +2375,8 @@ version="1.1" creator="togpx">
     <name>Petrol - Deskle</name>
     <desc>addr:city=Deskle; addr:housenumber=4; addr:postcode=5210;
     addr:street=Srebrničeva ulica; amenity=fuel; brand=Petrol;
-    building=yes; contact:fax=+386 5 3953011; contact:phone=+386 5
-    3953010;
+    brand:wikidata=Q174824; building=yes; contact:fax=+386 5
+    3953011; contact:phone=+386 5 3953010;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/149;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Deskle;
     opening_hours=Mo-Su 07:00-21:00; operator=Petrol d.d.;
@@ -2627,14 +2633,14 @@ version="1.1" creator="togpx">
     <name>Petrol - Ajševica</name>
     <desc>addr:city=Nova Gorica; addr:housenumber=19;
     addr:postcode=5000; addr:street=Ajševica; amenity=fuel;
-    brand=Petrol; building=yes; contact:fax=+386 5 3330771;
-    contact:phone=+386 5 3330770;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1532;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    contact:fax=+386 5 3330771; contact:phone=+386 5 3330770;
+    contact:website=https://www.petrol.si/prodajna-mesta/1532-bs-ajsevica-bencinski-servis;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=Petrol - Ajševica; opening_hours=Mo-Sa
-    06:00-22:00, Su 08:00-22:00; operator=Petrol d.d.; shop=yes;
+    06:00-22:00, Su 08:00-22:00; operator=Petrol d.d.;
     wheelchair=yes; id=way/193236606</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/1532">
+    <link href="https://www.petrol.si/prodajna-mesta/1532-bs-ajsevica-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.885025999999996" lon="13.733229343528516">
@@ -2645,11 +2651,11 @@ version="1.1" creator="togpx">
     brand=Petrol; brand:wikidata=Q174824; building=yes;
     compressed_air=yes; contact:fax=+386 5 3017631;
     contact:phone=+386 5 3017630;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/135;
+    contact:website=https://www.petrol.si/prodajna-mesta/0135-bs-dornberk-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Dornberk; opening_hours=Mo-Sa 07:00-20:00, Su
     08:00-19:00; operator=Petrol d.d.; id=way/193236607</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/135">
+    <link href="https://www.petrol.si/prodajna-mesta/0135-bs-dornberk-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.84889645" lon="13.954801114733115">
@@ -2711,12 +2717,12 @@ version="1.1" creator="togpx">
     addr:postcode=5291; amenity=fuel; brand=Petrol;
     brand:wikidata=Q174824; building=yes; compressed_air=yes;
     contact:phone=+386 5 3954040;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/131;
+    contact:website=https://www.petrol.si/prodajna-mesta/0131-bs-miren-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Miren; opening_hours=Mo-Sa 06:30-21:00, Su
     07:30-21:00; operator=Petrol d.d.; shop=convenience;
     wheelchair=yes; id=way/193414089</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/131">
+    <link href="https://www.petrol.si/prodajna-mesta/0131-bs-miren-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.953263750000005" lon="13.652230308">
@@ -2726,12 +2732,12 @@ version="1.1" creator="togpx">
     addr:postcode=5000; addr:street=Vojkova cesta; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
     compressed_air=yes; contact:phone=+386 5 3331920;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/136;
+    contact:website=https://www.petrol.si/prodajna-mesta/0136-bs-nova-gorica-grcna-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Nova Gorica - Grčna; opening_hours=Mo-Sa
     06:00-22:00, Su 08:00-22:00; operator=Petrol d.d.;
     shop=convenience; id=way/193414090</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/136">
+    <link href="https://www.petrol.si/prodajna-mesta/0136-bs-nova-gorica-grcna-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.962478149999995" lon="13.649657782455638">
@@ -2741,12 +2747,12 @@ version="1.1" creator="togpx">
     addr:postcode=5000; addr:street=Vojkova cesta; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
     contact:phone=+386 5 3332040;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/115;
+    contact:website=https://www.petrol.si/prodajna-mesta/0115-bs-nova-gorica-vojkova-vzhod-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Nova Gorica - Vojkova Vzhod; opening_hours=Mo-Su
     06:00-24:00; operator=Petrol d.d.; shop=convenience;
     id=way/193414091</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/115">
+    <link href="https://www.petrol.si/prodajna-mesta/0115-bs-nova-gorica-vojkova-vzhod-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.96223305" lon="13.648998828471502">
@@ -2755,27 +2761,23 @@ version="1.1" creator="togpx">
     <desc>addr:city=Nova Gorica; addr:housenumber=52;
     addr:postcode=5000; addr:street=Vojkova cesta; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
-    contact:phone=+386 5 3331940;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/144;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Petrol - Nova Gorica - Vojkova Zahod; opening_hours=Mo-Sa
-    07:00-21:00, Su 08:00-19:30; operator=Petrol d.d.;
-    id=way/193414092</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/144">
-    </link>
+    contact:phone=+386 5 3331940; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol - Nova
+    Gorica - Vojkova Zahod; opening_hours=Mo-Sa 07:00-21:00, Su
+    08:00-19:30; operator=Petrol d.d.; id=way/193414092</desc>
   </wpt>
   <wpt lat="45.9677399" lon="13.641871355836553">
     <ele>94</ele>
     <name>Petrol - Solkan</name>
     <desc>addr:city=Solkan; addr:housenumber=67;
     addr:postcode=5250; addr:street=Cesta IX. korpusa;
-    amenity=fuel; brand=Petrol; building=yes; contact:phone=+386 5
-    3331960;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/112;
+    amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
+    building=yes; contact:phone=+386 5 3331960;
+    contact:website=https://www.petrol.si/prodajna-mesta/0112-bs-solkan-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Solkan; opening_hours=Mo-Sa 07:00-21:00, Su
     08:00-21:00; operator=Petrol d.d.; id=way/193414094</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/112">
+    <link href="https://www.petrol.si/prodajna-mesta/0112-bs-solkan-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.9192847" lon="13.62770999740717">
@@ -2786,14 +2788,14 @@ version="1.1" creator="togpx">
     amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     building=yes; contact:fax=+386 5 3937051; contact:phone=+386 5
     3937050;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/153;
+    contact:website=https://www.petrol.si/prodajna-mesta/0153-bs-vrtojba-ac-jug-bencinski-servis;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=Petrol - Vrtojba Ac - jug; note=Last
     point to buy Slovenian highway pass if you come from Italy !
     Fines are high.; opening_hours=Mo-Sa 06:00-24:00, Su
     07:00-24:00; operator=Petrol d.d.; shop=convenience;
     id=way/193414095</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/153">
+    <link href="https://www.petrol.si/prodajna-mesta/0153-bs-vrtojba-ac-jug-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.92048425" lon="13.628298442600798">
@@ -2804,11 +2806,11 @@ version="1.1" creator="togpx">
     amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     building=yes; contact:fax=+386 5 3937040; contact:phone=+386 5
     3937040;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/152;
+    contact:website=https://www.petrol.si/prodajna-mesta/0152-bs-vrtojba-ac-sever-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Vrtojba Ac - sever; opening_hours=24/7;
     operator=Petrol d.d.; shop=convenience; id=way/193414096</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/152">
+    <link href="https://www.petrol.si/prodajna-mesta/0152-bs-vrtojba-ac-sever-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.9323079" lon="13.638490744735293">
@@ -2818,12 +2820,12 @@ version="1.1" creator="togpx">
     addr:postcode=5290; addr:street=Cesta Prekomorskih brigad;
     amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     building=yes; compressed_air=yes; contact:phone=+386 5 3936150;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/130;
+    contact:website=https://www.petrol.si/prodajna-mesta/0130-bs-sempeter-pri-gorici-prekomorskih-brigad-bencinski-servis;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Šempeter pri Gorici - Prekomorskih brigad;
     opening_hours=Mo-Sa 07:00-20:00; operator=Petrol d.d.;
     self_service=yes; id=way/193414097</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/130">
+    <link href="https://www.petrol.si/prodajna-mesta/0130-bs-sempeter-pri-gorici-prekomorskih-brigad-bencinski-servis">
     </link>
   </wpt>
   <wpt lat="45.9292139" lon="13.641676198536883">
@@ -4229,13 +4231,13 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/1712">
     </link>
   </wpt>
-  <wpt lat="46.4271967" lon="15.88343989576526">
+  <wpt lat="46.4271909" lon="15.88341379576526">
     <ele>223</ele>
     <name>Petrol - Ptuj - Osojnikova</name>
     <desc>addr:city=Ptuj; addr:housenumber=10; addr:postcode=2250;
     addr:street=Osojnikova cesta; amenity=fuel; brand=Petrol;
-    building=yes; compressed_air=yes; contact:fax=+386 2 4750085;
-    contact:phone=+386 2 7450082;
+    brand:wikidata=Q174824; building=yes; compressed_air=yes;
+    contact:fax=+386 2 4750085; contact:phone=+386 2 7450082;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1724;
     fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=Petrol - Ptuj - Osojnikova;
@@ -4276,13 +4278,13 @@ version="1.1" creator="togpx">
     <name>Petrol BS PTUJ - DORNAVSKA</name>
     <desc>addr:city=Ptuj; addr:housenumber=7a; addr:postcode=2250;
     addr:street=Dornavska cesta; amenity=fuel; brand=Petrol;
-    building=yes; compressed_air=yes; contact:fax=+386 2 7450217;
-    contact:phone=+386 2 7450215;
+    brand:wikidata=Q174824; building=yes; compressed_air=yes;
+    contact:fax=+386 2 7450217; contact:phone=+386 2 7450215;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1745;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol BS PTUJ - DORNAVSKA; opening_hours=Mo-Fr
     06:00-21:00, Sa 07:00-21:00, Su 08:00-20:00; operator=Petrol
-    d.d.; ref:petrol_si=1745; shop=yes; wheelchair=yes;
+    d.d.; ref:petrol_si=1745; wheelchair=yes;
     id=way/194402331</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/1745">
     </link>
@@ -4292,7 +4294,8 @@ version="1.1" creator="togpx">
     <name>Petrol - Ptuj - Ormoška 25</name>
     <desc>addr:city=Ptuj; addr:housenumber=25; addr:postcode=2250;
     addr:street=Ormoška cesta; amenity=fuel; brand=Petrol;
-    building=yes; contact:phone=+386 2 7806080;
+    brand:wikidata=Q174824; building=yes; contact:phone=+386 2
+    7806080;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1713;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Ptuj -
     Ormoška 25; opening_hours=Mo-Fr 07:00-19:00, Sa 07:00-18:00;
@@ -4305,13 +4308,13 @@ version="1.1" creator="togpx">
     <name>Petrol - Ptuj - Ormoška 26/b</name>
     <desc>addr:city=Ptuj; addr:housenumber=26b; addr:postcode=2250;
     addr:street=Ormoška cesta; amenity=fuel; brand=Petrol;
-    building=yes; contact:fax=+386 2 7711781; contact:phone=+386 2
-    7806110;
+    brand:wikidata=Q174824; building=yes; contact:fax=+386 2
+    7711781; contact:phone=+386 2 7806110;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1720;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=Petrol - Ptuj - Ormoška 26/b;
-    opening_hours=24/7; operator=Petrol d.d.; shop=yes;
-    wheelchair=yes; id=way/194402333</desc>
+    opening_hours=24/7; operator=Petrol d.d.; wheelchair=yes;
+    id=way/194402333</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/1720">
     </link>
   </wpt>
@@ -4320,8 +4323,8 @@ version="1.1" creator="togpx">
     <name>Petrol BS PTUJ - ZAGREBŠKA</name>
     <desc>addr:city=Ptuj; addr:housenumber=49b; addr:postcode=2250;
     addr:street=Zagrebška cesta; amenity=fuel; brand=Petrol;
-    brand:wikidata=Q174824; building=yes; contact:fax=+386 2
-    1885072; contact:phone=+386 2 7885069;
+    brand:wikidata=Q174824; building=yes; compressed_air=yes;
+    contact:fax=+386 2 1885072; contact:phone=+386 2 7885069;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1743;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol BS PTUJ - ZAGREBŠKA; opening_hours=Mo-Sa
@@ -4348,8 +4351,8 @@ version="1.1" creator="togpx">
     <name>Petrol - Selnica ob Dravi</name>
     <desc>addr:city=Selnica ob Dravi; addr:housenumber=46;
     addr:postcode=2352; addr:street=Mariborska cesta; amenity=fuel;
-    brand=Petrol; building=yes; contact:fax=+386 2 6735011;
-    contact:phone=+386 2 6735010;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    contact:fax=+386 2 6735011; contact:phone=+386 2 6735010;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1140;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Selnica ob Dravi; opening_hours=Mo-Sa
@@ -4464,13 +4467,13 @@ version="1.1" creator="togpx">
     <name>Petrol - Križevci</name>
     <desc>addr:city=Križevci pri Ljutomeru; addr:housenumber=83;
     addr:postcode=9242; addr:street=Ključarovci pri Ljutomeru;
-    amenity=fuel; brand=Petrol; building=yes; contact:fax=+386 2
-    5888022; contact:phone=+386 2 5888020;
+    amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
+    building=yes; contact:fax=+386 2 5888022; contact:phone=+386 2
+    5888020;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1321;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Križevci;
     opening_hours=Mo-Fr 06:00-19:00, Sa 07:00-19:00, Su
-    07:00-13:00; operator=Petrol d.d.; shop=yes;
-    id=way/194502775</desc>
+    07:00-13:00; operator=Petrol d.d.; id=way/194502775</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/1321">
     </link>
   </wpt>
@@ -5543,7 +5546,9 @@ version="1.1" creator="togpx">
     amenity=fuel; brand=OMV; building=yes; contact:fax=+386 3
     8987382; contact:phone=+386 3 8987380; name=OMV - Velenje -
     Partizanska; opening_hours=Mo - Su 06:00-22:00; operator=OMV
-    Slovenija d.o.o.; shop=yes; id=way/196412496</desc>
+    Slovenija d.o.o.; ref:gurs:hs_mid=21339890; shop=yes;
+    source:addr=GURS; source:addr:date=2012-11-14;
+    id=way/196412496</desc>
   </wpt>
   <wpt lat="46.3696245" lon="15.13252825">
     <ele>406</ele>
@@ -6049,8 +6054,9 @@ version="1.1" creator="togpx">
     <name>MOL - Selnica ob Dravi</name>
     <desc>addr:city=Selnica ob Dravi; addr:housenumber=10c;
     addr:postcode=2352; addr:street=Mariborska cesta; amenity=fuel;
-    brand=MOL; building=yes; contact:fax=+386 2 6740891;
-    contact:mobile=+386 30 318353; contact:phone=+386 2 6740890;
+    brand=MOL; brand:wikidata=Q549181; building=yes;
+    contact:fax=+386 2 6740891; contact:mobile=+386 30 318353;
+    contact:phone=+386 2 6740890;
     contact:website=http://www.mol.si/si/vozite_z_nami/bencinski_servisi/toltoallomas/adatok/cmp/5/code/0326;
     name=MOL - Selnica ob Dravi; opening_hours=Mo-Sa 06:00-22:00,
     Su 08:00-20:00; operator=MOL Slovenija d.o.o.;
@@ -6252,14 +6258,6 @@ version="1.1" creator="togpx">
     Črnomelj; opening_hours=24/7; operator=M-Energija d.o.o.;
     wheelchair=yes; id=way/196851019</desc>
   </wpt>
-  <wpt lat="46.5526696" lon="16.430938411177642">
-    <ele>159</ele>
-    <name>MAXEN - Lendava</name>
-    <desc>amenity=fuel; automated=yes; brand=MAXEN; building=roof;
-    fuel:diesel=yes; fuel:octane_95=yes; layer=1; name=MAXEN -
-    Lendava; opening_hours=24/7; operator=M-Energija d.o.o.;
-    id=way/196851021</desc>
-  </wpt>
   <wpt lat="45.833159300000005" lon="14.92742515716862">
     <ele>221</ele>
     <name>MAXEN - Žužemberk</name>
@@ -6330,14 +6328,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.0887313" lon="14.716855273638693">
     <ele>289</ele>
-    <name>Agip - Senožeti</name>
+    <name>Mol - Senožeti</name>
     <desc>addr:city=Dol pri Ljubljani; addr:housenumber=93;
     addr:postcode=1262; addr:street=Senožeti; amenity=fuel;
-    brand=Agip; building=yes; contact:email=agip_senozeti@siol.net;
-    contact:fax=+386 1 5640645; contact:phone=+386 1 5640646;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Agip - Senožeti; operator=Agip Slovenija d.o.o.; shop=yes;
-    id=way/197343538</desc>
+    brand=MOL; brand:wikidata=Q549181; building=yes;
+    contact:email=agip_senozeti@siol.net; contact:fax=+386 1
+    5640645; contact:phone=+386 1 5640646; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Mol - Senožeti;
+    operator=MOL Slovenija d.o.o.; id=way/197343538</desc>
   </wpt>
   <wpt lat="46.36033930000001" lon="15.384931244461265">
     <ele>376</ele>
@@ -7155,8 +7153,8 @@ version="1.1" creator="togpx">
     <name>Petrol - Hajdoše</name>
     <desc>addr:city=Hajdina; addr:housenumber=43d;
     addr:postcode=2288; addr:street=Hajdoše; amenity=fuel;
-    brand=Petrol; building=yes; contact:fax=+386 2 7806890;
-    contact:phone=+386 2 7806890;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    contact:fax=+386 2 7806890; contact:phone=+386 2 7806890;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/1714;
     name=Petrol - Hajdoše; opening_hours=Mo-Sa 07:00-20:00;
     operator=Petrol d.d.; ref:gurs:hs_mid=14182837;
@@ -7279,6 +7277,14 @@ version="1.1" creator="togpx">
     source:geometry=GURS; id=way/1163813204</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/117">
     </link>
+  </wpt>
+  <wpt lat="46.552648950000005" lon="16.430943654696026">
+    <ele>159</ele>
+    <name>MAXEN - Lendava</name>
+    <desc>amenity=fuel; automated=yes; brand=MAXEN; building=roof;
+    fuel:diesel=yes; fuel:octane_95=yes; layer=1; name=MAXEN -
+    Lendava; opening_hours=24/7; operator=M-Energija d.o.o.;
+    ref:gurs:sta_sid=31555698; id=way/1172249495</desc>
   </wpt>
   <trk>
     <name>OMV</name>
@@ -8559,11 +8565,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Ljubljana - Zalog</name>
     <trkseg>
-      <trkpt lat="46.0570927" lon="14.60119"></trkpt>
-      <trkpt lat="46.057054" lon="14.600977"></trkpt>
-      <trkpt lat="46.05694" lon="14.6010201"></trkpt>
-      <trkpt lat="46.0569787" lon="14.601233"></trkpt>
-      <trkpt lat="46.0570927" lon="14.60119"></trkpt>
+      <trkpt lat="46.0570872" lon="14.6011439"></trkpt>
+      <trkpt lat="46.0570494" lon="14.6009306"></trkpt>
+      <trkpt lat="46.0569366" lon="14.6009721"></trkpt>
+      <trkpt lat="46.0569743" lon="14.6011854"></trkpt>
+      <trkpt lat="46.0570872" lon="14.6011439"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10309,15 +10315,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Ptuj - Osojnikova</name>
     <trkseg>
-      <trkpt lat="46.4272107" lon="15.8833088"></trkpt>
-      <trkpt lat="46.4270881" lon="15.8835847"></trkpt>
-      <trkpt lat="46.4271366" lon="15.8836301"></trkpt>
-      <trkpt lat="46.4271827" lon="15.8835264"></trkpt>
-      <trkpt lat="46.4272363" lon="15.8835765"></trkpt>
-      <trkpt lat="46.4272941" lon="15.8834463"></trkpt>
-      <trkpt lat="46.4272392" lon="15.8833949"></trkpt>
-      <trkpt lat="46.4272578" lon="15.8833529"></trkpt>
-      <trkpt lat="46.4272107" lon="15.8833088"></trkpt>
+      <trkpt lat="46.4272049" lon="15.8832827"></trkpt>
+      <trkpt lat="46.4270823" lon="15.8835586"></trkpt>
+      <trkpt lat="46.4271308" lon="15.883604"></trkpt>
+      <trkpt lat="46.4271769" lon="15.8835003"></trkpt>
+      <trkpt lat="46.4272305" lon="15.8835504"></trkpt>
+      <trkpt lat="46.4272883" lon="15.8834202"></trkpt>
+      <trkpt lat="46.4272334" lon="15.8833688"></trkpt>
+      <trkpt lat="46.427252" lon="15.8833268"></trkpt>
+      <trkpt lat="46.4272049" lon="15.8832827"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12283,16 +12289,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>MAXEN - Lendava</name>
-    <trkseg>
-      <trkpt lat="46.5526808" lon="16.4308649"></trkpt>
-      <trkpt lat="46.5526307" lon="16.4308889"></trkpt>
-      <trkpt lat="46.5526584" lon="16.4310119"></trkpt>
-      <trkpt lat="46.5527085" lon="16.430988"></trkpt>
-      <trkpt lat="46.5526808" lon="16.4308649"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>MAXEN - Žužemberk</name>
     <trkseg>
       <trkpt lat="45.8332467" lon="14.9274576"></trkpt>
@@ -12373,7 +12369,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Agip - Senožeti</name>
+    <name>Mol - Senožeti</name>
     <trkseg>
       <trkpt lat="46.0888051" lon="14.7167532"></trkpt>
       <trkpt lat="46.088649" lon="14.7167678"></trkpt>
@@ -13581,6 +13577,60 @@ version="1.1" creator="togpx">
       <trkpt lat="46.006157" lon="14.0275523"></trkpt>
       <trkpt lat="46.0061591" lon="14.0275834"></trkpt>
       <trkpt lat="46.0061245" lon="14.0275878"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV</name>
+    <trkseg>
+      <trkpt lat="46.4154667" lon="15.8848889"></trkpt>
+      <trkpt lat="46.4154605" lon="15.8850523"></trkpt>
+      <trkpt lat="46.415647" lon="15.8850573"></trkpt>
+      <trkpt lat="46.4156491" lon="15.8851496"></trkpt>
+      <trkpt lat="46.4157279" lon="15.8851526"></trkpt>
+      <trkpt lat="46.4157466" lon="15.8848839"></trkpt>
+      <trkpt lat="46.4156588" lon="15.8848789"></trkpt>
+      <trkpt lat="46.4156533" lon="15.8849511"></trkpt>
+      <trkpt lat="46.4155434" lon="15.8849461"></trkpt>
+      <trkpt lat="46.4155461" lon="15.8848899"></trkpt>
+      <trkpt lat="46.4154667" lon="15.8848889"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>MAXEN - Lendava</name>
+    <trkseg>
+      <trkpt lat="46.5526385" lon="16.4310223"></trkpt>
+      <trkpt lat="46.5526878" lon="16.4310005"></trkpt>
+      <trkpt lat="46.5526948" lon="16.4309973"></trkpt>
+      <trkpt lat="46.5527015" lon="16.4309932"></trkpt>
+      <trkpt lat="46.5527028" lon="16.4309912"></trkpt>
+      <trkpt lat="46.5527072" lon="16.4309798"></trkpt>
+      <trkpt lat="46.5527076" lon="16.4309771"></trkpt>
+      <trkpt lat="46.5527063" lon="16.430967"></trkpt>
+      <trkpt lat="46.5527043" lon="16.4309571"></trkpt>
+      <trkpt lat="46.5526898" lon="16.4308877"></trkpt>
+      <trkpt lat="46.5526876" lon="16.4308779"></trkpt>
+      <trkpt lat="46.5526848" lon="16.4308684"></trkpt>
+      <trkpt lat="46.5526835" lon="16.4308665"></trkpt>
+      <trkpt lat="46.5526755" lon="16.4308606"></trkpt>
+      <trkpt lat="46.5526736" lon="16.4308601"></trkpt>
+      <trkpt lat="46.5526665" lon="16.430862"></trkpt>
+      <trkpt lat="46.5526594" lon="16.430865"></trkpt>
+      <trkpt lat="46.5526102" lon="16.4308868"></trkpt>
+      <trkpt lat="46.5526032" lon="16.43089"></trkpt>
+      <trkpt lat="46.5525965" lon="16.4308942"></trkpt>
+      <trkpt lat="46.5525951" lon="16.4308961"></trkpt>
+      <trkpt lat="46.5525908" lon="16.4309075"></trkpt>
+      <trkpt lat="46.5525904" lon="16.4309102"></trkpt>
+      <trkpt lat="46.5525917" lon="16.4309203"></trkpt>
+      <trkpt lat="46.5525937" lon="16.4309302"></trkpt>
+      <trkpt lat="46.5526082" lon="16.4309996"></trkpt>
+      <trkpt lat="46.5526103" lon="16.4310095"></trkpt>
+      <trkpt lat="46.5526131" lon="16.4310189"></trkpt>
+      <trkpt lat="46.5526145" lon="16.4310208"></trkpt>
+      <trkpt lat="46.5526225" lon="16.4310268"></trkpt>
+      <trkpt lat="46.5526243" lon="16.4310273"></trkpt>
+      <trkpt lat="46.5526315" lon="16.4310253"></trkpt>
+      <trkpt lat="46.5526385" lon="16.4310223"></trkpt>
     </trkseg>
   </trk>
 </gpx>
