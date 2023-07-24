@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-06-01T09:17:09Z", "timestamp_areas_base":
-      "2023-06-01T04:24:40Z", "copyright": "The data included in
+      "2023-07-24T09:47:00Z", "timestamp_areas_base":
+      "2023-07-20T07:57:18Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -19,9 +19,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.6737132" lon="12.0822691">
     <ele>14</ele>
     <name>Roskilde Camping</name>
-    <desc>created_by=JOSM; name=Roskilde Camping;
-    tourism=camp_site; website=https://roskildecamping.dk/;
-    id=node/26727019</desc>
+    <desc>caravans=yes; created_by=JOSM; drinking_water=yes;
+    name=Roskilde Camping; power_supply=yes; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=https://roskildecamping.dk/; id=node/26727019</desc>
     <link href="https://roskildecamping.dk/"></link>
   </wpt>
   <wpt lat="55.4855195" lon="9.6493422">
@@ -65,14 +66,6 @@ version="1.1" creator="togpx">
     id=node/469634470</desc>
     <link href="https://udinaturen.dk/shelter/1256"></link>
   </wpt>
-  <wpt lat="55.1095551" lon="10.2948794">
-    <ele>71</ele>
-    <name>Diernæs Camping</name>
-    <desc>caravans=yes; motor_vehicle=yes; name=Diernæs Camping;
-    tents=yes; tourism=camp_site;
-    website=http://diernaes.dk-camp.dk/; id=node/469926651</desc>
-    <link href="http://diernaes.dk-camp.dk/"></link>
-  </wpt>
   <wpt lat="55.6750822" lon="9.3879704">
     <ele>25</ele>
     <name>Vingsted Sø primitiv teltplads</name>
@@ -108,6 +101,7 @@ version="1.1" creator="togpx">
     <ele>32</ele>
     <name>Mariedal</name>
     <desc>backcountry=yes; motor_vehicle=no; name=Mariedal;
+    operator=Naturstyrelsen; reservation=no; tents=yes;
     tourism=camp_site; url=https://udinaturen.dk/shelter/4757;
     id=node/538021809</desc>
     <link href="https://udinaturen.dk/shelter/4757"></link>
@@ -117,8 +111,8 @@ version="1.1" creator="togpx">
     <name>Skibelund - primitiv teltsplads</name>
     <desc>access=permissive; backcountry=yes; drinking_water=yes;
     motor_vehicle=no; name=Skibelund - primitiv teltsplads;
-    openfire=yes; toilets=yes; tourism=camp_site;
-    website=https://udinaturen.dk/shelter/1215;
+    openfire=yes; power_supply=no; shower=no; toilets=yes;
+    tourism=camp_site; website=https://udinaturen.dk/shelter/1215;
     id=node/605300640</desc>
     <link href="https://udinaturen.dk/shelter/1215"></link>
   </wpt>
@@ -221,12 +215,12 @@ version="1.1" creator="togpx">
     note=Primitive overnatningspladser; tourism=camp_site;
     wheelchair=no; id=node/938282275</desc>
   </wpt>
-  <wpt lat="55.0081691" lon="10.4702266">
+  <wpt lat="55.0083045" lon="10.4699155">
     <ele>1</ele>
     <name>Skarø Teltplads</name>
-    <desc>backcountry=yes; drinking_water=yes; motor_vehicle=no;
-    name=Skarø Teltplads; openfire=yes; tents=yes;
-    tourism=camp_site; id=node/1081296935</desc>
+    <desc>backcountry=yes; drinking_water=yes; fee=yes;
+    motor_vehicle=no; name=Skarø Teltplads; openfire=yes;
+    tents=yes; tourism=camp_site; id=node/1081296935</desc>
   </wpt>
   <wpt lat="56.7570064" lon="9.7770697">
     <ele>54</ele>
@@ -636,8 +630,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.9668151" lon="11.8719457">
     <ele>10</ele>
     <name>node/2304947876</name>
-    <desc>fixme=Primitiv teltplads?; tourism=camp_site;
-    id=node/2304947876</desc>
+    <desc>camp_site=basic; caravans=no; fixme=Primitiv teltplads?;
+    motorhome=no; tourism=camp_site; id=node/2304947876</desc>
   </wpt>
   <wpt lat="55.9728862" lon="11.898426">
     <ele>5</ele>
@@ -1195,17 +1189,19 @@ version="1.1" creator="togpx">
   <wpt lat="56.1270896" lon="9.625639">
     <ele>24</ele>
     <name>Østre Gåsekær</name>
-    <desc>backcountry=yes; internet_access=no; motor_vehicle=no;
-    name=Østre Gåsekær; reservation=required; tourism=camp_site;
-    website=https://udinaturen.dk/shelter/3755; wheelchair=no;
-    id=node/3528966326</desc>
+    <desc>backcountry=yes; capacity:persons=35; caravans=no;
+    internet_access=no; motor_vehicle=no; name=Østre Gåsekær;
+    reservation=required; static_caravans=no; tents=yes;
+    tourism=camp_site; website=https://udinaturen.dk/shelter/3755;
+    wheelchair=no; id=node/3528966326</desc>
     <link href="https://udinaturen.dk/shelter/3755"></link>
   </wpt>
   <wpt lat="56.1274624" lon="9.6228694">
     <ele>28</ele>
     <name>Vestre Gåsekær</name>
-    <desc>backcountry=yes; motor_vehicle=no; name=Vestre Gåsekær;
-    reservation=recommended; tourism=camp_site;
+    <desc>access=yes; backcountry=yes; capacity:persons=20;
+    caravans=no; fee=no; motor_vehicle=no; name=Vestre Gåsekær;
+    reservation=recommended; static_caravans=no; tourism=camp_site;
     website=https://udinaturen.dk/shelter/6043;
     id=node/3528966327</desc>
     <link href="https://udinaturen.dk/shelter/6043"></link>
@@ -1347,12 +1343,6 @@ version="1.1" creator="togpx">
     <name>node/4234569458</name>
     <desc>backcountry=yes; motor_vehicle=no; openfire=yes;
     shelter=2; tourism=camp_site; id=node/4234569458</desc>
-  </wpt>
-  <wpt lat="57.4247155" lon="10.3088073">
-    <ele>93</ele>
-    <name>node/4248253390</name>
-    <desc>email=www.boerderijvakantie-denemarken.nl;
-    tourism=camp_site; id=node/4248253390</desc>
   </wpt>
   <wpt lat="55.6992" lon="8.74716">
     <ele>22</ele>
@@ -1607,8 +1597,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.9718111" lon="12.2899537">
     <ele>66</ele>
-    <name>node/7117306063</name>
-    <desc>capacity=10; tourism=camp_site; id=node/7117306063</desc>
+    <name>Helledes Bakke Teltplads</name>
+    <desc>camp_site=basic; capacity=10; caravans=no;
+    motor_vehicle=no; motorhome=no; name=Helledes Bakke Teltplads;
+    shower=no; tourism=camp_site; id=node/7117306063</desc>
   </wpt>
   <wpt lat="55.5987321" lon="8.2885249">
     <ele>12</ele>
@@ -1640,12 +1632,6 @@ version="1.1" creator="togpx">
     <desc>caravans=no; description=Primitiv overnatingsplads;
     internet_access=no; tents=yes; tourism=camp_site;
     id=node/7409527741</desc>
-  </wpt>
-  <wpt lat="55.8640826" lon="11.9894394">
-    <ele>13</ele>
-    <name>KFUM's Sommerlejr</name>
-    <desc>name=KFUM's Sommerlejr; tourism=camp_site;
-    id=node/7410792431</desc>
   </wpt>
   <wpt lat="56.2807206" lon="10.4635988">
     <ele>11</ele>
@@ -1813,8 +1799,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.6007655" lon="10.2698439">
     <ele>26</ele>
-    <name>node/8284064079</name>
-    <desc>tourism=camp_site; id=node/8284064079</desc>
+    <name>Tversted Plantage - Chr. Skovs vej</name>
+    <desc>camp_site=basic; caravans=no; motor_vehicle=no;
+    motorhome=no; name=Tversted Plantage - Chr. Skovs vej;
+    tents=yes; toilets=no; tourism=camp_site;
+    website=https://udinaturen.dk/shelter/7609;
+    id=node/8284064079</desc>
+    <link href="https://udinaturen.dk/shelter/7609"></link>
   </wpt>
   <wpt lat="56.0201934" lon="12.3100397">
     <ele>55</ele>
@@ -2138,11 +2129,11 @@ version="1.1" creator="togpx">
     <desc>name=Elverdam Camping; tourism=camp_site;
     id=node/9141351271</desc>
   </wpt>
-  <wpt lat="55.5748844" lon="11.2512875">
-    <ele>7</ele>
+  <wpt lat="55.574848" lon="11.2516952">
+    <ele>8</ele>
     <name>Fugledegård</name>
-    <desc>name=Fugledegård; tourism=camp_site;
-    id=node/9141414636</desc>
+    <desc>camp_site=basic; caravans=no; motorhome=no;
+    name=Fugledegård; tourism=camp_site; id=node/9141414636</desc>
   </wpt>
   <wpt lat="56.796531" lon="8.953601">
     <ele>5</ele>
@@ -2205,15 +2196,14 @@ version="1.1" creator="togpx">
     <desc>name=Haverslev Havn; tourism=camp_site;
     id=node/9967345217</desc>
   </wpt>
-  <wpt lat="57.291732" lon="9.6422419">
-    <ele>15</ele>
-    <name>node/9969479617</name>
-    <desc>tourism=camp_site; id=node/9969479617</desc>
-  </wpt>
   <wpt lat="55.7578414" lon="12.3645388">
     <ele>36</ele>
-    <name>node/9970261196</name>
-    <desc>tourism=camp_site; id=node/9970261196</desc>
+    <name>Jonstrup Vang</name>
+    <desc>camp_site=basic; motor_vehicle=no; name=Jonstrup Vang;
+    tourism=camp_site;
+    website=https://udinaturen.dk/shelter/102625;
+    id=node/9970261196</desc>
+    <link href="https://udinaturen.dk/shelter/102625"></link>
   </wpt>
   <wpt lat="55.6661251" lon="8.6872298">
     <ele>14</ele>
@@ -2395,7 +2385,9 @@ version="1.1" creator="togpx">
     <name>Børsmose Strand Camping</name>
     <desc>caravans=yes; motor_vehicle=yes; name=Børsmose Strand
     Camping; tents=yes; tourism=camp_site; type=multipolygon;
+    website=https://borsmosecamping.dk/;
     id=relation/11804135</desc>
+    <link href="https://borsmosecamping.dk/"></link>
   </wpt>
   <wpt lat="56.519541200000006" lon="10.2355962178806">
     <ele>-1</ele>
@@ -2427,6 +2419,15 @@ version="1.1" creator="togpx">
     id=relation/12966220</desc>
     <link href="http://udinaturen.dk/facilitet/Spejder-%C3%B8en/22189">
     </link>
+  </wpt>
+  <wpt lat="55.59433955" lon="12.341163079707139">
+    <ele>4</ele>
+    <name>Hundige Strand Familiecamping</name>
+    <desc>motor_vehicle=yes; name=Hundige Strand Familiecamping;
+    tourism=camp_site; type=multipolygon;
+    website=http://www.camping-koebenhavn.dk/; wikidata=Q12317456;
+    id=relation/15958574</desc>
+    <link href="http://www.camping-koebenhavn.dk/"></link>
   </wpt>
   <wpt lat="55.729649800000004" lon="9.135706741571019">
     <ele>64</ele>
@@ -2460,9 +2461,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.67754295" lon="9.812361996456962">
     <ele>1</ele>
     <name>Rosenvold Strand Camping</name>
-    <desc>alt_name=Rosenvold Camping; motor_vehicle=yes;
-    name=Rosenvold Strand Camping; tourism=camp_site;
-    website=https://rosenvoldcamping.dk/; id=way/25898734</desc>
+    <desc>alt_name=Rosenvold Camping; caravans=yes;
+    motor_vehicle=yes; name=Rosenvold Strand Camping;
+    tourism=camp_site; website=https://rosenvoldcamping.dk/;
+    id=way/25898734</desc>
     <link href="https://rosenvoldcamping.dk/"></link>
   </wpt>
   <wpt lat="55.672151299999996" lon="12.431508546452516">
@@ -2509,13 +2511,13 @@ version="1.1" creator="togpx">
     website=https://www.ribecamping.dk/; id=way/27462858</desc>
     <link href="https://www.ribecamping.dk/"></link>
   </wpt>
-  <wpt lat="56.3770926" lon="8.129289334712233">
+  <wpt lat="56.3770926" lon="8.128726664646276">
     <ele>0</ele>
     <name>Thorsminde Camping</name>
     <desc>email=mail@thorsmindecamping.dk; motor_vehicle=yes;
-    name=Thorsminde Camping; operator=Gerda &amp; Mogens Johansen;
-    phone=+45 20451976; sport=kite_surfing; stars=3; tents=yes;
-    tourism=camp_site; website=https://www.thorsmindecamping.dk/;
+    name=Thorsminde Camping; phone=+45 20451976;
+    sport=kite_surfing; stars=3; tents=yes; tourism=camp_site;
+    website=https://www.thorsmindecamping.dk/;
     id=way/27464960</desc>
     <link href="https://www.thorsmindecamping.dk/"></link>
   </wpt>
@@ -2544,14 +2546,6 @@ version="1.1" creator="togpx">
     id=way/27680447</desc>
     <link href="https://www.klitcamping.dk/"></link>
   </wpt>
-  <wpt lat="55.59433955" lon="12.341163079707139">
-    <ele>4</ele>
-    <name>Hundige Strand Familiecamping</name>
-    <desc>motor_vehicle=yes; name=Hundige Strand Familiecamping;
-    tourism=camp_site; website=http://www.camping-koebenhavn.dk/;
-    wikidata=Q12317456; id=way/30434358</desc>
-    <link href="http://www.camping-koebenhavn.dk/"></link>
-  </wpt>
   <wpt lat="56.0888995" lon="12.14809415316388">
     <ele>14</ele>
     <name>Rågeleje Camping</name>
@@ -2575,9 +2569,10 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>First Camp Hasmark Strand Camping</name>
     <desc>bike_friend=yes; email=info@hasmark.dk;
-    motor_vehicle=yes; name=First Camp Hasmark Strand Camping;
-    phone=+45 64826206; stars=3; tents=yes; tourism=camp_site;
-    website=https://www.hasmark.dk/; id=way/33718031</desc>
+    motor_vehicle=yes; motorhome=yes; name=First Camp Hasmark
+    Strand Camping; phone=+45 64826206; stars=3; tents=yes;
+    tourism=camp_site; website=https://www.hasmark.dk/;
+    id=way/33718031</desc>
     <link href="https://www.hasmark.dk/"></link>
   </wpt>
   <wpt lat="55.025238099999996" lon="9.413490604818831">
@@ -2773,8 +2768,8 @@ version="1.1" creator="togpx">
     <ele>1</ele>
     <name>Ore Strandcamping</name>
     <desc>motor_vehicle=yes; name=Ore Strandcamping;
-    tourism=camp_site; website=http://www.orestrandcamping.dk/;
-    id=way/47123831</desc>
+    phone=+4555778822; tourism=camp_site;
+    website=http://www.orestrandcamping.dk/; id=way/47123831</desc>
     <link href="http://www.orestrandcamping.dk/"></link>
   </wpt>
   <wpt lat="54.70156505" lon="11.97118812640967">
@@ -2810,8 +2805,9 @@ version="1.1" creator="togpx">
   <wpt lat="55.11726385" lon="9.497184677036683">
     <ele>5</ele>
     <name>Sandskaer Camping</name>
-    <desc>motor_vehicle=yes; name=Sandskaer Camping;
-    phone=+4574617326; tourism=camp_site;
+    <desc>caravans=yes; drinking_water=yes; motor_vehicle=yes;
+    name=Sandskaer Camping; phone=+4574617326; power_supply=yes;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.sandskaer.dk/; id=way/61960244</desc>
     <link href="https://www.sandskaer.dk/"></link>
   </wpt>
@@ -2891,9 +2887,10 @@ version="1.1" creator="togpx">
     <ele>6</ele>
     <name>Nørre Lyngvig Camping</name>
     <desc>access=customers; dog=leashed;
-    email=post@lyngvigcamping.dk; fee=yes; fvst:navnelbnr=930931;
-    motor_vehicle=yes; name=Nørre Lyngvig Camping; phone=+45 9731
-    1231; ref:DK:cvr=40617191; ref:DK:cvr:pnummer=1024822601;
+    email=post@lyngvigcamping.dk; fee=yes; fvst:name=DCU CAMPING
+    LYNGVIG STRAND; fvst:navnelbnr=1341540; motor_vehicle=yes;
+    name=Nørre Lyngvig Camping; phone=+45 9731 1231;
+    ref:DK:cvr=43387014; ref:DK:cvr:pnummer=1029258410;
     reservation=no; shower=yes; tents=yes; tourism=camp_site;
     website=http://www.lyngvigcamping.dk/; wheelchair=yes;
     id=way/70929632</desc>
@@ -2954,11 +2951,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.0461825" lon="9.499927024052713">
     <ele>2</ele>
-    <name>Skarrev Camping</name>
-    <desc>caravans=yes; fvst:navnelbnr=745893; motor_vehicle=yes;
-    name=Skarrev Camping; power_supply=yes; ref:DK:cvr=31988640;
-    tents=yes; toilets=yes; tourism=camp_site;
+    <name>Skarrev Camping / Tiny Seaside Camping</name>
+    <desc>caravans=yes; description=Also cabins/ tiny house for
+    rent; fvst:navnelbnr=745893; motor_vehicle=yes; name=Skarrev
+    Camping / Tiny Seaside Camping; power_supply=yes;
+    ref:DK:cvr=31988640; tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.tinyseaside.dk/en/camping/;
     id=way/72452211</desc>
+    <link href="https://www.tinyseaside.dk/en/camping/"></link>
   </wpt>
   <wpt lat="55.0411772" lon="10.458365661721714">
     <ele>7</ele>
@@ -3083,7 +3083,9 @@ version="1.1" creator="togpx">
     motor_vehicle=yes; name=Købingsmark Strand Camping;
     power_supply=yes; shower=yes; tents=yes; toilets=yes;
     toilets:wheelchair=limited; tourism=camp_site;
+    website=https://www.koebingsmarkcamping.dk/;
     wheelchair=limited; id=way/93305627</desc>
+    <link href="https://www.koebingsmarkcamping.dk/"></link>
   </wpt>
   <wpt lat="55.0775485" lon="9.713978110211517">
     <ele>6</ele>
@@ -3140,8 +3142,9 @@ version="1.1" creator="togpx">
     <ele>6</ele>
     <name>Ballum Camping</name>
     <desc>caravans=yes; fvst:navnelbnr=696423; motor_vehicle=yes;
-    name=Ballum Camping; ref:DK:cvr=38198440; tourism=camp_site;
-    website=http://www.ballum-camping.dk/; id=way/93869806</desc>
+    name=Ballum Camping; ref:DK:cvr=38198440; tents=yes;
+    tourism=camp_site; website=http://www.ballum-camping.dk/;
+    id=way/93869806</desc>
     <link href="http://www.ballum-camping.dk/"></link>
   </wpt>
   <wpt lat="56.4374872" lon="9.421024576609657">
@@ -3489,6 +3492,7 @@ version="1.1" creator="togpx">
     <ele>15</ele>
     <name>Vestkystcamping</name>
     <desc>alt_name=Løkken Vestkystcamping Campingplads;
+    check_in=13:00; check_out=11:00; dog=yes;
     fvst:navnelbnr=909320; motor_vehicle=yes; name=Vestkystcamping;
     ref:DK:cvr=34925844; ref:DK:cvr:pnummer=1018308645;
     tourism=camp_site; website=https://vestkystcamping.dk/;
@@ -3557,9 +3561,9 @@ version="1.1" creator="togpx">
   <wpt lat="56.52251215" lon="8.961205789769881">
     <ele>17</ele>
     <name>Flyndersø Camping</name>
-    <desc>alt_name=Skive Flyndersø Camping; motor_vehicle=yes;
-    name=Flyndersø Camping; opening_hours=Mar 01-Oct 31
-    08:00-22:00; phone=+45 97534024; tourism=camp_site;
+    <desc>alt_name=Skive Flyndersø Camping; caravans=yes;
+    motor_vehicle=yes; name=Flyndersø Camping; opening_hours=Mar
+    01-Oct 31 08:00-22:00; phone=+45 97534024; tourism=camp_site;
     website=https://www.danskecampingpladser.dk/plads/skive-flyndersoe-camping;
     id=way/97757315</desc>
     <link href="https://www.danskecampingpladser.dk/plads/skive-flyndersoe-camping">
@@ -3613,10 +3617,13 @@ version="1.1" creator="togpx">
   <wpt lat="57.5531771" lon="9.93342461739658">
     <ele>28</ele>
     <name>Tornby Strand</name>
-    <desc>capacity=300; fee=yes; internet_access=wlan;
-    internet_access:fee=yes; motor_vehicle=yes; name=Tornby Strand;
-    power_supply=yes; tents=yes; tourism=camp_site;
+    <desc>capacity=300; caravans=yes; fee=yes;
+    internet_access=wlan; internet_access:fee=yes;
+    motor_vehicle=yes; name=Tornby Strand; power_supply=yes;
+    tents=yes; tourism=camp_site;
+    website=https://www.tornbystrandcamping.dk/;
     id=way/98214903</desc>
+    <link href="https://www.tornbystrandcamping.dk/"></link>
   </wpt>
   <wpt lat="54.90006735" lon="9.57247327871697">
     <ele>6</ele>
@@ -3657,8 +3664,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.812796250000005" lon="8.199180894924622">
     <ele>6</ele>
     <name>Nymindegab Familie Camping</name>
-    <desc>fvst:navnelbnr=75138; motor_vehicle=yes; name=Nymindegab
-    Familie Camping; seasonal=summer; tourism=camp_site;
+    <desc>caravans=yes; drinking_water=yes; fvst:navnelbnr=75138;
+    motor_vehicle=yes; name=Nymindegab Familie Camping;
+    power_supply=yes; seasonal=summer; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
     website=http://nymindegabcamping.dk/; wheelchair=yes;
     id=way/98776106</desc>
     <link href="http://nymindegabcamping.dk/"></link>
@@ -3705,11 +3714,11 @@ version="1.1" creator="togpx">
   <wpt lat="57.134306300000006" lon="9.174265319481615">
     <ele>6</ele>
     <name>First Camp Klim Strand</name>
-    <desc>motor_vehicle=yes; name=First Camp Klim Strand; phone=+45
-    82107010; tourism=camp_site;
-    website=https://firstcamp.dk/destination/klimstrand-nordvestkysten/;
+    <desc>caravans=yes; motor_vehicle=yes; name=First Camp Klim
+    Strand; phone=+45 82107010; tents=yes; tourism=camp_site;
+    website=https://firstcamp.dk/destinationer/klim-strand-nordvestkysten;
     id=way/98884123</desc>
-    <link href="https://firstcamp.dk/destination/klimstrand-nordvestkysten/">
+    <link href="https://firstcamp.dk/destinationer/klim-strand-nordvestkysten">
     </link>
   </wpt>
   <wpt lat="56.4351147" lon="10.38564394522071">
@@ -3742,8 +3751,8 @@ version="1.1" creator="togpx">
     <ele>5</ele>
     <name>Hvalpsund Familie Camping</name>
     <desc>caravans=yes; motor_vehicle=yes; name=Hvalpsund Familie
-    Camping; tourism=camp_site; website=https://hvalpsundcamp.dk/;
-    id=way/99012324</desc>
+    Camping; tents=yes; tourism=camp_site;
+    website=https://hvalpsundcamp.dk/; id=way/99012324</desc>
     <link href="https://hvalpsundcamp.dk/"></link>
   </wpt>
   <wpt lat="57.1096281" lon="9.09964470871611">
@@ -3799,7 +3808,7 @@ version="1.1" creator="togpx">
   <wpt lat="55.1623433" lon="8.545168176416126">
     <ele>3</ele>
     <name>Rømø Familie Camping</name>
-    <desc>camp_site=deluxe; caravans=yes;
+    <desc>camp_site=deluxe; caravans=yes; dog=yes;
     email=romo@romocamping.dk; fee=yes; motor_vehicle=yes;
     name=Rømø Familie Camping; opening_hours=Mar 3-Oct 23
     08:00-22:00; phone=+45 74 75 51 54; tents=yes;
@@ -3881,8 +3890,10 @@ version="1.1" creator="togpx">
   <wpt lat="56.449795949999995" lon="9.951200673547916">
     <ele>22</ele>
     <name>Randers City Camping</name>
-    <desc>motor_vehicle=yes; name=Randers City Camping;
-    tourism=camp_site; id=way/101321117</desc>
+    <desc>caravans=yes; drinking_water=yes; motor_vehicle=yes;
+    name=Randers City Camping; power_supply=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    id=way/101321117</desc>
   </wpt>
   <wpt lat="56.5113606" lon="10.592100726201707">
     <ele>8</ele>
@@ -4190,7 +4201,9 @@ version="1.1" creator="togpx">
     <ele>11</ele>
     <name>Kjul Camping</name>
     <desc>motor_vehicle=yes; name=Kjul Camping; tourism=camp_site;
+    website=https://www.kjulcamping.dk/?lang=en;
     id=way/105297451</desc>
+    <link href="https://www.kjulcamping.dk/?lang=en"></link>
   </wpt>
   <wpt lat="55.8925976" lon="8.515036778156997">
     <ele>10</ele>
@@ -4201,7 +4214,7 @@ version="1.1" creator="togpx">
     navnet Tarm Camping. I starten var det kun en teltplads
     placeret i den vestlige ende af grunden.; dog=leashed;
     drinking_water=yes; email=birkelund@camping-outdoor.dk;
-    fee=yes; fvst:navnelbnr=698291;
+    fee=yes;
     image=https://camping-outdoor.dk/r/billeder-mange-gode-skud-foel-den-gode-stemning-paa-pladsen;
     internet_access=wlan; internet_access:fee=customers;
     motor_vehicle=yes; name=Birkelund Camping &amp; Outdoor;
@@ -4494,8 +4507,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.8468643" lon="8.281850158508774">
     <ele>1</ele>
     <name>Bork Havn Camping</name>
-    <desc>motor_vehicle=yes; name=Bork Havn Camping;
-    tourism=camp_site; id=way/115195383</desc>
+    <desc>caravans=yes; drinking_water=yes; motor_vehicle=yes;
+    name=Bork Havn Camping; power_supply=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    id=way/115195383</desc>
   </wpt>
   <wpt lat="54.933069149999994" lon="10.828126722215776">
     <ele>-2</ele>
@@ -4553,8 +4568,8 @@ version="1.1" creator="togpx">
   <wpt lat="56.637492249999994" lon="9.149179520143855">
     <ele>3</ele>
     <name>Lundø Camping &amp; Grill</name>
-    <desc>motor_vehicle=yes; name=Lundø Camping &amp; Grill;
-    tents=yes; tourism=camp_site; id=way/116777871</desc>
+    <desc>caravans=yes; motor_vehicle=yes; name=Lundø Camping &amp;
+    Grill; tents=yes; tourism=camp_site; id=way/116777871</desc>
   </wpt>
   <wpt lat="55.2603354" lon="9.753341609984057">
     <ele>3</ele>
@@ -4613,8 +4628,8 @@ version="1.1" creator="togpx">
   <wpt lat="56.7504243" lon="8.834228572206197">
     <ele>23</ele>
     <name>Sallingsund Camping</name>
-    <desc>motor_vehicle=yes; name=Sallingsund Camping;
-    tourism=camp_site;
+    <desc>motor_vehicle=yes; motorhome=yes; name=Sallingsund
+    Camping; tourism=camp_site;
     website=http://www.sfkro.dk/da/66283-Camping;
     id=way/118267088</desc>
     <link href="http://www.sfkro.dk/da/66283-Camping"></link>
@@ -4996,7 +5011,7 @@ version="1.1" creator="togpx">
   <wpt lat="54.8849008" lon="9.72932169895294">
     <ele>3</ele>
     <name>Gammelmark Strand Camping</name>
-    <desc>fvst:navnelbnr=1282809; motor_vehicle=yes;
+    <desc>caravans=yes; fvst:navnelbnr=1282809; motor_vehicle=yes;
     name=Gammelmark Strand Camping; ref:DK:cvr=43693441;
     ref:DK:cvr:pnummer=1028817785; tourism=camp_site;
     website=https://www.gammelmark.dk/; id=way/128634226</desc>
@@ -5015,10 +5030,11 @@ version="1.1" creator="togpx">
   <wpt lat="55.949345449999996" lon="8.148917764453023">
     <ele>2</ele>
     <name>Dancamps Nordsø</name>
-    <desc>motor_vehicle=yes; name=Dancamps Nordsø;
-    operator=Dancamps; stars=3; tourism=camp_site;
-    website=https://www.dancamps.dk/nordsoe;
-    id=way/132419535</desc>
+    <desc>caravans=yes; drinking_water=yes; internet_access=wlan;
+    motor_vehicle=yes; name=Dancamps Nordsø; operator=Dancamps;
+    power_supply=yes; shower=yes; stars=3; tents=yes; toilets=yes;
+    tourism=camp_site; website=https://www.dancamps.dk/nordsoe;
+    wheelchair=yes; id=way/132419535</desc>
     <link href="https://www.dancamps.dk/nordsoe"></link>
   </wpt>
   <wpt lat="56.625270349999994" lon="8.157640080945246">
@@ -5228,7 +5244,8 @@ version="1.1" creator="togpx">
     <ele>6</ele>
     <name>Ærøskøbing Camping</name>
     <desc>bike_friend=yes; motor_vehicle=yes; name=Ærøskøbing
-    Camping; tourism=camp_site; website=http://aeroecamps.dk;
+    Camping; toilets:wheelchair=yes; tourism=camp_site;
+    website=http://aeroecamps.dk; wheelchair=yes;
     id=way/152156498</desc>
     <link href="http://aeroecamps.dk"></link>
   </wpt>
@@ -5307,7 +5324,9 @@ version="1.1" creator="togpx">
     <ele>51</ele>
     <name>Bramslev Bakker Camping</name>
     <desc>motor_vehicle=yes; name=Bramslev Bakker Camping;
-    tourism=camp_site; id=way/161710263</desc>
+    tourism=camp_site; website=https://bramslevbakker.dk/;
+    id=way/161710263</desc>
+    <link href="https://bramslevbakker.dk/"></link>
   </wpt>
   <wpt lat="55.359374599999995" lon="10.788217353229639">
     <ele>6</ele>
@@ -5318,6 +5337,13 @@ version="1.1" creator="togpx">
     stars=3; tourism=camp_site; website=http://gronnehave.dk/;
     id=way/161779150</desc>
     <link href="http://gronnehave.dk/"></link>
+  </wpt>
+  <wpt lat="57.091163550000005" lon="8.741006146631676">
+    <ele>5</ele>
+    <name>Krægpøt</name>
+    <desc>access=yes; backcountry=yes; capacity:tents=5;
+    caravans=no; fee=no; name=Krægpøt; static_caravans=no;
+    tents=yes; tourism=camp_site; id=way/162242907</desc>
   </wpt>
   <wpt lat="55.1966281" lon="14.987257992763162">
     <ele>11</ele>
@@ -5409,19 +5435,22 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.22177495" lon="9.585840993981272">
     <ele>11</ele>
-    <name>Blokhus Klit Camping</name>
-    <desc>fvst:navnelbnr=798048; motor_vehicle=yes; name=Blokhus
-    Klit Camping; ref:DK:cvr=33986122;
-    ref:DK:cvr:pnummer=1023590251; tourism=camp_site;
+    <name>Blokhus Natur Camping</name>
+    <desc>fvst:navnelbnr=798048; motor_vehicle=yes; motorhome=yes;
+    name=Blokhus Natur Camping; old_name=Blokhus Klit Camping;
+    ref:DK:cvr=33986122; ref:DK:cvr:pnummer=1023590251;
+    tourism=camp_site; website=https://www.blokhusnaturcamping.dk/;
     id=way/168240342</desc>
+    <link href="https://www.blokhusnaturcamping.dk/"></link>
   </wpt>
   <wpt lat="56.8598937" lon="8.363531059109775">
     <ele>25</ele>
-    <name>way/168851804</name>
-    <desc>backcountry=yes; caravans=no; fee=no; landuse=grass;
-    motor_vehicle=no;
-    nationalpark_thy:camp_site_classification=stor lejrplads;
-    surface=grass; tourism=camp_site; id=way/168851804</desc>
+    <name>Hvidbjerg</name>
+    <desc>access=yes; backcountry=yes; capacity:persons=20;
+    caravans=no; fee=no; landuse=grass; motor_vehicle=no;
+    name=Hvidbjerg; nationalpark_thy:camp_site_classification=stor
+    lejrplads; surface=grass; tourism=camp_site;
+    id=way/168851804</desc>
   </wpt>
   <wpt lat="55.0291785" lon="10.259209400000005">
     <ele>6</ele>
@@ -5615,8 +5644,9 @@ version="1.1" creator="togpx">
   <wpt lat="56.320668999999995" lon="8.148761368529062">
     <ele>5</ele>
     <name>Nissum Fjord Camping</name>
-    <desc>motor_vehicle=yes; name=Nissum Fjord Camping;
-    tourism=camp_site; website=https://www.nissumfjordcamping.dk/;
+    <desc>caravans=yes; motor_vehicle=yes; motorhome=yes;
+    name=Nissum Fjord Camping; tourism=camp_site;
+    website=https://www.nissumfjordcamping.dk/;
     id=way/197497891</desc>
     <link href="https://www.nissumfjordcamping.dk/"></link>
   </wpt>
@@ -5689,10 +5719,10 @@ version="1.1" creator="togpx">
   <wpt lat="57.1706919" lon="9.458652740721314">
     <ele>9</ele>
     <name>Tranum Klit Camping</name>
-    <desc>fvst:navnelbnr=754076; motor_vehicle=yes; name=Tranum
-    Klit Camping; ref:DK:cvr=39405954;
-    ref:DK:cvr:pnummer=1023428926; tourism=camp_site;
-    id=way/210598353</desc>
+    <desc>caravans=yes; drinking_water=yes; fvst:navnelbnr=754076;
+    motor_vehicle=yes; name=Tranum Klit Camping;
+    ref:DK:cvr=39405954; ref:DK:cvr:pnummer=1023428926; tents=yes;
+    tourism=camp_site; id=way/210598353</desc>
   </wpt>
   <wpt lat="55.175980949999996" lon="8.944114740651466">
     <ele>40</ele>
@@ -5818,9 +5848,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.62507495" lon="9.83393274251921">
     <ele>23</ele>
     <name>Trelde Næs Camping</name>
-    <desc>alt_name=Dancamp Trelde Næs; int_name=Trelde Naes
-    Camping; motor_vehicle=yes; name=Trelde Næs Camping;
-    tourism=camp_site; website=https://www.dancamps.dk/trelde-naes;
+    <desc>alt_name=Dancamp Trelde Næs; caravans=yes;
+    int_name=Trelde Naes Camping; motor_vehicle=yes; name=Trelde
+    Næs Camping; tents=yes; tourism=camp_site;
+    website=https://www.dancamps.dk/trelde-naes;
     id=way/227144693</desc>
     <link href="https://www.dancamps.dk/trelde-naes"></link>
   </wpt>
@@ -5992,7 +6023,7 @@ version="1.1" creator="togpx">
     id=way/229958977</desc>
     <link href="https://www.skyttehusetscamping.dk/"></link>
   </wpt>
-  <wpt lat="56.140721549999995" lon="9.621720047127155">
+  <wpt lat="56.140715799999995" lon="9.621747949606068">
     <ele>37</ele>
     <name>Sejs Bakker Camping</name>
     <desc>motor_vehicle=yes; name=Sejs Bakker Camping;
@@ -6035,15 +6066,6 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://www.tangloppencamping.dk/;
     id=way/230896919</desc>
     <link href="https://www.tangloppencamping.dk/"></link>
-  </wpt>
-  <wpt lat="54.825604" lon="11.81299973015541">
-    <ele>0</ele>
-    <name>Klodskov</name>
-    <desc>backcountry=yes; caravans=no; fireplace=yes;
-    motor_vehicle=no; name=Klodskov; ref=Teltplads 4; tents=yes;
-    tourism=camp_site; website=http://www.friluftsguiden.dk;
-    id=way/231154629</desc>
-    <link href="http://www.friluftsguiden.dk"></link>
   </wpt>
   <wpt lat="54.914400400000005" lon="11.356613936017894">
     <ele>2</ele>
@@ -6110,9 +6132,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.42122585" lon="9.783588168223933">
     <ele>28</ele>
-    <name>https://udinaturen.dk/shelter/7678</name>
-    <desc>fee=no; fireplace=yes; lit=no; tourism=camp_site;
-    website=https://udinaturen.dk/shelter/7678;
+    <name>Kajholm</name>
+    <desc>camp_site=basic; caravans=no; fee=no; fireplace=yes;
+    lit=no; motor_vehicle=no; motorhome=no; name=Kajholm;
+    tourism=camp_site; website=https://udinaturen.dk/shelter/7678;
     id=way/232568772</desc>
     <link href="https://udinaturen.dk/shelter/7678"></link>
   </wpt>
@@ -6199,12 +6222,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.1049025" lon="9.52497418640291">
     <ele>1</ele>
-    <name>Loddenhøj Camping</name>
-    <desc>fvst:navnelbnr=78471; motor_vehicle=yes; name=Loddenhøj
-    Camping; phone=+4574617090; ref:DK:cvr=31988640;
-    tourism=camp_site; website=http://www.loddenhojcamping.dk/;
+    <name>Tiny Seaside - Loddenhøj Camping</name>
+    <desc>fvst:navnelbnr=78471; motor_vehicle=yes; name=Tiny
+    Seaside - Loddenhøj Camping; phone=+49 157 37 85 95 03;
+    ref:DK:cvr=31988640; tourism=camp_site;
+    website=https://www.tinyseaside.dk/en/camping/;
     id=way/234929701</desc>
-    <link href="http://www.loddenhojcamping.dk/"></link>
+    <link href="https://www.tinyseaside.dk/en/camping/"></link>
   </wpt>
   <wpt lat="55.109976" lon="9.44071101290766">
     <ele>43</ele>
@@ -6227,7 +6251,7 @@ version="1.1" creator="togpx">
   <wpt lat="54.97782835" lon="10.631180830525885">
     <ele>3</ele>
     <name>Tåsinge Camping</name>
-    <desc>fvst:navnelbnr=84981; name=Tåsinge Camping;
+    <desc>caravans=yes; fvst:navnelbnr=84981; name=Tåsinge Camping;
     ref:DK:cvr=28637276; ref:DK:cvr:pnummer=1013173202;
     tourism=camp_site; website=https://taasingecamping.com/;
     id=way/236110778</desc>
@@ -6407,8 +6431,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.7804152" lon="12.41344281872598">
     <ele>42</ele>
-    <name>way/249391452</name>
-    <desc>landuse=meadow; tourism=camp_site;
+    <name>Ny Åsevang</name>
+    <desc>camp_site=basic; caravans=no; description=Der kan i
+    sommerhalvåret hentes vand fra vandhane på brandhane ved vejen
+    Ved Kulhus.; landuse=meadow; motorhome=no; name=Ny Åsevang;
+    openfire=yes; tourism=camp_site;
     url=https://udinaturen.dk/shelter/2682; id=way/249391452</desc>
     <link href="https://udinaturen.dk/shelter/2682"></link>
   </wpt>
@@ -6923,11 +6950,14 @@ version="1.1" creator="togpx">
   <wpt lat="55.9911971" lon="9.366688426570942">
     <ele>81</ele>
     <name>Gyvelborg</name>
-    <desc>capacity=30; contact:website=http://www.gyvelborg.com/;
-    fvst:navnelbnr=523265; motor_vehicle=yes; name=Gyvelborg;
-    ref:DK:cvr=15932848; ref:DK:cvr:pnummer=1001003415;
-    tourism=camp_site; id=way/362660582</desc>
-    <link href="http://www.gyvelborg.com/"></link>
+    <desc>capacity=30; caravan_site:type=farm_shop; charge=DKK 190;
+    contact:website=https://gyvelborg.dk/language/en/accommodation/caravan-or-tent;
+    fee=yes; fvst:navnelbnr=523265; motor_vehicle=yes;
+    motorhome=yes; name=Gyvelborg; ref:DK:cvr=15932848;
+    ref:DK:cvr:pnummer=1001003415; tourism=camp_site;
+    id=way/362660582</desc>
+    <link href="https://gyvelborg.dk/language/en/accommodation/caravan-or-tent">
+    </link>
   </wpt>
   <wpt lat="56.17494455" lon="9.406667221728974">
     <ele>75</ele>
@@ -7343,9 +7373,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.088477600000004" lon="9.309857533517073">
     <ele>42</ele>
-    <name>https://www.rodekro-fiskepark.dk/</name>
-    <desc>caravans=yes; leisure=fishing; motor_vehicle=yes;
-    phone=+45 40335503; tourism=camp_site;
+    <name>Rodekro Fiskepark</name>
+    <desc>caravans=yes; fishing=yes; leisure=fishing;
+    motor_vehicle=yes; name=Rodekro Fiskepark; phone=+45 40335503;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.rodekro-fiskepark.dk/;
     id=way/435710080</desc>
     <link href="https://www.rodekro-fiskepark.dk/"></link>
@@ -7648,8 +7679,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.1698992" lon="11.160580374948072">
     <ele>0</ele>
-    <name>way/489530474</name>
-    <desc>caravans=yes; motor_vehicle=yes; tourism=camp_site;
+    <name>Omø Campingplads</name>
+    <desc>caravans=yes; charge=DKK 135; charge:tent=DKK 100;
+    fee=yes; motor_vehicle=yes; motorhome=yes; name=Omø
+    Campingplads; phone=+45 24412948; tents=yes; tourism=camp_site;
     id=way/489530474</desc>
   </wpt>
   <wpt lat="55.35433855" lon="11.390843787935474">
@@ -7678,9 +7711,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.6917398" lon="9.499739741120994">
     <ele>27</ele>
-    <name>way/495029014</name>
-    <desc>fee=yes; fixme=Primitiv teltplads?; tourism=camp_site;
+    <name>Aalestrup camping</name>
+    <desc>fee=yes; name=Aalestrup camping; tourism=camp_site;
+    website=https://rosenparken.dk/aalestrup-camping/;
     id=way/495029014</desc>
+    <link href="https://rosenparken.dk/aalestrup-camping/"></link>
   </wpt>
   <wpt lat="57.70424075" lon="10.523389615746012">
     <ele>7</ele>
@@ -7747,8 +7782,9 @@ version="1.1" creator="togpx">
   <wpt lat="56.90516505" lon="8.34660755">
     <ele>18</ele>
     <name>way/496203605</name>
-    <desc>backcountry=yes; caravans=no; fee=no; motor_vehicle=no;
-    openfire=yes; tourism=camp_site; id=way/496203605</desc>
+    <desc>access=yes; backcountry=yes; capacity:persons=7;
+    caravans=no; fee=no; motor_vehicle=no; openfire=yes; tents=yes;
+    tourism=camp_site; id=way/496203605</desc>
   </wpt>
   <wpt lat="57.061854600000004" lon="9.872424549999998">
     <ele>6</ele>
@@ -7859,9 +7895,10 @@ version="1.1" creator="togpx">
   <wpt lat="56.9649069" lon="8.407455831878076">
     <ele>23</ele>
     <name>Tvorup Vest</name>
-    <desc>backcountry=yes; bin=yes; caravans=no; drinking_water=no;
-    fee=no; fireplace=yes; motor_vehicle=no; name=Tvorup Vest;
-    openfire=yes; tourism=camp_site; id=way/511274053</desc>
+    <desc>backcountry=yes; bin=yes; capacity:persons=5;
+    caravans=no; drinking_water=no; fee=no; fireplace=yes;
+    motor_vehicle=no; name=Tvorup Vest; openfire=yes; tents=yes;
+    tourism=camp_site; id=way/511274053</desc>
   </wpt>
   <wpt lat="56.971112250000004" lon="8.476928452996448">
     <ele>31</ele>
@@ -7890,13 +7927,16 @@ version="1.1" creator="togpx">
     natural=grass; openfire=yes; tourism=camp_site;
     id=way/512063490</desc>
   </wpt>
-  <wpt lat="57.096706600000005" lon="8.740926633165259">
+  <wpt lat="57.0967221" lon="8.740842968564356">
     <ele>5</ele>
     <name>Vigsø Bugt</name>
     <desc>backcountry=yes; bin=yes; caravans=no; drinking_water=no;
     fee=no; fireplace=yes; internet_access=no; motor_vehicle=no;
-    name=Vigsø Bugt; shower=no; tourism=camp_site;
+    name=Vigsø Bugt; shower=no; static_caravans=no;
+    tourism=camp_site;
+    website=https://opdagthy.dk/vigsoe-bugt-shelter/;
     id=way/512069184</desc>
+    <link href="https://opdagthy.dk/vigsoe-bugt-shelter/"></link>
   </wpt>
   <wpt lat="55.955517799999996" lon="9.680961683901913">
     <ele>44</ele>
@@ -8746,7 +8786,8 @@ version="1.1" creator="togpx">
     <ele>98</ele>
     <name>way/575213935</name>
     <desc>backcountry=yes; motor_vehicle=no; tourism=camp_site;
-    id=way/575213935</desc>
+    url=https://udinaturen.dk/shelter/4507; id=way/575213935</desc>
+    <link href="https://udinaturen.dk/shelter/4507"></link>
   </wpt>
   <wpt lat="56.242067950000006" lon="10.560347151890651">
     <ele>78</ele>
@@ -9023,13 +9064,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.9703659" lon="12.291090986523304">
     <ele>67</ele>
-    <name>Helledes Bakke</name>
-    <desc>backcountry=yes; description=Lejrpladsen er anlagt i 2
-    sammenhængende grusgrave. Der kan hentes vand ved
-    Naturstyrelsens driftsbygninger Helsingevej 7. Nærmeste P-plads
-    1,1 km derfra ved Helsingevej. Bålpladser: 1 Antal personer der
-    kan overnatte: 25; motor_vehicle=no; name=Helledes Bakke;
-    openfire=yes; tourism=camp_site;
+    <name>Helledes Bakke Lejrplads</name>
+    <desc>backcountry=yes; camp_site=basic; caravans=no;
+    description=Lejrpladsen er anlagt i 2 sammenhængende grusgrave.
+    Der kan hentes vand ved Naturstyrelsens driftsbygninger
+    Helsingevej 7. Nærmeste P-plads 1,1 km derfra ved Helsingevej.
+    Bålpladser: 1 Antal personer der kan overnatte: 25;
+    motor_vehicle=no; motorhome=no; name=Helledes Bakke Lejrplads;
+    openfire=yes; shower=no; tourism=camp_site;
     url=https://udinaturen.dk/shelter/3829; id=way/578920890</desc>
     <link href="https://udinaturen.dk/shelter/3829"></link>
   </wpt>
@@ -9183,9 +9225,10 @@ version="1.1" creator="togpx">
     <name>Græshytten</name>
     <desc>caravans=no; description=Campground and hut; fee=yes;
     name=Græshytten; tourism=camp_site;
-    website=https://www.hyttefortegnelsen.dk/hytte/378;
+    website=https://hyttefortegnelsen.dk/hytte/graeshytten/;
     id=way/604349170</desc>
-    <link href="https://www.hyttefortegnelsen.dk/hytte/378"></link>
+    <link href="https://hyttefortegnelsen.dk/hytte/graeshytten/">
+    </link>
   </wpt>
   <wpt lat="55.8418219" lon="12.089390026003835">
     <ele>21</ele>
@@ -9420,9 +9463,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.90583235" lon="9.452454054343626">
     <ele>103</ele>
-    <name>way/627978298</name>
-    <desc>access=private; tourism=camp_site;
-    id=way/627978298</desc>
+    <name>Vejle Svæveflyveklub</name>
+    <desc>access=private; name=Vejle Svæveflyveklub;
+    tourism=camp_site; id=way/627978298</desc>
   </wpt>
   <wpt lat="55.53275214999999" lon="8.22317793194679">
     <ele>7</ele>
@@ -9588,14 +9631,6 @@ version="1.1" creator="togpx">
     <link href="http://udinaturen.dk/facilitet/toftlund-skov/5308">
     </link>
   </wpt>
-  <wpt lat="54.98218975" lon="10.790465779480954">
-    <ele>0</ele>
-    <name>https://udinaturen.dk/shelter/127739</name>
-    <desc>backcountry=yes; motor_vehicle=no; tourism=camp_site;
-    website=https://udinaturen.dk/shelter/127739;
-    id=way/692224368</desc>
-    <link href="https://udinaturen.dk/shelter/127739"></link>
-  </wpt>
   <wpt lat="55.217052100000004" lon="10.436857700856375">
     <ele>50</ele>
     <name>MC-Camp Fyn</name>
@@ -9742,14 +9777,6 @@ version="1.1" creator="togpx">
     <link href="http://udinaturen.dk/facilitet/koutrupg%C3%A5rd-shelterplads/2251">
     </link>
   </wpt>
-  <wpt lat="54.9529575" lon="12.472571087361366">
-    <ele>5</ele>
-    <name>Teltplads Camønoen</name>
-    <desc>backcountry=yes; camp_site=standard; caravans=no;
-    drinking_water=yes; motor_vehicle=no; name=Teltplads Camønoen;
-    shower=no; tents=yes; toilets=yes; tourism=camp_site;
-    id=way/717937758</desc>
-  </wpt>
   <wpt lat="55.0584157" lon="9.341407593807478">
     <ele>48</ele>
     <name>Skrivergårdens Teltplads</name>
@@ -9788,14 +9815,6 @@ version="1.1" creator="togpx">
     id=way/724714379</desc>
     <link href="https://www.hvidesande.dk/hvide-sande/naturlejrpladser/shelters-rundt-om-ringkoebing-fjord">
     </link>
-  </wpt>
-  <wpt lat="56.297205000000005" lon="10.499823004626336">
-    <ele>80</ele>
-    <name>https://udinaturen.dk/shelter/1811</name>
-    <desc>caravans=no; description=Shelterplads; motor_vehicle=no;
-    tourism=camp_site; website=https://udinaturen.dk/shelter/1811;
-    id=way/734159879</desc>
-    <link href="https://udinaturen.dk/shelter/1811"></link>
   </wpt>
   <wpt lat="55.586707649999994" lon="8.540821185423571">
     <ele>24</ele>
@@ -9845,7 +9864,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.3329071" lon="9.913746062352025">
     <ele>7</ele>
     <name>Filshuse telt- og shelterplads</name>
-    <desc>name=Filshuse telt- og shelterplads; tourism=camp_site;
+    <desc>caravans=no; motorhome=no; name=Filshuse telt- og
+    shelterplads; tents=yes; tourism=camp_site;
     id=way/778373817</desc>
   </wpt>
   <wpt lat="54.8375839" lon="9.442446711960658">
@@ -10078,12 +10098,6 @@ version="1.1" creator="togpx">
     website=http://knivsberg.dk/; id=way/854949796</desc>
     <link href="http://knivsberg.dk/"></link>
   </wpt>
-  <wpt lat="55.42150985000001" lon="9.56358481622928">
-    <ele>76</ele>
-    <name>Skamling Camping</name>
-    <desc>motor_vehicle=yes; name=Skamling Camping;
-    tourism=camp_site; id=way/857362567</desc>
-  </wpt>
   <wpt lat="56.06378515" lon="9.228525486759683">
     <ele>92</ele>
     <name>way/902801276</name>
@@ -10278,17 +10292,6 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; name=Shelterplads - Grathe Hede;
     tourism=camp_site; id=way/981014795</desc>
   </wpt>
-  <wpt lat="55.559108699999996" lon="9.757225591901936">
-    <ele>4</ele>
-    <name>Kanalbyen Fredericia</name>
-    <desc>caravans=no; operator=Kanalbyen Fredericia;
-    power_supply=no; sanitary_dump_station=no;
-    source=https://jv.dk/artikel/med-coronapandemien-kom-autocamperne-til-kanalbyen,https://fyens.dk/artikel/kommunen-kr%C3%A6ver-havnepenge-kanalbyen-giver-gratis-overnatning-for-autocampere;
-    source:power_supply=https://www.tvsyd.dk/fredericia/autocampere-valfarter-til-gammel-industrihavn-som-aldrig-foer;
-    tents=no; tourism=camp_site; id=way/997720596</desc>
-    <link href="https://jv.dk/artikel/med-coronapandemien-kom-autocamperne-til-kanalbyen,https://fyens.dk/artikel/kommunen-kr%C3%A6ver-havnepenge-kanalbyen-giver-gratis-overnatning-for-autocampere">
-    </link>
-  </wpt>
   <wpt lat="55.9264259" lon="10.2548802331272">
     <ele>2</ele>
     <name>Hou Strand Camping</name>
@@ -10356,7 +10359,7 @@ version="1.1" creator="togpx">
     id=way/1079876875</desc>
     <link href="https://udinaturen.dk/shelter/102978"></link>
   </wpt>
-  <wpt lat="54.96628445" lon="10.492535098037619">
+  <wpt lat="54.966153000000006" lon="10.492593947509228">
     <ele>0</ele>
     <name>https://udinaturen.dk/shelter/106204</name>
     <desc>backcountry=yes; caravans=no; drinking_water=yes;
@@ -10489,6 +10492,46 @@ version="1.1" creator="togpx">
     id=way/1114818512</desc>
     <link href="https://www.visitsamsoe.dk/overnatning/nordby-strand-lejrplads/">
     </link>
+  </wpt>
+  <wpt lat="55.30567045" lon="8.998807230300972">
+    <ele>16</ele>
+    <name>Hygge Lake</name>
+    <desc>access=customers; capacity:persons=18; fee=yes;
+    name=Hygge Lake; tourism=camp_site; id=way/1186175835</desc>
+  </wpt>
+  <wpt lat="56.482063100000005" lon="8.356094789391484">
+    <ele>23</ele>
+    <name>Skibakken</name>
+    <desc>access=yes; backcountry=yes; camp_site=basic;
+    capacity:tents=15; caravans=no; fee=no; name=Skibakken;
+    operator=Naturstyrelsen; static_caravans=no; tents=yes;
+    tourism=camp_site; url=https://udinaturen.dk/shelter/103090;
+    id=way/1188125737</desc>
+    <link href="https://udinaturen.dk/shelter/103090"></link>
+  </wpt>
+  <wpt lat="57.02332145" lon="8.60094021892781">
+    <ele>33</ele>
+    <name>Gå-Nu-Nat</name>
+    <desc>access=yes; backcountry=yes; capacity:persons=30;
+    capacity:tents=30; name=Gå-Nu-Nat; tents=yes;
+    tourism=camp_site; url=https://udinaturen.dk/shelter/6370;
+    id=way/1188800874</desc>
+    <link href="https://udinaturen.dk/shelter/6370"></link>
+  </wpt>
+  <wpt lat="57.0800711" lon="8.626554303911806">
+    <ele>29</ele>
+    <name>way/1188800875</name>
+    <desc>access=yes; backcountry=yes; capacity:persons=50;
+    caravans=no; fee=no; static_caravans=no; tents=yes;
+    tourism=camp_site; url=https://udinaturen.dk/shelter/103796;
+    id=way/1188800875</desc>
+    <link href="https://udinaturen.dk/shelter/103796"></link>
+  </wpt>
+  <wpt lat="55.4838109" lon="8.412011812210965">
+    <ele>0</ele>
+    <name>way/1190666459</name>
+    <desc>capacity=10; caravans=yes; surface=fine_gravel; tents=no;
+    tourism=camp_site; id=way/1190666459</desc>
   </wpt>
   <trk>
     <name>Nyborg Strandcamping</name>
@@ -11939,6 +11982,36 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Hundige Strand Familiecamping</name>
+    <trkseg>
+      <trkpt lat="55.5926944" lon="12.3398352"></trkpt>
+      <trkpt lat="55.5930532" lon="12.3406787"></trkpt>
+      <trkpt lat="55.5933059" lon="12.3412983"></trkpt>
+      <trkpt lat="55.5936015" lon="12.3419045"></trkpt>
+      <trkpt lat="55.5939963" lon="12.3426059"></trkpt>
+      <trkpt lat="55.594454" lon="12.3433435"></trkpt>
+      <trkpt lat="55.5949973" lon="12.3441039"></trkpt>
+      <trkpt lat="55.5953544" lon="12.3432975"></trkpt>
+      <trkpt lat="55.5959415" lon="12.3419715"></trkpt>
+      <trkpt lat="55.5955346" lon="12.3413546"></trkpt>
+      <trkpt lat="55.5949314" lon="12.3402965"></trkpt>
+      <trkpt lat="55.5942251" lon="12.3389487"></trkpt>
+      <trkpt lat="55.5937476" lon="12.3379929"></trkpt>
+      <trkpt lat="55.5934938" lon="12.3384015"></trkpt>
+      <trkpt lat="55.5930474" lon="12.3391176"></trkpt>
+      <trkpt lat="55.592708" lon="12.3397507"></trkpt>
+      <trkpt lat="55.5926944" lon="12.3398352"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="55.5949288" lon="12.344473"></trkpt>
+      <trkpt lat="55.5937073" lon="12.3472269"></trkpt>
+      <trkpt lat="55.5939784" lon="12.3475969"></trkpt>
+      <trkpt lat="55.5940301" lon="12.3477065"></trkpt>
+      <trkpt lat="55.5952743" lon="12.3449101"></trkpt>
+      <trkpt lat="55.5949288" lon="12.344473"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Legoland Holiday Village</name>
     <trkseg>
       <trkpt lat="55.7298666" lon="9.1386335"></trkpt>
@@ -12026,7 +12099,8 @@ version="1.1" creator="togpx">
       <trkpt lat="55.7142365" lon="10.0170933"></trkpt>
       <trkpt lat="55.7138554" lon="10.0165354"></trkpt>
       <trkpt lat="55.7136801" lon="10.0162184"></trkpt>
-      <trkpt lat="55.7132954" lon="10.0154114"></trkpt>
+      <trkpt lat="55.713486" lon="10.0157973"></trkpt>
+      <trkpt lat="55.7133007" lon="10.0153946"></trkpt>
       <trkpt lat="55.7131688" lon="10.015638"></trkpt>
       <trkpt lat="55.7127702" lon="10.0148492"></trkpt>
       <trkpt lat="55.7125493" lon="10.0151848"></trkpt>
@@ -12185,9 +12259,8 @@ version="1.1" creator="togpx">
       <trkpt lat="56.3760886" lon="8.1235674"></trkpt>
       <trkpt lat="56.3761018" lon="8.1237403"></trkpt>
       <trkpt lat="56.3762577" lon="8.1254222"></trkpt>
-      <trkpt lat="56.3766929" lon="8.1302702"></trkpt>
-      <trkpt lat="56.3767733" lon="8.1312733"></trkpt>
-      <trkpt lat="56.3774154" lon="8.131128"></trkpt>
+      <trkpt lat="56.376681" lon="8.1300734"></trkpt>
+      <trkpt lat="56.3772713" lon="8.1298614"></trkpt>
       <trkpt lat="56.3769884" lon="8.126167"></trkpt>
       <trkpt lat="56.3769273" lon="8.125596"></trkpt>
       <trkpt lat="56.3777809" lon="8.1253305"></trkpt>
@@ -12293,28 +12366,6 @@ version="1.1" creator="togpx">
       <trkpt lat="56.2572039" lon="8.1453553"></trkpt>
       <trkpt lat="56.2571905" lon="8.1453976"></trkpt>
       <trkpt lat="56.2596449" lon="8.1469661"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Hundige Strand Familiecamping</name>
-    <trkseg>
-      <trkpt lat="55.5926944" lon="12.3398352"></trkpt>
-      <trkpt lat="55.5930532" lon="12.3406787"></trkpt>
-      <trkpt lat="55.5933059" lon="12.3412983"></trkpt>
-      <trkpt lat="55.5936015" lon="12.3419045"></trkpt>
-      <trkpt lat="55.5939963" lon="12.3426059"></trkpt>
-      <trkpt lat="55.594454" lon="12.3433435"></trkpt>
-      <trkpt lat="55.5949973" lon="12.3441039"></trkpt>
-      <trkpt lat="55.5953544" lon="12.3432975"></trkpt>
-      <trkpt lat="55.5959415" lon="12.3419715"></trkpt>
-      <trkpt lat="55.5955346" lon="12.3413546"></trkpt>
-      <trkpt lat="55.5949314" lon="12.3402965"></trkpt>
-      <trkpt lat="55.5942251" lon="12.3389487"></trkpt>
-      <trkpt lat="55.5937476" lon="12.3379929"></trkpt>
-      <trkpt lat="55.5934938" lon="12.3384015"></trkpt>
-      <trkpt lat="55.5930474" lon="12.3391176"></trkpt>
-      <trkpt lat="55.592708" lon="12.3397507"></trkpt>
-      <trkpt lat="55.5926944" lon="12.3398352"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -13502,7 +13553,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Skarrev Camping</name>
+    <name>Skarrev Camping / Tiny Seaside Camping</name>
     <trkseg>
       <trkpt lat="55.046847" lon="9.50039"></trkpt>
       <trkpt lat="55.0468392" lon="9.5000841"></trkpt>
@@ -14947,10 +14998,13 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1685365" lon="10.7270355"></trkpt>
       <trkpt lat="56.1684348" lon="10.727401"></trkpt>
       <trkpt lat="56.1683656" lon="10.7276751"></trkpt>
-      <trkpt lat="56.1682557" lon="10.728417"></trkpt>
-      <trkpt lat="56.1681286" lon="10.7289287"></trkpt>
-      <trkpt lat="56.1680115" lon="10.7291808"></trkpt>
-      <trkpt lat="56.1678874" lon="10.7291041"></trkpt>
+      <trkpt lat="56.1683149" lon="10.7279816"></trkpt>
+      <trkpt lat="56.1682595" lon="10.7284263"></trkpt>
+      <trkpt lat="56.1682089" lon="10.7286575"></trkpt>
+      <trkpt lat="56.1681178" lon="10.7289065"></trkpt>
+      <trkpt lat="56.1680891" lon="10.7289706"></trkpt>
+      <trkpt lat="56.1680059" lon="10.7292"></trkpt>
+      <trkpt lat="56.1678881" lon="10.7291004"></trkpt>
       <trkpt lat="56.1677816" lon="10.7297839"></trkpt>
       <trkpt lat="56.1675557" lon="10.7314358"></trkpt>
       <trkpt lat="56.1674479" lon="10.7321558"></trkpt>
@@ -14998,7 +15052,9 @@ version="1.1" creator="togpx">
       <trkpt lat="56.6208015" lon="8.7271862"></trkpt>
       <trkpt lat="56.6211737" lon="8.7282784"></trkpt>
       <trkpt lat="56.6218919" lon="8.7306813"></trkpt>
-      <trkpt lat="56.6229281" lon="8.7300419"></trkpt>
+      <trkpt lat="56.621952" lon="8.730638"></trkpt>
+      <trkpt lat="56.6228328" lon="8.730107"></trkpt>
+      <trkpt lat="56.6229281" lon="8.7300499"></trkpt>
       <trkpt lat="56.6231391" lon="8.73001"></trkpt>
       <trkpt lat="56.6235832" lon="8.7296876"></trkpt>
       <trkpt lat="56.6228292" lon="8.7271717"></trkpt>
@@ -15153,8 +15209,9 @@ version="1.1" creator="togpx">
       <trkpt lat="57.3846193" lon="9.7374856"></trkpt>
       <trkpt lat="57.3845796" lon="9.7399907"></trkpt>
       <trkpt lat="57.3854322" lon="9.7383722"></trkpt>
-      <trkpt lat="57.3854511" lon="9.7381125"></trkpt>
-      <trkpt lat="57.3854123" lon="9.7375825"></trkpt>
+      <trkpt lat="57.3855523" lon="9.738378"></trkpt>
+      <trkpt lat="57.3859292" lon="9.7384572"></trkpt>
+      <trkpt lat="57.3861106" lon="9.7381324"></trkpt>
       <trkpt lat="57.3860549" lon="9.7374621"></trkpt>
       <trkpt lat="57.3860069" lon="9.7366869"></trkpt>
       <trkpt lat="57.3853595" lon="9.7367908"></trkpt>
@@ -15715,6 +15772,7 @@ version="1.1" creator="togpx">
       <trkpt lat="55.8111167" lon="8.202049"></trkpt>
       <trkpt lat="55.811232" lon="8.2020289"></trkpt>
       <trkpt lat="55.8113669" lon="8.2018867"></trkpt>
+      <trkpt lat="55.8118597" lon="8.2015179"></trkpt>
       <trkpt lat="55.8121325" lon="8.2011102"></trkpt>
       <trkpt lat="55.8124128" lon="8.2009116"></trkpt>
       <trkpt lat="55.8126631" lon="8.2006282"></trkpt>
@@ -16900,6 +16958,7 @@ version="1.1" creator="togpx">
     <name>Camping Rørvig Strand</name>
     <trkseg>
       <trkpt lat="55.9427879" lon="11.6834235"></trkpt>
+      <trkpt lat="55.9427151" lon="11.6834227"></trkpt>
       <trkpt lat="55.9416123" lon="11.6834113"></trkpt>
       <trkpt lat="55.9414867" lon="11.6834099"></trkpt>
       <trkpt lat="55.9411081" lon="11.6834035"></trkpt>
@@ -18590,8 +18649,8 @@ version="1.1" creator="togpx">
       <trkpt lat="55.2574165" lon="11.2826034"></trkpt>
       <trkpt lat="55.2573221" lon="11.2824897"></trkpt>
       <trkpt lat="55.2572088" lon="11.2824474"></trkpt>
-      <trkpt lat="55.2571641" lon="11.2824858"></trkpt>
-      <trkpt lat="55.2571549" lon="11.2824857"></trkpt>
+      <trkpt lat="55.2571779" lon="11.2824733"></trkpt>
+      <trkpt lat="55.2571568" lon="11.2825065"></trkpt>
       <trkpt lat="55.2570955" lon="11.2825448"></trkpt>
     </trkseg>
   </trk>
@@ -20408,6 +20467,28 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Krægpøt</name>
+    <trkseg>
+      <trkpt lat="57.0918801" lon="8.7415885"></trkpt>
+      <trkpt lat="57.0918499" lon="8.741499"></trkpt>
+      <trkpt lat="57.09133" lon="8.7412324"></trkpt>
+      <trkpt lat="57.0914503" lon="8.7404124"></trkpt>
+      <trkpt lat="57.0907118" lon="8.7401005"></trkpt>
+      <trkpt lat="57.0906651" lon="8.7402401"></trkpt>
+      <trkpt lat="57.0906386" lon="8.7404537"></trkpt>
+      <trkpt lat="57.0904697" lon="8.7415288"></trkpt>
+      <trkpt lat="57.0904391" lon="8.7415873"></trkpt>
+      <trkpt lat="57.0904245" lon="8.741694"></trkpt>
+      <trkpt lat="57.0905132" lon="8.741842"></trkpt>
+      <trkpt lat="57.0911027" lon="8.7421071"></trkpt>
+      <trkpt lat="57.0911391" lon="8.7418762"></trkpt>
+      <trkpt lat="57.091188" lon="8.7415658"></trkpt>
+      <trkpt lat="57.0918263" lon="8.7419252"></trkpt>
+      <trkpt lat="57.0918415" lon="8.7418301"></trkpt>
+      <trkpt lat="57.0918801" lon="8.7415885"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Sannes Familiecamping</name>
     <trkseg>
       <trkpt lat="55.1952526" lon="14.9866913"></trkpt>
@@ -20655,10 +20736,9 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Blokhus Klit Camping</name>
+    <name>Blokhus Natur Camping</name>
     <trkseg>
       <trkpt lat="57.2204333" lon="9.5840368"></trkpt>
-      <trkpt lat="57.2204575" lon="9.5847702"></trkpt>
       <trkpt lat="57.2205495" lon="9.5875558"></trkpt>
       <trkpt lat="57.2230004" lon="9.587352"></trkpt>
       <trkpt lat="57.2230313" lon="9.5871665"></trkpt>
@@ -20670,7 +20750,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/168851804</name>
+    <name>Hvidbjerg</name>
     <trkseg>
       <trkpt lat="56.8602566" lon="8.363574"></trkpt>
       <trkpt lat="56.8595718" lon="8.3632211"></trkpt>
@@ -22336,13 +22416,10 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1391884" lon="9.6196687"></trkpt>
       <trkpt lat="56.139106" lon="9.6204085"></trkpt>
       <trkpt lat="56.1397328" lon="9.6222247"></trkpt>
-      <trkpt lat="56.1399439" lon="9.6218445"></trkpt>
-      <trkpt lat="56.1400085" lon="9.6219487"></trkpt>
-      <trkpt lat="56.1399935" lon="9.6222148"></trkpt>
-      <trkpt lat="56.1401685" lon="9.622355"></trkpt>
-      <trkpt lat="56.1399772" lon="9.6227682"></trkpt>
-      <trkpt lat="56.1403378" lon="9.6239428"></trkpt>
-      <trkpt lat="56.1412857" lon="9.6220409"></trkpt>
+      <trkpt lat="56.1399642" lon="9.6229148"></trkpt>
+      <trkpt lat="56.1403263" lon="9.6239944"></trkpt>
+      <trkpt lat="56.1413116" lon="9.6220633"></trkpt>
+      <trkpt lat="56.1412629" lon="9.6219435"></trkpt>
       <trkpt lat="56.1411053" lon="9.6216559"></trkpt>
       <trkpt lat="56.1415892" lon="9.6206263"></trkpt>
       <trkpt lat="56.1402011" lon="9.6200519"></trkpt>
@@ -22503,21 +22580,6 @@ version="1.1" creator="togpx">
       <trkpt lat="55.6083913" lon="12.3798843"></trkpt>
       <trkpt lat="55.6080678" lon="12.3794542"></trkpt>
       <trkpt lat="55.607803" lon="12.3800934"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Klodskov</name>
-    <trkseg>
-      <trkpt lat="54.8256978" lon="11.8129781"></trkpt>
-      <trkpt lat="54.8256599" lon="11.8129327"></trkpt>
-      <trkpt lat="54.8256227" lon="11.812892"></trkpt>
-      <trkpt lat="54.8255853" lon="11.812875"></trkpt>
-      <trkpt lat="54.8255463" lon="11.8128813"></trkpt>
-      <trkpt lat="54.8255194" lon="11.8129099"></trkpt>
-      <trkpt lat="54.8254986" lon="11.8129581"></trkpt>
-      <trkpt lat="54.825484" lon="11.8130192"></trkpt>
-      <trkpt lat="54.8256513" lon="11.8131541"></trkpt>
-      <trkpt lat="54.8256978" lon="11.8129781"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -22714,7 +22776,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/232568772</name>
+    <name>Kajholm</name>
     <trkseg>
       <trkpt lat="57.4213436" lon="9.7836738"></trkpt>
       <trkpt lat="57.4213345" lon="9.7834128"></trkpt>
@@ -22966,7 +23028,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Loddenhøj Camping</name>
+    <name>Tiny Seaside - Loddenhøj Camping</name>
     <trkseg>
       <trkpt lat="55.1051749" lon="9.5244996"></trkpt>
       <trkpt lat="55.1044839" lon="9.5249013"></trkpt>
@@ -23026,6 +23088,7 @@ version="1.1" creator="togpx">
       <trkpt lat="54.97823" lon="10.632007"></trkpt>
       <trkpt lat="54.9783643" lon="10.6318377"></trkpt>
       <trkpt lat="54.9783267" lon="10.6317279"></trkpt>
+      <trkpt lat="54.9787471" lon="10.6313415"></trkpt>
       <trkpt lat="54.9787516" lon="10.6313374"></trkpt>
       <trkpt lat="54.9790517" lon="10.6310228"></trkpt>
     </trkseg>
@@ -23553,7 +23616,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/249391452</name>
+    <name>Ny Åsevang</name>
     <trkseg>
       <trkpt lat="55.7782695" lon="12.4137532"></trkpt>
       <trkpt lat="55.7789681" lon="12.4140241"></trkpt>
@@ -25753,7 +25816,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/435710080</name>
+    <name>Rodekro Fiskepark</name>
     <trkseg>
       <trkpt lat="55.0879829" lon="9.3074526"></trkpt>
       <trkpt lat="55.0876168" lon="9.3081151"></trkpt>
@@ -26351,7 +26414,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/489530474</name>
+    <name>Omø Campingplads</name>
     <trkseg>
       <trkpt lat="55.1704669" lon="11.1604419"></trkpt>
       <trkpt lat="55.1702407" lon="11.1603653"></trkpt>
@@ -26412,7 +26475,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/495029014</name>
+    <name>Aalestrup camping</name>
     <trkseg>
       <trkpt lat="56.6919806" lon="9.4990593"></trkpt>
       <trkpt lat="56.6914077" lon="9.4990888"></trkpt>
@@ -26805,13 +26868,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Vigsø Bugt</name>
     <trkseg>
-      <trkpt lat="57.0968053" lon="8.741295"></trkpt>
-      <trkpt lat="57.0967332" lon="8.7405574"></trkpt>
-      <trkpt lat="57.09668" lon="8.7404971"></trkpt>
-      <trkpt lat="57.0966195" lon="8.7405172"></trkpt>
-      <trkpt lat="57.0965758" lon="8.7405896"></trkpt>
-      <trkpt lat="57.0966516" lon="8.7413433"></trkpt>
-      <trkpt lat="57.0968053" lon="8.741295"></trkpt>
+      <trkpt lat="57.0967753" lon="8.7411415"></trkpt>
+      <trkpt lat="57.0967671" lon="8.7405986"></trkpt>
+      <trkpt lat="57.0966771" lon="8.7404829"></trkpt>
+      <trkpt lat="57.0966347" lon="8.7405289"></trkpt>
+      <trkpt lat="57.096644" lon="8.7411506"></trkpt>
+      <trkpt lat="57.0967753" lon="8.7411415"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -28695,7 +28757,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Helledes Bakke</name>
+    <name>Helledes Bakke Lejrplads</name>
     <trkseg>
       <trkpt lat="55.9704826" lon="12.2911839"></trkpt>
       <trkpt lat="55.9704879" lon="12.2910659"></trkpt>
@@ -29237,7 +29299,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/627978298</name>
+    <name>Vejle Svæveflyveklub</name>
     <trkseg>
       <trkpt lat="55.9061542" lon="9.4522761"></trkpt>
       <trkpt lat="55.9055844" lon="9.4516887"></trkpt>
@@ -29485,17 +29547,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/692224368</name>
-    <trkseg>
-      <trkpt lat="54.9821915" lon="10.7905762"></trkpt>
-      <trkpt lat="54.9822523" lon="10.7904884"></trkpt>
-      <trkpt lat="54.982188" lon="10.7903535"></trkpt>
-      <trkpt lat="54.982126" lon="10.7904281"></trkpt>
-      <trkpt lat="54.9821775" lon="10.7905617"></trkpt>
-      <trkpt lat="54.9821915" lon="10.7905762"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>MC-Camp Fyn</name>
     <trkseg>
       <trkpt lat="55.2172759" lon="10.4380001"></trkpt>
@@ -29696,18 +29747,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Teltplads Camønoen</name>
-    <trkseg>
-      <trkpt lat="54.9531035" lon="12.4727064"></trkpt>
-      <trkpt lat="54.9530457" lon="12.4724329"></trkpt>
-      <trkpt lat="54.952991" lon="12.4724221"></trkpt>
-      <trkpt lat="54.952924" lon="12.4724087"></trkpt>
-      <trkpt lat="54.9527946" lon="12.4724825"></trkpt>
-      <trkpt lat="54.953011" lon="12.472807"></trkpt>
-      <trkpt lat="54.9531035" lon="12.4727064"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Skrivergårdens Teltplads</name>
     <trkseg>
       <trkpt lat="55.058389" lon="9.3411942"></trkpt>
@@ -29756,30 +29795,6 @@ version="1.1" creator="togpx">
       <trkpt lat="55.8811788" lon="8.1825265"></trkpt>
       <trkpt lat="55.8811528" lon="8.1823231"></trkpt>
       <trkpt lat="55.8807537" lon="8.1817075"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/734159879</name>
-    <trkseg>
-      <trkpt lat="56.2971795" lon="10.4999629"></trkpt>
-      <trkpt lat="56.2972076" lon="10.4999701"></trkpt>
-      <trkpt lat="56.2972354" lon="10.4999597"></trkpt>
-      <trkpt lat="56.2972595" lon="10.4999327"></trkpt>
-      <trkpt lat="56.297277" lon="10.4998925"></trkpt>
-      <trkpt lat="56.2972859" lon="10.499844"></trkpt>
-      <trkpt lat="56.297285" lon="10.4997929"></trkpt>
-      <trkpt lat="56.2972744" lon="10.4997454"></trkpt>
-      <trkpt lat="56.2972555" lon="10.4997073"></trkpt>
-      <trkpt lat="56.2972305" lon="10.4996832"></trkpt>
-      <trkpt lat="56.2972024" lon="10.4996759"></trkpt>
-      <trkpt lat="56.2971747" lon="10.4996864"></trkpt>
-      <trkpt lat="56.2971506" lon="10.4997133"></trkpt>
-      <trkpt lat="56.297133" lon="10.4997535"></trkpt>
-      <trkpt lat="56.2971242" lon="10.4998021"></trkpt>
-      <trkpt lat="56.2971251" lon="10.4998532"></trkpt>
-      <trkpt lat="56.2971356" lon="10.4999006"></trkpt>
-      <trkpt lat="56.2971545" lon="10.4999387"></trkpt>
-      <trkpt lat="56.2971795" lon="10.4999629"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30155,36 +30170,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Skamling Camping</name>
-    <trkseg>
-      <trkpt lat="55.4214205" lon="9.5619486"></trkpt>
-      <trkpt lat="55.4207615" lon="9.5620739"></trkpt>
-      <trkpt lat="55.4205365" lon="9.5621181"></trkpt>
-      <trkpt lat="55.4204961" lon="9.5621332"></trkpt>
-      <trkpt lat="55.4204878" lon="9.562853"></trkpt>
-      <trkpt lat="55.4203809" lon="9.5635705"></trkpt>
-      <trkpt lat="55.4213901" lon="9.5640514"></trkpt>
-      <trkpt lat="55.4219721" lon="9.5643207"></trkpt>
-      <trkpt lat="55.422066" lon="9.5643826"></trkpt>
-      <trkpt lat="55.4221817" lon="9.5646984"></trkpt>
-      <trkpt lat="55.4223126" lon="9.5646208"></trkpt>
-      <trkpt lat="55.4224483" lon="9.5644616"></trkpt>
-      <trkpt lat="55.4225358" lon="9.5641828"></trkpt>
-      <trkpt lat="55.4225937" lon="9.5638019"></trkpt>
-      <trkpt lat="55.4225845" lon="9.5633137"></trkpt>
-      <trkpt lat="55.4224232" lon="9.5632869"></trkpt>
-      <trkpt lat="55.4221522" lon="9.5633352"></trkpt>
-      <trkpt lat="55.4219757" lon="9.5633727"></trkpt>
-      <trkpt lat="55.4219665" lon="9.5630991"></trkpt>
-      <trkpt lat="55.4219787" lon="9.5627129"></trkpt>
-      <trkpt lat="55.4219878" lon="9.5624822"></trkpt>
-      <trkpt lat="55.4218245" lon="9.5624279"></trkpt>
-      <trkpt lat="55.4215992" lon="9.5630638"></trkpt>
-      <trkpt lat="55.4212976" lon="9.5630605"></trkpt>
-      <trkpt lat="55.4214205" lon="9.5619486"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/902801276</name>
     <trkseg>
       <trkpt lat="56.0640418" lon="9.2286665"></trkpt>
@@ -30553,17 +30538,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/997720596</name>
-    <trkseg>
-      <trkpt lat="55.5592214" lon="9.7561459"></trkpt>
-      <trkpt lat="55.5586863" lon="9.757681"></trkpt>
-      <trkpt lat="55.558996" lon="9.7580014"></trkpt>
-      <trkpt lat="55.5592251" lon="9.7579619"></trkpt>
-      <trkpt lat="55.5596268" lon="9.7569562"></trkpt>
-      <trkpt lat="55.5592214" lon="9.7561459"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Hou Strand Camping</name>
     <trkseg>
       <trkpt lat="55.925918" lon="10.2559986"></trkpt>
@@ -30704,14 +30678,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/1079882369</name>
     <trkseg>
-      <trkpt lat="54.9660402" lon="10.4928426"></trkpt>
-      <trkpt lat="54.9663778" lon="10.4925589"></trkpt>
-      <trkpt lat="54.9661911" lon="10.4923068"></trkpt>
+      <trkpt lat="54.9659832" lon="10.4929103"></trkpt>
+      <trkpt lat="54.9663243" lon="10.4926063"></trkpt>
+      <trkpt lat="54.9663701" lon="10.4925549"></trkpt>
+      <trkpt lat="54.9661846" lon="10.4923222"></trkpt>
       <trkpt lat="54.9661465" lon="10.4923504"></trkpt>
       <trkpt lat="54.9661595" lon="10.4923945"></trkpt>
-      <trkpt lat="54.9661334" lon="10.4926085"></trkpt>
-      <trkpt lat="54.966006" lon="10.4927239"></trkpt>
-      <trkpt lat="54.9660402" lon="10.4928426"></trkpt>
+      <trkpt lat="54.9661234" lon="10.4925857"></trkpt>
+      <trkpt lat="54.9659383" lon="10.4927433"></trkpt>
+      <trkpt lat="54.9659832" lon="10.4929103"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30906,6 +30881,104 @@ version="1.1" creator="togpx">
       <trkpt lat="55.9631761" lon="10.5696216"></trkpt>
       <trkpt lat="55.9632496" lon="10.5695771"></trkpt>
       <trkpt lat="55.9632805" lon="10.5695603"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Hygge Lake</name>
+    <trkseg>
+      <trkpt lat="55.3051224" lon="8.9990157"></trkpt>
+      <trkpt lat="55.306114" lon="8.9993166"></trkpt>
+      <trkpt lat="55.3062226" lon="8.9986134"></trkpt>
+      <trkpt lat="55.3052269" lon="8.9982871"></trkpt>
+      <trkpt lat="55.3051224" lon="8.9990157"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Skibakken</name>
+    <trkseg>
+      <trkpt lat="56.4816109" lon="8.3560364"></trkpt>
+      <trkpt lat="56.4817056" lon="8.3562332"></trkpt>
+      <trkpt lat="56.4817662" lon="8.356371"></trkpt>
+      <trkpt lat="56.4818066" lon="8.3564413"></trkpt>
+      <trkpt lat="56.4818997" lon="8.3564638"></trkpt>
+      <trkpt lat="56.4819649" lon="8.3564919"></trkpt>
+      <trkpt lat="56.4820177" lon="8.3564329"></trkpt>
+      <trkpt lat="56.4821093" lon="8.3563766"></trkpt>
+      <trkpt lat="56.4821466" lon="8.356312"></trkpt>
+      <trkpt lat="56.4822491" lon="8.3562557"></trkpt>
+      <trkpt lat="56.4823422" lon="8.3562585"></trkpt>
+      <trkpt lat="56.4824431" lon="8.3562417"></trkpt>
+      <trkpt lat="56.4825068" lon="8.3562839"></trkpt>
+      <trkpt lat="56.4825518" lon="8.356281"></trkpt>
+      <trkpt lat="56.4825994" lon="8.3557917"></trkpt>
+      <trkpt lat="56.482285" lon="8.3556086"></trkpt>
+      <trkpt lat="56.4821085" lon="8.3558027"></trkpt>
+      <trkpt lat="56.481474" lon="8.3555495"></trkpt>
+      <trkpt lat="56.4816109" lon="8.3560364"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Gå-Nu-Nat</name>
+    <trkseg>
+      <trkpt lat="57.0233612" lon="8.6004895"></trkpt>
+      <trkpt lat="57.023228" lon="8.6004952"></trkpt>
+      <trkpt lat="57.0231375" lon="8.600699"></trkpt>
+      <trkpt lat="57.0231155" lon="8.6009462"></trkpt>
+      <trkpt lat="57.0230449" lon="8.6015908"></trkpt>
+      <trkpt lat="57.0232535" lon="8.6016415"></trkpt>
+      <trkpt lat="57.0232817" lon="8.6013905"></trkpt>
+      <trkpt lat="57.0233824" lon="8.6013873"></trkpt>
+      <trkpt lat="57.0234425" lon="8.6013938"></trkpt>
+      <trkpt lat="57.0235256" lon="8.6014263"></trkpt>
+      <trkpt lat="57.0235857" lon="8.6014133"></trkpt>
+      <trkpt lat="57.0236264" lon="8.6013288"></trkpt>
+      <trkpt lat="57.0236564" lon="8.6010625"></trkpt>
+      <trkpt lat="57.023644" lon="8.6009034"></trkpt>
+      <trkpt lat="57.0235786" lon="8.6007995"></trkpt>
+      <trkpt lat="57.0235185" lon="8.6006728"></trkpt>
+      <trkpt lat="57.0234549" lon="8.6006761"></trkpt>
+      <trkpt lat="57.0233612" lon="8.6004895"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1188800875</name>
+    <trkseg>
+      <trkpt lat="57.0801856" lon="8.624965"></trkpt>
+      <trkpt lat="57.0798341" lon="8.6247311"></trkpt>
+      <trkpt lat="57.0791841" lon="8.6277169"></trkpt>
+      <trkpt lat="57.0793605" lon="8.6278108"></trkpt>
+      <trkpt lat="57.0794826" lon="8.6278801"></trkpt>
+      <trkpt lat="57.0795952" lon="8.6279449"></trkpt>
+      <trkpt lat="57.0796652" lon="8.6279811"></trkpt>
+      <trkpt lat="57.0797162" lon="8.6279985"></trkpt>
+      <trkpt lat="57.0798066" lon="8.6280146"></trkpt>
+      <trkpt lat="57.0798532" lon="8.628028"></trkpt>
+      <trkpt lat="57.0798897" lon="8.6280441"></trkpt>
+      <trkpt lat="57.080034" lon="8.6281756"></trkpt>
+      <trkpt lat="57.0801082" lon="8.628264"></trkpt>
+      <trkpt lat="57.0801917" lon="8.6283665"></trkpt>
+      <trkpt lat="57.0802118" lon="8.6281916"></trkpt>
+      <trkpt lat="57.0802381" lon="8.628032"></trkpt>
+      <trkpt lat="57.0802821" lon="8.6277563"></trkpt>
+      <trkpt lat="57.0803871" lon="8.6271085"></trkpt>
+      <trkpt lat="57.0805021" lon="8.6265301"></trkpt>
+      <trkpt lat="57.0805366" lon="8.6263372"></trkpt>
+      <trkpt lat="57.0805891" lon="8.6261318"></trkpt>
+      <trkpt lat="57.0806752" lon="8.6258816"></trkpt>
+      <trkpt lat="57.080819" lon="8.6255089"></trkpt>
+      <trkpt lat="57.0808965" lon="8.6252476"></trkpt>
+      <trkpt lat="57.080612" lon="8.625146"></trkpt>
+      <trkpt lat="57.0801856" lon="8.624965"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1190666459</name>
+    <trkseg>
+      <trkpt lat="55.4836126" lon="8.4121894"></trkpt>
+      <trkpt lat="55.4840451" lon="8.4121025"></trkpt>
+      <trkpt lat="55.4840092" lon="8.4118322"></trkpt>
+      <trkpt lat="55.4835673" lon="8.4119255"></trkpt>
+      <trkpt lat="55.4836126" lon="8.4121894"></trkpt>
     </trkseg>
   </trk>
 </gpx>
