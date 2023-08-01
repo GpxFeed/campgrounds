@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-07-24T09:47:00Z", "timestamp_areas_base":
-      "2023-07-20T07:57:18Z", "copyright": "The data included in
+      "2023-08-01T09:01:45Z", "timestamp_areas_base":
+      "2023-08-01T07:47:06Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -166,7 +166,8 @@ version="1.1" creator="togpx">
   <wpt lat="58.3282986" lon="26.6423132">
     <ele>63</ele>
     <name>Olerex</name>
-    <desc>amenity=fuel; name=Olerex; id=node/323377885</desc>
+    <desc>amenity=fuel; compressed_air=yes; name=Olerex;
+    id=node/323377885</desc>
   </wpt>
   <wpt lat="59.4147655" lon="24.7384916">
     <ele>30</ele>
@@ -397,7 +398,8 @@ version="1.1" creator="togpx">
   <wpt lat="57.8149907" lon="27.02976">
     <ele>89</ele>
     <name>Favora Kose automaattankla</name>
-    <desc>amenity=fuel; brand=Favora; name=Favora Kose
+    <desc>amenity=fuel; brand=Favora; fixme=Please check status at
+    site - this brand has been merged; name=Favora Kose
     automaattankla; id=node/870119678</desc>
   </wpt>
   <wpt lat="59.427653" lon="24.6287571">
@@ -445,7 +447,8 @@ version="1.1" creator="togpx">
     compressed_air=yes; internet_access=wlan; name=Circle K
     Mustamäe tankla; name:en=Circle K Mustamäe petrol station;
     opening_hours=24/7; operator=Circle K;
-    website=https://www.circlek.ee/; id=node/1095052906</desc>
+    website=https://www.circlek.ee/; wheelchair=yes;
+    id=node/1095052906</desc>
     <link href="https://www.circlek.ee/"></link>
   </wpt>
   <wpt lat="59.3202897" lon="24.399353">
@@ -626,13 +629,6 @@ version="1.1" creator="togpx">
     <ele>31</ele>
     <name>Alexela</name>
     <desc>amenity=fuel; name=Alexela; id=node/2968017753</desc>
-  </wpt>
-  <wpt lat="58.0662973" lon="27.09955">
-    <ele>64</ele>
-    <name>Mahta</name>
-    <desc>addr:city=Põlva; addr:housenumber=70; addr:street=Jaama;
-    amenity=fuel; name=Mahta; operator=Mahta kütus AS;
-    id=node/3121985648</desc>
   </wpt>
   <wpt lat="59.440028" lon="24.8304207">
     <ele>50</ele>
@@ -1066,8 +1062,9 @@ version="1.1" creator="togpx">
     <ele>88</ele>
     <name>Alexela</name>
     <desc>addr:city=Võru; addr:housenumber=6; addr:street=Kose tee;
-    amenity=fuel; brand=Alexela; fuel:cng=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Alexela;
+    amenity=fuel; brand=Alexela; brand:wikidata=Q20529782;
+    building=roof; fuel:cng=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=Alexela;
     operator=Alexela; self_service=yes; id=way/180713970; ;
     name=CNG; id=node/9721257666</desc>
   </wpt>
@@ -1202,6 +1199,12 @@ version="1.1" creator="togpx">
     addr:street=Loode; amenity=fuel; fuel:diesel=yes;
     fuel:octane_98=yes; name=Jetoil Tapa tankla; operator=Jetoil;
     self_service=yes; id=node/10942492676</desc>
+  </wpt>
+  <wpt lat="57.9980403" lon="25.9316946">
+    <ele>59</ele>
+    <name>Circle K</name>
+    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
+    name=Circle K; id=node/11077365571</desc>
   </wpt>
   <wpt lat="58.374514000000005" lon="24.55294108929634">
     <ele>9</ele>
@@ -1400,13 +1403,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="59.5056994" lon="24.827208099999993">
     <ele>15</ele>
-    <name>CNG</name>
+    <name>Alexela Viimsi</name>
     <desc>addr:city=Haabneeme alevik; addr:country=EE;
     addr:housenumber=9a; addr:street=Randvere tee; amenity=fuel;
+    brand=Alexela; brand:wikidata=Q20529782;
     brand:wikipedia=et:Alexela Oil; building=yes; fuel:cng=yes;
-    maaamet:ETAK=5334757; name=CNG; name:et=Alexela Viimsi;
-    opening_hours=24/7; self_service=yes; source:addr=Maa-amet
-    2012; id=way/26858147</desc>
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    maaamet:ETAK=5334757; name=Alexela Viimsi; opening_hours=24/7;
+    self_service=yes; source:addr=Maa-amet 2012;
+    id=way/26858147</desc>
   </wpt>
   <wpt lat="59.42414255" lon="24.64667355884745">
     <ele>14</ele>
@@ -1570,15 +1575,15 @@ version="1.1" creator="togpx">
     addr:postcode=10414; addr:street=Põhja pst; alt_name=Neste
     Põhja pst; amenity=fuel; brand=Neste; brand:wikidata=Q616376;
     building=roof; building:levels=0; capacity=2;
-    description=Screen wash is also available; fuel:1_25=no;
-    fuel:1_50=no; fuel:GTL_diesel=no; fuel:HGV_diesel=no;
-    fuel:biodiesel=no; fuel:biogas=no; fuel:cng=no;
-    fuel:diesel=yes; fuel:e10=no; fuel:e85=no; fuel:electricity=no;
-    fuel:lpg=no; fuel:octane_100=no; fuel:octane_91=no;
-    fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=Neste;
-    opening_hours=24/7; operator=Neste Eesti AS; phone=+372 630
-    4165; roof:levels=1; roof:shape=flat; self_service=yes;
-    id=way/26885785</desc>
+    compressed_air=no; description=Screen wash is also available;
+    fuel:1_25=no; fuel:1_50=no; fuel:GTL_diesel=no;
+    fuel:HGV_diesel=no; fuel:biodiesel=no; fuel:biogas=no;
+    fuel:cng=no; fuel:diesel=yes; fuel:e10=no; fuel:e85=no;
+    fuel:electricity=no; fuel:lpg=no; fuel:octane_100=no;
+    fuel:octane_91=no; fuel:octane_95=yes; fuel:octane_98=yes;
+    layer=1; name=Neste; opening_hours=24/7; operator=Neste Eesti
+    AS; phone=+372 630 4165; roof:levels=1; roof:shape=flat;
+    self_service=yes; id=way/26885785</desc>
   </wpt>
   <wpt lat="59.44236765" lon="24.875399293666383">
     <ele>45</ele>
@@ -1941,7 +1946,7 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su 10:00-22:00; operator=Olerex;
     source:addr=Maa-amet 2023; id=way/26921219</desc>
   </wpt>
-  <wpt lat="59.40565635" lon="24.69988417337533">
+  <wpt lat="59.40568065" lon="24.699909953676475">
     <ele>20</ele>
     <name>Circle K</name>
     <desc>addr:city=Tallinn; addr:country=EE; addr:housenumber=76;
@@ -1952,7 +1957,7 @@ version="1.1" creator="togpx">
     height=7; maaamet:ETAK=597408; name=Circle K;
     old_addr:housenumber=1; old_addr:street=Sipelga;
     opening_hours=PH,Mo-Su 00:00-24:00; source:addr=Maa-amet 2023;
-    id=way/26921424</desc>
+    wheelchair=yes; id=way/26921424</desc>
   </wpt>
   <wpt lat="59.4072606" lon="24.620309256856807">
     <ele>8</ele>
@@ -2134,11 +2139,11 @@ version="1.1" creator="togpx">
     addr:postcode=51004; addr:street=Turu; amenity=fuel;
     brand=Circle K; brand:wikidata=Q3268010;
     brand:wikipedia=en:Circle K; building=yes; building:levels=1;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    maaamet:ETAK=719102; name=Circle K; old_name=Statoil;
-    opening_hours=24/7; roof:shape=mansard; shop=yes; source=Tartu
-    City Government; source:addr=Maa-amet 2023;
-    website=https://www.circlek.ee/; id=way/30237951</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; maaamet:ETAK=719102; name=Circle K;
+    old_name=Statoil; opening_hours=24/7; roof:shape=mansard;
+    shop=yes; source=Tartu City Government; source:addr=Maa-amet
+    2023; website=https://www.circlek.ee/; id=way/30237951</desc>
     <link href="https://www.circlek.ee/"></link>
   </wpt>
   <wpt lat="58.3739626" lon="26.74968405255145">
@@ -3442,11 +3447,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Mäo küla; addr:housename=Lõigendi;
     addr:postcode=72751; alt_name=Neste Mäo; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    building=roof; capacity=4; email=neste.eesti@neste.com;
-    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Neste; opening_hours=24/7;
-    operator=Neste Eesti AS; phone=+372 630 4165; self_service=yes;
-    website=https://www.neste.ee; id=way/317153483</desc>
+    building=roof; capacity=4; compressed_air=no;
+    email=neste.eesti@neste.com; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste;
+    opening_hours=24/7; operator=Neste Eesti AS; phone=+372 630
+    4165; self_service=yes; website=https://www.neste.ee;
+    id=way/317153483</desc>
     <link href="https://www.neste.ee"></link>
   </wpt>
   <wpt lat="58.3217298" lon="26.71312955796668">
@@ -5557,7 +5563,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>CNG</name>
+    <name>Alexela Viimsi</name>
     <trkseg>
       <trkpt lat="59.5057504" lon="24.8271857"></trkpt>
       <trkpt lat="59.5056932" lon="24.8271058"></trkpt>
@@ -6179,6 +6185,7 @@ version="1.1" creator="togpx">
       <trkpt lat="59.4055976" lon="24.6996992"></trkpt>
       <trkpt lat="59.4055453" lon="24.6998888"></trkpt>
       <trkpt lat="59.4055853" lon="24.6999313"></trkpt>
+      <trkpt lat="59.4056462" lon="24.6999959"></trkpt>
       <trkpt lat="59.4057151" lon="24.7000692"></trkpt>
     </trkseg>
   </trk>

@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-07-24T09:46:00Z", "timestamp_areas_base":
-      "2023-07-20T07:57:18Z", "copyright": "The data included in
+      "2023-08-01T08:59:45Z", "timestamp_areas_base":
+      "2023-08-01T07:47:06Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -789,9 +789,9 @@ version="1.1" creator="togpx">
   <wpt lat="53.1291128" lon="8.2145606">
     <ele>1</ele>
     <name>Küstenkanal</name>
-    <desc>capacity=3; fee=no; internet_access=no; name=Küstenkanal;
-    power_supply=no; sanitary_dump_station=no; tents=no;
-    toilets=no; tourism=caravan_site; wheelchair=yes;
+    <desc>capacity=3; fee=yes, 2€; internet_access=no;
+    name=Küstenkanal; power_supply=no; sanitary_dump_station=no;
+    tents=no; toilets=no; tourism=caravan_site; wheelchair=yes;
     id=node/842019812</desc>
   </wpt>
   <wpt lat="53.1483033" lon="8.2322134">
@@ -1704,8 +1704,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.7993951" lon="7.9523128">
     <ele>161</ele>
     <name>Wohnmobil-Stellplatz im Weingut Sommer</name>
-    <desc>addr:postcode=55599; name=Wohnmobil-Stellplatz im Weingut
-    Sommer; tourism=caravan_site; id=node/1659200069</desc>
+    <desc>addr:postcode=55599; caravan_site:type=winery;
+    name=Wohnmobil-Stellplatz im Weingut Sommer;
+    tourism=caravan_site; id=node/1659200069</desc>
   </wpt>
   <wpt lat="52.5245313" lon="8.3669417">
     <ele>39</ele>
@@ -1989,12 +1990,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.1457673" lon="8.1886531">
     <ele>878</ele>
-    <name>Parkplatz Obertal</name>
+    <name>Reisemobilstellplatz Obertal</name>
     <desc>addr:city=Schonach im Schwarzwald; addr:postcode=78136;
-    capacity=10; ele=878; fee=yes; name=Parkplatz Obertal;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; water_point=yes;
-    id=node/1867331605</desc>
+    addr:street=Obertalstraße; capacity=10; ele=878; fee=yes;
+    name=Reisemobilstellplatz Obertal; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    water_point=yes; id=node/1867331605</desc>
   </wpt>
   <wpt lat="50.8296341" lon="10.0218243">
     <ele>226</ele>
@@ -8163,10 +8164,11 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Weingut Rapp</name>
     <desc>addr:city=Bad Kreuznach; addr:housenumber=74;
     addr:postcode=55583; addr:street=Schloßgartenstraße;
-    drinking_water=yes; fee=yes; internet_access=yes;
-    internet_access:fee=no; name=Wohnmobilstellplatz Weingut Rapp;
-    operator=Weingut &amp; Land-Gästehaus Rapp; phone=+49 6708
-    2312; power_supply=yes; tourism=caravan_site;
+    caravan_site:type=winery; drinking_water=yes; fee=yes;
+    internet_access=yes; internet_access:fee=no;
+    name=Wohnmobilstellplatz Weingut Rapp; operator=Weingut &amp;
+    Land-Gästehaus Rapp; phone=+49 6708 2312; power_supply=yes;
+    tourism=caravan_site;
     website=https://www.weingut-rapp.de/land-gaestehaus/reisemobil-stellplatz/;
     id=node/8934864284</desc>
     <link href="https://www.weingut-rapp.de/land-gaestehaus/reisemobil-stellplatz/">
@@ -8374,11 +8376,15 @@ version="1.1" creator="togpx">
   <wpt lat="52.130401" lon="9.6284964">
     <ele>368</ele>
     <name>Stuckis Sennhütte</name>
-    <desc>capacity=3; description:de=Übernachtung nur für Gäste;
-    name=Stuckis Sennhütte; operator=Stuckis Sennhütte; phone=+49
-    5044 4792; power_supply=no; reservation=required;
+    <desc>capacity=4; description:de=Übernachtung nur für Gäste;
+    name=Stuckis Sennhütte; opening_hours=12:00-19:00;
+    operator=Stuckis Sennhütte; phone=+49 5044 4792;
+    power_supply=no; reservation=required;
     sanitary_dump_station=no; tourism=caravan_site;
+    website=https://stuckis-sennhuette.de/unsere-wohnmobilaktion/;
     id=node/9140608181</desc>
+    <link href="https://stuckis-sennhuette.de/unsere-wohnmobilaktion/">
+    </link>
   </wpt>
   <wpt lat="48.5778044" lon="9.616224">
     <ele>652</ele>
@@ -8675,8 +8681,9 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Weingut Desoi</name>
     <desc>addr:city=Bad Kreuznach; addr:postcode=55543;
     addr:street=Darmstädter Hof; capacity:caravans=3;
-    drinking_water=yes; name=Wohnmobilstellplatz Weingut Desoi;
-    phone=+49 671 63660; power_supply=yes; tourism=caravan_site;
+    caravan_site:type=winery; drinking_water=yes;
+    name=Wohnmobilstellplatz Weingut Desoi; phone=+49 671 63660;
+    power_supply=yes; tourism=caravan_site;
     website=https://www.desoi-wein.de/; id=node/9642794871</desc>
     <link href="https://www.desoi-wein.de/"></link>
   </wpt>
@@ -8684,11 +8691,12 @@ version="1.1" creator="togpx">
     <ele>151</ele>
     <name>Wohnmobilstellplatz Bonnheimer Hof</name>
     <desc>addr:city=Hackenheim; addr:postcode=55546;
-    addr:street=Binger Weg; drinking_water=yes; fee=yes;
-    internet_access=wlan; internet_access:fee=no;
-    name=Wohnmobilstellplatz Bonnheimer Hof; phone=+49 671
-    79615270; power_supply=yes; sanitary_dump_station=yes;
-    shower=yes; toilets=yes; tourism=caravan_site;
+    addr:street=Binger Weg; caravan_site:type=restaurant;
+    drinking_water=yes; fee=yes; internet_access=wlan;
+    internet_access:fee=no; name=Wohnmobilstellplatz Bonnheimer
+    Hof; phone=+49 671 79615270; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; toilets=yes;
+    tourism=caravan_site;
     website=https://www.bonnheimerhof.de/wohnmobilstellplaetze;
     id=node/9642794873</desc>
     <link href="https://www.bonnheimerhof.de/wohnmobilstellplaetze">
@@ -9646,8 +9654,9 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Weingut im Zwölberich</name>
     <desc>addr:city=Langenlonsheim; addr:housenumber=14;
     addr:postcode=55450; addr:street=Schützenstraße;
-    drinking_water=yes; fee=yes; name=Wohnmobilstellplatz Weingut
-    im Zwölberich; power_supply=yes; tourism=caravan_site;
+    caravan_site:type=winery; drinking_water=yes; fee=yes;
+    name=Wohnmobilstellplatz Weingut im Zwölberich;
+    power_supply=yes; tourism=caravan_site;
     id=node/10562285408</desc>
   </wpt>
   <wpt lat="49.8859569" lon="7.7807996">
@@ -9655,8 +9664,9 @@ version="1.1" creator="togpx">
     <name>Wohnmobilstellplatz Weingut Keber</name>
     <desc>addr:city=Wallhausen; addr:housenumber=2;
     addr:postcode=55595; addr:street=In der Au;
-    capacity:caravans=3; fee=yes; name=Wohnmobilstellplatz Weingut
-    Keber; power_supply=yes; tourism=caravan_site;
+    capacity:caravans=3; caravan_site:type=winery; fee=yes;
+    name=Wohnmobilstellplatz Weingut Keber; power_supply=yes;
+    tourism=caravan_site;
     website=https://www.weingut-keber.de/index.php?id=service;
     id=node/10562358156</desc>
     <link href="https://www.weingut-keber.de/index.php?id=service">
@@ -10075,6 +10085,12 @@ version="1.1" creator="togpx">
     <ele>544</ele>
     <name>node/11063061106</name>
     <desc>tourism=caravan_site; id=node/11063061106</desc>
+  </wpt>
+  <wpt lat="47.5860692" lon="7.61804">
+    <ele>257</ele>
+    <name>node/11079443711</name>
+    <desc>sanitary_dump_station=no; tourism=caravan_site;
+    id=node/11079443711</desc>
   </wpt>
   <wpt lat="48.0850409" lon="8.3658736">
     <ele>854</ele>
@@ -12259,8 +12275,8 @@ version="1.1" creator="togpx">
     <desc>access=yes; amenity=parking; capacity=7; fee=no;
     internet_access=no; name=Stellplatz am Güßgraben;
     operator=Gemeinde Veitshöchheim; parking=surface;
-    permanent_camping=no; sanitary_dump_station=no; toilets=no;
-    tourism=caravan_site;
+    permanent_camping=no; power_supply=no;
+    sanitary_dump_station=no; toilets=no; tourism=caravan_site;
     website=https://www.frankentourismus.de/poi/wohnmobilstellplatz_veitshoech-3693/;
     wheelchair=yes; id=way/58791225</desc>
     <link href="https://www.frankentourismus.de/poi/wohnmobilstellplatz_veitshoech-3693/">
@@ -14564,10 +14580,11 @@ version="1.1" creator="togpx">
   <wpt lat="49.889674299999996" lon="6.954685543241898">
     <ele>123</ele>
     <name>Wohnmobilstellplatz Weingut Jochen Clemens</name>
-    <desc>contact:phone=+49 6534 692; name=Wohnmobilstellplatz
-    Weingut Jochen Clemens; operator=Weingut Jochen Clemens;
-    power_supply=yes; sanitary_dump_station=yes; source=survey;
-    tourism=caravan_site; id=way/155326966</desc>
+    <desc>caravan_site:type=winery; contact:phone=+49 6534 692;
+    name=Wohnmobilstellplatz Weingut Jochen Clemens;
+    operator=Weingut Jochen Clemens; power_supply=yes;
+    sanitary_dump_station=yes; source=survey; tourism=caravan_site;
+    id=way/155326966</desc>
   </wpt>
   <wpt lat="51.84465365" lon="7.27142428550795">
     <ele>82</ele>
@@ -14827,7 +14844,7 @@ version="1.1" creator="togpx">
     <name>Stellplatz Hammermühle</name>
     <desc>capacity=20; fee=yes; name=Stellplatz Hammermühle;
     phone=+49 9141 73470; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
+    sanitary_dump_station=yes; toilets=no; tourism=caravan_site;
     water_point=yes; website=http://www.zeltplatz-hammermühle.de/;
     id=way/166679285</desc>
     <link href="http://www.zeltplatz-hammermühle.de/"></link>
@@ -14868,8 +14885,11 @@ version="1.1" creator="togpx">
     addr:postcode=24797; addr:street=Schachtholm; capacity=80;
     charge=14€; email=flieger44@gmx.de; fax=+49 4337 1422; fee=yes;
     internet_access=no; name=Wohnmobilstellplatz Schachtholm;
-    phone=+49 4337 591; power_supply=no; tourism=caravan_site;
-    website=https://wohnmobilprofis.de/; id=way/167164162</desc>
+    note=Strom nicht an allen Plätzen vorhanden - Sanitäre
+    Entsorgung etws kompliziert und nicht im Preis; phone=+49 4337
+    591; power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; website=https://wohnmobilprofis.de/;
+    id=way/167164162</desc>
     <link href="https://wohnmobilprofis.de/"></link>
   </wpt>
   <wpt lat="54.2941488" lon="9.681321073732219">
@@ -15051,18 +15071,11 @@ version="1.1" creator="togpx">
     internet_access=no; maxstay=3 days; name=Wohnmobilstellplatz
     Alter Schiffsanleger 777; operator=Stadt Geesthacht;
     power_supply=yes; sanitary_dump_station=yes; surface=compacted;
-    tents=no; tourism=caravan_site; water_point=yes;
+    tents=no; toilets=no; tourism=caravan_site; water_point=yes;
     website=https://www.herzogtum-lauenburg.de/a-wohnmobilstellplatz-geesthacht;
     id=way/173900536</desc>
     <link href="https://www.herzogtum-lauenburg.de/a-wohnmobilstellplatz-geesthacht">
     </link>
-  </wpt>
-  <wpt lat="51.37819985" lon="10.862198754757165">
-    <ele>192</ele>
-    <name>way/173906236</name>
-    <desc>capacity=8; description=Wohnmobilstellplatz;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    id=way/173906236</desc>
   </wpt>
   <wpt lat="54.8212541" lon="9.463470489351202">
     <ele>0</ele>
@@ -16025,10 +16038,10 @@ version="1.1" creator="togpx">
     <name>Weingut Feiten Stellplatz</name>
     <desc>addr:city=Longuich; addr:country=DE; addr:housenumber=2;
     addr:postcode=54340; addr:street=Rioler Weg;
-    capacity:caravans=40; charge=8.00 € / day,2.00 € Electricity;
-    fee=yes; internet_access=no; name=Weingut Feiten Stellplatz;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site;
+    capacity:caravans=40; caravan_site:type=winery; charge=8.00 € /
+    day,2.00 € Electricity; fee=yes; internet_access=no;
+    name=Weingut Feiten Stellplatz; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
     website=https://www.weingut-feiten.de/wohnmobilstellplatz.html;
     id=way/200910267</desc>
     <link href="https://www.weingut-feiten.de/wohnmobilstellplatz.html">
@@ -16160,9 +16173,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.79391885" lon="6.8173387703013155">
     <ele>125</ele>
     <name>Wohnmobilstellplatz del Mosel</name>
-    <desc>capacity=60; contact:email=info@moselbeach.de;
-    contact:fax=+49 6502 9969974; contact:mobile=+49 175 1505496;
-    contact:phone=+49 6502 9969972;
+    <desc>capacity=60; caravan_site:type=winery;
+    contact:email=info@moselbeach.de; contact:fax=+49 6502 9969974;
+    contact:mobile=+49 175 1505496; contact:phone=+49 6502 9969972;
     contact:website=https://www.wohnmobilstellplatz-del-mosel.de/;
     fee=yes; name=Wohnmobilstellplatz del Mosel; power_supply=yes;
     reservation=no; tourism=caravan_site; water_point=yes;
@@ -18765,6 +18778,20 @@ version="1.1" creator="togpx">
     <link href="https://stadt-hofheim.de/tourismus-freizeitgestaltung/wohnmobilstellplatz">
     </link>
   </wpt>
+  <wpt lat="52.96232365" lon="11.946761128544887">
+    <ele>23</ele>
+    <name>Reisemobil &amp; Caravanstellplatz an der Kristall
+    Therme</name>
+    <desc>addr:city=Bad Wilsnack; addr:housenumber=1;
+    addr:postcode=19336; addr:street=Am Kähling; caravans=yes;
+    fee=no; name=Reisemobil &amp; Caravanstellplatz an der Kristall
+    Therme; operator=Kristall-Therme Bad Wilsnack;
+    sanitary_dump_station=yes; tents=no; tourism=caravan_site;
+    website=https://kristalltherme-bad-wilsnack.de/Infos/infos.php?d=Wohnmobilpreise;
+    id=way/304679141</desc>
+    <link href="https://kristalltherme-bad-wilsnack.de/Infos/infos.php?d=Wohnmobilpreise">
+    </link>
+  </wpt>
   <wpt lat="52.96304705" lon="11.947192231082624">
     <ele>24</ele>
     <name>Reisemobilstellplatz</name>
@@ -20486,8 +20513,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.6951702" lon="8.205561563518943">
     <ele>147</ele>
     <name>Weingut Huppert</name>
-    <desc>name=Weingut Huppert; tourism=caravan_site;
-    id=way/373895674</desc>
+    <desc>caravan_site:type=winery; name=Weingut Huppert;
+    tourism=caravan_site; id=way/373895674</desc>
   </wpt>
   <wpt lat="49.7854894" lon="9.176900983098141">
     <ele>121</ele>
@@ -20509,7 +20536,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.3221956" lon="9.185938833958689">
     <ele>71</ele>
     <name>way/374416131</name>
-    <desc>capacity=8; caravans=no; description:DE=Reisemobilplatz
+    <desc>capacity=8; caravans=no; description:de=Reisemobilplatz
     des Tropicana Stadthagen; dog=yes; fee=no; maxstay=3 days;
     power_supply=cee_17_blue; surface=grass_paver; tents=no;
     tourism=caravan_site;
@@ -21641,9 +21668,10 @@ version="1.1" creator="togpx">
   <wpt lat="49.564320699999996" lon="6.374753816921665">
     <ele>165</ele>
     <name>http://www.paulywein.de</name>
-    <desc>fee=yes; operator=Edwin Pauly; power_supply=yes;
-    source=http://www.paulywein.de; tourism=caravan_site;
-    website=http://www.paulywein.de; id=way/433279465</desc>
+    <desc>caravan_site:type=winery; fee=yes; operator=Edwin Pauly;
+    power_supply=yes; source=http://www.paulywein.de;
+    tourism=caravan_site; website=http://www.paulywein.de;
+    id=way/433279465</desc>
     <link href="http://www.paulywein.de"></link>
   </wpt>
   <wpt lat="54.56246415" lon="13.626463166163958">
@@ -22199,7 +22227,8 @@ version="1.1" creator="togpx">
     <desc>capacity=6; fee=yes; name=Wallmuseum; note=Unklar, ob man
     hier auch im Wohnmobil übernachten kann. Es handelt sich um den
     Parkplatz des Wallmuseums.; toilets=no; tourism=caravan_site;
-    traffic_sign=DE:314,DE:1048-17; id=way/454460721</desc>
+    traffic_sign=DE:314,DE:1048-17; wheelchair=yes;
+    id=way/454460721</desc>
   </wpt>
   <wpt lat="49.0417889" lon="9.187660650000002">
     <ele>215</ele>
@@ -23245,7 +23274,7 @@ version="1.1" creator="togpx">
     addr:postcode=18211; addr:street=Deichstraße; capacity=24;
     charge=31€; fee=yes; internet_access=yes; name=SP vorm
     Ferien-Camp Börgerende; power_supply=yes; reservation=no;
-    sanitary_dump_station=yes; tourism=caravan_site;
+    sanitary_dump_station=yes; toilets=no; tourism=caravan_site;
     website=https://www.ostseeferiencamp.de/; wheelchair=yes;
     id=way/527792410</desc>
     <link href="https://www.ostseeferiencamp.de/"></link>
@@ -24333,7 +24362,7 @@ version="1.1" creator="togpx">
     nicht möglich. WC und Duschmöglichkeiten im Sonnenuhrenpark.;
     fee=yes; name=Wohnmobilstellplatz am Entengraben;
     operator=Stadt Wassertrüdingen; phone=+49 9832 6822-45;
-    power_supply=yes; sanitary_dump_station=yes;
+    power_supply=yes; sanitary_dump_station=yes; toilets=no;
     toilets:wheelchair=no; tourism=caravan_site; water_point=yes;
     website=https://wassertruedingen.de/wohnmobilstellplatz;
     wheelchair=limited; id=way/658875486</desc>
@@ -25145,12 +25174,12 @@ version="1.1" creator="togpx">
     <link href="https://www.wetzlar.de/tourismus/planen-und-buchen/campingundwohnmobil.php#c1">
     </link>
   </wpt>
-  <wpt lat="52.17079345" lon="7.5284977229730154">
+  <wpt lat="52.170834799999994" lon="7.528529087246975">
     <ele>43</ele>
-    <name>
-    https://www.vvemsdetten.de/touristik/reisemobilstellplatz/</name>
-    <desc>capacity=7; contact:phone=+49 2572 93070; fee=yes;
-    internet_access=wlan; internet_access:fee=no; maxstay=5 days;
+    <name>Wohnmobilstellplatz Emsdetten</name>
+    <desc>capacity=7; contact:phone=+49 2572 93070; dog=yes;
+    fee=yes; internet_access=wlan; internet_access:fee=no;
+    maxstay=5 days; name=Wohnmobilstellplatz Emsdetten;
     operator=Verkehrsverein Emsdetten e.V.; power_supply=yes;
     sanitary_dump_station=yes; tourism=caravan_site;
     water_point=yes;
@@ -25208,8 +25237,9 @@ version="1.1" creator="togpx">
     name=Wohnmobilstellplatz Donaueschingen; opening_hours=24/7;
     operator=Stadt Donaueschingen; parking=surface;
     power_supply=yes; reservation=no; sanitary_dump_station=no;
-    supervised=no; surface=compacted; tourism=caravan_site;
-    water_point=no; wheelchair=yes; id=way/741116578</desc>
+    supervised=no; surface=compacted; toilets=no;
+    tourism=caravan_site; water_point=no; wheelchair=yes;
+    id=way/741116578</desc>
     <link href="https://www.donaueschingen.de/camping"></link>
   </wpt>
   <wpt lat="53.5118056" lon="8.011395758732746">
@@ -25613,9 +25643,10 @@ version="1.1" creator="togpx">
   <wpt lat="49.738351449999996" lon="6.659478543590692">
     <ele>180</ele>
     <name>Weingut Georg Fritz von Nell</name>
-    <desc>capacity=20; charge=EUR 13.00/night; fee=yes;
-    internet_access=no; name=Weingut Georg Fritz von Nell;
-    power_supply=yes; tents=no; tourism=caravan_site;
+    <desc>capacity=20; caravan_site:type=winery; charge=EUR
+    13.00/night; fee=yes; internet_access=no; name=Weingut Georg
+    Fritz von Nell; power_supply=yes; tents=no;
+    tourism=caravan_site;
     website=https://www.vonnell.de/wohnmobilstellplatz/;
     id=way/810027983</desc>
     <link href="https://www.vonnell.de/wohnmobilstellplatz/">
@@ -26337,7 +26368,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rothenburg ob der Tauber; addr:postcode=91541;
     addr:street=Am Luftsprung; capacity=5; internet_access=no;
     name=Stellplatz Rothenburg; power_supply=no;
-    sanitary_dump_station=no; tourism=caravan_site;
+    sanitary_dump_station=no; toilets=no; tourism=caravan_site;
     website=https://stellplatzrothenburgberndmeidel.wordpress.com/;
     id=way/898486113</desc>
     <link href="https://stellplatzrothenburgberndmeidel.wordpress.com/">
@@ -26489,7 +26520,8 @@ version="1.1" creator="togpx">
     email=weinbretzel@t-online.de; fee=yes;
     name=Reisemobilstellplatz - Weingut-Gasthaus "Zur Bretzel";
     phone=+49 9371 2824; power_supply=yes;
-    sanitary_dump_station=yes; surface=grass; tourism=caravan_site;
+    sanitary_dump_station=yes; shower=yes; surface=grass;
+    toilets=yes; tourism=caravan_site;
     website=http://www.weingut-bretzel.de/wohnmobile.htm;
     id=way/932027956</desc>
     <link href="http://www.weingut-bretzel.de/wohnmobile.htm">
@@ -27409,10 +27441,11 @@ version="1.1" creator="togpx">
   <wpt lat="49.7936593" lon="6.819280391276217">
     <ele>126</ele>
     <name>Wohnmobilstellplatz Zellerhof</name>
-    <desc>capacity=43; caravans=no; check_date=2023-06-09;
-    contact:email=womo@zellerhof-mosel.de; contact:phone=+49 6502
-    2263; contact:website=https://zellerhof-mosel.de/; dog=yes;
-    fee=yes; name=Wohnmobilstellplatz Zellerhof; power_supply=yes;
+    <desc>capacity=43; caravan_site:type=winery; caravans=no;
+    check_date=2023-06-09; contact:email=womo@zellerhof-mosel.de;
+    contact:phone=+49 6502 2263;
+    contact:website=https://zellerhof-mosel.de/; dog=yes; fee=yes;
+    name=Wohnmobilstellplatz Zellerhof; power_supply=yes;
     reservation=no; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; shower=yes; tents=no;
@@ -28764,18 +28797,20 @@ version="1.1" creator="togpx">
   <wpt lat="47.7842308" lon="12.332954236245143">
     <ele>600</ele>
     <name>Wohnmobil-Stellplatz Alpen Camping</name>
-    <desc>capacity=48; contact:phone=+49 8052 2440;
-    description=footprint refined from gps survey.; fee=yes;
-    internet_access=yes; name=Wohnmobil-Stellplatz Alpen Camping;
-    object:city=Aschau im Chiemgau; object:housenumber=44;
-    object:postcode=83229; object:street=Bernauer Straße;
-    operator=Gastronomiebetriebe Kampenwand GmbH, Bernauer Straße
-    1, 83229 Aschau im Chiemgau; power_supply=yes;
-    sanitary_dump_station=yes; shower=yes; source=local
-    knowledge,survey,aerial imagery; start_date=2023-05-13;
-    surface=gravel; toilets=yes; tourism=caravan_site;
-    water_point=yes; website=https://www.alpen-camping.de/;
-    wheelchair=yes; id=way/1172258131</desc>
+    <desc>addr:city=Aschau im Chiemgau; addr:housenumber=1;
+    addr:postcode=83229; addr:street=Bernauer Straße; capacity=48;
+    contact:phone=+49 8052 2440; description=footprint refined from
+    gps survey.; fee=yes; internet_access=yes;
+    name=Wohnmobil-Stellplatz Alpen Camping; object:city=Aschau im
+    Chiemgau; object:housenumber=44; object:postcode=83229;
+    object:street=Bernauer Straße; operator=Gastronomiebetriebe
+    Kampenwand GmbH, Bernauer Straße 1, 83229 Aschau im Chiemgau;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    source=local knowledge,survey,aerial imagery;
+    start_date=2023-05-13; surface=gravel; toilets=yes;
+    tourism=caravan_site; water_point=yes;
+    website=https://www.alpen-camping.de/; wheelchair=yes;
+    id=way/1172258131</desc>
     <link href="https://www.alpen-camping.de/"></link>
   </wpt>
   <wpt lat="48.83364815" lon="11.820332990454016">
@@ -37332,17 +37367,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/173906236</name>
-    <trkseg>
-      <trkpt lat="51.378266" lon="10.8625368"></trkpt>
-      <trkpt lat="51.3783047" lon="10.8624386"></trkpt>
-      <trkpt lat="51.3784087" lon="10.8621054"></trkpt>
-      <trkpt lat="51.3781337" lon="10.861858"></trkpt>
-      <trkpt lat="51.3779865" lon="10.8622968"></trkpt>
-      <trkpt lat="51.378266" lon="10.8625368"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Marinekameradschaft Flensburg von 1896 e.V.</name>
     <trkseg>
       <trkpt lat="54.8207845" lon="9.462493"></trkpt>
@@ -43069,6 +43093,25 @@ version="1.1" creator="togpx">
       <trkpt lat="50.1420979" lon="10.5183196"></trkpt>
       <trkpt lat="50.1420469" lon="10.51695"></trkpt>
       <trkpt lat="50.1420299" lon="10.5169346"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Reisemobil &amp; Caravanstellplatz an der Kristall
+    Therme</name>
+    <trkseg>
+      <trkpt lat="52.9630415" lon="11.9461088"></trkpt>
+      <trkpt lat="52.9623779" lon="11.9455889"></trkpt>
+      <trkpt lat="52.9622694" lon="11.9455835"></trkpt>
+      <trkpt lat="52.9617472" lon="11.9467881"></trkpt>
+      <trkpt lat="52.9617072" lon="11.9468969"></trkpt>
+      <trkpt lat="52.9616654" lon="11.9470243"></trkpt>
+      <trkpt lat="52.9616249" lon="11.9471616"></trkpt>
+      <trkpt lat="52.9616806" lon="11.9472189"></trkpt>
+      <trkpt lat="52.9616054" lon="11.9474825"></trkpt>
+      <trkpt lat="52.9618331" lon="11.9476263"></trkpt>
+      <trkpt lat="52.9625193" lon="11.9480596"></trkpt>
+      <trkpt lat="52.9625201" lon="11.9480564"></trkpt>
+      <trkpt lat="52.9630415" lon="11.9461088"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -52195,14 +52238,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/734720708</name>
+    <name>Wohnmobilstellplatz Emsdetten</name>
     <trkseg>
-      <trkpt lat="52.1709941" lon="7.5285269"></trkpt>
+      <trkpt lat="52.1710793" lon="7.5285809"></trkpt>
       <trkpt lat="52.1706668" lon="7.5282346"></trkpt>
       <trkpt lat="52.1705911" lon="7.5284679"></trkpt>
-      <trkpt lat="52.1709201" lon="7.5287603"></trkpt>
-      <trkpt lat="52.1709348" lon="7.5287138"></trkpt>
-      <trkpt lat="52.1709941" lon="7.5285269"></trkpt>
+      <trkpt lat="52.1710028" lon="7.5288305"></trkpt>
+      <trkpt lat="52.1710955" lon="7.528819"></trkpt>
+      <trkpt lat="52.1710875" lon="7.5287227"></trkpt>
+      <trkpt lat="52.1711379" lon="7.5287037"></trkpt>
+      <trkpt lat="52.1710643" lon="7.5286401"></trkpt>
+      <trkpt lat="52.1710793" lon="7.5285809"></trkpt>
     </trkseg>
   </trk>
   <trk>
