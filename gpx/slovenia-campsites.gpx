@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-08-01T09:10:52Z", "timestamp_areas_base":
-      "2023-08-01T07:47:06Z", "copyright": "The data included in
+      "2023-09-01T09:15:26Z", "timestamp_areas_base":
+      "2023-09-01T07:32:59Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -96,10 +96,12 @@ version="1.1" creator="togpx">
   <wpt lat="46.3613476" lon="14.7362887">
     <ele>528</ele>
     <name>Autokamp Šmica</name>
-    <desc>caravans=yes; email=camp.smica@mail.com; fax=+386 3 584
-    43 33; internet_access=wlan; internet_access:fee=no;
-    name=Autokamp Šmica; phone=+386 3 584 43 30; shower=yes;
-    tents=yes; toilets=yes; tourism=camp_site;
+    <desc>addr:city=Luče; addr:housenumber=1a; addr:postcode=3334;
+    addr:street=Podveža; building=yes; caravans=yes;
+    email=camp.smica@mail.com; fax=+386 3 584 43 33;
+    internet_access=wlan; internet_access:fee=no; name=Autokamp
+    Šmica; phone=+386 3 584 43 30; shower=yes; source=GURS;
+    source_dat=2023-08-; tents=yes; toilets=yes; tourism=camp_site;
     website=http://www.camp-smica.com; id=node/928995440</desc>
     <link href="http://www.camp-smica.com"></link>
   </wpt>
@@ -172,8 +174,9 @@ version="1.1" creator="togpx">
     contact:email=belvedere@belvedere.si; contact:phone=+386 5 66
     05 100;
     contact:website=https://belvedere.si/sl/kamp/predstavitev;
-    motorhome=yes; name=Camping Belvedere; shower=yes; tents=yes;
-    toilets=yes; tourism=camp_site; id=way/180563244; ; name=Kamp
+    drinking_water=yes; motorhome=yes; name=Camping Belvedere;
+    power_supply=no; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; id=way/180563244; ; caravans=no; name=Kamp
     Belvedere; id=node/1909881766</desc>
     <link href="https://belvedere.si/sl/kamp/predstavitev"></link>
   </wpt>
@@ -181,10 +184,11 @@ version="1.1" creator="togpx">
     <ele>692</ele>
     <name>Kamp Trenta</name>
     <desc>addr:city=Soča; addr:country=SI; addr:housenumber=60 a;
-    addr:postcode=5232; addr:street=Trenta;
+    addr:postcode=5232; addr:street=Trenta; caravans=yes;
     email=sergej.bolcina@siol.net; name=Kamp Trenta;
     name:en=Camping Trenta; operator=Sergej Bolčina; phone=+ 386 31
-    615 966; stars=2; tourism=camp_site; id=node/1989689405</desc>
+    615 966; stars=2; tents=yes; tourism=camp_site;
+    id=node/1989689405</desc>
   </wpt>
   <wpt lat="46.6755063" lon="15.6432728">
     <ele>330</ele>
@@ -213,12 +217,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Soča; addr:country=SI;
     addr:housename=Turistična Kmetija Jelinčič;
     addr:housenumber=50; addr:postcode=5232; addr:street=Soška pot;
-    contact:email=kmetija.kamp.jelincic@gmail.com; contact:fax=+386
-    5 1222735; contact:phone=+386 5 3889510; internet_access=wlan;
-    internet_access:fee=no; name=Kamp Jelinc; opening_hours=Mo-Su
-    08:00-22:00; phone=+386 5 388 95 10, +386 31 753 162, +386 51
-    222 735; tourism=camp_site;
-    website=https://kmetijakampjelincic.si;
+    caravans=yes; contact:email=kmetija.kamp.jelincic@gmail.com;
+    contact:fax=+386 5 1222735; contact:phone=+386 5 3889510;
+    fee=yes; internet_access=wlan; internet_access:fee=no;
+    name=Kamp Jelinc; opening_hours=Mo-Su 08:00-22:00; phone=+386 5
+    388 95 10, +386 31 753 162, +386 51 222 735; tents=yes;
+    tourism=camp_site; website=https://kmetijakampjelincic.si;
     id=node/2377668547</desc>
     <link href="https://kmetijakampjelincic.si"></link>
   </wpt>
@@ -229,7 +233,10 @@ version="1.1" creator="togpx">
     addr:place=Strunjan; addr:postcode=6320;
     email=amd-piran@siol.net; name=Avtokamp Strunjan;
     operator=Avto-Moto društvo Pinko Tomažič; phone=+386 5 678 20
-    76; tourism=camp_site; id=node/2432429549</desc>
+    76; tourism=camp_site;
+    website=https://www.amdpiran-drustvo.si/en/camp/;
+    id=node/2432429549</desc>
+    <link href="https://www.amdpiran-drustvo.si/en/camp/"></link>
   </wpt>
   <wpt lat="45.8899363" lon="13.7474543">
     <ele>69</ele>
@@ -302,9 +309,11 @@ version="1.1" creator="togpx">
     <ele>44</ele>
     <name>Kaki plac</name>
     <desc>addr:city=Portorož; addr:housenumber=8;
-    addr:postcode=6320; addr:street=Liminjan; name=Kaki plac;
-    operator=Adrenaline check; tourism=camp_site;
-    id=node/3813049901</desc>
+    addr:postcode=6320; addr:street=Liminjan;
+    contact:email=info@kaki-plac.si; contact:phone=+386 41 359 801;
+    name=Kaki plac; operator=Adrenaline check; tourism=camp_site;
+    website=https://www.kaki-plac.si/en/; id=node/3813049901</desc>
+    <link href="https://www.kaki-plac.si/en/"></link>
   </wpt>
   <wpt lat="46.0977886" lon="14.5186197">
     <ele>292</ele>
@@ -366,17 +375,6 @@ version="1.1" creator="togpx">
     website=https://www.zs-ajdovscina.si/;
     id=node/4124016638</desc>
     <link href="https://www.zs-ajdovscina.si/"></link>
-  </wpt>
-  <wpt lat="45.7696895" lon="15.0472184">
-    <ele>176</ele>
-    <name>Naturist Camp Mali Raj</name>
-    <desc>addr:city=Straža; addr:housenumber=7a;
-    addr:postcode=8351; addr:street=Dolenje polje; name=Naturist
-    Camp Mali Raj; phone=+386 41 642 905; tourism=camp_site;
-    website=http://www.dnmaliraj.si/naturist-camp-mali-raj/;
-    id=node/4239158956</desc>
-    <link href="http://www.dnmaliraj.si/naturist-camp-mali-raj/">
-    </link>
   </wpt>
   <wpt lat="46.0632489" lon="14.8553693">
     <ele>248</ele>
@@ -507,12 +505,6 @@ version="1.1" creator="togpx">
     <name>Camping</name>
     <desc>name=Camping; tourism=camp_site;
     id=node/6691004054</desc>
-  </wpt>
-  <wpt lat="45.7713416" lon="15.0514708">
-    <ele>193</ele>
-    <name>Mali Raj FKK</name>
-    <desc>designation=FKK; name=Mali Raj FKK; tourism=camp_site;
-    id=node/6700874273</desc>
   </wpt>
   <wpt lat="45.5781037" lon="13.7357029">
     <ele>16</ele>
@@ -661,9 +653,14 @@ version="1.1" creator="togpx">
   <wpt lat="46.3043165" lon="14.6112677">
     <ele>591</ele>
     <name>Kraljev hrib</name>
-    <desc>caravans=yes; internet_access=wlan; name=Kraljev hrib;
-    operator=Gostinstvo in športni turizem Kraljev hrib; tents=yes;
-    tourism=camp_site; id=node/9752926968</desc>
+    <desc>caravans=yes; contact:email=info@kraljevhrib.si;
+    contact:phone=+386 40 658 754; internet_access=wlan;
+    name=Kraljev hrib; operator=Gostinstvo in športni turizem
+    Kraljev hrib; tents=yes; tourism=camp_site;
+    website=https://www.kraljevhrib.si/index.php/en/camping-en;
+    id=node/9752926968</desc>
+    <link href="https://www.kraljevhrib.si/index.php/en/camping-en">
+    </link>
   </wpt>
   <wpt lat="46.3142841" lon="13.487317">
     <ele>366</ele>
@@ -677,14 +674,21 @@ version="1.1" creator="togpx">
   <wpt lat="45.6758391" lon="14.4901632">
     <ele>650</ele>
     <name>Kamp Beli gaber</name>
-    <desc>name=Kamp Beli gaber; tourism=camp_site;
-    id=node/9909770281</desc>
+    <desc>addr:city=Stari trg pri Ložu; addr:housenumber=23;
+    addr:postcode=1386; addr:street=Vrh; caravans=yes;
+    email=info@kampbeligaber.com; fee=yes; name=Kamp Beli gaber;
+    operator=Mateja Peček s.p.; phone=+386 68 168 286;
+    static_caravans=no; tents=yes; tourism=camp_site;
+    website=https://kampbeligaber.com; id=node/9909770281</desc>
+    <link href="https://kampbeligaber.com"></link>
   </wpt>
   <wpt lat="46.0786196" lon="14.5679926">
     <ele>277</ele>
-    <name>Camping @ Footballgolf Ljubljana</name>
-    <desc>addr:housenumber=1260; addr:street=Šmartinska cesta;
-    name=Camping @ Footballgolf Ljubljana; tourism=camp_site;
+    <name>Kamp @ Nogometni golf Ljubljana</name>
+    <desc>addr:city=Ljubljana; addr:housenumber=240;
+    addr:postcode=1260; addr:street=Šmartinska cesta; caravans=yes;
+    fee=yes; name=Kamp @ Nogometni golf Ljubljana; name:en=Camping
+    @ Footballgolf Ljubljana; tents=yes; tourism=camp_site;
     id=node/9922762617</desc>
   </wpt>
   <wpt lat="45.5939079" lon="15.2840636">
@@ -775,6 +779,27 @@ version="1.1" creator="togpx">
     website=https://www.apartmaji-silva.com/;
     id=node/11076444346</desc>
     <link href="https://www.apartmaji-silva.com/"></link>
+  </wpt>
+  <wpt lat="45.5241581" lon="13.8660632">
+    <ele>252</ele>
+    <name>https://kmetijajakomin.si/</name>
+    <desc>email=kmetijajakomin@gmail.com; internet_access=wlan;
+    name:en=Camping Kmetija Jakomin; operator=Kmetija Jakomin;
+    tourism=camp_site; website=https://kmetijajakomin.si/;
+    id=node/11114593505</desc>
+    <link href="https://kmetijajakomin.si/"></link>
+  </wpt>
+  <wpt lat="45.7803039" lon="13.9986806">
+    <ele>227</ele>
+    <name>Kamp Stajce</name>
+    <desc>name=Kamp Stajce; name:en=Stajce Camp; tourism=camp_site;
+    id=node/11121830460</desc>
+  </wpt>
+  <wpt lat="45.8995439" lon="14.3809557">
+    <ele>327</ele>
+    <name>node/11123478905</name>
+    <desc>name:en=Pred Peklom; tourism=camp_site;
+    id=node/11123478905</desc>
   </wpt>
   <wpt lat="46.1976037" lon="15.170759943354797">
     <ele>530</ele>
@@ -966,9 +991,10 @@ version="1.1" creator="togpx">
     addr:housenumber=60; addr:postcode=4264; addr:street=Triglavska
     cesta; caravans=yes; contact:phone=+386 4 5721702;
     contact:website=http://www.camp-danica.si/; drinking_water=yes;
-    name=Kamp Danica; operator=TD Bohinj; power_supply=yes;
-    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
-    id=way/223948298</desc>
+    fee=yes; name=Kamp Danica; operator=TD Bohinj;
+    payment:cash=yes; payment:credit_cards=yes; power_supply=yes;
+    shower=yes; static_caravans=yes; tents=yes; toilets=yes;
+    tourism=camp_site; id=way/223948298</desc>
     <link href="http://www.camp-danica.si/"></link>
   </wpt>
   <wpt lat="46.31148925" lon="14.911107158997005">
@@ -1123,7 +1149,7 @@ version="1.1" creator="togpx">
     id=way/460186862</desc>
     <link href="www.camping-bled.com"></link>
   </wpt>
-  <wpt lat="46.3306658" lon="13.572716737948516">
+  <wpt lat="46.330100200000004" lon="13.573082862708329">
     <ele>424</ele>
     <name>Camp Vodenca</name>
     <desc>caravans=yes; email=info@camp-vodenca.com; name=Camp
@@ -1184,7 +1210,9 @@ version="1.1" creator="togpx">
     addr:postcode=8342; addr:street=Prelesje; landuse=orchard;
     name=Kamp Madronič; operator=Madronič, gostinstvo in turizem,
     d.o.o.; raba:id=1222; source=RABA-KGZ; source:date=2017-05-31;
-    tourism=camp_site; id=way/499581721</desc>
+    tourism=camp_site; website=http://www.gostinstvo-madronic.si;
+    id=way/499581721</desc>
+    <link href="http://www.gostinstvo-madronic.si"></link>
   </wpt>
   <wpt lat="46.4850077" lon="13.837458612077434">
     <ele>751</ele>
@@ -1396,8 +1424,11 @@ version="1.1" creator="togpx">
   <wpt lat="45.49474375" lon="15.054853677088374">
     <ele>188</ele>
     <name>Kamp Muhvič</name>
-    <desc>name=Kamp Muhvič; tourism=camp_site;
-    id=way/951465634</desc>
+    <desc>addr:city=Stari trg ob Kolpi; addr:housenumber=9;
+    addr:postcode=8342; addr:street=Dol; name=Kamp Muhvič;
+    phone=+38631365172; tourism=camp_site;
+    website=http://www.kamp-muhvic.com; id=way/951465634</desc>
+    <link href="http://www.kamp-muhvic.com"></link>
   </wpt>
   <wpt lat="45.644462950000005" lon="14.87079753020307">
     <ele>486</ele>
@@ -3001,54 +3032,60 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camp Vodenca</name>
     <trkseg>
-      <trkpt lat="46.3315979" lon="13.5722951"></trkpt>
-      <trkpt lat="46.3317533" lon="13.572113"></trkpt>
-      <trkpt lat="46.3314955" lon="13.5721987"></trkpt>
-      <trkpt lat="46.3313941" lon="13.5722103"></trkpt>
-      <trkpt lat="46.3312977" lon="13.5721613"></trkpt>
-      <trkpt lat="46.3309093" lon="13.5721076"></trkpt>
-      <trkpt lat="46.3308397" lon="13.5721516"></trkpt>
-      <trkpt lat="46.3307696" lon="13.572311"></trkpt>
-      <trkpt lat="46.3306872" lon="13.5723289"></trkpt>
-      <trkpt lat="46.3305589" lon="13.5723935"></trkpt>
-      <trkpt lat="46.3304808" lon="13.5724479"></trkpt>
-      <trkpt lat="46.3302987" lon="13.5726947"></trkpt>
-      <trkpt lat="46.3302212" lon="13.5728937"></trkpt>
-      <trkpt lat="46.3302185" lon="13.5729838"></trkpt>
-      <trkpt lat="46.3300524" lon="13.572998"></trkpt>
-      <trkpt lat="46.3300185" lon="13.5724797"></trkpt>
-      <trkpt lat="46.3299328" lon="13.5721013"></trkpt>
-      <trkpt lat="46.3298954" lon="13.572041"></trkpt>
-      <trkpt lat="46.329803" lon="13.5720154"></trkpt>
-      <trkpt lat="46.3297242" lon="13.5720679"></trkpt>
-      <trkpt lat="46.329687" lon="13.5721801"></trkpt>
-      <trkpt lat="46.3297431" lon="13.5725864"></trkpt>
-      <trkpt lat="46.3296218" lon="13.5726453"></trkpt>
-      <trkpt lat="46.3295576" lon="13.5728663"></trkpt>
-      <trkpt lat="46.3296313" lon="13.5731422"></trkpt>
-      <trkpt lat="46.3297773" lon="13.5733418"></trkpt>
-      <trkpt lat="46.3299666" lon="13.5735172"></trkpt>
-      <trkpt lat="46.3301586" lon="13.5732855"></trkpt>
-      <trkpt lat="46.3302352" lon="13.5732116"></trkpt>
-      <trkpt lat="46.3303379" lon="13.5731609"></trkpt>
-      <trkpt lat="46.3305235" lon="13.5731082"></trkpt>
-      <trkpt lat="46.3306444" lon="13.5730628"></trkpt>
-      <trkpt lat="46.3306921" lon="13.5731319"></trkpt>
-      <trkpt lat="46.3307235" lon="13.5731536"></trkpt>
-      <trkpt lat="46.3307539" lon="13.5730853"></trkpt>
-      <trkpt lat="46.3308162" lon="13.5730837"></trkpt>
-      <trkpt lat="46.3308764" lon="13.5730005"></trkpt>
-      <trkpt lat="46.330934" lon="13.5728871"></trkpt>
-      <trkpt lat="46.3309851" lon="13.5728405"></trkpt>
-      <trkpt lat="46.3310447" lon="13.5728019"></trkpt>
-      <trkpt lat="46.331129" lon="13.5726787"></trkpt>
-      <trkpt lat="46.3311755" lon="13.5726606"></trkpt>
-      <trkpt lat="46.3313004" lon="13.5725111"></trkpt>
-      <trkpt lat="46.3313517" lon="13.5724981"></trkpt>
-      <trkpt lat="46.3313752" lon="13.5724602"></trkpt>
-      <trkpt lat="46.3314494" lon="13.5723492"></trkpt>
-      <trkpt lat="46.3315683" lon="13.5722661"></trkpt>
-      <trkpt lat="46.3315979" lon="13.5722951"></trkpt>
+      <trkpt lat="46.3315979" lon="13.5723077"></trkpt>
+      <trkpt lat="46.3317533" lon="13.5721256"></trkpt>
+      <trkpt lat="46.3314955" lon="13.5722113"></trkpt>
+      <trkpt lat="46.3313941" lon="13.5722229"></trkpt>
+      <trkpt lat="46.3312977" lon="13.5721739"></trkpt>
+      <trkpt lat="46.3309093" lon="13.5721202"></trkpt>
+      <trkpt lat="46.3308397" lon="13.5721642"></trkpt>
+      <trkpt lat="46.3307831" lon="13.5722216"></trkpt>
+      <trkpt lat="46.3306855" lon="13.5722451"></trkpt>
+      <trkpt lat="46.3305586" lon="13.5722853"></trkpt>
+      <trkpt lat="46.3304614" lon="13.5723651"></trkpt>
+      <trkpt lat="46.3302492" lon="13.5726313"></trkpt>
+      <trkpt lat="46.3301685" lon="13.572776"></trkpt>
+      <trkpt lat="46.3301455" lon="13.5728185"></trkpt>
+      <trkpt lat="46.3300549" lon="13.5727758"></trkpt>
+      <trkpt lat="46.3300185" lon="13.5724923"></trkpt>
+      <trkpt lat="46.3299942" lon="13.5723077"></trkpt>
+      <trkpt lat="46.3298368" lon="13.5722943"></trkpt>
+      <trkpt lat="46.3298117" lon="13.572158"></trkpt>
+      <trkpt lat="46.3297873" lon="13.5720179"></trkpt>
+      <trkpt lat="46.3297111" lon="13.5715906"></trkpt>
+      <trkpt lat="46.3292406" lon="13.5717016"></trkpt>
+      <trkpt lat="46.3287337" lon="13.5718794"></trkpt>
+      <trkpt lat="46.3284647" lon="13.5719951"></trkpt>
+      <trkpt lat="46.3284679" lon="13.5723822"></trkpt>
+      <trkpt lat="46.3285647" lon="13.5725091"></trkpt>
+      <trkpt lat="46.3287154" lon="13.5727066"></trkpt>
+      <trkpt lat="46.3289348" lon="13.5730259"></trkpt>
+      <trkpt lat="46.3290612" lon="13.5731505"></trkpt>
+      <trkpt lat="46.3292946" lon="13.5734914"></trkpt>
+      <trkpt lat="46.3295725" lon="13.5733892"></trkpt>
+      <trkpt lat="46.3297773" lon="13.5733544"></trkpt>
+      <trkpt lat="46.3299666" lon="13.5735298"></trkpt>
+      <trkpt lat="46.3301586" lon="13.5732981"></trkpt>
+      <trkpt lat="46.3302352" lon="13.5732242"></trkpt>
+      <trkpt lat="46.3303379" lon="13.5731735"></trkpt>
+      <trkpt lat="46.3305235" lon="13.5731208"></trkpt>
+      <trkpt lat="46.3306444" lon="13.5730754"></trkpt>
+      <trkpt lat="46.3306921" lon="13.5731445"></trkpt>
+      <trkpt lat="46.3307235" lon="13.5731662"></trkpt>
+      <trkpt lat="46.3307539" lon="13.5730979"></trkpt>
+      <trkpt lat="46.3308162" lon="13.5730963"></trkpt>
+      <trkpt lat="46.3308764" lon="13.5730131"></trkpt>
+      <trkpt lat="46.330934" lon="13.5728997"></trkpt>
+      <trkpt lat="46.3309851" lon="13.5728531"></trkpt>
+      <trkpt lat="46.3310447" lon="13.5728145"></trkpt>
+      <trkpt lat="46.331129" lon="13.5726913"></trkpt>
+      <trkpt lat="46.3311755" lon="13.5726732"></trkpt>
+      <trkpt lat="46.3313004" lon="13.5725237"></trkpt>
+      <trkpt lat="46.3313517" lon="13.5725107"></trkpt>
+      <trkpt lat="46.3313752" lon="13.5724728"></trkpt>
+      <trkpt lat="46.3314494" lon="13.5723618"></trkpt>
+      <trkpt lat="46.3315683" lon="13.5722787"></trkpt>
+      <trkpt lat="46.3315979" lon="13.5723077"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -4160,22 +4197,23 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camping Adria Ankaran</name>
     <trkseg>
-      <trkpt lat="45.5788655" lon="13.7362562"></trkpt>
-      <trkpt lat="45.5788812" lon="13.7362211"></trkpt>
-      <trkpt lat="45.57889" lon="13.7361677"></trkpt>
-      <trkpt lat="45.5788822" lon="13.7361045"></trkpt>
-      <trkpt lat="45.5788683" lon="13.7360855"></trkpt>
-      <trkpt lat="45.5789204" lon="13.7359366"></trkpt>
+      <trkpt lat="45.5788513" lon="13.736265"></trkpt>
+      <trkpt lat="45.5788703" lon="13.7362314"></trkpt>
+      <trkpt lat="45.5788832" lon="13.7361847"></trkpt>
+      <trkpt lat="45.5788764" lon="13.7361283"></trkpt>
+      <trkpt lat="45.5788644" lon="13.7361052"></trkpt>
+      <trkpt lat="45.578958" lon="13.7359805"></trkpt>
       <trkpt lat="45.5789838" lon="13.7359586"></trkpt>
-      <trkpt lat="45.5790414" lon="13.7359229"></trkpt>
-      <trkpt lat="45.5791259" lon="13.7357939"></trkpt>
-      <trkpt lat="45.5792872" lon="13.7353028"></trkpt>
-      <trkpt lat="45.5794197" lon="13.734647"></trkpt>
-      <trkpt lat="45.5795779" lon="13.7338317"></trkpt>
-      <trkpt lat="45.5799274" lon="13.7319619"></trkpt>
+      <trkpt lat="45.5790518" lon="13.7359048"></trkpt>
+      <trkpt lat="45.5791078" lon="13.7357868"></trkpt>
+      <trkpt lat="45.5792106" lon="13.7355129"></trkpt>
+      <trkpt lat="45.5793104" lon="13.7351323"></trkpt>
+      <trkpt lat="45.579406" lon="13.7346862"></trkpt>
+      <trkpt lat="45.5795629" lon="13.7338488"></trkpt>
+      <trkpt lat="45.5799212" lon="13.7319867"></trkpt>
       <trkpt lat="45.5800538" lon="13.7315341"></trkpt>
       <trkpt lat="45.5801043" lon="13.7314028"></trkpt>
-      <trkpt lat="45.5792773" lon="13.7306467"></trkpt>
+      <trkpt lat="45.579251" lon="13.7306066"></trkpt>
       <trkpt lat="45.5792342" lon="13.7305901"></trkpt>
       <trkpt lat="45.5792083" lon="13.7306188"></trkpt>
       <trkpt lat="45.5792292" lon="13.7306562"></trkpt>
@@ -4184,12 +4222,11 @@ version="1.1" creator="togpx">
       <trkpt lat="45.5782167" lon="13.7315781"></trkpt>
       <trkpt lat="45.5774394" lon="13.7320981"></trkpt>
       <trkpt lat="45.5774311" lon="13.7321026"></trkpt>
-      <trkpt lat="45.5768228" lon="13.7324302"></trkpt>
-      <trkpt lat="45.5766427" lon="13.7323915"></trkpt>
-      <trkpt lat="45.5764972" lon="13.7323722"></trkpt>
+      <trkpt lat="45.5768147" lon="13.7324496"></trkpt>
+      <trkpt lat="45.5766117" lon="13.7324253"></trkpt>
+      <trkpt lat="45.5764589" lon="13.7324028"></trkpt>
       <trkpt lat="45.5754044" lon="13.7332489"></trkpt>
       <trkpt lat="45.5747005" lon="13.7341649"></trkpt>
-      <trkpt lat="45.5745548" lon="13.7343545"></trkpt>
       <trkpt lat="45.5745295" lon="13.7343914"></trkpt>
       <trkpt lat="45.5747048" lon="13.7345574"></trkpt>
       <trkpt lat="45.5746208" lon="13.7348552"></trkpt>
@@ -4203,10 +4240,11 @@ version="1.1" creator="togpx">
       <trkpt lat="45.5776442" lon="13.7370657"></trkpt>
       <trkpt lat="45.5777711" lon="13.7370203"></trkpt>
       <trkpt lat="45.57814" lon="13.736884"></trkpt>
+      <trkpt lat="45.5783095" lon="13.7367933"></trkpt>
       <trkpt lat="45.5783852" lon="13.7367331"></trkpt>
       <trkpt lat="45.5786736" lon="13.7364033"></trkpt>
       <trkpt lat="45.5787502" lon="13.7363734"></trkpt>
-      <trkpt lat="45.5788655" lon="13.7362562"></trkpt>
+      <trkpt lat="45.5788513" lon="13.736265"></trkpt>
     </trkseg>
   </trk>
   <trk>
