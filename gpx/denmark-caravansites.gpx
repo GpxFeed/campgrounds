@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-11-01T14:18:41Z", "timestamp_areas_base":
-      "2023-11-01T12:29:45Z", "copyright": "The data included in
+      "2023-12-01T11:42:46Z", "timestamp_areas_base":
+      "2023-12-01T10:10:16Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -38,7 +38,7 @@ version="1.1" creator="togpx">
     <ele>1</ele>
     <name>Ribe Centrum Syd</name>
     <desc>capacity=18; caravan_site:type=parking_lot; fee=no;
-    internet_access=no; maxstay=48 hour; name=Ribe Centrum Syd;
+    internet_access=no; maxstay=48 hours; name=Ribe Centrum Syd;
     power_supply=no; sanitary_dump_station=yes;
     tourism=caravan_site; id=node/2956204143</desc>
   </wpt>
@@ -149,9 +149,9 @@ version="1.1" creator="togpx">
     <desc>caravan_site:type=golf; charge=DKK 185; fee=yes;
     name=CamperParken; operator=Haderslev ParkGolf; toilets=yes;
     tourism=caravan_site;
-    website=http://camperparken.dk/camperparken/;
+    website=https://camperparken.dk/camperparken/;
     id=node/5818390357</desc>
-    <link href="http://camperparken.dk/camperparken/"></link>
+    <link href="https://camperparken.dk/camperparken/"></link>
   </wpt>
   <wpt lat="55.2934738" lon="10.7122269">
     <ele>20</ele>
@@ -444,9 +444,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.0681475" lon="11.9706613">
     <ele>59</ele>
     <name>Østerskovgård</name>
-    <desc>capacity=3; caravan_site:type=farm_shop; charge=DKK 100;
-    fee=yes; name=Østerskovgård; payment:cash=yes;
-    payment:mobilepay=yes; power_supply=yes; tourism=caravan_site;
+    <desc>capacity=3; capacity:motorhomes=3;
+    caravan_site:type=farm_shop; charge=DKK 100; fee=yes;
+    name=Østerskovgård; payment:cash=yes; payment:mobilepay=yes;
+    power_supply=yes; tents=no; tourism=caravan_site;
     website=https://www.oesterskovgaard.com/445467738.html;
     id=node/10740142668</desc>
     <link href="https://www.oesterskovgaard.com/445467738.html">
@@ -545,8 +546,9 @@ version="1.1" creator="togpx">
     <name>Stege Havn</name>
     <desc>capacity=6; charge=DKK 250; charge:conditional=DKK 100 @
     (Nov-Mar); description=third night is free. DKK 100 Nov-Mar;
-    fee:conditional=no @ ("third night"); name=Stege Havn;
-    toilets=yes; tourism=caravan_site;
+    fee:conditional=no @ ("third night"); internet_access=wlan;
+    laundry=yes; name=Stege Havn; shower=yes; toilets=yes;
+    tourism=caravan_site;
     website=https://stege-havn.vordingborg.dk/;
     id=node/11027987126</desc>
     <link href="https://stege-havn.vordingborg.dk/"></link>
@@ -614,9 +616,11 @@ version="1.1" creator="togpx">
     <ele>-1</ele>
     <name>Reersø Havn Autocamperplads</name>
     <desc>charge=DKK 150; description=including laundry; fee=yes;
-    name=Reersø Havn Autocamperplads; power_supply=yes;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    water_point=yes; id=node/11030714694</desc>
+    laundry=yes; name=Reersø Havn Autocamperplads;
+    payment:cash=yes; payment:mobilepay=88042; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; toilets=yes;
+    tourism=caravan_site; water_point=yes;
+    id=node/11030714694</desc>
   </wpt>
   <wpt lat="55.216181" lon="11.7386609">
     <ele>3</ele>
@@ -634,8 +638,8 @@ version="1.1" creator="togpx">
     <name>Rødvig Havn</name>
     <desc>capacity=15; caravan_site:type=harbour; charge=DKK 190;
     description=cozy marina and fishing village.; fee=yes;
-    name=Rødvig Havn; sanitary_dump_station=yes; shower=yes;
-    toilets=yes; tourism=caravan_site;
+    laundry=yes; name=Rødvig Havn; sanitary_dump_station=yes;
+    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
     website=https://www.roedvighavn.dk/; id=node/11030750339</desc>
     <link href="https://www.roedvighavn.dk/"></link>
   </wpt>
@@ -652,9 +656,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.0042611" lon="11.9167972">
     <ele>9</ele>
     <name>Vordingborg Nordhavn</name>
-    <desc>charge=DKK 250; description=third night in any
-    Vordingborg municipality harbour is free.; fee=yes;
-    name=Vordingborg Nordhavn; toilets=yes; tourism=caravan_site;
+    <desc>charge=DKK 250; charge:conditional=100 DKK @ (Nov-Mar);
+    description=third night in any Vordingborg municipality harbour
+    is free.; fee=yes; internet_access=wlan; name=Vordingborg
+    Nordhavn; shower=yes; toilets=yes; tourism=caravan_site;
     website=https://vordingborg-nordhavn.vordingborg.dk/;
     id=node/11030779301</desc>
     <link href="https://vordingborg-nordhavn.vordingborg.dk/">
@@ -800,15 +805,15 @@ version="1.1" creator="togpx">
   <wpt lat="55.3481041" lon="11.5028894">
     <ele>43</ele>
     <name>Camper parkering Panzermuseum East</name>
-    <desc>caravan_site:type=museum; charge=DKK 100 (two days DKK
-    150); description=When arriving outside opening hours.
-    10:00-17:00 phone for directions; fee=yes; name=Camper
-    parkering Panzermuseum East; operator=Panzermuseum East;
-    phone=+45 20259048; power_supply=yes; power_supply:charge=DKK
-    25; power_supply:fee=yes; sanitary_dump_station=yes;
+    <desc>caravan_site:type=museum; charge=DKK 125;
+    description=When arriving outside opening hours. 10:00-17:00
+    phone for directions; fee=yes; name=Camper parkering
+    Panzermuseum East; operator=Panzermuseum East; phone=+45
+    20259048; power_supply=yes; power_supply:charge=DKK 25;
+    power_supply:fee=yes; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=no; tourism=caravan_site;
-    water_point=yes;
+    sanitary_dump_station:grey_water=no; toilets=yes;
+    tourism=caravan_site; water_point=yes;
     website=https://panzermuseumeast.dk/camper-parkering/;
     id=node/11039321825</desc>
     <link href="https://panzermuseumeast.dk/camper-parkering/">
@@ -1025,8 +1030,8 @@ version="1.1" creator="togpx">
     <name>Autocamper P-plads Ringsted</name>
     <desc>capacity=6; caravan_site:type=parking_lot; fee=no;
     maxstay=2 days; name=Autocamper P-plads Ringsted;
-    power_supply=yes; toilets=no; tourism=caravan_site;
-    id=node/11039914086</desc>
+    power_supply=yes; power_supply:fee=no; shower=no; tents=no;
+    toilets=no; tourism=caravan_site; id=node/11039914086</desc>
   </wpt>
   <wpt lat="55.487852" lon="9.5019221">
     <ele>2</ele>
@@ -1361,11 +1366,11 @@ version="1.1" creator="togpx">
   <wpt lat="55.4936862" lon="11.1748069">
     <ele>0</ele>
     <name>Mullerup Havn</name>
-    <desc>charge=DKK 195; fee=yes; name=Mullerup Havn;
-    payment:mobilepay=yes; power_supply=yes;
-    power_supply:charge=DKK 50; power_supply:fee=yes;
+    <desc>caravans=yes; charge=DKK 175; fee=yes; name=Mullerup
+    Havn; payment:mobilepay=yes; power_supply=yes;
+    power_supply:charge=DKK 20; power_supply:fee=yes;
     reservation=yes; sanitary_dump_station=yes; shower=yes;
-    toilets=yes; tourism=caravan_site; water_point=yes;
+    tents=no; toilets=yes; tourism=caravan_site; water_point=yes;
     website=https://mulleruphavn.dk/autocamper-campingvogn/;
     id=node/11069850833</desc>
     <link href="https://mulleruphavn.dk/autocamper-campingvogn/">
@@ -1686,8 +1691,11 @@ version="1.1" creator="togpx">
     <ele>0</ele>
     <name>Guldborg Lystbådehavn</name>
     <desc>charge=DKK 190; fee=yes; name=Guldborg Lystbådehavn;
-    power_supply=yes; shower=yes; shower:fee=no; toilets=yes;
-    tourism=caravan_site; id=node/11071056455</desc>
+    power_supply=yes; shower=yes; shower:fee=no; tents=no;
+    toilets=yes; tourism=caravan_site; water_point=yes;
+    website=http://www.guldborg-havn.dk/havnepenge/;
+    id=node/11071056455</desc>
+    <link href="http://www.guldborg-havn.dk/havnepenge/"></link>
   </wpt>
   <wpt lat="54.7601215" lon="11.8594596">
     <ele>0</ele>
@@ -1903,9 +1911,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.4942393" lon="9.7041611">
     <ele>12</ele>
-    <name>node/11150081903</name>
-    <desc>capacity=6; fee=no; sanitary_dump_station=no;
-    tourism=caravan_site; id=node/11150081903</desc>
+    <name>Fænø Odde Rasteplads</name>
+    <desc>capacity=6; fee=no; name=Fænø Odde Rasteplads;
+    sanitary_dump_station=no; tourism=caravan_site;
+    id=node/11150081903</desc>
   </wpt>
   <wpt lat="54.8236207" lon="12.1382135">
     <ele>1</ele>
@@ -1913,13 +1922,15 @@ version="1.1" creator="togpx">
     <desc>caravan_site:type=harbour; charge=DKK 180; fee=yes;
     internet_access=wlan; internet_access:fee=no; name=Hesnæs Havn;
     power_supply=yes; sanitary_dump_station:chemical_toilet=no;
-    tourism=caravan_site; water_point=yes;
+    tents=no; tourism=caravan_site; water_point=yes;
     id=node/11159617148</desc>
   </wpt>
   <wpt lat="54.6629199" lon="11.6005977">
     <ele>-1</ele>
-    <name>node/11197161446</name>
-    <desc>capacity=3; charge=125 DKK; motorcar=yes;
+    <name>Sandager Havn</name>
+    <desc>capacity=3; charge=125 DKK; checkin=13:00; motorcar=yes;
+    name=Sandager Havn; operator=Sandager Bådelaug.;
+    power_supply=no; reservation=yes; seasonal=no;
     tourism=caravan_site;
     url=https://bookenshelter.dk/naturlandet/shelter/sandager-autocamper/;
     id=node/11197161446</desc>
@@ -1928,10 +1939,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.0021554" lon="12.403425">
     <ele>40</ele>
-    <name>node/11239041493</name>
-    <desc>drinking_water=yes; maxstay=2 day; power_supply=yes;
-    sanitary_dump_station=no; tourism=caravan_site;
+    <name>Keldborg</name>
+    <desc>drinking_water=yes; maxstay=2 days; name=Keldborg;
+    power_supply=yes; sanitary_dump_station=no;
+    tourism=caravan_site; water_point=yes;
+    website=https://www.keldborg.com/autocamper/;
     id=node/11239041493</desc>
+    <link href="https://www.keldborg.com/autocamper/"></link>
   </wpt>
   <wpt lat="57.45831285" lon="10.539521712179772">
     <ele>4</ele>
@@ -2096,8 +2110,8 @@ version="1.1" creator="togpx">
     <desc>capacity=25; name=Autocamperplads Oasen Rømø – 1;
     phone=+45 7375 5200; power_supply=yes;
     sanitary_dump_station=customers; tourism=caravan_site;
-    website=http://oasen-roemoe.dk; id=way/366132802</desc>
-    <link href="http://oasen-roemoe.dk"></link>
+    website=https://www.oasen-roemoe.dk/; id=way/366132802</desc>
+    <link href="https://www.oasen-roemoe.dk/"></link>
   </wpt>
   <wpt lat="55.596881350000004" lon="11.68268910279005">
     <ele>41</ele>
@@ -2106,7 +2120,7 @@ version="1.1" creator="togpx">
     caravan_site:type=nature; charge=100 DKK; dog=leashed; fee=yes;
     name=Minnislyst Quickstop; payment:cash=yes;
     payment:mobilepay=yes; payment:paypal=yes; power_supply=yes;
-    tourism=caravan_site; water_point=yes;
+    shower=no; tents=no; tourism=caravan_site; water_point=yes;
     website=http://q.minnislyst.dk/; id=way/392791290</desc>
     <link href="http://q.minnislyst.dk/"></link>
   </wpt>
@@ -2130,9 +2144,9 @@ version="1.1" creator="togpx">
     name=Autocamperplads Oasen Rømø – 3; phone=+45 7375 5200;
     power_supply=yes; sanitary_dump_station=customers;
     toilets:wheelchair=no; tourism=caravan_site;
-    website=http://oasen-roemoe.dk; wheelchair=no;
+    website=https://www.oasen-roemoe.dk/; wheelchair=no;
     id=way/418125436</desc>
-    <link href="http://oasen-roemoe.dk"></link>
+    <link href="https://www.oasen-roemoe.dk/"></link>
   </wpt>
   <wpt lat="55.2626202" lon="9.706852568035112">
     <ele>1</ele>
@@ -2207,9 +2221,9 @@ version="1.1" creator="togpx">
     internet_access=wlan; name=Autocamperplads Oasen Rømø – 2;
     phone=+45 7375 5200; power_supply=yes;
     sanitary_dump_station=yes; toilets=yes; toilets:wheelchair=no;
-    tourism=caravan_site; website=http://oasen-roemoe.dk;
+    tourism=caravan_site; website=https://www.oasen-roemoe.dk/;
     wheelchair=no; id=way/616717218</desc>
-    <link href="http://oasen-roemoe.dk"></link>
+    <link href="https://www.oasen-roemoe.dk/"></link>
   </wpt>
   <wpt lat="54.9352056" lon="8.878425951703381">
     <ele>0</ele>
@@ -2281,12 +2295,18 @@ version="1.1" creator="togpx">
   <wpt lat="54.99494445" lon="11.89942986955253">
     <ele>1</ele>
     <name>Masnedsund Havn</name>
-    <desc>capacity=6; charge=170 DKK; fee=yes;
-    internet_access=wlan; internet_access:fee=customers;
-    name=Masnedsund Havn; opening_hours=24/7;
-    payment:mastercard=yes; payment:visa=yes;
-    power_supply=cee_17_blue; tourism=caravan_site;
+    <desc>capacity=6; charge=250 DKK; charge:conditional=100 DKK @
+    (Nov-Mar); charge:description=3. night is free;
+    decription:seasonal=occupied by boats in the winter;
+    description=third night in any Vordingborg municipality harbour
+    is free.; fee=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Masnedsund Havn;
+    opening_hours=24/7; payment:mastercard=yes; payment:visa=yes;
+    power_supply=cee_17_blue; seasonal=sommer,spring,autumn;
+    shower=yes; toilets=yes; tourism=caravan_site;
+    website=https://masnedsund-havn.vordingborg.dk/;
     id=way/850538564</desc>
+    <link href="https://masnedsund-havn.vordingborg.dk/"></link>
   </wpt>
   <wpt lat="55.15425355" lon="8.742394008884553">
     <ele>4</ele>
@@ -2502,8 +2522,9 @@ version="1.1" creator="togpx">
     <desc>charge=DKK 250; charge:conditional=DKK 100 @
     (seasonal=low_season); description=third night is free (all
     Vordingborg harbours count toward this). DKK 100 Nov-Mar;
-    fee:conditional=no @ ("third night"); name=Præstø Havn;
-    toilets=yes; tourism=caravan_site;
+    fee:conditional=no @ ("third night"); internet_access=wlan;
+    laundry=yes; name=Præstø Havn; shower=yes; toilets=yes;
+    tourism=caravan_site;
     website=https://praesto-havn.vordingborg.dk/;
     id=way/1187632330</desc>
     <link href="https://praesto-havn.vordingborg.dk/"></link>
@@ -2622,8 +2643,9 @@ version="1.1" creator="togpx">
     power_supply:charge=35; power_supply:fee=yes;
     sanitary_dump_station=yes; sanitary_dump_station:charge=DKK 15;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:fee=yes; shower=yes; shower:charge=DKK
-    10; shower:fee=https://www.koebingsmarkcamping.dk/camping.aspx;
+    sanitary_dump_station:fee=yes; seasonal=no; shower=yes;
+    shower:charge=DKK 10;
+    shower:fee=https://www.koebingsmarkcamping.dk/camping.aspx;
     tourism=caravan_site; id=way/1188942151</desc>
   </wpt>
   <wpt lat="57.33191895" lon="10.534156059469984">
@@ -2642,7 +2664,8 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>Frederiksværk Lystbådehavn</name>
     <desc>caravan_site:type=harbour; charge=DKK 185; fee=yes;
-    name=Frederiksværk Lystbådehavn; tourism=caravan_site;
+    laudry=yes; name=Frederiksværk Lystbådehavn; power_supply=yes;
+    shower=yes; toilets=yes; tourism=caravan_site;
     website=https://frv-havn.dk/gaester/priser/;
     id=way/1192469579</desc>
     <link href="https://frv-havn.dk/gaester/priser/"></link>
@@ -2720,7 +2743,8 @@ version="1.1" creator="togpx">
     <ele>-1</ele>
     <name>Hesnæs Badested parkering</name>
     <desc>caravan_site:type=beach; fee=no; motorhome=permissable;
-    name=Hesnæs Badested parkering; tourism=caravan_site;
+    name=Hesnæs Badested parkering; power_supply=no;
+    sanitary_dump_station=no; tourism=caravan_site; water_point=no;
     id=way/1204929669</desc>
   </wpt>
   <wpt lat="54.89072865" lon="12.047121166369227">
@@ -2756,6 +2780,15 @@ version="1.1" creator="togpx">
     <desc>caravan_site:type=museum; fee=no; maxstay=1 day;
     name=Fyrkat Møllegaard parkering; tourism=caravan_site;
     id=way/1218287502</desc>
+  </wpt>
+  <wpt lat="55.17827805" lon="9.077366251740743">
+    <ele>42</ele>
+    <name>Dahls autocamperplads i Toftlund</name>
+    <desc>charge=DKK 80; dog=yes; fee=yes; name=Dahls
+    autocamperplads i Toftlund; operator=Niels Christian Dahl;
+    phone=+45 23733600; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    water_point=yes; id=way/1220644037</desc>
   </wpt>
   <trk>
     <name>Palmestranden Parkering</name>
@@ -3839,6 +3872,19 @@ version="1.1" creator="togpx">
       <trkpt lat="56.6250235" lon="9.7732495"></trkpt>
       <trkpt lat="56.6253068" lon="9.7730946"></trkpt>
       <trkpt lat="56.6252386" lon="9.7727627"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Dahls autocamperplads i Toftlund</name>
+    <trkseg>
+      <trkpt lat="55.1784343" lon="9.0777454"></trkpt>
+      <trkpt lat="55.1784304" lon="9.0775904"></trkpt>
+      <trkpt lat="55.1784204" lon="9.0773141"></trkpt>
+      <trkpt lat="55.178461" lon="9.0771908"></trkpt>
+      <trkpt lat="55.1784469" lon="9.0769039"></trkpt>
+      <trkpt lat="55.1780535" lon="9.077004"></trkpt>
+      <trkpt lat="55.1781357" lon="9.0778223"></trkpt>
+      <trkpt lat="55.1784343" lon="9.0777454"></trkpt>
     </trkseg>
   </trk>
 </gpx>
