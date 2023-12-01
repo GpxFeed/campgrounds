@@ -11,16 +11,16 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
 - Campingplatz Pois
 
-    - 52172 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 52242 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
 
-    - 18043 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 18149 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Zusätzliche Pois für die Grundversorgung des reisenden Campers selbst und seines Kleintransporters, Motorrades, Gespanns oder Hippie-Busses
 
-    - 218284 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 171701 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 218579 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 171694 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Länder
 
@@ -45,6 +45,9 @@ Wenn Sie feststellen, dass Daten falsch sind oder fehlen, wenden Sie sich bitte 
 - http://www.uscampgrounds.info/
 
 # <h2>Andere Software, die OSM-Daten und -Dienste nutzt</h2>
+
+- OpenStreetMap offline benutzen
+    - https://wiki.openstreetmap.org/wiki/Using_OpenStreetMap_offline
 
 - Handy-Software nach Plattform
     - https://wiki.openstreetmap.org/wiki/Software
