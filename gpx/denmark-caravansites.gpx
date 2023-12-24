@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-12-01T11:42:46Z", "timestamp_areas_base":
-      "2023-12-01T10:10:16Z", "copyright": "The data included in
+      "2023-12-24T11:59:26Z", "timestamp_areas_base":
+      "2023-12-24T07:29:15Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -96,19 +96,6 @@ version="1.1" creator="togpx">
     <link href="https://pensionlindely.dk/en/autocamping.html">
     </link>
   </wpt>
-  <wpt lat="56.1396851" lon="10.2197914">
-    <ele>3</ele>
-    <name>Marselisborg Havn</name>
-    <desc>caravan_site:type=harbour; charge=DKK 185, DKK 195/xl,DKK
-    205/xxl; checkout=12:00; fee=yes; name=Marselisborg Havn;
-    power_supply=yes; power_supply:charge=DKK 17.80;
-    power_supply:fee=yes; reservation=no; tourism=caravan_site;
-    washing_machine:charge=DKK 28;
-    website=https://www.marselisborghavn.dk/autocamper/;
-    id=node/4866062622</desc>
-    <link href="https://www.marselisborghavn.dk/autocamper/">
-    </link>
-  </wpt>
   <wpt lat="55.2477811" lon="9.4999642">
     <ele>0</ele>
     <name>Haderslev Sejl-Clubs Autocamper Plads</name>
@@ -193,21 +180,6 @@ version="1.1" creator="togpx">
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site; water_point=yes;
     id=node/6041288447</desc>
-  </wpt>
-  <wpt lat="55.5053616" lon="9.7376096">
-    <ele>-1</ele>
-    <name>Ny Havn 2</name>
-    <desc>capacity=20; charge=DKK 200; description=For et par
-    timers parkering,betales når man forlader pladsen. For et døgns
-    parkering, betales ved ankomst i automat/mobilepay; fee=yes;
-    internet_access=yes; internet_access:fee=no; name=Ny Havn 2;
-    permanent_camping=no; power_supply=yes;
-    sanitary_dump_station=yes; toilets=yes; tourism=caravan_site;
-    water_point=yes;
-    website=https://nyhavn2middelfart.dk/autocamperplads/;
-    id=node/6611417914</desc>
-    <link href="https://nyhavn2middelfart.dk/autocamperplads/">
-    </link>
   </wpt>
   <wpt lat="56.8038023" lon="10.2781814">
     <ele>1</ele>
@@ -329,7 +301,7 @@ version="1.1" creator="togpx">
     <name>Venø Havn</name>
     <desc>capacity:caravans=5; caravan_site:type=harbour;
     charge=DKK 170; fee=yes; internet_access=no; name=Venø Havn;
-    power_supply=yes; sanitary_dump_station=yes;
+    power_supply=yes; sanitary_dump_station=yes; toilets=yes;
     tourism=caravan_site; website=http://www.venohavn.dk/;
     id=node/9909140414</desc>
     <link href="http://www.venohavn.dk/"></link>
@@ -1031,7 +1003,9 @@ version="1.1" creator="togpx">
     <desc>capacity=6; caravan_site:type=parking_lot; fee=no;
     maxstay=2 days; name=Autocamper P-plads Ringsted;
     power_supply=yes; power_supply:fee=no; shower=no; tents=no;
-    toilets=no; tourism=caravan_site; id=node/11039914086</desc>
+    toilets=no; tourism=caravan_site;
+    wikimedia_commons=Category:Ringsted Motorhome Stopover;
+    id=node/11039914086</desc>
   </wpt>
   <wpt lat="55.487852" lon="9.5019221">
     <ele>2</ele>
@@ -1104,9 +1078,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.7190611" lon="10.585488">
     <ele>4</ele>
-    <name>node/11043031423</name>
+    <name>Skagen Rådhus P-Plads</name>
     <desc>caravan_site:type=parking_lot; description=free Sep-May;
-    fee=yes; power_supply=no; tourism=caravan_site;
+    fee=yes; fee:conditional=no@(Sep-May); name=Skagen Rådhus
+    P-Plads; power_supply=no; tourism=caravan_site;
     id=node/11043031423</desc>
   </wpt>
   <wpt lat="55.9687046" lon="11.3503696">
@@ -1132,7 +1107,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.4151356" lon="12.2553323">
     <ele>0</ele>
     <name>node/11047294705</name>
-    <desc>tourism=caravan_site; id=node/11047294705</desc>
+    <desc>caravan_site:type=parking_lot; tourism=caravan_site;
+    id=node/11047294705</desc>
   </wpt>
   <wpt lat="54.9550233" lon="8.6835793">
     <ele>2</ele>
@@ -1888,11 +1864,6 @@ version="1.1" creator="togpx">
     wikimedia_commons=File:Ørodde Veststrand Autocamperplads.jpg;
     id=node/11093610013</desc>
   </wpt>
-  <wpt lat="56.246103" lon="10.3390708">
-    <ele>0</ele>
-    <name>node/11099835905</name>
-    <desc>tourism=caravan_site; id=node/11099835905</desc>
-  </wpt>
   <wpt lat="55.7015051" lon="8.7486718">
     <ele>24</ele>
     <name>Ansager Autocamperplads</name>
@@ -2228,8 +2199,10 @@ version="1.1" creator="togpx">
   <wpt lat="54.9352056" lon="8.878425951703381">
     <ele>0</ele>
     <name>Tønder Campingplads</name>
-    <desc>capacity=39; fee=yes; name=Tønder Campingplads;
-    tourism=caravan_site; id=way/642558260</desc>
+    <desc>capacity=39; drinking_water=yes; fee=yes;
+    internet_access=wlan; name=Tønder Campingplads;
+    power_supply=yes; toilets=yes; tourism=caravan_site;
+    id=way/642558260</desc>
   </wpt>
   <wpt lat="55.4524809" lon="10.664713496792505">
     <ele>1</ele>
@@ -2297,11 +2270,11 @@ version="1.1" creator="togpx">
     <name>Masnedsund Havn</name>
     <desc>capacity=6; charge=250 DKK; charge:conditional=100 DKK @
     (Nov-Mar); charge:description=3. night is free;
-    decription:seasonal=occupied by boats in the winter;
     description=third night in any Vordingborg municipality harbour
-    is free.; fee=yes; internet_access=wlan;
-    internet_access:fee=customers; name=Masnedsund Havn;
-    opening_hours=24/7; payment:mastercard=yes; payment:visa=yes;
+    is free.; description:seasonal=occupied by boats in the winter;
+    fee=yes; internet_access=wlan; internet_access:fee=customers;
+    name=Masnedsund Havn; opening_hours=24/7;
+    payment:mastercard=yes; payment:visa=yes;
     power_supply=cee_17_blue; seasonal=sommer,spring,autumn;
     shower=yes; toilets=yes; tourism=caravan_site;
     website=https://masnedsund-havn.vordingborg.dk/;
@@ -2448,9 +2421,18 @@ version="1.1" creator="togpx">
   <wpt lat="55.6417523" lon="12.649344586167569">
     <ele>0</ele>
     <name>Kastrup Lystbådehavn</name>
-    <desc>fee=yes; name=Kastrup Lystbådehavn;
-    sanitary_dump_station=customers; seasonal=summer;
-    tourism=caravan_site; id=way/1135177583</desc>
+    <desc>charge=DKK 170; description=in winter also motorhome
+    parking at the waterfront just north of here; fee=yes;
+    internet_access=wlan; internet_access:fee=no; laundry=yes;
+    name=Kastrup Lystbådehavn; opening_hours=24/7; operator=Kastrup
+    Lystbådehavn; power_supply=yes; power_supply:charge=2 DKK/kWh;
+    reservation=no; sanitary_dump_station=customers; seasonal=no;
+    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
+    water_point=yes;
+    website=https://www.havneguide.dk/havn/kastrup-ny-lystbaadehavn;
+    id=way/1135177583</desc>
+    <link href="https://www.havneguide.dk/havn/kastrup-ny-lystbaadehavn">
+    </link>
   </wpt>
   <wpt lat="56.12875415" lon="12.308366685667306">
     <ele>1</ele>
@@ -2660,11 +2642,17 @@ version="1.1" creator="togpx">
     id=way/1189244822</desc>
     <link href="https://saebyhavn.frederikshavn.dk/"></link>
   </wpt>
+  <wpt lat="55.4838109" lon="8.412011812210965">
+    <ele>0</ele>
+    <name>way/1190666459</name>
+    <desc>capacity=10; caravans=yes; surface=fine_gravel; tents=no;
+    tourism=caravan_site; id=way/1190666459</desc>
+  </wpt>
   <wpt lat="55.967352649999995" lon="11.999219780834743">
     <ele>2</ele>
     <name>Frederiksværk Lystbådehavn</name>
     <desc>caravan_site:type=harbour; charge=DKK 185; fee=yes;
-    laudry=yes; name=Frederiksværk Lystbådehavn; power_supply=yes;
+    laundry=yes; name=Frederiksværk Lystbådehavn; power_supply=yes;
     shower=yes; toilets=yes; tourism=caravan_site;
     website=https://frv-havn.dk/gaester/priser/;
     id=way/1192469579</desc>
@@ -2749,9 +2737,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.89072865" lon="12.047121166369227">
     <ele>-1</ele>
-    <name>way/1208692340</name>
-    <desc>internet_access=yes; power_supply=yes; tents=no;
-    tourism=caravan_site; id=way/1208692340</desc>
+    <name>Stubbekøbing Havn</name>
+    <desc>caravan_site:type=harbour; charge=140 DKK; fee=yes;
+    internet_access=yes; laundry=yes; name=Stubbekøbing Havn;
+    power_supply=yes; shower=yes; tents=no; toilets=yes;
+    tourism=caravan_site; water_point=yes; id=way/1208692340</desc>
   </wpt>
   <wpt lat="55.0965167" lon="10.233617775697972">
     <ele>1</ele>
@@ -2789,6 +2779,33 @@ version="1.1" creator="togpx">
     phone=+45 23733600; power_supply=yes;
     sanitary_dump_station=yes; tourism=caravan_site;
     water_point=yes; id=way/1220644037</desc>
+  </wpt>
+  <wpt lat="56.246078049999994" lon="10.339009442992634">
+    <ele>0</ele>
+    <name>Kaløvig Bådelaug</name>
+    <desc>bicycle_rental=Donkey Republic; capacity:motorhomes=12;
+    charge=150 DKK; fee=yes; laundry=yes; name=Kaløvig Bådelaug;
+    power_supply=yes; power_supply:fee=yes;
+    sanitary_dump_station=yes; shower=yes; toilets=yes;
+    tourism=caravan_site; water_point=yes;
+    website=https://www.kblsail.dk/havn/autocamperwohnmobil/;
+    id=way/1229700154</desc>
+    <link href="https://www.kblsail.dk/havn/autocamperwohnmobil/">
+    </link>
+  </wpt>
+  <wpt lat="56.1396723" lon="10.220269496313085">
+    <ele>3</ele>
+    <name>Marselisborg Havn</name>
+    <desc>caravan_site:type=harbour; charge=DKK 185, DKK 195/xl,DKK
+    205/xxl; checkout=12:00; fee=yes; laundry=yes;
+    name=Marselisborg Havn; power_supply=yes;
+    power_supply:charge=DKK 17.80; power_supply:fee=yes;
+    reservation=no; shower=yes; toilets=yes; tourism=caravan_site;
+    washing_machine:charge=DKK 28; water_point=yes;
+    website=https://www.marselisborghavn.dk/autocamper/;
+    id=way/1229700155</desc>
+    <link href="https://www.marselisborghavn.dk/autocamper/">
+    </link>
   </wpt>
   <trk>
     <name>Palmestranden Parkering</name>
@@ -3746,6 +3763,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/1190666459</name>
+    <trkseg>
+      <trkpt lat="55.4836126" lon="8.4121894"></trkpt>
+      <trkpt lat="55.4840451" lon="8.4121025"></trkpt>
+      <trkpt lat="55.4840092" lon="8.4118322"></trkpt>
+      <trkpt lat="55.4835673" lon="8.4119255"></trkpt>
+      <trkpt lat="55.4836126" lon="8.4121894"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Frederiksværk Lystbådehavn</name>
     <trkseg>
       <trkpt lat="55.9674663" lon="11.9989497"></trkpt>
@@ -3829,7 +3856,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/1208692340</name>
+    <name>Stubbekøbing Havn</name>
     <trkseg>
       <trkpt lat="54.890804" lon="12.0466717"></trkpt>
       <trkpt lat="54.8906331" lon="12.0473539"></trkpt>
@@ -3885,6 +3912,28 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1780535" lon="9.077004"></trkpt>
       <trkpt lat="55.1781357" lon="9.0778223"></trkpt>
       <trkpt lat="55.1784343" lon="9.0777454"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaløvig Bådelaug</name>
+    <trkseg>
+      <trkpt lat="56.2458746" lon="10.33939"></trkpt>
+      <trkpt lat="56.2459528" lon="10.3394571"></trkpt>
+      <trkpt lat="56.2462375" lon="10.3388563"></trkpt>
+      <trkpt lat="56.2461041" lon="10.3387222"></trkpt>
+      <trkpt lat="56.246052" lon="10.33893"></trkpt>
+      <trkpt lat="56.2460005" lon="10.3390749"></trkpt>
+      <trkpt lat="56.2458746" lon="10.33939"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Marselisborg Havn</name>
+    <trkseg>
+      <trkpt lat="56.1395236" lon="10.2200653"></trkpt>
+      <trkpt lat="56.1397844" lon="10.220595"></trkpt>
+      <trkpt lat="56.1398337" lon="10.2205025"></trkpt>
+      <trkpt lat="56.1395602" lon="10.2199419"></trkpt>
+      <trkpt lat="56.1395236" lon="10.2200653"></trkpt>
     </trkseg>
   </trk>
 </gpx>
