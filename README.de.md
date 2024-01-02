@@ -29,6 +29,8 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](http://github.com/tkrajina/gpxpy)-Parser zusammen mit anderen Python-Werkzeugsätzen für das optimale Arbeiten mit Cruiser Desktop 3.0.9 aufbereitet (Routing -> Importieren -> Dateiname und Dateityp : *.gpx -> Öffnen -> Overlay) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
+  
+Desktop Version auf Netbook mit Linux
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
 
