@@ -29,6 +29,8 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'analyseur [GpxPy](http://github.com/tkrajina/gpxpy) ainsi que d'autres outils Python pour un fonctionnement optimal avec Cruiser Desktop 3.0.9 (Routage -> Importer -> Nom et Type de Fichier: *.gpx -> Ovrier -> Superposition ) :
 
   https://wiki.openstreetmap.org/wiki/Cruiser
+  
+Version de bureau sur netbook avec Linux
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
 
