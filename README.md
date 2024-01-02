@@ -30,6 +30,8 @@ All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy]
 
   https://wiki.openstreetmap.org/wiki/Cruiser
   
+  https://github.com/devemux86/cruiser/releases
+  
 # <h2>Desktop version on netbook with Linux</h2>
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
