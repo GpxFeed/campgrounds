@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2023-12-24T12:05:33Z", "timestamp_areas_base":
-      "2023-12-24T07:29:15Z", "copyright": "The data included in
+      "2024-01-02T15:27:15Z", "timestamp_areas_base":
+      "2024-01-02T13:28:44Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1484,7 +1484,7 @@ version="1.1" creator="togpx">
     <name>Area di sosta camper</name>
     <desc>addr:housenumber=22; addr:street=Via Potito Randi;
     alt_name:en=RV park; alt_name:it=Area di sosta caravan;
-    name=Area di sosta camper; name:en=Motorhome parking;
+    caravan_site=motorhome_stopover; name=Area di sosta camper;
     name:es=Área de autocaravanas; opening_hours=24/7;
     tourism=caravan_site; id=node/5305096023</desc>
   </wpt>
@@ -1492,10 +1492,9 @@ version="1.1" creator="togpx">
     <ele>239</ele>
     <name>Area di sosta camper</name>
     <desc>addr:housenumber=29; addr:street=Via Frisa;
-    alt_name:en=RV park; alt_name:it=Area di sosta caravan;
-    name=Area di sosta camper; name:en=Motorhome parking;
-    name:es=Área de autocaravanas; opening_hours=24/7;
-    tourism=caravan_site; id=node/5305339324</desc>
+    alt_name:en=RV park; name=Area di sosta camper;
+    opening_hours=24/7; tourism=caravan_site;
+    id=node/5305339324</desc>
   </wpt>
   <wpt lat="42.1163287" lon="14.703557">
     <ele>154</ele>
@@ -2890,11 +2889,6 @@ version="1.1" creator="togpx">
     <link href="https://www.agriturismocostiolu.com/index.php">
     </link>
   </wpt>
-  <wpt lat="43.9818183" lon="12.4254872">
-    <ele>286</ele>
-    <name>node/8778590120</name>
-    <desc>tourism=caravan_site; id=node/8778590120</desc>
-  </wpt>
   <wpt lat="44.0588006" lon="12.448892">
     <ele>40</ele>
     <name>node/8778604819</name>
@@ -3443,9 +3437,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.6409147" lon="10.8977067">
     <ele>1469</ele>
-    <name>node/10020912317</name>
-    <desc>name:en=Ob Kastellbell; tourism=caravan_site;
-    id=node/10020912317</desc>
+    <name>Ob Kastellbell</name>
+    <desc>name=Ob Kastellbell; name:de=Ob Kastellbell;
+    tourism=caravan_site; id=node/10020912317</desc>
   </wpt>
   <wpt lat="46.6316074" lon="11.8547269">
     <ele>1496</ele>
@@ -3985,6 +3979,19 @@ version="1.1" creator="togpx">
     fee=yes; name=Pacì; tourism=caravan_site;
     id=node/11425899875</desc>
   </wpt>
+  <wpt lat="45.457571" lon="10.7167819">
+    <ele>92</ele>
+    <name>Area Camper Lazise</name>
+    <desc>addr:housenumber=57; addr:street=Via Peschiera;
+    capacity=50; charge=14 EUR/12 hours; drinking_water=yes;
+    fee=yes; name=Area Camper Lazise; opening_hours=Mo-Su
+    07:00-24:00; payment:cash=only; phone=+393756222939;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    supervised=no; toilets=yes; tourism=caravan_site;
+    website=https://www.areacamperlazise.it/;
+    id=node/11470116537</desc>
+    <link href="https://www.areacamperlazise.it/"></link>
+  </wpt>
   <wpt lat="46.02869095" lon="9.126648946246423">
     <ele>271</ele>
     <name>International Camping Porlezza</name>
@@ -4063,25 +4070,6 @@ version="1.1" creator="togpx">
     sanitary_dump_station=no; supervised=no; surface=grass;
     tourism=caravan_site; type=multipolygon;
     id=relation/8551368</desc>
-  </wpt>
-  <wpt lat="45.522340650000004" lon="12.68765156633681">
-    <ele>-1</ele>
-    <name>Area Sosta Camper dei Dogi</name>
-    <desc>internet_access=wlan; name=Area Sosta Camper dei Dogi;
-    power_supply=yes; socket=cee_17_blue; tourism=caravan_site;
-    type=multipolygon; website=https://campingparkdeidogi.com/;
-    id=relation/8639929</desc>
-    <link href="https://campingparkdeidogi.com/"></link>
-  </wpt>
-  <wpt lat="45.5226004" lon="12.688637099414063">
-    <ele>0</ele>
-    <name>Campeggio Don Bosco</name>
-    <desc>fee=yes; name=Campeggio Don Bosco;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    type=multipolygon; water_point=yes;
-    website=http://www.areacamperdonbosco.it/;
-    id=relation/8639930</desc>
-    <link href="http://www.areacamperdonbosco.it/"></link>
   </wpt>
   <wpt lat="46.35060825" lon="11.11090948402676">
     <ele>1011</ele>
@@ -4386,11 +4374,11 @@ version="1.1" creator="togpx">
     <ele>0</ele>
     <name>Sacca dei Moreri 1</name>
     <desc>capacity=93; cash_withdrawal:operator=Città di Grado;
-    fee=24:00; internet_access=no; name=Sacca dei Moreri 1;
-    power_supply=yes; reservation=no; sanitary_dump_station=public;
-    smoking=yes; survey:date=2023-10-12; toilets=no;
-    tourism=caravan_site; wheelchair=designated;
-    id=way/42985055</desc>
+    drinking_water=yes; fee=24:00; internet_access=no; name=Sacca
+    dei Moreri 1; power_supply=yes; reservation=no;
+    sanitary_dump_station=public; smoking=yes;
+    survey:date=2023-10-12; toilets=no; tourism=caravan_site;
+    wheelchair=designated; id=way/42985055</desc>
   </wpt>
   <wpt lat="43.2198461" lon="13.407175394952413">
     <ele>181</ele>
@@ -4758,7 +4746,7 @@ version="1.1" creator="togpx">
     source=survey, PCN aerial 2006; tourism=caravan_site;
     id=way/97241941</desc>
   </wpt>
-  <wpt lat="45.6393959" lon="13.812794516159311">
+  <wpt lat="45.63933155" lon="13.812806644426152">
     <ele>134</ele>
     <name>way/103266799</name>
     <desc>fee=yes; tourism=caravan_site; id=way/103266799</desc>
@@ -5255,13 +5243,6 @@ version="1.1" creator="togpx">
     <desc>source=On Place Verification; tourism=caravan_site;
     id=way/184121217</desc>
   </wpt>
-  <wpt lat="45.52333205" lon="12.691976069231846">
-    <ele>0</ele>
-    <name>Area Sosta Camper Bosco Pineta</name>
-    <desc>fee=yes; name=Area Sosta Camper Bosco Pineta;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; id=way/184263760</desc>
-  </wpt>
   <wpt lat="39.210339149999996" lon="9.127028725477516">
     <ele>23</ele>
     <name>Camper Cagliari Park</name>
@@ -5543,6 +5524,12 @@ version="1.1" creator="togpx">
     website=http://www.sostacampervenaria.it/;
     id=way/234102415</desc>
     <link href="http://www.sostacampervenaria.it/"></link>
+  </wpt>
+  <wpt lat="40.75308045" lon="17.336976784538898">
+    <ele>382</ele>
+    <name>way/234584157</name>
+    <desc>parking=surface; tourism=caravan_site;
+    id=way/234584157</desc>
   </wpt>
   <wpt lat="46.32572935" lon="10.862975586438207">
     <ele>789</ele>
@@ -6329,12 +6316,6 @@ version="1.1" creator="togpx">
     sosta camper; opening_hours=24/7; power_supply=yes;
     sanitary_dump_station=yes; supervised=no; surface=asphalt;
     tourism=caravan_site; id=way/370727751</desc>
-  </wpt>
-  <wpt lat="36.7883114" lon="14.54670852210528">
-    <ele>47</ele>
-    <name>Area Camper comunale</name>
-    <desc>name=Area Camper comunale; tourism=caravan_site;
-    id=way/371589937</desc>
   </wpt>
   <wpt lat="46.080737150000004" lon="13.222646916630561">
     <ele>121</ele>
@@ -7572,7 +7553,7 @@ version="1.1" creator="togpx">
     <name>way/531677567</name>
     <desc>tourism=caravan_site; id=way/531677567</desc>
   </wpt>
-  <wpt lat="43.2267767" lon="11.798455840505738">
+  <wpt lat="43.2268022" lon="11.798500803687613">
     <ele>251</ele>
     <name>Area Camper Outlet Valdichiana</name>
     <desc>alt_name=Area Camper Valdichiana; name=Area Camper Outlet
@@ -7838,6 +7819,18 @@ version="1.1" creator="togpx">
     <desc>amenity=waste_disposal; caravans=yes; fee=no;
     surface=paving_stones; tents=no; tourism=caravan_site;
     id=way/621223185</desc>
+  </wpt>
+  <wpt lat="45.522852099999994" lon="12.688448423351485">
+    <ele>0</ele>
+    <name>Campeggio Don Bosco</name>
+    <desc>addr:city=Jesolo; addr:hamlet=Jesolo Pineta;
+    addr:housenumber=28; addr:postcode=30016; addr:street=Via Don
+    Giovanni Bosco; contact:email=jesolocamper@libero.it;
+    contact:mobile=+39 338 223 1462; contact:phone=+39 0421 363679;
+    contact:website=http://www.areacamperdonbosco.it/;
+    name=Campeggio Don Bosco; tourism=caravan_site;
+    id=way/622411922</desc>
+    <link href="http://www.areacamperdonbosco.it/"></link>
   </wpt>
   <wpt lat="42.92821605" lon="10.788740611255818">
     <ele>10</ele>
@@ -8414,8 +8407,9 @@ version="1.1" creator="togpx">
   <wpt lat="44.849768999999995" lon="9.863080131188923">
     <ele>218</ele>
     <name>4</name>
-    <desc>amenity=parking; fee=no; name=4; operator=Area Camper;
-    parking=surface; tourism=caravan_site; id=way/822635133</desc>
+    <desc>amenity=parking; fee=no; operator=Area Camper;
+    parking=surface; ref=4; tourism=caravan_site;
+    id=way/822635133</desc>
   </wpt>
   <wpt lat="37.07195335" lon="15.232788487279924">
     <ele>16</ele>
@@ -8556,7 +8550,7 @@ version="1.1" creator="togpx">
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site; wheelchair=yes; id=way/851573215</desc>
   </wpt>
-  <wpt lat="43.9817684" lon="12.42530647213361">
+  <wpt lat="43.9817494" lon="12.425381036769773">
     <ele>286</ele>
     <name>Area Camper comunale - Verucchio</name>
     <desc>capacity=10; fee=no; internet_access=no; name=Area Camper
@@ -9284,7 +9278,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.67980475" lon="13.412741115950226">
     <ele>0</ele>
     <name>way/1094559923</name>
-    <desc>capacity=21; fee=yes; internet_access=no; name:signed=no;
+    <desc>capacity=21; drinking_water=yes; fee=yes;
+    internet_access=no; name:signed=no; power_supply=no;
     reservation=no; sanitary_dump_station=no; smoking=yes;
     toilets=no; tourism=caravan_site; wheelchair=designated;
     id=way/1094559923</desc>
@@ -9292,10 +9287,11 @@ version="1.1" creator="togpx">
   <wpt lat="45.68003385" lon="13.41159734990121">
     <ele>0</ele>
     <name>way/1094559924</name>
-    <desc>capacity=46; fee=yes; internet_access=no; reservation=no;
-    sanitary_dump_station=no; smoking=yes; survey:date=2023-10-12;
-    toilets=no; tourism=caravan_site; wheelchair=yes;
-    id=way/1094559924</desc>
+    <desc>capacity=46; drinking_water=yes; fee=yes;
+    internet_access=no; name:signed=no; power_supply=no;
+    reservation=no; sanitary_dump_station=no; smoking=yes;
+    survey:date=2023-10-12; toilets=no; tourism=caravan_site;
+    wheelchair=yes; id=way/1094559924</desc>
   </wpt>
   <wpt lat="42.096187099999995" lon="12.907737498239273">
     <ele>556</ele>
@@ -9457,7 +9453,8 @@ version="1.1" creator="togpx">
   <wpt lat="45.6803223" lon="13.412564046412403">
     <ele>-1</ele>
     <name>way/1133246474</name>
-    <desc>capacity=21; fee=yes; internet_access=no; name:signed=no;
+    <desc>capacity=21; drinking_water=yes; fee=yes;
+    internet_access=no; name:signed=no; power_supply=no;
     reservation=no; sanitary_dump_station=no; smoking=yes;
     toilets=no; tourism=caravan_site; wheelchair=designated;
     id=way/1133246474</desc>
@@ -9852,7 +9849,7 @@ version="1.1" creator="togpx">
     power_supply=yes; tourism=caravan_site; wheelchair=yes;
     id=way/1225230007</desc>
   </wpt>
-  <wpt lat="45.525407599999994" lon="12.690778959890462">
+  <wpt lat="45.52540595" lon="12.690773238878146">
     <ele>-3</ele>
     <name>Area Sosta Camper Albatros</name>
     <desc>name=Area Sosta Camper Albatros; tourism=caravan_site;
@@ -9891,6 +9888,29 @@ version="1.1" creator="togpx">
     <ele>5</ele>
     <name>way/1232254445</name>
     <desc>tourism=caravan_site; id=way/1232254445</desc>
+  </wpt>
+  <wpt lat="45.5224295" lon="12.687612287320803">
+    <ele>-1</ele>
+    <name>Area Sosta Camper dei Dogi</name>
+    <desc>internet_access=wlan; name=Area Sosta Camper dei Dogi;
+    power_supply=yes; tourism=caravan_site;
+    website=https://campingparkdeidogi.com/;
+    id=way/1234542545</desc>
+    <link href="https://campingparkdeidogi.com/"></link>
+  </wpt>
+  <wpt lat="45.5230895" lon="12.691687900392566">
+    <ele>0</ele>
+    <name>Area Sosta Camper Bosco Pineta</name>
+    <desc>fee=yes; name=Area Sosta Camper Bosco Pineta;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; id=way/1234723120</desc>
+  </wpt>
+  <wpt lat="45.8151789" lon="10.955840092168454">
+    <ele>692</ele>
+    <name>way/1236124349</name>
+    <desc>internet_access=no; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1236124349</desc>
   </wpt>
   <trk>
     <name>International Camping Porlezza</name>
@@ -10042,43 +10062,6 @@ version="1.1" creator="togpx">
       <trkpt lat="42.8052062" lon="13.1955832"></trkpt>
       <trkpt lat="42.8053538" lon="13.1954183"></trkpt>
       <trkpt lat="42.8053961" lon="13.1953673"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Area Sosta Camper dei Dogi</name>
-    <trkseg>
-      <trkpt lat="45.5236505" lon="12.6873083"></trkpt>
-      <trkpt lat="45.5228598" lon="12.6861314"></trkpt>
-      <trkpt lat="45.5226273" lon="12.6862622"></trkpt>
-      <trkpt lat="45.5227953" lon="12.6869295"></trkpt>
-      <trkpt lat="45.522054" lon="12.6873901"></trkpt>
-      <trkpt lat="45.5214313" lon="12.687777"></trkpt>
-      <trkpt lat="45.5215109" lon="12.6881008"></trkpt>
-      <trkpt lat="45.5215706" lon="12.6880574"></trkpt>
-      <trkpt lat="45.521585" lon="12.6881085"></trkpt>
-      <trkpt lat="45.5216056" lon="12.6881816"></trkpt>
-      <trkpt lat="45.5215407" lon="12.6882149"></trkpt>
-      <trkpt lat="45.5216184" lon="12.6884836"></trkpt>
-      <trkpt lat="45.5216281" lon="12.688517"></trkpt>
-      <trkpt lat="45.5236505" lon="12.6873083"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Campeggio Don Bosco</name>
-    <trkseg>
-      <trkpt lat="45.5216281" lon="12.688517"></trkpt>
-      <trkpt lat="45.5214248" lon="12.688646"></trkpt>
-      <trkpt lat="45.5214886" lon="12.6888356"></trkpt>
-      <trkpt lat="45.5217112" lon="12.6894582"></trkpt>
-      <trkpt lat="45.5217184" lon="12.6894793"></trkpt>
-      <trkpt lat="45.5218314" lon="12.6898118"></trkpt>
-      <trkpt lat="45.521945" lon="12.6897396"></trkpt>
-      <trkpt lat="45.5232558" lon="12.688937"></trkpt>
-      <trkpt lat="45.5241407" lon="12.6884439"></trkpt>
-      <trkpt lat="45.5241531" lon="12.6880185"></trkpt>
-      <trkpt lat="45.5240887" lon="12.6878391"></trkpt>
-      <trkpt lat="45.5236505" lon="12.6873083"></trkpt>
-      <trkpt lat="45.5216281" lon="12.688517"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11513,7 +11496,7 @@ version="1.1" creator="togpx">
       <trkpt lat="45.6397402" lon="13.8129583"></trkpt>
       <trkpt lat="45.6397902" lon="13.8125553"></trkpt>
       <trkpt lat="45.6397487" lon="13.8122588"></trkpt>
-      <trkpt lat="45.6392568" lon="13.8124222"></trkpt>
+      <trkpt lat="45.6391281" lon="13.8124593"></trkpt>
       <trkpt lat="45.638829" lon="13.8125644"></trkpt>
     </trkseg>
   </trk>
@@ -12703,26 +12686,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Area Sosta Camper Bosco Pineta</name>
-    <trkseg>
-      <trkpt lat="45.5241511" lon="12.690256"></trkpt>
-      <trkpt lat="45.5235817" lon="12.6903997"></trkpt>
-      <trkpt lat="45.5230824" lon="12.6907961"></trkpt>
-      <trkpt lat="45.5225239" lon="12.6912395"></trkpt>
-      <trkpt lat="45.523594" lon="12.6940397"></trkpt>
-      <trkpt lat="45.5239173" lon="12.6938356"></trkpt>
-      <trkpt lat="45.5239494" lon="12.693334"></trkpt>
-      <trkpt lat="45.5239558" lon="12.6932335"></trkpt>
-      <trkpt lat="45.524047" lon="12.6918092"></trkpt>
-      <trkpt lat="45.5240943" lon="12.6917119"></trkpt>
-      <trkpt lat="45.5240849" lon="12.6916975"></trkpt>
-      <trkpt lat="45.5240733" lon="12.6916726"></trkpt>
-      <trkpt lat="45.5240638" lon="12.6916258"></trkpt>
-      <trkpt lat="45.5240858" lon="12.6911882"></trkpt>
-      <trkpt lat="45.5241511" lon="12.690256"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Camper Cagliari Park</name>
     <trkseg>
       <trkpt lat="39.2106942" lon="9.1267775"></trkpt>
@@ -13411,6 +13374,31 @@ version="1.1" creator="togpx">
       <trkpt lat="46.1530138" lon="11.811785"></trkpt>
       <trkpt lat="46.1530208" lon="11.8116486"></trkpt>
       <trkpt lat="46.1530249" lon="11.8115062"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/234584157</name>
+    <trkseg>
+      <trkpt lat="40.7534241" lon="17.3364338"></trkpt>
+      <trkpt lat="40.7529112" lon="17.3364395"></trkpt>
+      <trkpt lat="40.7529002" lon="17.3364407"></trkpt>
+      <trkpt lat="40.7529021" lon="17.3365174"></trkpt>
+      <trkpt lat="40.7528615" lon="17.3365192"></trkpt>
+      <trkpt lat="40.7528683" lon="17.3367402"></trkpt>
+      <trkpt lat="40.7528613" lon="17.3368634"></trkpt>
+      <trkpt lat="40.7528709" lon="17.3369434"></trkpt>
+      <trkpt lat="40.7529213" lon="17.3371907"></trkpt>
+      <trkpt lat="40.7529616" lon="17.3374641"></trkpt>
+      <trkpt lat="40.7529857" lon="17.337628"></trkpt>
+      <trkpt lat="40.7531752" lon="17.3374039"></trkpt>
+      <trkpt lat="40.7533818" lon="17.3373762"></trkpt>
+      <trkpt lat="40.7533925" lon="17.3373766"></trkpt>
+      <trkpt lat="40.7534244" lon="17.3372188"></trkpt>
+      <trkpt lat="40.7534549" lon="17.3369909"></trkpt>
+      <trkpt lat="40.7534586" lon="17.3368144"></trkpt>
+      <trkpt lat="40.7534569" lon="17.3365014"></trkpt>
+      <trkpt lat="40.7534244" lon="17.3365014"></trkpt>
+      <trkpt lat="40.7534241" lon="17.3364338"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15136,17 +15124,6 @@ version="1.1" creator="togpx">
       <trkpt lat="42.1660501" lon="12.14023"></trkpt>
       <trkpt lat="42.1661197" lon="12.1402381"></trkpt>
       <trkpt lat="42.1661714" lon="12.140171"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Area Camper comunale</name>
-    <trkseg>
-      <trkpt lat="36.7880683" lon="14.5464186"></trkpt>
-      <trkpt lat="36.7881974" lon="14.5471067"></trkpt>
-      <trkpt lat="36.7885378" lon="14.5470038"></trkpt>
-      <trkpt lat="36.7885642" lon="14.5469952"></trkpt>
-      <trkpt lat="36.7884254" lon="14.5463102"></trkpt>
-      <trkpt lat="36.7880683" lon="14.5464186"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -17700,8 +17677,8 @@ version="1.1" creator="togpx">
       <trkpt lat="43.2267638" lon="11.7980834"></trkpt>
       <trkpt lat="43.2265665" lon="11.7982851"></trkpt>
       <trkpt lat="43.2264483" lon="11.7985441"></trkpt>
-      <trkpt lat="43.2267896" lon="11.7988278"></trkpt>
-      <trkpt lat="43.2268575" lon="11.7988842"></trkpt>
+      <trkpt lat="43.2265906" lon="11.7987182"></trkpt>
+      <trkpt lat="43.2268406" lon="11.7989151"></trkpt>
       <trkpt lat="43.2271053" lon="11.79838"></trkpt>
     </trkseg>
   </trk>
@@ -18216,6 +18193,28 @@ version="1.1" creator="togpx">
       <trkpt lat="44.1993609" lon="8.025917"></trkpt>
       <trkpt lat="44.1992643" lon="8.0259114"></trkpt>
       <trkpt lat="44.1994335" lon="8.0261976"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Campeggio Don Bosco</name>
+    <trkseg>
+      <trkpt lat="45.5216346" lon="12.688536"></trkpt>
+      <trkpt lat="45.5214913" lon="12.6886231"></trkpt>
+      <trkpt lat="45.5218052" lon="12.6895207"></trkpt>
+      <trkpt lat="45.5218227" lon="12.6895782"></trkpt>
+      <trkpt lat="45.5218564" lon="12.6896169"></trkpt>
+      <trkpt lat="45.5218924" lon="12.689637"></trkpt>
+      <trkpt lat="45.5219321" lon="12.6896314"></trkpt>
+      <trkpt lat="45.5220426" lon="12.6895578"></trkpt>
+      <trkpt lat="45.5241316" lon="12.6883342"></trkpt>
+      <trkpt lat="45.524151" lon="12.688083"></trkpt>
+      <trkpt lat="45.5241432" lon="12.6879935"></trkpt>
+      <trkpt lat="45.5241196" lon="12.6879298"></trkpt>
+      <trkpt lat="45.5240802" lon="12.6878293"></trkpt>
+      <trkpt lat="45.5239835" lon="12.6877064"></trkpt>
+      <trkpt lat="45.5236616" lon="12.6873277"></trkpt>
+      <trkpt lat="45.5219699" lon="12.6883423"></trkpt>
+      <trkpt lat="45.5216346" lon="12.688536"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -19682,16 +19681,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Area Camper comunale - Verucchio</name>
     <trkseg>
-      <trkpt lat="43.9819149" lon="12.4250531"></trkpt>
-      <trkpt lat="43.9818307" lon="12.4250044"></trkpt>
+      <trkpt lat="43.9818229" lon="12.4251798"></trkpt>
+      <trkpt lat="43.9818027" lon="12.4251355"></trkpt>
       <trkpt lat="43.9817763" lon="12.4250775"></trkpt>
-      <trkpt lat="43.9817061" lon="12.4251604"></trkpt>
-      <trkpt lat="43.9816079" lon="12.4255579"></trkpt>
+      <trkpt lat="43.9817383" lon="12.4251799"></trkpt>
+      <trkpt lat="43.981655" lon="12.4255958"></trkpt>
       <trkpt lat="43.9817605" lon="12.425614"></trkpt>
-      <trkpt lat="43.981799" lon="12.4251857"></trkpt>
-      <trkpt lat="43.9818219" lon="12.4251121"></trkpt>
-      <trkpt lat="43.9818982" lon="12.4251533"></trkpt>
-      <trkpt lat="43.9819149" lon="12.4250531"></trkpt>
+      <trkpt lat="43.9818263" lon="12.4252454"></trkpt>
+      <trkpt lat="43.9818037" lon="12.4252315"></trkpt>
+      <trkpt lat="43.9818229" lon="12.4251798"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -21866,6 +21864,7 @@ version="1.1" creator="togpx">
       <trkpt lat="39.8642546" lon="9.2265472"></trkpt>
       <trkpt lat="39.8643936" lon="9.2266825"></trkpt>
       <trkpt lat="39.8648333" lon="9.2264092"></trkpt>
+      <trkpt lat="39.8652551" lon="9.2261387"></trkpt>
       <trkpt lat="39.8654112" lon="9.2260386"></trkpt>
     </trkseg>
   </trk>
@@ -22537,17 +22536,17 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="45.526329" lon="12.6908879"></trkpt>
       <trkpt lat="45.5260472" lon="12.6905338"></trkpt>
-      <trkpt lat="45.5257182" lon="12.6901813"></trkpt>
+      <trkpt lat="45.5257129" lon="12.6901903"></trkpt>
       <trkpt lat="45.5254553" lon="12.6900149"></trkpt>
       <trkpt lat="45.5245274" lon="12.6894366"></trkpt>
-      <trkpt lat="45.5242863" lon="12.6893945"></trkpt>
+      <trkpt lat="45.5242824" lon="12.6893978"></trkpt>
       <trkpt lat="45.5241593" lon="12.6911833"></trkpt>
       <trkpt lat="45.5245664" lon="12.6911561"></trkpt>
       <trkpt lat="45.5245961" lon="12.691659"></trkpt>
-      <trkpt lat="45.5251549" lon="12.6915995"></trkpt>
+      <trkpt lat="45.5251551" lon="12.6915872"></trkpt>
       <trkpt lat="45.5251039" lon="12.6907965"></trkpt>
       <trkpt lat="45.5252955" lon="12.6907699"></trkpt>
-      <trkpt lat="45.5253599" lon="12.6915789"></trkpt>
+      <trkpt lat="45.5253566" lon="12.6915683"></trkpt>
       <trkpt lat="45.5267199" lon="12.6914035"></trkpt>
       <trkpt lat="45.526329" lon="12.6908879"></trkpt>
     </trkseg>
@@ -22603,6 +22602,57 @@ version="1.1" creator="togpx">
       <trkpt lat="38.2560627" lon="16.2840627"></trkpt>
       <trkpt lat="38.2561275" lon="16.2837705"></trkpt>
       <trkpt lat="38.2554718" lon="16.283315"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Area Sosta Camper dei Dogi</name>
+    <trkseg>
+      <trkpt lat="45.5214313" lon="12.687777"></trkpt>
+      <trkpt lat="45.521488" lon="12.6880188"></trkpt>
+      <trkpt lat="45.5215157" lon="12.68812"></trkpt>
+      <trkpt lat="45.5215659" lon="12.6880921"></trkpt>
+      <trkpt lat="45.5215804" lon="12.6881437"></trkpt>
+      <trkpt lat="45.521601" lon="12.6882168"></trkpt>
+      <trkpt lat="45.5215487" lon="12.6882436"></trkpt>
+      <trkpt lat="45.5216201" lon="12.6884824"></trkpt>
+      <trkpt lat="45.5216346" lon="12.688536"></trkpt>
+      <trkpt lat="45.5236616" lon="12.6873277"></trkpt>
+      <trkpt lat="45.5231646" lon="12.6866266"></trkpt>
+      <trkpt lat="45.522983" lon="12.6863089"></trkpt>
+      <trkpt lat="45.5228954" lon="12.6860623"></trkpt>
+      <trkpt lat="45.5226273" lon="12.6862622"></trkpt>
+      <trkpt lat="45.522732" lon="12.6869751"></trkpt>
+      <trkpt lat="45.5222317" lon="12.6872849"></trkpt>
+      <trkpt lat="45.5214313" lon="12.687777"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Area Sosta Camper Bosco Pineta</name>
+    <trkseg>
+      <trkpt lat="45.5225749" lon="12.6912276"></trkpt>
+      <trkpt lat="45.5236193" lon="12.6939553"></trkpt>
+      <trkpt lat="45.5236607" lon="12.6939221"></trkpt>
+      <trkpt lat="45.5236763" lon="12.6939663"></trkpt>
+      <trkpt lat="45.5238234" lon="12.6938519"></trkpt>
+      <trkpt lat="45.5238511" lon="12.6937983"></trkpt>
+      <trkpt lat="45.5238736" lon="12.6937262"></trkpt>
+      <trkpt lat="45.5238857" lon="12.6936574"></trkpt>
+      <trkpt lat="45.5240987" lon="12.6903462"></trkpt>
+      <trkpt lat="45.5240829" lon="12.6902507"></trkpt>
+      <trkpt lat="45.5236041" lon="12.6903808"></trkpt>
+      <trkpt lat="45.5225749" lon="12.6912276"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1236124349</name>
+    <trkseg>
+      <trkpt lat="45.8152042" lon="10.9555871"></trkpt>
+      <trkpt lat="45.8149834" lon="10.9558561"></trkpt>
+      <trkpt lat="45.8150673" lon="10.9560472"></trkpt>
+      <trkpt lat="45.8151215" lon="10.9559977"></trkpt>
+      <trkpt lat="45.8151536" lon="10.9560861"></trkpt>
+      <trkpt lat="45.8153423" lon="10.9559083"></trkpt>
+      <trkpt lat="45.8152042" lon="10.9555871"></trkpt>
     </trkseg>
   </trk>
 </gpx>
