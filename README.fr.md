@@ -30,7 +30,7 @@ Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'ana
 
   https://wiki.openstreetmap.org/wiki/Cruiser
   
-Version de bureau sur netbook avec Linux
+# <h2>Version de bureau sur netbook avec Linux</h2>
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
 
