@@ -30,6 +30,8 @@ Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](htt
 
   https://wiki.openstreetmap.org/wiki/Cruiser
   
+  https://github.com/devemux86/cruiser/releases
+  
 # <h2>Desktop Version auf Netbook mit Linux</h2>
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
