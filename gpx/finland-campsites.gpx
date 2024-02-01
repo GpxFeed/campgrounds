@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-01-02T15:22:02Z", "timestamp_areas_base":
-      "2024-01-02T13:28:44Z", "copyright": "The data included in
+      "2024-02-01T09:54:00Z", "timestamp_areas_base":
+      "2024-02-01T07:47:25Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -734,10 +734,11 @@ version="1.1" creator="togpx">
   <wpt lat="61.1763953" lon="26.8960941">
     <name>Lojukoski</name>
     <desc>access=yes; backcountry=yes; bbq=yes; capacity=6;
+    capacity:persons=10; capacity:tents=5; caravans=no;
     dog=leashed; drinking_water=yes; fee=no; internet_access=no;
     maxtents=5; name=Lojukoski; openfire=yes;
-    operator=Metsähallitus; toilets=yes; tourism=camp_site;
-    id=node/1350040126</desc>
+    operator=Metsähallitus; static_caravans=no; tents=yes;
+    toilets=yes; tourism=camp_site; id=node/1350040126</desc>
   </wpt>
   <wpt lat="61.2812752" lon="28.1163613">
     <name>Rastinniemi</name>
@@ -982,11 +983,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="61.1570612" lon="26.8576434">
     <name>Määkijä</name>
-    <desc>access=yes; backcountry=yes; capacity=2; dog=leashed;
-    drinking_water=yes; drinking_water:type=hand_pump; fee=no;
-    internet_access=no; maxtents=2; name=Määkijä; openfire=yes;
-    operator=Metsähallitus; picnic_table=yes; tents=yes;
-    toilets=yes; tourism=camp_site; id=node/2185582999</desc>
+    <desc>access=yes; backcountry=yes; capacity=2;
+    capacity:persons=10; capacity:tents=4; caravans=no;
+    dog=leashed; drinking_water=yes; drinking_water:type=hand_pump;
+    fee=no; internet_access=no; maxtents=2; name=Määkijä;
+    openfire=yes; operator=Metsähallitus; picnic_table=yes;
+    static_caravans=no; tents=yes; toilets=yes; tourism=camp_site;
+    id=node/2185582999</desc>
   </wpt>
   <wpt lat="61.1740575" lon="26.8665526">
     <name>Kuutinkanava</name>
@@ -1148,9 +1151,12 @@ version="1.1" creator="togpx">
     tourism=camp_site; id=node/2940356445</desc>
   </wpt>
   <wpt lat="69.1860429" lon="27.9034188">
-    <name>Matkapaikka</name>
-    <desc>name=Matkapaikka; tourism=camp_site;
-    id=node/2940456110</desc>
+    <name>Matkapaikka Jounila</name>
+    <desc>access=yes; addr:city=Partakko; addr:housenumber=11;
+    addr:street=Käyräniementie; cabins=yes; fee=yes;
+    name=Matkapaikka Jounila; tourism=camp_site;
+    website=http://www.jounila.fi/; id=node/2940456110</desc>
+    <link href="http://www.jounila.fi/"></link>
   </wpt>
   <wpt lat="67.9060853" lon="25.0796341">
     <name>node/2940478991</name>
@@ -2403,16 +2409,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="68.3130863" lon="27.6486597">
     <name>Rautulampi</name>
-    <desc>access=yes; backcountry=yes; capacity=5;
+    <desc>access=yes; addr:city=Sodankylä; backcountry=yes;
+    capacity=5; capacity:persons=10; capacity:tents=5; dog=leashed;
     drinking_water=yes; fee=no; name=Rautulampi; openfire=yes;
-    opening_hours=24/7; operator=Metsähallitus; toilets=yes;
-    tourism=camp_site; id=node/8019477528</desc>
-  </wpt>
-  <wpt lat="60.5103411" lon="26.9915348">
-    <name>node/8034614286</name>
-    <desc>addr:housenumber=226; addr:street=Höyterintie;
-    name:ru=Конфирмационный лагерь Хёутери; tourism=camp_site;
-    id=node/8034614286</desc>
+    opening_hours=24/7; operator=Metsähallitus; tents=yes;
+    toilets=yes; tourism=camp_site; id=node/8019477528</desc>
   </wpt>
   <wpt lat="60.5249273" lon="27.0204236">
     <name>node/8034614288</name>
@@ -3141,15 +3142,20 @@ version="1.1" creator="togpx">
     <desc>name=Pukinsaari-Bockholmen Camping; name:fi=Pukinsaaren
     leirintäalue; tourism=camp_site; id=way/43578359</desc>
   </wpt>
-  <wpt lat="61.01886845" lon="25.56495773671098">
+  <wpt lat="61.0182285" lon="25.565657899613782">
     <name>Camping Messilä</name>
-    <desc>caravans=yes;
+    <desc>access=yes; addr:city=Hollola; addr:housenumber=5;
+    addr:postcode=15980; addr:street=Rantatie; cabins=yes;
+    camp_site=serviced; capacity:caravans=120;
+    capacity:persons=300; capacity:tents=20; caravans=yes;
     contact:instagram=https://www.instagram.com/campingmessila/;
     contact:webcam=http://www.campingmessila.fi/index.php/fi/livekuvaa-messilasta/;
     contact:youtube=https://www.youtube.com/channel/UCb9nbOr1KRTP0aWUavcpugw;
-    email=messila@campingmessila.fi;
+    drinking_water=yes; email=messila@campingmessila.fi;
     facebook=https://www.facebook.com/www.campingmessila.fi/;
-    name=Camping Messilä; phone=+358 3 876 290; tents=yes;
+    fee=yes; internet_access=yes; name=Camping Messilä; phone=+358
+    3 876 290; picnic_table=yes; power_supply=yes; reservation=yes;
+    sauna=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; website=http://www.campingmessila.fi/;
     id=way/46383865</desc>
     <link href="http://www.campingmessila.fi/"></link>
@@ -3676,7 +3682,7 @@ version="1.1" creator="togpx">
     id=way/508226294</desc>
     <link href="https://www.ahtarizoo.fi/"></link>
   </wpt>
-  <wpt lat="60.8957382" lon="22.353561148688815">
+  <wpt lat="60.8956667" lon="22.352364278621266">
     <name>SF- C Valasranta</name>
     <desc>name=SF- C Valasranta; operator=SF-C TL Pyhäjärvi ry;
     tourism=camp_site; id=way/519834778</desc>
@@ -4204,9 +4210,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="68.90303705" lon="27.0725138015585">
     <name>Uruniemi Camping</name>
-    <desc>addr:city=Inari; addr:housenumber=7; addr:postcode=99870;
-    addr:street=Uruniementie; bbq=yes; cabins=yes; cafe=yes;
-    caravans=yes; drinking_water=yes;
+    <desc>access=yes; addr:city=Inari; addr:housenumber=7;
+    addr:postcode=99870; addr:street=Uruniementie; bbq=yes;
+    cabins=yes; cafe=yes; caravans=yes; drinking_water=yes;
     email=pentti.kangasniemi@uruniemi.fi; fee=yes;
     internet_access=no; kitchen=yes; name=Uruniemi Camping;
     openfire=no; phone=+358 50 371 8826; power_supply=yes;
@@ -4900,6 +4906,18 @@ version="1.1" creator="togpx">
     website=https://www.sfcsatakunta.fi/; id=way/1235650885</desc>
     <link href="https://www.sfcsatakunta.fi/"></link>
   </wpt>
+  <wpt lat="60.22391665" lon="19.691152001733414">
+    <ele>11</ele>
+    <name>Björklidens Stugby</name>
+    <desc>cabins=yes; dog=yes; internet_access=yes;
+    name=Björklidens Stugby; shower=yes; toilets=yes;
+    tourism=camp_site; id=way/1237219161</desc>
+  </wpt>
+  <wpt lat="60.9000281" lon="22.367295710100887">
+    <name>Leirintäalue</name>
+    <desc>name=Leirintäalue; tourism=camp_site;
+    id=way/1237531450</desc>
+  </wpt>
   <trk>
     <name>Seinäjoen Leirintäalue</name>
     <trkseg>
@@ -5568,33 +5586,42 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camping Messilä</name>
     <trkseg>
-      <trkpt lat="61.0202283" lon="25.5602682"></trkpt>
-      <trkpt lat="61.0199116" lon="25.5609575"></trkpt>
-      <trkpt lat="61.0195672" lon="25.5614039"></trkpt>
-      <trkpt lat="61.0186119" lon="25.5619901"></trkpt>
-      <trkpt lat="61.0181296" lon="25.5624184"></trkpt>
+      <trkpt lat="61.0195867" lon="25.5619467"></trkpt>
+      <trkpt lat="61.0194499" lon="25.5615142"></trkpt>
+      <trkpt lat="61.0185655" lon="25.5620797"></trkpt>
+      <trkpt lat="61.0184343" lon="25.5622411"></trkpt>
+      <trkpt lat="61.0181217" lon="25.5624512"></trkpt>
       <trkpt lat="61.0180161" lon="25.5628739"></trkpt>
-      <trkpt lat="61.0179262" lon="25.5628284"></trkpt>
-      <trkpt lat="61.017845" lon="25.562945"></trkpt>
-      <trkpt lat="61.0176249" lon="25.5632157"></trkpt>
-      <trkpt lat="61.0176181" lon="25.5633429"></trkpt>
-      <trkpt lat="61.0176864" lon="25.5636817"></trkpt>
+      <trkpt lat="61.0179646" lon="25.563063"></trkpt>
+      <trkpt lat="61.0178127" lon="25.5629308"></trkpt>
+      <trkpt lat="61.0176043" lon="25.5630479"></trkpt>
+      <trkpt lat="61.0176054" lon="25.5632265"></trkpt>
+      <trkpt lat="61.0174016" lon="25.563511"></trkpt>
       <trkpt lat="61.0176563" lon="25.5644279"></trkpt>
-      <trkpt lat="61.0177449" lon="25.5651531"></trkpt>
-      <trkpt lat="61.0176194" lon="25.5656133"></trkpt>
-      <trkpt lat="61.0170578" lon="25.5663394"></trkpt>
-      <trkpt lat="61.0168734" lon="25.5672798"></trkpt>
-      <trkpt lat="61.017039" lon="25.5675608"></trkpt>
-      <trkpt lat="61.0178029" lon="25.5681454"></trkpt>
-      <trkpt lat="61.0183313" lon="25.56822"></trkpt>
-      <trkpt lat="61.0184259" lon="25.5682334"></trkpt>
-      <trkpt lat="61.0185314" lon="25.5686743"></trkpt>
-      <trkpt lat="61.0187965" lon="25.5689959"></trkpt>
-      <trkpt lat="61.0187935" lon="25.5686862"></trkpt>
-      <trkpt lat="61.0188333" lon="25.5683218"></trkpt>
-      <trkpt lat="61.0189036" lon="25.5678438"></trkpt>
-      <trkpt lat="61.018944" lon="25.5677297"></trkpt>
-      <trkpt lat="61.0189816" lon="25.5676236"></trkpt>
+      <trkpt lat="61.0178224" lon="25.5651244"></trkpt>
+      <trkpt lat="61.017534" lon="25.5658142"></trkpt>
+      <trkpt lat="61.0169327" lon="25.5665854"></trkpt>
+      <trkpt lat="61.0169974" lon="25.5668752"></trkpt>
+      <trkpt lat="61.0168953" lon="25.5671896"></trkpt>
+      <trkpt lat="61.0172737" lon="25.5678545"></trkpt>
+      <trkpt lat="61.0176593" lon="25.5681319"></trkpt>
+      <trkpt lat="61.0178824" lon="25.5682028"></trkpt>
+      <trkpt lat="61.0178605" lon="25.5685373"></trkpt>
+      <trkpt lat="61.0183353" lon="25.5690522"></trkpt>
+      <trkpt lat="61.018623" lon="25.5692588"></trkpt>
+      <trkpt lat="61.0188389" lon="25.5696231"></trkpt>
+      <trkpt lat="61.0189335" lon="25.5695296"></trkpt>
+      <trkpt lat="61.0188761" lon="25.5693146"></trkpt>
+      <trkpt lat="61.0188082" lon="25.5691843"></trkpt>
+      <trkpt lat="61.0187876" lon="25.5691001"></trkpt>
+      <trkpt lat="61.0187699" lon="25.5690067"></trkpt>
+      <trkpt lat="61.0187638" lon="25.5688866"></trkpt>
+      <trkpt lat="61.018774" lon="25.5687345"></trkpt>
+      <trkpt lat="61.0188541" lon="25.5680402"></trkpt>
+      <trkpt lat="61.0188752" lon="25.5679415"></trkpt>
+      <trkpt lat="61.0188998" lon="25.5677936"></trkpt>
+      <trkpt lat="61.0188879" lon="25.5676474"></trkpt>
+      <trkpt lat="61.0189499" lon="25.5675657"></trkpt>
       <trkpt lat="61.0189712" lon="25.5672531"></trkpt>
       <trkpt lat="61.0189811" lon="25.5668502"></trkpt>
       <trkpt lat="61.0189972" lon="25.5667375"></trkpt>
@@ -5602,25 +5629,10 @@ version="1.1" creator="togpx">
       <trkpt lat="61.0191631" lon="25.5657338"></trkpt>
       <trkpt lat="61.0194299" lon="25.5648165"></trkpt>
       <trkpt lat="61.0191482" lon="25.5645051"></trkpt>
-      <trkpt lat="61.0192001" lon="25.5642778"></trkpt>
-      <trkpt lat="61.0193303" lon="25.5637076"></trkpt>
-      <trkpt lat="61.0193424" lon="25.5636546"></trkpt>
-      <trkpt lat="61.0194839" lon="25.5630354"></trkpt>
-      <trkpt lat="61.019496" lon="25.5629824"></trkpt>
-      <trkpt lat="61.0196388" lon="25.562357"></trkpt>
-      <trkpt lat="61.0196509" lon="25.5623041"></trkpt>
-      <trkpt lat="61.0196988" lon="25.5620945"></trkpt>
-      <trkpt lat="61.0201646" lon="25.5621296"></trkpt>
-      <trkpt lat="61.0202401" lon="25.5621706"></trkpt>
-      <trkpt lat="61.0203082" lon="25.5621179"></trkpt>
-      <trkpt lat="61.0203354" lon="25.5620968"></trkpt>
-      <trkpt lat="61.0204483" lon="25.5619876"></trkpt>
-      <trkpt lat="61.0207312" lon="25.5617945"></trkpt>
-      <trkpt lat="61.0207992" lon="25.5616834"></trkpt>
-      <trkpt lat="61.0208809" lon="25.5613613"></trkpt>
-      <trkpt lat="61.020637" lon="25.561031"></trkpt>
-      <trkpt lat="61.0204774" lon="25.560682"></trkpt>
-      <trkpt lat="61.0202283" lon="25.5602682"></trkpt>
+      <trkpt lat="61.0188815" lon="25.5639838"></trkpt>
+      <trkpt lat="61.0189346" lon="25.5634684"></trkpt>
+      <trkpt lat="61.0191705" lon="25.5633711"></trkpt>
+      <trkpt lat="61.0195867" lon="25.5619467"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -6614,8 +6626,9 @@ version="1.1" creator="togpx">
       <trkpt lat="69.1636797" lon="27.8394905"></trkpt>
       <trkpt lat="69.1636557" lon="27.8395203"></trkpt>
       <trkpt lat="69.1636899" lon="27.8397717"></trkpt>
-      <trkpt lat="69.1637536" lon="27.8403743"></trkpt>
+      <trkpt lat="69.1637146" lon="27.8402606"></trkpt>
       <trkpt lat="69.1637007" lon="27.8406528"></trkpt>
+      <trkpt lat="69.1637111" lon="27.8408931"></trkpt>
       <trkpt lat="69.1637168" lon="27.8410254"></trkpt>
       <trkpt lat="69.1636881" lon="27.8413225"></trkpt>
       <trkpt lat="69.1638512" lon="27.8413996"></trkpt>
@@ -7354,12 +7367,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>SF- C Valasranta</name>
     <trkseg>
-      <trkpt lat="60.8958678" lon="22.3510409"></trkpt>
-      <trkpt lat="60.8956086" lon="22.3510777"></trkpt>
-      <trkpt lat="60.8949979" lon="22.351159"></trkpt>
-      <trkpt lat="60.8955867" lon="22.3561685"></trkpt>
-      <trkpt lat="60.8962731" lon="22.3556905"></trkpt>
-      <trkpt lat="60.8958678" lon="22.3510409"></trkpt>
+      <trkpt lat="60.8955672" lon="22.3489187"></trkpt>
+      <trkpt lat="60.8956126" lon="22.3509232"></trkpt>
+      <trkpt lat="60.8950666" lon="22.3513338"></trkpt>
+      <trkpt lat="60.895399" lon="22.3542715"></trkpt>
+      <trkpt lat="60.8955139" lon="22.3543309"></trkpt>
+      <trkpt lat="60.8957208" lon="22.3562283"></trkpt>
+      <trkpt lat="60.8963226" lon="22.3558306"></trkpt>
+      <trkpt lat="60.8960637" lon="22.3535013"></trkpt>
+      <trkpt lat="60.8958956" lon="22.3511213"></trkpt>
+      <trkpt lat="60.895819" lon="22.3491153"></trkpt>
+      <trkpt lat="60.8955672" lon="22.3489187"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -7368,6 +7386,7 @@ version="1.1" creator="togpx">
       <trkpt lat="60.9450429" lon="22.4150095"></trkpt>
       <trkpt lat="60.9446315" lon="22.4152473"></trkpt>
       <trkpt lat="60.9443464" lon="22.41602"></trkpt>
+      <trkpt lat="60.9443288" lon="22.4161811"></trkpt>
       <trkpt lat="60.9442093" lon="22.4172757"></trkpt>
       <trkpt lat="60.9446351" lon="22.4171717"></trkpt>
       <trkpt lat="60.9447253" lon="22.4174615"></trkpt>
@@ -11154,6 +11173,58 @@ version="1.1" creator="togpx">
       <trkpt lat="61.775398" lon="22.5267062"></trkpt>
       <trkpt lat="61.7754456" lon="22.527077"></trkpt>
       <trkpt lat="61.7755196" lon="22.527535"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Björklidens Stugby</name>
+    <trkseg>
+      <trkpt lat="60.2237669" lon="19.6930777"></trkpt>
+      <trkpt lat="60.2241978" lon="19.6931112"></trkpt>
+      <trkpt lat="60.2240892" lon="19.6898067"></trkpt>
+      <trkpt lat="60.2240664" lon="19.6891119"></trkpt>
+      <trkpt lat="60.2235737" lon="19.68945"></trkpt>
+      <trkpt lat="60.2236617" lon="19.6902278"></trkpt>
+      <trkpt lat="60.2237403" lon="19.6914268"></trkpt>
+      <trkpt lat="60.2235831" lon="19.6919471"></trkpt>
+      <trkpt lat="60.2235964" lon="19.6924433"></trkpt>
+      <trkpt lat="60.2237363" lon="19.6926847"></trkpt>
+      <trkpt lat="60.2237669" lon="19.6930777"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Leirintäalue</name>
+    <trkseg>
+      <trkpt lat="60.9001626" lon="22.3656857"></trkpt>
+      <trkpt lat="60.8997503" lon="22.3653853"></trkpt>
+      <trkpt lat="60.8990076" lon="22.3653062"></trkpt>
+      <trkpt lat="60.8989403" lon="22.3661624"></trkpt>
+      <trkpt lat="60.8988612" lon="22.3662789"></trkpt>
+      <trkpt lat="60.8984383" lon="22.3672804"></trkpt>
+      <trkpt lat="60.8988004" lon="22.3680996"></trkpt>
+      <trkpt lat="60.8987873" lon="22.3687152"></trkpt>
+      <trkpt lat="60.8990669" lon="22.3688865"></trkpt>
+      <trkpt lat="60.8990641" lon="22.3696233"></trkpt>
+      <trkpt lat="60.8992652" lon="22.369713"></trkpt>
+      <trkpt lat="60.8996493" lon="22.3695228"></trkpt>
+      <trkpt lat="60.8997116" lon="22.3691564"></trkpt>
+      <trkpt lat="60.8998936" lon="22.3689749"></trkpt>
+      <trkpt lat="60.9002698" lon="22.3690555"></trkpt>
+      <trkpt lat="60.9005381" lon="22.3684582"></trkpt>
+      <trkpt lat="60.9006445" lon="22.3684525"></trkpt>
+      <trkpt lat="60.9008979" lon="22.3687782"></trkpt>
+      <trkpt lat="60.9009766" lon="22.3687223"></trkpt>
+      <trkpt lat="60.9009543" lon="22.3684564"></trkpt>
+      <trkpt lat="60.9011806" lon="22.3680119"></trkpt>
+      <trkpt lat="60.9013054" lon="22.3677761"></trkpt>
+      <trkpt lat="60.9012568" lon="22.3674606"></trkpt>
+      <trkpt lat="60.9012537" lon="22.3671258"></trkpt>
+      <trkpt lat="60.9014471" lon="22.3668599"></trkpt>
+      <trkpt lat="60.9016735" lon="22.3668343"></trkpt>
+      <trkpt lat="60.9015941" lon="22.3663503"></trkpt>
+      <trkpt lat="60.9009113" lon="22.3650034"></trkpt>
+      <trkpt lat="60.9007678" lon="22.3648059"></trkpt>
+      <trkpt lat="60.9003455" lon="22.3648818"></trkpt>
+      <trkpt lat="60.9001626" lon="22.3656857"></trkpt>
     </trkseg>
   </trk>
 </gpx>

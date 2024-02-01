@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-01-02T15:21:00Z", "timestamp_areas_base":
-      "2024-01-02T13:28:44Z", "copyright": "The data included in
+      "2024-02-01T09:54:00Z", "timestamp_areas_base":
+      "2024-02-01T07:47:25Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -27,9 +27,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.7454694" lon="12.5864652">
     <ele>6</ele>
     <name>Charlottenlund fort</name>
-    <desc>charge=DKK 70 + 110/pax; fee=yes; name=Charlottenlund
-    fort; operator=Charlottenlund Fort Camping; power_supply=yes;
-    toilets=yes; tourism=caravan_site;
+    <desc>charge=DKK 100 + 120/pax; fee=yes; laundry=yes;
+    name=Charlottenlund fort; operator=Charlottenlund Fort Camping;
+    power_supply=yes; seasonal=yes; toilets=yes;
+    tourism=caravan_site;
     website=https://campingcopenhagen.dk/camping/;
     id=node/1642845776</desc>
     <link href="https://campingcopenhagen.dk/camping/"></link>
@@ -103,7 +104,7 @@ version="1.1" creator="togpx">
     internet_access=wlan; laundry=yes; motorhome=yes;
     name=Haderslev Sejl-Clubs Autocamper Plads;
     payment:description=before 18:00; sanitary_dump_station=yes;
-    sanitary_dump_station:chemial_toilet=yes;
+    sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; seasonal=summer;
     shower=yes; tents=no; toilets=yes; tourism=caravan_site;
     website=https://www.haderslevsejlclub.dk/gaester-guests/info-dk/autocampere/;
@@ -189,18 +190,6 @@ version="1.1" creator="togpx">
     name=Øster Hurup Havn; power_supply=yes;
     sanitary_dump_station=yes; tourism=caravan_site;
     id=node/6709649465</desc>
-  </wpt>
-  <wpt lat="55.7143636" lon="10.0150091">
-    <ele>1</ele>
-    <name>Juelsminde Havn</name>
-    <desc>capacity=16; caravan_site:type=harbour; charge=DKK 200;
-    description=pay before 18:00; fee=yes; internet_access=yes;
-    name=Juelsminde Havn; power_supply=yes; power_supply:fee=yes;
-    sanitary_dump_station=yes; surface=pebblestone;
-    tourism=caravan_site; website=https://juelsmindehavn.dk/;
-    wikimedia_commons=File:Juelsminde Marina autocampers.jpg;
-    id=node/6747076218</desc>
-    <link href="https://juelsmindehavn.dk/"></link>
   </wpt>
   <wpt lat="57.6063505" lon="10.3597031">
     <ele>16</ele>
@@ -488,7 +477,9 @@ version="1.1" creator="togpx">
     <desc>charge=DKK 220; fee=yes; name=Karrebæksminde Inderhavn;
     operator=Næstved Sejlklub; phone=+45 23319513;
     power_supply=yes; toilets=yes; tourism=caravan_site;
-    website=https://nsk.dk/inderhavnen; id=node/10797281082</desc>
+    website=https://nsk.dk/inderhavnen;
+    wikimedia_commons=File:Karrebæksminde Inderhavn RV stopovet
+    Spring.jpg; id=node/10797281082</desc>
     <link href="https://nsk.dk/inderhavnen"></link>
   </wpt>
   <wpt lat="55.5935278" lon="12.3561472">
@@ -836,11 +827,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.5416474" lon="8.5034939">
     <ele>3</ele>
-    <name>Aa-mølle Autocamperplads</name>
-    <desc>caravan_site:type=museum; charge=DKK 50;
-    description=payment in the watermill; fee=yes; name=Aa-mølle
-    Autocamperplads; power_supply=yes; power_supply:charge=DKK 30;
-    power_supply:fee=yes; sanitary_dump_station=no;
+    <name>Aa-Mølle Autocamperplads</name>
+    <desc>caravan_site:type=museum; charge=100 DKK/night;
+    drinking_water=no; fee=yes; name=Aa-Mølle Autocamperplads;
+    payment:cash=yes; payment:mobilepay=yes; picnic_table=yes;
+    power_supply=yes; power_supply:charge=30 DKK;
+    power_supply:fee=yes; sanitary_dump_station=no; toilets=yes;
     tourism=caravan_site; water_point=no;
     website=https://www.aa-moelle.dk/autocamper;
     id=node/11039655547</desc>
@@ -1081,8 +1073,8 @@ version="1.1" creator="togpx">
     <name>Skagen Rådhus P-Plads</name>
     <desc>caravan_site:type=parking_lot; description=free Sep-May;
     fee=yes; fee:conditional=no@(Sep-May); name=Skagen Rådhus
-    P-Plads; power_supply=no; tourism=caravan_site;
-    id=node/11043031423</desc>
+    P-Plads; power_supply=no; sanitary_dump_station=no;
+    tourism=caravan_site; id=node/11043031423</desc>
   </wpt>
   <wpt lat="55.9687046" lon="11.3503696">
     <ele>12</ele>
@@ -1240,11 +1232,12 @@ version="1.1" creator="togpx">
   <wpt lat="56.2037634" lon="10.4720521">
     <ele>0</ele>
     <name>Knebelvig</name>
-    <desc>capacity=3; caravan_site:type=harbour; caravans=no;
-    charge=125 DKK; description=bring 5 DKK coins for shower. Great
-    sea view.; fee=yes; internet_access=wlan;
-    internet_access:fee=no; motorhome=designated; name=Knebelvig;
-    operator=Knebel Bro Båd og Jollehavn;
+    <desc>capacity=3; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=no; charge=125 DKK;
+    description=bring 5 DKK coins for shower. Great sea view.;
+    fee=yes; internet_access=wlan; internet_access:fee=no;
+    motorhome=designated; name=Knebelvig; operator=Knebel Bro Båd
+    og Jollehavn;
     payment:website=https://www.tallyweb.dk/knebelvig;
     power_supply=yes; power_supply:charge=DKK 25;
     power_supply:fee=yes; sanitary_dump_station=no; shower=yes;
@@ -1684,6 +1677,19 @@ version="1.1" creator="togpx">
     website=https://www.toreby-sejlklub.dk/gaest.html;
     id=node/11071056464</desc>
     <link href="https://www.toreby-sejlklub.dk/gaest.html"></link>
+  </wpt>
+  <wpt lat="54.6625758" lon="11.7308396">
+    <ele>0</ele>
+    <name>Nysted Havn</name>
+    <desc>caravans=no; charge=DKK 145; fee=yes;
+    internet_access=wlan; internet_access:fee=no; laundry=yes;
+    laundry:fee=yes; name=Nysted Havn; note=this is a motorhome
+    stopover, even if there are signs with no camping.;
+    payment:credit_cards=yes; sanitary_dump_station=no; shower=yes;
+    shower:fee=yes; tents=no; toilets=yes; tourism=caravan_site;
+    water_point=yes; water_point:fee=yes;
+    wikimedia_commons=File:NystedHavn RV stopover.jpg;
+    id=node/11071056474</desc>
   </wpt>
   <wpt lat="54.878355" lon="11.0244316">
     <ele>0</ele>
@@ -2387,11 +2393,13 @@ version="1.1" creator="togpx">
   <wpt lat="55.6705879" lon="12.624265797258067">
     <ele>2</ele>
     <name>Citycamp cph</name>
-    <desc>capacity:caravans=74; internet_access=wlan;
+    <desc>bicycle_rental=yes; capacity:caravans=74; charge=220 DKK;
+    check_out=12:00; internet_access=wlan;
     internet_access:fee=customers; name=Citycamp cph;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; website=https://www.citycamp.dk/;
-    id=way/1079605467</desc>
+    opening_hours=Jun-Aug; power_supply=yes; power_supply:charge=35
+    DKK; restriction=no; sanitary_dump_station=yes; seasonal=no;
+    shower=yes; toilets=yes; tourism=caravan_site; water_point=yes;
+    website=https://www.citycamp.dk/; id=way/1079605467</desc>
     <link href="https://www.citycamp.dk/"></link>
   </wpt>
   <wpt lat="56.62543705" lon="9.772816436478761">
@@ -2464,7 +2472,8 @@ version="1.1" creator="togpx">
     <name>Faaborg Banegårdsplads</name>
     <desc>amenity=parking; caravan_site:type=parking_lot; fee=no;
     name=Faaborg Banegårdsplads; parking=surface;
-    tourism=caravan_site; id=way/1157794117</desc>
+    tourism=caravan_site; wikimedia_commons=File:Faaborg
+    Banegårdsplads parking.jpg; id=way/1157794117</desc>
   </wpt>
   <wpt lat="55.13498235" lon="10.902220690545207">
     <ele>-1</ele>
@@ -2736,6 +2745,7 @@ version="1.1" creator="togpx">
     <desc>caravan_site:type=beach; fee=no; motorhome=permissable;
     name=Hesnæs Badested parkering; power_supply=no;
     sanitary_dump_station=no; tourism=caravan_site; water_point=no;
+    wikimedia_commons=File:Hesnæs moyorhome parking 2.jpg;
     id=way/1204929669</desc>
   </wpt>
   <wpt lat="54.89072865" lon="12.047121166369227">
@@ -2799,8 +2809,8 @@ version="1.1" creator="togpx">
   <wpt lat="56.1396723" lon="10.220269496313085">
     <ele>3</ele>
     <name>Marselisborg Havn</name>
-    <desc>caravan_site:type=harbour; charge=DKK 185, DKK 195/xl,DKK
-    205/xxl; checkout=12:00; fee=yes; laundry=yes;
+    <desc>caravan_site:type=harbour; charge=DKK 185,DKK 195/xl,DKK
+    205/xxl; check_out=12:00; fee=yes; laundry=yes;
     name=Marselisborg Havn; power_supply=yes;
     power_supply:charge=DKK 17.80; power_supply:fee=yes;
     reservation=no; shower=yes; toilets=yes; tourism=caravan_site;
@@ -2809,6 +2819,18 @@ version="1.1" creator="togpx">
     id=way/1229700155</desc>
     <link href="https://www.marselisborghavn.dk/autocamper/">
     </link>
+  </wpt>
+  <wpt lat="55.71435495" lon="10.015071075692696">
+    <ele>1</ele>
+    <name>Juelsminde Havn</name>
+    <desc>capacity=16; caravan_site:type=harbour; charge=DKK 200;
+    description=pay before 18:00; fee=yes; internet_access=yes;
+    name=Juelsminde Havn; power_supply=yes; power_supply:fee=yes;
+    sanitary_dump_station=yes; surface=pebblestone;
+    tourism=caravan_site; website=https://juelsmindehavn.dk/;
+    wikimedia_commons=File:Juelsminde Marina autocampers.jpg;
+    id=way/1238931712</desc>
+    <link href="https://juelsmindehavn.dk/"></link>
   </wpt>
   <trk>
     <name>Palmestranden Parkering</name>
@@ -3937,6 +3959,17 @@ version="1.1" creator="togpx">
       <trkpt lat="56.1398337" lon="10.2205025"></trkpt>
       <trkpt lat="56.1395602" lon="10.2199419"></trkpt>
       <trkpt lat="56.1395236" lon="10.2200653"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Juelsminde Havn</name>
+    <trkseg>
+      <trkpt lat="55.7145535" lon="10.0151658"></trkpt>
+      <trkpt lat="55.7141168" lon="10.0146618"></trkpt>
+      <trkpt lat="55.7140682" lon="10.0148481"></trkpt>
+      <trkpt lat="55.7142322" lon="10.0150104"></trkpt>
+      <trkpt lat="55.7144777" lon="10.0154006"></trkpt>
+      <trkpt lat="55.7145535" lon="10.0151658"></trkpt>
     </trkseg>
   </trk>
 </gpx>
