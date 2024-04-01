@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-03-01T10:00:16Z", "timestamp_areas_base":
-      "2024-03-01T07:28:46Z", "copyright": "The data included in
+      "2024-04-01T09:29:14Z", "timestamp_areas_base":
+      "2024-04-01T04:03:19Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -20,8 +20,8 @@ version="1.1" creator="togpx">
     <ele>152</ele>
     <name>Jurki</name>
     <desc>amenity=fuel; brand=Jurki; brand:wikidata=Q107775944;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Jurki;
-    opening_hours=Mo-Su 06:30-15:00; operator=Jurki;
+    compressed_air=no; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Jurki; opening_hours=Mo-Su 06:30-15:00; operator=Jurki;
     self_service=yes; wheelchair=yes; id=node/26464506</desc>
   </wpt>
   <wpt lat="48.4207651" lon="17.8142344">
@@ -127,8 +127,8 @@ version="1.1" creator="togpx">
   <wpt lat="48.596119" lon="20.6870027">
     <ele>258</ele>
     <name>Slovnaft</name>
-    <desc>amenity=fuel; brand=Slovnaft; name=Slovnaft;
-    operator=Slovnaft; id=node/33023431</desc>
+    <desc>amenity=fuel; brand=Slovnaft; compressed_air=yes;
+    name=Slovnaft; operator=Slovnaft; id=node/33023431</desc>
   </wpt>
   <wpt lat="48.6479523" lon="20.5396078">
     <ele>311</ele>
@@ -600,9 +600,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.6779672" lon="21.2686883">
     <ele>198</ele>
     <name>Slovnaft</name>
-    <desc>addr:city=Košice; addr:housenumber=15;
-    addr:postcode=04017; addr:street=Osloboditeľov; amenity=fuel;
-    brand=Slovnaft; brand:wikidata=Q1587563;
+    <desc>amenity=fuel; brand=Slovnaft; brand:wikidata=Q1587563;
     brand:wikipedia=en:Slovnaft; email=info@slovnaft.sk;
     fuel:adblue=yes; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; import_ref=sk_fuel_2; name=Slovnaft;
@@ -950,14 +948,6 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su 05:00-23:00; operator=Slovnaft; shop=yes;
     id=node/34149482</desc>
   </wpt>
-  <wpt lat="48.7609313" lon="18.6167603">
-    <ele>268</ele>
-    <name>Orlen</name>
-    <desc>amenity=fuel; brand=Orlen; compressed_air=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Orlen;
-    opening_hours=Mo-Sa 06:00-20:00, Su 08:00-20:00;
-    operator=Orlen; shop=yes; id=node/34149487</desc>
-  </wpt>
   <wpt lat="48.991711" lon="21.2596685">
     <ele>239</ele>
     <name>Slovnaft</name>
@@ -1176,12 +1166,16 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; import_ref=sk_fuel_2; name=Slovnaft;
     note=Komenského; operator=Slovnaft; id=node/34149535</desc>
   </wpt>
-  <wpt lat="48.8409915" lon="17.2174909">
+  <wpt lat="48.8409973" lon="17.2175475">
     <ele>171</ele>
     <name>Slovnaft</name>
     <desc>amenity=fuel; brand=Slovnaft; brand:wikidata=Q1587563;
-    brand:wikipedia=en:Slovnaft; import_ref=sk_fuel_2;
-    name=Slovnaft; operator=Slovnaft; id=node/34149537</desc>
+    brand:wikipedia=en:Slovnaft; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
+    import_ref=sk_fuel_2; name=Slovnaft; opening_hours=24/7;
+    operator=Slovnaft; website=https://slovnaft.sk/sk/;
+    id=node/34149537</desc>
+    <link href="https://slovnaft.sk/sk/"></link>
   </wpt>
   <wpt lat="48.2070888" lon="17.6315198">
     <ele>119</ele>
@@ -1644,11 +1638,19 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=Shell; shop=convenience;
     id=node/202899437</desc>
   </wpt>
-  <wpt lat="48.4250876" lon="17.8067458">
-    <ele>157</ele>
+  <wpt lat="48.4251142" lon="17.8065717">
+    <ele>156</ele>
     <name>OMV</name>
-    <desc>amenity=fuel; brand=OMV; name=OMV; operator=ÖMV;
-    id=node/202917007</desc>
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=no; name=OMV; opening_hours=24/7;
+    operator=ÖMV; payment:american_express=yes; payment:cash=yes;
+    payment:maestro=yes; payment:mastercard=yes;
+    payment:omv_card=yes; payment:routex=yes; payment:uta=yes;
+    payment:visa=yes; phone=+421337331621;
+    website=https://www.omv.sk/sk-sk; id=node/202917007</desc>
+    <link href="https://www.omv.sk/sk-sk"></link>
   </wpt>
   <wpt lat="48.2560772" lon="17.0303667">
     <ele>163</ele>
@@ -2112,7 +2114,7 @@ version="1.1" creator="togpx">
     <name>Oil JPM</name>
     <desc>amenity=fuel; name=Oil JPM; id=node/286037989</desc>
   </wpt>
-  <wpt lat="48.8506003" lon="17.2202253">
+  <wpt lat="48.8505799" lon="17.2201904">
     <ele>168</ele>
     <name>Benzinol</name>
     <desc>amenity=fuel; brand=Benzinol; name=Benzinol;
@@ -2283,12 +2285,11 @@ version="1.1" creator="togpx">
   <wpt lat="48.9850613" lon="21.2491079">
     <ele>243</ele>
     <name>SHELL</name>
-    <desc>addr:city=Prešov; addr:housenumber=12039/29;
-    addr:postcode=080 01; addr:street=Masarykova; amenity=fuel;
-    brand=Shell; brand:wikidata=Q110716465; compressed_air=yes;
-    name=SHELL; opening_hours=24/7; operator=Shell; phone=+421 517
-    583971; toilets:wheelchair=yes; website=https://www.shell.sk/;
-    wheelchair=yes; id=node/362137497</desc>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    compressed_air=yes; name=SHELL; opening_hours=24/7;
+    operator=Shell; phone=+421 517 583971; toilets:wheelchair=yes;
+    website=https://www.shell.sk/; wheelchair=yes;
+    id=node/362137497</desc>
     <link href="https://www.shell.sk/"></link>
   </wpt>
   <wpt lat="48.5900665" lon="17.7955121">
@@ -2566,16 +2567,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Orlen; opening_hours=05:00-22:00;
     id=node/449550771</desc>
   </wpt>
-  <wpt lat="48.7539851" lon="17.8359385">
-    <ele>182</ele>
-    <name>LUKOIL</name>
-    <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; name=LUKOIL; opening_hours=24/7;
-    operator=Lukoil; phone=+421 323 811 303;
-    website=http://www.lukoil.sk/; wheelchair=yes;
-    id=node/449552343</desc>
-    <link href="http://www.lukoil.sk/"></link>
-  </wpt>
   <wpt lat="49.1298484" lon="18.3315329">
     <ele>263</ele>
     <name>Slovnaft</name>
@@ -2736,8 +2727,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.2226111" lon="18.5983824">
     <ele>158</ele>
     <name>Tesco</name>
-    <desc>amenity=fuel; brand=Tesco; name=Tesco;
-    opening_hours=24/7; operator=Tesco; id=node/523031982</desc>
+    <desc>amenity=fuel; brand=Tesco; brand:wikidata=Q487494;
+    name=Tesco; opening_hours=24/7; operator=Tesco;
+    id=node/523031982</desc>
   </wpt>
   <wpt lat="48.5710492" lon="18.0174658">
     <ele>276</ele>
@@ -2909,14 +2901,16 @@ version="1.1" creator="togpx">
     website=https://www.jurki.sk/; id=node/583497109</desc>
     <link href="https://www.jurki.sk/"></link>
   </wpt>
-  <wpt lat="48.5804762" lon="17.1869154">
+  <wpt lat="48.5803911" lon="17.1867661">
     <ele>225</ele>
     <name>Jurki</name>
-    <desc>addr:city=Lakšarská Nová Ves; addr:country=SK;
-    addr:postcode=90876; amenity=fuel; brand=Jurki;
-    brand:wikidata=Q107775944; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Jurki; opening_hours=Mo-Fr 7:00-19:00;
-    operator=Jurki; phone=+421 34 6598322; id=node/583498118</desc>
+    <desc>amenity=fuel; brand=Jurki; brand:wikidata=Q107775944;
+    fuel:nafta=yes; fuel:octane_95=yes; name=Jurki;
+    opening_hours=Mo-Fr 07:00-19:00, Su,Sa 80:00-18:00;
+    operator=Jurki; phone=+421 34 6598322;
+    website=https://www.jurki.sk/index.cfm;
+    id=node/583498118</desc>
+    <link href="https://www.jurki.sk/index.cfm"></link>
   </wpt>
   <wpt lat="48.0552123" lon="17.5715874">
     <ele>123</ele>
@@ -3504,11 +3498,6 @@ version="1.1" creator="togpx">
     website=https://www.realk.sk/; id=node/1296644790</desc>
     <link href="https://www.realk.sk/"></link>
   </wpt>
-  <wpt lat="48.9125327" lon="20.6346696">
-    <ele>424</ele>
-    <name>node/1304057555</name>
-    <desc>amenity=fuel; id=node/1304057555</desc>
-  </wpt>
   <wpt lat="48.2681359" lon="19.4526233">
     <ele>193</ele>
     <name>node/1313022856</name>
@@ -3526,12 +3515,12 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Diesel AGV; wheelchair=yes;
     id=node/1347243006</desc>
   </wpt>
-  <wpt lat="48.2242605" lon="18.5996422">
+  <wpt lat="48.2242316" lon="18.5996201">
     <ele>157</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; compressed_air=yes;
-    name=Shell; opening_hours=24/7; operator=Shell; wheelchair=yes;
-    id=node/1377672691</desc>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    compressed_air=yes; name=Shell; opening_hours=24/7;
+    operator=Shell; wheelchair=yes; id=node/1377672691</desc>
   </wpt>
   <wpt lat="48.3979278" lon="21.6820443">
     <ele>99</ele>
@@ -3721,10 +3710,8 @@ version="1.1" creator="togpx">
   <wpt lat="48.9817655" lon="21.253417">
     <ele>241</ele>
     <name>Tesco</name>
-    <desc>addr:city=Prešov; addr:housenumber=1;
-    addr:postcode=08001; addr:street=Pri mlyne; amenity=fuel;
-    brand=Tesco; brand:wikidata=Q487494; name=Tesco;
-    opening_hours=Mo-Su,PH 06:00-22:00; operator=Tesco;
+    <desc>amenity=fuel; brand=Tesco; brand:wikidata=Q487494;
+    name=Tesco; opening_hours=Mo-Su,PH 06:00-22:00; operator=Tesco;
     self_service=yes; toilets:wheelchair=yes; vacuum_cleaner=yes;
     website=https://www.itesco.sk/; wheelchair=yes;
     id=node/1789239058</desc>
@@ -3733,8 +3720,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.7002902" lon="21.2627237">
     <ele>198</ele>
     <name>OMV</name>
-    <desc>addr:city=Košice; addr:postcode=04001; addr:street=Južná
-    trieda; amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
     brand:wikipedia=en:OMV; contact:fax=+421 556 760 742;
     contact:website=https://www.omv.sk/; email=info.sk@omv.com;
     fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_100=yes;
@@ -3763,15 +3749,14 @@ version="1.1" creator="togpx">
   <wpt lat="48.6694094" lon="21.271931">
     <ele>192</ele>
     <name>OMV</name>
-    <desc>addr:city=Košice-Barca; addr:housenumber=72;
-    addr:postcode=04017; addr:street=Osloboditeľov; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    compressed_air=yes; email=retail.SK.2370@omv.com; fax=+421
-    55/685 58 02; fuel:GTL_diesel=yes; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; internet_access=wlan; name=OMV;
-    opening_hours=24/7; operator=OMV Slovensko, s.r.o.;
-    payment:cash=yes; payment:coins=yes; payment:credit_cards=yes;
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    brand:wikipedia=en:OMV; compressed_air=yes;
+    email=retail.SK.2370@omv.com; fax=+421 55/685 58 02;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    internet_access=wlan; name=OMV; opening_hours=24/7;
+    operator=OMV Slovensko, s.r.o.; payment:cash=yes;
+    payment:coins=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; phone=+421 55/685 58 02;
     self_service=yes; shop=kiosk; website=https://www.omv.sk/;
     wheelchair=yes; id=node/1799566579</desc>
@@ -3790,9 +3775,8 @@ version="1.1" creator="togpx">
   <wpt lat="48.6718251" lon="21.2716425">
     <ele>194</ele>
     <name>LPG Košice 1.SPS</name>
-    <desc>addr:city=Košice; addr:housenumber=2;
-    addr:street=Podnikateľská; amenity=fuel; fuel:lpg=yes; name=LPG
-    Košice 1.SPS; opening_hours=Mo-Su 07:00-19:00; operator=1.SPS;
+    <desc>amenity=fuel; fuel:lpg=yes; name=LPG Košice 1.SPS;
+    opening_hours=Mo-Su 07:00-19:00; operator=1.SPS;
     id=node/1815411587</desc>
   </wpt>
   <wpt lat="47.8299433" lon="17.7032272">
@@ -4512,7 +4496,7 @@ version="1.1" creator="togpx">
     06:00-19:00; operator=AWIOR s.r.o.; shop=convenience;
     id=node/3373972399</desc>
   </wpt>
-  <wpt lat="48.1326031" lon="17.7653968">
+  <wpt lat="48.1326267" lon="17.7653537">
     <ele>112</ele>
     <name>Fernex</name>
     <desc>amenity=fuel; name=Fernex; opening_hours=Mo-Sa
@@ -5028,14 +5012,17 @@ version="1.1" creator="togpx">
     id=node/5165508554</desc>
     <link href="https://www.gas.sk/povazska-tepla"></link>
   </wpt>
-  <wpt lat="48.8308201" lon="17.1364264">
+  <wpt lat="48.8307055" lon="17.1365389">
     <ele>163</ele>
-    <name>ČS GAS</name>
-    <desc>amenity=fuel; compressed_air=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=ČS GAS; opening_hours=24/7;
-    phone=+421917 030 030; website=https://www.gas.sk/holic;
+    <name>GAS</name>
+    <desc>amenity=fuel; compressed_air=yes; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=GAS;
+    opening_hours=24/7; payment:american_express=yes;
+    payment:ccs=yes; payment:dkv=yes; payment:ew=yes;
+    payment:maestro=yes; payment:uta=yes; payment:visa=yes;
+    phone=+421917 030 030; website=https://www.gas.sk/pumpy/holic/;
     wheelchair=yes; id=node/5165511150</desc>
-    <link href="https://www.gas.sk/holic"></link>
+    <link href="https://www.gas.sk/pumpy/holic/"></link>
   </wpt>
   <wpt lat="48.1277952" lon="17.1728045">
     <ele>135</ele>
@@ -5705,13 +5692,12 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
     payment:dkv=yes; id=node/9142612134</desc>
   </wpt>
-  <wpt lat="48.9856224" lon="21.2529709">
+  <wpt lat="48.9856079" lon="21.2528438">
     <ele>243</ele>
-    <name>ORLEN</name>
-    <desc>addr:city=Prešov; addr:housenumber=1/C;
-    addr:postcode=08001; addr:street=Solivarská; amenity=fuel;
-    brand=Benzina; brand:wikidata=Q11130894; name=ORLEN;
-    opening_hours=24/7; self_service=no; id=node/9169382849</desc>
+    <name>Orlen</name>
+    <desc>amenity=fuel; brand=Orlen; brand:wikidata=Q971649;
+    name=Orlen; opening_hours=24/7; self_service=no;
+    id=node/9169382849</desc>
   </wpt>
   <wpt lat="48.5823033" lon="19.5298357">
     <ele>489</ele>
@@ -5820,13 +5806,6 @@ version="1.1" creator="togpx">
     <name>ExtraDrive</name>
     <desc>amenity=fuel; name=ExtraDrive; id=node/9847938626</desc>
   </wpt>
-  <wpt lat="48.7539753" lon="17.8359345">
-    <ele>182</ele>
-    <name>Slovnaft</name>
-    <desc>addr:street=Malinovského; amenity=fuel;
-    internet_access=wlan; name=Slovnaft; opening_hours=Mo-Su
-    05:00-22:00; id=node/9872335517</desc>
-  </wpt>
   <wpt lat="48.2237642" lon="17.4059782">
     <ele>123</ele>
     <name>TAM</name>
@@ -5917,12 +5896,12 @@ version="1.1" creator="togpx">
   <wpt lat="48.5189918" lon="17.4501279">
     <ele>203</ele>
     <name>VOMS</name>
-    <desc>addr:city=Smolenice; addr:postcode=91904; amenity=fuel;
-    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes; name=VOMS;
-    opening_hours=24/7; payment:american_express=yes;
-    payment:cash=yes; payment:ccs=yes; payment:diners_club=yes;
-    payment:ew=yes; payment:mastercard=yes; payment:visa=yes;
-    self_service=no; id=node/10139412642</desc>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; name=VOMS; opening_hours=24/7;
+    payment:american_express=yes; payment:cash=yes;
+    payment:ccs=yes; payment:diners_club=yes; payment:ew=yes;
+    payment:mastercard=yes; payment:visa=yes; self_service=no;
+    id=node/10139412642</desc>
   </wpt>
   <wpt lat="47.8929354" lon="18.2015353">
     <ele>113</ele>
@@ -6174,9 +6153,7 @@ version="1.1" creator="togpx">
   <wpt lat="48.9728526" lon="21.2531008">
     <ele>235</ele>
     <name>Flavia Art</name>
-    <desc>addr:city=Prešov; addr:housenumber=20;
-    addr:postcode=08001; addr:street=Košická; amenity=fuel;
-    name=Flavia Art; phone=+421905632896;
+    <desc>amenity=fuel; name=Flavia Art; phone=+421905632896;
     id=node/11139702442</desc>
   </wpt>
   <wpt lat="49.2249634" lon="18.7749125">
@@ -6274,6 +6251,46 @@ version="1.1" creator="togpx">
     <name>node/11607678240</name>
     <desc>amenity=fuel; id=node/11607678240</desc>
   </wpt>
+  <wpt lat="48.8906663" lon="18.0110536">
+    <ele>204</ele>
+    <name>SPP CNG Trenčín</name>
+    <desc>amenity=fuel; fuel:cng=yes; name=SPP CNG Trenčín;
+    id=node/11700386545</desc>
+  </wpt>
+  <wpt lat="49.0020234" lon="21.2172925">
+    <ele>255</ele>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    name=Shell; opening_hours=24/7; self_service=yes; source=Bing;
+    id=node/11709298623</desc>
+  </wpt>
+  <wpt lat="48.9128048" lon="20.6342852">
+    <ele>424</ele>
+    <name>FEDoil</name>
+    <desc>amenity=fuel;
+    image=https://backend.freemap.sk/gallery/pictures/569457/image?width=1110;
+    name=FEDoil; opening_hours=Mo-Su 07:00-21:00; operator=súkromný
+    vlastník; self_service=no; id=node/11730653749</desc>
+  </wpt>
+  <wpt lat="48.2117795" lon="18.5804164">
+    <ele>155</ele>
+    <name>ORLEN express</name>
+    <desc>amenity=fuel; brand=Orlen; brand:wikidata=Q971649;
+    name=ORLEN express; opening_hours=24/7;
+    website=https://www.orlen.sk/; id=node/11743752027</desc>
+    <link href="https://www.orlen.sk/"></link>
+  </wpt>
+  <wpt lat="48.7539846" lon="17.8359314">
+    <ele>182</ele>
+    <name>Shell</name>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    internet_access=wlan; name=Shell; opening_hours=24/7;
+    phone=+421 911 108 432;
+    website=https://find.shell.com/sk/fuel/13027453-8249-nove-mesto-nad-vahom/;
+    id=node/11758024410</desc>
+    <link href="https://find.shell.com/sk/fuel/13027453-8249-nove-mesto-nad-vahom/">
+    </link>
+  </wpt>
   <wpt lat="48.72919305" lon="21.43950642114148">
     <ele>236</ele>
     <name>Shell</name>
@@ -6342,6 +6359,21 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; import=EvidenciaBudovPD;
     import_ref=sk_fuel_2; name=Slovnaft; opening_hours=24/7;
     operator=Slovnaft; source=kapor2; id=way/47889236</desc>
+  </wpt>
+  <wpt lat="48.76094295" lon="18.6167730648459">
+    <ele>268</ele>
+    <name>Orlen</name>
+    <desc>addr:city=Prievidza; addr:conscriptionnumber=2586;
+    addr:country=SK; addr:housenumber=2586/1; addr:postcode=97101;
+    addr:street=Moštenická; addr:streetnumber=1;
+    addr:suburb=Prievidza I. Staré Mesto; amenity=fuel;
+    brand=Orlen; building=yes; building:levels=1;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Orlen; opening_hours=Mo-Su 06:00-20:00; operator=Orlen;
+    ref:minvskaddress=25864410; roof:shape=flat; shop=yes;
+    source=kapor2; website=https://www.orlen.sk/;
+    id=way/47984127</desc>
+    <link href="https://www.orlen.sk/"></link>
   </wpt>
   <wpt lat="48.78031575" lon="18.620930469797894">
     <ele>267</ele>
@@ -6460,9 +6492,10 @@ version="1.1" creator="togpx">
     <ele>160</ele>
     <name>Jurki</name>
     <desc>addr:city=Kopčany; addr:country=SK; addr:postcode=90848;
-    addr:street=Kollárova; amenity=fuel; brand=Jurki; building=yes;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Jurki; opening_hours=Mo-Fr 07:00-15:30; operator=Jurki;
+    addr:street=Kollárova; amenity=fuel; brand=Jurki;
+    brand:wikidata=Q107775944; building=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Jurki;
+    opening_hours=Mo-Fr 07:00-15:30; operator=Jurki;
     payment:cash=yes; payment:diners_club=yes; payment:jurki=yes;
     payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
     payment:zbk=yes; phone=+421 258 280 011; source=kapor2;
@@ -6556,11 +6589,11 @@ version="1.1" creator="togpx">
     addr:country=SK; addr:housenumber=2599; addr:place=Staré Mesto;
     addr:postcode=04001; amenity=fuel; brand=Slovnaft;
     brand:wikidata=Q1587563; brand:wikipedia=en:Slovnaft;
-    building=retail; building:levels=1; email=info@slovnaft.sk;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Slovnaft; opening_hours=Mo-Su 06:00-22:00;
-    operator=Slovnaft, a.s.; payment:cash=yes; payment:maestro=yes;
-    payment:mastercard=yes; payment:visa=yes;
+    building=retail; building:levels=1; compressed_air=yes;
+    email=info@slovnaft.sk; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=Slovnaft; opening_hours=Mo-Su
+    06:00-22:00; operator=Slovnaft, a.s.; payment:cash=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
     payment:visa_debit=yes; payment:visa_electron=yes; phone=+421
     556 253637; ref:minvskaddress=7101139166; self_service=yes;
     source=bing,survey; source:addr=minvskaddress 2024-02;
@@ -6843,15 +6876,17 @@ version="1.1" creator="togpx">
     import_ref=sk_fuel_2; name=Slovnaft; operator=Slovnaft;
     source=kapor2; id=way/62327834</desc>
   </wpt>
-  <wpt lat="49.0227437" lon="21.264132496887385">
+  <wpt lat="49.02274395" lon="21.26413225">
     <ele>252</ele>
     <name>SPP - LPG a CNG čerpacia stanica Prešov</name>
-    <desc>addr:city=Prešov; addr:housenumber=9;
-    addr:postcode=08006; addr:street=Strojnícka; amenity=fuel;
-    building=yes; fuel:cng=yes; fuel:lpg=yes; import=budovy201004;
-    name=SPP - LPG a CNG čerpacia stanica Prešov;
-    opening_hours=24/7; operator=SPP; phone=+421850111500;
-    self_service=yes; source=kapor2;
+    <desc>addr:city=Prešov; addr:conscriptionnumber=7832;
+    addr:country=SK; addr:housenumber=7832; addr:place=Nižná
+    Šebastová; addr:postcode=08006; amenity=fuel; building=yes;
+    fuel:cng=yes; fuel:lpg=yes; import=budovy201004; name=SPP - LPG
+    a CNG čerpacia stanica Prešov; opening_hours=24/7;
+    operator=SPP; phone=+421850111500;
+    ref:minvskaddress=6701004354; self_service=yes; source=kapor2;
+    source:addr=minvskaddress 2024-02;
     website=https://www.sppcng.sk/; id=way/73351744</desc>
     <link href="https://www.sppcng.sk/"></link>
   </wpt>
@@ -6913,11 +6948,13 @@ version="1.1" creator="togpx">
     <name>OMV</name>
     <desc>addr:city=Prešov; addr:conscriptionnumber=7271;
     addr:country=SK; addr:housenumber=7271/21; addr:postcode=08001;
-    addr:street=Duklianska; addr:streetnumber=21; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=yes; building:levels=1; height=5; name=OMV;
-    opening_hours=24/7; operator=OMV; phone=+421 51 7482311;
-    source=kapor2; id=way/81329257</desc>
+    addr:street=Duklianska; addr:streetnumber=21;
+    addr:suburb=Prešov; amenity=fuel; brand=OMV;
+    brand:wikidata=Q168238; brand:wikipedia=en:OMV; building=yes;
+    building:levels=1; height=5; name=OMV; opening_hours=24/7;
+    operator=OMV; phone=+421 51 7482311;
+    ref:minvskaddress=5407014096; source=kapor2;
+    source:addr=minvskaddress 2024-02; id=way/81329257</desc>
   </wpt>
   <wpt lat="48.383164199999996" lon="17.596455409972727">
     <ele>150</ele>
@@ -6953,10 +6990,12 @@ version="1.1" creator="togpx">
     <ele>277</ele>
     <name>Slovnaft</name>
     <desc>addr:city=Prešov; addr:conscriptionnumber=7332;
-    addr:country=SK; addr:housenumber=146; addr:postcode=08001;
-    addr:street=Levočská; addr:streetnumber=146; amenity=fuel;
+    addr:country=SK; addr:housenumber=7332/146;
+    addr:postcode=08001; addr:street=Levočská;
+    addr:streetnumber=146; addr:suburb=Prešov; amenity=fuel;
     brand=Slovnaft; brand:wikidata=Q1587563; building=yes;
-    building:levels=1; name=Slovnaft; source=kapor2;
+    building:levels=1; name=Slovnaft; ref:minvskaddress=25583415;
+    source=kapor2; source:addr=minvskaddress 2024-02;
     id=way/93947713</desc>
   </wpt>
   <wpt lat="48.37469045" lon="17.594753753595317">
@@ -7349,20 +7388,22 @@ version="1.1" creator="togpx">
   <wpt lat="48.6942642" lon="21.2530418">
     <ele>229</ele>
     <name>Shell</name>
-    <desc>addr:city=Košice; addr:postcode=04011;
-    addr:street=Alejová; amenity=fuel; brand=Shell;
-    brand:wikidata=Q110716465; brand:wikipedia=en:Shell plc;
-    building=retail; building:levels=1;
-    email=poziadavky-sk@shell.com; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:v-power_diesel=yes; fuel:vpower=yes;
-    name=Shell; opening_hours=24/7; operator=SHELL Slovakia, s.r.o;
-    payment:cash=yes; payment:coins=yes; payment:maestro=yes;
-    payment:mastercard=yes; payment:mobilepay=yes;
-    payment:visa=yes; payment:visa_debit=yes;
-    payment:visa_electron=yes; phone=+421 557 894338;
-    self_service=yes; source=bing,survey; toilets:wheelchair=yes;
-    website=https://www.shell.sk/; wheelchair=yes;
-    id=way/167325654</desc>
+    <desc>addr:city=Košice; addr:conscriptionnumber=2521;
+    addr:country=SK; addr:housenumber=2521/20; addr:postcode=04011;
+    addr:street=Alejová; addr:streetnumber=20; addr:suburb=Juh;
+    amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    brand:wikipedia=en:Shell plc; building=retail;
+    building:levels=1; email=poziadavky-sk@shell.com;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:v-power_diesel=yes;
+    fuel:vpower=yes; name=Shell; opening_hours=24/7; operator=SHELL
+    Slovakia, s.r.o; payment:cash=yes; payment:coins=yes;
+    payment:maestro=yes; payment:mastercard=yes;
+    payment:mobilepay=yes; payment:visa=yes;
+    payment:visa_debit=yes; payment:visa_electron=yes; phone=+421
+    557 894338; ref:minvskaddress=700209256A; self_service=yes;
+    source=bing,survey; source:addr=minvskaddress 2024-02;
+    toilets:wheelchair=yes; website=https://www.shell.sk/;
+    wheelchair=yes; id=way/167325654</desc>
     <link href="https://www.shell.sk/"></link>
   </wpt>
   <wpt lat="48.69940325" lon="21.249404700057973">
@@ -7377,14 +7418,18 @@ version="1.1" creator="togpx">
   <wpt lat="48.69957375" lon="21.249891175576852">
     <ele>233</ele>
     <name>TAM Autohof</name>
-    <desc>addr:city=Košice; addr:postcode=04011;
-    addr:street=Alejová; amenity=fuel; brand=TAM Autohof;
-    brand:wikidata=Q96138528; building=yes; fuel:diesel=yes;
+    <desc>addr:city=Košice; addr:conscriptionnumber=1636;
+    addr:country=SK; addr:housenumber=1636/3; addr:postcode=04011;
+    addr:street=Pri prachárni; addr:streetnumber=3;
+    addr:suburb=Juh; amenity=fuel; brand=TAM Autohof;
+    brand:wikidata=Q96138528; building=commercial; fuel:diesel=yes;
     fuel:octane_95=yes; name=TAM Autohof; opening_hours=24/7;
     operator=TaM Autohof; payment:cash=yes; payment:coins=yes;
     payment:credit_cards=yes; payment:debit_cards=yes; phone=+421
-    55/789 97 48; source=Bing; website=https://www.autohof.sk/;
-    wheelchair=limited; id=way/167350345</desc>
+    55/789 97 48; ref:minvskaddress=700210422A; source=Bing;
+    source:addr=minvskaddress 2024-02;
+    website=https://www.autohof.sk/; wheelchair=limited;
+    id=way/167350345</desc>
     <link href="https://www.autohof.sk/"></link>
   </wpt>
   <wpt lat="48.7030582" lon="21.245220529545456">
@@ -7420,11 +7465,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.983428849999996" lon="21.252085251484374">
     <ele>244</ele>
     <name>OMV</name>
-    <desc>addr:city=Prešov; addr:housenumber=8250/19;
-    addr:postcode=08001; addr:street=Východná; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; building=yes;
-    compressed_air=yes; height=5; name=OMV; opening_hours=24/7;
-    phone=+421 517 598981; self_service=yes;
+    <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
+    building:part=yes; compressed_air=yes; height=5; name=OMV;
+    opening_hours=24/7; phone=+421 517 598981; self_service=yes;
     website=https://www.omv.sk/; id=way/167537378</desc>
     <link href="https://www.omv.sk/"></link>
   </wpt>
@@ -7482,24 +7525,11 @@ version="1.1" creator="togpx">
     id=way/168554404</desc>
     <link href="https://www.shell.sk/"></link>
   </wpt>
-  <wpt lat="49.0019778" lon="21.21724952341772">
-    <ele>255</ele>
-    <name>Shell</name>
-    <desc>addr:city=Prešov; addr:conscriptionnumber=11581;
-    addr:housenumber=7254/113; addr:postcode=08001;
-    addr:street=Levočská; addr:streetnumber=111; amenity=fuel;
-    brand=Shell; brand:wikidata=Q110716465; building=yes; height=5;
-    name=Shell; opening_hours=24/7; self_service=yes; source=Bing;
-    id=way/169376830</desc>
-  </wpt>
   <wpt lat="49.00872925" lon="21.221390900000003">
     <ele>249</ele>
     <name>Shell</name>
-    <desc>addr:city=Prešov; addr:conscriptionnumber=4779;
-    addr:country=SK; addr:housenumber=7; addr:postcode=08001;
-    addr:street=Volgogradská; addr:streetnumber=7; amenity=fuel;
-    brand=Shell; brand:wikidata=Q110716465; building=roof;
-    name=Shell; self_service=yes; source=Bing;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    building:part=roof; name=Shell; self_service=yes; source=Bing;
     id=way/172585270</desc>
   </wpt>
   <wpt lat="48.240473449999996" lon="17.360423587237307">
@@ -7518,13 +7548,15 @@ version="1.1" creator="togpx">
     <name>ORLEN</name>
     <desc>addr:city=Prešov; addr:conscriptionnumber=7333;
     addr:country=SK; addr:housenumber=7333/17; addr:postcode=08001;
-    addr:street=Duklianska; addr:streetnumber=17; amenity=fuel;
-    brand=Orlen; brand:wikipedia=en:Slovnaft; building=yes;
-    building:levels=1; height=5; import_ref=sk_fuel_2; name=ORLEN;
-    opening_hours=Mo-Su 06:00-22:00; operator=Orlen;
-    phone=+421800008500; self_service=yes; source=kapor2;
-    toilets:wheelchair=yes; website=https://www.orlen.sk/;
-    wheelchair=yes; id=way/185662031</desc>
+    addr:street=Duklianska; addr:streetnumber=17;
+    addr:suburb=Prešov; amenity=fuel; brand=Orlen;
+    brand:wikipedia=en:Slovnaft; building=yes; building:levels=1;
+    height=5; import_ref=sk_fuel_2; name=ORLEN; opening_hours=Mo-Su
+    06:00-22:00; operator=Orlen; phone=+421800008500;
+    ref:minvskaddress=5407017935; self_service=yes; source=kapor2;
+    source:addr=minvskaddress 2024-02; toilets:wheelchair=yes;
+    website=https://www.orlen.sk/; wheelchair=yes;
+    id=way/185662031</desc>
     <link href="https://www.orlen.sk/"></link>
   </wpt>
   <wpt lat="48.3147759" lon="17.484679747312683">
@@ -7931,16 +7963,18 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Kežmarok; addr:housenumber=1; addr:postcode=060
     01; addr:street=Pradiareň; amenity=fuel; brand=Shell;
-    brand:wikidata=Q154950; brand:wikipedia=en:Royal Dutch Shell;
-    building=yes; fuel:diesel=yes; fuel:octane_95=yes; layer=1;
-    name=Shell; note=Fuels / Palivá: Shell V-Power Racing Shell
-    V-Power Shell V-Power Diesel Shell FuelSave Natural 95 Shell
-    FuelSave Diesel Services / Služby Umyváreň Toalety Predajňa
-    Ponuka jedla Vzduch Vernostná karta Palivová karta WiFi Vysávač
-    Parkovisko Všetky služby/; opening_hours=24/7; operator=SHELL
-    Slovakia, s.r.o.; payment:cards=yes; payment:cash=yes;
-    payment:contactless=yes; payment:credit_cards=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    brand:wikidata=Q110716465; brand:wikipedia=en:Royal Dutch
+    Shell; building=retail; fuel:GTL_diesel=yes; fuel:diesel=yes;
+    fuel:octane_80=yes; fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=no; layer=1; name=Shell; note=Fuels /
+    Palivá: Shell V-Power Racing Shell V-Power Shell V-Power Diesel
+    Shell FuelSave Natural 95 Shell FuelSave Diesel Services /
+    Služby Umyváreň Toalety Predajňa Ponuka jedla Vzduch Vernostná
+    karta Palivová karta WiFi Vysávač Parkovisko Všetky služby/;
+    opening_hours=24/7; operator=SHELL Slovakia, s.r.o.;
+    payment:cards=yes; payment:cash=yes; payment:contactless=yes;
+    payment:credit_cards=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes;
     payment:visa_debit=yes; payment:visa_electron=yes; phone=+421
     52/452 33 35; source=kapor2; website=https://www.shell.sk/;
     id=way/359378853</desc>
@@ -8226,6 +8260,16 @@ version="1.1" creator="togpx">
     ref:minvskaddress=7101424176; source:addr=minvskaddress
     2021-10; website=http://www.voms.sk; id=way/625072861</desc>
     <link href="http://www.voms.sk"></link>
+  </wpt>
+  <wpt lat="48.36829565" lon="17.617707865847755">
+    <ele>152</ele>
+    <name>Trnava</name>
+    <desc>addr:city=Trnava; addr:conscriptionnumber=9237;
+    addr:country=SK; addr:housenumber=9237/5; addr:postcode=91701;
+    addr:street=Nová; addr:streetnumber=5; addr:suburb=Trnava;
+    amenity=fuel; building=yes; ref:minvskaddress=7101740976;
+    source=kapor2; source:addr=minvskaddress 2023-01;
+    id=way/648871209</desc>
   </wpt>
   <wpt lat="49.329557050000005" lon="19.55136642843101">
     <ele>583</ele>
@@ -8596,10 +8640,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.0242169" lon="21.232820210054317">
     <ele>265</ele>
     <name>BAREL</name>
-    <desc>addr:city=Prešov; addr:housenumber=8561/138;
-    addr:postcode=08001; addr:street=Sabinovská; amenity=fuel;
-    name=BAREL; opening_hours=24/7; phone=+421 908 971 219;
-    id=way/1094245930</desc>
+    <desc>amenity=fuel; name=BAREL; opening_hours=24/7; phone=+421
+    908 971 219; id=way/1094245930</desc>
   </wpt>
   <wpt lat="48.39241355" lon="17.562712763757382">
     <ele>151</ele>
@@ -8636,13 +8678,11 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Slovnaft; fuel:lpg=yes; name=LPG -
     Slovnaft; id=way/1161262393</desc>
   </wpt>
-  <wpt lat="49.0091202" lon="21.220908329963315">
+  <wpt lat="49.00912045" lon="21.2209084">
     <ele>249</ele>
     <name>LPG Čerpacia stanica S3 GAS - Tomegas</name>
-    <desc>addr:city=Prešov; addr:housenumber=9;
-    addr:postcode=08001; addr:street=Volgogradská; amenity=fuel;
-    building=yes; fuel:lpg=yes; name=LPG Čerpacia stanica S3 GAS -
-    Tomegas; id=way/1163462759</desc>
+    <desc>amenity=fuel; building=yes; fuel:lpg=yes; name=LPG
+    Čerpacia stanica S3 GAS - Tomegas; id=way/1163462759</desc>
   </wpt>
   <wpt lat="48.3176565" lon="18.166260022561445">
     <ele>214</ele>
@@ -8859,6 +8899,16 @@ version="1.1" creator="togpx">
       <trkpt lat="48.7856759" lon="18.628571"></trkpt>
       <trkpt lat="48.785558" lon="18.6285189"></trkpt>
       <trkpt lat="48.7855255" lon="18.6286903"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Orlen</name>
+    <trkseg>
+      <trkpt lat="48.7608758" lon="18.6167299"></trkpt>
+      <trkpt lat="48.7609516" lon="18.6168818"></trkpt>
+      <trkpt lat="48.7610079" lon="18.6168173"></trkpt>
+      <trkpt lat="48.7609343" lon="18.6166636"></trkpt>
+      <trkpt lat="48.7608758" lon="18.6167299"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -9474,11 +9524,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>SPP - LPG a CNG čerpacia stanica Prešov</name>
     <trkseg>
-      <trkpt lat="49.0226991" lon="21.2639831"></trkpt>
-      <trkpt lat="49.0226807" lon="21.2642626"></trkpt>
-      <trkpt lat="49.0227883" lon="21.2642844"></trkpt>
-      <trkpt lat="49.0228077" lon="21.263999"></trkpt>
-      <trkpt lat="49.0226991" lon="21.2639831"></trkpt>
+      <trkpt lat="49.0226997" lon="21.2639823"></trkpt>
+      <trkpt lat="49.02268" lon="21.2642646"></trkpt>
+      <trkpt lat="49.0227882" lon="21.2642822"></trkpt>
+      <trkpt lat="49.0228079" lon="21.2639999"></trkpt>
+      <trkpt lat="49.0226997" lon="21.2639823"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10405,18 +10455,6 @@ version="1.1" creator="togpx">
       <trkpt lat="48.7065864" lon="21.2654091"></trkpt>
       <trkpt lat="48.7065221" lon="21.2654104"></trkpt>
       <trkpt lat="48.7065215" lon="21.2653429"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Shell</name>
-    <trkseg>
-      <trkpt lat="49.0018883" lon="21.2172669"></trkpt>
-      <trkpt lat="49.0020673" lon="21.2174089"></trkpt>
-      <trkpt lat="49.0021303" lon="21.2173497"></trkpt>
-      <trkpt lat="49.0021694" lon="21.2173131"></trkpt>
-      <trkpt lat="49.0021297" lon="21.2172816"></trkpt>
-      <trkpt lat="49.0018848" lon="21.2170874"></trkpt>
-      <trkpt lat="49.0018883" lon="21.2172669"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11493,6 +11531,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/648871209</name>
+    <trkseg>
+      <trkpt lat="48.3681889" lon="17.6177438"></trkpt>
+      <trkpt lat="48.3682585" lon="17.617862"></trkpt>
+      <trkpt lat="48.3684023" lon="17.6176713"></trkpt>
+      <trkpt lat="48.3683328" lon="17.617554"></trkpt>
+      <trkpt lat="48.3682472" lon="17.6176669"></trkpt>
+      <trkpt lat="48.3681889" lon="17.6177438"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Voms</name>
     <trkseg>
       <trkpt lat="49.3296263" lon="19.5514676"></trkpt>
@@ -12107,11 +12156,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>LPG Čerpacia stanica S3 GAS - Tomegas</name>
     <trkseg>
-      <trkpt lat="49.0091539" lon="21.2209708"></trkpt>
-      <trkpt lat="49.009164" lon="21.2208607"></trkpt>
-      <trkpt lat="49.0090865" lon="21.2208459"></trkpt>
-      <trkpt lat="49.0090774" lon="21.2209561"></trkpt>
-      <trkpt lat="49.0091539" lon="21.2209708"></trkpt>
+      <trkpt lat="49.0091543" lon="21.2209711"></trkpt>
+      <trkpt lat="49.0091636" lon="21.2208609"></trkpt>
+      <trkpt lat="49.0090866" lon="21.2208457"></trkpt>
+      <trkpt lat="49.0090773" lon="21.2209559"></trkpt>
+      <trkpt lat="49.0091543" lon="21.2209711"></trkpt>
     </trkseg>
   </trk>
   <trk>
