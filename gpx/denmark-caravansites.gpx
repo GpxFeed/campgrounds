@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-04-01T09:18:08Z", "timestamp_areas_base":
-      "2024-04-01T04:03:19Z", "copyright": "The data included in
+      "2024-05-01T09:08:33Z", "timestamp_areas_base":
+      "2024-05-01T07:38:27Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1198,7 +1198,7 @@ version="1.1" creator="togpx">
     internet_access:fee=no; name=Mellerup Bådelaug;
     opening_hours=May-Sep; power_supply=yes; power_supply:fee=no;
     sanitary_dump_station=yes;
-    sanitary_dump_station:checmial_toilet=yes; shower=yes;
+    sanitary_dump_station:chemical_toilet=yes; shower=yes;
     tents=no; toilets=yes; tourism=caravan_site;
     website=http://mellerupbaadelaug.dk/index.php/gaester/autocampere;
     id=node/11069667573</desc>
@@ -1563,9 +1563,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.5522453" lon="9.7295603">
     <ele>1</ele>
-    <name>Frederikshavn Marina</name>
+    <name>Fredericia Marina</name>
     <desc>charge=DKK 160; fee=yes; laundry=yes; laundry:fee=yes;
-    name=Frederikshavn Marina; power_supply=yes;
+    name=Fredericia Marina; power_supply=yes;
     power_supply:charge=DKK 5.25/kWh; power_supply:fee=yes;
     tourism=caravan_site;
     website=https://www.marinafredericia.dk/information-og-faciliteter/autocamper/;
@@ -1850,7 +1850,7 @@ version="1.1" creator="togpx">
   <wpt lat="56.0037831" lon="8.1142745">
     <ele>6</ele>
     <name>Hvide Sande Nordstrand</name>
-    <desc>caravan_site:type=beach; caravans=no; charge=DKK 150;
+    <desc>caravan_site:type=beach; caravans=no; charge=150 DKK;
     fee=yes; name=Hvide Sande Nordstrand; power_supply=no;
     sanitary_dump_station=no; shower=no; tents=no; toilets=no;
     tourism=caravan_site; water_point=no;
@@ -1963,6 +1963,15 @@ version="1.1" creator="togpx">
     <link href="https://oddekystvineri.dk/DK/Autocamper%20p%C3%A5%20ving%C3%A5rden.aspx">
     </link>
   </wpt>
+  <wpt lat="55.997475" lon="8.1215626">
+    <ele>4</ele>
+    <name>Tungevej Hvide Sande</name>
+    <desc>caravan_site=motorhome_stopover;
+    caravan_site:type=beach,harbour; caravans=no; charge=150 DKK;
+    fee=yes; name=Tungevej Hvide Sande; power_supply=no;
+    sanitary_dump_station=yes; surface=gravel; tents=no;
+    toilets=yes; tourism=caravan_site; id=node/11784009093</desc>
+  </wpt>
   <wpt lat="57.45831285" lon="10.539521712179772">
     <ele>4</ele>
     <name>Palmestranden Parkering</name>
@@ -2005,10 +2014,9 @@ version="1.1" creator="togpx">
   <wpt lat="56.086052300000006" lon="8.240390151576207">
     <ele>0</ele>
     <name>Ringkøbing Havn</name>
-    <desc>amenity=parking; caravan_site:type=harbour; caravans=no;
-    charge=175 DKK; fee=yes; name=Ringkøbing Havn;
-    parking=street_side; power_supply=yes; shower=yes; tents=no;
-    toilets=yes; tourism=caravan_site;
+    <desc>caravan_site:type=harbour; caravans=no; charge=175 DKK;
+    fee=yes; name=Ringkøbing Havn; power_supply=yes; shower=yes;
+    tents=no; toilets=yes; tourism=caravan_site;
     website=https://www.rksk.dk/borger/kultur-og-fritid/friluftsliv/havne/ringkoebing-havn;
     id=way/124419787</desc>
     <link href="https://www.rksk.dk/borger/kultur-og-fritid/friluftsliv/havne/ringkoebing-havn">
@@ -2026,13 +2034,6 @@ version="1.1" creator="togpx">
     id=way/126811757</desc>
     <link href="https://juelsmindecamping.dk/autocamper-plads-indkoersel-hele-doegnet/">
     </link>
-  </wpt>
-  <wpt lat="55.997539450000005" lon="8.121755590584304">
-    <ele>5</ele>
-    <name>Camper parking</name>
-    <desc>access=yes; amenity=parking; fee=yes; name=Camper
-    parking; parking=surface; surface=compacted;
-    tourism=caravan_site; id=way/208295206</desc>
   </wpt>
   <wpt lat="55.0395664" lon="15.109029687428848">
     <ele>6</ele>
@@ -2204,11 +2205,12 @@ version="1.1" creator="togpx">
   <wpt lat="55.718232" lon="12.589635978692343">
     <ele>0</ele>
     <name>Svanemøllehavnen</name>
-    <desc>caravan_site:type=harbour; drinking_water=yes; fee=yes;
+    <desc>caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; drinking_water=yes; fee=yes;
     internet_access=wlan; internet_access:fee=no;
     name=Svanemøllehavnen; payment:maestro=yes; power_supply=yes;
-    sanitary_dump_station=customers; toilets:wheelchair=yes;
-    tourism=caravan_site;
+    sanitary_dump_station=yes; seasonal=yes;
+    toilets:wheelchair=yes; tourism=caravan_site;
     website=https://www.smhavn.dk/priser-autocampende/;
     wheelchair=yes; id=way/441779156</desc>
     <link href="https://www.smhavn.dk/priser-autocampende/"></link>
@@ -2769,8 +2771,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.4838109" lon="8.412011812210965">
     <ele>0</ele>
-    <name>way/1190666459</name>
-    <desc>capacity=10; caravans=yes; surface=fine_gravel; tents=no;
+    <name>Esbjerg Strand Lystbådehavn</name>
+    <desc>capacity=10; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=yes; laundry=yes;
+    name=Esbjerg Strand Lystbådehavn; shower=yes;
+    surface=fine_gravel; tents=no; toilets=yes;
     tourism=caravan_site; id=way/1190666459</desc>
   </wpt>
   <wpt lat="55.967352649999995" lon="11.999219780834743">
@@ -2974,8 +2979,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.25438245" lon="12.373465403094233">
     <ele>6</ele>
     <name>Rødvig Havn</name>
-    <desc>capacity=15; caravan_,site:type=harbour;
-    caravan_site=motorhome_stopover; caravans=no; charge=DKK 190;
+    <desc>capacity=15; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=no; charge=DKK 190;
     description=cozy marina and fishing village.; fee=yes;
     laundry=yes; name=Rødvig Havn; sanitary_dump_station=yes;
     shower=yes; tents=no; toilets=yes; tourism=caravan_site;
@@ -3161,6 +3166,17 @@ version="1.1" creator="togpx">
     id=way/1266551129</desc>
     <link href="https://www.keldborg.com/autocamper/"></link>
   </wpt>
+  <wpt lat="56.8348857" lon="8.97687171258993">
+    <ele>8</ele>
+    <name>FUR Camping - CamperStop</name>
+    <desc>capacity=12; internet_access=wlan;
+    internet_access:fee=yes; name=FUR Camping - CamperStop;
+    power_supply=yes; sanitary_dump_station=yes; surface=gravel;
+    tourism=caravan_site;
+    website=https://furcamping.dk/camping-camperstop/;
+    id=way/1272161864</desc>
+    <link href="https://furcamping.dk/camping-camperstop/"></link>
+  </wpt>
   <trk>
     <name>Palmestranden Parkering</name>
     <trkseg>
@@ -3256,33 +3272,6 @@ version="1.1" creator="togpx">
       <trkpt lat="55.7125526" lon="10.0151607"></trkpt>
       <trkpt lat="55.7127556" lon="10.0148559"></trkpt>
       <trkpt lat="55.7123444" lon="10.0140192"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Camper parking</name>
-    <trkseg>
-      <trkpt lat="55.9971283" lon="8.1221238"></trkpt>
-      <trkpt lat="55.9972391" lon="8.122085"></trkpt>
-      <trkpt lat="55.9972385" lon="8.122074"></trkpt>
-      <trkpt lat="55.9972339" lon="8.1219863"></trkpt>
-      <trkpt lat="55.9972511" lon="8.1219834"></trkpt>
-      <trkpt lat="55.9972621" lon="8.1219816"></trkpt>
-      <trkpt lat="55.9973025" lon="8.1219749"></trkpt>
-      <trkpt lat="55.9973096" lon="8.1219737"></trkpt>
-      <trkpt lat="55.9973302" lon="8.1219703"></trkpt>
-      <trkpt lat="55.9973347" lon="8.1220581"></trkpt>
-      <trkpt lat="55.9975874" lon="8.1220262"></trkpt>
-      <trkpt lat="55.997688" lon="8.1220318"></trkpt>
-      <trkpt lat="55.9978304" lon="8.1220398"></trkpt>
-      <trkpt lat="55.997916" lon="8.1220494"></trkpt>
-      <trkpt lat="55.9979474" lon="8.1215174"></trkpt>
-      <trkpt lat="55.9978305" lon="8.1214871"></trkpt>
-      <trkpt lat="55.9976709" lon="8.1214727"></trkpt>
-      <trkpt lat="55.9974915" lon="8.1214812"></trkpt>
-      <trkpt lat="55.9972209" lon="8.1215253"></trkpt>
-      <trkpt lat="55.9971525" lon="8.1215921"></trkpt>
-      <trkpt lat="55.9971066" lon="8.121731"></trkpt>
-      <trkpt lat="55.9971283" lon="8.1221238"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -4098,7 +4087,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/1190666459</name>
+    <name>Esbjerg Strand Lystbådehavn</name>
     <trkseg>
       <trkpt lat="55.4836126" lon="8.4121894"></trkpt>
       <trkpt lat="55.4840451" lon="8.4121025"></trkpt>
@@ -4489,6 +4478,16 @@ version="1.1" creator="togpx">
       <trkpt lat="55.0021248" lon="12.4035014"></trkpt>
       <trkpt lat="55.0021685" lon="12.4035115"></trkpt>
       <trkpt lat="55.0021782" lon="12.403366"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>FUR Camping - CamperStop</name>
+    <trkseg>
+      <trkpt lat="56.8349452" lon="8.9765668"></trkpt>
+      <trkpt lat="56.8347089" lon="8.9768524"></trkpt>
+      <trkpt lat="56.8348262" lon="8.9771766"></trkpt>
+      <trkpt lat="56.8350625" lon="8.9768911"></trkpt>
+      <trkpt lat="56.8349452" lon="8.9765668"></trkpt>
     </trkseg>
   </trk>
 </gpx>

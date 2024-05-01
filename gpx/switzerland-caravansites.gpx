@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-04-01T09:15:01Z", "timestamp_areas_base":
-      "2024-04-01T04:03:19Z", "copyright": "The data included in
+      "2024-05-01T09:04:30Z", "timestamp_areas_base":
+      "2024-05-01T07:38:27Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -45,7 +45,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Tägerwilen; addr:country=CH;
     addr:housenumber=12; addr:postcode=8274;
     addr:street=Hauptstrasse; email=oase.camping@hotmail.com;
-    internet_access=wlan; name=Oase; name:de=Camping Oase;
+    fee=yes; internet_access=wlan; name=Oase; name:de=Camping Oase;
     name:en=Camping Oase; name:fr=Camping Oase; phone=+41 71 669 17
     17; tourism=caravan_site; website=http://www.camping-oase.ch;
     id=node/1435704747</desc>
@@ -199,7 +199,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.9908688" lon="7.47617">
     <ele>594</ele>
     <name>node/5739553121</name>
-    <desc>opening_hours=24/7; tourism=caravan_site;
+    <desc>fee=no; opening_hours=24/7; tourism=caravan_site;
     id=node/5739553121</desc>
   </wpt>
   <wpt lat="46.3422733" lon="7.0211505">
@@ -282,9 +282,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.8164538" lon="10.3631254">
     <ele>1122</ele>
-    <name>Wohnwagenstellplatz</name>
-    <desc>name=Wohnwagenstellplatz; tourism=caravan_site;
-    id=node/6943592185</desc>
+    <name>node/6943592185</name>
+    <desc>tourism=caravan_site; id=node/6943592185</desc>
   </wpt>
   <wpt lat="47.0179745" lon="8.7323273">
     <ele>1400</ele>
@@ -379,12 +378,6 @@ version="1.1" creator="togpx">
     name=Stellplatz Gryon; power_supply=yes;
     sanitary_dump_station=yes; tourism=caravan_site;
     id=node/7997316818</desc>
-  </wpt>
-  <wpt lat="47.5874214" lon="8.2898142">
-    <ele>345</ele>
-    <name>Wohnwagenstellplatz</name>
-    <desc>name=Wohnwagenstellplatz; tourism=caravan_site;
-    id=node/8068681885</desc>
   </wpt>
   <wpt lat="46.8172627" lon="8.0414883">
     <ele>1163</ele>
@@ -720,13 +713,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.66303" lon="6.32893">
     <ele>1003</ele>
-    <name>Stellplatz L'Abbaye</name>
+    <name>Lac de Joux - L'Abbaye</name>
     <desc>addr:city=L'Abbaye; addr:postcode=1342; addr:street=Rue
     du Lac; capacity=15; description=3 Nächte, Sommerhalbjahr 1.5.
     - 30.9., Kassierer der Gemeinde kommt am Abend vorbei; fee=CHF
-    10.-; name=Stellplatz L'Abbaye; power_supply=no;
-    sanitary_dump_station=no; tents=no; tourism=caravan_site;
-    id=node/8674197888</desc>
+    10.-; name=Lac de Joux - L'Abbaye; power_supply=no;
+    sanitary_dump_station=no; seasonal=yes; tents=no;
+    tourism=caravan_site; id=node/8674197888</desc>
   </wpt>
   <wpt lat="46.66606" lon="6.31668">
     <ele>1003</ele>
@@ -1088,10 +1081,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.5820054" lon="7.0784076">
     <ele>775</ele>
-    <name>P3</name>
-    <desc>charge=10 CHF/night; fee=yes; name=P3; power_supply=no;
-    sanitary_dump_station=no; shower=no; tents=no;
-    tourism=caravan_site; id=node/9033103730</desc>
+    <name>Gruyères – Parking P3</name>
+    <desc>charge=23 CHF/night; fee=yes; name=Gruyères – Parking P3;
+    power_supply=no; ref=P3; sanitary_dump_station=no; shower=no;
+    tents=no; tourism=caravan_site;
+    website=https://fribourg.ch/de/la-gruyere/parkplaetze/gruyeres-parking-p3/;
+    id=node/9033103730</desc>
+    <link href="https://fribourg.ch/de/la-gruyere/parkplaetze/gruyeres-parking-p3/">
+    </link>
   </wpt>
   <wpt lat="46.915618" lon="9.739662">
     <ele>875</ele>
@@ -1133,8 +1130,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.8462271" lon="8.6324083">
     <ele>459</ele>
     <name>Stellplatz Autobahnraststätte Gotthard, Schattdorf</name>
-    <desc>name=Stellplatz Autobahnraststätte Gotthard, Schattdorf;
-    tourism=caravan_site; id=node/9041988310</desc>
+    <desc>charge=15 EUR; fee:conditional=yes @ (19:00-05:00), no @
+    (05:00-19:00); name=Stellplatz Autobahnraststätte Gotthard,
+    Schattdorf; tourism=caravan_site; id=node/9041988310</desc>
   </wpt>
   <wpt lat="47.006811" lon="6.942906">
     <ele>665</ele>
@@ -1337,19 +1335,6 @@ version="1.1" creator="togpx">
     power_supply=yes; tourism=caravan_site;
     id=node/9048805224</desc>
   </wpt>
-  <wpt lat="46.8110036" lon="9.5889617">
-    <ele>1657</ele>
-    <name>Stellplatz Furgglis, Tschiertschen</name>
-    <desc>capacity=6; description=CHF 15.- Öffnungszeiten: 15.05. -
-    23.10.; fee=yes; name=Stellplatz Furgglis, Tschiertschen;
-    power_supply=no; sanitary_dump_station=no;
-    seasonal=spring,summer,autumn; toilets=no;
-    tourism=caravan_site;
-    website=https://stellplatz.info/wohnmobilstellplatz/tschiertschen-furgglis-winter-geschlosen;
-    id=node/9048805225</desc>
-    <link href="https://stellplatz.info/wohnmobilstellplatz/tschiertschen-furgglis-winter-geschlosen">
-    </link>
-  </wpt>
   <wpt lat="46.4832145" lon="7.6643537">
     <ele>1191</ele>
     <name>Stellplatz Kandersteg</name>
@@ -1434,60 +1419,18 @@ version="1.1" creator="togpx">
     power_supply=no; sanitary_dump_station=no;
     tourism=caravan_site; id=node/9759552030</desc>
   </wpt>
-  <wpt lat="46.9713376" lon="8.7862694">
-    <ele>646</ele>
-    <name>Stellfläche Campingplatz Husky-Lodge</name>
-    <desc>fee=yes; name=Stellfläche Campingplatz Husky-Lodge;
-    operator=Erlebniswelt Muotathal GmbH; phone=+41 41 831 81 50;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site;
-    website=https://www.erlebniswelt.ch/camping/information/;
-    wheelchair=yes; id=way/1064767412; ; name=C1; operator=Husky
-    Lodge - Erlebniswelt Muotathal GmbH; id=node/9909674591</desc>
-    <link href="https://www.erlebniswelt.ch/camping/information/">
-    </link>
-  </wpt>
-  <wpt lat="46.9712875" lon="8.7862503">
-    <ele>646</ele>
-    <name>C2</name>
-    <desc>name=C2; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674592</desc>
-  </wpt>
-  <wpt lat="46.971219" lon="8.7862191">
-    <ele>646</ele>
-    <name>C3</name>
-    <desc>name=C3; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674593</desc>
-  </wpt>
-  <wpt lat="46.971158" lon="8.786186">
-    <ele>646</ele>
-    <name>C4</name>
-    <desc>name=C4; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674594</desc>
-  </wpt>
-  <wpt lat="46.9712588" lon="8.7863899">
-    <ele>646</ele>
-    <name>C7</name>
-    <desc>name=C7; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674595</desc>
-  </wpt>
-  <wpt lat="46.9712231" lon="8.7863849">
-    <ele>646</ele>
-    <name>C6</name>
-    <desc>name=C6; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674596</desc>
-  </wpt>
-  <wpt lat="46.9711895" lon="8.7863828">
-    <ele>646</ele>
-    <name>C7</name>
-    <desc>name=C7; operator=Husky Lodge - Erlebniswelt Muotathal
-    GmbH; tourism=caravan_site; id=node/9909674597</desc>
-  </wpt>
-  <wpt lat="47.1954924" lon="9.3092432">
-    <ele>910</ele>
-    <name>Camper Parking</name>
-    <desc>name=Camper Parking; tourism=caravan_site;
+  <wpt lat="47.1966807" lon="9.3095168">
+    <ele>909</ele>
+    <name>Wohnmobil-Stellplatz Unterwasser</name>
+    <desc>caravan_site=motorhome_stopover;
+    caravan_site:type=village; caravans=no; charge=20.20 SFR;
+    fee=yes; name=Wohnmobil-Stellplatz Unterwasser;
+    power_supply=yes; power_supply:capacity=10;
+    sanitary_dump_station=yes; seasonal=no; tents=no;
+    tourism=caravan_site; water_point=yes;
+    website=https://womo-post-unterwasser.ch/;
     id=node/9915337470</desc>
+    <link href="https://womo-post-unterwasser.ch/"></link>
   </wpt>
   <wpt lat="46.9902275" lon="9.6544912">
     <ele>974</ele>
@@ -1539,19 +1482,6 @@ version="1.1" creator="togpx">
     sanitary_dump_station=no; tourism=caravan_site;
     id=node/11166192888</desc>
   </wpt>
-  <wpt lat="46.8102752" lon="9.5877106">
-    <ele>1668</ele>
-    <name>Stellplatz Furgglis, Tschiertschen</name>
-    <desc>capacity=6; description=CHF 15.- Öffnungszeiten: 15.05. -
-    23.10.; fee=yes; name=Stellplatz Furgglis, Tschiertschen;
-    power_supply=no; sanitary_dump_station=no;
-    seasonal=spring,summer,autumn; toilets=no;
-    tourism=caravan_site;
-    website=https://stellplatz.info/wohnmobilstellplatz/tschiertschen-furgglis-winter-geschlosen;
-    id=node/11368582942</desc>
-    <link href="https://stellplatz.info/wohnmobilstellplatz/tschiertschen-furgglis-winter-geschlosen">
-    </link>
-  </wpt>
   <wpt lat="46.923834" lon="9.0005185">
     <ele>649</ele>
     <name>Unsere kleine Farm</name>
@@ -1563,7 +1493,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.7581542" lon="7.5415879">
     <ele>667</ele>
     <name>Bim Wald</name>
-    <desc>name=Bim Wald; tourism=caravan_site;
+    <desc>fee=yes; name=Bim Wald; tourism=caravan_site;
     id=node/11459206750</desc>
   </wpt>
   <wpt lat="47.2801926" lon="7.5255225">
@@ -1581,6 +1511,22 @@ version="1.1" creator="togpx">
     <desc>operator=Heilihof; tourism=caravan_site;
     id=node/11584904603</desc>
   </wpt>
+  <wpt lat="46.7228982" lon="9.4040432">
+    <ele>1316</ele>
+    <name>Wohnmobil-Stellplatz +plus+ Heinzenberg-Lescha</name>
+    <desc>addr:city=Sarn; addr:postcode=7423; addr:street=Parkplatz
+    Skilift Sarn-Lescha; description=Die Stellplätze bei Sarn
+    bieten auf verschiedenen Ebenen viel Platz und eine
+    fantastische, unverbaubare Aussicht ins Tal und die
+    gegenüberliegenden Bergketten.; email=tomdietz@hotmail.ch;
+    image=https://img.oastatic.com/img2/85629929/max/variant.jpg?revbust=de522f32;
+    mobile=+41 79 290 47 86; name=Wohnmobil-Stellplatz +plus+
+    Heinzenberg-Lescha; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    website=https://www.stellplatzplus-heinzenberg.ch/;
+    id=node/11866172581</desc>
+    <link href="https://www.stellplatzplus-heinzenberg.ch/"></link>
+  </wpt>
   <wpt lat="47.0239695" lon="7.47337134498367">
     <ele>522</ele>
     <name>Camping Moossee</name>
@@ -1594,6 +1540,19 @@ version="1.1" creator="togpx">
     <name>Wohnwagenplatz</name>
     <desc>name=Wohnwagenplatz; tourism=caravan_site;
     type=multipolygon; id=relation/11065355</desc>
+  </wpt>
+  <wpt lat="46.8102103" lon="9.5876406">
+    <ele>1668</ele>
+    <name>Stellplatz Furgglis, Tschiertschen</name>
+    <desc>capacity=6; description=CHF 15.- Öffnungszeiten: 15.05. -
+    23.10.; fee=yes; name=Stellplatz Furgglis, Tschiertschen;
+    power_supply=no; sanitary_dump_station=no;
+    seasonal=spring,summer,autumn; toilets=no;
+    tourism=caravan_site; type=multipolygon;
+    website=https://www.tschiertschen.ch/de/uebersicht-unterkuenfte/wohnmobil-stellplaetze-tschiertschen;
+    id=relation/17428365</desc>
+    <link href="https://www.tschiertschen.ch/de/uebersicht-unterkuenfte/wohnmobil-stellplaetze-tschiertschen">
+    </link>
   </wpt>
   <wpt lat="46.733155749999995" lon="9.547326901077334">
     <ele>1488</ele>
@@ -1648,7 +1607,7 @@ version="1.1" creator="togpx">
     <name>way/68884445</name>
     <desc>tourism=caravan_site; id=way/68884445</desc>
   </wpt>
-  <wpt lat="47.378627449999996" lon="9.670772275528307">
+  <wpt lat="47.378554" lon="9.670717885071642">
     <ele>410</ele>
     <name>Campingplatz Diepoldsau</name>
     <desc>name=Campingplatz Diepoldsau; tourism=caravan_site;
@@ -1947,6 +1906,18 @@ version="1.1" creator="togpx">
     sanitary_dump_station=no; tourism=caravan_site;
     id=way/1057422382</desc>
   </wpt>
+  <wpt lat="46.97120955" lon="8.786288977958327">
+    <ele>646</ele>
+    <name>Stellfläche Campingplatz Husky-Lodge</name>
+    <desc>fee=yes; name=Stellfläche Campingplatz Husky-Lodge;
+    operator=Erlebniswelt Muotathal GmbH; phone=+41 41 831 81 50;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site;
+    website=https://www.erlebniswelt.ch/camping/information/;
+    wheelchair=yes; id=way/1064767412</desc>
+    <link href="https://www.erlebniswelt.ch/camping/information/">
+    </link>
+  </wpt>
   <wpt lat="46.33503985" lon="8.60752125">
     <ele>435</ele>
     <name>Stellplatz Bignasco</name>
@@ -2071,6 +2042,14 @@ version="1.1" creator="togpx">
     l'Allaine; surface=asphalt; tents=no; tourism=caravan_site;
     id=way/1267721152</desc>
   </wpt>
+  <wpt lat="47.5873871" lon="8.289812914984083">
+    <ele>345</ele>
+    <name>Therme Zurzach</name>
+    <desc>capacity=3; caravan_site=motorhome_stopover;
+    caravan_site:type=parking_lot, swimming_pool; caravans=no;
+    fee=yes; name=Therme Zurzach; surface=asphalt; tents=no;
+    tourism=caravan_site; id=way/1268406439</desc>
+  </wpt>
   <trk>
     <name>Camping Moossee</name>
     <trkseg>
@@ -2130,6 +2109,29 @@ version="1.1" creator="togpx">
       <trkpt lat="47.5049754" lon="9.4437143"></trkpt>
       <trkpt lat="47.5049018" lon="9.4435476"></trkpt>
       <trkpt lat="47.5045359" lon="9.4432905"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Stellplatz Furgglis, Tschiertschen</name>
+    <trkseg>
+      <trkpt lat="46.8102103" lon="9.5876406"></trkpt>
+      <trkpt lat="46.8102479" lon="9.587701"></trkpt>
+      <trkpt lat="46.8103415" lon="9.5879008"></trkpt>
+      <trkpt lat="46.8104269" lon="9.5877573"></trkpt>
+      <trkpt lat="46.8103792" lon="9.5876473"></trkpt>
+      <trkpt lat="46.8103388" lon="9.5876098"></trkpt>
+      <trkpt lat="46.8102451" lon="9.5876151"></trkpt>
+      <trkpt lat="46.8102103" lon="9.5876406"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="46.8110345" lon="9.5890675"></trkpt>
+      <trkpt lat="46.8110721" lon="9.5889924"></trkpt>
+      <trkpt lat="46.8110318" lon="9.5888516"></trkpt>
+      <trkpt lat="46.8109455" lon="9.5888087"></trkpt>
+      <trkpt lat="46.8108978" lon="9.5888235"></trkpt>
+      <trkpt lat="46.8109134" lon="9.5888771"></trkpt>
+      <trkpt lat="46.8110061" lon="9.5890045"></trkpt>
+      <trkpt lat="46.8110345" lon="9.5890675"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -2258,8 +2260,8 @@ version="1.1" creator="togpx">
       <trkpt lat="47.37854" lon="9.6701885"></trkpt>
       <trkpt lat="47.3784817" lon="9.6702345"></trkpt>
       <trkpt lat="47.378436" lon="9.6702402"></trkpt>
-      <trkpt lat="47.3781649" lon="9.6699981"></trkpt>
-      <trkpt lat="47.3778317" lon="9.6706003"></trkpt>
+      <trkpt lat="47.378174" lon="9.6699746"></trkpt>
+      <trkpt lat="47.3778021" lon="9.6706229"></trkpt>
       <trkpt lat="47.3787024" lon="9.6713705"></trkpt>
       <trkpt lat="47.3787795" lon="9.6710849"></trkpt>
       <trkpt lat="47.3788282" lon="9.6708662"></trkpt>
@@ -3173,6 +3175,16 @@ version="1.1" creator="togpx">
       <trkpt lat="47.419861" lon="7.0752593"></trkpt>
       <trkpt lat="47.419916" lon="7.0751768"></trkpt>
       <trkpt lat="47.4197907" lon="7.0749944"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Therme Zurzach</name>
+    <trkseg>
+      <trkpt lat="47.5874473" lon="8.2898311"></trkpt>
+      <trkpt lat="47.5873703" lon="8.2897252"></trkpt>
+      <trkpt lat="47.5873268" lon="8.2897947"></trkpt>
+      <trkpt lat="47.5874039" lon="8.2899006"></trkpt>
+      <trkpt lat="47.5874473" lon="8.2898311"></trkpt>
     </trkseg>
   </trk>
 </gpx>
