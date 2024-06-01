@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-05-01T09:04:30Z", "timestamp_areas_base":
-      "2024-05-01T07:38:27Z", "copyright": "The data included in
+      "2024-06-01T15:49:43Z", "timestamp_areas_base":
+      "2024-06-01T13:23:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -96,9 +96,9 @@ version="1.1" creator="togpx">
     brand:wikidata=Q680727;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Migros; opening_hours=Mo-Fr
-    07:30-20:00, PH off, Sa 08:00-19:00; operator=Genossenschaft
-    Migros Ostschweiz; shop=supermarket;
+    cash_withdrawal:type=checkout; level=0; name=Migros;
+    opening_hours=Mo-Fr 07:30-20:00, PH off, Sa 08:00-19:00;
+    operator=Genossenschaft Migros Ostschweiz; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-winterthur-toess;
     wheelchair=yes; id=node/70656488</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-winterthur-toess">
@@ -194,7 +194,7 @@ version="1.1" creator="togpx">
     addr:housenumber=31-35; addr:postcode=8001;
     addr:street=Löwenstrasse; alt_name=Migros City (MMM);
     branch=Zürich City; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=de:Migros; level=2,3; name=Migros;
+    brand:wikipedia=de:Migros; indoor=yes; level=2,3; name=Migros;
     opening_hours=Mo-Sa 09:00-20:00, PH off;
     operator=Genossenschaft Migros Zürich; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-city;
@@ -725,7 +725,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=333;
     addr:postcode=8003; addr:street=Badenerstrasse; alt_name=Coop
     Albisriederplatz; branch=Zürich Albisriederplatz; brand=Coop;
-    brand:wikidata=Q432564; check_date:opening_hours=2021-06-14;
+    brand:wikidata=Q432564; check_date:opening_hours=2024-05-20;
     level=0; name=Coop; old_name=EPA Albisriederplatz;
     opening_hours=Mo-Sa 07:00-22:00, PH off; operator=Coop
     Genossenschaft; shop=supermarket; website=https://www.coop.ch/;
@@ -808,27 +808,14 @@ version="1.1" creator="togpx">
     wheelchair=yes; id=node/267344304</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
   </wpt>
-  <wpt lat="47.3858089" lon="8.5165739">
-    <ele>405</ele>
-    <name>Coop</name>
-    <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=1;
-    addr:postcode=8005; addr:street=Maagplatz; alt_name=Coop
-    Maagplatz; branch=Zürich Maagplatz; brand=Coop;
-    brand:wikidata=Q432564; name=Coop; opening_hours=Mo-Fr
-    06:00-20:00, Sa 08:00-20:00; opening_hours:covid19=Mo-Fr
-    06:00-20:00; operator=Coop Genossenschaft; shop=supermarket;
-    wheelchair=yes; id=node/267345511</desc>
-  </wpt>
   <wpt lat="47.3855977" lon="8.5314709">
     <ele>420</ele>
     <name>Migros</name>
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=152;
     addr:postcode=8005; addr:street=Limmatstrasse; alt_name=Migros
     Limmatplatz (MMM); branch=Zürich Limmatplatz; brand=Migros;
-    brand:wikidata=Q680727; brand:wikipedia=de:Migros;
-    check_date=2023-06-02; check_date:opening_hours=2022-10-06;
-    internet_access=wlan; level=-1; name=Migros;
-    opening_hours=Mo-Sa 07:30-20:00, PH off;
+    brand:wikidata=Q680727; internet_access=wlan; level=-1;
+    name=Migros; opening_hours=Mo-Sa 07:30-20:00, PH off;
     operator=Genossenschaft Migros Zürich;
     payment:american_express=yes; payment:app=yes;
     payment:apple_pay=yes; payment:cash=yes; payment:coins=yes;
@@ -1278,7 +1265,8 @@ version="1.1" creator="togpx">
     branch=suisse; brand=ALDI; brand:wikidata=Q41171672;
     brand:wikipedia=hu:Aldi Süd; internet_access=wlan; name=ALDI;
     opening_hours=Mo-Th 07:30-19:00, Fr 07:30-20:00, Sa
-    07:30-17:00; shop=supermarket; id=node/280130028</desc>
+    07:30-17:00; shop=supermarket; wheelchair=yes;
+    id=node/280130028</desc>
   </wpt>
   <wpt lat="46.9561025" lon="7.4467039">
     <ele>545</ele>
@@ -1546,12 +1534,13 @@ version="1.1" creator="togpx">
     brand:wikipedia=de:Migros;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; contact:addr:full=Marktgasse 46,
-    3011 Bern; contact:phone=+41 58 5676300; internet_access=wlan;
-    internet_access:fee=no; internet_access:ssid=MIGROS WiFi;
-    level=-1,0; name=Migros; opening_hours=Mo 09:00-19:00, Tu-We
-    08:00-19:00, Th 08:00-21:00, Fr 08:00-20:00, Sa 07:30-17:00, PH
-    off; operator=Genossenschaft Migros Aare; shop=supermarket;
+    cash_withdrawal:type=checkout; check_date=2024-05-29;
+    contact:addr:full=Marktgasse 46, 3011 Bern; contact:phone=+41
+    58 5676300; internet_access=wlan; internet_access:fee=no;
+    internet_access:ssid=MIGROS WiFi; level=-1,0; name=Migros;
+    opening_hours=Mo 09:00-19:00, Tu-We 08:00-19:00, Th
+    08:00-21:00, Fr 08:00-20:00, Sa 07:30-17:00, PH off;
+    operator=Genossenschaft Migros Aare; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-bern-marktgasse;
     wheelchair=yes; id=node/287001910</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-bern-marktgasse">
@@ -2569,8 +2558,9 @@ version="1.1" creator="togpx">
     addr:postcode=8057; addr:street=Schaffhauserstrasse;
     alt_name=Migros Schaffhauserplatz; branch=Zürich
     Schaffhauserplatz; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=de:Migros; check_date:opening_hours=2022-09-02;
-    name=Migros; opening_hours=Mo-Sa 07:30-21:00, PH off;
+    brand:wikipedia=de:Migros; check_date=2024-05-23;
+    check_date:opening_hours=2022-09-02; name=Migros;
+    opening_hours=Mo-Sa 07:30-21:00, PH off;
     operator=Genossenschaft Migros Zürich; shop=supermarket;
     start_date=14.09.1929;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-schaffhauserplatz;
@@ -2783,7 +2773,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.4456555" lon="9.1396772">
     <ele>514</ele>
     <name>Coop</name>
-    <desc>brand=Coop; brand:wikidata=Q432564; name=Coop;
+    <desc>brand=Coop; brand:wikidata=Q432564;
+    check_date:opening_hours=2024-05-12; name=Coop;
     opening_hours=Mo-Fr 08:00-19:00, Sa 08:00-17:00, Su off;
     shop=supermarket;
     website=https://www.coop.ch/de/unternehmen/standorte-und-oeffnungszeiten/detail.html/1892/coop-supermarkt-niederuzwil.html;
@@ -3146,7 +3137,8 @@ version="1.1" creator="togpx">
     addr:street=Route du Rawyl; brand=Migros;
     brand:wikidata=Q680727; cash_withdrawal=postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Migros; shop=supermarket;
+    cash_withdrawal:type=checkout; name=Migros; opening_hours=Mo-Su
+    08:00-19:00; phone=+41 27 720 65 70; shop=supermarket;
     website=https://www.migros.ch/; id=node/355287954</desc>
     <link href="https://www.migros.ch/"></link>
   </wpt>
@@ -3544,8 +3536,8 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Denner (supermarket);
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Denner; shop=supermarket;
-    id=node/384874978</desc>
+    cash_withdrawal:type=checkout; level=0; name=Denner;
+    shop=supermarket; id=node/384874978</desc>
   </wpt>
   <wpt lat="47.458697" lon="8.3289577">
     <ele>396</ele>
@@ -4105,9 +4097,16 @@ version="1.1" creator="togpx">
   <wpt lat="46.9300564" lon="7.1229006">
     <ele>444</ele>
     <name>Migros</name>
-    <desc>branch=MM; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=en:Migros; internet_access=wlan; name=Migros;
-    shop=supermarket; wheelchair=yes; id=node/427655235</desc>
+    <desc>addr:housenumber=18; addr:postcode=3280;
+    addr:street=Bernstrasse; branch=MM; brand=Migros;
+    brand:wikidata=Q680727; brand:wikipedia=en:Migros;
+    internet_access=wlan; name=Migros; opening_hours=Mo-Sa
+    08:00-20:00, Su 08:00-18:00; operator=Genossenschaft Migros
+    Neuenburg-Freiburg; phone=+41585732550; shop=supermarket;
+    website=https://filialen.migros.ch/de/migros-supermarkt-morat;
+    wheelchair=yes; id=node/427655235</desc>
+    <link href="https://filialen.migros.ch/de/migros-supermarkt-morat">
+    </link>
   </wpt>
   <wpt lat="47.4813558" lon="8.4538601">
     <ele>457</ele>
@@ -4744,8 +4743,9 @@ version="1.1" creator="togpx">
     addr:postcode=8050; addr:street=Hofwiesenstrasse;
     alt_name=Migros Oerlikon Neumarkt (MM); branch=Zürich Oerlikon
     Neumarkt; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=de:Migros; check_date=2023-04-18; level=1;
-    name=Migros; opening_hours=Mo-Sa 08:00-20:00, PH off;
+    brand:wikipedia=de:Migros; check_date=2023-04-18;
+    check_date:opening_hours=2024-05-14; level=1; name=Migros;
+    opening_hours=Mo-Sa 08:00-20:00, PH off;
     operator=Genossenschaft Migros Zürich; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-oerlikon-neumarkt;
     wheelchair=yes; id=node/457133149</desc>
@@ -4975,7 +4975,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.2554228" lon="8.6897575">
     <ele>415</ele>
     <name>Coop</name>
-    <desc>check_date:opening_hours=2024-03-25; name=Coop;
+    <desc>brand=Coop; brand:wikidata=Q432564;
+    check_date:opening_hours=2024-03-25; name=Coop;
     opening_hours=Mo-Sa 07:00-20:00; shop=supermarket;
     wheelchair=yes; id=node/472627966</desc>
   </wpt>
@@ -5806,7 +5807,7 @@ version="1.1" creator="togpx">
     <ele>563</ele>
     <name>Hallerladen</name>
     <desc>alt_name=Hallerladen - der Biomarkt;
-    check_date=2022-09-26; check_date:opening_hours=2021-10-20;
+    check_date=2022-09-26; check_date:opening_hours=2024-05-19;
     contact:addr=Länggassstrasse 30, 3012 Bern;
     contact:email=info@hallerladen.ch; contact:fax=+41 31 3055225;
     contact:phone=+41 31 3020124; name=Hallerladen;
@@ -7132,8 +7133,8 @@ version="1.1" creator="togpx">
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; contact:phone=+41 58 567 26 50;
-    name=Migros; opening_hours=Mo-Fr 08:00-18:30,Sa 07:30-18:00, PH
-    off; operator=Genossenschaft Migros Aare; payment:cash=yes;
+    name=Migros; opening_hours=Mo-Fr 08:00-18:30, Sa 07:30-18:00,
+    PH off; operator=Genossenschaft Migros Aare; payment:cash=yes;
     shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuchwil;
     wheelchair=yes; id=node/668900326</desc>
@@ -7517,7 +7518,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.2170961" lon="6.0871917">
     <ele>439</ele>
     <name>M Outlet</name>
-    <desc>name=M Outlet; shop=supermarket; id=node/707091128</desc>
+    <desc>check_date=2024-05-23; name=M Outlet; shop=supermarket;
+    id=node/707091128</desc>
   </wpt>
   <wpt lat="46.2145319" lon="6.0829705">
     <ele>444</ele>
@@ -7577,10 +7579,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.6184509" lon="8.0288104">
     <ele>950</ele>
     <name>Landi</name>
-    <desc>name=Landi; opening_hours=Mo-Sa 07:30-18:30;
-    shop=supermarket;
-    website=http://http://www.landi-grindelwald.ch/;
+    <desc>brand=Landi; brand:wikidata=Q1803010; name=Landi;
+    opening_hours=Mo-Sa 07:30-18:30; shop=supermarket;
+    website=https://www.landi-grindelwald.ch/;
     id=node/708770230</desc>
+    <link href="https://www.landi-grindelwald.ch/"></link>
   </wpt>
   <wpt lat="47.4984205" lon="8.7291183">
     <ele>451</ele>
@@ -8366,8 +8369,9 @@ version="1.1" creator="togpx">
     <name>ALDI</name>
     <desc>addr:city=Flums; addr:country=CH; addr:housenumber=18;
     addr:postcode=8890; addr:street=Lochrietstrasse; brand=ALDI;
-    brand:wikidata=Q41171672; brand:wikipedia=en:Aldi; name=ALDI;
-    shop=supermarket; website=https://www.aldi-suisse.ch/;
+    brand:wikidata=Q41171672; brand:wikipedia=en:Aldi;
+    check_date=2024-05-24; name=ALDI; shop=supermarket;
+    website=https://www.aldi-suisse.ch/; wheelchair=yes;
     id=node/835610427</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
   </wpt>
@@ -8887,7 +8891,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.252907" lon="8.6959699">
     <ele>432</ele>
     <name>Denner</name>
-    <desc>cash_withdrawal=migros_bank,postfinance_card;
+    <desc>brand=Denner; brand:wikidata=Q379911;
+    cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; name=Denner; opening_hours=Mo-Fr
     08:00-20:00, Sa 07:30-18:00; shop=supermarket; wheelchair=yes;
@@ -10823,7 +10828,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.4951343" lon="7.0148473">
     <ele>370</ele>
     <name>Coop</name>
-    <desc>name=Coop; shop=supermarket; id=node/1297534861</desc>
+    <desc>brand=Coop; brand:wikidata=Q432564; name=Coop;
+    shop=supermarket; id=node/1297534861</desc>
   </wpt>
   <wpt lat="46.9287343" lon="6.812411">
     <ele>485</ele>
@@ -11119,9 +11125,9 @@ version="1.1" creator="togpx">
     <desc>cash_withdrawal=yes; cash_withdrawal:fee=no;
     cash_withdrawal:operator=sonect;
     cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Volg; opening_hours=Mo-Sa
-    06:00-21:00; shop=supermarket; wheelchair=limited;
-    id=node/1345879673</desc>
+    cash_withdrawal:type=checkout; check_date=2024-05-18;
+    name=Volg; opening_hours=Mo-Sa 06:00-21:00; shop=supermarket;
+    wheelchair=limited; id=node/1345879673</desc>
   </wpt>
   <wpt lat="47.1951635" lon="8.7231329">
     <ele>503</ele>
@@ -11149,7 +11155,7 @@ version="1.1" creator="togpx">
     <link href="https://filialen.migros.ch/de/migros-supermarkt-wollerau-maert-roospark">
     </link>
   </wpt>
-  <wpt lat="45.869842" lon="8.9802283">
+  <wpt lat="45.8698434" lon="8.9801707">
     <ele>330</ele>
     <name>Denner</name>
     <desc>brand=Denner; brand:wikidata=Q379911;
@@ -11677,8 +11683,9 @@ version="1.1" creator="togpx">
     <name>Spar</name>
     <desc>cash_withdrawal=postfinance_card; cash_withdrawal:fee=no;
     cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Spar; shop=supermarket;
-    id=node/1433944987</desc>
+    cash_withdrawal:type=checkout; name=Spar;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    shop=supermarket; id=node/1433944987</desc>
   </wpt>
   <wpt lat="47.6552302" lon="9.1642088">
     <ele>398</ele>
@@ -12294,8 +12301,8 @@ version="1.1" creator="togpx">
     operator:rm=La Posta; operator:wikidata=Q614803;
     shop=supermarket; id=node/1575832208</desc>
   </wpt>
-  <wpt lat="46.9999926" lon="8.6087819">
-    <ele>439</ele>
+  <wpt lat="46.9998738" lon="8.6092318">
+    <ele>438</ele>
     <name>Migros</name>
     <desc>addr:city=Brunnen; addr:housenumber=19;
     addr:postcode=6440; addr:street=Bahnhofplatz; alt_name=Migros
@@ -12303,9 +12310,9 @@ version="1.1" creator="togpx">
     brand:wikidata=Q680727; brand:wikipedia=en:Migros;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Migros; opening_hours=Mo-Fr
-    08:00-19:00, Sa 08:00-17:00; operator=Genossenschaft Migros
-    Luzern; shop=supermarket;
+    cash_withdrawal:type=checkout; level=1; name=Migros;
+    opening_hours=Mo-Fr 08:00-19:00, Sa 08:00-17:00;
+    operator=Genossenschaft Migros Luzern; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-brunnen-bahnhofsmaercht;
     id=node/1575842960</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-brunnen-bahnhofsmaercht">
@@ -12562,7 +12569,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Adliswil; addr:housenumber=10;
     addr:postcode=8134; addr:street=Florastrasse; brand=Denner;
     brand:wikidata=Q379911; brand:wikipedia=en:Denner
-    (supermarket); check_date:opening_hours=2023-01-27; layer=-1;
+    (supermarket); check_date:opening_hours=2024-05-22; layer=-1;
     level=-1; name=Denner; opening_hours=Mo-Sa 07:00-20:00, Su
     08:00-18:00; shop=supermarket;
     website=https://www.denner.ch/de/filialen/denner-filiale-und-oeffnungszeiten/store/ladenzentrum-bahnhof/;
@@ -12953,8 +12960,8 @@ version="1.1" creator="togpx">
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout;
-    check_date:opening_hours=2023-03-16; name=Migros;
-    opening_hours=Mo-Fr 08:00-19:00, Sa 07:30-18:00, PH off;
+    check_date:opening_hours=2024-05-25; name=Migros;
+    opening_hours=Mo-Fr 08:00-20:00, Sa 07:30-18:00, PH off;
     operator=Genossenschaft Migros Basel; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-basel-efringer;
     wheelchair=yes; id=node/1668864828</desc>
@@ -12965,8 +12972,8 @@ version="1.1" creator="togpx">
     <ele>260</ele>
     <name>Sevi vel</name>
     <desc>addr:housenumber=26; addr:street=Efringerstrasse;
-    check_date=2023-02-08; name=Sevi vel;
-    opening_hours=10:00-22:00; phone=+41 61 681 78 05;
+    check_date=2023-02-08; name=Sevi vel; opening_hours=Mo-Sa
+    10:00-22:00, Su 09:00-22:00; phone=+41 61 681 78 05;
     shop=supermarket; wheelchair=yes; id=node/1668864839</desc>
   </wpt>
   <wpt lat="46.1799721" lon="7.3867698">
@@ -13270,7 +13277,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.245729" lon="8.7046492">
     <ele>325</ele>
     <name>Coop</name>
-    <desc>brand=Coop; brand:wikidata=Q432564; diet:halal=no;
+    <desc>brand=Coop; brand:wikidata=Q432564;
+    check_date:opening_hours=2024-05-10; diet:halal=no;
     diet:kosher=no; internet_access=wlan; internet_access:fee=no;
     name=Coop; opening_hours=Mo-Fr 08:00-19:00, Sa 08:00-18:30;
     shop=supermarket; wheelchair=yes; id=node/1719860114</desc>
@@ -13320,7 +13328,7 @@ version="1.1" creator="togpx">
     <link href="https://filialen.migros.ch/de/migros-supermarkt-kloten">
     </link>
   </wpt>
-  <wpt lat="47.4521478" lon="8.5809705">
+  <wpt lat="47.4521775" lon="8.580982">
     <ele>439</ele>
     <name>Balazi Food</name>
     <desc>addr:city=Kloten; addr:housenumber=136;
@@ -13734,7 +13742,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Basel; addr:housename=Höheners;
     addr:housenumber=30; addr:postcode=4051;
     addr:street=Schützenmattstrasse;
-    check_date:opening_hours=2023-03-03; level=0; name=Höheners;
+    check_date:opening_hours=2024-05-29; level=0; name=Höheners;
     opening_hours=Mo-Fr 08:30-18:30, Sa 08:30-17:00; organic=yes;
     phone=+41 61 274 02 60; shop=supermarket;
     website=http://www.hoeheners.ch; wheelchair=yes;
@@ -13955,8 +13963,9 @@ version="1.1" creator="togpx">
     <name>Denner</name>
     <desc>cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Denner; shop=supermarket;
-    wheelchair=yes; id=node/1841363692</desc>
+    cash_withdrawal:type=checkout; check_date=2024-05-18;
+    name=Denner; shop=supermarket; wheelchair=yes;
+    id=node/1841363692</desc>
   </wpt>
   <wpt lat="47.4341523" lon="8.5676371">
     <ele>426</ele>
@@ -14196,8 +14205,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.9391211" lon="8.9986784">
     <ele>1261</ele>
     <name>Dorfladen</name>
-    <desc>name=Dorfladen; opening_hours=Mo-Fr 08:00-12:00,
-    14:00-18:30, Sa 08:00-16:00; shop=supermarket;
+    <desc>name=Dorfladen; opening_hours=Mo-Fr
+    08:00-12:00,15:00-18:00, Sa 08:00-16:00; shop=supermarket;
     id=node/1892844610</desc>
   </wpt>
   <wpt lat="47.3677261" lon="8.6794858">
@@ -14912,9 +14921,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Flums; addr:country=CH; addr:housenumber=22;
     addr:postcode=8890; addr:street=Lochrietstrasse; brand=Landi;
     brand:wikidata=Q1803010; brand:wikipedia=de:Landi
-    (Unternehmen); name=Landi; shop=supermarket;
-    website=http://www.landiflumswalenseeag.ch/;
-    id=node/2076304495</desc>
+    (Unternehmen); check_date=2024-05-24; name=Landi;
+    shop=supermarket; website=http://www.landiflumswalenseeag.ch/;
+    wheelchair=yes; id=node/2076304495</desc>
     <link href="http://www.landiflumswalenseeag.ch/"></link>
   </wpt>
   <wpt lat="47.0969482" lon="9.3547555">
@@ -14922,9 +14931,10 @@ version="1.1" creator="togpx">
     <name>Lidl</name>
     <desc>addr:city=Flums; addr:country=CH; addr:housenumber=29;
     addr:postcode=8890; addr:street=Lochrietstrasse; brand=Lidl;
-    brand:wikidata=Q151954; brand:wikipedia=en:Lidl; name=Lidl;
-    opening_hours=Mo-We, Fr 07:30-20:00, Th 07:30-21:00, Sa
-    07:30-18:00; shop=supermarket; website=https://www.lidl.ch/;
+    brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
+    check_date=2024-05-24; name=Lidl; opening_hours=Mo-We, Fr
+    07:30-20:00, Th 07:30-21:00, Sa 07:30-18:00; shop=supermarket;
+    website=https://www.lidl.ch/; wheelchair=yes;
     id=node/2076304500</desc>
     <link href="https://www.lidl.ch/"></link>
   </wpt>
@@ -15153,7 +15163,7 @@ version="1.1" creator="togpx">
     <name>Coop</name>
     <desc>branch=Coop Allschwilerstrasse; brand=Coop;
     brand:wikidata=Q432564; brand:wikipedia=de:Coop (Schweiz);
-    check_date:opening_hours=2022-09-03; name=Coop;
+    check_date:opening_hours=2024-06-01; name=Coop;
     opening_hours=Mo-Fr 07:30-20:00, Sa 07:30-18:00;
     shop=supermarket;
     website=https://www.coop.ch/de/unternehmen/standorte-und-oeffnungszeiten/detail.html/1175/coop-supermarkt-basel-allschwilerstrasse.html;
@@ -15167,10 +15177,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Basel; addr:country=CH; addr:housenumber=4-6;
     addr:postcode=4055; addr:street=Türkheimerstrasse; brand=ALDI;
     brand:wikidata=Q41171672; brand:wikipedia=en:Aldi;
-    internet_access=wlan; name=ALDI; opening_hours=Mo-Fr
-    08:00-20:00, Sa 08:00-18:00; phone=+41613018465;
-    shop=supermarket; website=https://www.aldi-suisse.ch;
-    wheelchair=yes; id=node/2105814888</desc>
+    check_date:opening_hours=2024-05-28; internet_access=wlan;
+    name=ALDI; opening_hours=Mo-Fr 08:00-20:00, Sa 08:00-18:00;
+    phone=+41613018465; shop=supermarket;
+    website=https://www.aldi-suisse.ch; wheelchair=yes;
+    id=node/2105814888</desc>
     <link href="https://www.aldi-suisse.ch"></link>
   </wpt>
   <wpt lat="46.5949191" lon="9.6013134">
@@ -15569,13 +15580,6 @@ version="1.1" creator="togpx">
     payment:twint=yes; shop=supermarket; wheelchair=yes;
     id=node/2204677096</desc>
   </wpt>
-  <wpt lat="47.1187625" lon="7.336277">
-    <ele>432</ele>
-    <name>Landi Schweiz AG</name>
-    <desc>addr:housenumber=5; addr:postcode=3293;
-    addr:street=Schulriederstrasse; name=Landi Schweiz AG;
-    shop=supermarket; id=node/2210041808</desc>
-  </wpt>
   <wpt lat="46.9481457" lon="7.4459907">
     <ele>554</ele>
     <name>Coop</name>
@@ -15746,8 +15750,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Aarwangen; addr:housenumber=44;
     addr:postcode=4912; addr:street=Langenthalstrasse; alt_name=VOI
     Aarwangen; branch=Aarwangen; brand=VOI Migros Partner;
-    name=VOI; opening_hours=Mo-Fr 08:00-19:00, Sa 08:00-17:00, PH
-    off; operator=Genossenschaft Migros Aare; shop=supermarket;
+    check_date=2024-05-20; name=VOI; opening_hours=Mo-Fr
+    08:00-19:00, Sa 08:00-17:00, PH off; operator=Genossenschaft
+    Migros Aare; shop=supermarket;
     website=https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-aarwangen;
     id=node/2286976913</desc>
     <link href="https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-aarwangen">
@@ -16466,7 +16471,7 @@ version="1.1" creator="togpx">
     <ele>391</ele>
     <name>Uchitomi</name>
     <desc>addr:housenumber=13; addr:postcode=1202; addr:street=Rue
-    Ferrier; check_date:opening_hours=2023-03-15;
+    Ferrier; check_date:opening_hours=2024-05-29;
     contact:facebook=uchitomi.ch; contact:instagram=uchitomi;
     email=geneve@uchitomi.ch; name=Uchitomi; note=Japanese grocery
     and sushi store; opening_hours=Mo-Fr 09:00-18:30, Sa
@@ -16840,7 +16845,7 @@ version="1.1" creator="togpx">
     <name>Coop</name>
     <desc>addr:city=Zürich; addr:country=CH; addr:postcode=8048;
     addr:street=Vulkanplatz; alt_name=Coop Westlink; branch=Zürich
-    Westlink; check_date:opening_hours=2023-05-16;
+    Westlink; check_date:opening_hours=2024-05-19;
     internet_access=wlan; name=Coop; opening_hours=Mo-Sa
     06:00-22:00, Su 08:00-20:00; operator=Coop Genossenschaft;
     shop=supermarket; wheelchair=yes; id=node/2516241931</desc>
@@ -17368,15 +17373,6 @@ version="1.1" creator="togpx">
     Di : 18h30-19h; operator=Piguet René et Marie-Mad; phone=+4121
     845 55 62; shop=supermarket; id=node/2636579555</desc>
   </wpt>
-  <wpt lat="47.5397111" lon="8.8226081">
-    <ele>448</ele>
-    <name>Volg</name>
-    <desc>addr:city=Gundetswil; addr:housenumber=12;
-    addr:postcode=8543; addr:street=Hauptstrasse;
-    branch=Gundetswil; brand=Volg; brand:wikidata=Q2530746;
-    name=Volg; opening_hours=Mo-Fr 06:00-18:30, Sa 07:30-12:00;
-    shop=supermarket; id=node/2637958553</desc>
-  </wpt>
   <wpt lat="47.3221618" lon="8.1564315">
     <ele>558</ele>
     <name>Volg</name>
@@ -17578,8 +17574,8 @@ version="1.1" creator="togpx">
     <desc>cash_withdrawal=yes; cash_withdrawal:fee=no;
     cash_withdrawal:operator=sonect;
     cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Volg; shop=supermarket;
-    id=node/2703100191</desc>
+    cash_withdrawal:type=checkout; check_date=2024-05-27;
+    name=Volg; shop=supermarket; id=node/2703100191</desc>
   </wpt>
   <wpt lat="47.5845892" lon="8.8733199">
     <ele>464</ele>
@@ -17760,7 +17756,7 @@ version="1.1" creator="togpx">
     website=https://www.volg.ch/; id=node/2769900453</desc>
     <link href="https://www.volg.ch/"></link>
   </wpt>
-  <wpt lat="47.5895431" lon="8.1752165">
+  <wpt lat="47.589579" lon="8.175238">
     <ele>339</ele>
     <name>Volg</name>
     <desc>brand=Volg; brand:wikidata=Q2530746; cash_withdrawal=yes;
@@ -18147,7 +18143,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Köniz; addr:country=CH; addr:housename=Zentrum
     Wabern; addr:housenumber=240; addr:postcode=3084;
     addr:street=Seftigenstrasse; addr:suburb=Wabern; brand=Coop;
-    brand:wikidata=Q432564; check_date:opening_hours=2021-08-27;
+    brand:wikidata=Q432564; check_date:opening_hours=2024-05-07;
     contact:phone=+41 31 9601320; name=Coop; opening_hours=Mo-Fr
     08:00-20:00, Sa 08:00-17:00; shop=supermarket; source=survey
     and website; wheelchair=yes; id=node/2915808779</desc>
@@ -18349,7 +18345,7 @@ version="1.1" creator="togpx">
   <wpt lat="46.515799" lon="6.631004">
     <ele>446</ele>
     <name>S. M. T. New Asian Shop</name>
-    <desc>check_date:opening_hours=2023-01-12; name=S. M. T. New
+    <desc>check_date:opening_hours=2024-05-05; name=S. M. T. New
     Asian Shop; opening_hours=Mo-Su 09:00-21:00; shop=supermarket;
     wheelchair=no; id=node/2941613606</desc>
   </wpt>
@@ -18529,8 +18525,9 @@ version="1.1" creator="togpx">
     <ele>559</ele>
     <name>Coop</name>
     <desc>branch=Bern Muesmatt; brand=Coop; brand:wikidata=Q432564;
-    brand:wikipedia=de:Coop (Schweiz); contact:addr=Genossenweg 1,
-    3012 Bern; contact:fax=+41 31 3021406; contact:phone=+41 31
+    brand:wikipedia=de:Coop (Schweiz);
+    check_date:opening_hours=2024-06-01; contact:addr=Genossenweg
+    1, 3012 Bern; contact:fax=+41 31 3021406; contact:phone=+41 31
     3012256; name=Coop; opening_hours=Mo-Fr 08:00-20:00, Sa
     08:00-17:00, Su off, PH off; shop=supermarket;
     website=https://www.coop.ch/de/services/standorte-und-oeffnungszeiten/detail.html/1572/coop-supermarkt-bern-muesmatt.html;
@@ -18628,8 +18625,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.554628" lon="6.375424">
     <ele>708</ele>
-    <name>node/2999539733</name>
-    <desc>shop=supermarket; id=node/2999539733</desc>
+    <name>Ballens Épicerie</name>
+    <desc>name=Ballens Épicerie; shop=supermarket;
+    id=node/2999539733</desc>
   </wpt>
   <wpt lat="47.329774" lon="8.5152768">
     <ele>463</ele>
@@ -18980,9 +18978,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Buochs; addr:housenumber=6; addr:postcode=6374;
     addr:street=Nähseydi; alt_name=Coop Buochs; branch=Buochs;
     brand=Coop; brand:wikidata=Q432564; level=0; name=Coop;
-    opening_hours=Mo-Th 07:30-20:00, Fr 07:30-21:00, Sa
-    07:30-20:00, Su off, PH off; operator=Coop Genossenschaft;
-    shop=supermarket; wheelchair=yes; id=node/3111679875</desc>
+    opening_hours=Mo-Sa 07:30-20:00, Su off, PH off; operator=Coop
+    Genossenschaft; shop=supermarket; wheelchair=yes;
+    id=node/3111679875</desc>
   </wpt>
   <wpt lat="47.0508934" lon="7.2839968">
     <ele>449</ele>
@@ -19510,14 +19508,15 @@ version="1.1" creator="togpx">
     toilets:wheelchair=yes; wheelchair=yes; wikidata=Q57289203;
     id=node/3303882792</desc>
   </wpt>
-  <wpt lat="47.3930808" lon="8.0431509">
+  <wpt lat="47.393087" lon="8.0431289">
     <ele>375</ele>
     <name>Al Solito Posto</name>
-    <desc>addr:housenumber=1; addr:street=Adelbändli; name=Al
-    Solito Posto; opening_hours=Tu-Fr 09:00-12:00,14:00-18:30, Sa
-    08:00-16:00; phone=062 824 51 49; shop=supermarket;
+    <desc>addr:housenumber=1; addr:street=Adelbändli;
+    check_date=2024-05-11; name=Al Solito Posto;
+    opening_hours=Tu-Fr 09:00-12:00,14:00-18:30, Sa 08:00-16:00;
+    phone=062 824 51 49; shop=supermarket;
     website=https://www.heartbeat-aarau.ch/detail/al-solito-posto-aarau;
-    id=node/3305442961</desc>
+    wheelchair=no; id=node/3305442961</desc>
     <link href="https://www.heartbeat-aarau.ch/detail/al-solito-posto-aarau">
     </link>
   </wpt>
@@ -20187,7 +20186,8 @@ version="1.1" creator="togpx">
     <name>Coop</name>
     <desc>addr:housenumber=8; addr:street=Wachtelweg; brand=Coop;
     brand:wikidata=Q432564; brand:wikipedia=de:Coop (Schweiz);
-    contact:fax=+41 32 613 2041; contact:phone=+41 32 613 2040;
+    check_date=2024-05-19; contact:fax=+41 32 613 2041;
+    contact:phone=+41 32 613 2040;
     contact:website=https://www.coop.ch/de/services/standorte-und-oeffnungszeiten/detail.html/1272/coop-supermarkt-subingen.html;
     name=Coop; opening_hours=Mo-Fr 07:00-18:30, Sa 07:30-17:00, PH
     off; payment:american_express=yes; payment:cash=yes;
@@ -22114,7 +22114,7 @@ version="1.1" creator="togpx">
     <ele>255</ele>
     <name>Coop</name>
     <desc>addr:city=Basel; addr:housenumber=19; addr:postcode=4058;
-    addr:street=Schorenweg; check_date:opening_hours=2023-03-18;
+    addr:street=Schorenweg; check_date:opening_hours=2024-05-26;
     name=Coop; opening_hours=Mo-Fr 07:30-19:00, Sa 07:30-18:00;
     shop=supermarket; source=knoweldge; wheelchair=yes;
     id=node/4099869676</desc>
@@ -22512,18 +22512,6 @@ version="1.1" creator="togpx">
     du Petit-Saconnex; opening_hours=Mo-Su 06:00-22:00;
     operator=Tamoil; shop=supermarket; id=node/4224270326</desc>
   </wpt>
-  <wpt lat="47.5563661" lon="7.5728015">
-    <ele>282</ele>
-    <name>Denner Express</name>
-    <desc>addr:city=Basel; addr:housenumber=38; addr:postcode=4055;
-    addr:street=Allschwilerstrasse; brand=Denner;
-    brand:wikidata=Q379911; brand:wikipedia=en:Denner
-    (supermarket); cash_withdrawal=migros_bank,postfinance_card;
-    cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; name=Denner Express;
-    opening_hours=Mo-Fr 08:00-18:30, Sa 07:30-17:00;
-    shop=supermarket; wheelchair=yes; id=node/4226311279</desc>
-  </wpt>
   <wpt lat="47.6352888" lon="8.77123">
     <ele>419</ele>
     <name>Volg</name>
@@ -22681,6 +22669,15 @@ version="1.1" creator="togpx">
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; name=Denner; shop=supermarket;
     wheelchair=yes; id=node/4299006521</desc>
+  </wpt>
+  <wpt lat="47.3754253" lon="8.5193941">
+    <ele>415</ele>
+    <name>Lidl</name>
+    <desc>branch=Zürich Lochergut; brand=Lidl;
+    brand:wikidata=Q151954; construction=yes; name=Lidl;
+    operator=Lidl Schweiz; shop=supermarket;
+    website=https://www.lidl.ch/; id=node/4306410933</desc>
+    <link href="https://www.lidl.ch/"></link>
   </wpt>
   <wpt lat="47.0568709" lon="8.3101171">
     <ele>446</ele>
@@ -23318,9 +23315,10 @@ version="1.1" creator="togpx">
     brand:wikipedia=de:Migros;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; level=-1; name=Migros;
-    opening_hours=Mo-Fr 07:30-20:00, Sa 08:00-18:00, PH off;
-    operator=Genossenschaft Migros Ostschweiz; shop=supermarket;
+    cash_withdrawal:type=checkout; check_date=2024-05-27; level=-1;
+    name=Migros; opening_hours=Mo-Fr 07:30-20:00, Sa 08:00-18:00,
+    PH off; operator=Genossenschaft Migros Ostschweiz;
+    shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-aadorf;
     id=node/4419872582</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-aadorf">
@@ -23379,10 +23377,10 @@ version="1.1" creator="togpx">
     addr:place=Hauptbahnhof, Halle Landesmuseum;
     addr:postcode=8001; alt_name=Migros Hauptbahnhof; branch=Zürich
     HB; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=en:Migros; check_date:opening_hours=2023-04-02;
-    indoor=yes; level=-2; name=Migros; opening_hours=Mo-Fr
-    06:30-22:00, PH,Sa-Su 08:00-22:00; operator=Genossenschaft
-    Migros Zürich; shop=supermarket;
+    check_date:opening_hours=2023-04-02; indoor=yes; level=-2;
+    name=Migros; opening_hours=Mo-Fr 06:30-22:00, PH,Sa-Su
+    08:00-22:00; operator=Genossenschaft Migros Zürich;
+    shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-hauptbahnhof;
     wheelchair=yes; id=node/4424654362</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-zuerich-hauptbahnhof">
@@ -23394,11 +23392,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zürich; addr:country=CH;
     addr:place=Hauptbahnhof, Halle Löwenstrasse;
     addr:postcode=8001; alt_name=Coop Hauptbahnhof; branch=Zürich
-    HB; brand=Coop; brand:wikidata=Q432564; brand:wikipedia=de:Coop
-    (Schweiz); check_date:opening_hours=2023-10-17; indoor=yes;
-    level=-2; name=Coop; opening_hours=Mo-Sa 06:00-22:00, Su
-    08:00-22:00; operator=Coop Genossenschaft; shop=supermarket;
-    id=node/4424679510</desc>
+    HB; brand=Coop; brand:wikidata=Q432564;
+    check_date:opening_hours=2023-10-17; indoor=yes; level=-2;
+    name=Coop; opening_hours=Mo-Sa 06:00-22:00, Su 08:00-22:00;
+    operator=Coop Genossenschaft; shop=supermarket;
+    website=https://www.coop.ch/; id=node/4424679510</desc>
+    <link href="https://www.coop.ch/"></link>
   </wpt>
   <wpt lat="47.3770315" lon="8.5394102">
     <ele>411</ele>
@@ -23406,10 +23405,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zürich; addr:country=CH; addr:place=ShopVille;
     addr:postcode=8001; alt_name=Migros ShopVilleMärt;
     branch=Zürich ShopVilleMärt; brand=Migros;
-    brand:wikidata=Q680727; brand:wikipedia=de:Migros; indoor=yes;
-    level=-1; name=Migros; opening_hours=Mo-Fr 06:30-20:00,
-    PH,Sa-Su 08:00-20:00; operator=Genossenschaft Migros Zürich;
-    shop=supermarket;
+    brand:wikidata=Q680727; indoor=yes; level=-1; name=Migros;
+    opening_hours=Mo-Fr 06:30-20:00, PH,Sa-Su 08:00-20:00;
+    operator=Genossenschaft Migros Zürich; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-shopvillemaert;
     wheelchair=yes; id=node/4424939155</desc>
     <link href="https://filialen.migros.ch/de/migros-supermarkt-zuerich-shopvillemaert">
@@ -23554,9 +23552,10 @@ version="1.1" creator="togpx">
     <name>Coop</name>
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=42;
     addr:postcode=8005; addr:street=Zollstrasse; alt_name=Coop
-    Zollstrasse; brand=Coop; brand:wikidata=Q432564; name=Coop;
-    opening_hours=Mo-Sa 07:00-21:00; operator=Coop Genossenschaft;
-    shop=supermarket; wheelchair=yes; id=node/4466482789</desc>
+    Zollstrasse; brand=Coop; brand:wikidata=Q432564;
+    check_date=2024-05-25; name=Coop; opening_hours=Mo-Sa
+    07:00-21:00; operator=Coop Genossenschaft; shop=supermarket;
+    wheelchair=yes; id=node/4466482789</desc>
   </wpt>
   <wpt lat="46.0117661" lon="8.96642">
     <ele>290</ele>
@@ -23815,8 +23814,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.0351154" lon="7.3131457">
     <ele>562</ele>
     <name>Volg</name>
-    <desc>cash_withdrawal=yes; cash_withdrawal:fee=no;
-    cash_withdrawal:operator=sonect;
+    <desc>brand=Volg; brand:wikidata=Q2530746; cash_withdrawal=yes;
+    cash_withdrawal:fee=no; cash_withdrawal:operator=sonect;
     cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout;
     check_date:opening_hours=2022-05-29; name=Volg;
@@ -24193,7 +24192,8 @@ version="1.1" creator="togpx">
     <name>VOI</name>
     <desc>addr:city=VOI; addr:housenumber=259; addr:postcode=3084;
     addr:street=Seftigenstrasse; alt_name=VOI Wabern;
-    branch=Wabern; brand=VOI; brand:wikidata=Q110277616; name=VOI;
+    branch=Wabern; brand=VOI; brand:wikidata=Q110277616;
+    check_date:opening_hours=2024-05-07; name=VOI;
     opening_hours=Mo-Fr 08:00-20:00, Sa 08:00-17:00, PH off;
     operator=Genossenschaft Migros Aare; shop=supermarket;
     website=https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-wabern;
@@ -24352,13 +24352,15 @@ version="1.1" creator="togpx">
   <wpt lat="47.2696693" lon="8.2023495">
     <ele>519</ele>
     <name>Volg</name>
-    <desc>brand=Volg; brand:wikidata=Q2530746;
-    brand:wikipedia=de:Volg; cash_withdrawal=yes;
-    cash_withdrawal:fee=no; cash_withdrawal:operator=sonect;
+    <desc>addr:city=Beinwil am See; addr:housenumber=54;
+    addr:postcode=5712; addr:street=Aarauerstrasse; brand=Volg;
+    brand:wikidata=Q2530746; brand:wikipedia=de:Volg;
+    cash_withdrawal=yes; cash_withdrawal:fee=no;
+    cash_withdrawal:operator=sonect;
     cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; name=Volg; opening_hours=Mo-Sa
-    06:00-20:00, Su 08:00-20:00; shop=supermarket;
-    id=node/4776674841</desc>
+    06:00-20:00, Su 08:00-20:00; phone=+41 62 771 20 40;
+    shop=supermarket; id=node/4776674841</desc>
   </wpt>
   <wpt lat="46.8058382" lon="7.1636648">
     <ele>581</ele>
@@ -24513,8 +24515,8 @@ version="1.1" creator="togpx">
     addr:postcode=8047; addr:street=Albisriederstrasse;
     alt_name=Migros Pünt Albisrieden; branch=Zürich
     Albisrieden-Pünt; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=de:Migros; check_date:opening_hours=2023-04-26;
-    name=Migros; opening_hours=Mo-Sa 08:00-20:00, PH off;
+    check_date:opening_hours=2023-04-26; name=Migros;
+    opening_hours=Mo-Sa 08:00-20:00, PH off;
     operator=Genossenschaft Migros Zürich; shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-zuerich-puent;
     wheelchair=yes; id=node/4827130190</desc>
@@ -24681,11 +24683,11 @@ version="1.1" creator="togpx">
     <ele>415</ele>
     <name>Denner</name>
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=152;
-    addr:postcode=8005; addr:street=Limmatstrasse; brand=Denner;
-    brand:wikidata=Q379911; brand:wikipedia=en:Denner
-    (supermarket); indoor=yes; level=0; name=Denner;
-    opening_hours=Mo-Sa 07:30-20:00, PH off; shop=supermarket;
-    wheelchair=yes; id=node/4841796184</desc>
+    addr:postcode=8005; addr:street=Limmatstrasse; branch=Zürich
+    Limmatplatz MM; brand=Denner; brand:wikidata=Q379911;
+    indoor=yes; level=0; name=Denner; opening_hours=Mo-Sa
+    07:30-20:00, PH off; shop=supermarket; wheelchair=yes;
+    id=node/4841796184</desc>
   </wpt>
   <wpt lat="47.1096145" lon="7.8307533">
     <ele>637</ele>
@@ -24840,9 +24842,10 @@ version="1.1" creator="togpx">
     addr:place=Sihlcity; addr:postcode=8045;
     addr:street=Kalanderplatz; alt_name=Coop Sihlcity;
     branch=Zürich Sihlcity; brand=Coop; brand:wikidata=Q432564;
-    level=1; name=Coop; opening_hours=Mo-Fr 09:00-21:00, Sa
-    08:00-21:00; operator=Coop Genossenschaft; shop=supermarket;
-    website=https://www.coop.ch/; id=node/4896104281</desc>
+    check_date=2024-06-01; level=1; name=Coop; opening_hours=Mo-Fr
+    09:00-21:00, Sa 08:00-21:00; operator=Coop Genossenschaft;
+    shop=supermarket; website=https://www.coop.ch/;
+    id=node/4896104281</desc>
     <link href="https://www.coop.ch/"></link>
   </wpt>
   <wpt lat="47.3898336" lon="8.471856">
@@ -25137,10 +25140,10 @@ version="1.1" creator="togpx">
     <name>SPAR</name>
     <desc>addr:city=Basel; addr:housenumber=93; addr:postcode=4055;
     addr:street=Hegenheimerstrasse; brand=Spar;
-    brand:wikidata=Q610492; email=basel.hegenheimerstr@spar.ch;
-    name=SPAR; name:de=SPAR; name:en=SPAR; name:fr=SPAR;
-    opening_hours=Mo-Sa 08:00-19:00, Su 09:00-18:00; phone=+41 61
-    383 15 35; shop=supermarket;
+    brand:wikidata=Q610492; check_date:opening_hours=2024-05-28;
+    email=basel.hegenheimerstr@spar.ch; name=SPAR; name:de=SPAR;
+    name:en=SPAR; name:fr=SPAR; opening_hours=Mo-Sa 08:00-19:00, Su
+    09:00-18:00; phone=+41 61 383 15 35; shop=supermarket;
     website=https://www.spar.ch/spar-maerkte/spar-supermarkt-hegenheimerstrasse-basel/;
     id=node/4975193021</desc>
     <link href="https://www.spar.ch/spar-maerkte/spar-supermarkt-hegenheimerstrasse-basel/">
@@ -25857,11 +25860,11 @@ version="1.1" creator="togpx">
     cash_withdrawal:type=checkout; name=Volg; shop=supermarket;
     id=node/5202280577</desc>
   </wpt>
-  <wpt lat="47.278373" lon="7.3702934">
-    <ele>538</ele>
+  <wpt lat="47.2767141" lon="7.3702299">
+    <ele>531</ele>
     <name>Denner</name>
-    <desc>addr:city=Moutier; addr:housenumber=2;
-    addr:postcode=2740; addr:street=Rue du Moulin; brand=Denner;
+    <desc>addr:city=Moutier; addr:housenumber=1;
+    addr:postcode=2740; addr:street=Rue de l'Écluse; brand=Denner;
     brand:wikidata=Q379911; brand:wikipedia=en:Denner
     (supermarket); cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
@@ -25982,25 +25985,6 @@ version="1.1" creator="togpx">
     <link href="https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-bern-fellergut">
     </link>
   </wpt>
-  <wpt lat="46.9478028" lon="7.4401387">
-    <ele>547</ele>
-    <name>Migros</name>
-    <desc>addr:floor=-1; alt_name=Migros Christoffel; branch=Bern
-    Christoffel; brand=Migros; brand:wikidata=Q680727;
-    brand:wikipedia=de:Migros; check_date=2022-09-11;
-    contact:addr=Christoffel-Unterführung, 3011 Bern; indoor=yes;
-    level=-1; name=Migros; opening_hours=06:00-22:00;
-    operator=Genossenschaft Migros Aare;
-    payment:american_express=yes; payment:contactless=yes;
-    payment:credit_cards=yes; payment:diners_club=yes;
-    payment:jcb=yes; payment:maestro=yes; payment:mastercard=yes;
-    payment:postfinance_card=yes; payment:visa=yes;
-    shop=supermarket;
-    website=https://filialen.migros.ch/de/migros-supermarkt-bern-christoffel;
-    wheelchair=yes; id=node/5246013503</desc>
-    <link href="https://filialen.migros.ch/de/migros-supermarkt-bern-christoffel">
-    </link>
-  </wpt>
   <wpt lat="46.794849" lon="9.4339998">
     <ele>1476</ele>
     <name>Volg</name>
@@ -26075,7 +26059,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zürich; addr:country=CH; addr:housenumber=20;
     addr:postcode=8049; addr:street=Frankentalerstrasse;
     alt_name=Coop Bombach; branch=Zürich Bombach;
-    check_date:opening_hours=2022-05-31; level=0; name=Coop;
+    check_date:opening_hours=2024-05-10; level=0; name=Coop;
     opening_hours=Mo-Fr 06:30-21:00, Sa 07:00-21:00; operator=Coop
     Genossenschaft; operator:wikidata=Q432564; shop=supermarket;
     wheelchair=yes; id=node/5280373595</desc>
@@ -26521,12 +26505,6 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Sa 06:15-20:00; shop=supermarket;
     id=node/5499252489</desc>
   </wpt>
-  <wpt lat="46.758788" lon="7.6273139">
-    <ele>560</ele>
-    <name>Egli</name>
-    <desc>name=Egli; organic=only; shop=supermarket;
-    id=node/5499419500</desc>
-  </wpt>
   <wpt lat="47.0053002" lon="7.6843947">
     <ele>583</ele>
     <name>Coop</name>
@@ -26933,7 +26911,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Basel; addr:housenumber=31; addr:postcode=4055;
     addr:street=Allschwilerstrasse; alt_name=Migros Allschwiler;
     branch=Basel Allschwiler; brand=Migros; brand:wikidata=Q680727;
-    name=Migros; opening_hours=Mo-Fr 08:00-20:00, Sa 07:30-18:00;
+    check_date:opening_hours=2024-05-29; name=Migros;
+    opening_hours=Mo-Fr 08:00-20:00, Sa 07:30-18:00;
     operator=Genossenschaft Migros Basel; phone=+41 58 575 86 70;
     shop=supermarket;
     website=https://filialen.migros.ch/de/migros-supermarkt-basel-allschwiler;
@@ -27818,14 +27797,6 @@ version="1.1" creator="togpx">
     <link href="https://www.coop.ch/de/services/standorte-und-oeffnungszeiten/detail.html/5264/">
     </link>
   </wpt>
-  <wpt lat="47.2239883" lon="7.7794026">
-    <ele>462</ele>
-    <name>Spar Express</name>
-    <desc>addr:city=Langenthal; addr:housenumber=82;
-    addr:postcode=4900; addr:street=Aarwangenstrasse; brand=Spar;
-    brand:wikidata=Q610492; name=Spar Express; shop=supermarket;
-    id=node/6272849779</desc>
-  </wpt>
   <wpt lat="46.5181965" lon="6.5176043">
     <ele>383</ele>
     <name>Migros</name>
@@ -28350,7 +28321,7 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Sa 07:30-21:00; operator=LIDL Schweiz DL AG;
     shop=supermarket; id=node/6479074393</desc>
   </wpt>
-  <wpt lat="46.7778897" lon="9.543732">
+  <wpt lat="46.7778107" lon="9.5437481">
     <ele>1237</ele>
     <name>Migros</name>
     <desc>brand=Migros; brand:wikidata=Q680727;
@@ -28698,7 +28669,7 @@ version="1.1" creator="togpx">
     cash_withdrawal:operator=sonect;
     cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; name=Volg; opening_hours=Mo-Fr
-    07:30-12:15,15:00-19:00,Sa 07:30-16:00; shop=supermarket;
+    07:30-12:15,15:00-19:00, Sa 07:30-16:00; shop=supermarket;
     id=node/6592859586</desc>
   </wpt>
   <wpt lat="47.1266014" lon="7.2556651">
@@ -29147,6 +29118,12 @@ version="1.1" creator="togpx">
     operator=Aldi Suisse; shop=supermarket;
     website=https://www.aldi-suisse.ch/; id=node/6810431764</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
+  </wpt>
+  <wpt lat="46.809155" lon="7.4765386">
+    <ele>768</ele>
+    <name>Bosporus Markt</name>
+    <desc>name=Bosporus Markt; shop=supermarket;
+    id=node/6812149745</desc>
   </wpt>
   <wpt lat="46.6851202" lon="7.6680702">
     <ele>640</ele>
@@ -30675,7 +30652,7 @@ version="1.1" creator="togpx">
     addr:postcode=8483; addr:street=Tösstalstrasse; alt_name=Migros
     Kollbrunn; branch=Kollbrunn; brand=Migros;
     brand:wikidata=Q680727; name=Migros; opening_hours=Mo-Fr
-    07:30-20:00, Sa 08:00-18:00, PH off; operator=Genossenschaft
+    07:30-20:00, Sa 08:00-19:00, PH off; operator=Genossenschaft
     Migros Ostschweiz; shop=supermarket; start_date=2019-11-14;
     website=https://filialen.migros.ch/de/migros-supermarkt-kollbrunn;
     id=node/7684812078</desc>
@@ -30911,8 +30888,8 @@ version="1.1" creator="togpx">
   <wpt lat="46.7483" lon="8.07949">
     <ele>643</ele>
     <name>Ballenberg Spezialitäten</name>
-    <desc>name=Ballenberg Spezialitäten; shop=supermarket;
-    id=node/7786832408</desc>
+    <desc>check_date=2024-05-28; name=Ballenberg Spezialitäten;
+    shop=supermarket; id=node/7786832408</desc>
   </wpt>
   <wpt lat="47.256976" lon="6.9997635">
     <ele>984</ele>
@@ -32012,9 +31989,9 @@ version="1.1" creator="togpx">
     <name>Chez Champion</name>
     <desc>contact:phone=+41797952675;
     contact:website=https://www.chezchampion.ch/; name=Chez
-    Champion; opening_hours=Mo-We 09:00-19:00, Th 09:00-21:00, Fr
-    09:00-20:00, Sa 09:00-17:00, Su,PH 10:00-17:00;
-    shop=supermarket; wheelchair=yes; id=node/8582104717</desc>
+    Champion; opening_hours=Mo-Fr 09:00-19:00, Sa 09:00-17:00,
+    Su,PH 10:00-17:00; shop=supermarket; wheelchair=yes;
+    id=node/8582104717</desc>
     <link href="https://www.chezchampion.ch/"></link>
   </wpt>
   <wpt lat="47.2517306" lon="8.7663174">
@@ -33827,8 +33804,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Brienz BE; addr:country=CH;
     addr:housenumber=139b; addr:postcode=3855;
     addr:street=Hauptstrasse; brand=Coop; brand:wikidata=Q432564;
-    brand:wikipedia=de:Coop (Schweiz); name=Coop; shop=supermarket;
-    id=node/9642593588</desc>
+    brand:wikipedia=de:Coop (Schweiz); check_date=2024-05-29;
+    name=Coop; shop=supermarket; id=node/9642593588</desc>
   </wpt>
   <wpt lat="47.0533568" lon="8.2940792">
     <ele>440</ele>
@@ -35448,13 +35425,20 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.1189965" lon="7.3365347">
     <ele>432</ele>
-    <name>Landi Dotzigen</name>
-    <desc>addr:city=Dotzigen; addr:housenumber=3;
-    addr:postcode=3293; addr:street=Schulriederstrasse; name=Landi
-    Dotzigen; opening_hours=Mo-Fr 08:00-18:30 / Sa: 08:00-17:00;
+    <name>Landi</name>
+    <desc>addr:city=Dotzigen; addr:country=CH; addr:housenumber=3;
+    addr:postcode=3293; addr:street=Schulriederstrasse;
+    branch=Dotzigen; brand=Landi;
+    brand:website=https://www.landi.ch/places/de/landi-dotzigen;
+    brand:wikidata=Q1803010;
+    contact:email=info.dotzigen@landibueren.ch; contact:phone=+41
+    58 476 54 80; contact:website=http://www.landibueren.ch;
+    name=Landi; opening_hours=Mo-Fr 08:00-18:30, Sa 08:00-17:00;
     operator=Landi Genossenschaft Büren an der Aare;
     payment:cards=yes; payment:cash=yes; shop=supermarket;
     id=node/11152511112</desc>
+    <link href="https://www.landi.ch/places/de/landi-dotzigen">
+    </link>
   </wpt>
   <wpt lat="46.6878195" lon="6.9073969">
     <ele>711</ele>
@@ -36009,12 +35993,62 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.6881451" lon="6.9078764">
     <ele>715</ele>
-    <name>Lidle</name>
+    <name>Lidl</name>
     <desc>addr:city=Romont FR; addr:housenumber=6;
     addr:postcode=1680; addr:street=Route de l'Ancienne Ferme 6;
-    name=Lidle; opening_hours=Mo-Th 07:30-19:00, Fr 07:30-21:00, Sa
-    07:30-16:00; operator=Lidle; phone=+41 71 588 05 10;
+    brand=Lidl; brand:wikidata=Q151954; name=Lidl;
+    opening_hours=Mo-Th 07:30-19:00, Fr 07:30-21:00, Sa
+    07:30-16:00; operator=Lidl; phone=+41 71 588 05 10;
     shop=supermarket; id=node/11865826487</desc>
+  </wpt>
+  <wpt lat="46.8647339" lon="8.6544604">
+    <ele>482</ele>
+    <name>Urient</name>
+    <desc>name=Urient; shop=supermarket; id=node/11878878542</desc>
+  </wpt>
+  <wpt lat="46.8647339" lon="8.6544604">
+    <ele>482</ele>
+    <name>Urient</name>
+    <desc>name=Urient; shop=supermarket; id=node/11878889608</desc>
+  </wpt>
+  <wpt lat="47.1711231" lon="7.567527">
+    <ele>447</ele>
+    <name>ALDI</name>
+    <desc>addr:city=Gerlafingen; addr:housenumber=8;
+    addr:postcode=4563; addr:street=Bahnhofstrasse; brand=ALDI;
+    brand:wikidata=Q41171672; brand:wikipedia=en:Aldi; name=ALDI;
+    opening_hours=Mo-Th 07:30-18:30, Fr 07:30-20:00, Sa
+    07:30-18:00; operator=Aldi; shop=supermarket;
+    website=https://www.aldi-suisse.ch; id=node/11881606113</desc>
+    <link href="https://www.aldi-suisse.ch"></link>
+  </wpt>
+  <wpt lat="47.6827368" lon="8.6132832">
+    <ele>440</ele>
+    <name>Migros</name>
+    <desc>addr:city=Neuhausen am Rheinfall; addr:housenumber=4;
+    addr:postcode=8212; addr:street=Im RhyTech; brand=Migros;
+    brand:wikidata=Q680727; name=Migros; opening_hours=Mo-Fr
+    08:00-20:00, Sa 08:00-18:00; shop=supermarket;
+    id=node/11905377229</desc>
+  </wpt>
+  <wpt lat="47.2403052" lon="8.7207035">
+    <ele>414</ele>
+    <name>Alnatura Super Natur Markt</name>
+    <desc>brand=Alnatura; brand:wikidata=Q876811; name=Alnatura
+    Super Natur Markt; opening_hours=Mo-Fr 07:30-19:00, Sa
+    07:30-18:00; organic=only; shop=supermarket;
+    short_name=Alnatura; id=node/11922453677</desc>
+  </wpt>
+  <wpt lat="46.9480264" lon="7.4275112">
+    <ele>551</ele>
+    <name>Coop</name>
+    <desc>addr:housenumber=2a; addr:street=Freiburgstrasse;
+    name=Coop; opening_hours=Mo-Fr 06:00-20:00, 06:00-17:00;
+    shop=supermarket;
+    website=https://www.coop.ch/de/standorte/coop-supermarkt-bern-inselplatz/6634_POS;
+    id=node/11930553840</desc>
+    <link href="https://www.coop.ch/de/standorte/coop-supermarkt-bern-inselplatz/6634_POS">
+    </link>
   </wpt>
   <wpt lat="46.2071539" lon="7.007735456547817">
     <ele>419</ele>
@@ -36247,7 +36281,7 @@ version="1.1" creator="togpx">
     <link href="https://filialen.migros.ch/de/migros-supermarkt-bassersdorf">
     </link>
   </wpt>
-  <wpt lat="47.474426750000006" lon="8.213301681035325">
+  <wpt lat="47.47446455" lon="8.2132644060398">
     <ele>365</ele>
     <name>Coop</name>
     <desc>addr:city=Windisch; addr:country=CH; addr:housenumber=41;
@@ -37084,7 +37118,7 @@ version="1.1" creator="togpx">
     id=way/57903587</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
   </wpt>
-  <wpt lat="46.760508349999995" lon="7.627100797125718">
+  <wpt lat="46.760508349999995" lon="7.627099593131557">
     <ele>564</ele>
     <name>Coop City</name>
     <desc>addr:postcode=3600; building=office; building:levels=5;
@@ -37358,8 +37392,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.75395255" lon="7.146795179735479">
     <ele>751</ele>
     <name>Denner</name>
-    <desc>addr:housenumber=10; addr:street=Au Village;
-    brand=Denner; brand:wikidata=Q379911; brand:wikipedia=en:Denner
+    <desc>addr:city=Ependes FR; addr:housenumber=10;
+    addr:postcode=1731; addr:street=Au Village; brand=Denner;
+    brand:wikidata=Q379911; brand:wikipedia=en:Denner
     (supermarket); building=yes;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
@@ -37444,7 +37479,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Dotzigen; addr:country=CH; addr:housenumber=35;
     addr:postcode=3293; addr:street=Bahnhofstrasse; brand=Volg;
     brand:wikidata=Q2530746; brand:wikipedia=de:Volg; building=yes;
-    ele=433; name=Volg; operator=Volg; shop=supermarket;
+    ele=433; name=Volg; opening_hours=Mo-Fr 06:00-20:00, Sa
+    07:00-17:00; operator=Volg; shop=supermarket;
     id=way/88223249</desc>
   </wpt>
   <wpt lat="47.44301845" lon="9.342439709314245">
@@ -39010,10 +39046,10 @@ version="1.1" creator="togpx">
     <name>VOI</name>
     <desc>addr:city=Wilderswil; addr:country=CH;
     addr:housenumber=27; addr:postcode=3812;
-    addr:street=Hauptstrasse; alt_name=VOI Wilderswil;
-    branch=Wilderswil; brand=VOI Migros Partner; building=yes;
-    cash_withdrawal=postfinance_card; cash_withdrawal:fee=no;
-    cash_withdrawal:purchase_required=no;
+    addr:street=Hauptstrasse; alt_name=VOI Migros-Partner;
+    branch=Wilderswil; brand=VOI; brand:wikidata=Q110277616;
+    building=yes; cash_withdrawal=postfinance_card;
+    cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
     cash_withdrawal:type=checkout; ele=584; name=VOI;
     old_name=Migros Wilderswil; opening_hours=Mo-Sa 08:00-20:00, Su
     08:00-18:00; operator=Genossenschaft Migros Aare;
@@ -39360,7 +39396,7 @@ version="1.1" creator="togpx">
     <name>way/196677518</name>
     <desc>building=yes; shop=supermarket; id=way/196677518</desc>
   </wpt>
-  <wpt lat="47.47493555" lon="8.212680168147278">
+  <wpt lat="47.4749488" lon="8.2126960253872">
     <ele>365</ele>
     <name>Migros</name>
     <desc>addr:city=Windisch; addr:housename=Migros Windisch;
@@ -40045,7 +40081,7 @@ version="1.1" creator="togpx">
     id=way/217895800</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
   </wpt>
-  <wpt lat="46.6197868" lon="7.160526578284342">
+  <wpt lat="46.6197868" lon="7.160526576430064">
     <ele>878</ele>
     <name>Coop</name>
     <desc>addr:city=Charmey (Gruyère); addr:housenumber=1;
@@ -40212,8 +40248,8 @@ version="1.1" creator="togpx">
     (supermarket); building=yes;
     cash_withdrawal=migros_bank,postfinance_card;
     cash_withdrawal:fee=no; cash_withdrawal:purchase_required=no;
-    cash_withdrawal:type=checkout; ele=446; name=Denner;
-    shop=supermarket; id=way/222767923</desc>
+    cash_withdrawal:type=checkout; check_date=2024-05-20; ele=446;
+    name=Denner; shop=supermarket; id=way/222767923</desc>
   </wpt>
   <wpt lat="46.221567050000004" lon="6.095955919166668">
     <ele>428</ele>
@@ -40424,8 +40460,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.5655907" lon="8.907681227300618">
     <ele>394</ele>
     <name>Lidl</name>
-    <desc>addr:housenumber=70; addr:street=Langfeldstrasse;
-    brand=Lidl; brand:wikidata=Q151954; building=yes; name=Lidl;
+    <desc>addr:city=Frauenfeld; addr:housenumber=70;
+    addr:postcode=8500; addr:street=Langfeldstrasse; brand=Lidl;
+    brand:wikidata=Q151954; building=yes; name=Lidl;
     opening_hours=Mo-Sa 07:30-20:00, Th 07:30-21:00, PH off;
     operator=Lidl Schweiz; payment:cash=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:postfinance_card=yes;
@@ -42325,7 +42362,7 @@ version="1.1" creator="togpx">
     name=Coop; opening_hours=Mo-Sa 06:00-23:00, Su 07:00-23:00;
     shop=supermarket; wheelchair=yes; id=way/379582591</desc>
   </wpt>
-  <wpt lat="46.94748725" lon="7.440713826824499">
+  <wpt lat="46.94755895" lon="7.4406708041040694">
     <ele>547</ele>
     <name>Lidl</name>
     <desc>addr:city=Bern; addr:country=CH; addr:floor=-1;
@@ -42438,13 +42475,13 @@ version="1.1" creator="togpx">
     website=https://www.aldi-suisse.ch/; id=way/387169946</desc>
     <link href="https://www.aldi-suisse.ch/"></link>
   </wpt>
-  <wpt lat="46.845836649999995" lon="9.478747037582032">
+  <wpt lat="46.845843599999995" lon="9.478708252761972">
     <ele>567</ele>
     <name>Coop</name>
-    <desc>addr:city=Felsberg; addr:country=CH; addr:housenumber=13;
-    addr:postcode=7012; addr:street=Vordere Gasse; brand=Coop;
-    brand:wikidata=Q432564; building=yes; name=Coop;
-    shop=supermarket; id=way/387214567</desc>
+    <desc>addr:city=Felsberg; addr:country=CH; addr:postcode=7012;
+    addr:street=Vordere Gasse; brand=Coop; brand:wikidata=Q432564;
+    building=yes; name=Coop; shop=supermarket;
+    id=way/387214567</desc>
   </wpt>
   <wpt lat="46.61162495" lon="9.984466504728466">
     <ele>1667</ele>
@@ -42988,18 +43025,6 @@ version="1.1" creator="togpx">
     operator=Lidl Schweiz; shop=supermarket;
     id=way/636383378</desc>
   </wpt>
-  <wpt lat="47.171097" lon="7.56750767423827">
-    <ele>447</ele>
-    <name>ALDI</name>
-    <desc>addr:city=Gerlafingen; addr:housenumber=8;
-    addr:postcode=4563; addr:street=Bahnhofstrasse; brand=ALDI;
-    brand:wikidata=Q41171672; brand:wikipedia=en:Aldi;
-    building=commercial; name=ALDI; opening_hours=Mo-Th
-    07:30-18:30, Fr 07:30-20:00, Sa 07:30-18:00; operator=Aldi;
-    shop=supermarket; website=https://www.aldi-suisse.ch;
-    id=way/640270328</desc>
-    <link href="https://www.aldi-suisse.ch"></link>
-  </wpt>
   <wpt lat="46.8147899" lon="7.513433528643153">
     <ele>549</ele>
     <name>Landi</name>
@@ -43182,7 +43207,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.4220129" lon="7.116159526088477">
     <ele>452</ele>
     <name>Landi</name>
-    <desc>addr:housenumber=2; addr:street=Pré Domont; brand=Landi;
+    <desc>addr:city=Alle; addr:housenumber=2; addr:place=Pré
+    Domont; addr:postcode=2942; brand=Landi;
     brand:wikidata=Q1803010; brand:wikipedia=de:Landi
     (Unternehmen); building=yes; name=Landi; shop=supermarket;
     id=way/786466314</desc>
@@ -43375,16 +43401,6 @@ version="1.1" creator="togpx">
     <link href="https://www.denner.ch/de/filialen/denner-filiale-und-oeffnungszeiten/store/sarganserstrasse-15-8880-walenstadt/">
     </link>
   </wpt>
-  <wpt lat="47.3130226" lon="8.527364980362929">
-    <ele>449</ele>
-    <name>PickMe</name>
-    <desc>addr:city=Adliswil; addr:housenumber=17.1;
-    addr:postcode=8134; addr:street=Zürichstrasse;
-    building:levels=1; changing_table=no;
-    demolished:building=retail; level=0; name=PickMe;
-    opening_hours=24/7; roof:shape=flat; shop=supermarket;
-    toilets=no; id=way/1125475204</desc>
-  </wpt>
   <wpt lat="46.661200550000004" lon="7.5547124166750566">
     <ele>724</ele>
     <name>Coop</name>
@@ -43483,6 +43499,25 @@ version="1.1" creator="togpx">
     name=VOI; opening_hours=Tu-Sa 07:00-20:00, Su 09:00-17:00;
     payment:cards=yes; payment:cash=yes; phone=0585735282;
     shop=supermarket; wheelchair=yes; id=way/1248029815</desc>
+  </wpt>
+  <wpt lat="46.9477315" lon="7.440016611419752">
+    <ele>547</ele>
+    <name>Migros</name>
+    <desc>addr:floor=-1; alt_name=Migros Christoffel; branch=Bern
+    Christoffel; brand=Migros; brand:wikidata=Q680727;
+    brand:wikipedia=de:Migros; check_date=2022-09-11;
+    contact:addr=Christoffel-Unterführung, 3011 Bern; indoor=yes;
+    level=-1; name=Migros; opening_hours=06:00-22:00;
+    operator=Genossenschaft Migros Aare;
+    payment:american_express=yes; payment:contactless=yes;
+    payment:credit_cards=yes; payment:diners_club=yes;
+    payment:jcb=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:postfinance_card=yes; payment:visa=yes;
+    shop=supermarket;
+    website=https://filialen.migros.ch/de/migros-supermarkt-bern-christoffel;
+    wheelchair=yes; id=way/1284966081</desc>
+    <link href="https://filialen.migros.ch/de/migros-supermarkt-bern-christoffel">
+    </link>
   </wpt>
   <trk>
     <name>Landi</name>
@@ -43818,13 +43853,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Coop</name>
     <trkseg>
-      <trkpt lat="47.4744365" lon="8.2130105"></trkpt>
-      <trkpt lat="47.4743891" lon="8.2131145"></trkpt>
-      <trkpt lat="47.474248" lon="8.2134246"></trkpt>
-      <trkpt lat="47.474417" lon="8.2135929"></trkpt>
-      <trkpt lat="47.4746054" lon="8.2131788"></trkpt>
-      <trkpt lat="47.474509" lon="8.2130828"></trkpt>
-      <trkpt lat="47.4744365" lon="8.2130105"></trkpt>
+      <trkpt lat="47.4744168" lon="8.213016"></trkpt>
+      <trkpt lat="47.4743872" lon="8.2130817"></trkpt>
+      <trkpt lat="47.4744084" lon="8.2131027"></trkpt>
+      <trkpt lat="47.4743958" lon="8.2131307"></trkpt>
+      <trkpt lat="47.474259" lon="8.2134406"></trkpt>
+      <trkpt lat="47.474411" lon="8.2135875"></trkpt>
+      <trkpt lat="47.4745894" lon="8.2131836"></trkpt>
+      <trkpt lat="47.4745123" lon="8.2131091"></trkpt>
+      <trkpt lat="47.4744168" lon="8.213016"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -45009,6 +45046,10 @@ version="1.1" creator="togpx">
       <trkpt lat="46.7606557" lon="7.6267856"></trkpt>
       <trkpt lat="46.7606077" lon="7.6267025"></trkpt>
       <trkpt lat="46.7605975" lon="7.6266849"></trkpt>
+      <trkpt lat="46.7603872" lon="7.6269389"></trkpt>
+      <trkpt lat="46.7603928" lon="7.6269467"></trkpt>
+      <trkpt lat="46.7604021" lon="7.6269597"></trkpt>
+      <trkpt lat="46.7603604" lon="7.6269902"></trkpt>
       <trkpt lat="46.7602338" lon="7.627134"></trkpt>
       <trkpt lat="46.7602793" lon="7.6272179"></trkpt>
       <trkpt lat="46.7603248" lon="7.6273019"></trkpt>
@@ -48218,17 +48259,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Migros</name>
     <trkseg>
-      <trkpt lat="47.4750231" lon="8.2131292"></trkpt>
-      <trkpt lat="47.4752559" lon="8.2127008"></trkpt>
-      <trkpt lat="47.474848" lon="8.2122331"></trkpt>
-      <trkpt lat="47.4747989" lon="8.2123379"></trkpt>
-      <trkpt lat="47.4747848" lon="8.2123163"></trkpt>
-      <trkpt lat="47.4746747" lon="8.2125195"></trkpt>
-      <trkpt lat="47.4746451" lon="8.2124812"></trkpt>
-      <trkpt lat="47.4745616" lon="8.2126261"></trkpt>
-      <trkpt lat="47.4746608" lon="8.2127421"></trkpt>
-      <trkpt lat="47.4746711" lon="8.2127177"></trkpt>
-      <trkpt lat="47.4750231" lon="8.2131292"></trkpt>
+      <trkpt lat="47.4750284" lon="8.2131339"></trkpt>
+      <trkpt lat="47.4752551" lon="8.2127066"></trkpt>
+      <trkpt lat="47.4748692" lon="8.2122584"></trkpt>
+      <trkpt lat="47.4748173" lon="8.2123562"></trkpt>
+      <trkpt lat="47.474803" lon="8.2123396"></trkpt>
+      <trkpt lat="47.4746993" lon="8.2125347"></trkpt>
+      <trkpt lat="47.4746594" lon="8.2124882"></trkpt>
+      <trkpt lat="47.4745777" lon="8.2126418"></trkpt>
+      <trkpt lat="47.4746756" lon="8.2127557"></trkpt>
+      <trkpt lat="47.4746863" lon="8.2127355"></trkpt>
+      <trkpt lat="47.4750284" lon="8.2131339"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -49199,6 +49240,7 @@ version="1.1" creator="togpx">
       <trkpt lat="46.6198" lon="7.1607698"></trkpt>
       <trkpt lat="46.6198225" lon="7.1608053"></trkpt>
       <trkpt lat="46.6199889" lon="7.1605826"></trkpt>
+      <trkpt lat="46.6198718" lon="7.1603989"></trkpt>
       <trkpt lat="46.6197736" lon="7.1602449"></trkpt>
       <trkpt lat="46.6196793" lon="7.1603716"></trkpt>
       <trkpt lat="46.6197181" lon="7.160435"></trkpt>
@@ -49691,6 +49733,7 @@ version="1.1" creator="togpx">
       <trkpt lat="46.6667592" lon="7.871876"></trkpt>
       <trkpt lat="46.6667697" lon="7.8719279"></trkpt>
       <trkpt lat="46.666751" lon="7.8719358"></trkpt>
+      <trkpt lat="46.6667587" lon="7.871974"></trkpt>
       <trkpt lat="46.6667998" lon="7.8721774"></trkpt>
       <trkpt lat="46.6669221" lon="7.872126"></trkpt>
       <trkpt lat="46.666957" lon="7.8723017"></trkpt>
@@ -52662,17 +52705,16 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lidl</name>
     <trkseg>
-      <trkpt lat="46.9474086" lon="7.4408237"></trkpt>
-      <trkpt lat="46.9475146" lon="7.4407855"></trkpt>
-      <trkpt lat="46.947502" lon="7.44071"></trkpt>
-      <trkpt lat="46.9475084" lon="7.4406684"></trkpt>
-      <trkpt lat="46.9475844" lon="7.4405524"></trkpt>
-      <trkpt lat="46.9475826" lon="7.4405296"></trkpt>
-      <trkpt lat="46.9475249" lon="7.4405866"></trkpt>
-      <trkpt lat="46.9474725" lon="7.4406502"></trkpt>
-      <trkpt lat="46.9474333" lon="7.4406966"></trkpt>
-      <trkpt lat="46.9473973" lon="7.440752"></trkpt>
-      <trkpt lat="46.9474086" lon="7.4408237"></trkpt>
+      <trkpt lat="46.9474654" lon="7.4408159"></trkpt>
+      <trkpt lat="46.9475974" lon="7.4407684"></trkpt>
+      <trkpt lat="46.9475807" lon="7.4406717"></trkpt>
+      <trkpt lat="46.9475855" lon="7.4406501"></trkpt>
+      <trkpt lat="46.9476599" lon="7.4406228"></trkpt>
+      <trkpt lat="46.9476277" lon="7.4404819"></trkpt>
+      <trkpt lat="46.9475903" lon="7.440522"></trkpt>
+      <trkpt lat="46.9475372" lon="7.4405853"></trkpt>
+      <trkpt lat="46.9474463" lon="7.440703"></trkpt>
+      <trkpt lat="46.9474654" lon="7.4408159"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -52816,11 +52858,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Coop</name>
     <trkseg>
-      <trkpt lat="46.8456633" lon="9.478652"></trkpt>
-      <trkpt lat="46.8458119" lon="9.4790141"></trkpt>
-      <trkpt lat="46.84601" lon="9.4788398"></trkpt>
-      <trkpt lat="46.8458614" lon="9.4784803"></trkpt>
-      <trkpt lat="46.8456633" lon="9.478652"></trkpt>
+      <trkpt lat="46.8456711" lon="9.4786183"></trkpt>
+      <trkpt lat="46.8458146" lon="9.4789726"></trkpt>
+      <trkpt lat="46.8460173" lon="9.4787972"></trkpt>
+      <trkpt lat="46.845974" lon="9.4786904"></trkpt>
+      <trkpt lat="46.8459978" lon="9.4786698"></trkpt>
+      <trkpt lat="46.8459087" lon="9.47845"></trkpt>
+      <trkpt lat="46.8458838" lon="9.4784716"></trkpt>
+      <trkpt lat="46.8458726" lon="9.4784439"></trkpt>
+      <trkpt lat="46.8456711" lon="9.4786183"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -53659,21 +53705,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ALDI</name>
-    <trkseg>
-      <trkpt lat="47.1709579" lon="7.5673437"></trkpt>
-      <trkpt lat="47.1709604" lon="7.5673963"></trkpt>
-      <trkpt lat="47.1709744" lon="7.5676978"></trkpt>
-      <trkpt lat="47.1712196" lon="7.5676733"></trkpt>
-      <trkpt lat="47.1712239" lon="7.567766"></trkpt>
-      <trkpt lat="47.1713261" lon="7.5677558"></trkpt>
-      <trkpt lat="47.1713247" lon="7.5677252"></trkpt>
-      <trkpt lat="47.1714696" lon="7.5677107"></trkpt>
-      <trkpt lat="47.1714502" lon="7.5672945"></trkpt>
-      <trkpt lat="47.1709579" lon="7.5673437"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Landi</name>
     <trkseg>
       <trkpt lat="46.8150002" lon="7.5134829"></trkpt>
@@ -54251,18 +54282,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>PickMe</name>
-    <trkseg>
-      <trkpt lat="47.3130329" lon="8.5274376"></trkpt>
-      <trkpt lat="47.3130497" lon="8.5273732"></trkpt>
-      <trkpt lat="47.3130293" lon="8.5273616"></trkpt>
-      <trkpt lat="47.3130429" lon="8.5273097"></trkpt>
-      <trkpt lat="47.3130159" lon="8.5272944"></trkpt>
-      <trkpt lat="47.3129856" lon="8.5274108"></trkpt>
-      <trkpt lat="47.3130329" lon="8.5274376"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Coop</name>
     <trkseg>
       <trkpt lat="46.6610802" lon="7.554758"></trkpt>
@@ -54381,6 +54400,26 @@ version="1.1" creator="togpx">
       <trkpt lat="46.2496322" lon="6.1484045"></trkpt>
       <trkpt lat="46.2494446" lon="6.148408"></trkpt>
       <trkpt lat="46.2493786" lon="6.1486187"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Migros</name>
+    <trkseg>
+      <trkpt lat="46.9476108" lon="7.4401283"></trkpt>
+      <trkpt lat="46.9476397" lon="7.4401446"></trkpt>
+      <trkpt lat="46.9476575" lon="7.4401529"></trkpt>
+      <trkpt lat="46.9476737" lon="7.4401598"></trkpt>
+      <trkpt lat="46.947695" lon="7.4401665"></trkpt>
+      <trkpt lat="46.9477143" lon="7.4401712"></trkpt>
+      <trkpt lat="46.9477487" lon="7.440175"></trkpt>
+      <trkpt lat="46.9477844" lon="7.440176"></trkpt>
+      <trkpt lat="46.9478402" lon="7.4401741"></trkpt>
+      <trkpt lat="46.947905" lon="7.4401685"></trkpt>
+      <trkpt lat="46.9478628" lon="7.4399087"></trkpt>
+      <trkpt lat="46.9478263" lon="7.439922"></trkpt>
+      <trkpt lat="46.947811" lon="7.4398313"></trkpt>
+      <trkpt lat="46.947568" lon="7.4399194"></trkpt>
+      <trkpt lat="46.9476108" lon="7.4401283"></trkpt>
     </trkseg>
   </trk>
 </gpx>

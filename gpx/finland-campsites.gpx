@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-05-01T09:09:34Z", "timestamp_areas_base":
-      "2024-05-01T07:38:27Z", "copyright": "The data included in
+      "2024-06-01T15:53:45Z", "timestamp_areas_base":
+      "2024-06-01T13:23:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -398,12 +398,14 @@ version="1.1" creator="togpx">
     openfire=yes; operator=Metsähallitus; source=survey; tents=yes;
     toilets=yes; tourism=camp_site; id=node/864909271</desc>
   </wpt>
-  <wpt lat="69.5735369" lon="26.7726858">
+  <wpt lat="69.5735905" lon="26.772939">
     <name>Roajášjávri</name>
     <desc>access=yes; backcountry=yes; capacity=5;
-    drinking_water=yes; fee=no; fireplace=yes; name=Roajášjávri;
-    openfire=yes; operator=Metsähallitus; source=survey;
-    toilets=yes; tourism=camp_site; id=node/865008893</desc>
+    capacity:tents=10; caravans=no; drinking_water=yes; fee=no;
+    fireplace=yes; name=Roajášjávri; openfire=yes;
+    operator=Metsähallitus; source=survey; static_caravans=no;
+    tents=yes; toilets=yes; tourism=camp_site;
+    id=node/865008893</desc>
   </wpt>
   <wpt lat="69.5861983" lon="26.578033">
     <name>node/865009052</name>
@@ -2328,11 +2330,6 @@ version="1.1" creator="togpx">
     <name>node/7746247461</name>
     <desc>fee=no; tourism=camp_site; id=node/7746247461</desc>
   </wpt>
-  <wpt lat="69.3552195" lon="26.4615138">
-    <name>Kaksavarrin erämajat</name>
-    <desc>name=Kaksavarrin erämajat; tourism=camp_site;
-    id=node/7775366594</desc>
-  </wpt>
   <wpt lat="61.9789756" lon="27.0578722">
     <name>Tähtiniemi</name>
     <desc>name=Tähtiniemi; tourism=camp_site;
@@ -3031,6 +3028,16 @@ version="1.1" creator="togpx">
     payment:credit_cards=yes; tents=yes; tourism=camp_site;
     id=node/11734275590</desc>
   </wpt>
+  <wpt lat="61.5639726" lon="25.1890384">
+    <name>Kuhmoisten Matkaparkki</name>
+    <desc>access=customers; addr:street=Vellahdentie;
+    capacity:persons=5; charge=11 € / yöpyminen; dog=yes;
+    drinking_water=yes; fee=yes; name=Kuhmoisten Matkaparkki;
+    operator=Kuhmoisten kunta; payment:app=yes; payment:cards=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:visa=yes; power_supply=yes; static_caravans=yes;
+    toilets=yes; tourism=camp_site; id=node/11919530530</desc>
+  </wpt>
   <wpt lat="62.7551572" lon="22.844307327013546">
     <name>Seinäjoen Leirintäalue</name>
     <desc>cabins=yes; caravans=yes; name=Seinäjoen Leirintäalue;
@@ -3069,16 +3076,19 @@ version="1.1" creator="togpx">
     id=relation/10554633</desc>
     <link href="https://www.orilampi.com/"></link>
   </wpt>
-  <wpt lat="66.59313705" lon="23.886354073059337">
+  <wpt lat="66.59314845" lon="23.886350958107673">
     <name>Arctic Camping</name>
     <desc>access=yes; addr:city=Pello; addr:housenumber=9;
     addr:postcode=95640; addr:street=Karpinniementie; bbq=yes;
     cabins=yes; caravans=yes; charge=15€; drinking_water=yes;
-    email=info@arcticcamping.com; fee=yes; kitchen=yes; name=Arctic
-    Camping; name:fi=Arctic Camping; phone=+358 50 547 1050;
+    email=info@arcticcamping.com; fee=yes; fridge=yes;
+    hot_water=yes; kitchen=yes; motorhome=yes; name=Arctic Camping;
+    name:fi=Arctic Camping; phone=+358 50 547 1050;
     power_supply=yes; reservation=yes; sauna=yes; shower=yes;
-    tents=yes; toilets=yes; tourism=camp_site; type=multipolygon;
-    washing_machine=yes; website=https://www.arcticcamping.com/;
+    socket:schuko=yes; tents=yes; toilets=yes; tourism=camp_site;
+    type=multipolygon; washing_machine=yes;
+    washing_machine:fee=yes;
+    website=https://www.arcticcamping.com/;
     id=relation/10620032</desc>
     <link href="https://www.arcticcamping.com/"></link>
   </wpt>
@@ -4982,6 +4992,18 @@ version="1.1" creator="togpx">
     <name>way/1269035889</name>
     <desc>tourism=camp_site; id=way/1269035889</desc>
   </wpt>
+  <wpt lat="69.3554065" lon="26.461570228439843">
+    <name>Kaksavarrin erämajat</name>
+    <desc>access=yes; addr:city=Karigasniemi;
+    addr:housenumber=4195; addr:postcode=99950;
+    addr:street=Karigasniementie; cabins=yes; fee=yes;
+    name=Kaksavarrin erämajat; static_caravans=no; toilets=yes;
+    tourism=camp_site; id=way/1286332928</desc>
+  </wpt>
+  <wpt lat="60.54095135" lon="22.74986971973994">
+    <name>way/1287049174</name>
+    <desc>tourism=camp_site; id=way/1287049174</desc>
+  </wpt>
   <trk>
     <name>Seinäjoen Leirintäalue</name>
     <trkseg>
@@ -5189,7 +5211,7 @@ version="1.1" creator="togpx">
     <name>Arctic Camping</name>
     <trkseg>
       <trkpt lat="66.5934496" lon="23.8841906"></trkpt>
-      <trkpt lat="66.5933048" lon="23.8844457"></trkpt>
+      <trkpt lat="66.5933276" lon="23.8845057"></trkpt>
       <trkpt lat="66.5934387" lon="23.8847359"></trkpt>
       <trkpt lat="66.5933722" lon="23.8851126"></trkpt>
       <trkpt lat="66.5925117" lon="23.885866"></trkpt>
@@ -11065,6 +11087,7 @@ version="1.1" creator="togpx">
       <trkpt lat="60.3849726" lon="19.8414937"></trkpt>
       <trkpt lat="60.3847963" lon="19.8419416"></trkpt>
       <trkpt lat="60.3848441" lon="19.8425317"></trkpt>
+      <trkpt lat="60.3848338" lon="19.8431317"></trkpt>
       <trkpt lat="60.3848282" lon="19.8434624"></trkpt>
       <trkpt lat="60.3851887" lon="19.8437923"></trkpt>
     </trkseg>
@@ -11456,6 +11479,39 @@ version="1.1" creator="togpx">
       <trkpt lat="60.8397623" lon="24.6919817"></trkpt>
       <trkpt lat="60.8392184" lon="24.6914298"></trkpt>
       <trkpt lat="60.8391023" lon="24.6913121"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kaksavarrin erämajat</name>
+    <trkseg>
+      <trkpt lat="69.3551125" lon="26.4631842"></trkpt>
+      <trkpt lat="69.3556064" lon="26.4626477"></trkpt>
+      <trkpt lat="69.3556219" lon="26.4613383"></trkpt>
+      <trkpt lat="69.3552066" lon="26.4592894"></trkpt>
+      <trkpt lat="69.3550313" lon="26.4592529"></trkpt>
+      <trkpt lat="69.3550421" lon="26.4602158"></trkpt>
+      <trkpt lat="69.3550121" lon="26.4604905"></trkpt>
+      <trkpt lat="69.3550405" lon="26.4609248"></trkpt>
+      <trkpt lat="69.3550956" lon="26.461142"></trkpt>
+      <trkpt lat="69.3551072" lon="26.4612432"></trkpt>
+      <trkpt lat="69.3550524" lon="26.4621702"></trkpt>
+      <trkpt lat="69.3551016" lon="26.46267"></trkpt>
+      <trkpt lat="69.3551125" lon="26.4631842"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1287049174</name>
+    <trkseg>
+      <trkpt lat="60.5438229" lon="22.7456893"></trkpt>
+      <trkpt lat="60.5429192" lon="22.7439778"></trkpt>
+      <trkpt lat="60.5427405" lon="22.7444525"></trkpt>
+      <trkpt lat="60.5400211" lon="22.7480924"></trkpt>
+      <trkpt lat="60.5391439" lon="22.749601"></trkpt>
+      <trkpt lat="60.5401267" lon="22.7515483"></trkpt>
+      <trkpt lat="60.5392877" lon="22.753804"></trkpt>
+      <trkpt lat="60.5400713" lon="22.7550995"></trkpt>
+      <trkpt lat="60.541776" lon="22.7508238"></trkpt>
+      <trkpt lat="60.5438229" lon="22.7456893"></trkpt>
     </trkseg>
   </trk>
 </gpx>

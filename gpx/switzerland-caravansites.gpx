@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-05-01T09:04:30Z", "timestamp_areas_base":
-      "2024-05-01T07:38:27Z", "copyright": "The data included in
+      "2024-06-01T15:49:43Z", "timestamp_areas_base":
+      "2024-06-01T13:23:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -231,12 +231,16 @@ version="1.1" creator="togpx">
     <name>node/5761915053</name>
     <desc>tourism=caravan_site; id=node/5761915053</desc>
   </wpt>
-  <wpt lat="47.2247577" lon="7.7806441">
+  <wpt lat="47.2247823" lon="7.7804692">
     <ele>463</ele>
     <name>Lexa Wohnmobile</name>
     <desc>addr:city=Langenthal; addr:housenumber=49b;
     addr:postcode=4900; addr:street=Bern-Zürich Strasse;
-    capacity=4; name=Lexa Wohnmobile; tourism=caravan_site;
+    capacity=4; caravan_site=motorhome_stopover;
+    caravan_site:type=motorhome_rental; change=10 CHF; fee=yes;
+    name=Lexa Wohnmobile; power_supply=no;
+    sanitary_dump_station=yes; sanitary_dump_station:fee=yes;
+    seasonal=no; tourism=caravan_site; water_point=yes;
     id=node/6180495676</desc>
   </wpt>
   <wpt lat="47.2368241" lon="7.6579881">
@@ -743,18 +747,6 @@ version="1.1" creator="togpx">
     id=node/8674197890</desc>
     <link href="https://www.myvalleedejoux.ch/"></link>
   </wpt>
-  <wpt lat="46.7914504" lon="10.2985785">
-    <ele>1209</ele>
-    <name>Stellplatz Scuol</name>
-    <desc>capacity=16; description=Stellplatz vor dem TCS
-    Campingplatz. Wenn der Camping im Herbst und Frühling
-    geschlossen hat, ist der Platz gratis. Quick-Stop mit Ankunft
-    nach 18 Uhr und Wegfahrt vor 10 Uhr sind die kosten 25.-;
-    email=camping.scuol@tcs.ch; fee=CHF 44.-; motorhome=designated;
-    name=Stellplatz Scuol; phone=+41 81 864 15 01;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; id=node/8747425919</desc>
-  </wpt>
   <wpt lat="46.76352" lon="9.79779">
     <ele>1504</ele>
     <name>Stellplatz Davos</name>
@@ -1130,9 +1122,10 @@ version="1.1" creator="togpx">
   <wpt lat="46.8462271" lon="8.6324083">
     <ele>459</ele>
     <name>Stellplatz Autobahnraststätte Gotthard, Schattdorf</name>
-    <desc>charge=15 EUR; fee:conditional=yes @ (19:00-05:00), no @
-    (05:00-19:00); name=Stellplatz Autobahnraststätte Gotthard,
-    Schattdorf; tourism=caravan_site; id=node/9041988310</desc>
+    <desc>charge=15 EUR; fee=yes; fee:conditional=yes @
+    (19:00-05:00), no @ (05:00-19:00); name=Stellplatz
+    Autobahnraststätte Gotthard, Schattdorf; tourism=caravan_site;
+    id=node/9041988310</desc>
   </wpt>
   <wpt lat="47.006811" lon="6.942906">
     <ele>665</ele>
@@ -1634,12 +1627,10 @@ version="1.1" creator="togpx">
     <desc>name=Camping des Cheseaux; tourism=caravan_site;
     id=way/157375085</desc>
   </wpt>
-  <wpt lat="46.2029646" lon="6.227336012120107">
+  <wpt lat="46.20294695" lon="6.227345940146909">
     <ele>429</ele>
     <name>way/167142405</name>
-    <desc>source=Orthophotos 2011 du SITG (Système d'Information du
-    Territoire Genevois); tourism=caravan_site;
-    id=way/167142405</desc>
+    <desc>tourism=caravan_site; id=way/167142405</desc>
   </wpt>
   <wpt lat="46.89890735" lon="7.048475273672393">
     <ele>431</ele>
@@ -1660,6 +1651,19 @@ version="1.1" creator="togpx">
     <name>Rinerlodge</name>
     <desc>name=Rinerlodge; tourism=caravan_site;
     id=way/219141435</desc>
+  </wpt>
+  <wpt lat="46.791563" lon="10.29871303837981">
+    <ele>1209</ele>
+    <name>Stellplatz Scuol</name>
+    <desc>capacity=12; charge=12.00 CHF + 11.00 CHF/person;
+    description=Stellplatz vor dem TCS Campingplatz;
+    email=camping.scuol@tcs.ch; fee=yes; motorhome=designated;
+    name=Stellplatz Scuol; opening_hours=24/7; payment:app=yes;
+    phone=+41 81 864 15 01; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    website=https://www.parknsleep.app/ps/60096831;
+    id=way/232178328</desc>
+    <link href="https://www.parknsleep.app/ps/60096831"></link>
   </wpt>
   <wpt lat="47.119110750000004" lon="7.998018645554397">
     <ele>569</ele>
@@ -1685,10 +1689,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.16275025" lon="6.165094796801762">
     <ele>428</ele>
-    <name>way/244605042</name>
-    <desc>source=Orthophotos 2011 du SITG (Système d'Information du
-    Territoire Genevois); tourism=caravan_site;
+    <name>Gymnique Lumière</name>
+    <desc>name=Gymnique Lumière; source=Orthophotos 2011 du SITG
+    (Système d'Information du Territoire Genevois);
+    tourism=caravan_site;
+    website=https://inf-fni.org/fr/places/club-gymnique-lumire/;
     id=way/244605042</desc>
+    <link href="https://inf-fni.org/fr/places/club-gymnique-lumire/">
+    </link>
   </wpt>
   <wpt lat="47.0477975" lon="7.15881211913789">
     <ele>429</ele>
@@ -1824,9 +1832,10 @@ version="1.1" creator="togpx">
   <wpt lat="46.43087735" lon="8.845670348700015">
     <ele>759</ele>
     <name>way/726776003</name>
-    <desc>capacity=5; internet_access=no; name:signed=no;
-    power_supply=no; sanitary_dump_station=no;
-    tourism=caravan_site; id=way/726776003</desc>
+    <desc>capacity=5; drinking_water=no; fee=yes;
+    internet_access=no; name:signed=no; power_supply=no;
+    sanitary_dump_station=no; toilets=yes; tourism=caravan_site;
+    id=way/726776003</desc>
   </wpt>
   <wpt lat="46.86375605" lon="8.766501955708662">
     <ele>1003</ele>
@@ -2002,6 +2011,23 @@ version="1.1" creator="togpx">
     <link href="https://www.orpund.ch/de/gemeinde/kultur-und-freizeit/wohnmobilstellplatz.php">
     </link>
   </wpt>
+  <wpt lat="47.58859655" lon="8.567896926397808">
+    <ele>399</ele>
+    <name>Wohnmobilstellplätz Rüdlingen</name>
+    <desc>access=permit; capacity=5;
+    caravan_site=motorhome_stopover; caravan_site:type=river;
+    charge=35 CHF; check_in=14:00; check_out=11:00; fee=yes;
+    maxstay=3 days; name=Wohnmobilstellplätz Rüdlingen;
+    opening_hours=Mar-Oct; operator=Begegnungszentrum Rüdlingen;
+    orientation=diagonal; phone=+41 448670902; power_supply=yes;
+    power_supply:capacity=5; sanitary_dump_station=yes; shower=yes;
+    smoothness=good; socket:cee_blue=yes; surface=asphalt;
+    toilets=yes; tourism=caravan_site; water_point=yes;
+    website=https://begegnungszentrum.ch/angebot/wohnmobilstellplaetze/;
+    wheelchair=yes; id=way/1195250169</desc>
+    <link href="https://begegnungszentrum.ch/angebot/wohnmobilstellplaetze/">
+    </link>
+  </wpt>
   <wpt lat="47.0113923" lon="6.988024080274238">
     <ele>431</ele>
     <name>way/1206787112</name>
@@ -2021,7 +2047,7 @@ version="1.1" creator="togpx">
     <link href="https://www.wohnmobilland-schweiz.ch/Fueer_Wohnmobilisten/Stellplaetze/Detail/Balmberg/580">
     </link>
   </wpt>
-  <wpt lat="47.39313385" lon="8.492162547182813">
+  <wpt lat="47.3931476" lon="8.492139518684425">
     <ele>398</ele>
     <name>Durchgangsplatz Geerenweg</name>
     <desc>fee=yes; name=Durchgangsplatz Geerenweg;
@@ -2202,8 +2228,10 @@ version="1.1" creator="togpx">
       <trkpt lat="46.6319548" lon="8.591531"></trkpt>
       <trkpt lat="46.6322813" lon="8.5912809"></trkpt>
       <trkpt lat="46.6323426" lon="8.5915039"></trkpt>
-      <trkpt lat="46.6324902" lon="8.5914334"></trkpt>
-      <trkpt lat="46.6325161" lon="8.5915531"></trkpt>
+      <trkpt lat="46.6323494" lon="8.5915007"></trkpt>
+      <trkpt lat="46.6324774" lon="8.5914395"></trkpt>
+      <trkpt lat="46.6324942" lon="8.5914518"></trkpt>
+      <trkpt lat="46.6325162" lon="8.5915531"></trkpt>
       <trkpt lat="46.6325603" lon="8.5915345"></trkpt>
       <trkpt lat="46.6325266" lon="8.591415"></trkpt>
       <trkpt lat="46.632458" lon="8.5912119"></trkpt>
@@ -2298,27 +2326,26 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/167142405</name>
     <trkseg>
-      <trkpt lat="46.2024209" lon="6.2274587"></trkpt>
-      <trkpt lat="46.2025588" lon="6.2278145"></trkpt>
-      <trkpt lat="46.2026286" lon="6.2279948"></trkpt>
-      <trkpt lat="46.2027307" lon="6.2279066"></trkpt>
-      <trkpt lat="46.2028574" lon="6.2277549"></trkpt>
-      <trkpt lat="46.2030828" lon="6.2276784"></trkpt>
-      <trkpt lat="46.2031959" lon="6.2276904"></trkpt>
-      <trkpt lat="46.2032467" lon="6.2277629"></trkpt>
-      <trkpt lat="46.2032915" lon="6.2277573"></trkpt>
-      <trkpt lat="46.2033199" lon="6.2277654"></trkpt>
-      <trkpt lat="46.2033375" lon="6.227772"></trkpt>
-      <trkpt lat="46.2033866" lon="6.2277903"></trkpt>
-      <trkpt lat="46.2034086" lon="6.2277952"></trkpt>
-      <trkpt lat="46.2033475" lon="6.2275954"></trkpt>
-      <trkpt lat="46.2032807" lon="6.227401"></trkpt>
-      <trkpt lat="46.2032672" lon="6.227332"></trkpt>
-      <trkpt lat="46.2032354" lon="6.2272705"></trkpt>
-      <trkpt lat="46.2032" lon="6.22723"></trkpt>
-      <trkpt lat="46.2031057" lon="6.2269754"></trkpt>
-      <trkpt lat="46.2030718" lon="6.2268539"></trkpt>
-      <trkpt lat="46.2024209" lon="6.2274587"></trkpt>
+      <trkpt lat="46.2024125" lon="6.2274587"></trkpt>
+      <trkpt lat="46.2025504" lon="6.2278145"></trkpt>
+      <trkpt lat="46.2026202" lon="6.2279948"></trkpt>
+      <trkpt lat="46.2027223" lon="6.2279066"></trkpt>
+      <trkpt lat="46.202849" lon="6.2277549"></trkpt>
+      <trkpt lat="46.2030744" lon="6.2276784"></trkpt>
+      <trkpt lat="46.2031875" lon="6.2276904"></trkpt>
+      <trkpt lat="46.2032383" lon="6.2277629"></trkpt>
+      <trkpt lat="46.2032831" lon="6.2277573"></trkpt>
+      <trkpt lat="46.2033115" lon="6.2277654"></trkpt>
+      <trkpt lat="46.2033291" lon="6.227772"></trkpt>
+      <trkpt lat="46.2033782" lon="6.2277903"></trkpt>
+      <trkpt lat="46.2033891" lon="6.2277778"></trkpt>
+      <trkpt lat="46.2033271" lon="6.2276075"></trkpt>
+      <trkpt lat="46.203244" lon="6.2273749"></trkpt>
+      <trkpt lat="46.203215" lon="6.2273174"></trkpt>
+      <trkpt lat="46.203174" lon="6.227281"></trkpt>
+      <trkpt lat="46.20314" lon="6.2271819"></trkpt>
+      <trkpt lat="46.2030449" lon="6.2268807"></trkpt>
+      <trkpt lat="46.2024125" lon="6.2274587"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -2370,6 +2397,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Stellplatz Scuol</name>
+    <trkseg>
+      <trkpt lat="46.7915105" lon="10.2984716"></trkpt>
+      <trkpt lat="46.7913896" lon="10.2987176"></trkpt>
+      <trkpt lat="46.7916155" lon="10.2989545"></trkpt>
+      <trkpt lat="46.7917364" lon="10.2987084"></trkpt>
+      <trkpt lat="46.7915105" lon="10.2984716"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/232932913</name>
     <trkseg>
       <trkpt lat="47.1194133" lon="7.9980522"></trkpt>
@@ -2396,7 +2433,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/244605042</name>
+    <name>Gymnique Lumière</name>
     <trkseg>
       <trkpt lat="46.1634805" lon="6.1664495"></trkpt>
       <trkpt lat="46.1634811" lon="6.166035"></trkpt>
@@ -3090,6 +3127,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Wohnmobilstellplätz Rüdlingen</name>
+    <trkseg>
+      <trkpt lat="47.5887486" lon="8.568003"></trkpt>
+      <trkpt lat="47.5887465" lon="8.5679645"></trkpt>
+      <trkpt lat="47.5887408" lon="8.5678531"></trkpt>
+      <trkpt lat="47.5884523" lon="8.5678076"></trkpt>
+      <trkpt lat="47.5883748" lon="8.5679059"></trkpt>
+      <trkpt lat="47.5887486" lon="8.568003"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/1206787112</name>
     <trkseg>
       <trkpt lat="47.0115263" lon="6.9878459"></trkpt>
@@ -3129,24 +3177,34 @@ version="1.1" creator="togpx">
   <trk>
     <name>Durchgangsplatz Geerenweg</name>
     <trkseg>
-      <trkpt lat="47.3932035" lon="8.4914498"></trkpt>
-      <trkpt lat="47.3931884" lon="8.4914651"></trkpt>
-      <trkpt lat="47.3931601" lon="8.4915588"></trkpt>
+      <trkpt lat="47.3932052" lon="8.491434"></trkpt>
+      <trkpt lat="47.3931922" lon="8.4914425"></trkpt>
+      <trkpt lat="47.393159" lon="8.4915599"></trkpt>
       <trkpt lat="47.3931721" lon="8.491569"></trkpt>
       <trkpt lat="47.3931076" lon="8.4918099"></trkpt>
       <trkpt lat="47.3930978" lon="8.4918034"></trkpt>
-      <trkpt lat="47.3929217" lon="8.4924432"></trkpt>
+      <trkpt lat="47.3929204" lon="8.4924466"></trkpt>
       <trkpt lat="47.39298" lon="8.4924823"></trkpt>
-      <trkpt lat="47.3929561" lon="8.4926092"></trkpt>
+      <trkpt lat="47.3929509" lon="8.4926148"></trkpt>
+      <trkpt lat="47.3929869" lon="8.4926221"></trkpt>
+      <trkpt lat="47.3930234" lon="8.4926261"></trkpt>
+      <trkpt lat="47.3930588" lon="8.4926272"></trkpt>
       <trkpt lat="47.3930974" lon="8.4926268"></trkpt>
-      <trkpt lat="47.3931764" lon="8.4925974"></trkpt>
-      <trkpt lat="47.3932533" lon="8.4925353"></trkpt>
-      <trkpt lat="47.3932823" lon="8.4922697"></trkpt>
-      <trkpt lat="47.3933754" lon="8.4917419"></trkpt>
-      <trkpt lat="47.3933805" lon="8.49166"></trkpt>
-      <trkpt lat="47.3933714" lon="8.4915936"></trkpt>
-      <trkpt lat="47.3933312" lon="8.4915283"></trkpt>
-      <trkpt lat="47.3932035" lon="8.4914498"></trkpt>
+      <trkpt lat="47.3931362" lon="8.4926213"></trkpt>
+      <trkpt lat="47.3931741" lon="8.4926121"></trkpt>
+      <trkpt lat="47.3932139" lon="8.4925924"></trkpt>
+      <trkpt lat="47.3932566" lon="8.4925607"></trkpt>
+      <trkpt lat="47.3932707" lon="8.4924399"></trkpt>
+      <trkpt lat="47.3932876" lon="8.4923003"></trkpt>
+      <trkpt lat="47.3933144" lon="8.4921087"></trkpt>
+      <trkpt lat="47.3933445" lon="8.4919255"></trkpt>
+      <trkpt lat="47.3933804" lon="8.4917351"></trkpt>
+      <trkpt lat="47.3933864" lon="8.4916955"></trkpt>
+      <trkpt lat="47.3933881" lon="8.4916498"></trkpt>
+      <trkpt lat="47.3933829" lon="8.4916207"></trkpt>
+      <trkpt lat="47.393375" lon="8.4915905"></trkpt>
+      <trkpt lat="47.393341" lon="8.4915178"></trkpt>
+      <trkpt lat="47.3932052" lon="8.491434"></trkpt>
     </trkseg>
   </trk>
   <trk>

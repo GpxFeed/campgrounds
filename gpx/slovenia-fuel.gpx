@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-05-01T09:20:53Z", "timestamp_areas_base":
-      "2024-05-01T07:38:27Z", "copyright": "The data included in
+      "2024-06-01T16:03:00Z", "timestamp_areas_base":
+      "2024-06-01T13:23:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -129,14 +129,19 @@ version="1.1" creator="togpx">
     Krško; opening_hours=24/7; operator=Shell Ardia d.o.o.;
     id=node/2076198354</desc>
   </wpt>
-  <wpt lat="45.7035241" lon="13.8519449">
+  <wpt lat="45.7035078" lon="13.8520033">
     <ele>357</ele>
     <name>Shell - Sežana</name>
     <desc>addr:city=Sežana; addr:country=SI; addr:housenumber=79;
     addr:postcode=6210; addr:street=Partizanska cesta;
-    amenity=fuel; automated=yes; brand=Shell; fuel:HGV_diesel=yes;
-    name=Shell - Sežana; opening_hours=24/7; operator=Shell Ardia
-    d.o.o.; id=node/2076198356</desc>
+    amenity=fuel; automated=yes; brand=Shell;
+    brand:wikidata=Q110716465; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; name=Shell - Sežana; opening_hours=24/7;
+    operator=Shell Ardia d.o.o.;
+    source=https://www.shell.si/poslovne-stranke/crpalke-slovenija/sezana.html;
+    id=node/2076198356</desc>
+    <link href="https://www.shell.si/poslovne-stranke/crpalke-slovenija/sezana.html">
+    </link>
   </wpt>
   <wpt lat="45.9210776" lon="13.6376813">
     <ele>69</ele>
@@ -282,13 +287,13 @@ version="1.1" creator="togpx">
     fuel:lpg=yes; name=Petrol; ref:petrol_si=1165;
     id=node/5266556518</desc>
   </wpt>
-  <wpt lat="45.7036405" lon="13.8507223">
+  <wpt lat="45.7026022" lon="13.8465033">
     <ele>353</ele>
-    <name>LNG</name>
-    <desc>amenity=fuel; fixme=Approximate position, in the news it
-    was they opened in Sežana for trucks, but location was
-    approximate.; fuel:lng=yes; name=LNG; operator=Butan Pling;
+    <name>SiLNG</name>
+    <desc>amenity=fuel; brand=SiLNG; fuel:lng=yes; name=SiLNG;
+    operator=Butan Plin; source=https://lng.si/crpalke.html;
     id=node/5370303225</desc>
+    <link href="https://lng.si/crpalke.html"></link>
   </wpt>
   <wpt lat="46.2462323" lon="14.3775431">
     <ele>396</ele>
@@ -384,9 +389,9 @@ version="1.1" creator="togpx">
     cesta; amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     compressed_air=yes;
     contact:website=https://www.petrol.si/prodajna-mesta/0122-bs-rozna-dolina-bencinski-servis;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Petrol - Rožna dolina; operator=Petrol; shop=convenience;
-    id=node/7977026778</desc>
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=Petrol - Rožna dolina;
+    operator=Petrol; shop=convenience; id=node/7977026778</desc>
     <link href="https://www.petrol.si/prodajna-mesta/0122-bs-rozna-dolina-bencinski-servis">
     </link>
   </wpt>
@@ -430,6 +435,30 @@ version="1.1" creator="togpx">
     <name>PETROL</name>
     <desc>amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     name=PETROL; id=node/11521721933</desc>
+  </wpt>
+  <wpt lat="46.0632768" lon="14.5671607">
+    <ele>286</ele>
+    <name>SiLNG</name>
+    <desc>amenity=fuel; brand=SiLNG; fuel:lng=yes; name=SiLNG;
+    operator=Butan Plin; source=https://lng.si/crpalke.html;
+    id=node/11922096062; ; building=roof; fuel:cng=yes; layer=1;
+    operator=Ljubljanski Potniški Promet; start_date=2022;
+    id=way/1149364710</desc>
+    <link href="https://lng.si/crpalke.html"></link>
+  </wpt>
+  <wpt lat="45.600998" lon="13.933694">
+    <ele>478</ele>
+    <name>INA avtoplin Kozina</name>
+    <desc>amenity=fuel; brand=INA; brand:wikidata=Q1662137;
+    fuel:lpg=yes; name=INA avtoplin Kozina; opening_hours=Mo-Fr
+    08:00-11.00, Mo-Fr 11.30-16:00; operator=INA SLOVENIJA, d.o.o.;
+    id=node/11922131758</desc>
+  </wpt>
+  <wpt lat="45.6059838" lon="13.9310025">
+    <ele>485</ele>
+    <name>node/11922157155</name>
+    <desc>amenity=fuel; fuel:HGV_diesel=yes;
+    id=node/11922157155</desc>
   </wpt>
   <wpt lat="46.2962053" lon="14.5206452">
     <ele>1473</ele>
@@ -861,10 +890,11 @@ version="1.1" creator="togpx">
     <ele>104</ele>
     <name>BS Štaloni</name>
     <desc>addr:housenumber=1b; addr:street=Kozarno; amenity=fuel;
-    brand=Petrol; building=roof; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; layer=1;
-    mapillary=3992348734214844; name=BS Štaloni; operator=Petrol;
-    survey:date=2020-06-15; toilets=yes; id=way/171494588</desc>
+    brand=Petrol; brand:wikidata=Q174824; building=roof;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; layer=1; mapillary=3992348734214844;
+    name=BS Štaloni; operator=Petrol; survey:date=2020-06-15;
+    toilets=yes; id=way/171494588</desc>
   </wpt>
   <wpt lat="46.6104281" lon="15.89384204902904">
     <ele>243</ele>
@@ -881,14 +911,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.537924000000004" lon="13.668580383231635">
     <ele>2</ele>
-    <name>OMV - Izola - Prešernova 2a</name>
+    <name>Shell</name>
     <desc>addr:city=Izola; addr:housenumber=2a; addr:postcode=6310;
-    addr:street=Prešernova cesta; amenity=fuel; brand=OMV;
-    brand:wikidata=Q168238; brand:wikipedia=en:OMV; building=yes;
-    contact:fax=+386 5 6637122; contact:phone=+386 5 6637120;
-    name=OMV - Izola - Prešernova 2a; opening_hours=Oct-May: Mo-Su
-    06:00-22:00, Jun-Sep: Mo-Th 06:00-22:00, Jun-Sep: Fr-Su
-    06:00-24:00; operator=OMV Slovenija d.o.o.;
+    addr:street=Prešernova cesta; amenity=fuel; brand=Shell;
+    brand:wikidata=Q110716465; building=yes; contact:fax=+386 5
+    6637122; contact:phone=+386 5 6637120; name=Shell;
+    opening_hours=Oct-May: Mo-Su 06:00-22:00, Jun-Sep: Mo-Th
+    06:00-22:00, Jun-Sep: Fr-Su 06:00-24:00;
     id=way/180563391</desc>
   </wpt>
   <wpt lat="46.06610535" lon="14.531070308421903">
@@ -913,12 +942,13 @@ version="1.1" creator="togpx">
     <desc>addr:city=Ljubljana; addr:housenumber=70;
     addr:postcode=1000; addr:street=Dunajska cesta; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
-    contact:fax=+386 1 4364775; contact:phone=+386 1 4364770;
+    compressed_air=yes; contact:fax=+386 1 4364775;
+    contact:phone=+386 1 4364770;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2337;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     height=4; name=Petrol - Ljubljana - Dunajska 70;
     opening_hours=Mo-Sa 06:00-22:00, Su 07:00-22:00;
-    operator=Petrol d.d.; id=way/191918537</desc>
+    operator=Petrol d.d.; wheelchair=yes; id=way/191918537</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2337">
     </link>
   </wpt>
@@ -1334,7 +1364,7 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2394">
     </link>
   </wpt>
-  <wpt lat="46.367775" lon="14.15378709206189">
+  <wpt lat="46.367775" lon="14.153787098406475">
     <ele>508</ele>
     <name>Petrol - Lesce</name>
     <desc>addr:city=Lesce; addr:housenumber=13a;
@@ -1344,8 +1374,8 @@ version="1.1" creator="togpx">
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2469;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Lesce;
     opening_hours=Mo-Sa 07:00-20:00, Su 08:00-19:00;
-    operator=Petrol d.d.; ref:petrol_si=2469; source:addr=GURS;
-    source:date=8.11.2016; wheelchair=yes; id=way/192558470</desc>
+    operator=Petrol d.d.; ref:petrol_si=2469; wheelchair=yes;
+    id=way/192558470</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2469">
     </link>
   </wpt>
@@ -1373,8 +1403,7 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Radovljica - Kranjska; opening_hours=Mo-Fr
     05:30-20:00, Sa 06:00-20:00, Su 08:00-19:00; operator=Petrol
-    d.d.; source:addr=GURS; source:date=8.11.2016; wheelchair=yes;
-    id=way/192558472</desc>
+    d.d.; wheelchair=yes; id=way/192558472</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2359">
     </link>
   </wpt>
@@ -1383,11 +1412,13 @@ version="1.1" creator="togpx">
     <name>Petrol - Zgornje Jezersko</name>
     <desc>addr:city=Zgornje Jezersko; addr:housenumber=65a;
     addr:postcode=4206; addr:street=Zgornje Jezersko; amenity=fuel;
-    brand=Petrol; building=yes; contact:phone=+386 4 2545010;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    construction_date=1993; contact:phone=+386 4 2545010;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2372;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Zgornje
     Jezersko; opening_hours=Mo-Su 08:00-12:00,15:00-18:00, Th off;
-    operator=Petrol d.d.; id=way/192558474</desc>
+    operator=Petrol d.d.; ref:gurs:hs_mid=17495771;
+    ref:gurs:sta_sid=25552190; id=way/192558474</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2372">
     </link>
   </wpt>
@@ -1970,16 +2001,18 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2387">
     </link>
   </wpt>
-  <wpt lat="46.27060205" lon="14.313654099999999">
+  <wpt lat="46.27058115" lon="14.313691000000002">
     <ele>405</ele>
     <name>Petrol - Naklo</name>
     <desc>addr:city=Naklo; addr:housenumber=4; addr:postcode=4202;
     addr:street=Kranjska cesta; amenity=fuel; brand=Petrol;
-    building=yes; contact:phone=+386 4 2575040;
+    brand:wikidata=Q174824; building=yes; construction_date=1974;
+    contact:phone=+386 4 2575040;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2386;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Naklo; opening_hours=Mo-Fr 06:00-20:00, Sa
-    07:00-14:00; operator=Petrol d.d.; id=way/192956670</desc>
+    07:00-14:00; operator=Petrol d.d.; ref:gurs:hs_mid=12295219;
+    ref:gurs:sta_sid=20738247; id=way/192956670</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2386">
     </link>
   </wpt>
@@ -1998,27 +2031,13 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2498">
     </link>
   </wpt>
-  <wpt lat="46.21945685" lon="14.790447799999999">
-    <ele>572</ele>
-    <name>Petrol - Češnjice v Tuhinju</name>
-    <desc>addr:city=Laze v Tuhinju; addr:housenumber=1b;
-    addr:postcode=1219; addr:street=Golice; amenity=fuel;
-    brand=Petrol; building=yes; contact:phone=+386 1 8346000;
-    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2458;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Češnjice v
-    Tuhinju; opening_hours=Mo-Sa 07:00-19:00, Su 08:00-13:00;
-    operator=Petrol d.d.; wheelchair=limited;
-    id=way/192956672</desc>
-    <link href="http://www.petrol.si/bencinski-servisi/podrobno/2458">
-    </link>
-  </wpt>
   <wpt lat="46.2289066" lon="14.354658450183152">
     <ele>384</ele>
     <name>Petrol - Kranj - Labore</name>
     <desc>addr:city=Kranj; addr:housenumber=23; addr:postcode=4000;
     addr:street=Ljubljanska cesta; amenity=fuel; brand=Petrol;
-    building=yes; contact:fax=+386 4 2361291; contact:phone=+386 4
-    2361290;
+    building=yes; compressed_air=yes; contact:fax=+386 4 2361291;
+    contact:phone=+386 4 2361290;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2371;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=Petrol - Kranj - Labore;
@@ -2074,33 +2093,35 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2583">
     </link>
   </wpt>
-  <wpt lat="46.2495798" lon="14.347672653505391">
+  <wpt lat="46.249562600000004" lon="14.347712468622499">
     <ele>400</ele>
     <name>Petrol - Kranj - Zlato Polje Vzhod</name>
     <desc>addr:city=Kranj; addr:housenumber=18a;
     addr:postcode=4000; addr:street=Koroška cesta; amenity=fuel;
     brand=Petrol; building=yes; compressed_air=yes;
-    contact:phone=+386 4 2361430;
+    construction_date=1994; contact:phone=+386 4 2361430;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2375;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Kranj - Zlato Polje Vzhod; opening_hours=Mo-Fr
     06:00-20:00, Sa 07:00-20:00, Su 08:00-18:00; operator=Petrol
-    d.d.; source:addr=GURS, 8.11.2016; id=way/193041662</desc>
+    d.d.; ref:gurs:hs_mid=17469991; ref:gurs:sta_sid=27617519;
+    id=way/193041662</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2375">
     </link>
   </wpt>
-  <wpt lat="46.24736225" lon="14.349654158030157">
+  <wpt lat="46.24738979999999" lon="14.349599496787448">
     <ele>394</ele>
     <name>Petrol - Kranj - Zlato Polje Zahod</name>
     <desc>addr:city=Kranj; addr:housenumber=53b;
     addr:postcode=4000; addr:street=Koroška cesta; amenity=fuel;
-    brand=Petrol; building=yes; compressed_air=yes;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    building:levels=3; compressed_air=yes; construction_date=1991;
     contact:fax=+386 4 2361311; contact:phone=+386 4 2361310;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2355;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Kranj - Zlato Polje Zahod; opening_hours=24/7;
-    operator=Petrol d.d.; shop=yes; source:addr=GURS, 8.11.2016;
-    id=way/193041663</desc>
+    operator=Petrol d.d.; ref:gurs:hs_mid=12246749;
+    ref:gurs:sta_sid=22364634; id=way/193041663</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/2355">
     </link>
   </wpt>
@@ -2289,7 +2310,8 @@ version="1.1" creator="togpx">
     <name>Petrol - Črni Vrh</name>
     <desc>addr:city=Črni Vrh; addr:housenumber=121; addr:place=Črni
     Vrh; addr:postcode=5274; amenity=fuel; brand=Petrol;
-    building=yes; contact:phone=+386 5 3778730;
+    brand:wikidata=Q174824; building=yes; contact:phone=+386 5
+    3778730;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/148;
     fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Črni Vrh;
     opening_hours=Mo-Fr 07:00-17:00, Sa 08:00-17:00;
@@ -2344,7 +2366,7 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/1520">
     </link>
   </wpt>
-  <wpt lat="45.53273635" lon="13.735944260080352">
+  <wpt lat="45.532737" lon="13.735943925698528">
     <ele>2</ele>
     <name>Petrol - Koper - Šmarska</name>
     <desc>addr:city=Koper; addr:housenumber=5f; addr:postcode=6000;
@@ -2409,18 +2431,20 @@ version="1.1" creator="togpx">
     <link href="https://www.petrol.si/bencinski-servisi/podrobno/173">
     </link>
   </wpt>
-  <wpt lat="45.95309535" lon="13.690901450000009">
+  <wpt lat="45.953089750000004" lon="13.690927649999992">
     <ele>78</ele>
     <name>Petrol - Ajševica</name>
     <desc>addr:city=Nova Gorica; addr:housenumber=19;
     addr:postcode=5000; addr:street=Ajševica; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
-    contact:fax=+386 5 3330771; contact:phone=+386 5 3330770;
+    construction_date=2004; contact:fax=+386 5 3330771;
+    contact:phone=+386 5 3330770;
     contact:website=https://www.petrol.si/prodajna-mesta/1532-bs-ajsevica-bencinski-servis;
     fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol -
     Ajševica; opening_hours=Mo-Sa 06:00-22:00, Su 08:00-22:00;
-    operator=Petrol d.d.; wheelchair=yes; id=way/193236606</desc>
+    operator=Petrol d.d.; source:construction_date=GURS;
+    wheelchair=yes; id=way/193236606</desc>
     <link href="https://www.petrol.si/prodajna-mesta/1532-bs-ajsevica-bencinski-servis">
     </link>
   </wpt>
@@ -2585,9 +2609,10 @@ version="1.1" creator="togpx">
     building=yes; compressed_air=yes; contact:fax=+386 5 3937040;
     contact:phone=+386 5 3937040;
     contact:website=https://www.petrol.si/prodajna-mesta/0152-bs-vrtojba-ac-sever-bencinski-servis;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Petrol - Vrtojba Ac - sever; opening_hours=24/7;
-    operator=Petrol d.d.; shop=convenience; id=way/193414096</desc>
+    fuel:HGV_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol - Vrtojba
+    Ac - sever; opening_hours=24/7; operator=Petrol d.d.;
+    shop=convenience; id=way/193414096</desc>
     <link href="https://www.petrol.si/prodajna-mesta/0152-bs-vrtojba-ac-sever-bencinski-servis">
     </link>
   </wpt>
@@ -2623,14 +2648,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.5405759" lon="13.725894175740581">
     <ele>0</ele>
-    <name>OMV</name>
+    <name>MOL</name>
     <desc>addr:city=Koper / Capodistria; addr:housenumber=14;
     addr:postcode=6000; addr:street=Istrska cesta / Strada
-    dell'Istria; amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; brand:wikipedia:ar=OMV; building=yes;
-    contact:fax=+386 5 6637012; contact:phone=+386 5 6637010;
-    fuel:lpg=yes; name=OMV; opening_hours=24/7; operator=OMV
-    Slovenija d.o.o.; id=way/193476412</desc>
+    dell'Istria; amenity=fuel; brand=MOL; brand:wikidata=Q549181;
+    brand:wikipedia:ar=OMV; building=yes; contact:fax=+386 5
+    6637012; contact:phone=+386 5 6637010; fuel:lpg=yes; name=MOL;
+    opening_hours=24/7; self_service=yes; id=way/193476412</desc>
   </wpt>
   <wpt lat="45.71704055" lon="14.586044999999999">
     <ele>828</ele>
@@ -2798,12 +2822,12 @@ version="1.1" creator="togpx">
     <name>Petrol - Brežice - Tovarniška</name>
     <desc>addr:city=Brežice; addr:housenumber=2;
     addr:postcode=8250; addr:street=Tovarniška cesta; amenity=fuel;
-    brand=Petrol; building=yes; contact:fax=+386 7 4966194;
-    contact:phone=+386 7 4966193;
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    contact:fax=+386 7 4966194; contact:phone=+386 7 4966193;
     contact:website=http://www.petrol.si/bencinski-servisi/podrobno/363;
     fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
     name=Petrol - Brežice - Tovarniška; opening_hours=Mo-Sa
-    06:00-22:00, Su 07:00-20:00; operator=Petrol d.d.; shop=yes;
+    06:00-22:00, Su 07:00-20:00; operator=Petrol d.d.;
     id=way/193801848</desc>
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/363">
     </link>
@@ -3651,7 +3675,7 @@ version="1.1" creator="togpx">
     <link href="http://www.petrol.si/bencinski-servisi/podrobno/544">
     </link>
   </wpt>
-  <wpt lat="46.484903599999996" lon="14.869973080604982">
+  <wpt lat="46.4849276" lon="14.869978480604981">
     <ele>544</ele>
     <name>Petrol - Žerjav</name>
     <desc>addr:city=Črna na Koroškem; addr:housenumber=3a;
@@ -4607,12 +4631,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.536924" lon="13.667984675366641">
     <ele>3</ele>
-    <name>OMV - Izola - Prešernova 7c</name>
+    <name>MOL</name>
     <desc>addr:city=Izola; addr:housenumber=7c; addr:postcode=6310;
-    addr:street=Prešernova cesta; amenity=fuel; brand=OMV;
-    building=yes; contact:fax=+386 5 6637132; contact:phone=+386 5
-    6637130; name=OMV - Izola - Prešernova 7c; opening_hours=Mo-Su
-    06:00-22:00; operator=OMV Slovenija d.o.o.; shop=yes;
+    addr:street=Prešernova cesta; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; building=yes; contact:fax=+386 5
+    6637132; contact:phone=+386 5 6637130; name=MOL;
+    opening_hours=Mo-Su 06:00-22:00; self_service=yes;
     id=way/194852811</desc>
   </wpt>
   <wpt lat="45.545862400000004" lon="13.742776849999991">
@@ -4629,15 +4653,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.5388946" lon="13.728638083896463">
     <ele>-1</ele>
-    <name>OMV - Koper - Istrska jug</name>
+    <name>Shell</name>
     <desc>addr:city=Koper; addr:housenumber=53; addr:postcode=6000;
     addr:street=Istrska cesta / Strada dell'Istria; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=yes; contact:fax=+386 5 6637027; contact:phone=+386 5
-    6637025; name=OMV - Koper - Istrska jug; opening_hours=Oct-May:
-    Mo-Su 06:00-22:00, Jun-Sep: Mo-Th 06:00-22:00, Jun-Sep: Fr-Su
-    06:00-24:00; operator=OMV Slovenija d.o.o.;
-    id=way/194852813</desc>
+    brand=Shell; brand:wikidata=Q110716465; building=yes;
+    contact:fax=+386 5 6637027; contact:phone=+386 5 6637025;
+    name=Shell; opening_hours=Oct-May: Mo-Su 06:00-22:00, Jun-Sep:
+    Mo-Th 06:00-22:00, Jun-Sep: Fr-Su 06:00-24:00;
+    self_service=yes; id=way/194852813</desc>
   </wpt>
   <wpt lat="45.5507635" lon="13.727714082278482">
     <ele>0</ele>
@@ -4690,14 +4713,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.51526174999999" lon="13.580804504114644">
     <ele>18</ele>
-    <name>OMV</name>
+    <name>MOL</name>
     <desc>addr:city=Portorož; addr:housenumber=17;
     addr:postcode=6320; addr:street=Fizine; amenity=fuel;
     brand=OMV; brand:wikidata=Q168238; building=yes;
-    contact:fax=+386 5 6717230; contact:phone=+386 5 6717230;
-    name=OMV; opening_hours=Oct-May: Mo-Su 06:00-22:00, Jun-Sep:
-    Mo-Th 06:00-22:00, Jun-Sep: Fr-Su 06:00-24:00; operator=OMV
-    Slovenija d.o.o.; id=way/194852818</desc>
+    compressed_air=yes; contact:fax=+386 5 6717230;
+    contact:phone=+386 5 6717230; name=MOL; opening_hours=Oct-May:
+    Mo-Su 06:00-22:00, Jun-Sep: Mo-Th 06:00-22:00, Jun-Sep: Fr-Su
+    06:00-24:00; operator=OMV Slovenija d.o.o.;
+    id=way/194852818</desc>
   </wpt>
   <wpt lat="45.5553434" lon="13.781024850000001">
     <ele>3</ele>
@@ -4708,28 +4732,6 @@ version="1.1" creator="togpx">
     compressed_air=yes; fax=+386 5 6637002; name=OMV;
     opening_hours=24/7; phone=+386 5 6637000; ref:vatin=SI57536163;
     shop=yes; id=way/194852819</desc>
-  </wpt>
-  <wpt lat="45.58060865" lon="13.79763985">
-    <ele>23</ele>
-    <name>OMV - Škofije vzhod</name>
-    <desc>addr:city=Škofije; addr:housenumber=260;
-    addr:place=Spodnje Škofije; addr:postcode=6281; amenity=fuel;
-    brand=OMV; building=yes; contact:fax=+386 5 6637082;
-    contact:phone=+386 5 6637080; name=OMV - Škofije vzhod;
-    opening_hours=Mo-Sa 06:00-21:00, Su 07:00-21:00, PH
-    07:00-21:00; operator=OMV Slovenija d.o.o.; shop=yes;
-    id=way/194852820</desc>
-  </wpt>
-  <wpt lat="45.579804100000004" lon="13.796318872712778">
-    <ele>31</ele>
-    <name>OMV - Škofije zahod</name>
-    <desc>addr:city=Škofije; addr:housenumber=256a;
-    addr:place=Spodnje Škofije; addr:postcode=6281; amenity=fuel;
-    brand=OMV; building=yes; contact:fax=+386 5 6637102;
-    contact:phone=+386 5 6637100; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=OMV - Škofije zahod;
-    opening_hours=Mo-Su 06:00-24:00; operator=OMV Slovenija d.o.o.;
-    shop=yes; id=way/194852821</desc>
   </wpt>
   <wpt lat="45.510385" lon="13.70708289855196">
     <ele>221</ele>
@@ -4760,13 +4762,13 @@ version="1.1" creator="togpx">
     <name>MOL - BS Sežana</name>
     <desc>addr:city=Sežana; addr:country=SI; addr:housenumber=63a;
     addr:postcode=6210; addr:street=Partizanska cesta;
-    amenity=fuel; brand=MOL; brand:wikidata=Q168238;
+    amenity=fuel; brand=MOL; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL; building=yes; compressed_air=yes;
     contact:fax=+386 5 7317542; contact:phone=+386 5 7317540;
     fuel:adblue=yes; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=MOL - BS Sežana; opening_hours=Mo-Su
-    06:00-22:00; operator=MOL Slovenija d.o.o.; shop=yes;
-    wheelchair=yes; id=way/196221995</desc>
+    06:00-22:00; operator=MOL Slovenija d.o.o.; wheelchair=yes;
+    id=way/196221995</desc>
   </wpt>
   <wpt lat="45.681413899999995" lon="13.96854593637914">
     <ele>437</ele>
@@ -4791,7 +4793,7 @@ version="1.1" creator="togpx">
     07:00-21:00; operator=OMV Slovenija d.o.o.; shop=yes;
     id=way/196221997</desc>
   </wpt>
-  <wpt lat="45.6082909" lon="13.935157013688574">
+  <wpt lat="45.6082942" lon="13.935144860681246">
     <ele>492</ele>
     <name>OMV - Kozina</name>
     <desc>addr:city=Kozina; addr:housenumber=7; addr:postcode=6240;
@@ -4850,17 +4852,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.75582885" lon="13.836026844505493">
     <ele>318</ele>
-    <name>OMV - BS Dutovlje</name>
+    <name>MOL</name>
     <desc>addr:city=Dutovlje; addr:housenumber=3b;
     addr:place=Dutovlje; addr:postcode=6221; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; building=yes;
+    brand=MOL; brand:wikidata=Q549181; building=yes;
     compressed_air=yes; fax=+386 5 7318642; fuel:diesel=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; name=OMV - BS
-    Dutovlje; opening_hours=Oct-Mar Mo-Su 07:00-20:00, Apr-Sep
-    Mo-Su 07:00-21:00; operator=OMV Slovenija d.o.o.; phone=+386 5
-    7318640; ref:vatin=SI57536163; shop=convenience;
-    website=https://www.omv.si/; id=way/196325356</desc>
-    <link href="https://www.omv.si/"></link>
+    fuel:octane_100=yes; fuel:octane_95=yes; name=MOL;
+    opening_hours=Oct-Mar Mo-Su 07:00-20:00, Apr-Sep Mo-Su
+    07:00-21:00; phone=+386 5 7318640; ref:vatin=SI57536163;
+    shop=convenience; id=way/196325356</desc>
   </wpt>
   <wpt lat="45.559665800000005" lon="14.244397688638376">
     <ele>402</ele>
@@ -4871,17 +4871,6 @@ version="1.1" creator="togpx">
     contact:phone=+386 5 7117360; name=OMV; opening_hours=Sep-Jun:
     Mo-Su 05:00-22:00, Jul-Aug: Mo-Su 00:00-24:00; operator=OMV;
     shop=yes; id=way/196325357</desc>
-  </wpt>
-  <wpt lat="46.3653513" lon="14.160257260029233">
-    <ele>507</ele>
-    <name>OMV - Lesce</name>
-    <desc>addr:city=Lesce; addr:housenumber=17; addr:postcode=4248;
-    addr:street=Hraška cesta; amenity=fuel; branch=Lesce;
-    brand=OMV; brand:wikidata=Q168238; building=yes;
-    compressed_air=yes; contact:fax=+386 4 5320682;
-    contact:phone=+386 4 5320680; name=OMV - Lesce;
-    opening_hours=Mo-Su 06:00-22:00; operator=OMV Slovenija d.o.o.;
-    wheelchair=yes; id=way/196325359</desc>
   </wpt>
   <wpt lat="45.9533365" lon="13.691473511248704">
     <ele>79</ele>
@@ -4902,10 +4891,11 @@ version="1.1" creator="togpx">
     <name>INA</name>
     <desc>addr:city=Nova Gorica; addr:housenumber=8;
     addr:postcode=5000; addr:street=Ulica Angela Besednjaka;
-    amenity=fuel; brand:wikidata=Q1662137; building=yes;
+    amenity=fuel; brand=INA; brand:wikidata=Q1662137; building=yes;
     compressed_air=yes; contact:fax=+386 5 3304922;
     contact:phone=+386 5 3304920; name=INA; opening_hours=24/7;
-    operator=MOL &amp; INA, d. o. o.; id=way/196325361</desc>
+    operator=MOL &amp; INA, d. o. o.; self_service=yes;
+    id=way/196325361</desc>
   </wpt>
   <wpt lat="45.77343915" lon="14.50464345577801">
     <ele>717</ele>
@@ -4934,42 +4924,42 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.771053800000004" lon="14.20104570810134">
     <ele>535</ele>
-    <name>OMV - Postojna - Titova</name>
+    <name>MOL</name>
     <desc>addr:city=Postojna; addr:housenumber=12;
     addr:postcode=6230; addr:street=Titova cesta; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=yes; contact:fax=+386 5 7217412; contact:phone=+386 5
-    7217410; fuel:adblue:canister=yes; fuel:diesel=yes;
+    brand=MOL; brand:wikidata=Q549181; building=yes;
+    contact:fax=+386 5 7217412; contact:phone=+386 5 7217410;
+    fuel:adblue:canister=yes; fuel:diesel=yes;
     fuel:heating_oil=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    fuel:propane=yes; name=OMV - Postojna - Titova;
-    opening_hours=Mo-Su 06:00-22:00; operator=OMV Slovenija d.o.o.;
-    id=way/196325364</desc>
+    fuel:propane=yes; name=MOL; opening_hours=Mo-Su 06:00-22:00;
+    operator=OMV Slovenija d.o.o.; id=way/196325364</desc>
   </wpt>
   <wpt lat="45.7725842" lon="14.1999049714018">
     <ele>537</ele>
-    <name>OMV - Postojna - Tržaška</name>
+    <name>Shell</name>
     <desc>addr:city=Postojna; addr:housenumber=60b;
     addr:postcode=6230; addr:street=Tržaška cesta; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    building=yes; contact:fax=+386 5 7217402; contact:phone=+386 5
-    7217400; fuel:adblue:canister=yes; fuel:diesel=yes;
+    brand=Shell; brand:wikidata=Q110716465; building=yes;
+    contact:fax=+386 5 7217402; contact:phone=+386 5 7217400;
+    fuel:adblue:canister=yes; fuel:diesel=yes;
     fuel:heating_oil=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    fuel:propane=yes; name=OMV - Postojna - Tržaška;
-    opening_hours=Oct-May: Mo-Su 06:00-21:00, Jun-Sep: Mo-Su
-    06:00-22:00; operator=OMV Slovenija d.o.o.;
-    id=way/196325365</desc>
+    fuel:propane=yes; name=Shell; opening_hours=Oct-May: Mo-Su
+    06:00-21:00, Jun-Sep: Mo-Su 06:00-22:00; operator=OMV Slovenija
+    d.o.o.; id=way/196325365</desc>
   </wpt>
-  <wpt lat="46.33857375" lon="14.190733399403491">
+  <wpt lat="46.338518" lon="14.190727935991545">
     <ele>493</ele>
     <name>OMV - Radovljica - jug</name>
     <desc>addr:city=Radovljica; addr:housenumber=70;
     addr:postcode=4240; addr:street=Ljubljanska cesta;
     amenity=fuel; brand=OMV; brand:wikidata=Q168238; building=yes;
-    building:levels=1; compressed_air=yes; contact:fax=+386 4
-    5320688; contact:phone=+386 4 5320683; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_100=yes; fuel:octane_95=yes; name=OMV
-    - Radovljica - jug; opening_hours=24/7; operator=OMV Slovenija
-    d.o.o.; wheelchair=yes; id=way/196325366</desc>
+    building:levels=1; compressed_air=yes; construction_date=2011;
+    contact:fax=+386 4 5320688; contact:phone=+386 4 5320683;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=OMV - Radovljica - jug;
+    opening_hours=24/7; operator=OMV Slovenija d.o.o.;
+    ref:gurs:hs_mid=17596276; ref:gurs:sta_sid=32008711;
+    wheelchair=yes; id=way/196325366</desc>
   </wpt>
   <wpt lat="46.33954155" lon="14.192044702531902">
     <ele>493</ele>
@@ -4978,9 +4968,11 @@ version="1.1" creator="togpx">
     addr:postcode=4240; addr:street=Ljubljanska cesta;
     amenity=fuel; brand=OMV; brand:wikidata=Q168238; building=yes;
     building:levels=1; cafe=yes; compressed_air=yes;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=OMV - Radovljica - sever; opening_hours=24/7; operator=OMV
-    Slovenija d.o.o.; wheelchair=yes; id=way/196325367</desc>
+    construction_date=2011; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=OMV - Radovljica - sever;
+    opening_hours=24/7; operator=OMV Slovenija d.o.o.;
+    ref:gurs:hs_mid=17596284; ref:gurs:sta_sid=32008709;
+    wheelchair=yes; id=way/196325367</desc>
   </wpt>
   <wpt lat="45.783128950000005" lon="14.22305477393747">
     <ele>601</ele>
@@ -5041,16 +5033,6 @@ version="1.1" creator="togpx">
     07:00-13:00, PH off, Apr-Sep: Mo-Sa 07:00-20:00, Su
     07:00-13:00, PH off; operator=MOL Slovenija d.o.o.; shop=yes;
     id=way/196325373</desc>
-  </wpt>
-  <wpt lat="45.9668801" lon="13.540607441373796">
-    <ele>60</ele>
-    <name>OMV - Vipolže</name>
-    <desc>addr:city=Dobrovo v brdih; addr:housenumber=6b;
-    addr:postcode=5212; addr:street=Vipolže; amenity=fuel;
-    brand=OMV; building=yes; contact:fax=+386 5 3310942;
-    contact:phone=+386 5 3310940; name=OMV - Vipolže;
-    opening_hours=Mo-Su 06:00-21:00; operator=OMV Slovenija d.o.o.;
-    shop=yes; id=way/196325374</desc>
   </wpt>
   <wpt lat="45.9208632" lon="13.63145144662969">
     <ele>70</ele>
@@ -5194,23 +5176,22 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.26167705" lon="15.221010363684027">
     <ele>259</ele>
-    <name>OMV - Počivališče Lopata</name>
+    <name>MOL - Počivališče Lopata</name>
     <desc>addr:city=Celje; addr:housenumber=80; addr:postcode=3000;
-    addr:street=Lopata; amenity=fuel; brand=OMV; building=yes;
-    contact:fax=+386 3 4258322; contact:phone=+386 3 4258320;
-    name=OMV - Počivališče Lopata; opening_hours=24/7; operator=OMV
-    Slovenija d.o.o.; shop=yes; wheelchair=yes;
+    addr:street=Lopata; amenity=fuel; brand=MOL;
+    brand:wikidata=Q549181; building=yes; contact:fax=+386 3
+    4258322; contact:phone=+386 3 4258320; name=MOL - Počivališče
+    Lopata; opening_hours=24/7; self_service=yes; wheelchair=yes;
     id=way/196412488</desc>
   </wpt>
   <wpt lat="46.16604475" lon="14.68960926464635">
     <ele>327</ele>
-    <name>OMV</name>
+    <name>MOL</name>
     <desc>addr:city=Lukovica; addr:housenumber=4;
     addr:postcode=1225; addr:street=Koseskega cesta; amenity=fuel;
-    brand=OMV; brand:wikidata=Q168238; brand:wikipedia=en:OMV;
+    brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:OMV;
     building=yes; contact:fax=+386 1 7296352; contact:phone=+386 1
-    7296350; name=OMV; opening_hours=24/7; operator=OMV Slovenija
-    d.o.o.; id=way/196412489</desc>
+    7296350; name=MOL; opening_hours=24/7; id=way/196412489</desc>
   </wpt>
   <wpt lat="45.907742549999995" lon="15.371149587811633">
     <ele>163</ele>
@@ -5260,12 +5241,12 @@ version="1.1" creator="togpx">
     <name>OMV - Velenje - Partizanska</name>
     <desc>addr:city=Velenje; addr:housenumber=15a;
     addr:postcode=3320; addr:street=Partizanska cesta;
-    amenity=fuel; brand=OMV; building=yes; contact:fax=+386 3
-    8987382; contact:phone=+386 3 8987380; name=OMV - Velenje -
+    amenity=fuel; brand=OMV; brand:wikidata=Q168238; building=yes;
+    contact:fax=+386 3 8987382; contact:phone=+386 3 8987380;
+    fixme=probably not OMV anymore; name=OMV - Velenje -
     Partizanska; opening_hours=Mo - Su 06:00-22:00; operator=OMV
-    Slovenija d.o.o.; ref:gurs:hs_mid=21339890; shop=yes;
-    source:addr=GURS; source:addr:date=2012-11-14;
-    id=way/196412496</desc>
+    Slovenija d.o.o.; ref:gurs:hs_mid=21339890; source:addr=GURS;
+    source:addr:date=2012-11-14; id=way/196412496</desc>
   </wpt>
   <wpt lat="46.3696245" lon="15.13252825">
     <ele>406</ele>
@@ -5450,13 +5431,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.5180836" lon="15.651380747763897">
     <ele>275</ele>
-    <name>OMV - Maribor - Tržaška</name>
+    <name>Shell - Maribor - Tržaška</name>
     <desc>addr:city=Maribor; addr:housenumber=83;
     addr:postcode=2000; addr:street=Tržaška cesta; amenity=fuel;
-    brand=OMV; building=retail; contact:fax=+386 2 3338242;
-    contact:phone=+386 2 3338240; name=OMV - Maribor - Tržaška;
-    opening_hours=Mo-Su 06:00-22:00; operator=OMV Slovenija d.o.o.;
-    shop=yes; id=way/196545560</desc>
+    brand=Shell; brand:wikidata=Q110716465; building=retail;
+    contact:fax=+386 2 3338242; contact:phone=+386 2 3338240;
+    name=Shell - Maribor - Tržaška; opening_hours=Mo-Su
+    06:00-22:00; id=way/196545560</desc>
   </wpt>
   <wpt lat="46.3851613" lon="15.572130901032772">
     <ele>276</ele>
@@ -6071,25 +6052,25 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.142822100000004" lon="15.036112375542722">
     <ele>260</ele>
-    <name>MOL - Trbovlje</name>
+    <name>Shell - Trbovlje</name>
     <desc>addr:city=Trbovlje; addr:housenumber=28a;
     addr:postcode=1420; addr:street=Vodenska cesta; amenity=fuel;
     brand=MOL; brand:wikidata=Q549181; building=yes;
     contact:email=bs.trbovlje@siol.net; contact:fax=+386 3 5631763;
     contact:phone=+386 3 5631762; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=MOL - Trbovlje;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell - Trbovlje;
     id=way/197343540</desc>
   </wpt>
   <wpt lat="46.228643250000005" lon="15.504226694781748">
     <ele>235</ele>
-    <name>Mol - Šmarje</name>
+    <name>Shell - Šmarje</name>
     <desc>addr:city=Šmarje pri Jelšah; addr:housenumber=55;
     addr:postcode=3240; addr:street=Celjska cesta; amenity=fuel;
-    brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:MOL
+    brand=Shell; brand:wikidata=Q110716465; brand:wikipedia=en:MOL
     (company); building=yes; contact:email=bs.smarje@siol.net;
     contact:fax=+386 3 8101524; contact:phone=+386 3 8101523;
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    layer=1; name=Mol - Šmarje; operator=Agip Slovenija d.o.o.;
+    layer=1; name=Shell - Šmarje; operator=Agip Slovenija d.o.o.;
     id=way/197343541</desc>
   </wpt>
   <wpt lat="45.92445225" lon="14.8896761">
@@ -6250,9 +6231,10 @@ version="1.1" creator="togpx">
     <name>OMV EuroTruck Station - Sežana Carinska Cona</name>
     <desc>addr:city=Sežana; addr:country=SI; addr:housenumber=77;
     addr:postcode=6210; addr:street=Partizanska cesta;
-    amenity=fuel; brand=OMV; building=yes; fuel:diesel=yes;
-    name=OMV EuroTruck Station - Sežana Carinska Cona;
-    opening_hours=24/7; operator=OMV; id=way/281775644</desc>
+    amenity=fuel; brand=OMV; building=yes; fixme=Probably not OMV
+    anymore?; fuel:HGV_diesel=yes; fuel:adblue=yes;
+    fuel:diesel=yes; name=OMV EuroTruck Station - Sežana Carinska
+    Cona; opening_hours=24/7; operator=OMV; id=way/281775644</desc>
   </wpt>
   <wpt lat="46.061505800000006" lon="14.538119863498448">
     <ele>294</ele>
@@ -6289,8 +6271,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.054365149999995" lon="13.497962567737119">
     <ele>108</ele>
     <name>BS Golo Brdo v Brdih</name>
-    <desc>amenity=fuel; building=yes; name=BS Golo Brdo v Brdih;
-    operator=Petrol; id=way/290219778</desc>
+    <desc>addr:city=Dobrovo v Brdih; addr:housenumber=10b;
+    addr:postcode=5212; addr:street=Golo Brdo; amenity=fuel;
+    building=yes; name=BS Golo Brdo v Brdih; operator=Petrol;
+    ref:gurs:hs_mid=13640041; ref:gurs:sta_sid=24996994;
+    source:addr=GURS; id=way/290219778</desc>
   </wpt>
   <wpt lat="45.81298365" lon="13.622231558250238">
     <ele>68</ele>
@@ -6381,14 +6366,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.340788599999996" lon="15.469600118316876">
     <ele>299</ele>
-    <name>OMV - Slovenske konjica - Tepanje</name>
+    <name>Shell - Slovenske konjica - Tepanje</name>
     <desc>addr:city=Slovenske konjice; addr:housenumber=4b;
     addr:postcode=3210; addr:street=Tepanje; amenity=fuel;
-    brand=OMV; building=yes; contact:fax=+386 3 7576882;
-    contact:phone=+386 3 7576880; name=OMV - Slovenske konjica -
-    Tepanje; opening_hours=Sep 16-Jun 14: Mo-Su 06:00-22:00, Jun
-    15-Sep 15: Mo-Su 06:00-23:00; operator=OMV Slovenija d.o.o.;
-    shop=yes; id=way/342124097</desc>
+    brand=Shell; brand:wikidata=Q110716465; building=yes;
+    contact:fax=+386 3 7576882; contact:phone=+386 3 7576880;
+    name=Shell - Slovenske konjica - Tepanje; opening_hours=Sep
+    16-Jun 14: Mo-Su 06:00-22:00, Jun 15-Sep 15: Mo-Su 06:00-23:00;
+    id=way/342124097</desc>
   </wpt>
   <wpt lat="46.260256999999996" lon="15.391710799999998">
     <ele>308</ele>
@@ -6537,6 +6522,16 @@ version="1.1" creator="togpx">
     building=yes; name=PETROL-Počivališče DUL; opening_hours=24/7;
     id=way/530767172</desc>
   </wpt>
+  <wpt lat="45.576263999999995" lon="13.803174212555826">
+    <ele>80</ele>
+    <name>Škofije</name>
+    <desc>addr:city=Škofije; addr:housenumber=35a;
+    addr:postcode=6281; addr:street=Plavje; amenity=fuel;
+    construction_date=1968; ref:gurs:hs_mid=17126482;
+    ref:gurs:sta_sid=34013952; source:addr=GURS;
+    source:construction_date=GURS; source:geometry=GURS;
+    id=way/619212023</desc>
+  </wpt>
   <wpt lat="46.54920475" lon="15.620821699288562">
     <ele>282</ele>
     <name>OMV</name>
@@ -6594,8 +6589,9 @@ version="1.1" creator="togpx">
     addr:postcode=6240; addr:street=Bazoviška cesta; amenity=fuel;
     brand=MOL; brand:wikidata=Q549181; building=yes;
     compressed_air=yes; layer=1; name=MOL; opening_hours=Mo-Sa
-    06:00-22:00, PH,Su 08:00-20:00; self_service=yes;
-    wheelchair=yes; id=way/790831848</desc>
+    06:00-22:00, PH,Su 08:00-20:00; ref:gurs:hs_mid=17264435;
+    ref:gurs:sta_sid=31946388; self_service=yes; wheelchair=yes;
+    id=way/790831848</desc>
   </wpt>
   <wpt lat="45.6612759" lon="13.91942476502252">
     <ele>448</ele>
@@ -6638,8 +6634,10 @@ version="1.1" creator="togpx">
     addr:postcode=5000; addr:street=Ulica Angela Besednjaka;
     amenity=fuel; brand=MOL; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL (company); building=yes;
-    compressed_air=yes; name=MOL Rožna Dolina; operator=MOL &amp;
-    INA, d. o. o.; shop=convenience; id=way/865589026</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=MOL Rožna Dolina;
+    operator=MOL &amp; INA, d. o. o.; self_service=yes;
+    shop=convenience; id=way/865589026</desc>
   </wpt>
   <wpt lat="46.370213" lon="14.11631605">
     <ele>501</ele>
@@ -6926,13 +6924,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Domžale; addr:housenumber=11;
     addr:postcode=1230; addr:street=Kopališka cesta; amenity=fuel;
     building=yes; name=Petrol; id=way/1116903070</desc>
-  </wpt>
-  <wpt lat="46.063279" lon="14.567201199297548">
-    <ele>286</ele>
-    <name>Ljubljanski Potniški Promet</name>
-    <desc>amenity=fuel; building=roof; fuel:cng=yes; layer=1;
-    operator=Ljubljanski Potniški Promet; start_date=2022;
-    id=way/1149364710</desc>
   </wpt>
   <wpt lat="46.59379945" lon="16.45997490964526">
     <ele>186</ele>
@@ -7445,6 +7436,80 @@ version="1.1" creator="togpx">
     construction_date=1993; name=Petrol; ref:gurs:hs_mid=15279761;
     ref:gurs:sta_sid=21775867; id=way/1276292311</desc>
   </wpt>
+  <wpt lat="45.5798568" lon="13.796319053713384">
+    <ele>31</ele>
+    <name>OMV - Škofije zahod</name>
+    <desc>addr:city=Škofije; addr:housenumber=256a;
+    addr:postcode=6281; addr:street=Spodnje Škofije; amenity=fuel;
+    brand=OMV; building=yes; construction_date=2001;
+    contact:fax=+386 5 6637102; contact:phone=+386 5 6637100;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=OMV - Škofije
+    zahod; opening_hours=Mo-Su 06:00-24:00; operator=OMV Slovenija
+    d.o.o.; ref:gurs:hs_mid=17082817; ref:gurs:sta_sid=20313389;
+    shop=yes; source:addr=GURS; source:construction_date=GURS;
+    source:geometry=GURS; id=way/1280684922</desc>
+  </wpt>
+  <wpt lat="45.5806035" lon="13.797510026899957">
+    <ele>23</ele>
+    <name>OMV - Škofije vzhod</name>
+    <desc>addr:city=Škofije; addr:housenumber=260;
+    addr:postcode=6281; addr:street=Spodnje Škofije; amenity=fuel;
+    brand=OMV; building=yes; construction_date=1967;
+    contact:fax=+386 5 6637082; contact:phone=+386 5 6637080;
+    name=OMV - Škofije vzhod; opening_hours=Mo-Sa 06:00-21:00, Su
+    07:00-21:00, PH 07:00-21:00; operator=OMV Slovenija d.o.o.;
+    ref:gurs:hs_mid=12180888; ref:gurs:sta_sid=20313241; shop=yes;
+    source:addr=GURS; source:construction_date=GURS;
+    source:geometry=GURS; id=way/1280685080</desc>
+  </wpt>
+  <wpt lat="45.703899899999996" lon="13.851727622809163">
+    <ele>357</ele>
+    <name>way/1285163003</name>
+    <desc>amenity=fuel; fuel:HGV_diesel=yes; fuel:adblue=yes;
+    id=way/1285163003</desc>
+  </wpt>
+  <wpt lat="45.9668347" lon="13.540673748858527">
+    <ele>60</ele>
+    <name>OMV - Vipolže</name>
+    <desc>addr:city=Dobrovo v brdih; addr:housenumber=6b;
+    addr:postcode=5212; addr:street=Vipolže; amenity=fuel;
+    brand=OMV; building=yes; construction_date=1996;
+    contact:fax=+386 5 3310942; contact:phone=+386 5 3310940;
+    name=OMV - Vipolže; opening_hours=Mo-Su 06:00-21:00;
+    operator=OMV Slovenija d.o.o.; ref:gurs:hs_mid=19798518;
+    ref:gurs:sta_sid=25018492; shop=yes; source:addr=GURS;
+    source:construction_date=GURS; source:geometry=GURS;
+    id=way/1286663635</desc>
+  </wpt>
+  <wpt lat="46.21943895" lon="14.790437216929107">
+    <ele>572</ele>
+    <name>Petrol - Češnjice v Tuhinju</name>
+    <desc>addr:city=Laze v Tuhinju; addr:housenumber=1b;
+    addr:postcode=1219; addr:street=Golice; amenity=fuel;
+    brand=Petrol; building=yes; construction_date=1983;
+    contact:phone=+386 1 8346000;
+    contact:website=http://www.petrol.si/bencinski-servisi/podrobno/2458;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Petrol - Češnjice v
+    Tuhinju; opening_hours=Mo-Sa 07:00-19:00, Su 08:00-13:00;
+    operator=Petrol d.d.; ref:gurs:hs_mid=18041588;
+    ref:gurs:sta_sid=25317658; source:addr=GURS;
+    source:construction_date=GURS; source:geometry=GURS;
+    wheelchair=limited; id=way/1287004869</desc>
+    <link href="http://www.petrol.si/bencinski-servisi/podrobno/2458">
+    </link>
+  </wpt>
+  <wpt lat="46.36535215" lon="14.160269308175994">
+    <ele>507</ele>
+    <name>MOL - Lesce</name>
+    <desc>addr:city=Lesce; addr:housenumber=17; addr:postcode=4248;
+    addr:street=Hraška cesta; amenity=fuel; branch=Lesce;
+    brand=MOL; brand:wikidata=Q549181; building=roof;
+    compressed_air=yes; construction_date=2001; contact:fax=+386 4
+    5320682; contact:phone=+386 4 5320680; layer=1; name=MOL -
+    Lesce; opening_hours=Mo-Su 06:00-22:00; operator=OMV Slovenija
+    d.o.o.; ref:gurs:hs_mid=17587374; ref:gurs:sta_sid=31456427;
+    wheelchair=yes; id=way/1288663320</desc>
+  </wpt>
   <trk>
     <name>OMV</name>
     <trkseg>
@@ -7870,7 +7935,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Izola - Prešernova 2a</name>
+    <name>Shell</name>
     <trkseg>
       <trkpt lat="45.5379152" lon="13.6684868"></trkpt>
       <trkpt lat="45.5378613" lon="13.6685504"></trkpt>
@@ -8257,7 +8322,7 @@ version="1.1" creator="togpx">
     <name>Petrol - Lesce</name>
     <trkseg>
       <trkpt lat="46.3677641" lon="14.1538947"></trkpt>
-      <trkpt lat="46.36785" lon="14.1537871"></trkpt>
+      <trkpt lat="46.36785" lon="14.1537872"></trkpt>
       <trkpt lat="46.3677859" lon="14.1536795"></trkpt>
       <trkpt lat="46.3676999" lon="14.1537871"></trkpt>
       <trkpt lat="46.3677641" lon="14.1538947"></trkpt>
@@ -8729,11 +8794,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Naklo</name>
     <trkseg>
-      <trkpt lat="46.2706151" lon="14.3135753"></trkpt>
-      <trkpt lat="46.2705486" lon="14.3136783"></trkpt>
-      <trkpt lat="46.270589" lon="14.3137329"></trkpt>
-      <trkpt lat="46.2706555" lon="14.3136299"></trkpt>
-      <trkpt lat="46.2706151" lon="14.3135753"></trkpt>
+      <trkpt lat="46.2705942" lon="14.3136122"></trkpt>
+      <trkpt lat="46.2705277" lon="14.3137152"></trkpt>
+      <trkpt lat="46.2705681" lon="14.3137698"></trkpt>
+      <trkpt lat="46.2706346" lon="14.3136668"></trkpt>
+      <trkpt lat="46.2705942" lon="14.3136122"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -8744,17 +8809,6 @@ version="1.1" creator="togpx">
       <trkpt lat="46.1667739" lon="14.6931243"></trkpt>
       <trkpt lat="46.1666906" lon="14.6932215"></trkpt>
       <trkpt lat="46.1668601" lon="14.6935239"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Petrol - Češnjice v Tuhinju</name>
-    <trkseg>
-      <trkpt lat="46.2194353" lon="14.790376"></trkpt>
-      <trkpt lat="46.2194353" lon="14.7905194"></trkpt>
-      <trkpt lat="46.2194784" lon="14.7905198"></trkpt>
-      <trkpt lat="46.2195041" lon="14.7905194"></trkpt>
-      <trkpt lat="46.2195041" lon="14.790376"></trkpt>
-      <trkpt lat="46.2194353" lon="14.790376"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -8803,24 +8857,27 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Kranj - Zlato Polje Vzhod</name>
     <trkseg>
-      <trkpt lat="46.2495404" lon="14.3475282"></trkpt>
-      <trkpt lat="46.2495384" lon="14.3476382"></trkpt>
-      <trkpt lat="46.2495353" lon="14.347814"></trkpt>
-      <trkpt lat="46.2495593" lon="14.3478149"></trkpt>
-      <trkpt lat="46.2496003" lon="14.3478164"></trkpt>
-      <trkpt lat="46.2496053" lon="14.3475306"></trkpt>
-      <trkpt lat="46.2495404" lon="14.3475282"></trkpt>
+      <trkpt lat="46.2495327" lon="14.3475823"></trkpt>
+      <trkpt lat="46.2495303" lon="14.3476958"></trkpt>
+      <trkpt lat="46.2495312" lon="14.3478413"></trkpt>
+      <trkpt lat="46.2495925" lon="14.3478414"></trkpt>
+      <trkpt lat="46.2495978" lon="14.3475851"></trkpt>
+      <trkpt lat="46.2495327" lon="14.3475823"></trkpt>
     </trkseg>
   </trk>
   <trk>
     <name>Petrol - Kranj - Zlato Polje Zahod</name>
     <trkseg>
-      <trkpt lat="46.2475149" lon="14.3495437"></trkpt>
-      <trkpt lat="46.2474451" lon="14.3494384"></trkpt>
-      <trkpt lat="46.2472362" lon="14.3497279"></trkpt>
-      <trkpt lat="46.2473059" lon="14.3498331"></trkpt>
-      <trkpt lat="46.2474186" lon="14.3496771"></trkpt>
-      <trkpt lat="46.2475149" lon="14.3495437"></trkpt>
+      <trkpt lat="46.2475389" lon="14.3495037"></trkpt>
+      <trkpt lat="46.2474758" lon="14.3494085"></trkpt>
+      <trkpt lat="46.2474503" lon="14.3494439"></trkpt>
+      <trkpt lat="46.2474367" lon="14.3494233"></trkpt>
+      <trkpt lat="46.2472297" lon="14.3497106"></trkpt>
+      <trkpt lat="46.247289" lon="14.3498"></trkpt>
+      <trkpt lat="46.2473384" lon="14.3497321"></trkpt>
+      <trkpt lat="46.2473554" lon="14.3497579"></trkpt>
+      <trkpt lat="46.2474242" lon="14.3496633"></trkpt>
+      <trkpt lat="46.2475389" lon="14.3495037"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -9006,16 +9063,16 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Koper - Šmarska</name>
     <trkseg>
-      <trkpt lat="45.5326549" lon="13.7358617"></trkpt>
-      <trkpt lat="45.5326553" lon="13.7358889"></trkpt>
-      <trkpt lat="45.5326574" lon="13.7360169"></trkpt>
-      <trkpt lat="45.5326576" lon="13.7360318"></trkpt>
-      <trkpt lat="45.5326851" lon="13.7360309"></trkpt>
-      <trkpt lat="45.5327876" lon="13.7360275"></trkpt>
-      <trkpt lat="45.5327944" lon="13.736027"></trkpt>
-      <trkpt lat="45.5327932" lon="13.7359501"></trkpt>
-      <trkpt lat="45.5327918" lon="13.7358577"></trkpt>
-      <trkpt lat="45.5326549" lon="13.7358617"></trkpt>
+      <trkpt lat="45.5326559" lon="13.7358606"></trkpt>
+      <trkpt lat="45.5326561" lon="13.7358889"></trkpt>
+      <trkpt lat="45.5326567" lon="13.7360169"></trkpt>
+      <trkpt lat="45.5326567" lon="13.7360302"></trkpt>
+      <trkpt lat="45.5326858" lon="13.7360317"></trkpt>
+      <trkpt lat="45.5327882" lon="13.7360265"></trkpt>
+      <trkpt lat="45.5327946" lon="13.7360272"></trkpt>
+      <trkpt lat="45.5327934" lon="13.7359501"></trkpt>
+      <trkpt lat="45.5327919" lon="13.7358575"></trkpt>
+      <trkpt lat="45.5326559" lon="13.7358606"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -9058,13 +9115,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Ajševica</name>
     <trkseg>
-      <trkpt lat="45.9532017" lon="13.6908038"></trkpt>
-      <trkpt lat="45.9531831" lon="13.6907863"></trkpt>
-      <trkpt lat="45.9531479" lon="13.6907517"></trkpt>
-      <trkpt lat="45.9531198" lon="13.6907234"></trkpt>
-      <trkpt lat="45.952989" lon="13.6909991"></trkpt>
-      <trkpt lat="45.9530709" lon="13.6910795"></trkpt>
-      <trkpt lat="45.9532017" lon="13.6908038"></trkpt>
+      <trkpt lat="45.9531961" lon="13.69083"></trkpt>
+      <trkpt lat="45.9531775" lon="13.6908125"></trkpt>
+      <trkpt lat="45.9531423" lon="13.6907779"></trkpt>
+      <trkpt lat="45.9531142" lon="13.6907496"></trkpt>
+      <trkpt lat="45.9529834" lon="13.6910253"></trkpt>
+      <trkpt lat="45.9530653" lon="13.6911057"></trkpt>
+      <trkpt lat="45.9531961" lon="13.69083"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -9223,7 +9280,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="45.5404556" lon="13.7259638"></trkpt>
       <trkpt lat="45.5405851" lon="13.7260433"></trkpt>
@@ -10068,13 +10125,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Petrol - Žerjav</name>
     <trkseg>
-      <trkpt lat="46.4848274" lon="14.8699166"></trkpt>
-      <trkpt lat="46.4848221" lon="14.8700105"></trkpt>
-      <trkpt lat="46.4849626" lon="14.8700275"></trkpt>
-      <trkpt lat="46.484968" lon="14.8699336"></trkpt>
-      <trkpt lat="46.4849557" lon="14.8699321"></trkpt>
-      <trkpt lat="46.4848515" lon="14.8699195"></trkpt>
-      <trkpt lat="46.4848274" lon="14.8699166"></trkpt>
+      <trkpt lat="46.4848514" lon="14.869922"></trkpt>
+      <trkpt lat="46.4848461" lon="14.8700159"></trkpt>
+      <trkpt lat="46.4849866" lon="14.8700329"></trkpt>
+      <trkpt lat="46.484992" lon="14.869939"></trkpt>
+      <trkpt lat="46.4849797" lon="14.8699375"></trkpt>
+      <trkpt lat="46.4848755" lon="14.8699249"></trkpt>
+      <trkpt lat="46.4848514" lon="14.869922"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10865,7 +10922,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Izola - Prešernova 7c</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="45.5369139" lon="13.6680632"></trkpt>
       <trkpt lat="45.5369612" lon="13.66814"></trkpt>
@@ -10888,7 +10945,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Koper - Istrska jug</name>
+    <name>Shell</name>
     <trkseg>
       <trkpt lat="45.5389639" lon="13.7286102"></trkpt>
       <trkpt lat="45.5388453" lon="13.7285381"></trkpt>
@@ -10948,7 +11005,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="45.5151329" lon="13.5808509"></trkpt>
       <trkpt lat="45.5152186" lon="13.5809432"></trkpt>
@@ -10965,26 +11022,6 @@ version="1.1" creator="togpx">
       <trkpt lat="45.5553306" lon="13.7811012"></trkpt>
       <trkpt lat="45.5553983" lon="13.781029"></trkpt>
       <trkpt lat="45.5553562" lon="13.7809485"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>OMV - Škofije vzhod</name>
-    <trkseg>
-      <trkpt lat="45.5806492" lon="13.7976133"></trkpt>
-      <trkpt lat="45.5805758" lon="13.7975967"></trkpt>
-      <trkpt lat="45.5805681" lon="13.7976664"></trkpt>
-      <trkpt lat="45.5806415" lon="13.797683"></trkpt>
-      <trkpt lat="45.5806492" lon="13.7976133"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>OMV - Škofije zahod</name>
-    <trkseg>
-      <trkpt lat="45.5797071" lon="13.7961881"></trkpt>
-      <trkpt lat="45.579684" lon="13.7964015"></trkpt>
-      <trkpt lat="45.5799011" lon="13.7964497"></trkpt>
-      <trkpt lat="45.5799243" lon="13.7962362"></trkpt>
-      <trkpt lat="45.5797071" lon="13.7961881"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11041,12 +11078,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>OMV - Kozina</name>
     <trkseg>
-      <trkpt lat="45.6082649" lon="13.9350023"></trkpt>
-      <trkpt lat="45.6082059" lon="13.9352009"></trkpt>
-      <trkpt lat="45.6081958" lon="13.9352373"></trkpt>
-      <trkpt lat="45.6083169" lon="13.9353138"></trkpt>
-      <trkpt lat="45.6083803" lon="13.935066"></trkpt>
-      <trkpt lat="45.6082649" lon="13.9350023"></trkpt>
+      <trkpt lat="45.6082688" lon="13.9349907"></trkpt>
+      <trkpt lat="45.6082194" lon="13.9351642"></trkpt>
+      <trkpt lat="45.6082007" lon="13.9352298"></trkpt>
+      <trkpt lat="45.6083196" lon="13.935299"></trkpt>
+      <trkpt lat="45.6083877" lon="13.93506"></trkpt>
+      <trkpt lat="45.6082688" lon="13.9349907"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11093,7 +11130,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - BS Dutovlje</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="45.7558984" lon="13.8360198"></trkpt>
       <trkpt lat="45.7558412" lon="13.8359658"></trkpt>
@@ -11115,19 +11152,6 @@ version="1.1" creator="togpx">
       <trkpt lat="45.5597233" lon="14.2444219"></trkpt>
       <trkpt lat="45.5597532" lon="14.2442986"></trkpt>
       <trkpt lat="45.5596401" lon="14.2442426"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>OMV - Lesce</name>
-    <trkseg>
-      <trkpt lat="46.3653047" lon="14.1601344"></trkpt>
-      <trkpt lat="46.3652544" lon="14.1602668"></trkpt>
-      <trkpt lat="46.3653979" lon="14.1603801"></trkpt>
-      <trkpt lat="46.3654332" lon="14.1604081"></trkpt>
-      <trkpt lat="46.3654573" lon="14.1604271"></trkpt>
-      <trkpt lat="46.3655072" lon="14.1602944"></trkpt>
-      <trkpt lat="46.3654823" lon="14.1602747"></trkpt>
-      <trkpt lat="46.3653047" lon="14.1601344"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11176,7 +11200,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Postojna - Titova</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="45.7710072" lon="14.2011931"></trkpt>
       <trkpt lat="45.7711371" lon="14.2011386"></trkpt>
@@ -11191,7 +11215,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Postojna - Tržaška</name>
+    <name>Shell</name>
     <trkseg>
       <trkpt lat="45.7725416" lon="14.1999859"></trkpt>
       <trkpt lat="45.7726268" lon="14.1999494"></trkpt>
@@ -11204,12 +11228,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>OMV - Radovljica - jug</name>
     <trkseg>
-      <trkpt lat="46.3385693" lon="14.1905593"></trkpt>
+      <trkpt lat="46.3385823" lon="14.1905573"></trkpt>
       <trkpt lat="46.3384537" lon="14.1907232"></trkpt>
-      <trkpt lat="46.3385782" lon="14.1909075"></trkpt>
-      <trkpt lat="46.3386938" lon="14.1907436"></trkpt>
-      <trkpt lat="46.3386445" lon="14.1906706"></trkpt>
-      <trkpt lat="46.3385693" lon="14.1905593"></trkpt>
+      <trkpt lat="46.3385838" lon="14.1909102"></trkpt>
+      <trkpt lat="46.3387054" lon="14.1907436"></trkpt>
+      <trkpt lat="46.3386565" lon="14.1906686"></trkpt>
+      <trkpt lat="46.3385823" lon="14.1905573"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11292,16 +11316,6 @@ version="1.1" creator="togpx">
       <trkpt lat="45.7158283" lon="14.4710561"></trkpt>
       <trkpt lat="45.7159127" lon="14.4709887"></trkpt>
       <trkpt lat="45.7158698" lon="14.4708785"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>OMV - Vipolže</name>
-    <trkseg>
-      <trkpt lat="45.9668283" lon="13.5405865"></trkpt>
-      <trkpt lat="45.9668909" lon="13.5406833"></trkpt>
-      <trkpt lat="45.9669319" lon="13.5406283"></trkpt>
-      <trkpt lat="45.9668693" lon="13.5405316"></trkpt>
-      <trkpt lat="45.9668283" lon="13.5405865"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11464,7 +11478,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Počivališče Lopata</name>
+    <name>MOL - Počivališče Lopata</name>
     <trkseg>
       <trkpt lat="46.2615966" lon="15.2208415"></trkpt>
       <trkpt lat="46.261524" lon="15.2210599"></trkpt>
@@ -11477,7 +11491,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV</name>
+    <name>MOL</name>
     <trkseg>
       <trkpt lat="46.1659112" lon="14.6895096"></trkpt>
       <trkpt lat="46.1660639" lon="14.6897918"></trkpt>
@@ -11777,7 +11791,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Maribor - Tržaška</name>
+    <name>Shell - Maribor - Tržaška</name>
     <trkseg>
       <trkpt lat="46.518032" lon="15.6514541"></trkpt>
       <trkpt lat="46.5180437" lon="15.6514928"></trkpt>
@@ -12355,7 +12369,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>MOL - Trbovlje</name>
+    <name>Shell - Trbovlje</name>
     <trkseg>
       <trkpt lat="46.1428975" lon="15.0360956"></trkpt>
       <trkpt lat="46.1427923" lon="15.0360109"></trkpt>
@@ -12366,7 +12380,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Mol - Šmarje</name>
+    <name>Shell - Šmarje</name>
     <trkseg>
       <trkpt lat="46.2285935" lon="15.5042191"></trkpt>
       <trkpt lat="46.2285808" lon="15.5042852"></trkpt>
@@ -12740,7 +12754,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>OMV - Slovenske konjica - Tepanje</name>
+    <name>Shell - Slovenske konjica - Tepanje</name>
     <trkseg>
       <trkpt lat="46.3407039" lon="15.4696702"></trkpt>
       <trkpt lat="46.3407466" lon="15.4696707"></trkpt>
@@ -12972,6 +12986,16 @@ version="1.1" creator="togpx">
       <trkpt lat="45.8987941" lon="15.0259597"></trkpt>
       <trkpt lat="45.8986577" lon="15.0260478"></trkpt>
       <trkpt lat="45.8987233" lon="15.0262579"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/619212023</name>
+    <trkseg>
+      <trkpt lat="45.5762995" lon="13.8032467"></trkpt>
+      <trkpt lat="45.5763257" lon="13.8031686"></trkpt>
+      <trkpt lat="45.5762285" lon="13.8031017"></trkpt>
+      <trkpt lat="45.5762022" lon="13.8031798"></trkpt>
+      <trkpt lat="45.5762995" lon="13.8032467"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14052,6 +14076,99 @@ version="1.1" creator="togpx">
       <trkpt lat="46.2415755" lon="13.5825566"></trkpt>
       <trkpt lat="46.241673" lon="13.5827023"></trkpt>
       <trkpt lat="46.2417574" lon="13.5825854"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV - Škofije zahod</name>
+    <trkseg>
+      <trkpt lat="45.5799304" lon="13.796234"></trkpt>
+      <trkpt lat="45.5798142" lon="13.7962011"></trkpt>
+      <trkpt lat="45.579814" lon="13.7962025"></trkpt>
+      <trkpt lat="45.5797073" lon="13.7961742"></trkpt>
+      <trkpt lat="45.5796803" lon="13.7963751"></trkpt>
+      <trkpt lat="45.5797876" lon="13.7964039"></trkpt>
+      <trkpt lat="45.5797875" lon="13.7964053"></trkpt>
+      <trkpt lat="45.5799032" lon="13.7964381"></trkpt>
+      <trkpt lat="45.5798994" lon="13.7964661"></trkpt>
+      <trkpt lat="45.5799824" lon="13.7964884"></trkpt>
+      <trkpt lat="45.5800267" lon="13.7961576"></trkpt>
+      <trkpt lat="45.5799436" lon="13.7961353"></trkpt>
+      <trkpt lat="45.5799304" lon="13.796234"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV - Škofije vzhod</name>
+    <trkseg>
+      <trkpt lat="45.5806598" lon="13.7973592"></trkpt>
+      <trkpt lat="45.5805926" lon="13.7973402"></trkpt>
+      <trkpt lat="45.5805379" lon="13.7973928"></trkpt>
+      <trkpt lat="45.580525" lon="13.7974867"></trkpt>
+      <trkpt lat="45.5805626" lon="13.797566"></trkpt>
+      <trkpt lat="45.5805575" lon="13.7976041"></trkpt>
+      <trkpt lat="45.5805634" lon="13.7976057"></trkpt>
+      <trkpt lat="45.5805599" lon="13.7976311"></trkpt>
+      <trkpt lat="45.5805031" lon="13.7976157"></trkpt>
+      <trkpt lat="45.5804987" lon="13.7976479"></trkpt>
+      <trkpt lat="45.5806399" lon="13.7976868"></trkpt>
+      <trkpt lat="45.5806445" lon="13.7976536"></trkpt>
+      <trkpt lat="45.5806144" lon="13.7976458"></trkpt>
+      <trkpt lat="45.5806177" lon="13.797621"></trkpt>
+      <trkpt lat="45.5806234" lon="13.7976226"></trkpt>
+      <trkpt lat="45.5806283" lon="13.7975845"></trkpt>
+      <trkpt lat="45.5806841" lon="13.7975309"></trkpt>
+      <trkpt lat="45.5806968" lon="13.7974372"></trkpt>
+      <trkpt lat="45.5806598" lon="13.7973592"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1285163003</name>
+    <trkseg>
+      <trkpt lat="45.7038792" lon="13.8516135"></trkpt>
+      <trkpt lat="45.7038928" lon="13.8517268"></trkpt>
+      <trkpt lat="45.7039138" lon="13.8518232"></trkpt>
+      <trkpt lat="45.703907" lon="13.8517241"></trkpt>
+      <trkpt lat="45.7038792" lon="13.8516135"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>OMV - Vipolže</name>
+    <trkseg>
+      <trkpt lat="45.9668545" lon="13.5405282"></trkpt>
+      <trkpt lat="45.9668137" lon="13.5405853"></trkpt>
+      <trkpt lat="45.966802" lon="13.540568"></trkpt>
+      <trkpt lat="45.9667211" lon="13.5406807"></trkpt>
+      <trkpt lat="45.9668149" lon="13.5408192"></trkpt>
+      <trkpt lat="45.966896" lon="13.5407061"></trkpt>
+      <trkpt lat="45.9668842" lon="13.5406889"></trkpt>
+      <trkpt lat="45.9669247" lon="13.5406328"></trkpt>
+      <trkpt lat="45.9668545" lon="13.5405282"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Petrol - Češnjice v Tuhinju</name>
+    <trkseg>
+      <trkpt lat="46.2194588" lon="14.7906302"></trkpt>
+      <trkpt lat="46.2194819" lon="14.7906305"></trkpt>
+      <trkpt lat="46.2194838" lon="14.7903702"></trkpt>
+      <trkpt lat="46.2194191" lon="14.7903688"></trkpt>
+      <trkpt lat="46.2194184" lon="14.7904542"></trkpt>
+      <trkpt lat="46.219416" lon="14.7904573"></trkpt>
+      <trkpt lat="46.219416" lon="14.7904844"></trkpt>
+      <trkpt lat="46.2194181" lon="14.7904876"></trkpt>
+      <trkpt lat="46.2194179" lon="14.7905049"></trkpt>
+      <trkpt lat="46.2194594" lon="14.7905055"></trkpt>
+      <trkpt lat="46.2194588" lon="14.7906302"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>MOL - Lesce</name>
+    <trkseg>
+      <trkpt lat="46.3652553" lon="14.1602885"></trkpt>
+      <trkpt lat="46.3653925" lon="14.1603984"></trkpt>
+      <trkpt lat="46.3654517" lon="14.1604458"></trkpt>
+      <trkpt lat="46.3655082" lon="14.1602976"></trkpt>
+      <trkpt lat="46.3653118" lon="14.1601402"></trkpt>
+      <trkpt lat="46.3652553" lon="14.1602885"></trkpt>
     </trkseg>
   </trk>
 </gpx>
