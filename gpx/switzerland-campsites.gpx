@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-06-01T15:49:43Z", "timestamp_areas_base":
-      "2024-06-01T13:23:30Z", "copyright": "The data included in
+      "2024-07-22T14:35:21Z", "timestamp_areas_base":
+      "2024-07-22T10:27:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -106,12 +106,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.1128678" lon="8.6239133">
     <ele>732</ele>
-    <name>Naas</name>
-    <desc>caravans=no; drinking_water=yes; name=Naas;
+    <name>Camping Naas-Sod</name>
+    <desc>caravans=no; drinking_water=yes; name=Camping Naas-Sod;
     power_supply=yes; shower=yes; tents=yes; toilets=no;
-    tourism=camp_site; website=http://www.camping-naas-sod.ch;
+    tourism=camp_site; website=https://www.camping-naas-sod.ch/;
     id=node/412399525</desc>
-    <link href="http://www.camping-naas-sod.ch"></link>
+    <link href="https://www.camping-naas-sod.ch/"></link>
   </wpt>
   <wpt lat="46.4138579" lon="7.1025174">
     <ele>1375</ele>
@@ -154,8 +154,9 @@ version="1.1" creator="togpx">
   <wpt lat="46.917416" lon="9.183215">
     <ele>1025</ele>
     <name>Zeltplatz Elm</name>
-    <desc>caravans=no; drinking_water=yes; fireplace=yes;
-    name=Zeltplatz Elm; picnic_table=yes; tents=yes;
+    <desc>caravans=no; charge=5 CHF per Tent; drinking_water=yes;
+    fee=yes; fireplace=yes; name=Zeltplatz Elm; payment:twint=yes;
+    picnic_table=yes; static_caravans=no; tents=yes;
     tourism=camp_site; id=node/612585782</desc>
   </wpt>
   <wpt lat="47.2580352" lon="8.77394">
@@ -529,9 +530,9 @@ version="1.1" creator="togpx">
     <ele>1674</ele>
     <name>Relais de la Tzoucdana</name>
     <desc>name=Relais de la Tzoucdana; phone=+41 27 475 12 19;
-    tents=yes; tourism=camp_site; website=www.tzoucdana.ch;
+    tents=yes; tourism=camp_site; website=https://tzoucdana.ch/;
     id=node/7740615063</desc>
-    <link href="www.tzoucdana.ch"></link>
+    <link href="https://tzoucdana.ch/"></link>
   </wpt>
   <wpt lat="46.3945253" lon="7.2228106">
     <ele>1570</ele>
@@ -876,6 +877,13 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; tourism=camp_site;
     id=node/11766221318</desc>
   </wpt>
+  <wpt lat="47.1122433" lon="8.6236772">
+    <ele>734</ele>
+    <name>Camping Naas-Sod</name>
+    <desc>access=private; caravans=yes; name=Camping Naas-Sod;
+    static_caravans=yes; tourism=camp_site;
+    id=node/12012440012</desc>
+  </wpt>
   <wpt lat="46.820385" lon="6.672664">
     <ele>430</ele>
     <name>node/6952565205</name>
@@ -1037,11 +1045,12 @@ version="1.1" creator="togpx">
   <wpt lat="47.00105295" lon="7.0400082924576175">
     <ele>433</ele>
     <name>TCS Camping Gampelen</name>
-    <desc>addr:housenumber=50; addr:postcode=3236;
-    addr:street=Seestrasse; caravans=yes;
-    email=camping.gampelen@tcs.ch; name=TCS Camping Gampelen;
-    phone=+41 32 313 23 33; shower=yes; tents=yes; toilets=yes;
-    tourism=camp_site; type=multipolygon;
+    <desc>addr:city=Gampelen; addr:housenumber=50;
+    addr:postcode=3236; addr:street=Seestrasse; caravans=yes;
+    email=camping.gampelen@tcs.ch; fee=yes; name=TCS Camping
+    Gampelen; operator=TCS Camping; phone=+41 32 313 23 33;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    type=multipolygon;
     website=https://www.tcs.ch/en/camping-travelling/camping-insider/campsites/tcs-campsites/campsite-gampelen-neuenburgersee.php;
     id=relation/3117956</desc>
     <link href="https://www.tcs.ch/en/camping-travelling/camping-insider/campsites/tcs-campsites/campsite-gampelen-neuenburgersee.php">
@@ -1089,8 +1098,8 @@ version="1.1" creator="togpx">
     <ele>499</ele>
     <name>Campingplatz Bundkofen</name>
     <desc>addr:city=Schüpfen; addr:postcode=3054; name=Campingplatz
-    Bundkofen; tourism=camp_site; type=multipolygon;
-    website=https://www.campingbundkofen.ch/;
+    Bundkofen; permanent_camping=only; tourism=camp_site;
+    type=multipolygon; website=https://www.campingbundkofen.ch/;
     id=relation/4762746</desc>
     <link href="https://www.campingbundkofen.ch/"></link>
   </wpt>
@@ -1106,7 +1115,7 @@ version="1.1" creator="togpx">
     <link href="http://www.potentille.ch/de/N1841/camping-du-lac.html">
     </link>
   </wpt>
-  <wpt lat="47.1624085" lon="7.346213200627906">
+  <wpt lat="47.1624579" lon="7.346312075251165">
     <ele>518</ele>
     <name>Seeland Camp</name>
     <desc>addr:city=Meinisberg; addr:housenumber=5;
@@ -1486,11 +1495,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.0037046" lon="7.02097933935674">
     <ele>427</ele>
-    <name>Camping La Tène</name>
-    <desc>name=Camping La Tène; tourism=camp_site;
-    type=multipolygon; website=https://www.latene.ch/;
+    <name>TCS Camping La Tène</name>
+    <desc>access=yes; addr:city=Marin-Epagnier;
+    addr:housenumber=106; addr:postcode=2074; addr:street=Route de
+    la Tène; caravans=yes; fee=yes; name=TCS Camping La Tène;
+    operator=TCS Camping; tourism=camp_site; type=multipolygon;
+    website=https://www.tcs.ch/en/camping-travelling/camping-insider/campsites/tcs-campsites/campsite-la-tene-lake-neuchatel.php;
     id=relation/11105245</desc>
-    <link href="https://www.latene.ch/"></link>
+    <link href="https://www.tcs.ch/en/camping-travelling/camping-insider/campsites/tcs-campsites/campsite-la-tene-lake-neuchatel.php">
+    </link>
   </wpt>
   <wpt lat="46.6926591" lon="7.869260017412193">
     <ele>600</ele>
@@ -1625,7 +1638,7 @@ version="1.1" creator="togpx">
     id=relation/16249340</desc>
     <link href="https://www.campingduboisnoir.ch/"></link>
   </wpt>
-  <wpt lat="46.0324336" lon="7.108854013859649">
+  <wpt lat="46.03244705" lon="7.108851290147841">
     <ele>1480</ele>
     <name>Roccailles</name>
     <desc>addr:city=Champex; addr:country=CH; addr:housenumber=134;
@@ -1669,10 +1682,11 @@ version="1.1" creator="togpx">
     <ele>397</ele>
     <name>Camping Wagenhausen</name>
     <desc>cabins=yes; capacity:pitches=40;
-    capacity:static_caravans=240; caravans=yes; name=Camping
-    Wagenhausen; opening_hours=Apr 1 - Oct 23; phone=+41 52 741 42
-    71; shower=yes; static_caravans=yes; tents=yes; toilets=yes;
-    tourism=camp_site; website=https://www.campingwagenhausen.ch/;
+    capacity:static_caravans=240; caravans=yes; drinking_water=yes;
+    name=Camping Wagenhausen; opening_hours=Apr 1 - Oct 23;
+    phone=+41 52 741 42 71; shower=yes; static_caravans=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.campingwagenhausen.ch/;
     id=way/22978503</desc>
     <link href="https://www.campingwagenhausen.ch/"></link>
   </wpt>
@@ -2043,8 +2057,9 @@ version="1.1" creator="togpx">
   <wpt lat="47.62764835" lon="9.25237544008688">
     <ele>404</ele>
     <name>Camping Möwe</name>
-    <desc>comment=only permanent residents, no tourists;
-    name=Camping Möwe; tourism=camp_site; id=way/53754565</desc>
+    <desc>caravans=yes; comment=only permanent residents, no
+    tourists; name=Camping Möwe; tents=no; tourism=camp_site;
+    id=way/53754565</desc>
   </wpt>
   <wpt lat="46.16735595" lon="8.854028457130772">
     <ele>197</ele>
@@ -2327,9 +2342,9 @@ version="1.1" creator="togpx">
     name=Rausenbach; operator=Zelt - Klub Zürich;
     permanent_camping=yes; phone=+41 44 980 09 59;
     sanitary_dump_station=customers; tents=yes; tourism=camp_site;
-    website=http://www.zeltklub.ch; wheelchair=limited;
+    website=https://www.zeltklub.ch/; wheelchair=limited;
     id=way/127067992</desc>
-    <link href="http://www.zeltklub.ch"></link>
+    <link href="https://www.zeltklub.ch/"></link>
   </wpt>
   <wpt lat="46.8616097" lon="9.506389756754471">
     <ele>562</ele>
@@ -2345,11 +2360,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.54873395" lon="9.313614782809845">
     <ele>1465</ele>
     <name>Camping Splügen</name>
-    <desc>alt_name=Auf dem Sand; email=camping@spluegen.ch;
-    internet_access=wlan; internet_access:fee=no; name=Camping
-    Splügen; opening_hours=24/7; operator=R. und D.
-    Ardüser-Hardegger; phone=+41 81 664 14 76; stars=4;
-    tourism=camp_site;
+    <desc>alt_name=Auf dem Sand; caravans=yes; drinking_water=yes;
+    email=camping@spluegen.ch; internet_access=wlan;
+    internet_access:fee=no; name=Camping Splügen;
+    opening_hours=24/7; operator=R. und D. Ardüser-Hardegger;
+    phone=+41 81 664 14 76; stars=4; tents=yes; tourism=camp_site;
     website=https://viamala.graubuenden.ch/camping-spluegen;
     id=way/132374006</desc>
     <link href="https://viamala.graubuenden.ch/camping-spluegen">
@@ -2594,9 +2609,9 @@ version="1.1" creator="togpx">
     <name>Tariche</name>
     <desc>dog=leashed; email=info@tariche.ch; name=Tariche;
     phone=+41 32 433 46 19; shower=yes; toilets=yes;
-    tourism=camp_site; washing_machine=yes; website=tariche.ch;
-    id=way/175055792</desc>
-    <link href="tariche.ch"></link>
+    tourism=camp_site; washing_machine=yes;
+    website=https://tariche.ch/; id=way/175055792</desc>
+    <link href="https://tariche.ch/"></link>
   </wpt>
   <wpt lat="47.296446" lon="6.988129436107">
     <ele>494</ele>
@@ -2997,8 +3012,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.2377423" lon="7.41495573115618">
     <ele>494</ele>
     <name>Camping Valcentre</name>
-    <desc>name=Camping Valcentre; tourism=camp_site;
-    id=way/236932688</desc>
+    <desc>caravans=yes; internet_access=wlan;
+    internet_access:fee=yes; name=Camping Valcentre; shower=yes;
+    tents=yes; tourism=camp_site;
+    website=https://campingvalcentre.ch; id=way/236932688</desc>
+    <link href="https://campingvalcentre.ch"></link>
   </wpt>
   <wpt lat="46.2116083" lon="7.315749171454474">
     <ele>484</ele>
@@ -3087,12 +3105,6 @@ version="1.1" creator="togpx">
     website=https://www.camping-hasenweide.ch/;
     id=way/244095054</desc>
     <link href="https://www.camping-hasenweide.ch/"></link>
-  </wpt>
-  <wpt lat="46.2648133" lon="7.47315779415175">
-    <ele>506</ele>
-    <name>Camping Robinson</name>
-    <desc>name=Camping Robinson; tourism=camp_site;
-    id=way/244367644</desc>
   </wpt>
   <wpt lat="46.3047433" lon="7.481540053349864">
     <ele>1427</ele>
@@ -3225,8 +3237,9 @@ version="1.1" creator="togpx">
     email=info@campingdebelfond.ch; name=Camping de Belfond;
     opening_hours=Jun-Sep; operator=Geiser Pierre-André et Gladys;
     phone=+41 32 481 17 63; tourism=camp_site;
-    website=http://www.campingdebelfond.ch; id=way/261008619</desc>
-    <link href="http://www.campingdebelfond.ch"></link>
+    website=https://www.campingdebelfond.ch/;
+    id=way/261008619</desc>
+    <link href="https://www.campingdebelfond.ch/"></link>
   </wpt>
   <wpt lat="47.053501600000004" lon="7.16954350190578">
     <ele>426</ele>
@@ -3307,8 +3320,8 @@ version="1.1" creator="togpx">
     email=geschina@bluewin.ch; fax=+41 27 923 06 88; name=Camping
     Geschina; operator=Fam. Eyer &amp; Schmid; shower=hot;
     tents=yes; toilets=yes; tourism=camp_site;
-    website=http://www.geschina.ch/; id=way/274171059</desc>
-    <link href="http://www.geschina.ch/"></link>
+    website=https://www.geschina.ch/; id=way/274171059</desc>
+    <link href="https://www.geschina.ch/"></link>
   </wpt>
   <wpt lat="45.9949643" lon="8.909359876062505">
     <ele>274</ele>
@@ -3399,9 +3412,9 @@ version="1.1" creator="togpx">
     payment:contactless=yes; payment:credit_cards=yes;
     power_supply=yes; sanitary_dump_station=yes; shower=yes;
     tents=yes; toilets=yes; tourism=camp_site; washing_machine=yes;
-    website=http://www.camping-rive-bleue.ch;
+    website=https://www.camping-rive-bleue.ch/;
     id=way/288630307</desc>
-    <link href="http://www.camping-rive-bleue.ch"></link>
+    <link href="https://www.camping-rive-bleue.ch/"></link>
   </wpt>
   <wpt lat="47.5883481" lon="9.332134017437333">
     <ele>406</ele>
@@ -3633,11 +3646,11 @@ version="1.1" creator="togpx">
   <wpt lat="46.9500632" lon="8.619332401196573">
     <ele>434</ele>
     <name>Camping Bucheli</name>
-    <desc>addr:city=Sisikon; addr:housenumber=2;
-    addr:postcode=6452; addr:street=Campingstrasse;
-    email=info@camping-bucheli.ch; name=Camping Bucheli;
-    operator=Claire Zgraggen; phone=+41 79 387 07 51,+41 41 387 07
-    51; tourism=camp_site; website=https://www.camping-bucheli.ch/;
+    <desc>addr:city=Sisikon; addr:postcode=6452;
+    addr:street=Dammstrasse; email=info@camping-bucheli.ch;
+    name=Camping Bucheli; operator=Claire Zgraggen; phone=+41 79
+    387 07 51,+41 41 387 07 51; tourism=camp_site;
+    website=https://www.camping-bucheli.ch/;
     id=way/308776302</desc>
     <link href="https://www.camping-bucheli.ch/"></link>
   </wpt>
@@ -3677,9 +3690,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="46.31115575" lon="9.200180701313801">
     <ele>425</ele>
-    <name>Canping Lostallo</name>
+    <name>Camping Lostallo</name>
     <desc>caravans=yes; drinking_water=no; internet_access=no;
-    name=Canping Lostallo; power_supply=no; shower=no; tents=yes;
+    name=Camping Lostallo; power_supply=no; shower=no; tents=yes;
     toilets=no; tourism=camp_site; wheelchair=yes;
     id=way/312038928</desc>
   </wpt>
@@ -4109,8 +4122,8 @@ version="1.1" creator="togpx">
     id=way/392084958</desc>
     <link href="https://www.campeggioaibosconi.ch/"></link>
   </wpt>
-  <wpt lat="46.67163395" lon="9.674439917256297">
-    <ele>974</ele>
+  <wpt lat="46.67184975" lon="9.674966423243692">
+    <ele>976</ele>
     <name>Camping Islas</name>
     <desc>capacity=100; contact:email=info@campingislas.ch;
     contact:phone=+41 814041647;
@@ -4205,9 +4218,9 @@ version="1.1" creator="togpx">
     <name>Camping du Val-de- Travers</name>
     <desc>name=Camping du Val-de- Travers; phone=+41 32 861 42 62;
     tourism=camp_site;
-    website=http://www.camping-val-de-travers.ch/;
+    website=https://www.camping-val-de-travers.ch/;
     id=way/419855680</desc>
-    <link href="http://www.camping-val-de-travers.ch/"></link>
+    <link href="https://www.camping-val-de-travers.ch/"></link>
   </wpt>
   <wpt lat="46.93962115" lon="6.85067319662312">
     <ele>430</ele>
@@ -4256,7 +4269,7 @@ version="1.1" creator="togpx">
     id=way/430230619</desc>
     <link href="https://www.seefeldpark.ch/camping"></link>
   </wpt>
-  <wpt lat="46.9712278" lon="9.595769383130985">
+  <wpt lat="46.971195949999995" lon="9.595610434394871">
     <ele>560</ele>
     <name>Waldcamping Landquart</name>
     <desc>addr:city=Landquart; addr:housenumber=21;
@@ -4411,8 +4424,8 @@ version="1.1" creator="togpx">
     <name>Attermenzen</name>
     <desc>caravans=yes; name=Attermenzen; power_supply=yes;
     stars=3; tents=yes; tourism=camp_site;
-    website=http://www.camping-randa.ch/; id=way/487190671</desc>
-    <link href="http://www.camping-randa.ch/"></link>
+    website=https://www.camping-randa.ch/; id=way/487190671</desc>
+    <link href="https://www.camping-randa.ch/"></link>
   </wpt>
   <wpt lat="47.32958155" lon="9.2243810564567">
     <ele>852</ele>
@@ -4427,10 +4440,11 @@ version="1.1" creator="togpx">
     <name>Gotthard Camping Andermatt</name>
     <desc>addr:city=Andermatt; addr:housenumber=110;
     addr:postcode=6490; addr:street=Gotthardstrasse; caravans=no;
-    email=mail@gotthard-camping.ch; fee=yes; name=Gotthard Camping
-    Andermatt; phone=+41 79 226 30 76; tents=yes;
+    drinking_water=yes; email=mail@gotthard-camping.ch; fee=yes;
+    name=Gotthard Camping Andermatt; phone=+41 79 226 30 76;
+    power_supply=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; website=http://gotthard-camping.ch/;
-    id=way/512727244</desc>
+    wheelchair=yes; id=way/512727244</desc>
     <link href="http://gotthard-camping.ch/"></link>
   </wpt>
   <wpt lat="46.6610838" lon="6.791851078441082">
@@ -4620,8 +4634,8 @@ version="1.1" creator="togpx">
   <wpt lat="47.18989474999999" lon="7.447501106628628">
     <ele>428</ele>
     <name>Campingplatz Altreu</name>
-    <desc>name=Campingplatz Altreu; tents=no; tourism=camp_site;
-    id=way/699794505</desc>
+    <desc>caravans=yes; name=Campingplatz Altreu; tents=yes;
+    tourism=camp_site; id=way/699794505</desc>
   </wpt>
   <wpt lat="46.893143499999994" lon="7.332907479934201">
     <ele>545</ele>
@@ -4890,18 +4904,6 @@ version="1.1" creator="togpx">
     <link href="https://www.cctg.ch/camping-aumuumlhle.html">
     </link>
   </wpt>
-  <wpt lat="47.1775464" lon="8.493781381131427">
-    <ele>415</ele>
-    <name>TCS Zugersee</name>
-    <desc>caravans=yes; email=camping.zug@tcs.ch; name=TCS
-    Zugersee; opening_hours=Apr 1 - Oct 17; phone=+41417418422;
-    sanitary_dump_station=customers; shower=hot; tents=yes;
-    toilets=yes; tourism=camp_site;
-    website=https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/campingplatz-zug.php;
-    id=way/889243714</desc>
-    <link href="https://www.tcs.ch/de/camping-reisen/camping-insider/campingplaetze/tcs-campingplaetze/campingplatz-zug.php">
-    </link>
-  </wpt>
   <wpt lat="47.646253900000005" lon="8.91153273982058">
     <ele>394</ele>
     <name>Hächler</name>
@@ -4913,7 +4915,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Altdorf UR; addr:housenumber=112;
     addr:postcode=6460; addr:street=Flüelerstrasse; caravans=yes;
     email=info@camping-altdorf.ch; name=Remo Camping Moosbad;
-    phone=+41 41 870 85 41; tents=yes; tourism=camp_site;
+    phone=+41 41 870 85 41; tents=no; tourism=camp_site;
     website=https://camping-altdorf.ch/; id=way/913292907</desc>
     <link href="https://camping-altdorf.ch/"></link>
   </wpt>
@@ -5182,10 +5184,11 @@ version="1.1" creator="togpx">
     <name>Wyler</name>
     <desc>name=Wyler; tourism=camp_site; id=way/1241944557</desc>
   </wpt>
-  <wpt lat="46.497276299999996" lon="7.683516170533455">
+  <wpt lat="46.497268950000006" lon="7.683516534079301">
     <ele>1204</ele>
     <name>Camping Rendez-vous</name>
-    <desc>name=Camping Rendez-vous; tourism=camp_site;
+    <desc>caravans=yes; fee=yes; name=Camping Rendez-vous;
+    static_caravans=yes; tents=yes; tourism=camp_site;
     id=way/1258193577</desc>
   </wpt>
   <wpt lat="46.37297365" lon="8.084136309934756">
@@ -5203,6 +5206,12 @@ version="1.1" creator="togpx">
     power_supply=yes; stars=4; tourism=camp_site;
     id=way/1274041096</desc>
     <link href="https://campgemmi.ch"></link>
+  </wpt>
+  <wpt lat="46.9881147" lon="9.335490793877383">
+    <ele>1018</ele>
+    <name>way/1301449422</name>
+    <desc>caravans=no; static_caravans=no; tents=yes;
+    tourism=camp_site; id=way/1301449422</desc>
   </wpt>
   <wpt lat="46.82053775" lon="6.673870364965775">
     <ele>430</ele>
@@ -6701,18 +6710,23 @@ version="1.1" creator="togpx">
   <trk>
     <name>Seeland Camp</name>
     <trkseg>
-      <trkpt lat="47.1621224" lon="7.3443974"></trkpt>
-      <trkpt lat="47.1618459" lon="7.3445204"></trkpt>
-      <trkpt lat="47.1615065" lon="7.3445143"></trkpt>
+      <trkpt lat="47.162128" lon="7.3443892"></trkpt>
+      <trkpt lat="47.1619814" lon="7.3444528"></trkpt>
+      <trkpt lat="47.1618487" lon="7.3444972"></trkpt>
+      <trkpt lat="47.1617195" lon="7.3444911"></trkpt>
+      <trkpt lat="47.1616117" lon="7.344472"></trkpt>
+      <trkpt lat="47.1614981" lon="7.3444583"></trkpt>
       <trkpt lat="47.1616031" lon="7.345174"></trkpt>
-      <trkpt lat="47.1618067" lon="7.3458527"></trkpt>
+      <trkpt lat="47.1617928" lon="7.3457789"></trkpt>
       <trkpt lat="47.1621325" lon="7.3465347"></trkpt>
       <trkpt lat="47.16267" lon="7.3486885"></trkpt>
       <trkpt lat="47.1632331" lon="7.3484254"></trkpt>
       <trkpt lat="47.1629579" lon="7.3468893"></trkpt>
-      <trkpt lat="47.1625983" lon="7.3448822"></trkpt>
-      <trkpt lat="47.1622187" lon="7.3446893"></trkpt>
-      <trkpt lat="47.1621224" lon="7.3443974"></trkpt>
+      <trkpt lat="47.162599" lon="7.3448436"></trkpt>
+      <trkpt lat="47.1623168" lon="7.3447275"></trkpt>
+      <trkpt lat="47.1622815" lon="7.3447077"></trkpt>
+      <trkpt lat="47.1622215" lon="7.3446661"></trkpt>
+      <trkpt lat="47.162128" lon="7.3443892"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -7864,7 +7878,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping La Tène</name>
+    <name>TCS Camping La Tène</name>
     <trkseg>
       <trkpt lat="47.0051456" lon="7.0196894"></trkpt>
       <trkpt lat="47.0050637" lon="7.019977"></trkpt>
@@ -9306,11 +9320,13 @@ version="1.1" creator="togpx">
       <trkpt lat="46.0326758" lon="7.1096433"></trkpt>
       <trkpt lat="46.0327318" lon="7.1096453"></trkpt>
       <trkpt lat="46.0327403" lon="7.109523"></trkpt>
-      <trkpt lat="46.0327649" lon="7.109313"></trkpt>
-      <trkpt lat="46.0328357" lon="7.1089965"></trkpt>
-      <trkpt lat="46.0329297" lon="7.1086076"></trkpt>
-      <trkpt lat="46.032966" lon="7.1084078"></trkpt>
-      <trkpt lat="46.0329539" lon="7.1083152"></trkpt>
+      <trkpt lat="46.0327745" lon="7.1093122"></trkpt>
+      <trkpt lat="46.0328405" lon="7.1090011"></trkpt>
+      <trkpt lat="46.0329393" lon="7.1086061"></trkpt>
+      <trkpt lat="46.0329588" lon="7.1084909"></trkpt>
+      <trkpt lat="46.0329681" lon="7.1084101"></trkpt>
+      <trkpt lat="46.0329674" lon="7.1083642"></trkpt>
+      <trkpt lat="46.032956" lon="7.1083106"></trkpt>
       <trkpt lat="46.0329223" lon="7.1082562"></trkpt>
       <trkpt lat="46.0328971" lon="7.1082321"></trkpt>
       <trkpt lat="46.0328068" lon="7.1081972"></trkpt>
@@ -13763,34 +13779,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping Robinson</name>
-    <trkseg>
-      <trkpt lat="46.2639445" lon="7.4754792"></trkpt>
-      <trkpt lat="46.2649718" lon="7.4753195"></trkpt>
-      <trkpt lat="46.2657651" lon="7.4751995"></trkpt>
-      <trkpt lat="46.2657926" lon="7.4744468"></trkpt>
-      <trkpt lat="46.2658069" lon="7.4740547"></trkpt>
-      <trkpt lat="46.2658195" lon="7.47371"></trkpt>
-      <trkpt lat="46.2658578" lon="7.4728443"></trkpt>
-      <trkpt lat="46.2658759" lon="7.4716696"></trkpt>
-      <trkpt lat="46.2658798" lon="7.4708796"></trkpt>
-      <trkpt lat="46.2658135" lon="7.4701714"></trkpt>
-      <trkpt lat="46.2657268" lon="7.4701248"></trkpt>
-      <trkpt lat="46.265479" lon="7.4705766"></trkpt>
-      <trkpt lat="46.2653097" lon="7.4707893"></trkpt>
-      <trkpt lat="46.2651344" lon="7.4708739"></trkpt>
-      <trkpt lat="46.2646548" lon="7.4710196"></trkpt>
-      <trkpt lat="46.2643945" lon="7.4711593"></trkpt>
-      <trkpt lat="46.2642699" lon="7.4712324"></trkpt>
-      <trkpt lat="46.2642249" lon="7.4713439"></trkpt>
-      <trkpt lat="46.2640463" lon="7.471827"></trkpt>
-      <trkpt lat="46.2637979" lon="7.4727932"></trkpt>
-      <trkpt lat="46.2637203" lon="7.4731924"></trkpt>
-      <trkpt lat="46.2637767" lon="7.4734804"></trkpt>
-      <trkpt lat="46.2639445" lon="7.4754792"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Camping Moubra</name>
     <trkseg>
       <trkpt lat="46.3048299" lon="7.4807494"></trkpt>
@@ -14941,7 +14929,7 @@ version="1.1" creator="togpx">
   <trk>
     <name>TCS Camping Flims</name>
     <trkseg>
-      <trkpt lat="46.8244694" lon="9.284844"></trkpt>
+      <trkpt lat="46.8244596" lon="9.2847916"></trkpt>
       <trkpt lat="46.8244832" lon="9.2848246"></trkpt>
       <trkpt lat="46.8245199" lon="9.2846543"></trkpt>
       <trkpt lat="46.8245396" lon="9.284486"></trkpt>
@@ -15006,16 +14994,16 @@ version="1.1" creator="togpx">
       <trkpt lat="46.8242371" lon="9.2837408"></trkpt>
       <trkpt lat="46.8242097" lon="9.2838898"></trkpt>
       <trkpt lat="46.824193" lon="9.2840278"></trkpt>
-      <trkpt lat="46.8241817" lon="9.2841198"></trkpt>
-      <trkpt lat="46.824179" lon="9.2841922"></trkpt>
-      <trkpt lat="46.824193" lon="9.2842642"></trkpt>
-      <trkpt lat="46.8242377" lon="9.2843304"></trkpt>
-      <trkpt lat="46.8242666" lon="9.2843673"></trkpt>
-      <trkpt lat="46.8243024" lon="9.2844538"></trkpt>
-      <trkpt lat="46.8243235" lon="9.2845168"></trkpt>
-      <trkpt lat="46.8243703" lon="9.2846241"></trkpt>
-      <trkpt lat="46.8244419" lon="9.284779"></trkpt>
-      <trkpt lat="46.8244694" lon="9.284844"></trkpt>
+      <trkpt lat="46.8241719" lon="9.2840674"></trkpt>
+      <trkpt lat="46.8241692" lon="9.2841398"></trkpt>
+      <trkpt lat="46.8241832" lon="9.2842118"></trkpt>
+      <trkpt lat="46.8242279" lon="9.284278"></trkpt>
+      <trkpt lat="46.8242568" lon="9.2843149"></trkpt>
+      <trkpt lat="46.8242926" lon="9.2844014"></trkpt>
+      <trkpt lat="46.8243137" lon="9.2844644"></trkpt>
+      <trkpt lat="46.8243605" lon="9.2845717"></trkpt>
+      <trkpt lat="46.8244321" lon="9.2847266"></trkpt>
+      <trkpt lat="46.8244596" lon="9.2847916"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15397,7 +15385,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Canping Lostallo</name>
+    <name>Camping Lostallo</name>
     <trkseg>
       <trkpt lat="46.3115785" lon="9.1998106"></trkpt>
       <trkpt lat="46.3110442" lon="9.1993793"></trkpt>
@@ -16257,6 +16245,9 @@ version="1.1" creator="togpx">
       <trkpt lat="47.0456181" lon="7.0979457"></trkpt>
       <trkpt lat="47.0457387" lon="7.0978116"></trkpt>
       <trkpt lat="47.0460567" lon="7.0982864"></trkpt>
+      <trkpt lat="47.0460662" lon="7.0982859"></trkpt>
+      <trkpt lat="47.0461977" lon="7.0982061"></trkpt>
+      <trkpt lat="47.0463952" lon="7.0980996"></trkpt>
       <trkpt lat="47.0464935" lon="7.0980515"></trkpt>
       <trkpt lat="47.0464978" lon="7.0979984"></trkpt>
       <trkpt lat="47.0464978" lon="7.09773"></trkpt>
@@ -16570,8 +16561,19 @@ version="1.1" creator="togpx">
       <trkpt lat="46.6719855" lon="9.6768591"></trkpt>
       <trkpt lat="46.6721974" lon="9.6768231"></trkpt>
       <trkpt lat="46.6722327" lon="9.6759159"></trkpt>
-      <trkpt lat="46.6721985" lon="9.6754442"></trkpt>
-      <trkpt lat="46.6722985" lon="9.6750798"></trkpt>
+      <trkpt lat="46.6722549" lon="9.6759056"></trkpt>
+      <trkpt lat="46.6723573" lon="9.6761905"></trkpt>
+      <trkpt lat="46.672448" lon="9.6762556"></trkpt>
+      <trkpt lat="46.6724961" lon="9.6761517"></trkpt>
+      <trkpt lat="46.6724806" lon="9.6759227"></trkpt>
+      <trkpt lat="46.6724272" lon="9.6758195"></trkpt>
+      <trkpt lat="46.6723475" lon="9.6756128"></trkpt>
+      <trkpt lat="46.6723689" lon="9.6755371"></trkpt>
+      <trkpt lat="46.6723541" lon="9.6753964"></trkpt>
+      <trkpt lat="46.6724148" lon="9.6752101"></trkpt>
+      <trkpt lat="46.6725078" lon="9.6752246"></trkpt>
+      <trkpt lat="46.6725265" lon="9.6750645"></trkpt>
+      <trkpt lat="46.6723164" lon="9.6750604"></trkpt>
       <trkpt lat="46.6723169" lon="9.6745275"></trkpt>
       <trkpt lat="46.6722353" lon="9.674236"></trkpt>
       <trkpt lat="46.6721616" lon="9.6741094"></trkpt>
@@ -16865,18 +16867,19 @@ version="1.1" creator="togpx">
     <name>Waldcamping Landquart</name>
     <trkseg>
       <trkpt lat="46.9719032" lon="9.5982221"></trkpt>
-      <trkpt lat="46.971933" lon="9.5974798"></trkpt>
+      <trkpt lat="46.9720296" lon="9.5972307"></trkpt>
       <trkpt lat="46.9718535" lon="9.5965119"></trkpt>
       <trkpt lat="46.9717194" lon="9.5952165"></trkpt>
       <trkpt lat="46.9715158" lon="9.5939066"></trkpt>
-      <trkpt lat="46.9713172" lon="9.5933608"></trkpt>
-      <trkpt lat="46.9708951" lon="9.59355"></trkpt>
+      <trkpt lat="46.9712921" lon="9.5929561"></trkpt>
+      <trkpt lat="46.9707908" lon="9.5931651"></trkpt>
       <trkpt lat="46.9705642" lon="9.593506"></trkpt>
-      <trkpt lat="46.9705127" lon="9.5941103"></trkpt>
+      <trkpt lat="46.9704992" lon="9.5938131"></trkpt>
+      <trkpt lat="46.9705123" lon="9.5942569"></trkpt>
       <trkpt lat="46.9706418" lon="9.5943914"></trkpt>
-      <trkpt lat="46.9708056" lon="9.596111"></trkpt>
-      <trkpt lat="46.9708604" lon="9.5965046"></trkpt>
-      <trkpt lat="46.9711384" lon="9.5976617"></trkpt>
+      <trkpt lat="46.9707042" lon="9.5961478"></trkpt>
+      <trkpt lat="46.9708015" lon="9.5965754"></trkpt>
+      <trkpt lat="46.9710998" lon="9.5978032"></trkpt>
       <trkpt lat="46.9714679" lon="9.5994168"></trkpt>
       <trkpt lat="46.9716173" lon="9.5990352"></trkpt>
       <trkpt lat="46.9719032" lon="9.5982221"></trkpt>
@@ -18553,28 +18556,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>TCS Zugersee</name>
-    <trkseg>
-      <trkpt lat="47.1771996" lon="8.4957023"></trkpt>
-      <trkpt lat="47.1773363" lon="8.4952437"></trkpt>
-      <trkpt lat="47.1774156" lon="8.4950122"></trkpt>
-      <trkpt lat="47.1776364" lon="8.4943409"></trkpt>
-      <trkpt lat="47.177712" lon="8.4943804"></trkpt>
-      <trkpt lat="47.1780634" lon="8.493194"></trkpt>
-      <trkpt lat="47.1780084" lon="8.4931019"></trkpt>
-      <trkpt lat="47.177906" lon="8.4931815"></trkpt>
-      <trkpt lat="47.1778689" lon="8.4931286"></trkpt>
-      <trkpt lat="47.1774564" lon="8.4928979"></trkpt>
-      <trkpt lat="47.1773796" lon="8.4934731"></trkpt>
-      <trkpt lat="47.1773649" lon="8.4941175"></trkpt>
-      <trkpt lat="47.1773631" lon="8.4942198"></trkpt>
-      <trkpt lat="47.1773479" lon="8.4943167"></trkpt>
-      <trkpt lat="47.1771203" lon="8.4951495"></trkpt>
-      <trkpt lat="47.1769886" lon="8.4955462"></trkpt>
-      <trkpt lat="47.1771996" lon="8.4957023"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Hächler</name>
     <trkseg>
       <trkpt lat="47.6462805" lon="8.9128354"></trkpt>
@@ -19311,6 +19292,7 @@ version="1.1" creator="togpx">
       <trkpt lat="46.4971382" lon="7.6831355"></trkpt>
       <trkpt lat="46.4970278" lon="7.6831984"></trkpt>
       <trkpt lat="46.4967267" lon="7.6835303"></trkpt>
+      <trkpt lat="46.496768" lon="7.6836547"></trkpt>
       <trkpt lat="46.4967987" lon="7.6837472"></trkpt>
       <trkpt lat="46.4969402" lon="7.6838161"></trkpt>
       <trkpt lat="46.4973601" lon="7.6840163"></trkpt>
@@ -19319,9 +19301,9 @@ version="1.1" creator="togpx">
       <trkpt lat="46.4975233" lon="7.6843333"></trkpt>
       <trkpt lat="46.4974664" lon="7.6843909"></trkpt>
       <trkpt lat="46.497244" lon="7.6843344"></trkpt>
-      <trkpt lat="46.4970792" lon="7.6844045"></trkpt>
-      <trkpt lat="46.4971869" lon="7.6848645"></trkpt>
-      <trkpt lat="46.4973406" lon="7.6852818"></trkpt>
+      <trkpt lat="46.4969584" lon="7.6843985"></trkpt>
+      <trkpt lat="46.4971591" lon="7.6849174"></trkpt>
+      <trkpt lat="46.4972939" lon="7.6852698"></trkpt>
       <trkpt lat="46.497678" lon="7.685063"></trkpt>
       <trkpt lat="46.4977099" lon="7.6847256"></trkpt>
       <trkpt lat="46.4977222" lon="7.684596"></trkpt>
@@ -19393,6 +19375,17 @@ version="1.1" creator="togpx">
       <trkpt lat="46.2978303" lon="7.6595362"></trkpt>
       <trkpt lat="46.2978638" lon="7.6595878"></trkpt>
       <trkpt lat="46.2985307" lon="7.659167"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1301449422</name>
+    <trkseg>
+      <trkpt lat="46.9882073" lon="9.3352138"></trkpt>
+      <trkpt lat="46.9880568" lon="9.3351597"></trkpt>
+      <trkpt lat="46.9879535" lon="9.3357701"></trkpt>
+      <trkpt lat="46.9881726" lon="9.3358122"></trkpt>
+      <trkpt lat="46.9881918" lon="9.3355121"></trkpt>
+      <trkpt lat="46.9882073" lon="9.3352138"></trkpt>
     </trkseg>
   </trk>
   <trk>

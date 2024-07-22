@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-06-01T15:53:45Z", "timestamp_areas_base":
-      "2024-06-01T13:23:30Z", "copyright": "The data included in
+      "2024-07-22T14:40:30Z", "timestamp_areas_base":
+      "2024-07-22T10:27:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -138,8 +138,9 @@ version="1.1" creator="togpx">
     <name>St1 Oravais</name>
     <desc>addr:city=Oravais; addr:housenumber=30;
     addr:postcode=66800; addr:street=Karlebyvägen; amenity=fuel;
-    name=St1 Oravais; name:fi=St1 Oravainen; name:sv=St1 Oravais;
-    phone=(06) 385 1200; snowmobile=yes; id=node/26197441</desc>
+    brand=St1; brand:wikidata=Q7592214; name=St1 Oravais;
+    name:fi=St1 Oravainen; name:sv=St1 Oravais; phone=(06) 385
+    1200; snowmobile=yes; id=node/26197441</desc>
   </wpt>
   <wpt lat="63.5908207" lon="22.7547839">
     <name>Teboil Bennäs</name>
@@ -218,12 +219,19 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.4115517" lon="22.3543139">
     <name>ABC</name>
-    <desc>amenity=fuel; brand=ABC; name=ABC;
-    id=node/26197470</desc>
+    <desc>amenity=fuel; brand=ABC; compressed_air=no; name=ABC;
+    opening_hours=24/7; id=node/26197470</desc>
   </wpt>
   <wpt lat="62.8071812" lon="22.8805141">
     <name>ST1</name>
     <desc>amenity=fuel; name=ST1; id=node/26197475</desc>
+  </wpt>
+  <wpt lat="63.0999941" lon="23.0526372">
+    <name>SEO Kauhava</name>
+    <desc>addr:city=Kauhava; addr:housenumber=97;
+    addr:postcode=62200; addr:street=Kauppatie; amenity=fuel;
+    name=SEO Kauhava; operator=SEO; self_service=only;
+    id=node/26197477</desc>
   </wpt>
   <wpt lat="60.3970276" lon="25.6743747">
     <name>ABC Porvoo Mannerheiminkatu</name>
@@ -627,9 +635,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.1919301" lon="24.5702519">
     <ele>17</ele>
-    <name>St1 Mankki</name>
+    <name>Neste Mankki</name>
     <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
-    name=St1 Mankki; operator=St1; id=node/58699845</desc>
+    name=Neste Mankki; operator=Neste; id=node/58699845</desc>
   </wpt>
   <wpt lat="60.1710455" lon="24.7770714">
     <ele>12</ele>
@@ -1073,7 +1081,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="61.1728621" lon="21.6389275">
     <name>node/110271893</name>
-    <desc>amenity=fuel; brand=Teboil; id=node/110271893</desc>
+    <desc>amenity=fuel; brand=Teboil; check_date=2024-06-06;
+    id=node/110271893</desc>
   </wpt>
   <wpt lat="60.3901398" lon="23.1165233">
     <name>Teboil Express Salo Mariankatu</name>
@@ -1203,16 +1212,6 @@ version="1.1" creator="togpx">
   <wpt lat="61.1323875" lon="21.51077">
     <name>ysi5</name>
     <desc>amenity=fuel; name=ysi5; id=node/156579279</desc>
-  </wpt>
-  <wpt lat="67.9548566" lon="23.6831419">
-    <name>SEO Muonio</name>
-    <desc>amenity=fuel; branch=seo; brand=SEO; building=roof;
-    fuel:diesel=yes; fuel:e10=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=SEO Muonio; self_service=yes;
-    snowmobile=yes; source=local knowledge;
-    website=http://www.seomaki.fi/seo_muonio/;
-    id=node/162406370</desc>
-    <link href="http://www.seomaki.fi/seo_muonio/"></link>
   </wpt>
   <wpt lat="60.2447764" lon="24.849158">
     <ele>28</ele>
@@ -2128,15 +2127,6 @@ version="1.1" creator="togpx">
     <name>Jokiasema</name>
     <desc>amenity=fuel; name=Jokiasema; id=node/253758316</desc>
   </wpt>
-  <wpt lat="66.7754646" lon="23.9649713">
-    <name>SEO Pello</name>
-    <desc>addr:city=Pello; addr:country=FI; addr:postcode=95700;
-    amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=SEO Pello; opening_hours=24/7;
-    snowmobile=yes; website=www.seomaki.fi/seo-pello;
-    id=node/253909893</desc>
-    <link href="www.seomaki.fi/seo-pello"></link>
-  </wpt>
   <wpt lat="68.6594749" lon="27.5430018">
     <name>ABC</name>
     <desc>addr:city=Ivalo; addr:country=FI; addr:postcode=99800;
@@ -2145,12 +2135,14 @@ version="1.1" creator="togpx">
     compressed_air=no; name=ABC; opening_hours=24/7;
     id=node/253935076</desc>
   </wpt>
-  <wpt lat="67.7883568" lon="24.8060367">
-    <name>Teboil Levi Poron Bensis Autom</name>
+  <wpt lat="67.7883064" lon="24.8060523">
+    <name>Teboil Levi Poron Portti</name>
     <desc>addr:city=Levi; addr:country=FI; amenity=fuel;
-    comment=Teboil opened 2020-2021, St1 opened week 08/2015, Neste
-    closed 05/2013; name=Teboil Levi Poron Bensis Autom;
-    snowmobile=yes; id=node/253949574</desc>
+    brand=Teboil; comment=Teboil opened 2020-2021, St1 opened week
+    08/2015, Neste closed 05/2013; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Teboil Levi Poron
+    Portti; self_service=yes; snowmobile=yes;
+    id=node/253949574</desc>
   </wpt>
   <wpt lat="64.2213381" lon="27.7421676">
     <name>Neste Express Kajaani Koskiportti</name>
@@ -2190,19 +2182,6 @@ version="1.1" creator="togpx">
     <desc>alt_name=Kemintien Shell; amenity=fuel; name=Shell
     Rovaniemi Teollisuustie; note=FIXME check name; snowmobile=yes;
     id=node/254726072</desc>
-  </wpt>
-  <wpt lat="67.350399" lon="23.8284766">
-    <name>Neste Express Kolari</name>
-    <desc>addr:city=Kolari; addr:country=FI; addr:housenumber=3;
-    addr:postcode=95900; addr:street=Muoniontie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Neste Express Kolari; opening_hours=24/7; operator=Neste;
-    ref=844; self_service=yes; snowmobile=yes;
-    website=https://www.neste.fi/asema/neste-express-kolari;
-    id=node/254871007</desc>
-    <link href="https://www.neste.fi/asema/neste-express-kolari">
-    </link>
   </wpt>
   <wpt lat="64.5081753" lon="25.6593515">
     <name>SEO Rantsila Autom</name>
@@ -2360,15 +2339,6 @@ version="1.1" creator="togpx">
     website=https://www.abcasemat.fi/asemat/abc-viitasaari;
     id=node/257389666</desc>
     <link href="https://www.abcasemat.fi/asemat/abc-viitasaari">
-    </link>
-  </wpt>
-  <wpt lat="62.5564767" lon="24.1111269">
-    <name>Neste Ähtäri Autom</name>
-    <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
-    name=Neste Ähtäri Autom; snowmobile=yes;
-    website=https://www.neste.fi/asema/neste-ahtari-myllymaentie;
-    id=node/257467053</desc>
-    <link href="https://www.neste.fi/asema/neste-ahtari-myllymaentie">
     </link>
   </wpt>
   <wpt lat="62.5502448" lon="24.0873567">
@@ -2532,7 +2502,7 @@ version="1.1" creator="togpx">
     payment:debit_cards=yes; self_service=yes;
     id=node/262289478</desc>
   </wpt>
-  <wpt lat="61.910933" lon="26.1175467">
+  <wpt lat="61.9109133" lon="26.117643">
     <name>Teboil Leivonmäki Autom</name>
     <desc>amenity=fuel; name=Teboil Leivonmäki Autom;
     snowmobile=yes;
@@ -2570,19 +2540,19 @@ version="1.1" creator="togpx">
     addr:postcode=20540; addr:street=Hämeentie; amenity=fuel;
     brand=Teboil; brand:wikidata=Q7692079;
     brand:wikipedia=en:Teboil; compressed_air=no; name=Teboil Turku
-    Hämeentie;
+    Hämeentie; opening_hours=24/7;
     website=https://www.teboil.fi/asemaverkosto/turku/turku-hameentie/;
     id=node/262503887</desc>
     <link href="https://www.teboil.fi/asemaverkosto/turku/turku-hameentie/">
     </link>
   </wpt>
   <wpt lat="63.3075895" lon="22.3864242">
-    <name>ABC! Oravais</name>
+    <name>ABC</name>
     <desc>addr:city=Oravais; addr:housenumber=75;
     addr:postcode=66800; addr:street=Karlebyvägen; amenity=fuel;
-    email=lm.oravainen@sok.fi; fax=(06) 385 0040; name=ABC!
-    Oravais; name:fi=ABC! Oravainen; name:sv=ABC! Oravais;
-    operator=ABC!; phone=020-780 8400; snowmobile=yes;
+    brand=ABC; brand:wikidata=Q10397504; email=lm.oravainen@sok.fi;
+    fax=(06) 385 0040; name=ABC; name:fi=ABC Oravainen; name:sv=ABC
+    Oravais; operator=KPO; phone=020-780 8400; snowmobile=yes;
     id=node/262861134</desc>
   </wpt>
   <wpt lat="61.8124058" lon="22.4019496">
@@ -2820,23 +2790,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=ABC; name=ABC; operator=ABC;
     id=node/271950847</desc>
   </wpt>
-  <wpt lat="67.9527295" lon="23.6869725">
-    <name>Neste Muonio Miljoonatie</name>
-    <desc>addr:city=Muonio; addr:housenumber=1;
-    addr:postcode=99300; addr:street=Miljoonatie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    email=ismo.micklin@laplandhotels.com; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; fuel_service=automatic;
-    name=Neste Muonio Miljoonatie; opening_hours=24/7;
-    operator=Neste; payment:coins=no; payment:credit_cards=yes;
-    payment:debit_cards=yes; payment:notes=yes; ref=168;
-    self_service=yes;
-    website=https://www.neste.fi/asema/neste-muonio-miljoonatie;
-    id=node/272361726</desc>
-    <link href="https://www.neste.fi/asema/neste-muonio-miljoonatie">
-    </link>
-  </wpt>
-  <wpt lat="64.0971122" lon="26.3379195">
+  <wpt lat="64.0968966" lon="26.3370558">
     <name>ABC</name>
     <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
     brand:wikipedia=fi:ABC-ketju; name=ABC;
@@ -3007,8 +2961,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Oulu; addr:housenumber=2; addr:postcode=90460;
     addr:street=Tetriläntie; amenity=fuel; brand=Shell;
     brand:wikidata=Q154950; brand:wikipedia=en:Royal Dutch Shell;
-    fuel:diesel=yes; fuel:e10=yes; fuel:e85=yes;
-    fuel:octane_98=yes; name=Shell Oulu Oulunsalo;
+    compressed_air=yes; fuel:diesel=yes; fuel:e10=yes;
+    fuel:e85=yes; fuel:octane_98=yes; name=Shell Oulu Oulunsalo;
     id=node/280497850</desc>
   </wpt>
   <wpt lat="65.6974202" lon="24.6783195">
@@ -3135,20 +3089,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Juva; addr:country=FI; amenity=fuel; name=Seo
     Juva; operator=Seo; id=node/286641423</desc>
   </wpt>
-  <wpt lat="64.063096" lon="24.5611239">
-    <name>Kärkkäinen Autom</name>
-    <desc>amenity=fuel; name=Kärkkäinen Autom; snowmobile=yes;
-    id=node/286701788</desc>
-  </wpt>
-  <wpt lat="64.0628494" lon="24.5587837">
-    <name>ABC Ylivieska Autom</name>
-    <desc>addr:city=Ylivieska; addr:housenumber=1;
-    addr:postcode=84100; addr:street=Ollilanojankatu; amenity=fuel;
-    brand=ABC; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=ABC Ylivieska Autom;
-    opening_hours=24/7; operator=ABC; source=survey;
-    id=node/286701789</desc>
-  </wpt>
   <wpt lat="61.6821942" lon="24.3561587">
     <name>Neste Oil</name>
     <desc>amenity=fuel; name=Neste Oil; operator=Neste Oil;
@@ -3212,10 +3152,11 @@ version="1.1" creator="togpx">
     <link href="https://www.neste.fi/asema/neste-express-pertunmaa-kuortti">
     </link>
   </wpt>
-  <wpt lat="63.902489" lon="24.5222283">
+  <wpt lat="63.9024612" lon="24.5221472">
     <name>Teboil Sievi</name>
-    <desc>amenity=fuel; name=Teboil Sievi; opening_hours=24/7;
-    snowmobile=yes; id=node/290286524</desc>
+    <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
+    name=Teboil Sievi; opening_hours=24/7; snowmobile=yes;
+    id=node/290286524</desc>
   </wpt>
   <wpt lat="62.0022762" lon="26.658469">
     <name>Teboil Kangasniemi, Lapaskangas</name>
@@ -3263,19 +3204,6 @@ version="1.1" creator="togpx">
     Oil Express; opening_hours=24/7; phone=020080100;
     website=https://www.neste.fi/; id=node/292022439</desc>
     <link href="https://www.neste.fi/"></link>
-  </wpt>
-  <wpt lat="64.5667738" lon="26.8745953">
-    <name>ABC Vaalanportti</name>
-    <desc>addr:city=Vaala; addr:housenumber=285;
-    addr:postcode=91700; addr:street=Vaalantie; amenity=fuel;
-    automated=yes; brand=ABC; brand:wikidata=Q10397504;
-    brand:wikipedia=fi:ABC-ketju; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=ABC Vaalanportti;
-    note:fi=POI from way to node; self_service=yes; snowmobile=yes;
-    website=https://www.abcasemat.fi/fi/asemat/lahi-abc-vaalanportti;
-    id=node/292023753</desc>
-    <link href="https://www.abcasemat.fi/fi/asemat/lahi-abc-vaalanportti">
-    </link>
   </wpt>
   <wpt lat="60.3990927" lon="25.1114661">
     <name>St1 Kerava Santaniitynkatu</name>
@@ -3479,13 +3407,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; name=Neste automaatti
     Helsinki Tapaninkylä; opening_hours=24/7; operator=Neste;
     wheelchair=yes; id=node/300283621</desc>
-  </wpt>
-  <wpt lat="64.6573269" lon="25.6171712">
-    <name>ABC</name>
-    <desc>addr:city=Temmes; addr:housenumber=1;
-    addr:postcode=91950; addr:street=Vaaralantie; amenity=fuel;
-    brand=ABC; brand:wikidata=Q10397504; name=ABC;
-    id=node/300919885</desc>
   </wpt>
   <wpt lat="63.09663" lon="25.8451574">
     <name>Teboil Viitasaari Saikaantie Autom</name>
@@ -4049,9 +3970,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vantaa; addr:housenumber=2;
     addr:postcode=01600; addr:street=Raappavuorentie; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    compressed_air=no; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Neste Express Vantaa Myyrmäki;
-    opening_hours=24/7; operator=Neste; self_service=yes;
+    check_date=2024-07-20; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Express
+    Vantaa Myyrmäki; opening_hours=24/7; operator=Neste;
+    self_service=yes;
     website=https://www.neste.fi/asema/neste-express-vantaa-myyrmaki;
     wheelchair=yes; id=node/340006931</desc>
     <link href="https://www.neste.fi/asema/neste-express-vantaa-myyrmaki">
@@ -4062,8 +3984,9 @@ version="1.1" creator="togpx">
     <name>St1 Vantaa Voutila</name>
     <desc>addr:city=Vantaa; addr:country=FI; addr:housenumber=1;
     addr:postcode=01740; addr:street=Nuolitie; amenity=fuel;
-    brand=St1; brand:wikidata=Q7592214; contact:phone=+358 9 878
-    7580; contact:website=http://www.st1.fi/; fuel:HGV_diesel=yes;
+    brand=St1; brand:wikidata=Q7592214; compressed_air=no;
+    contact:phone=+358 9 878 7580;
+    contact:website=http://www.st1.fi/; fuel:HGV_diesel=yes;
     fuel:adblue=yes; fuel:diesel=yes; fuel:e10=yes; fuel:lpg=yes;
     fuel:octane_95=no; fuel:octane_98=yes; name=St1 Vantaa Voutila;
     opening_hours=24/7; operator=St1; self_service=yes; shop=no;
@@ -4142,12 +4065,6 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     name=Shell Express Hanko; opening_hours=24/7; self_service=yes;
     id=node/357234116</desc>
-  </wpt>
-  <wpt lat="59.8352253" lon="22.9918323">
-    <ele>17</ele>
-    <name>ABC</name>
-    <desc>amenity=fuel; brand=ABC; name=ABC;
-    id=node/357253265</desc>
   </wpt>
   <wpt lat="60.2865718" lon="25.0812362">
     <ele>54</ele>
@@ -4299,14 +4216,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
     name=St1; operator=St-1; id=node/380190089</desc>
   </wpt>
-  <wpt lat="66.7759234" lon="23.9654333">
-    <name>Shell Pello</name>
-    <desc>addr:city=Pello; addr:country=FI; addr:postcode=95700;
-    amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes; name=Shell
-    Pello; opening_hours=24/7; payment:contactless=yes;
-    payment:credit_cards=yes; payment:debit_cards=yes;
-    payment:others=no; snowmobile=yes; id=node/380355217</desc>
-  </wpt>
   <wpt lat="60.8471842" lon="26.6083966">
     <name>ABC (Automaatti) Koria</name>
     <desc>addr:city=Koria; addr:country=FI; addr:housenumber=1;
@@ -4441,15 +4350,6 @@ version="1.1" creator="togpx">
     website=https://www.neste.fi/asema/neste-express-jyvaskyla-jyska;
     id=node/393638112</desc>
     <link href="https://www.neste.fi/asema/neste-express-jyvaskyla-jyska">
-    </link>
-  </wpt>
-  <wpt lat="67.1291129" lon="23.9829945">
-    <name>SEO Sieppijärvi</name>
-    <desc>amenity=fuel; brand=SEO; name=SEO Sieppijärvi;
-    note=automat only; snowmobile=yes;
-    website=https://www.seo.fi/seo-asemat/2556-seo-sieppijaervi;
-    id=node/394040956</desc>
-    <link href="https://www.seo.fi/seo-asemat/2556-seo-sieppijaervi">
     </link>
   </wpt>
   <wpt lat="62.094911" lon="26.0792578">
@@ -4642,11 +4542,10 @@ version="1.1" creator="togpx">
     <name>Teboil</name>
     <desc>amenity=fuel; name=Teboil; id=node/422445426</desc>
   </wpt>
-  <wpt lat="61.7143802" lon="27.058508">
-    <name>Korpikosken kauppa</name>
+  <wpt lat="61.7146905" lon="27.0587877">
+    <name>SEO</name>
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Korpikosken kauppa; snowmobile=yes;
-    id=node/423813540</desc>
+    name=SEO; snowmobile=yes; id=node/423813540</desc>
   </wpt>
   <wpt lat="61.6467347" lon="26.7712769">
     <name>Neste venesatama Hirvensalmi</name>
@@ -5299,7 +5198,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=SEO Viljakkala; operator=SEO;
     shop=convenience; id=node/470023259</desc>
   </wpt>
-  <wpt lat="68.5709666" lon="23.3352638">
+  <wpt lat="68.570951" lon="23.335358">
     <name>SEO Galdotieva</name>
     <desc>addr:city=Leppäjärvi; addr:country=FI;
     addr:housenumber=2605; addr:postcode=99440;
@@ -5598,7 +5497,8 @@ version="1.1" creator="togpx">
   <wpt lat="61.502102" lon="25.6801247">
     <name>ABC!</name>
     <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
-    name=ABC!; opening_hours=24/7; id=node/497195708</desc>
+    compressed_air=no; name=ABC!; opening_hours=24/7;
+    id=node/497195708</desc>
   </wpt>
   <wpt lat="61.4796965" lon="23.7824071">
     <name>Neste Express Tampere Nekala</name>
@@ -5701,11 +5601,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
     name=ABC Zeppelin; opening_hours=24/7; operator=ABC;
     id=node/508250002</desc>
-  </wpt>
-  <wpt lat="67.3477223" lon="23.8266777">
-    <name>St1 Kolari</name>
-    <desc>addr:city=Kolari; addr:country=FI; amenity=fuel; name=St1
-    Kolari; operator=St1; id=node/510107604</desc>
   </wpt>
   <wpt lat="64.8716824" lon="27.6694178">
     <name>Teboil Puolanka Autom</name>
@@ -6269,18 +6164,19 @@ version="1.1" creator="togpx">
   <wpt lat="62.6283437" lon="27.1162755">
     <name>Teboil Suonenjoki</name>
     <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
-    brand:wikipedia=en:Teboil; name=Teboil Suonenjoki;
-    snowmobile=yes; id=node/603326018</desc>
+    brand:wikipedia=en:Teboil; compressed_air=yes; name=Teboil
+    Suonenjoki; snowmobile=yes; id=node/603326018</desc>
   </wpt>
   <wpt lat="64.6862323" lon="24.5468385">
     <ele>12</ele>
     <name>Neste Raahe Pattijoki</name>
     <desc>addr:city=Raahe; addr:housenumber=1; addr:postcode=92140;
     addr:street=Purotie; amenity=fuel; brand=Neste;
-    brand:wikidata=Q616376; ele=12.38; email=ojaniemi@kotinet.com;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Neste Raahe Pattijoki; operator=Neste; phone=+358 (8) 264
-    300; ref=229; snowmobile=yes;
+    brand:wikidata=Q616376; compressed_air=yes; ele=12.38;
+    email=ojaniemi@kotinet.com; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Raahe
+    Pattijoki; operator=Neste; phone=+358 (8) 264 300; ref=229;
+    snowmobile=yes;
     website=https://www.neste.fi/asema/neste-raahe-pattijoki;
     wpt_description=28-DEC-09 13:08:01; wpt_symbol=Navaid, Red;
     id=node/603494656</desc>
@@ -6462,10 +6358,10 @@ version="1.1" creator="togpx">
     <name>Neste Express Eurajoki</name>
     <desc>addr:city=Eurajoki; addr:housenumber=2;
     addr:postcode=27100; addr:street=Riikontie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Express
-    Eurajoki; opening_hours=24/7; operator=Neste; ref=194;
-    self_service=yes;
+    brand=Neste; brand:wikidata=Q616376; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Neste Express Eurajoki; opening_hours=24/7;
+    operator=Neste; ref=194; self_service=yes;
     website=https://www.neste.fi/asema/neste-express-eurajoki;
     id=node/632221382</desc>
     <link href="https://www.neste.fi/asema/neste-express-eurajoki">
@@ -6742,8 +6638,9 @@ version="1.1" creator="togpx">
     id=node/683588447</desc>
   </wpt>
   <wpt lat="60.5613514" lon="27.0457393">
-    <name>ABC</name>
-    <desc>amenity=fuel; operator=ABC; id=node/685604542</desc>
+    <name>Sale Neuvoton</name>
+    <desc>amenity=fuel; compressed_air=no; name=Sale Neuvoton;
+    operator=ABC; id=node/685604542</desc>
   </wpt>
   <wpt lat="60.5065571" lon="26.9160494">
     <name>Neste -automaatti Kotka CM</name>
@@ -6791,9 +6688,10 @@ version="1.1" creator="togpx">
     <name>Teboil 24 h / Huolto ja Varaosa Oy</name>
     <desc>addr:city=Huittinen; addr:housenumber=46;
     addr:postcode=32700; addr:street=Risto Rytin katu;
-    amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Teboil 24 h / Huolto ja Varaosa Oy;
-    operator=Teboil; toilets:wheelchair=no;
+    amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Teboil 24 h / Huolto ja Varaosa Oy; operator=Teboil;
+    toilets:wheelchair=no;
     website=https://teboil.fi/asemaverkosto/huittinen/huittinen/;
     wheelchair=yes; id=node/693540463</desc>
     <link href="https://teboil.fi/asemaverkosto/huittinen/huittinen/">
@@ -7427,10 +7325,12 @@ version="1.1" creator="togpx">
     name=ABC; operator=ABC; self_service=yes;
     id=node/927177462</desc>
   </wpt>
-  <wpt lat="62.1504214" lon="25.4714875">
+  <wpt lat="62.1504823" lon="25.4713953">
     <name>node/932279557</name>
-    <desc>amenity=fuel; opening_hours=Mo-Fr 08:00-18:00, Sa
-    08:00-13:00; id=node/932279557</desc>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=no;
+    fuel:octane_98=yes; fuel:taxfree_diesel=yes;
+    opening_hours=Mo-Fr 08:00-18:00, Sa 08:00-13:00;
+    self_service=yes; id=node/932279557</desc>
   </wpt>
   <wpt lat="63.8497416" lon="23.1248916">
     <name>ABC Halkokari</name>
@@ -7636,11 +7536,11 @@ version="1.1" creator="togpx">
     </link>
   </wpt>
   <wpt lat="63.7543659" lon="22.7464015">
-    <name>ABC! Larsmo</name>
+    <name>ABC Larsmo</name>
     <desc>addr:city=Larsmo; addr:housenumber=1;
     addr:postcode=68570; addr:street=Kackurvägen; amenity=fuel;
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=ABC! Larsmo; operator=ABC!; id=node/1000541169</desc>
+    name=ABC Larsmo; operator=ABC!; id=node/1000541169</desc>
   </wpt>
   <wpt lat="60.0710272" lon="20.0843878">
     <ele>16</ele>
@@ -7852,19 +7752,17 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=ABC Sale Yli-Ii Autom; operator=ABC;
     snowmobile=yes; id=node/1151563903</desc>
   </wpt>
-  <wpt lat="62.289661" lon="22.4433652">
-    <name>node/1152945497</name>
-    <desc>amenity=fuel; snowmobile=yes; id=node/1152945497</desc>
-  </wpt>
   <wpt lat="60.627707" lon="25.2760107">
     <name>Teboil D</name>
-    <desc>amenity=fuel; fuel:HGV_diesel=yes; name=Teboil D;
-    operator=Teboil; id=node/1154562523</desc>
+    <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
+    fuel:HGV_diesel=yes; name=Teboil D; operator=Teboil;
+    id=node/1154562523</desc>
   </wpt>
   <wpt lat="60.6281014" lon="25.2779092">
     <name>Neste Oil Truck</name>
-    <desc>amenity=fuel; fuel:HGV_diesel=yes; name=Neste Oil Truck;
-    operator=Neste Oil; id=node/1154562540</desc>
+    <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
+    fuel:HGV_diesel=yes; name=Neste Oil Truck; operator=Neste Oil;
+    id=node/1154562540</desc>
   </wpt>
   <wpt lat="62.1028203" lon="30.1256605">
     <name>node/1156285463</name>
@@ -7975,10 +7873,11 @@ version="1.1" creator="togpx">
     <name>Neste Kangasala Suorama</name>
     <desc>addr:city=Kangasala; addr:housenumber=1;
     addr:postcode=36220; addr:street=Mallitie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376;
+    brand=Neste; brand:wikidata=Q616376; compressed_air=yes;
     email=neste.kangasala@elisanet.fi; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Kangasala
-    Suorama; operator=Neste; phone=+358 3 379 0449; ref=35;
+    Suorama; opening_hours=Mo-Fr 06:00-20:00, Sa 08:00-18:00, Su
+    09:00-16:00; operator=Neste; phone=+358 3 379 0449; ref=35;
     website=https://www.neste.fi/asema/neste-kangasala-suorama;
     id=node/1202803731</desc>
     <link href="https://www.neste.fi/asema/neste-kangasala-suorama">
@@ -8103,13 +8002,6 @@ version="1.1" creator="togpx">
     marine=yes; name=GT Heinola, Marine Venesatama;
     website=http://www.gtasema.fi/; id=node/1236991277</desc>
     <link href="http://www.gtasema.fi/"></link>
-  </wpt>
-  <wpt lat="66.7734237" lon="23.9627301">
-    <name>ABC!</name>
-    <desc>amenity=fuel; brand=ABC; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; maxheight=4.4;
-    name=ABC!; opening_hours=24/7; source=GPS;
-    id=node/1240333193</desc>
   </wpt>
   <wpt lat="63.4796278" lon="23.7850959">
     <name>SEO Veteli</name>
@@ -8581,9 +8473,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="68.1563025" lon="25.7588385">
     <name>Tieva-Baari, Pokka</name>
-    <desc>amenity=fuel; name=Tieva-Baari, Pokka; phone=016-657 635;
-    snowmobile=yes; source=survey;
-    website=Personal.inet.fi/yritys/tieva-baari/;
+    <desc>addr:city=Pokka; addr:housenumber=6595;
+    addr:postcode=99195; addr:street=Inarintie; amenity=fuel;
+    name=Tieva-Baari, Pokka; phone=016-657 635; snowmobile=yes;
+    source=survey; website=Personal.inet.fi/yritys/tieva-baari/;
     id=node/1443749644</desc>
     <link href="Personal.inet.fi/yritys/tieva-baari/"></link>
   </wpt>
@@ -8760,7 +8653,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
     brand:wikipedia=en:Neste; name=Neste; name:fi=Neste Oil
     Lehtimäki; snowmobile=yes; website=http://neste.lehtimaki.fi;
-    id=node/1559091231</desc>
+    id=node/1559091231; ; building=roof; id=way/142459543</desc>
     <link href="http://neste.lehtimaki.fi"></link>
   </wpt>
   <wpt lat="61.6753494" lon="27.2736451">
@@ -8893,14 +8786,6 @@ version="1.1" creator="togpx">
     website=https://www.teboil.fi/asemaverkosto/suomussalmi/suomussalmi-ammansaari/;
     id=node/1624424357</desc>
     <link href="https://www.teboil.fi/asemaverkosto/suomussalmi/suomussalmi-ammansaari/">
-    </link>
-  </wpt>
-  <wpt lat="67.3350996" lon="23.8213494">
-    <name>ABC Sale Kolari Autom</name>
-    <desc>amenity=fuel; name=ABC Sale Kolari Autom; snowmobile=yes;
-    website=https://www.abcasemat.fi/fi/asemat/abc-sale-kolari;
-    id=node/1625085691</desc>
-    <link href="https://www.abcasemat.fi/fi/asemat/abc-sale-kolari">
     </link>
   </wpt>
   <wpt lat="64.9782766" lon="25.5605514">
@@ -9292,8 +9177,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="62.0109679" lon="23.0192726">
     <name>St1 Parkano</name>
-    <desc>amenity=fuel; brand=St1; name=St1 Parkano; operator=St1;
-    id=node/1668744411</desc>
+    <desc>amenity=fuel; brand=St1; compressed_air=no; name=St1
+    Parkano; operator=St1; id=node/1668744411</desc>
   </wpt>
   <wpt lat="62.3326852" lon="27.8291476">
     <name>Neste K Varkaus Warkaudenportti</name>
@@ -9630,20 +9515,6 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=ABC; self_service=yes;
     id=node/1747086167</desc>
   </wpt>
-  <wpt lat="62.2162027" lon="25.7223326">
-    <name>Neste Express Jyväskylä Keljo CM</name>
-    <desc>addr:city=Jyväskylä; addr:housenumber=6;
-    addr:postcode=40500; addr:street=Kylmälahdentie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376; check_date=2023-10-05;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Neste Express Jyväskylä Keljo CM; opening_hours=24/7;
-    operator=Neste; phone=+358 200 80100; ref=544;
-    self_service=yes;
-    website=https://www.neste.fi/asema/neste-express-jyvaskyla-keljo-cm;
-    id=node/1758743530</desc>
-    <link href="https://www.neste.fi/asema/neste-express-jyvaskyla-keljo-cm">
-    </link>
-  </wpt>
   <wpt lat="62.253073" lon="25.7680895">
     <name>ABC Automaatti Jyväskylä Tourula</name>
     <desc>addr:city=Jyväskylä; addr:housenumber=4;
@@ -9710,18 +9581,6 @@ version="1.1" creator="togpx">
     fuel:e10=yes; fuel:octane_95=no; fuel:octane_98=yes; name=St1
     Vantaa Rajatorppa; opening_hours=24/7; operator=St1; shop=no;
     id=node/1800853474</desc>
-    <link href="http://www.st1.fi/"></link>
-  </wpt>
-  <wpt lat="60.1675602" lon="24.7351741">
-    <ele>25</ele>
-    <name>Shell Espoo Olari</name>
-    <desc>addr:city=Espoo; addr:country=FI; addr:housenumber=1;
-    addr:postcode=02210; addr:street=Komeetankatu; amenity=fuel;
-    brand=Shell; brand:wikidata=Q110716465; contact:phone=+358 9
-    803 8786; contact:website=http://www.st1.fi/; fuel:diesel=yes;
-    fuel:e10=yes; fuel:lpg=yes; fuel:octane_95=no;
-    fuel:octane_98=yes; name=Shell Espoo Olari; operator=St1;
-    was:amenity=fuel; id=node/1801098776</desc>
     <link href="http://www.st1.fi/"></link>
   </wpt>
   <wpt lat="60.2432779" lon="24.5615622">
@@ -9839,8 +9698,8 @@ version="1.1" creator="togpx">
   <wpt lat="60.986808" lon="25.6678731">
     <name>Teboil</name>
     <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
-    brand:wikipedia=en:Teboil; name=Teboil; opening_hours=24/7;
-    operator=Teboil; id=node/1852995191</desc>
+    brand:wikipedia=en:Teboil; check_date=2024-06-12; name=Teboil;
+    opening_hours=24/7; operator=Teboil; id=node/1852995191</desc>
   </wpt>
   <wpt lat="61.0111997" lon="25.6845838">
     <name>Teboil</name>
@@ -9850,8 +9709,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="59.9775288" lon="23.8815736">
     <ele>0</ele>
-    <name>node/1856318959</name>
-    <desc>amenity=fuel; id=node/1856318959</desc>
+    <name>Seapoint Barösund</name>
+    <desc>addr:city=Barösund; addr:housenumber=20;
+    addr:postcode=10270; addr:street=Valhallavägen; amenity=fuel;
+    fuel:diesel=yes; fuel:octane_98=yes; name=Seapoint Barösund;
+    self_service=yes;
+    website=https://seapoint.fi/fi_FI/asemat/seapoint-barosund;
+    id=node/1856318959</desc>
+    <link href="https://seapoint.fi/fi_FI/asemat/seapoint-barosund">
+    </link>
   </wpt>
   <wpt lat="62.2448654" lon="24.474246">
     <name>SEO Haapamäki Automaatti</name>
@@ -9910,7 +9776,7 @@ version="1.1" creator="togpx">
     <name>Neste Ylivieska Mäntytie</name>
     <desc>addr:city=Ylivieska; addr:housenumber=1;
     addr:postcode=84100; addr:street=Mäntytie; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376;
+    brand=Neste; brand:wikidata=Q616376; compressed_air=yes;
     email=neste.ylivieska@juholehtela.com; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Ylivieska
     Mäntytie; phone=+358 (8) 422 100; ref=218; snowmobile=yes;
@@ -10091,30 +9957,10 @@ version="1.1" creator="togpx">
     name=Onnenliekki 24/7 automaatti; opening_hours=24/7;
     self_service=yes; id=node/2002223330</desc>
   </wpt>
-  <wpt lat="60.3900255" lon="25.6443773">
-    <name>ABC Automat</name>
-    <desc>addr:city=Porvoo; addr:housenumber=4;
-    addr:postcode=06100; addr:street=Näsintie; amenity=fuel;
-    brand=ABC; brand:wikidata=Q10397504; name=ABC Automat;
-    website=https://www.abcasemat.fi/; wheelchair=yes;
-    id=node/2025712086</desc>
-    <link href="https://www.abcasemat.fi/"></link>
-  </wpt>
   <wpt lat="61.4196826" lon="26.890473">
     <name>Teboil Mäntyharju</name>
     <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
     name=Teboil Mäntyharju; id=node/2026085320</desc>
-  </wpt>
-  <wpt lat="64.8008606" lon="25.4288021">
-    <name>Lähi ABC! Liminka KasiTupa</name>
-    <desc>amenity=fuel; name=Lähi ABC! Liminka KasiTupa;
-    snowmobile=yes;
-    website=https://www.abcasemat.fi/fi/asemat/kasitupa-liminka;
-    id=node/2031455290; ; building=roof; fuel:diesel=yes;
-    fuel:e10=yes; fuel:octane_98=yes; operator=Shell;
-    id=way/150987026</desc>
-    <link href="https://www.abcasemat.fi/fi/asemat/kasitupa-liminka">
-    </link>
   </wpt>
   <wpt lat="61.232694" lon="26.044753">
     <name>ABC Heinola</name>
@@ -10179,10 +10025,10 @@ version="1.1" creator="togpx">
     <name>Shell Mommola</name>
     <desc>addr:city=Huittinen; addr:housenumber=74;
     addr:postcode=32700; addr:street=Loimijoentie; amenity=fuel;
-    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Shell Mommola; opening_hours=Mo-Fr
-    06:00-22:00, Sa 07:00-22:00, Su 08:00-22:00;
-    toilets:wheelchair=no;
+    brand=Shell; brand:wikidata=Q110716465; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Shell Mommola; opening_hours=Mo-Fr 06:00-22:00, Sa
+    07:00-22:00, Su 08:00-22:00; toilets:wheelchair=no;
     website=https://st1.fi/huoltoasemat?sub=huittinen_mommola;
     wheelchair=yes; id=node/2084908772</desc>
     <link href="https://st1.fi/huoltoasemat?sub=huittinen_mommola">
@@ -10264,9 +10110,10 @@ version="1.1" creator="togpx">
     <name>ABC S-Market Tikkakoski</name>
     <desc>addr:city=Tikkakoski; addr:housenumber=1;
     addr:postcode=41160; addr:street=Tervaruukinkatu; amenity=fuel;
-    brand=ABC; brand:wikidata=Q10397504; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=ABC S-Market
-    Tikkakoski; self_service=yes; id=node/2127334603</desc>
+    brand=ABC; brand:wikidata=Q10397504; compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=ABC S-Market Tikkakoski; opening_hours=24/7;
+    self_service=yes; id=node/2127334603</desc>
   </wpt>
   <wpt lat="61.4749181" lon="24.325736">
     <name>St1 Sahalahti</name>
@@ -10443,9 +10290,9 @@ version="1.1" creator="togpx">
     brand=Neste; brand:wikidata=Q616376; check_date=2023-10-11;
     compressed_air=yes; fuel:biodiesel=yes; fuel:diesel=yes;
     fuel:diesel_b7=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Neste Heinola Vierumäki Matkakeidas; phone=03 718 2197;
-    ref=448; self_service=yes; snowmobile=yes;
-    start_date=2013-04-18;
+    name=Neste Heinola Vierumäki Matkakeidas;
+    opening_hours=Mo-Su,PH 06:00-24:00; phone=03 718 2197; ref=448;
+    self_service=yes; snowmobile=yes; start_date=2013-04-18;
     was:website=www.neste.fi/asema/neste-heinola-vierumaki-matkakeidas;
     website=https://www.neste.fi/asema/neste-heinola-vierumaki-matkakeidas;
     id=node/2263045583</desc>
@@ -10735,12 +10582,6 @@ version="1.1" creator="togpx">
     compressed_air=no; name=St1; opening_hours=24/7;
     id=node/2556162352</desc>
   </wpt>
-  <wpt lat="67.3361122" lon="23.8215286">
-    <name>Teboil Kolari Autom</name>
-    <desc>amenity=fuel; name=Teboil Kolari Autom; payment:cash=no;
-    payment:coins=no; payment:notes=no; snowmobile=yes;
-    id=node/2561110656</desc>
-  </wpt>
   <wpt lat="64.7457291" lon="29.4474224">
     <name>K-Mäkeläisen pojat Ky, Ala-Vuokin kauppa</name>
     <desc>amenity=fuel; name=K-Mäkeläisen pojat Ky, Ala-Vuokin
@@ -10779,13 +10620,6 @@ version="1.1" creator="togpx">
     id=node/2608271027</desc>
     <link href="https://www.teboil.fi/asemaverkosto/taivalkoski/taivalkoski-kirkonkyla/">
     </link>
-  </wpt>
-  <wpt lat="67.9732899" lon="23.6793553">
-    <name>Neste D</name>
-    <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
-    brand:wikipedia=en:Neste; fuel:diesel=yes; fuel:e10=no;
-    fuel:e85=no; fuel:octane_95=no; fuel:octane_98=no; name=Neste
-    D; id=node/2613496357</desc>
   </wpt>
   <wpt lat="60.3735159" lon="24.7610056">
     <name>Teboil Express Klaukkala</name>
@@ -10993,9 +10827,11 @@ version="1.1" creator="togpx">
     </link>
   </wpt>
   <wpt lat="61.7964129" lon="25.7039838">
-    <name>SEO A24 Luhanka, Luhangan Kyläkauppa</name>
-    <desc>amenity=fuel; name=SEO A24 Luhanka, Luhangan Kyläkauppa;
-    operator=SEO; phone=+358 50 4403832; snowmobile=yes;
+    <name>SEO Luhanka, Luhangan Kyläkauppa</name>
+    <desc>addr:city=Luhanka; addr:housenumber=2;
+    addr:postcode=19950; addr:street=Rantatie; amenity=fuel;
+    brand=SEO; name=SEO Luhanka, Luhangan Kyläkauppa; operator=SEO;
+    phone=+358 50 4403832; snowmobile=yes;
     id=node/2807149638</desc>
   </wpt>
   <wpt lat="69.3989346" lon="25.8513351">
@@ -11278,20 +11114,6 @@ version="1.1" creator="togpx">
     website=https://www.neste.fi/asema/neste-express-kuopio-matkus;
     id=node/3299529649</desc>
     <link href="http://www.neste.fi/hakuasema.aspx?id=367"></link>
-  </wpt>
-  <wpt lat="66.5543739" lon="23.8654126">
-    <name>SEO Juoksenki Autom</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:e10=yes;
-    fuel:octane_95=yes; fuel:octane_98=no; name=SEO Juoksenki
-    Autom; snowmobile=yes; website=www.seomaki.fi/seo-kylmaasemat;
-    id=node/3304416648</desc>
-    <link href="www.seomaki.fi/seo-kylmaasemat"></link>
-  </wpt>
-  <wpt lat="68.3857739" lon="23.6031772">
-    <name>St1 Hetta</name>
-    <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
-    name=St1 Hetta; opening_hours=Mo-Su 09:00-23:00;
-    snowmobile=yes; id=node/3315545497</desc>
   </wpt>
   <wpt lat="62.7144902" lon="28.9866907">
     <name>St1 Outokumpu automaatti</name>
@@ -11789,15 +11611,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Neste; name=Neste Martinkatu;
     id=node/4155892875</desc>
   </wpt>
-  <wpt lat="66.7810966" lon="23.9758616">
-    <name>Teboil Pello Autom</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Teboil Pello Autom; snowmobile=yes;
-    website=https://www.teboil.fi/asemaverkosto/pello/pello/;
-    id=node/4167697996</desc>
-    <link href="https://www.teboil.fi/asemaverkosto/pello/pello/">
-    </link>
-  </wpt>
   <wpt lat="65.0294702" lon="26.1558535">
     <name>ABC S-market Ylikiiminki autom</name>
     <desc>addr:city=Ylikiiminki; amenity=fuel; brand=ABC;
@@ -11832,7 +11645,8 @@ version="1.1" creator="togpx">
   <wpt lat="60.2186588" lon="19.7116152">
     <ele>30</ele>
     <name>node/4236852427</name>
-    <desc>amenity=fuel; id=node/4236852427</desc>
+    <desc>amenity=fuel; compressed_air=no;
+    id=node/4236852427</desc>
   </wpt>
   <wpt lat="61.6434591" lon="23.1901821">
     <name>SEO Hämeenkyrö</name>
@@ -12081,11 +11895,6 @@ version="1.1" creator="togpx">
     id=node/4656754252</desc>
     <link href="www.facebook.com/papupatapiispajarvi/"></link>
   </wpt>
-  <wpt lat="64.5573152" lon="26.8331228">
-    <name>node/4683319167</name>
-    <desc>amenity=fuel; fixme=tarkistettava; source=knowledge;
-    id=node/4683319167</desc>
-  </wpt>
   <wpt lat="63.1362375" lon="21.7588332">
     <name>Big Mustasaari</name>
     <desc>addr:housenumber=3; addr:postcode=66530;
@@ -12200,8 +12009,8 @@ version="1.1" creator="togpx">
   <wpt lat="61.1726627" lon="22.7109668">
     <name>Neste Oil (D)</name>
     <desc>addr:city=Huittinen; addr:housenumber=3;
-    addr:postcode=32700; addr:street=Kirkonkyläntie; amenity=fuel;
-    name=Neste Oil (D);
+    addr:postcode=32700; addr:street=Hallitie; amenity=fuel;
+    brand=Neste; brand:wikidata=Q616376; name=Neste Oil (D);
     website=https://neste.fi/asema/neste-truck-huittinen-ktk;
     id=node/5001715322</desc>
     <link href="https://neste.fi/asema/neste-truck-huittinen-ktk">
@@ -12551,8 +12360,8 @@ version="1.1" creator="togpx">
   <wpt lat="62.6358027" lon="29.6648374">
     <name>ABC Marjala</name>
     <desc>addr:housenumber=18; addr:street=Marjalantie;
-    amenity=fuel; brand=ABC; name=ABC Marjala; opening_hours=24/7;
-    operator=ABC;
+    amenity=fuel; brand=ABC; compressed_air=yes; name=ABC Marjala;
+    opening_hours=24/7; operator=ABC;
     website=https://www.abcasemat.fi/fi/asemat/abc-marjala-joensuu-616449773;
     id=node/5852151795</desc>
     <link href="https://www.abcasemat.fi/fi/asemat/abc-marjala-joensuu-616449773">
@@ -12836,7 +12645,8 @@ version="1.1" creator="togpx">
     <name>ABC Teivo</name>
     <desc>addr:city=Tampere; addr:housenumber=1;
     addr:postcode=33400; addr:street=Hiitintie; amenity=fuel;
-    name=ABC Teivo; id=node/6594275506</desc>
+    brand=ABC; brand:wikidata=Q10397504; name=ABC Teivo;
+    id=node/6594275506</desc>
   </wpt>
   <wpt lat="60.4856355" lon="22.1481801">
     <name>Teboil</name>
@@ -12953,9 +12763,9 @@ version="1.1" creator="togpx">
     email=info@neste.com; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Neste Hollola Hopeakallio; phone=0800
     196 196; ref=792; self_service=yes;
-    website=https://www.neste.fi/asema/neste-hollola-hopeakallio;
+    website=https://asemat.neste.fi/neste-hollola-hopeakallio-matkakeidas;
     id=node/6794704156</desc>
-    <link href="https://www.neste.fi/asema/neste-hollola-hopeakallio">
+    <link href="https://asemat.neste.fi/neste-hollola-hopeakallio-matkakeidas">
     </link>
   </wpt>
   <wpt lat="62.9602801" lon="27.6898452">
@@ -13509,8 +13319,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Helsinki; addr:country=FI; addr:housenumber=10;
     addr:postcode=00180; addr:street=Energiakatu; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; compressed_air=yes;
-    name=Neste Express Helsinki Salmisaari; opening_hours=24/7;
-    operator=Neste; id=node/8468756791</desc>
+    fuel:adblue=yes; fuel:biodiesel=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Express
+    Helsinki Salmisaari; opening_hours=24/7; operator=Neste;
+    self_service=yes; id=node/8468756791</desc>
   </wpt>
   <wpt lat="60.4357538" lon="22.2633426">
     <name>Shell Express Mäntymäki</name>
@@ -13771,7 +13583,7 @@ version="1.1" creator="togpx">
     name=Neste Truck Nurmes; opening_hours=24/7; operator=Neste;
     self_service=yes; id=node/9338325695</desc>
   </wpt>
-  <wpt lat="61.0522412" lon="28.2634125">
+  <wpt lat="61.0518538" lon="28.2638692">
     <name>Lappeenranta Pajarila CNG</name>
     <desc>addr:city=Lappeenranta; addr:housenumber=4;
     addr:postcode=53500; addr:street=Hirsimäenkatu; amenity=fuel;
@@ -13907,11 +13719,6 @@ version="1.1" creator="togpx">
     brand=SEO; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; fuel:taxfree_diesel=yes; name=SEO
     Pornainen; id=node/9505358805</desc>
-  </wpt>
-  <wpt lat="67.3477309" lon="23.8267112">
-    <name>St1 Automat</name>
-    <desc>amenity=fuel; brand=St1; name=St1 Automat;
-    vending_machine=fuel; id=node/9516982035</desc>
   </wpt>
   <wpt lat="60.6131921" lon="21.7113554">
     <name>ST1 Vehmaa Automat Rautiala</name>
@@ -14102,10 +13909,10 @@ version="1.1" creator="togpx">
     <name>Neste Express Ylivieska Rautatiekatu</name>
     <desc>addr:city=Ylivieska; addr:housenumber=2;
     addr:postcode=84100; addr:street=Rautatiekatu; amenity=fuel;
-    brand=Neste; brand:wikidata=Q616376; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Express
-    Ylivieska Rautatiekatu; opening_hours=24/7; ref=760;
-    self_service=yes;
+    brand=Neste; brand:wikidata=Q616376; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Neste Express Ylivieska Rautatiekatu; opening_hours=24/7;
+    ref=760; self_service=yes;
     website=https://www.neste.fi/asema/neste-express-ylivieska-rautatiekatu;
     id=node/9843709794</desc>
     <link href="https://www.neste.fi/asema/neste-express-ylivieska-rautatiekatu">
@@ -14469,7 +14276,8 @@ version="1.1" creator="togpx">
   <wpt lat="64.0704926" lon="24.5295863">
     <name>Shell Ylivieska</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
-    name=Shell Ylivieska; id=node/10057476350</desc>
+    compressed_air=yes; name=Shell Ylivieska;
+    id=node/10057476350</desc>
   </wpt>
   <wpt lat="59.9085883" lon="23.2955566">
     <ele>11</ele>
@@ -14552,18 +14360,6 @@ version="1.1" creator="togpx">
     website=https://www.abcasemat.fi/asemat/abc-s-market-nilsia-0617724;
     id=node/10553863155</desc>
     <link href="https://www.abcasemat.fi/asemat/abc-s-market-nilsia-0617724">
-    </link>
-  </wpt>
-  <wpt lat="63.7415778" lon="27.0039117">
-    <name>SEO Vieremä</name>
-    <desc>addr:city=Vieremä; addr:housenumber=10;
-    addr:postcode=74200; addr:street=Petterintie; amenity=fuel;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=SEO Vieremä; operator=Huoltamo Kauppinen Oy; phone=040 866
-    7050; snowmobile=yes;
-    website=https://www.huoltamokauppinen.fi/etusivu.html;
-    id=node/10692339316</desc>
-    <link href="https://www.huoltamokauppinen.fi/etusivu.html">
     </link>
   </wpt>
   <wpt lat="67.5285919" lon="27.5383419">
@@ -15041,6 +14837,17 @@ version="1.1" creator="togpx">
     name=SEO; operator=SEO; self_service=yes;
     id=node/11939465034</desc>
   </wpt>
+  <wpt lat="62.6325983" lon="29.3575066">
+    <name>Teboil</name>
+    <desc>amenity=fuel; check_date=2024-06-21; name=Teboil;
+    id=node/11999693829</desc>
+  </wpt>
+  <wpt lat="60.2458445" lon="20.3515989">
+    <ele>19</ele>
+    <name>node/12067721178</name>
+    <desc>amenity=fuel; compressed_air=no; name:signed=no;
+    opening_hours=24/7; wheelchair=no; id=node/12067721178</desc>
+  </wpt>
   <wpt lat="60.377184299999996" lon="23.136277088773646">
     <name>ABC Perniöntie</name>
     <desc>addr:housenumber=14; addr:street=Perniöntie;
@@ -15054,9 +14861,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Helsinki; addr:housenumber=22;
     addr:postcode=00820; addr:street=Roihuvuorentie; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    building=roof; name=Neste Express Helsinki Roihuvuori;
-    opening_hours=24/7; self_service=yes;
-    website=http://www.nesteoil.fi; id=way/16086513</desc>
+    building=roof; compressed_air=no; name=Neste Express Helsinki
+    Roihuvuori; opening_hours=24/7; payment:cash=no;
+    self_service=yes; website=http://www.nesteoil.fi;
+    wheelchair=yes; id=way/16086513</desc>
     <link href="http://www.nesteoil.fi"></link>
   </wpt>
   <wpt lat="60.237981000000005" lon="25.089133064497396">
@@ -15074,9 +14882,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Helsinki; addr:country=FI; addr:housenumber=10;
     addr:postcode=00810; addr:street=Mekaanikonkatu; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    building=roof; fuel:diesel=yes; fuel:e10=yes;
-    fuel:octane_98=yes; lit=yes; name=Neste; opening_hours=24/7;
-    operator=Neste; self_service=yes;
+    building=roof; compressed_air=no; fuel:diesel=yes;
+    fuel:e10=yes; fuel:octane_98=yes; lit=yes; name=Neste;
+    opening_hours=24/7; operator=Neste; self_service=yes;
     website=https://www.neste.fi/asema/neste-express-helsinki-herttoniemi;
     wheelchair=yes; id=way/20109420</desc>
     <link href="https://www.neste.fi/asema/neste-express-helsinki-herttoniemi">
@@ -15296,8 +15104,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="62.56714255" lon="23.057053013887323">
     <name>ABC Peräseinäjoki</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
-    name=ABC Peräseinäjoki; id=way/76095249</desc>
+    <desc>amenity=fuel; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; name=ABC Peräseinäjoki; opening_hours=24/7;
+    id=way/76095249</desc>
   </wpt>
   <wpt lat="60.2692023" lon="24.444807200000003">
     <ele>82</ele>
@@ -15389,17 +15198,16 @@ version="1.1" creator="togpx">
     payment:visa=yes; self_service=yes; id=way/89018339</desc>
   </wpt>
   <wpt lat="65.0430704" lon="25.476170059271773">
-    <name>Neste K Oulu Isko</name>
+    <name>Neste Express Oulu Isko</name>
     <desc>addr:city=Oulu; addr:housenumber=1; addr:postcode=90570;
     addr:street=Iskontie; amenity=fuel; automated=yes; brand=Neste;
-    brand:wikidata=Q616376; building=roof;
-    email=pasi.haapala@nestek.fi; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste K Oulu Isko;
-    operator=Neste; phone=+358 403516560; ref=424;
-    self_service=yes;
-    website=https://www.neste.fi/asema/neste-k-oulu-isko;
+    brand:wikidata=Q616376; building=roof; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Neste Express Oulu
+    Isko; old_name=Neste K Oulu Isko; operator=Neste; phone=+358
+    403516560; ref=424; self_service=yes;
+    website=https://asemat.neste.fi/neste-express-oulu-isko;
     id=way/89019871</desc>
-    <link href="https://www.neste.fi/asema/neste-k-oulu-isko">
+    <link href="https://asemat.neste.fi/neste-express-oulu-isko">
     </link>
   </wpt>
   <wpt lat="65.0257" lon="25.54487057090165">
@@ -15854,8 +15662,9 @@ version="1.1" creator="togpx">
     </link>
   </wpt>
   <wpt lat="61.13655085" lon="21.57928776457178">
-    <name>D</name>
-    <desc>amenity=fuel; name=D; operator=Neste; source=bing;
+    <name>Neste Truck</name>
+    <desc>amenity=fuel; hgv=designated; motorcar=no; motorcycle=no;
+    name=Neste Truck; operator=Neste; source=bing;
     id=way/146940296</desc>
   </wpt>
   <wpt lat="65.08928465" lon="25.40868995224347">
@@ -15874,8 +15683,9 @@ version="1.1" creator="togpx">
     <name>St1 Pirkkala</name>
     <desc>addr:city=Pirkkala; addr:postcode=33950;
     addr:street=Killontorintie; amenity=fuel; building=yes;
+    check_date:opening_hours=2024-06-29; compressed_air=no;
     name=St1 Pirkkala; name:fi=St1 Pirkkala; name:sv=St1 Birkala;
-    id=way/148464994</desc>
+    opening_hours:signed=no; id=way/148464994</desc>
   </wpt>
   <wpt lat="65.12876990000001" lon="25.35723275">
     <name>ABC Kello</name>
@@ -16076,7 +15886,8 @@ version="1.1" creator="togpx">
     <name>Teboil Express</name>
     <desc>addr:city=Hämeenlinna; addr:housenumber=2;
     addr:postcode=13210; addr:street=Rautatienkatu; amenity=fuel;
-    building=yes; name=Teboil Express; id=way/165846566</desc>
+    building=yes; compressed_air=no; name=Teboil Express;
+    opening_hours=24/7; id=way/165846566</desc>
   </wpt>
   <wpt lat="60.470031899999995" lon="22.30688344876267">
     <name>ABC</name>
@@ -16425,6 +16236,21 @@ version="1.1" creator="togpx">
     description=Tankkauspaikka; name=Neste Oil D-asema;
     opening_hours=24/7; smoking=no; id=way/215231087</desc>
   </wpt>
+  <wpt lat="62.2162041" lon="25.7223307">
+    <name>Neste Express Jyväskylä Keljo CM</name>
+    <desc>addr:city=Jyväskylä; addr:housenumber=6;
+    addr:postcode=40500; addr:street=Kylmälahdentie; amenity=fuel;
+    brand=Neste; brand:wikidata=Q616376; building=roof;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Neste Express Jyväskylä Keljo CM; opening_hours=24/7;
+    operator=Neste; payment:app=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; phone=+358 200 80100; ref=0544;
+    self_service=yes;
+    website=https://www.neste.fi/asema/neste-express-jyvaskyla-keljo-cm;
+    id=way/216987992</desc>
+    <link href="https://www.neste.fi/asema/neste-express-jyvaskyla-keljo-cm">
+    </link>
+  </wpt>
   <wpt lat="65.28986714999999" lon="25.37572260000001">
     <name>Kärkkäinen</name>
     <desc>amenity=fuel; building=roof; name=Kärkkäinen;
@@ -16608,7 +16434,7 @@ version="1.1" creator="togpx">
   <wpt lat="60.683778450000005" lon="21.989981349999994">
     <name>way/259788124</name>
     <desc>amenity=fuel; brand=St1; building=roof;
-    id=way/259788124</desc>
+    compressed_air=no; id=way/259788124</desc>
   </wpt>
   <wpt lat="60.3928704" lon="25.60902818720129">
     <name>Shell Porvoo Kuninkaanportti</name>
@@ -16654,9 +16480,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="61.47095445" lon="23.785711526304347">
     <name>SEO Tampere</name>
-    <desc>amenity=fuel; building=roof; compressed_air=no;
-    mml:ref=870028184; name=SEO Tampere; opening_hours=24/7;
-    self_service=yes; source=mml; id=way/285801365</desc>
+    <desc>amenity=fuel; building=roof; check_date=2024-06-14;
+    compressed_air=no; mml:ref=870028184; name=SEO Tampere;
+    opening_hours=24/7; self_service=yes; source=mml;
+    id=way/285801365</desc>
   </wpt>
   <wpt lat="61.493205700000004" lon="23.824884561910594">
     <name>Neste Express Tampere Jäähovi</name>
@@ -16762,6 +16589,20 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building:levels=1; mml:class=42261;
     id=way/308948749</desc>
   </wpt>
+  <wpt lat="67.35037875" lon="23.828542650000003">
+    <name>Neste Express Kolari</name>
+    <desc>addr:city=Kolari; addr:country=FI; addr:housenumber=3;
+    addr:postcode=95900; addr:street=Muoniontie; amenity=fuel;
+    brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=Neste Express Kolari;
+    opening_hours=24/7; operator=Neste; ref=844; self_service=yes;
+    snowmobile=yes;
+    website=https://www.neste.fi/asema/neste-express-kolari;
+    id=way/311396833</desc>
+    <link href="https://www.neste.fi/asema/neste-express-kolari">
+    </link>
+  </wpt>
   <wpt lat="62.9479376" lon="21.55361411357567">
     <name>way/311558484</name>
     <desc>amenity=fuel; building=yes; id=way/311558484</desc>
@@ -16866,6 +16707,50 @@ version="1.1" creator="togpx">
     operator=Neste; roof:shape=flat; start_date=1992;
     id=way/322065711</desc>
   </wpt>
+  <wpt lat="66.5543254" lon="23.865299800000003">
+    <name>SEO Juoksenki Autom</name>
+    <desc>amenity=fuel; brand=SEO; building=roof; fuel:diesel=yes;
+    fuel:e10=yes; fuel:heating_oil=yes; fuel:octane_95=yes;
+    fuel:octane_98=no; name=SEO Juoksenki Autom;
+    payment:contactless=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; payment:notes=yes; snowmobile=yes;
+    website=www.seomaki.fi/seo-kylmaasemat; id=way/323668021</desc>
+    <link href="www.seomaki.fi/seo-kylmaasemat"></link>
+  </wpt>
+  <wpt lat="67.1291188" lon="23.982986425416037">
+    <name>SEO Sieppijärvi</name>
+    <desc>amenity=fuel; brand=SEO; building=roof;
+    fuel:biodiesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=SEO Sieppijärvi; note=automat only; snowmobile=yes;
+    website=https://www.seo.fi/seo-asemat/2556-seo-sieppijaervi;
+    id=way/324250690</desc>
+    <link href="https://www.seo.fi/seo-asemat/2556-seo-sieppijaervi">
+    </link>
+  </wpt>
+  <wpt lat="67.9527492" lon="23.686921650000002">
+    <name>Neste Muonio Miljoonatie</name>
+    <desc>addr:city=Muonio; addr:housenumber=1;
+    addr:postcode=99300; addr:street=Miljoonatie; amenity=fuel;
+    brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
+    building=roof; email=ismo.micklin@laplandhotels.com;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    fuel_service=automatic; layer=1; name=Neste Muonio Miljoonatie;
+    opening_hours=24/7; operator=Neste; payment:coins=no;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:notes=yes; ref=168; self_service=yes;
+    website=https://www.neste.fi/asema/neste-muonio-miljoonatie;
+    id=way/324582489</desc>
+    <link href="https://www.neste.fi/asema/neste-muonio-miljoonatie">
+    </link>
+  </wpt>
+  <wpt lat="68.38575714999999" lon="23.603163361874998">
+    <name>St1 Hetta</name>
+    <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=St1 Hetta;
+    opening_hours=Mo-Su 09:00-23:00; snowmobile=yes;
+    id=way/324880665</desc>
+  </wpt>
   <wpt lat="65.36012740000001" lon="26.98275783077227">
     <name>Teboil Pudasjärvi</name>
     <desc>addr:housenumber=2; addr:street=Tuulimyllyntie;
@@ -16904,11 +16789,12 @@ version="1.1" creator="togpx">
     id=way/357852616</desc>
   </wpt>
   <wpt lat="61.8692442" lon="28.92326276334029">
-    <name>Shell Express</name>
+    <name>Shell</name>
     <desc>addr:housenumber=2; addr:postcode=57200;
-    addr:street=Miekkoniemenkatu; amenity=fuel; brand=Shell
-    Express; brand:wikidata=Q2289188; building=yes; name=Shell
-    Express; id=way/358906728</desc>
+    addr:street=Miekkoniemenkatu; amenity=fuel; brand=Shell;
+    brand:wikidata=Q110716465; building=yes; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Shell; id=way/358906728</desc>
   </wpt>
   <wpt lat="63.70981675" lon="23.32442665">
     <name>ABC!</name>
@@ -17042,6 +16928,32 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes; name=ABC; opening_hours=Gasoline Automate;
     operator=ABC; smoking=no; id=way/412773948</desc>
   </wpt>
+  <wpt lat="67.3477286" lon="23.82673877619284">
+    <name>St1 Kolari</name>
+    <desc>addr:city=Kolari; addr:country=FI; amenity=fuel;
+    brand=St1; brand:wikidata=Q7592214; building=roof;
+    fuel:biodiesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=St1 Kolari; operator=St1;
+    vending_machine=fuel; id=way/413132253</desc>
+  </wpt>
+  <wpt lat="67.3361004" lon="23.821560226557864">
+    <name>Teboil Kolari Autom</name>
+    <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=Teboil Kolari Autom;
+    payment:cash=no; payment:coins=no; payment:notes=no;
+    snowmobile=yes; id=way/413132279</desc>
+  </wpt>
+  <wpt lat="67.3351193" lon="23.821385275378788">
+    <name>ABC Sale Kolari Autom</name>
+    <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=ABC Sale Kolari Autom; snowmobile=yes;
+    website=https://www.abcasemat.fi/fi/asemat/abc-sale-kolari;
+    id=way/413132283</desc>
+    <link href="https://www.abcasemat.fi/fi/asemat/abc-sale-kolari">
+    </link>
+  </wpt>
   <wpt lat="65.9631153" lon="29.18465950264654">
     <name>Teboil Kuusamo</name>
     <desc>addr:city=Kuusamo; addr:country=FI; addr:housenumber=9;
@@ -17050,6 +16962,56 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:e10=yes; fuel:e5=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; layer=1; name=Teboil Kuusamo;
     operator=Teboil; self_service=yes; id=way/415039226</desc>
+  </wpt>
+  <wpt lat="66.7810926" lon="23.97581363818807">
+    <name>Teboil Pello Autom</name>
+    <desc>amenity=fuel; brand=Teboil; brand:wikidata=Q7692079;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; maxheight=4.0; name=Teboil Pello Autom;
+    payment:contactless=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; payment:notes=yes; payment:others=no;
+    snowmobile=yes;
+    website=https://www.teboil.fi/asemaverkosto/pello/pello/;
+    id=way/415816661</desc>
+    <link href="https://www.teboil.fi/asemaverkosto/pello/pello/">
+    </link>
+  </wpt>
+  <wpt lat="66.77592369999999" lon="23.96540483482142">
+    <name>Shell Pello</name>
+    <desc>addr:city=Pello; addr:country=FI; addr:postcode=95700;
+    amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    building=roof; fuel:V-Power=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; layer=1; name=Shell Pello;
+    opening_hours=24/7; payment:contactless=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:others=no; snowmobile=yes; id=way/415816692</desc>
+  </wpt>
+  <wpt lat="66.77548275000001" lon="23.9649621">
+    <name>SEO Pello</name>
+    <desc>addr:city=Pello; addr:country=FI; addr:postcode=95700;
+    amenity=fuel; building=roof; building:levels=1;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=SEO Pello;
+    opening_hours=24/7; snowmobile=yes;
+    website=www.seomaki.fi/seo-pello; id=way/415830275</desc>
+    <link href="www.seomaki.fi/seo-pello"></link>
+  </wpt>
+  <wpt lat="66.77341835" lon="23.962709721294786">
+    <name>ABC!</name>
+    <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; maxheight=4.4; name=ABC!;
+    opening_hours=24/7; source=GPS; id=way/415830298</desc>
+  </wpt>
+  <wpt lat="67.95486675000001" lon="23.683141538452166">
+    <name>SEO Muonio</name>
+    <desc>amenity=fuel; branch=seo; brand=SEO; building=roof;
+    fuel:biodiesel=yes; fuel:diesel=yes; fuel:e10=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=SEO Muonio;
+    self_service=yes; snowmobile=yes; source=local knowledge;
+    website=http://www.seomaki.fi/seo_muonio/;
+    id=way/421620914</desc>
+    <link href="http://www.seomaki.fi/seo_muonio/"></link>
   </wpt>
   <wpt lat="60.4804543" lon="26.87583117805637">
     <name>Shell Express Ruonala</name>
@@ -17216,11 +17178,6 @@ version="1.1" creator="togpx">
     <ele>24</ele>
     <name>way/454314181</name>
     <desc>amenity=fuel; building=roof; id=way/454314181</desc>
-  </wpt>
-  <wpt lat="64.07224765000001" lon="24.508681921738347">
-    <name>ABC</name>
-    <desc>amenity=fuel; brand=ABC; building=yes; name=ABC;
-    operator=Osuuskauppa KPO; id=way/455320039</desc>
   </wpt>
   <wpt lat="59.98513835" lon="23.418153816498506">
     <ele>10</ele>
@@ -17566,6 +17523,15 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building=roof; name=Neste Express;
     id=way/548836052</desc>
   </wpt>
+  <wpt lat="62.556490350000004" lon="24.11119985">
+    <name>Neste Ähtäri Autom</name>
+    <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
+    building=roof; name=Neste Ähtäri Autom; snowmobile=yes;
+    website=https://www.neste.fi/asema/neste-ahtari-myllymaentie;
+    id=way/550283469</desc>
+    <link href="https://www.neste.fi/asema/neste-ahtari-myllymaentie">
+    </link>
+  </wpt>
   <wpt lat="61.8518687" lon="25.1743252">
     <name>Shell Jämsä</name>
     <desc>addr:city=Jämsä; addr:housenumber=116;
@@ -17687,20 +17653,6 @@ version="1.1" creator="togpx">
     <link href="https://www.abcasemat.fi/asemat/abc-s-market-mynamaki-1240368">
     </link>
   </wpt>
-  <wpt lat="60.22811465" lon="24.873980103525998">
-    <ele>22</ele>
-    <name>Teboil</name>
-    <desc>addr:city=Helsinki; addr:housenumber=19;
-    addr:postcode=00370; addr:street=Kaupintie; amenity=fuel;
-    branch=Kaupintie; brand=Teboil; brand:wikidata=Q7692079;
-    brand:wikipedia=en:Teboil; building=roof; compressed_air=no;
-    fuel:adblue=yes; fuel:diesel=yes; layer=1; name=Teboil;
-    opening_hours=24/7; self_service=yes;
-    website=https://www.teboil.fi/asemaverkosto/paakaupunkiseutu/helsinki/helsinki-kaupintie/;
-    id=way/633711711</desc>
-    <link href="https://www.teboil.fi/asemaverkosto/paakaupunkiseutu/helsinki/helsinki-kaupintie/">
-    </link>
-  </wpt>
   <wpt lat="62.28397195" lon="21.36451897184552">
     <name>Veljekset Keskihannula</name>
     <desc>amenity=fuel; brand=SEO; name=Veljekset Keskihannula;
@@ -17739,6 +17691,14 @@ version="1.1" creator="togpx">
     wheelchair=yes; id=way/672385984</desc>
     <link href="https://st1.fi/huoltoasemat?sub=helsinki_automat_kivikko">
     </link>
+  </wpt>
+  <wpt lat="67.9733005" lon="23.679403004910892">
+    <name>Neste D</name>
+    <desc>amenity=fuel; brand=Neste; brand:wikidata=Q616376;
+    brand:wikipedia=en:Neste; building=roof; fuel:HGV_diesel=yes;
+    fuel:diesel=yes; fuel:e10=no; fuel:e85=no; fuel:octane_95=no;
+    fuel:octane_98=no; layer=1; name=Neste D;
+    id=way/678090067</desc>
   </wpt>
   <wpt lat="60.44551725" lon="22.28419668898473">
     <name>St1</name>
@@ -17858,7 +17818,7 @@ version="1.1" creator="togpx">
     <link href="https://www.neste.fi/asema/neste-express-vantaa-hakkila">
     </link>
   </wpt>
-  <wpt lat="60.62796315" lon="24.864572232787133">
+  <wpt lat="60.627926099999996" lon="24.8645408192399">
     <name>Shell Hyvinkää Express</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     compressed_air=no; name=Shell Hyvinkää Express;
@@ -18269,12 +18229,12 @@ version="1.1" creator="togpx">
     self_service=yes; id=way/1111978029</desc>
     <link href="https://wegas.fi/"></link>
   </wpt>
-  <wpt lat="63.22963395" lon="22.845563">
+  <wpt lat="63.22965525" lon="22.8455644">
     <name>Neste Express Alahärmä Powerpark</name>
     <desc>addr:city=Härmä; addr:housenumber=1; addr:postcode=62300;
     addr:street=Jorma Lillbackantie; amenity=fuel; brand=Neste;
-    brand:wikidata=Q616376; building=roof; fixme=Sijainti; layer=1;
-    name=Neste Express Alahärmä Powerpark; id=way/1154540402</desc>
+    brand:wikidata=Q616376; building=roof; layer=1; name=Neste
+    Express Alahärmä Powerpark; id=way/1154540402</desc>
   </wpt>
   <wpt lat="61.36426715" lon="22.005091169864464">
     <name>St1</name>
@@ -18378,10 +18338,10 @@ version="1.1" creator="togpx">
     <name>St1 Automaatti Tampere Lakalaiva</name>
     <desc>addr:city=Tampere; addr:housenumber=3;
     addr:postcode=33840; addr:street=Korjaamonkatu; amenity=fuel;
-    brand=St1; building=roof; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=St1 Automaatti Tampere Lakalaiva;
-    not:brand:wikidata=Q7592214; opening_hours=24/7;
-    self_service=yes; id=way/1208147637</desc>
+    brand=St1; building=roof; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=St1 Automaatti
+    Tampere Lakalaiva; not:brand:wikidata=Q7592214;
+    opening_hours=24/7; self_service=yes; id=way/1208147637</desc>
   </wpt>
   <wpt lat="60.2634087" lon="25.0524672390625">
     <ele>23</ele>
@@ -18497,6 +18457,40 @@ version="1.1" creator="togpx">
     <name>SEO</name>
     <desc>amenity=fuel; brand=SEO; building=roof; name=SEO;
     id=way/1284669110</desc>
+  </wpt>
+  <wpt lat="64.06308365" lon="24.561502623615464">
+    <name>Kärkkäinen Autom</name>
+    <desc>amenity=fuel; brand=Kärkkäinen; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Kärkkäinen Autom;
+    snowmobile=yes; id=way/1293706582</desc>
+  </wpt>
+  <wpt lat="64.0627944" lon="24.558765600000005">
+    <name>ABC Ylivieska Autom</name>
+    <desc>addr:city=Ylivieska; addr:housenumber=1;
+    addr:postcode=84100; addr:street=Ollilanojankatu; amenity=fuel;
+    brand=ABC; brand:wikidata=Q10397504; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=ABC Ylivieska
+    Autom; opening_hours=24/7; operator=ABC; self_service=yes;
+    source=survey; id=way/1293706585</desc>
+  </wpt>
+  <wpt lat="64.0725145" lon="24.509177839694225">
+    <name>ABC Joutsentie Ylivieska</name>
+    <desc>amenity=fuel; brand=ABC; brand:wikidata=Q10397504;
+    building=roof; name=ABC Joutsentie Ylivieska;
+    operator=Osuuskauppa KPO; id=way/1298062829</desc>
+  </wpt>
+  <wpt lat="64.5666401" lon="26.87385004081075">
+    <name>ABC Vaalanportti</name>
+    <desc>addr:city=Vaala; addr:housenumber=285;
+    addr:postcode=91700; addr:street=Vaalantie; amenity=fuel;
+    automated=yes; brand=ABC; brand:wikidata=Q10397504;
+    brand:wikipedia=fi:ABC-ketju; building=roof; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=ABC Vaalanportti;
+    note:fi=POI from way to node; self_service=yes; snowmobile=yes;
+    website=https://www.abcasemat.fi/fi/asemat/lahi-abc-vaalanportti;
+    id=way/1301366782</desc>
+    <link href="https://www.abcasemat.fi/fi/asemat/lahi-abc-vaalanportti">
+    </link>
   </wpt>
   <wpt lat="61.47680445" lon="23.77238067581471">
     <name>way/122625481</name>
@@ -19024,7 +19018,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Neste K Oulu Isko</name>
+    <name>Neste Express Oulu Isko</name>
     <trkseg>
       <trkpt lat="65.0429906" lon="25.476008"></trkpt>
       <trkpt lat="65.0429785" lon="25.4760472"></trkpt>
@@ -19729,7 +19723,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>D</name>
+    <name>way/142459543</name>
+    <trkseg>
+      <trkpt lat="62.8207119" lon="23.9476547"></trkpt>
+      <trkpt lat="62.8206606" lon="23.9478511"></trkpt>
+      <trkpt lat="62.8207423" lon="23.9479533"></trkpt>
+      <trkpt lat="62.8207936" lon="23.9477569"></trkpt>
+      <trkpt lat="62.8207119" lon="23.9476547"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Neste Truck</name>
     <trkseg>
       <trkpt lat="61.1366752" lon="21.5795412"></trkpt>
       <trkpt lat="61.1366202" lon="21.5790045"></trkpt>
@@ -19825,16 +19829,6 @@ version="1.1" creator="togpx">
       <trkpt lat="62.601183" lon="25.7245142"></trkpt>
       <trkpt lat="62.6012119" lon="25.724398"></trkpt>
       <trkpt lat="62.6011544" lon="25.7243304"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/150987026</name>
-    <trkseg>
-      <trkpt lat="64.8008442" lon="25.4285244"></trkpt>
-      <trkpt lat="64.8007805" lon="25.4285919"></trkpt>
-      <trkpt lat="64.8008652" lon="25.4290328"></trkpt>
-      <trkpt lat="64.8009289" lon="25.4289653"></trkpt>
-      <trkpt lat="64.8008442" lon="25.4285244"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -20568,6 +20562,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Neste Express Jyväskylä Keljo CM</name>
+    <trkseg>
+      <trkpt lat="62.2162145" lon="25.7221973"></trkpt>
+      <trkpt lat="62.216155" lon="25.7222458"></trkpt>
+      <trkpt lat="62.2161937" lon="25.7224641"></trkpt>
+      <trkpt lat="62.2162532" lon="25.7224156"></trkpt>
+      <trkpt lat="62.2162145" lon="25.7221973"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Kärkkäinen</name>
     <trkseg>
       <trkpt lat="65.2899203" lon="25.375826"></trkpt>
@@ -21107,6 +21111,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Neste Express Kolari</name>
+    <trkseg>
+      <trkpt lat="67.3504513" lon="23.8286659"></trkpt>
+      <trkpt lat="67.3504468" lon="23.8284032"></trkpt>
+      <trkpt lat="67.3503062" lon="23.8284194"></trkpt>
+      <trkpt lat="67.3503107" lon="23.8286821"></trkpt>
+      <trkpt lat="67.3504513" lon="23.8286659"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/311558484</name>
     <trkseg>
       <trkpt lat="62.9479867" lon="21.5535696"></trkpt>
@@ -21221,6 +21235,46 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>SEO Juoksenki Autom</name>
+    <trkseg>
+      <trkpt lat="66.5543769" lon="23.8652418"></trkpt>
+      <trkpt lat="66.5542883" lon="23.8651929"></trkpt>
+      <trkpt lat="66.5542739" lon="23.8653578"></trkpt>
+      <trkpt lat="66.5543625" lon="23.8654067"></trkpt>
+      <trkpt lat="66.5543769" lon="23.8652418"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>SEO Sieppijärvi</name>
+    <trkseg>
+      <trkpt lat="67.1291524" lon="23.9828963"></trkpt>
+      <trkpt lat="67.1290863" lon="23.9828937"></trkpt>
+      <trkpt lat="67.1290852" lon="23.9830765"></trkpt>
+      <trkpt lat="67.1291513" lon="23.9830792"></trkpt>
+      <trkpt lat="67.1291524" lon="23.9828963"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Neste Muonio Miljoonatie</name>
+    <trkseg>
+      <trkpt lat="67.9527546" lon="23.6866969"></trkpt>
+      <trkpt lat="67.9526832" lon="23.6870625"></trkpt>
+      <trkpt lat="67.9527438" lon="23.6871464"></trkpt>
+      <trkpt lat="67.9528152" lon="23.6867808"></trkpt>
+      <trkpt lat="67.9527546" lon="23.6866969"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>St1 Hetta</name>
+    <trkseg>
+      <trkpt lat="68.3858204" lon="23.6029687"></trkpt>
+      <trkpt lat="68.3857004" lon="23.6029585"></trkpt>
+      <trkpt lat="68.385701" lon="23.6033584"></trkpt>
+      <trkpt lat="68.3858133" lon="23.6033684"></trkpt>
+      <trkpt lat="68.3858204" lon="23.6029687"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Teboil Pudasjärvi</name>
     <trkseg>
       <trkpt lat="65.3599712" lon="26.9827344"></trkpt>
@@ -21265,15 +21319,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Teboil</name>
     <trkseg>
-      <trkpt lat="61.0500559" lon="28.1748336"></trkpt>
-      <trkpt lat="61.0499954" lon="28.1748508"></trkpt>
-      <trkpt lat="61.0500045" lon="28.1749871"></trkpt>
-      <trkpt lat="61.050065" lon="28.1749699"></trkpt>
-      <trkpt lat="61.0500559" lon="28.1748336"></trkpt>
+      <trkpt lat="61.0500436" lon="28.1748363"></trkpt>
+      <trkpt lat="61.0499831" lon="28.1748535"></trkpt>
+      <trkpt lat="61.0499922" lon="28.1749898"></trkpt>
+      <trkpt lat="61.0500527" lon="28.1749726"></trkpt>
+      <trkpt lat="61.0500436" lon="28.1748363"></trkpt>
     </trkseg>
   </trk>
   <trk>
-    <name>Shell Express</name>
+    <name>Shell</name>
     <trkseg>
       <trkpt lat="61.8691803" lon="28.9229081"></trkpt>
       <trkpt lat="61.8690686" lon="28.9231891"></trkpt>
@@ -21509,6 +21563,36 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>St1 Kolari</name>
+    <trkseg>
+      <trkpt lat="67.3477813" lon="23.8266635"></trkpt>
+      <trkpt lat="67.3476807" lon="23.8266443"></trkpt>
+      <trkpt lat="67.3476759" lon="23.826814"></trkpt>
+      <trkpt lat="67.3477765" lon="23.8268333"></trkpt>
+      <trkpt lat="67.3477813" lon="23.8266635"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Teboil Kolari Autom</name>
+    <trkseg>
+      <trkpt lat="67.336132" lon="23.8214612"></trkpt>
+      <trkpt lat="67.3360646" lon="23.8214713"></trkpt>
+      <trkpt lat="67.3360688" lon="23.8216593"></trkpt>
+      <trkpt lat="67.3361362" lon="23.8216491"></trkpt>
+      <trkpt lat="67.336132" lon="23.8214612"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>ABC Sale Kolari Autom</name>
+    <trkseg>
+      <trkpt lat="67.3351528" lon="23.8213"></trkpt>
+      <trkpt lat="67.3350868" lon="23.8212975"></trkpt>
+      <trkpt lat="67.3350858" lon="23.8214705"></trkpt>
+      <trkpt lat="67.3351518" lon="23.8214731"></trkpt>
+      <trkpt lat="67.3351528" lon="23.8213"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Teboil Kuusamo</name>
     <trkseg>
       <trkpt lat="65.9631143" lon="29.1844776"></trkpt>
@@ -21516,6 +21600,56 @@ version="1.1" creator="togpx">
       <trkpt lat="65.9631163" lon="29.1848414"></trkpt>
       <trkpt lat="65.9631834" lon="29.1847307"></trkpt>
       <trkpt lat="65.9631143" lon="29.1844776"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Teboil Pello Autom</name>
+    <trkseg>
+      <trkpt lat="66.7811592" lon="23.975839"></trkpt>
+      <trkpt lat="66.781072" lon="23.9756509"></trkpt>
+      <trkpt lat="66.781026" lon="23.9757882"></trkpt>
+      <trkpt lat="66.7811132" lon="23.9759764"></trkpt>
+      <trkpt lat="66.7811592" lon="23.975839"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell Pello</name>
+    <trkseg>
+      <trkpt lat="66.7759861" lon="23.9653922"></trkpt>
+      <trkpt lat="66.7758965" lon="23.9652618"></trkpt>
+      <trkpt lat="66.7758613" lon="23.9654174"></trkpt>
+      <trkpt lat="66.7759509" lon="23.9655479"></trkpt>
+      <trkpt lat="66.7759861" lon="23.9653922"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>SEO Pello</name>
+    <trkseg>
+      <trkpt lat="66.7755636" lon="23.9648953"></trkpt>
+      <trkpt lat="66.7754243" lon="23.9648056"></trkpt>
+      <trkpt lat="66.7754019" lon="23.9650289"></trkpt>
+      <trkpt lat="66.7755412" lon="23.9651186"></trkpt>
+      <trkpt lat="66.7755636" lon="23.9648953"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>ABC!</name>
+    <trkseg>
+      <trkpt lat="66.7734536" lon="23.9626474"></trkpt>
+      <trkpt lat="66.7733922" lon="23.9626232"></trkpt>
+      <trkpt lat="66.7733831" lon="23.9627721"></trkpt>
+      <trkpt lat="66.7734445" lon="23.9627962"></trkpt>
+      <trkpt lat="66.7734536" lon="23.9626474"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>SEO Muonio</name>
+    <trkseg>
+      <trkpt lat="67.9549121" lon="23.6829523"></trkpt>
+      <trkpt lat="67.9547863" lon="23.6830725"></trkpt>
+      <trkpt lat="67.9548214" lon="23.6833311"></trkpt>
+      <trkpt lat="67.9549471" lon="23.6832101"></trkpt>
+      <trkpt lat="67.9549121" lon="23.6829523"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -21761,24 +21895,6 @@ version="1.1" creator="togpx">
       <trkpt lat="60.0547609" lon="23.6469938"></trkpt>
       <trkpt lat="60.0545746" lon="23.6471283"></trkpt>
       <trkpt lat="60.0546005" lon="23.6472568"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>ABC</name>
-    <trkseg>
-      <trkpt lat="64.0721658" lon="24.5081653"></trkpt>
-      <trkpt lat="64.0720994" lon="24.5085376"></trkpt>
-      <trkpt lat="64.072211" lon="24.5086418"></trkpt>
-      <trkpt lat="64.0721428" lon="24.5090243"></trkpt>
-      <trkpt lat="64.0722939" lon="24.5091653"></trkpt>
-      <trkpt lat="64.0723571" lon="24.5088108"></trkpt>
-      <trkpt lat="64.0724117" lon="24.5088616"></trkpt>
-      <trkpt lat="64.0724536" lon="24.5086264"></trkpt>
-      <trkpt lat="64.0723894" lon="24.5085665"></trkpt>
-      <trkpt lat="64.0724111" lon="24.508445"></trkpt>
-      <trkpt lat="64.0722843" lon="24.5083267"></trkpt>
-      <trkpt lat="64.072292" lon="24.5082831"></trkpt>
-      <trkpt lat="64.0721658" lon="24.5081653"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -22288,6 +22404,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Neste Ähtäri Autom</name>
+    <trkseg>
+      <trkpt lat="62.5565407" lon="24.111425"></trkpt>
+      <trkpt lat="62.5565633" lon="24.1110061"></trkpt>
+      <trkpt lat="62.55644" lon="24.1109747"></trkpt>
+      <trkpt lat="62.5564174" lon="24.1113936"></trkpt>
+      <trkpt lat="62.5565407" lon="24.111425"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Shell Jämsä</name>
     <trkseg>
       <trkpt lat="61.8520115" lon="25.1742617"></trkpt>
@@ -22545,17 +22671,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Teboil</name>
-    <trkseg>
-      <trkpt lat="60.2281058" lon="24.8737014"></trkpt>
-      <trkpt lat="60.2280059" lon="24.8736685"></trkpt>
-      <trkpt lat="60.2279909" lon="24.8738536"></trkpt>
-      <trkpt lat="60.2281235" lon="24.8742588"></trkpt>
-      <trkpt lat="60.2282383" lon="24.8741064"></trkpt>
-      <trkpt lat="60.2281058" lon="24.8737014"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/638193841</name>
     <trkseg>
       <trkpt lat="62.4113022" lon="24.8117179"></trkpt>
@@ -22603,6 +22718,16 @@ version="1.1" creator="togpx">
       <trkpt lat="60.2312118" lon="25.0537689"></trkpt>
       <trkpt lat="60.2312166" lon="25.053643"></trkpt>
       <trkpt lat="60.2310904" lon="25.0536234"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Neste D</name>
+    <trkseg>
+      <trkpt lat="67.9733162" lon="23.6793549"></trkpt>
+      <trkpt lat="67.9732765" lon="23.6794055"></trkpt>
+      <trkpt lat="67.9732848" lon="23.6794512"></trkpt>
+      <trkpt lat="67.9733244" lon="23.6794005"></trkpt>
+      <trkpt lat="67.9733162" lon="23.6793549"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -22826,11 +22951,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Shell Hyvinkää Express</name>
     <trkseg>
-      <trkpt lat="60.6280934" lon="24.8644752"></trkpt>
-      <trkpt lat="60.6280263" lon="24.864325"></trkpt>
-      <trkpt lat="60.6278526" lon="24.8646308"></trkpt>
-      <trkpt lat="60.6279" lon="24.8648213"></trkpt>
-      <trkpt lat="60.6280934" lon="24.8644752"></trkpt>
+      <trkpt lat="60.6279941" lon="24.8645984"></trkpt>
+      <trkpt lat="60.6279099" lon="24.8643943"></trkpt>
+      <trkpt lat="60.6278581" lon="24.8644834"></trkpt>
+      <trkpt lat="60.6279423" lon="24.8646873"></trkpt>
+      <trkpt lat="60.6279941" lon="24.8645984"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23479,11 +23604,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Neste Express Alahärmä Powerpark</name>
     <trkseg>
-      <trkpt lat="63.229666" lon="22.8454769"></trkpt>
-      <trkpt lat="63.2296009" lon="22.8454769"></trkpt>
-      <trkpt lat="63.2296019" lon="22.8456491"></trkpt>
-      <trkpt lat="63.2296681" lon="22.8456491"></trkpt>
-      <trkpt lat="63.229666" lon="22.8454769"></trkpt>
+      <trkpt lat="63.2296873" lon="22.8454783"></trkpt>
+      <trkpt lat="63.2296222" lon="22.8454783"></trkpt>
+      <trkpt lat="63.2296232" lon="22.8456505"></trkpt>
+      <trkpt lat="63.2296894" lon="22.8456505"></trkpt>
+      <trkpt lat="63.2296873" lon="22.8454783"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -23845,6 +23970,46 @@ version="1.1" creator="togpx">
       <trkpt lat="61.8646583" lon="21.5018607"></trkpt>
       <trkpt lat="61.8646014" lon="21.5016971"></trkpt>
       <trkpt lat="61.8645597" lon="21.5017623"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kärkkäinen Autom</name>
+    <trkseg>
+      <trkpt lat="64.0631465" lon="24.5614292"></trkpt>
+      <trkpt lat="64.0630231" lon="24.56142"></trkpt>
+      <trkpt lat="64.0630209" lon="24.561576"></trkpt>
+      <trkpt lat="64.0631442" lon="24.5615853"></trkpt>
+      <trkpt lat="64.0631465" lon="24.5614292"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>ABC Ylivieska Autom</name>
+    <trkseg>
+      <trkpt lat="64.0627717" lon="24.5586109"></trkpt>
+      <trkpt lat="64.0627263" lon="24.5587167"></trkpt>
+      <trkpt lat="64.0628171" lon="24.5589203"></trkpt>
+      <trkpt lat="64.0628625" lon="24.5588145"></trkpt>
+      <trkpt lat="64.0627717" lon="24.5586109"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>ABC Joutsentie Ylivieska</name>
+    <trkseg>
+      <trkpt lat="64.0724963" lon="24.5089948"></trkpt>
+      <trkpt lat="64.0724444" lon="24.5092754"></trkpt>
+      <trkpt lat="64.0725327" lon="24.5093609"></trkpt>
+      <trkpt lat="64.0725846" lon="24.5090802"></trkpt>
+      <trkpt lat="64.0724963" lon="24.5089948"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>ABC Vaalanportti</name>
+    <trkseg>
+      <trkpt lat="64.5665634" lon="26.8738407"></trkpt>
+      <trkpt lat="64.566667" lon="26.8740177"></trkpt>
+      <trkpt lat="64.5667169" lon="26.8738595"></trkpt>
+      <trkpt lat="64.5666132" lon="26.8736824"></trkpt>
+      <trkpt lat="64.5665634" lon="26.8738407"></trkpt>
     </trkseg>
   </trk>
   <trk>
