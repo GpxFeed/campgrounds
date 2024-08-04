@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-07-22T14:45:43Z", "timestamp_areas_base":
-      "2024-07-22T10:27:30Z", "copyright": "The data included in
+      "2024-08-04T18:54:30Z", "timestamp_areas_base":
+      "2024-08-04T13:56:00Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -2076,7 +2076,8 @@ version="1.1" creator="togpx">
     addr:street=Nyírfa utca; name=Bungalows Kemping;
     source=turistautak.hu; source:date=2012-01-01;
     tourism=camp_site; url=http://turistautak.hu/poi.php?id=52897;
-    id=node/3488458801</desc>
+    id=node/3488458801; ; type=multipolygon;
+    id=relation/17885380</desc>
     <link href="http://turistautak.hu/poi.php?id=52897"></link>
   </wpt>
   <wpt lat="46.6999789" lon="21.2667411">
@@ -2963,6 +2964,16 @@ version="1.1" creator="togpx">
     <desc>name=Claudi's Eden; tourism=camp_site;
     id=node/11990254079</desc>
   </wpt>
+  <wpt lat="46.9463191" lon="17.8771804">
+    <ele>111</ele>
+    <name>Balatontourist Camping Füred</name>
+    <desc>addr:city=Balatonfüred; addr:housenumber=24;
+    addr:postcode=8230; addr:street=Széchenyi utca;
+    name=Balatontourist Camping Füred; tourism=camp_site;
+    type=multipolygon; id=relation/2272129; ; name=Happy Camp -
+    Balatontourist Füred Camping&amp;Bungalow;
+    id=node/12081551770</desc>
+  </wpt>
   <wpt lat="46.97589145" lon="17.95878766211161">
     <ele>106</ele>
     <name>Pelso Camping</name>
@@ -2976,14 +2987,6 @@ version="1.1" creator="togpx">
     operator=Pelso Camping Kft.; tourism=camp_site;
     type=multipolygon; id=relation/2262305</desc>
     <link href="https://pelsocamping.hu/"></link>
-  </wpt>
-  <wpt lat="46.944663250000005" lon="17.87688209195651">
-    <ele>107</ele>
-    <name>Balatontourist Camping Füred</name>
-    <desc>addr:city=Balatonfüred; addr:housenumber=24;
-    addr:postcode=8230; addr:street=Széchenyi utca;
-    name=Balatontourist Camping Füred; tourism=camp_site;
-    type=multipolygon; id=relation/2272129</desc>
   </wpt>
   <wpt lat="46.881735" lon="17.757283489418835">
     <ele>107</ele>
@@ -3418,6 +3421,13 @@ version="1.1" creator="togpx">
     website=https://revkemping.hu; id=relation/17738858</desc>
     <link href="https://revkemping.hu"></link>
   </wpt>
+  <wpt lat="46.43474825" lon="18.875354499293337">
+    <ele>87</ele>
+    <name>Fadd-Dombori Ifjúsági Tábor</name>
+    <desc>group_only=yes; name=Fadd-Dombori Ifjúsági Tábor;
+    tourism=camp_site; type=multipolygon;
+    id=relation/17885390</desc>
+  </wpt>
   <wpt lat="46.76728165" lon="17.259340454498258">
     <ele>107</ele>
     <name>Castrum Camping</name>
@@ -3708,7 +3718,7 @@ version="1.1" creator="togpx">
     <desc>name=Liget kemping; tourism=camp_site;
     id=way/283842218</desc>
   </wpt>
-  <wpt lat="46.86042915" lon="20.536023133400384">
+  <wpt lat="46.86042915" lon="20.53602313755062">
     <ele>83</ele>
     <name>Liget Wellness és Konferencia Hotel</name>
     <desc>addr:city=Szarvas; addr:postcode=5540;
@@ -4223,8 +4233,8 @@ version="1.1" creator="togpx">
     <name>way/514202632</name>
     <desc>tourism=camp_site; id=way/514202632</desc>
   </wpt>
-  <wpt lat="46.85573775" lon="16.56916766279192">
-    <ele>202</ele>
+  <wpt lat="46.85581825" lon="16.56905327298231">
+    <ele>198</ele>
     <name>Borostyán-tó Camping</name>
     <desc>addr:city=Zalalövő; addr:housenumber=19;
     addr:postcode=8999; addr:street=Borostyán utca; contact:fax=+36
@@ -4299,9 +4309,10 @@ version="1.1" creator="togpx">
     <ele>107</ele>
     <name>Tópart Camping</name>
     <desc>addr:city=Győr; addr:housenumber=7; addr:postcode=9025;
-    addr:street=Mákos dűlő; barrier=fence; fence_type=wire;
-    height=2; internet_access=wlan; name=Tópart Camping;
-    tourism=camp_site;
+    addr:street=Mákos dűlő; barrier=fence; caravans=yes;
+    drinking_water=yes; fence_type=wire; height=2;
+    internet_access=wlan; name=Tópart Camping; power_supply=yes;
+    shower=yes; tents=yes; tourism=camp_site;
     website=https://www.camping.info/ungarn/westtransdanubien/t%C3%B3part-camping-20344;
     id=way/566318404</desc>
     <link href="https://www.camping.info/ungarn/westtransdanubien/t%C3%B3part-camping-20344">
@@ -6130,6 +6141,46 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>relation/17885380</name>
+    <trkseg>
+      <trkpt lat="46.4384079" lon="18.8686058"></trkpt>
+      <trkpt lat="46.4370443" lon="18.8673069"></trkpt>
+      <trkpt lat="46.4359513" lon="18.8698121"></trkpt>
+      <trkpt lat="46.4359513" lon="18.870077"></trkpt>
+      <trkpt lat="46.436037" lon="18.8703036"></trkpt>
+      <trkpt lat="46.4370729" lon="18.8711716"></trkpt>
+      <trkpt lat="46.4384079" lon="18.8686058"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Fadd-Dombori Ifjúsági Tábor</name>
+    <trkseg>
+      <trkpt lat="46.4357626" lon="18.8751233"></trkpt>
+      <trkpt lat="46.4355343" lon="18.8749409"></trkpt>
+      <trkpt lat="46.4355472" lon="18.8748971"></trkpt>
+      <trkpt lat="46.4355946" lon="18.8747693"></trkpt>
+      <trkpt lat="46.4356221" lon="18.8746941"></trkpt>
+      <trkpt lat="46.4349556" lon="18.8742441"></trkpt>
+      <trkpt lat="46.4346089" lon="18.8739861"></trkpt>
+      <trkpt lat="46.4345498" lon="18.8742401"></trkpt>
+      <trkpt lat="46.4338636" lon="18.877358"></trkpt>
+      <trkpt lat="46.4341625" lon="18.8775582"></trkpt>
+      <trkpt lat="46.4344313" lon="18.8772142"></trkpt>
+      <trkpt lat="46.4346591" lon="18.8767644"></trkpt>
+      <trkpt lat="46.4348374" lon="18.876474"></trkpt>
+      <trkpt lat="46.4349303" lon="18.8762921"></trkpt>
+      <trkpt lat="46.4350422" lon="18.8760986"></trkpt>
+      <trkpt lat="46.4351729" lon="18.8759704"></trkpt>
+      <trkpt lat="46.4353104" lon="18.8759371"></trkpt>
+      <trkpt lat="46.4355562" lon="18.8760871"></trkpt>
+      <trkpt lat="46.4355852" lon="18.8760222"></trkpt>
+      <trkpt lat="46.4353322" lon="18.8758438"></trkpt>
+      <trkpt lat="46.4356426" lon="18.8755171"></trkpt>
+      <trkpt lat="46.4357959" lon="18.8751568"></trkpt>
+      <trkpt lat="46.4357626" lon="18.8751233"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Castrum Camping</name>
     <trkseg>
       <trkpt lat="46.7678581" lon="17.2582324"></trkpt>
@@ -6437,23 +6488,24 @@ version="1.1" creator="togpx">
   <trk>
     <name>Tulipán Camping</name>
     <trkseg>
-      <trkpt lat="47.8944417" lon="20.3592294"></trkpt>
-      <trkpt lat="47.8942458" lon="20.3590597"></trkpt>
-      <trkpt lat="47.894094" lon="20.3589139"></trkpt>
+      <trkpt lat="47.8944473" lon="20.3592189"></trkpt>
+      <trkpt lat="47.8942543" lon="20.3590471"></trkpt>
+      <trkpt lat="47.8941081" lon="20.3589034"></trkpt>
       <trkpt lat="47.8940813" lon="20.3588731"></trkpt>
       <trkpt lat="47.8939705" lon="20.358481"></trkpt>
-      <trkpt lat="47.8939264" lon="20.3583094"></trkpt>
+      <trkpt lat="47.8939151" lon="20.3582674"></trkpt>
       <trkpt lat="47.8939152" lon="20.3579812"></trkpt>
       <trkpt lat="47.8938298" lon="20.3577686"></trkpt>
       <trkpt lat="47.8937384" lon="20.3577254"></trkpt>
-      <trkpt lat="47.8936551" lon="20.3577263"></trkpt>
+      <trkpt lat="47.89366" lon="20.3577215"></trkpt>
+      <trkpt lat="47.8935796" lon="20.3577865"></trkpt>
       <trkpt lat="47.8931025" lon="20.3581711"></trkpt>
       <trkpt lat="47.8934635" lon="20.3591898"></trkpt>
       <trkpt lat="47.893704" lon="20.3591804"></trkpt>
       <trkpt lat="47.8940166" lon="20.3599447"></trkpt>
-      <trkpt lat="47.8942041" lon="20.3595951"></trkpt>
-      <trkpt lat="47.8944009" lon="20.3592981"></trkpt>
-      <trkpt lat="47.8944417" lon="20.3592294"></trkpt>
+      <trkpt lat="47.8941801" lon="20.3596077"></trkpt>
+      <trkpt lat="47.8943939" lon="20.3592876"></trkpt>
+      <trkpt lat="47.8944473" lon="20.3592189"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -6736,6 +6788,7 @@ version="1.1" creator="togpx">
     <name>Liget kemping</name>
     <trkseg>
       <trkpt lat="46.8609724" lon="20.538136"></trkpt>
+      <trkpt lat="46.8609528" lon="20.5381299"></trkpt>
       <trkpt lat="46.8603402" lon="20.5379374"></trkpt>
       <trkpt lat="46.8598552" lon="20.5377941"></trkpt>
       <trkpt lat="46.859661" lon="20.5387043"></trkpt>
@@ -6749,6 +6802,7 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="46.8598552" lon="20.5377941"></trkpt>
       <trkpt lat="46.8603402" lon="20.5379374"></trkpt>
+      <trkpt lat="46.8609528" lon="20.5381299"></trkpt>
       <trkpt lat="46.8609724" lon="20.538136"></trkpt>
       <trkpt lat="46.8615268" lon="20.535334"></trkpt>
       <trkpt lat="46.8609919" lon="20.5350701"></trkpt>
@@ -7744,8 +7798,8 @@ version="1.1" creator="togpx">
   <trk>
     <name>Borostyán-tó Camping</name>
     <trkseg>
-      <trkpt lat="46.8538196" lon="16.569187"></trkpt>
-      <trkpt lat="46.8539054" lon="16.5696761"></trkpt>
+      <trkpt lat="46.8538675" lon="16.5691795"></trkpt>
+      <trkpt lat="46.8539225" lon="16.5696899"></trkpt>
       <trkpt lat="46.8539898" lon="16.5701106"></trkpt>
       <trkpt lat="46.8541072" lon="16.5701294"></trkpt>
       <trkpt lat="46.8543131" lon="16.5706869"></trkpt>
@@ -7774,7 +7828,7 @@ version="1.1" creator="togpx">
       <trkpt lat="46.85449" lon="16.5689247"></trkpt>
       <trkpt lat="46.8542895" lon="16.5690093"></trkpt>
       <trkpt lat="46.8540348" lon="16.5691314"></trkpt>
-      <trkpt lat="46.8538196" lon="16.569187"></trkpt>
+      <trkpt lat="46.8538675" lon="16.5691795"></trkpt>
     </trkseg>
   </trk>
   <trk>

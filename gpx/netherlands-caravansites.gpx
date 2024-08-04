@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-07-22T14:49:44Z", "timestamp_areas_base":
-      "2024-07-22T10:27:30Z", "copyright": "The data included in
+      "2024-08-04T18:57:40Z", "timestamp_areas_base":
+      "2024-08-04T13:56:00Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -443,11 +443,17 @@ version="1.1" creator="togpx">
     <name>node/2836336909</name>
     <desc>tourism=caravan_site; id=node/2836336909</desc>
   </wpt>
-  <wpt lat="51.4355042" lon="5.4229158">
+  <wpt lat="51.4350133" lon="5.4242547">
     <ele>18</ele>
-    <name>Meerhoven</name>
-    <desc>name=Meerhoven; tourism=caravan_site;
+    <name>P+R Meerhoven</name>
+    <desc>capacity=10; caravans=no;
+    contact:website=https://www.p1.nl/parkeren/eindhoven/p-r-meerhoven-eindhoven;
+    fee=yes; name=P+R Meerhoven; opening_hours=24/7;
+    power_supply=no; sanitary_dump_station=yes; supervised=no;
+    surface=concrete; tourism=caravan_site; water_supply=no;
     id=node/2877577689</desc>
+    <link href="https://www.p1.nl/parkeren/eindhoven/p-r-meerhoven-eindhoven">
+    </link>
   </wpt>
   <wpt lat="52.907317" lon="5.0275721">
     <ele>2</ele>
@@ -730,16 +736,6 @@ version="1.1" creator="togpx">
     <desc>name=Trigano Campers Caravan; operator=Dealer;
     tourism=caravan_site; id=node/4300844702</desc>
   </wpt>
-  <wpt lat="52.0810484" lon="5.3645665">
-    <ele>15</ele>
-    <name>NCC Woudenberg</name>
-    <desc>addr:city=Woudenberg; addr:housenumber=97;
-    addr:postcode=3931ME; addr:street=Zeisterweg;
-    email=woudenberg@ncc.nl; internet_access=wlan; name=NCC
-    Woudenberg; phone=+31 348 443 006; tourism=caravan_site;
-    website=http://ncc.nl; id=node/4305027490</desc>
-    <link href="http://ncc.nl"></link>
-  </wpt>
   <wpt lat="53.1715139" lon="5.9331322">
     <ele>-2</ele>
     <name>Suawoude</name>
@@ -977,8 +973,10 @@ version="1.1" creator="togpx">
   <wpt lat="52.0444072" lon="6.3035452">
     <ele>12</ele>
     <name>Camperplaats Hengelo (gld)</name>
-    <desc>capacity=2; fee=no; maxstay=24 hours; name=Camperplaats
-    Hengelo (gld); tourism=caravan_site; id=node/5904850310</desc>
+    <desc>capacity=2; caravan_site=motorhome_stopover;
+    caravan_site:type=sports_centre,village; fee=no; maxstay=24
+    hours; name=Camperplaats Hengelo (gld); tourism=caravan_site;
+    id=node/5904850310</desc>
   </wpt>
   <wpt lat="52.0997216" lon="6.2369744">
     <ele>6</ele>
@@ -1034,14 +1032,23 @@ version="1.1" creator="togpx">
     <desc>name=Jachthaven Venlo; tourism=caravan_site;
     id=node/6176938887</desc>
   </wpt>
-  <wpt lat="52.3088513" lon="5.1468749">
+  <wpt lat="52.3085643" lon="5.1461722">
     <ele>1</ele>
     <name>Jachthaven Naarden</name>
-    <desc>fee=yes; internet_access=wlan; name=Jachthaven Naarden;
-    power_supply=yes; tourism=caravan_site;
-    website=https://www.jachthavennaarden.nl/faciliteiten/camper-trekkersveld/;
+    <desc>bbq=no; capacity=20; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=no; charge=20 EUR;
+    charge:conditional=16 EUR @ (Oct-Mar); description=two
+    location, 8+12 pitches; dog=leashed; fee=yes;
+    internet_access=wlan; maxlength=none; name=Jachthaven Naarden;
+    network=CAMPING CAR-PARK; operator=CAMPING CAR-PARK;
+    power_supply=yes; power_supply:capacity=20;
+    power_supply:fee=no; power_supply:maxcurrent=6;
+    sanitary_dump_station=yes; tents=no; toilets=yes;
+    tourism=caravan_site; trailer=n; water_point=yes;
+    water_point:fee=no;
+    website=https://www.campingcarpark.com/en_GB/stay/stopover-site-motorhome/hollande-septentrionale/14-hollande-septentionale/naarden;
     id=node/6178191885</desc>
-    <link href="https://www.jachthavennaarden.nl/faciliteiten/camper-trekkersveld/">
+    <link href="https://www.campingcarpark.com/en_GB/stay/stopover-site-motorhome/hollande-septentrionale/14-hollande-septentionale/naarden">
     </link>
   </wpt>
   <wpt lat="52.0722458" lon="5.1494014">
@@ -1647,11 +1654,6 @@ version="1.1" creator="togpx">
     id=node/11063085327</desc>
     <link href="https://www.hoge-boekel.nl/"></link>
   </wpt>
-  <wpt lat="51.960953" lon="5.6590579">
-    <ele>12</ele>
-    <name>node/11102647505</name>
-    <desc>tourism=caravan_site; id=node/11102647505</desc>
-  </wpt>
   <wpt lat="52.7880048" lon="4.9194839">
     <ele>-2</ele>
     <name>Camperplaats Marnic Hoeve</name>
@@ -1786,6 +1788,13 @@ version="1.1" creator="togpx">
     id=node/12000532562</desc>
     <link href="https://www.deruitenborgh.nl/"></link>
   </wpt>
+  <wpt lat="51.935764" lon="5.945363">
+    <ele>15</ele>
+    <name>Parking Huissen Molenweide</name>
+    <desc>fee=no; name=Parking Huissen Molenweide; power_supply=no;
+    sanitary_dump_station=no; tents=no; tourism=caravan_site;
+    id=node/12084044744</desc>
+  </wpt>
   <wpt lat="51.53345465" lon="4.0773905036281155">
     <ele>-1</ele>
     <name>Gorishoek</name>
@@ -1795,12 +1804,6 @@ version="1.1" creator="togpx">
     id=relation/1412255</desc>
     <link href="https://gorishoeksehoeve.nl/verblijven/#kamperen">
     </link>
-  </wpt>
-  <wpt lat="52.19128205" lon="5.102655213459187">
-    <ele>1</ele>
-    <name>relation/3439273</name>
-    <desc>tourism=caravan_site; type=multipolygon;
-    id=relation/3439273</desc>
   </wpt>
   <wpt lat="51.50912595" lon="4.565769130754005">
     <ele>11</ele>
@@ -2688,11 +2691,6 @@ version="1.1" creator="togpx">
     name=De Krosselt; power_supply=yes; sanitary_dump_station=no;
     tourism=caravan_site; id=way/232817178</desc>
   </wpt>
-  <wpt lat="52.2048293" lon="5.096217004543205">
-    <ele>-2</ele>
-    <name>way/256446281</name>
-    <desc>tourism=caravan_site; id=way/256446281</desc>
-  </wpt>
   <wpt lat="52.111953099999994" lon="6.054233068724855">
     <ele>16</ele>
     <name>way/261651573</name>
@@ -3099,8 +3097,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.308720449999996" lon="5.239722005439981">
     <ele>1</ele>
-    <name>https://www.huizen.nl/camperplaatsen</name>
-    <desc>fee=no; maxstay=48 hours; tourism=caravan_site;
+    <name>Camperplaats van Huizen</name>
+    <desc>capacity=8; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; charge=10 EUR; check_out=12:00;
+    fee=yes; maxstay=3 nights; name=Camperplaats van Huizen;
+    phone=+35 06 27 30 80 84; sanitary_dump_station=yes;
+    sanitary_dump_station:chemical_toilet=yes;
+    sanitary_dump_station:grey_water=yes; toilets=yes;
+    toilets:fee=yes; tourism=caravan_site; water_point=yes;
     website=https://www.huizen.nl/camperplaatsen;
     id=way/538969078</desc>
     <link href="https://www.huizen.nl/camperplaatsen"></link>
@@ -3390,11 +3394,6 @@ version="1.1" creator="togpx">
     <desc>capacity:motorhome=3; motorhome=designated; name=H2O;
     tourism=caravan_site; id=way/785457559</desc>
   </wpt>
-  <wpt lat="52.091289200000006" lon="4.9149037514513525">
-    <ele>-2</ele>
-    <name>way/785459546</name>
-    <desc>tourism=caravan_site; id=way/785459546</desc>
-  </wpt>
   <wpt lat="52.01748365" lon="5.242923948852967">
     <ele>3</ele>
     <name>Aan het Dorp</name>
@@ -3448,11 +3447,7 @@ version="1.1" creator="togpx">
     drinking_water=no; fee=yes; internet_access=wlan;
     name=Camperplaats Hertog Willemweg; power_supply=yes;
     sanitary_dump_station=yes; tents=no; toilets=no;
-    tourism=caravan_site;
-    website=https://www.jachthavenstrijensas.nl/verhuur-overnachten/camperplaatsen-camper-overnachting-jachthaven-strijensas/;
-    wheelchair=yes; id=way/825946040</desc>
-    <link href="https://www.jachthavenstrijensas.nl/verhuur-overnachten/camperplaatsen-camper-overnachting-jachthaven-strijensas/">
-    </link>
+    tourism=caravan_site; wheelchair=yes; id=way/825946040</desc>
   </wpt>
   <wpt lat="53.2237683" lon="5.816627454108417">
     <ele>-1</ele>
@@ -3883,6 +3878,16 @@ version="1.1" creator="togpx">
     <name>De Grashaven</name>
     <desc>fee=14,50; name=De Grashaven; power_supply=yes;
     tourism=caravan_site; id=way/1071070729</desc>
+  </wpt>
+  <wpt lat="52.2344943" lon="6.098335148085047">
+    <ele>7</ele>
+    <name>Parking Sporthal Jachtlust Twello</name>
+    <desc>amenity=parking_space; capacity=1;
+    caravan_site=motorhome_stopover;
+    caravan_site:type=sports_centre,town; caravans=no; fee=no;
+    name=Parking Sporthal Jachtlust Twello; power_supply=no;
+    sanitary_dump_station=no; surface=paving_stones; tents=no;
+    tourism=caravan_site; id=way/1071249770</desc>
   </wpt>
   <wpt lat="51.298362" lon="6.049405727412566">
     <ele>26</ele>
@@ -4877,7 +4882,7 @@ version="1.1" creator="togpx">
     power_supply=no; sanitary_dump_station=yes; surface=asphalt;
     tents=no; tourism=caravan_site; id=way/1268410263</desc>
   </wpt>
-  <wpt lat="52.3872464" lon="4.534528210419353">
+  <wpt lat="52.38724905" lon="4.534516494375778">
     <ele>11</ele>
     <name>Camperparkeerterrein Zandvoort</name>
     <desc>addr:city=Zandvoort; addr:postcode=2041JA;
@@ -4947,15 +4952,39 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.885411500000004" lon="5.4422630616356376">
     <ele>9</ele>
-    <name>way/1301597879</name>
-    <desc>power_supply=no; sanitary_dump_station=no;
-    tourism=caravan_site; id=way/1301597879</desc>
+    <name>Camperplaatsen Waalkade Tiel</name>
+    <desc>capacity=4; caravan_site=motorhome_stopover;
+    caravan_site:type=town, river; caravans=no; charge=9 EUR;
+    dog=yes; fee=yes; lit=yes; maxlength=9; maxstay=48 hours;
+    name=Camperplaatsen Waalkade Tiel; power_supply=no;
+    sanitary_dump_station=no; tents=no; tourism=caravan_site;
+    website=https://www.uitintiel.nl/overnachting/camperplaatsen-waalkade/;
+    id=way/1301597879</desc>
+    <link href="https://www.uitintiel.nl/overnachting/camperplaatsen-waalkade/">
+    </link>
   </wpt>
   <wpt lat="51.707455350000004" lon="4.812074001665591">
     <ele>1</ele>
     <name>way/1302697371</name>
     <desc>landuse=grass; tourism=caravan_site;
     id=way/1302697371</desc>
+  </wpt>
+  <wpt lat="51.96098185" lon="5.659166354927885">
+    <ele>12</ele>
+    <name>Wageningen, parkeerplaats Rijnhaven</name>
+    <desc>capacity=5; caravan_site=motorhome_stopover;
+    caravan_site:type=town,harbour; caravans=no; fee=no;
+    name=Wageningen, parkeerplaats Rijnhaven; power_supply=no;
+    sanitary_dump_station=no; seasonal=no; tourism=caravan_site;
+    water_point=no; id=way/1304735956</desc>
+  </wpt>
+  <wpt lat="52.09137965" lon="4.914824546336554">
+    <ele>-2</ele>
+    <name>Camperplaats Veldwijk Woerden</name>
+    <desc>capacity=3; caravan_site=motorhome_stopover;
+    caravan_site:type=town; fee=no; lit=yes; name=Camperplaats
+    Veldwijk Woerden; seasonal=no; surface=paving_stones;
+    tourism=caravan_site; id=way/1304740286</desc>
   </wpt>
   <trk>
     <name>Gorishoek</name>
@@ -5034,309 +5063,6 @@ version="1.1" creator="togpx">
       <trkpt lat="51.5319044" lon="4.0823791"></trkpt>
       <trkpt lat="51.5319052" lon="4.0822978"></trkpt>
       <trkpt lat="51.5319114" lon="4.0822735"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>relation/3439273</name>
-    <trkseg>
-      <trkpt lat="52.1883955" lon="5.0992392"></trkpt>
-      <trkpt lat="52.1884202" lon="5.0989822"></trkpt>
-      <trkpt lat="52.1884314" lon="5.0989547"></trkpt>
-      <trkpt lat="52.1884951" lon="5.0989543"></trkpt>
-      <trkpt lat="52.1887125" lon="5.0989529"></trkpt>
-      <trkpt lat="52.1887127" lon="5.0990498"></trkpt>
-      <trkpt lat="52.1887198" lon="5.0991836"></trkpt>
-      <trkpt lat="52.1887234" lon="5.0992839"></trkpt>
-      <trkpt lat="52.1887546" lon="5.0993952"></trkpt>
-      <trkpt lat="52.1887957" lon="5.0994395"></trkpt>
-      <trkpt lat="52.1888233" lon="5.0994526"></trkpt>
-      <trkpt lat="52.1888542" lon="5.099467"></trkpt>
-      <trkpt lat="52.1889295" lon="5.099472"></trkpt>
-      <trkpt lat="52.1890084" lon="5.099466"></trkpt>
-      <trkpt lat="52.1890426" lon="5.0994491"></trkpt>
-      <trkpt lat="52.18907" lon="5.0993763"></trkpt>
-      <trkpt lat="52.1890732" lon="5.0993317"></trkpt>
-      <trkpt lat="52.1890868" lon="5.0992704"></trkpt>
-      <trkpt lat="52.1891036" lon="5.0992424"></trkpt>
-      <trkpt lat="52.1891415" lon="5.0992254"></trkpt>
-      <trkpt lat="52.1892991" lon="5.0992244"></trkpt>
-      <trkpt lat="52.1894328" lon="5.0992348"></trkpt>
-      <trkpt lat="52.189637" lon="5.0992362"></trkpt>
-      <trkpt lat="52.1901895" lon="5.0992498"></trkpt>
-      <trkpt lat="52.1915858" lon="5.0992643"></trkpt>
-      <trkpt lat="52.1918021" lon="5.0993102"></trkpt>
-      <trkpt lat="52.1920878" lon="5.0994354"></trkpt>
-      <trkpt lat="52.1922005" lon="5.0994621"></trkpt>
-      <trkpt lat="52.1923893" lon="5.0994748"></trkpt>
-      <trkpt lat="52.1923948" lon="5.099438"></trkpt>
-      <trkpt lat="52.1924091" lon="5.0994333"></trkpt>
-      <trkpt lat="52.1924504" lon="5.099442"></trkpt>
-      <trkpt lat="52.1924545" lon="5.0994881"></trkpt>
-      <trkpt lat="52.1925551" lon="5.0994998"></trkpt>
-      <trkpt lat="52.192553" lon="5.0994475"></trkpt>
-      <trkpt lat="52.1925838" lon="5.0994413"></trkpt>
-      <trkpt lat="52.1926092" lon="5.0994594"></trkpt>
-      <trkpt lat="52.1926177" lon="5.0995053"></trkpt>
-      <trkpt lat="52.1930321" lon="5.099544"></trkpt>
-      <trkpt lat="52.1930431" lon="5.0994658"></trkpt>
-      <trkpt lat="52.19308" lon="5.0994795"></trkpt>
-      <trkpt lat="52.1930801" lon="5.0995483"></trkpt>
-      <trkpt lat="52.1933788" lon="5.0995829"></trkpt>
-      <trkpt lat="52.1934071" lon="5.0995736"></trkpt>
-      <trkpt lat="52.1934296" lon="5.0992453"></trkpt>
-      <trkpt lat="52.1934343" lon="5.099179"></trkpt>
-      <trkpt lat="52.1934339" lon="5.0990414"></trkpt>
-      <trkpt lat="52.1934084" lon="5.0989317"></trkpt>
-      <trkpt lat="52.1933404" lon="5.0988265"></trkpt>
-      <trkpt lat="52.1932302" lon="5.098763"></trkpt>
-      <trkpt lat="52.1926891" lon="5.098716"></trkpt>
-      <trkpt lat="52.1924636" lon="5.0987175"></trkpt>
-      <trkpt lat="52.1921253" lon="5.0986923"></trkpt>
-      <trkpt lat="52.1898704" lon="5.0985419"></trkpt>
-      <trkpt lat="52.1895224" lon="5.0985309"></trkpt>
-      <trkpt lat="52.1889292" lon="5.0985502"></trkpt>
-      <trkpt lat="52.1889286" lon="5.0983181"></trkpt>
-      <trkpt lat="52.1891511" lon="5.0983221"></trkpt>
-      <trkpt lat="52.1891643" lon="5.0983111"></trkpt>
-      <trkpt lat="52.1891676" lon="5.0982786"></trkpt>
-      <trkpt lat="52.1891641" lon="5.0982354"></trkpt>
-      <trkpt lat="52.1891508" lon="5.0982193"></trkpt>
-      <trkpt lat="52.1884802" lon="5.0982399"></trkpt>
-      <trkpt lat="52.1881933" lon="5.0983011"></trkpt>
-      <trkpt lat="52.1884049" lon="5.0994109"></trkpt>
-      <trkpt lat="52.1883955" lon="5.0992392"></trkpt>
-    </trkseg>
-    <trkseg>
-      <trkpt lat="52.1944971" lon="5.1052255"></trkpt>
-      <trkpt lat="52.1944997" lon="5.1051366"></trkpt>
-      <trkpt lat="52.1944477" lon="5.105136"></trkpt>
-      <trkpt lat="52.1944332" lon="5.104948"></trkpt>
-      <trkpt lat="52.194336" lon="5.1049422"></trkpt>
-      <trkpt lat="52.1943158" lon="5.1048462"></trkpt>
-      <trkpt lat="52.1926404" lon="5.1048149"></trkpt>
-      <trkpt lat="52.192641" lon="5.1047187"></trkpt>
-      <trkpt lat="52.1943127" lon="5.1047269"></trkpt>
-      <trkpt lat="52.1943326" lon="5.1046945"></trkpt>
-      <trkpt lat="52.1943291" lon="5.1045113"></trkpt>
-      <trkpt lat="52.1943344" lon="5.1042544"></trkpt>
-      <trkpt lat="52.1942975" lon="5.1042178"></trkpt>
-      <trkpt lat="52.1924981" lon="5.1041765"></trkpt>
-      <trkpt lat="52.1924527" lon="5.1041991"></trkpt>
-      <trkpt lat="52.1924359" lon="5.1042454"></trkpt>
-      <trkpt lat="52.1924362" lon="5.1042625"></trkpt>
-      <trkpt lat="52.1924382" lon="5.1043608"></trkpt>
-      <trkpt lat="52.1924657" lon="5.1049282"></trkpt>
-      <trkpt lat="52.1924628" lon="5.1050311"></trkpt>
-      <trkpt lat="52.1925787" lon="5.1050468"></trkpt>
-      <trkpt lat="52.1926421" lon="5.105066"></trkpt>
-      <trkpt lat="52.1926391" lon="5.1051756"></trkpt>
-      <trkpt lat="52.192623" lon="5.1052008"></trkpt>
-      <trkpt lat="52.1926483" lon="5.1052098"></trkpt>
-      <trkpt lat="52.1933022" lon="5.1052148"></trkpt>
-      <trkpt lat="52.1940687" lon="5.1052008"></trkpt>
-      <trkpt lat="52.1944636" lon="5.1052237"></trkpt>
-      <trkpt lat="52.1944971" lon="5.1052255"></trkpt>
-    </trkseg>
-    <trkseg>
-      <trkpt lat="52.1942655" lon="5.102364"></trkpt>
-      <trkpt lat="52.1942712" lon="5.1020445"></trkpt>
-      <trkpt lat="52.1941547" lon="5.1020581"></trkpt>
-      <trkpt lat="52.193983" lon="5.1020297"></trkpt>
-      <trkpt lat="52.1936807" lon="5.1019875"></trkpt>
-      <trkpt lat="52.1934863" lon="5.1020109"></trkpt>
-      <trkpt lat="52.1929799" lon="5.1020142"></trkpt>
-      <trkpt lat="52.1923378" lon="5.1019815"></trkpt>
-      <trkpt lat="52.1922656" lon="5.1019673"></trkpt>
-      <trkpt lat="52.1920397" lon="5.1020789"></trkpt>
-      <trkpt lat="52.1918813" lon="5.1020874"></trkpt>
-      <trkpt lat="52.1914549" lon="5.1020605"></trkpt>
-      <trkpt lat="52.191452" lon="5.1020292"></trkpt>
-      <trkpt lat="52.1914304" lon="5.101796"></trkpt>
-      <trkpt lat="52.1921792" lon="5.1017912"></trkpt>
-      <trkpt lat="52.1921744" lon="5.1016738"></trkpt>
-      <trkpt lat="52.1928965" lon="5.1016765"></trkpt>
-      <trkpt lat="52.1930459" lon="5.1017637"></trkpt>
-      <trkpt lat="52.1931274" lon="5.1017778"></trkpt>
-      <trkpt lat="52.193367" lon="5.1017836"></trkpt>
-      <trkpt lat="52.1933914" lon="5.1017127"></trkpt>
-      <trkpt lat="52.193445" lon="5.1017239"></trkpt>
-      <trkpt lat="52.193525" lon="5.1017312"></trkpt>
-      <trkpt lat="52.1936516" lon="5.1017317"></trkpt>
-      <trkpt lat="52.1938922" lon="5.1017465"></trkpt>
-      <trkpt lat="52.1941187" lon="5.1017579"></trkpt>
-      <trkpt lat="52.194123" lon="5.1015233"></trkpt>
-      <trkpt lat="52.1941134" lon="5.1014887"></trkpt>
-      <trkpt lat="52.1941142" lon="5.101407"></trkpt>
-      <trkpt lat="52.1941632" lon="5.1014675"></trkpt>
-      <trkpt lat="52.1942028" lon="5.1014887"></trkpt>
-      <trkpt lat="52.1942458" lon="5.101461"></trkpt>
-      <trkpt lat="52.194266" lon="5.1014067"></trkpt>
-      <trkpt lat="52.194268" lon="5.101356"></trkpt>
-      <trkpt lat="52.1942608" lon="5.1013218"></trkpt>
-      <trkpt lat="52.1942342" lon="5.1012803"></trkpt>
-      <trkpt lat="52.1941939" lon="5.1012648"></trkpt>
-      <trkpt lat="52.1941489" lon="5.1013002"></trkpt>
-      <trkpt lat="52.1941167" lon="5.1013484"></trkpt>
-      <trkpt lat="52.1940989" lon="5.1011168"></trkpt>
-      <trkpt lat="52.1940569" lon="5.101113"></trkpt>
-      <trkpt lat="52.1940609" lon="5.1010103"></trkpt>
-      <trkpt lat="52.1939496" lon="5.1009993"></trkpt>
-      <trkpt lat="52.1935961" lon="5.1009534"></trkpt>
-      <trkpt lat="52.1933108" lon="5.1009314"></trkpt>
-      <trkpt lat="52.1927113" lon="5.1009126"></trkpt>
-      <trkpt lat="52.1926888" lon="5.1009036"></trkpt>
-      <trkpt lat="52.1926549" lon="5.1008211"></trkpt>
-      <trkpt lat="52.1921051" lon="5.1007881"></trkpt>
-      <trkpt lat="52.1920966" lon="5.1007376"></trkpt>
-      <trkpt lat="52.1921094" lon="5.1005943"></trkpt>
-      <trkpt lat="52.1921238" lon="5.100331"></trkpt>
-      <trkpt lat="52.1934822" lon="5.1003985"></trkpt>
-      <trkpt lat="52.1936232" lon="5.1003976"></trkpt>
-      <trkpt lat="52.1937369" lon="5.1004092"></trkpt>
-      <trkpt lat="52.1940283" lon="5.1004375"></trkpt>
-      <trkpt lat="52.1940435" lon="5.1001289"></trkpt>
-      <trkpt lat="52.1940694" lon="5.1001296"></trkpt>
-      <trkpt lat="52.1940794" lon="5.0997575"></trkpt>
-      <trkpt lat="52.193599" lon="5.0997008"></trkpt>
-      <trkpt lat="52.1935765" lon="5.0997101"></trkpt>
-      <trkpt lat="52.1935344" lon="5.0998113"></trkpt>
-      <trkpt lat="52.193402" lon="5.0997845"></trkpt>
-      <trkpt lat="52.1927648" lon="5.0997061"></trkpt>
-      <trkpt lat="52.1924096" lon="5.0996259"></trkpt>
-      <trkpt lat="52.1922742" lon="5.0996131"></trkpt>
-      <trkpt lat="52.1920714" lon="5.0996144"></trkpt>
-      <trkpt lat="52.1918682" lon="5.0995835"></trkpt>
-      <trkpt lat="52.1917103" lon="5.0995295"></trkpt>
-      <trkpt lat="52.1915759" lon="5.0994331"></trkpt>
-      <trkpt lat="52.1915521" lon="5.099416"></trkpt>
-      <trkpt lat="52.1910561" lon="5.0994007"></trkpt>
-      <trkpt lat="52.1906506" lon="5.0994355"></trkpt>
-      <trkpt lat="52.1901995" lon="5.0994384"></trkpt>
-      <trkpt lat="52.1896605" lon="5.0994478"></trkpt>
-      <trkpt lat="52.1892396" lon="5.0994688"></trkpt>
-      <trkpt lat="52.1891203" lon="5.0995324"></trkpt>
-      <trkpt lat="52.1890321" lon="5.099639"></trkpt>
-      <trkpt lat="52.1890054" lon="5.0997487"></trkpt>
-      <trkpt lat="52.1890483" lon="5.100042"></trkpt>
-      <trkpt lat="52.1890852" lon="5.1000966"></trkpt>
-      <trkpt lat="52.1891866" lon="5.1001145"></trkpt>
-      <trkpt lat="52.1893164" lon="5.1001091"></trkpt>
-      <trkpt lat="52.1906917" lon="5.100169"></trkpt>
-      <trkpt lat="52.1910074" lon="5.100167"></trkpt>
-      <trkpt lat="52.1913554" lon="5.1001828"></trkpt>
-      <trkpt lat="52.1913706" lon="5.100195"></trkpt>
-      <trkpt lat="52.1913666" lon="5.1002876"></trkpt>
-      <trkpt lat="52.1913478" lon="5.1002987"></trkpt>
-      <trkpt lat="52.1908723" lon="5.1002777"></trkpt>
-      <trkpt lat="52.1905116" lon="5.1002801"></trkpt>
-      <trkpt lat="52.1893167" lon="5.1002281"></trkpt>
-      <trkpt lat="52.1891136" lon="5.100234"></trkpt>
-      <trkpt lat="52.1890828" lon="5.100271"></trkpt>
-      <trkpt lat="52.1890805" lon="5.1004819"></trkpt>
-      <trkpt lat="52.1890921" lon="5.1006285"></trkpt>
-      <trkpt lat="52.1891029" lon="5.1006894"></trkpt>
-      <trkpt lat="52.189138" lon="5.100885"></trkpt>
-      <trkpt lat="52.1891831" lon="5.1009672"></trkpt>
-      <trkpt lat="52.1892284" lon="5.1010037"></trkpt>
-      <trkpt lat="52.1912163" lon="5.1010863"></trkpt>
-      <trkpt lat="52.1912131" lon="5.1012597"></trkpt>
-      <trkpt lat="52.1901361" lon="5.1012088"></trkpt>
-      <trkpt lat="52.1892261" lon="5.1011916"></trkpt>
-      <trkpt lat="52.1892007" lon="5.1012653"></trkpt>
-      <trkpt lat="52.1891897" lon="5.101389"></trkpt>
-      <trkpt lat="52.1891956" lon="5.1014991"></trkpt>
-      <trkpt lat="52.1892301" lon="5.1017189"></trkpt>
-      <trkpt lat="52.1892641" lon="5.1018197"></trkpt>
-      <trkpt lat="52.1892979" lon="5.1018652"></trkpt>
-      <trkpt lat="52.1911244" lon="5.1019819"></trkpt>
-      <trkpt lat="52.1911414" lon="5.1020186"></trkpt>
-      <trkpt lat="52.1911388" lon="5.1021379"></trkpt>
-      <trkpt lat="52.191122" lon="5.1021471"></trkpt>
-      <trkpt lat="52.1890936" lon="5.1020676"></trkpt>
-      <trkpt lat="52.1891359" lon="5.1024891"></trkpt>
-      <trkpt lat="52.18875" lon="5.1024648"></trkpt>
-      <trkpt lat="52.1886899" lon="5.1024671"></trkpt>
-      <trkpt lat="52.1887984" lon="5.1035936"></trkpt>
-      <trkpt lat="52.1889132" lon="5.1043681"></trkpt>
-      <trkpt lat="52.1892623" lon="5.1043636"></trkpt>
-      <trkpt lat="52.1893199" lon="5.104363"></trkpt>
-      <trkpt lat="52.1893705" lon="5.1043622"></trkpt>
-      <trkpt lat="52.189413" lon="5.1051201"></trkpt>
-      <trkpt lat="52.1896383" lon="5.1051372"></trkpt>
-      <trkpt lat="52.1900667" lon="5.105139"></trkpt>
-      <trkpt lat="52.1901515" lon="5.1051522"></trkpt>
-      <trkpt lat="52.1910026" lon="5.1051697"></trkpt>
-      <trkpt lat="52.1911096" lon="5.1051599"></trkpt>
-      <trkpt lat="52.1923729" lon="5.1052215"></trkpt>
-      <trkpt lat="52.1923861" lon="5.1051925"></trkpt>
-      <trkpt lat="52.1924018" lon="5.1051116"></trkpt>
-      <trkpt lat="52.1923997" lon="5.1050053"></trkpt>
-      <trkpt lat="52.192423" lon="5.104929"></trkpt>
-      <trkpt lat="52.192389" lon="5.1048302"></trkpt>
-      <trkpt lat="52.1923881" lon="5.1047896"></trkpt>
-      <trkpt lat="52.1923767" lon="5.1047163"></trkpt>
-      <trkpt lat="52.1923597" lon="5.1046888"></trkpt>
-      <trkpt lat="52.1904886" lon="5.1047143"></trkpt>
-      <trkpt lat="52.1902179" lon="5.1047069"></trkpt>
-      <trkpt lat="52.1899266" lon="5.1047151"></trkpt>
-      <trkpt lat="52.1899263" lon="5.1046016"></trkpt>
-      <trkpt lat="52.1903002" lon="5.1045992"></trkpt>
-      <trkpt lat="52.1906437" lon="5.1045938"></trkpt>
-      <trkpt lat="52.1907627" lon="5.1045869"></trkpt>
-      <trkpt lat="52.1920887" lon="5.1045666"></trkpt>
-      <trkpt lat="52.1923345" lon="5.1045712"></trkpt>
-      <trkpt lat="52.1923502" lon="5.1045586"></trkpt>
-      <trkpt lat="52.1923658" lon="5.1045201"></trkpt>
-      <trkpt lat="52.1923722" lon="5.104263"></trkpt>
-      <trkpt lat="52.192373" lon="5.1042394"></trkpt>
-      <trkpt lat="52.1923622" lon="5.1041926"></trkpt>
-      <trkpt lat="52.1923153" lon="5.104176"></trkpt>
-      <trkpt lat="52.1920615" lon="5.1041287"></trkpt>
-      <trkpt lat="52.191876" lon="5.1040575"></trkpt>
-      <trkpt lat="52.1916403" lon="5.1039486"></trkpt>
-      <trkpt lat="52.1915254" lon="5.1039237"></trkpt>
-      <trkpt lat="52.1913609" lon="5.103946"></trkpt>
-      <trkpt lat="52.191204" lon="5.1040236"></trkpt>
-      <trkpt lat="52.1910239" lon="5.1041056"></trkpt>
-      <trkpt lat="52.1908594" lon="5.1041448"></trkpt>
-      <trkpt lat="52.1907465" lon="5.1041508"></trkpt>
-      <trkpt lat="52.1906861" lon="5.1041452"></trkpt>
-      <trkpt lat="52.1904142" lon="5.104147"></trkpt>
-      <trkpt lat="52.1902612" lon="5.1041447"></trkpt>
-      <trkpt lat="52.1901119" lon="5.1041057"></trkpt>
-      <trkpt lat="52.1901082" lon="5.1040874"></trkpt>
-      <trkpt lat="52.1901345" lon="5.1040196"></trkpt>
-      <trkpt lat="52.1901496" lon="5.1040166"></trkpt>
-      <trkpt lat="52.1902817" lon="5.1040249"></trkpt>
-      <trkpt lat="52.190312" lon="5.1040185"></trkpt>
-      <trkpt lat="52.1903271" lon="5.1039846"></trkpt>
-      <trkpt lat="52.190327" lon="5.1039631"></trkpt>
-      <trkpt lat="52.1903065" lon="5.10395"></trkpt>
-      <trkpt lat="52.1899854" lon="5.1039486"></trkpt>
-      <trkpt lat="52.189742" lon="5.1039604"></trkpt>
-      <trkpt lat="52.1897436" lon="5.1038421"></trkpt>
-      <trkpt lat="52.1897403" lon="5.1033981"></trkpt>
-      <trkpt lat="52.189746" lon="5.1032927"></trkpt>
-      <trkpt lat="52.1898917" lon="5.1032854"></trkpt>
-      <trkpt lat="52.1898915" lon="5.1031965"></trkpt>
-      <trkpt lat="52.1910253" lon="5.103163"></trkpt>
-      <trkpt lat="52.1910359" lon="5.1032525"></trkpt>
-      <trkpt lat="52.1913622" lon="5.1032349"></trkpt>
-      <trkpt lat="52.1915118" lon="5.1031882"></trkpt>
-      <trkpt lat="52.1916632" lon="5.1031683"></trkpt>
-      <trkpt lat="52.1922547" lon="5.1031534"></trkpt>
-      <trkpt lat="52.1922685" lon="5.1030568"></trkpt>
-      <trkpt lat="52.192353" lon="5.1030609"></trkpt>
-      <trkpt lat="52.1923505" lon="5.1031665"></trkpt>
-      <trkpt lat="52.1923674" lon="5.1031846"></trkpt>
-      <trkpt lat="52.1931792" lon="5.1032162"></trkpt>
-      <trkpt lat="52.1934044" lon="5.1032054"></trkpt>
-      <trkpt lat="52.1939682" lon="5.1032295"></trkpt>
-      <trkpt lat="52.1940853" lon="5.1032203"></trkpt>
-      <trkpt lat="52.1940714" lon="5.1023532"></trkpt>
-      <trkpt lat="52.1941577" lon="5.1023807"></trkpt>
-      <trkpt lat="52.1942652" lon="5.1024263"></trkpt>
-      <trkpt lat="52.1942655" lon="5.102364"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10129,178 +9855,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/256446281</name>
-    <trkseg>
-      <trkpt lat="52.2026021" lon="5.0962666"></trkpt>
-      <trkpt lat="52.2028068" lon="5.0964237"></trkpt>
-      <trkpt lat="52.2030669" lon="5.095513"></trkpt>
-      <trkpt lat="52.2031108" lon="5.0955307"></trkpt>
-      <trkpt lat="52.2028565" lon="5.0964439"></trkpt>
-      <trkpt lat="52.2030506" lon="5.0965906"></trkpt>
-      <trkpt lat="52.2033113" lon="5.0956822"></trkpt>
-      <trkpt lat="52.2033586" lon="5.0957085"></trkpt>
-      <trkpt lat="52.2032061" lon="5.0962309"></trkpt>
-      <trkpt lat="52.2030939" lon="5.0966442"></trkpt>
-      <trkpt lat="52.2032943" lon="5.0967948"></trkpt>
-      <trkpt lat="52.2033561" lon="5.0965647"></trkpt>
-      <trkpt lat="52.2035595" lon="5.0958799"></trkpt>
-      <trkpt lat="52.2035997" lon="5.0959137"></trkpt>
-      <trkpt lat="52.2033396" lon="5.0968224"></trkpt>
-      <trkpt lat="52.2035485" lon="5.0969769"></trkpt>
-      <trkpt lat="52.2038142" lon="5.0959928"></trkpt>
-      <trkpt lat="52.2038657" lon="5.0960206"></trkpt>
-      <trkpt lat="52.2035882" lon="5.0970038"></trkpt>
-      <trkpt lat="52.2037907" lon="5.097149"></trkpt>
-      <trkpt lat="52.2039844" lon="5.0964322"></trkpt>
-      <trkpt lat="52.2040551" lon="5.0961758"></trkpt>
-      <trkpt lat="52.2041147" lon="5.0962083"></trkpt>
-      <trkpt lat="52.2038296" lon="5.0971801"></trkpt>
-      <trkpt lat="52.2040334" lon="5.0973276"></trkpt>
-      <trkpt lat="52.2043001" lon="5.096396"></trkpt>
-      <trkpt lat="52.204347" lon="5.0964277"></trkpt>
-      <trkpt lat="52.20408" lon="5.0973462"></trkpt>
-      <trkpt lat="52.2042871" lon="5.0974956"></trkpt>
-      <trkpt lat="52.2045558" lon="5.0965669"></trkpt>
-      <trkpt lat="52.2045964" lon="5.0965996"></trkpt>
-      <trkpt lat="52.2043225" lon="5.0975351"></trkpt>
-      <trkpt lat="52.2045313" lon="5.0976903"></trkpt>
-      <trkpt lat="52.204569" lon="5.0975713"></trkpt>
-      <trkpt lat="52.2045786" lon="5.0974982"></trkpt>
-      <trkpt lat="52.2047943" lon="5.0967687"></trkpt>
-      <trkpt lat="52.2048301" lon="5.0967973"></trkpt>
-      <trkpt lat="52.204713" lon="5.0972275"></trkpt>
-      <trkpt lat="52.2045679" lon="5.0977206"></trkpt>
-      <trkpt lat="52.2047688" lon="5.0978793"></trkpt>
-      <trkpt lat="52.2048285" lon="5.0976452"></trkpt>
-      <trkpt lat="52.2050569" lon="5.0969107"></trkpt>
-      <trkpt lat="52.2050936" lon="5.0969291"></trkpt>
-      <trkpt lat="52.2048087" lon="5.0979086"></trkpt>
-      <trkpt lat="52.2050073" lon="5.09807"></trkpt>
-      <trkpt lat="52.205305" lon="5.0970842"></trkpt>
-      <trkpt lat="52.2053106" lon="5.0970814"></trkpt>
-      <trkpt lat="52.2053246" lon="5.0970749"></trkpt>
-      <trkpt lat="52.2053473" lon="5.0970907"></trkpt>
-      <trkpt lat="52.2050419" lon="5.0981294"></trkpt>
-      <trkpt lat="52.2052423" lon="5.0982731"></trkpt>
-      <trkpt lat="52.2052873" lon="5.0981154"></trkpt>
-      <trkpt lat="52.2055561" lon="5.0972062"></trkpt>
-      <trkpt lat="52.2056062" lon="5.0972445"></trkpt>
-      <trkpt lat="52.2052872" lon="5.0983209"></trkpt>
-      <trkpt lat="52.2054813" lon="5.0984649"></trkpt>
-      <trkpt lat="52.2057934" lon="5.0974296"></trkpt>
-      <trkpt lat="52.2058173" lon="5.0974223"></trkpt>
-      <trkpt lat="52.2060019" lon="5.0975642"></trkpt>
-      <trkpt lat="52.2059938" lon="5.0976162"></trkpt>
-      <trkpt lat="52.2059635" lon="5.0977165"></trkpt>
-      <trkpt lat="52.2058008" lon="5.0976045"></trkpt>
-      <trkpt lat="52.2057888" lon="5.0976128"></trkpt>
-      <trkpt lat="52.2055252" lon="5.0985011"></trkpt>
-      <trkpt lat="52.2057028" lon="5.0986198"></trkpt>
-      <trkpt lat="52.2057601" lon="5.0984199"></trkpt>
-      <trkpt lat="52.2060092" lon="5.0985935"></trkpt>
-      <trkpt lat="52.2064551" lon="5.098912"></trkpt>
-      <trkpt lat="52.206839" lon="5.0991965"></trkpt>
-      <trkpt lat="52.2068662" lon="5.098942"></trkpt>
-      <trkpt lat="52.2067551" lon="5.0988574"></trkpt>
-      <trkpt lat="52.2067744" lon="5.098797"></trkpt>
-      <trkpt lat="52.206917" lon="5.0989283"></trkpt>
-      <trkpt lat="52.2068852" lon="5.0992297"></trkpt>
-      <trkpt lat="52.2069344" lon="5.0991996"></trkpt>
-      <trkpt lat="52.2070322" lon="5.099199"></trkpt>
-      <trkpt lat="52.2070454" lon="5.0985136"></trkpt>
-      <trkpt lat="52.2070435" lon="5.0984307"></trkpt>
-      <trkpt lat="52.207042" lon="5.0982956"></trkpt>
-      <trkpt lat="52.2070438" lon="5.0981067"></trkpt>
-      <trkpt lat="52.2070482" lon="5.0979405"></trkpt>
-      <trkpt lat="52.2070499" lon="5.0977252"></trkpt>
-      <trkpt lat="52.2070563" lon="5.0965388"></trkpt>
-      <trkpt lat="52.2070525" lon="5.0959253"></trkpt>
-      <trkpt lat="52.2062815" lon="5.0953406"></trkpt>
-      <trkpt lat="52.2062277" lon="5.0955103"></trkpt>
-      <trkpt lat="52.2061976" lon="5.0956051"></trkpt>
-      <trkpt lat="52.2062117" lon="5.0956286"></trkpt>
-      <trkpt lat="52.2063264" lon="5.0957746"></trkpt>
-      <trkpt lat="52.2063032" lon="5.0958572"></trkpt>
-      <trkpt lat="52.206256" lon="5.0960078"></trkpt>
-      <trkpt lat="52.2058747" lon="5.0973317"></trkpt>
-      <trkpt lat="52.2058243" lon="5.0972915"></trkpt>
-      <trkpt lat="52.2060863" lon="5.0963956"></trkpt>
-      <trkpt lat="52.2061735" lon="5.096097"></trkpt>
-      <trkpt lat="52.2059732" lon="5.0959515"></trkpt>
-      <trkpt lat="52.2056309" lon="5.0971547"></trkpt>
-      <trkpt lat="52.2055812" lon="5.0971235"></trkpt>
-      <trkpt lat="52.2059244" lon="5.0959129"></trkpt>
-      <trkpt lat="52.2057237" lon="5.095765"></trkpt>
-      <trkpt lat="52.2053886" lon="5.0969451"></trkpt>
-      <trkpt lat="52.2053427" lon="5.0969286"></trkpt>
-      <trkpt lat="52.2056177" lon="5.0959628"></trkpt>
-      <trkpt lat="52.2056499" lon="5.0958255"></trkpt>
-      <trkpt lat="52.2055388" lon="5.0957281"></trkpt>
-      <trkpt lat="52.205522" lon="5.095805"></trkpt>
-      <trkpt lat="52.2054347" lon="5.0957319"></trkpt>
-      <trkpt lat="52.2053712" lon="5.0959216"></trkpt>
-      <trkpt lat="52.205384" lon="5.0959441"></trkpt>
-      <trkpt lat="52.2051197" lon="5.0968377"></trkpt>
-      <trkpt lat="52.2050709" lon="5.0968292"></trkpt>
-      <trkpt lat="52.2052352" lon="5.0962313"></trkpt>
-      <trkpt lat="52.2052823" lon="5.0960774"></trkpt>
-      <trkpt lat="52.2053321" lon="5.0958957"></trkpt>
-      <trkpt lat="52.2051433" lon="5.0957429"></trkpt>
-      <trkpt lat="52.2048707" lon="5.0966813"></trkpt>
-      <trkpt lat="52.2048284" lon="5.0966507"></trkpt>
-      <trkpt lat="52.2050707" lon="5.0958104"></trkpt>
-      <trkpt lat="52.2050944" lon="5.0957175"></trkpt>
-      <trkpt lat="52.2048938" lon="5.0955651"></trkpt>
-      <trkpt lat="52.2048004" lon="5.0958856"></trkpt>
-      <trkpt lat="52.2046456" lon="5.0964521"></trkpt>
-      <trkpt lat="52.2046165" lon="5.0964356"></trkpt>
-      <trkpt lat="52.2046113" lon="5.0963629"></trkpt>
-      <trkpt lat="52.2047575" lon="5.0958216"></trkpt>
-      <trkpt lat="52.2048469" lon="5.0955306"></trkpt>
-      <trkpt lat="52.2046489" lon="5.0953795"></trkpt>
-      <trkpt lat="52.2044175" lon="5.0961923"></trkpt>
-      <trkpt lat="52.2043681" lon="5.0961671"></trkpt>
-      <trkpt lat="52.20453" lon="5.0956231"></trkpt>
-      <trkpt lat="52.2046099" lon="5.0953416"></trkpt>
-      <trkpt lat="52.2044152" lon="5.0951818"></trkpt>
-      <trkpt lat="52.2041386" lon="5.0961125"></trkpt>
-      <trkpt lat="52.204093" lon="5.0960744"></trkpt>
-      <trkpt lat="52.2043126" lon="5.0953348"></trkpt>
-      <trkpt lat="52.2041063" lon="5.0951837"></trkpt>
-      <trkpt lat="52.2038801" lon="5.0959724"></trkpt>
-      <trkpt lat="52.2038402" lon="5.0959479"></trkpt>
-      <trkpt lat="52.2040688" lon="5.0951544"></trkpt>
-      <trkpt lat="52.2038738" lon="5.0949953"></trkpt>
-      <trkpt lat="52.2038641" lon="5.0949946"></trkpt>
-      <trkpt lat="52.2036438" lon="5.0957836"></trkpt>
-      <trkpt lat="52.2036351" lon="5.0957897"></trkpt>
-      <trkpt lat="52.203597" lon="5.0957541"></trkpt>
-      <trkpt lat="52.2038215" lon="5.0949641"></trkpt>
-      <trkpt lat="52.2036222" lon="5.0948152"></trkpt>
-      <trkpt lat="52.2035287" lon="5.0951394"></trkpt>
-      <trkpt lat="52.2033922" lon="5.0956045"></trkpt>
-      <trkpt lat="52.2033508" lon="5.0955701"></trkpt>
-      <trkpt lat="52.2035378" lon="5.094928"></trkpt>
-      <trkpt lat="52.2035494" lon="5.0949227"></trkpt>
-      <trkpt lat="52.2035889" lon="5.0947919"></trkpt>
-      <trkpt lat="52.2033816" lon="5.094628"></trkpt>
-      <trkpt lat="52.2033384" lon="5.0947673"></trkpt>
-      <trkpt lat="52.2033461" lon="5.0947721"></trkpt>
-      <trkpt lat="52.2031457" lon="5.0954261"></trkpt>
-      <trkpt lat="52.2030993" lon="5.0953862"></trkpt>
-      <trkpt lat="52.2032486" lon="5.0948861"></trkpt>
-      <trkpt lat="52.2032647" lon="5.0948752"></trkpt>
-      <trkpt lat="52.2033447" lon="5.0946104"></trkpt>
-      <trkpt lat="52.2029235" lon="5.0942854"></trkpt>
-      <trkpt lat="52.202711" lon="5.0944188"></trkpt>
-      <trkpt lat="52.2027821" lon="5.0947922"></trkpt>
-      <trkpt lat="52.2028688" lon="5.0947546"></trkpt>
-      <trkpt lat="52.2030074" lon="5.0948711"></trkpt>
-      <trkpt lat="52.2030123" lon="5.0948882"></trkpt>
-      <trkpt lat="52.2026021" lon="5.0962666"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/261651573</name>
     <trkseg>
       <trkpt lat="52.1121855" lon="6.0540718"></trkpt>
@@ -11350,7 +10904,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/538969078</name>
+    <name>Camperplaats van Huizen</name>
     <trkseg>
       <trkpt lat="52.3089078" lon="5.2390879"></trkpt>
       <trkpt lat="52.3084626" lon="5.2403022"></trkpt>
@@ -12174,17 +11728,6 @@ version="1.1" creator="togpx">
       <trkpt lat="52.0835853" lon="4.9610066"></trkpt>
       <trkpt lat="52.0835681" lon="4.9608736"></trkpt>
       <trkpt lat="52.0833176" lon="4.9609595"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>way/785459546</name>
-    <trkseg>
-      <trkpt lat="52.0911788" lon="4.9151238"></trkpt>
-      <trkpt lat="52.0911996" lon="4.9151068"></trkpt>
-      <trkpt lat="52.0914428" lon="4.9149093"></trkpt>
-      <trkpt lat="52.0913788" lon="4.9147007"></trkpt>
-      <trkpt lat="52.0911148" lon="4.9149151"></trkpt>
-      <trkpt lat="52.0911788" lon="4.9151238"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -13338,6 +12881,20 @@ version="1.1" creator="togpx">
       <trkpt lat="52.6336162" lon="5.0589547"></trkpt>
       <trkpt lat="52.6336998" lon="5.0589801"></trkpt>
       <trkpt lat="52.6339031" lon="5.0572287"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Parking Sporthal Jachtlust Twello</name>
+    <trkseg>
+      <trkpt lat="52.2345165" lon="6.0982875"></trkpt>
+      <trkpt lat="52.2344597" lon="6.0983506"></trkpt>
+      <trkpt lat="52.234473" lon="6.0983814"></trkpt>
+      <trkpt lat="52.234525" lon="6.0983246"></trkpt>
+      <trkpt lat="52.2345259" lon="6.0983214"></trkpt>
+      <trkpt lat="52.2345256" lon="6.098318"></trkpt>
+      <trkpt lat="52.2345158" lon="6.0982949"></trkpt>
+      <trkpt lat="52.2345156" lon="6.0982913"></trkpt>
+      <trkpt lat="52.2345165" lon="6.0982875"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15680,12 +15237,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camperparkeerterrein Zandvoort</name>
     <trkseg>
-      <trkpt lat="52.3873527" lon="4.5347388"></trkpt>
-      <trkpt lat="52.3874093" lon="4.534497"></trkpt>
+      <trkpt lat="52.387358" lon="4.5347086"></trkpt>
+      <trkpt lat="52.3873987" lon="4.5345077"></trkpt>
       <trkpt lat="52.3871401" lon="4.5343157"></trkpt>
-      <trkpt lat="52.3869819" lon="4.5342147"></trkpt>
-      <trkpt lat="52.3869264" lon="4.5344594"></trkpt>
-      <trkpt lat="52.3873527" lon="4.5347388"></trkpt>
+      <trkpt lat="52.3869741" lon="4.5342241"></trkpt>
+      <trkpt lat="52.3869284" lon="4.5344239"></trkpt>
+      <trkpt lat="52.387358" lon="4.5347086"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15767,7 +15324,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/1301597879</name>
+    <name>Camperplaatsen Waalkade Tiel</name>
     <trkseg>
       <trkpt lat="51.8856593" lon="5.4423058"></trkpt>
       <trkpt lat="51.8852195" lon="5.4421405"></trkpt>
@@ -15857,6 +15414,27 @@ version="1.1" creator="togpx">
       <trkpt lat="51.7076016" lon="4.8120774"></trkpt>
       <trkpt lat="51.7076068" lon="4.8120369"></trkpt>
       <trkpt lat="51.7076045" lon="4.8119943"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Wageningen, parkeerplaats Rijnhaven</name>
+    <trkseg>
+      <trkpt lat="51.9611391" lon="5.6592069"></trkpt>
+      <trkpt lat="51.961063" lon="5.659164"></trkpt>
+      <trkpt lat="51.9609007" lon="5.6590164"></trkpt>
+      <trkpt lat="51.9608593" lon="5.6591559"></trkpt>
+      <trkpt lat="51.9611089" lon="5.6593323"></trkpt>
+      <trkpt lat="51.9611391" lon="5.6592069"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Camperplaats Veldwijk Woerden</name>
+    <trkseg>
+      <trkpt lat="52.0913221" lon="4.9147487"></trkpt>
+      <trkpt lat="52.0913842" lon="4.9149448"></trkpt>
+      <trkpt lat="52.0914372" lon="4.9149003"></trkpt>
+      <trkpt lat="52.0913751" lon="4.9147043"></trkpt>
+      <trkpt lat="52.0913221" lon="4.9147487"></trkpt>
     </trkseg>
   </trk>
 </gpx>

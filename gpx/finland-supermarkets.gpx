@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-07-22T14:41:29Z", "timestamp_areas_base":
-      "2024-07-22T10:27:30Z", "copyright": "The data included in
+      "2024-08-04T18:50:30Z", "timestamp_areas_base":
+      "2024-08-04T13:56:00Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -118,8 +118,8 @@ version="1.1" creator="togpx">
     addr:housenumber=7; addr:postcode=02700;
     addr:street=Kauniaistentie; branch=Grani; brand=S-market;
     brand:wikidata=Q11891613; drive_through:covid19=no;
-    name=S-market; phone=+358107626730; shop=supermarket;
-    short_name=S-Market;
+    name=S-market; opening_hours=Mo-Sa 07:00-22:00, Su 09:00-22:00;
+    phone=+358107626730; shop=supermarket; short_name=S-Market;
     website=https://www.s-kaupat.fi/myymala/s-market-grani/643819774;
     id=node/76699812</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-grani/643819774">
@@ -570,7 +570,12 @@ version="1.1" creator="togpx">
     <link href="https://www.s-kaupat.fi/myymala/s-market-pello/508564044">
     </link>
   </wpt>
-  <wpt lat="62.2277997" lon="25.7718878">
+  <wpt lat="62.2279338" lon="25.7716854">
+    <name>Fresh Mini Market</name>
+    <desc>name=Fresh Mini Market; shop=supermarket;
+    id=node/255329160</desc>
+  </wpt>
+  <wpt lat="62.2278994" lon="25.7722646">
     <name>K-Supermarket</name>
     <desc>addr:city=Jyväskylä; addr:housenumber=2;
     addr:postcode=40520; addr:street=Syöttäjänkatu;
@@ -1059,10 +1064,6 @@ version="1.1" creator="togpx">
     id=node/309113128</desc>
     <link href="https://www.ksupermarketlöytis.fi/"></link>
   </wpt>
-  <wpt lat="61.4882409" lon="23.494066">
-    <name>node/309122748</name>
-    <desc>shop=supermarket; id=node/309122748</desc>
-  </wpt>
   <wpt lat="60.4907731" lon="22.2038174">
     <name>Prisma</name>
     <desc>addr:city=Raisio; addr:housenumber=1;
@@ -1152,7 +1153,8 @@ version="1.1" creator="togpx">
     addr:postcode=10600; addr:street=Järnvägsgatan;
     brand=K-Supermarket; brand:wikidata=Q5408668;
     name=K-Supermarket; name:fi=K-Supermarket Tammisaari;
-    name:sv=K-Supermarket Ekenäs; phone=019-2126500;
+    name:sv=K-Supermarket Ekenäs; opening_hours=Mo-Fr 07:00-21:00,
+    Sa 08:00-20:00, Su 10:00-20:00; phone=019-2126500;
     shop=supermarket;
     website=https://www.k-ruoka.fi/kauppa/k-supermarket-ekenas-tammisaari;
     id=node/357216409</desc>
@@ -1268,9 +1270,12 @@ version="1.1" creator="togpx">
   <wpt lat="63.6752399" lon="22.7018996">
     <name>Halpa-Halli</name>
     <desc>addr:city=Jakobstad; addr:housenumber=19;
-    addr:postcode=68600; addr:street=Kanalesplanaden; fax=020-718
-    3083; name=Halpa-Halli; opening_hours=Mo-Sa 08:00-21:00,Su
-    10:00-21:00; phone=020-718 3080; shop=supermarket;
+    addr:postcode=68600; addr:street=Kanalesplanaden;
+    check_date=2024-08-03; fax=020-718 3083; name=Halpa-Halli;
+    name:fi=Halpa-Halli; name:sv=Halpa-Halli; opening_hours=Mo-Sa
+    08:00-21:00,Su 10:00-21:00; payment:cash=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    phone=020-718 3080; shop=supermarket; wheelchair=yes;
     id=node/387195062</desc>
   </wpt>
   <wpt lat="60.419938" lon="24.9878122">
@@ -1989,11 +1994,10 @@ version="1.1" creator="togpx">
     <name>S-market</name>
     <desc>addr:city=Lahti; addr:country=FI; addr:housenumber=19-21;
     addr:postcode=15110; addr:street=Aleksanterinkatu; branch=Sokos
-    Lahti; brand=S-market; brand:wikidata=Q11891613; diet:halal=no;
-    diet:kosher=no; level=-1; name=S-market; opening_hours=Mo-Fr
-    08:00-21:00, Sa 08:00-18:00; payment:credit_cards=yes;
-    payment:debit_cards=yes; phone=+358 3 8130812;
-    shop=supermarket;
+    Lahti; brand=S-market; brand:wikidata=Q11891613; level=-1;
+    name=S-market; opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-18:00;
+    payment:credit_cards=yes; payment:debit_cards=yes; phone=+358 3
+    8130812; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-sokos-lahti/590783601;
     id=node/539156227</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-sokos-lahti/590783601">
@@ -2523,7 +2527,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Kuhmoinen; addr:country=FI;
     addr:housenumber=54; addr:postcode=17800; addr:street=Toritie;
     branch=Kuhmoinen; brand=S-market; brand:wikidata=Q11891613;
-    name=S-market; phone=+358107674470; shop=supermarket;
+    name=S-market; opening_hours=Mo-Sa 07:00-22:00, Su 09:00-22:00;
+    phone=+358107674470; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-kuhmoinen/511774994;
     wheelchair=yes; id=node/739368305</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-kuhmoinen/511774994">
@@ -2555,20 +2560,6 @@ version="1.1" creator="togpx">
     website=https://www.halpahalli.fi/asiakaspalvelu?path=%2Fguide%2Fkurikka;
     id=node/791243136</desc>
     <link href="https://www.halpahalli.fi/asiakaspalvelu?path=%2Fguide%2Fkurikka">
-    </link>
-  </wpt>
-  <wpt lat="60.8050705" lon="21.4252573">
-    <name>K-Supermarket</name>
-    <desc>addr:city=Uusikaupunki; addr:housenumber=1;
-    addr:postcode=23500; addr:street=Ketunkalliontie;
-    branch=Itäpoiju; brand=K-Supermarket; brand:wikidata=Q5408668;
-    brand:wikipedia=fi:K-Supermarket; name=K-Supermarket;
-    opening_hours=Mo-Sa 07:00-22:00, Su 09:00-22:00; phone=+358
-    (0)20 7991 231; shop=supermarket;
-    website=https://www.k-ruoka.fi/kauppa/k-supermarket-itapoiju;
-    id=node/794080546; ; building=retail; building:levels=1;
-    id=way/240447570</desc>
-    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-itapoiju">
     </link>
   </wpt>
   <wpt lat="62.2874939" lon="27.0800507">
@@ -3036,7 +3027,7 @@ version="1.1" creator="togpx">
     <link href="https://www.s-kaupat.fi/myymala/s-market-mantyharju/542861232">
     </link>
   </wpt>
-  <wpt lat="60.2285579" lon="24.9632006">
+  <wpt lat="60.2286053" lon="24.9632346">
     <ele>30</ele>
     <name>S-market</name>
     <desc>addr:city=Helsinki; addr:country=FI; addr:housenumber=29;
@@ -3369,21 +3360,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Jyväskylä; addr:housenumber=2;
     addr:postcode=40800; addr:street=Oravasaarentie;
     shop=supermarket; id=node/1596083587</desc>
-  </wpt>
-  <wpt lat="60.8039593" lon="21.4216301">
-    <name>S-market</name>
-    <desc>addr:city=Uusikaupunki; addr:housenumber=18;
-    addr:postcode=23500; addr:street=Vakka-Suomenkatu; branch=Vakka
-    Suomenkatu; brand=S-market; brand:wikidata=Q11891613;
-    brand:wikipedia=fi:S-market; name=S-market; opening_hours=Mo-Sa
-    07:00-23:00, Su 10:00-23:00; phone=+358107644470;
-    shop=supermarket; toilets=yes; toilets:access=customers;
-    website=https://www.s-kaupat.fi/myymala/s-market-vakka-suomenkatu/516007432;
-    wheelchair=yes; id=node/1600089693; ; building=retail;
-    building:levels=1; roof:levels=0; roof:shape=flat;
-    id=way/300795151</desc>
-    <link href="https://www.s-kaupat.fi/myymala/s-market-vakka-suomenkatu/516007432">
-    </link>
   </wpt>
   <wpt lat="60.2517565" lon="25.0100895">
     <ele>28</ele>
@@ -4040,11 +4016,12 @@ version="1.1" creator="togpx">
     addr:housename=Kaari; addr:housenumber=1; addr:postcode=00420;
     addr:street=Kantelettarentie; branch=Kaari Kannelmäki;
     brand=Prisma; brand:wikidata=Q12047031;
-    brand:wikipedia=fi:Prisma (kauppaketju); diet:halal=no;
-    diet:kosher=no; level=0; name=Prisma; name:fa=پریسما;
-    opening_hours=24/7; operator=HOK-Elanto Liiketoiminta Oy;
-    phone=+358 10 766 8000; shop=supermarket; short_name=Prisma;
-    toilets:wheelchair=yes; vending=public_transport_tickets;
+    brand:wikipedia=fi:Prisma (kauppaketju); check_date=2024-07-25;
+    diet:halal=no; diet:kosher=no; level=0; name=Prisma;
+    name:fa=پریسما; opening_hours=24/7; operator=HOK-Elanto
+    Liiketoiminta Oy; phone=+358 10 766 8000; shop=supermarket;
+    short_name=Prisma; toilets:wheelchair=yes;
+    vending=public_transport_tickets;
     website=https://www.prisma.fi/fi/prisma/myymalat/helsinki-kannelmaki;
     wheelchair=yes; wheelchair:description=Open 24/7 as of 3 March
     2017.; id=node/2496338041</desc>
@@ -4742,7 +4719,7 @@ version="1.1" creator="togpx">
     <link href="https://www.s-kaupat.fi/myymala/s-market-savonlinna/613757947">
     </link>
   </wpt>
-  <wpt lat="61.0159529" lon="25.6640653">
+  <wpt lat="61.0160594" lon="25.6640838">
     <name>S-market</name>
     <desc>addr:city=Lahti; addr:housenumber=7; addr:postcode=15240;
     addr:street=Ritaniemenkatu; branch=Mukkula; brand=S-market;
@@ -6217,19 +6194,6 @@ version="1.1" creator="togpx">
     organic=only; payment:cash=yes; shop=supermarket;
     id=node/6910870182</desc>
   </wpt>
-  <wpt lat="60.4187399" lon="22.229636">
-    <name>K-Supermarket</name>
-    <desc>addr:city=Turku; addr:housenumber=1; addr:postcode=20900;
-    addr:street=Vanha Kakskerrantie; branch=Hirvensalo;
-    brand=K-Supermarket; brand:wikidata=Q5408668;
-    brand:wikipedia=fi:K-Supermarket; building=yes;
-    name=K-Supermarket; opening_hours=Mo-Sa 07:00-22:00, Su
-    09:00-22:00; phone=0400 140 870; shop=supermarket;
-    website=https://www.k-ruoka.fi/kauppa/k-supermarket-hirvensalo;
-    id=node/6961544691; ; id=way/88799412</desc>
-    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-hirvensalo">
-    </link>
-  </wpt>
   <wpt lat="63.0910915" lon="23.0602543">
     <name>S-market</name>
     <desc>addr:city=Kauhava; addr:housenumber=2;
@@ -6553,7 +6517,8 @@ version="1.1" creator="togpx">
     <ele>19</ele>
     <name>Solu Afro Asian Food Market</name>
     <desc>addr:city=Helsinki; addr:housenumber=14;
-    addr:postcode=00800; addr:street=Hiihtomäentie; cuisine=asian;
+    addr:postcode=00800; addr:street=Hiihtomäentie;
+    check_date:opening_hours=2024-07-26; cuisine=asian;
     diet:halal=no; diet:kosher=no; email=solu.kauppa@gmail.com;
     name=Solu Afro Asian Food Market; opening_hours=Mo-Fr
     10:00-19:00, Sa 10:00-18:00, Su 12:00-18:00; origin=asian;
@@ -7636,6 +7601,34 @@ version="1.1" creator="togpx">
     <desc>name=Andalus Market; shop=supermarket;
     survey:date=2024-06-28; id=node/12018387906</desc>
   </wpt>
+  <wpt lat="60.2649788" lon="24.8103742">
+    <ele>41</ele>
+    <name>K-Supermarket</name>
+    <desc>addr:city=Vantaa; addr:housenumber=4;
+    addr:postcode=01660; addr:street=Ulkoniitynkuja;
+    branch=Herkkupähkinä; brand=K-Supermarket;
+    brand:wikidata=Q5408668; brand:wikipedia=fi:K-Supermarket;
+    diet:halal=no; diet:kosher=no; name=K-Supermarket;
+    opening_hours=Mo-Sa 07:00-23:00, Su 09:00-22:00;
+    payment:cash=yes; payment:contactless=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:mastercard=yes; payment:visa=yes; phone=0449615910;
+    shop=supermarket;
+    website=https://www.k-ruoka.fi/kauppa/k-supermarket-herkkupahkina;
+    id=node/12081693275</desc>
+    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-herkkupahkina">
+    </link>
+  </wpt>
+  <wpt lat="60.9619561" lon="25.6566232">
+    <name>R Market</name>
+    <desc>addr:city=Lahti; addr:housenumber=81;
+    addr:postcode=15500; addr:street=Ajokatu;
+    email=LAUNE@RMARKET.FI; name=R Market; opening_hours=Mo-Fr
+    08:00-20:00, Sa 08:00-19:00, Su 10:00-18:00; phone=+358 44
+    4822870; shop=supermarket; website=https://rmarket.tilda.ws/;
+    id=node/12091494993</desc>
+    <link href="https://rmarket.tilda.ws/"></link>
+  </wpt>
   <wpt lat="65.01110955" lon="25.473610754765176">
     <name>Sokos Herkku</name>
     <desc>addr:housenumber=25; addr:street=Isokatu; indoor=room;
@@ -7941,7 +7934,7 @@ version="1.1" creator="togpx">
     addr:postcode=04260; addr:street=Koivikontie; branch=Oregano;
     brand=K-Supermarket; brand:wikidata=Q5408668;
     brand:wikipedia=fi:K-Supermarket; building=retail;
-    building:levels=2; check_date:opening_hours=2023-06-15;
+    building:levels=2; check_date:opening_hours=2024-07-27;
     name=K-Supermarket; opening_hours=Mo-Fr 07:00-21:00, Sa
     07:00-20:00, Su 10:00-19:00; phone=+35892747560;
     roof:shape=flat; shop=supermarket;
@@ -7976,21 +7969,6 @@ version="1.1" creator="togpx">
     08:00-22:00, Su 10:00-22:00; shop=supermarket;
     website=https://www.lidl.fi/; id=way/24550735</desc>
     <link href="https://www.lidl.fi/"></link>
-  </wpt>
-  <wpt lat="60.26523935" lon="24.810159741069775">
-    <ele>45</ele>
-    <name>K-Supermarket</name>
-    <desc>addr:city=Vantaa; addr:housenumber=4;
-    addr:postcode=01660; addr:street=Ulkoniitynkuja;
-    brand=K-Supermarket; brand:wikidata=Q5408668;
-    brand:wikipedia=fi:K-Supermarket; building=yes; diet:halal=no;
-    diet:kosher=no; name=K-Supermarket; opening_hours=Mo-Sa
-    07:00-24:00, Su 12:00-24:00; phone=0449615910;
-    shop=supermarket;
-    website=https://www.k-ruoka.fi/kauppa/k-supermarket-herkkupahkina;
-    id=way/24606508</desc>
-    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-herkkupahkina">
-    </link>
   </wpt>
   <wpt lat="60.23941935" lon="24.85174150344092">
     <ele>26</ele>
@@ -8758,7 +8736,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Jokioinen; addr:housenumber=1;
     addr:postcode=31600; addr:street=Kenttätie; branch=Jokioinen;
     brand=S-market; brand:wikidata=Q11891613; building=supermarket;
-    name=S-market; phone=+358342461412; shop=supermarket;
+    name=S-market; opening_hours=Mo-Sa 07:00-22:00, Su 08:00-22:00;
+    phone=+358342461412; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-jokioinen/726268436;
     id=way/69368331</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-jokioinen/726268436">
@@ -8863,12 +8842,13 @@ version="1.1" creator="togpx">
     <name>Prisma</name>
     <desc>addr:city=Lappeenranta; addr:country=FI;
     addr:housenumber=9-11; addr:postcode=53600;
-    addr:street=Puhakankatu; branch=Lappeenranta; brand=Prisma;
-    brand:wikidata=Q12047031; brand:wikipedia=fi:Prisma
-    (kauppaketju); building=retail; building:levels=2; name=Prisma;
+    addr:street=Puhakankatu; air_conditioning=yes;
+    branch=Lappeenranta; brand=Prisma; brand:wikidata=Q12047031;
+    brand:wikipedia=fi:Prisma (kauppaketju); building=retail;
+    building:levels=2; changing_table=yes; name=Prisma;
     name:ru=Призма Лаппяранта; opening_hours=Mo-Su 07:00-23:00;
     operator=Etelä-karjalan osuuskauppa; phone=+358107620100;
-    shop=supermarket;
+    shop=supermarket; toilets=yes; toilets:wheelchair=yes;
     website=https://www.prisma.fi/fi/prisma/myymalat/lappeenranta;
     id=way/83889206</desc>
     <link href="https://www.prisma.fi/fi/prisma/myymalat/lappeenranta">
@@ -8980,6 +8960,14 @@ version="1.1" creator="togpx">
     <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-valivainio">
     </link>
   </wpt>
+  <wpt lat="61.48830015" lon="23.494115638918615">
+    <name>S-market</name>
+    <desc>addr:housenumber=23; addr:street=Pinsiöntie;
+    branch=Myllyhaka Nokia; brand=S-market;
+    brand:wikidata=Q11891613; building=yes; name=S-market;
+    opening_hours=Mo-Fr 07:00-22:00, Sa 07:00-22:00, Su
+    09:00-22:00; shop=supermarket; id=way/87854722</desc>
+  </wpt>
   <wpt lat="62.6186674" lon="29.769169961470695">
     <name>Lidl</name>
     <desc>addr:city=Joensuu; addr:country=FI; addr:housenumber=3a;
@@ -9070,6 +9058,19 @@ version="1.1" creator="togpx">
     brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
     name=Lidl; opening_hours=Mo-Sa 08:00-21:00, Su 10:00-21:00;
     shop=supermarket; id=way/88659952</desc>
+  </wpt>
+  <wpt lat="60.41881295" lon="22.22966364193858">
+    <name>K-Supermarket</name>
+    <desc>addr:city=Turku; addr:housenumber=1; addr:postcode=20900;
+    addr:street=Vanha Kakskerrantie; branch=Hirvensalo;
+    brand=K-Supermarket; brand:wikidata=Q5408668;
+    brand:wikipedia=fi:K-Supermarket; building=supermarket;
+    name=K-Supermarket; opening_hours=Mo-Sa 07:00-22:00, Su
+    09:00-22:00; phone=0400 140 870; shop=supermarket;
+    website=https://www.k-ruoka.fi/kauppa/k-supermarket-hirvensalo;
+    id=way/88799412</desc>
+    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-hirvensalo">
+    </link>
   </wpt>
   <wpt lat="61.51488155" lon="23.666487132101807">
     <name>K-Citymarket</name>
@@ -9338,8 +9339,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Turku; addr:housenumber=3; addr:postcode=20240;
     addr:street=Metallikatu; branch=Pansio; brand=S-market;
     brand:wikidata=Q11891613; brand:wikipedia=fi:S-market;
-    building=supermarket; name=S-market; phone=+358107644920;
-    shop=supermarket;
+    building=supermarket; name=S-market; opening_hours=Mo-Su
+    06:00-23:00; phone=+358107644920; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-pansio/603212705;
     id=way/96400519</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-pansio/603212705">
@@ -10335,7 +10336,7 @@ version="1.1" creator="togpx">
     <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-liminganportti">
     </link>
   </wpt>
-  <wpt lat="62.794073499999996" lon="22.8746050791315">
+  <wpt lat="62.7940084" lon="22.87467049598493">
     <name>K-Citymarket</name>
     <desc>addr:city=Seinäjoki; addr:housenumber=2;
     addr:postcode=60120; addr:street=Väinämöinen; branch=Seinäjoki
@@ -10446,7 +10447,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Parkano; addr:housenumber=2;
     addr:postcode=39700; addr:street=Teollisuustie; branch=Parkano;
     brand=HalpaHalli; brand:wikidata=Q11861256; building=yes;
-    name=HalpaHalli; phone=020 718 3760; shop=supermarket;
+    name=HalpaHalli; opening_hours=Mo-Sa 08:00-21:00, Su
+    10:00-21:00; phone=020 718 3760; shop=supermarket;
     website=https://www.halpahalli.fi/asiakaspalvelu?path=%2Fguide%2Fparkano%3Fcategory%3Dmyymaloiden-aukioloajat-ja-yhteystiedot;
     id=way/154286413</desc>
     <link href="https://www.halpahalli.fi/asiakaspalvelu?path=%2Fguide%2Fparkano%3Fcategory%3Dmyymaloiden-aukioloajat-ja-yhteystiedot">
@@ -10454,15 +10456,22 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="62.0075474" lon="23.012100642965024">
     <name>Lidl Parkano</name>
-    <desc>building=yes; name=Lidl Parkano; shop=supermarket;
+    <desc>addr:housenumber=2; addr:postcode=39700;
+    addr:street=Humalankatu; building=yes; name=Lidl Parkano;
+    opening_hours=Mo-Sa 08:00-20:00, Su 10:00-19:00;
+    shop=supermarket;
+    website=https://www.lidl.fi/s/fi-FI/myym%C3%A4l%C3%A4t/parkano/humalankatu-2/;
     id=way/154286960</desc>
+    <link href="https://www.lidl.fi/s/fi-FI/myym%C3%A4l%C3%A4t/parkano/humalankatu-2/">
+    </link>
   </wpt>
   <wpt lat="62.007627400000004" lon="23.0093610675068">
     <name>S-market</name>
     <desc>addr:city=Parkano; addr:housenumber=1;
     addr:postcode=39700; addr:street=Humalankatu; branch=Parkano;
     brand=S-market; brand:wikidata=Q11891613; building=yes;
-    name=S-market; phone=+358107671540; shop=supermarket;
+    name=S-market; opening_hours=Mo-Sa 07:00-22:00, Su 09:00-22:00;
+    phone=+358107671540; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-parkano/631661659;
     id=way/154287243</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-parkano/631661659">
@@ -10473,8 +10482,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Parkano; addr:housenumber=9;
     addr:postcode=39700; addr:street=Keskuskatu; branch=Parkano;
     brand=K-Supermarket; brand:wikidata=Q5408668;
-    building=supermarket; name=K-Supermarket; phone=03-441100;
-    shop=supermarket;
+    building=supermarket; name=K-Supermarket; opening_hours=Mo-Sa
+    08:00-21:00, Su 10:00-21:00; phone=03-441100; shop=supermarket;
     website=https://www.k-ruoka.fi/kauppa/k-supermarket-parkano;
     id=way/154328662</desc>
     <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-parkano">
@@ -11190,7 +11199,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Padasjoki; addr:housenumber=2;
     addr:postcode=17500; addr:street=Kauppatie; branch=Padasjoki;
     brand=S-market; brand:wikidata=Q11891613; building=supermarket;
-    name=S-market; phone=+35838743112; shop=supermarket;
+    name=S-market; opening_hours=Mo-Sa 07:00-22:00, Su 09:00-21:00;
+    phone=+35838743112; shop=supermarket;
     website=https://www.s-kaupat.fi/myymala/s-market-padasjoki/613764216;
     id=way/181642482</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-padasjoki/613764216">
@@ -11639,8 +11649,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Kangasala; addr:country=FI; addr:housenumber=8;
     addr:postcode=36220; addr:street=Lentolankuja; brand=Lidl;
     building=retail; name=Lidl Kangasala; opening_hours=Mo-Fr
-    09:00-21:00, Sa 09:00-18:00, Su 12:00-18:00; shop=supermarket;
-    website=https://www.lidl.fi/; id=way/227653845</desc>
+    09:00-21:00, Sa 09:00-18:00, Su 12:00-18:00; operator=Lidl;
+    shop=supermarket; website=https://www.lidl.fi/;
+    id=way/227653845</desc>
     <link href="https://www.lidl.fi/"></link>
   </wpt>
   <wpt lat="60.5848237" lon="27.709654022966568">
@@ -11786,6 +11797,20 @@ version="1.1" creator="togpx">
     website=https://www.s-kaupat.fi/myymala/s-market-kuhmo/502096142;
     id=way/238296421</desc>
     <link href="https://www.s-kaupat.fi/myymala/s-market-kuhmo/502096142">
+    </link>
+  </wpt>
+  <wpt lat="60.8052052" lon="21.42539679003771">
+    <name>K-Supermarket</name>
+    <desc>addr:city=Uusikaupunki; addr:housenumber=1;
+    addr:postcode=23500; addr:street=Ketunkalliontie;
+    branch=Itäpoiju; brand=K-Supermarket; brand:wikidata=Q5408668;
+    brand:wikipedia=fi:K-Supermarket; building=retail;
+    building:levels=1; name=K-Supermarket; opening_hours=Mo-Sa
+    07:00-22:00, Su 09:00-22:00; phone=+358 (0)20 7991 231;
+    shop=supermarket;
+    website=https://www.k-ruoka.fi/kauppa/k-supermarket-itapoiju;
+    id=way/240447570</desc>
+    <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-itapoiju">
     </link>
   </wpt>
   <wpt lat="63.003653299999996" lon="23.80433878688811">
@@ -12095,7 +12120,7 @@ version="1.1" creator="togpx">
     <link href="https://www.s-kaupat.fi/myymala/s-market-sodankyla/590782637">
     </link>
   </wpt>
-  <wpt lat="62.58126105" lon="29.77011113736706">
+  <wpt lat="62.58127705" lon="29.770190404950505">
     <name>S-market</name>
     <desc>access:covid19=yes; addr:city=Joensuu;
     addr:housenumber=2; addr:postcode=80220;
@@ -12252,6 +12277,21 @@ version="1.1" creator="togpx">
     building=commercial; name=K-Supermarket; opening_hours=Mo-Fr
     07:00-22:00, Sa 08:00-22:00, Su 09:00-22:00; shop=supermarket;
     smoking=no; id=way/297269671</desc>
+  </wpt>
+  <wpt lat="60.80407255" lon="21.4215995808474">
+    <name>S-market</name>
+    <desc>addr:city=Uusikaupunki; addr:housenumber=18;
+    addr:postcode=23500; addr:street=Vakka-Suomenkatu; branch=Vakka
+    Suomenkatu; brand=S-market; brand:wikidata=Q11891613;
+    brand:wikipedia=fi:S-market; building=retail;
+    building:levels=1; name=S-market; opening_hours=Mo-Sa
+    07:00-23:00, Su 10:00-23:00; phone=+358107644470;
+    roof:levels=0; roof:shape=flat; shop=supermarket; toilets=yes;
+    toilets:access=customers;
+    website=https://www.s-kaupat.fi/myymala/s-market-vakka-suomenkatu/516007432;
+    wheelchair=yes; id=way/300795151</desc>
+    <link href="https://www.s-kaupat.fi/myymala/s-market-vakka-suomenkatu/516007432">
+    </link>
   </wpt>
   <wpt lat="60.2273314" lon="24.90389216537344">
     <ele>30</ele>
@@ -12604,7 +12644,7 @@ version="1.1" creator="togpx">
     <link href="https://www.k-ruoka.fi/kauppa/k-supermarket-ylitornio">
     </link>
   </wpt>
-  <wpt lat="62.490763" lon="27.78573795277711">
+  <wpt lat="62.490795000000006" lon="27.7857372547916">
     <name>K-Supermarket</name>
     <desc>addr:city=Leppävirta; addr:country=FI;
     addr:housenumber=26; addr:postcode=79100;
@@ -13100,7 +13140,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Tammisaari; addr:housenumber=2;
     addr:street=Genvägen; branch=Tammisaari; brand=Lidl;
     brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
-    name=Lidl; shop=supermarket; id=way/455731532</desc>
+    name=Lidl; opening_hours=Mo-Fr 08:00-21:00, Sa 08:00-20:00, Su
+    10:00-20:00; shop=supermarket; id=way/455731532</desc>
   </wpt>
   <wpt lat="60.16773275" lon="24.617137664490265">
     <ele>24</ele>
@@ -14178,7 +14219,7 @@ version="1.1" creator="togpx">
     diet:kosher=no; landuse=construction; name=Lidl;
     shop=supermarket; id=way/966708269</desc>
   </wpt>
-  <wpt lat="60.5306759" lon="25.109489263448275">
+  <wpt lat="60.53068725" lon="25.109587810824102">
     <name>K-Supermarket</name>
     <desc>addr:city=Kellokoski; addr:housenumber=189;
     addr:postcode=04500; addr:street=Vanha valtatie;
@@ -15350,29 +15391,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>K-Supermarket</name>
-    <trkseg>
-      <trkpt lat="60.2654417" lon="24.8099374"></trkpt>
-      <trkpt lat="60.265351" lon="24.8096355"></trkpt>
-      <trkpt lat="60.2651111" lon="24.8099051"></trkpt>
-      <trkpt lat="60.2651277" lon="24.8099904"></trkpt>
-      <trkpt lat="60.2649753" lon="24.8101488"></trkpt>
-      <trkpt lat="60.2648959" lon="24.810236"></trkpt>
-      <trkpt lat="60.264884" lon="24.8102011"></trkpt>
-      <trkpt lat="60.2648254" lon="24.8102708"></trkpt>
-      <trkpt lat="60.2648653" lon="24.8104452"></trkpt>
-      <trkpt lat="60.2648946" lon="24.8104103"></trkpt>
-      <trkpt lat="60.265009" lon="24.810818"></trkpt>
-      <trkpt lat="60.2653995" lon="24.8103781"></trkpt>
-      <trkpt lat="60.2654296" lon="24.8103441"></trkpt>
-      <trkpt lat="60.2655185" lon="24.810244"></trkpt>
-      <trkpt lat="60.2654816" lon="24.8101198"></trkpt>
-      <trkpt lat="60.2655105" lon="24.8100831"></trkpt>
-      <trkpt lat="60.265468" lon="24.8099141"></trkpt>
-      <trkpt lat="60.2654417" lon="24.8099374"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Lidl</name>
     <trkseg>
       <trkpt lat="60.2391147" lon="24.851831"></trkpt>
@@ -16346,8 +16364,8 @@ version="1.1" creator="togpx">
       <trkpt lat="60.3236392" lon="25.0579074"></trkpt>
       <trkpt lat="60.3237469" lon="25.057999"></trkpt>
       <trkpt lat="60.3238763" lon="25.0581091"></trkpt>
-      <trkpt lat="60.3238589" lon="25.0581925"></trkpt>
-      <trkpt lat="60.3238468" lon="25.0582508"></trkpt>
+      <trkpt lat="60.3238464" lon="25.0582533"></trkpt>
+      <trkpt lat="60.3238781" lon="25.0582816"></trkpt>
       <trkpt lat="60.3240332" lon="25.0584093"></trkpt>
       <trkpt lat="60.3242729" lon="25.0586133"></trkpt>
       <trkpt lat="60.324639" lon="25.0589246"></trkpt>
@@ -16965,6 +16983,16 @@ version="1.1" creator="togpx">
       <trkpt lat="65.0302677" lon="25.4698977"></trkpt>
       <trkpt lat="65.0302771" lon="25.4700026"></trkpt>
       <trkpt lat="65.0305801" lon="25.46985"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>S-market</name>
+    <trkseg>
+      <trkpt lat="61.4880971" lon="23.4936657"></trkpt>
+      <trkpt lat="61.4880046" lon="23.4941113"></trkpt>
+      <trkpt lat="61.4885032" lon="23.4945655"></trkpt>
+      <trkpt lat="61.4885956" lon="23.49412"></trkpt>
+      <trkpt lat="61.4880971" lon="23.4936657"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -19125,19 +19153,29 @@ version="1.1" creator="togpx">
   <trk>
     <name>K-Citymarket</name>
     <trkseg>
-      <trkpt lat="62.7932425" lon="22.8744121"></trkpt>
-      <trkpt lat="62.7933928" lon="22.8754108"></trkpt>
-      <trkpt lat="62.7934611" lon="22.8753616"></trkpt>
-      <trkpt lat="62.7935256" lon="22.8757905"></trkpt>
-      <trkpt lat="62.7937783" lon="22.8756086"></trkpt>
-      <trkpt lat="62.7944979" lon="22.8750907"></trkpt>
-      <trkpt lat="62.7947471" lon="22.8749114"></trkpt>
-      <trkpt lat="62.7944879" lon="22.8731887"></trkpt>
-      <trkpt lat="62.7943687" lon="22.8732745"></trkpt>
-      <trkpt lat="62.7943896" lon="22.873413"></trkpt>
-      <trkpt lat="62.7944763" lon="22.8733506"></trkpt>
-      <trkpt lat="62.7944998" lon="22.8735072"></trkpt>
-      <trkpt lat="62.7932425" lon="22.8744121"></trkpt>
+      <trkpt lat="62.7932332" lon="22.8744019"></trkpt>
+      <trkpt lat="62.7933862" lon="22.8754392"></trkpt>
+      <trkpt lat="62.7934542" lon="22.8753912"></trkpt>
+      <trkpt lat="62.793512" lon="22.8757826"></trkpt>
+      <trkpt lat="62.7936276" lon="22.875701"></trkpt>
+      <trkpt lat="62.7936351" lon="22.875752"></trkpt>
+      <trkpt lat="62.7937828" lon="22.875648"></trkpt>
+      <trkpt lat="62.794503" lon="22.8751408"></trkpt>
+      <trkpt lat="62.7946745" lon="22.87502"></trkpt>
+      <trkpt lat="62.7946675" lon="22.874973"></trkpt>
+      <trkpt lat="62.7947779" lon="22.8748953"></trkpt>
+      <trkpt lat="62.7947618" lon="22.8747861"></trkpt>
+      <trkpt lat="62.7948059" lon="22.874755"></trkpt>
+      <trkpt lat="62.7947525" lon="22.8743921"></trkpt>
+      <trkpt lat="62.7946805" lon="22.8744421"></trkpt>
+      <trkpt lat="62.7945724" lon="22.8736972"></trkpt>
+      <trkpt lat="62.7944952" lon="22.8731657"></trkpt>
+      <trkpt lat="62.7944482" lon="22.8732101"></trkpt>
+      <trkpt lat="62.7944841" lon="22.8734705"></trkpt>
+      <trkpt lat="62.7943531" lon="22.8735488"></trkpt>
+      <trkpt lat="62.7943629" lon="22.8736818"></trkpt>
+      <trkpt lat="62.794234" lon="22.8736918"></trkpt>
+      <trkpt lat="62.7932332" lon="22.8744019"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -21681,11 +21719,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>S-market</name>
     <trkseg>
-      <trkpt lat="62.5813927" lon="29.7697546"></trkpt>
-      <trkpt lat="62.5811249" lon="29.7697693"></trkpt>
-      <trkpt lat="62.5811294" lon="29.7704701"></trkpt>
-      <trkpt lat="62.5814022" lon="29.7704501"></trkpt>
-      <trkpt lat="62.5813927" lon="29.7697546"></trkpt>
+      <trkpt lat="62.5813798" lon="29.7697981"></trkpt>
+      <trkpt lat="62.5811786" lon="29.7698065"></trkpt>
+      <trkpt lat="62.5811783" lon="29.7697726"></trkpt>
+      <trkpt lat="62.5810854" lon="29.7697764"></trkpt>
+      <trkpt lat="62.5810893" lon="29.7702231"></trkpt>
+      <trkpt lat="62.5811236" lon="29.7702195"></trkpt>
+      <trkpt lat="62.581123" lon="29.7704588"></trkpt>
+      <trkpt lat="62.5812274" lon="29.7704619"></trkpt>
+      <trkpt lat="62.5812264" lon="29.7706169"></trkpt>
+      <trkpt lat="62.5813267" lon="29.7705407"></trkpt>
+      <trkpt lat="62.5813281" lon="29.7704414"></trkpt>
+      <trkpt lat="62.5813855" lon="29.7704369"></trkpt>
+      <trkpt lat="62.5813798" lon="29.7697981"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -22406,15 +22452,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>K-Supermarket</name>
     <trkseg>
-      <trkpt lat="62.4904468" lon="27.7853572"></trkpt>
-      <trkpt lat="62.4905082" lon="27.7854028"></trkpt>
-      <trkpt lat="62.4904239" lon="27.7859335"></trkpt>
-      <trkpt lat="62.4908646" lon="27.7862616"></trkpt>
-      <trkpt lat="62.4909918" lon="27.7854603"></trkpt>
-      <trkpt lat="62.4906614" lon="27.7852143"></trkpt>
-      <trkpt lat="62.4906448" lon="27.7853188"></trkpt>
-      <trkpt lat="62.4904732" lon="27.785191"></trkpt>
-      <trkpt lat="62.4904468" lon="27.7853572"></trkpt>
+      <trkpt lat="62.4904819" lon="27.7854184"></trkpt>
+      <trkpt lat="62.4905508" lon="27.7854762"></trkpt>
+      <trkpt lat="62.4904637" lon="27.7859619"></trkpt>
+      <trkpt lat="62.4908811" lon="27.7863125"></trkpt>
+      <trkpt lat="62.4910378" lon="27.7854383"></trkpt>
+      <trkpt lat="62.4907089" lon="27.785162"></trkpt>
+      <trkpt lat="62.4906825" lon="27.7853094"></trkpt>
+      <trkpt lat="62.4905252" lon="27.7851772"></trkpt>
+      <trkpt lat="62.4904819" lon="27.7854184"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -24628,13 +24674,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>K-Supermarket</name>
     <trkseg>
-      <trkpt lat="60.5309189" lon="25.1091835"></trkpt>
-      <trkpt lat="60.5306289" lon="25.1089356"></trkpt>
-      <trkpt lat="60.5303829" lon="25.1096064"></trkpt>
-      <trkpt lat="60.5304989" lon="25.10983"></trkpt>
-      <trkpt lat="60.5306329" lon="25.1100536"></trkpt>
-      <trkpt lat="60.5307189" lon="25.1099519"></trkpt>
-      <trkpt lat="60.5309189" lon="25.1091835"></trkpt>
+      <trkpt lat="60.5309585" lon="25.1093793"></trkpt>
+      <trkpt lat="60.5307059" lon="25.1091634"></trkpt>
+      <trkpt lat="60.5306566" lon="25.1091448"></trkpt>
+      <trkpt lat="60.530615" lon="25.1091781"></trkpt>
+      <trkpt lat="60.5305729" lon="25.1092702"></trkpt>
+      <trkpt lat="60.530437" lon="25.1098371"></trkpt>
+      <trkpt lat="60.5305385" lon="25.1100258"></trkpt>
+      <trkpt lat="60.5306065" lon="25.1101421"></trkpt>
+      <trkpt lat="60.5306686" lon="25.1100027"></trkpt>
+      <trkpt lat="60.5307836" lon="25.1101048"></trkpt>
+      <trkpt lat="60.5309585" lon="25.1093793"></trkpt>
     </trkseg>
   </trk>
   <trk>
