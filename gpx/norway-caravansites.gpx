@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-08-04T18:58:45Z", "timestamp_areas_base":
-      "2024-08-04T13:56:00Z", "copyright": "The data included in
+      "2024-08-28T09:21:29Z", "timestamp_areas_base":
+      "2024-08-28T04:40:43Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -211,8 +211,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="63.7398888" lon="11.2782466">
     <name>Levanger Camping &amp; Fritidspark Moan AS</name>
-    <desc>name=Levanger Camping &amp; Fritidspark Moan AS;
-    tourism=caravan_site; id=node/1902791511</desc>
+    <desc>drinking_water=yes; fee=yes; name=Levanger Camping &amp;
+    Fritidspark Moan AS; power_supply=yes;
+    sanitary_dump_station=yes; toilets=yes; tourism=caravan_site;
+    id=node/1902791511</desc>
   </wpt>
   <wpt lat="62.7823549" lon="7.8871794">
     <name>node/1913248994</name>
@@ -998,6 +1000,19 @@ version="1.1" creator="togpx">
     <desc>name=Kvina bobilparkering; tourism=caravan_site;
     id=node/12072962083</desc>
   </wpt>
+  <wpt lat="59.2750648" lon="5.5571741">
+    <ele>17</ele>
+    <name>Bobilparkering Kårstø</name>
+    <desc>name=Bobilparkering Kårstø; tourism=caravan_site;
+    id=node/12114330743</desc>
+  </wpt>
+  <wpt lat="60.5784373" lon="9.1539897">
+    <name>Trytetjern</name>
+    <desc>fee=yes; internet_access=no; name=Trytetjern;
+    permanent_camping=no; power_supply=no;
+    sanitary_dump_station=no; toilets=yes; tourism=caravan_site;
+    id=node/12115112590</desc>
+  </wpt>
   <wpt lat="63.41231555" lon="9.024995247792404">
     <name>Belsvik Camping</name>
     <desc>email=nina.jakobsen@live.no; mobile=+47 48 19 10 87;
@@ -1360,11 +1375,12 @@ version="1.1" creator="togpx">
   <wpt lat="60.3540797" lon="5.358616362988611">
     <ele>74</ele>
     <name>Bergenshallen Bobilparkering</name>
-    <desc>access=yes; amenity=parking; capacity=28; fee=yes;
-    internet_access=wlan; name=Bergenshallen Bobilparkering;
-    name:en=Caravan Parking Bergenshallen; parking=surface;
-    power_supply=yes; sanitary_dump_station=yes; shower=no;
-    source=Acc6543; tents=no; toilets=no; tourism=caravan_site;
+    <desc>access=yes; amenity=parking; capacity=28; charge=330 NOK;
+    drinking_water=yes; fee=yes; internet_access=wlan;
+    name=Bergenshallen Bobilparkering; name:en=Caravan Parking
+    Bergenshallen; parking=surface; power_supply=yes;
+    sanitary_dump_station=yes; shower=no; surface=asphalt;
+    tents=no; toilets=no; tourism=caravan_site;
     id=way/265095327</desc>
   </wpt>
   <wpt lat="59.0529652" lon="5.67611118696326">
@@ -1590,10 +1606,6 @@ version="1.1" creator="togpx">
     tourism=caravan_site; id=way/518191571</desc>
     <link href="https://www.bronnoy.kommune.no/tjenester/teknisk-bolig-og-eiendom/bobilparkering/">
     </link>
-  </wpt>
-  <wpt lat="68.15618169999999" lon="14.208255719108635">
-    <name>way/522941984</name>
-    <desc>fee=yes; tourism=caravan_site; id=way/522941984</desc>
   </wpt>
   <wpt lat="69.6366981" lon="18.004972026785715">
     <name>way/545041627</name>
@@ -2102,10 +2114,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="68.87797069999999" lon="17.82715501590315">
     <name>Brygga bobilparkering</name>
-    <desc>addr:city=Sjøvegan; addr:housenumber=94;
-    addr:postcode=9350; addr:street=Kongsveien; name=Brygga
-    bobilparkering; phone=+47 48 15 53 88; tourism=caravan_site;
-    id=way/1265502177</desc>
+    <desc>name=Brygga bobilparkering; phone=+47 48 15 53 88;
+    tourism=caravan_site; id=way/1265502177</desc>
   </wpt>
   <wpt lat="68.86872650000001" lon="17.772379920238045">
     <name>Garsnes camping</name>
@@ -2122,6 +2132,15 @@ version="1.1" creator="togpx">
     <desc>amenity=parking; fee=yes; operator=private;
     payment:app=yes; surface=gravel; tourism=caravan_site;
     id=way/1305283795</desc>
+  </wpt>
+  <wpt lat="68.07720384999999" lon="13.53467435590246">
+    <name>Reineholmen bobilcamp</name>
+    <desc>addr:city=Ballstad; addr:housenumber=72;
+    addr:postcode=8373; addr:street=Ballstadlandet; capacity=45;
+    internet_access=no; name=Reineholmen bobilcamp;
+    operator=Reineholmen Hotell Eiendom AS; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1309457636</desc>
   </wpt>
   <trk>
     <name>Belsvik Camping</name>
@@ -4670,19 +4689,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/522941984</name>
-    <trkseg>
-      <trkpt lat="68.1560016" lon="14.2081287"></trkpt>
-      <trkpt lat="68.1559998" lon="14.208187"></trkpt>
-      <trkpt lat="68.1560976" lon="14.2084069"></trkpt>
-      <trkpt lat="68.1563291" lon="14.2084177"></trkpt>
-      <trkpt lat="68.1564173" lon="14.2082688"></trkpt>
-      <trkpt lat="68.1563304" lon="14.2081121"></trkpt>
-      <trkpt lat="68.1562658" lon="14.2080875"></trkpt>
-      <trkpt lat="68.1560016" lon="14.2081287"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>way/545041627</name>
     <trkseg>
       <trkpt lat="69.6372795" lon="18.0038667"></trkpt>
@@ -6480,6 +6486,20 @@ version="1.1" creator="togpx">
       <trkpt lat="64.0154469" lon="11.4873245"></trkpt>
       <trkpt lat="64.015119" lon="11.4869302"></trkpt>
       <trkpt lat="64.0149381" lon="11.487861"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Reineholmen bobilcamp</name>
+    <trkseg>
+      <trkpt lat="68.077304" lon="13.5356032"></trkpt>
+      <trkpt lat="68.077462" lon="13.5351199"></trkpt>
+      <trkpt lat="68.0774302" lon="13.5350547"></trkpt>
+      <trkpt lat="68.0774276" lon="13.5347007"></trkpt>
+      <trkpt lat="68.0773853" lon="13.53441"></trkpt>
+      <trkpt lat="68.0774026" lon="13.5343578"></trkpt>
+      <trkpt lat="68.0771037" lon="13.5337089"></trkpt>
+      <trkpt lat="68.0768328" lon="13.5347525"></trkpt>
+      <trkpt lat="68.077304" lon="13.5356032"></trkpt>
     </trkseg>
   </trk>
 </gpx>

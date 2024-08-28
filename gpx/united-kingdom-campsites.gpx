@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-08-04T18:53:30Z", "timestamp_areas_base":
-      "2024-08-04T13:56:00Z", "copyright": "The data included in
+      "2024-08-28T09:16:25Z", "timestamp_areas_base":
+      "2024-08-28T04:40:43Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -149,7 +149,8 @@ version="1.1" creator="togpx">
     <ele>233</ele>
     <name>Court Farm</name>
     <desc>created_by=Potlatch 0.8; name=Court Farm;
-    tourism=camp_site; id=node/253898042</desc>
+    tourism=camp_site; id=node/253898042; ; surface=grass;
+    id=way/1307698754</desc>
   </wpt>
   <wpt lat="59.971737" lon="-1.2768599">
     <ele>94</ele>
@@ -166,7 +167,7 @@ version="1.1" creator="togpx">
   <wpt lat="60.186386" lon="-1.4382219">
     <ele>5</ele>
     <name>Skeld Caravn Park and Campsite</name>
-    <desc>caravans=yes; dogs=yes; dryer=yes; internet_access=wlan;
+    <desc>caravans=yes; dog=yes; dryer=yes; internet_access=wlan;
     name=Skeld Caravn Park and Campsite; power_supply=yes;
     shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     washing_machine=yes;
@@ -891,12 +892,6 @@ version="1.1" creator="togpx">
     <desc>name=Llwyn Celyn bach; tourism=camp_site; wheelchair=no;
     id=node/1270290857</desc>
   </wpt>
-  <wpt lat="52.0275146" lon="-0.269416">
-    <ele>39</ele>
-    <name>Henlow Bridge Lakes Camping &amp; Caravan Park</name>
-    <desc>name=Henlow Bridge Lakes Camping &amp; Caravan Park;
-    tourism=camp_site; id=node/1271029494</desc>
-  </wpt>
   <wpt lat="51.9097275" lon="-3.4472508">
     <ele>279</ele>
     <name>Cwm-llwch</name>
@@ -1208,20 +1203,22 @@ version="1.1" creator="togpx">
     <name>Kingsdown International Camping Centre</name>
     <desc>addr:city=Kingsdown; addr:housename=Kingsdown
     International Camping Centre; addr:postcode=CT14 8DU;
-    addr:street=The Avenue; camp_site=reception;
+    addr:street=The Avenue; camp_site=reception; caravans=yes;
     contact:email=customerservice@kingsdowncamping.co.uk;
     contact:phone=+44 1304 373713;
     contact:website=https://www.kingsdowncamping.co.uk;
-    internet_access=wlan; internet_access:fee=no; name=Kingsdown
-    International Camping Centre; operator=Kingsdown Holiday Park;
+    drinking_water=yes; internet_access=wlan;
+    internet_access:fee=no; name=Kingsdown International Camping
+    Centre; operator=Kingsdown Holiday Park; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; id=node/1701693205</desc>
     <link href="https://www.kingsdowncamping.co.uk"></link>
   </wpt>
-  <wpt lat="50.7740994" lon="-4.5626008">
+  <wpt lat="50.7733513" lon="-4.5628773">
     <ele>85</ele>
-    <name>Pehalt Farm Campsite</name>
-    <desc>name=Pehalt Farm Campsite; tourism=camp_site;
-    id=node/1708341339</desc>
+    <name>Penhalt Farm Campsite</name>
+    <desc>name=Penhalt Farm Campsite; operator=Penhalt Farm;
+    tourism=camp_site; id=node/1708341339</desc>
   </wpt>
   <wpt lat="50.7346826" lon="-1.5520947">
     <ele>1</ele>
@@ -1261,8 +1258,9 @@ version="1.1" creator="togpx">
     <ele>234</ele>
     <name>Holme Farm</name>
     <desc>addr:city=Settle; addr:postcode=BD24 0HD;
-    addr:village=Horton-in-Ribblesdale; capacity=30; name=Holme
-    Farm; phone=01729860281; source=survey; tourism=camp_site;
+    addr:village=Horton-in-Ribblesdale; capacity=30; caravans=yes;
+    drinking_water=yes; name=Holme Farm; phone=01729860281;
+    shower=yes; source=survey; tents=yes; tourism=camp_site;
     wheelchair=yes; id=node/1746976635</desc>
   </wpt>
   <wpt lat="50.3824992" lon="-4.6505865">
@@ -1466,12 +1464,6 @@ version="1.1" creator="togpx">
     <name>Fishguard Bay Caravan and Camping Park</name>
     <desc>name=Fishguard Bay Caravan and Camping Park; source=ACSI;
     tourism=camp_site; id=node/1789140426</desc>
-  </wpt>
-  <wpt lat="52.4377582" lon="-4.0795987">
-    <ele>25</ele>
-    <name>Glan y Mor</name>
-    <desc>name=Glan y Mor; source=ACSI; tourism=camp_site;
-    id=node/1789140454</desc>
   </wpt>
   <wpt lat="51.7912929" lon="-2.7336436">
     <ele>24</ele>
@@ -1832,11 +1824,13 @@ version="1.1" creator="togpx">
   <wpt lat="57.0638909" lon="-5.8959101">
     <ele>9</ele>
     <name>Rubha Phoil</name>
-    <desc>access=permissive; addr:city=Ardvasar;
+    <desc>access=customers; addr:city=Ardvasar;
     addr:housename=Rubha Phoil; addr:postcode=IV45 8RS;
-    addr:street=Armadale Pier; fee=yes; internet_access=yes;
-    internet_access:fee=yes; name=Rubha Phoil; operator=Rubha
-    Phoil; tourism=camp_site; id=node/1932764180</desc>
+    addr:street=Armadale Pier; caravans=no; fee=yes;
+    internet_access=yes; internet_access:fee=yes; name=Rubha Phoil;
+    operator=Rubha Phoil; tents=no; tourism=camp_site;
+    website=https://rubhaphoil.org/; id=node/1932764180</desc>
+    <link href="https://rubhaphoil.org/"></link>
   </wpt>
   <wpt lat="52.7956776" lon="-1.7377291">
     <ele>128</ele>
@@ -2084,7 +2078,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Blacklunans; addr:country=GB;
     addr:housename=Lower Whitehouse Farm; addr:postcode=PH10 7LA;
     cabins=yes; camp_site=serviced; capacity:caravans=0;
-    caravans=no; dogs=yes; fee=yes; name=Glenshee Glamping;
+    caravans=no; dog=yes; fee=yes; name=Glenshee Glamping;
     phone=+44 1250 882231; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; website=https://glensheeglamping.co.uk/;
     id=node/2531539461</desc>
@@ -3411,8 +3405,8 @@ version="1.1" creator="togpx">
   <wpt lat="58.4597302" lon="-5.0567935">
     <ele>3</ele>
     <name>Old docks</name>
-    <desc>name=Old docks; name:en=Old docks; tourism=camp_site;
-    id=node/4808134421</desc>
+    <desc>caravans=yes; name=Old docks; name:en=Old docks;
+    tents=no; tourism=camp_site; id=node/4808134421</desc>
   </wpt>
   <wpt lat="50.3511552" lon="-5.089953">
     <ele>93</ele>
@@ -4116,8 +4110,10 @@ version="1.1" creator="togpx">
     <ele>33</ele>
     <name>Knights Folly Farm</name>
     <desc>addr:city=Bristol; addr:housenumber=33;
-    addr:postcode=BS30 6HX; addr:street=Bath Road; name=Knights
-    Folly Farm; name:en=Knights Folly Farm; phone=+447855474596;
+    addr:postcode=BS30 6HX; addr:street=Bath Road; caravans=yes;
+    drinking_water=yes; name=Knights Folly Farm; name:en=Knights
+    Folly Farm; phone=+447855474596; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; id=node/6500124908</desc>
   </wpt>
   <wpt lat="51.6404039" lon="-4.9306994">
@@ -5420,12 +5416,6 @@ version="1.1" creator="togpx">
     shower=yes; static_caravans=yes; toilets=yes;
     tourism=camp_site; id=node/9801405284</desc>
   </wpt>
-  <wpt lat="55.6491471" lon="-2.2492976">
-    <ele>16</ele>
-    <name>Coldstream Holiday Park</name>
-    <desc>name=Coldstream Holiday Park; tourism=camp_site;
-    id=node/9806670719</desc>
-  </wpt>
   <wpt lat="52.4332726" lon="-0.4057556">
     <ele>73</ele>
     <name>node/9812061833</name>
@@ -6179,8 +6169,8 @@ version="1.1" creator="togpx">
     <ele>88</ele>
     <name>Moorhouse Farm Campsite</name>
     <desc>addr:city=Bridgwater; addr:postcode=TA5 1SP;
-    addr:street=Moor House Lane; cabins=yes; caravans=yes;
-    dogs=yes; email=moorhousecampsite@gmail.com; motorhome=yes;
+    addr:street=Moor House Lane; cabins=yes; caravans=yes; dog=yes;
+    email=moorhousecampsite@gmail.com; motorhome=yes;
     opening_hours=Apr 6 - Oct 20; phone=+44 1278 741295;
     shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=http://www.moorhousecampsite.co.uk/;
@@ -6834,11 +6824,6 @@ version="1.1" creator="togpx">
     <name>node/11952018478</name>
     <desc>tourism=camp_site; id=node/11952018478</desc>
   </wpt>
-  <wpt lat="56.4852072" lon="-4.7226371">
-    <ele>199</ele>
-    <name>node/11952018479</name>
-    <desc>tourism=camp_site; id=node/11952018479</desc>
-  </wpt>
   <wpt lat="56.3970796" lon="-4.6519261">
     <ele>258</ele>
     <name>node/11952018480</name>
@@ -7077,6 +7062,154 @@ version="1.1" creator="togpx">
     <ele>37</ele>
     <name>node/12090297973</name>
     <desc>tourism=camp_site; id=node/12090297973</desc>
+  </wpt>
+  <wpt lat="53.2223593" lon="-2.9400281">
+    <ele>31</ele>
+    <name>Kings Acre</name>
+    <desc>name=Kings Acre; phone=+447790117194; tourism=camp_site;
+    website=https://www.kingsacre-chester.co.uk/;
+    id=node/12092841831</desc>
+    <link href="https://www.kingsacre-chester.co.uk/"></link>
+  </wpt>
+  <wpt lat="52.637125" lon="-2.4994381">
+    <ele>116</ele>
+    <name>Iron Gorge Camping</name>
+    <desc>addr:postcode=TF8 7EY; addr:street=Strethill Road;
+    email=irongorgecamping@gmail.com; internet_access=wlan;
+    name=Iron Gorge Camping; phone=+441952433047;
+    tourism=camp_site; website=https://www.irongorgecamping.co.uk/;
+    id=node/12093951401</desc>
+    <link href="https://www.irongorgecamping.co.uk/"></link>
+  </wpt>
+  <wpt lat="54.18209" lon="-5.8766366">
+    <ele>38</ele>
+    <name>Millstone Motorhome, Caravan and Camping Park</name>
+    <desc>access=customers; addr:city=Newcastle;
+    addr:housenumber=35; addr:postcode=BT33 0LA;
+    addr:street=Ballagh Road; caravans=yes; fee=yes; name=Millstone
+    Motorhome, Caravan and Camping Park; static_caravans=yes;
+    tents=yes; tourism=camp_site; id=node/12096903727</desc>
+  </wpt>
+  <wpt lat="52.828575" lon="-4.66903">
+    <ele>84</ele>
+    <name>Felin Uchaf</name>
+    <desc>description=Camping available during the summer. Hot
+    showers and a compost toilet.; Options for staying in
+    roundhouses etc also available.; name=Felin Uchaf;
+    tourism=camp_site; id=node/12097011761</desc>
+  </wpt>
+  <wpt lat="52.8422018" lon="-4.6886241">
+    <ele>71</ele>
+    <name>node/12097020974</name>
+    <desc>tourism=camp_site; id=node/12097020974</desc>
+  </wpt>
+  <wpt lat="52.721404" lon="0.0648208">
+    <ele>0</ele>
+    <name>Hawthorne Farm Wisbech</name>
+    <desc>addr:street=Black Lane;
+    contact:email=hawthornefarmwisbech@gmail.com; name=Hawthorne
+    Farm Wisbech; phone=+44 7936 475526; tourism=camp_site;
+    id=node/12097538051</desc>
+  </wpt>
+  <wpt lat="50.83127" lon="0.0333402">
+    <ele>5</ele>
+    <name>YHA South Downs</name>
+    <desc>addr:city=Lewes; addr:housename=YHA South Downs;
+    addr:postcode=BN8 6JS; addr:street=Itford Farm Lane;
+    addr:village=Beddingham; brand=YHA; brand:wikidata=Q8059214;
+    cabins=yes; caravans=no; email=southdowns@yha.org.uk; fee=yes;
+    internet_access=wlan; internet_access:fee=no; name=YHA South
+    Downs; note=Four camping pods and two permanent bell tents. No
+    pitches for other tents or caravans etc.; operator=YHA;
+    operator:wikidata=Q8059214; phone=+44 345 371 9574;
+    static_caravans=no; tents=no; tourism=camp_site;
+    website=https://www.yha.org.uk/hostel/yha-south-downs;
+    id=node/12098364538</desc>
+    <link href="https://www.yha.org.uk/hostel/yha-south-downs">
+    </link>
+  </wpt>
+  <wpt lat="53.4985008" lon="-1.04488">
+    <ele>8</ele>
+    <name>Camp Lion Yorkshire Wildlife Park</name>
+    <desc>caravans=yes; drinking_water=yes; internet_access=wlan;
+    name=Camp Lion Yorkshire Wildlife Park; power_supply=no;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.yorkshirewildlifepark.com/book-buy/camping-at-yorkshire-wildlife-park/;
+    id=node/12101838204</desc>
+    <link href="https://www.yorkshirewildlifepark.com/book-buy/camping-at-yorkshire-wildlife-park/">
+    </link>
+  </wpt>
+  <wpt lat="57.0778051" lon="-4.0576619">
+    <ele>229</ele>
+    <name>Kingussie camping &amp; aire Croila Croft</name>
+    <desc>name=Kingussie camping &amp; aire Croila Croft;
+    tourism=camp_site;
+    website=https://highlandhorsefun.com/kingussie-camping-aire/;
+    id=node/12102763901</desc>
+    <link href="https://highlandhorsefun.com/kingussie-camping-aire/">
+    </link>
+  </wpt>
+  <wpt lat="57.3463505" lon="-4.4241536">
+    <ele>208</ele>
+    <name>node/12110605698</name>
+    <desc>backcountry=yes; opening_hours=24/7; tourism=camp_site;
+    id=node/12110605698</desc>
+  </wpt>
+  <wpt lat="56.4859147" lon="-4.7240138">
+    <ele>205</ele>
+    <name>node/12110716583</name>
+    <desc>backcountry=yes; opening_hours=24/7; tourism=camp_site;
+    id=node/12110716583</desc>
+  </wpt>
+  <wpt lat="56.0549291" lon="-4.4263986">
+    <ele>32</ele>
+    <name>node/12114107564</name>
+    <desc>backcountry=yes; tourism=camp_site;
+    id=node/12114107564</desc>
+  </wpt>
+  <wpt lat="56.2236341" lon="-4.6765521">
+    <ele>23</ele>
+    <name>node/12114353985</name>
+    <desc>backcountry=yes; camp_site=basic; tents=yes;
+    tourism=camp_site; id=node/12114353985</desc>
+  </wpt>
+  <wpt lat="57.5602633" lon="-6.257076">
+    <ele>517</ele>
+    <name>node/12115275197</name>
+    <desc>backcountry=yes; tourism=camp_site;
+    id=node/12115275197</desc>
+  </wpt>
+  <wpt lat="52.2466933" lon="-4.0536024">
+    <ele>308</ele>
+    <name>Penuwch Inn Caravan and Camping Site</name>
+    <desc>name=Penuwch Inn Caravan and Camping Site;
+    tourism=camp_site; id=node/12126464166</desc>
+  </wpt>
+  <wpt lat="52.2407408" lon="-4.0567062">
+    <ele>260</ele>
+    <name>Pentref Luxury Camping</name>
+    <desc>name=Pentref Luxury Camping; tourism=camp_site;
+    id=node/12126464167</desc>
+  </wpt>
+  <wpt lat="50.8576197" lon="-3.5072692">
+    <ele>61</ele>
+    <name>Valleyside Escapes</name>
+    <desc>group_only=yes; name=Valleyside Escapes;
+    tourism=camp_site; id=node/12128671778</desc>
+  </wpt>
+  <wpt lat="52.1480911" lon="-4.0043297">
+    <ele>148</ele>
+    <name>Wild Welsh Camping</name>
+    <desc>name=Wild Welsh Camping; tourism=camp_site;
+    id=node/12131361961</desc>
+  </wpt>
+  <wpt lat="52.2492201" lon="-0.7199679">
+    <ele>48</ele>
+    <name>Grendon Lake Camping</name>
+    <desc>name=Grendon Lake Camping; outdoor_seating=no;
+    tourism=camp_site; website=https://www.grendonlakes.co.uk/;
+    id=node/12132110102</desc>
+    <link href="https://www.grendonlakes.co.uk/"></link>
   </wpt>
   <wpt lat="53.1962852" lon="-3.4043048090871046">
     <ele>50</ele>
@@ -7337,11 +7470,12 @@ version="1.1" creator="togpx">
     <ele>9</ele>
     <name>Hillend Camping Park</name>
     <desc>addr:city=Llangennith; addr:housename=Hillend Camping
-    &amp; Caravan Park; addr:postcode=SA3 1JD; dog=no;
-    drinking_water=yes; fee=yes; maxtents=300; motor_vehicle=yes;
-    name=Hillend Camping Park; phone=+44 179 23 86 204; shower=yes;
-    static_caravans=yes; tents=yes; toilets=yes; tourism=camp_site;
-    type=multipolygon; website=https://www.hillendcamping.com/;
+    &amp; Caravan Park; addr:postcode=SA3 1JD; addr:street=Hillend
+    Carpark Track; dog=no; drinking_water=yes; fee=yes;
+    maxtents=300; motor_vehicle=yes; name=Hillend Camping Park;
+    phone=+44 179 23 86 204; shower=yes; static_caravans=yes;
+    tents=yes; toilets=yes; tourism=camp_site; type=multipolygon;
+    website=https://www.hillendcamping.com/;
     id=relation/11246454</desc>
     <link href="https://www.hillendcamping.com/"></link>
   </wpt>
@@ -7666,7 +7800,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Tarbert; addr:postcode=PA29 6YF; cabins=yes;
     caravans=yes;
     contact:facebook=https://www.facebook.com/WestLochShores?fref=ts;
-    dogs=yes; email=info@tarbertholidaypark.co.uk; fee=yes;
+    dog=yes; email=info@tarbertholidaypark.co.uk; fee=yes;
     internet_access=wlan; kitchen=yes; motorhome=yes; name=Tarbert
     Holiday Park; phone=+44 7741 576880; shower=yes; toilets=yes;
     tourism=camp_site; type=multipolygon; washing_machine=yes;
@@ -7712,6 +7846,13 @@ version="1.1" creator="togpx">
     id=relation/17873575</desc>
     <link href="https://www.balranaldhebrideanholidays.com/">
     </link>
+  </wpt>
+  <wpt lat="54.625475949999995" lon="-3.0323662026263913">
+    <ele>170</ele>
+    <name>Low Hollows</name>
+    <desc>fee=yes; name=Low Hollows; static_caravans=no; tents=yes;
+    tourism=camp_site; type=multipolygon;
+    id=relation/17934748</desc>
   </wpt>
   <wpt lat="51.565685349999995" lon="-2.558624241983944">
     <ele>56</ele>
@@ -8556,7 +8697,9 @@ version="1.1" creator="togpx">
   <wpt lat="50.8313507" lon="-1.5996834376986757">
     <ele>16</ele>
     <name>Aldridge Hill Camp Site</name>
-    <desc>name=Aldridge Hill Camp Site; tourism=camp_site;
+    <desc>caravans=yes; drinking_water=yes; name=Aldridge Hill Camp
+    Site; power_supply=no; sanitary_dump_station=yes; shower=no;
+    tents=yes; toilets=no; tourism=camp_site;
     id=way/79776106</desc>
   </wpt>
   <wpt lat="50.9142548" lon="-1.637388106758587">
@@ -8624,9 +8767,10 @@ version="1.1" creator="togpx">
     <name>Canterbury Camping and Caravanning Club Site</name>
     <desc>addr:city=Canterbury; addr:country=GB; addr:county=Kent;
     addr:postcode=CT3 4AB; addr:street=Bekesbourne Lane;
-    caravans=yes; dryer=yes; name=Canterbury Camping and
-    Caravanning Club Site; phone=+44 1227 463216; power_supply=yes;
-    tents=yes; tourism=camp_site; washing_machine=yes;
+    caravans=yes; drinking_water=yes; dryer=yes; name=Canterbury
+    Camping and Caravanning Club Site; phone=+44 1227 463216;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site; washing_machine=yes;
     website=https://www.campingandcaravanningclub.co.uk/campsites/uk/kent/canterbury/canterbury;
     id=way/89670500</desc>
     <link href="https://www.campingandcaravanningclub.co.uk/campsites/uk/kent/canterbury/canterbury">
@@ -8755,8 +8899,9 @@ version="1.1" creator="togpx">
     <ele>22</ele>
     <name>Drummohr Camping Ground</name>
     <desc>caravans=yes; drinking_water=yes; name=Drummohr Camping
-    Ground; power_supply=yes; shower=yes; tents=yes;
-    tourism=camp_site; id=way/96959141</desc>
+    Ground; power_supply=yes; sanitary_dump_station=yes;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    id=way/96959141</desc>
   </wpt>
   <wpt lat="52.41104125" lon="-2.0681277300678387">
     <ele>219</ele>
@@ -8831,8 +8976,8 @@ version="1.1" creator="togpx">
     <link href="https://www.shieldaigcampingandcabins.co.uk/">
     </link>
   </wpt>
-  <wpt lat="51.542799849999994" lon="-4.21207730205394">
-    <ele>18</ele>
+  <wpt lat="51.542136049999996" lon="-4.211214572221288">
+    <ele>13</ele>
     <name>way/101617167</name>
     <desc>tourism=camp_site; id=way/101617167</desc>
   </wpt>
@@ -11150,7 +11295,7 @@ version="1.1" creator="togpx">
   <wpt lat="56.95497025" lon="-5.847351833097579">
     <ele>17</ele>
     <name>Camusdarach Campsite</name>
-    <desc>cabins=yes; dogs=yes; name=Camusdarach Campsite;
+    <desc>cabins=yes; dog=yes; name=Camusdarach Campsite;
     source=Bing; tourism=camp_site;
     website=https://www.camusdarach.co.uk/; id=way/204814051</desc>
     <link href="https://www.camusdarach.co.uk/"></link>
@@ -11217,7 +11362,7 @@ version="1.1" creator="togpx">
     operator=Scout Adventures; surface=grass; tourism=camp_site;
     id=way/207792679</desc>
   </wpt>
-  <wpt lat="56.3171638" lon="-4.330546245891469">
+  <wpt lat="56.317157550000005" lon="-4.330630092082972">
     <ele>124</ele>
     <name>Immervoulin Caravan &amp; Campsite</name>
     <desc>name=Immervoulin Caravan &amp; Campsite;
@@ -11255,8 +11400,9 @@ version="1.1" creator="togpx">
     <ele>18</ele>
     <name>Gairloch Caravan &amp; Camp Site</name>
     <desc>addr:city=Gairloch; alt_name=Gairloch Holiday Park.;
-    caravans=yes; name=Gairloch Caravan &amp; Camp Site; tents=yes;
-    tourism=camp_site; website=https://gairlochholidaypark.co.uk/;
+    caravans=yes; drinking_water=yes; name=Gairloch Caravan &amp;
+    Camp Site; tents=yes; tourism=camp_site;
+    website=https://gairlochholidaypark.co.uk/;
     id=way/210185185</desc>
     <link href="https://gairlochholidaypark.co.uk/"></link>
   </wpt>
@@ -11304,7 +11450,7 @@ version="1.1" creator="togpx">
     <ele>12</ele>
     <name>Blackwater Campsite</name>
     <desc>addr:city=Kinlochleven; addr:postcode=PH50 4SF;
-    addr:street=Lab Road; cabins=yes; dogs=leashed; name=Blackwater
+    addr:street=Lab Road; cabins=yes; dog=leashed; name=Blackwater
     Campsite; tents=yes; tourism=camp_site;
     website=https://www.blackwaterhostel.co.uk/;
     id=way/211753745</desc>
@@ -11812,7 +11958,7 @@ version="1.1" creator="togpx">
     website=https://raywellpark.org.uk//; id=way/231323590</desc>
     <link href="https://raywellpark.org.uk//"></link>
   </wpt>
-  <wpt lat="53.523067100000006" lon="-0.05523281463893108">
+  <wpt lat="53.52270195" lon="-0.05522000475970067">
     <ele>13</ele>
     <name>Cherry Garth Scout Campsite</name>
     <desc>name=Cherry Garth Scout Campsite; tourism=camp_site;
@@ -11936,7 +12082,7 @@ version="1.1" creator="togpx">
     id=way/233666111</desc>
     <link href="https://www.fortrosebaycampsite.co.uk/"></link>
   </wpt>
-  <wpt lat="50.69827545" lon="-4.665125893090918">
+  <wpt lat="50.698276" lon="-4.665132725954328">
     <ele>135</ele>
     <name>Trebyla Farm Campsite</name>
     <desc>name=Trebyla Farm Campsite; tourism=camp_site;
@@ -12100,6 +12246,17 @@ version="1.1" creator="togpx">
     <name>Treverven Touring Park</name>
     <desc>name=Treverven Touring Park; tourism=camp_site;
     id=way/238876111</desc>
+  </wpt>
+  <wpt lat="53.0173611" lon="-4.090533455124392">
+    <ele>48</ele>
+    <name>Cae Du Campsite</name>
+    <desc>addr:postcode=LL55 4NE; caravans=yes;
+    email=stay@caeducampsite.co.uk; fee=yes; name=Cae Du Campsite;
+    phone=+44 1766 890345; power_supply=yes; source=Bing;
+    tents=yes; tourism=camp_site;
+    website=https://www.caeducampsite.co.uk/;
+    id=way/239183702</desc>
+    <link href="https://www.caeducampsite.co.uk/"></link>
   </wpt>
   <wpt lat="54.9343023" lon="-3.8179190776221077">
     <ele>19</ele>
@@ -12403,7 +12560,7 @@ version="1.1" creator="togpx">
     1PX; addr:street=Agmore Road; description=Outdoor activity
     centre, camp site, indoor accommodation. Available for Schools,
     Youth Organisations (Scouts), company activities and birthday
-    parties.; dogs=no; fee=yes; internet_access=yes; name=Blackwell
+    parties.; dog=no; fee=yes; internet_access=yes; name=Blackwell
     Adventure Outdoor Activity Centre; operator=Blackwell
     Adventure; phone=+44 121 4451285; tourism=camp_site;
     website=https://www.blackwelladventure.co.uk/;
@@ -12662,7 +12819,10 @@ version="1.1" creator="togpx">
     <ele>226</ele>
     <name>Glyncorrwg Ponds Campsite</name>
     <desc>name=Glyncorrwg Ponds Campsite; tourism=camp_site;
+    website=https://glyncorrwgmtbcentreandcampsite.co.uk/campsite/;
     id=way/272044628</desc>
+    <link href="https://glyncorrwgmtbcentreandcampsite.co.uk/campsite/">
+    </link>
   </wpt>
   <wpt lat="53.06786845" lon="-3.8340241310474186">
     <ele>82</ele>
@@ -13505,8 +13665,8 @@ version="1.1" creator="togpx">
     id=way/299009630</desc>
     <link href="https://www.cleethorpescamping.co.uk"></link>
   </wpt>
-  <wpt lat="52.63823575" lon="-0.6746059630163482">
-    <ele>124</ele>
+  <wpt lat="52.6376413" lon="-0.6735970115040739">
+    <ele>125</ele>
     <name>Lyndon Top</name>
     <desc>caravans=yes; email=info@lyndontop.com; name=Lyndon Top;
     phone=+44 15394 31222; shower=yes; tents=yes; toilets=yes;
@@ -13591,7 +13751,7 @@ version="1.1" creator="togpx">
   <wpt lat="51.89207445" lon="-5.2571849984102945">
     <ele>51</ele>
     <name>St David's Farm Park</name>
-    <desc>dogs=yes; name=St David's Farm Park; tourism=camp_site;
+    <desc>dog=yes; name=St David's Farm Park; tourism=camp_site;
     id=way/301853084</desc>
   </wpt>
   <wpt lat="53.1479625" lon="-2.985903762460816">
@@ -13882,7 +14042,7 @@ version="1.1" creator="togpx">
     id=way/309708802</desc>
     <link href="https://www.cherrytreecampingcroyde.co.uk/"></link>
   </wpt>
-  <wpt lat="50.70345415" lon="-4.656353794483124">
+  <wpt lat="50.703483500000004" lon="-4.6562020560522175">
     <ele>202</ele>
     <name>Lower Pennycrocker Farm</name>
     <desc>addr:postcode=PL35 0BY; name=Lower Pennycrocker Farm;
@@ -14687,8 +14847,13 @@ version="1.1" creator="togpx">
   <wpt lat="54.43817" lon="-0.5437094888544787">
     <ele>109</ele>
     <name>Hooks House Farm Camping</name>
-    <desc>caravans=yes; name=Hooks House Farm Camping; tents=yes;
-    tourism=camp_site; id=way/355118019</desc>
+    <desc>addr:city=Robin Hoods Bay; addr:postcode=YO22 4PE;
+    bbq=yes; caravans=yes; motorhome=yes; name=Hooks House Farm
+    Camping; openfire=no; phone=+441947880283.; power_supply=yes;
+    shower=hot; tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.hookshousefarm.co.uk/;
+    id=way/355118019</desc>
+    <link href="https://www.hookshousefarm.co.uk/"></link>
   </wpt>
   <wpt lat="52.808681899999996" lon="-4.512292437102467">
     <ele>37</ele>
@@ -15318,7 +15483,7 @@ version="1.1" creator="togpx">
   <wpt lat="56.4258062" lon="-4.669137311406502">
     <ele>193</ele>
     <name>Strathfillan Wigwams</name>
-    <desc>access=yes; cabins=yes; dogs=leashed; drinking_water=yes;
+    <desc>access=yes; cabins=yes; dog=leashed; drinking_water=yes;
     fee=yes; lit=no; name=Strathfillan Wigwams; operator=SRUC;
     payment:cash=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; power_supply=yes; reservation=yes;
@@ -15729,7 +15894,7 @@ version="1.1" creator="togpx">
     <desc>name=Wrekin Scout Camp; tourism=camp_site;
     id=way/385816199</desc>
   </wpt>
-  <wpt lat="52.08063085" lon="-3.1327658331690347">
+  <wpt lat="52.0806148" lon="-3.132884705549773">
     <ele>116</ele>
     <name>Radnor's End</name>
     <desc>name=Radnor's End; tourism=camp_site;
@@ -15999,16 +16164,6 @@ version="1.1" creator="togpx">
     <ele>40</ele>
     <name>way/409352868</name>
     <desc>tourism=camp_site; id=way/409352868</desc>
-  </wpt>
-  <wpt lat="52.13344415" lon="-3.5199369827915077">
-    <ele>157</ele>
-    <name>Irfon River Caravan Park</name>
-    <desc>cabins=yes; caravans=yes; email=jenny@irfonriver.co.uk;
-    mobile=+44 7306 819676; motorhome=yes; name=Irfon River Caravan
-    Park; phone=+44 7947 454737; shower=yes; toilets=yes;
-    tourism=camp_site; website=https://www.irfonriver.co.uk/;
-    id=way/409715055</desc>
-    <link href="https://www.irfonriver.co.uk/"></link>
   </wpt>
   <wpt lat="52.653459600000005" lon="-3.938829431792448">
     <ele>58</ele>
@@ -16643,8 +16798,9 @@ version="1.1" creator="togpx">
     <name>Little Winnick Touring Park</name>
     <desc>addr:city=Pentewan; addr:housename=Little Winnick Touring
     Park; addr:postcode=PL26 6DL; addr:street=Pentewan Road;
-    name=Little Winnick Touring Park; operator=Little Winnick
-    Touring Park; tourism=camp_site; id=way/437733450</desc>
+    caravans=yes; name=Little Winnick Touring Park; operator=Little
+    Winnick Touring Park; tents=yes; tourism=camp_site;
+    id=way/437733450</desc>
   </wpt>
   <wpt lat="52.733277799999996" lon="-2.8405524549833516">
     <ele>59</ele>
@@ -16677,7 +16833,7 @@ version="1.1" creator="togpx">
     <desc>building=yes; name=Wiltshire County Scout Centre;
     tourism=camp_site; id=way/438407539</desc>
   </wpt>
-  <wpt lat="52.77856895" lon="0.08043694115404137">
+  <wpt lat="52.77849645" lon="0.08040311893153501">
     <ele>3</ele>
     <name>Laurel Park Caravan &amp; Camp Site</name>
     <desc>addr:city=Spalding; addr:country=GB; addr:place=Gedney
@@ -16918,7 +17074,7 @@ version="1.1" creator="togpx">
     <link href="https://www.ukcampsite.co.uk/sites/details.asp?revid=9547">
     </link>
   </wpt>
-  <wpt lat="53.292187799999994" lon="-4.663945130965194">
+  <wpt lat="53.292185849999996" lon="-4.663942573714067">
     <ele>53</ele>
     <name>Blackthorn Farm Campsite</name>
     <desc>access=customers; addr:city=Holyhead, Angelsey, North
@@ -16986,7 +17142,7 @@ version="1.1" creator="togpx">
     <desc>name=Broad Farm; phone=+44 1493369273; tourism=camp_site;
     id=way/467484778</desc>
   </wpt>
-  <wpt lat="52.92016975" lon="1.3390154282388151">
+  <wpt lat="52.92018815" lon="1.3390265698297912">
     <ele>17</ele>
     <name>Overstrand Campsite (Summer Only)</name>
     <desc>name=Overstrand Campsite (Summer Only); phone=+44
@@ -17064,6 +17220,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Buttermere; addr:postcode=CA13 9XA; area=yes;
     name=Dalegarth Guest House Camp Site; phone=+44 17687 70233;
     tourism=camp_site; id=way/475273068</desc>
+  </wpt>
+  <wpt lat="53.1704487" lon="-4.057828272622736">
+    <ele>164</ele>
+    <name>Ogwen Bank Holiday Park &amp; Country Club</name>
+    <desc>cabins=yes; caravans=no; name=Ogwen Bank Holiday Park
+    &amp; Country Club; source=visual survey,bing;
+    static_caravans=yes; tents=no; tourism=camp_site;
+    url=http://www.ogwenbank.co.uk/; id=way/476120053</desc>
+    <link href="http://www.ogwenbank.co.uk/"></link>
   </wpt>
   <wpt lat="52.049345450000004" lon="0.8433409823447691">
     <ele>64</ele>
@@ -17349,8 +17514,10 @@ version="1.1" creator="togpx">
   <wpt lat="56.67289155" lon="-5.084166249942172">
     <ele>30</ele>
     <name>Glencoe Camping &amp; Caravanning Club</name>
-    <desc>addr:postcode=PH49 4LA; name=Glencoe Camping &amp;
-    Caravanning Club; phone=+44 1855 811397; tourism=camp_site;
+    <desc>addr:postcode=PH49 4LA; caravans=yes; drinking_water=yes;
+    name=Glencoe Camping &amp; Caravanning Club; phone=+44 1855
+    811397; sanitary_dump_station=yes; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
     website=https://www.campingandcaravanningclub.co.uk/campsites/uk/argyll/ballachulish/glencoe;
     id=way/486753672</desc>
     <link href="https://www.campingandcaravanningclub.co.uk/campsites/uk/argyll/ballachulish/glencoe">
@@ -17944,7 +18111,7 @@ version="1.1" creator="togpx">
     id=way/519444452</desc>
     <link href="http://www.oakfieldfarmcamping.co.uk"></link>
   </wpt>
-  <wpt lat="51.22591255" lon="1.3219511727046578">
+  <wpt lat="51.2259117" lon="1.3220659274904474">
     <ele>46</ele>
     <name>Betteshanger Scout Camp Site</name>
     <desc>name=Betteshanger Scout Camp Site; tourism=camp_site;
@@ -18200,7 +18367,7 @@ version="1.1" creator="togpx">
     <name>Loch Tay Highland Lodges</name>
     <desc>cabins=yes; caravans=no; contact:phone=+44 1567 820 323;
     contact:website=http://www.lochtay-vacations.co.uk/;
-    dogs=leashed; name=Loch Tay Highland Lodges; tents=no;
+    dog=leashed; name=Loch Tay Highland Lodges; tents=no;
     tourism=camp_site; id=way/547996561</desc>
     <link href="http://www.lochtay-vacations.co.uk/"></link>
   </wpt>
@@ -18937,7 +19104,9 @@ version="1.1" creator="togpx">
   <wpt lat="53.1430955" lon="0.23850689723728724">
     <ele>4</ele>
     <name>Windfarm Park Caravans, Camping, Fishing</name>
-    <desc>name=Windfarm Park Caravans, Camping, Fishing;
+    <desc>caravans=yes; drinking_water=yes; name=Windfarm Park
+    Caravans, Camping, Fishing; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; id=way/621205047</desc>
   </wpt>
   <wpt lat="53.17345385" lon="-4.346780877719201">
@@ -19538,6 +19707,12 @@ version="1.1" creator="togpx">
     <desc>access=customers; fee=yes; operator=Hereford Rowing Club;
     tourism=camp_site; wheelchair=yes; id=way/698608776</desc>
   </wpt>
+  <wpt lat="51.8860763" lon="-2.9739956707908703">
+    <ele>120</ele>
+    <name>Rising Sun Caravan SIte</name>
+    <desc>name=Rising Sun Caravan SIte; tourism=camp_site;
+    id=way/698912392</desc>
+  </wpt>
   <wpt lat="53.055306099999996" lon="-3.1990653910518754">
     <ele>256</ele>
     <name>Llyn Rhys Campsite</name>
@@ -19561,8 +19736,13 @@ version="1.1" creator="togpx">
   <wpt lat="51.4227871" lon="-3.5593365906829226">
     <ele>63</ele>
     <name>Heritage Coast campsite</name>
-    <desc>name=Heritage Coast campsite; tourism=camp_site;
+    <desc>addr:city=Monknash; addr:housename=Heritage Coast
+    Campsite; addr:postcode=CF71 7QQ;
+    email=info@heritagecoastcampsite.com; fee=yes; name=Heritage
+    Coast campsite; phone=+44 (0)1656 890399; tents=yes;
+    tourism=camp_site; website=https://heritagecoast.uk/;
     id=way/699431999</desc>
+    <link href="https://heritagecoast.uk/"></link>
   </wpt>
   <wpt lat="51.77207955" lon="-5.091488792665793">
     <ele>49</ele>
@@ -20008,7 +20188,7 @@ version="1.1" creator="togpx">
     <name>way/755754092</name>
     <desc>tourism=camp_site; id=way/755754092</desc>
   </wpt>
-  <wpt lat="51.29623395" lon="0.5226325424274851">
+  <wpt lat="51.295859" lon="0.5228579592958286">
     <ele>20</ele>
     <name>Lower Grange Farm Scout Activity Centre</name>
     <desc>access=private; addr:city=Maidstone; addr:country=GB;
@@ -20174,11 +20354,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.98611675" lon="-2.4213531682592038">
     <ele>254</ele>
-    <name>Hadrian's Wall Camping</name>
+    <name>Hadrian's Wall Campsite</name>
     <desc>caravans=yes;
     contact:website=https://www.hadrianswallcampsite.co.uk/;
-    drinking_water=yes; name=Hadrian's Wall Camping; phone=+44 1434
-    320 495; power_supply=yes; sanitary_dump_station=yes;
+    drinking_water=yes; name=Hadrian's Wall Campsite; phone=+44
+    1434 320 495; power_supply=yes; sanitary_dump_station=yes;
     shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     id=way/780859240</desc>
     <link href="https://www.hadrianswallcampsite.co.uk/"></link>
@@ -20783,11 +20963,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.497600750000004" lon="-1.0445502095545303">
     <name>Burravoe Pier Trust Campsite</name>
-    <desc>caravans=yes; internet_access=no; name=Burravoe Pier
+    <desc>caravans=yes; fee=tent: 10£, Caravan and Motorhome: 20£;
+    internet_access=no; laundry_service=yes; name=Burravoe Pier
     Trust Campsite; operator=Burravoe Pier Trust; payment:cash=yes;
-    payment:others=no; phone=44 1957722315; reservation=no;
-    sanitary_dump_station=no; tents=yes; tourism=camp_site;
-    id=way/841427337</desc>
+    payment:others=banni transfer; phone=44 1957722315;
+    reservation=no; sanitary_dump_station=no; shower=yes;
+    tents=yes; tourism=camp_site; id=way/841427337</desc>
   </wpt>
   <wpt lat="52.56467385" lon="-0.31636187189655324">
     <ele>5</ele>
@@ -21394,8 +21575,9 @@ version="1.1" creator="togpx">
     <ele>247</ele>
     <name>Low Way Farm Camping Site</name>
     <desc>addr:city=Barnard Castle; addr:postcode=DL12 0NJ;
-    capacity=30; name=Low Way Farm Camping Site; operator=Low Way
-    Farm; tourism=camp_site; id=way/890736628</desc>
+    capacity=30; caravans=no; drinking_water=yes; name=Low Way Farm
+    Camping Site; operator=Low Way Farm; tents=yes;
+    tourism=camp_site; id=way/890736628</desc>
   </wpt>
   <wpt lat="53.136702" lon="-3.313698991474223">
     <ele>51</ele>
@@ -21980,7 +22162,7 @@ version="1.1" creator="togpx">
     <ele>19</ele>
     <name>The Stables</name>
     <desc>addr:city=Bristol; addr:place=Bitton; addr:postcode=BS30
-    6HX; addr:street=Bath Road; caravans=yes; dogs=leashed;
+    6HX; addr:street=Bath Road; caravans=yes; dog=leashed;
     facebook=https://www.facebook.com/The-Stables-Bitton-CampingCaravan-1874108109275581/;
     name=The Stables; shower=no; tents=yes; tourism=camp_site;
     website=https://www.pitchup.com/campsites/England/South_West/greater-bristol/Bristol/stables/;
@@ -22129,10 +22311,11 @@ version="1.1" creator="togpx">
   <wpt lat="51.3937339" lon="-2.2870741281578213">
     <ele>190</ele>
     <name>The Blackberries Camping Park</name>
-    <desc>
+    <desc>caravans=yes; drinking_water=yes;
     facebook=https://www.facebook.com/theblackberrieswiltshire/;
-    name=The Blackberries Camping Park; tourism=camp_site;
-    id=way/972290848</desc>
+    name=The Blackberries Camping Park; power_supply=yes;
+    sanitary_dump_station=no; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; id=way/972290848</desc>
   </wpt>
   <wpt lat="50.955494099999996" lon="-0.6500101174083334">
     <ele>41</ele>
@@ -22282,6 +22465,15 @@ version="1.1" creator="togpx">
     id=way/976693580</desc>
     <link href="https://www.ukcampsite.co.uk/sites/details.asp?revid=17620">
     </link>
+  </wpt>
+  <wpt lat="52.8437311" lon="0.491095202604985">
+    <ele>9</ele>
+    <name>Pine Cones Caravan &amp; Camping</name>
+    <desc>addr:city=King's Lynn; addr:postcode=PE31 6WL;
+    addr:street=A149 Dersingham Bypass; addr:village=Dersingham;
+    caravans=yes; name=Pine Cones Caravan &amp; Camping; phone=+44
+    1485 544224; tents=yes; tourism=camp_site;
+    id=way/977331885</desc>
   </wpt>
   <wpt lat="54.14969015" lon="-2.039764965038729">
     <ele>236</ele>
@@ -23193,7 +23385,11 @@ version="1.1" creator="togpx">
   <wpt lat="55.609980699999994" lon="-1.7576829672489238">
     <ele>6</ele>
     <name>Budle Farm Campsite</name>
-    <desc>name=Budle Farm Campsite; tourism=camp_site;
+    <desc>caravans=yes; charge=15 GBP; check_date=2024-08-05;
+    drinking_water=yes; fee=yes; name=Budle Farm Campsite;
+    openfire=yes; payment:cash=yes; picnic_table=no;
+    power_supply=no; sanitary_dump_station=yes; shower=no;
+    static_caravans=yes; tents=yes; toilets=no; tourism=camp_site;
     id=way/1068905849</desc>
   </wpt>
   <wpt lat="54.97602835" lon="-2.6714533720653315">
@@ -23406,7 +23602,7 @@ version="1.1" creator="togpx">
     <desc>access=customers; addr:city=Bury St Edmunds;
     addr:country=GB; addr:housename=Brighthouse Farm;
     addr:postcode=IP29 4PX; addr:street=Melford Road;
-    bbq=bring_your_own; cabins=no; caravans=yes; dog=yes; dogs=yes;
+    bbq=bring_your_own; cabins=no; caravans=yes; dog=yes;
     drinking_water=yes; group_only=no; hot_water=yes;
     motor_vehicle=yes; name=Brighthouse Farm Caravan &amp;
     Campsite; nudism=no; opening_hours=24/7; operator=Brighthouse
@@ -23474,7 +23670,7 @@ version="1.1" creator="togpx">
   <wpt lat="56.23008435" lon="-2.937271202818449">
     <ele>119</ele>
     <name>Largo Law</name>
-    <desc>access=customers; cabins=yes; dogs=leashed; name=Largo
+    <desc>access=customers; cabins=yes; dog=leashed; name=Largo
     Law; tents=no; tourism=camp_site; id=way/1085350717</desc>
   </wpt>
   <wpt lat="55.75292485" lon="-5.38193939509955">
@@ -23499,7 +23695,7 @@ version="1.1" creator="togpx">
     <link href="https://www.ukcampsite.co.uk/sites/details.asp?revid=2560">
     </link>
   </wpt>
-  <wpt lat="51.94514495" lon="-3.0403261214439654">
+  <wpt lat="51.94513215" lon="-3.0403082405052673">
     <ele>231</ele>
     <name>Vale of Ewyas campsite</name>
     <desc>access=permissive; charge=£10 for a van; fee=yes;
@@ -23667,7 +23863,7 @@ version="1.1" creator="togpx">
     <ele>241</ele>
     <name>Kilry Eco Pods</name>
     <desc>access=customers; cabins=yes; capacity:caravans=0;
-    dogs=yes; fee=yes; name=Kilry Eco Pods; tents=no;
+    dog=yes; fee=yes; name=Kilry Eco Pods; tents=no;
     tourism=camp_site; id=way/1099725754</desc>
   </wpt>
   <wpt lat="57.28838735" lon="-5.499171813799174">
@@ -23675,7 +23871,7 @@ version="1.1" creator="togpx">
     <name>Dornie Wigwams</name>
     <desc>access=customers; addr:housename=Dornie Wigwams;
     addr:postcode=IV40 8ES; cabins=yes; capacity:caravans=0;
-    caravans=no; dogs=yes; name=Dornie Wigwams; tents=no;
+    caravans=no; dog=yes; name=Dornie Wigwams; tents=no;
     tourism=camp_site;
     website=https://www.wigwamholidays.com/dornie/;
     id=way/1099798807</desc>
@@ -24345,13 +24541,13 @@ version="1.1" creator="togpx">
     id=way/1162986348</desc>
     <link href="http://www.foxhillscamping.co.uk/"></link>
   </wpt>
-  <wpt lat="52.22096315" lon="1.4901140343666928">
+  <wpt lat="52.220963350000005" lon="1.4900994768175169">
     <ele>18</ele>
     <name>Carlton Park Camping and Caravan Site</name>
     <desc>caravans=yes; motorhome=yes; name=Carlton Park Camping
-    and Caravan Site; opening_hours=Apr 1 - Oct 31; shower=yes;
-    tents=yes; toilets=yes; tourism=camp_site;
-    website=https://www.carltonpark.info/; id=way/1163047239</desc>
+    and Caravan Site; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; website=https://www.carltonpark.info/;
+    id=way/1163047239</desc>
     <link href="https://www.carltonpark.info/"></link>
   </wpt>
   <wpt lat="54.5699534" lon="-1.9293044465246592">
@@ -24746,6 +24942,12 @@ version="1.1" creator="togpx">
     <link href="https://www.aysgarthfallshotel.com/camping/">
     </link>
   </wpt>
+  <wpt lat="52.40126025" lon="-3.830780066187819">
+    <ele>246</ele>
+    <name>Tynyffordd Fach Farm</name>
+    <desc>landuse=farmyard; name=Tynyffordd Fach Farm;
+    tourism=camp_site; id=way/1185523671</desc>
+  </wpt>
   <wpt lat="54.1989885" lon="-1.460496971984687">
     <ele>29</ele>
     <name>Venus Campsite</name>
@@ -24960,7 +25162,7 @@ version="1.1" creator="togpx">
     id=way/1194622746</desc>
     <link href="https://www.wigbayholidaypark.co.uk/"></link>
   </wpt>
-  <wpt lat="56.44202155" lon="-2.870643393955528">
+  <wpt lat="56.4419038" lon="-2.8706037107339686">
     <ele>6</ele>
     <name>Larick Campsite</name>
     <desc>access=customers; addr:city=Tayport;
@@ -25713,7 +25915,7 @@ version="1.1" creator="togpx">
   <wpt lat="51.83525285" lon="-5.084207148371259">
     <ele>88</ele>
     <name>Hilton Court</name>
-    <desc>access=customers; charge=22 GBP; dogs=yes; fee=yes;
+    <desc>access=customers; charge=22 GBP; dog=yes; fee=yes;
     operator=Hilton Court; static_caravans=no; tents=yes;
     tourism=camp_site; id=way/1266165181</desc>
   </wpt>
@@ -26545,23 +26747,96 @@ version="1.1" creator="togpx">
     <name>way/1305377089</name>
     <desc>tourism=camp_site; id=way/1305377089</desc>
   </wpt>
-  <wpt lat="54.6266689" lon="-3.0345408913568215">
-    <ele>199</ele>
-    <name>Low Hollows</name>
-    <desc>fee=yes; name=Low Hollows; static_caravans=no; tents=yes;
-    tourism=camp_site; id=way/1305533358</desc>
+  <wpt lat="52.028580250000005" lon="-0.2725040689660805">
+    <ele>38</ele>
+    <name>Henlow Bridge Lakes and Riverside</name>
+    <desc>addr:city=Henlow; addr:street=Bridge End Road;
+    name=Henlow Bridge Lakes and Riverside; tourism=camp_site;
+    website=https://www.henlowbridgelakes.co.uk/;
+    id=way/1305731427</desc>
+    <link href="https://www.henlowbridgelakes.co.uk/"></link>
   </wpt>
-  <wpt lat="54.624581250000006" lon="-3.0274549308444776">
-    <ele>151</ele>
-    <name>Low Hollows</name>
-    <desc>fee=yes; name=Low Hollows; static_caravans=no; tents=yes;
-    tourism=camp_site; id=way/1305533359</desc>
+  <wpt lat="51.2398339" lon="0.45092635786344426">
+    <ele>87</ele>
+    <name>Orchard View Park</name>
+    <desc>access=customers; caravans=yes; fee=yes; name=Orchard
+    View Park; static_caravans=no; tents=yes; tourism=camp_site;
+    id=way/1305741388</desc>
   </wpt>
-  <wpt lat="54.6255228" lon="-3.030789017545731">
-    <ele>166</ele>
-    <name>Low Hollows</name>
-    <desc>fee=yes; name=Low Hollows; static_caravans=no; tents=yes;
-    tourism=camp_site; id=way/1305533360</desc>
+  <wpt lat="51.8318848" lon="-2.8529718153823835">
+    <ele>60</ele>
+    <name>way/1306400295</name>
+    <desc>surface=grass; tourism=camp_site;
+    id=way/1306400295</desc>
+  </wpt>
+  <wpt lat="53.4817804" lon="-0.3734725734783315">
+    <ele>24</ele>
+    <name>The Skipworth Arms Campsite</name>
+    <desc>addr:city=Market Rasen; addr:country=GB;
+    addr:housenumber=2; addr:postcode=LN7 6HZ; addr:street=Station
+    Road; addr:suburb=Moortown; caravans=yes; name=The Skipworth
+    Arms Campsite; phone=+44 1472 851 770; tents=yes;
+    tourism=camp_site; id=way/1306875094</desc>
+  </wpt>
+  <wpt lat="54.269722900000005" lon="-2.1497217865490708">
+    <ele>264</ele>
+    <name>Stablefell Camping</name>
+    <desc>alt_name=Stable Fell Camp Site; caravans=no;
+    drinking_water=yes; name=Stablefell Camping; power_supply=no;
+    reservation=recommended; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site;
+    website=https://stablefellholidays.co.uk/camping;
+    id=way/1308295566</desc>
+    <link href="https://stablefellholidays.co.uk/camping"></link>
+  </wpt>
+  <wpt lat="52.127934999999994" lon="-1.4207402023106108">
+    <ele>200</ele>
+    <name>Edgehill Country Park Campsite</name>
+    <desc>name=Edgehill Country Park Campsite; tourism=camp_site;
+    website=https://edgehillcountrypark.co.uk/;
+    id=way/1308593625</desc>
+    <link href="https://edgehillcountrypark.co.uk/"></link>
+  </wpt>
+  <wpt lat="54.373444899999996" lon="-1.9267242642166398">
+    <ele>261</ele>
+    <name>YHA</name>
+    <desc>operator=YHA; tents=yes; tourism=camp_site;
+    id=way/1308675329</desc>
+  </wpt>
+  <wpt lat="51.7479443" lon="-4.7346302706066945">
+    <ele>113</ele>
+    <name>Sloth Hangout (Electric Camping)</name>
+    <desc>internet_access=wlan; name=Sloth Hangout (Electric
+    Camping); nudism=no; operator=Folly Farm; reservation=required;
+    sanitary_dump_station=customers; tents=yes; tourism=camp_site;
+    id=way/1309112018</desc>
+  </wpt>
+  <wpt lat="52.9761181" lon="-0.930413058890549">
+    <ele>26</ele>
+    <name>way/1309940073</name>
+    <desc>caravans=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1309940073</desc>
+  </wpt>
+  <wpt lat="52.295161" lon="-3.852184611118688">
+    <ele>283</ele>
+    <name>Penrhiw Campsite</name>
+    <desc>name=Penrhiw Campsite; tourism=camp_site;
+    id=way/1309958336</desc>
+  </wpt>
+  <wpt lat="52.3976437" lon="-3.830351769875203">
+    <ele>251</ele>
+    <name>way/1309958340</name>
+    <desc>tourism=camp_site; id=way/1309958340</desc>
+  </wpt>
+  <wpt lat="52.3252691" lon="-3.928620814655882">
+    <ele>84</ele>
+    <name>way/1309962829</name>
+    <desc>tourism=camp_site; id=way/1309962829</desc>
+  </wpt>
+  <wpt lat="51.2113924" lon="1.2991070641416442">
+    <ele>41</ele>
+    <name>way/1310433672</name>
+    <desc>tourism=camp_site; id=way/1310433672</desc>
   </wpt>
   <wpt lat="58.569706100000005" lon="-4.7432036348231135">
     <ele>31</ele>
@@ -29839,6 +30114,92 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Low Hollows</name>
+    <trkseg>
+      <trkpt lat="54.6261357" lon="-3.0310779"></trkpt>
+      <trkpt lat="54.6259772" lon="-3.031438"></trkpt>
+      <trkpt lat="54.6258994" lon="-3.0315628"></trkpt>
+      <trkpt lat="54.6258049" lon="-3.0315292"></trkpt>
+      <trkpt lat="54.6253769" lon="-3.0311547"></trkpt>
+      <trkpt lat="54.6252573" lon="-3.031001"></trkpt>
+      <trkpt lat="54.6251489" lon="-3.030905"></trkpt>
+      <trkpt lat="54.6250628" lon="-3.030713"></trkpt>
+      <trkpt lat="54.6250183" lon="-3.0304969"></trkpt>
+      <trkpt lat="54.6249738" lon="-3.029964"></trkpt>
+      <trkpt lat="54.6250211" lon="-3.0295799"></trkpt>
+      <trkpt lat="54.6251656" lon="-3.0296183"></trkpt>
+      <trkpt lat="54.6253324" lon="-3.0297383"></trkpt>
+      <trkpt lat="54.6253407" lon="-3.0301224"></trkpt>
+      <trkpt lat="54.6256687" lon="-3.0304345"></trkpt>
+      <trkpt lat="54.6259995" lon="-3.030761"></trkpt>
+      <trkpt lat="54.6261357" lon="-3.0310779"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="54.6274052" lon="-3.0344898"></trkpt>
+      <trkpt lat="54.6272971" lon="-3.0347873"></trkpt>
+      <trkpt lat="54.6272609" lon="-3.0348065"></trkpt>
+      <trkpt lat="54.6271053" lon="-3.0347681"></trkpt>
+      <trkpt lat="54.6270163" lon="-3.0348161"></trkpt>
+      <trkpt lat="54.6269274" lon="-3.0349649"></trkpt>
+      <trkpt lat="54.6267412" lon="-3.035373"></trkpt>
+      <trkpt lat="54.6265966" lon="-3.0353634"></trkpt>
+      <trkpt lat="54.6263771" lon="-3.035229"></trkpt>
+      <trkpt lat="54.6262575" lon="-3.0352866"></trkpt>
+      <trkpt lat="54.6259629" lon="-3.0351762"></trkpt>
+      <trkpt lat="54.6259129" lon="-3.0351138"></trkpt>
+      <trkpt lat="54.6258823" lon="-3.0350273"></trkpt>
+      <trkpt lat="54.6258712" lon="-3.0349169"></trkpt>
+      <trkpt lat="54.6258795" lon="-3.0347249"></trkpt>
+      <trkpt lat="54.6261603" lon="-3.0335917"></trkpt>
+      <trkpt lat="54.6262744" lon="-3.0333745"></trkpt>
+      <trkpt lat="54.6263743" lon="-3.0334238"></trkpt>
+      <trkpt lat="54.626888" lon="-3.0339291"></trkpt>
+      <trkpt lat="54.6274052" lon="-3.0344898"></trkpt>
+    </trkseg>
+    <trkseg>
+      <trkpt lat="54.6258191" lon="-3.0327771"></trkpt>
+      <trkpt lat="54.625575" lon="-3.0333163"></trkpt>
+      <trkpt lat="54.6245373" lon="-3.0321173"></trkpt>
+      <trkpt lat="54.6239983" lon="-3.0315937"></trkpt>
+      <trkpt lat="54.6233587" lon="-3.0309029"></trkpt>
+      <trkpt lat="54.6236406" lon="-3.0304627"></trkpt>
+      <trkpt lat="54.6238329" lon="-3.0300663"></trkpt>
+      <trkpt lat="54.6239123" lon="-3.0297836"></trkpt>
+      <trkpt lat="54.6239494" lon="-3.0295504"></trkpt>
+      <trkpt lat="54.6239629" lon="-3.0290724"></trkpt>
+      <trkpt lat="54.6239241" lon="-3.0280318"></trkpt>
+      <trkpt lat="54.6240291" lon="-3.0269031"></trkpt>
+      <trkpt lat="54.6241858" lon="-3.0263956"></trkpt>
+      <trkpt lat="54.6246171" lon="-3.0255464"></trkpt>
+      <trkpt lat="54.6247831" lon="-3.0249874"></trkpt>
+      <trkpt lat="54.624999" lon="-3.0249854"></trkpt>
+      <trkpt lat="54.6250085" lon="-3.0252885"></trkpt>
+      <trkpt lat="54.6249551" lon="-3.025626"></trkpt>
+      <trkpt lat="54.6247261" lon="-3.0266562"></trkpt>
+      <trkpt lat="54.6247483" lon="-3.0278901"></trkpt>
+      <trkpt lat="54.6247678" lon="-3.0285767"></trkpt>
+      <trkpt lat="54.6248067" lon="-3.0289128"></trkpt>
+      <trkpt lat="54.6247205" lon="-3.0290809"></trkpt>
+      <trkpt lat="54.6244398" lon="-3.0295082"></trkpt>
+      <trkpt lat="54.6244953" lon="-3.0296954"></trkpt>
+      <trkpt lat="54.6245454" lon="-3.0301083"></trkpt>
+      <trkpt lat="54.6247372" lon="-3.0302236"></trkpt>
+      <trkpt lat="54.624701" lon="-3.0308573"></trkpt>
+      <trkpt lat="54.6247233" lon="-3.0316543"></trkpt>
+      <trkpt lat="54.6249012" lon="-3.0315487"></trkpt>
+      <trkpt lat="54.6249568" lon="-3.0311934"></trkpt>
+      <trkpt lat="54.6250568" lon="-3.0310158"></trkpt>
+      <trkpt lat="54.6251013" lon="-3.0310014"></trkpt>
+      <trkpt lat="54.6251708" lon="-3.0311358"></trkpt>
+      <trkpt lat="54.6253431" lon="-3.0313759"></trkpt>
+      <trkpt lat="54.6255905" lon="-3.0316639"></trkpt>
+      <trkpt lat="54.6256211" lon="-3.0317552"></trkpt>
+      <trkpt lat="54.6256322" lon="-3.032048"></trkpt>
+      <trkpt lat="54.6256683" lon="-3.0322257"></trkpt>
+      <trkpt lat="54.6258191" lon="-3.0327771"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Woodhouse Park Activity Centre</name>
     <trkseg>
       <trkpt lat="51.5630389" lon="-2.5558902"></trkpt>
@@ -31225,7 +31586,7 @@ version="1.1" creator="togpx">
       <trkpt lat="51.3879292" lon="-2.4030498"></trkpt>
       <trkpt lat="51.3887413" lon="-2.4053639"></trkpt>
       <trkpt lat="51.3893977" lon="-2.4048167"></trkpt>
-      <trkpt lat="51.3896631" lon="-2.4057997"></trkpt>
+      <trkpt lat="51.3897893" lon="-2.4061486"></trkpt>
       <trkpt lat="51.3902087" lon="-2.4074628"></trkpt>
       <trkpt lat="51.3899745" lon="-2.4076926"></trkpt>
       <trkpt lat="51.3898664" lon="-2.4075952"></trkpt>
@@ -33623,26 +33984,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>way/101617167</name>
     <trkseg>
-      <trkpt lat="51.5447827" lon="-4.2130339"></trkpt>
-      <trkpt lat="51.5453646" lon="-4.2114683"></trkpt>
-      <trkpt lat="51.5454225" lon="-4.2114747"></trkpt>
-      <trkpt lat="51.5454396" lon="-4.2117587"></trkpt>
-      <trkpt lat="51.5456539" lon="-4.2122077"></trkpt>
-      <trkpt lat="51.5459403" lon="-4.2125013"></trkpt>
-      <trkpt lat="51.5461501" lon="-4.2129267"></trkpt>
-      <trkpt lat="51.5462687" lon="-4.2133253"></trkpt>
-      <trkpt lat="51.5462459" lon="-4.2134573"></trkpt>
-      <trkpt lat="51.5463432" lon="-4.2139684"></trkpt>
-      <trkpt lat="51.5459323" lon="-4.2141217"></trkpt>
-      <trkpt lat="51.5459482" lon="-4.214356"></trkpt>
-      <trkpt lat="51.5453374" lon="-4.2147999"></trkpt>
-      <trkpt lat="51.54524" lon="-4.2144064"></trkpt>
-      <trkpt lat="51.5448171" lon="-4.2145401"></trkpt>
-      <trkpt lat="51.5446222" lon="-4.213883"></trkpt>
-      <trkpt lat="51.5445579" lon="-4.2138175"></trkpt>
-      <trkpt lat="51.5444822" lon="-4.2138234"></trkpt>
-      <trkpt lat="51.5443409" lon="-4.2140373"></trkpt>
-      <trkpt lat="51.5442143" lon="-4.2141495"></trkpt>
+      <trkpt lat="51.5446378" lon="-4.2138161"></trkpt>
+      <trkpt lat="51.5445515" lon="-4.2137302"></trkpt>
+      <trkpt lat="51.544501" lon="-4.2137396"></trkpt>
+      <trkpt lat="51.5444518" lon="-4.2137825"></trkpt>
+      <trkpt lat="51.5443809" lon="-4.213863"></trkpt>
+      <trkpt lat="51.5443146" lon="-4.2139576"></trkpt>
+      <trkpt lat="51.5442383" lon="-4.2140239"></trkpt>
       <trkpt lat="51.5441915" lon="-4.2140606"></trkpt>
       <trkpt lat="51.5436763" lon="-4.2132389"></trkpt>
       <trkpt lat="51.5425773" lon="-4.2128927"></trkpt>
@@ -33669,6 +34017,12 @@ version="1.1" creator="togpx">
       <trkpt lat="51.5438408" lon="-4.2119319"></trkpt>
       <trkpt lat="51.5438082" lon="-4.2120723"></trkpt>
       <trkpt lat="51.5447827" lon="-4.2130339"></trkpt>
+      <trkpt lat="51.5447629" lon="-4.2130932"></trkpt>
+      <trkpt lat="51.5447879" lon="-4.2132287"></trkpt>
+      <trkpt lat="51.5447789" lon="-4.2133239"></trkpt>
+      <trkpt lat="51.5447145" lon="-4.2138228"></trkpt>
+      <trkpt lat="51.5446662" lon="-4.2138469"></trkpt>
+      <trkpt lat="51.5446378" lon="-4.2138161"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -33870,8 +34224,11 @@ version="1.1" creator="togpx">
       <trkpt lat="52.4741938" lon="-4.0543736"></trkpt>
       <trkpt lat="52.4745141" lon="-4.0542368"></trkpt>
       <trkpt lat="52.4748843" lon="-4.0540687"></trkpt>
-      <trkpt lat="52.4749877" lon="-4.05481"></trkpt>
-      <trkpt lat="52.4754028" lon="-4.0543307"></trkpt>
+      <trkpt lat="52.4749338" lon="-4.0548843"></trkpt>
+      <trkpt lat="52.4751004" lon="-4.0548901"></trkpt>
+      <trkpt lat="52.4753295" lon="-4.0548145"></trkpt>
+      <trkpt lat="52.4754262" lon="-4.054694"></trkpt>
+      <trkpt lat="52.4754914" lon="-4.0547958"></trkpt>
       <trkpt lat="52.4754477" lon="-4.0552387"></trkpt>
       <trkpt lat="52.4753833" lon="-4.0561979"></trkpt>
       <trkpt lat="52.4753145" lon="-4.0572664"></trkpt>
@@ -41883,21 +42240,24 @@ version="1.1" creator="togpx">
   <trk>
     <name>Immervoulin Caravan &amp; Campsite</name>
     <trkseg>
-      <trkpt lat="56.3188946" lon="-4.3298944"></trkpt>
-      <trkpt lat="56.3181033" lon="-4.3307916"></trkpt>
-      <trkpt lat="56.3172337" lon="-4.3315691"></trkpt>
-      <trkpt lat="56.3165039" lon="-4.3317657"></trkpt>
+      <trkpt lat="56.3186467" lon="-4.3301305"></trkpt>
+      <trkpt lat="56.3183384" lon="-4.3305866"></trkpt>
+      <trkpt lat="56.3178854" lon="-4.3310236"></trkpt>
+      <trkpt lat="56.3175057" lon="-4.3314046"></trkpt>
+      <trkpt lat="56.3172212" lon="-4.3317481"></trkpt>
+      <trkpt lat="56.3167478" lon="-4.3318005"></trkpt>
+      <trkpt lat="56.3161917" lon="-4.3316925"></trkpt>
       <trkpt lat="56.3154116" lon="-4.331599"></trkpt>
-      <trkpt lat="56.3151462" lon="-4.3313555"></trkpt>
+      <trkpt lat="56.315194" lon="-4.3316051"></trkpt>
       <trkpt lat="56.3152694" lon="-4.3308087"></trkpt>
       <trkpt lat="56.3155561" lon="-4.3293005"></trkpt>
       <trkpt lat="56.3159234" lon="-4.3294116"></trkpt>
       <trkpt lat="56.3162125" lon="-4.3295355"></trkpt>
       <trkpt lat="56.3170939" lon="-4.3295099"></trkpt>
       <trkpt lat="56.3179895" lon="-4.3294415"></trkpt>
-      <trkpt lat="56.3190273" lon="-4.3292621"></trkpt>
-      <trkpt lat="56.3190794" lon="-4.3295184"></trkpt>
-      <trkpt lat="56.3188946" lon="-4.3298944"></trkpt>
+      <trkpt lat="56.3189046" lon="-4.329261"></trkpt>
+      <trkpt lat="56.3190092" lon="-4.3298224"></trkpt>
+      <trkpt lat="56.3186467" lon="-4.3301305"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -43892,8 +44252,8 @@ version="1.1" creator="togpx">
       <trkpt lat="53.5224629" lon="-0.0537382"></trkpt>
       <trkpt lat="53.5236732" lon="-0.0541468"></trkpt>
       <trkpt lat="53.5235253" lon="-0.0546698"></trkpt>
-      <trkpt lat="53.5237166" lon="-0.0558714"></trkpt>
-      <trkpt lat="53.5231932" lon="-0.0563433"></trkpt>
+      <trkpt lat="53.523302" lon="-0.0564105"></trkpt>
+      <trkpt lat="53.5230003" lon="-0.0563084"></trkpt>
       <trkpt lat="53.522941" lon="-0.0567036"></trkpt>
     </trkseg>
   </trk>
@@ -44261,14 +44621,24 @@ version="1.1" creator="togpx">
   <trk>
     <name>Trebyla Farm Campsite</name>
     <trkseg>
-      <trkpt lat="50.69871" lon="-4.6653795"></trkpt>
-      <trkpt lat="50.6985898" lon="-4.6655534"></trkpt>
-      <trkpt lat="50.6983143" lon="-4.6657828"></trkpt>
-      <trkpt lat="50.6977783" lon="-4.6646954"></trkpt>
-      <trkpt lat="50.6980788" lon="-4.6644067"></trkpt>
-      <trkpt lat="50.6982366" lon="-4.6645688"></trkpt>
-      <trkpt lat="50.6983243" lon="-4.6645214"></trkpt>
-      <trkpt lat="50.69871" lon="-4.6653795"></trkpt>
+      <trkpt lat="50.6987363" lon="-4.6653609"></trkpt>
+      <trkpt lat="50.6987125" lon="-4.6653976"></trkpt>
+      <trkpt lat="50.698671" lon="-4.6654612"></trkpt>
+      <trkpt lat="50.6985417" lon="-4.6656158"></trkpt>
+      <trkpt lat="50.6983284" lon="-4.6658001"></trkpt>
+      <trkpt lat="50.6981817" lon="-4.6653992"></trkpt>
+      <trkpt lat="50.6980319" lon="-4.6650712"></trkpt>
+      <trkpt lat="50.6978077" lon="-4.6646846"></trkpt>
+      <trkpt lat="50.6980173" lon="-4.6644177"></trkpt>
+      <trkpt lat="50.6980939" lon="-4.6644067"></trkpt>
+      <trkpt lat="50.6982485" lon="-4.664578"></trkpt>
+      <trkpt lat="50.6983035" lon="-4.6646391"></trkpt>
+      <trkpt lat="50.6983426" lon="-4.664737"></trkpt>
+      <trkpt lat="50.69842" lon="-4.6646548"></trkpt>
+      <trkpt lat="50.6985477" lon="-4.6649399"></trkpt>
+      <trkpt lat="50.6987034" lon="-4.6652874"></trkpt>
+      <trkpt lat="50.6987246" lon="-4.6653347"></trkpt>
+      <trkpt lat="50.6987363" lon="-4.6653609"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -44758,6 +45128,64 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Cae Du Campsite</name>
+    <trkseg>
+      <trkpt lat="53.0185655" lon="-4.0910125"></trkpt>
+      <trkpt lat="53.0186106" lon="-4.0911359"></trkpt>
+      <trkpt lat="53.0184977" lon="-4.0913344"></trkpt>
+      <trkpt lat="53.0182395" lon="-4.0917957"></trkpt>
+      <trkpt lat="53.017791" lon="-4.0922088"></trkpt>
+      <trkpt lat="53.017194" lon="-4.0926755"></trkpt>
+      <trkpt lat="53.0170262" lon="-4.0927935"></trkpt>
+      <trkpt lat="53.0160566" lon="-4.0941483"></trkpt>
+      <trkpt lat="53.0158637" lon="-4.0938621"></trkpt>
+      <trkpt lat="53.015816" lon="-4.0937913"></trkpt>
+      <trkpt lat="53.0161146" lon="-4.0932792"></trkpt>
+      <trkpt lat="53.0161986" lon="-4.0933221"></trkpt>
+      <trkpt lat="53.0162808" lon="-4.0933087"></trkpt>
+      <trkpt lat="53.0163131" lon="-4.0931693"></trkpt>
+      <trkpt lat="53.016326" lon="-4.0929761"></trkpt>
+      <trkpt lat="53.0163583" lon="-4.0929225"></trkpt>
+      <trkpt lat="53.0164245" lon="-4.0930646"></trkpt>
+      <trkpt lat="53.0164551" lon="-4.0930298"></trkpt>
+      <trkpt lat="53.0164422" lon="-4.0929439"></trkpt>
+      <trkpt lat="53.0163906" lon="-4.0928581"></trkpt>
+      <trkpt lat="53.0163922" lon="-4.0926677"></trkpt>
+      <trkpt lat="53.0162873" lon="-4.0926006"></trkpt>
+      <trkpt lat="53.0162873" lon="-4.0925041"></trkpt>
+      <trkpt lat="53.0162561" lon="-4.0923929"></trkpt>
+      <trkpt lat="53.0162421" lon="-4.0923431"></trkpt>
+      <trkpt lat="53.0162133" lon="-4.0922915"></trkpt>
+      <trkpt lat="53.0161582" lon="-4.0921929"></trkpt>
+      <trkpt lat="53.0160808" lon="-4.09215"></trkpt>
+      <trkpt lat="53.016028" lon="-4.0921719"></trkpt>
+      <trkpt lat="53.0157307" lon="-4.091763"></trkpt>
+      <trkpt lat="53.015766" lon="-4.0917151"></trkpt>
+      <trkpt lat="53.0159864" lon="-4.0914163"></trkpt>
+      <trkpt lat="53.0161751" lon="-4.0911605"></trkpt>
+      <trkpt lat="53.0163339" lon="-4.090854"></trkpt>
+      <trkpt lat="53.0163301" lon="-4.0907922"></trkpt>
+      <trkpt lat="53.0161064" lon="-4.0905297"></trkpt>
+      <trkpt lat="53.0164388" lon="-4.0901166"></trkpt>
+      <trkpt lat="53.0165744" lon="-4.088797"></trkpt>
+      <trkpt lat="53.0171439" lon="-4.088598"></trkpt>
+      <trkpt lat="53.0175282" lon="-4.0884636"></trkpt>
+      <trkpt lat="53.0176703" lon="-4.088414"></trkpt>
+      <trkpt lat="53.0177103" lon="-4.0884"></trkpt>
+      <trkpt lat="53.0177513" lon="-4.0886054"></trkpt>
+      <trkpt lat="53.0177966" lon="-4.088832"></trkpt>
+      <trkpt lat="53.0178869" lon="-4.0890339"></trkpt>
+      <trkpt lat="53.0179273" lon="-4.0891241"></trkpt>
+      <trkpt lat="53.018114" lon="-4.0891654"></trkpt>
+      <trkpt lat="53.0184654" lon="-4.0891081"></trkpt>
+      <trkpt lat="53.0186268" lon="-4.0891349"></trkpt>
+      <trkpt lat="53.0187107" lon="-4.0893495"></trkpt>
+      <trkpt lat="53.0181459" lon="-4.0902776"></trkpt>
+      <trkpt lat="53.0182993" lon="-4.0904828"></trkpt>
+      <trkpt lat="53.0185655" lon="-4.0910125"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Islecroft Caravan &amp; Camping Park</name>
     <trkseg>
       <trkpt lat="54.9346928" lon="-3.818262"></trkpt>
@@ -44887,6 +45315,13 @@ version="1.1" creator="togpx">
       <trkpt lat="51.7536773" lon="0.0030959"></trkpt>
       <trkpt lat="51.753928" lon="0.0022639"></trkpt>
       <trkpt lat="51.7540613" lon="0.0021165"></trkpt>
+      <trkpt lat="51.7542384" lon="0.0020653"></trkpt>
+      <trkpt lat="51.754441" lon="0.0022557"></trkpt>
+      <trkpt lat="51.7548876" lon="0.003283"></trkpt>
+      <trkpt lat="51.7554538" lon="0.0038919"></trkpt>
+      <trkpt lat="51.7556298" lon="0.0038356"></trkpt>
+      <trkpt lat="51.755844" lon="0.0038382"></trkpt>
+      <trkpt lat="51.7562524" lon="0.0017381"></trkpt>
       <trkpt lat="51.7543065" lon="0.0007833"></trkpt>
     </trkseg>
   </trk>
@@ -49404,16 +49839,21 @@ version="1.1" creator="togpx">
     <name>Lyndon Top</name>
     <trkseg>
       <trkpt lat="52.6394247" lon="-0.6752057"></trkpt>
-      <trkpt lat="52.6392286" lon="-0.6751326"></trkpt>
-      <trkpt lat="52.6388709" lon="-0.6762388"></trkpt>
-      <trkpt lat="52.6377181" lon="-0.6754545"></trkpt>
+      <trkpt lat="52.6395502" lon="-0.6752928"></trkpt>
+      <trkpt lat="52.6391364" lon="-0.6778656"></trkpt>
+      <trkpt lat="52.6386455" lon="-0.6776236"></trkpt>
       <trkpt lat="52.6373145" lon="-0.6769458"></trkpt>
       <trkpt lat="52.6369241" lon="-0.6768718"></trkpt>
       <trkpt lat="52.6361751" lon="-0.6763879"></trkpt>
       <trkpt lat="52.6368721" lon="-0.6739213"></trkpt>
-      <trkpt lat="52.6374515" lon="-0.6750801"></trkpt>
-      <trkpt lat="52.6376599" lon="-0.6753268"></trkpt>
-      <trkpt lat="52.6387534" lon="-0.6716779"></trkpt>
+      <trkpt lat="52.6361593" lon="-0.6724229"></trkpt>
+      <trkpt lat="52.6364235" lon="-0.6709063"></trkpt>
+      <trkpt lat="52.6364847" lon="-0.6697824"></trkpt>
+      <trkpt lat="52.6379681" lon="-0.6701664"></trkpt>
+      <trkpt lat="52.6389728" lon="-0.6704265"></trkpt>
+      <trkpt lat="52.6389002" lon="-0.6710624"></trkpt>
+      <trkpt lat="52.6387238" lon="-0.6711294"></trkpt>
+      <trkpt lat="52.6387267" lon="-0.6713306"></trkpt>
       <trkpt lat="52.6391638" lon="-0.6715074"></trkpt>
       <trkpt lat="52.6393719" lon="-0.6715599"></trkpt>
       <trkpt lat="52.6393133" lon="-0.6724611"></trkpt>
@@ -51008,28 +51448,37 @@ version="1.1" creator="togpx">
   <trk>
     <name>Lower Pennycrocker Farm</name>
     <trkseg>
-      <trkpt lat="50.7045749" lon="-4.6563225"></trkpt>
-      <trkpt lat="50.7037088" lon="-4.6571166"></trkpt>
-      <trkpt lat="50.7035778" lon="-4.6572289"></trkpt>
-      <trkpt lat="50.7032424" lon="-4.6574161"></trkpt>
-      <trkpt lat="50.7030741" lon="-4.6574286"></trkpt>
-      <trkpt lat="50.7027975" lon="-4.6573483"></trkpt>
-      <trkpt lat="50.7025648" lon="-4.6573608"></trkpt>
-      <trkpt lat="50.7025321" lon="-4.6570809"></trkpt>
-      <trkpt lat="50.7024508" lon="-4.6570809"></trkpt>
-      <trkpt lat="50.7024056" lon="-4.6569436"></trkpt>
-      <trkpt lat="50.7024146" lon="-4.6567707"></trkpt>
+      <trkpt lat="50.7045945" lon="-4.6563011"></trkpt>
+      <trkpt lat="50.704472" lon="-4.6563948"></trkpt>
+      <trkpt lat="50.7036881" lon="-4.6569938"></trkpt>
+      <trkpt lat="50.7035329" lon="-4.6571082"></trkpt>
+      <trkpt lat="50.7034341" lon="-4.6571789"></trkpt>
+      <trkpt lat="50.7032502" lon="-4.6572553"></trkpt>
+      <trkpt lat="50.7031081" lon="-4.6572719"></trkpt>
+      <trkpt lat="50.7029639" lon="-4.657249"></trkpt>
+      <trkpt lat="50.702815" lon="-4.6571901"></trkpt>
+      <trkpt lat="50.702712" lon="-4.6571224"></trkpt>
+      <trkpt lat="50.7026511" lon="-4.6570616"></trkpt>
+      <trkpt lat="50.7025829" lon="-4.6569849"></trkpt>
+      <trkpt lat="50.7024939" lon="-4.6568263"></trkpt>
+      <trkpt lat="50.7024204" lon="-4.6567523"></trkpt>
       <trkpt lat="50.7024711" lon="-4.6563499"></trkpt>
-      <trkpt lat="50.7024361" lon="-4.65625"></trkpt>
-      <trkpt lat="50.7025581" lon="-4.6561092"></trkpt>
-      <trkpt lat="50.7026202" lon="-4.6561216"></trkpt>
+      <trkpt lat="50.7024852" lon="-4.6562506"></trkpt>
+      <trkpt lat="50.7025753" lon="-4.6561425"></trkpt>
+      <trkpt lat="50.7026092" lon="-4.6561389"></trkpt>
       <trkpt lat="50.7028155" lon="-4.6556153"></trkpt>
-      <trkpt lat="50.7031554" lon="-4.6554102"></trkpt>
-      <trkpt lat="50.7033147" lon="-4.6554548"></trkpt>
-      <trkpt lat="50.7033305" lon="-4.6555138"></trkpt>
-      <trkpt lat="50.7043102" lon="-4.6546888"></trkpt>
-      <trkpt lat="50.7044822" lon="-4.6557575"></trkpt>
-      <trkpt lat="50.7045749" lon="-4.6563225"></trkpt>
+      <trkpt lat="50.7028832" lon="-4.6555745"></trkpt>
+      <trkpt lat="50.7031655" lon="-4.6554053"></trkpt>
+      <trkpt lat="50.7033628" lon="-4.6553613"></trkpt>
+      <trkpt lat="50.7041307" lon="-4.6547204"></trkpt>
+      <trkpt lat="50.7042224" lon="-4.6547022"></trkpt>
+      <trkpt lat="50.7042701" lon="-4.6545869"></trkpt>
+      <trkpt lat="50.7042943" lon="-4.6545655"></trkpt>
+      <trkpt lat="50.7043178" lon="-4.6546345"></trkpt>
+      <trkpt lat="50.704397" lon="-4.6552748"></trkpt>
+      <trkpt lat="50.7044531" lon="-4.6556005"></trkpt>
+      <trkpt lat="50.7045061" lon="-4.6557744"></trkpt>
+      <trkpt lat="50.7045945" lon="-4.6563011"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -53461,6 +53910,7 @@ version="1.1" creator="togpx">
       <trkpt lat="53.3611185" lon="-1.8401208"></trkpt>
       <trkpt lat="53.3608401" lon="-1.8400654"></trkpt>
       <trkpt lat="53.360863" lon="-1.8389536"></trkpt>
+      <trkpt lat="53.3607029" lon="-1.8387333"></trkpt>
       <trkpt lat="53.3606586" lon="-1.8386723"></trkpt>
       <trkpt lat="53.3603829" lon="-1.8386651"></trkpt>
       <trkpt lat="53.3603099" lon="-1.838566"></trkpt>
@@ -56677,15 +57127,19 @@ version="1.1" creator="togpx">
   <trk>
     <name>Radnor's End</name>
     <trkseg>
-      <trkpt lat="52.0801965" lon="-3.1334169"></trkpt>
-      <trkpt lat="52.0803482" lon="-3.1331903"></trkpt>
-      <trkpt lat="52.0805072" lon="-3.1327562"></trkpt>
-      <trkpt lat="52.0805936" lon="-3.1323207"></trkpt>
-      <trkpt lat="52.0806567" lon="-3.1319491"></trkpt>
-      <trkpt lat="52.0806798" lon="-3.131813"></trkpt>
-      <trkpt lat="52.0810321" lon="-3.1320618"></trkpt>
-      <trkpt lat="52.080605" lon="-3.1335185"></trkpt>
-      <trkpt lat="52.0801965" lon="-3.1334169"></trkpt>
+      <trkpt lat="52.0802117" lon="-3.1334735"></trkpt>
+      <trkpt lat="52.0802147" lon="-3.133377"></trkpt>
+      <trkpt lat="52.0803341" lon="-3.1332189"></trkpt>
+      <trkpt lat="52.0804217" lon="-3.1330472"></trkpt>
+      <trkpt lat="52.0804828" lon="-3.1328911"></trkpt>
+      <trkpt lat="52.0805248" lon="-3.1327462"></trkpt>
+      <trkpt lat="52.0805971" lon="-3.1323679"></trkpt>
+      <trkpt lat="52.080647" lon="-3.1320422"></trkpt>
+      <trkpt lat="52.0806816" lon="-3.1318531"></trkpt>
+      <trkpt lat="52.0810506" lon="-3.132099"></trkpt>
+      <trkpt lat="52.0806325" lon="-3.1335197"></trkpt>
+      <trkpt lat="52.0804921" lon="-3.1334986"></trkpt>
+      <trkpt lat="52.0802117" lon="-3.1334735"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -57472,28 +57926,6 @@ version="1.1" creator="togpx">
       <trkpt lat="50.7175597" lon="-2.7865269"></trkpt>
       <trkpt lat="50.7174103" lon="-2.7850464"></trkpt>
       <trkpt lat="50.7180217" lon="-2.7848103"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Irfon River Caravan Park</name>
-    <trkseg>
-      <trkpt lat="52.1329634" lon="-3.5177872"></trkpt>
-      <trkpt lat="52.13324" lon="-3.5178623"></trkpt>
-      <trkpt lat="52.1336483" lon="-3.5180661"></trkpt>
-      <trkpt lat="52.1336944" lon="-3.5181412"></trkpt>
-      <trkpt lat="52.1336944" lon="-3.518388"></trkpt>
-      <trkpt lat="52.1338919" lon="-3.5185811"></trkpt>
-      <trkpt lat="52.1338129" lon="-3.5192141"></trkpt>
-      <trkpt lat="52.1338063" lon="-3.5198149"></trkpt>
-      <trkpt lat="52.1338458" lon="-3.5208985"></trkpt>
-      <trkpt lat="52.13378" lon="-3.5217783"></trkpt>
-      <trkpt lat="52.1331771" lon="-3.5220143"></trkpt>
-      <trkpt lat="52.13297" lon="-3.521671"></trkpt>
-      <trkpt lat="52.133064" lon="-3.5209516"></trkpt>
-      <trkpt lat="52.1331031" lon="-3.5200077"></trkpt>
-      <trkpt lat="52.1330685" lon="-3.519423"></trkpt>
-      <trkpt lat="52.1330951" lon="-3.5183022"></trkpt>
-      <trkpt lat="52.1329634" lon="-3.5177872"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -59525,9 +59957,29 @@ version="1.1" creator="togpx">
     <name>Laurel Park Caravan &amp; Camp Site</name>
     <trkseg>
       <trkpt lat="52.7789058" lon="0.0796147"></trkpt>
+      <trkpt lat="52.7788341" lon="0.0795684"></trkpt>
+      <trkpt lat="52.7787715" lon="0.0795281"></trkpt>
+      <trkpt lat="52.7787224" lon="0.0794964"></trkpt>
+      <trkpt lat="52.7786845" lon="0.0794737"></trkpt>
+      <trkpt lat="52.7786298" lon="0.0794396"></trkpt>
+      <trkpt lat="52.7785792" lon="0.0794051"></trkpt>
+      <trkpt lat="52.7785211" lon="0.0793648"></trkpt>
       <trkpt lat="52.7784718" lon="0.0793347"></trkpt>
       <trkpt lat="52.7781179" lon="0.0813521"></trkpt>
+      <trkpt lat="52.778169" lon="0.0813662"></trkpt>
+      <trkpt lat="52.7782451" lon="0.0813872"></trkpt>
+      <trkpt lat="52.7782699" lon="0.081394"></trkpt>
+      <trkpt lat="52.7783349" lon="0.0814119"></trkpt>
+      <trkpt lat="52.7783591" lon="0.0814186"></trkpt>
+      <trkpt lat="52.7784251" lon="0.0814368"></trkpt>
       <trkpt lat="52.7786661" lon="0.0815033"></trkpt>
+      <trkpt lat="52.778813" lon="0.0803462"></trkpt>
+      <trkpt lat="52.7788284" lon="0.0802245"></trkpt>
+      <trkpt lat="52.7788363" lon="0.0801622"></trkpt>
+      <trkpt lat="52.7788537" lon="0.0800255"></trkpt>
+      <trkpt lat="52.7788615" lon="0.0799639"></trkpt>
+      <trkpt lat="52.7788776" lon="0.079837"></trkpt>
+      <trkpt lat="52.7788818" lon="0.0798035"></trkpt>
       <trkpt lat="52.7789058" lon="0.0796147"></trkpt>
     </trkseg>
   </trk>
@@ -60387,7 +60839,8 @@ version="1.1" creator="togpx">
       <trkpt lat="53.2924443" lon="-4.6650207"></trkpt>
       <trkpt lat="53.2922343" lon="-4.6651468"></trkpt>
       <trkpt lat="53.2920403" lon="-4.6647847"></trkpt>
-      <trkpt lat="53.2921413" lon="-4.6645996"></trkpt>
+      <trkpt lat="53.2921374" lon="-4.6645993"></trkpt>
+      <trkpt lat="53.2921021" lon="-4.6645422"></trkpt>
       <trkpt lat="53.291856" lon="-4.6640873"></trkpt>
       <trkpt lat="53.2919169" lon="-4.6639773"></trkpt>
       <trkpt lat="53.2918878" lon="-4.6639021"></trkpt>
@@ -60599,8 +61052,8 @@ version="1.1" creator="togpx">
     <name>Overstrand Campsite (Summer Only)</name>
     <trkseg>
       <trkpt lat="52.9196481" lon="1.3400678"></trkpt>
-      <trkpt lat="52.9196958" lon="1.3400822"></trkpt>
-      <trkpt lat="52.9201784" lon="1.3399846"></trkpt>
+      <trkpt lat="52.9196829" lon="1.3401272"></trkpt>
+      <trkpt lat="52.9202152" lon="1.3400007"></trkpt>
       <trkpt lat="52.9202804" lon="1.3397283"></trkpt>
       <trkpt lat="52.9203832" lon="1.3395311"></trkpt>
       <trkpt lat="52.9203893" lon="1.3395028"></trkpt>
@@ -60799,6 +61252,55 @@ version="1.1" creator="togpx">
       <trkpt lat="54.5328708" lon="-3.2589725"></trkpt>
       <trkpt lat="54.532727" lon="-3.2591389"></trkpt>
       <trkpt lat="54.5325243" lon="-3.2586118"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Ogwen Bank Holiday Park &amp; Country Club</name>
+    <trkseg>
+      <trkpt lat="53.1730997" lon="-4.057236"></trkpt>
+      <trkpt lat="53.1729407" lon="-4.0570289"></trkpt>
+      <trkpt lat="53.1728378" lon="-4.0569752"></trkpt>
+      <trkpt lat="53.1726128" lon="-4.0571254"></trkpt>
+      <trkpt lat="53.1720565" lon="-4.0576672"></trkpt>
+      <trkpt lat="53.1712301" lon="-4.058209"></trkpt>
+      <trkpt lat="53.1706063" lon="-4.0582895"></trkpt>
+      <trkpt lat="53.1703394" lon="-4.0584075"></trkpt>
+      <trkpt lat="53.1696158" lon="-4.0584075"></trkpt>
+      <trkpt lat="53.1686415" lon="-4.0575868"></trkpt>
+      <trkpt lat="53.1682492" lon="-4.0569454"></trkpt>
+      <trkpt lat="53.1682213" lon="-4.0568019"></trkpt>
+      <trkpt lat="53.1682762" lon="-4.0565852"></trkpt>
+      <trkpt lat="53.1682703" lon="-4.0564678"></trkpt>
+      <trkpt lat="53.1681407" lon="-4.0564001"></trkpt>
+      <trkpt lat="53.1680755" lon="-4.0562296"></trkpt>
+      <trkpt lat="53.1682055" lon="-4.0559181"></trkpt>
+      <trkpt lat="53.1679554" lon="-4.0552698"></trkpt>
+      <trkpt lat="53.1679245" lon="-4.0551011"></trkpt>
+      <trkpt lat="53.1679251" lon="-4.0549417"></trkpt>
+      <trkpt lat="53.1680048" lon="-4.0548053"></trkpt>
+      <trkpt lat="53.1682556" lon="-4.0553927"></trkpt>
+      <trkpt lat="53.1686833" lon="-4.0558541"></trkpt>
+      <trkpt lat="53.1690595" lon="-4.0560713"></trkpt>
+      <trkpt lat="53.1694726" lon="-4.0563071"></trkpt>
+      <trkpt lat="53.1695599" lon="-4.0563766"></trkpt>
+      <trkpt lat="53.1702799" lon="-4.0571818"></trkpt>
+      <trkpt lat="53.170558" lon="-4.0573722"></trkpt>
+      <trkpt lat="53.1708249" lon="-4.0573856"></trkpt>
+      <trkpt lat="53.1709954" lon="-4.0573293"></trkpt>
+      <trkpt lat="53.1711853" lon="-4.0572131"></trkpt>
+      <trkpt lat="53.1713651" lon="-4.0570611"></trkpt>
+      <trkpt lat="53.1721908" lon="-4.0561859"></trkpt>
+      <trkpt lat="53.1722962" lon="-4.0560947"></trkpt>
+      <trkpt lat="53.1723591" lon="-4.0560597"></trkpt>
+      <trkpt lat="53.1724225" lon="-4.0560427"></trkpt>
+      <trkpt lat="53.1725143" lon="-4.0560458"></trkpt>
+      <trkpt lat="53.1726731" lon="-4.0560847"></trkpt>
+      <trkpt lat="53.1729649" lon="-4.0562108"></trkpt>
+      <trkpt lat="53.1730581" lon="-4.0563181"></trkpt>
+      <trkpt lat="53.1731001" lon="-4.0564646"></trkpt>
+      <trkpt lat="53.1731224" lon="-4.0566614"></trkpt>
+      <trkpt lat="53.173118" lon="-4.0567731"></trkpt>
+      <trkpt lat="53.1730997" lon="-4.057236"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -63219,13 +63721,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Betteshanger Scout Camp Site</name>
     <trkseg>
-      <trkpt lat="51.2257256" lon="1.32105"></trkpt>
+      <trkpt lat="51.2257592" lon="1.3209513"></trkpt>
       <trkpt lat="51.2250563" lon="1.3208476"></trkpt>
       <trkpt lat="51.2250568" lon="1.3211291"></trkpt>
-      <trkpt lat="51.2261122" lon="1.3227898"></trkpt>
-      <trkpt lat="51.2265202" lon="1.3224865"></trkpt>
+      <trkpt lat="51.2254454" lon="1.3217406"></trkpt>
+      <trkpt lat="51.2257757" lon="1.3226617"></trkpt>
+      <trkpt lat="51.2260477" lon="1.3229357"></trkpt>
+      <trkpt lat="51.2265605" lon="1.3225165"></trkpt>
       <trkpt lat="51.2260995" lon="1.3218034"></trkpt>
-      <trkpt lat="51.2257256" lon="1.32105"></trkpt>
+      <trkpt lat="51.2257592" lon="1.3209513"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -68066,6 +68570,30 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Rising Sun Caravan SIte</name>
+    <trkseg>
+      <trkpt lat="51.8857795" lon="-2.9738322"></trkpt>
+      <trkpt lat="51.8859169" lon="-2.973686"></trkpt>
+      <trkpt lat="51.8858466" lon="-2.9734741"></trkpt>
+      <trkpt lat="51.886138" lon="-2.9731858"></trkpt>
+      <trkpt lat="51.8862199" lon="-2.9734191"></trkpt>
+      <trkpt lat="51.8862439" lon="-2.9735103"></trkpt>
+      <trkpt lat="51.8862489" lon="-2.9736149"></trkpt>
+      <trkpt lat="51.8862654" lon="-2.9736753"></trkpt>
+      <trkpt lat="51.8863201" lon="-2.9738845"></trkpt>
+      <trkpt lat="51.8863548" lon="-2.9740079"></trkpt>
+      <trkpt lat="51.8864095" lon="-2.9741085"></trkpt>
+      <trkpt lat="51.8864591" lon="-2.9742359"></trkpt>
+      <trkpt lat="51.886484" lon="-2.9744236"></trkpt>
+      <trkpt lat="51.8864459" lon="-2.9744652"></trkpt>
+      <trkpt lat="51.8864285" lon="-2.9746154"></trkpt>
+      <trkpt lat="51.8864037" lon="-2.9747817"></trkpt>
+      <trkpt lat="51.886162" lon="-2.9749909"></trkpt>
+      <trkpt lat="51.8860146" lon="-2.9745671"></trkpt>
+      <trkpt lat="51.8857795" lon="-2.9738322"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Llyn Rhys Campsite</name>
     <trkseg>
       <trkpt lat="53.0556269" lon="-3.1994154"></trkpt>
@@ -69444,6 +69972,7 @@ version="1.1" creator="togpx">
       <trkpt lat="51.2934114" lon="0.5283522"></trkpt>
       <trkpt lat="51.293559" lon="0.5289531"></trkpt>
       <trkpt lat="51.2935221" lon="0.5309004"></trkpt>
+      <trkpt lat="51.2950297" lon="0.5281296"></trkpt>
       <trkpt lat="51.2950501" lon="0.5280921"></trkpt>
       <trkpt lat="51.2966882" lon="0.5251034"></trkpt>
       <trkpt lat="51.2969477" lon="0.5240621"></trkpt>
@@ -69457,8 +69986,10 @@ version="1.1" creator="togpx">
       <trkpt lat="51.2981246" lon="0.5212816"></trkpt>
       <trkpt lat="51.2981486" lon="0.5207989"></trkpt>
       <trkpt lat="51.2980422" lon="0.5204419"></trkpt>
+      <trkpt lat="51.2979583" lon="0.5203892"></trkpt>
       <trkpt lat="51.2974535" lon="0.5200723"></trkpt>
       <trkpt lat="51.296905" lon="0.5197504"></trkpt>
+      <trkpt lat="51.2959383" lon="0.519149"></trkpt>
       <trkpt lat="51.2957797" lon="0.5190503"></trkpt>
     </trkseg>
   </trk>
@@ -69842,7 +70373,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Hadrian's Wall Camping</name>
+    <name>Hadrian's Wall Campsite</name>
     <trkseg>
       <trkpt lat="54.9858203" lon="-2.4201118"></trkpt>
       <trkpt lat="54.9862361" lon="-2.4202744"></trkpt>
@@ -76513,6 +77044,26 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Pine Cones Caravan &amp; Camping</name>
+    <trkseg>
+      <trkpt lat="52.843953" lon="0.4902559"></trkpt>
+      <trkpt lat="52.8439308" lon="0.4903462"></trkpt>
+      <trkpt lat="52.8434937" lon="0.4902178"></trkpt>
+      <trkpt lat="52.8432474" lon="0.4901356"></trkpt>
+      <trkpt lat="52.842456" lon="0.4898224"></trkpt>
+      <trkpt lat="52.8425006" lon="0.4920097"></trkpt>
+      <trkpt lat="52.8435314" lon="0.4919201"></trkpt>
+      <trkpt lat="52.8440726" lon="0.4918734"></trkpt>
+      <trkpt lat="52.8443021" lon="0.4918554"></trkpt>
+      <trkpt lat="52.844432" lon="0.4918758"></trkpt>
+      <trkpt lat="52.8445587" lon="0.4918749"></trkpt>
+      <trkpt lat="52.8445786" lon="0.4917651"></trkpt>
+      <trkpt lat="52.844801" lon="0.4905397"></trkpt>
+      <trkpt lat="52.8440983" lon="0.4903045"></trkpt>
+      <trkpt lat="52.843953" lon="0.4902559"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Kettlewell Camping Top Field</name>
     <trkseg>
       <trkpt lat="54.149361" lon="-2.0400237"></trkpt>
@@ -80197,7 +80748,7 @@ version="1.1" creator="togpx">
       <trkpt lat="51.9452283" lon="-3.0406578"></trkpt>
       <trkpt lat="51.9451985" lon="-3.0405848"></trkpt>
       <trkpt lat="51.9451289" lon="-3.0404955"></trkpt>
-      <trkpt lat="51.9450165" lon="-3.0402385"></trkpt>
+      <trkpt lat="51.9449702" lon="-3.0402664"></trkpt>
       <trkpt lat="51.9451138" lon="-3.0401372"></trkpt>
       <trkpt lat="51.9451354" lon="-3.0401132"></trkpt>
       <trkpt lat="51.9451545" lon="-3.0401591"></trkpt>
@@ -82447,10 +82998,10 @@ version="1.1" creator="togpx">
       <trkpt lat="52.2217284" lon="1.4890337"></trkpt>
       <trkpt lat="52.2215929" lon="1.4890497"></trkpt>
       <trkpt lat="52.2212766" lon="1.4891303"></trkpt>
-      <trkpt lat="52.2212384" lon="1.4891476"></trkpt>
-      <trkpt lat="52.2211016" lon="1.48916"></trkpt>
-      <trkpt lat="52.2208247" lon="1.4892724"></trkpt>
-      <trkpt lat="52.2207606" lon="1.4892161"></trkpt>
+      <trkpt lat="52.2212466" lon="1.4891315"></trkpt>
+      <trkpt lat="52.2211098" lon="1.4891439"></trkpt>
+      <trkpt lat="52.2208169" lon="1.4892302"></trkpt>
+      <trkpt lat="52.2207717" lon="1.4892168"></trkpt>
       <trkpt lat="52.2206341" lon="1.4890391"></trkpt>
       <trkpt lat="52.2200936" lon="1.4888786"></trkpt>
     </trkseg>
@@ -83476,6 +84027,28 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Tynyffordd Fach Farm</name>
+    <trkseg>
+      <trkpt lat="52.4020404" lon="-3.8313022"></trkpt>
+      <trkpt lat="52.4016757" lon="-3.8312775"></trkpt>
+      <trkpt lat="52.4013336" lon="-3.8313083"></trkpt>
+      <trkpt lat="52.401217" lon="-3.8310002"></trkpt>
+      <trkpt lat="52.4005704" lon="-3.8310927"></trkpt>
+      <trkpt lat="52.4005628" lon="-3.8308955"></trkpt>
+      <trkpt lat="52.4002733" lon="-3.830914"></trkpt>
+      <trkpt lat="52.4002658" lon="-3.8307168"></trkpt>
+      <trkpt lat="52.4005177" lon="-3.8305689"></trkpt>
+      <trkpt lat="52.4009163" lon="-3.8305073"></trkpt>
+      <trkpt lat="52.4011794" lon="-3.8305874"></trkpt>
+      <trkpt lat="52.4012245" lon="-3.8304703"></trkpt>
+      <trkpt lat="52.401296" lon="-3.830421"></trkpt>
+      <trkpt lat="52.4020876" lon="-3.8306924"></trkpt>
+      <trkpt lat="52.4020863" lon="-3.8308907"></trkpt>
+      <trkpt lat="52.4021908" lon="-3.8311666"></trkpt>
+      <trkpt lat="52.4020404" lon="-3.8313022"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Venus Campsite</name>
     <trkseg>
       <trkpt lat="54.1995133" lon="-1.4604203"></trkpt>
@@ -84067,9 +84640,16 @@ version="1.1" creator="togpx">
     <name>Larick Campsite</name>
     <trkseg>
       <trkpt lat="56.4421825" lon="-2.8713117"></trkpt>
-      <trkpt lat="56.4417497" lon="-2.8710727"></trkpt>
+      <trkpt lat="56.4421047" lon="-2.8712801"></trkpt>
+      <trkpt lat="56.4421064" lon="-2.8712685"></trkpt>
+      <trkpt lat="56.4420363" lon="-2.8712354"></trkpt>
+      <trkpt lat="56.4419408" lon="-2.8711953"></trkpt>
+      <trkpt lat="56.4419423" lon="-2.8711823"></trkpt>
+      <trkpt lat="56.4418654" lon="-2.8711485"></trkpt>
+      <trkpt lat="56.4418668" lon="-2.8711355"></trkpt>
+      <trkpt lat="56.4417556" lon="-2.8710861"></trkpt>
       <trkpt lat="56.4414843" lon="-2.8710086"></trkpt>
-      <trkpt lat="56.4414844" lon="-2.8709455"></trkpt>
+      <trkpt lat="56.4414831" lon="-2.8709302"></trkpt>
       <trkpt lat="56.4414845" lon="-2.8708471"></trkpt>
       <trkpt lat="56.4414845" lon="-2.870536"></trkpt>
       <trkpt lat="56.4414619" lon="-2.8703107"></trkpt>
@@ -88330,95 +88910,276 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Low Hollows</name>
+    <name>Henlow Bridge Lakes and Riverside</name>
     <trkseg>
-      <trkpt lat="54.6274052" lon="-3.0344898"></trkpt>
-      <trkpt lat="54.6272971" lon="-3.0347873"></trkpt>
-      <trkpt lat="54.6272609" lon="-3.0348065"></trkpt>
-      <trkpt lat="54.6271053" lon="-3.0347681"></trkpt>
-      <trkpt lat="54.6270163" lon="-3.0348161"></trkpt>
-      <trkpt lat="54.6269274" lon="-3.0349649"></trkpt>
-      <trkpt lat="54.6267412" lon="-3.035373"></trkpt>
-      <trkpt lat="54.6265966" lon="-3.0353634"></trkpt>
-      <trkpt lat="54.6263771" lon="-3.035229"></trkpt>
-      <trkpt lat="54.6262575" lon="-3.0352866"></trkpt>
-      <trkpt lat="54.6259629" lon="-3.0351762"></trkpt>
-      <trkpt lat="54.6259129" lon="-3.0351138"></trkpt>
-      <trkpt lat="54.6258823" lon="-3.0350273"></trkpt>
-      <trkpt lat="54.6258712" lon="-3.0349169"></trkpt>
-      <trkpt lat="54.6258795" lon="-3.0347249"></trkpt>
-      <trkpt lat="54.6261603" lon="-3.0335917"></trkpt>
-      <trkpt lat="54.6262744" lon="-3.0333745"></trkpt>
-      <trkpt lat="54.6263743" lon="-3.0334238"></trkpt>
-      <trkpt lat="54.626888" lon="-3.0339291"></trkpt>
-      <trkpt lat="54.6274052" lon="-3.0344898"></trkpt>
+      <trkpt lat="52.0268091" lon="-0.2714579"></trkpt>
+      <trkpt lat="52.0269889" lon="-0.2702099"></trkpt>
+      <trkpt lat="52.0270001" lon="-0.2700722"></trkpt>
+      <trkpt lat="52.027034" lon="-0.2692833"></trkpt>
+      <trkpt lat="52.0270235" lon="-0.2692244"></trkpt>
+      <trkpt lat="52.0270188" lon="-0.2691848"></trkpt>
+      <trkpt lat="52.0270196" lon="-0.2683044"></trkpt>
+      <trkpt lat="52.0269175" lon="-0.2670955"></trkpt>
+      <trkpt lat="52.0269208" lon="-0.267049"></trkpt>
+      <trkpt lat="52.0273338" lon="-0.2669581"></trkpt>
+      <trkpt lat="52.0278531" lon="-0.2670809"></trkpt>
+      <trkpt lat="52.0281057" lon="-0.2670301"></trkpt>
+      <trkpt lat="52.028711" lon="-0.266963"></trkpt>
+      <trkpt lat="52.0289815" lon="-0.266987"></trkpt>
+      <trkpt lat="52.0291224" lon="-0.2670411"></trkpt>
+      <trkpt lat="52.0293195" lon="-0.2672013"></trkpt>
+      <trkpt lat="52.0294077" lon="-0.2673269"></trkpt>
+      <trkpt lat="52.0298229" lon="-0.2677375"></trkpt>
+      <trkpt lat="52.0300733" lon="-0.2678979"></trkpt>
+      <trkpt lat="52.0302481" lon="-0.2679513"></trkpt>
+      <trkpt lat="52.0303296" lon="-0.2679966"></trkpt>
+      <trkpt lat="52.0304055" lon="-0.2681657"></trkpt>
+      <trkpt lat="52.0304434" lon="-0.2683037"></trkpt>
+      <trkpt lat="52.0304769" lon="-0.2685779"></trkpt>
+      <trkpt lat="52.0305077" lon="-0.2692673"></trkpt>
+      <trkpt lat="52.0304804" lon="-0.2694784"></trkpt>
+      <trkpt lat="52.0304145" lon="-0.2696002"></trkpt>
+      <trkpt lat="52.0302974" lon="-0.269699"></trkpt>
+      <trkpt lat="52.0301662" lon="-0.2696964"></trkpt>
+      <trkpt lat="52.0300536" lon="-0.2696625"></trkpt>
+      <trkpt lat="52.0299145" lon="-0.2695721"></trkpt>
+      <trkpt lat="52.0297844" lon="-0.2695002"></trkpt>
+      <trkpt lat="52.0296172" lon="-0.2693049"></trkpt>
+      <trkpt lat="52.0288387" lon="-0.268815"></trkpt>
+      <trkpt lat="52.028764" lon="-0.2687743"></trkpt>
+      <trkpt lat="52.0286382" lon="-0.2688591"></trkpt>
+      <trkpt lat="52.0285606" lon="-0.2691136"></trkpt>
+      <trkpt lat="52.0286109" lon="-0.2693447"></trkpt>
+      <trkpt lat="52.0286133" lon="-0.2695611"></trkpt>
+      <trkpt lat="52.0285999" lon="-0.2697944"></trkpt>
+      <trkpt lat="52.0284953" lon="-0.270867"></trkpt>
+      <trkpt lat="52.0285313" lon="-0.2710258"></trkpt>
+      <trkpt lat="52.0288575" lon="-0.2714184"></trkpt>
+      <trkpt lat="52.029169" lon="-0.2718031"></trkpt>
+      <trkpt lat="52.029313" lon="-0.2724467"></trkpt>
+      <trkpt lat="52.0291501" lon="-0.2738731"></trkpt>
+      <trkpt lat="52.0288107" lon="-0.2741044"></trkpt>
+      <trkpt lat="52.0285056" lon="-0.2738648"></trkpt>
+      <trkpt lat="52.0279078" lon="-0.2736189"></trkpt>
+      <trkpt lat="52.0276588" lon="-0.2735165"></trkpt>
+      <trkpt lat="52.0270181" lon="-0.2733229"></trkpt>
+      <trkpt lat="52.0268171" lon="-0.2733104"></trkpt>
+      <trkpt lat="52.0267376" lon="-0.2732838"></trkpt>
+      <trkpt lat="52.0266428" lon="-0.2728023"></trkpt>
+      <trkpt lat="52.0267899" lon="-0.2716066"></trkpt>
+      <trkpt lat="52.0267985" lon="-0.2715269"></trkpt>
+      <trkpt lat="52.0268091" lon="-0.2714579"></trkpt>
     </trkseg>
   </trk>
   <trk>
-    <name>Low Hollows</name>
+    <name>Orchard View Park</name>
     <trkseg>
-      <trkpt lat="54.6258191" lon="-3.0327771"></trkpt>
-      <trkpt lat="54.625575" lon="-3.0333163"></trkpt>
-      <trkpt lat="54.6245373" lon="-3.0321173"></trkpt>
-      <trkpt lat="54.6239983" lon="-3.0315937"></trkpt>
-      <trkpt lat="54.6233587" lon="-3.0309029"></trkpt>
-      <trkpt lat="54.6236406" lon="-3.0304627"></trkpt>
-      <trkpt lat="54.6238329" lon="-3.0300663"></trkpt>
-      <trkpt lat="54.6239123" lon="-3.0297836"></trkpt>
-      <trkpt lat="54.6239494" lon="-3.0295504"></trkpt>
-      <trkpt lat="54.6239629" lon="-3.0290724"></trkpt>
-      <trkpt lat="54.6239241" lon="-3.0280318"></trkpt>
-      <trkpt lat="54.6240291" lon="-3.0269031"></trkpt>
-      <trkpt lat="54.6241858" lon="-3.0263956"></trkpt>
-      <trkpt lat="54.6246171" lon="-3.0255464"></trkpt>
-      <trkpt lat="54.6247831" lon="-3.0249874"></trkpt>
-      <trkpt lat="54.624999" lon="-3.0249854"></trkpt>
-      <trkpt lat="54.6250085" lon="-3.0252885"></trkpt>
-      <trkpt lat="54.6249551" lon="-3.025626"></trkpt>
-      <trkpt lat="54.6247261" lon="-3.0266562"></trkpt>
-      <trkpt lat="54.6247483" lon="-3.0278901"></trkpt>
-      <trkpt lat="54.6247678" lon="-3.0285767"></trkpt>
-      <trkpt lat="54.6248067" lon="-3.0289128"></trkpt>
-      <trkpt lat="54.6247205" lon="-3.0290809"></trkpt>
-      <trkpt lat="54.6244398" lon="-3.0295082"></trkpt>
-      <trkpt lat="54.6244953" lon="-3.0296954"></trkpt>
-      <trkpt lat="54.6245454" lon="-3.0301083"></trkpt>
-      <trkpt lat="54.6247372" lon="-3.0302236"></trkpt>
-      <trkpt lat="54.624701" lon="-3.0308573"></trkpt>
-      <trkpt lat="54.6247233" lon="-3.0316543"></trkpt>
-      <trkpt lat="54.6249012" lon="-3.0315487"></trkpt>
-      <trkpt lat="54.6249568" lon="-3.0311934"></trkpt>
-      <trkpt lat="54.6250568" lon="-3.0310158"></trkpt>
-      <trkpt lat="54.6251013" lon="-3.0310014"></trkpt>
-      <trkpt lat="54.6251708" lon="-3.0311358"></trkpt>
-      <trkpt lat="54.6253431" lon="-3.0313759"></trkpt>
-      <trkpt lat="54.6255905" lon="-3.0316639"></trkpt>
-      <trkpt lat="54.6256211" lon="-3.0317552"></trkpt>
-      <trkpt lat="54.6256322" lon="-3.032048"></trkpt>
-      <trkpt lat="54.6256683" lon="-3.0322257"></trkpt>
-      <trkpt lat="54.6258191" lon="-3.0327771"></trkpt>
+      <trkpt lat="51.2401793" lon="0.4507118"></trkpt>
+      <trkpt lat="51.2395559" lon="0.4504387"></trkpt>
+      <trkpt lat="51.2394398" lon="0.4511145"></trkpt>
+      <trkpt lat="51.2401119" lon="0.4514176"></trkpt>
+      <trkpt lat="51.2401793" lon="0.4507118"></trkpt>
     </trkseg>
   </trk>
   <trk>
-    <name>Low Hollows</name>
+    <name>way/1306400295</name>
     <trkseg>
-      <trkpt lat="54.6261357" lon="-3.0310779"></trkpt>
-      <trkpt lat="54.6259772" lon="-3.031438"></trkpt>
-      <trkpt lat="54.6258994" lon="-3.0315628"></trkpt>
-      <trkpt lat="54.6258049" lon="-3.0315292"></trkpt>
-      <trkpt lat="54.6253769" lon="-3.0311547"></trkpt>
-      <trkpt lat="54.6252573" lon="-3.031001"></trkpt>
-      <trkpt lat="54.6251489" lon="-3.030905"></trkpt>
-      <trkpt lat="54.6250628" lon="-3.030713"></trkpt>
-      <trkpt lat="54.6250183" lon="-3.0304969"></trkpt>
-      <trkpt lat="54.6249738" lon="-3.029964"></trkpt>
-      <trkpt lat="54.6250211" lon="-3.0295799"></trkpt>
-      <trkpt lat="54.6251656" lon="-3.0296183"></trkpt>
-      <trkpt lat="54.6253324" lon="-3.0297383"></trkpt>
-      <trkpt lat="54.6253407" lon="-3.0301224"></trkpt>
-      <trkpt lat="54.6256687" lon="-3.0304345"></trkpt>
-      <trkpt lat="54.6259995" lon="-3.030761"></trkpt>
-      <trkpt lat="54.6261357" lon="-3.0310779"></trkpt>
+      <trkpt lat="51.8320601" lon="-2.8525345"></trkpt>
+      <trkpt lat="51.8321617" lon="-2.8527392"></trkpt>
+      <trkpt lat="51.8319866" lon="-2.8530053"></trkpt>
+      <trkpt lat="51.8320324" lon="-2.8531281"></trkpt>
+      <trkpt lat="51.8318951" lon="-2.8532679"></trkpt>
+      <trkpt lat="51.8316259" lon="-2.8532529"></trkpt>
+      <trkpt lat="51.8317002" lon="-2.8526611"></trkpt>
+      <trkpt lat="51.8318095" lon="-2.8526858"></trkpt>
+      <trkpt lat="51.8318745" lon="-2.8526858"></trkpt>
+      <trkpt lat="51.8319129" lon="-2.8526504"></trkpt>
+      <trkpt lat="51.8319839" lon="-2.852364"></trkpt>
+      <trkpt lat="51.8320601" lon="-2.8525345"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>The Skipworth Arms Campsite</name>
+    <trkseg>
+      <trkpt lat="53.4823877" lon="-0.3747341"></trkpt>
+      <trkpt lat="53.482351" lon="-0.3748374"></trkpt>
+      <trkpt lat="53.4820909" lon="-0.3745785"></trkpt>
+      <trkpt lat="53.4820126" lon="-0.3748012"></trkpt>
+      <trkpt lat="53.4807804" lon="-0.3735459"></trkpt>
+      <trkpt lat="53.4811412" lon="-0.3718239"></trkpt>
+      <trkpt lat="53.4813774" lon="-0.3719071"></trkpt>
+      <trkpt lat="53.4817014" lon="-0.3722048"></trkpt>
+      <trkpt lat="53.4818594" lon="-0.3725562"></trkpt>
+      <trkpt lat="53.4818945" lon="-0.3723764"></trkpt>
+      <trkpt lat="53.4827756" lon="-0.3736505"></trkpt>
+      <trkpt lat="53.4823877" lon="-0.3747341"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1307698754</name>
+    <trkseg>
+      <trkpt lat="51.9436933" lon="-3.0363868"></trkpt>
+      <trkpt lat="51.9439788" lon="-3.0371777"></trkpt>
+      <trkpt lat="51.9435245" lon="-3.0376707"></trkpt>
+      <trkpt lat="51.943297" lon="-3.0380269"></trkpt>
+      <trkpt lat="51.943043" lon="-3.0376793"></trkpt>
+      <trkpt lat="51.9428367" lon="-3.0358811"></trkpt>
+      <trkpt lat="51.9432229" lon="-3.03568"></trkpt>
+      <trkpt lat="51.9435665" lon="-3.036519"></trkpt>
+      <trkpt lat="51.9436933" lon="-3.0363868"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Stablefell Camping</name>
+    <trkseg>
+      <trkpt lat="54.2703921" lon="-2.1511028"></trkpt>
+      <trkpt lat="54.2703509" lon="-2.1511077"></trkpt>
+      <trkpt lat="54.2702018" lon="-2.1511256"></trkpt>
+      <trkpt lat="54.2702125" lon="-2.1512769"></trkpt>
+      <trkpt lat="54.2700497" lon="-2.1517394"></trkpt>
+      <trkpt lat="54.2700355" lon="-2.1517405"></trkpt>
+      <trkpt lat="54.2699952" lon="-2.1518419"></trkpt>
+      <trkpt lat="54.2699227" lon="-2.1514037"></trkpt>
+      <trkpt lat="54.2697662" lon="-2.1505591"></trkpt>
+      <trkpt lat="54.2695867" lon="-2.1496864"></trkpt>
+      <trkpt lat="54.2694288" lon="-2.1497869"></trkpt>
+      <trkpt lat="54.2693668" lon="-2.1498243"></trkpt>
+      <trkpt lat="54.2692431" lon="-2.1499545"></trkpt>
+      <trkpt lat="54.2690055" lon="-2.1494793"></trkpt>
+      <trkpt lat="54.2688802" lon="-2.1492862"></trkpt>
+      <trkpt lat="54.2691909" lon="-2.1488594"></trkpt>
+      <trkpt lat="54.2694024" lon="-2.1486869"></trkpt>
+      <trkpt lat="54.2694932" lon="-2.1486062"></trkpt>
+      <trkpt lat="54.2696796" lon="-2.1490085"></trkpt>
+      <trkpt lat="54.2699173" lon="-2.1494833"></trkpt>
+      <trkpt lat="54.2700319" lon="-2.1497279"></trkpt>
+      <trkpt lat="54.2701476" lon="-2.1500192"></trkpt>
+      <trkpt lat="54.2702135" lon="-2.1502924"></trkpt>
+      <trkpt lat="54.2703218" lon="-2.1506658"></trkpt>
+      <trkpt lat="54.2703411" lon="-2.1507044"></trkpt>
+      <trkpt lat="54.2703407" lon="-2.1507713"></trkpt>
+      <trkpt lat="54.2703999" lon="-2.1509414"></trkpt>
+      <trkpt lat="54.2704736" lon="-2.1508708"></trkpt>
+      <trkpt lat="54.2705139" lon="-2.1509929"></trkpt>
+      <trkpt lat="54.2704384" lon="-2.1510243"></trkpt>
+      <trkpt lat="54.2704706" lon="-2.1512061"></trkpt>
+      <trkpt lat="54.2704155" lon="-2.1512347"></trkpt>
+      <trkpt lat="54.2703921" lon="-2.1511028"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Edgehill Country Park Campsite</name>
+    <trkseg>
+      <trkpt lat="52.1280211" lon="-1.422043"></trkpt>
+      <trkpt lat="52.1278489" lon="-1.4215021"></trkpt>
+      <trkpt lat="52.1276111" lon="-1.4207491"></trkpt>
+      <trkpt lat="52.1274063" lon="-1.4200054"></trkpt>
+      <trkpt lat="52.1277505" lon="-1.4198075"></trkpt>
+      <trkpt lat="52.1281584" lon="-1.4195872"></trkpt>
+      <trkpt lat="52.1282742" lon="-1.4199227"></trkpt>
+      <trkpt lat="52.1283798" lon="-1.4201097"></trkpt>
+      <trkpt lat="52.1283993" lon="-1.4205922"></trkpt>
+      <trkpt lat="52.1283409" lon="-1.4213552"></trkpt>
+      <trkpt lat="52.1283357" lon="-1.4219428"></trkpt>
+      <trkpt lat="52.1280211" lon="-1.422043"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1308675329</name>
+    <trkseg>
+      <trkpt lat="54.3732234" lon="-1.926756"></trkpt>
+      <trkpt lat="54.3733596" lon="-1.9263777"></trkpt>
+      <trkpt lat="54.3736615" lon="-1.9266472"></trkpt>
+      <trkpt lat="54.3735302" lon="-1.9270866"></trkpt>
+      <trkpt lat="54.3732234" lon="-1.926756"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Sloth Hangout (Electric Camping)</name>
+    <trkseg>
+      <trkpt lat="51.7477542" lon="-4.7342142"></trkpt>
+      <trkpt lat="51.7480888" lon="-4.7342625"></trkpt>
+      <trkpt lat="51.7481759" lon="-4.7342679"></trkpt>
+      <trkpt lat="51.7481892" lon="-4.734284"></trkpt>
+      <trkpt lat="51.7481934" lon="-4.7343068"></trkpt>
+      <trkpt lat="51.7481834" lon="-4.734402"></trkpt>
+      <trkpt lat="51.7481643" lon="-4.7345468"></trkpt>
+      <trkpt lat="51.7481743" lon="-4.7346783"></trkpt>
+      <trkpt lat="51.7480763" lon="-4.7350457"></trkpt>
+      <trkpt lat="51.7478123" lon="-4.7349921"></trkpt>
+      <trkpt lat="51.7477957" lon="-4.734984"></trkpt>
+      <trkpt lat="51.7477824" lon="-4.7349706"></trkpt>
+      <trkpt lat="51.7477691" lon="-4.7349465"></trkpt>
+      <trkpt lat="51.7477583" lon="-4.7348835"></trkpt>
+      <trkpt lat="51.7477542" lon="-4.7342142"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1309940073</name>
+    <trkseg>
+      <trkpt lat="52.9765313" lon="-0.9306713"></trkpt>
+      <trkpt lat="52.976472" lon="-0.9307755"></trkpt>
+      <trkpt lat="52.9764509" lon="-0.9307623"></trkpt>
+      <trkpt lat="52.9764208" lon="-0.9308178"></trkpt>
+      <trkpt lat="52.9764116" lon="-0.9308095"></trkpt>
+      <trkpt lat="52.9763817" lon="-0.9308626"></trkpt>
+      <trkpt lat="52.9763698" lon="-0.9308545"></trkpt>
+      <trkpt lat="52.9763352" lon="-0.9309227"></trkpt>
+      <trkpt lat="52.9763133" lon="-0.930965"></trkpt>
+      <trkpt lat="52.9761639" lon="-0.9307169"></trkpt>
+      <trkpt lat="52.9760723" lon="-0.9309551"></trkpt>
+      <trkpt lat="52.9760154" lon="-0.9309519"></trkpt>
+      <trkpt lat="52.9756749" lon="-0.9304616"></trkpt>
+      <trkpt lat="52.9756718" lon="-0.930391"></trkpt>
+      <trkpt lat="52.9758699" lon="-0.929783"></trkpt>
+      <trkpt lat="52.9760301" lon="-0.9299129"></trkpt>
+      <trkpt lat="52.9762978" lon="-0.9301478"></trkpt>
+      <trkpt lat="52.9765862" lon="-0.9304394"></trkpt>
+      <trkpt lat="52.9766043" lon="-0.9305413"></trkpt>
+      <trkpt lat="52.9765313" lon="-0.9306713"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Penrhiw Campsite</name>
+    <trkseg>
+      <trkpt lat="52.2948465" lon="-3.85272"></trkpt>
+      <trkpt lat="52.2953299" lon="-3.8515373"></trkpt>
+      <trkpt lat="52.2953637" lon="-3.8515624"></trkpt>
+      <trkpt lat="52.2954732" lon="-3.8516438"></trkpt>
+      <trkpt lat="52.2949921" lon="-3.8528379"></trkpt>
+      <trkpt lat="52.2948465" lon="-3.85272"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1309958340</name>
+    <trkseg>
+      <trkpt lat="52.3973766" lon="-3.8308635"></trkpt>
+      <trkpt lat="52.3972578" lon="-3.8302798"></trkpt>
+      <trkpt lat="52.3978085" lon="-3.830019"></trkpt>
+      <trkpt lat="52.3979146" lon="-3.8304495"></trkpt>
+      <trkpt lat="52.3974789" lon="-3.830702"></trkpt>
+      <trkpt lat="52.3973766" lon="-3.8308635"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1309962829</name>
+    <trkseg>
+      <trkpt lat="52.3257585" lon="-3.9278811"></trkpt>
+      <trkpt lat="52.3258022" lon="-3.9286258"></trkpt>
+      <trkpt lat="52.3254468" lon="-3.9291869"></trkpt>
+      <trkpt lat="52.3250914" lon="-3.9289523"></trkpt>
+      <trkpt lat="52.3250291" lon="-3.9283147"></trkpt>
+      <trkpt lat="52.3257585" lon="-3.9278811"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1310433672</name>
+    <trkseg>
+      <trkpt lat="51.2115784" lon="1.2993754"></trkpt>
+      <trkpt lat="51.2116068" lon="1.2989653"></trkpt>
+      <trkpt lat="51.2112064" lon="1.2988051"></trkpt>
+      <trkpt lat="51.2111826" lon="1.2992886"></trkpt>
+      <trkpt lat="51.2115784" lon="1.2993754"></trkpt>
     </trkseg>
   </trk>
   <trk>
