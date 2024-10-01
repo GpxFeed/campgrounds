@@ -11,16 +11,16 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
 - Campingplatz Pois
 
-    - 53238 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
+    - 53419 Campingplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/e/e4/Camping.16.svg/16px-Camping.16.svg.png)
 
 - Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
 
-    - 19355 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 19427 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Zusätzliche Pois für die Grundversorgung des reisenden Campers selbst und seines Kleintransporters, Motorrades, Gespanns oder Hippie-Busses
 
-    - 220466 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 172274 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 220660 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 172369 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Länder
 
