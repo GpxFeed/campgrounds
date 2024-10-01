@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-08-28T09:23:28Z", "timestamp_areas_base":
-      "2024-08-28T04:40:43Z", "copyright": "The data included in
+      "2024-10-01T08:15:44Z", "timestamp_areas_base":
+      "2024-09-24T16:29:52Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -61,14 +61,14 @@ version="1.1" creator="togpx">
   <wpt lat="59.3691981" lon="18.1202663">
     <ele>14</ele>
     <name>OKQ8</name>
-    <desc>amenity=fuel; brand=QKQ8; name=OKQ8; operator=OKQ8;
-    id=node/29898223</desc>
+    <desc>amenity=fuel; brand=OKQ8; brand:wikidata=Q2789310;
+    name=OKQ8; operator=OKQ8; id=node/29898223</desc>
   </wpt>
   <wpt lat="57.6871875" lon="12.2063898">
     <ele>68</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; branch=Landvetter; brand=Shell; name=Shell;
-    id=node/29953045</desc>
+    <desc>amenity=fuel; branch=Landvetter; brand=Shell;
+    compressed_air=yes; name=Shell; id=node/29953045</desc>
   </wpt>
   <wpt lat="59.3647067" lon="18.1256819">
     <ele>42</ele>
@@ -91,12 +91,6 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Circle K Stockholm Frescati;
     opening_hours=24/7; operator=Circle K; id=node/30904180</desc>
-  </wpt>
-  <wpt lat="58.9015166" lon="11.9489389">
-    <ele>156</ele>
-    <name>St1</name>
-    <desc>amenity=fuel; branch=Ed; brand=St1; name=St1;
-    opening_hours=24/7; operator=St1; id=node/32006773</desc>
   </wpt>
   <wpt lat="58.1598848" lon="13.5734169">
     <ele>237</ele>
@@ -313,9 +307,13 @@ version="1.1" creator="togpx">
     <name>Shell Borlänge, Tunabro</name>
     <desc>addr:city=Borlänge; addr:country=SE; addr:housenumber=2;
     addr:postcode=781 72; addr:street=Hugo Hedströms väg;
-    amenity=fuel; compressed_air=yes; name=Shell Borlänge, Tunabro;
-    old_name=Shell 7-eleven Tunabro,Shell Tunabro; operator=Shell;
-    phone=+46-243-19870; shop=yes; id=node/73488669</desc>
+    amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    compressed_air=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:electricity=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Shell Borlänge, Tunabro; old_name=Shell 7-eleven
+    Tunabro,Shell Tunabro; opening_hours=Mo-Fr 06:00-23:00, Sa,Su
+    07:00-23:00; operator=Shell; phone=+46-243-19870;
+    id=node/73488669</desc>
   </wpt>
   <wpt lat="58.1480414" lon="12.1342723">
     <ele>12</ele>
@@ -433,18 +431,17 @@ version="1.1" creator="togpx">
     08:00-22:00; operator=OKQ8; phone=+46 8 628 12 76;
     id=node/103854367</desc>
   </wpt>
-  <wpt lat="59.385216" lon="17.936546">
+  <wpt lat="59.3852466" lon="17.9365378">
     <ele>18</ele>
     <name>OKQ8 Rinkebyvägen</name>
-    <desc>addr:city=Spånga; addr:country=SE; addr:housenumber=66;
-    addr:postcode=16374; addr:street=Rinkebysvängen; amenity=fuel;
-    brand=OKQ8; brand:wikidata=Q2789310; brand:wikipedia=en:Kuwait
-    Petroleum Corporation; car_rental=yes; fuel:cng=yes;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=OKQ8 Rinkebyvägen; opening_hours=24/7;
-    operator=OKQ8 / E.ON; payment:eon=yes; payment:mastercard=yes;
-    payment:okq8=yes; payment:visa=yes; payment:volvokort=yes;
-    phone=+46 8 7602755; self_service=yes;
+    <desc>amenity=fuel; brand=OKQ8; brand:wikidata=Q2789310;
+    brand:wikipedia=en:Kuwait Petroleum Corporation;
+    car_rental=yes; fuel:cng=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=OKQ8 Rinkebyvägen;
+    opening_hours=24/7; operator=OKQ8 / E.ON; payment:cash=yes;
+    payment:eon=yes; payment:mastercard=yes; payment:okq8=yes;
+    payment:visa=yes; payment:volvokort=yes; phone=+46 8 7602755;
+    self_service=yes;
     website=https://www.okq8.se/pa-stationen/bensinstationer/spanga-rinkebysvangen/;
     id=node/103898268</desc>
     <link href="https://www.okq8.se/pa-stationen/bensinstationer/spanga-rinkebysvangen/">
@@ -1600,8 +1597,10 @@ version="1.1" creator="togpx">
   <wpt lat="56.0446382" lon="14.6684486">
     <ele>7</ele>
     <name>Listermacken</name>
-    <desc>amenity=fuel; contact:phone=+46-456-50750;
-    fuel:diesel=yes; fuel:e85=yes; name=Listermacken;
+    <desc>addr:city=Sölvesborg; addr:housenumber=2;
+    addr:postcode=294 71; addr:street=Listervägen; alt_name=CNG
+    Mjällby Listervägen; amenity=fuel; contact:phone=+46-456-50750;
+    fuel:CNG=yes; fuel:diesel=yes; fuel:e85=yes; name=Listermacken;
     operator=Listermacken; source=listermacken.se;
     id=node/247134906</desc>
     <link href="listermacken.se"></link>
@@ -1850,8 +1849,9 @@ version="1.1" creator="togpx">
     <ele>95</ele>
     <name>Preem</name>
     <desc>amenity=fuel; brand=Preem; compressed_air=no;
-    contact:phone=+46-380-45420; name=Preem; operator=Preem;
-    website=https://www.preem.se/; id=node/247134951</desc>
+    contact:phone=+46-380-45420; name=Preem; opening_hours=Mo-Su,PH
+    00:00-00:00; operator=Preem; website=https://www.preem.se/;
+    wheelchair=yes; id=node/247134951</desc>
     <link href="https://www.preem.se/"></link>
   </wpt>
   <wpt lat="56.5212026" lon="14.9808697">
@@ -3107,7 +3107,7 @@ version="1.1" creator="togpx">
     <name>Preem</name>
     <desc>amenity=fuel; branch=Örkelljunga Stockholmsvägen;
     brand=Preem; contact:phone=+46-76-1650930; name=Preem;
-    operator=Preem; source=Preem.se; website=https://www.preem.se/;
+    operator=Preem; website=https://www.preem.se/;
     id=node/247135201</desc>
     <link href="https://www.preem.se/"></link>
   </wpt>
@@ -4278,11 +4278,12 @@ version="1.1" creator="togpx">
   <wpt lat="59.6477202" lon="12.6174035">
     <ele>56</ele>
     <name>St1</name>
-    <desc>amenity=fuel; brand=St1; brand:wikipedia=sv:St1;
-    contact:city=ARVIKA; contact:postcode=67101;
-    contact:street=Mötterudsvägen 1; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; name=St1; opening_hours=24/7; operator=St1;
-    source=http://www.st1.se; id=node/247135422</desc>
+    <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
+    brand:wikipedia=sv:St1; contact:city=ARVIKA;
+    contact:postcode=67101; contact:street=Mötterudsvägen 1;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=St1;
+    opening_hours=24/7; operator=St1; source=http://www.st1.se;
+    id=node/247135422</desc>
     <link href="http://www.st1.se"></link>
   </wpt>
   <wpt lat="59.5615876" lon="17.5547759">
@@ -5012,11 +5013,12 @@ version="1.1" creator="togpx">
   <wpt lat="56.0530888" lon="14.5691989">
     <ele>27</ele>
     <name>St1</name>
-    <desc>amenity=fuel; brand=St1; brand:wikipedia=sv:St1;
-    contact:city=SÖLVESBORG; contact:postcode=29401;
-    contact:street=Blekingeporten / Skånevägen; fuel:diesel=yes;
-    fuel:e85=yes; fuel:octane_95=yes; fuel:octane_98=yes; name=St1;
-    operator=St1; id=node/247135537</desc>
+    <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
+    brand:wikipedia=sv:St1; contact:city=SÖLVESBORG;
+    contact:postcode=29401; contact:street=Blekingeporten /
+    Skånevägen; fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=St1; operator=St1;
+    id=node/247135537</desc>
   </wpt>
   <wpt lat="59.2020986" lon="17.6103775">
     <ele>27</ele>
@@ -5756,11 +5758,12 @@ version="1.1" creator="togpx">
     <name>Tanka Norrköping</name>
     <desc>addr:city=Norrköping; addr:country=SE;
     addr:housenumber=9; addr:postcode=602 28;
-    addr:street=Exportgatan; amenity=fuel; brand=Tanka;
-    brand:wikidata=Q10690640; contact:street=Lindövägen 60;
-    fuel:biodiesel=yes; fuel:cng=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Tanka Norrköping; operator=OKQ8;
-    source=www.volvokort.com; id=node/247135767</desc>
+    addr:street=Exportgatan; alt_name=CNG Norrköping sydöst;
+    amenity=fuel; brand=Tanka; brand:wikidata=Q10690640;
+    contact:street=Lindövägen 60; fuel:biodiesel=yes; fuel:cng=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Tanka Norrköping;
+    operator=OKQ8; source=www.volvokort.com;
+    id=node/247135767</desc>
     <link href="www.volvokort.com"></link>
   </wpt>
   <wpt lat="59.7603269" lon="18.690447">
@@ -6329,9 +6332,9 @@ version="1.1" creator="togpx">
   <wpt lat="59.6601388" lon="12.6101304">
     <ele>57</ele>
     <name>Tanka-Arvika</name>
-    <desc>amenity=fuel; contact:street=Åkaregatan 5;
-    name=Tanka-Arvika; operator=Tanka; source=www.volvokort.com;
-    id=node/247135867</desc>
+    <desc>amenity=fuel; brand=Tanka; brand:wikidata=Q10690640;
+    contact:street=Åkaregatan 5; name=Tanka-Arvika; operator=Tanka;
+    source=www.volvokort.com; id=node/247135867</desc>
     <link href="www.volvokort.com"></link>
   </wpt>
   <wpt lat="56.8938744" lon="14.5465784">
@@ -6551,8 +6554,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.6406169" lon="13.1944404">
     <ele>17</ele>
     <name>Gulf, Staffanstorp</name>
-    <desc>amenity=fuel; name=Gulf, Staffanstorp;
-    id=node/256434598</desc>
+    <desc>amenity=fuel; brand=Gulf; brand:wikidata=Q5617505;
+    name=Gulf, Staffanstorp; id=node/256434598</desc>
   </wpt>
   <wpt lat="55.7404951" lon="13.0328016">
     <ele>6</ele>
@@ -6667,15 +6670,15 @@ version="1.1" creator="togpx">
   <wpt lat="57.9298772" lon="12.5594335">
     <ele>65</ele>
     <name>Circle K</name>
-    <desc>amenity=fuel; brand=Circle K; fuel:diesel=yes;
-    fuel:e85=yes; fuel:octane_95=yes; name=Circle K;
-    id=node/266870590</desc>
+    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=Circle
+    K; id=node/266870590</desc>
   </wpt>
   <wpt lat="57.9301367" lon="12.56134">
     <ele>66</ele>
     <name>OKQ8</name>
-    <desc>amenity=fuel; brand=OKQ8; name=OKQ8; operator=OKQ8;
-    id=node/266870594</desc>
+    <desc>amenity=fuel; brand=OKQ8; brand:wikidata=Q2789310;
+    name=OKQ8; operator=OKQ8; id=node/266870594</desc>
   </wpt>
   <wpt lat="56.9972182" lon="15.2791497">
     <ele>258</ele>
@@ -7025,15 +7028,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.0236025" lon="14.1744162">
     <ele>1</ele>
-    <name>CNG Ringvägen</name>
+    <name>CNG Kristianstad öst Ringvägen</name>
     <desc>addr:city=Kristianstad; addr:country=SE;
     addr:housenumber=9; addr:street=Ringvägen; amenity=fuel;
     brand=St1; compressed_air=no; description=Lägsta punktens väg
     7, Kristianstad; fuel:biogas=yes; fuel:cng=yes; name=CNG
-    Ringvägen; opening_hours=24/7; operator=St1 Biogas;
-    payment:e.on=yes; payment:mastercard=yes; payment:okq8=yes;
-    payment:st1=yes; payment:visa=yes; payment:volvokort=yes;
-    self_service=yes;
+    Kristianstad öst Ringvägen; opening_hours=24/7; operator=St1
+    Biogas; payment:e.on=yes; payment:mastercard=yes;
+    payment:okq8=yes; payment:st1=yes; payment:visa=yes;
+    payment:volvokort=yes; self_service=yes;
     website=https://www.st1biogas.se/hitta-station;
     id=node/288996775</desc>
     <link href="https://www.st1biogas.se/hitta-station"></link>
@@ -7193,13 +7196,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.0409832" lon="14.1505771">
     <ele>3</ele>
-    <name>CNG Näsbyholmsvägen</name>
+    <name>CNG Kristianstad N Näsbyholmsv.</name>
     <desc>addr:city=Kristianstad; addr:country=SE;
     addr:housenumber=12; addr:street=Näsbyholmsvägen; amenity=fuel;
-    fuel:biogas=yes; fuel:cng=yes; name=CNG Näsbyholmsvägen;
-    opening_hours=24/7; operator=St1 Biogas; payment:e.on=yes;
-    payment:mastercard=yes; payment:okq8=yes; payment:st1=yes;
-    payment:visa=yes; payment:volvokort=yes; self_service=yes;
+    fuel:biogas=yes; fuel:cng=yes; name=CNG Kristianstad N
+    Näsbyholmsv.; opening_hours=24/7; operator=St1 Biogas;
+    payment:e.on=yes; payment:mastercard=yes; payment:okq8=yes;
+    payment:st1=yes; payment:visa=yes; payment:volvokort=yes;
+    self_service=yes;
     website=https://www.st1biogas.se/hitta-station;
     id=node/297569077</desc>
     <link href="https://www.st1biogas.se/hitta-station"></link>
@@ -7464,8 +7468,8 @@ version="1.1" creator="togpx">
     <name>node/326354803</name>
     <desc>amenity=fuel; brand=Ingo; id=node/326354803</desc>
   </wpt>
-  <wpt lat="57.168021" lon="12.2773111">
-    <ele>11</ele>
+  <wpt lat="57.1679963" lon="12.2775512">
+    <ele>12</ele>
     <name>Circle K</name>
     <desc>amenity=fuel; branch=Varberg Nord; brand=Circle K;
     contact:phone=+46 340-620 275; fuel:HGV_diesel=yes;
@@ -7473,18 +7477,6 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; internet_access=wlan;
     name=Circle K; opening_hours=24/7; operator=Circle K;
     id=node/326582189</desc>
-  </wpt>
-  <wpt lat="60.6050748" lon="16.7716008">
-    <name>Circle K</name>
-    <desc>addr:city=Sandviken; addr:country=SE;
-    addr:housenumber=39; addr:postcode=811 61;
-    addr:street=Hamngatan; amenity=fuel; brand=Circle K;
-    brand:wikidata=Q3268010; brand:wikipedia=en:Circle K;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Circle K; phone=+46 26251497;
-    website=https://www.circlek.se/station/26927;
-    id=node/329013052</desc>
-    <link href="https://www.circlek.se/station/26927"></link>
   </wpt>
   <wpt lat="59.3675456" lon="13.1438593">
     <ele>76</ele>
@@ -7573,9 +7565,9 @@ version="1.1" creator="togpx">
     <ele>61</ele>
     <name>Preem</name>
     <desc>amenity=fuel; branch=Mellerud; brand=Preem;
-    fuel:biodiesel=yes; fuel:diesel=no; fuel:e85=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Preem;
-    operator=Preem; shop=yes; id=node/337717851</desc>
+    brand:wikidata=Q598835; fuel:biodiesel=yes; fuel:diesel=no;
+    fuel:e85=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Preem; operator=Preem; id=node/337717851</desc>
   </wpt>
   <wpt lat="58.5590873" lon="12.3582542">
     <ele>67</ele>
@@ -7618,9 +7610,10 @@ version="1.1" creator="togpx">
   <wpt lat="59.332381" lon="18.0202083">
     <ele>16</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; name=Shell;
-    operator=Shell; phone=+46-8-6579660; id=node/345340768</desc>
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
+    brand:wikipedia=en:Royal Dutch Shell; compressed_air=yes;
+    name=Shell; operator=Shell; phone=+46-8-6579660;
+    id=node/345340768</desc>
   </wpt>
   <wpt lat="58.6850733" lon="13.8455824">
     <ele>63</ele>
@@ -7945,11 +7938,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.4068696" lon="15.5787502">
     <ele>82</ele>
-    <name>Vallarondellen Biogas</name>
+    <name>CNG Linköping SV</name>
     <desc>addr:city=Linköping; addr:country=SE; addr:housenumber=1;
     addr:street=Rydsvägen; amenity=fuel; compressed_air=no;
-    fuel:biogas=yes; fuel:cng=yes; kiosk=no; name=Vallarondellen
-    Biogas; opening_hours=24/7; operator=Svensk Biogas AB;
+    fuel:biogas=yes; fuel:cng=yes; kiosk=no; name=CNG Linköping SV;
+    opening_hours=24/7; operator=Svensk Biogas AB;
     payment:fordonsgas=yes; payment:mastercard=yes;
     payment:svensk_biogas=yes; payment:visa=yes; self_service=yes;
     id=node/409592862</desc>
@@ -7999,8 +7992,9 @@ version="1.1" creator="togpx">
     <ele>18</ele>
     <name>OKQ8</name>
     <desc>amenity=fuel; brand=OKQ8; compressed_air=yes; name=OKQ8;
-    opening_hours=24/7; operator=OK-Q8 AB; phone=+46850680000;
-    website=https://www.okq8.se/; id=node/412516106</desc>
+    opening_hours=24/7; operator=OK-Q8 AB; payment:cash=no;
+    phone=+46850680000; website=https://www.okq8.se/;
+    id=node/412516106</desc>
     <link href="https://www.okq8.se/"></link>
   </wpt>
   <wpt lat="59.2529911" lon="17.8554761">
@@ -8185,8 +8179,8 @@ version="1.1" creator="togpx">
     website=http://karesuandobensin.se; id=node/431298905</desc>
     <link href="http://karesuandobensin.se"></link>
   </wpt>
-  <wpt lat="59.8695305" lon="15.0158635">
-    <ele>156</ele>
+  <wpt lat="59.8695224" lon="15.015669">
+    <ele>155</ele>
     <name>OKQ8</name>
     <desc>amenity=fuel; brand=OKQ8; check_date=2023-07-06;
     compressed_air=no; name=OKQ8; operator=OK-Q8 AB;
@@ -8674,6 +8668,7 @@ version="1.1" creator="togpx">
     <ele>86</ele>
     <name>Circle K</name>
     <desc>amenity=fuel; branch=Osby; brand=Circle K;
+    brand:wikidata=Q3268010; contact:phone=+46 479 16065;
     fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Circle K; operator=Circle K;
     id=node/476982441</desc>
@@ -8746,13 +8741,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.4247549" lon="15.6399919">
     <ele>39</ele>
-    <name>CNG Gumpekullarondellen</name>
+    <name>CNG Linköping NO Gumpekullarondellen</name>
     <desc>addr:city=Linköping; addr:country=SE; addr:housenumber=1;
     addr:street=Sigbjörnsgatan; amenity=fuel; fuel:biogas=yes;
-    fuel:cng=yes; name=CNG Gumpekullarondellen; opening_hours=24/7;
-    operator=Svensk Biogas AB; payment:fordonsgas=yes;
-    payment:mastercard=yes; payment:svensk_biogas=yes;
-    payment:visa=yes; self_service=yes; id=node/491082778</desc>
+    fuel:cng=yes; name=CNG Linköping NO Gumpekullarondellen;
+    opening_hours=24/7; operator=Svensk Biogas AB;
+    payment:fordonsgas=yes; payment:mastercard=yes;
+    payment:svensk_biogas=yes; payment:visa=yes; self_service=yes;
+    id=node/491082778</desc>
   </wpt>
   <wpt lat="60.1347628" lon="15.4032608">
     <ele>117</ele>
@@ -8993,10 +8989,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.6688828" lon="16.3305882">
     <ele>5</ele>
-    <name>CNG Torsåsgatan</name>
+    <name>CNG Kalmar syd</name>
     <desc>addr:city=Kalmar; addr:country=SE; addr:housenumber=13;
     addr:street=Torsåsgatan; amenity=fuel; fuel:biogas=yes;
-    fuel:cng=yes; name=CNG Torsåsgatan; opening_hours=24/7;
+    fuel:cng=yes; name=CNG Kalmar syd; opening_hours=24/7;
     operator=E.ON; payment:e.on=yes; payment:mastercard=yes;
     payment:okq8=yes; payment:runes=yes; payment:visa=yes;
     payment:volvokort=yes; self_service=yes;
@@ -9078,8 +9074,8 @@ version="1.1" creator="togpx">
   <wpt lat="59.515739" lon="17.6280437">
     <ele>25</ele>
     <name>din-X</name>
-    <desc>amenity=fuel; brand=din-X; name=din-X;
-    id=node/587363903</desc>
+    <desc>amenity=fuel; brand=din-X; brand:wikidata=Q10472858;
+    name=din-X; id=node/587363903</desc>
   </wpt>
   <wpt lat="55.5391744" lon="13.3576584">
     <ele>72</ele>
@@ -9296,7 +9292,7 @@ version="1.1" creator="togpx">
   <wpt lat="59.660973" lon="12.6132285">
     <ele>59</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; kiosk:operator=7-eleven;
     name=Shell; operator=Shell; shop=kiosk;
     id=node/635773205</desc>
@@ -9782,8 +9778,9 @@ version="1.1" creator="togpx">
   <wpt lat="56.0593457" lon="14.5945215">
     <ele>17</ele>
     <name>Circle K</name>
-    <desc>amenity=fuel; brand=Circle K; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Circle K; id=node/778127559</desc>
+    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Circle K;
+    id=node/778127559</desc>
   </wpt>
   <wpt lat="56.2597714" lon="12.9753487">
     <ele>43</ele>
@@ -9858,7 +9855,7 @@ version="1.1" creator="togpx">
     <name>OKQ8</name>
     <desc>addr:city=Värnamo; addr:postcode=33197; amenity=fuel;
     brand=OKQ8; brand:wikidata=Q1634762; brand:wikipedia=sv:OKQ8;
-    compressed_air=yes; email=64608@station.okq8.se; fuel:cng=yes;
+    compressed_air=yes; email=64608@station.okq8.se;
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     name=OKQ8; opening_hours=Mo-Fr 06:00-22:00, Sa,Su 07:00-22:00;
     operator=OKQ8; phone=+46 370-19380; shop=yes;
@@ -10085,7 +10082,8 @@ version="1.1" creator="togpx">
     <name>OKQ8 Mini</name>
     <desc>amenity=fuel; brand=OKQ8; fuel:diesel=yes; fuel:e85=yes;
     fuel:octane_95=yes; name=OKQ8 Mini; opening_hours=24/7;
-    operator=OKQ8; shop=no; id=node/844942049</desc>
+    operator=OKQ8; shop=no; wheelchair=limited;
+    id=node/844942049</desc>
   </wpt>
   <wpt lat="60.6040501" lon="15.6032935">
     <name>OKQ8 Minipris</name>
@@ -10495,16 +10493,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Viskafors Bensin &amp; Grill;
     id=node/975020005</desc>
   </wpt>
-  <wpt lat="64.2723984" lon="21.0473551">
-    <name>OKQ8</name>
-    <desc>addr:city=Ånäset; addr:country=SE; addr:housenumber=1;
-    addr:postcode=91534; addr:street=Skolgatan; amenity=fuel;
-    brand=OKQ8; brand:wikidata=Q2789310; full_service=yes;
-    name=OKQ8; operator=OK-Q8 AB; phone=+46850680000;
-    self_service=yes; snowmobile=yes; website=https://www.okq8.se/;
-    wheelchair=yes; id=node/981614785; ; id=way/293400627</desc>
-    <link href="https://www.okq8.se/"></link>
-  </wpt>
   <wpt lat="64.0605618" lon="20.8489122">
     <name>Qstar i Bygdeå</name>
     <desc>amenity=fuel; contact:phone=+4693430009;
@@ -10768,10 +10756,10 @@ version="1.1" creator="togpx">
     <ele>33</ele>
     <name>CircleK Gamla Övägen</name>
     <desc>addr:city=Norrköping; addr:street=Gamla Övägen;
-    amenity=fuel; fuel:biodiesel=no; fuel:cng=no; fuel:diesel=yes;
-    fuel:e85=yes; fuel:lpg=no; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=CircleK Gamla Övägen;
-    opening_hours=24/7; operator=CircleK; shop=convenience;
+    amenity=fuel; compressed_air=yes; fuel:biodiesel=no;
+    fuel:cng=no; fuel:diesel=yes; fuel:e85=yes; fuel:lpg=no;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=CircleK Gamla
+    Övägen; opening_hours=24/7; operator=CircleK; shop=convenience;
     id=node/1185864032</desc>
   </wpt>
   <wpt lat="66.050468" lon="17.8439246">
@@ -10930,8 +10918,9 @@ version="1.1" creator="togpx">
     <name>Qstar</name>
     <desc>addr:city=Skattkärr; addr:country=SE;
     addr:housenumber=24; addr:street=Skattkärrsvägen; amenity=fuel;
-    brand=Qstar; brand:wikidata=Q10647961; fuel:diesel=yes;
-    fuel:e85=yes; fuel:octane_95=yes; name=Qstar; operator=Qstar;
+    brand=Qstar; brand:wikidata=Q10647961; compressed_air=no;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=Qstar;
+    opening_hours=Mo-Su,PH 00:00+; operator=Qstar;
     self_service=yes; id=node/1300474653</desc>
   </wpt>
   <wpt lat="60.4485448" lon="15.4882635">
@@ -11038,11 +11027,12 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes; name=Circle K Vilhelmina;
     id=node/1336858157</desc>
   </wpt>
-  <wpt lat="59.2521273" lon="14.958947">
+  <wpt lat="59.2521516" lon="14.9588745">
     <ele>74</ele>
     <name>Qstar</name>
-    <desc>amenity=fuel; brand=Qstar; name=Qstar;
-    id=node/1340568843</desc>
+    <desc>amenity=fuel; brand=Qstar; brand:wikidata=Q10647961;
+    fuel:diesel=yes; fuel:octane_98=yes; name=Qstar;
+    self_service=yes; id=node/1340568843</desc>
   </wpt>
   <wpt lat="60.4149604" lon="15.5926801">
     <ele>121</ele>
@@ -11101,8 +11091,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="64.7571059" lon="20.9017296">
     <name>Ingo</name>
-    <desc>amenity=fuel; brand=Ingo; operator=Ingo;
-    shop=convenience; id=node/1361065682</desc>
+    <desc>amenity=fuel; brand=Ingo; brand:wikidata=Q17048617;
+    name=Ingo; operator=Ingo; id=node/1361065682</desc>
   </wpt>
   <wpt lat="60.1540983" lon="16.9462856">
     <ele>74</ele>
@@ -11890,11 +11880,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Falun; addr:country=SE; addr:housenumber=1A;
     addr:postcode=791 31; addr:street=Vasagatan; amenity=fuel;
     brand=Circle K; brand:wikidata=Q3268010;
-    brand:wikipedia=en:Circle K; check_date=2023-12-18;
+    brand:wikipedia=en:Circle K; check_date=2024-09-21;
     compressed_air=yes; name=Circle K; old_name=Statoil Vasagatan;
     opening_hours=06:00-24:00; operator=Circle K; payment:cash=yes;
     payment:credit_cards=yes; payment:debit_cards=yes; phone=+46
-    23-19950; wheelchair=yes; id=node/1617148835</desc>
+    23-19950;
+    website=https://www.circlek.se/station/circle-k-falun-vasagatan;
+    wheelchair=yes; id=node/1617148835</desc>
+    <link href="https://www.circlek.se/station/circle-k-falun-vasagatan">
+    </link>
   </wpt>
   <wpt lat="60.4681667" lon="15.4345836">
     <name>node/1624108243</name>
@@ -11924,11 +11918,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.769331" lon="14.1709777">
     <ele>92</ele>
-    <name>CNG Glimmervägen</name>
+    <name>CNG Jönköping C Glimmervägen</name>
     <desc>addr:city=Jönköping; addr:country=SE; addr:housenumber=1;
     addr:street=Glimmervägen; amenity=fuel; brand=Småländska
-    Bränslen; fuel:biogas=yes; fuel:cng=yes; name=CNG Glimmervägen;
-    opening_hours=24/7; operator=FordonsGas Sverige;
+    Bränslen; fuel:biogas=yes; fuel:cng=yes; name=CNG Jönköping C
+    Glimmervägen; opening_hours=24/7; operator=FordonsGas Sverige;
     payment:mastercard=yes; payment:svensk_biogas=yes;
     payment:visa=yes; payment:volvokort=yes; self_service=yes;
     shop=no; id=node/1642833821</desc>
@@ -11961,7 +11955,8 @@ version="1.1" creator="togpx">
   <wpt lat="58.8922865" lon="14.9251077">
     <ele>107</ele>
     <name>OKQ8</name>
-    <desc>amenity=fuel; brand=OKQ8; name=OKQ8; operator=OKQ8;
+    <desc>amenity=fuel; brand=OKQ8; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; name=OKQ8; operator=OKQ8;
     id=node/1656793269</desc>
   </wpt>
   <wpt lat="63.2955085" lon="18.6232366">
@@ -12150,10 +12145,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.0637869" lon="11.8020572">
     <ele>22</ele>
-    <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; compressed_air=no;
-    fuel:cng=no; fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    name=Shell; opening_hours=24/7; operator=Shell; shop=no;
+    <name>St1</name>
+    <desc>amenity=fuel; brand=St1; compressed_air=no; fuel:cng=no;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=St1;
+    opening_hours=24/7; operator=St1; shop=no;
     id=node/1758891264</desc>
   </wpt>
   <wpt lat="59.5268757" lon="18.5133157">
@@ -12339,8 +12334,8 @@ version="1.1" creator="togpx">
     <name>Qstar Mellerud</name>
     <desc>addr:city=Mellerud; addr:country=SE; addr:housenumber=2;
     addr:postcode=464 34; addr:street=Eldaregatan; amenity=fuel;
-    branch=Mellerud; brand=Qstar; name=Qstar Mellerud;
-    id=node/1801953360</desc>
+    branch=Mellerud; brand=Qstar; brand:wikidata=Q10647961;
+    name=Qstar Mellerud; id=node/1801953360</desc>
   </wpt>
   <wpt lat="58.4756148" lon="12.26662">
     <ele>65</ele>
@@ -12937,10 +12932,10 @@ version="1.1" creator="togpx">
   <wpt lat="58.602835" lon="16.1867199">
     <ele>6</ele>
     <name>Qstar Norrköping Norra</name>
-    <desc>amenity=fuel; brand=Qstar; fuel:biodiesel=yes;
-    fuel:cng=yes; fuel:diesel=yes; fuel:e85=no; fuel:lpg=no;
-    fuel:octane_95=yes; name=Qstar Norrköping Norra; operator=Qstar
-    Försäljning; id=node/2010693037</desc>
+    <desc>alt_name=CNG Norrköping norr; amenity=fuel; brand=Qstar;
+    fuel:biodiesel=yes; fuel:cng=yes; fuel:diesel=yes; fuel:e85=no;
+    fuel:lpg=no; fuel:octane_95=yes; name=Qstar Norrköping Norra;
+    operator=Qstar Försäljning; id=node/2010693037</desc>
   </wpt>
   <wpt lat="60.6352538" lon="17.4050838">
     <name>Qstar - Skutskär, Gävlevägen</name>
@@ -12998,8 +12993,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.54061" lon="15.0077074">
     <ele>99</ele>
-    <name>node/2064808700</name>
-    <desc>amenity=fuel; fuel:cng=yes; id=node/2064808700</desc>
+    <name>CNG Motala väst</name>
+    <desc>addr:city=Motala; addr:street=Drakvägen; amenity=fuel;
+    fuel:biogas=yes; fuel:cng=yes; name=CNG Motala väst;
+    opening_hours=24/7; operator=Svensk Biogas; self_service=yes;
+    id=node/2064808700</desc>
   </wpt>
   <wpt lat="63.3170188" lon="14.1690593">
     <name>Circle K Ytterån</name>
@@ -14414,10 +14412,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Strömstad; addr:country=SE;
     addr:housenumber=42; addr:postcode=452 35;
     addr:street=Oslovägen; amenity=fuel; brand=Circle K;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Circle K; opening_hours=Mo-Fr
-    06:00-24:00, Sa-Su 08:00-24:00; operator=Alimentation
-    Couche-Tard, Inc; shop=convenience; id=node/2870894264</desc>
+    brand:wikidata=Q3268010; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Circle K;
+    opening_hours=Mo-Fr 06:00-24:00, Sa-Su 08:00-24:00;
+    operator=Alimentation Couche-Tard, Inc; shop=convenience;
+    id=node/2870894264</desc>
   </wpt>
   <wpt lat="57.2059437" lon="14.9474451">
     <ele>191</ele>
@@ -14459,10 +14458,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.5847307" lon="16.2084444">
     <ele>9</ele>
-    <name>Eon Norrköping</name>
+    <name>CNG Norrköping syd Eon</name>
     <desc>amenity=fuel; brand=Eon; fuel:biodiesel=no; fuel:cng=yes;
     fuel:diesel=no; fuel:e85=no; fuel:lpg=no; fuel:octane_95=no;
-    fuel:octane_98=no; name=Eon Norrköping;
+    fuel:octane_98=no; name=CNG Norrköping syd Eon;
     not:brand:wikidata=Q2789310; operator=OKQ8;
     id=node/2912562712</desc>
   </wpt>
@@ -14758,13 +14757,14 @@ version="1.1" creator="togpx">
     <ele>67</ele>
     <name>OKQ8 Arvika</name>
     <desc>addr:city=Arvika; addr:country=SE; addr:housenumber=2;
-    addr:street=Blästervägen; amenity=fuel; fuel:cng=yes;
-    fuel:diesel=yes; fuel:e85=yes; fuel:electricity=yes;
-    fuel:hvo100=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=OKQ8 Arvika; opening_hours=24/7; operator=OKQ8;
-    payment:e.on=yes; payment:mastercard=yes; payment:okq8=yes;
-    payment:visa=yes; payment:volvokort=yes; self_service=yes;
-    wheelchair=yes; id=node/3011320021</desc>
+    addr:street=Blästervägen; amenity=fuel; brand=OKQ8;
+    brand:wikidata=Q2789310; fuel:cng=yes; fuel:diesel=yes;
+    fuel:e85=yes; fuel:electricity=yes; fuel:hvo100=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=OKQ8 Arvika;
+    opening_hours=24/7; operator=OKQ8; payment:e.on=yes;
+    payment:mastercard=yes; payment:okq8=yes; payment:visa=yes;
+    payment:volvokort=yes; self_service=yes; wheelchair=yes;
+    id=node/3011320021</desc>
   </wpt>
   <wpt lat="61.8235128" lon="16.109991">
     <name>OKQ8</name>
@@ -15050,10 +15050,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.6763141" lon="14.6946981">
     <ele>302</ele>
-    <name>Nässjö</name>
-    <desc>addr:city=Nässjö; addr:postcode=57134; addr:street=Petter
-    Jönssons väg; amenity=fuel; fuel:cng=yes;
-    id=node/3309679640</desc>
+    <name>CNG Nässjö norr</name>
+    <desc>addr:city=Nässjö; addr:housenumber=3;
+    addr:postcode=57134; addr:street=Petter Jönssons väg;
+    amenity=fuel; fuel:cng=yes; name=CNG Nässjö norr;
+    opening_hours=24/7; self_service=yes; id=node/3309679640</desc>
   </wpt>
   <wpt lat="60.6526704" lon="15.78127">
     <name>Engkvist Taxi &amp; Bensin</name>
@@ -15117,8 +15118,8 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Fr 08:00-18:00, Sa-Su 10:00-17:00;
     id=node/3385784764</desc>
   </wpt>
-  <wpt lat="56.2392112" lon="13.2578391">
-    <ele>107</ele>
+  <wpt lat="56.2394929" lon="13.2586491">
+    <ele>109</ele>
     <name>RingGas</name>
     <desc>addr:street=Östra Flinka; amenity=fuel; name=RingGas;
     id=node/3387545452</desc>
@@ -15136,8 +15137,8 @@ version="1.1" creator="togpx">
     <name>Qstar</name>
     <desc>amenity=fuel; brand=Qstar; compressed_air=yes;
     name=Qstar; opening_hours=24/7; operator=Qstar;
-    payment:cash=no; source=https://www.qstar.se/omoss;
-    website=https://www.qstar.se/; id=node/3399470914</desc>
+    payment:cash=no; website=https://www.qstar.se/;
+    id=node/3399470914</desc>
     <link href="https://www.qstar.se/"></link>
   </wpt>
   <wpt lat="59.59097" lon="16.504266">
@@ -15216,13 +15217,6 @@ version="1.1" creator="togpx">
     <ele>170</ele>
     <name>Topp</name>
     <desc>amenity=fuel; name=Topp; id=node/3528808942</desc>
-  </wpt>
-  <wpt lat="58.2788585" lon="13.0215021">
-    <ele>80</ele>
-    <name>Qstar</name>
-    <desc>amenity=fuel; brand=Qstar; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Qstar; operator=Qstar;
-    id=node/3528978829</desc>
   </wpt>
   <wpt lat="58.7135111" lon="13.8184445">
     <ele>46</ele>
@@ -15449,9 +15443,10 @@ version="1.1" creator="togpx">
     <name>St1</name>
     <desc>addr:city=Mellerud; addr:country=SE; addr:housenumber=4;
     addr:postcode=46421; addr:street=Kornsjögatan; amenity=fuel;
-    branch=Mellerud; brand=St1; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; name=St1; opening_hours=24/7; operator=st1;
-    shop=no; id=node/3725095987</desc>
+    branch=Mellerud; brand=St1; brand:wikidata=Q7592214;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=St1;
+    opening_hours=24/7; operator=st1; shop=no;
+    id=node/3725095987</desc>
   </wpt>
   <wpt lat="56.6153759" lon="12.9500654">
     <ele>10</ele>
@@ -16159,10 +16154,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="59.3305668" lon="14.5468212">
     <ele>111</ele>
-    <name>Qstar Rosendal</name>
-    <desc>amenity=fuel; brand=Qstar; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; name=Qstar Rosendal; opening_hours=24/7;
-    operator=Qstar; id=node/4561480893</desc>
+    <name>Qstar Karlskoga Rosendal</name>
+    <desc>alt_name=CNG Karlskoga öst; amenity=fuel; brand=Qstar;
+    fuel:CNG=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; name=Qstar Karlskoga Rosendal;
+    opening_hours=24/7; operator=Qstar; id=node/4561480893</desc>
   </wpt>
   <wpt lat="57.5397773" lon="15.7577916">
     <ele>114</ele>
@@ -16286,7 +16282,7 @@ version="1.1" creator="togpx">
   <wpt lat="59.6596136" lon="12.6074989">
     <ele>59</ele>
     <name>OKQ8</name>
-    <desc>amenity=fuel; brand=OKQ8; brand:wikidata=Q1634762;
+    <desc>amenity=fuel; brand=OKQ8; brand:wikidata=Q2789310;
     brand:wikipedia=en:Kuwait Petroleum Corporation; name=OKQ8;
     self_service=yes; id=node/4741911149</desc>
   </wpt>
@@ -16372,9 +16368,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="59.3241591" lon="14.4431591">
     <ele>149</ele>
-    <name>Biogasbolaget, CNG</name>
-    <desc>amenity=fuel; fuel:cng=yes; name=Biogasbolaget, CNG;
-    shop=no; id=node/4847134357</desc>
+    <name>CNG Karlskoga väst</name>
+    <desc>amenity=fuel; fuel:cng=yes; name=CNG Karlskoga väst;
+    operator=Biogasbolaget; shop=no; id=node/4847134357</desc>
   </wpt>
   <wpt lat="56.2321434" lon="15.2583123">
     <ele>13</ele>
@@ -16619,8 +16615,8 @@ version="1.1" creator="togpx">
   <wpt lat="55.6054728" lon="13.4006432">
     <ele>33</ele>
     <name>din-X Genarp</name>
-    <desc>amenity=fuel; brand=din-X; name=din-X Genarp;
-    id=node/5136361929</desc>
+    <desc>amenity=fuel; brand=din-X; brand:wikidata=Q10472858;
+    name=din-X Genarp; id=node/5136361929</desc>
   </wpt>
   <wpt lat="58.8596372" lon="11.2547663">
     <ele>3</ele>
@@ -16677,7 +16673,8 @@ version="1.1" creator="togpx">
     <ele>16</ele>
     <name>Preem</name>
     <desc>amenity=fuel; branch=Göteborg Bjurslättstorg;
-    brand=Preem; compressed_air=yes; contact:phone=+46-31-232155;
+    brand=Preem; brand:wikidata=Q598835; compressed_air=yes;
+    contact:phone=+46-31-232155;
     contact:website=https://www.preem.se/; fuel:diesel=yes;
     fuel:e85=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     name=Preem; opening_hours=Mo-Fr 06:00-21:00, Sa 09:00-21:00, Su
@@ -16953,9 +16950,10 @@ version="1.1" creator="togpx">
     <ele>17</ele>
     <name>OKQ8</name>
     <desc>amenity=fuel; branch=Strömstad Solviksgatan; brand=OKQ8;
-    fuel:HGV_diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=OKQ8; opening_hours=24/7;
-    operator=OKQ8; shop=no; id=node/5186009864</desc>
+    brand:wikidata=Q2789310; fuel:HGV_diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=OKQ8;
+    opening_hours=24/7; operator=OKQ8; shop=no;
+    id=node/5186009864</desc>
   </wpt>
   <wpt lat="57.7402257" lon="11.9423881">
     <ele>27</ele>
@@ -17342,8 +17340,9 @@ version="1.1" creator="togpx">
   <wpt lat="57.9221353" lon="12.0668533">
     <ele>5</ele>
     <name>Gulf</name>
-    <desc>amenity=fuel; branch=Alafors; brand=Gulf; name=Gulf;
-    operator=Gulf; id=node/5435502528</desc>
+    <desc>amenity=fuel; branch=Alafors; brand=Gulf;
+    brand:wikidata=Q5617505; name=Gulf; operator=Gulf;
+    id=node/5435502528</desc>
   </wpt>
   <wpt lat="57.6797021" lon="12.3111355">
     <ele>134</ele>
@@ -17367,9 +17366,10 @@ version="1.1" creator="togpx">
     <name>Ingo</name>
     <desc>addr:city=Uppsala; addr:country=SE; addr:housenumber=2;
     addr:street=Nämndemansvägen; amenity=fuel; branch=Uppsala;
-    brand=Ingo; compressed_air=no; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; name=Ingo; opening_hours=24/7;
-    operator=Ingo; shop=no; id=node/5454149567</desc>
+    brand=Ingo; brand:wikidata=Q17048617; compressed_air=no;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=Ingo;
+    opening_hours=24/7; operator=Ingo; shop=no;
+    id=node/5454149567</desc>
   </wpt>
   <wpt lat="57.9600489" lon="12.1256258">
     <ele>4</ele>
@@ -17625,13 +17625,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.402698" lon="15.6486762">
     <ele>50</ele>
-    <name>CNG Tanneforsvägen</name>
+    <name>CNG Linköping SO Tanneforsv.</name>
     <desc>addr:city=Linköping; addr:street=Gamla Tanneforsvägen;
     amenity=fuel; compressed_air=no; fuel:biogas=yes; fuel:cng=yes;
-    name=CNG Tanneforsvägen; opening_hours=24/7; operator=Svensk
-    Biogas AB; payment:fordonsgas=yes; payment:mastercard=yes;
-    payment:svensk_biogas=yes; payment:visa=yes; self_service=yes;
-    shop=no; id=node/5593225820</desc>
+    name=CNG Linköping SO Tanneforsv.; opening_hours=24/7;
+    operator=Svensk Biogas AB; payment:fordonsgas=yes;
+    payment:mastercard=yes; payment:svensk_biogas=yes;
+    payment:visa=yes; self_service=yes; shop=no;
+    id=node/5593225820</desc>
   </wpt>
   <wpt lat="59.8085531" lon="15.5395869">
     <ele>159</ele>
@@ -17959,7 +17960,8 @@ version="1.1" creator="togpx">
     <ele>49</ele>
     <name>Shell</name>
     <desc>amenity=fuel; branch=Lidköping; brand=Shell;
-    compressed_air=yes; name=Shell; operator=Shell;
+    compressed_air=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; name=Shell; operator=Shell; shop=kiosk;
     id=node/6066941020</desc>
   </wpt>
   <wpt lat="57.512315" lon="12.6960567">
@@ -18438,14 +18440,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.3187383" lon="15.1000736">
     <ele>130</ele>
-    <name>CNG Hallevadsgatan</name>
+    <name>CNG Mjölby Hällevadsgatan</name>
     <desc>addr:city=Mjölby; addr:street=Hallevadsgatan;
     amenity=fuel; fuel:biogas=yes; fuel:cbg=yes; fuel:cng=yes;
     fuel:compressed_biogas=yes; fuel:lbg=yes;
     fuel:liquid_biogas=yes;
     image=https://pk2.se/im/PXL_20220104_Mjolby_CBG.jpg; name=CNG
-    Hallevadsgatan; opening_hours=24/7; operator=Svensk Biogas AB;
-    payment:fordonsgas=yes; payment:mastercard=yes;
+    Mjölby Hällevadsgatan; opening_hours=24/7; operator=Svensk
+    Biogas AB; payment:fordonsgas=yes; payment:mastercard=yes;
     payment:svensk_biogas=yes; payment:visa=yes; self_service=yes;
     shop=no; id=node/7090600551</desc>
   </wpt>
@@ -18684,11 +18686,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.4253141" lon="15.6641394">
     <ele>39</ele>
-    <name>CNG Mörtlösarondellen</name>
+    <name>CNG Linköping NO Mörtlösa</name>
     <desc>addr:city=Linköping; addr:street=Tjälvegatan;
     amenity=fuel; fuel:biogas=yes; fuel:cbg=yes; fuel:cng=yes;
     fuel:compressed_biogas=yes; fuel:lbg=yes;
-    fuel:liquid_biogas=yes; name=CNG Mörtlösarondellen;
+    fuel:liquid_biogas=yes; name=CNG Linköping NO Mörtlösa;
     opening_hours=24/7; operator=Svensk Biogas AB;
     payment:fordonsgas=yes; payment:mastercard=yes;
     payment:svensk_biogas=yes; payment:visa=yes; self_service=yes;
@@ -18798,7 +18800,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=sv:Shell; compressed_air=yes; name=Shell;
     id=node/8088819914</desc>
   </wpt>
-  <wpt lat="59.5273326" lon="15.2848363">
+  <wpt lat="59.5272469" lon="15.2848846">
     <ele>58</ele>
     <name>Qstar</name>
     <desc>amenity=fuel; brand=Qstar; brand:wikidata=Q10647961;
@@ -18991,7 +18993,7 @@ version="1.1" creator="togpx">
     <ele>183</ele>
     <name>CNG Växjö öst</name>
     <desc>addr:city=Växjö; addr:country=SE; addr:housenumber=2;
-    addr:street=Dusavägen; amenity=fuel; fuel:Biogas=yes;
+    addr:street=Dusavägen; amenity=fuel; fuel:biogas=yes;
     fuel:cng=yes; name=CNG Växjö öst; opening_hours=24/7;
     operator=Småländska Bränslen; self_service=yes;
     id=node/8957074876</desc>
@@ -19042,10 +19044,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.4275095" lon="15.5913445">
     <ele>41</ele>
-    <name>Svensk Biogas CNG</name>
+    <name>CNG Linköping NV</name>
     <desc>addr:city=Linköping; addr:country=SE; addr:housenumber=2;
     addr:postcode=58273; addr:street=Roxtorpsgatan; amenity=fuel;
-    fuel:cng=yes; name=Svensk Biogas CNG; opening_hours=24/7;
+    fuel:cng=yes; name=CNG Linköping NV; opening_hours=24/7;
     operator=Svensk Biogas; payment:fordonsgaskort=yes;
     payment:mastercard=yes; payment:svensk_biogas=yes;
     payment:visa=yes; payment:volvokort=yes; self_service=yes;
@@ -19063,11 +19065,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.5692335" lon="15.0897225">
     <ele>88</ele>
-    <name>CNG Biogas Borensvägen</name>
+    <name>CNG Motala NO Borensvägen</name>
     <desc>addr:city=Motala; addr:country=SE; addr:housenumber=134;
-    addr:street=Borensvägen; amenity=fuel; fuel:cng=yes; name=CNG
-    Biogas Borensvägen; opening_hours=24/7; operator=Svensk Biogas
-    AB; self_service=yes; id=node/8972206484</desc>
+    addr:street=Borensvägen; amenity=fuel; fuel:biogas=yes;
+    fuel:cng=yes; name=CNG Motala NO Borensvägen;
+    opening_hours=24/7; operator=Svensk Biogas AB;
+    self_service=yes; id=node/8972206484</desc>
   </wpt>
   <wpt lat="57.4996142" lon="15.828277">
     <ele>109</ele>
@@ -19121,12 +19124,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.6949031" lon="16.3296049">
     <ele>7</ele>
-    <name>CNG Engelska vägen</name>
+    <name>CNG Kalmar norr</name>
     <desc>addr:city=Kalmar; addr:country=SE; addr:housenumber=2;
     addr:street=Engelska vägen; amenity=fuel; fuel:cng=yes;
-    name=CNG Engelska vägen; opening_hours=24/7;
-    operator=Oskarshamns Energi; payment:e.on=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    name=CNG Kalmar norr; opening_hours=24/7; operator=Oskarshamns
+    Energi; payment:e.on=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes;
     payment:volvokort=yes; self_service=yes;
     id=node/8972281195</desc>
   </wpt>
@@ -19167,10 +19170,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.74141" lon="15.8918856">
     <ele>89</ele>
-    <name>CNG Nybro</name>
+    <name>CNG Nybro väst</name>
     <desc>addr:city=Nybro; addr:country=SE; addr:housenumber=13;
     addr:street=Sågaregatan; amenity=fuel; fuel:cng=yes; name=CNG
-    Nybro; operator=Polargas AB; self_service=yes;
+    Nybro väst; operator=Polargas AB; self_service=yes;
     id=node/8972366047</desc>
   </wpt>
   <wpt lat="56.1700032" lon="13.7593867">
@@ -19267,13 +19270,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.7851393" lon="14.2307901">
     <ele>117</ele>
-    <name>CNG Österängen</name>
+    <name>CNG Jönköping NO Österängen</name>
     <desc>addr:city=Jönköping; addr:country=SE; addr:housenumber=1;
     addr:street=Vasavägen; amenity=fuel; fuel:cng=yes; name=CNG
-    Österängen; opening_hours=24/7; operator=FordonsGas Sverige AB;
-    payment:fordonsgas=yes; payment:mastercard=yes;
-    payment:svensk_biogas=yes; payment:visa=yes;
-    payment:volvokort=yes; self_service=yes;
+    Jönköping NO Österängen; opening_hours=24/7;
+    operator=FordonsGas Sverige AB; payment:fordonsgas=yes;
+    payment:mastercard=yes; payment:svensk_biogas=yes;
+    payment:visa=yes; payment:volvokort=yes; self_service=yes;
     id=node/8972452326</desc>
   </wpt>
   <wpt lat="57.6903731" lon="14.1643427">
@@ -19297,13 +19300,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.7476896" lon="14.1631248">
     <ele>108</ele>
-    <name>CNG Kraftgatan</name>
+    <name>CNG Jönköping syd Kraftgatan</name>
     <desc>addr:city=Jönköping; addr:country=SE;
     addr:housenumber=11; addr:street=Kraftgatan; amenity=fuel;
-    fuel:cng=yes; name=CNG Kraftgatan; opening_hours=24/7;
-    operator=FordonsGas Sverige AB; payment:fordonsgas=yes;
-    payment:mastercard=yes; payment:svensk_biogas=yes;
-    payment:visa=yes; payment:volvokort=yes; self_service=yes;
+    fuel:cng=yes; name=CNG Jönköping syd Kraftgatan;
+    opening_hours=24/7; operator=FordonsGas Sverige AB;
+    payment:fordonsgas=yes; payment:mastercard=yes;
+    payment:svensk_biogas=yes; payment:visa=yes;
+    payment:volvokort=yes; self_service=yes;
     id=node/8972473667</desc>
   </wpt>
   <wpt lat="56.4270096" lon="12.8755204">
@@ -19714,11 +19718,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.3929796" lon="13.8880588">
     <ele>120</ele>
-    <name>CNG Skövde Mejselvägen</name>
+    <name>CNG Skövde NO Mejselv.</name>
     <desc>addr:city=Skövde; addr:country=SE; addr:housenumber=10;
     addr:postcode=54134; addr:street=Mejselvägen; amenity=fuel;
     email=info@skovdebiogas.se; fuel:biogas=yes; fuel:cng=yes;
-    name=CNG Skövde Mejselvägen; opening_hours=24/7;
+    name=CNG Skövde NO Mejselv.; opening_hours=24/7;
     operator=Skövde Biogas AB; payment:mastercard=yes;
     payment:visa=yes; self_service=yes;
     website=https://www.eon.se/gas/kora-pa-biogas/tanka;
@@ -19729,24 +19733,25 @@ version="1.1" creator="togpx">
   <wpt lat="55.3731786" lon="13.1358706">
     <ele>1</ele>
     <name>International Diesel Services</name>
-    <desc>amenity=fuel; fuel:HGV_diesel=yes; fuel:adblue=yes;
-    name=International Diesel Services; self_service=yes;
-    id=node/9330224142</desc>
+    <desc>amenity=fuel; compressed_air=no; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; name=International Diesel Services;
+    self_service=yes; id=node/9330224142</desc>
   </wpt>
   <wpt lat="55.3733858" lon="13.1359377">
     <ele>-1</ele>
     <name>Circle K</name>
     <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
-    brand:wikipedia=sv:Circle K; fuel:HGV_diesel=yes;
-    fuel:adblue=yes; name=Circle K; self_service=yes;
-    id=node/9330224143</desc>
+    brand:wikipedia=sv:Circle K; compressed_air=no;
+    fuel:HGV_diesel=yes; fuel:adblue=yes; name=Circle K;
+    self_service=yes; id=node/9330224143</desc>
   </wpt>
   <wpt lat="55.3736648" lon="13.135943">
     <ele>-1</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=sv:Shell; fuel:HGV_diesel=yes; fuel:adblue=yes;
-    name=Shell; self_service=yes; id=node/9330224144</desc>
+    brand:wikipedia=sv:Shell; compressed_air=no;
+    fuel:HGV_diesel=yes; fuel:adblue=yes; name=Shell;
+    self_service=yes; id=node/9330224144</desc>
   </wpt>
   <wpt lat="55.3733477" lon="13.1500189">
     <ele>5</ele>
@@ -19820,8 +19825,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.6506395" lon="14.7392701">
     <ele>302</ele>
-    <name>node/9540540163</name>
-    <desc>amenity=fuel; id=node/9540540163</desc>
+    <name>CNG Nässjö syd</name>
+    <desc>addr:city=Nässjö; addr:housenumber=3;
+    addr:postcode=57138; addr:street=Korngatan; amenity=fuel;
+    brand=OG; fuel:biogas=yes; fuel:cng=yes; name=CNG Nässjö syd;
+    opening_hours=24/7; self_service=yes; id=node/9540540163</desc>
   </wpt>
   <wpt lat="57.4843707" lon="13.5523977">
     <ele>213</ele>
@@ -20244,7 +20252,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=Q-star; opening_hours=24/7;
     operator=Q-star; self_service=only; id=node/10657229881</desc>
   </wpt>
-  <wpt lat="56.9915551" lon="12.5077996">
+  <wpt lat="56.9917478" lon="12.5069132">
     <ele>20</ele>
     <name>Vessige Biogas CNG, Lastad</name>
     <desc>addr:city=Långås; addr:postcode=31193; addr:street=Lastad
@@ -20306,11 +20314,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.7611723" lon="16.3051143">
     <ele>7</ele>
-    <name>Läckeby CNG</name>
+    <name>CNG Läckeby N.Kalmar</name>
     <desc>addr:country=SE; addr:housenumber=2; addr:postcode=39597;
     addr:street=Mosekrogsvägen; amenity=fuel; brand=More biogas;
-    fuel:biogas=yes; fuel:cng=yes; name=Läckeby CNG; note=Väg 125;
-    operator=More biogas; self_service=yes;
+    fuel:biogas=yes; fuel:cng=yes; name=CNG Läckeby N.Kalmar;
+    note=Väg 125; operator=More biogas; self_service=yes;
     website=https://morebiogas.se/gasmack;
     id=node/10814928016</desc>
     <link href="https://morebiogas.se/gasmack"></link>
@@ -20380,11 +20388,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.2064226" lon="14.0301474">
     <ele>153</ele>
-    <name>CNG Gröndal Jönköping</name>
+    <name>CNG Värnamo norr</name>
     <desc>addr:city=Jönköping; addr:country=SE; addr:housenumber=1;
     addr:street=Gröndalsleden; amenity=fuel; brand=Småländska
-    Bränslen; fuel:biogas=yes; fuel:cng=yes; name=CNG Gröndal
-    Jönköping; opening_hours=24/7; operator=Småländska Bränslen;
+    Bränslen; fuel:biogas=yes; fuel:cng=yes; name=CNG Värnamo norr;
+    opening_hours=24/7; operator=Småländska Bränslen;
     self_service=yes; start_date=2023-06-30;
     website=https://www.biogasbilen.se; id=node/10965297892</desc>
     <link href="https://www.biogasbilen.se"></link>
@@ -20524,7 +20532,8 @@ version="1.1" creator="togpx">
   <wpt lat="59.6560786" lon="12.5847995">
     <ele>55</ele>
     <name>Ingo</name>
-    <desc>amenity=fuel; name=Ingo; id=node/11091162806</desc>
+    <desc>amenity=fuel; brand=Ingo; brand:wikidata=Q17048617;
+    name=Ingo; id=node/11091162806</desc>
   </wpt>
   <wpt lat="59.7086042" lon="12.5703856">
     <ele>105</ele>
@@ -20715,13 +20724,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="57.7801772" lon="14.2202342">
     <ele>117</ele>
-    <name>CNG Jönköp.Ekhagen</name>
+    <name>CNG Jönköping NO Ekhagen</name>
     <desc>addr:city=Jönköping; addr:housenumber=24;
     addr:postcode=554 54; addr:street=Sankt Göransvägen;
     amenity=fuel; brand=Småländska bränslen; fuel:CNG=yes;
-    fuel:biogas=yes; name=CNG Jönköp.Ekhagen; opening_hours=24/7;
-    self_service=yes; start_date=End December 2023;
-    website=https://www.biogasbilen.se/biogas/;
+    fuel:biogas=yes; name=CNG Jönköping NO Ekhagen;
+    opening_hours=24/7; self_service=yes; start_date=End December
+    2023; website=https://www.biogasbilen.se/biogas/;
     id=node/11412771170</desc>
     <link href="https://www.biogasbilen.se/biogas/"></link>
   </wpt>
@@ -20859,7 +20868,7 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.422521" lon="13.2596151">
     <name>Shell TruckDiesel</name>
-    <desc>amenity=fuel; name=Shell TruckDiesel;
+    <desc>amenity=fuel; compressed_air=no; name=Shell TruckDiesel;
     id=node/11887143471</desc>
   </wpt>
   <wpt lat="67.2088198" lon="23.3674807">
@@ -20874,11 +20883,6 @@ version="1.1" creator="togpx">
     <name>Circle K</name>
     <desc>amenity=fuel; brand=Circle K; fuel:diesel=yes;
     fuel:octane_95=yes; name=Circle K; id=node/11904556848</desc>
-  </wpt>
-  <wpt lat="65.3203688" lon="21.4728416">
-    <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
-    name=Shell; id=node/11920713693</desc>
   </wpt>
   <wpt lat="61.8208627" lon="16.0644129">
     <name>Qstar</name>
@@ -20969,6 +20973,34 @@ version="1.1" creator="togpx">
     addr:postcode=81230; addr:street=Landsvägen; amenity=fuel;
     brand=Preem; brand:wikidata=Q598835; name=Preem;
     id=node/12120897176</desc>
+  </wpt>
+  <wpt lat="57.1629525" lon="14.0736828">
+    <ele>165</ele>
+    <name>CNG Värnamo syd</name>
+    <desc>addr:city=Värnamo; addr:postcode=33144;
+    addr:street=Bredastensvägen; alt_name=St1 Biogas Värnamo;
+    amenity=fuel; brand=St1; fuel:biogas=yes; fuel:cng=yes;
+    name=CNG Värnamo syd; opening_hours=24/7; self_service=yes;
+    website=https://www.st1.se/hitta-station/st1-biogas-varnamo;
+    id=node/12152196649</desc>
+    <link href="https://www.st1.se/hitta-station/st1-biogas-varnamo">
+    </link>
+  </wpt>
+  <wpt lat="59.589822" lon="15.2331575">
+    <ele>70</ele>
+    <name>Circle K Lindesberg</name>
+    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
+    building=yes; car_wash=yes; check_date=2024-09-09;
+    compressed_air=yes; fast_food=yes; name=Circle K Lindesberg;
+    opening_hours=24/7; operator=Circle K; shop=convenience;
+    wheelchair=yes; id=node/12164523221</desc>
+  </wpt>
+  <wpt lat="58.9011496" lon="11.9454092">
+    <ele>157</ele>
+    <name>St1</name>
+    <desc>amenity=fuel; name=St1; self_service=only;
+    website=https://www.st1.se/; id=node/12202181305</desc>
+    <link href="https://www.st1.se/"></link>
   </wpt>
   <wpt lat="59.7448854" lon="18.37092822271341">
     <ele>28</ele>
@@ -21234,8 +21266,9 @@ version="1.1" creator="togpx">
     <ele>27</ele>
     <name>Circle K</name>
     <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
-    building=yes; check_date=2024-08-24; name=Circle K;
-    id=way/37564114</desc>
+    building=yes; check_date=2024-09-29; name=Circle K;
+    opening_hours=Mo-Fr 05:00-22:00, Sa 07:00-22:00, Su
+    08:00-22:00; id=way/37564114</desc>
   </wpt>
   <wpt lat="63.6380987" lon="19.91203409420342">
     <name>Circle K Hörnefors</name>
@@ -21348,11 +21381,11 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Kuwait Petroleum Corporation; building=yes;
     name=OKQ8; operator=OKQ8; id=way/42675046</desc>
   </wpt>
-  <wpt lat="59.47250305" lon="18.331409158042838">
-    <ele>23</ele>
+  <wpt lat="59.47246065" lon="18.331428839546902">
+    <ele>21</ele>
     <name>dinX</name>
-    <desc>amenity=fuel; landuse=commercial; name=dinX;
-    id=way/42720800</desc>
+    <desc>amenity=fuel; brand=din-X; brand:wikidata=Q10472858;
+    landuse=commercial; name=dinX; id=way/42720800</desc>
   </wpt>
   <wpt lat="63.159784200000004" lon="14.670961921404295">
     <name>Circle K</name>
@@ -21509,7 +21542,7 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:city=Sollentuna; addr:country=SE;
     addr:housenumber=141; addr:postcode=19251; addr:street=Rudbecks
-    väg; amenity=fuel; brand=Shell; brand:wikidata=Q154950;
+    väg; amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
     brand:wikipedia=en:Royal Dutch Shell; building=retail;
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     name=Shell; id=way/81889778</desc>
@@ -22482,7 +22515,8 @@ version="1.1" creator="togpx">
     brand=Circle K; building=yes; compressed_air=yes;
     fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Circle K Dalbygatan Svampen;
-    operator=Circle K; shop=convenience; id=way/157380912</desc>
+    operator=Circle K; shop=convenience; wheelchair=limited;
+    id=way/157380912</desc>
   </wpt>
   <wpt lat="58.57840925" lon="16.160779598676612">
     <ele>41</ele>
@@ -22890,7 +22924,7 @@ version="1.1" creator="togpx">
     <name>OKQ8 Häggvik</name>
     <desc>addr:city=Sollentuna; addr:country=SE;
     addr:housenumber=2; addr:street=Emblavägen; amenity=fuel;
-    brand=OKQ8; brand:wikidata=Q1634762; brand:wikipedia=en:Kuwait
+    brand=OKQ8; brand:wikidata=Q2789310; brand:wikipedia=en:Kuwait
     Petroleum Corporation; building=yes; compressed_air=yes;
     fuel:adblue=yes; fuel:cng=yes; fuel:diesel=yes;
     fuel:electricity=yes; fuel:hvo100=yes; fuel:octane_95=yes;
@@ -23271,8 +23305,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rydebäck; addr:country=SE;
     addr:housenumber=663; addr:postcode=257 30;
     addr:street=Landskronavägen; amenity=fuel; brand=Gulf;
-    building=yes; name=Gulf; source:address=Helsingborgs kommun;
-    id=way/236373209</desc>
+    brand:wikidata=Q5617505; building=yes; name=Gulf;
+    source:address=Helsingborgs kommun; id=way/236373209</desc>
   </wpt>
   <wpt lat="55.37590445" lon="13.162045798190546">
     <ele>5</ele>
@@ -23466,7 +23500,7 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=Qstar; shop=no;
     id=way/255796930</desc>
   </wpt>
-  <wpt lat="59.8469185" lon="17.663344401793935">
+  <wpt lat="59.846922899999996" lon="17.663378201793932">
     <ele>11</ele>
     <name>Ingo</name>
     <desc>addr:city=Uppsala; addr:country=SE; addr:housenumber=103;
@@ -23641,8 +23675,8 @@ version="1.1" creator="togpx">
     <name>Shell</name>
     <desc>addr:country=SE; addr:housenumber=10;
     addr:street=Ropstensslingan; amenity=fuel; brand=Shell;
-    brand:wikidata=Q154950; brand:wikipedia=en:Royal Dutch Shell;
-    building=retail; compressed_air=yes; name=Shell;
+    brand:wikidata=Q110716465; brand:wikipedia=en:Royal Dutch
+    Shell; building=retail; compressed_air=yes; name=Shell;
     opening_hours=24/7; source=Bing; id=way/279345123</desc>
   </wpt>
   <wpt lat="57.707637500000004" lon="11.993124191250491">
@@ -23733,6 +23767,16 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Tanka; brand:wikidata=Q10690640;
     brand:wikipedia=sv:Tanka (bensinstationskedja); building=roof;
     name=Tanka; source=survey,Bing; id=way/290244800</desc>
+  </wpt>
+  <wpt lat="64.2723752" lon="21.04736006753052">
+    <name>OKQ8</name>
+    <desc>addr:city=Ånäset; addr:country=SE; addr:housenumber=1;
+    addr:postcode=91534; addr:street=Skolgatan; amenity=fuel;
+    brand=OKQ8; brand:wikidata=Q2789310; full_service=yes;
+    name=OKQ8; operator=OK-Q8 AB; phone=+46850680000;
+    self_service=yes; snowmobile=yes; website=https://www.okq8.se/;
+    wheelchair=yes; id=way/293400627</desc>
+    <link href="https://www.okq8.se/"></link>
   </wpt>
   <wpt lat="57.66087025" lon="11.999001049999997">
     <ele>15</ele>
@@ -24129,10 +24173,11 @@ version="1.1" creator="togpx">
     <name>St1</name>
     <desc>addr:city=Strömstad; addr:country=SE;
     addr:housenumber=37; addr:postcode=452 35;
-    addr:street=Oslovägen; amenity=fuel; brand=St1; building=roof;
-    contact:phone=+46 771-369 369; fuel:diesel=yes; fuel:e85=yes;
-    fuel:octane_95=yes; layer=1; name=St1; opening_hours=24/7;
-    operator=St1; shop=no; id=way/317389449</desc>
+    addr:street=Oslovägen; amenity=fuel; brand=St1;
+    brand:wikidata=Q7592214; building=roof; contact:phone=+46
+    771-369 369; fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
+    layer=1; name=St1; opening_hours=24/7; operator=St1; shop=no;
+    id=way/317389449</desc>
   </wpt>
   <wpt lat="65.3210918" lon="21.420484795812193">
     <name>Preem - Turbovägen</name>
@@ -24205,14 +24250,6 @@ version="1.1" creator="togpx">
     <name>Gulf</name>
     <desc>amenity=fuel; brand=Gulf; brand:wikidata=Q5617505;
     building=yes; name=Gulf; operator=Gulf; id=way/327158089</desc>
-  </wpt>
-  <wpt lat="59.58994075" lon="15.233045566926805">
-    <ele>70</ele>
-    <name>Circle K Lindesberg</name>
-    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
-    building=yes; check_date=2023-07-14; compressed_air=yes;
-    name=Circle K Lindesberg; operator=Circle K;
-    id=way/327160851</desc>
   </wpt>
   <wpt lat="57.4861354" lon="12.081706796698871">
     <ele>4</ele>
@@ -24386,7 +24423,7 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Circle K; id=way/351507139</desc>
   </wpt>
-  <wpt lat="57.669039999999995" lon="15.850264205392747">
+  <wpt lat="57.669009849999995" lon="15.850157864419517">
     <ele>109</ele>
     <name>OKQ8</name>
     <desc>addr:country=SE; addr:housenumber=5;
@@ -24492,8 +24529,9 @@ version="1.1" creator="togpx">
     id=way/382111354</desc>
   </wpt>
   <wpt lat="65.3237135" lon="21.446800899999996">
-    <name>way/383432093</name>
-    <desc>amenity=fuel; brand=INGO; id=way/383432093</desc>
+    <name>Ingo</name>
+    <desc>amenity=fuel; brand=Ingo; brand:wikidata=Q17048617;
+    name=Ingo; id=way/383432093</desc>
   </wpt>
   <wpt lat="65.324548" lon="21.448508742298795">
     <name>way/383605722</name>
@@ -24555,8 +24593,9 @@ version="1.1" creator="togpx">
     <ele>132</ele>
     <name>Q-star, Mjölby</name>
     <desc>addr:city=Mjölby; addr:country=SE; addr:housenumber=1;
-    addr:street=Sparregatan; amenity=fuel; building=roof;
-    fuel:cng=yes; fuel:e85=yes; fuel:octane_95=yes;
+    addr:street=Sparregatan; alt_name=CNG Mjölby väst;
+    amenity=fuel; building=roof; fuel:cng=yes; fuel:e85=yes;
+    fuel:octane_95=yes;
     image=https://pk2.se/im/PXL_20220104_Mjolby_Qstar_CNG.jpg;
     name=Q-star, Mjölby; opening_hours=24/7; operator=Q-star;
     payment:fordonsgas=yes; payment:mastercard=yes;
@@ -24724,7 +24763,7 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su,PH 06:00+; operator=OKQ8;
     id=way/432557717</desc>
   </wpt>
-  <wpt lat="56.1389147" lon="12.9499908">
+  <wpt lat="56.138887800000006" lon="12.9499755">
     <ele>29</ele>
     <name>OKQ8</name>
     <desc>amenity=fuel; brand=OKQ8; building=roof; fuel:diesel=yes;
@@ -25794,6 +25833,13 @@ version="1.1" creator="togpx">
     fuel:e85=yes; fuel:octane_95=yes; name=OKQ8;
     opening_hours=24/7; operator=OKQ8; id=way/859339144</desc>
   </wpt>
+  <wpt lat="60.6050033" lon="16.77176182877327">
+    <name>Circle K</name>
+    <desc>addr:city=Sandviken; addr:housenumber=39;
+    addr:postcode=81161; addr:street=Hamngatan; amenity=fuel;
+    brand=Circle K; brand:wikidata=Q3268010; building=yes;
+    name=Circle K; id=way/863408991</desc>
+  </wpt>
   <wpt lat="56.27707345" lon="14.537876284885161">
     <ele>47</ele>
     <name>way/865173274</name>
@@ -25801,11 +25847,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="58.3929497" lon="13.877137396704871">
     <ele>121</ele>
-    <name>Fordonsgas</name>
+    <name>CNG Skövde norr</name>
     <desc>addr:city=Skövde; addr:country=SE; addr:housenumber=2;
     addr:postcode=54134; addr:street=Oljevägen; amenity=fuel;
-    brand=Fordonsgas; fuel:biogas=yes; fuel:cng=yes;
-    name=Fordonsgas; operator=Fordonsgas; self_service=yes;
+    brand=Fordonsgas; fuel:biogas=yes; fuel:cng=yes; name=CNG
+    Skövde norr; operator=Fordonsgas; self_service=yes;
     id=way/866169685</desc>
   </wpt>
   <wpt lat="63.40310715" lon="13.073662591858893">
@@ -25928,13 +25974,13 @@ version="1.1" creator="togpx">
     <name>okq8</name>
     <desc>amenity=fuel; operator=okq8; id=way/936439416</desc>
   </wpt>
-  <wpt lat="59.5139636" lon="18.092081687853067">
+  <wpt lat="59.5139903" lon="18.092102426007063">
     <ele>48</ele>
     <name>St1</name>
-    <desc>amenity=fuel; area=yes; brand=St1;
-    brand:wikidata=Q7592214; brand:wikipedia=en:St1;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=St1;
-    operator=St1; id=way/938597642</desc>
+    <desc>amenity=fuel; brand=St1; brand:wikidata=Q7592214;
+    brand:wikipedia=en:St1; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; name=St1; operator=St1;
+    id=way/938597642</desc>
   </wpt>
   <wpt lat="61.000934650000005" lon="14.539469111440088">
     <name>OKQ8</name>
@@ -26282,7 +26328,9 @@ version="1.1" creator="togpx">
     <name>OKQ8</name>
     <desc>addr:city=Sandviken; addr:housenumber=30;
     addr:postcode=81132; addr:street=Linggatan; amenity=fuel;
-    brand=OKQ8; brand:wikidata=Q2789310; name=OKQ8;
+    brand=OKQ8; brand:wikidata=Q2789310; building=yes;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=OKQ8; self_service=yes;
     id=way/1270557024</desc>
   </wpt>
   <wpt lat="61.00448315" lon="15.218070031399904">
@@ -26330,8 +26378,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.621342049999996" lon="16.741476998305053">
     <name>Ingo</name>
-    <desc>amenity=fuel; brand=Ingo; brand:wikidata=Q17048617;
-    name=Ingo; id=way/1290625070</desc>
+    <desc>addr:city=Sandviken; addr:housenumber=2;
+    addr:postcode=81137; addr:street=Västerled; amenity=fuel;
+    brand=Ingo; brand:wikidata=Q17048617; building=yes;
+    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=Ingo;
+    self_service=yes; id=way/1290625070</desc>
   </wpt>
   <wpt lat="67.15710680000001" lon="22.62956605088683">
     <name>way/1291178585</name>
@@ -26342,7 +26393,8 @@ version="1.1" creator="togpx">
     <name>Tanka</name>
     <desc>addr:city=Sandviken; addr:housenumber=2;
     addr:postcode=81140; addr:street=Stallgatan; amenity=fuel;
-    brand=Tanka; brand:wikidata=Q10690640; name=Tanka;
+    brand=Tanka; brand:wikidata=Q10690640; building=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Tanka;
     id=way/1302153097</desc>
   </wpt>
   <wpt lat="61.37623275" lon="15.831530657640773">
@@ -26370,11 +26422,33 @@ version="1.1" creator="togpx">
     brand=St1; brand:wikidata=Q7592214; building=roof;
     compressed_air=no; fuel:diesel=yes; fuel:e85=yes;
     fuel:octane_95=yes; name=St1 Lindesberg; opening_hours=24/7;
-    self_service=yes; source=Jet.se; id=way/1310689067</desc>
+    self_service=yes; source=Jet.se; wheelchair=limited;
+    id=way/1310689067</desc>
     <link href="Jet.se"></link>
   </wpt>
-  <wpt lat="59.598233300000004" lon="15.223978884134663">
-    <ele>69</ele>
+  <wpt lat="65.3103792" lon="21.498445998773086">
+    <name>Circle K Piteå</name>
+    <desc>addr:city=Piteå; addr:housenumber=2; addr:postcode=941
+    40; addr:street=Ringiusvägen; amenity=fuel; brand=Circle K;
+    brand:wikidata=Q3268010; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Circle K Piteå;
+    opening_hours=Mo-Fr 05:00-24:00, Sa-Su 08:00-24:00; phone=+46
+    911 128 65;
+    website=https://www.circlek.se/station/circle-k-pitea;
+    id=way/1312216889</desc>
+    <link href="https://www.circlek.se/station/circle-k-pitea">
+    </link>
+  </wpt>
+  <wpt lat="65.3203576" lon="21.472900406459843">
+    <name>Shell</name>
+    <desc>addr:city=Piteå; addr:housenumber=56; addr:postcode=941
+    37; addr:street=Prästgårdsgatan; amenity=fuel; brand=Shell;
+    brand:wikidata=Q110716465; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Shell;
+    opening_hours=24/7; phone=+46 911 107 70;
+    id=way/1312286910</desc>
+  </wpt>
+  <wpt lat="65.3203576" lon="21.472900406459843">
     <name>way/377462680</name>
     <desc>amenity=fuel; highway=service; id=way/377462680</desc>
   </wpt>
@@ -27074,11 +27148,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>dinX</name>
     <trkseg>
-      <trkpt lat="59.472538" lon="18.331191"></trkpt>
-      <trkpt lat="59.4723838" lon="18.3314313"></trkpt>
-      <trkpt lat="59.4724681" lon="18.331629"></trkpt>
-      <trkpt lat="59.4726178" lon="18.3313885"></trkpt>
-      <trkpt lat="59.472538" lon="18.331191"></trkpt>
+      <trkpt lat="59.4724738" lon="18.3313324"></trkpt>
+      <trkpt lat="59.4724109" lon="18.331409"></trkpt>
+      <trkpt lat="59.4724475" lon="18.3315253"></trkpt>
+      <trkpt lat="59.4725104" lon="18.3314486"></trkpt>
+      <trkpt lat="59.4724738" lon="18.3313324"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30253,11 +30327,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Ingo</name>
     <trkseg>
-      <trkpt lat="59.8469888" lon="17.663281"></trkpt>
-      <trkpt lat="59.8468461" lon="17.6632914"></trkpt>
-      <trkpt lat="59.8468482" lon="17.6634078"></trkpt>
-      <trkpt lat="59.846991" lon="17.6633974"></trkpt>
-      <trkpt lat="59.8469888" lon="17.663281"></trkpt>
+      <trkpt lat="59.8469932" lon="17.6633148"></trkpt>
+      <trkpt lat="59.8468505" lon="17.6633252"></trkpt>
+      <trkpt lat="59.8468526" lon="17.6634416"></trkpt>
+      <trkpt lat="59.8469954" lon="17.6634312"></trkpt>
+      <trkpt lat="59.8469932" lon="17.6633148"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -30613,23 +30687,23 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/293400627</name>
+    <name>OKQ8</name>
     <trkseg>
-      <trkpt lat="64.2722757" lon="21.0474522"></trkpt>
-      <trkpt lat="64.2723169" lon="21.0475004"></trkpt>
-      <trkpt lat="64.2723252" lon="21.0474626"></trkpt>
-      <trkpt lat="64.272506" lon="21.0476743"></trkpt>
-      <trkpt lat="64.2725343" lon="21.0475459"></trkpt>
-      <trkpt lat="64.2724122" lon="21.0474029"></trkpt>
-      <trkpt lat="64.2725166" lon="21.0469298"></trkpt>
-      <trkpt lat="64.2725107" lon="21.0469228"></trkpt>
-      <trkpt lat="64.272534" lon="21.0468172"></trkpt>
-      <trkpt lat="64.2724925" lon="21.0467687"></trkpt>
-      <trkpt lat="64.2724699" lon="21.0468711"></trkpt>
-      <trkpt lat="64.2724463" lon="21.0468434"></trkpt>
-      <trkpt lat="64.2723614" lon="21.0472281"></trkpt>
-      <trkpt lat="64.2723326" lon="21.0471944"></trkpt>
-      <trkpt lat="64.2722757" lon="21.0474522"></trkpt>
+      <trkpt lat="64.2722641" lon="21.0474884"></trkpt>
+      <trkpt lat="64.2723053" lon="21.0475366"></trkpt>
+      <trkpt lat="64.2723136" lon="21.0474988"></trkpt>
+      <trkpt lat="64.2724944" lon="21.0477105"></trkpt>
+      <trkpt lat="64.2725227" lon="21.0475821"></trkpt>
+      <trkpt lat="64.2724006" lon="21.0474391"></trkpt>
+      <trkpt lat="64.272505" lon="21.046966"></trkpt>
+      <trkpt lat="64.2724991" lon="21.046959"></trkpt>
+      <trkpt lat="64.2725224" lon="21.0468534"></trkpt>
+      <trkpt lat="64.2724809" lon="21.0468049"></trkpt>
+      <trkpt lat="64.2724583" lon="21.0469073"></trkpt>
+      <trkpt lat="64.2724347" lon="21.0468796"></trkpt>
+      <trkpt lat="64.2723498" lon="21.0472643"></trkpt>
+      <trkpt lat="64.272321" lon="21.0472306"></trkpt>
+      <trkpt lat="64.2722641" lon="21.0474884"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -31358,18 +31432,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Circle K Lindesberg</name>
-    <trkseg>
-      <trkpt lat="59.5899591" lon="15.2326272"></trkpt>
-      <trkpt lat="59.5898647" lon="15.2327412"></trkpt>
-      <trkpt lat="59.5899224" lon="15.2334466"></trkpt>
-      <trkpt lat="59.5900243" lon="15.2334198"></trkpt>
-      <trkpt lat="59.5899822" lon="15.2328405"></trkpt>
-      <trkpt lat="59.590012" lon="15.2327976"></trkpt>
-      <trkpt lat="59.5899591" lon="15.2326272"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Preem</name>
     <trkseg>
       <trkpt lat="57.4863596" lon="12.0818417"></trkpt>
@@ -31609,17 +31671,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>OKQ8</name>
     <trkseg>
-      <trkpt lat="57.6688276" lon="15.849996"></trkpt>
-      <trkpt lat="57.6689811" lon="15.8506279"></trkpt>
-      <trkpt lat="57.6691783" lon="15.8504605"></trkpt>
-      <trkpt lat="57.6691381" lon="15.850295"></trkpt>
-      <trkpt lat="57.6692459" lon="15.8502035"></trkpt>
-      <trkpt lat="57.6691949" lon="15.8499937"></trkpt>
-      <trkpt lat="57.6690752" lon="15.8500953"></trkpt>
-      <trkpt lat="57.6690355" lon="15.849932"></trkpt>
-      <trkpt lat="57.6690672" lon="15.8499051"></trkpt>
-      <trkpt lat="57.6690445" lon="15.8498118"></trkpt>
-      <trkpt lat="57.6688276" lon="15.849996"></trkpt>
+      <trkpt lat="57.6688482" lon="15.8499236"></trkpt>
+      <trkpt lat="57.6689892" lon="15.8505383"></trkpt>
+      <trkpt lat="57.669151" lon="15.8504085"></trkpt>
+      <trkpt lat="57.6690305" lon="15.8498831"></trkpt>
+      <trkpt lat="57.6690614" lon="15.8498583"></trkpt>
+      <trkpt lat="57.6690409" lon="15.8497691"></trkpt>
+      <trkpt lat="57.6688482" lon="15.8499236"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -31782,7 +31840,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/383432093</name>
+    <name>Ingo</name>
     <trkseg>
       <trkpt lat="65.3237768" lon="21.4467467"></trkpt>
       <trkpt lat="65.3236614" lon="21.4466993"></trkpt>
@@ -32154,11 +32212,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>OKQ8</name>
     <trkseg>
-      <trkpt lat="56.138974" lon="12.9499245"></trkpt>
-      <trkpt lat="56.1388545" lon="12.9499272"></trkpt>
-      <trkpt lat="56.1388554" lon="12.9500571"></trkpt>
-      <trkpt lat="56.1389749" lon="12.9500544"></trkpt>
-      <trkpt lat="56.138974" lon="12.9499245"></trkpt>
+      <trkpt lat="56.1389471" lon="12.9499092"></trkpt>
+      <trkpt lat="56.1388276" lon="12.9499119"></trkpt>
+      <trkpt lat="56.1388285" lon="12.9500418"></trkpt>
+      <trkpt lat="56.138948" lon="12.9500391"></trkpt>
+      <trkpt lat="56.1389471" lon="12.9499092"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -33978,6 +34036,20 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Circle K</name>
+    <trkseg>
+      <trkpt lat="60.6048355" lon="16.7713825"></trkpt>
+      <trkpt lat="60.6049502" lon="16.7720697"></trkpt>
+      <trkpt lat="60.6050657" lon="16.7719897"></trkpt>
+      <trkpt lat="60.6050357" lon="16.7718101"></trkpt>
+      <trkpt lat="60.605191" lon="16.7717025"></trkpt>
+      <trkpt lat="60.6051398" lon="16.7713961"></trkpt>
+      <trkpt lat="60.6049709" lon="16.7715132"></trkpt>
+      <trkpt lat="60.6049373" lon="16.771312"></trkpt>
+      <trkpt lat="60.6048355" lon="16.7713825"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>way/865173274</name>
     <trkseg>
       <trkpt lat="56.2771159" lon="14.53768"></trkpt>
@@ -33988,7 +34060,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Fordonsgas</name>
+    <name>CNG Skövde norr</name>
     <trkseg>
       <trkpt lat="58.3928106" lon="13.8767906"></trkpt>
       <trkpt lat="58.392868" lon="13.8775166"></trkpt>
@@ -34292,11 +34364,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>St1</name>
     <trkseg>
-      <trkpt lat="59.5140373" lon="18.0920292"></trkpt>
-      <trkpt lat="59.5139105" lon="18.0919764"></trkpt>
-      <trkpt lat="59.5138868" lon="18.0921288"></trkpt>
-      <trkpt lat="59.5140167" lon="18.0921898"></trkpt>
-      <trkpt lat="59.5140373" lon="18.0920292"></trkpt>
+      <trkpt lat="59.5140635" lon="18.0920475"></trkpt>
+      <trkpt lat="59.5139363" lon="18.0919989"></trkpt>
+      <trkpt lat="59.5139139" lon="18.0921521"></trkpt>
+      <trkpt lat="59.5140443" lon="18.0922088"></trkpt>
+      <trkpt lat="59.5140635" lon="18.0920475"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -34998,6 +35070,34 @@ version="1.1" creator="togpx">
       <trkpt lat="59.5981705" lon="15.2239415"></trkpt>
       <trkpt lat="59.5982519" lon="15.224103"></trkpt>
       <trkpt lat="59.598296" lon="15.2240163"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Circle K Piteå</name>
+    <trkseg>
+      <trkpt lat="65.3104863" lon="21.498756"></trkpt>
+      <trkpt lat="65.3105335" lon="21.4984925"></trkpt>
+      <trkpt lat="65.3104863" lon="21.498444"></trkpt>
+      <trkpt lat="65.3105436" lon="21.498124"></trkpt>
+      <trkpt lat="65.3104093" lon="21.497986"></trkpt>
+      <trkpt lat="65.3103491" lon="21.4983217"></trkpt>
+      <trkpt lat="65.3103095" lon="21.498281"></trkpt>
+      <trkpt lat="65.3102511" lon="21.4986066"></trkpt>
+      <trkpt lat="65.3104406" lon="21.4988012"></trkpt>
+      <trkpt lat="65.3104545" lon="21.4987234"></trkpt>
+      <trkpt lat="65.3104863" lon="21.498756"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Shell</name>
+    <trkseg>
+      <trkpt lat="65.3202052" lon="21.4730723"></trkpt>
+      <trkpt lat="65.3203482" lon="21.4733032"></trkpt>
+      <trkpt lat="65.320459" lon="21.4729098"></trkpt>
+      <trkpt lat="65.3204954" lon="21.4727805"></trkpt>
+      <trkpt lat="65.32051" lon="21.4727285"></trkpt>
+      <trkpt lat="65.320367" lon="21.4724976"></trkpt>
+      <trkpt lat="65.3202052" lon="21.4730723"></trkpt>
     </trkseg>
   </trk>
   <trk>

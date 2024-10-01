@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-08-28T09:21:29Z", "timestamp_areas_base":
-      "2024-08-28T04:40:43Z", "copyright": "The data included in
+      "2024-10-01T08:13:45Z", "timestamp_areas_base":
+      "2024-09-24T16:29:52Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -156,6 +156,11 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=http://www.gandspeiderne.no/;
     id=node/1702968471</desc>
     <link href="http://www.gandspeiderne.no/"></link>
+  </wpt>
+  <wpt lat="62.0591463" lon="9.5979092">
+    <name>Pundarvangen</name>
+    <desc>name=Pundarvangen; place=locality; source=observation;
+    tourism=camp_site; id=node/1813509397</desc>
   </wpt>
   <wpt lat="59.0593972" lon="9.8729957">
     <ele>54</ele>
@@ -425,8 +430,9 @@ version="1.1" creator="togpx">
     internet_access:fee=no; name=Bakkaåno Camping &amp; Gjestegård;
     operator=Birgitte Urdal; phone=+47 51 477852;
     tourism=camp_site; website=https://www.bakkaanocamping.no/;
-    id=way/427011832; ; caravans=yes; tents=yes;
-    id=node/3663314250</desc>
+    id=way/427011832; ; caravans=yes; drinking_water=yes;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; id=node/3663314250</desc>
     <link href="https://www.bakkaanocamping.no/"></link>
   </wpt>
   <wpt lat="59.013997" lon="11.450924">
@@ -1169,7 +1175,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="63.087165" lon="9.750265">
     <name>Frilsjøen Camping</name>
-    <desc>name=Frilsjøen Camping; phone=+47 91 13 01 28;
+    <desc>cabins=yes; caravans=yes; fee=yes; name=Frilsjøen
+    Camping; phone=+47 91 13 01 28; static_caravans=yes; tents=yes;
     tourism=camp_site; website=https://frilsjoen.no;
     id=node/3663314970</desc>
     <link href="https://frilsjoen.no"></link>
@@ -1608,13 +1615,6 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=http://www.haugsjasund.no;
     id=node/3663315287</desc>
     <link href="http://www.haugsjasund.no"></link>
-  </wpt>
-  <wpt lat="60.81867" lon="11.045317">
-    <name>Hedmarktoppen Camping</name>
-    <desc>name=Hedmarktoppen Camping; phone=+47 62 51 93 70;
-    tourism=camp_site; website=https://www.hamar-hytteutleie.no/;
-    id=node/3663315289</desc>
-    <link href="https://www.hamar-hytteutleie.no/"></link>
   </wpt>
   <wpt lat="63.620005" lon="9.606764">
     <name>Hegg Camping</name>
@@ -2899,9 +2899,10 @@ version="1.1" creator="togpx">
   <wpt lat="60.169111" lon="9.017305">
     <ele>272</ele>
     <name>Norefjord Camping</name>
-    <desc>name=Norefjord Camping; phone=+47 32 74 51 54;
-    tourism=camp_site; website=http://www.norefjordcamp.no;
-    id=node/3663316012</desc>
+    <desc>cabins=yes; caravans=yes; fee=yes; name=Norefjord
+    Camping; payment:credit_cards=yes; phone=+47 32 74 51 54;
+    tents=yes; tourism=camp_site;
+    website=http://www.norefjordcamp.no; id=node/3663316012</desc>
     <link href="http://www.norefjordcamp.no"></link>
   </wpt>
   <wpt lat="61.165714" lon="5.739602">
@@ -3622,8 +3623,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.087344" lon="9.083515">
     <ele>291</ele>
-    <name>Skahjem Camping</name>
-    <desc>name=Skahjem Camping; phone=+47 32 74 52 18;
+    <name>Skahjem Camping closed</name>
+    <desc>name=Skahjem Camping closed; phone=+47 32 74 52 18;
     tourism=camp_site; website=http://www.skahjem.no;
     id=node/3663316395</desc>
     <link href="http://www.skahjem.no"></link>
@@ -5122,8 +5123,10 @@ version="1.1" creator="togpx">
   <wpt lat="58.8726372" lon="5.8804831">
     <ele>27</ele>
     <name>node/3941579111</name>
-    <desc>backcountry=yes; tourism=camp_site;
-    id=node/3941579111</desc>
+    <desc>backcountry=yes; description=Mostly for hammocks. While
+    there is level ground for tents the surface is contains rocks /
+    pebble / tree roots etc that may be hard on the tent floor.;
+    tourism=camp_site; id=node/3941579111</desc>
   </wpt>
   <wpt lat="58.8682329" lon="5.8826229">
     <ele>32</ele>
@@ -5885,11 +5888,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="61.1520581" lon="8.726015">
     <name>Rogn Camping</name>
-    <desc>contact:email=rogn@n2u.no;
+    <desc>cabins=yes; caravans=yes; contact:email=rogn@n2u.no;
     contact:facebook=https://www.facebook.com/fiskingivaldres/;
-    contact:phone=+47 97601655; name=Rogn Camping;
-    tourism=camp_site; website=https://www.rogncamping.com/;
-    id=node/9897010859</desc>
+    contact:phone=+47 97601655; fee=yes; name=Rogn Camping;
+    static_caravans=no; tents=yes; tourism=camp_site;
+    website=https://www.rogncamping.com/; id=node/9897010859</desc>
     <link href="https://www.rogncamping.com/"></link>
   </wpt>
   <wpt lat="59.733668" lon="5.988267">
@@ -6255,6 +6258,24 @@ version="1.1" creator="togpx">
     <desc>backcountry=yes; description=Flat and dry area with space
     for a single tent; tents=yes; tourism=camp_site;
     id=node/12118595059</desc>
+  </wpt>
+  <wpt lat="63.259548" lon="9.8555129">
+    <name>Lauvåsen Gård</name>
+    <desc>addr:housenumber=11; addr:street=Spjøtlivegen;
+    capacity:caravans=3; caravans=yes; check_date=2024-09-08;
+    email=lauvasengard@gmail.com; fee=yes; name=Lauvåsen Gård;
+    payment:cash=no; payment:credit_cards=yes;
+    payment:debit_cards=yes; phone=+47 400 70 169;
+    power_supply=yes; shower=yes; static_caravans=no; toilets=yes;
+    tourism=camp_site; website=https://lauvasengard.no;
+    id=node/12163729754</desc>
+    <link href="https://lauvasengard.no"></link>
+  </wpt>
+  <wpt lat="63.0132789" lon="9.735896">
+    <name>node/12208519489</name>
+    <desc>backcountry=yes; capacity:tents=2; caravans=no; fee=no;
+    static_caravans=no; tents=yes; tourism=camp_site;
+    id=node/12208519489</desc>
   </wpt>
   <wpt lat="59.58068095" lon="7.389756181763898">
     <ele>848</ele>
@@ -7483,7 +7504,7 @@ version="1.1" creator="togpx">
     website=https://ssj.no/; id=way/172548573</desc>
     <link href="https://ssj.no/"></link>
   </wpt>
-  <wpt lat="64.02275130000001" lon="11.506297865192142">
+  <wpt lat="64.02272475000001" lon="11.506310572146877">
     <name>Guldbergaunet Sommerhotell &amp; Camping</name>
     <desc>email=booking@guldbergaunetcamping.no; fax=+47 74 16 47
     35; name=Guldbergaunet Sommerhotell &amp; Camping; phone=+47 74
@@ -7774,13 +7795,14 @@ version="1.1" creator="togpx">
   <wpt lat="70.11966095" lon="29.33078728826414">
     <name>Vestre Jakobselv Camping</name>
     <desc>cabins=yes; capacity:cabins=13; capacity:pitches=25;
-    caravans=yes; email=post@vj-camping.no; internet_access=wlan;
-    internet_access:fee=no; motorhome=yes; name=Vestre Jakobselv
-    Camping; name:fi=Annijoen leirintäalue; name:no=Vestre
-    Jakobselv Camping; operator=Finnmark Indremisjon; phone=+47 913
-    65 856; sanitary_dump_station=customers; tents=yes;
-    tourism=camp_site; website=http://www.vj-camping.no;
-    id=way/231459819</desc>
+    caravans=yes; drinking_water=yes; email=post@vj-camping.no;
+    internet_access=wlan; internet_access:fee=no; motorhome=yes;
+    name=Vestre Jakobselv Camping; name:fi=Annijoen leirintäalue;
+    name:no=Vestre Jakobselv Camping; operator=Finnmark
+    Indremisjon; phone=+47 913 65 856; power_supply=yes;
+    sanitary_dump_station=customers; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=http://www.vj-camping.no; id=way/231459819</desc>
     <link href="http://www.vj-camping.no"></link>
   </wpt>
   <wpt lat="64.55847715" lon="12.48267851775234">
@@ -8298,8 +8320,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="69.70450305" lon="29.253140534317982">
     <name>Neiden Fjellstue</name>
-    <desc>email=info@neidenfjellstue.com; name=Neiden Fjellstue;
-    phone=+47 78 92 86 30; source=Bing hires; tourism=camp_site;
+    <desc>caravans=yes; drinking_water=yes;
+    email=info@neidenfjellstue.com; name=Neiden Fjellstue;
+    phone=+47 78 92 86 30; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; source=Bing hires;
+    tents=yes; toilets=yes; tourism=camp_site;
     website=http://neidenfjellstue.com/hytter/;
     id=way/344169394</desc>
     <link href="http://neidenfjellstue.com/hytter/"></link>
@@ -8721,12 +8746,12 @@ version="1.1" creator="togpx">
   <wpt lat="58.478736600000005" lon="5.996239100644331">
     <ele>4</ele>
     <name>Steinsnes Naf Camping</name>
-    <desc>caravans=yes; internet_access=wlan;
+    <desc>caravans=yes; drinking_water=no; internet_access=wlan;
     internet_access:fee=no; name=Steinsnes Naf Camping; phone=+47
-    974 00 966; sanitary_dump_station=customers; source=Bing;
-    tents=yes; tourism=camp_site;
-    website=http://www.steinsnescamping.no/; wheelchair=yes;
-    id=way/443259068</desc>
+    974 00 966; power_supply=yes; sanitary_dump_station=customers;
+    shower=yes; source=Bing; tents=yes; toilets=yes;
+    tourism=camp_site; website=http://www.steinsnescamping.no/;
+    wheelchair=yes; id=way/443259068</desc>
     <link href="http://www.steinsnescamping.no/"></link>
   </wpt>
   <wpt lat="61.60901895" lon="10.069175575934267">
@@ -8963,12 +8988,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="61.12666515" lon="10.440176017093524">
     <name>Lillehammer Turistsenter</name>
-    <desc>cabins=yes; caravans=yes; drinking_water=yes;
+    <desc>cabins=yes; caravans=yes; drinking_water=yes; fee=yes;
     name=Lillehammer Turistsenter; phone=+47 61 25 97 10;
     power_supply=yes; sanitary_dump_station=yes; shower=yes;
     tents=yes; toilets=yes; tourism=camp_site;
-    website=http://www.motelcamp.no; id=way/560564262</desc>
-    <link href="http://www.motelcamp.no"></link>
+    website=https://www.lillehammerturistsenter.no/;
+    id=way/560564262</desc>
+    <link href="https://www.lillehammerturistsenter.no/"></link>
   </wpt>
   <wpt lat="59.377515700000004" lon="10.46663230652478">
     <ele>9</ele>
@@ -9818,9 +9844,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="60.8999002" lon="7.205830131235041">
     <name>Lunde Camping</name>
-    <desc>cabins=yes; caravans=yes; name=Lunde Camping; phone=+47
-    997 04 701; tents=yes; tourism=camp_site;
-    website=https://www.lunde-camping.no/; id=way/1035868031</desc>
+    <desc>cabins=yes; caravans=yes; drinking_water=yes; name=Lunde
+    Camping; phone=+47 997 04 701; shower=yes; tents=yes;
+    tourism=camp_site; website=https://www.lunde-camping.no/;
+    id=way/1035868031</desc>
     <link href="https://www.lunde-camping.no/"></link>
   </wpt>
   <wpt lat="66.9607575" lon="13.804047414187808">
@@ -10136,12 +10163,45 @@ version="1.1" creator="togpx">
     website=https://www.austrebokn.no/; id=way/1307063653</desc>
     <link href="https://www.austrebokn.no/"></link>
   </wpt>
-  <wpt lat="60.54395205" lon="8.237386069610775">
+  <wpt lat="60.543994049999995" lon="8.237160742215572">
     <name>Øen Turistsenter og Geilo Vandrerhjem</name>
-    <desc>name=Øen Turistsenter og Geilo Vandrerhjem; phone=+47 32
-    08 70 60; tourism=camp_site; website=https://www.oenturist.no/;
-    id=way/1311504075</desc>
+    <desc>caravans=yes; name=Øen Turistsenter og Geilo Vandrerhjem;
+    phone=+47 32 08 70 60; source=survey; static_caravans=yes;
+    tents=yes; tourism=camp_site;
+    website=https://www.oenturist.no/; id=way/1311504075</desc>
     <link href="https://www.oenturist.no/"></link>
+  </wpt>
+  <wpt lat="62.555273099999994" lon="7.682446507301611">
+    <name>Setnes feriesenter</name>
+    <desc>caravans=yes; operator=Setnes feriesenter; source=survey;
+    surface=grass; tents=yes; tourism=camp_site;
+    id=way/1312605862</desc>
+  </wpt>
+  <wpt lat="61.37349235" lon="5.64222482140006">
+    <name>way/1312691889</name>
+    <desc>caravans=yes; charge=200 NOK; fee=yes; picnic_table=no;
+    power_supply=yes; sanitary_dump_station=no; shower=yes;
+    static_caravans=yes; tents=yes; toilets=yes; tourism=camp_site;
+    id=way/1312691889</desc>
+  </wpt>
+  <wpt lat="63.46425335" lon="8.104632162495047">
+    <name>Padlecampen</name>
+    <desc>bbq=yes; camp_site=serviced; caravans=no;
+    drinking_water=yes; fee=yes; group_only=no; mooring=yes;
+    name=Padlecampen; operator=Smøla kajakk; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=https://www.smolakajakk.com/overnatting;
+    id=way/1314234859</desc>
+    <link href="https://www.smolakajakk.com/overnatting"></link>
+  </wpt>
+  <wpt lat="62.21310405" lon="6.5683472103165235">
+    <name>Urke Camping</name>
+    <desc>addr:city=Norangsfjorden; addr:postcode=6196;
+    addr:street=Urkevegen; capacity:caravans=12; caravans=yes;
+    email=booking@urkecamping.no; name=Urke Camping; operator=Urke
+    Landhandel; phone=+4745834267; tents=yes; tourism=camp_site;
+    website=https://www.urkecamping.no/; id=way/1315209084</desc>
+    <link href="https://www.urkecamping.no/"></link>
   </wpt>
   <trk>
     <name>Hovden Fjellstoge</name>
@@ -16531,6 +16591,7 @@ version="1.1" creator="togpx">
       <trkpt lat="64.0232284" lon="11.5044394"></trkpt>
       <trkpt lat="64.0230554" lon="11.5040779"></trkpt>
       <trkpt lat="64.0228315" lon="11.5038214"></trkpt>
+      <trkpt lat="64.0227761" lon="11.5038625"></trkpt>
       <trkpt lat="64.0219832" lon="11.5044516"></trkpt>
       <trkpt lat="64.0221008" lon="11.5053825"></trkpt>
       <trkpt lat="64.0221462" lon="11.5062304"></trkpt>
@@ -23358,11 +23419,15 @@ version="1.1" creator="togpx">
       <trkpt lat="62.5272209" lon="7.705955"></trkpt>
       <trkpt lat="62.5269687" lon="7.7063308"></trkpt>
       <trkpt lat="62.5266048" lon="7.706272"></trkpt>
-      <trkpt lat="62.5264809" lon="7.7068394"></trkpt>
+      <trkpt lat="62.526562" lon="7.7064189"></trkpt>
+      <trkpt lat="62.5264563" lon="7.7068867"></trkpt>
       <trkpt lat="62.5263028" lon="7.7072927"></trkpt>
-      <trkpt lat="62.5263584" lon="7.7077219"></trkpt>
-      <trkpt lat="62.5261426" lon="7.7082225"></trkpt>
-      <trkpt lat="62.5263127" lon="7.7084492"></trkpt>
+      <trkpt lat="62.5262822" lon="7.7073316"></trkpt>
+      <trkpt lat="62.5262174" lon="7.7074542"></trkpt>
+      <trkpt lat="62.5260547" lon="7.7077621"></trkpt>
+      <trkpt lat="62.5260176" lon="7.7079381"></trkpt>
+      <trkpt lat="62.5260426" lon="7.7080866"></trkpt>
+      <trkpt lat="62.5263094" lon="7.7084895"></trkpt>
       <trkpt lat="62.5264566" lon="7.7082087"></trkpt>
     </trkseg>
   </trk>
@@ -27894,15 +27959,113 @@ version="1.1" creator="togpx">
       <trkpt lat="60.5435766" lon="8.2403773"></trkpt>
       <trkpt lat="60.5435987" lon="8.2401647"></trkpt>
       <trkpt lat="60.5442333" lon="8.2386295"></trkpt>
-      <trkpt lat="60.5448003" lon="8.238074"></trkpt>
+      <trkpt lat="60.5448194" lon="8.2380767"></trkpt>
       <trkpt lat="60.5440961" lon="8.2353165"></trkpt>
-      <trkpt lat="60.543808" lon="8.235608"></trkpt>
-      <trkpt lat="60.5436442" lon="8.2357738"></trkpt>
+      <trkpt lat="60.543892" lon="8.2349099"></trkpt>
+      <trkpt lat="60.5438645" lon="8.2349078"></trkpt>
+      <trkpt lat="60.5438362" lon="8.2350312"></trkpt>
+      <trkpt lat="60.5438193" lon="8.2351959"></trkpt>
+      <trkpt lat="60.5438496" lon="8.2353948"></trkpt>
+      <trkpt lat="60.543835" lon="8.2355177"></trkpt>
+      <trkpt lat="60.5436789" lon="8.2356763"></trkpt>
+      <trkpt lat="60.5436716" lon="8.2356084"></trkpt>
+      <trkpt lat="60.5435952" lon="8.2356458"></trkpt>
+      <trkpt lat="60.5436463" lon="8.2357328"></trkpt>
       <trkpt lat="60.5437814" lon="8.2366713"></trkpt>
       <trkpt lat="60.5437846" lon="8.2384771"></trkpt>
       <trkpt lat="60.5435301" lon="8.2390568"></trkpt>
       <trkpt lat="60.5432556" lon="8.2399285"></trkpt>
       <trkpt lat="60.5432112" lon="8.2403537"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1312605862</name>
+    <trkseg>
+      <trkpt lat="62.5550594" lon="7.6816973"></trkpt>
+      <trkpt lat="62.5549877" lon="7.6821332"></trkpt>
+      <trkpt lat="62.5549773" lon="7.6823543"></trkpt>
+      <trkpt lat="62.5550196" lon="7.6825672"></trkpt>
+      <trkpt lat="62.5551475" lon="7.6828333"></trkpt>
+      <trkpt lat="62.5553987" lon="7.6830839"></trkpt>
+      <trkpt lat="62.5554542" lon="7.683078"></trkpt>
+      <trkpt lat="62.5555066" lon="7.683041"></trkpt>
+      <trkpt lat="62.5555403" lon="7.6829684"></trkpt>
+      <trkpt lat="62.5556433" lon="7.6824342"></trkpt>
+      <trkpt lat="62.5556353" lon="7.6823363"></trkpt>
+      <trkpt lat="62.5550594" lon="7.6816973"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1312691889</name>
+    <trkseg>
+      <trkpt lat="61.3736912" lon="5.6415371"></trkpt>
+      <trkpt lat="61.3736472" lon="5.6415037"></trkpt>
+      <trkpt lat="61.3736352" lon="5.641497"></trkpt>
+      <trkpt lat="61.3735726" lon="5.6414616"></trkpt>
+      <trkpt lat="61.3735175" lon="5.6414261"></trkpt>
+      <trkpt lat="61.3734672" lon="5.6415598"></trkpt>
+      <trkpt lat="61.3733839" lon="5.641973"></trkpt>
+      <trkpt lat="61.3733776" lon="5.6420337"></trkpt>
+      <trkpt lat="61.3733248" lon="5.6429397"></trkpt>
+      <trkpt lat="61.373663" lon="5.642974"></trkpt>
+      <trkpt lat="61.3736261" lon="5.6423428"></trkpt>
+      <trkpt lat="61.3736396" lon="5.6418861"></trkpt>
+      <trkpt lat="61.3736912" lon="5.6415371"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Padlecampen</name>
+    <trkseg>
+      <trkpt lat="63.464295" lon="8.1036151"></trkpt>
+      <trkpt lat="63.4641323" lon="8.1034161"></trkpt>
+      <trkpt lat="63.4639616" lon="8.1035191"></trkpt>
+      <trkpt lat="63.4639362" lon="8.1046556"></trkpt>
+      <trkpt lat="63.463968" lon="8.1046618"></trkpt>
+      <trkpt lat="63.464041" lon="8.1046811"></trkpt>
+      <trkpt lat="63.4640922" lon="8.1045775"></trkpt>
+      <trkpt lat="63.4641191" lon="8.1046097"></trkpt>
+      <trkpt lat="63.4641329" lon="8.104713"></trkpt>
+      <trkpt lat="63.4641791" lon="8.1047653"></trkpt>
+      <trkpt lat="63.4641701" lon="8.1049369"></trkpt>
+      <trkpt lat="63.4641968" lon="8.1050248"></trkpt>
+      <trkpt lat="63.4642205" lon="8.1051603"></trkpt>
+      <trkpt lat="63.4642631" lon="8.1051908"></trkpt>
+      <trkpt lat="63.4643411" lon="8.1051801"></trkpt>
+      <trkpt lat="63.4644374" lon="8.1051091"></trkpt>
+      <trkpt lat="63.4644497" lon="8.1050102"></trkpt>
+      <trkpt lat="63.4644928" lon="8.1049371"></trkpt>
+      <trkpt lat="63.4645274" lon="8.1048375"></trkpt>
+      <trkpt lat="63.4645634" lon="8.1045527"></trkpt>
+      <trkpt lat="63.4645659" lon="8.1044008"></trkpt>
+      <trkpt lat="63.4645545" lon="8.1043082"></trkpt>
+      <trkpt lat="63.4645258" lon="8.1042191"></trkpt>
+      <trkpt lat="63.464463" lon="8.1042087"></trkpt>
+      <trkpt lat="63.4644583" lon="8.1042436"></trkpt>
+      <trkpt lat="63.4644135" lon="8.1042478"></trkpt>
+      <trkpt lat="63.4643005" lon="8.1041758"></trkpt>
+      <trkpt lat="63.4642436" lon="8.1040608"></trkpt>
+      <trkpt lat="63.464245" lon="8.1039177"></trkpt>
+      <trkpt lat="63.4642617" lon="8.1038102"></trkpt>
+      <trkpt lat="63.4643152" lon="8.1037643"></trkpt>
+      <trkpt lat="63.4642841" lon="8.1036808"></trkpt>
+      <trkpt lat="63.464295" lon="8.1036151"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Urke Camping</name>
+    <trkseg>
+      <trkpt lat="62.2135225" lon="6.5675385"></trkpt>
+      <trkpt lat="62.2133554" lon="6.5673989"></trkpt>
+      <trkpt lat="62.2131292" lon="6.5672466"></trkpt>
+      <trkpt lat="62.2129355" lon="6.5672435"></trkpt>
+      <trkpt lat="62.2129473" lon="6.5676019"></trkpt>
+      <trkpt lat="62.2129443" lon="6.567973"></trkpt>
+      <trkpt lat="62.2128512" lon="6.5685852"></trkpt>
+      <trkpt lat="62.2127077" lon="6.5696511"></trkpt>
+      <trkpt lat="62.2130789" lon="6.5696003"></trkpt>
+      <trkpt lat="62.2131366" lon="6.5692514"></trkpt>
+      <trkpt lat="62.2133096" lon="6.5693085"></trkpt>
+      <trkpt lat="62.2135225" lon="6.5675385"></trkpt>
     </trkseg>
   </trk>
 </gpx>

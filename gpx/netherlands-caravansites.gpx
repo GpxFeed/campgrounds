@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-08-28T09:20:29Z", "timestamp_areas_base":
-      "2024-08-28T04:40:43Z", "copyright": "The data included in
+      "2024-10-01T08:12:42Z", "timestamp_areas_base":
+      "2024-09-24T16:29:52Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -232,7 +232,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.4995628" lon="6.2599626">
     <ele>4</ele>
     <name>node/2284720458</name>
-    <desc>capacity=6; fee=no; sanitary_dump_station=no;
+    <desc>capacity=5; fee=no; sanitary_dump_station=no;
     tourism=caravan_site; id=node/2284720458</desc>
   </wpt>
   <wpt lat="52.7935759" lon="6.7944203">
@@ -404,6 +404,16 @@ version="1.1" creator="togpx">
     name=Camperplaats De Grienterij; source=BAG;
     source:date=2014-03-24; tourism=caravan_site;
     id=node/2787197737</desc>
+  </wpt>
+  <wpt lat="52.3597323" lon="6.3556893">
+    <ele>9</ele>
+    <name>Camperplaats 't Haarlerveld</name>
+    <desc>addr:city=Haarle; addr:housenumber=7;
+    addr:postcode=7448PS; addr:street=Wittebroeksweg;
+    name=Camperplaats 't Haarlerveld; phone=+31651492630;
+    source=BAG; source:date=2014-03-24; tourism=caravan_site;
+    website=https://thaarlerveld.nl; id=node/2787266485</desc>
+    <link href="https://thaarlerveld.nl"></link>
   </wpt>
   <wpt lat="52.2464271" lon="6.7541583">
     <ele>17</ele>
@@ -762,9 +772,13 @@ version="1.1" creator="togpx">
     <ele>4</ele>
     <name>Camperplaats Nijverheidssingel</name>
     <desc>addr:city=Breda; addr:housenumber=391;
-    addr:street=Nijverheidssingel; capacity=8; fee=yes;
-    name=Camperplaats Nijverheidssingel; toilets=no;
-    tourism=caravan_site; id=node/4366859284</desc>
+    addr:street=Nijverheidssingel; capacity=8;
+    caravan_site=motorhome_stopover; charge=7 Eur/24 hr; fee=yes;
+    maxstay=3 x 24 hr; name=Camperplaats Nijverheidssingel;
+    reservation=no; toilets=no; tourism=caravan_site;
+    water_point=yes; website=https://www.breda.nl/camperplaats;
+    id=node/4366859284</desc>
+    <link href="https://www.breda.nl/camperplaats"></link>
   </wpt>
   <wpt lat="51.2576341" lon="6.004302">
     <ele>18</ele>
@@ -795,11 +809,11 @@ version="1.1" creator="togpx">
     <name>Camping Zwaakseweel</name>
     <desc>addr:city=Kwadendamme; addr:housenumber=15;
     addr:postcode=4434RG; addr:street=Groenewegje; capacity=4;
-    caravan_site:type=camp_site; fee=yes; internet_access=yes;
-    name=Camping Zwaakseweel; operator=Camping Zwaakseweel;
-    power_supply=yes; sanitary_dump_station=customers; source=BAG;
-    source:date=2016-10-04; tourism=caravan_site;
-    website=https://campingzwaakseweel.nl/;
+    caravan_site:type=camp_site;
+    contact:website=https://campingzwaakseweel.nl/; fee=yes;
+    internet_access=yes; name=Camping Zwaakseweel; operator=Camping
+    Zwaakseweel; power_supply=yes; sanitary_dump_station=customers;
+    source=BAG; source:date=2016-10-04; tourism=caravan_site;
     id=node/4431501917</desc>
     <link href="https://campingzwaakseweel.nl/"></link>
   </wpt>
@@ -921,17 +935,6 @@ version="1.1" creator="togpx">
     website=https://www.camperplaatsleenderstrijp.nl/;
     id=node/5685900294</desc>
     <link href="https://www.camperplaatsleenderstrijp.nl/"></link>
-  </wpt>
-  <wpt lat="52.0110929" lon="6.1325849">
-    <ele>9</ele>
-    <name>Passantenhaven Doesburg</name>
-    <desc>charge=22€; fee=yes; fee:conditional=no @ (02/11 -
-    31/03); name=Passantenhaven Doesburg; permanent_camping=no;
-    power_supply=yes; tourism=caravan_site;
-    website=https://www.bezoek-doesburg.nl/locaties/2703461960/camperplaats-passantenhaven;
-    id=node/5747749821</desc>
-    <link href="https://www.bezoek-doesburg.nl/locaties/2703461960/camperplaats-passantenhaven">
-    </link>
   </wpt>
   <wpt lat="52.7464655" lon="5.1850265">
     <ele>0</ele>
@@ -1539,11 +1542,6 @@ version="1.1" creator="togpx">
     23978975; shower=yes; toilets=yes; tourism=caravan_site;
     id=node/10887894654</desc>
   </wpt>
-  <wpt lat="53.359288" lon="6.1468772">
-    <ele>-1</ele>
-    <name>node/10911191805</name>
-    <desc>tourism=caravan_site; id=node/10911191805</desc>
-  </wpt>
   <wpt lat="51.5753073" lon="5.9748254">
     <ele>21</ele>
     <name>Camperpark 't Schaartven</name>
@@ -1796,6 +1794,32 @@ version="1.1" creator="togpx">
     <desc>fee=no; name=Parking Huissen Molenweide; power_supply=no;
     sanitary_dump_station=no; tents=no; tourism=caravan_site;
     id=node/12084044744</desc>
+  </wpt>
+  <wpt lat="51.3236812" lon="5.815009">
+    <ele>28</ele>
+    <name>Anselberg CP</name>
+    <desc>fee=yes; internet_access=yes; internet_access:fee=no;
+    name=Anselberg CP; power_supply=yes; reservation=no;
+    sanitary_dump_station=yes; stars=5; tourism=caravan_site;
+    id=node/12148186547</desc>
+  </wpt>
+  <wpt lat="51.7412854" lon="5.8036737">
+    <ele>9</ele>
+    <name>CP Camperplaats De Kleine Geest.</name>
+    <desc>capacity=25; fee=yes; internet_access=yes; name=CP
+    Camperplaats De Kleine Geest.; opening_hours=24/7;
+    phone=+31640510877; power_supply=yes;
+    sanitary_dump_station=yes; stars=5; tourism=caravan_site;
+    id=node/12153502154</desc>
+  </wpt>
+  <wpt lat="52.3874427" lon="6.2942158">
+    <ele>6</ele>
+    <name>De Heemse Weide</name>
+    <desc>addr:housenumber=6; addr:street=Assendorperweg; name=De
+    Heemse Weide; opening_hours=24/7; phone=+31642781411;
+    tourism=caravan_site; website=https://www.deheemseweide.nl/;
+    id=node/12167752719</desc>
+    <link href="https://www.deheemseweide.nl/"></link>
   </wpt>
   <wpt lat="51.53345465" lon="4.0773905036281155">
     <ele>-1</ele>
@@ -2747,8 +2771,8 @@ version="1.1" creator="togpx">
     website=https://www.dezandberg.nl/; id=way/274104032</desc>
     <link href="https://www.dezandberg.nl/"></link>
   </wpt>
-  <wpt lat="51.98939825" lon="6.051749849632397">
-    <ele>7</ele>
+  <wpt lat="51.989520150000004" lon="6.0515991301888175">
+    <ele>6</ele>
     <name>way/299856928</name>
     <desc>surface=gravel; tourism=caravan_site;
     id=way/299856928</desc>
@@ -2877,8 +2901,10 @@ version="1.1" creator="togpx">
   <wpt lat="51.399914949999996" lon="6.165540161738486">
     <ele>22</ele>
     <name>De Weerd</name>
-    <desc>name=De Weerd; tourism=caravan_site;
-    website=https://www.campingdeweerd.nl/; id=way/438392363</desc>
+    <desc>internet_access=yes; internet_access:fee=customers;
+    name=De Weerd; power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; website=https://www.campingdeweerd.nl/;
+    id=way/438392363</desc>
     <link href="https://www.campingdeweerd.nl/"></link>
   </wpt>
   <wpt lat="53.0742163" lon="4.774275139147541">
@@ -3353,6 +3379,12 @@ version="1.1" creator="togpx">
     power_supply=yes; sanitary_dump_station=yes;
     tourism=caravan_site; id=way/753638570</desc>
   </wpt>
+  <wpt lat="53.0052412" lon="6.05742355">
+    <ele>-2</ele>
+    <name>way/755415086</name>
+    <desc>caravan_site=motorhome_stopover; maxstay=72 hours;
+    tourism=caravan_site; id=way/755415086</desc>
+  </wpt>
   <wpt lat="51.932989449999994" lon="6.606074361282606">
     <ele>29</ele>
     <name>'t Walfort</name>
@@ -3376,7 +3408,7 @@ version="1.1" creator="togpx">
     <name>Camperpark Hofvliet</name>
     <desc>addr:city=Zwolle; addr:housenumber=5;
     addr:postcode=8011BK; addr:street=Katerdijk; capacity=18;
-    lit=sunset-sunrise; name=Camperpark Hofvliet; power_supply=yes;
+    lit=yes; name=Camperpark Hofvliet; power_supply=yes;
     sanitary_dump_station=yes; tourism=caravan_site;
     id=way/777507579</desc>
   </wpt>
@@ -3851,13 +3883,28 @@ version="1.1" creator="togpx">
     internet_access:fee=no; power_supply=yes; tourism=caravan_site;
     id=way/1059694183</desc>
   </wpt>
+  <wpt lat="51.0084234" lon="5.881192101249496">
+    <ele>39</ele>
+    <name>way/1067673865</name>
+    <desc>access=yes; capacity=9; description=Camper van parking;
+    fee=no; parking=surface; reservation=no;
+    sanitary_dump_station=yes; smoothness=intermediate;
+    surface=asphalt; tourism=caravan_site; wheelchair=yes;
+    id=way/1067673865</desc>
+  </wpt>
   <wpt lat="52.3445576" lon="6.992544129399803">
     <ele>44</ele>
     <name>De Nijenhaer</name>
     <desc>addr:city=Beuningen; addr:housenumber=25;
-    addr:postcode=7588RA; addr:street=Nijenhaerweg; name=De
-    Nijenhaer; phone=+31 6 22544620; tourism=caravan_site;
+    addr:postcode=7588RA; addr:street=Nijenhaerweg;
+    caravan_site=motorhome_stopover; caravan_site:type=countryside;
+    caravans=no; charge=14.40 EUR; dog=yes; dog:fee=no; fee=yes;
+    laudry=yes; name=De Nijenhaer; phone=+31 6 22544620;
+    power_supply=yes; sanitary_dump_station=yes; seasonal=no;
+    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
+    water_point=yes; website=https://www.denijenhaer.nl/;
     id=way/1067897918</desc>
+    <link href="https://www.denijenhaer.nl/"></link>
   </wpt>
   <wpt lat="52.22524445" lon="4.62028782501592">
     <ele>-6</ele>
@@ -3887,16 +3934,6 @@ version="1.1" creator="togpx">
     <name>De Grashaven</name>
     <desc>fee=14,50; name=De Grashaven; power_supply=yes;
     tourism=caravan_site; id=way/1071070729</desc>
-  </wpt>
-  <wpt lat="52.2344943" lon="6.098335148085047">
-    <ele>7</ele>
-    <name>Parking Sporthal Jachtlust Twello</name>
-    <desc>amenity=parking_space; capacity=1;
-    caravan_site=motorhome_stopover;
-    caravan_site:type=sports_centre,town; caravans=no; fee=no;
-    name=Parking Sporthal Jachtlust Twello; power_supply=no;
-    sanitary_dump_station=no; surface=paving_stones; tents=no;
-    tourism=caravan_site; id=way/1071249770</desc>
   </wpt>
   <wpt lat="51.298362" lon="6.049405727412566">
     <ele>26</ele>
@@ -4900,7 +4937,7 @@ version="1.1" creator="togpx">
     surface=asphalt; tents=no; toilets=yes; tourism=caravan_site;
     id=way/1268835934</desc>
   </wpt>
-  <wpt lat="52.39011855" lon="4.539613987761653">
+  <wpt lat="52.39011855" lon="4.539613987399649">
     <ele>8</ele>
     <name>Camping Caravanpark De Duinrand</name>
     <desc>fee=yes; name=Camping Caravanpark De Duinrand;
@@ -5006,6 +5043,55 @@ version="1.1" creator="togpx">
     website=https://www.vorenseinde.nl/Camperplaatsen/;
     id=way/1306169117</desc>
     <link href="https://www.vorenseinde.nl/Camperplaatsen/"></link>
+  </wpt>
+  <wpt lat="51.58956425" lon="3.716257121161626">
+    <ele>3</ele>
+    <name>way/1313026885</name>
+    <desc>access=customers; fee=yes; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1313026885</desc>
+  </wpt>
+  <wpt lat="53.3592338" lon="6.147056976261309">
+    <ele>-1</ele>
+    <name>way/1314680668</name>
+    <desc>tourism=caravan_site; id=way/1314680668</desc>
+  </wpt>
+  <wpt lat="52.2344943" lon="6.098335148085047">
+    <ele>7</ele>
+    <name>way/1316527425</name>
+    <desc>capacity=1; caravan_site=motorhome_stopover;
+    caravan_site:type=sports_centre,town; caravans=no; fee=no;
+    power_supply=no; sanitary_dump_station=no;
+    surface=paving_stones; tents=no; tourism=caravan_site;
+    id=way/1316527425</desc>
+  </wpt>
+  <wpt lat="51.57429545" lon="4.550141897049857">
+    <ele>2</ele>
+    <name>https://miekeshof.nl/</name>
+    <desc>capacity=30; caravan_site=motorhome_stopover; fee=yes;
+    sanitary_dump_station:chemical_toilet=yes;
+    sanitary_dump_station:grey_water=yes; tourism=caravan_site;
+    water_point=no; website=https://miekeshof.nl/;
+    id=way/1316894817</desc>
+    <link href="https://miekeshof.nl/"></link>
+  </wpt>
+  <wpt lat="52.0111047" lon="6.13258281696079">
+    <ele>9</ele>
+    <name>Passantenhaven Doesburg</name>
+    <desc>charge=22 EUR; fee=yes; fee:conditional=no @ (02/11 -
+    31/03); name=Passantenhaven Doesburg; permanent_camping=no;
+    power_supply=yes; tourism=caravan_site;
+    website=https://www.bezoek-doesburg.nl/locaties/2703461960/camperplaats-passantenhaven;
+    id=way/1317031342</desc>
+    <link href="https://www.bezoek-doesburg.nl/locaties/2703461960/camperplaats-passantenhaven">
+    </link>
+  </wpt>
+  <wpt lat="53.04237125" lon="5.769908831116727">
+    <ele>-3</ele>
+    <name>Terhernstersyl Camperplaatsen</name>
+    <desc>name=Terhernstersyl Camperplaatsen; tourism=caravan_site;
+    url=https://www.terhernstersyl.nl/; id=way/1319810726</desc>
+    <link href="https://www.terhernstersyl.nl/"></link>
   </wpt>
   <trk>
     <name>Gorishoek</name>
@@ -9975,9 +10061,14 @@ version="1.1" creator="togpx">
     <name>way/299856928</name>
     <trkseg>
       <trkpt lat="51.9893121" lon="6.0510279"></trkpt>
-      <trkpt lat="51.9891396" lon="6.0511436"></trkpt>
-      <trkpt lat="51.9894844" lon="6.0524663"></trkpt>
+      <trkpt lat="51.9891685" lon="6.0511339"></trkpt>
+      <trkpt lat="51.9892039" lon="6.0512641"></trkpt>
+      <trkpt lat="51.9892545" lon="6.0514113"></trkpt>
+      <trkpt lat="51.9894452" lon="6.0522964"></trkpt>
       <trkpt lat="51.989651" lon="6.0523496"></trkpt>
+      <trkpt lat="51.9898995" lon="6.0517917"></trkpt>
+      <trkpt lat="51.9897076" lon="6.0513639"></trkpt>
+      <trkpt lat="51.9895951" lon="6.0508301"></trkpt>
       <trkpt lat="51.9893121" lon="6.0510279"></trkpt>
     </trkseg>
   </trk>
@@ -10445,6 +10536,11 @@ version="1.1" creator="togpx">
       <trkpt lat="51.3997381" lon="6.1665456"></trkpt>
       <trkpt lat="51.4000918" lon="6.1664121"></trkpt>
       <trkpt lat="51.4002218" lon="6.1670952"></trkpt>
+      <trkpt lat="51.4006276" lon="6.166889"></trkpt>
+      <trkpt lat="51.4006828" lon="6.1672708"></trkpt>
+      <trkpt lat="51.4011665" lon="6.1680624"></trkpt>
+      <trkpt lat="51.4017828" lon="6.1676165"></trkpt>
+      <trkpt lat="51.4015616" lon="6.166498"></trkpt>
       <trkpt lat="51.4015848" lon="6.1664123"></trkpt>
       <trkpt lat="51.4012411" lon="6.1648933"></trkpt>
       <trkpt lat="51.4001695" lon="6.1645958"></trkpt>
@@ -11671,6 +11767,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/755415086</name>
+    <trkseg>
+      <trkpt lat="53.0054161" lon="6.0573148"></trkpt>
+      <trkpt lat="53.0052382" lon="6.0571133"></trkpt>
+      <trkpt lat="53.0050663" lon="6.0575323"></trkpt>
+      <trkpt lat="53.0052442" lon="6.0577338"></trkpt>
+      <trkpt lat="53.0054161" lon="6.0573148"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>'t Walfort</name>
     <trkseg>
       <trkpt lat="51.9346593" lon="6.6053876"></trkpt>
@@ -12846,6 +12952,17 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/1067673865</name>
+    <trkseg>
+      <trkpt lat="51.0084564" lon="5.8814877"></trkpt>
+      <trkpt lat="51.0084766" lon="5.8811004"></trkpt>
+      <trkpt lat="51.0084882" lon="5.8809081"></trkpt>
+      <trkpt lat="51.0083904" lon="5.8808955"></trkpt>
+      <trkpt lat="51.0083528" lon="5.8814775"></trkpt>
+      <trkpt lat="51.0084564" lon="5.8814877"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>De Nijenhaer</name>
     <trkseg>
       <trkpt lat="52.3442599" lon="6.9928549"></trkpt>
@@ -12912,20 +13029,6 @@ version="1.1" creator="togpx">
       <trkpt lat="52.6336162" lon="5.0589547"></trkpt>
       <trkpt lat="52.6336998" lon="5.0589801"></trkpt>
       <trkpt lat="52.6339031" lon="5.0572287"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Parking Sporthal Jachtlust Twello</name>
-    <trkseg>
-      <trkpt lat="52.2345165" lon="6.0982875"></trkpt>
-      <trkpt lat="52.2344597" lon="6.0983506"></trkpt>
-      <trkpt lat="52.234473" lon="6.0983814"></trkpt>
-      <trkpt lat="52.234525" lon="6.0983246"></trkpt>
-      <trkpt lat="52.2345259" lon="6.0983214"></trkpt>
-      <trkpt lat="52.2345256" lon="6.098318"></trkpt>
-      <trkpt lat="52.2345158" lon="6.0982949"></trkpt>
-      <trkpt lat="52.2345156" lon="6.0982913"></trkpt>
-      <trkpt lat="52.2345165" lon="6.0982875"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15288,6 +15391,8 @@ version="1.1" creator="togpx">
       <trkpt lat="52.3893826" lon="4.5390674"></trkpt>
       <trkpt lat="52.3893024" lon="4.5393357"></trkpt>
       <trkpt lat="52.3894268" lon="4.5394778"></trkpt>
+      <trkpt lat="52.3896115" lon="4.5395995"></trkpt>
+      <trkpt lat="52.3898" lon="4.5397238"></trkpt>
       <trkpt lat="52.3910179" lon="4.5405266"></trkpt>
       <trkpt lat="52.3910572" lon="4.5386383"></trkpt>
       <trkpt lat="52.3908968" lon="4.5384264"></trkpt>
@@ -15525,6 +15630,107 @@ version="1.1" creator="togpx">
       <trkpt lat="51.5259899" lon="4.5567352"></trkpt>
       <trkpt lat="51.5259799" lon="4.5566929"></trkpt>
       <trkpt lat="51.5259039" lon="4.5567593"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1313026885</name>
+    <trkseg>
+      <trkpt lat="51.589719" lon="3.7156087"></trkpt>
+      <trkpt lat="51.5892315" lon="3.7158986"></trkpt>
+      <trkpt lat="51.5894095" lon="3.716906"></trkpt>
+      <trkpt lat="51.5898725" lon="3.7166293"></trkpt>
+      <trkpt lat="51.589719" lon="3.7156087"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1314680668</name>
+    <trkseg>
+      <trkpt lat="53.3590193" lon="6.1469364"></trkpt>
+      <trkpt lat="53.3593843" lon="6.1473321"></trkpt>
+      <trkpt lat="53.3594446" lon="6.1471844"></trkpt>
+      <trkpt lat="53.3590833" lon="6.1467741"></trkpt>
+      <trkpt lat="53.3590193" lon="6.1469364"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1316527425</name>
+    <trkseg>
+      <trkpt lat="52.2344597" lon="6.0983506"></trkpt>
+      <trkpt lat="52.234473" lon="6.0983814"></trkpt>
+      <trkpt lat="52.234525" lon="6.0983246"></trkpt>
+      <trkpt lat="52.2345259" lon="6.0983214"></trkpt>
+      <trkpt lat="52.2345256" lon="6.098318"></trkpt>
+      <trkpt lat="52.2345158" lon="6.0982949"></trkpt>
+      <trkpt lat="52.2345156" lon="6.0982913"></trkpt>
+      <trkpt lat="52.2345165" lon="6.0982875"></trkpt>
+      <trkpt lat="52.2344597" lon="6.0983506"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1316894817</name>
+    <trkseg>
+      <trkpt lat="51.5740002" lon="4.5497792"></trkpt>
+      <trkpt lat="51.5740331" lon="4.550565"></trkpt>
+      <trkpt lat="51.5745907" lon="4.5505047"></trkpt>
+      <trkpt lat="51.5745578" lon="4.5497187"></trkpt>
+      <trkpt lat="51.5740002" lon="4.5497792"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Passantenhaven Doesburg</name>
+    <trkseg>
+      <trkpt lat="52.0113737" lon="6.1320481"></trkpt>
+      <trkpt lat="52.0113329" lon="6.1319898"></trkpt>
+      <trkpt lat="52.0113244" lon="6.1319779"></trkpt>
+      <trkpt lat="52.0112258" lon="6.1321859"></trkpt>
+      <trkpt lat="52.0111687" lon="6.1323304"></trkpt>
+      <trkpt lat="52.0111222" lon="6.1324569"></trkpt>
+      <trkpt lat="52.0111126" lon="6.1324869"></trkpt>
+      <trkpt lat="52.0110968" lon="6.132536"></trkpt>
+      <trkpt lat="52.011084" lon="6.1325732"></trkpt>
+      <trkpt lat="52.0110585" lon="6.1326512"></trkpt>
+      <trkpt lat="52.0110438" lon="6.1326913"></trkpt>
+      <trkpt lat="52.0110193" lon="6.1327682"></trkpt>
+      <trkpt lat="52.0109993" lon="6.1328252"></trkpt>
+      <trkpt lat="52.0109665" lon="6.1329259"></trkpt>
+      <trkpt lat="52.0109418" lon="6.1330043"></trkpt>
+      <trkpt lat="52.0109283" lon="6.1330452"></trkpt>
+      <trkpt lat="52.0109035" lon="6.1331235"></trkpt>
+      <trkpt lat="52.0108904" lon="6.1331632"></trkpt>
+      <trkpt lat="52.0108659" lon="6.1332402"></trkpt>
+      <trkpt lat="52.0108533" lon="6.1332788"></trkpt>
+      <trkpt lat="52.0108285" lon="6.1333576"></trkpt>
+      <trkpt lat="52.0108665" lon="6.1333893"></trkpt>
+      <trkpt lat="52.0108914" lon="6.1333104"></trkpt>
+      <trkpt lat="52.0109042" lon="6.1332724"></trkpt>
+      <trkpt lat="52.0109287" lon="6.1331954"></trkpt>
+      <trkpt lat="52.0109421" lon="6.1331557"></trkpt>
+      <trkpt lat="52.0109669" lon="6.1330775"></trkpt>
+      <trkpt lat="52.0109807" lon="6.1330366"></trkpt>
+      <trkpt lat="52.0110053" lon="6.1329583"></trkpt>
+      <trkpt lat="52.0110573" lon="6.1328001"></trkpt>
+      <trkpt lat="52.0110818" lon="6.1327232"></trkpt>
+      <trkpt lat="52.0110953" lon="6.1326829"></trkpt>
+      <trkpt lat="52.0111208" lon="6.132605"></trkpt>
+      <trkpt lat="52.0111331" lon="6.1325667"></trkpt>
+      <trkpt lat="52.0111585" lon="6.1324876"></trkpt>
+      <trkpt lat="52.0111741" lon="6.1324393"></trkpt>
+      <trkpt lat="52.0112602" lon="6.1322695"></trkpt>
+      <trkpt lat="52.0112625" lon="6.1322642"></trkpt>
+      <trkpt lat="52.0112969" lon="6.1321967"></trkpt>
+      <trkpt lat="52.011314" lon="6.1321616"></trkpt>
+      <trkpt lat="52.0113497" lon="6.1320952"></trkpt>
+      <trkpt lat="52.0113737" lon="6.1320481"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Terhernstersyl Camperplaatsen</name>
+    <trkseg>
+      <trkpt lat="53.042348" lon="5.7696942"></trkpt>
+      <trkpt lat="53.0422976" lon="5.7697237"></trkpt>
+      <trkpt lat="53.0423945" lon="5.7701248"></trkpt>
+      <trkpt lat="53.0424446" lon="5.7700885"></trkpt>
+      <trkpt lat="53.042348" lon="5.7696942"></trkpt>
     </trkseg>
   </trk>
 </gpx>
