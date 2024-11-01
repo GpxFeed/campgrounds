@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-10-01T08:04:30Z", "timestamp_areas_base":
-      "2024-09-24T16:29:52Z", "copyright": "The data included in
+      "2024-11-01T10:38:03Z", "timestamp_areas_base":
+      "2024-10-28T01:00:14Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -167,14 +167,24 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="42.6417156" lon="0.5661937">
     <ele>1370</ele>
-    <name>Area de acampada</name>
+    <name>Area de acampada la Senarta</name>
     <desc>addr:city=Huesca; addr:country=ES; addr:place=Senarta;
     addr:province=Aragón; description=Regulado por el Ayuntamiento
     de Benasque.; ele=1370; email=ayto@benasque.es;
-    internet_access=no; name=Area de acampada;
+    internet_access=no; name=Area de acampada la Senarta;
     operator=Ayuntamiento de Benasque; phone=+34 974 551 001;
     tents=yes; tourism=camp_site; wheelchair=no;
     id=node/623513755</desc>
+  </wpt>
+  <wpt lat="42.5595231" lon="0.4658895">
+    <ele>967</ele>
+    <name>Camping la Borda D'Arnaldet</name>
+    <desc>ele=967; email=camping@arnaldet.com; fax=+34 974 553 285;
+    name=Camping la Borda D'Arnaldet; phone=+34 974 553 004;
+    tents=yes; tourism=camp_site; website=https://arnaldet.com/;
+    id=way/129168960; ; wpt_description=Camping la Borda
+    D'Arnaldet; id=node/623866285</desc>
+    <link href="https://arnaldet.com/"></link>
   </wpt>
   <wpt lat="42.2288465" lon="0.0480664">
     <ele>650</ele>
@@ -384,12 +394,14 @@ version="1.1" creator="togpx">
     <ele>819</ele>
     <name>Camping Cortijo San Isicio</name>
     <desc>addr:city=Cazorla; addr:postcode=23470;
-    addr:street=Camino San Isicio; email=info@campingcortijo.com;
+    addr:street=Camino San Isicio; caravans=yes;
+    drinking_water=yes; email=info@campingcortijo.com;
     image=https://campingcortijo.com/wp-content/uploads/2022/04/logo-camping-cortijo.jpg;
     internet_access=wlan; name=Camping Cortijo San Isicio;
-    nohousenumber=yes; phone=+34 953 721 280; tourism=camp_site;
-    website=https://www.campingcortijo.com/;
-    id=node/1050148757</desc>
+    nohousenumber=yes; phone=+34 953 721 280; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; website=https://www.campingcortijo.com/;
+    wheelchair=no; id=node/1050148757</desc>
     <link href="https://www.campingcortijo.com/"></link>
   </wpt>
   <wpt lat="39.6497327" lon="-0.483885">
@@ -1085,12 +1097,6 @@ version="1.1" creator="togpx">
     id=node/4763602622</desc>
     <link href="http://campingmoraira.com"></link>
   </wpt>
-  <wpt lat="37.7756302" lon="-0.7419209">
-    <ele>-3</ele>
-    <name>large carpark</name>
-    <desc>name=large carpark; name:en=large carpark;
-    tourism=camp_site; id=node/4763613022</desc>
-  </wpt>
   <wpt lat="38.18646" lon="-2.772948">
     <ele>775</ele>
     <name>Camping Montillana</name>
@@ -1752,14 +1758,6 @@ version="1.1" creator="togpx">
     Brandoñas; tents=yes; tourism=camp_site;
     id=node/8514919307</desc>
   </wpt>
-  <wpt lat="42.3183913" lon="-3.1882039">
-    <ele>1011</ele>
-    <name>La Trapera</name>
-    <desc>name=La Trapera; phone=+34635652260; tourism=camp_site;
-    website=https://www.campinglatrapera.com/;
-    id=node/8574102365</desc>
-    <link href="https://www.campinglatrapera.com/"></link>
-  </wpt>
   <wpt lat="29.0188315" lon="-13.6724333">
     <ele>333</ele>
     <name>Olive trees</name>
@@ -1892,8 +1890,10 @@ version="1.1" creator="togpx">
     contact:facebook=https://m.facebook.com/100063498821021/;
     contact:instagram=https://www.instagram.com/fortbravooficial/;
     contact:phone=+34 902 07 08 14;
-    contact:website=https://www.campingfortbravo.es/; name=Fort
-    Bravo; nudism=no; tents=yes; tourism=camp_site;
+    contact:website=https://www.campingfortbravo.es/;
+    drinking_water=yes; name=Fort Bravo; nudism=no;
+    power_supply=no; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
     id=node/9162530126</desc>
     <link href="https://www.campingfortbravo.es/"></link>
   </wpt>
@@ -3248,8 +3248,11 @@ version="1.1" creator="togpx">
   <wpt lat="41.20797895" lon="1.6904357728176898">
     <ele>7</ele>
     <name>Càmping Platja Vilanova</name>
-    <desc>name=Càmping Platja Vilanova; name:ca=Càmping Platja
-    Vilanova; tourism=camp_site; type=multipolygon;
+    <desc>caravans=yes; fee=yes; internet_access=yes;
+    motorhome=yes; name=Càmping Platja Vilanova; name:ca=Càmping
+    Platja Vilanova; power_supply=yes; power_supply:maxcurrent=4;
+    shower=hot; tents=yes; toilets=yes; tourism=camp_site;
+    type=multipolygon; washing_machine=yes;
     website=http://www.platjavilanova.com;
     id=relation/11259296</desc>
     <link href="http://www.platjavilanova.com"></link>
@@ -3388,8 +3391,11 @@ version="1.1" creator="togpx">
   <wpt lat="41.2333753" lon="1.6929480332410458">
     <ele>92</ele>
     <name>Càmping Vilanova Park</name>
-    <desc>email=info@vilanovapark.com; name=Càmping Vilanova Park;
-    name:ca=Càmping Vilanova Park; phone=+34 938933402; stars=4;
+    <desc>cabins=yes; caravans=yes; dog=yes;
+    email=info@vilanovapark.com; fee=yes; motorhome=yes;
+    name=Càmping Vilanova Park; name:ca=Càmping Vilanova Park;
+    phone=+34 938933402; power_supply=yes;
+    power_supply:maxcurrent=6,10; stars=4; tents=yes;
     tourism=camp_site; type=multipolygon;
     website=https://www.vilanovapark.com/;
     id=relation/12188307</desc>
@@ -3893,10 +3899,16 @@ version="1.1" creator="togpx">
     <ele>7</ele>
     <name>Camping Alfacs</name>
     <desc>addr:city=Alcanar; addr:housenumber=1;
-    addr:postcode=43530; addr:street=Avinguda del Mar; name=Camping
-    Alfacs; name:ca=Camping Alfacs; old_name=Camping los Alfaques;
-    phone=+34 977 74 05 61; tourism=camp_site; type=multipolygon;
-    website=https://www.alfacs.com/; id=relation/14511856</desc>
+    addr:postcode=43530; addr:street=Avinguda del Mar;
+    backcountry=no; caravans=yes; check_date=2024-10-18; dog=yes;
+    drinking_water=yes; fee=yes; group_only=no;
+    internet_access=wlan; internet_access:fee=customers;
+    name=Camping Alfacs; name:ca=Camping Alfacs; old_name=Camping
+    los Alfaques; phone=+34 977 74 05 61; picnic_table=no;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    static_caravans=yes; toilets=yes; tourism=camp_site;
+    type=multipolygon; website=https://www.alfacs.com/;
+    id=relation/14511856</desc>
     <link href="https://www.alfacs.com/"></link>
   </wpt>
   <wpt lat="40.539709200000004" lon="0.5212563244202315">
@@ -4726,8 +4738,11 @@ version="1.1" creator="togpx">
   <wpt lat="41.638122100000004" lon="-0.9412177876601668">
     <ele>248</ele>
     <name>Camping Municipal Ciudad de Zaragoza</name>
-    <desc>caravans=yes; fee=yes; name=Camping Municipal Ciudad de
-    Zaragoza; phone=+34 876 24 14 95; tourism=camp_site;
+    <desc>backcountry=no; capacity:caravans=155; caravans=yes;
+    check_date=2024-10-24; email=info@zaragozacamping.com; fee=yes;
+    name=Camping Municipal Ciudad de Zaragoza; phone=+34 876 24 14
+    95; power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    toilets=yes; tourism=camp_site;
     website=http://campingzaragoza.com/; id=way/47374801</desc>
     <link href="http://campingzaragoza.com/"></link>
   </wpt>
@@ -5270,7 +5285,8 @@ version="1.1" creator="togpx">
   <wpt lat="28.02836705" lon="-16.663018672202128">
     <ele>50</ele>
     <name>Camping Nauta</name>
-    <desc>name=Camping Nauta; tourism=camp_site;
+    <desc>addr:postcode=38631; addr:street=Carretera TF-653;
+    name=Camping Nauta; tourism=camp_site;
     url=http://www.campingnauta.com/Camping.html;
     id=way/104489120</desc>
     <link href="http://www.campingnauta.com/Camping.html"></link>
@@ -5509,15 +5525,6 @@ version="1.1" creator="togpx">
     <name>Camping Altamira</name>
     <desc>name=Camping Altamira; tourism=camp_site;
     id=way/127161307</desc>
-  </wpt>
-  <wpt lat="42.5593903" lon="0.46476976543309095">
-    <ele>967</ele>
-    <name>Camping la Borda D'Arnaldet</name>
-    <desc>ele=967; email=camping@arnaldet.com; fax=+34 974 553 285;
-    name=Camping la Borda D'Arnaldet; phone=+34 974 553 004;
-    tents=yes; tourism=camp_site; website=https://arnaldet.com/;
-    id=way/129168960</desc>
-    <link href="https://arnaldet.com/"></link>
   </wpt>
   <wpt lat="41.241809700000005" lon="0.33253202491886547">
     <ele>190</ele>
@@ -6180,11 +6187,14 @@ version="1.1" creator="togpx">
     <desc>name=Camping San Pedro; tourism=camp_site;
     id=way/170401450</desc>
   </wpt>
-  <wpt lat="42.04851425" lon="3.184656911558947">
+  <wpt lat="42.04851425" lon="3.184661139835104">
     <ele>2</ele>
     <name>L'Empordà</name>
-    <desc>name=L'Empordà; tourism=camp_site;
-    website=https://www.campingemporda.com/;
+    <desc>cabins=yes; caravans=yes; dog=yes; drinking_water=yes;
+    email=info@campingemporda.com; fee=yes; lit=yes; motorhome=yes;
+    name=L'Empordà; permanent_camping=yes; phone=+34 972 750 649;
+    power_supply=yes; tents=yes; tourism=camp_site;
+    washing_machine=yes; website=https://www.campingemporda.com/;
     id=way/170638668</desc>
     <link href="https://www.campingemporda.com/"></link>
   </wpt>
@@ -6772,7 +6782,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bocairent; addr:housenumber=9km;
     addr:street=Carretera Bocairent-Alcoy (CV-794);
     alt_name=Camping Mariola;
-    contact:email=info@campingmariola.com; contact:phone=+34 96 213
+    contact:email=info@campingmariola.com; contact:phone=+34 962 13
     51 60; name=Camping Bungalows Mariola; tourism=camp_site;
     website=https://www.campingmariola.com/;
     id=way/194721829</desc>
@@ -7070,7 +7080,8 @@ version="1.1" creator="togpx">
     email=camping@grupolasiania.om; fee=yes; mobile=+34 633 144
     126; name=Càmping El Garrofer; name:ca=Càmping El Garrofer;
     opening_hours=Mo-Su 07:00-24:00; phone=+34 938 941 780;
-    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    power_supply=yes; power_supply:maxcurrent=16;
+    sanitary_dump_station=yes; shower=yes; socket:cee_blue=yes;
     static_caravans=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.campingelgarrofer.com/;
     id=way/214677466</desc>
@@ -7079,9 +7090,10 @@ version="1.1" creator="togpx">
   <wpt lat="41.2317116" lon="1.7840929327424786">
     <ele>8</ele>
     <name>Camping Sitges</name>
-    <desc>caravans=yes; internet_access=wlan;
-    internet_access:fee=no; name=Camping Sitges;
-    opening_hours:reception=Mo-Su 9:00-21:00; tents=yes;
+    <desc>capacity:caravans=166; caravans=yes; dog=yes; fee=yes;
+    internet_access=wlan; internet_access:fee=no; motorhome=yes;
+    name=Camping Sitges; opening_hours:reception=Mo-Su 9:00-21:00;
+    power_supply=yes; reservation=yes; tents=yes;
     tourism=camp_site; website=https://www.campingsitges.com/;
     id=way/214677468</desc>
     <link href="https://www.campingsitges.com/"></link>
@@ -7668,9 +7680,10 @@ version="1.1" creator="togpx">
     contact:email=info@campingburgos.com; contact:phone=+34
     947486016; contact:website=http://www.campingburgos.com/;
     drinking_water=yes; lit=yes; name=Camping Fuentes Blancas;
-    operator=municipal; sanitary_dump_station=customers;
-    shower=yes; stars=4; tents=yes; tourism=camp_site;
-    wheelchair=yes; id=way/230984883</desc>
+    operator=municipal; power_supply=yes;
+    sanitary_dump_station=customers; sauna=no; shower=yes; stars=4;
+    tents=yes; toilets=yes; tourism=camp_site; wheelchair=yes;
+    id=way/230984883</desc>
     <link href="http://www.campingburgos.com/"></link>
   </wpt>
   <wpt lat="42.662351650000005" lon="-3.2654746122591343">
@@ -7831,8 +7844,10 @@ version="1.1" creator="togpx">
   <wpt lat="36.80115175" lon="-2.245325591542641">
     <ele>4</ele>
     <name>Camping Cabo de Gata</name>
-    <desc>internet_access=yes; name=Camping Cabo de Gata;
-    tourism=camp_site; id=way/235739935</desc>
+    <desc>caravans=yes; drinking_water=yes; internet_access=yes;
+    name=Camping Cabo de Gata; power_supply=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    id=way/235739935</desc>
   </wpt>
   <wpt lat="42.21597405" lon="-8.283371001587152">
     <ele>541</ele>
@@ -8151,12 +8166,16 @@ version="1.1" creator="togpx">
   <wpt lat="41.2716774" lon="2.0434467356123087">
     <ele>7</ele>
     <name>Càmping Tres Estrelles</name>
-    <desc>alt_name=Tres Estrellas; caravans=yes; name=Càmping Tres
-    Estrelles; name:ca=Càmping Tres Estrelles; phone=+34936330637;
-    tents=yes; tourism=camp_site;
-    website=https://www.camping3estrellas.com/;
+    <desc>addr:city=Gavà; addr:postcode=08850; addr:street=Autovia
+    de Castelldefels; alt_name=Tres Estrellas; caravans=yes;
+    dog=yes; fee=yes; internet_access=yes; internet_access:fee=no;
+    motorhome=yes; name=Càmping Tres Estrelles; name:ca=Càmping
+    Tres Estrelles; phone=+34936330637; power_supply:maxcurrent=6;
+    tents=yes; tourism=camp_site; washing_machine=yes;
+    website=https://www.tresestrellascampings.com/barcelona;
     id=way/265569285</desc>
-    <link href="https://www.camping3estrellas.com/"></link>
+    <link href="https://www.tresestrellascampings.com/barcelona">
+    </link>
   </wpt>
   <wpt lat="40.23064135" lon="-2.1035643466628002">
     <ele>1018</ele>
@@ -9603,10 +9622,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="36.720242150000004" lon="-4.164881665961765">
     <ele>9</ele>
-    <name>Camping Vallle Niza Playa</name>
-    <desc>addr:city=Benajarafe; addr:postcode=29790;
-    addr:street=Ctra Nacional 340; name=Camping Vallle Niza Playa;
-    phone=+34 952 513 181; tourism=camp_site;
+    <name>Camping Valle Niza Playa</name>
+    <desc>addr:city=Benajarafe; addr:full=Carretera Nacional 340;
+    addr:postcode=29790; name=Camping Valle Niza Playa; phone=+34
+    952 513 181; tourism=camp_site;
     website=https://www.campingvalleniza.es/;
     id=way/392828973</desc>
     <link href="https://www.campingvalleniza.es/"></link>
@@ -10116,8 +10135,12 @@ version="1.1" creator="togpx">
   <wpt lat="42.16373495" lon="3.1079905296821515">
     <ele>0</ele>
     <name>Las Dunas Camping Bungalowpark</name>
-    <desc>name=Las Dunas Camping Bungalowpark; tourism=camp_site;
-    id=way/436115085</desc>
+    <desc>caravans=yes; dog=yes; email=info@campinglasdunas.com;
+    fee=yes; motorhome=yes; name=Las Dunas Camping Bungalowpark;
+    power_supply=yes; power_supply:maxcurrent=6,10;
+    reservation=yes; tents=yes; tourism=camp_site;
+    website=https://www.campinglasdunas.co; id=way/436115085</desc>
+    <link href="https://www.campinglasdunas.co"></link>
   </wpt>
   <wpt lat="41.977159799999995" lon="-0.7532890410907338">
     <ele>330</ele>
@@ -11247,7 +11270,7 @@ version="1.1" creator="togpx">
     <link href="http://juventudextremadura.gobex.es/web/albergue?codigo=9">
     </link>
   </wpt>
-  <wpt lat="41.2416607" lon="0.3378728082590513">
+  <wpt lat="41.24166165" lon="0.33785426196326657">
     <ele>182</ele>
     <name>Los Almendros</name>
     <desc>name=Los Almendros; tourism=camp_site;
@@ -11816,8 +11839,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="36.521228050000005" lon="-4.631463543820163">
     <ele>15</ele>
-    <name>Camping Fuengirola</name>
-    <desc>name=Camping Fuengirola; tourism=camp_site;
+    <name>Costa del Sol Glamping Village</name>
+    <desc>name=Costa del Sol Glamping Village; tourism=camp_site;
     id=way/704050276</desc>
   </wpt>
   <wpt lat="42.08243765" lon="2.5116389213861385">
@@ -12078,8 +12101,15 @@ version="1.1" creator="togpx">
   <wpt lat="41.270993849999996" lon="1.9982605499834238">
     <ele>6</ele>
     <name>Càmping Estrella de Mar</name>
-    <desc>name=Càmping Estrella de Mar; name:ca=Càmping Estrella de
-    Mar; tourism=camp_site; id=way/777349904</desc>
+    <desc>addr:city=Castelldefels; addr:postcode=08860;
+    addr:street=Autovia de Castelldefels; caravans=yes;
+    email=info@caesmar.com; fee=yes; motorhome=yes; name=Càmping
+    Estrella de Mar; name:ca=Càmping Estrella de Mar;
+    power_supply=yes; power_supply:maxcurrent=6;
+    static_caravans=yes; tents=yes; tourism=camp_site;
+    website=https://campingestrellademar.com/;
+    id=way/777349904</desc>
+    <link href="https://campingestrellademar.com/"></link>
   </wpt>
   <wpt lat="41.590919299999996" lon="1.8386229421766087">
     <name>Area esportiva i d'acampada Montserrat</name>
@@ -14117,11 +14147,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="42.108730800000004" lon="-8.883885031342608">
     <ele>70</ele>
-    <name>Glamping do Mar</name>
+    <name>Camping do Mar</name>
     <desc>addr:city=Baredo; addr:postcode=36309; addr:street=Camiño
     da Cela; air_conditioning=yes; cabins=only; caravans=no;
     dog=yes; fee=yes; internet_access=wlan; internet_access:fee=no;
-    name=Glamping do Mar; phone=+34 628 121863; smoking=no;
+    name=Camping do Mar; phone=+34 628 121863; smoking=no;
     tents=no; tourism=camp_site;
     website=https://www.glampingdomar.com/;
     id=way/1148638292</desc>
@@ -14705,8 +14735,8 @@ version="1.1" creator="togpx">
     email=info@campingtrevelez.com; name=Trevelez; phone=+34 958 85
     87 35; tourism=camp_site; id=way/1299750779</desc>
   </wpt>
-  <wpt lat="42.56341115" lon="-0.5108611609504408">
-    <ele>820</ele>
+  <wpt lat="42.5643862" lon="-0.5109163604882856">
+    <ele>822</ele>
     <name>el arrebol</name>
     <desc>name=el arrebol; sanitary_dump_station=customers;
     stars=4; tents=yes; tourism=camp_site; id=way/1300735960</desc>
@@ -14760,6 +14790,14 @@ version="1.1" creator="togpx">
     tourism=camp_site; website=https://campingelmerino.com/;
     id=way/1309318964</desc>
     <link href="https://campingelmerino.com/"></link>
+  </wpt>
+  <wpt lat="42.317995999999994" lon="-3.188604895924483">
+    <ele>1011</ele>
+    <name>La Trapera</name>
+    <desc>name=La Trapera; phone=+34635652260; tourism=camp_site;
+    website=https://www.campinglatrapera.com/;
+    id=way/1323730195</desc>
+    <link href="https://www.campinglatrapera.com/"></link>
   </wpt>
   <wpt lat="28.327552400000002" lon="-16.783378956121524">
     <ele>1082</ele>
@@ -21193,17 +21231,24 @@ version="1.1" creator="togpx">
       <trkpt lat="41.0811431" lon="1.1146449"></trkpt>
       <trkpt lat="41.0813079" lon="1.1146755"></trkpt>
       <trkpt lat="41.0814496" lon="1.1146329"></trkpt>
+      <trkpt lat="41.0816395" lon="1.1144124"></trkpt>
       <trkpt lat="41.0816612" lon="1.1143872"></trkpt>
-      <trkpt lat="41.0817297" lon="1.1142476"></trkpt>
-      <trkpt lat="41.0816143" lon="1.1137713"></trkpt>
-      <trkpt lat="41.0816008" lon="1.1137192"></trkpt>
-      <trkpt lat="41.0813135" lon="1.1121341"></trkpt>
-      <trkpt lat="41.0812053" lon="1.1111513"></trkpt>
-      <trkpt lat="41.0810113" lon="1.1098269"></trkpt>
-      <trkpt lat="41.0809016" lon="1.1089152"></trkpt>
-      <trkpt lat="41.0808018" lon="1.1082173"></trkpt>
-      <trkpt lat="41.0806704" lon="1.1072896"></trkpt>
-      <trkpt lat="41.0806293" lon="1.1070967"></trkpt>
+      <trkpt lat="41.0817156" lon="1.1142439"></trkpt>
+      <trkpt lat="41.0816923" lon="1.1141468"></trkpt>
+      <trkpt lat="41.081603" lon="1.113776"></trkpt>
+      <trkpt lat="41.0815804" lon="1.113693"></trkpt>
+      <trkpt lat="41.0813826" lon="1.1127141"></trkpt>
+      <trkpt lat="41.0813015" lon="1.112135"></trkpt>
+      <trkpt lat="41.0811852" lon="1.1113351"></trkpt>
+      <trkpt lat="41.0811511" lon="1.1112218"></trkpt>
+      <trkpt lat="41.0811111" lon="1.1109848"></trkpt>
+      <trkpt lat="41.0811177" lon="1.11086"></trkpt>
+      <trkpt lat="41.0810666" lon="1.1104956"></trkpt>
+      <trkpt lat="41.0809902" lon="1.1098615"></trkpt>
+      <trkpt lat="41.0808636" lon="1.1089357"></trkpt>
+      <trkpt lat="41.0807638" lon="1.1082332"></trkpt>
+      <trkpt lat="41.0806598" lon="1.1075044"></trkpt>
+      <trkpt lat="41.0805448" lon="1.107291"></trkpt>
       <trkpt lat="41.0803844" lon="1.1075365"></trkpt>
       <trkpt lat="41.0799453" lon="1.1082932"></trkpt>
       <trkpt lat="41.0792204" lon="1.1094884"></trkpt>
@@ -21218,7 +21263,10 @@ version="1.1" creator="togpx">
       <trkpt lat="41.0749759" lon="1.1167108"></trkpt>
       <trkpt lat="41.0749959" lon="1.1168258"></trkpt>
       <trkpt lat="41.0750608" lon="1.1171989"></trkpt>
-      <trkpt lat="41.0751821" lon="1.1174242"></trkpt>
+      <trkpt lat="41.0751095" lon="1.1174709"></trkpt>
+      <trkpt lat="41.07518" lon="1.1175185"></trkpt>
+      <trkpt lat="41.0752278" lon="1.1176432"></trkpt>
+      <trkpt lat="41.0752465" lon="1.1176919"></trkpt>
       <trkpt lat="41.0752635" lon="1.1177932"></trkpt>
       <trkpt lat="41.075382" lon="1.11842"></trkpt>
       <trkpt lat="41.075543" lon="1.1192581"></trkpt>
@@ -26027,9 +26075,9 @@ version="1.1" creator="togpx">
       <trkpt lat="39.8700918" lon="3.1589028"></trkpt>
       <trkpt lat="39.8702111" lon="3.1588487"></trkpt>
       <trkpt lat="39.870481" lon="3.1585174"></trkpt>
-      <trkpt lat="39.870398" lon="3.1578345"></trkpt>
+      <trkpt lat="39.8704385" lon="3.1577246"></trkpt>
       <trkpt lat="39.8702579" lon="3.1570704"></trkpt>
-      <trkpt lat="39.8702942" lon="3.1564281"></trkpt>
+      <trkpt lat="39.8703639" lon="3.1566014"></trkpt>
       <trkpt lat="39.8702723" lon="3.1557776"></trkpt>
     </trkseg>
   </trk>
@@ -28886,7 +28934,7 @@ version="1.1" creator="togpx">
     <name>L'Empordà</name>
     <trkseg>
       <trkpt lat="42.0495642" lon="3.1829388"></trkpt>
-      <trkpt lat="42.0482117" lon="3.1833767"></trkpt>
+      <trkpt lat="42.0481719" lon="3.1834008"></trkpt>
       <trkpt lat="42.0483306" lon="3.1842251"></trkpt>
       <trkpt lat="42.0468988" lon="3.1848006"></trkpt>
       <trkpt lat="42.0474539" lon="3.1864143"></trkpt>
@@ -36622,6 +36670,7 @@ version="1.1" creator="togpx">
       <trkpt lat="41.3122526" lon="0.9795747"></trkpt>
       <trkpt lat="41.3122066" lon="0.9796074"></trkpt>
       <trkpt lat="41.3121559" lon="0.9796659"></trkpt>
+      <trkpt lat="41.3120831" lon="0.9798941"></trkpt>
       <trkpt lat="41.3119182" lon="0.9804706"></trkpt>
       <trkpt lat="41.3130877" lon="0.9812283"></trkpt>
       <trkpt lat="41.3135027" lon="0.9813356"></trkpt>
@@ -39474,7 +39523,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping Vallle Niza Playa</name>
+    <name>Camping Valle Niza Playa</name>
     <trkseg>
       <trkpt lat="36.7208213" lon="-4.1639054"></trkpt>
       <trkpt lat="36.7208579" lon="-4.1654872"></trkpt>
@@ -40575,6 +40624,7 @@ version="1.1" creator="togpx">
       <trkpt lat="37.6825517" lon="-4.918075"></trkpt>
       <trkpt lat="37.6825998" lon="-4.918117"></trkpt>
       <trkpt lat="37.6830618" lon="-4.9188548"></trkpt>
+      <trkpt lat="37.6830754" lon="-4.9188769"></trkpt>
       <trkpt lat="37.6831652" lon="-4.919023"></trkpt>
       <trkpt lat="37.6832022" lon="-4.9189879"></trkpt>
       <trkpt lat="37.683873" lon="-4.9201765"></trkpt>
@@ -44446,17 +44496,16 @@ version="1.1" creator="togpx">
   <trk>
     <name>Los Almendros</name>
     <trkseg>
-      <trkpt lat="41.2415371" lon="0.3356135"></trkpt>
-      <trkpt lat="41.2413174" lon="0.3356747"></trkpt>
-      <trkpt lat="41.2413362" lon="0.3357501"></trkpt>
-      <trkpt lat="41.2412662" lon="0.3357875"></trkpt>
+      <trkpt lat="41.2415471" lon="0.3355985"></trkpt>
+      <trkpt lat="41.2413041" lon="0.3356676"></trkpt>
+      <trkpt lat="41.2413209" lon="0.3357448"></trkpt>
+      <trkpt lat="41.2412582" lon="0.3357875"></trkpt>
       <trkpt lat="41.2413159" lon="0.3361001"></trkpt>
       <trkpt lat="41.2412829" lon="0.336114"></trkpt>
-      <trkpt lat="41.2417843" lon="0.3399663"></trkpt>
-      <trkpt lat="41.2418338" lon="0.3399633"></trkpt>
-      <trkpt lat="41.2419077" lon="0.3399496"></trkpt>
-      <trkpt lat="41.2420159" lon="0.3399345"></trkpt>
-      <trkpt lat="41.2415371" lon="0.3356135"></trkpt>
+      <trkpt lat="41.2417762" lon="0.3399864"></trkpt>
+      <trkpt lat="41.2418338" lon="0.3399754"></trkpt>
+      <trkpt lat="41.242033" lon="0.3399372"></trkpt>
+      <trkpt lat="41.2415471" lon="0.3355985"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -45876,7 +45925,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Camping Fuengirola</name>
+    <name>Costa del Sol Glamping Village</name>
     <trkseg>
       <trkpt lat="36.5220162" lon="-4.6324553"></trkpt>
       <trkpt lat="36.5220565" lon="-4.6325602"></trkpt>
@@ -51386,7 +51435,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Glamping do Mar</name>
+    <name>Camping do Mar</name>
     <trkseg>
       <trkpt lat="42.1094549" lon="-8.8839552"></trkpt>
       <trkpt lat="42.1090914" lon="-8.8840113"></trkpt>
@@ -52988,10 +53037,11 @@ version="1.1" creator="togpx">
       <trkpt lat="42.5653227" lon="-0.5113942"></trkpt>
       <trkpt lat="42.5644663" lon="-0.5120216"></trkpt>
       <trkpt lat="42.5643061" lon="-0.511779"></trkpt>
-      <trkpt lat="42.5628089" lon="-0.5117204"></trkpt>
-      <trkpt lat="42.5625994" lon="-0.5109425"></trkpt>
-      <trkpt lat="42.5628212" lon="-0.5105409"></trkpt>
-      <trkpt lat="42.5640011" lon="-0.5094158"></trkpt>
+      <trkpt lat="42.5641289" lon="-0.5111687"></trkpt>
+      <trkpt lat="42.5637345" lon="-0.5105865"></trkpt>
+      <trkpt lat="42.5633302" lon="-0.509999"></trkpt>
+      <trkpt lat="42.5636728" lon="-0.5092168"></trkpt>
+      <trkpt lat="42.563737" lon="-0.509117"></trkpt>
       <trkpt lat="42.5651071" lon="-0.5108379"></trkpt>
     </trkseg>
   </trk>
@@ -53295,6 +53345,57 @@ version="1.1" creator="togpx">
       <trkpt lat="40.1848576" lon="-6.6303241"></trkpt>
       <trkpt lat="40.184784" lon="-6.6305365"></trkpt>
       <trkpt lat="40.184695" lon="-6.6307291"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>La Trapera</name>
+    <trkseg>
+      <trkpt lat="42.3173674" lon="-3.1869438"></trkpt>
+      <trkpt lat="42.3174935" lon="-3.1868373"></trkpt>
+      <trkpt lat="42.3175532" lon="-3.1869104"></trkpt>
+      <trkpt lat="42.3177191" lon="-3.1871575"></trkpt>
+      <trkpt lat="42.3178142" lon="-3.1872534"></trkpt>
+      <trkpt lat="42.3179074" lon="-3.1873643"></trkpt>
+      <trkpt lat="42.3180491" lon="-3.1874752"></trkpt>
+      <trkpt lat="42.3181498" lon="-3.1875761"></trkpt>
+      <trkpt lat="42.3184388" lon="-3.1883729"></trkpt>
+      <trkpt lat="42.3186513" lon="-3.1887385"></trkpt>
+      <trkpt lat="42.3189553" lon="-3.1891748"></trkpt>
+      <trkpt lat="42.3191715" lon="-3.1896589"></trkpt>
+      <trkpt lat="42.3188937" lon="-3.1899237"></trkpt>
+      <trkpt lat="42.31878" lon="-3.1898379"></trkpt>
+      <trkpt lat="42.3187129" lon="-3.1897673"></trkpt>
+      <trkpt lat="42.3186719" lon="-3.1897396"></trkpt>
+      <trkpt lat="42.3185898" lon="-3.1897169"></trkpt>
+      <trkpt lat="42.3185488" lon="-3.1897169"></trkpt>
+      <trkpt lat="42.3182784" lon="-3.1898405"></trkpt>
+      <trkpt lat="42.3182356" lon="-3.1898506"></trkpt>
+      <trkpt lat="42.3180678" lon="-3.1898379"></trkpt>
+      <trkpt lat="42.3180286" lon="-3.1898152"></trkpt>
+      <trkpt lat="42.3179634" lon="-3.1897371"></trkpt>
+      <trkpt lat="42.3176893" lon="-3.1891596"></trkpt>
+      <trkpt lat="42.3176184" lon="-3.1890966"></trkpt>
+      <trkpt lat="42.3174972" lon="-3.189031"></trkpt>
+      <trkpt lat="42.3174208" lon="-3.1889705"></trkpt>
+      <trkpt lat="42.3173481" lon="-3.1888243"></trkpt>
+      <trkpt lat="42.3173387" lon="-3.1887688"></trkpt>
+      <trkpt lat="42.3173406" lon="-3.1887108"></trkpt>
+      <trkpt lat="42.3173667" lon="-3.1885368"></trkpt>
+      <trkpt lat="42.317432" lon="-3.1883805"></trkpt>
+      <trkpt lat="42.3175047" lon="-3.1882418"></trkpt>
+      <trkpt lat="42.3175345" lon="-3.1881334"></trkpt>
+      <trkpt lat="42.3175382" lon="-3.1880174"></trkpt>
+      <trkpt lat="42.3175289" lon="-3.1879619"></trkpt>
+      <trkpt lat="42.3174599" lon="-3.18774"></trkpt>
+      <trkpt lat="42.3173984" lon="-3.1876442"></trkpt>
+      <trkpt lat="42.3170181" lon="-3.1872332"></trkpt>
+      <trkpt lat="42.316908" lon="-3.1871878"></trkpt>
+      <trkpt lat="42.3168614" lon="-3.1871121"></trkpt>
+      <trkpt lat="42.3169006" lon="-3.1870315"></trkpt>
+      <trkpt lat="42.3170833" lon="-3.1868902"></trkpt>
+      <trkpt lat="42.3171896" lon="-3.1869003"></trkpt>
+      <trkpt lat="42.3172996" lon="-3.1869583"></trkpt>
+      <trkpt lat="42.3173674" lon="-3.1869438"></trkpt>
     </trkseg>
   </trk>
   <trk>
