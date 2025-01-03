@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2024-12-01T12:05:14Z", "timestamp_areas_base":
-      "2024-12-01T07:02:13Z", "copyright": "The data included in
+      "2025-01-03T10:08:59Z", "timestamp_areas_base":
+      "2024-12-31T00:49:33Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -217,11 +217,12 @@ version="1.1" creator="togpx">
     <name>node/681669515</name>
     <desc>tourism=camp_site; id=node/681669515</desc>
   </wpt>
-  <wpt lat="61.9234337" lon="25.9949856">
+  <wpt lat="61.9237449" lon="25.9952019">
     <name>Lintuniemi</name>
     <desc>access=yes; backcountry=yes; capacity=5;
-    drinking_water=no; fee=no; name=Lintuniemi; openfire=yes;
-    operator=Metsähallitus; shower=no; tents=yes; toilets=yes;
+    capacity:tents=5; caravans=no; drinking_water=no; fee=no;
+    name=Lintuniemi; openfire=yes; operator=Metsähallitus;
+    shower=no; static_caravans=no; tents=yes; toilets=yes;
     tourism=camp_site; id=node/694059305</desc>
   </wpt>
   <wpt lat="61.2154322" lon="28.2876178">
@@ -544,8 +545,8 @@ version="1.1" creator="togpx">
   <wpt lat="60.2955153" lon="24.60072">
     <ele>90</ele>
     <name>Valkialammen telttailualue</name>
-    <desc>name=Valkialammen telttailualue; tourism=camp_site;
-    id=node/1167723657</desc>
+    <desc>caravans=no; name=Valkialammen telttailualue; tents=yes;
+    tourism=camp_site; id=node/1167723657</desc>
   </wpt>
   <wpt lat="60.2969223" lon="24.594374">
     <ele>80</ele>
@@ -831,10 +832,13 @@ version="1.1" creator="togpx">
     name=Vuorisalo leirikeskus; tourism=camp_site;
     id=node/1791942366</desc>
   </wpt>
-  <wpt lat="61.8904356" lon="26.0065176">
-    <name>node/1801058991</name>
-    <desc>fee=no; parking=surface; tourism=camp_site;
-    id=node/1801058991</desc>
+  <wpt lat="61.888622" lon="26.0087486">
+    <name>Harjujärvi telttailualue</name>
+    <desc>access=yes; backcountry=yes; capacity:tents=5;
+    caravans=no; drinking_water=no; fee=no; name=Harjujärvi
+    telttailualue; openfire=yes; operator=Metsähallitus;
+    parking=surface; static_caravans=no; tents=yes; toilets=no;
+    tourism=camp_site; id=node/1801058991</desc>
   </wpt>
   <wpt lat="61.1848089" lon="26.8391882">
     <name>Olhava</name>
@@ -1106,15 +1110,6 @@ version="1.1" creator="togpx">
     <name>Tuuri resorts teltta-alue</name>
     <desc>name=Tuuri resorts teltta-alue; tourism=camp_site;
     id=node/2921983303</desc>
-  </wpt>
-  <wpt lat="60.5303406" lon="21.3674458">
-    <name>Kustavin Lootholma</name>
-    <desc>addr:housenumber=193; addr:street=Kuninkaantie;
-    caravans=yes; contact:phone=+358505560440;
-    contact:website=http://lootholma.fi/en/; name=Kustavin
-    Lootholma; tents=yes; tourism=camp_site;
-    website=http://lootholma.fi/en/; id=node/2939434723</desc>
-    <link href="http://lootholma.fi/en/"></link>
   </wpt>
   <wpt lat="69.5092746" lon="28.5886753">
     <name>Peuralammen camping</name>
@@ -3347,7 +3342,7 @@ version="1.1" creator="togpx">
     openfire=yes; toilets=yes; tourism=camp_site;
     id=way/35897135</desc>
   </wpt>
-  <wpt lat="62.263637200000005" lon="21.362385810649826">
+  <wpt lat="62.263636399999996" lon="21.362405939499148">
     <name>Pukinsaari-Bockholmen Camping</name>
     <desc>caravans=yes; drinking_water=yes;
     name=Pukinsaari-Bockholmen Camping; name:fi=Pukinsaaren
@@ -3418,8 +3413,7 @@ version="1.1" creator="togpx">
     <name>Rastila Camping Helsinki</name>
     <desc>addr:city=Helsinki; addr:country=FI; addr:housenumber=4;
     addr:postcode=00980; addr:street=Karavaanikatu; caravans=yes;
-    fee=yes; fixme=Ei ehkä -71 ollut vielä koko tämän laajuinen
-    leirintäalue; int_name=Rastila Camping; name=Rastila Camping
+    fee=yes; int_name=Rastila Camping; name=Rastila Camping
     Helsinki; name:en=Rastila Camping Helsinki; name:fi=Rastilan
     leirintäalue; name:sv=Rastböle camping; phone=+358 9 310 36659;
     ref=ES 3; start_date=1971; tents=yes; tourism=camp_site;
@@ -3987,6 +3981,22 @@ version="1.1" creator="togpx">
     website=https://www.camping-merihelmi.fi/;
     id=way/533458506</desc>
     <link href="https://www.camping-merihelmi.fi/"></link>
+  </wpt>
+  <wpt lat="63.9857741" lon="25.756626257575306">
+    <name>Suomela Camping</name>
+    <desc>access=yes; addr:city=Kärsämäki; addr:housenumber=30;
+    addr:postcode=86710; addr:street=Ouluntie; bbq=yes; cabins=yes;
+    camp_site=standard; capacity:cabins=8; capacity:caravans=14;
+    caravans=yes; drinking_water=yes; fee=yes; kitchen=yes;
+    name=Suomela Camping; operator=Jarmon ja Susannan Monipalvelu
+    Ay; phone=+358 40 7063837; power_supply=yes; reservation=yes;
+    sanitary_dump_station=yes; sauna=yes; shower=yes;
+    static_caravans=no; tents=yes; toilets=yes; tourism=camp_site;
+    washing_machine=yes;
+    website=https://www.nuttulinna.com/suomela-camping/;
+    id=way/536971427</desc>
+    <link href="https://www.nuttulinna.com/suomela-camping/">
+    </link>
   </wpt>
   <wpt lat="60.08722365" lon="20.27092752762166">
     <ele>9</ele>
@@ -5368,12 +5378,23 @@ version="1.1" creator="togpx">
     static_caravans=no; tents=yes; toilets=yes; tourism=camp_site;
     wheelchair=yes; id=way/1335009184</desc>
   </wpt>
-  <wpt lat="64.78566245" lon="25.35482307398759">
+  <wpt lat="64.78568045" lon="25.354827406156108">
     <name>Värminkosken leirintä</name>
-    <desc>name=Värminkosken leirintä; tourism=camp_site;
+    <desc>addr:city=Liminka; addr:housenumber=71;
+    addr:postcode=91900; addr:street=Raahentie; name=Värminkosken
+    leirintä; tourism=camp_site;
     website=https://www.varminkoskenleirinta.fi/;
     id=way/1337720487</desc>
     <link href="https://www.varminkoskenleirinta.fi/"></link>
+  </wpt>
+  <wpt lat="60.529298049999994" lon="21.370128320695393">
+    <name>Kustavin Lootholma</name>
+    <desc>addr:city=Kustavi; addr:housenumber=193;
+    addr:postcode=26630; addr:street=Kuninkaantie; caravans=yes;
+    name=Kustavin Lootholma; phone=+358505560440; tents=yes;
+    tourism=camp_site; website=https://lootholma.fi/en/;
+    id=way/1342563083</desc>
+    <link href="https://lootholma.fi/en/"></link>
   </wpt>
   <trk>
     <name>Seinäjoen Leirintäalue</name>
@@ -5745,7 +5766,9 @@ version="1.1" creator="togpx">
       <trkpt lat="65.0300446" lon="25.4150559"></trkpt>
       <trkpt lat="65.030022" lon="25.4152209"></trkpt>
       <trkpt lat="65.0297161" lon="25.4149808"></trkpt>
+      <trkpt lat="65.0296861" lon="25.4151953"></trkpt>
       <trkpt lat="65.0296468" lon="25.415476"></trkpt>
+      <trkpt lat="65.029511" lon="25.4164467"></trkpt>
       <trkpt lat="65.0294837" lon="25.4166421"></trkpt>
       <trkpt lat="65.0292958" lon="25.4179969"></trkpt>
       <trkpt lat="65.0292502" lon="25.4181037"></trkpt>
@@ -6032,15 +6055,17 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="62.2646427" lon="21.3629902"></trkpt>
       <trkpt lat="62.2639055" lon="21.3612015"></trkpt>
-      <trkpt lat="62.2622198" lon="21.3606602"></trkpt>
-      <trkpt lat="62.2621274" lon="21.3614812"></trkpt>
+      <trkpt lat="62.2622208" lon="21.3605969"></trkpt>
+      <trkpt lat="62.2621417" lon="21.3613425"></trkpt>
+      <trkpt lat="62.2621252" lon="21.3614863"></trkpt>
       <trkpt lat="62.2622856" lon="21.3616852"></trkpt>
-      <trkpt lat="62.2621719" lon="21.3623752"></trkpt>
+      <trkpt lat="62.262169" lon="21.3623815"></trkpt>
+      <trkpt lat="62.2622118" lon="21.3625511"></trkpt>
       <trkpt lat="62.2623186" lon="21.3628319"></trkpt>
       <trkpt lat="62.2625378" lon="21.3630977"></trkpt>
       <trkpt lat="62.2627768" lon="21.3630599"></trkpt>
-      <trkpt lat="62.2633689" lon="21.3633606"></trkpt>
-      <trkpt lat="62.2640275" lon="21.3640864"></trkpt>
+      <trkpt lat="62.2633673" lon="21.3634126"></trkpt>
+      <trkpt lat="62.2640152" lon="21.3641213"></trkpt>
       <trkpt lat="62.2646427" lon="21.3629902"></trkpt>
     </trkseg>
   </trk>
@@ -6373,6 +6398,7 @@ version="1.1" creator="togpx">
       <trkpt lat="60.2080552" lon="25.1249234"></trkpt>
       <trkpt lat="60.208331" lon="25.1248578"></trkpt>
       <trkpt lat="60.2085266" lon="25.1242001"></trkpt>
+      <trkpt lat="60.2085337" lon="25.1241761"></trkpt>
       <trkpt lat="60.2087225" lon="25.1235419"></trkpt>
       <trkpt lat="60.208826" lon="25.1231938"></trkpt>
       <trkpt lat="60.2088458" lon="25.1231279"></trkpt>
@@ -6982,6 +7008,7 @@ version="1.1" creator="togpx">
       <trkpt lat="61.5747928" lon="28.1504016"></trkpt>
       <trkpt lat="61.5751564" lon="28.150411"></trkpt>
       <trkpt lat="61.5753449" lon="28.150345"></trkpt>
+      <trkpt lat="61.5752034" lon="28.148623"></trkpt>
       <trkpt lat="61.5749006" lon="28.1449372"></trkpt>
       <trkpt lat="61.5747569" lon="28.1431877"></trkpt>
     </trkseg>
@@ -8026,6 +8053,44 @@ version="1.1" creator="togpx">
       <trkpt lat="65.5247609" lon="25.2597236"></trkpt>
       <trkpt lat="65.5251134" lon="25.2594749"></trkpt>
       <trkpt lat="65.5245908" lon="25.2566676"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Suomela Camping</name>
+    <trkseg>
+      <trkpt lat="63.9860217" lon="25.7537127"></trkpt>
+      <trkpt lat="63.9859142" lon="25.7538907"></trkpt>
+      <trkpt lat="63.9855787" lon="25.7549803"></trkpt>
+      <trkpt lat="63.9853026" lon="25.7554697"></trkpt>
+      <trkpt lat="63.9849945" lon="25.7567561"></trkpt>
+      <trkpt lat="63.98504" lon="25.7568247"></trkpt>
+      <trkpt lat="63.9850249" lon="25.7569012"></trkpt>
+      <trkpt lat="63.9848909" lon="25.7575836"></trkpt>
+      <trkpt lat="63.9848548" lon="25.7577673"></trkpt>
+      <trkpt lat="63.9850225" lon="25.7579806"></trkpt>
+      <trkpt lat="63.985175" lon="25.7573054"></trkpt>
+      <trkpt lat="63.9853826" lon="25.7573195"></trkpt>
+      <trkpt lat="63.9855577" lon="25.7577718"></trkpt>
+      <trkpt lat="63.985073" lon="25.7587074"></trkpt>
+      <trkpt lat="63.9856418" lon="25.7588676"></trkpt>
+      <trkpt lat="63.986353" lon="25.7590784"></trkpt>
+      <trkpt lat="63.9863566" lon="25.7589646"></trkpt>
+      <trkpt lat="63.9862196" lon="25.7584973"></trkpt>
+      <trkpt lat="63.9861145" lon="25.7577512"></trkpt>
+      <trkpt lat="63.9859064" lon="25.7574415"></trkpt>
+      <trkpt lat="63.9860548" lon="25.7571504"></trkpt>
+      <trkpt lat="63.9859417" lon="25.7568118"></trkpt>
+      <trkpt lat="63.9860386" lon="25.7566255"></trkpt>
+      <trkpt lat="63.985972" lon="25.7564111"></trkpt>
+      <trkpt lat="63.9861306" lon="25.7558106"></trkpt>
+      <trkpt lat="63.9866545" lon="25.7544943"></trkpt>
+      <trkpt lat="63.9865632" lon="25.7542308"></trkpt>
+      <trkpt lat="63.9866385" lon="25.7540197"></trkpt>
+      <trkpt lat="63.9865507" lon="25.7538505"></trkpt>
+      <trkpt lat="63.9865188" lon="25.7537478"></trkpt>
+      <trkpt lat="63.9864213" lon="25.7537808"></trkpt>
+      <trkpt lat="63.9863228" lon="25.7537917"></trkpt>
+      <trkpt lat="63.9860217" lon="25.7537127"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12505,6 +12570,7 @@ version="1.1" creator="togpx">
       <trkpt lat="64.7855734" lon="25.3554984"></trkpt>
       <trkpt lat="64.7855467" lon="25.355636"></trkpt>
       <trkpt lat="64.7856323" lon="25.3558928"></trkpt>
+      <trkpt lat="64.7856683" lon="25.355945"></trkpt>
       <trkpt lat="64.7856926" lon="25.3559802"></trkpt>
       <trkpt lat="64.7857384" lon="25.3560468"></trkpt>
       <trkpt lat="64.7858166" lon="25.3560697"></trkpt>
@@ -12515,6 +12581,108 @@ version="1.1" creator="togpx">
       <trkpt lat="64.786273" lon="25.3540907"></trkpt>
       <trkpt lat="64.7863476" lon="25.3537471"></trkpt>
       <trkpt lat="64.7863258" lon="25.3536442"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Kustavin Lootholma</name>
+    <trkseg>
+      <trkpt lat="60.5296228" lon="21.3656219"></trkpt>
+      <trkpt lat="60.529578" lon="21.36587"></trkpt>
+      <trkpt lat="60.529434" lon="21.3664755"></trkpt>
+      <trkpt lat="60.5292621" lon="21.3668068"></trkpt>
+      <trkpt lat="60.5292787" lon="21.3668791"></trkpt>
+      <trkpt lat="60.5292713" lon="21.3669647"></trkpt>
+      <trkpt lat="60.5292264" lon="21.3670752"></trkpt>
+      <trkpt lat="60.529146" lon="21.3671534"></trkpt>
+      <trkpt lat="60.5290684" lon="21.3671624"></trkpt>
+      <trkpt lat="60.5290443" lon="21.3671917"></trkpt>
+      <trkpt lat="60.529041" lon="21.3672312"></trkpt>
+      <trkpt lat="60.5290603" lon="21.3672777"></trkpt>
+      <trkpt lat="60.529528" lon="21.3673029"></trkpt>
+      <trkpt lat="60.5295693" lon="21.3673298"></trkpt>
+      <trkpt lat="60.5295881" lon="21.3673754"></trkpt>
+      <trkpt lat="60.529591" lon="21.3674386"></trkpt>
+      <trkpt lat="60.5295799" lon="21.3675098"></trkpt>
+      <trkpt lat="60.5295534" lon="21.3675266"></trkpt>
+      <trkpt lat="60.529513" lon="21.3675115"></trkpt>
+      <trkpt lat="60.5294741" lon="21.3675455"></trkpt>
+      <trkpt lat="60.5294434" lon="21.3675864"></trkpt>
+      <trkpt lat="60.5293778" lon="21.3675777"></trkpt>
+      <trkpt lat="60.5288057" lon="21.3676454"></trkpt>
+      <trkpt lat="60.5287823" lon="21.3676482"></trkpt>
+      <trkpt lat="60.5287391" lon="21.3676757"></trkpt>
+      <trkpt lat="60.5286973" lon="21.367734"></trkpt>
+      <trkpt lat="60.5286747" lon="21.3678071"></trkpt>
+      <trkpt lat="60.5286657" lon="21.3678823"></trkpt>
+      <trkpt lat="60.5286652" lon="21.3679994"></trkpt>
+      <trkpt lat="60.5286717" lon="21.3681801"></trkpt>
+      <trkpt lat="60.5286524" lon="21.3682191"></trkpt>
+      <trkpt lat="60.5285927" lon="21.3682418"></trkpt>
+      <trkpt lat="60.5285141" lon="21.3682247"></trkpt>
+      <trkpt lat="60.5284478" lon="21.3682092"></trkpt>
+      <trkpt lat="60.5284058" lon="21.3682166"></trkpt>
+      <trkpt lat="60.5283347" lon="21.3682682"></trkpt>
+      <trkpt lat="60.5283101" lon="21.3681893"></trkpt>
+      <trkpt lat="60.5282699" lon="21.3681317"></trkpt>
+      <trkpt lat="60.5281926" lon="21.3680894"></trkpt>
+      <trkpt lat="60.5281361" lon="21.3680048"></trkpt>
+      <trkpt lat="60.5280899" lon="21.3679699"></trkpt>
+      <trkpt lat="60.5279726" lon="21.3680048"></trkpt>
+      <trkpt lat="60.5279518" lon="21.3680471"></trkpt>
+      <trkpt lat="60.5279369" lon="21.3680955"></trkpt>
+      <trkpt lat="60.527931" lon="21.3681499"></trkpt>
+      <trkpt lat="60.527931" lon="21.3682042"></trkpt>
+      <trkpt lat="60.5279429" lon="21.368313"></trkpt>
+      <trkpt lat="60.5279815" lon="21.3685125"></trkpt>
+      <trkpt lat="60.5280588" lon="21.3688327"></trkpt>
+      <trkpt lat="60.5280767" lon="21.3689355"></trkpt>
+      <trkpt lat="60.5280886" lon="21.3690443"></trkpt>
+      <trkpt lat="60.5280945" lon="21.3692195"></trkpt>
+      <trkpt lat="60.5280559" lon="21.3694914"></trkpt>
+      <trkpt lat="60.5280588" lon="21.3695458"></trkpt>
+      <trkpt lat="60.5281361" lon="21.3697211"></trkpt>
+      <trkpt lat="60.528154" lon="21.3698903"></trkpt>
+      <trkpt lat="60.528148" lon="21.3701622"></trkpt>
+      <trkpt lat="60.5281688" lon="21.3703194"></trkpt>
+      <trkpt lat="60.5281869" lon="21.3703506"></trkpt>
+      <trkpt lat="60.5282366" lon="21.3704312"></trkpt>
+      <trkpt lat="60.5282984" lon="21.3704805"></trkpt>
+      <trkpt lat="60.5283362" lon="21.3705399"></trkpt>
+      <trkpt lat="60.528415" lon="21.3708028"></trkpt>
+      <trkpt lat="60.5285607" lon="21.3711382"></trkpt>
+      <trkpt lat="60.528638" lon="21.371392"></trkpt>
+      <trkpt lat="60.5286715" lon="21.3714656"></trkpt>
+      <trkpt lat="60.5287227" lon="21.371531"></trkpt>
+      <trkpt lat="60.5287659" lon="21.371664"></trkpt>
+      <trkpt lat="60.5287971" lon="21.3717304"></trkpt>
+      <trkpt lat="60.5288729" lon="21.371812"></trkpt>
+      <trkpt lat="60.5289347" lon="21.3718705"></trkpt>
+      <trkpt lat="60.5289874" lon="21.371942"></trkpt>
+      <trkpt lat="60.5290328" lon="21.3720488"></trkpt>
+      <trkpt lat="60.5290914" lon="21.3722139"></trkpt>
+      <trkpt lat="60.5291405" lon="21.3723408"></trkpt>
+      <trkpt lat="60.5292564" lon="21.3725705"></trkpt>
+      <trkpt lat="60.5293174" lon="21.3727155"></trkpt>
+      <trkpt lat="60.5293858" lon="21.3728998"></trkpt>
+      <trkpt lat="60.5294541" lon="21.3731083"></trkpt>
+      <trkpt lat="60.5295442" lon="21.3734209"></trkpt>
+      <trkpt lat="60.5295694" lon="21.3735082"></trkpt>
+      <trkpt lat="60.5296177" lon="21.3736159"></trkpt>
+      <trkpt lat="60.529686" lon="21.373761"></trkpt>
+      <trkpt lat="60.5297693" lon="21.3738818"></trkpt>
+      <trkpt lat="60.5298162" lon="21.3740581"></trkpt>
+      <trkpt lat="60.5303523" lon="21.3730966"></trkpt>
+      <trkpt lat="60.5300458" lon="21.371557"></trkpt>
+      <trkpt lat="60.5301311" lon="21.3704457"></trkpt>
+      <trkpt lat="60.5303644" lon="21.3697874"></trkpt>
+      <trkpt lat="60.5301851" lon="21.3690584"></trkpt>
+      <trkpt lat="60.530462" lon="21.3677701"></trkpt>
+      <trkpt lat="60.5303958" lon="21.3676073"></trkpt>
+      <trkpt lat="60.5303871" lon="21.3669738"></trkpt>
+      <trkpt lat="60.5304428" lon="21.3666411"></trkpt>
+      <trkpt lat="60.5307001" lon="21.3656652"></trkpt>
+      <trkpt lat="60.5297655" lon="21.3656855"></trkpt>
+      <trkpt lat="60.5296228" lon="21.3656219"></trkpt>
     </trkseg>
   </trk>
 </gpx>
