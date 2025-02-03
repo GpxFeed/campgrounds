@@ -32,7 +32,7 @@ Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](htt
   
   https://github.com/devemux86/cruiser/releases
   
-# <h2>Skript <i>gpx-strip-tracks.sh</i></h2>
+# <h2>Skript <i>"gpx-strip-tracks.sh"</i></h2>
 
 Das Skript-Paar "gpx-strip-tracks" richtet sich an den geübten Benutzer der Linux-Kommandozeile.
 
