@@ -40,7 +40,7 @@ Ces scripts permettent de supprimer toutes les délimitations de camping (tracks
 
 Entrée :
 
-./gpx-strip-tracks.sh
+ ./gpx-strip-tracks.sh
 
 Par défault, cette commande lit les fichiers GPX du répertoire source "./gpx" et les écrit modifiés dans le répertoire cible "./gpx-stripped" - voir les infos dans le code source.
 
