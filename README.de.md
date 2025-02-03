@@ -25,8 +25,14 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 - Länder
 
     - (AD) Andorra, (AL) Albania, (AT) Austria, (BA) Bosnia and Herzegovina, (BE) Belgium, (BG) Bulgaria, (BY) Belarus, (CH) Switzerland, (CY) Cyprus, (CZ) Czech Republic, (DE) Germany, (DK) Denmark, (EE) Estonia, (ES) Spain, (FI) Finland, (FO) Faroe Islands, (FR) France, (GB) United Kingdom, (GE) Georgia, (GG) Guernsey, (GI) Gibraltar, (GL) Greenland, (GR) Greece, (HR) Croatia, (HU) Hungary, (IE) Ireland, (IM) Isle of Man, (IS) Iceland, (IT) Italy, (JE) Jersey, (LI) Liechtenstein, (LT) Lithuania, (LU) Luxembourg, (LV) Latvia, (MC) Monaco, (MD) Moldova, (ME) Montenegro, (MK) North Macedonia, (MT) Malta, (NL) Netherlands, (NO) Norway, (PL) Poland, (PT) Portugal, (RO) Romania, (RS) Serbia, (RU) Russia, (SE) Sweden, (SI) Slovenia, (SJ) Svalbard and Jan Mayen, (SK) Slovakia, (SM) San Marino, (UA) Ukraine, (VA) City of the Vatican
-    
-# Skript <i>gpx-strip-tracks.sh</>
+
+Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](http://github.com/tkrajina/gpxpy)-Parser zusammen mit anderen Python-Werkzeugsätzen für das optimale Arbeiten mit Cruiser Desktop 3.0.9 aufbereitet (Routing -> Importieren -> Dateiname und Dateityp : *.gpx -> Öffnen -> Overlay) :
+
+  https://wiki.openstreetmap.org/wiki/Cruiser
+  
+  https://github.com/devemux86/cruiser/releases
+  
+# <h2>Skript <i>gpx-strip-tracks.sh</i></h2>
 
 Das Skript-Paar "gpx-strip-tracks" richtet sich an den geübten Benutzer der Linux-Kommandozeile.
 
@@ -37,12 +43,6 @@ Eingabe:
      ./gpx-strip-tracks.sh
 
 Standardmäßig liest dieser Befehl GPX-Dateien aus dem Quellverzeichnis "./gpx" und schreibt sie geändert in das Zielverzeichnis "./gpx-stripped" - siehe Infos im Quellcode.
-
-Alle Pois wurden aus OSM - OpenStreetMap - herausgezogen und mit dem [GpxPy](http://github.com/tkrajina/gpxpy)-Parser zusammen mit anderen Python-Werkzeugsätzen für das optimale Arbeiten mit Cruiser Desktop 3.0.9 aufbereitet (Routing -> Importieren -> Dateiname und Dateityp : *.gpx -> Öffnen -> Overlay) :
-
-  https://wiki.openstreetmap.org/wiki/Cruiser
-  
-  https://github.com/devemux86/cruiser/releases
   
 # <h2>Desktop Version auf Netbook mit Linux</h2>
 
