@@ -31,6 +31,18 @@ All pois have been extracted from OSM - OpenStreetMap - trimmed with the [GpxPy]
   https://wiki.openstreetmap.org/wiki/Cruiser
   
   https://github.com/devemux86/cruiser/releases
+
+# <h2>Script <i>"gpx-strip-tracks.sh"</i></h2>
+
+The “gpx-strip-tracks” script pair is intended for experienced users of the Linux command line.
+
+These scripts can be used to remove all campsite borderlines (tracks) - all other data will be left untouched. No POIs will be deleted.
+
+Enter:
+
+     ./gpx-strip-tracks.sh
+
+By default, these command reads GPX files from the source directory "./gpx" and writes them modified to the target directory "./gpx-stripped" - see information in the source code.
   
 # <h2>Desktop version on netbook with Linux</h2>
 
