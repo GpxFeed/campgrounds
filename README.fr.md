@@ -31,7 +31,19 @@ Tous les POIs ont été tirés de l'OSM - OpenStreetMap - et ajustés avec l'ana
   https://wiki.openstreetmap.org/wiki/Cruiser
   
   https://github.com/devemux86/cruiser/releases
-  
+
+# <h2>Script <i>"gpx-strip-tracks.sh"</i></h2>
+
+La paire de scripts "gpx-strip-tracks" s'adresse à l'utilisateur expérimenté de la ligne de commande Linux.
+
+Ces scripts permettent de supprimer toutes les délimitations de camping (tracks) - toutes les autres informations sont conservées. Aucun POI n'est supprimé.
+
+Entrée :
+
+./gpx-strip-tracks.sh
+
+Par défault, cette commande lit les fichiers GPX du répertoire source "./gpx" et les écrit modifiés dans le répertoire cible "./gpx-stripped" - voir les infos dans le code source.
+
 # <h2>Version de bureau sur netbook avec Linux</h2>
 
 ![alt text](./cruiser.png?raw=true "Cruiser")
