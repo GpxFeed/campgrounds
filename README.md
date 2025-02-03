@@ -42,7 +42,7 @@ Enter:
 
      ./gpx-strip-tracks.sh
 
-By default, these command reads GPX files from the source directory "./gpx" and writes them modified to the target directory "./gpx-stripped" - see information in the source code.
+By default, this command reads GPX files from the source directory "./gpx" and writes them modified to the target directory "./gpx-stripped" - see information in the source code.
   
 # <h2>Desktop version on netbook with Linux</h2>
 
