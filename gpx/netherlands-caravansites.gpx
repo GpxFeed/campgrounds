@@ -6,7 +6,7 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-02-02T00:38:14Z", "timestamp_areas_base":
+      "2025-03-01T10:22:03Z", "timestamp_areas_base":
       "2024-12-31T00:49:33Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
@@ -68,9 +68,9 @@ version="1.1" creator="togpx">
   <wpt lat="52.488015" lon="5.0344208">
     <ele>-1</ele>
     <name>Kaasboerderij Simonehoeve</name>
-    <desc>access=customers; access:conditional=yes @ (17:00-09:30);
-    campers=yes; caravan_site=motorhome_stopover;
-    caravan_site:type=restaurant; email=info@simonehoeve.com;
+    <desc>access:conditional=yes @ (17:00-09:30); campers=yes;
+    caravan_site=motorhome_stopover;
+    caravan_site:type=dairy,restaurant; email=info@simonehoeve.com;
     fee=no; name=Kaasboerderij Simonehoeve; opening_hours=Mo-Su
     17:00-09:30; phone=+31 299365828; power_supply=no;
     sanitary_dump_station=no; tourism=caravan_site; water_point=no;
@@ -182,7 +182,7 @@ version="1.1" creator="togpx">
     caravan_site:type=museum,castle; designation=camper; fee=no;
     maxstay=48 hours; name=Camperplaats Loevestein;
     power_supply=no; sanitary_dump_station=no; source=survey;
-    tents=no; tourism=caravan_site; water_point=no;
+    tents=no; toilets=no; tourism=caravan_site; water_point=no;
     website=https://www.slotloevestein.nl/camperplaats/;
     id=node/4068972390</desc>
     <link href="https://www.slotloevestein.nl/camperplaats/">
@@ -1462,12 +1462,13 @@ version="1.1" creator="togpx">
     addr:postcode=1751EG; addr:street=Parallelweg;
     attraction=Korenmolen de Hoop; capacity=20;
     caravan_site=motorhome_stopover; caravan_site:type=museum;
-    fee=yes; internet_access=wlan; name=Camperplaats de Hoop;
-    power_supply=yes; power_supply:capacity=15;
+    charge=20 EUR; fee=yes; internet_access=wlan; name=Camperplaats
+    de Hoop; power_supply=yes; power_supply:capacity=15;
     power_supply:maxcurrent=6; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; tents=no; toilets=yes;
-    toilets:seasonal=yes; tourism=caravan_site;
+    toilets:seasonal=yes; tourism=caravan_site; water_point=yes;
+    water_point:seasonal=yes;
     website=https://molentzand.nl/camperplaatsen/;
     id=way/438199856</desc>
     <link href="https://molentzand.nl/camperplaatsen/"></link>
@@ -1968,10 +1969,10 @@ version="1.1" creator="togpx">
     <name>Camperplaats Eemsdijk</name>
     <desc>addr:city=Delfzijl; addr:street=Grosdijk; capacity=20;
     caravan_site=motorhome_stopover; caravan_site:type=beach;
-    caravans=no; charge=15.30 EUR; drinking_water=yes;
-    email=mgbrouwer@msn.com; fee=yes; internet_access=no;
-    name=Camperplaats Eemsdijk; phone=+31 6 83241503;
-    power_supply=yes; power_supply:charge=1 EUR/2 kWh;
+    caravans=no; charge=15.30 EUR; check_out=11:00;
+    drinking_water=yes; email=mgbrouwer@msn.com; fee=yes;
+    internet_access=no; name=Camperplaats Eemsdijk; phone=+31 6
+    83241503; power_supply=yes; power_supply:charge=1 EUR/2 kWh;
     power_supply:fee=yes; reservation=no;
     sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
@@ -2233,7 +2234,7 @@ version="1.1" creator="togpx">
     <ele>-2</ele>
     <name>Camperpark Turfstee</name>
     <desc>capacity=55; caravan_site=motorhome_stopover;
-    caravan_site:type=town; caravans=no; dog=yes;
+    caravan_site:type=town; caravans=no; charge=16 EUR; dog=yes;
     email=info@turfstee.nl; fee=yes; internet_access=wlan;
     name=Camperpark Turfstee; phone=+31 6 50501142;
     power_supply=yes; sanitary_dump_station=yes; shower=yes;
@@ -2754,12 +2755,11 @@ version="1.1" creator="togpx">
     <ele>0</ele>
     <name>Camp &amp; Surf Markermeer</name>
     <desc>capacity:caravans=55; caravan_site=motorhome_stopover;
-    caravan_site:type=beach; charge=22 EUR; description=fee about
-    17,00€ per day; designation=campers; dog=leashed; dog:charge=2
-    EUR; dog:fee=yes; fee=yes; internet_access=no; name=Camp &amp;
-    Surf Markermeer; power_supply=no; sanitary_dump_station=no;
-    shower=no; tents=no; toilets=no; tourism=caravan_site;
-    water_point=no;
+    caravan_site:type=beach; charge=22 EUR; dog=leashed;
+    dog:charge=2 EUR; dog:fee=yes; fee=yes; internet_access=no;
+    name=Camp &amp; Surf Markermeer; power_supply=no;
+    sanitary_dump_station=no; shower=no; tents=no; toilets=no;
+    tourism=caravan_site; water_point=no;
     website=https://www.campensurfmarkermeer.nl/camperplaatsen;
     id=way/1080655994</desc>
     <link href="https://www.campensurfmarkermeer.nl/camperplaatsen">
@@ -2819,14 +2819,16 @@ version="1.1" creator="togpx">
     id=way/1080881104</desc>
     <link href="https://www.camperparkdokkum.nl/"></link>
   </wpt>
-  <wpt lat="53.321291650000006" lon="6.867808074816671">
+  <wpt lat="53.32129245" lon="6.8677672">
     <ele>-2</ele>
-    <name>Busstation Farmsumerweg</name>
+    <name>Camperplaats Farmsumerweg</name>
     <desc>capacity=10; caravan_site=motorhome_stopover;
-    caravan_site:type=parking_lot,town; fee=no; name=Busstation
-    Farmsumerweg; power_supply=yes; power_supply:fee=yes;
-    seasonal=no; shower=no; surface=paving_stones; toilets=no;
-    tourism=caravan_site; water_point=yes; id=way/1085457481</desc>
+    caravan_site:type=parking_lot,town; fee=no; name=Camperplaats
+    Farmsumerweg; power_supply=yes; power_supply:capacity=6;
+    power_supply:fee=yes; seasonal=no; shower=no;
+    surface=paving_stones; toilets=no; tourism=caravan_site;
+    wikimedia_commons=Category:Camperplaats Farmsumerweg
+    Appingedam; id=way/1085457481</desc>
   </wpt>
   <wpt lat="52.717609949999996" lon="5.28768047314032">
     <ele>0</ele>
@@ -3643,20 +3645,23 @@ version="1.1" creator="togpx">
   <wpt lat="52.672737549999994" lon="4.815121317843224">
     <ele>1</ele>
     <name>Camperplaatsen Recreatiehaven Broekhorn</name>
-    <desc>access=customers; addr:city=Heerhugowaard;
-    addr:housenumber=2; addr:postcode=1704MX; addr:street=Ooster
-    Vlaerdinge; campervan=yes; capacity:persons=36;
-    caravan_site=motorhome_stopover; caravans=no; charge=15,75
-    EUR/WEEKDAY; contact:phone=+31 6 37288325;
+    <desc>addr:city=Heerhugowaard; addr:housenumber=2;
+    addr:postcode=1704MX; addr:street=Ooster Vlaerdinge;
+    campervan=yes; capacity:persons=36;
+    caravan_site=motorhome_stopover; caravans=no; charge=16.10 EUR;
+    contact:phone=+31 6 37288325;
     contact:website=https://havenbroekhorn.nl/contact; fee=yes;
-    internet_access=wlan; internet_access:fee=no;
+    fee:description=Price includes electricity and €1 tourist tax
+    per person.; internet_access=wlan; internet_access:fee=no;
     motorhome=designated; name=Camperplaatsen Recreatiehaven
-    Broekhorn; note=Price includes electricity and €1 tourist tax
-    per person.; operator=Stichting Recreatiehaven Broekhorn;
+    Broekhorn; operator=Stichting Recreatiehaven Broekhorn;
     operator:type=government; permanent_camping=no;
-    power_supply=yes; sanitary_dump_station=yes;
+    power_supply=yes; power_supply:fee=no;
+    sanitary_dump_station=yes; shower=yes; shower:fee=no;
     static_caravans=no; surface=paving_stones; tents=no;
-    tourism=caravan_site; id=way/1252933388</desc>
+    toilets=yes; toilets:fee=no; tourism=caravan_site;
+    water_point=yes; water_point:charge=0.50 EUR/50 liter;
+    water_point:fee=yes; id=way/1252933388</desc>
     <link href="https://havenbroekhorn.nl/contact"></link>
   </wpt>
   <wpt lat="52.47792895" lon="6.069915713746374">
@@ -3871,17 +3876,17 @@ version="1.1" creator="togpx">
   <wpt lat="52.85619375" lon="5.0103362469827655">
     <ele>-4</ele>
     <name>Camperplaats de Tulpentuin</name>
-    <desc>access=customers; addr:city=Slootdorp;
-    addr:housenumber=7; addr:postcode=1774NH; addr:street=Wierweg;
-    campervan=yes; caravan_site=motorhome_stopover; caravans=no;
-    charge=13,50 EUR/WEEKDAY; contact:phone=+31 6 54325008;
+    <desc>addr:city=Slootdorp; addr:housenumber=7;
+    addr:postcode=1774NH; addr:street=Wierweg;
+    caravan_site=motorhome_stopover; caravan_site:type=flower_farm;
+    caravans=no; charge=17.10 EUR; contact:phone=+31 6 54325008;
     contact:website=https://munsterflowers.nl/camperplaats-de-tulpentuin/;
-    fee=yes; internet_access=wlan; internet_access:fee=no;
+    fee=yes; fee:description=Price includes €1,55 tourist tax per
+    person.; internet_access=wlan; internet_access:fee=no;
     motorhome=designated; name=Camperplaats de Tulpentuin;
-    note=Price includes €1,50 tourist tax per person.;
     operator=Munster Flowers; operator:type=business;
-    permanent_camping=no; power_supply=yes; power_supply:charge=3
-    EUR/WEEKDAY; power_supply:fee=yes; sanitary_dump_station=yes;
+    permanent_camping=no; power_supply=yes; power_supply:charge=4
+    EUR; power_supply:fee=yes; sanitary_dump_station=yes;
     static_caravans=no; surface=paving_stones; tents=no;
     tourism=caravan_site; id=way/1272897606</desc>
     <link href="https://munsterflowers.nl/camperplaats-de-tulpentuin/">
@@ -4229,7 +4234,7 @@ version="1.1" creator="togpx">
     website=https://debronkhorst.nl/; id=way/1351429484</desc>
     <link href="https://debronkhorst.nl/"></link>
   </wpt>
-  <wpt lat="51.914733600000005" lon="4.250461656026154">
+  <wpt lat="51.914728600000004" lon="4.25047157118839">
     <ele>4</ele>
     <name>Camperplaatsen Veerpont</name>
     <desc>capacity=10; caravan_site=motorhome_stopover;
@@ -4747,7 +4752,7 @@ version="1.1" creator="togpx">
     id=way/1352341973</desc>
     <link href="https://camperparkn205.nl/"></link>
   </wpt>
-  <wpt lat="50.8231557" lon="5.7001739547993475">
+  <wpt lat="50.823255700000004" lon="5.7001257509422265">
     <ele>43</ele>
     <name>Maastricht marina</name>
     <desc>bbq=yes; caravan_site=motorhome_stopover;
@@ -4825,7 +4830,7 @@ version="1.1" creator="togpx">
     <desc>addr:city=Weert; addr:housenumber=30;
     addr:postcode=6002RX; addr:street=Suffolkweg Zuid; capacity=28;
     caravan_site=motorhome_stopover; caravan_site:type=town;
-    charge=17.50;
+    charge=17.50 EUR;
     facebook=https://www.facebook.com/camperplaatsweert/; fee=yes;
     maxstay=72 hours; name=Camperplaats Weert; opening_hours=24/7;
     phone=+31 495 531 079; power_supply=yes; power_supply:fee=yes;
@@ -5061,13 +5066,14 @@ version="1.1" creator="togpx">
     EUR@(member); dog=leashed; dog:fee=no;
     email=info@bijboerjos.nl; fee=yes; fireworks=no;
     internet_access=wlan; internet_access:fee=no; lit=yes;
-    motorhome=designated; name=Bij Boer Jos; network=SVR; phone=+31
-    6 57287359; picnic_table=yes; power_supply=yes;
-    power_supply:fee=no; power_supply:maxcurrent=10;
-    reservation=yes; reservation:description=telephone;
+    motorhome=designated; name=Bij Boer Jos; network=SVR;
+    opening_hours=Mar+; phone=+31 6 57287359; picnic_table=yes;
+    power_supply=yes; power_supply:fee=no;
+    power_supply:maxcurrent=10; reservation=yes;
+    reservation:description=telephone;
     sanitary_dump_station=customers;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=yes; shower=yes;
+    sanitary_dump_station:grey_water=yes; seasonal=yes; shower=yes;
     socket:cee_blue=yes; surface=gravel; toilets=yes;
     tourism=caravan_site; water_point=no; water_point:fee=no;
     website=https://www.bijboerjos.nl/; id=way/1353038767</desc>
@@ -6008,6 +6014,24 @@ version="1.1" creator="togpx">
     id=way/1354200065</desc>
     <link href="https://doarpsuwald.nl/camperplaats-jachthaven-suwald/">
     </link>
+  </wpt>
+  <wpt lat="52.79157095" lon="4.90036398555066">
+    <ele>0</ele>
+    <name>Camperplaats 't groentje</name>
+    <desc>caravan_site=motorhome_stopover; name=Camperplaats 't
+    groentje; tourism=caravan_site; id=way/1356709899</desc>
+  </wpt>
+  <wpt lat="53.18088365" lon="5.50311961776654">
+    <ele>-1</ele>
+    <name>Camperplaats Kiesterzijl</name>
+    <desc>addr:city=Herbaijum; addr:housenumber=51;
+    addr:postcode=8807PG; addr:street=Kiesterzijl;
+    internet_access=wlan; name=Camperplaats Kiesterzijl;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site;
+    website=https://www.camperplaatskiesterzijl.nl/;
+    id=way/1358875890</desc>
+    <link href="https://www.camperplaatskiesterzijl.nl/"></link>
   </wpt>
   <trk>
     <name>Camperplaats Landgraaf</name>
@@ -9062,13 +9086,13 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Busstation Farmsumerweg</name>
+    <name>Camperplaats Farmsumerweg</name>
     <trkseg>
-      <trkpt lat="53.3214977" lon="6.8677459"></trkpt>
-      <trkpt lat="53.3210886" lon="6.8677225"></trkpt>
-      <trkpt lat="53.3210856" lon="6.8678703"></trkpt>
-      <trkpt lat="53.3214947" lon="6.8678936"></trkpt>
-      <trkpt lat="53.3214977" lon="6.8677459"></trkpt>
+      <trkpt lat="53.321498" lon="6.8676615"></trkpt>
+      <trkpt lat="53.3210905" lon="6.8676433"></trkpt>
+      <trkpt lat="53.3210869" lon="6.8678729"></trkpt>
+      <trkpt lat="53.3214944" lon="6.8678911"></trkpt>
+      <trkpt lat="53.321498" lon="6.8676615"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10691,11 +10715,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camperplaatsen Veerpont</name>
     <trkseg>
-      <trkpt lat="51.9146258" lon="4.2508602"></trkpt>
-      <trkpt lat="51.9149221" lon="4.250136"></trkpt>
+      <trkpt lat="51.9146158" lon="4.2508792"></trkpt>
+      <trkpt lat="51.9149161" lon="4.2501464"></trkpt>
       <trkpt lat="51.9148414" lon="4.2500646"></trkpt>
-      <trkpt lat="51.9145428" lon="4.2507903"></trkpt>
-      <trkpt lat="51.9146258" lon="4.2508602"></trkpt>
+      <trkpt lat="51.9145937" lon="4.2506676"></trkpt>
+      <trkpt lat="51.9145339" lon="4.250797"></trkpt>
+      <trkpt lat="51.9146158" lon="4.2508792"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11180,11 +11205,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Maastricht marina</name>
     <trkseg>
-      <trkpt lat="50.8232788" lon="5.7003741"></trkpt>
-      <trkpt lat="50.8231856" lon="5.6998987"></trkpt>
+      <trkpt lat="50.8234936" lon="5.7002778"></trkpt>
+      <trkpt lat="50.8233856" lon="5.6997982"></trkpt>
       <trkpt lat="50.8230327" lon="5.6999738"></trkpt>
       <trkpt lat="50.8231258" lon="5.7004492"></trkpt>
-      <trkpt lat="50.8232788" lon="5.7003741"></trkpt>
+      <trkpt lat="50.8234936" lon="5.7002778"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12294,6 +12319,52 @@ version="1.1" creator="togpx">
       <trkpt lat="53.1711071" lon="5.9339422"></trkpt>
       <trkpt lat="53.171493" lon="5.9335224"></trkpt>
       <trkpt lat="53.1712848" lon="5.9329256"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Camperplaats 't groentje</name>
+    <trkseg>
+      <trkpt lat="52.7916793" lon="4.900193"></trkpt>
+      <trkpt lat="52.7916211" lon="4.9001836"></trkpt>
+      <trkpt lat="52.7915076" lon="4.9001669"></trkpt>
+      <trkpt lat="52.791445" lon="4.90016"></trkpt>
+      <trkpt lat="52.7914368" lon="4.900305"></trkpt>
+      <trkpt lat="52.7914442" lon="4.9003065"></trkpt>
+      <trkpt lat="52.791499" lon="4.9003178"></trkpt>
+      <trkpt lat="52.791498" lon="4.9003382"></trkpt>
+      <trkpt lat="52.7914432" lon="4.9003294"></trkpt>
+      <trkpt lat="52.7914309" lon="4.9003275"></trkpt>
+      <trkpt lat="52.7914317" lon="4.9003766"></trkpt>
+      <trkpt lat="52.7914394" lon="4.900424"></trkpt>
+      <trkpt lat="52.7914536" lon="4.9004672"></trkpt>
+      <trkpt lat="52.7914736" lon="4.9005036"></trkpt>
+      <trkpt lat="52.7914981" lon="4.9005313"></trkpt>
+      <trkpt lat="52.7915259" lon="4.9005487"></trkpt>
+      <trkpt lat="52.7915554" lon="4.9005548"></trkpt>
+      <trkpt lat="52.7915865" lon="4.9005487"></trkpt>
+      <trkpt lat="52.7916157" lon="4.9005301"></trkpt>
+      <trkpt lat="52.7916412" lon="4.9005002"></trkpt>
+      <trkpt lat="52.7916615" lon="4.9004608"></trkpt>
+      <trkpt lat="52.7916753" lon="4.9004143"></trkpt>
+      <trkpt lat="52.7916805" lon="4.9003815"></trkpt>
+      <trkpt lat="52.7916817" lon="4.9003637"></trkpt>
+      <trkpt lat="52.7916112" lon="4.9003543"></trkpt>
+      <trkpt lat="52.7916123" lon="4.900334"></trkpt>
+      <trkpt lat="52.7916704" lon="4.9003446"></trkpt>
+      <trkpt lat="52.7916793" lon="4.900193"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Camperplaats Kiesterzijl</name>
+    <trkseg>
+      <trkpt lat="53.1811166" lon="5.5027449"></trkpt>
+      <trkpt lat="53.1807976" lon="5.5025347"></trkpt>
+      <trkpt lat="53.1807724" lon="5.5026795"></trkpt>
+      <trkpt lat="53.180638" lon="5.5036859"></trkpt>
+      <trkpt lat="53.1809697" lon="5.5036345"></trkpt>
+      <trkpt lat="53.1810005" lon="5.503422"></trkpt>
+      <trkpt lat="53.1809991" lon="5.5032539"></trkpt>
+      <trkpt lat="53.1811166" lon="5.5027449"></trkpt>
     </trkseg>
   </trk>
 </gpx>
