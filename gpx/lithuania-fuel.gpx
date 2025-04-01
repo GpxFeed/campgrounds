@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-03-01T10:21:01Z", "timestamp_areas_base":
-      "2024-12-31T00:49:33Z", "copyright": "The data included in
+      "2025-04-01T10:37:15Z", "timestamp_areas_base":
+      "2025-02-06T02:17:44Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -200,11 +200,13 @@ version="1.1" creator="togpx">
   <wpt lat="54.723219" lon="25.241427">
     <ele>170</ele>
     <name>Stateta</name>
-    <desc>addr:city=Vilnius; addr:contact=yes;
+    <desc>addr:city=Vilnius; addr:contact=yes; addr:country=LT;
     addr:housenumber=246; addr:street=Ukmergės g.; amenity=fuel;
-    name=Stateta; name:lt=Stateta; opening_hours=Mo-Th 06:00-22:30,
-    Fr-Sa 06:00-23:30, Su 06:00-22:30; wheelchair=yes;
+    mobile=+37069966571; name=Stateta; name:lt=Stateta;
+    opening_hours=Mo-Th 06:00-22:30, Fr-Sa 06:00-23:30, Su
+    06:00-22:30; website=https://stateta.lt; wheelchair=yes;
     id=node/1826283215</desc>
+    <link href="https://stateta.lt"></link>
   </wpt>
   <wpt lat="55.2717164" lon="22.2864955">
     <ele>36</ele>
@@ -558,6 +560,12 @@ version="1.1" creator="togpx">
     <ele>73</ele>
     <name>Neste</name>
     <desc>amenity=fuel; name=Neste; id=node/10798833505</desc>
+  </wpt>
+  <wpt lat="55.2779004" lon="23.3426259">
+    <ele>95</ele>
+    <name>Emsi</name>
+    <desc>amenity=fuel; brand=Emsi; fixme=Nėr ortofoto; name=Emsi;
+    id=node/12648172895</desc>
   </wpt>
   <wpt lat="54.927502000000004" lon="23.972213337135187">
     <ele>73</ele>
@@ -966,7 +974,7 @@ version="1.1" creator="togpx">
     brand=Viada; brand:wikidata=Q12663942;
     brand:wikipedia=en:Lukoil Baltija; building=yes;
     compressed_air=yes; name=Viada; opening_hours=24/7;
-    operator=Lukoil; id=way/69413040</desc>
+    id=way/69413040</desc>
   </wpt>
   <wpt lat="54.92722095" lon="23.974786237885155">
     <ele>73</ele>
@@ -1039,8 +1047,8 @@ version="1.1" creator="togpx">
     brand=Lukoil; building=yes; check_date=2024-08-08;
     compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Baltic Petroleum;
-    opening_hours=24/7; operator=Lukoil; self_service=yes;
-    wheelchair=yes; id=way/77685143</desc>
+    opening_hours=24/7; self_service=yes; wheelchair=yes;
+    id=way/77685143</desc>
   </wpt>
   <wpt lat="54.6474889" lon="25.304077177643503">
     <ele>199</ele>
@@ -1049,7 +1057,8 @@ version="1.1" creator="togpx">
     addr:housenumber=128A; addr:street=Liepkalnio g.; amenity=fuel;
     brand=Viada; building=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Viada;
-    website=https://www.viada.lt/; id=way/78329689</desc>
+    opening_hours=24/7; website=https://www.viada.lt/;
+    id=way/78329689</desc>
     <link href="https://www.viada.lt/"></link>
   </wpt>
   <wpt lat="54.6808377" lon="25.207627549999998">
@@ -1582,13 +1591,6 @@ version="1.1" creator="togpx">
     id=way/101510341</desc>
     <link href="https://www.circlek.lt/"></link>
   </wpt>
-  <wpt lat="55.352891150000005" lon="21.46306619988419">
-    <ele>3</ele>
-    <name>Lukoil</name>
-    <desc>addr:city=Šilutė; addr:housenumber=4A;
-    addr:street=Klaipėdos g.; amenity=fuel; building=yes;
-    operator=Lukoil; id=way/101825107</desc>
-  </wpt>
   <wpt lat="54.40777635" lon="24.08521801720891">
     <ele>104</ele>
     <name>Stateta</name>
@@ -1762,11 +1764,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.7515187" lon="25.2664599">
     <ele>158</ele>
-    <name>Takuras</name>
+    <name>Circle K</name>
     <desc>addr:city=Vilnius; addr:housenumber=24;
     addr:postcode=08412; addr:street=Geležinio Vilko g.;
-    amenity=fuel; brand=Takuras; building=yes; compressed_air=yes;
-    name=Takuras; opening_hours=24/7; id=way/125676082</desc>
+    amenity=fuel; building=yes; compressed_air=yes; name=Circle K;
+    id=way/125676082</desc>
   </wpt>
   <wpt lat="54.7041729" lon="25.267083705720346">
     <ele>107</ele>
@@ -1878,9 +1880,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=2;
     addr:postcode=03159; addr:street=Kedrų g.; amenity=fuel;
     brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
-    building=roof; compressed_air=no; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Neste „Rimi“; opening_hours=24/7;
-    operator=Neste; self_service=yes; wheelchair=yes;
+    building=roof; changing_table=no; check_date=2025-03-20;
+    compressed_air=no; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Neste „Rimi“; opening_hours=24/7; operator=Neste;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; self_service=yes; wheelchair=yes;
     id=way/132728727</desc>
   </wpt>
   <wpt lat="54.816978199999994" lon="24.43662795753715">
@@ -2086,8 +2090,7 @@ version="1.1" creator="togpx">
     amenity=fuel; brand=Viada; brand:wikidata=Q12663942;
     brand:wikipedia=en:Lukoil Baltija; building=yes;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=Viada; operator=Lukoil;
-    id=way/148831857</desc>
+    fuel:octane_98=yes; name=Viada; id=way/148831857</desc>
   </wpt>
   <wpt lat="55.81168665" lon="23.55007052468534">
     <ele>124</ele>
@@ -2162,8 +2165,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=63;
     addr:postcode=08104; addr:street=Geležinio Vilko g.;
     amenity=fuel; brand=Neste; brand:wikidata=Q616376;
-    brand:wikipedia=en:Neste; building=roof; fuel:diesel=yes;
-    fuel:octane_95=yes; layer=1; name=Neste „Ozo“;
+    brand:wikipedia=en:Neste; building=roof; compressed_air=no;
+    fuel:diesel=yes; fuel:octane_95=yes; layer=1; name=Neste „Ozo“;
     opening_hours=24/7; operator=Neste; self_service=only;
     wheelchair=yes; id=way/152977601</desc>
   </wpt>
@@ -2458,7 +2461,7 @@ version="1.1" creator="togpx">
     website=https://balticpetroleum.lt/; id=way/173659402</desc>
     <link href="https://balticpetroleum.lt/"></link>
   </wpt>
-  <wpt lat="54.57806495" lon="24.52150865">
+  <wpt lat="54.578086299999995" lon="24.521520400000004">
     <ele>139</ele>
     <name>Borusta</name>
     <desc>addr:city=Aukštadvaris; addr:housenumber=2A;
@@ -2514,7 +2517,7 @@ version="1.1" creator="togpx">
     addr:housenumber=112A; addr:street=Liepkalnio g.; amenity=fuel;
     building=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Emsi;
-    operator=Ervin; id=way/181674855</desc>
+    opening_hours=24/7; operator=Ervin; id=way/181674855</desc>
   </wpt>
   <wpt lat="55.970742" lon="23.587342598148147">
     <ele>88</ele>
@@ -2744,9 +2747,18 @@ version="1.1" creator="togpx">
     <desc>addr:city=Šilutė; addr:housenumber=15;
     addr:postcode=99116; addr:street=Cintjoniškių g.; amenity=fuel;
     brand=Circle K; brand:wikidata=Q3268010;
-    brand:wikipedia=lt:Circle K; building=yes; name=Circle K
-    „Šilutė“; operator=Circle K; website=https://www.circlek.lt/;
-    id=way/198332232</desc>
+    brand:wikipedia=lt:Circle K; building=yes; dog=no;
+    indoor_seating=yes; inline_skates=no; internet_access=wlan;
+    internet_access:fee=no; internet_access:password=no;
+    internet_access:ssid=CKEGUEST; kick_scooter=no; name=Circle K
+    „Šilutė“; opening_hours=24/7; operator=Circle K;
+    payment:american_express=yes; payment:cash=yes;
+    payment:contactless=yes; payment:dkv=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:mastercard_debit=yes;
+    payment:routex=yes; payment:uta=yes; payment:visa=yes;
+    payment:visa_debit=yes; payment:visa_electron=yes;
+    photography=no; smoking=no; toilets=yes;
+    website=https://www.circlek.lt/; id=way/198332232</desc>
     <link href="https://www.circlek.lt/"></link>
   </wpt>
   <wpt lat="54.6819306" lon="25.31400913997006">
@@ -2782,8 +2794,9 @@ version="1.1" creator="togpx">
     <name>Viada</name>
     <desc>addr:city=Kaunas; addr:country=LT; addr:housenumber=90B;
     addr:postcode=47133; addr:street=Baltijos g.; amenity=fuel;
-    building=yes; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; name=Viada; operator=UAB „Viada LT“;
+    building=yes; compressed_air=yes; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; name=Viada;
+    opening_hours=Mo-Su,PH 06:00-22:00; operator=UAB „Viada LT“;
     id=way/200298634</desc>
   </wpt>
   <wpt lat="54.935091" lon="23.96629325">
@@ -3071,12 +3084,14 @@ version="1.1" creator="togpx">
     website=https://balticpetroleum.lt/; id=way/209140377</desc>
     <link href="https://balticpetroleum.lt/"></link>
   </wpt>
-  <wpt lat="55.386692499999995" lon="22.901359049999996">
+  <wpt lat="55.38670465" lon="22.90134355">
     <ele>86</ele>
     <name>Viada</name>
     <desc>addr:city=Vejukai; addr:housenumber=5; addr:nostreet=yes;
     addr:place=Vejukai; amenity=fuel; building=yes;
-    building:levels=1; name=Viada; opening_hours=24/7;
+    building:levels=1; check_date=2025-03-23; name=Viada;
+    opening_hours=24/7; payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; self_service=yes; wheelchair=yes;
     id=way/210262006</desc>
   </wpt>
   <wpt lat="55.57022205" lon="22.176373065376062">
@@ -3176,15 +3191,15 @@ version="1.1" creator="togpx">
     addr:postcode=55195; addr:street=Taurostos g.; amenity=fuel;
     building=yes; id=way/211913599</desc>
   </wpt>
-  <wpt lat="55.49706875" lon="25.630674653146926">
+  <wpt lat="55.4969921" lon="25.63078471946688">
     <ele>120</ele>
     <name>Viada</name>
     <desc>addr:city=Utena; addr:housenumber=8; addr:postcode=28217;
     addr:street=Metalo g.; amenity=fuel; building=yes;
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Viada; opening_hours=Mo-Su
-    00:00-24:00; operator=Lukoil; shop=yes;
-    website=https://www.viada.lt/; id=way/212346305</desc>
+    00:00-24:00; shop=yes; website=https://www.viada.lt/;
+    id=way/212346305</desc>
     <link href="https://www.viada.lt/"></link>
   </wpt>
   <wpt lat="56.25853595" lon="23.621863307853634">
@@ -3837,7 +3852,7 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=Baltic
     Petroleum; shop=yes; id=way/242507666</desc>
   </wpt>
-  <wpt lat="55.52169255" lon="25.086179854199997">
+  <wpt lat="55.522041" lon="25.086364797972983">
     <ele>92</ele>
     <name>Viada</name>
     <desc>addr:city=Anykščiai; addr:housenumber=34;
@@ -3874,14 +3889,14 @@ version="1.1" creator="togpx">
     Masiulio g.; amenity=fuel; brand=Emsi; building=yes; name=Emsi;
     id=way/244466141</desc>
   </wpt>
-  <wpt lat="55.168532400000004" lon="26.014985461860988">
-    <ele>168</ele>
-    <name>Luktarna</name>
+  <wpt lat="55.16850605" lon="26.0151569875">
+    <ele>169</ele>
+    <name>Švenčionėliai</name>
     <desc>addr:city=Švenčionėliai; addr:housenumber=51A;
     addr:street=Žemutinė g.; amenity=fuel; building=yes;
-    name=Luktarna; operator=Lukoil; id=way/244961497</desc>
+    id=way/244961497</desc>
   </wpt>
-  <wpt lat="54.93835695" lon="23.89830389552544">
+  <wpt lat="54.938362749999996" lon="23.89832129552544">
     <ele>71</ele>
     <name>Circle K 1-2-3 „Mega“</name>
     <desc>addr:city=Kaunas; addr:housenumber=32A;
@@ -4126,11 +4141,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Kaunas; addr:housenumber=19;
     addr:postcode=48255; addr:street=Žemaičių pl.; amenity=fuel;
     brand=Circle K; brand:wikidata=Q3268010;
-    brand:wikipedia=lt:Circle K; building=retail; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Circle K „Šilainiai“; opening_hours=24/7; operator=Circle
-    K; shop=yes; website=https://www.circlek.lt/;
-    id=way/262873173</desc>
+    brand:wikipedia=lt:Circle K; building=retail;
+    compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Circle K
+    „Šilainiai“; opening_hours=24/7; operator=Circle K; shop=yes;
+    website=https://www.circlek.lt/; id=way/262873173</desc>
     <link href="https://www.circlek.lt/"></link>
   </wpt>
   <wpt lat="54.5651422" lon="23.36855182741313">
@@ -4397,7 +4412,7 @@ version="1.1" creator="togpx">
     addr:postcode=97264; addr:street=Maloniškių g.; amenity=fuel;
     building=yes; name=Trevena; id=way/287573086</desc>
   </wpt>
-  <wpt lat="56.28385355" lon="21.833055752564565">
+  <wpt lat="56.283870300000004" lon="21.833059710717706">
     <ele>94</ele>
     <name>Kvistija</name>
     <desc>addr:city=Stripiniai; addr:housenumber=7;
@@ -4413,8 +4428,9 @@ version="1.1" creator="togpx">
     <name>Jozita</name>
     <desc>addr:city=Šilutė; addr:contact=yes; addr:housenumber=8;
     addr:postcode=99116; addr:street=Pramonės g.; amenity=fuel;
-    building=yes; fuel:lpg=yes; name=Jozita; operator=Jozita;
-    payment:cash=yes; id=way/288901912</desc>
+    building=yes; fuel:lpg=yes; name=Jozita;
+    opening_hours=08:00-17:00; operator=Jozita; payment:cash=yes;
+    id=way/288901912</desc>
   </wpt>
   <wpt lat="55.3525367" lon="21.491742376266338">
     <ele>9</ele>
@@ -4800,11 +4816,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.8146283" lon="23.87260786644127">
     <ele>72</ele>
-    <name>Lukoil</name>
+    <name>Pagiriai</name>
     <desc>addr:city=Pagiriai; addr:housenumber=1;
     addr:postcode=53283; addr:street=Marijampolės g.; amenity=fuel;
-    brand=Baltic Petroleum; building=yes; operator=Lukoil;
-    id=way/365177422</desc>
+    brand=Baltic Petroleum; building=yes; id=way/365177422</desc>
   </wpt>
   <wpt lat="54.43621005" lon="23.205004549652784">
     <ele>121</ele>
@@ -5856,7 +5871,8 @@ version="1.1" creator="togpx">
     <name>Viada</name>
     <desc>addr:city=Kaunas; addr:housenumber=64;
     addr:postcode=44410; addr:street=K. Baršausko g.; amenity=fuel;
-    building=yes; name=Viada; id=way/515191833</desc>
+    building=yes; compressed_air=yes; name=Viada;
+    opening_hours=24/7; id=way/515191833</desc>
   </wpt>
   <wpt lat="55.63475205" lon="23.7334602">
     <ele>104</ele>
@@ -6171,6 +6187,13 @@ version="1.1" creator="togpx">
     addr:postcode=65333; addr:street=Vilniaus g.; amenity=fuel;
     building=yes; fuel:diesel=yes; fuel:octane_95=yes; name=Baltic
     Petroleum; id=way/577784419</desc>
+  </wpt>
+  <wpt lat="55.3528842" lon="21.46330700787042">
+    <ele>3</ele>
+    <name>Šilutė</name>
+    <desc>addr:city=Šilutė; addr:housenumber=4A;
+    addr:street=Klaipėdos g.; amenity=fuel; building=yes;
+    id=way/579044362</desc>
   </wpt>
   <wpt lat="54.809456049999994" lon="23.85368108386156">
     <ele>71</ele>
@@ -6707,7 +6730,7 @@ version="1.1" creator="togpx">
     id=way/954219970</desc>
     <link href="https://www.orlen.lt"></link>
   </wpt>
-  <wpt lat="55.541349350000004" lon="25.134932876125937">
+  <wpt lat="55.54132645" lon="25.134941234955573">
     <ele>103</ele>
     <name>Viada</name>
     <desc>addr:city=Anykščiai; addr:housenumber=9;
@@ -6934,7 +6957,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Viada; brand:wikidata=Q12663942;
     building=yes; name=Viada; id=way/1123843631</desc>
   </wpt>
-  <wpt lat="55.739843" lon="25.85215837519929">
+  <wpt lat="55.7398454" lon="25.852163750000003">
     <ele>107</ele>
     <name>Baltic Petroleum</name>
     <desc>addr:city=Padustėlis; addr:housenumber=4A;
@@ -7079,6 +7102,17 @@ version="1.1" creator="togpx">
     <name>Velseka</name>
     <desc>amenity=fuel; building=roof; name=Velseka;
     id=way/1334829333</desc>
+  </wpt>
+  <wpt lat="54.63366125" lon="25.3047167">
+    <ele>190</ele>
+    <name>Neste Liepkalnio</name>
+    <desc>addr:city=Vilnius; addr:contact=yes; addr:housenumber=2;
+    addr:postcode=09124; addr:street=Servečės g.; amenity=fuel;
+    brand=Neste; brand:wikidata=Q616376; brand:wikipedia=en:Neste;
+    building=roof; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; layer=1; name=Neste Liepkalnio;
+    opening_hours=24/7; operator=Neste Lietuva; self_service=yes;
+    wheelchair=no; id=way/1365494920</desc>
   </wpt>
   <trk>
     <name>Emsi</name>
@@ -7699,7 +7733,7 @@ version="1.1" creator="togpx">
     <name>Baltic Petroleum</name>
     <trkseg>
       <trkpt lat="54.6608772" lon="25.2335083"></trkpt>
-      <trkpt lat="54.6609256" lon="25.2333137"></trkpt>
+      <trkpt lat="54.6609256" lon="25.2333138"></trkpt>
       <trkpt lat="54.6608679" lon="25.2332709"></trkpt>
       <trkpt lat="54.6608544" lon="25.2333254"></trkpt>
       <trkpt lat="54.6607824" lon="25.2332718"></trkpt>
@@ -8402,20 +8436,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/101825107</name>
-    <trkseg>
-      <trkpt lat="55.3529746" lon="21.4631171"></trkpt>
-      <trkpt lat="55.3529891" lon="21.4629848"></trkpt>
-      <trkpt lat="55.3528327" lon="21.4629319"></trkpt>
-      <trkpt lat="55.3528179" lon="21.4630674"></trkpt>
-      <trkpt lat="55.3528722" lon="21.4630857"></trkpt>
-      <trkpt lat="55.3528628" lon="21.4631712"></trkpt>
-      <trkpt lat="55.3529101" lon="21.4631871"></trkpt>
-      <trkpt lat="55.3529198" lon="21.4630985"></trkpt>
-      <trkpt lat="55.3529746" lon="21.4631171"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Stateta</name>
     <trkseg>
       <trkpt lat="54.4078827" lon="24.0851874"></trkpt>
@@ -8640,7 +8660,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Takuras</name>
+    <name>Circle K</name>
     <trkseg>
       <trkpt lat="54.7515599" lon="25.2664504"></trkpt>
       <trkpt lat="54.7515018" lon="25.2663942"></trkpt>
@@ -9549,11 +9569,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Borusta</name>
     <trkseg>
-      <trkpt lat="54.5780684" lon="24.5214019"></trkpt>
+      <trkpt lat="54.5781" lon="24.5213792"></trkpt>
       <trkpt lat="54.5780187" lon="24.5214374"></trkpt>
       <trkpt lat="54.5780615" lon="24.5216154"></trkpt>
-      <trkpt lat="54.5781112" lon="24.5215799"></trkpt>
-      <trkpt lat="54.5780684" lon="24.5214019"></trkpt>
+      <trkpt lat="54.5780726" lon="24.5216616"></trkpt>
+      <trkpt lat="54.5781539" lon="24.5216034"></trkpt>
+      <trkpt lat="54.5781" lon="24.5213792"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10084,13 +10105,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Circle K „Greitkelis“</name>
     <trkseg>
-      <trkpt lat="54.9350528" lon="23.9661158"></trkpt>
-      <trkpt lat="54.9350511" lon="23.9661794"></trkpt>
-      <trkpt lat="54.9350479" lon="23.9662977"></trkpt>
-      <trkpt lat="54.9350434" lon="23.9664637"></trkpt>
-      <trkpt lat="54.9351292" lon="23.9664707"></trkpt>
-      <trkpt lat="54.9351386" lon="23.9661228"></trkpt>
-      <trkpt lat="54.9350528" lon="23.9661158"></trkpt>
+      <trkpt lat="54.9350529" lon="23.9661157"></trkpt>
+      <trkpt lat="54.9350511" lon="23.9661791"></trkpt>
+      <trkpt lat="54.9350479" lon="23.9662974"></trkpt>
+      <trkpt lat="54.9350433" lon="23.9664636"></trkpt>
+      <trkpt lat="54.9351291" lon="23.9664708"></trkpt>
+      <trkpt lat="54.9351387" lon="23.9661229"></trkpt>
+      <trkpt lat="54.9350529" lon="23.9661157"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10417,12 +10438,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Viada</name>
     <trkseg>
-      <trkpt lat="55.3866457" lon="22.9014055"></trkpt>
-      <trkpt lat="55.3866442" lon="22.9014493"></trkpt>
-      <trkpt lat="55.3867343" lon="22.9014588"></trkpt>
-      <trkpt lat="55.3867408" lon="22.9012688"></trkpt>
-      <trkpt lat="55.3866507" lon="22.9012593"></trkpt>
-      <trkpt lat="55.3866457" lon="22.9014055"></trkpt>
+      <trkpt lat="55.3866453" lon="22.9014125"></trkpt>
+      <trkpt lat="55.3866415" lon="22.901474"></trkpt>
+      <trkpt lat="55.3867503" lon="22.901495"></trkpt>
+      <trkpt lat="55.3867678" lon="22.9012131"></trkpt>
+      <trkpt lat="55.386659" lon="22.9011921"></trkpt>
+      <trkpt lat="55.386654" lon="22.9012719"></trkpt>
+      <trkpt lat="55.3866453" lon="22.9014125"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -10604,19 +10626,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Viada</name>
     <trkseg>
-      <trkpt lat="55.4971005" lon="25.6304889"></trkpt>
-      <trkpt lat="55.4970428" lon="25.6305614"></trkpt>
-      <trkpt lat="55.4970612" lon="25.6306071"></trkpt>
-      <trkpt lat="55.4970349" lon="25.6306401"></trkpt>
-      <trkpt lat="55.4970227" lon="25.6306096"></trkpt>
-      <trkpt lat="55.4969475" lon="25.630704"></trkpt>
-      <trkpt lat="55.4970194" lon="25.6308825"></trkpt>
-      <trkpt lat="55.4970893" lon="25.6307947"></trkpt>
-      <trkpt lat="55.4970763" lon="25.6307625"></trkpt>
-      <trkpt lat="55.4971038" lon="25.630728"></trkpt>
-      <trkpt lat="55.4971227" lon="25.630775"></trkpt>
-      <trkpt lat="55.4971845" lon="25.6306974"></trkpt>
-      <trkpt lat="55.4971005" lon="25.6304889"></trkpt>
+      <trkpt lat="55.4970295" lon="25.6306248"></trkpt>
+      <trkpt lat="55.4969057" lon="25.6307719"></trkpt>
+      <trkpt lat="55.4969663" lon="25.6309309"></trkpt>
+      <trkpt lat="55.4970179" lon="25.6308695"></trkpt>
+      <trkpt lat="55.4970253" lon="25.6308889"></trkpt>
+      <trkpt lat="55.4970975" lon="25.6308031"></trkpt>
+      <trkpt lat="55.4970883" lon="25.6307791"></trkpt>
+      <trkpt lat="55.4970423" lon="25.6306584"></trkpt>
+      <trkpt lat="55.4970295" lon="25.6306248"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11508,18 +11526,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Viada</name>
     <trkseg>
-      <trkpt lat="55.5217522" lon="25.0862734"></trkpt>
-      <trkpt lat="55.5217641" lon="25.0862378"></trkpt>
-      <trkpt lat="55.5217686" lon="25.0861972"></trkpt>
-      <trkpt lat="55.5217652" lon="25.0861562"></trkpt>
-      <trkpt lat="55.5217263" lon="25.0860652"></trkpt>
-      <trkpt lat="55.5217035" lon="25.0860956"></trkpt>
-      <trkpt lat="55.5216785" lon="25.0860374"></trkpt>
-      <trkpt lat="55.5216085" lon="25.0861309"></trkpt>
-      <trkpt lat="55.5216823" lon="25.0863033"></trkpt>
-      <trkpt lat="55.5217028" lon="25.0862759"></trkpt>
-      <trkpt lat="55.5217201" lon="25.0863162"></trkpt>
-      <trkpt lat="55.5217522" lon="25.0862734"></trkpt>
+      <trkpt lat="55.5221333" lon="25.08642"></trkpt>
+      <trkpt lat="55.5220371" lon="25.0861927"></trkpt>
+      <trkpt lat="55.5219487" lon="25.0863095"></trkpt>
+      <trkpt lat="55.5220449" lon="25.0865369"></trkpt>
+      <trkpt lat="55.5221333" lon="25.08642"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -11575,29 +11586,27 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Luktarna</name>
+    <name>way/244961497</name>
     <trkseg>
-      <trkpt lat="55.1684993" lon="26.0150726"></trkpt>
-      <trkpt lat="55.1684765" lon="26.0152143"></trkpt>
-      <trkpt lat="55.168588" lon="26.0152691"></trkpt>
-      <trkpt lat="55.1686121" lon="26.0151189"></trkpt>
-      <trkpt lat="55.1685479" lon="26.0150874"></trkpt>
-      <trkpt lat="55.1685644" lon="26.0149862"></trkpt>
-      <trkpt lat="55.1686007" lon="26.0147633"></trkpt>
-      <trkpt lat="55.1685169" lon="26.0147214"></trkpt>
-      <trkpt lat="55.168482" lon="26.0149354"></trkpt>
-      <trkpt lat="55.1684626" lon="26.0150544"></trkpt>
-      <trkpt lat="55.1684993" lon="26.0150726"></trkpt>
+      <trkpt lat="55.1685766" lon="26.015272"></trkpt>
+      <trkpt lat="55.1686006" lon="26.0151245"></trkpt>
+      <trkpt lat="55.1685586" lon="26.0151035"></trkpt>
+      <trkpt lat="55.1685282" lon="26.0150883"></trkpt>
+      <trkpt lat="55.1684839" lon="26.0150662"></trkpt>
+      <trkpt lat="55.1684809" lon="26.0150843"></trkpt>
+      <trkpt lat="55.1684291" lon="26.0150584"></trkpt>
+      <trkpt lat="55.168408" lon="26.0151877"></trkpt>
+      <trkpt lat="55.1685766" lon="26.015272"></trkpt>
     </trkseg>
   </trk>
   <trk>
     <name>Circle K 1-2-3 „Mega“</name>
     <trkseg>
-      <trkpt lat="54.9384005" lon="23.8981995"></trkpt>
-      <trkpt lat="54.9383314" lon="23.8981828"></trkpt>
-      <trkpt lat="54.9383135" lon="23.8984083"></trkpt>
-      <trkpt lat="54.9383825" lon="23.898425"></trkpt>
-      <trkpt lat="54.9384005" lon="23.8981995"></trkpt>
+      <trkpt lat="54.9384063" lon="23.8982169"></trkpt>
+      <trkpt lat="54.9383372" lon="23.8982002"></trkpt>
+      <trkpt lat="54.9383193" lon="23.8984257"></trkpt>
+      <trkpt lat="54.9383883" lon="23.8984424"></trkpt>
+      <trkpt lat="54.9384063" lon="23.8982169"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -12310,13 +12319,15 @@ version="1.1" creator="togpx">
   <trk>
     <name>Kvistija</name>
     <trkseg>
-      <trkpt lat="56.2839306" lon="21.8331788"></trkpt>
-      <trkpt lat="56.2839446" lon="21.8330155"></trkpt>
-      <trkpt lat="56.2838947" lon="21.8330016"></trkpt>
-      <trkpt lat="56.2838977" lon="21.8329664"></trkpt>
-      <trkpt lat="56.2838124" lon="21.8329427"></trkpt>
-      <trkpt lat="56.2837954" lon="21.8331412"></trkpt>
-      <trkpt lat="56.2839306" lon="21.8331788"></trkpt>
+      <trkpt lat="56.2839291" lon="21.8331764"></trkpt>
+      <trkpt lat="56.283937" lon="21.8330737"></trkpt>
+      <trkpt lat="56.2839479" lon="21.8330764"></trkpt>
+      <trkpt lat="56.2839523" lon="21.8330186"></trkpt>
+      <trkpt lat="56.2839404" lon="21.8330157"></trkpt>
+      <trkpt lat="56.2839435" lon="21.8329758"></trkpt>
+      <trkpt lat="56.2838115" lon="21.832943"></trkpt>
+      <trkpt lat="56.2837961" lon="21.8331434"></trkpt>
+      <trkpt lat="56.2839291" lon="21.8331764"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14723,6 +14734,18 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>way/579044362</name>
+    <trkseg>
+      <trkpt lat="55.3528628" lon="21.4631712"></trkpt>
+      <trkpt lat="55.3528364" lon="21.4631624"></trkpt>
+      <trkpt lat="55.3528096" lon="21.4634106"></trkpt>
+      <trkpt lat="55.3529056" lon="21.4634428"></trkpt>
+      <trkpt lat="55.3529325" lon="21.4631945"></trkpt>
+      <trkpt lat="55.3529101" lon="21.4631871"></trkpt>
+      <trkpt lat="55.3528628" lon="21.4631712"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Emsi</name>
     <trkseg>
       <trkpt lat="54.8094383" lon="23.8537741"></trkpt>
@@ -15427,11 +15450,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Viada</name>
     <trkseg>
-      <trkpt lat="55.5413866" lon="25.1347862"></trkpt>
-      <trkpt lat="55.5412628" lon="25.1349825"></trkpt>
-      <trkpt lat="55.5413121" lon="25.1350796"></trkpt>
-      <trkpt lat="55.5414358" lon="25.1348833"></trkpt>
-      <trkpt lat="55.5413866" lon="25.1347862"></trkpt>
+      <trkpt lat="55.5413637" lon="25.1347946"></trkpt>
+      <trkpt lat="55.5412399" lon="25.1349908"></trkpt>
+      <trkpt lat="55.5412892" lon="25.1350879"></trkpt>
+      <trkpt lat="55.541413" lon="25.1348916"></trkpt>
+      <trkpt lat="55.5413637" lon="25.1347946"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15701,11 +15724,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Baltic Petroleum</name>
     <trkseg>
-      <trkpt lat="55.7398999" lon="25.8520487"></trkpt>
-      <trkpt lat="55.739787" lon="25.8520473"></trkpt>
-      <trkpt lat="55.7397861" lon="25.852268"></trkpt>
-      <trkpt lat="55.739899" lon="25.8522695"></trkpt>
-      <trkpt lat="55.7398999" lon="25.8520487"></trkpt>
+      <trkpt lat="55.7398839" lon="25.8520822"></trkpt>
+      <trkpt lat="55.7398076" lon="25.8520812"></trkpt>
+      <trkpt lat="55.7398069" lon="25.8522453"></trkpt>
+      <trkpt lat="55.7398832" lon="25.8522463"></trkpt>
+      <trkpt lat="55.7398839" lon="25.8520822"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -15874,6 +15897,16 @@ version="1.1" creator="togpx">
       <trkpt lat="55.8273672" lon="24.9857058"></trkpt>
       <trkpt lat="55.8273953" lon="24.9857471"></trkpt>
       <trkpt lat="55.8274477" lon="24.9856339"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Neste Liepkalnio</name>
+    <trkseg>
+      <trkpt lat="54.6335966" lon="25.3048052"></trkpt>
+      <trkpt lat="54.6337429" lon="25.3047367"></trkpt>
+      <trkpt lat="54.6337259" lon="25.3046282"></trkpt>
+      <trkpt lat="54.6335796" lon="25.3046967"></trkpt>
+      <trkpt lat="54.6335966" lon="25.3048052"></trkpt>
     </trkseg>
   </trk>
 </gpx>

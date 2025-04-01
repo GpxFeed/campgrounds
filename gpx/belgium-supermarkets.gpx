@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-03-01T10:09:00Z", "timestamp_areas_base":
-      "2024-12-31T00:49:33Z", "copyright": "The data included in
+      "2025-04-01T10:20:43Z", "timestamp_areas_base":
+      "2025-02-06T02:17:44Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -81,8 +81,8 @@ version="1.1" creator="togpx">
     brand:wikipedia=fr:Delhaize; changing_table=no;
     entrance:kerb:height=0; entrance:ramp=no;
     entrance:step_count=0; entrance:width=3; name=Delhaize;
-    opening_hours=Mo-Sa 08:00-20:00, Fr 08:00-21:00;
-    shop=supermarket; toilets:wheelchair=no;
+    opening_hours=Tu-Sa 08:00-20:00, Mo 12:00-20:00, Su
+    08:00-13:00; shop=supermarket; toilets:wheelchair=no;
     wheelchair:turning_circle=no; id=node/186674806</desc>
   </wpt>
   <wpt lat="50.8219179" lon="4.3251928">
@@ -1035,8 +1035,9 @@ version="1.1" creator="togpx">
     <ele>50</ele>
     <name>Lidl</name>
     <desc>brand=Lidl; brand:wikidata=Q151954;
-    brand:wikipedia=en:Lidl; name=Lidl; operator=Lidl;
-    shop=supermarket; id=node/506113729</desc>
+    brand:wikipedia=en:Lidl; name=Lidl; opening_hours=Mo-Sa
+    00:00-24:00; operator=Lidl; shop=supermarket;
+    id=node/506113729</desc>
   </wpt>
   <wpt lat="50.4785295" lon="3.6922314">
     <ele>27</ele>
@@ -1509,9 +1510,10 @@ version="1.1" creator="togpx">
   <wpt lat="51.2177181" lon="2.88805">
     <ele>6</ele>
     <name>Delhaize</name>
-    <desc>brand=Delhaize; brand:wikidata=Q1184173; name=Delhaize;
-    opening_hours=Mo-Sa 08:00-20:00, Su 08:00-13:00;
-    shop=supermarket; wheelchair=yes; id=node/715112780</desc>
+    <desc>brand=Delhaize; brand:wikidata=Q1184173;
+    check_date=2025-03-01; name=Delhaize; opening_hours=Mo-Sa
+    08:00-20:00, Su,PH 08:00-13:00; shop=supermarket;
+    wheelchair=yes; id=node/715112780</desc>
   </wpt>
   <wpt lat="51.0347693" lon="4.3568668">
     <ele>5</ele>
@@ -1606,6 +1608,18 @@ version="1.1" creator="togpx">
     website=https://www.delhaize.be; wheelchair=limited;
     id=node/760753351</desc>
     <link href="https://www.delhaize.be"></link>
+  </wpt>
+  <wpt lat="50.8607247" lon="4.3779089">
+    <ele>33</ele>
+    <name>ALDI</name>
+    <desc>brand=ALDI; brand:wikidata=Q41171373;
+    brand:wikipedia=en:Aldi;
+    contact:website=https://www.aldi.be/nl/informatie/supermarkten.html/l/schaerbeek/rue-des-coteaux-249/3486517;
+    name=ALDI; opening_hours=Mo-Sa 08:30-19:00; operator=Aldi;
+    shop=supermarket; start_date=2025-03-12;
+    id=node/766890317</desc>
+    <link href="https://www.aldi.be/nl/informatie/supermarkten.html/l/schaerbeek/rue-des-coteaux-249/3486517">
+    </link>
   </wpt>
   <wpt lat="50.8557783" lon="4.3842695">
     <ele>60</ele>
@@ -2210,11 +2224,21 @@ version="1.1" creator="togpx">
     name=Carrefour Market; shop=supermarket;
     id=node/1106442629</desc>
   </wpt>
-  <wpt lat="51.0423785" lon="3.9097591">
-    <ele>4</ele>
-    <name>Eurospar Kalken</name>
-    <desc>name=Eurospar Kalken; shop=supermarket;
+  <wpt lat="51.0421033" lon="3.9102304">
+    <ele>5</ele>
+    <name>Spar</name>
+    <desc>addr:city=Kalken; addr:housenumber=7; addr:postcode=9270;
+    addr:street=Dendermondsesteenweg; branch=Kalken; brand=Spar;
+    brand:wikidata=Q610492; email=info@sparkalken-colruytgroup.be;
+    name=Spar; opening_hours=Mo 13:30-19:00, Tu-Fr 08:30-19:00, Sa
+    08:30-18:00, Su 07:30-12:30; payment:cash=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:mastercard=yes; payment:visa=yes; phone=+32 9 328 85
+    49; shop=supermarket;
+    website=https://www.mijnspar.be/winkels/spar-kalken/;
     id=node/1109167740</desc>
+    <link href="https://www.mijnspar.be/winkels/spar-kalken/">
+    </link>
   </wpt>
   <wpt lat="50.8595429" lon="4.3628088">
     <ele>25</ele>
@@ -3531,14 +3555,13 @@ version="1.1" creator="togpx">
     <desc>cuisine=asian; name=Sun Kwong; shop=supermarket;
     id=node/1638728158</desc>
   </wpt>
-  <wpt lat="51.1003221" lon="3.7631804">
+  <wpt lat="51.100226" lon="3.7632489">
     <ele>6</ele>
-    <name>Carrefour Market Oostakker Oostakkerdorp</name>
+    <name>Carrefour Market</name>
     <desc>addr:housename=Super GB Partner; addr:housenumber=30;
-    addr:postcode=9041; addr:street=Oostakkerdorp; brand=Carrefour
-    Market; brand:wikidata=Q2689639; name=Carrefour Market
-    Oostakker Oostakkerdorp; phone=+32 9 251 05 79;
-    shop=supermarket;
+    addr:postcode=9041; addr:street=Oostakkerdorp; branch=Oostakker
+    Oostakkerdorp; brand=Carrefour Market; brand:wikidata=Q2689639;
+    name=Carrefour Market; phone=+32 9 251 05 79; shop=supermarket;
     website=https://winkels.carrefour.eu/nl/s/carrefour/carrefour-market-oostakker-oostakkerdorp/348;
     id=node/1638778616</desc>
     <link href="https://winkels.carrefour.eu/nl/s/carrefour/carrefour-market-oostakker-oostakkerdorp/348">
@@ -3756,14 +3779,6 @@ version="1.1" creator="togpx">
     brand=Carrefour; brand:wikidata=Q217599;
     brand:wikipedia=fr:Carrefour (enseigne); name=Carrefour;
     shop=supermarket; id=node/1720303662</desc>
-  </wpt>
-  <wpt lat="50.4561619" lon="3.8130676">
-    <ele>21</ele>
-    <name>Carrefour Market</name>
-    <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
-    brand:wikipedia=fr:Carrefour Market; name=Carrefour Market;
-    shop=supermarket; id=node/1720314526; ; building=retail;
-    name=GB Carrefour; id=way/84231021</desc>
   </wpt>
   <wpt lat="50.1608191" lon="5.2182565">
     <ele>170</ele>
@@ -5472,19 +5487,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Spar (retailer); name=Spar; operator=Spar;
     shop=supermarket; id=node/2744772643</desc>
   </wpt>
-  <wpt lat="50.4819138" lon="3.952621">
-    <ele>34</ele>
-    <name>Colruyt</name>
-    <desc>addr:housenumber=287; addr:street=Rue des Viaducs;
-    brand=Colruyt; brand:wikidata=Q2363991;
-    brand:wikipedia=en:Colruyt (supermarket); layer=1;
-    name=Colruyt; opening_hours=Mo-Th,Sa 08:30-20:00, Fr
-    08:30-21:00; phone=+32 65 34 00 54; shop=supermarket;
-    website=https://www.colruyt.be/fr/recherche-de-magasin/colruyt-nimy;
-    id=node/2768163413</desc>
-    <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-nimy">
-    </link>
-  </wpt>
   <wpt lat="51.1189877" lon="3.5712541">
     <ele>8</ele>
     <name>Okay</name>
@@ -5761,8 +5763,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.558849" lon="5.9653768">
     <ele>380</ele>
-    <name>node/3121376143</name>
-    <desc>shop=supermarket; id=node/3121376143</desc>
+    <name>Proxy Delhaize</name>
+    <desc>name=Proxy Delhaize; shop=supermarket;
+    id=node/3121376143</desc>
   </wpt>
   <wpt lat="50.96647" lon="3.9772231">
     <ele>27</ele>
@@ -5984,13 +5987,6 @@ version="1.1" creator="togpx">
     id=node/3430049290</desc>
     <link href="https://www.comarkt.be/nl/onze-winkels/comarkt-gent">
     </link>
-  </wpt>
-  <wpt lat="50.5330043" lon="5.5670031">
-    <ele>94</ele>
-    <name>Épicurieux</name>
-    <desc>contact:phone=+32 4 377 69 15; name=Épicurieux;
-    opening_hours=Tu-Sa 10:00-18:30; organic=only;
-    shop=supermarket; id=node/3442655112</desc>
   </wpt>
   <wpt lat="49.6840149" lon="5.8129219">
     <ele>419</ele>
@@ -6481,9 +6477,8 @@ version="1.1" creator="togpx">
   <wpt lat="51.2497562" lon="3.6122588">
     <ele>2</ele>
     <name>Proxy Delhaize</name>
-    <desc>brand=Proxy Delhaize; brand:wikidata=Q14903417;
-    name=Proxy Delhaize; shop=supermarket;
-    id=node/3936601048</desc>
+    <desc>brand=Delhaize; brand:wikidata=Q1184173; name=Proxy
+    Delhaize; shop=supermarket; id=node/3936601048</desc>
   </wpt>
   <wpt lat="50.9477261" lon="5.3985684">
     <ele>41</ele>
@@ -8011,9 +8006,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.0599578" lon="4.4796166">
     <ele>2</ele>
-    <name>Spar Verhavert</name>
+    <name>Carrefour Express</name>
     <desc>addr:city=Sint-Katelijne-Waver; addr:postcode=2860;
-    addr:street=Liersesteenweg; brand=Spar; name=Spar Verhavert;
+    addr:street=Liersesteenweg; brand=Spar; name=Carrefour Express;
+    opening_hours=Mo-Sa 07:00-19:30, Su 08:00-19:00;
     shop=supermarket; id=node/5040092714</desc>
   </wpt>
   <wpt lat="50.81504" lon="4.3671187">
@@ -8590,16 +8586,6 @@ version="1.1" creator="togpx">
     <desc>opening_hours=Mo-Su 08:30-20:00; shop=supermarket;
     id=node/5508536621</desc>
   </wpt>
-  <wpt lat="50.6083998" lon="3.3873883">
-    <ele>19</ele>
-    <name>BIO Flamingo</name>
-    <desc>addr:city=Tournai; addr:country=BE; addr:housenumber=13;
-    addr:postcode=7500; addr:street=Rue de Courtrai; name=BIO
-    Flamingo; organic=only; phone=+32 69 67 06 62;
-    shop=supermarket; website=https://www.bioflamingo.be/;
-    id=node/5514310796</desc>
-    <link href="https://www.bioflamingo.be/"></link>
-  </wpt>
   <wpt lat="50.4686672" lon="5.6793657">
     <ele>138</ele>
     <name>Lidl</name>
@@ -8717,15 +8703,6 @@ version="1.1" creator="togpx">
     Delhaize; opening_hours=Mo 12:00-19:00, Tu-Sa 8:30-19:00, Su
     8:30-12:00; shop=supermarket; id=node/5582802470</desc>
   </wpt>
-  <wpt lat="50.6092807" lon="3.3869028">
-    <ele>19</ele>
-    <name>D'icidelà épicerie coopérative bio</name>
-    <desc>addr:city=Tournai; addr:country=BE; addr:housenumber=19;
-    addr:postcode=7500; addr:street=Rue du Cygne; name=D'icidelà
-    épicerie coopérative bio; opening_hours=Su,Mo off, Tu-Fr
-    09:30-18:30, Sa 09:30-17:00, PH off; organic=only;
-    shop=supermarket; id=node/5583663256</desc>
-  </wpt>
   <wpt lat="50.9615963" lon="5.6954891">
     <ele>39</ele>
     <name>Het Zonnetje</name>
@@ -8790,18 +8767,6 @@ version="1.1" creator="togpx">
     website=https://www.oxfammagasinsdumonde.be/;
     id=node/5620138558</desc>
     <link href="https://www.oxfammagasinsdumonde.be/"></link>
-  </wpt>
-  <wpt lat="50.8563349" lon="4.3881777">
-    <ele>67</ele>
-    <name>Comarché</name>
-    <desc>contact:phone=+32 2 616 70 17;
-    contact:website=https://www.comarkt.be/fr/nos-magasins/comarkt-schaerbeek;
-    internet_access=wlan; name=Comarché; name:fr=Comarché;
-    name:nl=Comarkt; opening_hours=Mo 12:30-19:30, Tu-Sa
-    08:00-19:30, Su 08:00-12:30; shop=supermarket;
-    id=node/5625511421</desc>
-    <link href="https://www.comarkt.be/fr/nos-magasins/comarkt-schaerbeek">
-    </link>
   </wpt>
   <wpt lat="51.1674031" lon="4.1490455">
     <ele>20</ele>
@@ -9779,6 +9744,12 @@ version="1.1" creator="togpx">
     payment:credit_cards=yes; shop=supermarket;
     id=node/6533707279</desc>
   </wpt>
+  <wpt lat="51.2160919" lon="4.3989722">
+    <ele>13</ele>
+    <name>Proxy Delhaize</name>
+    <desc>brand=Delhaize; brand:wikidata=Q1184173; name=Proxy
+    Delhaize; shop=supermarket; id=node/6533875277</desc>
+  </wpt>
   <wpt lat="50.834199" lon="4.3654175">
     <ele>83</ele>
     <name>färm</name>
@@ -9873,8 +9844,14 @@ version="1.1" creator="togpx">
     <name>Spar</name>
     <desc>addr:city=Koksijde; addr:country=BE; addr:housenumber=4;
     addr:postcode=8670; addr:street=Guido Gezelleplein; brand=Spar;
-    brand:wikidata=Q610492; name=Spar; shop=supermarket;
+    brand:wikidata=Q610492; check_date=2025-03-02;
+    internet_access=wlan; internet_access:fee=no; level=0;
+    name=Spar; opening_hours=Mo-Su 07:30-19:00; phone=+32 58 51 00
+    11; shop=supermarket;
+    website=https://www.mijnspar.be/winkels/spar-koksijde-bad/folder;
     wheelchair=yes; id=node/6581218730</desc>
+    <link href="https://www.mijnspar.be/winkels/spar-koksijde-bad/folder">
+    </link>
   </wpt>
   <wpt lat="50.5669229" lon="3.448909">
     <ele>28</ele>
@@ -10082,14 +10059,6 @@ version="1.1" creator="togpx">
     id=node/6787699240</desc>
     <link href="https://www.ah.be/winkels/hasselt?storeId=3104">
     </link>
-  </wpt>
-  <wpt lat="50.6049749" lon="3.391251">
-    <ele>28</ele>
-    <name>Carrefour Market</name>
-    <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
-    check_date=2023-05-29; name=Carrefour Market;
-    opening_hours=Mo-Su,PH 08:30-20:00; shop=supermarket;
-    id=node/6787718937</desc>
   </wpt>
   <wpt lat="51.0755888" lon="3.1105258">
     <ele>25</ele>
@@ -10475,9 +10444,9 @@ version="1.1" creator="togpx">
     <name>Delhaize</name>
     <desc>addr:city=Gent; addr:housenumber=3; addr:postcode=9000;
     addr:street=Koningin Fabiolalaan; brand=Delhaize;
-    brand:wikidata=Q1184173; name=Delhaize; opening_hours=PH,Su-Th
-    07:30-20:00, Fr 07:30-12:30, Sa 12:30-20:00; operator=Delhaize;
-    shop=supermarket; id=node/7036905703</desc>
+    brand:wikidata=Q1184173; name=Delhaize; opening_hours=Mo-Su,PH
+    07:30-20:00; operator=Delhaize; shop=supermarket;
+    id=node/7036905703</desc>
   </wpt>
   <wpt lat="50.4916939" lon="5.8621778">
     <ele>249</ele>
@@ -10601,16 +10570,6 @@ version="1.1" creator="togpx">
     <desc>name=Louis Delhaize; shop=supermarket;
     id=node/7110339738</desc>
   </wpt>
-  <wpt lat="50.6115053" lon="3.3812304">
-    <ele>18</ele>
-    <name>La Petite Constance</name>
-    <desc>addr:city=Tournai; addr:housenumber=63;
-    addr:postcode=7500; addr:street=Rue de la Madeleine;
-    email=constancevdm@hotmail.com; name=La Petite Constance;
-    opening_hours=Tu-Sa 10:00-18:30, Su 10:00-13:00; organic=only;
-    phone=+32 69 85 90 12; shop=supermarket;
-    id=node/7110365794</desc>
-  </wpt>
   <wpt lat="50.9077343" lon="3.5292485">
     <ele>39</ele>
     <name>Carrefour Market</name>
@@ -10729,7 +10688,8 @@ version="1.1" creator="togpx">
     <name>Colruyt</name>
     <desc>brand=Colruyt; brand:wikidata=Q2363991;
     brand:wikipedia=en:Colruyt (supermarket); name=Colruyt;
-    shop=supermarket; survey:date=2020-02-26;
+    opening_hours=Mo-Sa 08:30-20:00, Fr 08:30-21:00; phone=+32 71
+    61 29 55; shop=supermarket; survey:date=2025-03-06;
     website=https://www.colruyt.be/; wheelchair=yes;
     id=node/7244562485</desc>
     <link href="https://www.colruyt.be/"></link>
@@ -10796,8 +10756,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.2103564" lon="4.3924729">
     <ele>8</ele>
     <name>The Barn Biomarket</name>
-    <desc>name=The Barn Biomarket; shop=supermarket;
-    website=https://thebarn.bio/; id=node/7315488353</desc>
+    <desc>check_date=2025-03-08; name=The Barn Biomarket;
+    shop=supermarket; website=https://thebarn.bio/;
+    id=node/7315488353</desc>
     <link href="https://thebarn.bio/"></link>
   </wpt>
   <wpt lat="51.1997303" lon="4.4336803">
@@ -11070,6 +11031,14 @@ version="1.1" creator="togpx">
     wheelchair:turning_circle=yes; id=node/7656121400</desc>
     <link href="https://www.aldi.be"></link>
   </wpt>
+  <wpt lat="50.8348936" lon="3.2788879">
+    <ele>16</ele>
+    <name>Mega Home Market</name>
+    <desc>addr:city=Kortrijk; addr:housenumber=105A;
+    addr:postcode=8500; addr:street=Gentsesteenweg;
+    entrance:ramp=no; name=Mega Home Market; opening_hours=Tu-Su
+    09:00-18:45; shop=supermarket; id=node/7656387421</desc>
+  </wpt>
   <wpt lat="50.8350621" lon="4.3087423">
     <ele>33</ele>
     <name>Nekorif</name>
@@ -11095,8 +11064,9 @@ version="1.1" creator="togpx">
     <ele>44</ele>
     <name>Carrefour Market</name>
     <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
-    brand:wikipedia=fr:Carrefour Market; name=Carrefour Market;
-    payment:cash=yes; payment:debit_cards=yes; shop=supermarket;
+    brand:wikipedia=fr:Carrefour Market; check_date=2025-03-30;
+    name=Carrefour Market; payment:cash=yes;
+    payment:debit_cards=yes; shop=supermarket;
     id=node/7703435597</desc>
   </wpt>
   <wpt lat="50.6287458" lon="4.4428285">
@@ -11497,8 +11467,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.0289377" lon="3.0443797">
     <ele>14</ele>
     <name>Carrefour Market</name>
-    <desc>check_date=2023-07-02; name=Carrefour Market;
-    shop=supermarket; id=node/8176551078</desc>
+    <desc>addr:postcode=8610; check_date=2023-07-02; name=Carrefour
+    Market; opening_hours=Mo 12:30-19:00, Tu-Sa 08:00-19:00, Su
+    08:00-12:30; shop=supermarket; id=node/8176551078</desc>
   </wpt>
   <wpt lat="51.041421" lon="5.5797471">
     <ele>72</ele>
@@ -11539,11 +11510,13 @@ version="1.1" creator="togpx">
     <ele>46</ele>
     <name>Macavrac</name>
     <desc>addr:city=Wavre; addr:housenumber=51; addr:postcode=1300;
-    addr:street=Rue des Fontaines; check_date=2024-06-04;
-    email=miam@macavrac.be; membership=yes; name=Macavrac;
-    opening_hours=We-Sa 10:30-18:30; operator:type=cooperative;
-    phone=+32 493 45 20 30; shop=supermarket;
-    website=https://macavrac.be/; id=node/8213608013</desc>
+    addr:street=Rue des Fontaines; check_date=2025-03-25;
+    check_date:opening_hours=2025-03-25; email=miam@macavrac.be;
+    membership=yes; name=Macavrac; opening_hours=We-Sa 10:30-18:30,
+    Tu 13:30-18:30, Su 10:00-13:00; operator:type=cooperative;
+    payment:credit_cards=yes; payment:debit_cards=yes; phone=+32
+    493 45 20 30; shop=supermarket; website=https://macavrac.be/;
+    id=node/8213608013</desc>
     <link href="https://macavrac.be/"></link>
   </wpt>
   <wpt lat="51.2065942" lon="2.9039256">
@@ -11853,13 +11826,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.8518302" lon="3.0985334">
     <ele>22</ele>
-    <name>Eurospar</name>
-    <desc>addr:housenumber=16,18,18A,18C;
-    addr:street=Ledegemstraat; brand=Eurospar;
-    brand:wikidata=Q12309283; entrance:kerb:height=0;
-    entrance:step_count=0; entrance:width=0.9; name=Eurospar;
-    opening_hours=Mo-Sa 08:00-19:00, Su 08:00-12:00; phone=+32 56
-    50 06 22; shop=supermarket;
+    <name>Spar Dadizele</name>
+    <desc>addr:city=Moorslede; addr:country=BE;
+    addr:housenumber=18C; addr:postcode=8890;
+    addr:province=West-Vlaanderen; addr:street=Ledegemstraat;
+    addr:suburb=Dadizele; brand=Spar; brand:wikidata=Q12309283;
+    entrance:kerb:height=0; entrance:step_count=0;
+    entrance:width=0.9; name=Spar Dadizele; opening_hours=Mo-Sa
+    08:00-19:00, Su 08:00-12:00; phone=+32 56 50 06 22;
+    shop=supermarket;
     website=https://www.mijnspar.be/spar-dadizele;
     wheelchair:turning_circle=yes; id=node/8500843238</desc>
     <link href="https://www.mijnspar.be/spar-dadizele"></link>
@@ -11893,8 +11868,13 @@ version="1.1" creator="togpx">
   <wpt lat="51.0603306" lon="3.7203599">
     <ele>8</ele>
     <name>Proxy Delhaize</name>
-    <desc>brand=Delhaize; brand:wikidata=Q1184173; name=Proxy
-    Delhaize; shop=supermarket; id=node/8549736180</desc>
+    <desc>addr:housenumber=31a; addr:postcode=9000;
+    addr:street=Sint-Margrietstraat; brand=Delhaize;
+    brand:wikidata=Q1184173; name=Proxy Delhaize;
+    opening_hours=Mo-Su 07:30-20:00; phone=+32 9 295 10 56;
+    shop=supermarket; website=https://stores.delhaize.be/;
+    id=node/8549736180</desc>
+    <link href="https://stores.delhaize.be/"></link>
   </wpt>
   <wpt lat="50.6383867" lon="5.5850536">
     <ele>67</ele>
@@ -11903,13 +11883,6 @@ version="1.1" creator="togpx">
     addr:postcode=4020; addr:street=Rue Louis Jamme; name=Takimy;
     payment:cash=yes; payment:maestro=yes; shop=supermarket;
     id=node/8560791220</desc>
-  </wpt>
-  <wpt lat="50.6061144" lon="3.3856594">
-    <ele>28</ele>
-    <name>AD Delhaize</name>
-    <desc>brand=AD Delhaize; brand:wikidata=Q1184173;
-    brand:wikipedia=fr:Delhaize; name=AD Delhaize;
-    shop=supermarket; id=node/8571112328</desc>
   </wpt>
   <wpt lat="50.685639" lon="4.401969">
     <ele>119</ele>
@@ -12164,10 +12137,10 @@ version="1.1" creator="togpx">
     <ele>7</ele>
     <name>Himalaya Exotic</name>
     <desc>changing_table=no; changing_table:adult=no;
-    check_date:opening_hours=2023-08-21; cuisine=asian;
+    check_date:opening_hours=2025-03-31; cuisine=asian;
     entrance:kerb:height=0.05; entrance:step_count=1;
     entrance:width=0.7; level=0; name=Himalaya Exotic;
-    opening_hours=08:30-20:00, Tu off; ramp:wheelchair=no;
+    opening_hours=08:00-20:00, Tu off; ramp:wheelchair=no;
     shop=supermarket; website=https://www.himalaya-exotic.be/;
     wheelchair=no; wheelchair:turning_circle=no;
     id=node/8946765427</desc>
@@ -12578,7 +12551,7 @@ version="1.1" creator="togpx">
     <ele>332</ele>
     <name>L'épicerie</name>
     <desc>addr:city=Bande; addr:housenumber=53A;
-    addr:postcode=6951; addr:street=Grand Rue; name=L'épicerie;
+    addr:postcode=6951; addr:street=Grand-Rue; name=L'épicerie;
     opening_hours=Tu-Sa 08:00-12:30,14:00-18:30, Su 08:00-12:00;
     shop=supermarket; id=node/9491717090</desc>
   </wpt>
@@ -12649,11 +12622,13 @@ version="1.1" creator="togpx">
     <ele>23</ele>
     <name>ALDI</name>
     <desc>addr:housenumber=64; addr:street=Geelsebaan; brand=ALDI;
-    brand:wikidata=Q41171373; brand:wikipedia=en:Aldi; name=ALDI;
-    opening_hours=Mo-Fr 08:30-19:00, Sa 08:30-19:00; operator=Aldi;
+    brand:wikidata=Q41171373; brand:wikipedia=en:Aldi;
+    check_date=2025-03-18; name=ALDI; opening_hours=Mo-Fr
+    08:30-19:00, Sa 08:30-19:00; operator=Aldi; payment:cash=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
     shop=supermarket;
     website=https://www.aldi.be/nl/informatie/winkels-en-openingsuren/vlaanderen/kasterlee/geelsebaan-64.html;
-    id=node/9571797105</desc>
+    wheelchair=yes; id=node/9571797105</desc>
     <link href="https://www.aldi.be/nl/informatie/winkels-en-openingsuren/vlaanderen/kasterlee/geelsebaan-64.html">
     </link>
   </wpt>
@@ -13111,13 +13086,6 @@ version="1.1" creator="togpx">
     id=node/10055655135</desc>
     <link href="https://www.aldi.be/"></link>
   </wpt>
-  <wpt lat="50.5942595" lon="4.3374589">
-    <ele>119</ele>
-    <name>Intermarché</name>
-    <desc>brand=Intermarché; brand:wikidata=Q2689639;
-    name=Intermarché; operator=Groupe Mestdagh; shop=supermarket;
-    id=node/10055655136</desc>
-  </wpt>
   <wpt lat="50.7955897" lon="5.6193406">
     <ele>91</ele>
     <name>Supermarkt</name>
@@ -13290,17 +13258,6 @@ version="1.1" creator="togpx">
     name=Carrefour Market; opening_hours=Mo-Su 08:00-19:00;
     shop=supermarket; id=node/10234465212</desc>
   </wpt>
-  <wpt lat="51.056543" lon="5.0884772">
-    <ele>39</ele>
-    <name>Colruyt</name>
-    <desc>addr:city=Tessenderlo; addr:housenumber=174;
-    addr:postcode=3980; addr:street=Diesterstraat; brand=Colruyt;
-    brand:wikidata=Q2363991; name=Colruyt; shop=supermarket;
-    website=https://www.colruyt.be/nl/winkelzoeker/colruyt-tessenderlo;
-    id=node/10262083210</desc>
-    <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-tessenderlo">
-    </link>
-  </wpt>
   <wpt lat="51.1825461" lon="3.0175658">
     <ele>4</ele>
     <name>Okay</name>
@@ -13360,15 +13317,6 @@ version="1.1" creator="togpx">
     check_date=2023-01-01; name=Supermarkt Saskinim;
     opening_hours=Mo off, Tu-Su 09:00-20:00; phone=+32 9 251 23 75;
     shop=supermarket; wheelchair=yes; id=node/10298212681</desc>
-  </wpt>
-  <wpt lat="51.1746383" lon="5.5767367">
-    <ele>40</ele>
-    <name>Carrefour Market</name>
-    <desc>addr:city=Bocholt; addr:housenumber=6;
-    addr:postcode=3950; addr:street=Kaulillerweg; branch=Bocholt;
-    brand=Carrefour Market; brand:wikidata=Q2689639; name=Carrefour
-    Market; operator=Carrefour; shop=supermarket;
-    id=node/10302545081</desc>
   </wpt>
   <wpt lat="50.9028028" lon="3.410072">
     <ele>9</ele>
@@ -13598,14 +13546,6 @@ version="1.1" creator="togpx">
     addr:street=Grand'Place; name=Chez pino; payment:cash=yes;
     payment:contactless=yes; payment:credit_cards=yes; phone=+32 68
     28 33 52; shop=supermarket; id=node/10805379993</desc>
-  </wpt>
-  <wpt lat="50.7138224" lon="3.8174662">
-    <ele>33</ele>
-    <name>Colruyt</name>
-    <desc>addr:city=lessines; addr:housenumber=132;
-    addr:postcode=7860; addr:street=Chaussée de Renaix;
-    brand=Colruyt; brand:wikidata=Q2363991; name=Colruyt;
-    shop=supermarket; id=node/10814428901</desc>
   </wpt>
   <wpt lat="50.8570201" lon="4.4336969">
     <ele>65</ele>
@@ -14504,10 +14444,11 @@ version="1.1" creator="togpx">
   <wpt lat="51.1379226" lon="2.738457">
     <ele>2</ele>
     <name>ALDI</name>
-    <desc>addr:city=Nieuwpoort; addr:housenumber=34D;
-    addr:postcode=8620; addr:street=Jozef Cardijnlaan; brand=ALDI;
-    brand:wikidata=Q41171373; name=ALDI; opening_hours=Mo-Sa
-    08:30-19:00; phone=+32 58 23 98 66; shop=supermarket;
+    <desc>addr:city=Nieuwpoort; addr:country=BE;
+    addr:housenumber=34D; addr:postcode=8620; addr:street=Jozef
+    Cardijnlaan; brand=ALDI; brand:wikidata=Q41171373; name=ALDI;
+    opening_hours=Mo-Sa 08:30-19:00; phone=+32 58 23 98 66;
+    shop=supermarket;
     website=https://www.aldi.be/nl/informatie/supermarkten.html/l/nieuwpoort/albert-i-laan-13/3486677;
     id=node/11517689320</desc>
     <link href="https://www.aldi.be/nl/informatie/supermarkten.html/l/nieuwpoort/albert-i-laan-13/3486677">
@@ -14727,9 +14668,10 @@ version="1.1" creator="togpx">
   <wpt lat="50.8934064" lon="3.0464042">
     <ele>26</ele>
     <name>ALDI</name>
-    <desc>addr:housenumber=196; addr:street=Stationstraat;
-    brand=ALDI; brand:wikidata=Q41171373; name=ALDI;
-    opening_hours=Mo-Sa 08:30-19:00; shop=supermarket;
+    <desc>addr:city=Moorslede; addr:housenumber=196;
+    addr:postcode=8890; addr:street=Stationstraat;
+    addr:suburb=Moorslede; brand=ALDI; brand:wikidata=Q41171373;
+    name=ALDI; opening_hours=Mo-Sa 08:30-19:00; shop=supermarket;
     id=node/11881996851</desc>
   </wpt>
   <wpt lat="51.0048891" lon="3.7507026">
@@ -14956,10 +14898,10 @@ version="1.1" creator="togpx">
     <name>Delhaize</name>
     <desc>brand=Delhaize; brand:wikidata=Q1184173;
     brand:wikipedia=fr:Delhaize; building=supermarket;
-    check_date:opening_hours=2023-04-13; name=Delhaize;
-    opening_hours=Mo-Th 08:00-20:00, Fr 08:00-21:00, Sa
-    08:00-20:00; organic=yes; shop=supermarket; toilets=no;
-    wheelchair=yes; id=node/12135414328</desc>
+    check_date:opening_hours=2025-03-01; name=Delhaize;
+    opening_hours=Mo-Fr 08:00-20:00, Su 08:30-14:00; organic=yes;
+    shop=supermarket; toilets=no; wheelchair=yes;
+    id=node/12135414328</desc>
   </wpt>
   <wpt lat="51.0693406" lon="3.7386261">
     <ele>2</ele>
@@ -15597,9 +15539,74 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.0625889" lon="3.7242553">
     <ele>7</ele>
-    <name>Erba Supermarkt</name>
-    <desc>name=Erba Supermarkt; shop=supermarket;
-    id=node/12620721940</desc>
+    <name>Erba</name>
+    <desc>name=Erba; opening_hours=Tu-Su 09:00-19:00;
+    shop=supermarket; id=node/12620721940</desc>
+  </wpt>
+  <wpt lat="50.9315038" lon="4.4247061">
+    <ele>16</ele>
+    <name>Aldi</name>
+    <desc>name=Aldi; shop=supermarket; id=node/12638832423</desc>
+  </wpt>
+  <wpt lat="50.6005862" lon="4.135226">
+    <ele>95</ele>
+    <name>Colruyt</name>
+    <desc>addr:housenumber=17; addr:street=Chemin du Pont;
+    brand=Colruyt; brand:wikidata=Q2363991; building=retail;
+    name=Colruyt; opening_hours=Mo-Th,Sa 08:30-20:00, Fr
+    08:30-21:00; operator=Colruyt Group; phone=+32 14 61 49 89;
+    shop=supermarket;
+    website=https://www.colruyt.be/fr/recherche-de-magasin/colruyt-braine-le-comte;
+    wikipedia=nl:Colruyt; id=node/12642837875</desc>
+    <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-braine-le-comte">
+    </link>
+  </wpt>
+  <wpt lat="50.8852061" lon="4.3169256">
+    <ele>48</ele>
+    <name>Lidl</name>
+    <desc>brand=Lidl; brand:wikidata=Q151954;
+    brand:wikipedia=en:Lidl; name=Lidl; shop=supermarket;
+    id=node/12662548975</desc>
+  </wpt>
+  <wpt lat="51.2417677" lon="4.9656026">
+    <ele>22</ele>
+    <name>Mini Supermarket</name>
+    <desc>name=Mini Supermarket; shop=supermarket;
+    id=node/12673997771</desc>
+  </wpt>
+  <wpt lat="50.2599761" lon="4.9131942">
+    <ele>96</ele>
+    <name>Carrefour Express Dinant</name>
+    <desc>addr:housenumber=137; addr:street=Rue Grande;
+    check_date=2025-03-22; name=Carrefour Express Dinant;
+    opening_hours=07:30-19:30; shop=supermarket;
+    website=https://magasins.carrefour.be/fr/s/carrefour/carrefour-express-dinant/1683;
+    id=node/12691403124</desc>
+    <link href="https://magasins.carrefour.be/fr/s/carrefour/carrefour-express-dinant/1683">
+    </link>
+  </wpt>
+  <wpt lat="50.3954225" lon="4.4557229">
+    <ele>108</ele>
+    <name>Carolo Store</name>
+    <desc>addr:housenumber=284; addr:postcode=6001;
+    addr:street=Avenue de Philippeville; name=Carolo Store;
+    opening_hours=Tu-Fr 10:00-19:00, Sa 09:00-18:00;
+    shop=supermarket; website=https://www.carolostore.be/;
+    id=node/12694822701</desc>
+    <link href="https://www.carolostore.be/"></link>
+  </wpt>
+  <wpt lat="51.1372408" lon="2.7394849">
+    <ele>0</ele>
+    <name>Colruyt</name>
+    <desc>addr:city=Nieuwpoort; addr:country=BE;
+    addr:housenumber=33A; addr:postcode=8620; addr:street=Jozef
+    Cardijnlaan; brand=Colruyt; brand:wikidata=Q2363991;
+    name=Colruyt; opening_hours=Mo-Th,Sa 08:30-20:00, Fr
+    08:30-21:00; phone=+32 58 23 39 51; shop=supermarket;
+    website=https://www.colruyt.be/nl/winkelzoeker/colruyt-nieuwpoort;
+    id=node/12712708472</desc>
+    <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-nieuwpoort">
+    </link>
   </wpt>
   <wpt lat="50.6376325" lon="3.3787274224754698">
     <ele>20</ele>
@@ -15921,11 +15928,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Haine-Saint-Pierre; addr:housenumber=21;
     addr:postcode=7100; addr:street=Chaussée de Redemont;
     brand=Carrefour Market; brand:wikidata=Q2689639;
-    building=retail; name=Carrefour Market; opening_hours=Mo-Sa
-    08:30-20:00; operator=Groupe Carrefour;
+    building=retail; building:colour=grey; name=Carrefour Market;
+    opening_hours=Mo-Sa 08:30-20:00; operator=Groupe Carrefour;
     operator:wikidata=Q3117359; operator:wikipedia=fr:Groupe
     Carrefour; shop=supermarket; source:geometry:date=2016-06-15;
-    source:geometry:ref=Picc/220644; id=way/31144036</desc>
+    source:geometry:ref=Picc/220644; wheelchair=yes;
+    id=way/31144036</desc>
   </wpt>
   <wpt lat="50.475673400000005" lon="4.181765337879478">
     <ele>119</ele>
@@ -15954,7 +15962,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Colruyt (supermarket); building=yes;
     name=Colruyt; shop=supermarket; id=way/31152055</desc>
   </wpt>
-  <wpt lat="50.82881115" lon="4.387861194615967">
+  <wpt lat="50.8288042" lon="4.387867912828948">
     <ele>77</ele>
     <name>Delhaize</name>
     <desc>addr:housenumber=54; addr:street=Rue Nothomb -
@@ -16059,16 +16067,6 @@ version="1.1" creator="togpx">
     id=way/32530474</desc>
     <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-wavre">
     </link>
-  </wpt>
-  <wpt lat="50.477284600000004" lon="4.185184259005758">
-    <ele>128</ele>
-    <name>AD Delhaize</name>
-    <desc>addr:city=La Louvière; addr:housenumber=28;
-    addr:postcode=7100; addr:street=Rue Kéramis; brand=AD Delhaize;
-    brand:wikidata=Q1184173; brand:wikipedia=fr:Delhaize;
-    building=retail; name=AD Delhaize; opening_hours=Mo-Sa
-    08:00-19:00; shop=supermarket; source:geometry:date=2016-06-15;
-    source:geometry:ref=Picc/16969; id=way/33120362</desc>
   </wpt>
   <wpt lat="50.6420803" lon="5.534770120546154">
     <ele>171</ele>
@@ -16235,7 +16233,7 @@ version="1.1" creator="togpx">
     source:geometry:ref=Gbg/5914073; toilets:wheelchair=yes;
     wheelchair=yes; id=way/39237706</desc>
   </wpt>
-  <wpt lat="50.4549149" lon="3.9840821904240373">
+  <wpt lat="50.454854600000004" lon="3.984108448962637">
     <ele>49</ele>
     <name>Delhaize</name>
     <desc>addr:housenumber=292; addr:street=Chaussée du Rœulx;
@@ -16589,7 +16587,8 @@ version="1.1" creator="togpx">
     addr:postcode=3620; addr:street=Maaseikersteenweg;
     brand=Carrefour Market; brand:wikidata=Q2689639;
     brand:wikipedia=fr:Carrefour (enseigne); building=industrial;
-    name=Carrefour Market; operator=Carrefour; shop=supermarket;
+    name=Carrefour Market; opening_hours=Tu-Su 08:30-19:00, Mo
+    13:00-19:00; operator=Carrefour; shop=supermarket;
     id=way/46937688</desc>
   </wpt>
   <wpt lat="50.908011450000004" lon="4.366141628102187">
@@ -17135,6 +17134,16 @@ version="1.1" creator="togpx">
     source:geometry:date=2020-02-25;
     source:geometry:ref=Gbg/7204558; id=way/84220085</desc>
   </wpt>
+  <wpt lat="50.45613865" lon="3.8129966450354607">
+    <ele>21</ele>
+    <name>Carrefour Market</name>
+    <desc>addr:city=Saint-Ghislain; addr:housenumber=89;
+    addr:postcode=7330; addr:street=Rue de Sas; brand=Carrefour
+    Market; brand:wikidata=Q2689639; brand:wikipedia=fr:Carrefour
+    Market; building=retail; name=Carrefour Market;
+    shop=supermarket; source:geometry:date=2016-07-19;
+    source:geometry:ref=Picc/2165317; id=way/84231021</desc>
+  </wpt>
   <wpt lat="51.03287935" lon="4.501484363359527">
     <ele>5</ele>
     <name>Lidl</name>
@@ -17189,7 +17198,7 @@ version="1.1" creator="togpx">
     <desc>building=yes; name=Trafic; name:fa=ترافیک;
     shop=supermarket; id=way/87344522</desc>
   </wpt>
-  <wpt lat="51.086809349999996" lon="3.708774597063086">
+  <wpt lat="51.08676345" lon="3.7087627801145038">
     <ele>8</ele>
     <name>Colruyt</name>
     <desc>addr:city=Wondelgem; addr:housenumber=23;
@@ -17198,6 +17207,8 @@ version="1.1" creator="togpx">
     name=Colruyt; opening_hours=Mo-Th,Sa 08:30-20:00, Fr
     08:30-21:00, Su,PH off; operator=Etablissementen Franz Colruyt
     NV; phone=+32 9 258 19 40; shop=supermarket;
+    source:geometry:date=2022-03-07;
+    source:geometry:ref=Gbg/7116517;
     website=https://www.colruyt.be/nl/winkelzoeker/colruyt-wondelgem;
     wheelchair=yes; id=way/87429745</desc>
     <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-wondelgem">
@@ -17206,9 +17217,10 @@ version="1.1" creator="togpx">
   <wpt lat="51.06779395" lon="3.708558608981216">
     <ele>6</ele>
     <name>Proxy Delhaize Rijhove</name>
-    <desc>addr:housenumber=10; addr:street=Frans van Ryhovelaan;
-    building=yes; name=Proxy Delhaize Rijhove; opening_hours=Mo-Fr
-    08:00-19:30, Sa 08:00-19:00; shop=supermarket;
+    <desc>addr:housenumber=10; addr:postcode=9000;
+    addr:street=Frans van Ryhovelaan; building=yes; name=Proxy
+    Delhaize Rijhove; opening_hours=Mo-Fr 08:00-19:30, Sa
+    08:00-19:00, Su 08:00-13:00; shop=supermarket;
     source:geometry:date=2018-01-04;
     source:geometry:ref=Gbg/6181018; id=way/87429754</desc>
   </wpt>
@@ -17764,11 +17776,13 @@ version="1.1" creator="togpx">
     <link href="https://www.lidl.be/s/nl-BE/openingsuren/tielt/bedevaartstraat-103/">
     </link>
   </wpt>
-  <wpt lat="51.0847835" lon="3.7179446794137014">
+  <wpt lat="51.084782849999996" lon="3.717944392205575">
     <ele>7</ele>
     <name>Akel</name>
-    <desc>building=yes; name=Akel; shop=supermarket;
-    id=way/94534269</desc>
+    <desc>addr:housenumber=330; addr:street=Morekstraat;
+    building=commercial; name=Akel; shop=supermarket;
+    source:geometry:date=2018-01-04;
+    source:geometry:ref=Gbg/5015918; id=way/94534269</desc>
   </wpt>
   <wpt lat="51.17244315000001" lon="4.385990759207511">
     <ele>13</ele>
@@ -18345,11 +18359,14 @@ version="1.1" creator="togpx">
     <ele>41</ele>
     <name>Proxy Delhaize</name>
     <desc>addr:city=Bekkevoort; addr:housenumber=228;
-    addr:postcode=3460; addr:street=Staatsbaan; brand=Proxy
-    Delhaize; brand:wikidata=Q14903417; brand:wikipedia=en:Delhaize
-    Group; building=yes; name=Proxy Delhaize; shop=supermarket;
-    website=https://www.delhaize.be/; id=way/102774482</desc>
-    <link href="https://www.delhaize.be/"></link>
+    addr:postcode=3460; addr:street=Staatsbaan; brand=Delhaize;
+    brand:wikidata=Q1184173; brand:wikipedia=en:Delhaize Group;
+    building=yes; name=Proxy Delhaize; phone=+32 16 63 55 03;
+    shop=supermarket;
+    website=https://stores.delhaize.be/nl/proxy-delhaize-bekkevoort;
+    id=way/102774482</desc>
+    <link href="https://stores.delhaize.be/nl/proxy-delhaize-bekkevoort">
+    </link>
   </wpt>
   <wpt lat="51.21975155" lon="4.373391812084174">
     <ele>2</ele>
@@ -18423,8 +18440,8 @@ version="1.1" creator="togpx">
     <name>Delhaize</name>
     <desc>addr:housenumber=15; addr:street=Jubileumlaan;
     branch=Watersportbaan; brand=Delhaize; brand:wikidata=Q1184173;
-    building=yes; name=Delhaize; opening_hours=Mo-Sa 08:00-20:00;
-    shop=supermarket;
+    building=retail; name=Delhaize; opening_hours=Mo-Sa
+    08:00-20:00; shop=supermarket;
     website=https://www.delhaize.be/nl-be/storedetails/delhaize-watersport;
     id=way/104385257</desc>
     <link href="https://www.delhaize.be/nl-be/storedetails/delhaize-watersport">
@@ -18969,7 +18986,7 @@ version="1.1" creator="togpx">
     <link href="https://www.aldi.be/nl/informatie/supermarkten.html/l/tienen/leuvenselaan-497/3486539">
     </link>
   </wpt>
-  <wpt lat="50.0019664" lon="5.697651187118056">
+  <wpt lat="50.0019664" lon="5.697652685154547">
     <ele>511</ele>
     <name>Carrefour Market</name>
     <desc>brand=Carrefour Market; brand:wikidata=Q2689639;
@@ -19094,7 +19111,9 @@ version="1.1" creator="togpx">
     <name>Carrefour</name>
     <desc>addr:housenumber=25; addr:street=Poederleese weg;
     branch=Lille; brand=Carrefour; brand:wikidata=Q217599;
-    building=yes; name=Carrefour; shop=supermarket;
+    building=yes; check_date=2025-03-18; name=Carrefour;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; shop=supermarket; wheelchair=yes;
     id=way/113684789</desc>
   </wpt>
   <wpt lat="51.1539356" lon="4.685039823568553">
@@ -20252,6 +20271,14 @@ version="1.1" creator="togpx">
     <link href="https://www.okay.be/nl/onze-winkels/okay-rotselaar">
     </link>
   </wpt>
+  <wpt lat="51.16924645" lon="5.168881991452577">
+    <ele>37</ele>
+    <name>Carrefour</name>
+    <desc>addr:city=Balen; addr:housenumber=16; addr:postcode=2490;
+    addr:street=Steegstraat; branch=Balen Centrum; brand=Carrefour;
+    brand:wikidata=Q217599; building=yes; name=Carrefour;
+    operator=Carrefour; shop=supermarket; id=way/138701860</desc>
+  </wpt>
   <wpt lat="50.836477200000004" lon="4.368717154277132">
     <ele>78</ele>
     <name>Lidl</name>
@@ -20284,10 +20311,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.148309100000006" lon="4.578110544201177">
     <ele>7</ele>
-    <name>ALDI</name>
+    <name>Aldi</name>
     <desc>addr:housenumber=398; addr:street=Lispersteenweg;
-    brand=ALDI; brand:wikidata=Q41171373; brand:wikipedia=en:Aldi;
-    building=retail; name=ALDI; opening_hours=Mo-Sa 08:30-19:00;
+    brand=Aldi; brand:wikidata=Q41171373; brand:wikipedia=en:Aldi;
+    building=retail; name=Aldi; opening_hours=Mo-Sa 08:30-19:00;
     shop=supermarket; id=way/139101158</desc>
   </wpt>
   <wpt lat="50.969611900000004" lon="3.1186588563432833">
@@ -21182,15 +21209,6 @@ version="1.1" creator="togpx">
     <link href="https://www.monspar.be/magasins/spar-mont-saint-guibert">
     </link>
   </wpt>
-  <wpt lat="50.470504250000005" lon="4.819495100000001">
-    <ele>139</ele>
-    <name>Lidl</name>
-    <desc>addr:city=Belgrade; addr:housenumber=9;
-    addr:postcode=5001; addr:street=Rue Joseph Durieux; brand=Lidl;
-    brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
-    name=Lidl; name:fa=لیدل; shop=supermarket;
-    id=way/154721507</desc>
-  </wpt>
   <wpt lat="50.472957449999996" lon="4.820833122728671">
     <ele>145</ele>
     <name>AD Delhaize</name>
@@ -21315,7 +21333,7 @@ version="1.1" creator="togpx">
     <desc>building=yes; shop=supermarket; wheelchair=yes;
     id=way/158026122</desc>
   </wpt>
-  <wpt lat="51.3817512" lon="4.473516345331895">
+  <wpt lat="51.3817512" lon="4.473443046992482">
     <ele>20</ele>
     <name>Colruyt</name>
     <desc>addr:housename=Colruyt; addr:housenumber=186;
@@ -21764,8 +21782,7 @@ version="1.1" creator="togpx">
   <wpt lat="50.58871375" lon="5.462664305503399">
     <ele>68</ele>
     <name>Spar</name>
-    <desc>addr:city=Seraing; addr:housenumber=4;
-    addr:postcode=4100; addr:street=Place François Gérard;
+    <desc>addr:housenumber=4; addr:street=Place François Gérard;
     brand=Spar; brand:wikidata=Q610492; building=yes; name=Spar;
     opening_hours=Mo 12:00-19:30, Tu-Sa 08:00-19:30, Su
     08:00-13:00; phone=+32 4 338 10 69; shop=supermarket;
@@ -22066,7 +22083,7 @@ version="1.1" creator="togpx">
     building=retail; name=Lidl; operator=Lidl Stiftung &amp; Co;
     shop=supermarket; source=bing; id=way/176385165</desc>
   </wpt>
-  <wpt lat="51.0347008" lon="2.8405658235446145">
+  <wpt lat="51.034689150000005" lon="2.8405597608609927">
     <ele>0</ele>
     <name>Delhaize</name>
     <desc>addr:city=Diksmuide; addr:housenumber=82;
@@ -22444,7 +22461,7 @@ version="1.1" creator="togpx">
     disused:shop=leather; name=Shop &amp; Go Pont d'Avroy;
     operator=Delhaize; shop=supermarket; id=way/189887645</desc>
   </wpt>
-  <wpt lat="50.6263511" lon="3.370021708176564">
+  <wpt lat="50.6263204" lon="3.3700476631628096">
     <ele>19</ele>
     <name>Carrefour</name>
     <desc>brand=Carrefour; brand:wikidata=Q217599;
@@ -23066,6 +23083,16 @@ version="1.1" creator="togpx">
     opening_hours=PH,Mo-Su 08:30-18:30; phone=+32 80 54 84 33;
     shop=supermarket; id=way/212761113</desc>
   </wpt>
+  <wpt lat="50.594159149999996" lon="4.337553516377263">
+    <ele>121</ele>
+    <name>Intermarché</name>
+    <desc>addr:city=Nivelles; addr:housenumber=8;
+    addr:postcode=1400; addr:street=Rue Tienne à Deux Vallées;
+    brand=Intermarché; brand:wikidata=Q2689639; building=retail;
+    name=Intermarché; operator=Groupe Mestdagh; shop=supermarket;
+    source:geometry:date=2019-02-04;
+    source:geometry:ref=Picc/2163534; id=way/213905824</desc>
+  </wpt>
   <wpt lat="51.175760749999995" lon="4.349222533210509">
     <ele>12</ele>
     <name>Carrefour</name>
@@ -23671,6 +23698,7 @@ version="1.1" creator="togpx">
     addr:postcode=8434; addr:street=Distellaan;
     addr:suburb=Westende; brand=AD Delhaize;
     brand:wikidata=Q1184173; building=yes; name=AD Delhaize;
+    opening_hours=Mo-Sa 08:30-18:30, Su 08:00-13:00;
     shop=supermarket; wheelchair=yes; id=way/228281024</desc>
   </wpt>
   <wpt lat="50.943997949999996" lon="5.143073599833524">
@@ -24789,16 +24817,6 @@ version="1.1" creator="togpx">
     <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-avelgem">
     </link>
   </wpt>
-  <wpt lat="51.1202123" lon="2.6347629367768275">
-    <ele>13</ele>
-    <name>Spar</name>
-    <desc>addr:city=Koksijde; addr:country=BE; addr:housenumber=2;
-    addr:postcode=8670; addr:street=Guido Gezelleplein; brand=Spar;
-    brand:wikidata=Q610492; building=yes; name=Spar;
-    shop=supermarket; source:geometry:date=2017-01-05;
-    source:geometry:ref=Gbg/5441517; wheelchair=yes;
-    id=way/263541946</desc>
-  </wpt>
   <wpt lat="50.6321287" lon="4.794164949064445">
     <ele>149</ele>
     <name>AD Delhaize</name>
@@ -24814,6 +24832,15 @@ version="1.1" creator="togpx">
     <desc>addr:housenumber=152; addr:street=Chaussée de Wavre;
     building=yes; check_date=2024-11-22; name=Mr Bricolage;
     shop=supermarket; id=way/263774944</desc>
+  </wpt>
+  <wpt lat="51.1746178" lon="5.576573993968871">
+    <ele>40</ele>
+    <name>Carrefour Market</name>
+    <desc>addr:city=Bocholt; addr:housenumber=6;
+    addr:postcode=3950; addr:street=Kaulillerweg; branch=Bocholt;
+    brand=Carrefour Market; brand:wikidata=Q2689639;
+    building=supermarket; name=Carrefour Market;
+    operator=Carrefour; shop=supermarket; id=way/264209617</desc>
   </wpt>
   <wpt lat="51.0928793" lon="3.2057654571443632">
     <ele>11</ele>
@@ -24982,6 +25009,24 @@ version="1.1" creator="togpx">
     website=https://www.colruyt.be/fr/recherche-de-magasin/colruyt-marchienne-au-pont;
     id=way/271241211</desc>
     <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-marchienne-au-pont">
+    </link>
+  </wpt>
+  <wpt lat="50.481806199999994" lon="3.9524964580389836">
+    <ele>34</ele>
+    <name>Colruyt</name>
+    <desc>addr:city=Nimy; addr:housenumber=287; addr:postcode=7020;
+    addr:street=Rue des Viaducs; brand=Colruyt;
+    brand:wikidata=Q2363991; brand:wikipedia=en:Colruyt
+    (supermarket); building=commercial; imported=yes;
+    internet_access=wlan; internet_access:fee=no;
+    internet_access:ssid=Colruyt Group Wifi; layer=1; name=Colruyt;
+    opening_hours=Mo-Th,Sa 08:30-20:00, Fr 08:30-21:00; phone=+32
+    65 34 00 54; shop=supermarket; smoking=no;
+    source:geometry:date=2017-08-02;
+    source:geometry:ref=Picc/650300;
+    website=https://www.colruyt.be/fr/recherche-de-magasin/colruyt-nimy;
+    id=way/271881687</desc>
+    <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-nimy">
     </link>
   </wpt>
   <wpt lat="51.3026817" lon="3.142650643602785">
@@ -25171,10 +25216,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.1756653" lon="3.8626624626094737">
     <ele>4</ele>
-    <name>ALDI</name>
+    <name>Aldi</name>
     <desc>addr:housenumber=94C-94D; addr:street=Stationsstraat;
-    brand=ALDI; brand:wikidata=Q41171373; building=supermarket;
-    name=ALDI; opening_hours=Mo-Sa 08:30-19:00; shop=supermarket;
+    brand=Aldi; brand:wikidata=Q41171373; building=supermarket;
+    name=Aldi; opening_hours=Mo-Sa 08:30-19:00; shop=supermarket;
     source:geometry:date=2017-03-28;
     source:geometry:ref=Gbg/5891717; id=way/282723786</desc>
   </wpt>
@@ -25548,7 +25593,9 @@ version="1.1" creator="togpx">
   <wpt lat="50.8928291" lon="3.0613864912420388">
     <ele>44</ele>
     <name>Carrefour Market</name>
-    <desc>addr:housenumber=23; addr:street=Roeselaarsestraat;
+    <desc>addr:city=Moorslede; addr:country=BE;
+    addr:housenumber=23; addr:postcode=8890;
+    addr:street=Roeselaarsestraat; addr:suburb=Moorslede;
     brand=Carrefour Market; brand:wikidata=Q2689639;
     building=retail; building:levels=1; height=5; name=Carrefour
     Market; opening_hours=Tu-Sa 08:00-19:00, Mo 12:00-19:00, Su
@@ -25708,9 +25755,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Antwerp; addr:housenumber=36-38;
     addr:postcode=2000; addr:street=Museumstraat; brand=Delhaize;
     brand:wikidata=Q1184173; brand:wikipedia=fr:Delhaize;
-    building=yes; name=Delhaize; opening_hours=Mo-Th 08:00-20:00,
-    Fr 08:00-21:00, Sa 08:00-20:00; shop=supermarket;
-    website=https://www.delhaize.be/; id=way/317112016</desc>
+    building=yes; name=Delhaize; opening_hours=Mo-Su 08:00-20:00;
+    shop=supermarket; website=https://www.delhaize.be/;
+    id=way/317112016</desc>
     <link href="https://www.delhaize.be/"></link>
   </wpt>
   <wpt lat="50.4148258" lon="6.0969885657478855">
@@ -25844,6 +25891,15 @@ version="1.1" creator="togpx">
     building=house; name=De Vlasblomme; organic=only;
     shop=supermarket; id=way/319923790</desc>
   </wpt>
+  <wpt lat="50.428642350000004" lon="3.7388484141344813">
+    <ele>26</ele>
+    <name>Louis Delhaize</name>
+    <desc>addr:city=Thulin; addr:housenumber=21;
+    addr:postcode=7350; addr:street=Rue Ferrer; building=house;
+    name=Louis Delhaize; shop=supermarket;
+    source:geometry:date=2016-08-04;
+    source:geometry:ref=Picc/1719390; id=way/320592151</desc>
+  </wpt>
   <wpt lat="50.92046675" lon="3.3223244730565353">
     <ele>12</ele>
     <name>Colruyt</name>
@@ -25976,7 +26032,9 @@ version="1.1" creator="togpx">
     <name>Lidl</name>
     <desc>addr:housenumber=91; addr:street=Poederleese weg;
     brand=Lidl; brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
-    building=retail; name=Lidl; shop=supermarket; wheelchair=yes;
+    building=retail; check_date=2025-03-18; name=Lidl;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; shop=supermarket; wheelchair=yes;
     id=way/330910759</desc>
   </wpt>
   <wpt lat="50.94302735" lon="5.153115933729678">
@@ -26140,6 +26198,20 @@ version="1.1" creator="togpx">
     <link href="https://www.okay.be/nl/onze-winkels/okay-zandhoven">
     </link>
   </wpt>
+  <wpt lat="51.153592200000006" lon="4.581208128500574">
+    <ele>8</ele>
+    <name>Albert Heijn</name>
+    <desc>addr:city=Ranst; addr:housenumber=104;
+    addr:postcode=2520; addr:street=Liersesteenweg; brand=Albert
+    Heijn; brand:wikidata=Q1653985; brand:wikipedia=nl:Albert Heijn
+    (supermarkt); building=retail; fixme=Hertekenen wanneer nieuwe
+    luchtbeelden beschikbaar zijn.; name=Albert Heijn;
+    name:nl=Albert Heijn; opening_hours=Mo 12:00-20:00, Tu-Sa
+    08:00-20:00, Su 09:00-12:00; phone=+32 3 456 12 15;
+    shop=supermarket; website=https://www.ah.be/winkel/3174;
+    id=way/337417780</desc>
+    <link href="https://www.ah.be/winkel/3174"></link>
+  </wpt>
   <wpt lat="51.15215499999999" lon="4.579698039487515">
     <ele>7</ele>
     <name>Lidl</name>
@@ -26213,9 +26285,9 @@ version="1.1" creator="togpx">
     <ele>23</ele>
     <name>Proxy Delhaize</name>
     <desc>addr:city=Beerzel; addr:housenumber=37;
-    addr:postcode=2580; addr:street=Koningsbaan; brand=Proxy
-    Delhaize; brand:wikidata=Q14903417; building=house; mobile=+32
-    475 27 75 75; name=Proxy Delhaize; shop=supermarket;
+    addr:postcode=2580; addr:street=Koningsbaan; brand=Delhaize;
+    brand:wikidata=Q1184173; building=house; mobile=+32 475 27 75
+    75; name=Proxy Delhaize; shop=supermarket;
     website=https://stores.delhaize.be/nl/proxy-delhaize-koningsbaan;
     id=way/340493932</desc>
     <link href="https://stores.delhaize.be/nl/proxy-delhaize-koningsbaan">
@@ -26977,7 +27049,9 @@ version="1.1" creator="togpx">
     <name>ALDI</name>
     <desc>addr:housenumber=50; addr:street=Poederleese weg;
     brand=ALDI; brand:wikidata=Q41171373; brand:wikipedia=en:Aldi;
-    building=house; name=ALDI; shop=supermarket; wheelchair=yes;
+    building=house; check_date=2025-03-18; name=ALDI;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; shop=supermarket; wheelchair=yes;
     id=way/377640799</desc>
   </wpt>
   <wpt lat="50.521204" lon="4.994773764952498">
@@ -27949,8 +28023,8 @@ version="1.1" creator="togpx">
     <ele>12</ele>
     <name>Proxy Delhaize</name>
     <desc>addr:city=Sint-Amandsberg; addr:housenumber=24;
-    addr:postcode=9040; addr:street=Heernisplein; brand=Proxy
-    Delhaize; brand:wikidata=Q14903417; building=commercial;
+    addr:postcode=9040; addr:street=Heernisplein; brand=Delhaize;
+    brand:wikidata=Q1184173; building=commercial;
     internet_access=no; name=Proxy Delhaize; opening_hours=Mo
     12:00-20:00,PH 08:00-12:30,PH,Su 08:00-12:00,Tu-Sa 08:00-20:00;
     opening_hours:url=https://www.delhaize.be/;
@@ -28055,9 +28129,10 @@ version="1.1" creator="togpx">
   <wpt lat="50.4040229" lon="4.521629866714356">
     <ele>99</ele>
     <name>Match</name>
-    <desc>addr:housenumber=9; addr:street=Place du Perron;
-    brand=Match; brand:wikidata=Q513977; brand:wikipedia=en:Match
-    (supermarket); building=retail; name=Match; shop=supermarket;
+    <desc>addr:city=Châtelet; addr:housenumber=9;
+    addr:postcode=6200; addr:street=Place du Perron; brand=Match;
+    brand:wikidata=Q513977; brand:wikipedia=en:Match (supermarket);
+    building=retail; name=Match; shop=supermarket;
     source:geometry:date=2016-06-14;
     source:geometry:ref=Picc/3300904; id=way/437065750</desc>
   </wpt>
@@ -28458,8 +28533,8 @@ version="1.1" creator="togpx">
   <wpt lat="51.13305965" lon="2.751410358520486">
     <ele>4</ele>
     <name>Carrefour Market</name>
-    <desc>addr:housenumber=20; addr:postcode=8620;
-    addr:street=Kaai; brand=Carrefour Market;
+    <desc>addr:city=Nieuwpoort; addr:housenumber=20;
+    addr:postcode=8620; addr:street=Kaai; brand=Carrefour Market;
     brand:wikidata=Q2689639; building=yes; name=Carrefour Market;
     shop=supermarket; source:geometry:date=2016-12-01;
     source:geometry:ref=Gbg/4822463; id=way/480422892</desc>
@@ -30200,30 +30275,15 @@ version="1.1" creator="togpx">
     <link href="https://www.okay.be/nl/onze-winkels/okay-alken">
     </link>
   </wpt>
-  <wpt lat="51.1373866" lon="2.739441232489435">
-    <ele>0</ele>
-    <name>Colruyt</name>
-    <desc>addr:city=Nieuwpoort; addr:housenumber=33A;
-    addr:postcode=8620; addr:street=Jozef Cardijnlaan;
-    brand=Colruyt; brand:wikidata=Q2363991; building=retail;
-    name=Colruyt; note=Huisnummer (33A) verschilt van huisnummer op
-    GRB (34A); opening_hours=Mo-Th,Sa 08:30-20:00, Fr 08:30-21:00;
-    phone=+32 58 23 39 51; shop=supermarket;
-    source:geometry:date=2016-12-01;
-    source:geometry:ref=Gbg/5293069;
-    website=https://www.colruyt.be/nl/winkelzoeker/colruyt-nieuwpoort;
-    id=way/687334746</desc>
-    <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-nieuwpoort">
-    </link>
-  </wpt>
-  <wpt lat="50.498450649999995" lon="4.125261937167075">
+  <wpt lat="50.49845075" lon="4.125261894277035">
     <ele>119</ele>
     <name>AD Delhaize</name>
-    <desc>addr:city=Le Roeulx; addr:housenumber=210;
+    <desc>addr:city=Le Rœulx; addr:housenumber=212;
     addr:postcode=7070; addr:street=Rue d'Houdeng; brand=AD
     Delhaize; brand:wikidata=Q1184173; building=retail; name=AD
     Delhaize; operator=AD Delhaize; shop=supermarket;
-    id=way/688645973</desc>
+    source:geometry:date=2023-01-11;
+    source:geometry:ref=Picc/216875; id=way/688645973</desc>
   </wpt>
   <wpt lat="50.34423105" lon="4.47410315457574">
     <ele>227</ele>
@@ -30382,14 +30442,15 @@ version="1.1" creator="togpx">
     building=retail; name=ALDI; opening_hours=Mo-Sa 08:30-19:00;
     operator=Aldi; shop=supermarket; id=way/708595949</desc>
   </wpt>
-  <wpt lat="50.45899215" lon="3.813553208328667">
+  <wpt lat="50.4589677" lon="3.813563555129714">
     <ele>22</ele>
     <name>ALDI</name>
     <desc>addr:city=Saint-Ghislain; addr:housenumber=51;
     addr:postcode=7330; addr:street=Rue de la Rivièrette;
     brand=ALDI; brand:wikidata=Q41171373; brand:wikipedia=en:Aldi;
     building=retail; name=ALDI; opening_hours=Mo-Sa 08:30-19:00;
-    shop=supermarket; id=way/709774311</desc>
+    shop=supermarket; source:geometry:date=2016-07-19;
+    source:geometry:ref=Picc/1540221; id=way/709774311</desc>
   </wpt>
   <wpt lat="51.038129" lon="5.71785842775145">
     <ele>38</ele>
@@ -31464,14 +31525,15 @@ version="1.1" creator="togpx">
     <link href="https://www.okay.be/nl/onze-winkels/okay-de-panne">
     </link>
   </wpt>
-  <wpt lat="50.4633884" lon="3.8091720633572876">
+  <wpt lat="50.46342195" lon="3.8091882255873926">
     <ele>25</ele>
-    <name>Lidl Tertre</name>
+    <name>Lidl</name>
     <desc>addr:city=Tertre; addr:housenumber=27;
-    addr:postcode=7333; addr:street=Rue de Tournai; brand=Lidl;
-    brand:wikidata=Q151954; brand:wikipedia=en:Lidl; building=yes;
-    name=Lidl Tertre; opening_hours=Tu-Fr 08:30-20:00, Sa
-    08:30-19:00; shop=supermarket; id=way/852982189</desc>
+    addr:postcode=7333; addr:street=Rue de Tournai; branch=Tertre;
+    brand=Lidl; brand:wikidata=Q151954; brand:wikipedia=en:Lidl;
+    building=retail; name=Lidl; opening_hours=Tu-Fr 08:30-20:00, Sa
+    08:30-19:00; shop=supermarket; source:geometry:date=2016-07-19;
+    source:geometry:ref=Picc/2198297; id=way/852982189</desc>
   </wpt>
   <wpt lat="50.42061545" lon="4.482408121467595">
     <ele>157</ele>
@@ -32838,6 +32900,18 @@ version="1.1" creator="togpx">
     08:30-20:00, Fr 08:30-21:00; shop=supermarket;
     id=way/1124412724</desc>
   </wpt>
+  <wpt lat="51.05636855" lon="5.088237627068196">
+    <ele>38</ele>
+    <name>Colruyt</name>
+    <desc>addr:city=Tessenderlo; addr:housenumber=174;
+    addr:postcode=3980; addr:street=Diesterstraat; brand=Colruyt;
+    brand:wikidata=Q2363991; building=yes; name=Colruyt;
+    shop=supermarket;
+    website=https://www.colruyt.be/nl/winkelzoeker/colruyt-tessenderlo;
+    id=way/1124761805</desc>
+    <link href="https://www.colruyt.be/nl/winkelzoeker/colruyt-tessenderlo">
+    </link>
+  </wpt>
   <wpt lat="50.4006461" lon="4.27886807913214">
     <ele>193</ele>
     <name>Colruyt</name>
@@ -33128,6 +33202,13 @@ version="1.1" creator="togpx">
     name=Lidl; shop=supermarket; source:geometry:date=2020-09-29;
     source:geometry:ref=Picc/3194659; id=way/1191879410</desc>
   </wpt>
+  <wpt lat="50.660634" lon="5.532179122324208">
+    <ele>186</ele>
+    <name>Intermarché</name>
+    <desc>addr:housenumber=155; addr:street=Rue des Français;
+    brand=Intermarché; brand:wikidata=Q3153200; building=retail;
+    name=Intermarché; shop=supermarket; id=way/1192935986</desc>
+  </wpt>
   <wpt lat="50.45324705" lon="4.249898258493667">
     <ele>114</ele>
     <name>Lidl</name>
@@ -33326,26 +33407,29 @@ version="1.1" creator="togpx">
     <link href="https://www.okay.be/nl/onze-winkels/okay-sint-lievens-houtem">
     </link>
   </wpt>
-  <wpt lat="50.5003583" lon="4.117604875198685">
+  <wpt lat="50.5003497" lon="4.117597541112928">
     <ele>126</ele>
     <name>Okay</name>
-    <desc>addr:city=Le Roeulx; addr:housenumber=135;
+    <desc>addr:city=Le Rœulx; addr:housenumber=135;
     addr:postcode=7070; addr:street=Rue d'Houdeng; brand=Okay;
     brand:wikidata=Q2159701; building=retail; name=Okay;
     opening_hours=Mo-Sa 08:00-19:30; phone=+32 64 44 10 56;
-    shop=supermarket;
+    shop=supermarket; source:geometry:date=2022-06-08;
+    source:geometry:ref=Picc/1640142;
     website=https://www.okay.be/fr/nos-magasins/okay-le-roeulx;
     id=way/1215738350</desc>
     <link href="https://www.okay.be/fr/nos-magasins/okay-le-roeulx">
     </link>
   </wpt>
-  <wpt lat="50.5020966" lon="4.105199814310019">
+  <wpt lat="50.5021745" lon="4.105139337219445">
     <ele>121</ele>
     <name>Spar</name>
-    <desc>brand=Spar; brand:wikidata=Q610492;
-    brand:wikipedia=en:Spar (retailer); building=yes; name=Spar;
-    operator=Colruyt Group; shop=supermarket;
-    id=way/1215738923</desc>
+    <desc>addr:city=Le Rœulx; addr:housenumber=14;
+    addr:postcode=7070; addr:street=Chaussée de Mons; brand=Spar;
+    brand:wikidata=Q610492; brand:wikipedia=en:Spar (retailer);
+    building=retail; name=Spar; operator=Colruyt Group;
+    shop=supermarket; source:geometry:date=2017-06-12;
+    source:geometry:ref=Picc/3474565; id=way/1215738923</desc>
   </wpt>
   <wpt lat="51.2083214" lon="3.7644324851010893">
     <ele>2</ele>
@@ -33590,13 +33674,13 @@ version="1.1" creator="togpx">
     building=retail; name=ALDI; shop=supermarket;
     id=way/1299313927</desc>
   </wpt>
-  <wpt lat="50.4693373" lon="3.816189373773688">
+  <wpt lat="50.469424450000005" lon="3.816219758857896">
     <ele>30</ele>
     <name>Colruyt</name>
-    <desc>addr:city=Tertre; addr:housenumber=49;
+    <desc>addr:city=Tertre; addr:housenumber=49,51;
     addr:postcode=7333; addr:street=Rue Defuisseaux;
     air_conditioning=yes; branch=Tertre; brand=Colruyt;
-    brand:wikidata=Q2363991; building=yes; bulk_purchase=yes;
+    brand:wikidata=Q2363991; building=retail; bulk_purchase=yes;
     contact:phone=+32 65 60 08 11;
     contact:website=https://www.colruyt.be/fr/recherche-de-magasin/colruyt-tertre;
     dog=no; name=Colruyt; opening_hours=Mo-Sa 08:30-20:00, Fr
@@ -33604,7 +33688,8 @@ version="1.1" creator="togpx">
     operator:wikidata=Q1111963; organic=yes; payment:coins=yes;
     payment:contactless=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:notes=yes; payment:visa=yes;
-    shop=supermarket; smoking=no; stroller=yes; wheelchair=yes;
+    shop=supermarket; smoking=no; source:geometry:date=2016-07-19;
+    source:geometry:ref=Picc/3296953; stroller=yes; wheelchair=yes;
     id=way/1305773522</desc>
     <link href="https://www.colruyt.be/fr/recherche-de-magasin/colruyt-tertre">
     </link>
@@ -33855,6 +33940,26 @@ version="1.1" creator="togpx">
     brand=Lidl; brand:wikidata=Q151954; building=retail; name=Lidl;
     shop=supermarket; source:geometry:date=2016-11-09;
     source:geometry:ref=Picc/2047081; id=way/1361989868</desc>
+  </wpt>
+  <wpt lat="50.4728523" lon="4.818744252134454">
+    <ele>150</ele>
+    <name>Lidl</name>
+    <desc>brand=Lidl; brand:wikidata=Q151954; building=commercial;
+    layer=1; level=1; name=Lidl; shop=supermarket;
+    source:geometry:ref=missing; id=way/1364212636</desc>
+  </wpt>
+  <wpt lat="50.60453" lon="3.4075133922514422">
+    <ele>26</ele>
+    <name>Lidl</name>
+    <desc>brand=Lidl; brand:wikidata=Q151954; building=yes;
+    name=Lidl; shop=supermarket; id=way/1372018129</desc>
+  </wpt>
+  <wpt lat="50.71401125" lon="3.817152949542324">
+    <ele>33</ele>
+    <name>Colruyt</name>
+    <desc>addr:housenumber=132; addr:street=Chaussée de Renaix;
+    brand=Colruyt; brand:wikidata=Q2363991; building=yes;
+    name=Colruyt; shop=supermarket; id=way/1372503668</desc>
   </wpt>
   <wpt lat="50.69718295" lon="5.249326372310598">
     <ele>111</ele>
@@ -34616,7 +34721,7 @@ version="1.1" creator="togpx">
       <trkpt lat="50.8283443" lon="4.3874842"></trkpt>
       <trkpt lat="50.8286472" lon="4.3882879"></trkpt>
       <trkpt lat="50.8287649" lon="4.3881776"></trkpt>
-      <trkpt lat="50.828865" lon="4.3880822"></trkpt>
+      <trkpt lat="50.8288435" lon="4.3881033"></trkpt>
       <trkpt lat="50.8292135" lon="4.387756"></trkpt>
       <trkpt lat="50.8290168" lon="4.3872365"></trkpt>
       <trkpt lat="50.8289933" lon="4.3872587"></trkpt>
@@ -34944,41 +35049,6 @@ version="1.1" creator="togpx">
       <trkpt lat="50.7174299" lon="4.6170137"></trkpt>
       <trkpt lat="50.7178134" lon="4.6165144"></trkpt>
       <trkpt lat="50.7175402" lon="4.6160121"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>AD Delhaize</name>
-    <trkseg>
-      <trkpt lat="50.4773628" lon="4.1848187"></trkpt>
-      <trkpt lat="50.4771716" lon="4.1848135"></trkpt>
-      <trkpt lat="50.4771507" lon="4.1848363"></trkpt>
-      <trkpt lat="50.477124" lon="4.1848655"></trkpt>
-      <trkpt lat="50.4770543" lon="4.1848608"></trkpt>
-      <trkpt lat="50.4770775" lon="4.1849128"></trkpt>
-      <trkpt lat="50.4770458" lon="4.1849431"></trkpt>
-      <trkpt lat="50.4770094" lon="4.1848539"></trkpt>
-      <trkpt lat="50.476995" lon="4.1848187"></trkpt>
-      <trkpt lat="50.4769361" lon="4.1848775"></trkpt>
-      <trkpt lat="50.4769126" lon="4.1849029"></trkpt>
-      <trkpt lat="50.4769307" lon="4.1849476"></trkpt>
-      <trkpt lat="50.4769467" lon="4.1849871"></trkpt>
-      <trkpt lat="50.4771183" lon="4.1854103"></trkpt>
-      <trkpt lat="50.4772064" lon="4.1856275"></trkpt>
-      <trkpt lat="50.4774252" lon="4.1854161"></trkpt>
-      <trkpt lat="50.4774862" lon="4.1853545"></trkpt>
-      <trkpt lat="50.4775528" lon="4.1852872"></trkpt>
-      <trkpt lat="50.4775587" lon="4.1852822"></trkpt>
-      <trkpt lat="50.4776133" lon="4.185227"></trkpt>
-      <trkpt lat="50.4776197" lon="4.1852207"></trkpt>
-      <trkpt lat="50.477666" lon="4.1851762"></trkpt>
-      <trkpt lat="50.4776879" lon="4.1851564"></trkpt>
-      <trkpt lat="50.4776768" lon="4.1851239"></trkpt>
-      <trkpt lat="50.477666" lon="4.1851312"></trkpt>
-      <trkpt lat="50.4775547" lon="4.1848614"></trkpt>
-      <trkpt lat="50.4775423" lon="4.1848313"></trkpt>
-      <trkpt lat="50.4774699" lon="4.1848255"></trkpt>
-      <trkpt lat="50.4774592" lon="4.184825"></trkpt>
-      <trkpt lat="50.4773628" lon="4.1848187"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -35385,7 +35455,8 @@ version="1.1" creator="togpx">
     <name>Delhaize</name>
     <trkseg>
       <trkpt lat="50.4550473" lon="3.9837024"></trkpt>
-      <trkpt lat="50.4547825" lon="3.9838167"></trkpt>
+      <trkpt lat="50.4549194" lon="3.9837576"></trkpt>
+      <trkpt lat="50.4547898" lon="3.9838139"></trkpt>
       <trkpt lat="50.4545387" lon="3.9839221"></trkpt>
       <trkpt lat="50.4544907" lon="3.9839429"></trkpt>
       <trkpt lat="50.4544228" lon="3.9839716"></trkpt>
@@ -36698,8 +36769,8 @@ version="1.1" creator="togpx">
       <trkpt lat="51.0601991" lon="4.3500335"></trkpt>
       <trkpt lat="51.0601986" lon="4.350029"></trkpt>
       <trkpt lat="51.0601447" lon="4.3500436"></trkpt>
-      <trkpt lat="51.0601811" lon="4.3503966"></trkpt>
-      <trkpt lat="51.0602091" lon="4.3506292"></trkpt>
+      <trkpt lat="51.0601814" lon="4.3503966"></trkpt>
+      <trkpt lat="51.0602091" lon="4.3506319"></trkpt>
       <trkpt lat="51.0602344" lon="4.3508742"></trkpt>
       <trkpt lat="51.0604521" lon="4.3510827"></trkpt>
       <trkpt lat="51.0604607" lon="4.3510624"></trkpt>
@@ -37017,13 +37088,15 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>GB Carrefour</name>
+    <name>Carrefour Market</name>
     <trkseg>
-      <trkpt lat="50.4559083" lon="3.8129037"></trkpt>
-      <trkpt lat="50.4562307" lon="3.8134566"></trkpt>
-      <trkpt lat="50.4564109" lon="3.8131974"></trkpt>
-      <trkpt lat="50.4560885" lon="3.8126445"></trkpt>
-      <trkpt lat="50.4559083" lon="3.8129037"></trkpt>
+      <trkpt lat="50.4560981" lon="3.8126421"></trkpt>
+      <trkpt lat="50.4559167" lon="3.8129035"></trkpt>
+      <trkpt lat="50.456241" lon="3.8134566"></trkpt>
+      <trkpt lat="50.4564225" lon="3.8131953"></trkpt>
+      <trkpt lat="50.4561912" lon="3.8128009"></trkpt>
+      <trkpt lat="50.4561792" lon="3.8127804"></trkpt>
+      <trkpt lat="50.4560981" lon="3.8126421"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -37130,17 +37203,30 @@ version="1.1" creator="togpx">
   <trk>
     <name>Colruyt</name>
     <trkseg>
-      <trkpt lat="51.0868494" lon="3.7083358"></trkpt>
-      <trkpt lat="51.0865736" lon="3.7085"></trkpt>
-      <trkpt lat="51.0864647" lon="3.7086169"></trkpt>
-      <trkpt lat="51.0867185" lon="3.7092081"></trkpt>
-      <trkpt lat="51.0867854" lon="3.7091338"></trkpt>
-      <trkpt lat="51.0868333" lon="3.7092453"></trkpt>
-      <trkpt lat="51.0870325" lon="3.7092712"></trkpt>
-      <trkpt lat="51.0871178" lon="3.7091853"></trkpt>
-      <trkpt lat="51.0871816" lon="3.709121"></trkpt>
-      <trkpt lat="51.0870493" lon="3.7088082"></trkpt>
-      <trkpt lat="51.0868494" lon="3.7083358"></trkpt>
+      <trkpt lat="51.0867246" lon="3.708309"></trkpt>
+      <trkpt lat="51.0863399" lon="3.7085637"></trkpt>
+      <trkpt lat="51.0863768" lon="3.7087827"></trkpt>
+      <trkpt lat="51.0865219" lon="3.7087119"></trkpt>
+      <trkpt lat="51.0867207" lon="3.7091888"></trkpt>
+      <trkpt lat="51.0867797" lon="3.7091264"></trkpt>
+      <trkpt lat="51.0868708" lon="3.7093374"></trkpt>
+      <trkpt lat="51.0869201" lon="3.7093444"></trkpt>
+      <trkpt lat="51.0869967" lon="3.7093555"></trkpt>
+      <trkpt lat="51.0870793" lon="3.7093673"></trkpt>
+      <trkpt lat="51.0870381" lon="3.7092591"></trkpt>
+      <trkpt lat="51.0871277" lon="3.7091615"></trkpt>
+      <trkpt lat="51.0871374" lon="3.7091836"></trkpt>
+      <trkpt lat="51.0871913" lon="3.7091257"></trkpt>
+      <trkpt lat="51.0871098" lon="3.7089316"></trkpt>
+      <trkpt lat="51.087057" lon="3.708806"></trkpt>
+      <trkpt lat="51.0870331" lon="3.7087492"></trkpt>
+      <trkpt lat="51.0870284" lon="3.7087543"></trkpt>
+      <trkpt lat="51.086851" lon="3.7083313"></trkpt>
+      <trkpt lat="51.086854" lon="3.7083284"></trkpt>
+      <trkpt lat="51.0868514" lon="3.7083222"></trkpt>
+      <trkpt lat="51.0868483" lon="3.7083244"></trkpt>
+      <trkpt lat="51.0867472" lon="3.708393"></trkpt>
+      <trkpt lat="51.0867246" lon="3.708309"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -38118,17 +38204,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Akel</name>
     <trkseg>
-      <trkpt lat="51.0850163" lon="3.7179518"></trkpt>
-      <trkpt lat="51.084867" lon="3.7179036"></trkpt>
-      <trkpt lat="51.0848737" lon="3.7178388"></trkpt>
-      <trkpt lat="51.0847162" lon="3.7177902"></trkpt>
-      <trkpt lat="51.0847229" lon="3.7177395"></trkpt>
-      <trkpt lat="51.0846141" lon="3.7177058"></trkpt>
-      <trkpt lat="51.0845751" lon="3.7180144"></trkpt>
-      <trkpt lat="51.0848441" lon="3.718097"></trkpt>
-      <trkpt lat="51.0848479" lon="3.7180545"></trkpt>
-      <trkpt lat="51.0849988" lon="3.7180983"></trkpt>
-      <trkpt lat="51.0850163" lon="3.7179518"></trkpt>
+      <trkpt lat="51.0846132" lon="3.7177057"></trkpt>
+      <trkpt lat="51.084575" lon="3.7180141"></trkpt>
+      <trkpt lat="51.0848435" lon="3.7180971"></trkpt>
+      <trkpt lat="51.0848486" lon="3.7180557"></trkpt>
+      <trkpt lat="51.0849986" lon="3.7181004"></trkpt>
+      <trkpt lat="51.0850166" lon="3.7179516"></trkpt>
+      <trkpt lat="51.0848662" lon="3.7179045"></trkpt>
+      <trkpt lat="51.0848744" lon="3.7178391"></trkpt>
+      <trkpt lat="51.084716" lon="3.7177895"></trkpt>
+      <trkpt lat="51.0847222" lon="3.7177398"></trkpt>
+      <trkpt lat="51.0846132" lon="3.7177057"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -40257,7 +40343,10 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="50.0020968" lon="5.6972331"></trkpt>
       <trkpt lat="50.0018727" lon="5.6972106"></trkpt>
-      <trkpt lat="50.0018418" lon="5.6980657"></trkpt>
+      <trkpt lat="50.0018485" lon="5.6977791"></trkpt>
+      <trkpt lat="50.0018455" lon="5.6978497"></trkpt>
+      <trkpt lat="50.0018362" lon="5.6980679"></trkpt>
+      <trkpt lat="50.0018361" lon="5.6980721"></trkpt>
       <trkpt lat="50.0020601" lon="5.6980949"></trkpt>
       <trkpt lat="50.0020968" lon="5.6972331"></trkpt>
     </trkseg>
@@ -42269,6 +42358,23 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Carrefour</name>
+    <trkseg>
+      <trkpt lat="51.1695813" lon="5.1691984"></trkpt>
+      <trkpt lat="51.1694506" lon="5.1690049"></trkpt>
+      <trkpt lat="51.1692" lon="5.1686321"></trkpt>
+      <trkpt lat="51.1692325" lon="5.1685767"></trkpt>
+      <trkpt lat="51.16921" lon="5.1685401"></trkpt>
+      <trkpt lat="51.1690652" lon="5.1687756"></trkpt>
+      <trkpt lat="51.1689736" lon="5.168639"></trkpt>
+      <trkpt lat="51.1689099" lon="5.1687531"></trkpt>
+      <trkpt lat="51.1691375" lon="5.1690892"></trkpt>
+      <trkpt lat="51.1692604" lon="5.1690594"></trkpt>
+      <trkpt lat="51.1694857" lon="5.1693907"></trkpt>
+      <trkpt lat="51.1695813" lon="5.1691984"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Lidl</name>
     <trkseg>
       <trkpt lat="50.8365026" lon="4.3684409"></trkpt>
@@ -42321,7 +42427,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ALDI</name>
+    <name>Aldi</name>
     <trkseg>
       <trkpt lat="51.1484896" lon="4.5778376"></trkpt>
       <trkpt lat="51.1482167" lon="4.5776272"></trkpt>
@@ -43889,16 +43995,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Lidl</name>
-    <trkseg>
-      <trkpt lat="50.4702866" lon="4.8192536"></trkpt>
-      <trkpt lat="50.470238" lon="4.819514"></trkpt>
-      <trkpt lat="50.4707219" lon="4.8197366"></trkpt>
-      <trkpt lat="50.4707705" lon="4.8194762"></trkpt>
-      <trkpt lat="50.4702866" lon="4.8192536"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>AD Delhaize</name>
     <trkseg>
       <trkpt lat="50.4730173" lon="4.8200959"></trkpt>
@@ -44138,6 +44234,8 @@ version="1.1" creator="togpx">
       <trkpt lat="51.3818631" lon="4.4740023"></trkpt>
       <trkpt lat="51.3820277" lon="4.4739581"></trkpt>
       <trkpt lat="51.3819318" lon="4.4730397"></trkpt>
+      <trkpt lat="51.3819186" lon="4.4728987"></trkpt>
+      <trkpt lat="51.3815462" lon="4.4729939"></trkpt>
       <trkpt lat="51.3815612" lon="4.473139"></trkpt>
     </trkseg>
   </trk>
@@ -45400,6 +45498,7 @@ version="1.1" creator="togpx">
       <trkpt lat="51.0345283" lon="2.8403443"></trkpt>
       <trkpt lat="51.0344322" lon="2.8408103"></trkpt>
       <trkpt lat="51.0346029" lon="2.840899"></trkpt>
+      <trkpt lat="51.0347754" lon="2.8409887"></trkpt>
       <trkpt lat="51.0347987" lon="2.8410008"></trkpt>
       <trkpt lat="51.0348177" lon="2.8409089"></trkpt>
     </trkseg>
@@ -46181,12 +46280,11 @@ version="1.1" creator="togpx">
       <trkpt lat="50.6256685" lon="3.3701038"></trkpt>
       <trkpt lat="50.6256151" lon="3.370205"></trkpt>
       <trkpt lat="50.6255743" lon="3.3702773"></trkpt>
-      <trkpt lat="50.6256042" lon="3.3703079"></trkpt>
-      <trkpt lat="50.6259553" lon="3.3707791"></trkpt>
-      <trkpt lat="50.6261489" lon="3.3710388"></trkpt>
-      <trkpt lat="50.6262199" lon="3.3711341"></trkpt>
-      <trkpt lat="50.6262698" lon="3.3712011"></trkpt>
-      <trkpt lat="50.6263257" lon="3.3712761"></trkpt>
+      <trkpt lat="50.6256455" lon="3.3701798"></trkpt>
+      <trkpt lat="50.6261075" lon="3.3708279"></trkpt>
+      <trkpt lat="50.6262018" lon="3.3710347"></trkpt>
+      <trkpt lat="50.6262943" lon="3.371193"></trkpt>
+      <trkpt lat="50.6263465" lon="3.3712609"></trkpt>
       <trkpt lat="50.6265598" lon="3.3708812"></trkpt>
       <trkpt lat="50.6265865" lon="3.3709174"></trkpt>
       <trkpt lat="50.6266792" lon="3.3707335"></trkpt>
@@ -46977,13 +47075,15 @@ version="1.1" creator="togpx">
       <trkpt lat="50.7281865" lon="4.4880999"></trkpt>
       <trkpt lat="50.7281334" lon="4.4879482"></trkpt>
       <trkpt lat="50.7280844" lon="4.4879938"></trkpt>
+      <trkpt lat="50.7280157" lon="4.4880571"></trkpt>
+      <trkpt lat="50.7277819" lon="4.4882725"></trkpt>
       <trkpt lat="50.7277053" lon="4.4883431"></trkpt>
       <trkpt lat="50.7277627" lon="4.4884977"></trkpt>
       <trkpt lat="50.7278599" lon="4.4887597"></trkpt>
       <trkpt lat="50.7280168" lon="4.4891827"></trkpt>
       <trkpt lat="50.7280268" lon="4.4891738"></trkpt>
       <trkpt lat="50.7283357" lon="4.4888909"></trkpt>
-      <trkpt lat="50.7284844" lon="4.4887541"></trkpt>
+      <trkpt lat="50.7284544" lon="4.4887801"></trkpt>
       <trkpt lat="50.728486" lon="4.4887525"></trkpt>
       <trkpt lat="50.7282299" lon="4.4880603"></trkpt>
       <trkpt lat="50.7282175" lon="4.4880719"></trkpt>
@@ -47419,6 +47519,28 @@ version="1.1" creator="togpx">
       <trkpt lat="50.3535524" lon="6.3843354"></trkpt>
       <trkpt lat="50.3535641" lon="6.3843009"></trkpt>
       <trkpt lat="50.3535271" lon="6.3841419"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Intermarché</name>
+    <trkseg>
+      <trkpt lat="50.5942006" lon="4.3368811"></trkpt>
+      <trkpt lat="50.5937937" lon="4.3372119"></trkpt>
+      <trkpt lat="50.5938674" lon="4.3374222"></trkpt>
+      <trkpt lat="50.5939336" lon="4.3376203"></trkpt>
+      <trkpt lat="50.5940803" lon="4.338068"></trkpt>
+      <trkpt lat="50.5941196" lon="4.3382111"></trkpt>
+      <trkpt lat="50.59425" lon="4.3381489"></trkpt>
+      <trkpt lat="50.5941987" lon="4.337991"></trkpt>
+      <trkpt lat="50.594347" lon="4.3378737"></trkpt>
+      <trkpt lat="50.5943298" lon="4.3378183"></trkpt>
+      <trkpt lat="50.5944228" lon="4.3377417"></trkpt>
+      <trkpt lat="50.5944485" lon="4.3378149"></trkpt>
+      <trkpt lat="50.5944957" lon="4.3377815"></trkpt>
+      <trkpt lat="50.5944798" lon="4.337712"></trkpt>
+      <trkpt lat="50.5943208" lon="4.3372319"></trkpt>
+      <trkpt lat="50.5942461" lon="4.3370055"></trkpt>
+      <trkpt lat="50.5942006" lon="4.3368811"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -48317,6 +48439,7 @@ version="1.1" creator="togpx">
     <name>Carrefour Market</name>
     <trkseg>
       <trkpt lat="50.8925578" lon="4.0800564"></trkpt>
+      <trkpt lat="50.8925213" lon="4.0799701"></trkpt>
       <trkpt lat="50.8924727" lon="4.0798553"></trkpt>
       <trkpt lat="50.8921895" lon="4.0801551"></trkpt>
       <trkpt lat="50.8922858" lon="4.0803783"></trkpt>
@@ -50746,16 +50869,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Spar</name>
-    <trkseg>
-      <trkpt lat="51.1202501" lon="2.6345932"></trkpt>
-      <trkpt lat="51.1200975" lon="2.6347571"></trkpt>
-      <trkpt lat="51.1201745" lon="2.6349331"></trkpt>
-      <trkpt lat="51.1203163" lon="2.6347792"></trkpt>
-      <trkpt lat="51.1202501" lon="2.6345932"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>AD Delhaize</name>
     <trkseg>
       <trkpt lat="50.6323527" lon="4.7939199"></trkpt>
@@ -50781,6 +50894,29 @@ version="1.1" creator="togpx">
       <trkpt lat="50.632658" lon="4.7929602"></trkpt>
       <trkpt lat="50.6326998" lon="4.7928638"></trkpt>
       <trkpt lat="50.6324709" lon="4.7926421"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Carrefour Market</name>
+    <trkseg>
+      <trkpt lat="51.1744073" lon="5.5767815"></trkpt>
+      <trkpt lat="51.1744973" lon="5.576658"></trkpt>
+      <trkpt lat="51.1746553" lon="5.5769424"></trkpt>
+      <trkpt lat="51.1748996" lon="5.5765966"></trkpt>
+      <trkpt lat="51.1748902" lon="5.5765671"></trkpt>
+      <trkpt lat="51.1747415" lon="5.5763107"></trkpt>
+      <trkpt lat="51.1747202" lon="5.5763357"></trkpt>
+      <trkpt lat="51.1746906" lon="5.5762928"></trkpt>
+      <trkpt lat="51.1746574" lon="5.5763452"></trkpt>
+      <trkpt lat="51.1745803" lon="5.5762048"></trkpt>
+      <trkpt lat="51.1745671" lon="5.5762133"></trkpt>
+      <trkpt lat="51.1745524" lon="5.5761865"></trkpt>
+      <trkpt lat="51.1745348" lon="5.5762099"></trkpt>
+      <trkpt lat="51.1745235" lon="5.5761883"></trkpt>
+      <trkpt lat="51.1745009" lon="5.5762188"></trkpt>
+      <trkpt lat="51.1743855" lon="5.5763764"></trkpt>
+      <trkpt lat="51.174268" lon="5.5765327"></trkpt>
+      <trkpt lat="51.1744073" lon="5.5767815"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -51094,6 +51230,31 @@ version="1.1" creator="togpx">
       <trkpt lat="50.4089386" lon="4.3934121"></trkpt>
       <trkpt lat="50.409403" lon="4.3930538"></trkpt>
       <trkpt lat="50.4092502" lon="4.3925664"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Colruyt</name>
+    <trkseg>
+      <trkpt lat="50.481837" lon="3.9519567"></trkpt>
+      <trkpt lat="50.4817754" lon="3.9520343"></trkpt>
+      <trkpt lat="50.4817678" lon="3.9520153"></trkpt>
+      <trkpt lat="50.4816124" lon="3.9521898"></trkpt>
+      <trkpt lat="50.4815968" lon="3.9522072"></trkpt>
+      <trkpt lat="50.4816073" lon="3.9522291"></trkpt>
+      <trkpt lat="50.4816319" lon="3.9522809"></trkpt>
+      <trkpt lat="50.4814834" lon="3.9524584"></trkpt>
+      <trkpt lat="50.4816502" lon="3.9528163"></trkpt>
+      <trkpt lat="50.4817266" lon="3.9529804"></trkpt>
+      <trkpt lat="50.4817594" lon="3.9530508"></trkpt>
+      <trkpt lat="50.4819236" lon="3.9528635"></trkpt>
+      <trkpt lat="50.4819771" lon="3.9529794"></trkpt>
+      <trkpt lat="50.4821705" lon="3.9527599"></trkpt>
+      <trkpt lat="50.482126" lon="3.9526673"></trkpt>
+      <trkpt lat="50.4821153" lon="3.9526449"></trkpt>
+      <trkpt lat="50.4820068" lon="3.9524192"></trkpt>
+      <trkpt lat="50.482042" lon="3.95238"></trkpt>
+      <trkpt lat="50.4818613" lon="3.9520067"></trkpt>
+      <trkpt lat="50.481837" lon="3.9519567"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -51517,7 +51678,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>ALDI</name>
+    <name>Aldi</name>
     <trkseg>
       <trkpt lat="51.1755036" lon="3.8623936"></trkpt>
       <trkpt lat="51.1755028" lon="3.8625608"></trkpt>
@@ -52737,6 +52898,20 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Louis Delhaize</name>
+    <trkseg>
+      <trkpt lat="50.4287091" lon="3.7387955"></trkpt>
+      <trkpt lat="50.4287062" lon="3.7387819"></trkpt>
+      <trkpt lat="50.428837" lon="3.7387107"></trkpt>
+      <trkpt lat="50.4287935" lon="3.738507"></trkpt>
+      <trkpt lat="50.4284733" lon="3.7386752"></trkpt>
+      <trkpt lat="50.4285785" lon="3.7391646"></trkpt>
+      <trkpt lat="50.4287566" lon="3.7390135"></trkpt>
+      <trkpt lat="50.4287514" lon="3.7389899"></trkpt>
+      <trkpt lat="50.4287091" lon="3.7387955"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Colruyt</name>
     <trkseg>
       <trkpt lat="50.9202307" lon="3.3222442"></trkpt>
@@ -53267,6 +53442,20 @@ version="1.1" creator="togpx">
       <trkpt lat="51.224882" lon="4.6758226"></trkpt>
       <trkpt lat="51.224851" lon="4.6758823"></trkpt>
       <trkpt lat="51.2249773" lon="4.6760472"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Albert Heijn</name>
+    <trkseg>
+      <trkpt lat="51.1535973" lon="4.5814563"></trkpt>
+      <trkpt lat="51.1537493" lon="4.5811914"></trkpt>
+      <trkpt lat="51.1535871" lon="4.58096"></trkpt>
+      <trkpt lat="51.1534345" lon="4.5812239"></trkpt>
+      <trkpt lat="51.1534665" lon="4.5812697"></trkpt>
+      <trkpt lat="51.1534559" lon="4.5812912"></trkpt>
+      <trkpt lat="51.1535554" lon="4.5814306"></trkpt>
+      <trkpt lat="51.1535665" lon="4.5814121"></trkpt>
+      <trkpt lat="51.1535973" lon="4.5814563"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -55077,6 +55266,7 @@ version="1.1" creator="togpx">
       <trkpt lat="50.9412556" lon="5.6925212"></trkpt>
       <trkpt lat="50.9412567" lon="5.6925286"></trkpt>
       <trkpt lat="50.9411993" lon="5.6925219"></trkpt>
+      <trkpt lat="50.9411938" lon="5.6926286"></trkpt>
       <trkpt lat="50.9411883" lon="5.6927352"></trkpt>
       <trkpt lat="50.9412424" lon="5.6927405"></trkpt>
       <trkpt lat="50.9412393" lon="5.6927998"></trkpt>
@@ -57043,13 +57233,10 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="51.1751815" lon="5.5770706"></trkpt>
       <trkpt lat="51.1752119" lon="5.5770295"></trkpt>
-      <trkpt lat="51.1751032" lon="5.5768241"></trkpt>
       <trkpt lat="51.1750521" lon="5.5767276"></trkpt>
       <trkpt lat="51.1748234" lon="5.5770434"></trkpt>
       <trkpt lat="51.1747862" lon="5.5769858"></trkpt>
-      <trkpt lat="51.1747186" lon="5.5770804"></trkpt>
       <trkpt lat="51.1745726" lon="5.5772848"></trkpt>
-      <trkpt lat="51.174766" lon="5.5776308"></trkpt>
       <trkpt lat="51.1747715" lon="5.5776406"></trkpt>
       <trkpt lat="51.175014" lon="5.5772969"></trkpt>
       <trkpt lat="51.1750367" lon="5.5773328"></trkpt>
@@ -59451,8 +59638,8 @@ version="1.1" creator="togpx">
       <trkpt lat="50.4406302" lon="3.8519033"></trkpt>
       <trkpt lat="50.4405766" lon="3.8519318"></trkpt>
       <trkpt lat="50.4405771" lon="3.8519447"></trkpt>
-      <trkpt lat="50.4406271" lon="3.8521765"></trkpt>
-      <trkpt lat="50.4405895" lon="3.8521966"></trkpt>
+      <trkpt lat="50.4406329" lon="3.8521962"></trkpt>
+      <trkpt lat="50.440594" lon="3.8522212"></trkpt>
       <trkpt lat="50.4406081" lon="3.8522828"></trkpt>
       <trkpt lat="50.4406478" lon="3.8522618"></trkpt>
       <trkpt lat="50.440669" lon="3.8523598"></trkpt>
@@ -60102,32 +60289,16 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Colruyt</name>
-    <trkseg>
-      <trkpt lat="51.137304" lon="2.7388986"></trkpt>
-      <trkpt lat="51.1370555" lon="2.7392683"></trkpt>
-      <trkpt lat="51.1370724" lon="2.7392969"></trkpt>
-      <trkpt lat="51.1370373" lon="2.7393494"></trkpt>
-      <trkpt lat="51.1370783" lon="2.7394184"></trkpt>
-      <trkpt lat="51.137074" lon="2.7394248"></trkpt>
-      <trkpt lat="51.1372222" lon="2.7396747"></trkpt>
-      <trkpt lat="51.1372559" lon="2.7396241"></trkpt>
-      <trkpt lat="51.1374692" lon="2.7399839"></trkpt>
-      <trkpt lat="51.1376909" lon="2.7397874"></trkpt>
-      <trkpt lat="51.1377651" lon="2.7396762"></trkpt>
-      <trkpt lat="51.137304" lon="2.7388986"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>AD Delhaize</name>
     <trkseg>
-      <trkpt lat="50.4987247" lon="4.125162"></trkpt>
-      <trkpt lat="50.4984262" lon="4.1248175"></trkpt>
+      <trkpt lat="50.4984263" lon="4.1248175"></trkpt>
       <trkpt lat="50.498379" lon="4.1249207"></trkpt>
-      <trkpt lat="50.4984123" lon="4.1249595"></trkpt>
+      <trkpt lat="50.4984124" lon="4.1249595"></trkpt>
       <trkpt lat="50.4982072" lon="4.1254049"></trkpt>
-      <trkpt lat="50.4984751" lon="4.1257056"></trkpt>
-      <trkpt lat="50.4987247" lon="4.125162"></trkpt>
+      <trkpt lat="50.498229" lon="4.1254293"></trkpt>
+      <trkpt lat="50.4984752" lon="4.1257055"></trkpt>
+      <trkpt lat="50.4987248" lon="4.125162"></trkpt>
+      <trkpt lat="50.4984263" lon="4.1248175"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -60350,12 +60521,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>ALDI</name>
     <trkseg>
-      <trkpt lat="50.4590922" lon="3.8130457"></trkpt>
-      <trkpt lat="50.458744" lon="3.8131921"></trkpt>
-      <trkpt lat="50.4588805" lon="3.8139926"></trkpt>
-      <trkpt lat="50.4588921" lon="3.8140607"></trkpt>
-      <trkpt lat="50.4592402" lon="3.8139144"></trkpt>
-      <trkpt lat="50.4590922" lon="3.8130457"></trkpt>
+      <trkpt lat="50.4592388" lon="3.8139114"></trkpt>
+      <trkpt lat="50.4591646" lon="3.8134385"></trkpt>
+      <trkpt lat="50.4590994" lon="3.8134637"></trkpt>
+      <trkpt lat="50.4590377" lon="3.8130706"></trkpt>
+      <trkpt lat="50.4587389" lon="3.8131863"></trkpt>
+      <trkpt lat="50.4587662" lon="3.8133603"></trkpt>
+      <trkpt lat="50.4587872" lon="3.8133521"></trkpt>
+      <trkpt lat="50.4588977" lon="3.8140565"></trkpt>
+      <trkpt lat="50.4591297" lon="3.8139667"></trkpt>
+      <trkpt lat="50.4591278" lon="3.8139544"></trkpt>
+      <trkpt lat="50.4592388" lon="3.8139114"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -62199,22 +62375,20 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Lidl Tertre</name>
+    <name>Lidl</name>
     <trkseg>
-      <trkpt lat="50.4631962" lon="3.8089453"></trkpt>
-      <trkpt lat="50.4633031" lon="3.8093304"></trkpt>
-      <trkpt lat="50.4633562" lon="3.8095218"></trkpt>
-      <trkpt lat="50.4636184" lon="3.8093422"></trkpt>
-      <trkpt lat="50.4635549" lon="3.8091136"></trkpt>
-      <trkpt lat="50.4635636" lon="3.8091077"></trkpt>
-      <trkpt lat="50.4634951" lon="3.808861"></trkpt>
-      <trkpt lat="50.4634415" lon="3.8088977"></trkpt>
-      <trkpt lat="50.4634206" lon="3.8088223"></trkpt>
-      <trkpt lat="50.4632917" lon="3.8089107"></trkpt>
-      <trkpt lat="50.4632742" lon="3.8088478"></trkpt>
-      <trkpt lat="50.4632243" lon="3.8088819"></trkpt>
-      <trkpt lat="50.4632053" lon="3.8088868"></trkpt>
-      <trkpt lat="50.4631962" lon="3.8089453"></trkpt>
+      <trkpt lat="50.4635283" lon="3.809188"></trkpt>
+      <trkpt lat="50.4634965" lon="3.8090751"></trkpt>
+      <trkpt lat="50.4634545" lon="3.8089258"></trkpt>
+      <trkpt lat="50.4634334" lon="3.808851"></trkpt>
+      <trkpt lat="50.4633039" lon="3.8089408"></trkpt>
+      <trkpt lat="50.4632861" lon="3.8088781"></trkpt>
+      <trkpt lat="50.4632366" lon="3.8089114"></trkpt>
+      <trkpt lat="50.4634105" lon="3.8095255"></trkpt>
+      <trkpt lat="50.4635888" lon="3.8094011"></trkpt>
+      <trkpt lat="50.4636163" lon="3.8093789"></trkpt>
+      <trkpt lat="50.4635564" lon="3.8091684"></trkpt>
+      <trkpt lat="50.4635283" lon="3.809188"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -64502,6 +64676,25 @@ version="1.1" creator="togpx">
   <trk>
     <name>Colruyt</name>
     <trkseg>
+      <trkpt lat="51.0565497" lon="5.088284"></trkpt>
+      <trkpt lat="51.0565821" lon="5.087894"></trkpt>
+      <trkpt lat="51.0563657" lon="5.0878494"></trkpt>
+      <trkpt lat="51.0563714" lon="5.0877825"></trkpt>
+      <trkpt lat="51.0561646" lon="5.0877408"></trkpt>
+      <trkpt lat="51.0561458" lon="5.0879744"></trkpt>
+      <trkpt lat="51.0561825" lon="5.0879823"></trkpt>
+      <trkpt lat="51.0561404" lon="5.0884986"></trkpt>
+      <trkpt lat="51.0561455" lon="5.0884996"></trkpt>
+      <trkpt lat="51.056139" lon="5.0885783"></trkpt>
+      <trkpt lat="51.0565691" lon="5.0886663"></trkpt>
+      <trkpt lat="51.0565971" lon="5.0883239"></trkpt>
+      <trkpt lat="51.0565996" lon="5.0882936"></trkpt>
+      <trkpt lat="51.0565497" lon="5.088284"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Colruyt</name>
+    <trkseg>
       <trkpt lat="50.4006676" lon="4.2784497"></trkpt>
       <trkpt lat="50.4005213" lon="4.2787166"></trkpt>
       <trkpt lat="50.4006003" lon="4.2788226"></trkpt>
@@ -65070,6 +65263,32 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
+    <name>Intermarché</name>
+    <trkseg>
+      <trkpt lat="50.660596" lon="5.5316468"></trkpt>
+      <trkpt lat="50.660477" lon="5.5320228"></trkpt>
+      <trkpt lat="50.6604484" lon="5.5320006"></trkpt>
+      <trkpt lat="50.6604295" lon="5.53206"></trkpt>
+      <trkpt lat="50.6604581" lon="5.5320825"></trkpt>
+      <trkpt lat="50.6604516" lon="5.5321031"></trkpt>
+      <trkpt lat="50.6604178" lon="5.5320751"></trkpt>
+      <trkpt lat="50.6603673" lon="5.5322349"></trkpt>
+      <trkpt lat="50.6603974" lon="5.5322571"></trkpt>
+      <trkpt lat="50.6603521" lon="5.5323965"></trkpt>
+      <trkpt lat="50.6603422" lon="5.5323999"></trkpt>
+      <trkpt lat="50.6603499" lon="5.5324322"></trkpt>
+      <trkpt lat="50.6603598" lon="5.5324253"></trkpt>
+      <trkpt lat="50.6604473" lon="5.532495"></trkpt>
+      <trkpt lat="50.6604248" lon="5.5325654"></trkpt>
+      <trkpt lat="50.6606224" lon="5.53272"></trkpt>
+      <trkpt lat="50.6606456" lon="5.5326433"></trkpt>
+      <trkpt lat="50.6606738" lon="5.5326669"></trkpt>
+      <trkpt lat="50.6608501" lon="5.5321124"></trkpt>
+      <trkpt lat="50.6609174" lon="5.5318988"></trkpt>
+      <trkpt lat="50.660596" lon="5.5316468"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
     <name>Lidl</name>
     <trkseg>
       <trkpt lat="50.4534225" lon="4.2494113"></trkpt>
@@ -65418,33 +65637,36 @@ version="1.1" creator="togpx">
   <trk>
     <name>Okay</name>
     <trkseg>
-      <trkpt lat="50.5005073" lon="4.1173707"></trkpt>
-      <trkpt lat="50.5004942" lon="4.1173624"></trkpt>
-      <trkpt lat="50.5004931" lon="4.1173665"></trkpt>
       <trkpt lat="50.5003312" lon="4.117265"></trkpt>
       <trkpt lat="50.5001918" lon="4.11782"></trkpt>
+      <trkpt lat="50.50034" lon="4.1179125"></trkpt>
+      <trkpt lat="50.5003502" lon="4.1179188"></trkpt>
+      <trkpt lat="50.5003492" lon="4.1179229"></trkpt>
       <trkpt lat="50.5003854" lon="4.1179453"></trkpt>
-      <trkpt lat="50.5003868" lon="4.1179401"></trkpt>
-      <trkpt lat="50.5004151" lon="4.1179561"></trkpt>
-      <trkpt lat="50.5004622" lon="4.1177647"></trkpt>
+      <trkpt lat="50.5003868" lon="4.11794"></trkpt>
+      <trkpt lat="50.5004152" lon="4.1179561"></trkpt>
+      <trkpt lat="50.5004306" lon="4.1178892"></trkpt>
+      <trkpt lat="50.5004622" lon="4.1177646"></trkpt>
       <trkpt lat="50.5004149" lon="4.1177354"></trkpt>
-      <trkpt lat="50.5005073" lon="4.1173707"></trkpt>
+      <trkpt lat="50.5005073" lon="4.1173706"></trkpt>
+      <trkpt lat="50.5004942" lon="4.1173624"></trkpt>
+      <trkpt lat="50.5004932" lon="4.1173665"></trkpt>
+      <trkpt lat="50.5003312" lon="4.117265"></trkpt>
     </trkseg>
   </trk>
   <trk>
     <name>Spar</name>
     <trkseg>
-      <trkpt lat="50.5022781" lon="4.105221"></trkpt>
-      <trkpt lat="50.5024286" lon="4.1051072"></trkpt>
-      <trkpt lat="50.5023509" lon="4.1048441"></trkpt>
-      <trkpt lat="50.5021969" lon="4.1049619"></trkpt>
-      <trkpt lat="50.5018985" lon="4.1051926"></trkpt>
-      <trkpt lat="50.5019511" lon="4.1053602"></trkpt>
+      <trkpt lat="50.5019964" lon="4.1054371"></trkpt>
+      <trkpt lat="50.5024338" lon="4.1051003"></trkpt>
+      <trkpt lat="50.5023526" lon="4.1048413"></trkpt>
+      <trkpt lat="50.5019372" lon="4.1051618"></trkpt>
+      <trkpt lat="50.5018986" lon="4.1051926"></trkpt>
+      <trkpt lat="50.5019512" lon="4.1053601"></trkpt>
       <trkpt lat="50.5019411" lon="4.1053678"></trkpt>
-      <trkpt lat="50.501956" lon="4.1054156"></trkpt>
-      <trkpt lat="50.5019831" lon="4.1053948"></trkpt>
-      <trkpt lat="50.5019963" lon="4.1054371"></trkpt>
-      <trkpt lat="50.5022781" lon="4.105221"></trkpt>
+      <trkpt lat="50.501956" lon="4.1054155"></trkpt>
+      <trkpt lat="50.5019831" lon="4.1053947"></trkpt>
+      <trkpt lat="50.5019964" lon="4.1054371"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -65898,22 +66120,24 @@ version="1.1" creator="togpx">
   <trk>
     <name>Colruyt</name>
     <trkseg>
-      <trkpt lat="50.4696077" lon="3.8160856"></trkpt>
-      <trkpt lat="50.4695169" lon="3.8159434"></trkpt>
-      <trkpt lat="50.4693835" lon="3.8157345"></trkpt>
-      <trkpt lat="50.4692895" lon="3.8158828"></trkpt>
-      <trkpt lat="50.4692502" lon="3.8158212"></trkpt>
-      <trkpt lat="50.4690907" lon="3.8160742"></trkpt>
-      <trkpt lat="50.4692911" lon="3.8163892"></trkpt>
-      <trkpt lat="50.4692557" lon="3.8164445"></trkpt>
-      <trkpt lat="50.4693911" lon="3.816655"></trkpt>
-      <trkpt lat="50.4694245" lon="3.8166024"></trkpt>
-      <trkpt lat="50.469405" lon="3.8165712"></trkpt>
-      <trkpt lat="50.4695898" lon="3.8162821"></trkpt>
-      <trkpt lat="50.4696376" lon="3.8162073"></trkpt>
-      <trkpt lat="50.4695841" lon="3.8161229"></trkpt>
-      <trkpt lat="50.4695963" lon="3.8161036"></trkpt>
-      <trkpt lat="50.4696077" lon="3.8160856"></trkpt>
+      <trkpt lat="50.4694434" lon="3.8158691"></trkpt>
+      <trkpt lat="50.4693077" lon="3.8160797"></trkpt>
+      <trkpt lat="50.4692005" lon="3.8162461"></trkpt>
+      <trkpt lat="50.4692903" lon="3.8163888"></trkpt>
+      <trkpt lat="50.4694055" lon="3.8165707"></trkpt>
+      <trkpt lat="50.4695334" lon="3.8163703"></trkpt>
+      <trkpt lat="50.4695974" lon="3.8162701"></trkpt>
+      <trkpt lat="50.4695546" lon="3.8162014"></trkpt>
+      <trkpt lat="50.4695691" lon="3.8161783"></trkpt>
+      <trkpt lat="50.4695659" lon="3.8161726"></trkpt>
+      <trkpt lat="50.4695791" lon="3.8161545"></trkpt>
+      <trkpt lat="50.4695751" lon="3.8161475"></trkpt>
+      <trkpt lat="50.4695883" lon="3.8161295"></trkpt>
+      <trkpt lat="50.4696007" lon="3.8161124"></trkpt>
+      <trkpt lat="50.4696146" lon="3.8160933"></trkpt>
+      <trkpt lat="50.4695182" lon="3.8159452"></trkpt>
+      <trkpt lat="50.469456" lon="3.8158495"></trkpt>
+      <trkpt lat="50.4694434" lon="3.8158691"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -66336,6 +66560,41 @@ version="1.1" creator="togpx">
       <trkpt lat="50.4324789" lon="3.8043896"></trkpt>
       <trkpt lat="50.4324654" lon="3.8044696"></trkpt>
       <trkpt lat="50.4324427" lon="3.8046041"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Lidl</name>
+    <trkseg>
+      <trkpt lat="50.4727302" lon="4.8180894"></trkpt>
+      <trkpt lat="50.4726384" lon="4.8193269"></trkpt>
+      <trkpt lat="50.4729744" lon="4.8193884"></trkpt>
+      <trkpt lat="50.4730034" lon="4.8188138"></trkpt>
+      <trkpt lat="50.4730247" lon="4.8183909"></trkpt>
+      <trkpt lat="50.4730357" lon="4.8181721"></trkpt>
+      <trkpt lat="50.4727302" lon="4.8180894"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Lidl</name>
+    <trkseg>
+      <trkpt lat="50.6048429" lon="3.4077333"></trkpt>
+      <trkpt lat="50.6046986" lon="3.4074438"></trkpt>
+      <trkpt lat="50.6044762" lon="3.4070107"></trkpt>
+      <trkpt lat="50.6044314" lon="3.4069235"></trkpt>
+      <trkpt lat="50.6041287" lon="3.4072543"></trkpt>
+      <trkpt lat="50.6042232" lon="3.407409"></trkpt>
+      <trkpt lat="50.6045838" lon="3.4079994"></trkpt>
+      <trkpt lat="50.6048429" lon="3.4077333"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Colruyt</name>
+    <trkseg>
+      <trkpt lat="50.7142029" lon="3.8168163"></trkpt>
+      <trkpt lat="50.7139516" lon="3.816712"></trkpt>
+      <trkpt lat="50.7138147" lon="3.8174958"></trkpt>
+      <trkpt lat="50.7140709" lon="3.8175914"></trkpt>
+      <trkpt lat="50.7142029" lon="3.8168163"></trkpt>
     </trkseg>
   </trk>
   <trk>
