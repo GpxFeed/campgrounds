@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-04-01T10:34:06Z", "timestamp_areas_base":
-      "2025-02-06T02:17:44Z", "copyright": "The data included in
+      "2025-05-01T10:08:49Z", "timestamp_areas_base":
+      "2024-12-31T00:49:33Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -19,7 +19,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.6418315" lon="-8.3604395">
     <ele>79</ele>
     <name>Thomond Scout Centre</name>
-    <desc>name=Thomond Scout Centre; tourism=camp_site;
+    <desc>name=Thomond Scout Centre; scout=yes; tourism=camp_site;
     id=node/390361120</desc>
   </wpt>
   <wpt lat="52.9259055" lon="-8.2745508">
@@ -244,8 +244,8 @@ version="1.1" creator="togpx">
   <wpt lat="52.5865102" lon="-8.886277">
     <ele>46</ele>
     <name>Curraghchase Scout Centre</name>
-    <desc>description=private. scouting Ireland; name=Curraghchase
-    Scout Centre; tourism=camp_site; id=node/9964956308</desc>
+    <desc>access=private; name=Curraghchase Scout Centre;
+    scout=yes; tourism=camp_site; id=node/9964956308</desc>
   </wpt>
   <wpt lat="52.796881" lon="-8.4424937">
     <ele>39</ele>
@@ -320,12 +320,6 @@ version="1.1" creator="togpx">
     <desc>caravans=no; static_caravans=yes; tents=no;
     tourism=camp_site; type=multipolygon;
     id=relation/5380047</desc>
-  </wpt>
-  <wpt lat="52.0436407" lon="-9.498859613203805">
-    <ele>27</ele>
-    <name>Flesk Camping</name>
-    <desc>name=Flesk Camping; tourism=camp_site; type=multipolygon;
-    id=relation/6293057</desc>
   </wpt>
   <wpt lat="54.0088533" lon="-10.020457308877841">
     <ele>12</ele>
@@ -618,6 +612,15 @@ version="1.1" creator="togpx">
     <name>Fossa Caravan &amp; Camping Park</name>
     <desc>caravans=yes; name=Fossa Caravan &amp; Camping Park;
     tents=yes; tourism=camp_site; id=way/217849537</desc>
+  </wpt>
+  <wpt lat="52.0436407" lon="-9.498859613203805">
+    <ele>27</ele>
+    <name>Flesk Camping</name>
+    <desc>contact:phone=+353 (0)64 6631704;
+    contact:website=https://www.killarneyfleskcamping.com/;
+    name=Flesk Camping; stars=4; tourism=camp_site;
+    id=way/217936675</desc>
+    <link href="https://www.killarneyfleskcamping.com/"></link>
   </wpt>
   <wpt lat="52.383427749999996" lon="-6.376288977136865">
     <ele>19</ele>
@@ -1161,7 +1164,8 @@ version="1.1" creator="togpx">
   <wpt lat="53.0514994" lon="-6.277783278028848">
     <ele>264</ele>
     <name>Wicklow Way Camping</name>
-    <desc>access=private; name=Wicklow Way Camping;
+    <desc>capacity:tents=10; caravans=no; internet_access=wlan;
+    name=Wicklow Way Camping; shower=hot; tents=yes; toilets=yes;
     tourism=camp_site; website=https://www.wicklowwaycamping.com/;
     id=way/973238049</desc>
     <link href="https://www.wicklowwaycamping.com/"></link>
@@ -1218,7 +1222,7 @@ version="1.1" creator="togpx">
     <name>Kilcully Scout Campsite</name>
     <desc>access=private; amenity=community_centre;
     community_centre=club_home; community_centre:for=scout;
-    name=Kilcully Scout Campsite; start_date=1970;
+    name=Kilcully Scout Campsite; scout=yes; start_date=1970;
     tourism=camp_site; website=https://kilcully.com/;
     id=way/1115843113</desc>
     <link href="https://kilcully.com/"></link>
@@ -1437,6 +1441,13 @@ version="1.1" creator="togpx">
     <desc>name=Ardinary Park; tourism=camp_site;
     id=way/1373498660</desc>
   </wpt>
+  <wpt lat="54.21801175" lon="-9.979323465359046">
+    <ele>25</ele>
+    <name>way/1378766334</name>
+    <desc>caravans=no; description=Farmyard glamping.; fee=yes;
+    static_caravans=no; tents=no; tourism=camp_site;
+    id=way/1378766334</desc>
+  </wpt>
   <trk>
     <name>Rosses Point Caravan &amp; Camping Park</name>
     <trkseg>
@@ -1538,25 +1549,6 @@ version="1.1" creator="togpx">
       <trkpt lat="55.1719789" lon="-7.9017835"></trkpt>
       <trkpt lat="55.171704" lon="-7.9019906"></trkpt>
       <trkpt lat="55.1718216" lon="-7.9028395"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Flesk Camping</name>
-    <trkseg>
-      <trkpt lat="52.042649" lon="-9.4973909"></trkpt>
-      <trkpt lat="52.0430846" lon="-9.4975358"></trkpt>
-      <trkpt lat="52.0433852" lon="-9.4976784"></trkpt>
-      <trkpt lat="52.0438896" lon="-9.4980722"></trkpt>
-      <trkpt lat="52.0439968" lon="-9.4982047"></trkpt>
-      <trkpt lat="52.0444208" lon="-9.4987374"></trkpt>
-      <trkpt lat="52.044632" lon="-9.4990002"></trkpt>
-      <trkpt lat="52.0437082" lon="-9.499998"></trkpt>
-      <trkpt lat="52.0435732" lon="-9.4996847"></trkpt>
-      <trkpt lat="52.0433848" lon="-9.4996708"></trkpt>
-      <trkpt lat="52.0431839" lon="-9.4994755"></trkpt>
-      <trkpt lat="52.0427724" lon="-9.4983893"></trkpt>
-      <trkpt lat="52.0425174" lon="-9.4977911"></trkpt>
-      <trkpt lat="52.042649" lon="-9.4973909"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -2504,6 +2496,25 @@ version="1.1" creator="togpx">
       <trkpt lat="52.0705773" lon="-9.5850722"></trkpt>
       <trkpt lat="52.0705707" lon="-9.584568"></trkpt>
       <trkpt lat="52.0705905" lon="-9.584053"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Flesk Camping</name>
+    <trkseg>
+      <trkpt lat="52.0438896" lon="-9.4980722"></trkpt>
+      <trkpt lat="52.0439968" lon="-9.4982047"></trkpt>
+      <trkpt lat="52.0444208" lon="-9.4987374"></trkpt>
+      <trkpt lat="52.044632" lon="-9.4990002"></trkpt>
+      <trkpt lat="52.0437082" lon="-9.499998"></trkpt>
+      <trkpt lat="52.0435732" lon="-9.4996847"></trkpt>
+      <trkpt lat="52.0433848" lon="-9.4996708"></trkpt>
+      <trkpt lat="52.0431839" lon="-9.4994755"></trkpt>
+      <trkpt lat="52.0427724" lon="-9.4983893"></trkpt>
+      <trkpt lat="52.0425174" lon="-9.4977911"></trkpt>
+      <trkpt lat="52.042649" lon="-9.4973909"></trkpt>
+      <trkpt lat="52.0430846" lon="-9.4975358"></trkpt>
+      <trkpt lat="52.0433852" lon="-9.4976784"></trkpt>
+      <trkpt lat="52.0438896" lon="-9.4980722"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -4745,6 +4756,22 @@ version="1.1" creator="togpx">
       <trkpt lat="52.8698664" lon="-6.0699409"></trkpt>
       <trkpt lat="52.8699004" lon="-6.0700133"></trkpt>
       <trkpt lat="52.869996" lon="-6.0702332"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1378766334</name>
+    <trkseg>
+      <trkpt lat="54.2179677" lon="-9.9796377"></trkpt>
+      <trkpt lat="54.2177705" lon="-9.979281"></trkpt>
+      <trkpt lat="54.2179853" lon="-9.978978"></trkpt>
+      <trkpt lat="54.2180229" lon="-9.9790563"></trkpt>
+      <trkpt lat="54.2181975" lon="-9.9793526"></trkpt>
+      <trkpt lat="54.2182464" lon="-9.9794355"></trkpt>
+      <trkpt lat="54.2180789" lon="-9.979729"></trkpt>
+      <trkpt lat="54.2180196" lon="-9.9796273"></trkpt>
+      <trkpt lat="54.2180039" lon="-9.9796004"></trkpt>
+      <trkpt lat="54.2179879" lon="-9.979573"></trkpt>
+      <trkpt lat="54.2179677" lon="-9.9796377"></trkpt>
     </trkseg>
   </trk>
 </gpx>
