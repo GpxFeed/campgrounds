@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-07-07T17:44:40Z", "timestamp_areas_base":
-      "2025-07-07T15:06:26Z", "copyright": "The data included in
+      "2025-08-01T09:58:55Z", "timestamp_areas_base":
+      "2025-08-01T04:12:55Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1251,15 +1251,16 @@ version="1.1" creator="togpx">
     <name>De Vlisterhoeve</name>
     <desc>capacity=25; capacity:pitches=25;
     caravan_site=motorhome_stopover; caravan_site:type=farm;
-    caravans=no; charge=17 EUR; fee=yes; landcover=grass;
-    motorhome=designated; name=De Vlisterhoeve; phone=+31 6
-    38702400; power_supply=yes; power_supply:charge=2.50 EUR/night;
-    reservation=no; sanitary_dump_station=yes;
+    caravans=no; charge=17 EUR; drinking_water=yes; fee=yes;
+    internet_access=no; landcover=grass; motorhome=designated;
+    name=De Vlisterhoeve; phone=+31 6 38702400; power_supply=yes;
+    power_supply:charge=2.50 EUR/night; reservation=no;
+    sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; shower=no; tents=no;
-    toilets=yes; tourism=caravan_site;
+    toilets=yes; toilets:wheelchair=no; tourism=caravan_site;
     website=https://www.vlisterhoeve.nl/de-camperplaats;
-    id=way/95370727</desc>
+    wheelchair=limited; id=way/95370727</desc>
     <link href="https://www.vlisterhoeve.nl/de-camperplaats">
     </link>
   </wpt>
@@ -1512,7 +1513,7 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>Camperplaats Wijhe</name>
     <desc>capacity=10; caravan_site=motorhome_stopover;
-    caravan_site:type=harbour; charge=22 EUR; fee=yes;
+    caravan_site:type=harbour; charge=23 EUR; fee=yes;
     name=Camperplaats Wijhe; operator=NKC; power_supply=yes;
     sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
@@ -3354,7 +3355,7 @@ version="1.1" creator="togpx">
     internet_access=wlan; internet_access:fee=no; laundry=yes;
     motorhome=designated; name=Kleindorp; phone=+31 6 83620510;
     power_supply=yes; power_supply:maxcurrent=6; shower=yes;
-    tents=yes; toilets=yes; tourism=caravan_site;
+    tents=no; toilets=yes; tourism=caravan_site;
     website=https://camperplaatskleindorp.nl/;
     id=way/1193140421</desc>
     <link href="https://camperplaatskleindorp.nl/"></link>
@@ -4097,12 +4098,18 @@ version="1.1" creator="togpx">
   <wpt lat="52.7874617" lon="6.88701542277968">
     <ele>24</ele>
     <name>Camperplaats P-Noord Emmen Centrum</name>
-    <desc>capacity=21; caravans=no; charge=15 EUR; dog=yes;
-    fee=yes; maxlength=10; maxstay=72 hours; motorhome=designated;
-    name=Camperplaats P-Noord Emmen Centrum; opening_hours=Jan-Dec;
-    operator=Gemeente Emmen; power_supply=yes;
-    sanitary_dump_station=customers; surface=asphalt; tents=no;
-    tourism=caravan_site; water_point=yes; id=way/1335710624</desc>
+    <desc>cabins=no; capacity=21; caravan_site=motorhome_stopover;
+    caravan_site:type=village; caravans=no; charge=18.40 EUR;
+    dog=yes; fee=yes; maxlength=10; maxstay=72 hours;
+    motorhome=designated; name=Camperplaats P-Noord Emmen Centrum;
+    opening_hours=Jan-Dec; operator=Gemeente Emmen;
+    power_supply=yes; power_supply:charge=0.70 EUR/KWh;
+    power_supply:fee=yes; sanitary_dump_station=customers;
+    surface=asphalt; tents=no; toilets=no; tourism=caravan_site;
+    water_point=yes;
+    website=https://gemeente.emmen.nl/camperplaats;
+    id=way/1335710624</desc>
+    <link href="https://gemeente.emmen.nl/camperplaats"></link>
   </wpt>
   <wpt lat="53.16160945" lon="6.860735738632409">
     <ele>0</ele>
@@ -5820,14 +5827,6 @@ version="1.1" creator="togpx">
     website=https://www.steeinlhee.nl; id=way/1353950694</desc>
     <link href="https://www.steeinlhee.nl"></link>
   </wpt>
-  <wpt lat="52.78114415" lon="6.903025902459687">
-    <ele>23</ele>
-    <name>Parkeerplaats Oost Emmen</name>
-    <desc>caravan_site=motorhome_stopover; caravan_site:type=city;
-    caravans=no; dog=yes; fee=no; maxstay=72 hours;
-    name=Parkeerplaats Oost Emmen; sanitary_dump_station=no;
-    tents=no; tourism=caravan_site; id=way/1353956063</desc>
-  </wpt>
   <wpt lat="52.79411475" lon="6.80019719834457">
     <ele>18</ele>
     <name>Camperplaats Noord-Sleen, Drenthe</name>
@@ -6120,6 +6119,13 @@ version="1.1" creator="togpx">
     tourism=caravan_site; website=https://bij-frans.nl/;
     id=way/1399690828</desc>
     <link href="https://bij-frans.nl/"></link>
+  </wpt>
+  <wpt lat="53.0476008" lon="5.823852377384556">
+    <ele>-2</ele>
+    <name>way/1416305042</name>
+    <desc>internet_access=yes; internet_access:fee=yes;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; id=way/1416305042</desc>
   </wpt>
   <trk>
     <name>Camperplaats Landgraaf</name>
@@ -12307,16 +12313,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Parkeerplaats Oost Emmen</name>
-    <trkseg>
-      <trkpt lat="52.7809732" lon="6.902797"></trkpt>
-      <trkpt lat="52.7809484" lon="6.9032744"></trkpt>
-      <trkpt lat="52.7813763" lon="6.9032543"></trkpt>
-      <trkpt lat="52.7813151" lon="6.9027762"></trkpt>
-      <trkpt lat="52.7809732" lon="6.902797"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Camperplaats Noord-Sleen, Drenthe</name>
     <trkseg>
       <trkpt lat="52.793889" lon="6.7998188"></trkpt>
@@ -12672,6 +12668,16 @@ version="1.1" creator="togpx">
       <trkpt lat="52.1108096" lon="5.5098689"></trkpt>
       <trkpt lat="52.1109052" lon="5.509834"></trkpt>
       <trkpt lat="52.1109595" lon="5.5097696"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1416305042</name>
+    <trkseg>
+      <trkpt lat="53.0479905" lon="5.8246384"></trkpt>
+      <trkpt lat="53.047232" lon="5.8230206"></trkpt>
+      <trkpt lat="53.0472038" lon="5.8230629"></trkpt>
+      <trkpt lat="53.0479696" lon="5.8246729"></trkpt>
+      <trkpt lat="53.0479905" lon="5.8246384"></trkpt>
     </trkseg>
   </trk>
 </gpx>
