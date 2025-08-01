@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-07-07T17:24:01Z", "timestamp_areas_base":
-      "2025-07-07T15:06:26Z", "copyright": "The data included in
+      "2025-08-01T09:45:32Z", "timestamp_areas_base":
+      "2025-08-01T08:00:16Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -111,16 +111,18 @@ version="1.1" creator="togpx">
   <wpt lat="55.2477811" lon="9.4999642">
     <ele>0.0</ele>
     <name>Haderslev Sejl-Clubs Autocamper Plads</name>
-    <desc>bbq=yes; caravans=no; charge=DKK 170;
-    check_date=2024-07-28; fee=yes; internet_access=wlan;
-    laundry=yes; motorhome=yes; name=Haderslev Sejl-Clubs
-    Autocamper Plads; opening_hours=24/7; payment:cash=yes;
-    payment:description=before 18:00; payment:visa=yes;
-    payment:visa_contactless=yes; power_supply=yes;
-    sanitary_dump_station=yes;
+    <desc>bbq=yes; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour,city; caravans=no; charge=DKK 170;
+    check_date=2024-07-28; drinking_water=yes; fee=yes;
+    internet_access=wlan; laundry=yes; motorhome=yes;
+    name=Haderslev Sejl-Clubs Autocamper Plads; opening_hours=24/7;
+    payment:cash=yes; payment:description=before 18:00;
+    payment:visa=yes; payment:visa_contactless=yes;
+    picnic_table=yes; power_supply=yes; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; seasonal=summer;
-    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
+    shower=yes; surface=pebblestone; tents=no; toilets=yes;
+    tourism=caravan_site;
     website=https://www.haderslevsejlclub.dk/gaester-guests/info-dk/autocampere/;
     id=node/4993198722</desc>
     <link href="https://www.haderslevsejlclub.dk/gaester-guests/info-dk/autocampere/">
@@ -141,10 +143,10 @@ version="1.1" creator="togpx">
     <ele>60.0</ele>
     <name>Autocamperplads Meny Aarup</name>
     <desc>capacity=3; caravan_site=motorhome_stopover;
-    description=Motorhome overnight parking.; fee=no;
-    name=Autocamperplads Meny Aarup; operator=MENY;
-    power_supply=no; sanitary_dump_station=no;
-    tourism=caravan_site; id=node/5287486450</desc>
+    caravan_site:type=supermarket; description=Motorhome overnight
+    parking.; fee=no; name=Autocamperplads Meny Aarup;
+    operator=MENY; power_supply=no; sanitary_dump_station=no;
+    tourism=caravan_site; water_point=no; id=node/5287486450</desc>
   </wpt>
   <wpt lat="55.2723222" lon="9.4969607">
     <ele>39.0</ele>
@@ -166,19 +168,6 @@ version="1.1" creator="togpx">
     website=https://sulkendrupmoelle.dk/Overnatning.html;
     id=node/5871532185</desc>
     <link href="https://sulkendrupmoelle.dk/Overnatning.html">
-    </link>
-  </wpt>
-  <wpt lat="55.0847289" lon="10.8797573">
-    <ele>16.0</ele>
-    <name>Fuglsang Ferie</name>
-    <desc>caravan_site=motorhome_stopover;
-    caravan_site:type=guest_house; charge=DKK 150;
-    drinking_water=no; fee=yes; name=Fuglsang Ferie;
-    permanent_camping=no; phone=+45 20481594; power_supply=no;
-    shower=yes; toilets=yes; tourism=caravan_site;
-    website=https://www.fuglsangferie.dk/Om/shelter%2C%20telt%20%26%20autocamper;
-    id=node/6041269925</desc>
-    <link href="https://www.fuglsangferie.dk/Om/shelter%2C%20telt%20%26%20autocamper">
     </link>
   </wpt>
   <wpt lat="55.0620557" lon="10.8626166">
@@ -376,13 +365,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.0608048" lon="10.3791337">
     <ele>0.0</ele>
-    <name>Fjellebroen</name>
+    <name>Fjellebroen Havn</name>
     <desc>caravan_site:type=harbour; caravans=no; charge=DKK 160;
     description=Pris pr. døgn: kr. 160 (€20),- betaling i
     klubhuset/mobilepay inden kl. 22:00; fee=yes;
-    internet_access=wlan; name=Fjellebroen; power_supply=yes;
-    sanitary_dump_station=yes; tents=no; tourism=caravan_site;
-    water_point=yes; website=https://www.fjellebroenhavn.dk/;
+    internet_access=wlan; internet_access:fee=no; name=Fjellebroen
+    Havn; power_supply=yes; sanitary_dump_station=yes; tents=no;
+    tourism=caravan_site; water_point=yes;
+    website=https://www.fjellebroenhavn.dk/;
     id=node/10739804722</desc>
     <link href="https://www.fjellebroenhavn.dk/"></link>
   </wpt>
@@ -447,13 +437,13 @@ version="1.1" creator="togpx">
   <wpt lat="55.7541165" lon="11.3239743">
     <ele>0.0</ele>
     <name>Havnsø Havn</name>
-    <desc>charge=DKK 146; fee=yes; name=Havnsø Havn;
+    <desc>charge=179 DKK; fee=yes; name=Havnsø Havn;
     power_supply=yes; power_supply:fee=yes; tents=no;
     tourism=caravan_site;
-    website=https://www.kalundborg.dk/borger/veje-teknik-og-miljoe/havne;
+    website=https://www.havneguide.dk/havn/havnsoe-havn;
     wikimedia_commons=File:Havnsø Havn Caravan site.jpg;
     id=node/10763554546</desc>
-    <link href="https://www.kalundborg.dk/borger/veje-teknik-og-miljoe/havne">
+    <link href="https://www.havneguide.dk/havn/havnsoe-havn">
     </link>
   </wpt>
   <wpt lat="54.9686269" lon="10.2073583">
@@ -496,12 +486,15 @@ version="1.1" creator="togpx">
     <ele>7.0</ele>
     <name>Faxe Ladeplads Lystbådehavn</name>
     <desc>caravan_site=motorhome_stopover;
-    caravan_site:type=harbour; charge=DKK 150; fee=yes; maxstay=1
-    day; name=Faxe Ladeplads Lystbådehavn; phone=+45 56716232;
-    power_supply=yes; toilets=yes; tourism=caravan_site;
-    website=https://faxeladepladslystbaadehavn.dk;
+    caravan_site:type=harbour; charge=DKK 150; fee=yes;
+    internet_access=wlan; maxstay=1 day; name=Faxe Ladeplads
+    Lystbådehavn; phone=+45 56716232; power_supply=yes;
+    power_supply:fee=no; shower=yes; toilets=yes;
+    tourism=caravan_site; water_point=yes;
+    website=https://faxeladepladslystbaadehavn.dk/autocamper.html;
     id=node/11027987125</desc>
-    <link href="https://faxeladepladslystbaadehavn.dk"></link>
+    <link href="https://faxeladepladslystbaadehavn.dk/autocamper.html">
+    </link>
   </wpt>
   <wpt lat="55.3413902" lon="8.7648448">
     <ele>3.0</ele>
@@ -813,7 +806,7 @@ version="1.1" creator="togpx">
     <link href="https://www.herning.dk/borger/trafik-og-veje/parkering/autocamper/">
     </link>
   </wpt>
-  <wpt lat="56.137557" lon="8.9657714">
+  <wpt lat="56.1378357" lon="8.9653516">
     <ele>59.0</ele>
     <name>Markedspladsen Herning Autocamperplads</name>
     <desc>capacity=4; caravan_site:type=parking_lot; fee=no;
@@ -866,10 +859,11 @@ version="1.1" creator="togpx">
     <ele>49.0</ele>
     <name>Autocamper-parkering ved Sportscenter Danmark,
     Vejen</name>
-    <desc>capacity=8; caravan_site:type=sports_centre; charge=DKK
-    150 including power_supply; fee=yes; internet_access=wlan;
-    name=Autocamper-parkering ved Sportscenter Danmark, Vejen;
-    power_supply=customers; sanitary_dump_station=yes;
+    <desc>capacity=8; caravan_site=motorhome_stopover;
+    caravan_site:type=sports_centre; charge=200 DKK; fee=yes;
+    internet_access=wlan; name=Autocamper-parkering ved
+    Sportscenter Danmark, Vejen; power_supply=customers;
+    power_supply:fee=no; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; tourism=caravan_site;
     water_point=yes;
@@ -1175,13 +1169,15 @@ version="1.1" creator="togpx">
   <wpt lat="56.0227502" lon="10.2644813">
     <ele>1.0</ele>
     <name>Norsminde Lystbådehavn</name>
-    <desc>capacity=10; caravan_site:type=harbour; caravans=no;
+    <desc>capacity=14; caravan_site:type=harbour; caravans=no;
     charge=DKK 200; description=Fee includes all facilities.
-    Payment terminal at the toiliets; fee=200 DKK; name=Norsminde
+    Payment terminal at the toiliets; fee=200 DKK;
+    internet_access=wlan; internet_access:fee=no; name=Norsminde
     Lystbådehavn; power_supply=yes; sanitary_dump_station=yes;
-    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
-    water_point=yes; website=https://norsmindehavn.dk/;
-    wheelchair=yes; id=node/11069667580</desc>
+    shower=yes; swimming_pool=no; tents=no; toilets=yes;
+    tourism=caravan_site; water_point=yes;
+    website=https://norsmindehavn.dk/; wheelchair=yes;
+    id=node/11069667580</desc>
     <link href="https://norsmindehavn.dk/"></link>
   </wpt>
   <wpt lat="56.6109927" lon="10.3039339">
@@ -1476,8 +1472,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.5380759" lon="9.7642212">
     <ele>2.0</ele>
     <name>Strib Bådehavn</name>
-    <desc>bbq=yes; charge=DKK 160; fee=yes; kitchen=yes;
-    laundry=yes; name=Strib Bådehavn; sanitary_dump_station=yes;
+    <desc>bbq=yes; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; charge=195 DKK; fee=yes;
+    kitchen=yes; laundry=yes; name=Strib Bådehavn;
+    sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes; shower=yes;
     toilets=yes; tourism=caravan_site;
     website=https://stribhavn.dk/gaester/;
@@ -1544,11 +1542,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="54.9120888" lon="9.5998701">
     <ele>2.0</ele>
-    <name>Gråsten Sejlklub</name>
+    <name>Autocamperplads</name>
     <desc>bbq=yes; capacity=5; caravan_site:type=harbour;
-    caravans=no; charge=DKK 135; fee=yes; name=Gråsten Sejlklub;
-    opening_hours=May-Sep; power_supply=yes; power_supply:fee=yes;
-    reservation=no; tents=no; tourism=caravan_site;
+    caravans=no; charge=DKK 135/day; fee=yes; name=Autocamperplads;
+    opening_hours=May 1 - Oct 15; operator=Gråsten Sejlklub;
+    power_supply=yes; power_supply:fee=yes; reservation=no;
+    seasonal=yes; tents=no; tourism=caravan_site;
     website=https://www.graasten-sejlklub.dk/autocamper;
     id=node/11070324160</desc>
     <link href="https://www.graasten-sejlklub.dk/autocamper">
@@ -1557,16 +1556,16 @@ version="1.1" creator="togpx">
   <wpt lat="55.4929265" lon="9.7306976">
     <ele>1.0</ele>
     <name>Middelfart Marina</name>
-    <desc>caravan_site:type=harbour; caravans=no; charge=DKK 165;
-    fee=yes; internet_access=wlan; internet_access:fee=no;
-    name=Middelfart Marina; power_supply=yes;
-    sanitary_dump_station=yes;
+    <desc>caravan_site:type=harbour; caravans=no; charge=180 DKK;
+    charge:conditional=90 DKK @ (Oct 21-Mar 27); fee=yes;
+    internet_access=wlan; internet_access:fee=no; name=Middelfart
+    Marina; power_supply=yes; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; tents=no; toilets=no;
     tourism=caravan_site; water_point=yes;
-    website=https://marina.middelfart.dk/havne-og-havnekontor/havne/middelfart-marina/;
+    website=https://marina.middelfart.dk/takster-og-reglementer/oevrige-takster;
     wheelchair=yes; id=node/11070324161</desc>
-    <link href="https://marina.middelfart.dk/havne-og-havnekontor/havne/middelfart-marina/">
+    <link href="https://marina.middelfart.dk/takster-og-reglementer/oevrige-takster">
     </link>
   </wpt>
   <wpt lat="54.8707583" lon="11.74529">
@@ -1760,8 +1759,8 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.9512334" lon="8.6971551">
     <ele>-1.0</ele>
-    <name>Thisted Sejlklub</name>
-    <desc>charge=150 DKK; fee=yes; name=Thisted Sejlklub;
+    <name>Autocamperplads</name>
+    <desc>charge=150 DKK; fee=yes; name=Autocamperplads;
     tourism=caravan_site; id=node/11093410404</desc>
   </wpt>
   <wpt lat="56.7929482" lon="8.8792323">
@@ -1827,7 +1826,7 @@ version="1.1" creator="togpx">
     <ele>16.0</ele>
     <name>Tullebølle Fritidspark</name>
     <desc>bbq=yes; caravan_site=motorhome_stopover;
-    caravan_site:type=park; caravans=no; charge=50 DKK;
+    caravan_site:type=park; caravans=no; charge=60 DKK;
     dog=leashed; fee=yes; name=Tullebølle Fritidspark;
     opening_hours=24/7; playground=yes; power_supply=no;
     sanitary_dump_station=no; tents=no; toilets=yes;
@@ -1923,6 +1922,15 @@ version="1.1" creator="togpx">
     <link href="https://bookenshelter.dk/naturlandet/shelterplads/lundehoeje-havn/">
     </link>
   </wpt>
+  <wpt lat="56.3236354" lon="10.4527824">
+    <ele>81.0</ele>
+    <name>Bannislund</name>
+    <desc>access=customers;
+    contact:facebook=https://www.facebook.com/bannislund/;
+    email=fk@danskhusoghaveservice.dk; fee=yes; name=Bannislund;
+    phone=+45 25 78 28 81; power_supply=yes; tourism=caravan_site;
+    id=node/12738394611</desc>
+  </wpt>
   <wpt lat="55.7896558" lon="11.4816624">
     <ele>2.0</ele>
     <name>Anne-Marie Kyhl Sørensen</name>
@@ -1964,20 +1972,35 @@ version="1.1" creator="togpx">
     water_point=yes; water_point:fee=yes;
     id=node/12965101453</desc>
   </wpt>
-  <wpt lat="56.4555644" lon="9.4071538">
-    <ele>48.0</ele>
-    <name>Viborg Autocamperplads</name>
-    <desc>capacity=6; caravan_site=motorhome_stopover;
-    caravan_site:type=city; caravans=no; fee=no; maxstay=24 hours;
-    name=Viborg Autocamperplads; power_supply=no;
-    sanitary_dump_station=no; surface=asphalt; toilets=no;
-    tourism=caravan_site; water_point=no;
-    id=node/12977232906</desc>
-  </wpt>
   <wpt lat="56.5576026" lon="9.2165964">
     <ele>14.0</ele>
     <name>node/12980301343</name>
     <desc>tourism=caravan_site; id=node/12980301343</desc>
+  </wpt>
+  <wpt lat="55.3223145" lon="9.3016021">
+    <ele>40.0</ele>
+    <name>Elmegård</name>
+    <desc>caravan_site=motorhome_stopover;
+    caravan_site:type=farm_shop; name=Elmegård; network=pintrip;
+    tourism=caravan_site; id=node/12992422144</desc>
+  </wpt>
+  <wpt lat="55.5681381" lon="10.0782924">
+    <ele>0.0</ele>
+    <name>Bogense Havn &amp; Marina</name>
+    <desc>email=per@bys.dk; internet_access=wlan; name=Bogense Havn
+    &amp; Marina; phone=+45 64 81 36 75; tourism=caravan_site;
+    website=https://www.bys.dk/autocamper-parkering;
+    id=node/13027921101</desc>
+    <link href="https://www.bys.dk/autocamper-parkering"></link>
+  </wpt>
+  <wpt lat="55.5684246" lon="10.0783426">
+    <ele>1.0</ele>
+    <name>Bogense Havn &amp; Marina</name>
+    <desc>email=per@bys.dk; name=Bogense Havn &amp; Marina;
+    phone=+45 64 81 36 75; tourism=caravan_site;
+    website=https://www.bys.dk/autocamper-parkering;
+    id=node/13027945401</desc>
+    <link href="https://www.bys.dk/autocamper-parkering"></link>
   </wpt>
   <wpt lat="55.449817249999995" lon="11.800821304339422">
     <ele>50.0</ele>
@@ -2249,7 +2272,7 @@ version="1.1" creator="togpx">
   <wpt lat="55.2626202" lon="9.706852568035112">
     <ele>1.0</ele>
     <name>Aarøsund Autocamper Plads</name>
-    <desc>charge=DKK 155; drinking_water=yes; fee=yes;
+    <desc>charge=165 DKK; drinking_water=yes; fee=yes;
     internet_access=wlan; internet_access:fee=no; name=Aarøsund
     Autocamper Plads; operator=Aarøsund Lystbådehavn;
     permanent_camping=yes; power_supply=yes;
@@ -2399,12 +2422,12 @@ version="1.1" creator="togpx">
   <wpt lat="54.898294449999995" lon="9.797547016068155">
     <ele>2.0</ele>
     <name>Sønderborg Lystbådehavn Autocamperplads</name>
-    <desc>bbq=yes; capacity=30; caravan_site:type=harbour;
-    caravans=no; charge=185 DKK; drinking_water=yes; fee=yes;
-    laundry=yes; name=Sønderborg Lystbådehavn Autocamperplads;
-    operator=Sønderborg Lystbådehavn; phone=+45 27848525;
-    power_supply=yes; power_supply:charge=DKK 25;
-    power_supply:fee=yes; reservation=no;
+    <desc>bbq=yes; capacity=30; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=no; charge=187 DKK;
+    drinking_water=yes; fee=yes; laundry=yes; name=Sønderborg
+    Lystbådehavn Autocamperplads; operator=Sønderborg Lystbådehavn;
+    phone=+45 27848525; power_supply=yes; power_supply:charge=DKK
+    25; power_supply:fee=yes; reservation=no;
     sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:fee=no; seasonal=summer; tents=no;
@@ -2463,21 +2486,19 @@ version="1.1" creator="togpx">
     <name>Bogense Havn og Marina, Marinavej</name>
     <desc>capacity=7; caravan_site:type=harbour; caravans=no;
     charge=190 DKK; fee=yes; name=Bogense Havn og Marina,
-    Marinavej; power_supply=yes; shower=yes; shower:charge=20 DKK;
-    shower:fee=yes; tents=no; tourism=caravan_site;
-    wikimedia_commons=File:Bogense Havn Marinavej Motorhome
-    stopover.jpg; id=way/1002262304</desc>
+    Marinavej; power_supply=yes; power_supply:fee=no; shower=yes;
+    shower:charge=20 DKK; shower:fee=yes; surface=paving_stones;
+    tents=no; tourism=caravan_site; wikimedia_commons=File:Bogense
+    Havn Marinavej Motorhome stopover.jpg; id=way/1002262304</desc>
   </wpt>
   <wpt lat="55.566286250000005" lon="10.080688418281767">
     <ele>-1.0</ele>
-    <name>Bogense autocamper parkering</name>
-    <desc>alt_name=Bogense Havn &amp; Marina Sejlerkajen;
-    capacity=5; caravans=no; charge=190 DKK; fee=yes; name=Bogense
-    autocamper parkering; operator=Bogense Yacht Service; phone=+45
-    64813675; power_supply=yes; power_supply:charge=35 DKK;
-    power_supply:fee=yes; shower=yes; shower:charge=20 DKK;
-    shower:fee=yes; surface=grass; tents=no; tourism=caravan_site;
-    water_point=yes;
+    <name>Bogense Havn &amp; Marina Sejlerkajen</name>
+    <desc>capacity=5; caravans=no; charge=190 DKK; fee=yes;
+    name=Bogense Havn &amp; Marina Sejlerkajen; phone=+45 64813675;
+    power_supply=yes; power_supply:fee=no; shower=yes;
+    shower:charge=20 DKK; shower:fee=yes; surface=grass; tents=no;
+    tourism=caravan_site; water_point=yes;
     website=https://www.nordfynskommune.dk/fritid-og-faellesskaber/fritid/bogense-havn-og-marina/praktiske-oplysninger/;
     wikimedia_commons=File:Bogense Autocamper Bro 32.jpg;
     id=way/1002263002</desc>
@@ -3255,7 +3276,7 @@ version="1.1" creator="togpx">
   <wpt lat="56.8348857" lon="8.97687171258993">
     <ele>8.0</ele>
     <name>FUR Camping - CamperStop</name>
-    <desc>capacity=12; internet_access=wlan;
+    <desc>capacity=12; fee=yes; internet_access=wlan;
     internet_access:fee=yes; name=FUR Camping - CamperStop;
     power_supply=yes; sanitary_dump_station=yes; surface=gravel;
     tourism=caravan_site;
@@ -3523,5 +3544,52 @@ version="1.1" creator="togpx">
     website=http://www.loekkenbondegaardsferie.dk/;
     id=way/1395172263</desc>
     <link href="http://www.loekkenbondegaardsferie.dk/"></link>
+  </wpt>
+  <wpt lat="56.4555531" lon="9.407223273711033">
+    <ele>48.0</ele>
+    <name>Viborg Autocamperplads</name>
+    <desc>capacity=6; caravan_site=motorhome_stopover;
+    caravan_site:type=city; caravans=no; fee=no; maxstay=24 hours;
+    name=Viborg Autocamperplads; power_supply=no;
+    sanitary_dump_station=no; surface=asphalt; toilets=no;
+    tourism=caravan_site; water_point=no; id=way/1413075175</desc>
+  </wpt>
+  <wpt lat="55.56841215" lon="10.078440600000004">
+    <ele>1.0</ele>
+    <name>Bogense autocamper parkering</name>
+    <desc>capacity=12; caravans=no; charge=150 DKK;
+    email=info@mysite.com; fee=yes; name=Bogense autocamper
+    parkering; phone=+45 64813675; power_supply=yes;
+    power_supply:charge=35 DKK; power_supply:fee=yes;
+    reservation=required; tourism=caravan_site; water_point=yes;
+    water_point:fee=no;
+    website=https://www.bys.dk/autocamper-parkering;
+    id=way/1415009649</desc>
+    <link href="https://www.bys.dk/autocamper-parkering"></link>
+  </wpt>
+  <wpt lat="55.97497505" lon="8.89879590286202">
+    <ele>20.0</ele>
+    <name>Skarrild Kanoplads</name>
+    <desc>capacity=2; caravan_site=motorhome_stopover; caravans=no;
+    fee=no; name=Skarrild Kanoplads; picnic_table=yes;
+    power_supply=no; sanitary_dump_station=no; surface=compacted;
+    toilets=yes; tourism=caravan_site; water_point=no;
+    id=way/1415132568</desc>
+  </wpt>
+  <wpt lat="55.50523095" lon="9.73746836298733">
+    <ele>0.0</ele>
+    <name>Ny Havn 2</name>
+    <desc>capacity=20; charge=DKK 200; description=For et par
+    timers parkering,betales når man forlader pladsen. For et døgns
+    parkering, betales ved ankomst i automat/mobilepay; fee=yes;
+    internet_access=yes; internet_access:fee=no; name=Ny Havn 2;
+    note=lukket, men sat til salg. Mangler servicebygning.;
+    permanent_camping=no; power_supply=yes;
+    sanitary_dump_station=yes; toilets=yes; tourism=caravan_site;
+    water_point=yes;
+    website=https://nyhavn2middelfart.dk/autocamperplads/;
+    id=way/1418173461</desc>
+    <link href="https://nyhavn2middelfart.dk/autocamperplads/">
+    </link>
   </wpt>
 </gpx>
