@@ -1,26 +1,30 @@
 #!/bin/bash
 
 # A simple example script to delete all track segments in a GPX file set.
-#  - Reads file list from directory "SOURCE"
+#  - reads file list from directory "SOURCE"
+#  - checks the timestamp of the source and target file
 #  - calls Python script "gpx-strip-tracks.py"
-#  - tidy makes the remaining code slightly more compact
+#  - tidy may make the remaining code slightly more compact
 #  - writes the stripped files to directory "TARGET"
 
 SOURCE="./gpx"
 TARGET="./gpx-stripped"
 
-mkdir $TARGET
+[[ -d $TARGET ]] || mkdir $TARGET
 
 if ! ( [ -d "$SOURCE" ] && [ -d "$TARGET" ] ) ; then
-  echo missing directory $SOURCE and/or $TARGET ... exiting.
-  exit
+   echo missing directory $SOURCE and/or $TARGET ... exiting.
+   exit
 fi
 
 for ii in $SOURCE/*.gpx
 do
-    GPXFILE=$(basename "$ii")
-    echo "$ii >>  $TARGET/$GPX"
-    python3 ./gpx-strip-tracks.py < $ii | \
-    tidy -i -xml -utf8 2> /dev/null > $TARGET/$GPXFILE
+   SOURCEFILE=$ii
+   TARGETFILE=$TARGET/$(basename "$ii")
+   if [ "$SOURCEFILE" -nt "$TARGETFILE" ]; then  # -nt: newer than
+      echo "$SOURCEFILE >> $TARGETFILE"
+      python3 ./gpx-strip-tracks.py < $SOURCEFILE | \
+         tidy -i -xml -utf8 2> /dev/null > $TARGETFILE
+      touch -r $SOURCEFILE $TARGETFILE
+   fi
 done
-
