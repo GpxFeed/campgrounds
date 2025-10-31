@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-10-01T10:27:01Z", "timestamp_areas_base":
-      "2025-10-01T03:35:03Z", "copyright": "The data included in
+      "2025-10-30T11:50:59Z", "timestamp_areas_base":
+      "2025-10-30T06:41:08Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -106,11 +106,12 @@ version="1.1" creator="togpx">
     <ele>666.0</ele>
     <name>Camping Kamne</name>
     <desc>addr:city=Mojstrana; addr:housenumber=9;
-    addr:postcode=4281; addr:street=Dovje; camp_site=standard;
+    addr:postcode=4281; addr:street=Dovje; camp_site=serviced;
     caravans=yes; drinking_water=yes; email=info@campingkamne.com;
-    fax=+386 4 5891105; name=Camping Kamne; phone=+386 4 5891105;
-    power_supply=yes; sanitary_dump_station=yes; shower=yes;
-    sport=tennis; tents=yes; toilets=yes; tourism=camp_site;
+    fax=+386 4 5891105; fee=yes; name=Camping Kamne; phone=+386 4
+    5891105; power_supply=yes; sanitary_dump_station=yes;
+    shower=yes; sport=tennis; static_caravans=no; tents=yes;
+    toilets=yes; tourism=camp_site;
     website=http://www.campingkamne.com/; id=node/1739257774</desc>
     <link href="http://www.campingkamne.com/"></link>
   </wpt>
@@ -798,11 +799,11 @@ version="1.1" creator="togpx">
     addr:postcode=6230; addr:street=Veliki Otok; caravans=yes;
     drinking_water=yes; email=avtokamp.pivka.jama@siol.net;
     fax=+386 (0)5 7265 348; name=Pivka jama; phone=+386 (0)5 720 39
-    93; reservation=no; sanitary_dump_station=yes; shower=yes;
-    tents=yes; toilets=yes; tourism=camp_site;
-    website=http://camping-postojna.com/en/; id=way/417578360; ;
-    name=Pivka Jama; website=http://camping-postojna.com;
-    id=node/13176259656</desc>
+    93; power_supply=yes; reservation=no;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; website=http://camping-postojna.com/en/;
+    id=way/417578360; ; name=Pivka Jama;
+    website=http://camping-postojna.com; id=node/13176259656</desc>
     <link href="http://camping-postojna.com/en/"></link>
   </wpt>
   <wpt lat="46.1976037" lon="15.170759943354797">
@@ -1010,7 +1011,7 @@ version="1.1" creator="togpx">
     website=http://kampresnik.com; id=way/219505450</desc>
     <link href="http://kampresnik.com"></link>
   </wpt>
-  <wpt lat="46.332284" lon="13.573306154770012">
+  <wpt lat="46.3322986" lon="13.573317515267089">
     <ele>411.0</ele>
     <name>Camp Liza</name>
     <desc>addr:city=Bovec; addr:housenumber=4; addr:postcode=5230;
@@ -1319,15 +1320,16 @@ version="1.1" creator="togpx">
     <ele>751.0</ele>
     <name>Kamp Špik</name>
     <desc>addr:city=Gozd Martuljek; addr:housenumber=15;
-    addr:postcode=4282; addr:street=Jezerci; caravans=yes;
-    contact:email=info@camp-spik.si; contact:phone=+386 51 634 466;
+    addr:postcode=4282; addr:street=Jezerci; camp_site=serviced;
+    caravans=yes; contact:email=info@camp-spik.si;
+    contact:phone=+386 51 634 466;
     contact:website=http://www.camp-spik.com/; description=Camping
     Spik is situated in the midst of the Julian Alps, on the edge
     of the Triglav National Park.; description_1=Large touring site
     with hookup and modern toilet blocks; drinking_water=yes;
-    name=Kamp Špik; power_supply=yes; sanitary_dump_station=yes;
-    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
-    id=way/501369469</desc>
+    fee=yes; name=Kamp Špik; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; id=way/501369469</desc>
     <link href="http://www.camp-spik.com/"></link>
   </wpt>
   <wpt lat="46.369393450000004" lon="15.08518445058899">
@@ -1637,8 +1639,10 @@ version="1.1" creator="togpx">
   <wpt lat="46.39924755" lon="14.280858935819133">
     <ele>673.0</ele>
     <name>Camp Podljubelj</name>
-    <desc>contact:website=https://www.camp-podljubelj.com/;
-    name=Camp Podljubelj; tourism=camp_site;
+    <desc>camp_site=serviced; caravans=yes;
+    contact:website=https://www.camp-podljubelj.com/; fee=yes;
+    name=Camp Podljubelj; old_name=Avtokamp Tomičev Slap
+    Podljubelj; static_caravans=no; tents=yes; tourism=camp_site;
     id=way/1104152650</desc>
     <link href="https://www.camp-podljubelj.com/"></link>
   </wpt>
@@ -1819,7 +1823,11 @@ version="1.1" creator="togpx">
     addr:postcode=1330; addr:street=Grajska pot; area=yes;
     contact:booking=https://www.booking.com/hotel/si/grajski-kamp.html;
     fee=yes; name=Grajski kamp; phone=+386 40 455 855; tents=yes;
-    tourism=camp_site; id=way/1408279565</desc>
+    tourism=camp_site;
+    website=https://www.kocevsko.com/de/poi/grajski-kamp;
+    id=way/1408279565</desc>
+    <link href="https://www.kocevsko.com/de/poi/grajski-kamp">
+    </link>
   </wpt>
   <wpt lat="46.340222" lon="14.167292359255843">
     <ele>418.0</ele>

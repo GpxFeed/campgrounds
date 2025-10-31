@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-10-01T10:25:01Z", "timestamp_areas_base":
-      "2025-10-01T03:35:03Z", "copyright": "The data included in
+      "2025-10-30T11:46:55Z", "timestamp_areas_base":
+      "2025-10-30T06:41:08Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -199,7 +199,7 @@ version="1.1" creator="togpx">
     <ele>24.0</ele>
     <name>Repsol</name>
     <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    brand:wikipedia=es:Repsol; name=Repsol;
+    brand:wikipedia=es:Repsol; compressed_air=yes; name=Repsol;
     id=node/277800370</desc>
   </wpt>
   <wpt lat="38.8835997" lon="-7.0488382">
@@ -819,12 +819,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Shell_plc; compressed_air=no; name=Shell;
     id=node/513898649</desc>
   </wpt>
-  <wpt lat="41.503403" lon="-8.6687922">
-    <ele>46.0</ele>
-    <name>Galp</name>
-    <desc>amenity=fuel; name=Galp; opening_hours=05:00-01:00;
-    id=node/513927413; ; id=way/923511723</desc>
-  </wpt>
   <wpt lat="37.5981843" lon="-8.6454122">
     <ele>3.0</ele>
     <name>node/534343912</name>
@@ -938,24 +932,26 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="38.7634137" lon="-9.140984">
     <ele>103.0</ele>
-    <name>E.S. 2ª CIRCULAR AEROPORTO</name>
-    <desc>addr:city=2ª Circular; addr:postcode=1700-284;
+    <name>Repsol</name>
+    <desc>addr:city=2ª Circular; addr:housename=Estação de Serviço
+    da 2.ª Circular - Aeroporto; addr:postcode=1700-284;
     addr:street=2ª Circular (Av. Marechal Craveiro Lopes);
     amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
     check_date=2025-08-27; compressed_air=yes; fuel:lpg=yes;
-    name=E.S. 2ª CIRCULAR AEROPORTO; source=Direção-Geral de
-    Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    name=Repsol; operator=Repsol; ref:dgeg=1138;
+    ref:inspire=IDDGEG_PACVR_1092; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=node/676804527</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
   <wpt lat="38.7627573" lon="-9.140996">
     <ele>100.0</ele>
-    <name>E.S. 2ª CIRCULAR B</name>
-    <desc>addr:city=2ª Circular; addr:postcode=1700-284;
-    addr:street=2ª Circular (Av. Marechal Craveiro Lopes);
-    amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    check_date=2025-08-27; fuel:lpg=yes; name=E.S. 2ª CIRCULAR B;
+    <name>Estação de Serviço da 2.ª Circular - B</name>
+    <desc>addr:city=2ª Circular; addr:housename=Estação de Serviço
+    da 2.ª Circular - B; addr:postcode=1700-284; addr:street=2ª
+    Circular (Av. Marechal Craveiro Lopes); amenity=fuel;
+    brand=Repsol; brand:wikidata=Q174747; check_date=2025-08-27;
+    fuel:lpg=yes; ref:dgeg=1169; ref:inspire=IDDGEG_PACVR_3770;
     source=Direção-Geral de Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=node/676804528</desc>
@@ -2218,8 +2214,9 @@ version="1.1" creator="togpx">
     <ele>45.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; compressed_air=yes; name=BP;
-    opening_hours=PH,Mo-Su 07:00-23:00; id=node/1243847546</desc>
+    brand:wikipedia=en:BP; compressed_air=yes; fuel:adblue=yes;
+    name=BP; opening_hours=PH,Mo-Su 07:00-23:00;
+    id=node/1243847546</desc>
   </wpt>
   <wpt lat="41.3424848" lon="-8.5569419">
     <ele>32.0</ele>
@@ -2448,9 +2445,9 @@ version="1.1" creator="togpx">
     <ele>38.0</ele>
     <name>Galp</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; fuel:diesel=yes; fuel:lpg=no;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Galp;
-    id=node/1297205920</desc>
+    brand:wikipedia=en:Galp Energia; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:lpg=no; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Galp; id=node/1297205920</desc>
   </wpt>
   <wpt lat="40.0060997" lon="-8.2115132">
     <ele>482.0</ele>
@@ -2479,13 +2476,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Repsol; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; opening_hours=Mo-Fr
     08:30-20:00; id=node/1297409385</desc>
-  </wpt>
-  <wpt lat="41.1977533" lon="-8.4925478">
-    <ele>149.0</ele>
-    <name>node/1297608858</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    id=node/1297608858</desc>
   </wpt>
   <wpt lat="39.4654536" lon="-8.2060928">
     <ele>107.0</ele>
@@ -2862,13 +2852,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Repsol; source=GPS + Local K;
     id=node/1431018786</desc>
   </wpt>
-  <wpt lat="42.1090556" lon="-8.2613265">
-    <ele>167.0</ele>
-    <name>Intermarché</name>
-    <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
-    name=Intermarché; opening_hours=08:00-20:00; source=survey;
-    id=node/1436710497</desc>
-  </wpt>
   <wpt lat="42.0329306" lon="-8.6425377">
     <ele>32.0</ele>
     <name>Galp</name>
@@ -3105,9 +3088,10 @@ version="1.1" creator="togpx">
     <name>GALP</name>
     <desc>addr:street=Avenida de São Gonçalo; amenity=fuel;
     brand=Galp; brand:wikidata=Q1492739; brand:wikipedia=en:Galp
-    Energia; name=GALP; operator=Galp; self_service=yes;
-    survey:date=2023-04-29; wheelchair=yes; id=node/1484881685; ;
-    id=way/1293448863</desc>
+    Energia; check_date=2025-10-14;
+    check_date:compressed_air=2025-10-14; compressed_air=yes;
+    name=GALP; operator=Galp; self_service=yes; wheelchair=yes;
+    id=node/1484881685; ; id=way/1293448863</desc>
   </wpt>
   <wpt lat="41.6511603" lon="-8.4348417">
     <ele>83.0</ele>
@@ -3871,12 +3855,6 @@ version="1.1" creator="togpx">
     <name>Auto Branco</name>
     <desc>amenity=fuel; name=Auto Branco; id=node/1683958723</desc>
   </wpt>
-  <wpt lat="41.1830293" lon="-8.4733524">
-    <ele>110.0</ele>
-    <name>node/1687533008</name>
-    <desc>amenity=fuel; brand=Galp; opening_hours=07:00-24:00;
-    id=node/1687533008</desc>
-  </wpt>
   <wpt lat="41.158701" lon="-7.7844413">
     <ele>71.0</ele>
     <name>Repsol</name>
@@ -3958,23 +3936,6 @@ version="1.1" creator="togpx">
     compressed_air=yes; fuel:diesel=yes; fuel:octane_100=no;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Galp;
     id=node/1697657517</desc>
-  </wpt>
-  <wpt lat="38.723228" lon="-9.1677046">
-    <ele>78.0</ele>
-    <name>GALP</name>
-    <desc>amenity=fuel; brand=GALP; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; compressed_air=yes;
-    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:e10=yes;
-    fuel:lpg=yes; fuel:octane_100=no; fuel:octane_91=no;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=GALP;
-    id=node/1701193384</desc>
-  </wpt>
-  <wpt lat="38.7227084" lon="-9.1679122">
-    <ele>78.0</ele>
-    <name>BP</name>
-    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; compressed_air=yes; name=BP;
-    id=node/1701193396</desc>
   </wpt>
   <wpt lat="40.5071756" lon="-8.6676525">
     <ele>30.0</ele>
@@ -4088,8 +4049,9 @@ version="1.1" creator="togpx">
   <wpt lat="32.6517932" lon="-16.9261669">
     <ele>129.0</ele>
     <name>Repsol</name>
-    <desc>amenity=fuel; brand=Repsol; compressed_air=yes;
-    name=Repsol; wheelchair=limited; id=node/1728302162</desc>
+    <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    compressed_air=yes; name=Repsol; wheelchair=limited;
+    id=node/1728302162</desc>
   </wpt>
   <wpt lat="32.6540408" lon="-16.9283383">
     <ele>147.0</ele>
@@ -4331,7 +4293,7 @@ version="1.1" creator="togpx">
     <ele>63.0</ele>
     <name>node/1795595032</name>
     <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    id=node/1795595032</desc>
+    wheelchair=no; id=node/1795595032</desc>
   </wpt>
   <wpt lat="41.4063318" lon="-7.4501896">
     <ele>475.0</ele>
@@ -4488,9 +4450,9 @@ version="1.1" creator="togpx">
   <wpt lat="37.1265404" lon="-7.6469908">
     <ele>8.0</ele>
     <name>Galp</name>
-    <desc>amenity=fuel; brand=Galp; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Galp;
-    id=node/1839894238</desc>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Galp; id=node/1839894238</desc>
   </wpt>
   <wpt lat="37.129588" lon="-7.6384362">
     <ele>5.0</ele>
@@ -4571,8 +4533,8 @@ version="1.1" creator="togpx">
     <ele>411.0</ele>
     <name>Alves Bandeira</name>
     <desc>amenity=fuel; brand=Alves Bandeira;
-    brand:wikidata=Q109012157; name=Alves Bandeira; operator=Alves
-    Bandeira; id=node/1870578085</desc>
+    brand:wikidata=Q109012157; compressed_air=yes; name=Alves
+    Bandeira; operator=Alves Bandeira; id=node/1870578085</desc>
   </wpt>
   <wpt lat="37.0086459" lon="-8.9442807">
     <ele>29.0</ele>
@@ -4947,7 +4909,8 @@ version="1.1" creator="togpx">
     <name>node/1948015771</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
     compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; wheelchair=yes; id=node/1948015771</desc>
+    fuel:octane_98=yes; toilets:wheelchair=no; wheelchair=yes;
+    id=node/1948015771</desc>
   </wpt>
   <wpt lat="37.8262213" lon="-25.5090853">
     <ele>56.0</ele>
@@ -6444,14 +6407,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.0592361" lon="-8.3986236">
     <ele>25.0</ele>
-    <name>node/2614864920</name>
-    <desc>amenity=fuel; brand=Galp; compressed_air=yes;
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; compressed_air=yes; name=Galp;
+    operator=Galp; ref:dgeg=15176; ref:inspire=IDDGEG_PACVR_202;
     id=node/2614864920</desc>
   </wpt>
   <wpt lat="41.0592837" lon="-8.3988856">
     <ele>25.0</ele>
-    <name>node/2614864921</name>
-    <desc>amenity=fuel; brand=Galp; compressed_air=yes;
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; compressed_air=yes; name=Galp;
+    operator=Galp; ref:dgeg=11431; ref:inspire=IDDGEG_PACVR_201;
     id=node/2614864921</desc>
   </wpt>
   <wpt lat="41.5825779" lon="-8.4051351">
@@ -6552,13 +6517,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="42.0603179" lon="-8.4883547">
     <ele>69.0</ele>
-    <name>Combustíveis Pombo</name>
+    <name>FG Combustíveis</name>
     <desc>addr:city=Mazedo; addr:postcode=4950-288;
     addr:street=Lugar da Estrada Mazedo; amenity=fuel; brand=FG
-    COMBUSTÍVEIS; check_date=2025-08-23; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Combustíveis Pombo; opening_hours=06:00-24:00;
-    source=Direção-Geral de Energia e Geologia;
+    Combustíveis; check_date=2025-08-23; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes; name=FG
+    Combustíveis; opening_hours=06:00-24:00; operator=Combustíveis
+    Pombo; source=Direção-Geral de Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=node/2640027684</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
@@ -7297,13 +7262,6 @@ version="1.1" creator="togpx">
     opening_hours=06:00-22:00; phone=+351 276 318354;
     id=node/2870288377</desc>
   </wpt>
-  <wpt lat="41.18586" lon="-8.6241112">
-    <ele>101.0</ele>
-    <name>BP</name>
-    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; compressed_air=yes; name=BP;
-    id=node/2873760066</desc>
-  </wpt>
   <wpt lat="42.0641543" lon="-8.5054255">
     <ele>67.0</ele>
     <name>Gasolar</name>
@@ -7324,9 +7282,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.7830091" lon="-8.5864806">
     <ele>12.0</ele>
-    <name>node/2896813822</name>
-    <desc>amenity=fuel; brand=BP; opening_hours=06:00-23:00;
-    id=node/2896813822</desc>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057; name=BP;
+    opening_hours=06:00-23:00; id=node/2896813822</desc>
   </wpt>
   <wpt lat="41.665205" lon="-8.55876">
     <ele>200.0</ele>
@@ -7942,11 +7900,6 @@ version="1.1" creator="togpx">
     <ele>151.0</ele>
     <name>node/3227873812</name>
     <desc>amenity=fuel; id=node/3227873812</desc>
-  </wpt>
-  <wpt lat="41.2057993" lon="-8.6212164">
-    <ele>51.0</ele>
-    <name>node/3230561565</name>
-    <desc>amenity=fuel; brand=Repsol; id=node/3230561565</desc>
   </wpt>
   <wpt lat="38.7900625" lon="-9.1115872">
     <ele>38.0</ele>
@@ -8807,8 +8760,8 @@ version="1.1" creator="togpx">
   <wpt lat="39.6707984" lon="-31.1117376">
     <ele>16.0</ele>
     <name>Bomba de Gasolina</name>
-    <desc>amenity=fuel; compressed_air=yes; name=Bomba de Gasolina;
-    id=node/3876930851</desc>
+    <desc>amenity=fuel; check_date=2025-10-02; compressed_air=yes;
+    name=Bomba de Gasolina; id=node/3876930851</desc>
   </wpt>
   <wpt lat="41.6598915" lon="-8.2742913">
     <ele>131.0</ele>
@@ -8828,8 +8781,8 @@ version="1.1" creator="togpx">
   <wpt lat="38.8231675" lon="-9.3582382">
     <ele>142.0</ele>
     <name>BP Lourel/EN9</name>
-    <desc>amenity=fuel; name=BP Lourel/EN9; operator=BP;
-    id=node/3891706249</desc>
+    <desc>amenity=fuel; fuel:adblue=yes; name=BP Lourel/EN9;
+    operator=BP; id=node/3891706249</desc>
   </wpt>
   <wpt lat="38.8239596" lon="-9.3587567">
     <ele>143.0</ele>
@@ -9027,14 +8980,6 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vila Viçosa; addr:country=PT; addr:place=Madre
     de Água; addr:postcode=7160-204; amenity=fuel;
     name=Intermarché; id=node/4080746129</desc>
-  </wpt>
-  <wpt lat="37.0239411" lon="-7.8377987">
-    <ele>7.0</ele>
-    <name>Tfuel</name>
-    <desc>amenity=fuel; check_date=2022-09-09; fixme=Doesn't
-    exist..?; name=Tfuel; note=sell gas bottles;
-    opening_hours=PH,Mo-Su 06:00-20:00; wheelchair=yes;
-    id=node/4102268726</desc>
   </wpt>
   <wpt lat="39.2687933" lon="-7.4197286">
     <ele>379.0</ele>
@@ -9426,13 +9371,6 @@ version="1.1" creator="togpx">
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
     compressed_air=yes; name=BP; id=node/4476677401</desc>
-  </wpt>
-  <wpt lat="41.1624213" lon="-8.0344927">
-    <ele>577.0</ele>
-    <name>Baião</name>
-    <desc>addr:city=Baião; addr:country=PT; addr:street=Rua de
-    Camões; amenity=fuel; brand=Galp; fuel:diesel=yes;
-    fuel:octane_95=yes; id=node/4486128272</desc>
   </wpt>
   <wpt lat="38.9905409" lon="-8.2884499">
     <ele>42.0</ele>
@@ -9872,11 +9810,6 @@ version="1.1" creator="togpx">
     <name>Galp</name>
     <desc>amenity=fuel; name=Galp; opening_hours=Mo-Su 06:30-23:00;
     id=node/5173058011</desc>
-  </wpt>
-  <wpt lat="41.4102375" lon="-8.5190405">
-    <ele>99.0</ele>
-    <name>node/5197049787</name>
-    <desc>amenity=fuel; shop=no; id=node/5197049787</desc>
   </wpt>
   <wpt lat="40.1906691" lon="-7.4864462">
     <ele>406.0</ele>
@@ -10632,16 +10565,6 @@ version="1.1" creator="togpx">
     payment:credit_cards=yes; phone=+351 224 219 830;
     self_service=yes; id=node/6046070841</desc>
   </wpt>
-  <wpt lat="41.1829844" lon="-8.4733073">
-    <ele>106.0</ele>
-    <name>GALP</name>
-    <desc>amenity=fuel; name=GALP; id=node/6046135920</desc>
-  </wpt>
-  <wpt lat="41.182255" lon="-8.4642162">
-    <ele>101.0</ele>
-    <name>BP</name>
-    <desc>amenity=fuel; name=BP; id=node/6046135921</desc>
-  </wpt>
   <wpt lat="38.7629947" lon="-7.7180973">
     <ele>363.0</ele>
     <name>node/6046832777</name>
@@ -11078,19 +11001,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Galp Energia; check_date=2025-02-07;
     check_date:compressed_air=2025-02-07; compressed_air=yes;
     valves=schrader; wheelchair=yes; id=node/6817942579</desc>
-  </wpt>
-  <wpt lat="41.2135772" lon="-8.6827707">
-    <ele>56.0</ele>
-    <name>ALVES BANDEIRA Santa Cruz do Bispo</name>
-    <desc>addr:city=Santa Cruz do Bispo; addr:postcode=4455-877;
-    addr:street=Av. Arquiteto Fernando Távora, 1040 - Lugar de
-    Aguiar; amenity=fuel; brand=Alves Bandeira;
-    brand:wikidata=Q62530421; check_date=2025-08-25; fuel:lpg=yes;
-    name=ALVES BANDEIRA Santa Cruz do Bispo; source=Direção-Geral
-    de Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
-    id=node/6821095014</desc>
-    <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
   <wpt lat="38.438425" lon="-9.1149691">
     <ele>-4.0</ele>
@@ -12179,8 +12089,8 @@ version="1.1" creator="togpx">
     <ele>143.0</ele>
     <name>Q8</name>
     <desc>addr:city=Mozelos; addr:street=Rua do Murado;
-    amenity=fuel; brand=Q8; brand:wikidata=Q4119207; name=Q8;
-    id=node/8942148114</desc>
+    amenity=fuel; brand=Q8; brand:wikidata=Q4119207;
+    compressed_air=yes; name=Q8; id=node/8942148114</desc>
   </wpt>
   <wpt lat="40.9922581" lon="-8.5756072">
     <ele>146.0</ele>
@@ -12785,22 +12695,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="40.7589474" lon="-8.0652628">
     <ele>191.0</ele>
-    <name>GALP</name>
+    <name>Galp</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    name=GALP; id=node/9687973766</desc>
-  </wpt>
-  <wpt lat="40.7587623" lon="-8.0652436">
-    <ele>191.0</ele>
-    <name>GALP</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    name=GALP; id=node/9687973777; ; name=Silva e Carvalhas;
-    id=way/1054205745</desc>
-  </wpt>
-  <wpt lat="40.7590885" lon="-8.0647016">
-    <ele>190.0</ele>
-    <name>node/9687973793</name>
-    <desc>amenity=fuel; id=node/9687973793; ;
-    id=way/1054205746</desc>
+    name=Galp; operator=Galp; ref:dgeg=16320;
+    ref:inspire=IDDGEG_PACVR_448; id=node/9687973766</desc>
   </wpt>
   <wpt lat="41.5928225" lon="-6.5195386">
     <ele>690.0</ele>
@@ -12941,20 +12839,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Alves Bandeira;
     brand:wikidata=Q109012157; compressed_air=yes; name=Alves
     Bandeira; id=node/9710588936</desc>
-  </wpt>
-  <wpt lat="40.1736995" lon="-8.3856897">
-    <ele>61.0</ele>
-    <name>Alves Bandeira</name>
-    <desc>amenity=fuel; brand=Alves Bandeira;
-    brand:wikidata=Q109012157; name=Alves Bandeira;
-    id=node/9710592784</desc>
-  </wpt>
-  <wpt lat="40.1742119" lon="-8.3855933">
-    <ele>81.0</ele>
-    <name>Alves Bandeira</name>
-    <desc>amenity=fuel; brand=Alves Bandeira;
-    brand:wikidata=Q109012157; name=Alves Bandeira;
-    id=node/9710592785</desc>
   </wpt>
   <wpt lat="38.7106758" lon="-9.2892173">
     <ele>93.0</ele>
@@ -13385,7 +13269,7 @@ version="1.1" creator="togpx">
   <wpt lat="39.668326" lon="-8.8334677">
     <ele>118.0</ele>
     <name>Galp GNL</name>
-    <desc>amenity=fuel; brand=GALP; brand:wikidata=Q1492739;
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
     fuel:lpg=yes; name=Galp GNL; id=node/10203912876</desc>
   </wpt>
   <wpt lat="38.7735943" lon="-9.2162423">
@@ -14309,11 +14193,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.3091458" lon="-7.735608">
     <ele>449.0</ele>
-    <name>Cepsa</name>
-    <desc>amenity=fuel; brand=Cepsa; brand:wikidata=Q608819;
-    brand:wikipedia=en:Cepsa; name=Cepsa; official_name=Compañía
-    Española de Petróleos, S.A.U.; source=Bing;
-    id=node/11866207349</desc>
+    <name>Moeve</name>
+    <desc>amenity=fuel; brand=Moeve; brand:wikidata=Q608819;
+    brand:wikipedia=en:Cepsa; name=Moeve; official_name=Compañía
+    Española de Petróleos, S.A.U.; id=node/11866207349</desc>
   </wpt>
   <wpt lat="41.3088393" lon="-7.7340666">
     <ele>442.0</ele>
@@ -15056,11 +14939,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; compressed_air=no; name=Intermarché;
     wheelchair=yes; id=node/13072341194</desc>
   </wpt>
-  <wpt lat="41.0495692" lon="-8.5659235">
-    <ele>172.0</ele>
-    <name>node/13086965035</name>
-    <desc>amenity=fuel; id=node/13086965035</desc>
-  </wpt>
   <wpt lat="41.125006" lon="-7.9247658">
     <ele>244.0</ele>
     <name>Galp Frende</name>
@@ -15225,12 +15103,12 @@ version="1.1" creator="togpx">
     id=node/13103234794</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
-  <wpt lat="38.835155" lon="-9.358659">
+  <wpt lat="38.8351372" lon="-9.358594">
     <ele>146.0</ele>
     <name>OZ ENERGIA - TERRUGEM</name>
-    <desc>addr:city=Terrugem; addr:postcode=2705-845;
-    addr:street=Avenida da Aviação Portuguesa, nº 110, Vila Verde -
-    Terrugem; amenity=fuel; brand=OZ Energia;
+    <desc>addr:city=Terrugem; addr:housenumber=110;
+    addr:postcode=2705-845; addr:street=Avenida da Aviação
+    Portuguesa; amenity=fuel; brand=OZ Energia;
     check_date=2025-08-24; fuel:lpg=yes; name=OZ ENERGIA -
     TERRUGEM; source=Direção-Geral de Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
@@ -15482,6 +15360,137 @@ version="1.1" creator="togpx">
     <name>node/13175563813</name>
     <desc>amenity=fuel; brand=Cepsa; id=node/13175563813</desc>
   </wpt>
+  <wpt lat="41.2926008" lon="-8.6553426">
+    <ele>69.0</ele>
+    <name>Cooperativa Agrícola de Vila do Conde</name>
+    <desc>amenity=fuel; name=Cooperativa Agrícola de Vila do Conde;
+    ref:dgeg=900005; ref:inspire=IDDGEG_PACVR_1543;
+    short_name=Agrivil; id=node/13192308992</desc>
+  </wpt>
+  <wpt lat="40.5059487" lon="-7.3594897">
+    <ele>872.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; name=Alves Bandeira; operator=Alves
+    Bandeira; ref:dgeg=1195074654; ref:inspire=IDDGEG_PACVR_2636;
+    id=node/13200553850</desc>
+  </wpt>
+  <wpt lat="40.5588703" lon="-7.2499197">
+    <ele>855.0</ele>
+    <name>Pingo Doce</name>
+    <desc>amenity=fuel; name=Pingo Doce; operator=Pingo Doce;
+    ref:dgeg=676; ref:inspire=IDDGEG_PACVR_1364;
+    id=node/13200595451</desc>
+  </wpt>
+  <wpt lat="40.5551075" lon="-7.2460059">
+    <ele>834.0</ele>
+    <name>Plenergy</name>
+    <desc>amenity=fuel; name=Plenergy; operator=Plenergy;
+    ref:dgeg=002PT; ref:inspire=IDDGEG_PACVR_4593;
+    id=node/13200607743</desc>
+  </wpt>
+  <wpt lat="40.5569179" lon="-7.2370992">
+    <ele>833.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; name=Galp; operator=Galp; ref:dgeg=16222;
+    ref:inspire=IDDGEG_PACVR_208; id=node/13200613242</desc>
+  </wpt>
+  <wpt lat="40.8081931" lon="-7.5537247">
+    <ele>728.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; name=Galp; operator=Galp; ref:dgeg=11705;
+    ref:inspire=IDDGEG_PACVR_592; id=node/13200700592</desc>
+  </wpt>
+  <wpt lat="40.5999309" lon="-6.9980308">
+    <ele>801.0</ele>
+    <name>Alto do Freixo Combustíveis</name>
+    <desc>amenity=fuel; name=Alto do Freixo Combustíveis;
+    ref:dgeg=8630; ref:inspire=IDDGEG_PACVR_4202;
+    id=node/13200710058</desc>
+  </wpt>
+  <wpt lat="40.7421482" lon="-7.496567">
+    <ele>734.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; name=Cepsa; operator=Cepsa; ref:dgeg=63332;
+    ref:inspire=IDDGEG_PACVR_4503; id=node/13200710068</desc>
+  </wpt>
+  <wpt lat="40.7254134" lon="-7.2645546">
+    <ele>574.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; name=Cepsa; operator=Cepsa; ref:dgeg=62198;
+    ref:inspire=IDDGEG_PACVR_902; id=node/13200726882</desc>
+  </wpt>
+  <wpt lat="40.7877797" lon="-7.5921815">
+    <ele>746.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; name=BP; operator=BP; ref:dgeg=27444;
+    ref:inspire=IDDGEG_PACVR_1324; id=node/13200743819</desc>
+  </wpt>
+  <wpt lat="40.7462718" lon="-7.7316187">
+    <ele>620.0</ele>
+    <name>PetroSátão</name>
+    <desc>amenity=fuel; name=PetroSátão; opening_hours=07:00-23:00;
+    ref:dgeg=SATAO; ref:inspire=IDDGEG_PACVR_4538;
+    id=node/13200743820</desc>
+  </wpt>
+  <wpt lat="40.7790666" lon="-7.6960741">
+    <ele>624.0</ele>
+    <name>Petroleitão</name>
+    <desc>amenity=fuel; name=Petroleitão; ref:dgeg=123;
+    ref:inspire=IDDGEG_PACVR_4461; id=node/13200747428</desc>
+  </wpt>
+  <wpt lat="40.3930532" lon="-6.9771656">
+    <ele>827.0</ele>
+    <name>Combustíveis Glória</name>
+    <desc>amenity=fuel; name=Combustíveis Glória;
+    opening_hours=07:00-24:00; ref:dgeg=MARIAGLORIA;
+    ref:inspire=IDDGEG_PACVR_2645; id=node/13200748822</desc>
+  </wpt>
+  <wpt lat="40.8059394" lon="-7.9637787">
+    <ele>480.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; name=Repsol; operator=Repsol;
+    ref:dgeg=1871; ref:inspire=IDDGEG_PACVR_1962;
+    id=node/13200765845</desc>
+  </wpt>
+  <wpt lat="40.830903" lon="-7.528852">
+    <ele>761.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; name=Cepsa; operator=Cepsa; ref:dgeg=PG1;
+    ref:inspire=IDDGEG_PACVR_2921; id=node/13200766002</desc>
+  </wpt>
+  <wpt lat="40.8210162" lon="-8.0455991">
+    <ele>216.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; name=Repsol; operator=Repsol;
+    ref:dgeg=1878; ref:inspire=IDDGEG_PACVR_2272;
+    id=node/13200766755</desc>
+  </wpt>
+  <wpt lat="40.9776708" lon="-7.6125987">
+    <ele>678.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; name=Repsol; operator=Repsol;
+    ref:dgeg=1865; ref:inspire=IDDGEG_PACVR_1278;
+    id=node/13200779061</desc>
+  </wpt>
+  <wpt lat="40.7361782" lon="-7.7264564">
+    <ele>548.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; name=BP; operator=BP; ref:dgeg=27260;
+    ref:inspire=IDDGEG_PACVR_899; id=node/13200803189</desc>
+  </wpt>
+  <wpt lat="40.6925638" lon="-7.7464422">
+    <ele>510.0</ele>
+    <name>Barreirinho Combustíveis</name>
+    <desc>amenity=fuel; name=Barreirinho Combustíveis;
+    ref:dgeg=Barreirinho - Sátão; ref:inspire=IDDGEG_PACVR_4372;
+    id=node/13200841955</desc>
+  </wpt>
+  <wpt lat="41.5531124" lon="-8.6173701">
+    <ele>46.0</ele>
+    <name>Cooperativa Agrícola de Barcelos</name>
+    <desc>amenity=fuel; name=Cooperativa Agrícola de Barcelos;
+    id=node/13235546815</desc>
+  </wpt>
   <wpt lat="41.411759200000006" lon="-8.512654271833124">
     <ele>97.0</ele>
     <name>Auchan</name>
@@ -15524,7 +15533,7 @@ version="1.1" creator="togpx">
     building=yes,roof; name=Galp; operator=Galp; type=multipolygon;
     id=relation/14339968</desc>
   </wpt>
-  <wpt lat="39.809910450000004" lon="-7.514860147727273">
+  <wpt lat="39.80991685" lon="-7.514887909090909">
     <ele>355.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
@@ -15548,24 +15557,6 @@ version="1.1" creator="togpx">
     <name>João Serras (Bomba Palvarinho)</name>
     <desc>amenity=fuel; layer=1; name=João Serras (Bomba
     Palvarinho); type=multipolygon; id=relation/15961860</desc>
-  </wpt>
-  <wpt lat="41.043358049999995" lon="-8.56325194848483">
-    <ele>172.0</ele>
-    <name>Q8</name>
-    <desc>addr:city=Pedroso e Seixezelo; addr:street=Avenida Doutor
-    Moreira de Sousa; amenity=fuel; brand=Q8;
-    brand:wikidata=Q4119207; brand:wikipedia=en:Galp Energia;
-    building=roof; layer=1; name=Q8; type=multipolygon;
-    id=relation/16792581</desc>
-  </wpt>
-  <wpt lat="41.0433217" lon="-8.563530438729233">
-    <ele>177.0</ele>
-    <name>Q8</name>
-    <desc>addr:city=Pedroso e Seixezelo; addr:street=Avenida Doutor
-    Moreira de Sousa; amenity=fuel; brand=Q8;
-    brand:wikidata=Q4119207; brand:wikipedia=en:Galp Energia;
-    building=roof; layer=1; name=Q8; type=multipolygon;
-    id=relation/16792582</desc>
   </wpt>
   <wpt lat="39.8308508" lon="-7.495781802297627">
     <ele>385.0</ele>
@@ -15626,6 +15617,23 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=Repsol;
     opening_hours=07:00-24:00; type=multipolygon;
     id=relation/19622077</desc>
+  </wpt>
+  <wpt lat="41.2329714" lon="-8.547831075185039">
+    <ele>105.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; name=Galp;
+    opening_hours=07:00-22:00; operator=Galp; ref:dgeg=15041;
+    ref:inspire=IDDGEG_PACVR_526; type=multipolygon;
+    id=relation/19676467</desc>
+  </wpt>
+  <wpt lat="38.754139949999995" lon="-9.138789648125288">
+    <ele>91.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; compressed_air=yes;
+    mapillary=950999605969688; name=Galp; operator=Galp;
+    ref:dgeg=67IRMAOS; ref:inspire=IDDGEG_PACVR_905;
+    survey:date=2023-07-31; type=multipolygon;
+    id=relation/19687219</desc>
   </wpt>
   <wpt lat="39.4126263" lon="-7.346387784365643">
     <ele>509.0</ele>
@@ -15807,7 +15815,9 @@ version="1.1" creator="togpx">
     <ele>60.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; name=BP; id=way/106759100</desc>
+    brand:wikipedia=en:BP; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=26811; ref:inspire=IDDGEG_PACVR_760;
+    id=way/106759100</desc>
   </wpt>
   <wpt lat="41.3573928" lon="-8.56264567279583">
     <ele>46.0</ele>
@@ -15895,6 +15905,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
     fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
     operator=GALP; id=way/122316698</desc>
+  </wpt>
+  <wpt lat="41.182204299999995" lon="-8.464180777981525">
+    <ele>101.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    building=roof; layer=1; name=BP; source=bing;
+    id=way/128272731</desc>
   </wpt>
   <wpt lat="40.550847149999996" lon="-8.544689458471286">
     <ele>34.0</ele>
@@ -16014,19 +16031,23 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.2799318" lon="-8.371232190676487">
     <ele>317.0</ele>
-    <name>BP João XXIII (Oeste)</name>
-    <desc>addr:city=Paços de Ferreira; addr:postcode=4590-515;
-    addr:street=Av. João XXIII nº 192; amenity=fuel; brand=BP;
-    check_date=2025-08-25; fuel:lpg=yes; name=BP João XXIII
-    (Oeste); operator=BP; source=Direção-Geral de Energia e
-    Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    <name>BP</name>
+    <desc>addr:city=Paços de Ferreira; addr:housenumber=192;
+    addr:postcode=4590-515; addr:street=Avenida João XXIII;
+    amenity=fuel; branch=João XXIII - Oeste; brand=BP;
+    check_date=2025-08-25; fuel:lpg=yes; landuse=retail; name=BP;
+    operator=BP; ref:dgeg=27304; ref:inspire=IDDGEG_PACVR_715;
+    source=Direção-Geral de Energia e Geologia;
+    source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/150605354</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
   <wpt lat="41.2860713" lon="-8.362008380188676">
     <ele>345.0</ele>
-    <name>way/150607051</name>
-    <desc>amenity=fuel; source=Bing; id=way/150607051</desc>
+    <name>Galp</name>
+    <desc>amenity=fuel; name=Galp; operator=Galp; ref:dgeg=11724;
+    ref:inspire=IDDGEG_PACVR_32; source=Bing;
+    id=way/150607051</desc>
   </wpt>
   <wpt lat="41.19987505" lon="-8.566299152479722">
     <ele>120.0</ele>
@@ -16109,6 +16130,13 @@ version="1.1" creator="togpx">
     brand:wikidata=Q109012157; building=roof; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=Alves
     Bandeira; source=Bing; id=way/156513743</desc>
+  </wpt>
+  <wpt lat="41.18303045" lon="-8.473356969738804">
+    <ele>110.0</ele>
+    <name>GALP</name>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    building=roof; layer=1; name=GALP; source=Bing;
+    id=way/156513794</desc>
   </wpt>
   <wpt lat="41.19688035" lon="-8.510363349999999">
     <ele>166.0</ele>
@@ -16266,11 +16294,12 @@ version="1.1" creator="togpx">
     id=way/170356728</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
-  <wpt lat="32.66121435" lon="-16.932431997374863">
+  <wpt lat="32.66124495" lon="-16.932413372636148">
     <ele>218.0</ele>
     <name>Galp Santo António</name>
     <desc>amenity=fuel; brand=Galp; building=roof;
-    check_date=2023-02-10; layer=1; name=Galp Santo António;
+    check_date=2025-10-06; check_date:compressed_air=2025-10-06;
+    compressed_air=yes; layer=1; name=Galp Santo António;
     not:brand:wikidata=Q1492739; opening_hours=Mo-Su,PH
     07:00-24:00; operator=Galp; wheelchair=yes;
     id=way/170476576</desc>
@@ -16320,22 +16349,23 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building=roof; compressed_air=yes;
     fuel:biodiesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; layer=1; opening_hours=24/7;
-    operator=Cepsa; payment:cash=yes; payment:visa=yes;
-    toilets=yes; id=way/170673527</desc>
+    operator=Cepsa; payment:cash=yes; payment:visa=yes; ref:dgeg=9;
+    ref:inspire=IDDGEG_PACVR_2536; toilets=yes;
+    id=way/170673527</desc>
   </wpt>
   <wpt lat="41.5431769" lon="-8.440251571307513">
     <ele>159.0</ele>
-    <name>CEPSA ÓRFÃOS - I (Poente)</name>
+    <name>CEPSA</name>
     <desc>addr:city=Maximinos-Quinta de Madredeus;
-    addr:postcode=4700-000; addr:street=Av. Cónego Jorge Peixoto
-    Coutinho- variante 14; amenity=fuel; brand=Cepsa;
-    building=roof; check_date=2025-08-27; fuel:biodiesel=yes;
-    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; layer=1; mapillary=1129746771344052;
-    name=CEPSA ÓRFÃOS - I (Poente); opening_hours=24/7;
-    operator=Cepsa; payment:cash=yes; payment:visa=yes;
-    source=Direção-Geral de Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    addr:postcode=4700-000; addr:street=Avenida Cónego Jorge
+    Peixoto Coutinho - variante 14; amenity=fuel; branch=ÓRFÃOS - I
+    (Poente); brand=Cepsa; building=roof; check_date=2025-08-27;
+    fuel:biodiesel=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; layer=1;
+    mapillary=1129746771344052; name=CEPSA; opening_hours=24/7;
+    operator=Cepsa; payment:cash=yes; payment:visa=yes; ref:dgeg=8;
+    ref:inspire=IDDGEG_PACVR_2698; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
     survey:date=2023-12-03; toilets=yes; id=way/170673652</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
@@ -16382,7 +16412,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; building=yes; name=Gás Butano;
     id=way/173773378</desc>
   </wpt>
-  <wpt lat="38.7642348" lon="-9.158654942142752">
+  <wpt lat="38.76423585" lon="-9.158642700908">
     <ele>89.0</ele>
     <name>GALP</name>
     <desc>addr:street=Rua Francisco Stromp; amenity=fuel;
@@ -16416,17 +16446,19 @@ version="1.1" creator="togpx">
     <name>Galp</name>
     <desc>addr:street=Avenida Vale das Flores; amenity=fuel;
     atm=yes; branch=Galp Coimbra Sul; brand=Galp;
-    brand:wikidata=Q1492739; compressed_air=yes; name=Galp;
-    opening_hours=24/7; phone=+351 239 701 981; toilets=yes;
-    id=way/174739189</desc>
+    brand:wikidata=Q1492739; compressed_air=yes; landuse=retail;
+    name=Galp; opening_hours=24/7; operator=Galp; phone=+351 239
+    701 981; ref:dgeg=12965; ref:inspire=IDDGEG_PACVR_160;
+    toilets=yes; id=way/174739189</desc>
   </wpt>
   <wpt lat="40.1954092" lon="-8.409025225698326">
     <ele>37.0</ele>
     <name>Galp</name>
     <desc>addr:street=Avenida Vale das Flores; amenity=fuel;
     atm=yes; branch=Galp Coimbra Norte; brand=Galp;
-    brand:wikidata=Q1492739; compressed_air=yes; name=Galp;
-    opening_hours=24/7; operator=Galp; phone=+351 239 701 981;
+    brand:wikidata=Q1492739; compressed_air=yes; landuse=retail;
+    name=Galp; opening_hours=24/7; operator=Galp; phone=+351 239
+    701 981; ref:dgeg=12446; ref:inspire=IDDGEG_PACVR_4342;
     shop=convenience; toilets=yes; id=way/174739190</desc>
   </wpt>
   <wpt lat="40.1899191" lon="-8.4009863523975">
@@ -16465,7 +16497,7 @@ version="1.1" creator="togpx">
     amenity=fuel; branch=Coimbra - Oeste; brand=BP;
     brand:wikidata=Q152057; fuel:diesel=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=BP Santa Clara; opening_hours=24/7;
-    phone=+351 239 441 136; source=bing; id=way/174739510</desc>
+    phone=+351 239 441 136; id=way/174739510</desc>
   </wpt>
   <wpt lat="40.201300200000006" lon="-8.408667876480195">
     <ele>41.0</ele>
@@ -16581,8 +16613,9 @@ version="1.1" creator="togpx">
     <name>Petrovaz</name>
     <desc>addr:city=Arrifana; addr:street=Rua de Campo Verde;
     amenity=fuel; brand=Petrovaz; brand:wikipedia=en:Cepsa;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Petrovaz; self_service=yes; id=way/180073465</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Petrovaz; self_service=yes;
+    id=way/180073465</desc>
   </wpt>
   <wpt lat="38.779728899999995" lon="-9.123971772091503">
     <ele>82.0</ele>
@@ -16650,7 +16683,8 @@ version="1.1" creator="togpx">
     <ele>147.0</ele>
     <name>GALP</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=GALP;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=12004; ref:inspire=IDDGEG_PACVR_69;
     id=way/182877561</desc>
   </wpt>
   <wpt lat="38.73310745" lon="-9.224256534192111">
@@ -16658,8 +16692,9 @@ version="1.1" creator="togpx">
     <name>GALP</name>
     <desc>amenity=fuel; brand=GALP; brand:wikidata=Q1492739;
     brand:wikipedia=en:Galp Energia; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=GALP;
-    id=way/182877562</desc>
+    fuel:octane_95=yes; fuel:octane_98=yes; landuse=retail;
+    name=GALP; operator=Galp; ref:dgeg=12003;
+    ref:inspire=IDDGEG_PACVR_342; id=way/182877562</desc>
   </wpt>
   <wpt lat="38.78526305" lon="-9.1792819698902">
     <ele>26.0</ele>
@@ -16671,8 +16706,9 @@ version="1.1" creator="togpx">
     <ele>68.0</ele>
     <name>Bomba de Gasolina Cepsa</name>
     <desc>amenity=fuel; brand=Moeve; brand:wikidata=Q608819;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Bomba de Gasolina Cepsa; name:en=Cepsa Gas Station;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Bomba de Gasolina Cepsa; name:en=Cepsa
+    Gas Station; opening_hours=Mo-Su,PH 07:00-23:00;
     operator=CEPSA; id=way/183091596</desc>
   </wpt>
   <wpt lat="40.3617646" lon="-7.8606072162391065">
@@ -16807,8 +16843,9 @@ version="1.1" creator="togpx">
     <ele>102.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; name=BP; opening_hours=Mo-Su,PH
-    00:00-24:00; self_service=yes; id=way/196706059</desc>
+    brand:wikipedia=en:BP; compressed_air=yes; name=BP;
+    opening_hours=Mo-Su,PH 00:00-24:00; self_service=yes;
+    id=way/196706059</desc>
   </wpt>
   <wpt lat="41.2225762" lon="-8.70317335282278">
     <ele>25.0</ele>
@@ -17294,14 +17331,6 @@ version="1.1" creator="togpx">
     <name>way/235620008</name>
     <desc>amenity=fuel; building=yes; id=way/235620008</desc>
   </wpt>
-  <wpt lat="38.7227042" lon="-9.121646954691801">
-    <ele>45.0</ele>
-    <name>galp</name>
-    <desc>amenity=fuel; brand=galp; building=roof;
-    building:colour=#F7351B; building:levels=1; height=6; layer=1;
-    name=galp; operator=galp; roof:shape=flat;
-    id=way/236057519</desc>
-  </wpt>
   <wpt lat="38.638476" lon="-9.232121260734743">
     <ele>7.0</ele>
     <name>Galp</name>
@@ -17411,14 +17440,6 @@ version="1.1" creator="togpx">
     official_name=Compañía Española de Petróleos, S.A.U.;
     opening_hours=24/7; operator=Cepsa; payment:cash=yes;
     payment:visa=yes; toilets=yes; id=way/245006512</desc>
-  </wpt>
-  <wpt lat="38.80795585" lon="-9.09481525">
-    <ele>7.0</ele>
-    <name>Station Service E. Leclerc</name>
-    <desc>amenity=fuel; brand=E.Leclerc; brand:wikidata=Q1273376;
-    brand:wikipedia=fr:E.Leclerc; building=yes; layer=1;
-    name=Station Service E. Leclerc; operator=E. Leclerc; wall=no;
-    id=way/245619636</desc>
   </wpt>
   <wpt lat="41.45326305" lon="-8.189765124055267">
     <ele>270.0</ele>
@@ -17689,20 +17710,22 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="38.8133481" lon="-9.210603276428575">
     <ele>203.0</ele>
-    <name>Ti Saloia</name>
+    <name>Galp</name>
     <desc>addr:city=Caneças; addr:street=Rua Major Rosa Bastos;
     amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; compressed_air=yes; name=Ti
-    Saloia; opening_hours=24/7; operator=Galp;
+    brand:wikipedia=en:Galp Energia; compressed_air=yes;
+    landuse=retail; name=Galp; opening_hours=24/7; operator=Galp;
+    ref:dgeg=11499; ref:inspire=IDDGEG_PACVR_334;
     id=way/273984281</desc>
   </wpt>
   <wpt lat="38.813214450000004" lon="-9.211870549999999">
     <ele>202.0</ele>
-    <name>Ti Saloia</name>
+    <name>Galp</name>
     <desc>addr:city=Caneças; addr:street=Rua Major Rosa Bastos;
     amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=Ti Saloia;
-    opening_hours=24/7; operator=Galp; id=way/273984543</desc>
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=Galp;
+    opening_hours=24/7; operator=Galp; ref:dgeg=14680;
+    ref:inspire=IDDGEG_PACVR_337; id=way/273984543</desc>
   </wpt>
   <wpt lat="38.81050595" lon="-9.234164773943387">
     <ele>253.0</ele>
@@ -18050,13 +18073,6 @@ version="1.1" creator="togpx">
     layer=1; name=BP; valves=schrader; wheelchair=yes;
     id=way/308479253</desc>
   </wpt>
-  <wpt lat="41.5327294" lon="-6.953252840266411">
-    <ele>549.0</ele>
-    <name>Intermarché</name>
-    <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
-    brand:wikipedia=fr:Intermarché; name=Intermarché;
-    id=way/311020693</desc>
-  </wpt>
   <wpt lat="38.02694815" lon="-7.883194306253717">
     <ele>231.0</ele>
     <name>way/314308237</name>
@@ -18213,12 +18229,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.1372796" lon="-8.628434076831091">
     <ele>59.0</ele>
-    <name>E.S. GAIA I</name>
-    <desc>addr:city=Candal; addr:postcode=4400-663; addr:street=V8;
-    amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    <name>Repsol</name>
+    <desc>addr:city=Candal; addr:housename=Estação de Serviço de
+    Gaia I; addr:postcode=4400-663; addr:street=V8; amenity=fuel;
+    brand=Repsol; brand:wikidata=Q174747;
     brand:wikipedia=es:Repsol; check_date=2025-08-25; fuel:lpg=yes;
-    name=E.S. GAIA I; source=Direção-Geral de Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    landuse=retail; name=Repsol; operator=Repsol; ref:dgeg=1333;
+    ref:inspire=IDDGEG_PACVR_1162; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/332930849</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
@@ -18227,18 +18245,21 @@ version="1.1" creator="togpx">
     <name>Repsol</name>
     <desc>addr:city=Vila Nova de Gaia; addr:street=Via 8;
     amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    brand:wikipedia=es:Repsol; name=Repsol; id=way/332930850</desc>
+    brand:wikipedia=es:Repsol; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1335; ref:inspire=IDDGEG_PACVR_1164;
+    id=way/332930850</desc>
   </wpt>
   <wpt lat="41.1404081" lon="-8.633161079802743">
     <ele>70.0</ele>
-    <name>GALP Vila Nova de Gaia (Norte)</name>
+    <name>Galp</name>
     <desc>addr:city=Vila Nova de Gaia; addr:postcode=4400-000;
     addr:street=Via 8 - Sta. Marinha (Lado Rio); amenity=fuel;
-    brand=Galp; brand:wikidata=Q1492739; brand:wikipedia=en:Galp
-    Energia; check_date=2025-08-27; compressed_air=yes;
-    fuel:lpg=yes; name=GALP Vila Nova de Gaia (Norte);
-    source=Direção-Geral de Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    branch=Vila Nova de Gaia (Norte); brand=Galp;
+    brand:wikidata=Q1492739; brand:wikipedia=en:Galp Energia;
+    check_date=2025-08-27; compressed_air=yes; fuel:lpg=yes;
+    landuse=retail; name=Galp; operator=Galp; ref:dgeg=11740;
+    ref:inspire=IDDGEG_PACVR_1393; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/332930866</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
@@ -18246,7 +18267,8 @@ version="1.1" creator="togpx">
     <ele>84.0</ele>
     <name>Galp</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=Galp;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=Galp;
+    operator=Galp; ref:dgeg=11742; ref:inspire=IDDGEG_PACVR_1394;
     id=way/332930867</desc>
   </wpt>
   <wpt lat="41.1898951" lon="-8.632715265856032">
@@ -18433,6 +18455,13 @@ version="1.1" creator="togpx">
     operator=Cepsa; payment:cash=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; id=way/371196039</desc>
   </wpt>
+  <wpt lat="40.53704005" lon="-7.2866218568155805">
+    <ele>950.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=usr6838; ref:inspire=IDDGEG_PACVR_2222;
+    id=way/371743521</desc>
+  </wpt>
   <wpt lat="41.0933402" lon="-8.606010351277373">
     <ele>126.0</ele>
     <name>Gaspe</name>
@@ -18464,6 +18493,7 @@ version="1.1" creator="togpx">
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
     brand:wikipedia=en:BP; check_date=2023-03-05; name=BP;
+    operator=BP; ref:dgeg=27244; ref:inspire=IDDGEG_PACVR_768;
     id=way/377224969</desc>
   </wpt>
   <wpt lat="41.635138299999994" lon="-8.149600385458884">
@@ -18858,8 +18888,8 @@ version="1.1" creator="togpx">
     <name>GALP</name>
     <desc>addr:city=Esmoriz; addr:street=Rua de Gondesende;
     amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; building=roof; layer=1;
-    name=GALP; id=way/409874032</desc>
+    brand:wikipedia=en:Galp Energia; building=roof;
+    compressed_air=yes; layer=1; name=GALP; id=way/409874032</desc>
   </wpt>
   <wpt lat="39.61500305" lon="-9.059461458407789">
     <ele>136.0</ele>
@@ -18915,9 +18945,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.2800625" lon="-8.370368621292371">
     <ele>316.0</ele>
-    <name>BP - Este</name>
-    <desc>amenity=fuel; name=BP - Este; operator=BP;
-    id=way/415470111</desc>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=João XXIII - Este; landuse=retail;
+    name=BP; operator=BP; ref:dgeg=27204;
+    ref:inspire=IDDGEG_PACVR_794; id=way/415470111</desc>
   </wpt>
   <wpt lat="41.2788337" lon="-8.379111618945839">
     <ele>300.0</ele>
@@ -19068,14 +19099,16 @@ version="1.1" creator="togpx">
     <ele>102.0</ele>
     <name>GALP</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=GALP;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=11145; ref:inspire=IDDGEG_PACVR_557;
     id=way/440386694</desc>
   </wpt>
   <wpt lat="41.092620749999995" lon="-8.542537739100087">
     <ele>104.0</ele>
     <name>GALP</name>
     <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=GALP;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=11301; ref:inspire=IDDGEG_PACVR_588;
     id=way/440386695</desc>
   </wpt>
   <wpt lat="41.1135969" lon="-8.5900390970809">
@@ -19149,7 +19182,8 @@ version="1.1" creator="togpx">
     <name>GALP</name>
     <desc>addr:city=Porto; addr:street=Avenida de Fernão de
     Magalhães; amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; name=GALP;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=11756; ref:inspire=IDDGEG_PACVR_404;
     id=way/441677220</desc>
   </wpt>
   <wpt lat="41.17821805" lon="-8.582495911743639">
@@ -19157,15 +19191,17 @@ version="1.1" creator="togpx">
     <name>GALP</name>
     <desc>addr:city=Porto; addr:street=Avenida de Fernão de
     Magalhães; amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; compressed_air=yes; name=GALP;
-    id=way/441677222</desc>
+    brand:wikipedia=en:Galp Energia; compressed_air=yes;
+    landuse=retail; name=GALP; operator=Galp; ref:dgeg=11757;
+    ref:inspire=IDDGEG_PACVR_405; id=way/441677222</desc>
   </wpt>
   <wpt lat="41.1645989" lon="-8.589636439063451">
     <ele>144.0</ele>
     <name>Repsol</name>
     <desc>addr:city=Porto; addr:street=Avenida de Fernão de
     Magalhães; amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    brand:wikipedia=es:Repsol; name=Repsol; operator=Repsol;
+    brand:wikipedia=es:Repsol; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1307; ref:inspire=IDDGEG_PACVR_1141;
     id=way/441685491</desc>
   </wpt>
   <wpt lat="41.1692474" lon="-8.58682525489114">
@@ -19182,8 +19218,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Porto; addr:street=Avenida de Fernão de
     Magalhães; amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
     brand:wikipedia=en:Galp Energia; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=GALP;
-    operator=Galp; id=way/441685497</desc>
+    fuel:octane_95=yes; fuel:octane_98=yes; landuse=retail;
+    name=GALP; operator=Galp; ref:dgeg=11743;
+    ref:inspire=IDDGEG_PACVR_1386; id=way/441685497</desc>
   </wpt>
   <wpt lat="41.16320715" lon="-8.589796248681491">
     <ele>144.0</ele>
@@ -19238,12 +19275,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=fr:Intermarché; layer=1; name=Intermarché;
     id=way/443776420</desc>
   </wpt>
-  <wpt lat="41.20258455" lon="-8.398625341147383">
-    <ele>432.0</ele>
-    <name>Enchaki</name>
-    <desc>addr:city=Vandoma; addr:street=Avenida Central de Reiros;
-    amenity=fuel; name=Enchaki; id=way/443816768</desc>
-  </wpt>
   <wpt lat="37.14823535" lon="-8.702962832159443">
     <ele>41.0</ele>
     <name>GALP</name>
@@ -19253,11 +19284,6 @@ version="1.1" creator="togpx">
     layer=1; name=GALP; opening_hours=24/7; operator=Galp;
     payment:cash=yes; payment:visa=yes; toilets=yes;
     id=way/444170512</desc>
-  </wpt>
-  <wpt lat="41.2026116" lon="-8.398443955586686">
-    <ele>432.0</ele>
-    <name>Enchaki</name>
-    <desc>amenity=fuel; name=Enchaki; id=way/444406549</desc>
   </wpt>
   <wpt lat="39.4034264" lon="-9.148087737882653">
     <ele>26.0</ele>
@@ -19536,9 +19562,11 @@ version="1.1" creator="togpx">
   <wpt lat="41.17977515" lon="-8.653767969175409">
     <ele>84.0</ele>
     <name>GALP</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; compressed_air=yes; name=GALP;
-    operator=Galp; id=way/465485975</desc>
+    <desc>addr:street=Rua Henrique Pousão; amenity=fuel;
+    brand=Galp; brand:wikidata=Q1492739; brand:wikipedia=en:Galp
+    Energia; compressed_air=yes; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=11183; ref:inspire=IDDGEG_PACVR_295;
+    id=way/465485975</desc>
   </wpt>
   <wpt lat="38.2967544" lon="-8.224527910307192">
     <ele>82.0</ele>
@@ -19645,7 +19673,9 @@ version="1.1" creator="togpx">
     <ele>63.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; name=BP; id=way/474423857</desc>
+    brand:wikipedia=en:BP; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=26442; ref:inspire=IDDGEG_PACVR_759;
+    id=way/474423857</desc>
   </wpt>
   <wpt lat="41.338052000000005" lon="-8.476061651525729">
     <ele>82.0</ele>
@@ -19736,8 +19766,8 @@ version="1.1" creator="togpx">
   <wpt lat="41.1009612" lon="-8.586481034025724">
     <ele>200.0</ele>
     <name>BP</name>
-    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057; name=BP;
-    id=way/490598548</desc>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    compressed_air=yes; name=BP; id=way/490598548</desc>
   </wpt>
   <wpt lat="38.6174479" lon="-9.116401247767225">
     <ele>18.0</ele>
@@ -20016,7 +20046,7 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes; name=Galp; operator=Galp; valves=schrader;
     wheelchair=yes; id=way/533591705</desc>
   </wpt>
-  <wpt lat="40.6483409" lon="-7.920579789583911">
+  <wpt lat="40.6483409" lon="-7.920585878622399">
     <ele>477.0</ele>
     <name>Repsol</name>
     <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
@@ -20041,6 +20071,15 @@ version="1.1" creator="togpx">
     brand:wikidata=Q608819; brand:wikipedia=en:Cepsa; name=Cepsa;
     official_name=Compañía Española de Petróleos, S.A.U.;
     id=way/536125032</desc>
+  </wpt>
+  <wpt lat="41.410161" lon="-8.519030258460237">
+    <ele>99.0</ele>
+    <name>Simpletex</name>
+    <desc>amenity=fuel; brand=Simpletex; car_wash=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; landuse=commercial;
+    name=Simpletex; old_name=Prio; operator=Simpletex -
+    Distribuição de Combustíveis, Unipessoal Limitada; shop=no;
+    id=way/536146992</desc>
   </wpt>
   <wpt lat="41.565495150000004" lon="-8.450155006964657">
     <ele>59.0</ele>
@@ -20161,18 +20200,6 @@ version="1.1" creator="togpx">
     amenity=fuel; brand=BP; brand:wikidata=Q152057;
     brand:wikipedia=en:BP; name=BP; id=way/539470502</desc>
   </wpt>
-  <wpt lat="41.23278085" lon="-8.548007267457075">
-    <ele>105.0</ele>
-    <name>way/540041061</name>
-    <desc>amenity=fuel; brand=Galp; opening_hours=07:00-22:00;
-    id=way/540041061</desc>
-  </wpt>
-  <wpt lat="41.23302925" lon="-8.547917651632595">
-    <ele>105.0</ele>
-    <name>way/540041065</name>
-    <desc>amenity=fuel; brand=Galp; opening_hours=07:00-22:00;
-    id=way/540041065</desc>
-  </wpt>
   <wpt lat="41.2053042" lon="-8.548624709375002">
     <ele>118.0</ele>
     <name>Repsol</name>
@@ -20214,13 +20241,15 @@ version="1.1" creator="togpx">
     <ele>233.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    check_date=2022-09-24; name=BP; id=way/541531430</desc>
+    check_date=2022-09-24; name=BP; operator=BP; ref:dgeg=11472;
+    ref:inspire=IDDGEG_PACVR_413; id=way/541531430</desc>
   </wpt>
   <wpt lat="41.5807279" lon="-8.276788549760191">
     <ele>244.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    check_date=2022-09-24; name=BP; id=way/541531431</desc>
+    check_date=2022-09-24; name=BP; operator=BP; ref:dgeg=11604;
+    ref:inspire=IDDGEG_PACVR_414; id=way/541531431</desc>
   </wpt>
   <wpt lat="41.31529095" lon="-8.139240959993353">
     <ele>441.0</ele>
@@ -20267,14 +20296,6 @@ version="1.1" creator="togpx">
     <name>Garagem Avenida do Oeste</name>
     <desc>amenity=fuel; name=Garagem Avenida do Oeste;
     id=way/544675229</desc>
-  </wpt>
-  <wpt lat="41.1797031" lon="-8.653812830911331">
-    <ele>84.0</ele>
-    <name>GALP</name>
-    <desc>addr:street=Rua Henrique Pousão; amenity=fuel;
-    brand=Galp; brand:wikidata=Q1492739; brand:wikipedia=en:Galp
-    Energia; building=yes; building:levels=1; compressed_air=yes;
-    name=GALP; id=way/544906632</desc>
   </wpt>
   <wpt lat="41.140374249999994" lon="-8.591912651219962">
     <ele>41.0</ele>
@@ -20366,8 +20387,9 @@ version="1.1" creator="togpx">
     <ele>103.0</ele>
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
-    brand:wikipedia=en:BP; compressed_air=yes; name=BP;
-    id=way/551734733</desc>
+    brand:wikipedia=en:BP; compressed_air=yes; landuse=retail;
+    name=BP; operator=BP; ref:dgeg=27016;
+    ref:inspire=IDDGEG_PACVR_1556; id=way/551734733</desc>
   </wpt>
   <wpt lat="39.83181875" lon="-7.480784988269716">
     <ele>386.0</ele>
@@ -20463,9 +20485,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.3605344" lon="-8.20350510426304">
     <ele>298.0</ele>
-    <name>H M</name>
-    <desc>amenity=fuel; name=H M; self_service=no;
-    id=way/565142126</desc>
+    <name>repsol</name>
+    <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    name=repsol; self_service=no; id=way/565142126</desc>
   </wpt>
   <wpt lat="41.362376850000004" lon="-8.202061924433242">
     <ele>301.0</ele>
@@ -20487,7 +20509,7 @@ version="1.1" creator="togpx">
     <ele>257.0</ele>
     <name>Cepsa Romariz</name>
     <desc>addr:city=Romariz; addr:street=Rua de Romariz;
-    amenity=fuel; brand=Cepsa; brand:wikidata=Q608819;
+    amenity=fuel; brand=Moeve; brand:wikidata=Q608819;
     brand:wikipedia=en:Cepsa; name=Cepsa Romariz;
     official_name=Compañía Española de Petróleos, S.A.U.;
     id=way/569139608</desc>
@@ -20593,14 +20615,15 @@ version="1.1" creator="togpx">
   <wpt lat="37.813197200000005" lon="-8.49798762617547">
     <ele>97.0</ele>
     <name>Flor de Campilhas</name>
-    <desc>addr:city=Bicos; addr:street=EN 262; amenity=fuel;
-    name=Flor de Campilhas; id=way/594183984</desc>
+    <desc>addr:city=Bicos; addr:postcode=7630-711; addr:street=EN
+    262; amenity=fuel; name=Flor de Campilhas;
+    id=way/594183984</desc>
   </wpt>
   <wpt lat="37.813094899999996" lon="-8.494610260497147">
     <ele>95.0</ele>
     <name>Prio Bicos</name>
-    <desc>addr:city=Bicos; amenity=fuel; brand=Prio; name=Prio
-    Bicos; id=way/594183985</desc>
+    <desc>addr:city=Bicos; addr:postcode=7630-711; amenity=fuel;
+    brand=Prio; name=Prio Bicos; id=way/594183985</desc>
   </wpt>
   <wpt lat="40.945534300000006" lon="-8.622547540367439">
     <ele>33.0</ele>
@@ -20848,18 +20871,6 @@ version="1.1" creator="togpx">
     <name>BP</name>
     <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057; name=BP;
     id=way/646901342</desc>
-  </wpt>
-  <wpt lat="40.20243695" lon="-8.431570144584708">
-    <ele>20.0</ele>
-    <name>Cepsa</name>
-    <desc>addr:city=Coimbra; addr:place=Santa Clara;
-    addr:postcode=3040-055; addr:street=Avenida Inês de Castro;
-    amenity=fuel; branch=Coimbra - Santa Clara; brand=Moeve;
-    brand:wikidata=Q608819; compressed_air=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=Cepsa;
-    official_name=Compañía Española de Petróleos, S.A.U.;
-    opening_hours=Mo-Su 06:00-22:00; phone=+351 239 441 507;
-    id=way/647085203</desc>
   </wpt>
   <wpt lat="40.6646637" lon="-7.897258884384095">
     <ele>451.0</ele>
@@ -21344,20 +21355,6 @@ version="1.1" creator="togpx">
     compressed_air=yes; name=Galp; valves=schrader; wheelchair=yes;
     id=way/736584760</desc>
   </wpt>
-  <wpt lat="41.388986700000004" lon="-8.763453550000001">
-    <ele>15.0</ele>
-    <name>GALP</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; building=roof; layer=1;
-    name=GALP; wheelchair=yes; id=way/736744317</desc>
-  </wpt>
-  <wpt lat="41.389049549999996" lon="-8.763198080358762">
-    <ele>16.0</ele>
-    <name>GALP</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    brand:wikipedia=en:Galp Energia; building=yes; layer=1;
-    name=GALP; wheelchair=yes; id=way/736744319</desc>
-  </wpt>
   <wpt lat="41.5024759" lon="-8.6581630107089">
     <ele>54.0</ele>
     <name>BP</name>
@@ -21369,7 +21366,8 @@ version="1.1" creator="togpx">
     <ele>50.0</ele>
     <name>Oz energia</name>
     <desc>amenity=fuel; brand=Oz energia; name=Oz energia;
-    opening_hours=24/7; id=way/741005677</desc>
+    opening_hours=24/7; ref:dgeg=A_120274091;
+    ref:inspire=IDDGEG_PACVR_4466; id=way/741005677</desc>
   </wpt>
   <wpt lat="39.73912235" lon="-8.81521433400729">
     <ele>33.0</ele>
@@ -21566,13 +21564,13 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="38.79026195" lon="-9.102046329793515">
     <ele>22.0</ele>
-    <name>Posto combustível Intermarché Sacavém</name>
+    <name>Intermarché</name>
     <desc>addr:city=Sacavém; addr:housenumber=22;
     addr:postcode=2685-038; addr:street=Rua Cidade de Goa;
     addr:unit=Edifício 2 C-D; amenity=fuel; brand=Intermarché;
     compressed_air=no; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Posto combustível Intermarché Sacavém; opening_hours=24/7;
-    operator=Intermarché;
+    name=Intermarché; opening_hours=24/7; operator=Intermarché;
+    ref:dgeg=0085; ref:inspire=IDDGEG_PACVR_2839;
     website=https://www.intermarche.pt/lojas/lisboa/07989-sacavem/;
     id=way/797380412</desc>
     <link href="https://www.intermarche.pt/lojas/lisboa/07989-sacavem/">
@@ -21681,7 +21679,8 @@ version="1.1" creator="togpx">
     <ele>218.0</ele>
     <name>Prio</name>
     <desc>amenity=fuel; brand=Prio; brand:wikidata=Q62530421;
-    compressed_air=yes; name=Prio; id=way/818637724</desc>
+    compressed_air=yes; landuse=retail; name=Prio; ref:dgeg=P001;
+    ref:inspire=IDDGEG_PACVR_4541; id=way/818637724</desc>
   </wpt>
   <wpt lat="41.08548135" lon="-8.63289955053689">
     <ele>61.0</ele>
@@ -21856,14 +21855,16 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.3966303" lon="-7.992892903039756">
     <ele>262.0</ele>
-    <name>way/843625760</name>
-    <desc>amenity=fuel; brand=BP; id=way/843625760</desc>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; landuse=retail; name=BP;
+    operator=BP; ref:dgeg=300011; ref:inspire=IDDGEG_PACVR_2451;
+    id=way/843625760</desc>
   </wpt>
   <wpt lat="41.397085149999995" lon="-7.993010085756918">
     <ele>252.0</ele>
-    <name>way/843625767</name>
-    <desc>amenity=fuel; brand=Galp; opening_hours=Mo-Su
-    06:30-23:00; id=way/843625767</desc>
+    <name>Prio</name>
+    <desc>amenity=fuel; brand=Prio; landuse=retail; name=Prio;
+    id=way/843625767</desc>
   </wpt>
   <wpt lat="39.4148021" lon="-7.694223551413881">
     <ele>283.0</ele>
@@ -22045,8 +22046,8 @@ version="1.1" creator="togpx">
     <ele>40.0</ele>
     <name>Intermarché</name>
     <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
-    brand:wikipedia=fr:Intermarché; name=Intermarché;
-    id=way/875797959</desc>
+    brand:wikipedia=fr:Intermarché; building=roof; layer=1;
+    name=Intermarché; id=way/875797959</desc>
   </wpt>
   <wpt lat="41.40388995" lon="-7.9570093898171566">
     <ele>169.0</ele>
@@ -22166,8 +22167,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.24874545" lon="-8.2559453374142">
     <ele>212.0</ele>
-    <name>way/889963597</name>
-    <desc>amenity=fuel; brand=BP; id=way/889963597</desc>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; name=BP; operator=BP;
+    ref:dgeg=27491; ref:inspire=IDDGEG_PACVR_2911;
+    id=way/889963597</desc>
   </wpt>
   <wpt lat="41.284527100000005" lon="-8.258791977850876">
     <ele>279.0</ele>
@@ -22248,10 +22251,20 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Gestroil Energy; name=Gestroil
     Energy; operator=Gestroil Energy; id=way/911543016</desc>
   </wpt>
-  <wpt lat="38.7644779" lon="-9.211672560718533">
+  <wpt lat="38.76450305" lon="-9.211852686495149">
     <ele>89.0</ele>
-    <name>way/917585126</name>
-    <desc>amenity=fuel; brand=Galp; id=way/917585126</desc>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    landuse=retail; mapillary=1299328837441097; name=Galp;
+    operator=Galp; ref:dgeg=11452; ref:inspire=IDDGEG_PACVR_67;
+    survey:date=2023-11-10; id=way/917585126</desc>
+  </wpt>
+  <wpt lat="41.5033398" lon="-8.668920669705514">
+    <ele>46.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp;
+    opening_hours=05:00-01:00; operator=Galp; ref:dgeg=12699;
+    ref:inspire=IDDGEG_PACVR_99; id=way/923511723</desc>
   </wpt>
   <wpt lat="37.853854150000004" lon="-8.785532621189848">
     <ele>40.0</ele>
@@ -22566,13 +22579,6 @@ version="1.1" creator="togpx">
     brand:wikipedia=es:Repsol; compressed_air=yes; name=Repsol;
     smoking=no; id=way/1021541561</desc>
   </wpt>
-  <wpt lat="38.76443345" lon="-9.211823426356036">
-    <ele>89.0</ele>
-    <name>Galp</name>
-    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
-    building=roof; layer=1; mapillary=1299328837441097; name=Galp;
-    survey:date=2023-11-10; id=way/1024908994</desc>
-  </wpt>
   <wpt lat="39.637542499999995" lon="-7.844415570208104">
     <ele>249.0</ele>
     <name>way/1029404293</name>
@@ -22681,6 +22687,19 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
     name=Intermarché; id=way/1054202952</desc>
   </wpt>
+  <wpt lat="40.758730549999996" lon="-8.065215531510248">
+    <ele>191.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    name=Galp; operator=Silva e Carvalhas; ref:dgeg=16319;
+    ref:inspire=IDDGEG_PACVR_447; id=way/1054205745</desc>
+  </wpt>
+  <wpt lat="40.7589407" lon="-8.064674227027032">
+    <ele>190.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; name=BP; operator=BP; ref:dgeg=27548;
+    ref:inspire=IDDGEG_PACVR_449; id=way/1054205746</desc>
+  </wpt>
   <wpt lat="41.1673506" lon="-8.309232258378017">
     <ele>193.0</ele>
     <name>Q8</name>
@@ -22726,11 +22745,11 @@ version="1.1" creator="togpx">
   <wpt lat="38.9065778" lon="-9.032466124328511">
     <ele>15.0</ele>
     <name>E.S. ALVERCA</name>
-    <desc>addr:city=Alverca; addr:postcode=2615-000; addr:street=AV
-    DO MARCO DA IV LEGUA 17; amenity=fuel; brand=Repsol;
-    brand:wikidata=Q174747; building=roof; check_date=2025-08-25;
-    fuel:lpg=yes; layer=1; name=E.S. ALVERCA; source=Direção-Geral
-    de Energia e Geologia;
+    <desc>addr:city=Alverca; addr:housenumber=17;
+    addr:postcode=2615-000; addr:street=Avenida do Marco da IV
+    Légua; amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    building=roof; check_date=2025-08-25; fuel:lpg=yes; layer=1;
+    name=E.S. ALVERCA; source=Direção-Geral de Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1056199642</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
@@ -22745,17 +22764,17 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="40.1679308" lon="-8.456450997163337">
     <ele>122.0</ele>
-    <name>Paralelo Alternativo - Comércio de Combustíveis,
-    Ldª</name>
+    <name>Galp</name>
     <desc>addr:city=Antanhol- Banhos Secos; addr:postcode=3000-032;
     addr:street=IC 2 Km 183,4; amenity=fuel; branch=Coimbra
     Antanhol Oeste; brand=Galp; brand:wikidata=Q1492739;
     check_date=2025-08-27; compressed_air=yes; fuel:diesel=yes;
     fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Paralelo Alternativo - Comércio de Combustíveis, Ldª;
-    opening_hours=Mo-Su 06:00-22:00; phone=+351 915 078 747;
-    source=Direção-Geral de Energia e Geologia;
-    source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    landuse=retail; name=Galp; opening_hours=Mo-Su 06:00-22:00;
+    operator=Paralelo Alternativo - Comércio de Combustíveis, Ldª;
+    phone=+351 915 078 747; ref:dgeg=16363;
+    ref:inspire=IDDGEG_PACVR_162; source=Direção-Geral de Energia e
+    Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1059268853</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
@@ -22765,8 +22784,9 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; branch=Coimbra Antanhol Este; brand=Galp;
     brand:wikidata=Q1492739; compressed_air=yes; fuel:diesel=yes;
     fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Galp; opening_hours=24/7; phone=+351 915 078 747;
-    id=way/1059268856</desc>
+    landuse=retail; name=Galp; opening_hours=24/7; operator=Galp;
+    phone=+351 915 078 747; ref:dgeg=16364;
+    ref:inspire=IDDGEG_PACVR_163; id=way/1059268856</desc>
   </wpt>
   <wpt lat="41.6542261" lon="-8.584432655308529">
     <ele>181.0</ele>
@@ -23256,13 +23276,6 @@ version="1.1" creator="togpx">
     <name>way/1164140172</name>
     <desc>amenity=fuel; id=way/1164140172</desc>
   </wpt>
-  <wpt lat="38.75404235" lon="-9.1387473803556">
-    <ele>91.0</ele>
-    <name>way/1164617618</name>
-    <desc>amenity=fuel; brand=Galp; compressed_air=yes;
-    mapillary=950999605969688; survey:date=2023-07-31;
-    id=way/1164617618</desc>
-  </wpt>
   <wpt lat="38.724140250000005" lon="-9.213517515224797">
     <ele>60.0</ele>
     <name>Repsol</name>
@@ -23350,9 +23363,10 @@ version="1.1" creator="togpx">
     <name>E.S. S. JOAO MADEIRA Z.IND.</name>
     <desc>addr:city=São João da Madeira; addr:postcode=3700-317;
     addr:street=Rua Domingos José Oliveira, s/n; amenity=fuel;
-    brand=Repsol; check_date=2025-08-25; fuel:lpg=yes; name=E.S. S.
-    JOAO MADEIRA Z.IND.; operator=Petro Zona Comercio de
-    Combustiveis Lda; source=Direção-Geral de Energia e Geologia;
+    brand=Repsol; brand:wikidata=Q174747; check_date=2025-08-25;
+    fuel:lpg=yes; name=E.S. S. JOAO MADEIRA Z.IND.; operator=Petro
+    Zona Comercio de Combustiveis Lda; source=Direção-Geral de
+    Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1180992168</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
@@ -23532,17 +23546,20 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="41.111026800000005" lon="-8.57826026831956">
     <ele>116.0</ele>
-    <name>Q8 Vilar de Andorinho</name>
-    <desc>addr:street=N225 (Av. Vasco da Gama) Km 2,7;
-    amenity=fuel; brand=Q8; brand:wikidata=Q4119207; fuel:e10=yes;
-    fuel:e85=yes; name=Q8 Vilar de Andorinho;
+    <name>Q8</name>
+    <desc>addr:housenumber=km 2,7; addr:milestone=2.7;
+    addr:street=Avenida Vasco da Gama (EN225); amenity=fuel;
+    branch=Vilar de Andorinho; brand=Q8; brand:wikidata=Q4119207;
+    fuel:e10=yes; fuel:e85=yes; landuse=retail; name=Q8;
+    operator=Q8; ref:dgeg=P61; ref:inspire=IDDGEG_PACVR_4408;
     id=way/1204309304</desc>
   </wpt>
   <wpt lat="41.1109206" lon="-8.577523419419945">
     <ele>116.0</ele>
-    <name>way/1204309305</name>
-    <desc>amenity=fuel; fuel:e10=yes; fuel:e85=yes;
-    id=way/1204309305</desc>
+    <name>Q8</name>
+    <desc>amenity=fuel; fuel:e10=yes; fuel:e85=yes; landuse=retail;
+    name=Q8; operator=Q8; ref:dgeg=P62;
+    ref:inspire=IDDGEG_PACVR_4409; id=way/1204309305</desc>
   </wpt>
   <wpt lat="41.09138815" lon="-8.572845452542373">
     <ele>104.0</ele>
@@ -23609,6 +23626,13 @@ version="1.1" creator="togpx">
     fuel:octane_98=yes; name=Repsol Brejos Azeitão A;
     self_service=yes; id=way/1205912587</desc>
   </wpt>
+  <wpt lat="41.205840249999994" lon="-8.621182945952555">
+    <ele>53.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    building=yes; layer=1; name=Repsol;
+    source=microsoft/BuildingFootprints; id=way/1213833460</desc>
+  </wpt>
   <wpt lat="38.7580492" lon="-9.229358323630986">
     <ele>124.0</ele>
     <name>Galp Elias Garcia</name>
@@ -23662,10 +23686,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="40.91524105" lon="-8.495951259776662">
     <ele>271.0</ele>
-    <name>Q8</name>
-    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q4119207;
-    compressed_air=yes; fuel:e10=yes; fuel:e85=yes; name=Q8;
-    id=way/1226974551</desc>
+    <name>Prio</name>
+    <desc>addr:city=Arrifana; addr:street=Rua Afonso Lopes Viera;
+    amenity=fuel; branch=Arrifana; brand=Prio;
+    brand:wikidata=Q62530421; compressed_air=yes; fuel:e10=yes;
+    fuel:e85=yes; name=Prio; opening_hours=Mo-Su 07:00-23:00;
+    self_service=yes; id=way/1226974551</desc>
   </wpt>
   <wpt lat="40.97195015" lon="-8.524842351678915">
     <ele>231.0</ele>
@@ -23682,20 +23708,8 @@ version="1.1" creator="togpx">
     N.º 1; amenity=fuel; brand=Alves Bandeira;
     brand:wikidata=Q109012157; compressed_air=yes; fuel:diesel=yes;
     fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=Alves Bandeira; id=way/1227400355</desc>
-  </wpt>
-  <wpt lat="40.99838545" lon="-8.540695849352012">
-    <ele>238.0</ele>
-    <name>ALVES BANDEIRA Lourosa B</name>
-    <desc>addr:city=Mozelos; addr:postcode=4536-909;
-    addr:street=Av. Principal nº110 (EN 1); amenity=fuel;
-    brand=Alves Bandeira; brand:wikidata=Q109012157; building=roof;
-    check_date=2025-02-10; compressed_air=yes; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes; layer=1;
-    name=ALVES BANDEIRA Lourosa B; source=Direção-Geral de Energia
-    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
-    id=way/1227400360</desc>
-    <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
+    name=Alves Bandeira; operator=Alves Bandeira; ref:dgeg=AB453B;
+    ref:inspire=IDDGEG_PACVR_1681; id=way/1227400355</desc>
   </wpt>
   <wpt lat="41.05641665" lon="-8.56713379272417">
     <ele>162.0</ele>
@@ -23710,21 +23724,14 @@ version="1.1" creator="togpx">
     id=way/1227906548</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
-  <wpt lat="41.01977865" lon="-8.5563577">
-    <ele>229.0</ele>
-    <name>Repsol</name>
-    <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
-    brand:wikipedia=es:Repsol; building=roof; compressed_air=yes;
-    layer=1; name=Repsol; opening_hours=Mo-Su 07:00-22:00;
-    id=way/1227906989</desc>
-  </wpt>
   <wpt lat="41.0162312" lon="-8.557015368240222">
     <ele>239.0</ele>
     <name>SHELL Argoncilhe</name>
     <desc>addr:city=Argoncilhe; addr:housenumber=635;
     addr:postcode=4505-007; addr:street=Rua da Estrada Nacional
     Nº1; amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
-    check_date=2025-08-27; fuel:lpg=yes; name=SHELL Argoncilhe;
+    check_date=2025-10-13; check_date:compressed_air=2025-10-13;
+    compressed_air=yes; fuel:lpg=yes; name=SHELL Argoncilhe;
     source=Direção-Geral de Energia e Geologia;
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1227907012</desc>
@@ -23774,7 +23781,7 @@ version="1.1" creator="togpx">
     <ele>367.0</ele>
     <name>Intermarché</name>
     <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
-    building=yes; layer=1; name=Intermarché;
+    building=roof; layer=1; name=Intermarché;
     id=way/1237584406</desc>
   </wpt>
   <wpt lat="41.4140759" lon="-8.653266004190925">
@@ -24050,14 +24057,6 @@ version="1.1" creator="togpx">
     id=way/1311064026</desc>
     <link href="https://www.repsol.pt/"></link>
   </wpt>
-  <wpt lat="38.7225532" lon="-9.121589450206235">
-    <ele>45.0</ele>
-    <name>galp</name>
-    <desc>amenity=fuel; brand=galp; building=yes;
-    building:colour=#F7351B; building:levels=1; height=6;
-    name=galp; operator=galp; roof:shape=flat;
-    id=way/1311679678</desc>
-  </wpt>
   <wpt lat="41.419564" lon="-8.632753317629795">
     <ele>67.0</ele>
     <name>Galp</name>
@@ -24069,8 +24068,10 @@ version="1.1" creator="togpx">
     <ele>60.0</ele>
     <name>Prio</name>
     <desc>amenity=fuel; brand=Prio; brand:wikidata=Q62530421;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Prio;
-    opening_hours=24/7; self_service=yes; id=way/1311896687</desc>
+    fuel:diesel=yes; fuel:octane_95=yes; landuse=retail; name=Prio;
+    opening_hours=24/7; operator=Prio; ref:dgeg=Macieira;
+    ref:inspire=IDDGEG_PACVR_1977; self_service=yes;
+    id=way/1311896687</desc>
   </wpt>
   <wpt lat="41.432523700000004" lon="-8.61629349925559">
     <ele>119.0</ele>
@@ -24177,6 +24178,13 @@ version="1.1" creator="togpx">
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1326520071</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
+  </wpt>
+  <wpt lat="41.18899585" lon="-8.597080678203124">
+    <ele>103.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=A_120274111; ref:inspire=IDDGEG_PACVR_4418;
+    id=way/1327525897</desc>
   </wpt>
   <wpt lat="40.26486335" lon="-7.491333751459685">
     <ele>469.0</ele>
@@ -24332,9 +24340,9 @@ version="1.1" creator="togpx">
     <ele>110.0</ele>
     <name>Station Service E.Leclerc</name>
     <desc>amenity=fuel; brand=E.Leclerc; brand:wikidata=Q1273376;
-    building=roof; fuel:diesel=yes; fuel:octane_95=yes; layer=1;
-    name=Station Service E.Leclerc; operator=E.Leclerc;
-    id=way/1366273878</desc>
+    building=roof; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; layer=1; name=Station Service E.Leclerc;
+    operator=E.Leclerc; id=way/1366273878</desc>
   </wpt>
   <wpt lat="40.88514175" lon="-8.551063036707845">
     <ele>132.0</ele>
@@ -24573,6 +24581,12 @@ version="1.1" creator="togpx">
     id=way/1424684085</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
   </wpt>
+  <wpt lat="38.82157935" lon="-9.173028637519764">
+    <ele>110.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=Intermarché; id=way/1425781255</desc>
+  </wpt>
   <wpt lat="41.468616499999996" lon="-6.899411443956774">
     <ele>544.0</ele>
     <name>Posto Galp - Almerindo Fernando Silva, Lda</name>
@@ -24591,5 +24605,631 @@ version="1.1" creator="togpx">
     source:url=https://precoscombustiveis.dgeg.gov.pt/;
     id=way/1432342580</desc>
     <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
+  </wpt>
+  <wpt lat="41.8349116" lon="-7.773534312052506">
+    <ele>957.0</ele>
+    <name>way/1435183366</name>
+    <desc>amenity=fuel; landuse=retail; ref:dgeg=AC001;
+    ref:inspire=IDDGEG_PACVR_1999; id=way/1435183366</desc>
+  </wpt>
+  <wpt lat="41.77572345" lon="-7.3294668510869565">
+    <ele>838.0</ele>
+    <name>Petro Bolideira</name>
+    <desc>amenity=fuel; name=Petro Bolideira; operator=Ilídio Mota;
+    ref:dgeg=urs8110; ref:inspire=IDDGEG_PACVR_2702;
+    id=way/1435183714</desc>
+  </wpt>
+  <wpt lat="41.7572631" lon="-7.262505110482222">
+    <ele>665.0</ele>
+    <name>Valcarce</name>
+    <desc>amenity=fuel; landuse=retail; name=Valcarce;
+    operator=Valcarce; ref:dgeg=77/2023-P;
+    ref:inspire=IDDGEG_PACVR_2980; id=way/1435184350</desc>
+  </wpt>
+  <wpt lat="41.6977462" lon="-7.031679091366092">
+    <ele>630.0</ele>
+    <name>Petrolema</name>
+    <desc>amenity=fuel; brand=Galp;
+    contact:facebook=https://www.facebook.com/p/Petrolema-100063801481711/;
+    landuse=retail; name=Petrolema; operator=TFreitas;
+    ref:dgeg=usr6980; ref:inspire=IDDGEG_PACVR_2298;
+    id=way/1435185006</desc>
+  </wpt>
+  <wpt lat="41.679395150000005" lon="-7.7021584256645585">
+    <ele>764.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1713; ref:inspire=IDDGEG_PACVR_2600;
+    id=way/1435185228</desc>
+  </wpt>
+  <wpt lat="41.52004335" lon="-7.796516668632612">
+    <ele>428.0</ele>
+    <name>Bombas Maxi-Tem</name>
+    <desc>amenity=fuel; brand=Bombas Maxi-Tem; landuse=retail;
+    name=Bombas Maxi-Tem; ref:dgeg=74218;
+    ref:inspire=IDDGEG_PACVR_2760; id=way/1435185608</desc>
+  </wpt>
+  <wpt lat="41.508066299999996" lon="-7.988841624542917">
+    <ele>270.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; landuse=retail; name=Intermarché;
+    operator=Intermarché; ref:dgeg=PDV10510;
+    ref:inspire=IDDGEG_PACVR_4192; id=way/1435185716</desc>
+  </wpt>
+  <wpt lat="41.28785755" lon="-8.09510936931611">
+    <ele>181.0</ele>
+    <name>Pingo Doce</name>
+    <desc>amenity=fuel; name=Pingo Doce; operator=Pingo Doce;
+    ref:dgeg=744; ref:inspire=IDDGEG_PACVR_2504;
+    id=way/1435186419</desc>
+  </wpt>
+  <wpt lat="41.32980795" lon="-8.267294364656639">
+    <ele>488.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB464;
+    ref:inspire=IDDGEG_PACVR_2403; id=way/1435186861</desc>
+  </wpt>
+  <wpt lat="41.29397805" lon="-8.221202741261493">
+    <ele>192.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB457;
+    ref:inspire=IDDGEG_PACVR_2480; id=way/1435187074</desc>
+  </wpt>
+  <wpt lat="41.2853466" lon="-8.272774408005434">
+    <ele>289.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=27261; ref:inspire=IDDGEG_PACVR_2259;
+    id=way/1435187922</desc>
+  </wpt>
+  <wpt lat="41.27277" lon="-8.278980218871398">
+    <ele>268.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; landuse=retail; name=Intermarché;
+    operator=Intermarché; ref:dgeg=09061;
+    ref:inspire=IDDGEG_PACVR_4195; id=way/1435187979</desc>
+  </wpt>
+  <wpt lat="41.27050375" lon="-8.287318953497394">
+    <ele>272.0</ele>
+    <name>Pingo Doce</name>
+    <desc>amenity=fuel; brand=Prio; landuse=retail; name=Pingo
+    Doce; operator=Pingo Doce; ref:dgeg=662;
+    ref:inspire=IDDGEG_PACVR_2343; id=way/1435188340</desc>
+  </wpt>
+  <wpt lat="41.22659625" lon="-8.234130232823127">
+    <ele>374.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=15012; ref:inspire=IDDGEG_PACVR_2432;
+    id=way/1435188703</desc>
+  </wpt>
+  <wpt lat="41.05175875" lon="-8.367128910934895">
+    <ele>54.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=P63; ref:inspire=IDDGEG_PACVR_4539;
+    id=way/1435188749</desc>
+  </wpt>
+  <wpt lat="41.07316165" lon="-8.093944766327574">
+    <ele>393.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=16306; ref:inspire=IDDGEG_PACVR_157;
+    id=way/1435189121</desc>
+  </wpt>
+  <wpt lat="41.0990885" lon="-7.807248611316811">
+    <ele>498.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=16308; ref:inspire=IDDGEG_PACVR_226;
+    id=way/1435189264</desc>
+  </wpt>
+  <wpt lat="41.11596775" lon="-7.57520949089567">
+    <ele>536.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=P22; ref:inspire=IDDGEG_PACVR_4373;
+    id=way/1435276668</desc>
+  </wpt>
+  <wpt lat="41.029273700000005" lon="-7.549000099999995">
+    <ele>674.0</ele>
+    <name>Barreiro Combustíveis &amp; Lubrificantes</name>
+    <desc>amenity=fuel; brand=Barreiro Combustíveis &amp;
+    Lubrificantes; name=Barreiro Combustíveis &amp; Lubrificantes;
+    ref:dgeg=18042005; ref:inspire=IDDGEG_PACVR_1774;
+    short_name=BCL; id=way/1435276868</desc>
+  </wpt>
+  <wpt lat="41.05140285" lon="-7.469761070483602">
+    <ele>736.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1860; ref:inspire=IDDGEG_PACVR_1982;
+    id=way/1435276901</desc>
+  </wpt>
+  <wpt lat="41.0695245" lon="-7.219397143742077">
+    <ele>546.0</ele>
+    <name>Azoria</name>
+    <desc>amenity=fuel; landuse=retail; name=Azoria;
+    operator=Azoria; ref:dgeg=45; ref:inspire=IDDGEG_PACVR_1678;
+    id=way/1435276955</desc>
+  </wpt>
+  <wpt lat="41.160830950000005" lon="-8.108824299999998">
+    <ele>406.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; landuse=retail; name=Cepsa; old_name=BP;
+    operator=Cepsa; ref:dgeg=27365; ref:inspire=IDDGEG_PACVR_2743;
+    id=way/1435277209</desc>
+  </wpt>
+  <wpt lat="41.0807293" lon="-7.144522398656846">
+    <ele>413.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=16232; ref:inspire=IDDGEG_PACVR_556;
+    id=way/1435277226</desc>
+  </wpt>
+  <wpt lat="41.40668995" lon="-8.767349017107433">
+    <ele>17.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1336; ref:inspire=IDDGEG_PACVR_1165;
+    id=way/1435278129</desc>
+  </wpt>
+  <wpt lat="41.38913955" lon="-8.763245770111078">
+    <ele>16.0</ele>
+    <name>GALP</name>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    brand:wikipedia=en:Galp Energia; landuse=retail; name=GALP;
+    operator=Galp; ref:dgeg=11487; ref:inspire=IDDGEG_PACVR_417;
+    wheelchair=yes; id=way/1435278297</desc>
+  </wpt>
+  <wpt lat="41.337910699999995" lon="-8.687216322986268">
+    <ele>59.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=27644; ref:inspire=IDDGEG_PACVR_4185;
+    id=way/1435278335</desc>
+  </wpt>
+  <wpt lat="41.1617039" lon="-8.577995228204674">
+    <ele>90.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; landuse=retail; name=Cepsa; operator=Cepsa;
+    ref:dgeg=ES610971; ref:inspire=IDDGEG_PACVR_1850;
+    id=way/1435283167</desc>
+  </wpt>
+  <wpt lat="41.173013749999996" lon="-8.550355472296747">
+    <ele>117.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1326; ref:inspire=IDDGEG_PACVR_1157;
+    id=way/1435283448</desc>
+  </wpt>
+  <wpt lat="41.15233655" lon="-8.516256406923361">
+    <ele>176.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB395;
+    ref:inspire=IDDGEG_PACVR_2978; id=way/1435283657</desc>
+  </wpt>
+  <wpt lat="41.1438996" lon="-8.537931814228891">
+    <ele>121.0</ele>
+    <name>REnergia</name>
+    <desc>amenity=fuel; landuse=retail; name=REnergia;
+    ref:dgeg=A_120274109; ref:inspire=IDDGEG_PACVR_4413;
+    id=way/1435283792</desc>
+  </wpt>
+  <wpt lat="41.1977714" lon="-8.492660552854815">
+    <ele>149.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=Galp; brand:wikidata=Q1492739;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    landuse=retail; name=Galp; operator=Galp; ref:dgeg=11866;
+    ref:inspire=IDDGEG_PACVR_903; id=way/1435283980</desc>
+  </wpt>
+  <wpt lat="41.21391335" lon="-8.550442508158257">
+    <ele>114.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
+    landuse=retail; name=Intermarché; operator=Intermarché;
+    ref:dgeg=2016; ref:inspire=IDDGEG_PACVR_2681;
+    id=way/1435284835</desc>
+  </wpt>
+  <wpt lat="41.199250199999994" lon="-8.60949580929255">
+    <ele>77.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=27544; ref:inspire=IDDGEG_PACVR_2790;
+    id=way/1435288733</desc>
+  </wpt>
+  <wpt lat="41.29553115" lon="-7.519641252885554">
+    <ele>585.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; landuse=retail; name=Cepsa; operator=Cepsa;
+    ref:dgeg=61277; ref:inspire=IDDGEG_PACVR_4435;
+    id=way/1435288963</desc>
+  </wpt>
+  <wpt lat="41.157247749999996" lon="-8.037638172342858">
+    <ele>567.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; compressed_air=yes; landuse=retail;
+    name=Galp; operator=Galp; ref:dgeg=11942;
+    ref:inspire=IDDGEG_PACVR_2758; id=way/1435289308</desc>
+  </wpt>
+  <wpt lat="41.19912385" lon="-8.168770650896349">
+    <ele>154.0</ele>
+    <name>Freitas</name>
+    <desc>amenity=fuel; brand=Galp; landuse=retail; name=Freitas;
+    operator=Freitas; ref:dgeg=0012; ref:inspire=IDDGEG_PACVR_2366;
+    id=way/1435289360</desc>
+  </wpt>
+  <wpt lat="41.20972895" lon="-8.164213276098902">
+    <ele>197.0</ele>
+    <name>Moeve</name>
+    <desc>amenity=fuel; landuse=retail; name=Moeve; operator=Moeve;
+    ref:dgeg=ES64193; ref:inspire=IDDGEG_PACVR_4611;
+    id=way/1435289999</desc>
+  </wpt>
+  <wpt lat="41.2178492" lon="-8.287247689591833">
+    <ele>191.0</ele>
+    <name>TFreitas</name>
+    <desc>amenity=fuel; brand=Galp; landuse=retail; name=TFreitas;
+    ref:dgeg=P_001; ref:inspire=IDDGEG_PACVR_4542;
+    id=way/1435290232</desc>
+  </wpt>
+  <wpt lat="41.1979377" lon="-8.413331100346273">
+    <ele>291.0</ele>
+    <name>OZ Energia</name>
+    <desc>amenity=fuel; landuse=retail; name=OZ Energia;
+    operator=OZ Energia; ref:dgeg=20;
+    ref:inspire=IDDGEG_PACVR_4463; id=way/1435293761</desc>
+  </wpt>
+  <wpt lat="41.2025496" lon="-8.398578187840776">
+    <ele>432.0</ele>
+    <name>PetroVandoma</name>
+    <desc>addr:city=Vandoma; addr:street=Avenida Central de Reiros;
+    amenity=fuel; name=PetroVandoma; ref:dgeg=1259303764;
+    ref:inspire=IDDGEG_PACVR_4550; id=way/1435293976</desc>
+  </wpt>
+  <wpt lat="41.1859111" lon="-8.624113419644386">
+    <ele>101.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=27015; ref:inspire=IDDGEG_PACVR_1555;
+    id=way/1435329882</desc>
+  </wpt>
+  <wpt lat="40.9983412" lon="-8.540677679604428">
+    <ele>238.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>addr:city=Mozelos; addr:housenumber=110;
+    addr:postcode=4536-909; addr:street=Avenida Principal (EN 1);
+    amenity=fuel; branch=Lourosa B; brand=Alves Bandeira;
+    brand:wikidata=Q109012157; check_date=2025-02-10;
+    compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB453A;
+    ref:inspire=IDDGEG_PACVR_1680; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    id=way/1435514149</desc>
+    <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
+  </wpt>
+  <wpt lat="41.01981905" lon="-8.556305477079597">
+    <ele>229.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; brand=Repsol; brand:wikidata=Q174747;
+    brand:wikipedia=es:Repsol; compressed_air=yes; landuse=retail;
+    name=Repsol; opening_hours=Mo-Su 07:00-22:00; operator=Repsol;
+    ref:dgeg=157; ref:inspire=IDDGEG_PACVR_942;
+    id=way/1435515425</desc>
+  </wpt>
+  <wpt lat="41.027487949999994" lon="-8.634811180215394">
+    <ele>34.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=A_120274112; ref:inspire=IDDGEG_PACVR_4394;
+    id=way/1435515943</desc>
+  </wpt>
+  <wpt lat="41.043252249999995" lon="-8.563540294282836">
+    <ele>177.0</ele>
+    <name>Prio</name>
+    <desc>addr:city=Pedroso e Seixezelo; addr:street=Avenida Doutor
+    Moreira de Sousa; amenity=fuel; landuse=retail; name=Prio;
+    operator=Prio; ref:dgeg=P59; ref:inspire=IDDGEG_PACVR_4397;
+    id=way/1435516156</desc>
+  </wpt>
+  <wpt lat="41.043341749999996" lon="-8.563070287370898">
+    <ele>172.0</ele>
+    <name>Prio</name>
+    <desc>addr:city=Pedroso e Seixezelo; addr:street=Avenida Doutor
+    Moreira de Sousa; amenity=fuel; landuse=retail; name=Prio;
+    operator=Prio; ref:dgeg=P60; ref:inspire=IDDGEG_PACVR_4398;
+    id=way/1435516157</desc>
+  </wpt>
+  <wpt lat="41.09496215" lon="-8.636896536442473">
+    <ele>50.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=11949; ref:inspire=IDDGEG_PACVR_4402;
+    id=way/1435521523</desc>
+  </wpt>
+  <wpt lat="41.105574250000004" lon="-8.552373830590621">
+    <ele>109.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; landuse=retail; name=Cepsa; operator=Cepsa;
+    ref:dgeg=61032; ref:inspire=IDDGEG_PACVR_846;
+    id=way/1435523411</desc>
+  </wpt>
+  <wpt lat="41.1221769" lon="-8.58942614800468">
+    <ele>101.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; landuse=retail; name=Intermarché;
+    operator=Intermarché; ref:dgeg=10015;
+    ref:inspire=IDDGEG_PACVR_4410; id=way/1435665184</desc>
+  </wpt>
+  <wpt lat="41.16597015" lon="-8.620259631800558">
+    <ele>113.0</ele>
+    <name>Rede Energia</name>
+    <desc>amenity=fuel; landuse=retail; local_name=REnergia;
+    name=Rede Energia; operator=Rede Energia; ref:dgeg=789654;
+    ref:inspire=IDDGEG_PACVR_1180; id=way/1435666296</desc>
+  </wpt>
+  <wpt lat="41.2135733" lon="-8.682855174569497">
+    <ele>56.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>addr:city=Santa Cruz do Bispo; addr:housenumber=1040;
+    addr:postcode=4455-877; addr:street=Avenida Arquiteto Fernando
+    Távora; amenity=fuel; branch=Santa Cruz do Bispo; brand=Alves
+    Bandeira; brand:wikidata=Q62530421; check_date=2025-08-25;
+    fuel:lpg=yes; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB495;
+    ref:inspire=IDDGEG_PACVR_2764; source=Direção-Geral de Energia
+    e Geologia; source:url=https://precoscombustiveis.dgeg.gov.pt/;
+    id=way/1435666546</desc>
+    <link href="https://precoscombustiveis.dgeg.gov.pt/"></link>
+  </wpt>
+  <wpt lat="40.91812955" lon="-8.425956781271418">
+    <ele>350.0</ele>
+    <name>Gaspe</name>
+    <desc>amenity=fuel; landuse=retail; name=Gaspe; operator=Gaspe;
+    ref:dgeg=60374; ref:inspire=IDDGEG_PACVR_2591;
+    id=way/1435666988</desc>
+  </wpt>
+  <wpt lat="41.216274150000004" lon="-8.379823045945548">
+    <ele>397.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=Busliquid; ref:inspire=IDDGEG_PACVR_2418;
+    id=way/1435672474</desc>
+  </wpt>
+  <wpt lat="41.2204503" lon="-8.364176315868276">
+    <ele>332.0</ele>
+    <name>Q8</name>
+    <desc>amenity=fuel; landuse=retail; name=Q8; operator=Q8;
+    ref:dgeg=P52; ref:inspire=IDDGEG_PACVR_4540;
+    id=way/1435675330</desc>
+  </wpt>
+  <wpt lat="41.3181554" lon="-8.428915907375636">
+    <ele>368.0</ele>
+    <name>Freitas</name>
+    <desc>amenity=fuel; brand=Galp; landuse=retail; name=Freitas;
+    operator=Freitas; ref:dgeg=0007; ref:inspire=IDDGEG_PACVR_1899;
+    id=way/1435698903</desc>
+  </wpt>
+  <wpt lat="41.34054905" lon="-8.493292808649791">
+    <ele>104.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; landuse=retail; name=BP; operator=BP;
+    ref:dgeg=27616; ref:inspire=IDDGEG_PACVR_3771;
+    id=way/1435699240</desc>
+  </wpt>
+  <wpt lat="41.3425716" lon="-8.493569408431583">
+    <ele>93.0</ele>
+    <name>Q8</name>
+    <desc>amenity=fuel; landuse=retail; name=Q8; operator=Q8;
+    ref:dgeg=P40; ref:inspire=IDDGEG_PACVR_2960;
+    id=way/1435734079</desc>
+  </wpt>
+  <wpt lat="41.38729805" lon="-8.52808571143293">
+    <ele>83.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=A_120274097; ref:inspire=IDDGEG_PACVR_2978;
+    id=way/1435736397</desc>
+  </wpt>
+  <wpt lat="41.39999695" lon="-8.524507777622318">
+    <ele>103.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; name=Intermarché; operator=Intermarché;
+    ref:dgeg=07290; ref:inspire=IDDGEG_PACVR_2588;
+    id=way/1435736692</desc>
+  </wpt>
+  <wpt lat="41.4576209" lon="-8.56670354126285">
+    <ele>118.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=16117; ref:inspire=IDDGEG_PACVR_102;
+    id=way/1435758104</desc>
+  </wpt>
+  <wpt lat="41.47011325" lon="-8.710217878097675">
+    <ele>18.0</ele>
+    <name>Petrolagoinha</name>
+    <desc>amenity=fuel; name=Petrolagoinha; ref:dgeg=CRXCRISTELO;
+    ref:inspire=IDDGEG_PACVR_2312; id=way/1435758360</desc>
+  </wpt>
+  <wpt lat="41.6363702" lon="-8.529132056204482">
+    <ele>122.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=360; ref:inspire=IDDGEG_PACVR_4479;
+    id=way/1435759015</desc>
+  </wpt>
+  <wpt lat="41.4777707" lon="-8.531782190903083">
+    <ele>122.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=50500; ref:inspire=IDDGEG_PACVR_4315;
+    id=way/1435759138</desc>
+  </wpt>
+  <wpt lat="41.365604000000005" lon="-8.443027160692964">
+    <ele>103.0</ele>
+    <name>Q8</name>
+    <desc>amenity=fuel; landuse=retail; name=Q8; operator=Q8;
+    ref:dgeg=P53; ref:inspire=IDDGEG_PACVR_4447;
+    id=way/1435759220</desc>
+  </wpt>
+  <wpt lat="41.40957265" lon="-8.296141862979667">
+    <ele>280.0</ele>
+    <name>AMoil</name>
+    <desc>amenity=fuel; landuse=retail; name=AMoil;
+    ref:dgeg=Posto_A; ref:inspire=IDDGEG_PACVR_2709;
+    id=way/1435759621</desc>
+  </wpt>
+  <wpt lat="41.42202535" lon="-8.355550088177175">
+    <ele>152.0</ele>
+    <name>Super Primavera</name>
+    <desc>amenity=fuel; name=Super Primavera; ref:dgeg=2010;
+    ref:inspire=IDDGEG_PACVR_1527; id=way/1435759653</desc>
+  </wpt>
+  <wpt lat="41.2663091" lon="-8.434040113187454">
+    <ele>352.0</ele>
+    <name>Pagripacense</name>
+    <desc>amenity=fuel; landuse=retail; name=Pagripacense;
+    ref:dgeg=usr6852; ref:inspire=IDDGEG_PACVR_4431;
+    id=way/1435759963</desc>
+  </wpt>
+  <wpt lat="41.475879899999995" lon="-7.177555553408648">
+    <ele>240.0</ele>
+    <name>Tuacar</name>
+    <desc>amenity=fuel; landuse=retail; name=Tuacar;
+    operator=Tuacar; ref:dgeg=Tuacar_MDL-Sul;
+    ref:inspire=IDDGEG_PACVR_4524; id=way/1435769447</desc>
+  </wpt>
+  <wpt lat="41.53271015" lon="-6.953180932732849">
+    <ele>549.0</ele>
+    <name>Intermarché</name>
+    <desc>amenity=fuel; brand=Intermarché; brand:wikidata=Q3153200;
+    brand:wikipedia=fr:Intermarché; landuse=retail;
+    name=Intermarché; operator=Intermarché; ref:dgeg=07306;
+    ref:inspire=IDDGEG_PACVR_1524; id=way/1435769805</desc>
+  </wpt>
+  <wpt lat="40.04336565" lon="-7.8886906829146595">
+    <ele>594.0</ele>
+    <name>Freitas</name>
+    <desc>amenity=fuel; landuse=retail; name=Freitas;
+    operator=Freitas; ref:dgeg=GAVIAO;
+    ref:inspire=IDDGEG_PACVR_2456; id=way/1435769886</desc>
+  </wpt>
+  <wpt lat="40.40971495" lon="-6.874695344972547">
+    <ele>808.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=956; ref:inspire=IDDGEG_PACVR_426;
+    id=way/1435769976</desc>
+  </wpt>
+  <wpt lat="40.26198215" lon="-8.349713855997003">
+    <ele>524.0</ele>
+    <name>Combustíveis O Moinho</name>
+    <desc>amenity=fuel; brand=Repsol; landuse=retail;
+    name=Combustíveis O Moinho; ref:dgeg=0000;
+    ref:inspire=IDDGEG_PACVR_2521; id=way/1436148139</desc>
+  </wpt>
+  <wpt lat="40.17424175" lon="-8.385554115010944">
+    <ele>81.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; brand=Alves Bandeira;
+    brand:wikidata=Q109012157; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB476;
+    ref:inspire=IDDGEG_PACVR_1739; id=way/1436148636</desc>
+  </wpt>
+  <wpt lat="40.173782149999994" lon="-8.385626982124732">
+    <ele>61.0</ele>
+    <name>Alves Bandeira</name>
+    <desc>amenity=fuel; brand=Alves Bandeira;
+    brand:wikidata=Q109012157; landuse=retail; name=Alves Bandeira;
+    operator=Alves Bandeira; ref:dgeg=AB411;
+    ref:inspire=IDDGEG_PACVR_1686; id=way/1436148637</desc>
+  </wpt>
+  <wpt lat="38.72261385" lon="-9.12155924350153">
+    <ele>45.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=11833; ref:inspire=IDDGEG_PACVR_2402;
+    id=way/1436150094</desc>
+  </wpt>
+  <wpt lat="38.73701525" lon="-9.146705379979318">
+    <ele>89.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; landuse=retail; name=Repsol;
+    operator=Repsol; ref:dgeg=1109; ref:inspire=IDDGEG_PACVR_248;
+    id=way/1436150211</desc>
+  </wpt>
+  <wpt lat="38.741577899999996" lon="-9.138810742959823">
+    <ele>86.0</ele>
+    <name>Repsol</name>
+    <desc>amenity=fuel; brand=Repsol; landuse=retail; name=Repsol;
+    operator=Transforpel; ref:dgeg=1171;
+    ref:inspire=IDDGEG_PACVR_4317; id=way/1436150694</desc>
+  </wpt>
+  <wpt lat="38.80795675" lon="-9.094764350998002">
+    <ele>7.0</ele>
+    <name>Station Service E. Leclerc</name>
+    <desc>amenity=fuel; brand=E.Leclerc; brand:wikidata=Q1273376;
+    brand:wikipedia=fr:E.Leclerc; landuse=retail; name=Station
+    Service E. Leclerc; operator=E. Leclerc; ref:dgeg=21;
+    ref:inspire=IDDGEG_PACVR_4188; id=way/1436159120</desc>
+  </wpt>
+  <wpt lat="38.7232069" lon="-9.167687393261154">
+    <ele>78.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; brand=GALP; brand:wikidata=Q1492739;
+    brand:wikipedia=en:Galp Energia; compressed_air=yes;
+    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:e10=yes;
+    fuel:lpg=yes; fuel:octane_100=no; fuel:octane_91=no;
+    fuel:octane_95=yes; fuel:octane_98=yes; landuse=retail;
+    name=Galp; operator=Galp; ref:dgeg=14190;
+    ref:inspire=IDDGEG_PACVR_249; id=way/1436162948</desc>
+  </wpt>
+  <wpt lat="38.72271645" lon="-9.16787095877761">
+    <ele>78.0</ele>
+    <name>BP</name>
+    <desc>amenity=fuel; brand=BP; brand:wikidata=Q152057;
+    brand:wikipedia=en:BP; compressed_air=yes; landuse=retail;
+    name=BP; operator=BP; ref:dgeg=27406;
+    ref:inspire=IDDGEG_PACVR_1840; id=way/1436162949</desc>
+  </wpt>
+  <wpt lat="38.755523049999994" lon="-9.199165549999993">
+    <ele>103.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=11222; ref:inspire=IDDGEG_PACVR_243;
+    id=way/1436163328</desc>
+  </wpt>
+  <wpt lat="38.7780654" lon="-9.201609943964382">
+    <ele>40.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=12171; ref:inspire=IDDGEG_PACVR_335;
+    id=way/1436164343</desc>
+  </wpt>
+  <wpt lat="40.618286" lon="-7.613857849999995">
+    <ele>612.0</ele>
+    <name>Prio</name>
+    <desc>amenity=fuel; landuse=retail; name=Prio; operator=Prio;
+    ref:dgeg=161; ref:inspire=IDDGEG_PACVR_2511;
+    id=way/1436164976</desc>
+  </wpt>
+  <wpt lat="40.616324" lon="-7.5439337302631575">
+    <ele>514.0</ele>
+    <name>Galp</name>
+    <desc>amenity=fuel; landuse=retail; name=Galp; operator=Galp;
+    ref:dgeg=19586; ref:inspire=IDDGEG_PACVR_195;
+    id=way/1436165224</desc>
+  </wpt>
+  <wpt lat="40.9845146" lon="-7.635189450374007">
+    <ele>683.0</ele>
+    <name>Cepsa</name>
+    <desc>amenity=fuel; landuse=retail; name=Cepsa; operator=Cepsa;
+    ref:dgeg=64505; ref:inspire=IDDGEG_PACVR_4200;
+    id=way/1436188798</desc>
   </wpt>
 </gpx>
