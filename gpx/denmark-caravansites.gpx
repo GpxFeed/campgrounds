@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-10-30T11:08:58Z", "timestamp_areas_base":
-      "2025-10-30T06:17:23Z", "copyright": "The data included in
+      "2025-12-04T09:35:51Z", "timestamp_areas_base":
+      "2025-12-04T04:17:35Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -161,10 +161,12 @@ version="1.1" creator="togpx">
   <wpt lat="55.2934738" lon="10.7122269">
     <ele>20</ele>
     <name>Sulkendrup Mølle</name>
-    <desc>caravan_site:type=guest_house; charge=DKK 100 plus power,
-    water; fee=yes; name=Sulkendrup Mølle; opening_hours=24/7;
-    operator=Sulkendrup Vandmølle; phone=+45 25723553; toilets=yes;
-    tourism=caravan_site;
+    <desc>caravan_site:type=guest_house; charge=110 DKK; fee=yes;
+    name=Sulkendrup Mølle; opening_hours=24/7; operator=Sulkendrup
+    Vandmølle; phone=+45 25723553; power_supply=yes;
+    power_supply:charge=30 DKK; power_supply:fee=yes; toilets=yes;
+    tourism=caravan_site; water_point=yes; water_point:charge=25
+    DKK; water_point:fee=yes;
     website=https://sulkendrupmoelle.dk/Overnatning.html;
     id=node/5871532185</desc>
     <link href="https://sulkendrupmoelle.dk/Overnatning.html">
@@ -296,10 +298,10 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>Haverslev Havn</name>
     <desc>bbq=yes; caravan_site:type=harbour; caravans=no;
-    charge=DKK 100 including power_supply, shower, WiFi; fee=yes;
-    name=Haverslev Havn; payment:cash=yes; payment:mobilepay=yes;
-    power_supply=yes; sanitary_dump_station=yes; shower=yes;
-    tents=no; tourism=caravan_site;
+    charge=150 DKK; fee=yes; name=Haverslev Havn; payment:cash=yes;
+    payment:mobilepay=yes; power_supply=yes; power_supply:fee=no;
+    sanitary_dump_station=yes; shower=yes; shower:fee=no; tents=no;
+    tourism=caravan_site; water_point:fee=no;
     website=https://www.haverslevhavn.dk/?page_id=28;
     id=node/9967384817</desc>
     <link href="https://www.haverslevhavn.dk/?page_id=28"></link>
@@ -560,8 +562,8 @@ version="1.1" creator="togpx">
   <wpt lat="57.3851326" lon="9.7378859">
     <ele>16</ele>
     <name>Løkken Vestkyst Camping</name>
-    <desc>caravan_site:type=camping_site; charge=DKK 165 (camper +
-    2 adults), Quicqstop DKK 120; fee=yes; name=Løkken Vestkyst
+    <desc>caravan_site:type=camping_site; charge=165 DKK;
+    charge:quickstop=120 DKK; fee=yes; name=Løkken Vestkyst
     Camping; power_supply=yes; sanitary_dump_station=customers;
     tourism=caravan_site; id=node/11038420036</desc>
   </wpt>
@@ -1550,17 +1552,19 @@ version="1.1" creator="togpx">
   <wpt lat="54.7601215" lon="11.8594596">
     <ele>0</ele>
     <name>Toreby Sejlklubs havn</name>
-    <desc>caravan_site=motorhome_stopover;
-    caravan_site:type=harbour; caravans=no; charge=185 DKK;
-    fee=yes; name=Toreby Sejlklubs havn; operator=Toreby Sejlklub;
-    power_supply:fee=no; sanitary_dump_station=yes;
+    <desc>bbq=yes; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; caravans=no; charge=200 DKK;
+    description=Pladsen er åben i sejlersæsonen; fee=yes;
+    name=Toreby Sejlklubs havn; operator=Toreby Sejlklub;
+    power_supply=yes; power_supply:fee=no;
+    sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=no; shower=yes; shower:fee=no;
-    tents=no; toilets=yes; tourism=caravan_site;
-    water_point:fee=no;
-    website=https://www.toreby-sejlklub.dk/gaest.html;
+    sanitary_dump_station:grey_water=no; seasonal=yes; shower=yes;
+    shower:fee=no; tents=no; toilets=yes; tourism=caravan_site;
+    water_point=yes; water_point:fee=no;
+    website=https://toreby-sejlklub.dk/gaester/;
     id=node/11071056464</desc>
-    <link href="https://www.toreby-sejlklub.dk/gaest.html"></link>
+    <link href="https://toreby-sejlklub.dk/gaester/"></link>
   </wpt>
   <wpt lat="54.6625758" lon="11.7308396">
     <ele>0</ele>
@@ -1881,7 +1885,12 @@ version="1.1" creator="togpx">
     <ele>-3</ele>
     <name>
     https://bookenshelter.dk/naturlandet/shelterplads/lundehoeje-havn/</name>
-    <desc>fixme=Position?; tourism=caravan_site;
+    <desc>capacity=2; caravan_site=motorhome_stopover;
+    caravan_site:type=harbour; charge=100 DKK; fee=yes;
+    fixme=Position?; internet_access=wlan; internet_access:fee=no;
+    power_supply=no; reservation=required;
+    sanitary_dump_station=no; toilets=yes; tourism=caravan_site;
+    water_point=no;
     website=https://bookenshelter.dk/naturlandet/shelterplads/lundehoeje-havn/;
     id=node/12686440215</desc>
     <link href="https://bookenshelter.dk/naturlandet/shelterplads/lundehoeje-havn/">
@@ -2012,6 +2021,11 @@ version="1.1" creator="togpx">
     <name>Bakkegarden</name>
     <desc>name=Bakkegarden; opening_hours=24/7;
     tourism=caravan_site; id=node/13207461101</desc>
+  </wpt>
+  <wpt lat="56.6533304" lon="8.6371911">
+    <ele>2</ele>
+    <name>node/13279238021</name>
+    <desc>tourism=caravan_site; id=node/13279238021</desc>
   </wpt>
   <wpt lat="55.449817249999995" lon="11.800821304339422">
     <ele>50</ele>
@@ -2973,10 +2987,11 @@ version="1.1" creator="togpx">
     <desc>capacity=3; caravan_site=motorhome_stopover;
     caravan_site:type=back_country; caravans=no; charge=116 DKK;
     description=call on arrival; fee=yes; name=Eged
-    Teglværksgården; phone=+45 50427726; power_supply=yes;
-    power_supply:charge=45 DKK; power_supply:fee=yes; tents=no;
-    toilets=no; tourism=caravan_site; water_point=yes;
-    water_point:charge=10 DKK; water_point:fee=yes;
+    Teglværksgården; opening_hours=Apr 15-Oct 02; phone=+45
+    50427726; power_supply=yes; power_supply:charge=45 DKK;
+    power_supply:fee=yes; seasonal=yes; tents=no; toilets=no;
+    tourism=caravan_site; water_point=yes; water_point:charge=10
+    DKK; water_point:fee=yes;
     website=https://bookenshelter.dk/naturlandet/shelter/eged-teglvaerksgaarden-autocamper/;
     id=way/1204013885</desc>
     <link href="https://bookenshelter.dk/naturlandet/shelter/eged-teglvaerksgaarden-autocamper/">

@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-10-30T10:59:31Z", "timestamp_areas_base":
-      "2025-10-30T06:17:23Z", "copyright": "The data included in
+      "2025-12-04T09:28:43Z", "timestamp_areas_base":
+      "2025-12-04T04:17:35Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -39,7 +39,7 @@ version="1.1" creator="togpx">
     Kalmthoutse heide Nord; name:en=Camper Van Spaces in the
     Kalmthoutse Heide Parking Area Nord;
     name:nl=Kampeerautoplaatsen Parking Kalmthoutse Heide Nord;
-    picnic_area=yes; power_supply=yes; power_supply:fee=yes;
+    picnic_area=yes; power_supply=no; power_supply:fee=yes;
     sanitary_dump_station=no; services:charge=1 EUR:
     water,power_supply; toilets=yes; tourism=caravan_site;
     water_point=yes; water_point:fee=yes;
@@ -159,7 +159,7 @@ version="1.1" creator="togpx">
     name:de=Wohnmobil-parkplätze Kalmthoutse heide; name:en=Camper
     Van Spaces in the Kalmthoutse Heide Parking Area;
     name:nl=Kampeerautoplaatsen Parking Kalmthoutse Heide;
-    picnic_table=yes; power_supply=yes; sanitary_dump_station=no;
+    picnic_table=yes; power_supply=yes; sanitary_dump_station=yes;
     toilets=yes; tourism=caravan_site; water_point=yes;
     water_point:seasonal=yes;
     website=https://visitkalmthout.be/en/places-to-stay/camper-spots-kalmthoutse-heide;
@@ -192,7 +192,7 @@ version="1.1" creator="togpx">
     product=eggs; seasonal=yes; tourism=caravan_site;
     id=node/10057948221</desc>
   </wpt>
-  <wpt lat="50.4515953" lon="3.8039812">
+  <wpt lat="50.4515757" lon="3.8040232">
     <ele>22</ele>
     <name>Aire de Saint-Ghislain Sud</name>
     <desc>capacity=8; caravan_site=motorhome_stopover;
@@ -287,7 +287,7 @@ version="1.1" creator="togpx">
     <link href="https://www.scheldeland.be/camperplekken-langs-het-water">
     </link>
   </wpt>
-  <wpt lat="50.938059" lon="4.0564361">
+  <wpt lat="50.9382988" lon="4.0579916">
     <ele>9</ele>
     <name>Camperplaats Zwembadpark Aquatopia</name>
     <desc>capacity=2; caravan_site=motorhome_stopover;
@@ -354,6 +354,12 @@ version="1.1" creator="togpx">
     <link href="https://www.campingcarpark.com/en_GB/motor-home/wallonie/hainaut/ath">
     </link>
   </wpt>
+  <wpt lat="50.8543998" lon="3.5061177">
+    <ele>60</ele>
+    <name>Camperplaats Wortegem</name>
+    <desc>name=Camperplaats Wortegem; tourism=caravan_site;
+    id=node/13331491901</desc>
+  </wpt>
   <wpt lat="51.28593685" lon="4.50298488930369">
     <ele>16</ele>
     <name>Sporthal centrum Brasschaat</name>
@@ -370,27 +376,24 @@ version="1.1" creator="togpx">
     <desc>addr:city=Antwerpen; addr:postcode=2020;
     addr:street=Vogelzanglaan; capacity=115;
     caravan_site=motorhome_stopover;
-    caravan_site:type=sports_centre,city; caravans=no; charge=20
-    EUR; check_in=09:00-20:00, Jun-Sep 09:00-21:00;
-    check_out=17:00; dog=leashed; email=david@nocterra.com;
-    fee=yes; name=Camperpark Vogelzang Antwerpen; note="Groene
-    parking" voor motorhomes, op gras en op asfalt.; phone=+32
-    471308530; power_supply=yes; power_supply:charge=1 EUR/kWh;
-    power_supply:fee=yes; power_supply:maxcurrent=16;
-    reservation=no; sanitary_dump_station=yes;
+    caravan_site:type=sports_centre,city; caravans=no; charge=25
+    EUR; charge:conditional=20 EUR@(Oct-May); check_in=09:00-20:00,
+    Jun-Sep 09:00-21:00; check_out=17:00; description=Great
+    location for Antwerp. 3.5 km walk to centre or take bus 22 from
+    Antwerp Expo to Groenplaats.; dog=leashed;
+    email=david@nocterra.com; fee=yes; name=Camperpark Vogelzang
+    Antwerpen; note="Groene parking" voor motorhomes, op gras en op
+    beton.; phone=+32 471308530; power_supply=yes;
+    power_supply:charge=5 EUR; power_supply:fee=yes;
+    power_supply:maxcurrent=16; reservation=no;
+    sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:fee=no;
-    sanitary_dump_station:grey_water=yes; tents=no;
+    sanitary_dump_station:grey_water=yes; tents=no; toilets=yes;
     tourism=caravan_site; water_point=yes; water_point:fee=yes;
-    website=https://camperparkvogelzang.be; id=way/50842819</desc>
-    <link href="https://camperparkvogelzang.be"></link>
-  </wpt>
-  <wpt lat="51.04551745" lon="3.692352796474786">
-    <ele>7</ele>
-    <name>Parking Oost</name>
-    <desc>access=yes; amenity=parking; capacity=705; fee=no;
-    name=Parking Oost; opening_hours=09:00-18:00; parking=surface;
-    tourism=caravan_site; id=way/89718102</desc>
+    website=https://www.vogelzangantwerpen.com/;
+    id=way/50842819</desc>
+    <link href="https://www.vogelzangantwerpen.com/"></link>
   </wpt>
   <wpt lat="50.4758615" lon="5.678256351692836">
     <ele>128</ele>
@@ -673,12 +676,6 @@ version="1.1" creator="togpx">
     id=way/287305862</desc>
     <link href="https://www.toerismewesthoek.be/fr/kampeerautoterrein-zillebekevijver">
     </link>
-  </wpt>
-  <wpt lat="51.048452299999994" lon="3.6806983681773855">
-    <ele>12</ele>
-    <name>Parking West</name>
-    <desc>amenity=parking; capacity=130; name=Parking West;
-    tourism=caravan_site; id=way/289021702</desc>
   </wpt>
   <wpt lat="50.932834" lon="5.357164888635693">
     <ele>32</ele>
@@ -1535,7 +1532,7 @@ version="1.1" creator="togpx">
     <link href="https://www.campingcarpark.com/en_GB/motor-home/wallonie/liege/hamoir">
     </link>
   </wpt>
-  <wpt lat="50.58110195" lon="5.818720199999996">
+  <wpt lat="50.5810996" lon="5.818706582591835">
     <ele>222</ele>
     <name>Aire de Wegnez</name>
     <desc>capacity=4; caravan_site=motorhome_stopover;
@@ -1859,17 +1856,6 @@ version="1.1" creator="togpx">
     <link href="https://www.nkc.nl/artikel/nieuwe-camperplaatsen-januari-2022/">
     </link>
   </wpt>
-  <wpt lat="50.841494350000005" lon="5.577027298495269">
-    <ele>95</ele>
-    <name>Rosmeer parking voetbal</name>
-    <desc>capacity=4; caravan_site=motorhome_stopover;
-    caravan_site:type=sports_centre,village; fee=no; name=Rosmeer
-    parking voetbal; power_supply=yes; power_supply:fee=yes;
-    sanitary_dump_station=no; surface=gravel; tourism=caravan_site;
-    website=https://www.visitbilzen.be/camperplaatsen;
-    id=way/1342752792</desc>
-    <link href="https://www.visitbilzen.be/camperplaatsen"></link>
-  </wpt>
   <wpt lat="50.78629095" lon="4.109314624065042">
     <ele>42</ele>
     <name>Camperplaats Paddenbroek</name>
@@ -2083,7 +2069,7 @@ version="1.1" creator="togpx">
     <link href="https://aalst.be/mobiliteit-parkeren-en-openbare-werken/parkeren-en-parkeerzones/parkeren-voor-mobilhomes-met">
     </link>
   </wpt>
-  <wpt lat="51.13569325" lon="5.242333547808286">
+  <wpt lat="51.135671099999996" lon="5.242190712701979">
     <ele>44</ele>
     <name>Camperplaats De Lido - Leopoldsburg</name>
     <desc>addr:city=Leopoldsburg; addr:housenumber=171;
@@ -2411,108 +2397,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Parking Oost</name>
-    <trkseg>
-      <trkpt lat="51.0467186" lon="3.6912882"></trkpt>
-      <trkpt lat="51.0466732" lon="3.6911956"></trkpt>
-      <trkpt lat="51.0463497" lon="3.690635"></trkpt>
-      <trkpt lat="51.046313" lon="3.69063"></trkpt>
-      <trkpt lat="51.0463009" lon="3.6906297"></trkpt>
-      <trkpt lat="51.046282" lon="3.69063"></trkpt>
-      <trkpt lat="51.0462589" lon="3.6906558"></trkpt>
-      <trkpt lat="51.0462475" lon="3.6906687"></trkpt>
-      <trkpt lat="51.0462346" lon="3.6906686"></trkpt>
-      <trkpt lat="51.0462085" lon="3.6906307"></trkpt>
-      <trkpt lat="51.04619" lon="3.690659"></trkpt>
-      <trkpt lat="51.0461831" lon="3.6906693"></trkpt>
-      <trkpt lat="51.0461657" lon="3.6906925"></trkpt>
-      <trkpt lat="51.0461478" lon="3.6907193"></trkpt>
-      <trkpt lat="51.0461421" lon="3.6907278"></trkpt>
-      <trkpt lat="51.0461259" lon="3.6907521"></trkpt>
-      <trkpt lat="51.0461011" lon="3.6907843"></trkpt>
-      <trkpt lat="51.0460858" lon="3.6908063"></trkpt>
-      <trkpt lat="51.0460704" lon="3.6908282"></trkpt>
-      <trkpt lat="51.0460551" lon="3.6908501"></trkpt>
-      <trkpt lat="51.0460398" lon="3.6908721"></trkpt>
-      <trkpt lat="51.0460244" lon="3.690894"></trkpt>
-      <trkpt lat="51.0460091" lon="3.690916"></trkpt>
-      <trkpt lat="51.0459938" lon="3.6909379"></trkpt>
-      <trkpt lat="51.0459784" lon="3.6909598"></trkpt>
-      <trkpt lat="51.0459631" lon="3.6909818"></trkpt>
-      <trkpt lat="51.0459478" lon="3.6910037"></trkpt>
-      <trkpt lat="51.0459324" lon="3.6910257"></trkpt>
-      <trkpt lat="51.0459171" lon="3.6910476"></trkpt>
-      <trkpt lat="51.0459018" lon="3.6910695"></trkpt>
-      <trkpt lat="51.0458864" lon="3.6910915"></trkpt>
-      <trkpt lat="51.0458711" lon="3.6911134"></trkpt>
-      <trkpt lat="51.0458558" lon="3.6911354"></trkpt>
-      <trkpt lat="51.0458404" lon="3.6911573"></trkpt>
-      <trkpt lat="51.0458251" lon="3.6911792"></trkpt>
-      <trkpt lat="51.0458097" lon="3.6912012"></trkpt>
-      <trkpt lat="51.0457944" lon="3.6912231"></trkpt>
-      <trkpt lat="51.0457791" lon="3.6912451"></trkpt>
-      <trkpt lat="51.0457637" lon="3.691267"></trkpt>
-      <trkpt lat="51.0457484" lon="3.6912889"></trkpt>
-      <trkpt lat="51.0457331" lon="3.6913109"></trkpt>
-      <trkpt lat="51.0457177" lon="3.6913328"></trkpt>
-      <trkpt lat="51.0457013" lon="3.6913565"></trkpt>
-      <trkpt lat="51.0456849" lon="3.6913802"></trkpt>
-      <trkpt lat="51.0456684" lon="3.6914039"></trkpt>
-      <trkpt lat="51.0456537" lon="3.6914295"></trkpt>
-      <trkpt lat="51.045639" lon="3.6914551"></trkpt>
-      <trkpt lat="51.0456243" lon="3.6914807"></trkpt>
-      <trkpt lat="51.0456108" lon="3.6915078"></trkpt>
-      <trkpt lat="51.0455972" lon="3.691535"></trkpt>
-      <trkpt lat="51.0455837" lon="3.6915621"></trkpt>
-      <trkpt lat="51.0455701" lon="3.6915892"></trkpt>
-      <trkpt lat="51.0455584" lon="3.6916186"></trkpt>
-      <trkpt lat="51.0455467" lon="3.6916481"></trkpt>
-      <trkpt lat="51.045535" lon="3.6916775"></trkpt>
-      <trkpt lat="51.0455233" lon="3.6917069"></trkpt>
-      <trkpt lat="51.0455116" lon="3.6917363"></trkpt>
-      <trkpt lat="51.0454999" lon="3.6917657"></trkpt>
-      <trkpt lat="51.0454882" lon="3.6917951"></trkpt>
-      <trkpt lat="51.0454622" lon="3.6918621"></trkpt>
-      <trkpt lat="51.0454275" lon="3.6918287"></trkpt>
-      <trkpt lat="51.0453983" lon="3.6918005"></trkpt>
-      <trkpt lat="51.0453465" lon="3.6919411"></trkpt>
-      <trkpt lat="51.044556" lon="3.6912629"></trkpt>
-      <trkpt lat="51.0443155" lon="3.6919841"></trkpt>
-      <trkpt lat="51.0460388" lon="3.6934177"></trkpt>
-      <trkpt lat="51.0460624" lon="3.6933205"></trkpt>
-      <trkpt lat="51.0460714" lon="3.6932801"></trkpt>
-      <trkpt lat="51.0460801" lon="3.6932445"></trkpt>
-      <trkpt lat="51.0460888" lon="3.693209"></trkpt>
-      <trkpt lat="51.0460975" lon="3.6931734"></trkpt>
-      <trkpt lat="51.0461062" lon="3.6931379"></trkpt>
-      <trkpt lat="51.0461149" lon="3.6931023"></trkpt>
-      <trkpt lat="51.0461236" lon="3.6930668"></trkpt>
-      <trkpt lat="51.0461323" lon="3.6930312"></trkpt>
-      <trkpt lat="51.046141" lon="3.6929957"></trkpt>
-      <trkpt lat="51.0461497" lon="3.6929601"></trkpt>
-      <trkpt lat="51.0461584" lon="3.6929246"></trkpt>
-      <trkpt lat="51.0461671" lon="3.692889"></trkpt>
-      <trkpt lat="51.0461758" lon="3.6928535"></trkpt>
-      <trkpt lat="51.0461845" lon="3.6928179"></trkpt>
-      <trkpt lat="51.0461932" lon="3.6927824"></trkpt>
-      <trkpt lat="51.0462019" lon="3.6927468"></trkpt>
-      <trkpt lat="51.0462125" lon="3.6927048"></trkpt>
-      <trkpt lat="51.0461713" lon="3.6926792"></trkpt>
-      <trkpt lat="51.0461747" lon="3.6926627"></trkpt>
-      <trkpt lat="51.0461794" lon="3.6926347"></trkpt>
-      <trkpt lat="51.0461824" lon="3.6925817"></trkpt>
-      <trkpt lat="51.0461756" lon="3.6925361"></trkpt>
-      <trkpt lat="51.0461616" lon="3.6924983"></trkpt>
-      <trkpt lat="51.0460413" lon="3.6923882"></trkpt>
-      <trkpt lat="51.0460351" lon="3.6923757"></trkpt>
-      <trkpt lat="51.0460341" lon="3.6923554"></trkpt>
-      <trkpt lat="51.0461078" lon="3.6921673"></trkpt>
-      <trkpt lat="51.0461326" lon="3.6921123"></trkpt>
-      <trkpt lat="51.0464174" lon="3.6917118"></trkpt>
-      <trkpt lat="51.0467186" lon="3.6912882"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Aire d'Aywaille</name>
     <trkseg>
       <trkpt lat="50.475903" lon="5.6785467"></trkpt>
@@ -2808,60 +2692,6 @@ version="1.1" creator="togpx">
       <trkpt lat="50.8356197" lon="2.9052079"></trkpt>
       <trkpt lat="50.8362983" lon="2.9053776"></trkpt>
       <trkpt lat="50.8363434" lon="2.9049397"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Parking West</name>
-    <trkseg>
-      <trkpt lat="51.0479449" lon="3.6807018"></trkpt>
-      <trkpt lat="51.0480301" lon="3.6807478"></trkpt>
-      <trkpt lat="51.0480489" lon="3.6807579"></trkpt>
-      <trkpt lat="51.0480676" lon="3.6807681"></trkpt>
-      <trkpt lat="51.0480864" lon="3.6807782"></trkpt>
-      <trkpt lat="51.0481051" lon="3.6807883"></trkpt>
-      <trkpt lat="51.0481239" lon="3.6807984"></trkpt>
-      <trkpt lat="51.0481427" lon="3.6808086"></trkpt>
-      <trkpt lat="51.0481614" lon="3.6808187"></trkpt>
-      <trkpt lat="51.0481802" lon="3.6808288"></trkpt>
-      <trkpt lat="51.048199" lon="3.680839"></trkpt>
-      <trkpt lat="51.0482177" lon="3.6808491"></trkpt>
-      <trkpt lat="51.0482365" lon="3.6808592"></trkpt>
-      <trkpt lat="51.0482553" lon="3.6808694"></trkpt>
-      <trkpt lat="51.048274" lon="3.6808795"></trkpt>
-      <trkpt lat="51.0482928" lon="3.6808896"></trkpt>
-      <trkpt lat="51.0483116" lon="3.6808998"></trkpt>
-      <trkpt lat="51.0483303" lon="3.6809099"></trkpt>
-      <trkpt lat="51.0483491" lon="3.68092"></trkpt>
-      <trkpt lat="51.0483679" lon="3.6809302"></trkpt>
-      <trkpt lat="51.0483866" lon="3.6809403"></trkpt>
-      <trkpt lat="51.0484054" lon="3.6809504"></trkpt>
-      <trkpt lat="51.0484242" lon="3.6809606"></trkpt>
-      <trkpt lat="51.0484429" lon="3.6809707"></trkpt>
-      <trkpt lat="51.0484617" lon="3.6809808"></trkpt>
-      <trkpt lat="51.0484804" lon="3.6809909"></trkpt>
-      <trkpt lat="51.0484992" lon="3.6810011"></trkpt>
-      <trkpt lat="51.048518" lon="3.6810112"></trkpt>
-      <trkpt lat="51.0485367" lon="3.6810213"></trkpt>
-      <trkpt lat="51.0485555" lon="3.6810315"></trkpt>
-      <trkpt lat="51.0485743" lon="3.6810416"></trkpt>
-      <trkpt lat="51.048593" lon="3.6810517"></trkpt>
-      <trkpt lat="51.0486118" lon="3.6810619"></trkpt>
-      <trkpt lat="51.0486306" lon="3.681072"></trkpt>
-      <trkpt lat="51.0486493" lon="3.6810821"></trkpt>
-      <trkpt lat="51.0486681" lon="3.6810923"></trkpt>
-      <trkpt lat="51.0486869" lon="3.6811024"></trkpt>
-      <trkpt lat="51.0487056" lon="3.6811125"></trkpt>
-      <trkpt lat="51.0487244" lon="3.6811227"></trkpt>
-      <trkpt lat="51.0487432" lon="3.6811328"></trkpt>
-      <trkpt lat="51.0487619" lon="3.6811429"></trkpt>
-      <trkpt lat="51.0487807" lon="3.681153"></trkpt>
-      <trkpt lat="51.0488682" lon="3.6812003"></trkpt>
-      <trkpt lat="51.0489011" lon="3.6810462"></trkpt>
-      <trkpt lat="51.0489375" lon="3.6808749"></trkpt>
-      <trkpt lat="51.0489599" lon="3.6807709"></trkpt>
-      <trkpt lat="51.0489744" lon="3.6807029"></trkpt>
-      <trkpt lat="51.048051" lon="3.6802043"></trkpt>
-      <trkpt lat="51.0479449" lon="3.6807018"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -3780,11 +3610,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire de Wegnez</name>
     <trkseg>
-      <trkpt lat="50.5809828" lon="5.8184002"></trkpt>
+      <trkpt lat="50.5809781" lon="5.8184002"></trkpt>
       <trkpt lat="50.5811527" lon="5.8190824"></trkpt>
-      <trkpt lat="50.5812211" lon="5.8190402"></trkpt>
-      <trkpt lat="50.5810512" lon="5.818358"></trkpt>
-      <trkpt lat="50.5809828" lon="5.8184002"></trkpt>
+      <trkpt lat="50.5811922" lon="5.8190515"></trkpt>
+      <trkpt lat="50.5812341" lon="5.8190467"></trkpt>
+      <trkpt lat="50.5810465" lon="5.8183375"></trkpt>
+      <trkpt lat="50.5809781" lon="5.8184002"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -4079,16 +3910,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Rosmeer parking voetbal</name>
-    <trkseg>
-      <trkpt lat="50.8414288" lon="5.5768045"></trkpt>
-      <trkpt lat="50.8415003" lon="5.5772697"></trkpt>
-      <trkpt lat="50.8415578" lon="5.5772428"></trkpt>
-      <trkpt lat="50.8414884" lon="5.5767843"></trkpt>
-      <trkpt lat="50.8414288" lon="5.5768045"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Camperplaats Paddenbroek</name>
     <trkseg>
       <trkpt lat="50.7864294" lon="4.1093103"></trkpt>
@@ -4306,9 +4127,13 @@ version="1.1" creator="togpx">
     <name>Camperplaats De Lido - Leopoldsburg</name>
     <trkseg>
       <trkpt lat="51.1353743" lon="5.242454"></trkpt>
-      <trkpt lat="51.1353642" lon="5.2427222"></trkpt>
-      <trkpt lat="51.1360543" lon="5.2421509"></trkpt>
-      <trkpt lat="51.1360122" lon="5.2419806"></trkpt>
+      <trkpt lat="51.1353701" lon="5.2427195"></trkpt>
+      <trkpt lat="51.1360055" lon="5.2421724"></trkpt>
+      <trkpt lat="51.1359861" lon="5.2420262"></trkpt>
+      <trkpt lat="51.135771" lon="5.2421766"></trkpt>
+      <trkpt lat="51.135697" lon="5.241908"></trkpt>
+      <trkpt lat="51.1355641" lon="5.2419752"></trkpt>
+      <trkpt lat="51.1356452" lon="5.2422646"></trkpt>
       <trkpt lat="51.1353743" lon="5.242454"></trkpt>
     </trkseg>
   </trk>
