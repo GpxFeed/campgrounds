@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-10-30T11:42:45Z", "timestamp_areas_base":
-      "2025-10-30T06:17:23Z", "copyright": "The data included in
+      "2025-12-04T10:00:42Z", "timestamp_areas_base":
+      "2025-12-04T04:17:35Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -227,8 +227,8 @@ version="1.1" creator="togpx">
     <name>Camperplaats Nijverheidssingel</name>
     <desc>addr:city=Breda; addr:housenumber=391;
     addr:street=Nijverheidssingel; capacity=8;
-    caravan_site=motorhome_stopover; charge=7 Eur/24 hr; fee=yes;
-    maxstay=3 x 24 hr; name=Camperplaats Nijverheidssingel;
+    caravan_site=motorhome_stopover; charge=7 EUR/24 hour; fee=yes;
+    maxstay=72 hours; name=Camperplaats Nijverheidssingel;
     power_supply=no; reservation=no; toilets=no;
     tourism=caravan_site; water_point=yes;
     website=https://www.breda.nl/camperplaats;
@@ -495,7 +495,8 @@ version="1.1" creator="togpx">
     caravan_site:type=winery; charge=23.50; dog=no;
     email=info@saalhof.nl; fee=yes; name=Wijngaard Saalhof;
     opening_hours=Apr-Oct; phone=+31 229 572 487; power_supply=yes;
-    power_supply:fee=no; sanitary_dump_station:chemical_toilet=yes;
+    power_supply:fee=no; reservation=recommended;
+    sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:fee=no;
     sanitary_dump_station:grey_water=yes; tourism=caravan_site;
     water_point=yes;
@@ -613,10 +614,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.5727054" lon="6.071054">
     <ele>14.0</ele>
-    <name>Camperplaats Jachthaven ’t Leuken</name>
+    <name>Camperplaats Jachthaven 't Leuken</name>
     <desc>caravan_site=motorhome_stopover;
     caravan_site:type=harbour; caravans=no; charge=20 EUR; dog=yes;
-    dog:capacity=2; fee=yes; name=Camperplaats Jachthaven ’t
+    dog:capacity=2; fee=yes; name=Camperplaats Jachthaven 't
     Leuken; note=temparily location; power_supply=yes;
     power_supply:maxcurrent=6; surface=grass; tents=no;
     tourism=caravan_site; water_point=yes;
@@ -793,6 +794,17 @@ version="1.1" creator="togpx">
     <desc>name=Camperplaats Bol-Varik; tents=no;
     tourism=caravan_site; id=node/13108518253</desc>
   </wpt>
+  <wpt lat="51.4199505" lon="3.9141623">
+    <ele>3.0</ele>
+    <name>node/13293510346</name>
+    <desc>caravan_site=motorhome_stopover; electricity=yes;
+    shower=yes; tourism=caravan_site; id=node/13293510346</desc>
+  </wpt>
+  <wpt lat="51.7775267" lon="5.5226366">
+    <ele>5.0</ele>
+    <name>node/13294454702</name>
+    <desc>fee=no; tourism=caravan_site; id=node/13294454702</desc>
+  </wpt>
   <wpt lat="50.87236905" lon="6.022802303699645">
     <ele>158.0</ele>
     <name>Camperplaats Landgraaf</name>
@@ -876,7 +888,7 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="52.30194995" lon="6.879317352455077">
     <ele>34.0</ele>
-    <name>Toppark ’t Hulsbeek</name>
+    <name>Toppark 't Hulsbeek</name>
     <desc>access=yes; addr:city=Deurningen; addr:housenumber=12;
     addr:postcode=7562PJ; addr:street=Reininksweg; capacity=50;
     caravan_site=motorhome_stopover; caravan_site:type=lake;
@@ -884,15 +896,15 @@ version="1.1" creator="togpx">
     description=Password wifi: TP-het-hulsbeek; dog=leashed;
     dog:fee=no; email=info@topparks.nl; fee=yes;
     internet_access=wlan; internet_access:fee=no; landuse=camp;
-    laundry=yes; maxlength=12; name=Toppark ’t Hulsbeek; phone=+31
+    laundry=yes; maxlength=12; name=Toppark 't Hulsbeek; phone=+31
     85 077 5090; power_supply=yes; power_supply:charge=0.75/kWh;
     power_supply:fee=yes; power_supply:maxcurrent=16;
     sanitary_dump_station=yes; shower=yes; shower:charge=0.30
     EUR/minute; shower:fee=yes; source=3dShapes;
     tourism=caravan_site;
-    website=https://www.topparks.nl/en/toppark-t-hulsbeek-2-0/;
+    website=https://www.topparks.nl/toppark-t-hulsbeek-2-0/;
     id=way/47147284</desc>
-    <link href="https://www.topparks.nl/en/toppark-t-hulsbeek-2-0/">
+    <link href="https://www.topparks.nl/toppark-t-hulsbeek-2-0/">
     </link>
   </wpt>
   <wpt lat="53.370592" lon="5.896057225335259">
@@ -1460,14 +1472,13 @@ version="1.1" creator="togpx">
     <name>Camperplaats De Zandberg</name>
     <desc>capacity=36; capacity:motorhome=36;
     caravan_site=motorhome_stopover; caravan_site:type=countryside;
-    charge=20 EUR; charge:conditional=19 EUR@(Jan-Feb);
+    charge=20 EUR; charge:conditional=19 EUR @ (Jan-Feb);
     check_in=08:00-21:00; check_out=08:00-21:00; dog=leashed;
     email=steffie@dezandberg.nl; fee=yes; internet_access=wlan;
-    internet_access:fee=no; maxlength=none; mobile=+31 6
-    40461539,+31 6 46121178; motorhome=designated;
+    internet_access:fee=no; maxlength=none; motorhome=designated;
     name=Camperplaats De Zandberg; opening_hours=week 01-53;
-    phone=+31 6 46121178; power_supply:charge=3 EUR/kWh/day;
-    power_supply:fee=yes; power_supply:maxcurrent=6;
+    phone=+31 6 4612 1178, +31 6 4046 1539; power_supply:charge=3
+    EUR/kWh/day; power_supply:fee=yes; power_supply:maxcurrent=6;
     reservation=yes; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:fee=no;
@@ -2156,12 +2167,11 @@ version="1.1" creator="togpx">
     <ele>-2.0</ele>
     <name>Camperplaats Parking De Wijzend - Opmeer</name>
     <desc>capacity=6; caravan_site=motorhome_stopover;
-    caravan_site:type=village; drinking_water=no; fee=yes;
+    caravan_site:type=village; drinking_water=no; fee=no;
     internet_access=wlan; maxlength=10; name=Camperplaats Parking
-    De Wijzend - Opmeer; power_supply=yes;
-    sanitary_dump_station=yes; surface=grass_paver; tents=no;
-    toilets=no; tourism=caravan_site; wheelchair=yes;
-    id=way/825946040</desc>
+    De Wijzend - Opmeer; sanitary_dump_station=yes;
+    surface=grass_paver; tents=no; toilets=no;
+    tourism=caravan_site; wheelchair=yes; id=way/825946040</desc>
   </wpt>
   <wpt lat="53.2237683" lon="5.816627454108417">
     <ele>-1.0</ele>
@@ -2387,12 +2397,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.241335649999996" lon="6.019055418708509">
     <ele>0.0</ele>
-    <name>Jachthaven ’t Eibertsnest Camperplaats Nord</name>
+    <name>Jachthaven 't Eibertsnest Camperplaats Nord</name>
     <desc>caravan_site=motorhome_stopover;
     caravan_site:type=harbour; charge=17 EUR; check_in=09:00-18:00;
     dog=yes; dog:fee=no; email=info@jachthavenkuikhorne.nl;
     internet_access=wlan; internet_access:fee=no; laundry=yes;
-    name=Jachthaven ’t Eibertsnest Camperplaats Nord;
+    name=Jachthaven 't Eibertsnest Camperplaats Nord;
     opening_hours=Mar 15-Nov 01; phone=+31 511472775;
     picnic_table=yes; power_supply=yes; power_supply:charge=1 EUR/2
     kWh; power_supply:fee=yes; power_supply:maxcurrent=10;
@@ -2853,12 +2863,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.32536265" lon="6.027249951189944">
     <ele>-1.0</ele>
-    <name>Camperpark ’t Dockumer Grootdiep</name>
+    <name>Camperpark 't Dockumer Grootdiep</name>
     <desc>capacity:caravans=14; caravan_site=motorhome_stopover;
     caravan_site:type=river,town; charge=15 EUR; description=fee
     about 15,00€; drinking_water=yes;
     email=info@camperparkdokkum.nl; fee=yes; hot_water=no;
-    internet_access=no; lit=yes; name=Camperpark ’t Dockumer
+    internet_access=no; lit=yes; name=Camperpark 't Dockumer
     Grootdiep; phone=+31 519 295970; power_supply=yes;
     power_supply:fee=no; reservation=yes;
     sanitary_dump_station=yes;
@@ -3281,12 +3291,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.24332285" lon="6.019502035087209">
     <ele>-1.0</ele>
-    <name>Jachthaven ’t Eibertsnest Camperplaats Nord</name>
+    <name>Jachthaven 't Eibertsnest Camperplaats Nord</name>
     <desc>capacity=50; caravan_site=motorhome_stopover;
     caravan_site:type=harbour; charge=17 EUR; check_in=09:00-18:00;
     dog=yes; dog:fee=no; drinking_water=yes;
     email=info@jachthavenkuikhorne.nl; internet_access=wlan;
-    internet_access:fee=no; laundry=yes; name=Jachthaven ’t
+    internet_access:fee=no; laundry=yes; name=Jachthaven 't
     Eibertsnest Camperplaats Nord; opening_hours=Mar 15-Nov 01;
     phone=+31 511472775; picnic_table=yes; power_supply=yes;
     power_supply:charge=1 EUR/2 kWh; power_supply:fee=yes;
@@ -3584,10 +3594,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="51.2255063" lon="3.802965413323626">
     <ele>2.0</ele>
-    <name>Camperplaats ’t Eiland</name>
+    <name>Camperplaats 't Eiland</name>
     <desc>capacity=25; caravan_site=motorhome_stopover;
     caravan_site:type=canal; charge=14.50 EUR; fee=yes;
-    name=Camperplaats ’t Eiland; opening_hours=24/7;
+    name=Camperplaats 't Eiland; opening_hours=24/7;
     power_supply=yes; power_supply:charge=4.50 EUR;
     power_supply:maxcurrent=10; sanitary_dump_station=yes;
     tourism=caravan_site; water_point=yes;
@@ -4564,9 +4574,10 @@ version="1.1" creator="togpx">
     <desc>caravan_site=motorhome_stopover; caravan_site:type=town;
     charge=16 EUR; fee=yes; internet_access=no; maxstay=72 hours;
     name=Camperplaats Drachten Parkhaven; power_supply=yes;
-    power_supply:fee=yes; sanitary_dump_station=yes; seasonal=no;
-    tents=no; tourism=caravan_site; water_point=yes;
-    water_point:fee=yes; id=way/1351643137</desc>
+    power_supply:fee=yes; sanitary_dump_station=yes;
+    sanitary_dump_station:fee=no; seasonal=no; tents=no;
+    tourism=caravan_site; water_point=yes; water_point:fee=yes;
+    id=way/1351643137</desc>
   </wpt>
   <wpt lat="53.102741800000004" lon="6.08808525">
     <ele>0.0</ele>
@@ -6218,5 +6229,12 @@ version="1.1" creator="togpx">
     id=way/1442023130</desc>
     <link href="https://www.opvoorneputten.nl/plan-je-bezoek/overnachten/campings/camping-overzicht/1104398614/camperstandplaats-hongerlandsedijk">
     </link>
+  </wpt>
+  <wpt lat="52.31176765" lon="5.546408760420771">
+    <ele>0.0</ele>
+    <name>way/1453058709</name>
+    <desc>caravan_site=motorhome_stopover; caravans=no;
+    motorhome=designated; surface=gravel; tents=no;
+    tourism=caravan_site; id=way/1453058709</desc>
   </wpt>
 </gpx>
