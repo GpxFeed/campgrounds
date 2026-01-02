@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2025-12-04T09:41:00Z", "timestamp_areas_base":
-      "2025-12-04T04:17:35Z", "copyright": "The data included in
+      "2026-01-01T23:31:59Z", "timestamp_areas_base":
+      "2026-01-01T15:10:30Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -1641,15 +1641,6 @@ version="1.1" creator="togpx">
     id=node/5129348482</desc>
     <link href="https://www.domaine-de-la-gauche.fr/"></link>
   </wpt>
-  <wpt lat="43.6321368" lon="6.6488595">
-    <ele>345</ele>
-    <name>Seillans Aire Municipale</name>
-    <desc>capacity=3; caravan_site=motorhome_stopover;
-    caravan_site:type=street_side; fee=no; maxstay=1 day;
-    name=Seillans Aire Municipale; power_supply=no;
-    sanitary_dump_station=yes; seasonal=no; tourism=caravan_site;
-    water_point=yes; id=node/5139729989</desc>
-  </wpt>
   <wpt lat="43.9939157" lon="0.2299255">
     <ele>72</ele>
     <name>Aire Campingcars Fources</name>
@@ -1951,6 +1942,7 @@ version="1.1" creator="togpx">
     sanitary_dump_station=no; surface=asphalt;
     tourism=caravan_site; water_point=no;
     website=https://www.cahorsvalleedulot.com/hebergements/aire-daccueil/;
+    wikimedia_commons=Category:Motorhome Parking Cahors;
     id=node/5762217859</desc>
     <link href="https://www.cahorsvalleedulot.com/hebergements/aire-daccueil/">
     </link>
@@ -2232,17 +2224,19 @@ version="1.1" creator="togpx">
   <wpt lat="45.6062519" lon="0.1001995">
     <ele>59</ele>
     <name>Aire de services camping-cars La Couronne</name>
-    <desc>access=yes; amenity=sanitary_dump_station;
+    <desc>access=yes; addr:housenumber=29; addr:street=Rue de la
+    Liberation; amenity=sanitary_dump_station;
     caravan_site=motorhome_stopover;
     caravan_site:type=parking_lot,village; caravans=no;
     description=closed on market days (We,Sa); fee=no; name=Aire de
     services camping-cars La Couronne; opening_hours=00:00-24:00,
-    We,Sa 00:00-18:00 off; power_supply=no;
+    We,Sa 00:00-18:00 off; power_supply=no; ref:FR:NAF=68.20B;
+    ref:FR:SIREN=754017051; ref:FR:SIRET=75401705100022;
     sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=check exacpt position;
-    seasonal=no; tents=no; toilets=yes; tourism=caravan_site;
-    water_point=yes;
+    seasonal=no; source=INSEE - 2025-12; tents=no; toilets=yes;
+    tourism=caravan_site; water_point=yes;
     website=https://www.angouleme-tourisme.com/hotellerie-plein-air/aire-de-services-camping-cars-la-couronne/;
     wheelchair=yes; id=node/6280267089</desc>
     <link href="https://www.angouleme-tourisme.com/hotellerie-plein-air/aire-de-services-camping-cars-la-couronne/">
@@ -3064,6 +3058,12 @@ version="1.1" creator="togpx">
     <link href="http://lafermedugrandveymont.com/camping-cariste/">
     </link>
   </wpt>
+  <wpt lat="44.8243873" lon="1.1866598">
+    <ele>86</ele>
+    <name>node/8946800605</name>
+    <desc>amenity=parking; fee=yes; tourism=caravan_site;
+    id=node/8946800605</desc>
+  </wpt>
   <wpt lat="49.3026714" lon="2.6004404">
     <ele>30</ele>
     <name>Parking Pont-Sainte-Maxence</name>
@@ -3558,19 +3558,6 @@ version="1.1" creator="togpx">
     sanitary_dump_station:fee=yes; tourism=caravan_site;
     id=node/10581171404</desc>
   </wpt>
-  <wpt lat="48.986969" lon="-0.475097">
-    <ele>40</ele>
-    <name>Aire de camping car - Thury Harcourt Le Hom</name>
-    <desc>capacity=11; caravan_site=motorhome_stopover;
-    caravan_site:type=swimming_pool; caravans=no; fee=no; name=Aire
-    de camping car - Thury Harcourt Le Hom; opening_hours=24/7;
-    operator=Commune de Thury-Harcourt; seasonal=no; tents=no;
-    tourism=caravan_site;
-    website=https://www.calvados-tourisme.com/offre/aire-de-camping-car-thury-harcourt-le-hom/;
-    id=node/10711685060</desc>
-    <link href="https://www.calvados-tourisme.com/offre/aire-de-camping-car-thury-harcourt-le-hom/">
-    </link>
-  </wpt>
   <wpt lat="48.3111221" lon="5.8611363">
     <ele>305</ele>
     <name>Le Moulin des Moines</name>
@@ -3598,13 +3585,14 @@ version="1.1" creator="togpx">
   <wpt lat="43.684293" lon="-0.6276607">
     <ele>117</ele>
     <name>L'Horizon des Landes</name>
-    <desc>addr:city=Doazit; addr:housenumber=1455;
-    addr:postcode=40700; addr:street=Route d'Hagetmau;
-    caravan_site=motorhome_stopover; caravan_site:type=countryside;
-    charge=16 EUR; fee=yes; internet_access=wlan;
-    internet_access:fee=yes; location=6; name=L'Horizon des Landes;
-    power_supply=yes; sanitary_dump_station=yes; seasonal=no;
-    tourism=caravan_site; water_point=yes;
+    <desc>caravan_site=motorhome_stopover;
+    caravan_site:type=countryside; charge=16 EUR;
+    contact:city=Doazit; contact:housenumber=1455;
+    contact:postcode=40700; contact:street=Route d'Hagetmau;
+    fee=yes; internet_access=wlan; internet_access:fee=yes;
+    location=6; name=L'Horizon des Landes; power_supply=yes;
+    sanitary_dump_station=yes; seasonal=no; tourism=caravan_site;
+    water_point=yes;
     website=https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-lhorizon-des-landes-accamaqu0400001m/;
     id=node/10852610038</desc>
     <link href="https://www.tourismelandes.com/aire-camping-car/aire-de-camping-car-lhorizon-des-landes-accamaqu0400001m/">
@@ -3788,8 +3776,8 @@ version="1.1" creator="togpx">
     network=CAMPING-CAR PARK; operator=CAMPING-CAR PARK;
     power_supply=yes; power_supply:capacity=26;
     power_supply:fee=no; power_supply:maxcurrent=6;
-    sanitary_dump_station=customers; tourism=caravan_site;
-    trailer=yes; water_point=yes;
+    sanitary_dump_station=customers; toilets=yes;
+    tourism=caravan_site; trailer=yes; water_point=yes;
     website=https://www.campingcarpark.com/fr_FR/sejour/camping/nouvelle-aquitaine/40-landes/pouillon;
     id=node/11020936016</desc>
     <link href="https://www.campingcarpark.com/fr_FR/sejour/camping/nouvelle-aquitaine/40-landes/pouillon">
@@ -4000,7 +3988,9 @@ version="1.1" creator="togpx">
   <wpt lat="48.7686156" lon="-3.5778496">
     <ele>48</ele>
     <name>Parking de la Corniche de Pors Mabo</name>
-    <desc>caravan_site=motorhome_stopover; caravan_site:type=beach;
+    <desc>addr:city=Trébeurden; addr:postcode=22560;
+    addr:street=Corniche de Pors Mabo;
+    caravan_site=motorhome_stopover; caravan_site:type=beach;
     charge=7 EUR; fee=yes; name=Parking de la Corniche de Pors
     Mabo; tourism=caravan_site;
     website=https://www.brittany-pinkgranitcoast.co.uk/offers/parking-corniche-de-pors-mabo-trebeurden-en-2714605/;
@@ -5031,14 +5021,13 @@ version="1.1" creator="togpx">
     <link href="https://www.haguenau.fr/fr/page/camping-et-aires-de-camping-car">
     </link>
   </wpt>
-  <wpt lat="43.8257644" lon="-0.2519573">
+  <wpt lat="43.8255651" lon="-0.2517347">
     <ele>108</ele>
-    <name>Camping-car d'hôtes à Bacoge</name>
+    <name>Ferme de Bacoge</name>
     <desc>capacity=3; caravan_site=motorhome_stopover;
-    caravan_site:type=winery; fee=no; name=Camping-car d'hôtes à
-    Bacoge; operator=Christian Bergerot; phone=+33 5 58 03 82 88;
-    product=armagnac; tourism=caravan_site;
-    id=node/11898811030</desc>
+    caravan_site:type=distillery; fee=no; name=Ferme de Bacoge;
+    operator=Christian Bergerot; phone=+33 5 58 03 82 88;
+    tourism=caravan_site; id=node/11898811030</desc>
   </wpt>
   <wpt lat="45.3579467" lon="5.8330455">
     <ele>888</ele>
@@ -9775,23 +9764,6 @@ version="1.1" creator="togpx">
     <link href="https://www.tourisme-alpes-haute-provence.com/hebergement/apidae-aire-de-camping-car-municipale-5512669">
     </link>
   </wpt>
-  <wpt lat="45.7661909" lon="-0.4961656">
-    <ele>55</ele>
-    <name>Aire de camping-car de Saint-Césaire</name>
-    <desc>addr:street=rue de La Mérine; bbq=no; capacity=24;
-    caravan_site=motorhome_stopover; caravan_site:type=village;
-    charge=14.44 EUR; charge:conditional=12.44 EUR@(Oct-Apr);
-    dog=yes; fee=yes; internet_access=wlan; maxlength=9; name=Aire
-    de camping-car de Saint-Césaire; network=CAMPING-CAR PARK;
-    phone=+33 1 83 64 69 21; power_supply=yes; power_supply:fee=no;
-    power_supply:maxcurrent=18; sanitary_dump_station=no;
-    sanitary_dump_station:fee=no; toilets=yes;
-    tourism=caravan_site; trailer=no;
-    website=https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/saint-c%C3%A9saire?areaType=camping;
-    id=node/12906315447</desc>
-    <link href="https://www.campingcarpark.com/fr_FR/camping-car/nouvelle-aquitaine/charente-maritime/saint-c%C3%A9saire?areaType=camping">
-    </link>
-  </wpt>
   <wpt lat="45.5577152" lon="0.8223771">
     <ele>319</ele>
     <name>Grand Étang Saint-Saud-Lacoussière</name>
@@ -10033,17 +10005,6 @@ version="1.1" creator="togpx">
     seasonal=no; tourism=caravan_site; water_point=yes;
     id=node/13265043662</desc>
   </wpt>
-  <wpt lat="44.1634589" lon="5.0026308">
-    <ele>226</ele>
-    <name>Aire municipale Gigondas</name>
-    <desc>capacity=6; dog=yes; fee=no; maxstay=24 hours; name=Aire
-    municipale Gigondas; seasonal=no; tourism=caravan_site;
-    water_point=yes; water_point:charge=4 EUR; water_point:fee=yes;
-    website=https://www.provenceguide.com/campings/cote-rhone/aire-municipale-de-stationnement-et-de-service-camping-car/provence-4927472-1.html;
-    id=node/13322683766</desc>
-    <link href="https://www.provenceguide.com/campings/cote-rhone/aire-municipale-de-stationnement-et-de-service-camping-car/provence-4927472-1.html">
-    </link>
-  </wpt>
   <wpt lat="50.2933486" lon="4.0759">
     <ele>126</ele>
     <name>Aire de Camping Car et bivouac</name>
@@ -10052,6 +10013,43 @@ version="1.1" creator="togpx">
     facebook=https://www.facebook.com/p/La-Plage-Verte-61563801388178/;
     name=Aire de Camping Car et bivouac; phone=+33 6 07 36 25 26;
     tents=yes; tourism=caravan_site; id=node/13327897014</desc>
+  </wpt>
+  <wpt lat="42.5161076" lon="3.1084788">
+    <ele>5</ele>
+    <name>node/13359498840</name>
+    <desc>check_date=2025-12-07; tourism=caravan_site;
+    id=node/13359498840</desc>
+  </wpt>
+  <wpt lat="44.8476426" lon="5.7979616">
+    <ele>864</ele>
+    <name>node/13368406645</name>
+    <desc>capacity=4; description=48h maximum; fee=no;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=node/13368406645</desc>
+  </wpt>
+  <wpt lat="49.473414" lon="0.5258475">
+    <ele>1</ele>
+    <name>node/13372401104</name>
+    <desc>addr:postcode=27680; addr:street=Place du Phare;
+    name:es=Área de Autocaravanas; opening_hours=24/7;
+    tourism=caravan_site; id=node/13372401104</desc>
+  </wpt>
+  <wpt lat="45.5355265" lon="2.7764489">
+    <ele>1385</ele>
+    <name>Aire de Camping-Car de CHASTREIX</name>
+    <desc>addr:city=Chastreix Sancy; addr:postcode=63680;
+    capacity:caravans=20; internet_access=no; name=Aire de
+    Camping-Car de CHASTREIX; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=node/13410919346</desc>
+  </wpt>
+  <wpt lat="45.6756831" lon="-0.1742182">
+    <ele>16</ele>
+    <name>Aire de camping-car de Jarnac</name>
+    <desc>addr:city=Jarnac; addr:postcode=16200; addr:street=Allée
+    du Parc; caravans=no; name=Aire de camping-car de Jarnac;
+    power_supply=yes; sanitary_dump_station=no; tents=no;
+    tourism=caravan_site; id=node/13417485101</desc>
   </wpt>
   <wpt lat="45.504859550000006" lon="2.854512515452501">
     <ele>1273</ele>
@@ -10168,8 +10166,8 @@ version="1.1" creator="togpx">
     <link href="https://www.niortmaraispoitevin.com/aires-camping-cars/aire-de-services-pour-camping-cars-a-chauray/">
     </link>
   </wpt>
-  <wpt lat="50.03524925" lon="1.360781914023387">
-    <ele>73</ele>
+  <wpt lat="50.0348995" lon="1.3603148902555393">
+    <ele>72</ele>
     <name>Aire de camping-car de Flocques</name>
     <desc>bbq=no; capacity=70; caravan_site=motorhome_stopover;
     caravan_site:type=beach; caravans=no; charge=16.70 EUR;
@@ -11505,6 +11503,21 @@ version="1.1" creator="togpx">
     website=https://www.atlantic-loire-valley.com/accommodation/campervan-sites/aire-de-camping-cars-de-missillac;
     id=way/128170879</desc>
     <link href="https://www.atlantic-loire-valley.com/accommodation/campervan-sites/aire-de-camping-cars-de-missillac">
+    </link>
+  </wpt>
+  <wpt lat="47.3996669" lon="5.3127333">
+    <ele>201</ele>
+    <name>Aire camping-car Mirebeau sur Bèze</name>
+    <desc>capacity=6; caravan_site=motorhome_stopover;
+    caravan_site:type=village; fee=no; name=Aire camping-car
+    Mirebeau sur Bèze; picnic_table=yes; sanitary_dump_station=yes;
+    sanitary_dump_station:chemical_toilet=yes;
+    sanitary_dump_station:grey_water=yes; surface=asphalt;
+    tourism=caravan_site; water_point=yes; water_point:charge=2
+    EUR; water_point:fee=yes;
+    website=https://www.ville-mirebeau-sur-beze.fr/aire-de-camping-car;
+    id=way/128176155</desc>
+    <link href="https://www.ville-mirebeau-sur-beze.fr/aire-de-camping-car">
     </link>
   </wpt>
   <wpt lat="45.75516605" lon="3.57412102452815">
@@ -12972,7 +12985,7 @@ version="1.1" creator="togpx">
     website=https://www.auborddebruche.fr/; id=way/192111684</desc>
     <link href="https://www.auborddebruche.fr/"></link>
   </wpt>
-  <wpt lat="45.066403" lon="5.555718323420184">
+  <wpt lat="45.066402350000004" lon="5.555725142852413">
     <ele>1021</ele>
     <name>Aire camping-car des Bartavelles</name>
     <desc>caravan_site=motorhome_stopover;
@@ -14030,10 +14043,12 @@ version="1.1" creator="togpx">
     Vaison-la-Romaine</name>
     <desc>access=yes; caravan_site=motorhome_stopover;
     caravan_site:type=town; caravans=asphalt; charge=9.60 EUR;
-    fee=yes; name=Aire de Camping-Car de Colombier -
-    Vaison-la-Romaine; power_supply=no; sanitary_dump_station=yes;
-    tents=no; tourism=caravan_site; water_point=yes;
-    water_point:fee=no; id=way/230540569</desc>
+    description=Large parking area on gravel, surrounded by trees.
+    May feature a friendly cat.; fee=yes; name=Aire de Camping-Car
+    de Colombier - Vaison-la-Romaine; permanent_camping=no;
+    power_supply=no; sanitary_dump_station=yes; tents=no;
+    tourism=caravan_site; water_point=yes; water_point:fee=no;
+    id=way/230540569</desc>
   </wpt>
   <wpt lat="49.18603405" lon="-0.049515981879428614">
     <ele>8</ele>
@@ -14800,7 +14815,7 @@ version="1.1" creator="togpx">
     <link href="https://www.destination-paysbigouden.com/sejourner/hebergements/aires-de-camping-cars/aire-de-stationnement-rue-du-viben-2826833">
     </link>
   </wpt>
-  <wpt lat="46.48509005" lon="0.45428484739790076">
+  <wpt lat="46.4850895" lon="0.4542870904233635">
     <ele>115</ele>
     <name>Aire de camping-cars Nieuil l'Espoir</name>
     <desc>capacity=100; caravan_site=motorhome_stopover;
@@ -14971,13 +14986,13 @@ version="1.1" creator="togpx">
     <ele>64</ele>
     <name>Aire Camping-cars Mirambeau</name>
     <desc>capacity=28; caravan_site=motorhome_stopover;
-    caravan_site:type=village; caravans=no; charge=8 EUR/24 hours;
+    caravan_site:type=village; caravans=no; charge=12 EUR/24 hours;
     fee=yes; name=Aire Camping-cars Mirambeau; power_supply=yes;
-    power_supply:capacity=16; sanitary_dump_station=yes; tents=no;
-    tourism=caravan_site;
-    website=http://www.mirambeau17.fr/fr/information/59990/aire-camping-cars;
+    power_supply:maxcurrent=16; sanitary_dump_station=yes;
+    tents=no; tourism=caravan_site;
+    website=https://www.mirambeau17.fr/patrimoine/gr-hebergements/aire-de-camping-cars/;
     id=way/266659465</desc>
-    <link href="http://www.mirambeau17.fr/fr/information/59990/aire-camping-cars">
+    <link href="https://www.mirambeau17.fr/patrimoine/gr-hebergements/aire-de-camping-cars/">
     </link>
   </wpt>
   <wpt lat="46.431111200000004" lon="-1.1851226900837533">
@@ -15106,7 +15121,7 @@ version="1.1" creator="togpx">
     <link href="https://www.marseille-tourisme.com/en/organize-your-stay/finding-accommodations-in-marseille/find-a-campsite-around-marseille/aire-de-stationnement-camping-cars-de-greasque-greasque-en-3661921/">
     </link>
   </wpt>
-  <wpt lat="50.3242625" lon="1.5560452248078906">
+  <wpt lat="50.3242625" lon="1.5560452299390222">
     <ele>11</ele>
     <name>Aire de camping de Quend</name>
     <desc>capacity=50; caravan_site=motorhome_stopover;
@@ -15283,9 +15298,11 @@ version="1.1" creator="togpx">
     network=CAMPING-CAR PARK; operator=Camping Car Park; phone=+33
     1 83 64 69 21; power_supply=yes; power_supply:capacity=28;
     power_supply:fee=no; power_supply:maxcurrent=6;
+    sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=yes; surface=gravel; tents=no;
-    tourism=caravan_site; trailer=no; water_point=yes;
+    sanitary_dump_station:grey_water=yes; shower=no;
+    surface=gravel; tents=no; toilets=no; tourism=caravan_site;
+    trailer=no; water_point=yes;
     website=https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/provence-alpes-cote-dazur/84-vaucluse/fontaine-de-vaucluse;
     id=way/284810954</desc>
     <link href="https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/provence-alpes-cote-dazur/84-vaucluse/fontaine-de-vaucluse">
@@ -15898,8 +15915,8 @@ version="1.1" creator="togpx">
     <name>Aire Camping-Car Park de Guesnes</name>
     <desc>addr:city=Guesnes; addr:postcode=86420; bbq=no;
     capacity=27; caravan_site=motorhome_stopover;
-    caravan_site:type=lake; caravans=no; charge=14.22 EUR;
-    charge:conditional=12.22 EUR @ (Oct-Apr);
+    caravan_site:type=lake; caravans=no; charge=14.72 EUR;
+    charge:conditional=12.72 EUR @ (Oct-Apr);
     contact:email=contact@campingcarpark.com; contact:phone=+33 1
     83 64 69 21; dog=leashed; fee=yes; internet_access=wlan;
     maxlength=none; name=Aire Camping-Car Park de Guesnes;
@@ -16404,21 +16421,6 @@ version="1.1" creator="togpx">
     <link href="https://www.campingcarpark.com/en_GB/stay/stopover-site-motorhome/auvergne-rhone-alpes/69-rhone/villie-morgon">
     </link>
   </wpt>
-  <wpt lat="44.27851375" lon="2.4332231424157484">
-    <ele>769</ele>
-    <name>Aire de camping-car municipale de Baraqueville</name>
-    <desc>capacity=12; caravan_site=motorhome_stopover;
-    caravan_site:type=village; caravans=no; fee=no; name=Aire de
-    camping-car municipale de Baraqueville; opening_hours=Apr-Oct;
-    picnic_area=yes; power_supply=yes; power_supply:charge=3 EUR;
-    power_supply:fee=yes; sanitary_dump_station=yes; shadow=yes;
-    tents=no; tourism=caravan_site; water_point=yes;
-    water_point:charge=3 EUR; water_point:fee=yes;
-    website=https://www.tourisme-aveyron.com/fr/diffusio/activites/aire-de-camping-car-municipale-de-baraqueville-baraqueville_TFO021134589011;
-    id=way/320015127</desc>
-    <link href="https://www.tourisme-aveyron.com/fr/diffusio/activites/aire-de-camping-car-municipale-de-baraqueville-baraqueville_TFO021134589011">
-    </link>
-  </wpt>
   <wpt lat="48.764078049999995" lon="5.596151013497716">
     <ele>229</ele>
     <name>Aire de service Commercy</name>
@@ -16872,12 +16874,13 @@ version="1.1" creator="togpx">
   <wpt lat="42.87183445" lon="2.181781108291548">
     <ele>293</ele>
     <name>Aire Quillan, Coeur du Pays Cathare</name>
-    <desc>area=yes; bbq=no; capacity=23;
+    <desc>addr:city=Quillan; addr:postcode=11500; addr:street=Rue
+    Baptiste Marcet; area=yes; bbq=no; capacity=23;
     caravan_site=motorhome_stopover; caravan_site:type=village;
     caravans=no; charge=15.48 EUR; charge:conditional=14.24 EUR @
     (Oct 01-Apr 14); dog=leashed; fee=yes; internet_access=wlan;
-    maxlength=none; name=Aire Quillan, Coeur du Pays Cathare;
-    network=CAMPING-CAR PARK; opening_hours=24/7; power_supply=yes;
+    name=Aire Quillan, Coeur du Pays Cathare; network=CAMPING-CAR
+    PARK; opening_hours=24/7; power_supply=yes;
     power_supply:capacity=28; power_supply:maxcurrent=6;
     sanitary_dump_station=yes; tents=no; tourism=caravan_site;
     trailer=yes; water_point=yes;
@@ -18221,12 +18224,12 @@ version="1.1" creator="togpx">
     Rue des Moulins; power_supply=no; sanitary_dump_station=no;
     tourism=caravan_site; water_point=no; id=way/418322817</desc>
   </wpt>
-  <wpt lat="49.091315300000005" lon="-0.8157021721342977">
+  <wpt lat="49.0912193" lon="-0.8156716726982801">
     <ele>194</ele>
-    <name>Aire de camping-car de Caumont-l’Eventé</name>
+    <name>Aire de camping-car de Caumont-l'Éventé</name>
     <desc>caravan_site=motorhome_stopover;
     caravan_site:type=village; dog=yes; drinking_water=yes; fee=no;
-    name=Aire de camping-car de Caumont-l’Eventé; picnic_area=yes;
+    name=Aire de camping-car de Caumont-l'Éventé; picnic_area=yes;
     sanitary_dump_station=yes; surface=asphalt;
     tourism=caravan_site; water_point=yes; water_point:fee=yes;
     id=way/419714925</desc>
@@ -19998,10 +20001,12 @@ version="1.1" creator="togpx">
     <desc>addr:street=Rue Saint-Firmin; capacity=10;
     caravan_site=motorhome_stopover; caravan_site:type=winery;
     fee=no; internet_access=no; name=Domaine Saint-Firmin;
-    opening_hours:winetasting=09:00-18:00,Su off; picnic_table=yes;
-    power_supply=no; ref:CD30=245; sanitary_dump_station=yes;
-    surface=unpaved; tourism=caravan_site; water_point=yes;
+    opening_hours:winetasting=09:00-12:00,14:00-18:00, Su off;
+    picnic_table=yes; power_supply=no; ref:CD30=245;
+    sanitary_dump_station=yes; surface=unpaved;
+    tourism=caravan_site; water_point=yes;
     website=https://www.saint-firmin.com/camping-car-france-passion/;
+    wikimedia_commons=Aire Camping-car Domaine Saint-Firmin;
     id=way/506939412</desc>
     <link href="https://www.saint-firmin.com/camping-car-france-passion/">
     </link>
@@ -20704,7 +20709,7 @@ version="1.1" creator="togpx">
     <link href="https://www.pays-bergerac-tourisme.com/fr/diffusio/saint-germain-et-mons/aire-municipale-de-saint-germain-et-mons_TFOACCAMAQU024V507SJ2">
     </link>
   </wpt>
-  <wpt lat="44.82424935" lon="1.1841368437035955">
+  <wpt lat="44.824265100000005" lon="1.1841176204239252">
     <ele>68</ele>
     <name>Aire communale de La Roque-Gageac</name>
     <desc>capacity=20; caravan_site=motorhome_stopover;
@@ -20992,14 +20997,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="43.936300149999994" lon="0.6263060275279524">
     <ele>159</ele>
-    <name>Aire Communale de Camping-Cars Lectoure</name>
-    <desc>access=yes; addr:city=Lectoure; addr:housenumber=5612A;
-    addr:postcode=32700; addr:street=Chemin des Amandiers;
-    capacity=10; caravan_site=motorhome_stopover;
-    caravan_site:type=village; description=Aire de stationnement de
-    Camping-car gratuit; dog=yes; fee=no; name=Aire Communale de
-    Camping-Cars Lectoure; opening_hours=24/7; operator=Mairie de
-    Lectoure; power_supply=yes; sanitary_dump_station=no;
+    <name>Aire de Camping-Cars de Lectoure</name>
+    <desc>addr:city=Lectoure; addr:postcode=32700;
+    addr:street=Chemin des Amandiers; capacity=10;
+    caravan_site=motorhome_stopover; caravan_site:type=village;
+    dog=yes; fee=no; name=Aire de Camping-Cars de Lectoure;
+    official_name=Aire Communale de Camping-Cars Lectoure;
+    opening_hours=24/7; operator=Mairie de Lectoure;
+    power_supply=yes; sanitary_dump_station=no;
     sanitary_dump_station:chemical_toilet=no;
     sanitary_dump_station:grey_water=no; seasonal=no; shower=cold;
     tents=no; toilets=yes; tourism=caravan_site; water_point=yes;
@@ -22578,7 +22583,8 @@ version="1.1" creator="togpx">
     power_supply=no; sanitary_dump_station=no; surface=asphalt;
     toilets=no; tourism=caravan_site; water_point=no;
     website=https://www.saint-pauldevence.com/en/fiches/parkings/parking-spaces-for-camper-vans/;
-    id=way/651704727</desc>
+    wikimedia_commons=Category:Aire Montée des Trious
+    Saint-Paul-de-Vence; id=way/651704727</desc>
     <link href="https://www.saint-pauldevence.com/en/fiches/parkings/parking-spaces-for-camper-vans/">
     </link>
   </wpt>
@@ -25674,8 +25680,8 @@ version="1.1" creator="togpx">
     <desc>bbq=no; capacity=123; caravan_site=motorhome_stopover;
     caravan_site:type=river; caravans:conditional=no @ (Oct-May);
     charge=15.44 EUR; charge:conditional=13.44 @ (Oct-Apr);
-    dog=leashed; fee=yes; maxlength=none; name=Aire Murat, Le
-    Stalapos; network=CAMPING-CAR PARK; power_supply=yes;
+    dog=leashed; fee=yes; name=Aire Murat, Le Stalapos;
+    network=CAMPING-CAR PARK; power_supply=yes;
     power_supply:capacity=120; power_supply:maxcurrent=6;
     sanitary_dump_station=yes; shower=yes; shower:conditional=no @
     (Oct-May); tents=yes; tents:conditional=no @ (Oct-May);
@@ -26491,7 +26497,7 @@ version="1.1" creator="togpx">
     opening_hours=24/7; operator=Ville de Labastide-d'Armagnac;
     power_supply=no; sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=yes; seasonal=no;
+    sanitary_dump_station:grey_water=yes; seasonal=no; toilets=no;
     tourism=caravan_site; water_point=yes;
     website=https://www.tourismelandes.com/aire-camping-car/aire-de-camping-cars-de-labastide-darmagnac-accamaqu0400000p/;
     id=way/899157686</desc>
@@ -26880,20 +26886,6 @@ version="1.1" creator="togpx">
     sanitary_dump_station:grey_water=yes;
     sanitary_dump_station:round_drain=yes; seasonal=yes;
     tourism=caravan_site; water_point=yes; id=way/902206522</desc>
-  </wpt>
-  <wpt lat="44.650022050000004" lon="1.5703941311897234">
-    <ele>433</ele>
-    <name>Carrefour Contact Labastide-Murat</name>
-    <desc>access=yes; addr:city=Labastide-Murat;
-    addr:postcode=46240; addr:street=route de Gramat; capacity=4;
-    caravan_site=parking_lot; caravan_site:type=super_market;
-    description=Aire de Camping-car sur le parking du Carrefour
-    Contact; fee=no; name=Carrefour Contact Labastide-Murat;
-    operator=Carrefour Contact; power_supply=no;
-    sanitary_dump_station:chemical_toilet=yes;
-    sanitary_dump_station:grey_water=yes;
-    sanitary_dump_station:round_drain=yes; tourism=caravan_site;
-    water_point=yes; id=way/902210644</desc>
   </wpt>
   <wpt lat="44.7801549" lon="1.7280974868911287">
     <ele>306</ele>
@@ -27755,7 +27747,7 @@ version="1.1" creator="togpx">
     <ele>161</ele>
     <name>Aire de Camping-car Saint-Georges-sur-Moulon</name>
     <desc>access=yes; addr:city=Saint-Georges-sur-Moulon;
-    addr:postcode=18110; addr:street=Route de Coillard; capacity=3;
+    addr:street=Route de Coillard; capacity=3;
     caravan_site=motorhome_stopover;
     caravan_site:type=lake,village; fee=no; maxstay=no; name=Aire
     de Camping-car Saint-Georges-sur-Moulon; opening_hours=Apr-Oct;
@@ -28207,7 +28199,7 @@ version="1.1" creator="togpx">
     <link href="https://www.vendee-tourisme.com/aires-de-camping-car-en-vendee/aire-de-stationnement-du-poire-sur-vie/le-poire-sur-vie/accampdl085v503988">
     </link>
   </wpt>
-  <wpt lat="46.9626372" lon="-1.1158228849173568">
+  <wpt lat="46.9628143" lon="-1.1155321984782607">
     <ele>108</ele>
     <name>Aire de Camping-car Les Landes-Genusson</name>
     <desc>access=yes; addr:city=Les Landes-Genusson;
@@ -29259,10 +29251,10 @@ version="1.1" creator="togpx">
     <name>Aire de service camping-cars Abondance</name>
     <desc>access=yes; addr:city=Abondance; addr:postcode=74360;
     addr:street=D22; capacity=50; caravan_site=motorhome_stopover;
-    caravan_site:type=sports_centre; charge=0 EUR; description=Aire
-    de camping-car, borne flot bleu pour les services eau et
-    vidange des reservoirs payants; fee=no; maxstay=no; name=Aire
-    de service camping-cars Abondance; opening_hours=24/7;
+    caravan_site:type=sports_centre; description=Aire de
+    camping-car, borne flot bleu pour les services eau et vidange
+    des reservoirs payants; fee=no; maxstay=no; name=Aire de
+    service camping-cars Abondance; opening_hours=24/7;
     operator=Ville de Abondance; power_supply=no;
     sanitary_dump_station=yes;
     sanitary_dump_station:chemical_toilet=yes;
@@ -29275,12 +29267,12 @@ version="1.1" creator="togpx">
     <link href="https://ete.abondance-tourisme.com/informations/hotellerie-plein-air/aire-de-service-camping-car/">
     </link>
   </wpt>
-  <wpt lat="45.9711442" lon="6.031395019530668">
+  <wpt lat="45.9711695" lon="6.031378275011024">
     <ele>485</ele>
     <name>Aire de Camping-Cars La-Balme de-Sillingy</name>
     <desc>capacity=22; caravan_site=motorhome_stopover;
     caravan_site:type=lake; caravans=no; charge=14.80 EUR;
-    charge:conditional=12.80 EUR@(Oct-Dec); fee=yes; maxstay=48
+    charge:conditional=12.80 EUR @ (Oct-Dec); fee=yes; maxstay=48
     hours; name=Aire de Camping-Cars La-Balme de-Sillingy;
     network=CAMPING-CAR PARK; opening_hours=24/7;
     sanitary_dump_station=yes; seasonal=no; tourism=caravan_site;
@@ -29840,9 +29832,10 @@ version="1.1" creator="togpx">
     maxlength=none; name=Aire Camping-Car Park Castelnaudary;
     network=CAMPING-CAR PARK; opening_hours=24/7; power_supply=yes;
     power_supply:capacity=14; power_supply:maxcurrent=6;
-    sanitary_dump_station=yes; tents=no; tourism=caravan_site;
-    water_point=yes;
+    sanitary_dump_station=yes; surface=grass_paver; tents=no;
+    tourism=caravan_site; water_point=yes;
     website=https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city;
+    wikimedia_commons=Category:Aire Camping-Car Park Castelnaudary;
     id=way/964585345</desc>
     <link href="https://www.campingcarpark.com/fr_FR/camping-car/occitanie/aude/castelnaudary-city">
     </link>
@@ -31412,6 +31405,7 @@ version="1.1" creator="togpx">
     sanitary_dump_station:grey_water=yes; toilets=no;
     tourism=caravan_site; water_point=yes;
     website=https://www.aireparkreservation.com/aires-camping-cars/occitanie/herault/beziers-aire-de-sauclieres-molto-loisirs;
+    wikimedia_commons=Category:Aire de Sauclières - Béziers;
     id=way/1042068116</desc>
     <link href="https://www.aireparkreservation.com/aires-camping-cars/occitanie/herault/beziers-aire-de-sauclieres-molto-loisirs">
     </link>
@@ -31764,9 +31758,10 @@ version="1.1" creator="togpx">
     caravan_site:type=village; description=Designated area for
     overnight parking. Cars allowed too.; fee=no; maxstay=24 hours;
     name=Parking Avenue du Marais - Biscarrosse; power_supply=no;
-    sanitary_dump_station=no; surface=gravel; tourism=caravan_site;
-    water_point=no; wikimedia_commons=Category:Aire de
-    camping-Avenue du Marais-Biscarrosse; id=way/1070391344</desc>
+    sanitary_dump_station=no; shower=no; surface=gravel;
+    toilets=no; tourism=caravan_site; water_point=no;
+    wikimedia_commons=Category:Aire de camping-Avenue du
+    Marais-Biscarrosse; id=way/1070391344</desc>
   </wpt>
   <wpt lat="48.546733200000006" lon="-1.7581320581056286">
     <ele>6</ele>
@@ -32725,7 +32720,7 @@ version="1.1" creator="togpx">
     <link href="https://lanoisettedoc.com/aire-camping-car-meze/">
     </link>
   </wpt>
-  <wpt lat="43.7685478" lon="-0.03295448486759686">
+  <wpt lat="43.7685478" lon="-0.032980397004518575">
     <ele>93</ele>
     <name>Camping des Oliviers</name>
     <desc>bbq=no; capacity=49; caravan_site=motorhome_stopover;
@@ -33518,7 +33513,7 @@ version="1.1" creator="togpx">
     <ele>1</ele>
     <name>Marina d'Albo aire communale</name>
     <desc>caravan_site=motorhome_stopover; caravan_site:type=beach;
-    charge=EUR 7; fee=yes; name=Marina d'Albo aire communale;
+    charge=7 EUR; fee=yes; name=Marina d'Albo aire communale;
     shower=yes; shower:fee=yes; tourism=caravan_site;
     water_point=yes; id=way/1189829613</desc>
   </wpt>
@@ -33548,6 +33543,14 @@ version="1.1" creator="togpx">
     camping-car privé Argentat; sanitary_dump_station=yes;
     service:fee=yes; tourism=caravan_site; water_point=yes;
     id=way/1189894362</desc>
+  </wpt>
+  <wpt lat="45.31286035" lon="3.1862275080882356">
+    <ele>497</ele>
+    <name>Rêve de la Vallée</name>
+    <desc>capacity:caravans=25; internet_access=wlan;
+    internet_access:fee=customers; motorhome=yes; name=Rêve de la
+    Vallée; tents=no; tourism=caravan_site;
+    id=way/1189995614</desc>
   </wpt>
   <wpt lat="47.77711095" lon="4.864990173252999">
     <ele>293</ele>
@@ -34654,15 +34657,16 @@ version="1.1" creator="togpx">
     <name>Saint-Georges</name>
     <desc>capacity=3; caravan_site=motorhome_stopover;
     caravan_site:type=town,river; description=Not for tall or big
-    motorhoe; mes. In the shadow of mulberry trees. Right at river
+    motorhomes. In the shadow of mulberry trees. Right at river
     Lot. Asphalt with grass between spaces.; fee=no;
     internet_access=no; maxstay=24 hours; name=Saint-Georges;
     power_supply=no; sanitary_dump_station=customers;
     sanitary_dump_station:chemical_toilet=yes;
     sanitary_dump_station:grey_water=yes; surface=asphalt;
     tourism=caravan_site; water_point=customers;
-    water_point:seasonal=yes; wikimedia_commons=File:Saint-George
-    Cahors RV stopover-.jpg; id=way/1228878985</desc>
+    water_point:seasonal=yes;
+    wikimedia_commons=Category:Saint-George Cahors Motorhome
+    Stopover; id=way/1228878985</desc>
   </wpt>
   <wpt lat="43.2366054" lon="-0.38927872441118827">
     <ele>199</ele>
@@ -35423,7 +35427,7 @@ version="1.1" creator="togpx">
     Saint-Vivien-de-Médoc; tents=no; tourism=caravan_site;
     water_point=yes; id=way/1232722254</desc>
   </wpt>
-  <wpt lat="44.915958849999996" lon="0.9279110973733032">
+  <wpt lat="44.915843100000004" lon="0.9280288916267017">
     <ele>59</ele>
     <name>Aire de Camping-Car le Bugue</name>
     <desc>capacity=50; caravan_site=motorhome_stopover;
@@ -35734,7 +35738,8 @@ version="1.1" creator="togpx">
     tourism=caravan_site; water_point=yes; water_point:charge=3
     EUR; water_point:fee=yes;
     website=https://www.domaine-de-la-roussille.fr/;
-    id=way/1234373006</desc>
+    wikimedia_commons=Category:Aire de camping-cars Domaine de la
+    Roussille; id=way/1234373006</desc>
     <link href="https://www.domaine-de-la-roussille.fr/"></link>
   </wpt>
   <wpt lat="47.95624345" lon="-2.5502851426287636">
@@ -35809,7 +35814,7 @@ version="1.1" creator="togpx">
     <link href="https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/hauts-de-france/80-la-somme/ailly-sur-noye">
     </link>
   </wpt>
-  <wpt lat="44.8308693" lon="1.1510765233845044">
+  <wpt lat="44.83086665" lon="1.1510753092914805">
     <ele>68</ele>
     <name>Aire CAMPING-CAR PARK de Vézac, châteaux en
     Périgord</name>
@@ -36349,6 +36354,7 @@ version="1.1" creator="togpx">
     surface=compacted; tents=no; tourism=caravan_site; trailer=yes;
     water_point=yes; water_point:fee=no;
     website=https://www.campingcarpark.com/en_GB/motor-home/provence-alpes-cote-dazur/var/le-val?areaType=stopover-site-motorhome;
+    wikimedia_commons=Category:Camping-Car Park Le Val;
     id=way/1243859724</desc>
     <link href="https://www.campingcarpark.com/en_GB/motor-home/provence-alpes-cote-dazur/var/le-val?areaType=stopover-site-motorhome">
     </link>
@@ -36534,10 +36540,11 @@ version="1.1" creator="togpx">
     plaisance</name>
     <desc>capacity=14; caravan_site=motorhome_stopover;
     caravan_site:type=river, town; caravans=no;
-    check_date=2024-03-06; fee=yes; name=Aire de camping-cars
-    Montbéliard - Port de plaisance; power_supply=yes;
+    check_date=2024-03-06; drinking_water=no; fee=yes; name=Aire de
+    camping-cars Montbéliard - Port de plaisance; power_supply=yes;
     sanitary_dump_station=no; seasonal=no; self_sufficient=only;
-    source=survey; surface=asphalt; tents=no; tourism=caravan_site;
+    source=survey; surface=asphalt; tents=no; toilets=no;
+    tourism=caravan_site;
     website=https://www.bourgognefranchecomte.com/aires-de-camping-car/aire-de-camping-cars-port-de-plaisance;
     id=way/1259726625</desc>
     <link href="https://www.bourgognefranchecomte.com/aires-de-camping-car/aire-de-camping-cars-port-de-plaisance">
@@ -37368,7 +37375,7 @@ version="1.1" creator="togpx">
     <link href="https://www.sudcharentetourisme.fr/planifier-votre-hebergement/aire-de-services-camping-cars-5708463/">
     </link>
   </wpt>
-  <wpt lat="44.04463055" lon="6.0376294122795215">
+  <wpt lat="44.0447101" lon="6.037634706345292">
     <ele>431</ele>
     <name>Aire de camping-car de Malijai</name>
     <desc>caravan_site=motorhome_stopover;
@@ -38508,17 +38515,18 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="43.6229895" lon="6.69021994712302">
     <ele>270</ele>
-    <name>Aire Municipale du Grand Jardin</name>
-    <desc>capacity=2; caravan_site=motorhome_stopover;
-    caravan_site:type=parking_lot; fee=no; internet_access=no;
-    maxstay=48 hours; name=Aire Municipale du Grand Jardin;
-    opening_hours=24/7; picnic_table=yes; power_supply=no;
-    sanitary_dump_station=yes; seasonal=no; surface=asphalt;
-    tents=no; tourism=caravan_site; water_point=yes;
-    water_point:charge=4 EUR; water_point:connector=male-male;
-    water_point:fee=yes;
+    <name>Aire municipales Camping Car- Fayence</name>
+    <desc>alt_name=Aire Municipale du Grand Jardin; capacity=2;
+    caravan_site=motorhome_stopover; caravan_site:type=parking_lot;
+    fee=no; internet_access=no; maxstay=48 hours; name=Aire
+    municipales Camping Car- Fayence; opening_hours=24/7;
+    picnic_table=yes; power_supply=no; sanitary_dump_station=yes;
+    seasonal=no; surface=asphalt; tents=no; tourism=caravan_site;
+    water_point=yes; water_point:charge=4 EUR;
+    water_point:connector=male-male; water_point:fee=yes;
     website=https://www.paysdefayence.com/campings/aire-de-services-municipales-camping-car-fayence/;
-    id=way/1282138727</desc>
+    wikimedia_commons=Category:Aire municipales Camping Car
+    Fayence; id=way/1282138727</desc>
     <link href="https://www.paysdefayence.com/campings/aire-de-services-municipales-camping-car-fayence/">
     </link>
   </wpt>
@@ -38529,7 +38537,7 @@ version="1.1" creator="togpx">
     caravan_site:type=river,village; dog=yes; drinking_water=no;
     fee=no; internet_access=no; name=Aire de service de
     Peyrehorade; power_supply=no; sanitary_dump_station=yes;
-    tents=no; toilets=no; tourism=caravan_site;
+    shower=no; tents=no; toilets=no; tourism=caravan_site;
     website=https://www.tourismelandes.com/aire-camping-car/aire-de-vidange-accamaqu040v5111ol/;
     id=way/1282187642</desc>
     <link href="https://www.tourismelandes.com/aire-camping-car/aire-de-vidange-accamaqu040v5111ol/">
@@ -40428,7 +40436,8 @@ version="1.1" creator="togpx">
     caravan_site:type=village; fee=no; name=Tourrettes-sur-Loup
     Route du Stade; power_supply=no; sanitary_dump_station=no;
     surface=asphalt; tourism=caravan_site; water_point=no;
-    id=way/1286933693</desc>
+    wikimedia_commons=File:Tourrettes-sur-Loup motorhome
+    stopover.jpg; id=way/1286933693</desc>
   </wpt>
   <wpt lat="44.26549515" lon="5.857177549999999">
     <ele>615</ele>
@@ -40985,9 +40994,9 @@ version="1.1" creator="togpx">
     Montbéliard - Champ de foire; opening_hours=24/7;
     power_supply=yes; power_supply:charge=8.50 EUR/8 hours;
     power_supply:fee=yes; sanitary_dump_station=yes; seasonal=no;
-    surface=asphalt; tourism=caravan_site; water_point=yes;
-    water_point:charge=5 EUR/100 liter; water_point:fee=yes;
-    id=way/1288032567</desc>
+    surface=asphalt; toilets=no; tourism=caravan_site;
+    water_point=yes; water_point:charge=5 EUR/100 liter;
+    water_point:fee=yes; id=way/1288032567</desc>
   </wpt>
   <wpt lat="46.78457095" lon="4.861958697630865">
     <ele>176</ele>
@@ -41774,7 +41783,7 @@ version="1.1" creator="togpx">
     <link href="https://www.clairvaux-les-lacs.com/page/aire-de-camping-car">
     </link>
   </wpt>
-  <wpt lat="44.90301565" lon="4.6497931900825975">
+  <wpt lat="44.90302495" lon="4.649796723733044">
     <ele>582</ele>
     <name>Aire d'accueil et de services pour camping-cars
     Vernoux-en-Vivarais</name>
@@ -42268,7 +42277,7 @@ version="1.1" creator="togpx">
     <link href="https://www.campingcarpark.com/fr_FR/sejour/aire-etape-camping-car/normandie/50-la-manche/bricquebec-en-cotentin">
     </link>
   </wpt>
-  <wpt lat="45.012351100000004" lon="1.0899342989278127">
+  <wpt lat="45.012321549999996" lon="1.0899841994421178">
     <ele>69</ele>
     <name>Camping-car Park Saint-Léon sur Vézère</name>
     <desc>bbq=no; capacity=24; caravan_site=motorhome_stopover;
@@ -43095,19 +43104,6 @@ version="1.1" creator="togpx">
     Don; opening_hours=24/7; power_supply=no;
     sanitary_dump_station=no; seasonal=no; toilets=yes;
     tourism=caravan_site; water_point=no; id=way/1307262750</desc>
-  </wpt>
-  <wpt lat="45.8946337" lon="3.1247278794871796">
-    <ele>339</ele>
-    <name>Aire Municipale Riom</name>
-    <desc>capacity=4; caravan_site=motorhome_stopover;
-    caravan_site:type=town; dog=yes; fee=no; maxstay=48 hours;
-    name=Aire Municipale Riom; note=water point out of service;
-    opening_hours=24/7; sanitary_dump_station=yes; seasonal=no;
-    surface=fine_gravel; tourism=caravan_site;
-    website=https://www.terravolcana.com/camping/aire-de-stationnement-riom/;
-    id=way/1307317910</desc>
-    <link href="https://www.terravolcana.com/camping/aire-de-stationnement-riom/">
-    </link>
   </wpt>
   <wpt lat="44.72085585" lon="6.258539324951695">
     <ele>1277</ele>
@@ -45669,7 +45665,7 @@ version="1.1" creator="togpx">
     sanitary_dump_station=no; tents=no; tourism=caravan_site;
     id=way/1317988750</desc>
   </wpt>
-  <wpt lat="44.89147295" lon="1.4756606990759202">
+  <wpt lat="44.89147635" lon="1.4756352494971279">
     <ele>90</ele>
     <name>Aire de camping-cars de Souillac</name>
     <desc>addr:city=Souillac; addr:postcode=46200; addr:street=Rue
@@ -45711,10 +45707,11 @@ version="1.1" creator="togpx">
     <name>Aire de service et de stationnement communale de
     Morlaix</name>
     <desc>caravan_site=motorhome_stopover;
-    caravan_site:type=parking_lot,town; caravans=no; fee=no;
-    name=Aire de service et de stationnement communale de Morlaix;
-    power_supply=no; sanitary_dump_station=yes; surface=asphalt;
-    tents=no; tourism=caravan_site;
+    caravan_site:type=parking_lot,town; caravans=no;
+    drinking_water=no; fee=no; name=Aire de service et de
+    stationnement communale de Morlaix; power_supply=no;
+    sanitary_dump_station=yes; surface=asphalt; tents=no;
+    toilets=no; tourism=caravan_site;
     website=https://www.baiedemorlaix.bzh/de/hebergement/aire-de-service-et-de-stationnement-communale-de-morlaix-b0018bre0290000p-3/;
     id=way/1318223469</desc>
     <link href="https://www.baiedemorlaix.bzh/de/hebergement/aire-de-service-et-de-stationnement-communale-de-morlaix-b0018bre0290000p-3/">
@@ -45753,17 +45750,14 @@ version="1.1" creator="togpx">
     <link href="https://www.baiedemorlaix.bzh/fr/hebergement/aire-de-stationnement-de-st-jean-du-doigt-b0018bre029v53l4c5/">
     </link>
   </wpt>
-  <wpt lat="48.601149649999996" lon="-1.7129971499999825">
+  <wpt lat="48.60116185" lon="-1.7130102032078987">
     <ele>6</ele>
     <name>Aire de camping-cars de l'Aumône</name>
     <desc>caravan_site=motorhome_stopover; caravan_site:type=beach;
     caravans=no; dog=yes; fee=yes; name=Aire de camping-cars de
     l'Aumône; power_supply=yes; sanitary_dump_station=yes;
     tents=no; tourism=caravan_site; water_point=yes;
-    website=https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-laumone-cherrueix-fr-2821249/;
     id=way/1318372118</desc>
-    <link href="https://www.ille-et-vilaine-tourisme.bzh/sejourner/hebergements/campings/aire-de-camping-cars-de-laumone-cherrueix-fr-2821249/">
-    </link>
   </wpt>
   <wpt lat="48.55298395" lon="-1.5860137668665446">
     <ele>66</ele>
@@ -46004,16 +45998,6 @@ version="1.1" creator="togpx">
     id=way/1318920189</desc>
     <link href="https://www.tourismecorreze.com/fr/tourisme_detail/aire_d_accueil_de_camping-cars_de_sechemailles.html">
     </link>
-  </wpt>
-  <wpt lat="43.9534877" lon="4.55168938295917">
-    <ele>29</ele>
-    <name>Aire de camping-car de Castillon-du-Gard</name>
-    <desc>capacity=19; caravan_site=motorhome_stopover;
-    caravan_site:type=village; charge=14 EUR; fee=yes; name=Aire de
-    camping-car de Castillon-du-Gard; name:fr=Aire de camping-car
-    de Castillon-du-Gard; power_supply=yes; power_supply:fee=no;
-    sanitary_dump_station=yes; tourism=caravan_site;
-    water_point=yes; id=way/1318986048</desc>
   </wpt>
   <wpt lat="43.687302200000005" lon="5.705983404019415">
     <ele>246</ele>
@@ -47109,6 +47093,7 @@ version="1.1" creator="togpx">
     sanitary_dump_station:grey_water=yes; surface=grass;
     tourism=caravan_site; water_point=yes;
     website=https://www.visitbeauvais.fr/en/fiche/aire-de-camping-cars-de-beauvais-en/;
+    wikimedia_commons=Category:Aire de camping-cars de Beauvais;
     id=way/1328230306</desc>
     <link href="https://www.visitbeauvais.fr/en/fiche/aire-de-camping-cars-de-beauvais-en/">
     </link>
@@ -47366,7 +47351,8 @@ version="1.1" creator="togpx">
     surface=gravel; toilets=no; tourism=caravan_site;
     water_point=no;
     website=https://cotedazurfrance.fr/offres/aire-de-stationnement-des-camping-cars-a-seillans-seillans-fr-4585225/;
-    id=way/1343876241</desc>
+    wikimedia_commons=Aire de stationnement des camping-cars à
+    Seillans; id=way/1343876241</desc>
     <link href="https://cotedazurfrance.fr/offres/aire-de-stationnement-des-camping-cars-a-seillans-seillans-fr-4585225/">
     </link>
   </wpt>
@@ -47800,15 +47786,14 @@ version="1.1" creator="togpx">
   <wpt lat="45.951469349999996" lon="3.1780048731348036">
     <ele>332</ele>
     <name>Aire de camping-car de Le Cheix-sur-Morge</name>
-    <desc>addr:city=Le Cheix-sur-Morge; addr:postcode=63200;
-    addr:street=Rue du Stade; bbq=no; capacity=9;
-    caravan_site=motorhome_stopover; caravan_site:type=countryside;
-    caravans=no; charge=12.40 EUR; maxlength=9; name=Aire de
-    camping-car de Le Cheix-sur-Morge; network=CAMPING-CAR PARK;
-    power_supply:capacity=9; power_supply:fee=no;
-    power_supply:maxcurrent=6; sanitary_dump_station=yes;
-    shower=no; tents=no; toilets=no; tourism=caravan_site;
-    trailer=no; water_point=yes; water_point:fee=no;
+    <desc>bbq=no; capacity=9; caravan_site=motorhome_stopover;
+    caravan_site:type=countryside; caravans=no; charge=12.40 EUR;
+    maxlength=9; name=Aire de camping-car de Le Cheix-sur-Morge;
+    network=CAMPING-CAR PARK; power_supply:capacity=9;
+    power_supply:fee=no; power_supply:maxcurrent=6;
+    sanitary_dump_station=yes; shower=no; tents=no; toilets=no;
+    tourism=caravan_site; trailer=no; water_point=yes;
+    water_point:fee=no;
     website=https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/le-cheix-sur-morge;
     id=way/1392027615</desc>
     <link href="https://www.campingcarpark.com/fr_FR/camping-car/auvergne-rhone-alpes/puy-de-dome/le-cheix-sur-morge">
@@ -48017,7 +48002,7 @@ version="1.1" creator="togpx">
     <name>Aire Ferme de Grézelade</name>
     <desc>addr:city=Lanzac; addr:housenumber=181;
     addr:postcode=46200; addr:street=Chemin du Pigeonnier;
-    capacity:caravans=40; caravan_site=motorhome_stopover;
+    capacity=40; caravan_site=motorhome_stopover;
     caravan_site:type=farm_shop; fee=no; name=Aire Ferme de
     Grézelade; opening_hours=24/7; power_supply=no;
     product=foie_gras; sanitary_dump_station=yes;
@@ -48443,6 +48428,81 @@ version="1.1" creator="togpx">
     <link href="http://www.suisse-normande-tourisme.com/en/eat-stay/where-to-stay/camper-van-parks/aire-de-camping-cars-communale-de-clecy-879934">
     </link>
   </wpt>
+  <wpt lat="48.672615750000006" lon="-3.615996749528386">
+    <ele>42</ele>
+    <name>Aire de Camping Car de Toulinet</name>
+    <desc>addr:city=Plestin-les-Grèves; addr:postcode=22310;
+    addr:street=Corniche de Kerallic; name=Aire de Camping Car de
+    Toulinet; sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1457614982</desc>
+  </wpt>
+  <wpt lat="45.76645005" lon="-0.496502243519786">
+    <ele>55</ele>
+    <name>CampingCarPark</name>
+    <desc>addr:city=Saint-Césaire; addr:housenumber=1;
+    addr:postcode=17770; addr:street=Rue de la Merine;
+    capacity:caravans=24; name=CampingCarPark; power_supply=yes;
+    sanitary_dump_station=yes; tourism=caravan_site;
+    id=way/1458486031</desc>
+  </wpt>
+  <wpt lat="42.55004725" lon="2.989206387426374">
+    <ele>36</ele>
+    <name>way/1460160560</name>
+    <desc>description=Gardiennage caravanes, bateaux, camping cars,
+    entretien réparation, vente, achat.; tourism=caravan_site;
+    id=way/1460160560</desc>
+  </wpt>
+  <wpt lat="42.5598334" lon="2.973344191088575">
+    <ele>21</ele>
+    <name>Parking Brousse</name>
+    <desc>name=Parking Brousse; phone=+33 4 68 89 11 38;
+    tourism=caravan_site; id=way/1460160561</desc>
+  </wpt>
+  <wpt lat="43.72353315" lon="0.9811047513249429">
+    <ele>199</ele>
+    <name>Aire de stationnement de Camping-car gratuit</name>
+    <desc>name=Aire de stationnement de Camping-car gratuit;
+    power_supply=yes; sanitary_dump_station=yes;
+    tourism=caravan_site; id=way/1460308216</desc>
+  </wpt>
+  <wpt lat="46.7806498" lon="0.1939517228604728">
+    <ele>138</ele>
+    <name>Aire de camping-car Mirebeau</name>
+    <desc>capacity=8; caravan_site=motorhome_stopover;
+    caravan_site:type=village; charge=10 EUR; fee=yes; name=Aire de
+    camping-car Mirebeau; power_supply=yes; power_supply:charge=6
+    EUR; power_supply:fee=yes; sanitary_dump_station=yes;
+    sanitary_dump_station:fee=yes; seasonal=no;
+    tourism=caravan_site; water_point=yes; water_point:fee=yes;
+    id=way/1460736784</desc>
+  </wpt>
+  <wpt lat="48.215946450000004" lon="6.716927299199072">
+    <ele>447</ele>
+    <name>Bruy'aire en Vosges</name>
+    <desc>amenity=sanitary_dump_station; capacity=14;
+    name=Bruy'aire en Vosges; operator=Camping Car Park;
+    tourism=caravan_site; water_point=yes; id=way/1460962902</desc>
+  </wpt>
+  <wpt lat="44.27873875" lon="2.434895729362294">
+    <ele>766</ele>
+    <name>way/1461859265</name>
+    <desc>tourism=caravan_site; id=way/1461859265</desc>
+  </wpt>
+  <wpt lat="45.43133685" lon="5.514895752764977">
+    <ele>497</ele>
+    <name>Charavines</name>
+    <desc>barrier=fence; fee=yes; internet_access=wlan;
+    name=Charavines; opening_hours=24/7; operator=AireServices;
+    sanitary_dump_station=customers; tourism=caravan_site;
+    website=https://reseauaireservices.com/;
+    id=way/1462376355</desc>
+    <link href="https://reseauaireservices.com/"></link>
+  </wpt>
+  <wpt lat="50.33842225" lon="1.5559256713099623">
+    <ele>14</ele>
+    <name>way/1462685794</name>
+    <desc>tourism=caravan_site; id=way/1462685794</desc>
+  </wpt>
   <trk>
     <name>Aire de la Biche</name>
     <trkseg>
@@ -48700,19 +48760,19 @@ version="1.1" creator="togpx">
     <name>Aire de camping-car de Flocques</name>
     <trkseg>
       <trkpt lat="50.0352277" lon="1.3605599"></trkpt>
-      <trkpt lat="50.0345657" lon="1.3596788"></trkpt>
+      <trkpt lat="50.0337939" lon="1.3586488"></trkpt>
+      <trkpt lat="50.0336306" lon="1.3588554"></trkpt>
+      <trkpt lat="50.0338856" lon="1.3591611"></trkpt>
       <trkpt lat="50.0344404" lon="1.3598934"></trkpt>
       <trkpt lat="50.0345713" lon="1.3600685"></trkpt>
       <trkpt lat="50.0352708" lon="1.3610038"></trkpt>
       <trkpt lat="50.0353741" lon="1.3611433"></trkpt>
-      <trkpt lat="50.0351243" lon="1.3617468"></trkpt>
-      <trkpt lat="50.0354457" lon="1.3617481"></trkpt>
-      <trkpt lat="50.0354499" lon="1.3618916"></trkpt>
-      <trkpt lat="50.03545" lon="1.3620888"></trkpt>
-      <trkpt lat="50.0357669" lon="1.3619721"></trkpt>
-      <trkpt lat="50.0359599" lon="1.3619158"></trkpt>
-      <trkpt lat="50.0360327" lon="1.3618138"></trkpt>
-      <trkpt lat="50.0359659" lon="1.361677"></trkpt>
+      <trkpt lat="50.0354534" lon="1.3611674"></trkpt>
+      <trkpt lat="50.0355912" lon="1.3613605"></trkpt>
+      <trkpt lat="50.0356497" lon="1.3614491"></trkpt>
+      <trkpt lat="50.0357842" lon="1.3615805"></trkpt>
+      <trkpt lat="50.035838" lon="1.3615536"></trkpt>
+      <trkpt lat="50.0357781" lon="1.3612827"></trkpt>
       <trkpt lat="50.0356954" lon="1.3611473"></trkpt>
       <trkpt lat="50.0353793" lon="1.3607383"></trkpt>
       <trkpt lat="50.0353685" lon="1.360749"></trkpt>
@@ -50354,6 +50414,16 @@ version="1.1" creator="togpx">
       <trkpt lat="47.4773703" lon="-2.1794584"></trkpt>
       <trkpt lat="47.4776319" lon="-2.1795329"></trkpt>
       <trkpt lat="47.4775819" lon="-2.1795992"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Aire camping-car Mirebeau sur Bèze</name>
+    <trkseg>
+      <trkpt lat="47.3997371" lon="5.3128829"></trkpt>
+      <trkpt lat="47.399777" lon="5.3126516"></trkpt>
+      <trkpt lat="47.3995967" lon="5.3125837"></trkpt>
+      <trkpt lat="47.3995568" lon="5.312815"></trkpt>
+      <trkpt lat="47.3997371" lon="5.3128829"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -52092,12 +52162,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire camping-car des Bartavelles</name>
     <trkseg>
-      <trkpt lat="45.0662527" lon="5.5560288"></trkpt>
-      <trkpt lat="45.0666594" lon="5.5556004"></trkpt>
-      <trkpt lat="45.0665533" lon="5.555402"></trkpt>
-      <trkpt lat="45.0661555" lon="5.5558365"></trkpt>
-      <trkpt lat="45.0661783" lon="5.5559089"></trkpt>
-      <trkpt lat="45.0662527" lon="5.5560288"></trkpt>
+      <trkpt lat="45.0662508" lon="5.5560333"></trkpt>
+      <trkpt lat="45.0666559" lon="5.5556129"></trkpt>
+      <trkpt lat="45.0665539" lon="5.5554141"></trkpt>
+      <trkpt lat="45.0661508" lon="5.5558401"></trkpt>
+      <trkpt lat="45.0661821" lon="5.5559053"></trkpt>
+      <trkpt lat="45.0662081" lon="5.5559538"></trkpt>
+      <trkpt lat="45.0662508" lon="5.5560333"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -54075,23 +54146,23 @@ version="1.1" creator="togpx">
     <name>Aire de camping-cars Nieuil l'Espoir</name>
     <trkseg>
       <trkpt lat="46.4854191" lon="0.4536859"></trkpt>
-      <trkpt lat="46.4852293" lon="0.4536195"></trkpt>
-      <trkpt lat="46.4851456" lon="0.454065"></trkpt>
-      <trkpt lat="46.4848054" lon="0.4539239"></trkpt>
+      <trkpt lat="46.4852248" lon="0.4536433"></trkpt>
+      <trkpt lat="46.4851438" lon="0.454071"></trkpt>
+      <trkpt lat="46.484809" lon="0.4539205"></trkpt>
       <trkpt lat="46.4847348" lon="0.4542712"></trkpt>
       <trkpt lat="46.4850468" lon="0.454408"></trkpt>
       <trkpt lat="46.4850623" lon="0.4544228"></trkpt>
       <trkpt lat="46.48507" lon="0.454443"></trkpt>
       <trkpt lat="46.4850706" lon="0.4544662"></trkpt>
-      <trkpt lat="46.4850592" lon="0.4545197"></trkpt>
-      <trkpt lat="46.4851095" lon="0.4545328"></trkpt>
+      <trkpt lat="46.4850599" lon="0.4545199"></trkpt>
+      <trkpt lat="46.4851084" lon="0.4545325"></trkpt>
       <trkpt lat="46.4851133" lon="0.4545172"></trkpt>
       <trkpt lat="46.4851221" lon="0.4545056"></trkpt>
       <trkpt lat="46.4851332" lon="0.4545039"></trkpt>
       <trkpt lat="46.4851752" lon="0.454516"></trkpt>
       <trkpt lat="46.485184" lon="0.4544566"></trkpt>
       <trkpt lat="46.4852673" lon="0.4544794"></trkpt>
-      <trkpt lat="46.4853488" lon="0.4540835"></trkpt>
+      <trkpt lat="46.4853492" lon="0.4540511"></trkpt>
       <trkpt lat="46.4854191" lon="0.4536859"></trkpt>
     </trkseg>
   </trk>
@@ -54452,6 +54523,7 @@ version="1.1" creator="togpx">
       <trkpt lat="50.3235758" lon="1.5558129"></trkpt>
       <trkpt lat="50.3237197" lon="1.5562153"></trkpt>
       <trkpt lat="50.3240793" lon="1.5566391"></trkpt>
+      <trkpt lat="50.3240907" lon="1.5566414"></trkpt>
       <trkpt lat="50.3243224" lon="1.5566873"></trkpt>
       <trkpt lat="50.3246136" lon="1.5566713"></trkpt>
       <trkpt lat="50.3248841" lon="1.5565532"></trkpt>
@@ -55834,20 +55906,6 @@ version="1.1" creator="togpx">
       <trkpt lat="46.1611229" lon="4.6786174"></trkpt>
       <trkpt lat="46.1610021" lon="4.6786308"></trkpt>
       <trkpt lat="46.1609956" lon="4.6785445"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Aire de camping-car municipale de Baraqueville</name>
-    <trkseg>
-      <trkpt lat="44.2786213" lon="2.4326988"></trkpt>
-      <trkpt lat="44.2784389" lon="2.4327686"></trkpt>
-      <trkpt lat="44.2784216" lon="2.4332031"></trkpt>
-      <trkpt lat="44.2784024" lon="2.4337208"></trkpt>
-      <trkpt lat="44.2785886" lon="2.4336966"></trkpt>
-      <trkpt lat="44.2786232" lon="2.4335196"></trkpt>
-      <trkpt lat="44.2786347" lon="2.433179"></trkpt>
-      <trkpt lat="44.2786405" lon="2.4328705"></trkpt>
-      <trkpt lat="44.2786213" lon="2.4326988"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -57762,16 +57820,25 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Aire de camping-car de Caumont-l’Eventé</name>
+    <name>Aire de camping-car de Caumont-l'Éventé</name>
     <trkseg>
-      <trkpt lat="49.0910525" lon="-0.8162177"></trkpt>
-      <trkpt lat="49.0911139" lon="-0.8158663"></trkpt>
-      <trkpt lat="49.0910964" lon="-0.815751"></trkpt>
-      <trkpt lat="49.0910677" lon="-0.8156765"></trkpt>
-      <trkpt lat="49.0911737" lon="-0.8153379"></trkpt>
-      <trkpt lat="49.0914075" lon="-0.8155636"></trkpt>
-      <trkpt lat="49.0912231" lon="-0.8162959"></trkpt>
-      <trkpt lat="49.0910525" lon="-0.8162177"></trkpt>
+      <trkpt lat="49.091122" lon="-0.8157808"></trkpt>
+      <trkpt lat="49.0911284" lon="-0.8157691"></trkpt>
+      <trkpt lat="49.0911323" lon="-0.815753"></trkpt>
+      <trkpt lat="49.0911333" lon="-0.8157326"></trkpt>
+      <trkpt lat="49.0911301" lon="-0.8157127"></trkpt>
+      <trkpt lat="49.0911152" lon="-0.8156879"></trkpt>
+      <trkpt lat="49.091088" lon="-0.8156692"></trkpt>
+      <trkpt lat="49.0911672" lon="-0.8154443"></trkpt>
+      <trkpt lat="49.0913475" lon="-0.8155924"></trkpt>
+      <trkpt lat="49.0912411" lon="-0.8158807"></trkpt>
+      <trkpt lat="49.0912272" lon="-0.815873"></trkpt>
+      <trkpt lat="49.0912114" lon="-0.8158395"></trkpt>
+      <trkpt lat="49.0911985" lon="-0.8158161"></trkpt>
+      <trkpt lat="49.0911824" lon="-0.8157979"></trkpt>
+      <trkpt lat="49.0911632" lon="-0.8157855"></trkpt>
+      <trkpt lat="49.0911426" lon="-0.8157805"></trkpt>
+      <trkpt lat="49.091122" lon="-0.8157808"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -60428,13 +60495,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire communale de La Roque-Gageac</name>
     <trkseg>
-      <trkpt lat="44.8245295" lon="1.183864"></trkpt>
+      <trkpt lat="44.8245345" lon="1.1838747"></trkpt>
       <trkpt lat="44.8243231" lon="1.1837353"></trkpt>
       <trkpt lat="44.8241109" lon="1.1840934"></trkpt>
       <trkpt lat="44.8240967" lon="1.1841912"></trkpt>
       <trkpt lat="44.8241071" lon="1.1843026"></trkpt>
-      <trkpt lat="44.8241756" lon="1.1845587"></trkpt>
-      <trkpt lat="44.8245295" lon="1.183864"></trkpt>
+      <trkpt lat="44.8242071" lon="1.1845156"></trkpt>
+      <trkpt lat="44.8245345" lon="1.1838747"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -60752,7 +60819,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Aire Communale de Camping-Cars Lectoure</name>
+    <name>Aire de Camping-Cars de Lectoure</name>
     <trkseg>
       <trkpt lat="43.936479" lon="0.626089"></trkpt>
       <trkpt lat="43.9363839" lon="0.6261402"></trkpt>
@@ -63807,7 +63874,7 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire de camping-cars de Celac</name>
     <trkseg>
-      <trkpt lat="47.6641663" lon="-2.4715267"></trkpt>
+      <trkpt lat="47.6641462" lon="-2.4716026"></trkpt>
       <trkpt lat="47.6641034" lon="-2.4718527"></trkpt>
       <trkpt lat="47.6639736" lon="-2.4718624"></trkpt>
       <trkpt lat="47.663742" lon="-2.4718391"></trkpt>
@@ -63826,7 +63893,7 @@ version="1.1" creator="togpx">
       <trkpt lat="47.6630706" lon="-2.4697579"></trkpt>
       <trkpt lat="47.6632277" lon="-2.4703117"></trkpt>
       <trkpt lat="47.6638402" lon="-2.471431"></trkpt>
-      <trkpt lat="47.6641663" lon="-2.4715267"></trkpt>
+      <trkpt lat="47.6641462" lon="-2.4716026"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -66988,18 +67055,6 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Carrefour Contact Labastide-Murat</name>
-    <trkseg>
-      <trkpt lat="44.6500461" lon="1.5706446"></trkpt>
-      <trkpt lat="44.6501725" lon="1.5705809"></trkpt>
-      <trkpt lat="44.65011" lon="1.5704247"></trkpt>
-      <trkpt lat="44.6500438" lon="1.5702611"></trkpt>
-      <trkpt lat="44.6500003" lon="1.5701498"></trkpt>
-      <trkpt lat="44.6498906" lon="1.5702451"></trkpt>
-      <trkpt lat="44.6500461" lon="1.5706446"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
     <name>Aire Municipale Gramat</name>
     <trkseg>
       <trkpt lat="44.7797384" lon="1.7284703"></trkpt>
@@ -68146,12 +68201,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire de Camping-car Les Landes-Genusson</name>
     <trkseg>
-      <trkpt lat="46.9626936" lon="-1.1157973"></trkpt>
-      <trkpt lat="46.9626713" lon="-1.1159065"></trkpt>
-      <trkpt lat="46.9626031" lon="-1.1158616"></trkpt>
-      <trkpt lat="46.962521" lon="-1.115813"></trkpt>
-      <trkpt lat="46.9625484" lon="-1.1157057"></trkpt>
-      <trkpt lat="46.9626936" lon="-1.1157973"></trkpt>
+      <trkpt lat="46.9628478" lon="-1.1155047"></trkpt>
+      <trkpt lat="46.9628284" lon="-1.1155827"></trkpt>
+      <trkpt lat="46.9627824" lon="-1.1155623"></trkpt>
+      <trkpt lat="46.9628002" lon="-1.1154809"></trkpt>
+      <trkpt lat="46.9628478" lon="-1.1155047"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -68976,6 +69030,7 @@ version="1.1" creator="togpx">
       <trkpt lat="45.9708764" lon="6.0316041"></trkpt>
       <trkpt lat="45.9709081" lon="6.031708"></trkpt>
       <trkpt lat="45.9710283" lon="6.0316301"></trkpt>
+      <trkpt lat="45.9710789" lon="6.0315973"></trkpt>
       <trkpt lat="45.971273" lon="6.0314713"></trkpt>
       <trkpt lat="45.9712601" lon="6.0314226"></trkpt>
       <trkpt lat="45.9714781" lon="6.0312836"></trkpt>
@@ -72453,13 +72508,11 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="43.7683221" lon="-0.0331923"></trkpt>
       <trkpt lat="43.7681814" lon="-0.0329587"></trkpt>
-      <trkpt lat="43.767987" lon="-0.0320578"></trkpt>
-      <trkpt lat="43.7680645" lon="-0.0320175"></trkpt>
-      <trkpt lat="43.7680897" lon="-0.0321543"></trkpt>
-      <trkpt lat="43.7684209" lon="-0.0320363"></trkpt>
+      <trkpt lat="43.7679819" lon="-0.032041"></trkpt>
+      <trkpt lat="43.7683572" lon="-0.0318824"></trkpt>
       <trkpt lat="43.7686495" lon="-0.0330797"></trkpt>
-      <trkpt lat="43.7692015" lon="-0.0328785"></trkpt>
-      <trkpt lat="43.7692325" lon="-0.0330663"></trkpt>
+      <trkpt lat="43.7691075" lon="-0.0329233"></trkpt>
+      <trkpt lat="43.7691325" lon="-0.0331279"></trkpt>
       <trkpt lat="43.7684461" lon="-0.0333272"></trkpt>
       <trkpt lat="43.7683221" lon="-0.0331923"></trkpt>
     </trkseg>
@@ -73273,6 +73326,18 @@ version="1.1" creator="togpx">
       <trkpt lat="45.1023408" lon="1.9399345"></trkpt>
       <trkpt lat="45.1024562" lon="1.9400203"></trkpt>
       <trkpt lat="45.1024998" lon="1.939968"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Rêve de la Vallée</name>
+    <trkseg>
+      <trkpt lat="45.3123534" lon="3.1864281"></trkpt>
+      <trkpt lat="45.3125633" lon="3.1865374"></trkpt>
+      <trkpt lat="45.312581" lon="3.1866929"></trkpt>
+      <trkpt lat="45.3126727" lon="3.1868484"></trkpt>
+      <trkpt lat="45.313048" lon="3.1861297"></trkpt>
+      <trkpt lat="45.3125278" lon="3.1856758"></trkpt>
+      <trkpt lat="45.3123534" lon="3.1864281"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -75020,11 +75085,15 @@ version="1.1" creator="togpx">
       <trkpt lat="44.91588" lon="0.9273362"></trkpt>
       <trkpt lat="44.9157898" lon="0.9274515"></trkpt>
       <trkpt lat="44.9155847" lon="0.9277855"></trkpt>
-      <trkpt lat="44.9155486" lon="0.9281047"></trkpt>
-      <trkpt lat="44.9156473" lon="0.9283595"></trkpt>
-      <trkpt lat="44.9159161" lon="0.928511"></trkpt>
-      <trkpt lat="44.9162143" lon="0.9285365"></trkpt>
-      <trkpt lat="44.9163644" lon="0.9282857"></trkpt>
+      <trkpt lat="44.9154471" lon="0.9278553"></trkpt>
+      <trkpt lat="44.9154195" lon="0.9280404"></trkpt>
+      <trkpt lat="44.9154356" lon="0.9282537"></trkpt>
+      <trkpt lat="44.9155" lon="0.9284324"></trkpt>
+      <trkpt lat="44.9156228" lon="0.9285961"></trkpt>
+      <trkpt lat="44.9158062" lon="0.9286812"></trkpt>
+      <trkpt lat="44.9159389" lon="0.9286568"></trkpt>
+      <trkpt lat="44.9160629" lon="0.928385"></trkpt>
+      <trkpt lat="44.9162551" lon="0.927964"></trkpt>
       <trkpt lat="44.9161972" lon="0.9277064"></trkpt>
       <trkpt lat="44.9162751" lon="0.9273429"></trkpt>
     </trkseg>
@@ -75097,6 +75166,7 @@ version="1.1" creator="togpx">
       <trkpt lat="48.6714147" lon="-3.6160764"></trkpt>
       <trkpt lat="48.6715272" lon="-3.6151832"></trkpt>
       <trkpt lat="48.6721746" lon="-3.6152154"></trkpt>
+      <trkpt lat="48.6721736" lon="-3.6152729"></trkpt>
       <trkpt lat="48.6721569" lon="-3.6162159"></trkpt>
       <trkpt lat="48.6717371" lon="-3.6159343"></trkpt>
       <trkpt lat="48.6715591" lon="-3.6164291"></trkpt>
@@ -75370,14 +75440,14 @@ version="1.1" creator="togpx">
     <name>Aire CAMPING-CAR PARK de Vézac, châteaux en
     Périgord</name>
     <trkseg>
-      <trkpt lat="44.8306145" lon="1.1500508"></trkpt>
+      <trkpt lat="44.8311241" lon="1.1500789"></trkpt>
+      <trkpt lat="44.8306081" lon="1.1500464"></trkpt>
       <trkpt lat="44.8305122" lon="1.1520597"></trkpt>
       <trkpt lat="44.8306092" lon="1.1520624"></trkpt>
       <trkpt lat="44.8312313" lon="1.1521241"></trkpt>
       <trkpt lat="44.8313073" lon="1.1501071"></trkpt>
       <trkpt lat="44.8312518" lon="1.1500591"></trkpt>
       <trkpt lat="44.8311241" lon="1.1500789"></trkpt>
-      <trkpt lat="44.8306145" lon="1.1500508"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -76791,6 +76861,7 @@ version="1.1" creator="togpx">
       <trkpt lat="44.0450763" lon="6.0375946"></trkpt>
       <trkpt lat="44.0448952" lon="6.0375747"></trkpt>
       <trkpt lat="44.0448229" lon="6.0375184"></trkpt>
+      <trkpt lat="44.0445973" lon="6.0375057"></trkpt>
       <trkpt lat="44.0444382" lon="6.0374967"></trkpt>
       <trkpt lat="44.0444179" lon="6.037735"></trkpt>
       <trkpt lat="44.0450869" lon="6.0377862"></trkpt>
@@ -77782,7 +77853,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Aire Municipale du Grand Jardin</name>
+    <name>Aire municipales Camping Car- Fayence</name>
     <trkseg>
       <trkpt lat="43.6229866" lon="6.6901541"></trkpt>
       <trkpt lat="43.622942" lon="6.6902266"></trkpt>
@@ -80996,11 +81067,11 @@ version="1.1" creator="togpx">
     <name>Aire d'accueil et de services pour camping-cars
     Vernoux-en-Vivarais</name>
     <trkseg>
-      <trkpt lat="44.9032577" lon="4.6498335"></trkpt>
-      <trkpt lat="44.9027971" lon="4.649641"></trkpt>
-      <trkpt lat="44.9027737" lon="4.6497529"></trkpt>
-      <trkpt lat="44.9032342" lon="4.6499454"></trkpt>
-      <trkpt lat="44.9032577" lon="4.6498335"></trkpt>
+      <trkpt lat="44.9032302" lon="4.6498245"></trkpt>
+      <trkpt lat="44.9028395" lon="4.6496694"></trkpt>
+      <trkpt lat="44.9028197" lon="4.649769"></trkpt>
+      <trkpt lat="44.9032104" lon="4.649924"></trkpt>
+      <trkpt lat="44.9032302" lon="4.6498245"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -81449,11 +81520,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Camping-car Park Saint-Léon sur Vézère</name>
     <trkseg>
-      <trkpt lat="45.0123857" lon="1.0895643"></trkpt>
-      <trkpt lat="45.0122046" lon="1.0895495"></trkpt>
-      <trkpt lat="45.0123165" lon="1.0903233"></trkpt>
+      <trkpt lat="45.0123943" lon="1.0895947"></trkpt>
+      <trkpt lat="45.0121154" lon="1.0896923"></trkpt>
+      <trkpt lat="45.0122488" lon="1.0903917"></trkpt>
       <trkpt lat="45.0125317" lon="1.0902227"></trkpt>
-      <trkpt lat="45.0123857" lon="1.0895643"></trkpt>
+      <trkpt lat="45.0123943" lon="1.0895947"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -82181,19 +82252,6 @@ version="1.1" creator="togpx">
       <trkpt lat="47.7974598" lon="-3.8306531"></trkpt>
       <trkpt lat="47.7974334" lon="-3.8313766"></trkpt>
       <trkpt lat="47.7973208" lon="-3.8313534"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Aire Municipale Riom</name>
-    <trkseg>
-      <trkpt lat="45.8947337" lon="3.124631"></trkpt>
-      <trkpt lat="45.8947015" lon="3.1246326"></trkpt>
-      <trkpt lat="45.8946565" lon="3.1246349"></trkpt>
-      <trkpt lat="45.8946109" lon="3.1246373"></trkpt>
-      <trkpt lat="45.8945738" lon="3.1246392"></trkpt>
-      <trkpt lat="45.8945783" lon="3.1248225"></trkpt>
-      <trkpt lat="45.8947382" lon="3.1248143"></trkpt>
-      <trkpt lat="45.8947337" lon="3.124631"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -84592,17 +84650,17 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire de camping-cars de Souillac</name>
     <trkseg>
-      <trkpt lat="44.8912009" lon="1.4760272"></trkpt>
-      <trkpt lat="44.8912985" lon="1.4759417"></trkpt>
-      <trkpt lat="44.8913981" lon="1.4758545"></trkpt>
+      <trkpt lat="44.8911962" lon="1.4760305"></trkpt>
+      <trkpt lat="44.8912327" lon="1.4760067"></trkpt>
+      <trkpt lat="44.8913076" lon="1.4759577"></trkpt>
+      <trkpt lat="44.8914049" lon="1.4758625"></trkpt>
       <trkpt lat="44.8915478" lon="1.4761657"></trkpt>
       <trkpt lat="44.8919959" lon="1.4756496"></trkpt>
       <trkpt lat="44.89188" lon="1.4752284"></trkpt>
       <trkpt lat="44.8918183" lon="1.4751492"></trkpt>
-      <trkpt lat="44.8917412" lon="1.4750924"></trkpt>
-      <trkpt lat="44.8915884" lon="1.4752198"></trkpt>
+      <trkpt lat="44.8916977" lon="1.4750547"></trkpt>
       <trkpt lat="44.8910365" lon="1.4756572"></trkpt>
-      <trkpt lat="44.8912009" lon="1.4760272"></trkpt>
+      <trkpt lat="44.8911962" lon="1.4760305"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -84676,11 +84734,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>Aire de camping-cars de l'Aumône</name>
     <trkseg>
-      <trkpt lat="48.6011306" lon="-1.7124026"></trkpt>
-      <trkpt lat="48.6013538" lon="-1.7135061"></trkpt>
-      <trkpt lat="48.6011687" lon="-1.7135917"></trkpt>
-      <trkpt lat="48.6009455" lon="-1.7124882"></trkpt>
-      <trkpt lat="48.6011306" lon="-1.7124026"></trkpt>
+      <trkpt lat="48.6011471" lon="-1.71239"></trkpt>
+      <trkpt lat="48.601377" lon="-1.7135388"></trkpt>
+      <trkpt lat="48.6011766" lon="-1.7136304"></trkpt>
+      <trkpt lat="48.6009467" lon="-1.7124817"></trkpt>
+      <trkpt lat="48.6011471" lon="-1.71239"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -84875,18 +84933,6 @@ version="1.1" creator="togpx">
       <trkpt lat="45.5254112" lon="2.1274182"></trkpt>
       <trkpt lat="45.5247535" lon="2.1274987"></trkpt>
       <trkpt lat="45.5246388" lon="2.1275295"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>Aire de camping-car de Castillon-du-Gard</name>
-    <trkseg>
-      <trkpt lat="43.9536653" lon="4.5519125"></trkpt>
-      <trkpt lat="43.9536277" lon="4.5513546"></trkpt>
-      <trkpt lat="43.9532753" lon="4.5514016"></trkpt>
-      <trkpt lat="43.9532859" lon="4.5517597"></trkpt>
-      <trkpt lat="43.9533429" lon="4.5518656"></trkpt>
-      <trkpt lat="43.9533477" lon="4.5520788"></trkpt>
-      <trkpt lat="43.9536653" lon="4.5519125"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -87227,6 +87273,141 @@ version="1.1" creator="togpx">
       <trkpt lat="48.9189042" lon="-0.4809406"></trkpt>
       <trkpt lat="48.9189302" lon="-0.4810379"></trkpt>
       <trkpt lat="48.9188246" lon="-0.4811032"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Aire de Camping Car de Toulinet</name>
+    <trkseg>
+      <trkpt lat="48.6731333" lon="-3.6169176"></trkpt>
+      <trkpt lat="48.6730579" lon="-3.6168796"></trkpt>
+      <trkpt lat="48.6721237" lon="-3.6164106"></trkpt>
+      <trkpt lat="48.6721736" lon="-3.6152729"></trkpt>
+      <trkpt lat="48.6730997" lon="-3.6154048"></trkpt>
+      <trkpt lat="48.6734398" lon="-3.615665"></trkpt>
+      <trkpt lat="48.6733034" lon="-3.6162926"></trkpt>
+      <trkpt lat="48.6731333" lon="-3.6169176"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>CampingCarPark</name>
+    <trkseg>
+      <trkpt lat="45.7672422" lon="-0.4971618"></trkpt>
+      <trkpt lat="45.766977" lon="-0.4974858"></trkpt>
+      <trkpt lat="45.7663077" lon="-0.496545"></trkpt>
+      <trkpt lat="45.7659208" lon="-0.4960932"></trkpt>
+      <trkpt lat="45.7658404" lon="-0.495978"></trkpt>
+      <trkpt lat="45.7659035" lon="-0.4958596"></trkpt>
+      <trkpt lat="45.7659295" lon="-0.4958035"></trkpt>
+      <trkpt lat="45.7659317" lon="-0.4957412"></trkpt>
+      <trkpt lat="45.7665924" lon="-0.4964017"></trkpt>
+      <trkpt lat="45.7672422" lon="-0.4971618"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1460160560</name>
+    <trkseg>
+      <trkpt lat="42.5506618" lon="2.9886407"></trkpt>
+      <trkpt lat="42.549745" lon="2.9882598"></trkpt>
+      <trkpt lat="42.5494525" lon="2.9903358"></trkpt>
+      <trkpt lat="42.5499939" lon="2.9904941"></trkpt>
+      <trkpt lat="42.5501006" lon="2.9895607"></trkpt>
+      <trkpt lat="42.5504247" lon="2.9896653"></trkpt>
+      <trkpt lat="42.5506618" lon="2.9886407"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Parking Brousse</name>
+    <trkseg>
+      <trkpt lat="42.5599934" lon="2.9721558"></trkpt>
+      <trkpt lat="42.5596734" lon="2.9726467"></trkpt>
+      <trkpt lat="42.5594126" lon="2.9726171"></trkpt>
+      <trkpt lat="42.5589048" lon="2.9740146"></trkpt>
+      <trkpt lat="42.5602483" lon="2.9744089"></trkpt>
+      <trkpt lat="42.5605012" lon="2.9737839"></trkpt>
+      <trkpt lat="42.5601594" lon="2.9734567"></trkpt>
+      <trkpt lat="42.5605683" lon="2.972593"></trkpt>
+      <trkpt lat="42.5599934" lon="2.9721558"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Aire de stationnement de Camping-car gratuit</name>
+    <trkseg>
+      <trkpt lat="43.7238355" lon="0.9810628"></trkpt>
+      <trkpt lat="43.7236953" lon="0.9807907"></trkpt>
+      <trkpt lat="43.7236618" lon="0.9807256"></trkpt>
+      <trkpt lat="43.7236436" lon="0.98069"></trkpt>
+      <trkpt lat="43.7234227" lon="0.9811821"></trkpt>
+      <trkpt lat="43.7237246" lon="0.9814318"></trkpt>
+      <trkpt lat="43.7238355" lon="0.9810628"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Aire de camping-car Mirebeau</name>
+    <trkseg>
+      <trkpt lat="46.780541" lon="0.1935723"></trkpt>
+      <trkpt lat="46.7803398" lon="0.1939572"></trkpt>
+      <trkpt lat="46.7804583" lon="0.1942644"></trkpt>
+      <trkpt lat="46.7807586" lon="0.1940189"></trkpt>
+      <trkpt lat="46.780541" lon="0.1935723"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Bruy'aire en Vosges</name>
+    <trkseg>
+      <trkpt lat="48.2162474" lon="6.7167553"></trkpt>
+      <trkpt lat="48.2160431" lon="6.7166092"></trkpt>
+      <trkpt lat="48.2158707" lon="6.7165529"></trkpt>
+      <trkpt lat="48.2156538" lon="6.7166343"></trkpt>
+      <trkpt lat="48.2156274" lon="6.7168283"></trkpt>
+      <trkpt lat="48.2156899" lon="6.7169097"></trkpt>
+      <trkpt lat="48.2160222" lon="6.7173854"></trkpt>
+      <trkpt lat="48.2161126" lon="6.7174584"></trkpt>
+      <trkpt lat="48.2162029" lon="6.7174063"></trkpt>
+      <trkpt lat="48.2162182" lon="6.7172915"></trkpt>
+      <trkpt lat="48.2161932" lon="6.7170328"></trkpt>
+      <trkpt lat="48.2162474" lon="6.7167553"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1461859265</name>
+    <trkseg>
+      <trkpt lat="44.2788531" lon="2.4347673"></trkpt>
+      <trkpt lat="44.27864" lon="2.4347441"></trkpt>
+      <trkpt lat="44.2786243" lon="2.4350241"></trkpt>
+      <trkpt lat="44.2788375" lon="2.4350474"></trkpt>
+      <trkpt lat="44.2788531" lon="2.4347673"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>Charavines</name>
+    <trkseg>
+      <trkpt lat="45.4311309" lon="5.5152162"></trkpt>
+      <trkpt lat="45.4314959" lon="5.5152728"></trkpt>
+      <trkpt lat="45.4315288" lon="5.5145694"></trkpt>
+      <trkpt lat="45.4311778" lon="5.5145218"></trkpt>
+      <trkpt lat="45.4311325" lon="5.5151924"></trkpt>
+      <trkpt lat="45.4311309" lon="5.5152162"></trkpt>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>way/1462685794</name>
+    <trkseg>
+      <trkpt lat="50.3382709" lon="1.5546523"></trkpt>
+      <trkpt lat="50.3383242" lon="1.555616"></trkpt>
+      <trkpt lat="50.3382739" lon="1.5565221"></trkpt>
+      <trkpt lat="50.3382221" lon="1.5568267"></trkpt>
+      <trkpt lat="50.3381126" lon="1.5574586"></trkpt>
+      <trkpt lat="50.3381462" lon="1.5574941"></trkpt>
+      <trkpt lat="50.3383568" lon="1.5572392"></trkpt>
+      <trkpt lat="50.3385465" lon="1.5569059"></trkpt>
+      <trkpt lat="50.3385913" lon="1.5567283"></trkpt>
+      <trkpt lat="50.3387051" lon="1.556326"></trkpt>
+      <trkpt lat="50.3387725" lon="1.555836"></trkpt>
+      <trkpt lat="50.3387788" lon="1.5557305"></trkpt>
+      <trkpt lat="50.338789" lon="1.5554194"></trkpt>
+      <trkpt lat="50.3386957" lon="1.5550613"></trkpt>
+      <trkpt lat="50.3384877" lon="1.5547595"></trkpt>
+      <trkpt lat="50.3382709" lon="1.5546523"></trkpt>
     </trkseg>
   </trk>
 </gpx>
