@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2026-01-01T23:21:38Z", "timestamp_areas_base":
-      "2026-01-01T18:32:00Z", "copyright": "The data included in
+      "2026-02-02T10:25:13Z", "timestamp_areas_base":
+      "2026-01-22T23:45:51Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -54,9 +54,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.6902391" lon="17.0754049">
     <ele>231.0</ele>
-    <name>Avia Litovel II</name>
-    <desc>amenity=fuel; brand=Avia; name=Avia Litovel II;
-    opening_hours=Mo-Fr 06:00-20:00, Sa-Su 07:00-20:00;
+    <name>Avia</name>
+    <desc>amenity=fuel; brand=Avia; brand:wikidata=Q300147;
+    name=Avia; opening_hours=Mo-Fr 06:00-20:00, Sa-Su 07:00-20:00;
     website=http://aviaczech.cz/; id=node/25752447</desc>
     <link href="http://aviaczech.cz/"></link>
   </wpt>
@@ -899,7 +899,8 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:MOL (company); fuel:adblue=yes;
     fuel:butane=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; fuel:propane=yes;
-    name=Mol; opening_hours=24/7; payment:ccs=yes;
+    level=0; name=Mol; opening_hours=24/7; operator=MOL;
+    payment:ccs=yes; self_service=partially;
     id=node/255552947</desc>
   </wpt>
   <wpt lat="50.9825058" lon="14.2977486">
@@ -1336,10 +1337,10 @@ version="1.1" creator="togpx">
     <ele>244.0</ele>
     <name>MOL, Praha 9 - Českobrodská</name>
     <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; name=MOL, Praha 9 -
-    Českobrodská; opening_hours=06:00-22:00; operator=MOL Česká
-    republika, s.r.o.; website=https://molcesko.cz/;
+    brand:wikipedia=en:MOL (company); compressed_air=yes;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes; name=MOL,
+    Praha 9 - Českobrodská; opening_hours=06:00-22:00; operator=MOL
+    Česká republika, s.r.o.; website=https://molcesko.cz/;
     id=node/270508734</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
@@ -2140,20 +2141,22 @@ version="1.1" creator="togpx">
     id=node/308967996</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
-  <wpt lat="50.3278397" lon="15.6365514">
+  <wpt lat="50.3278468" lon="15.6363853">
     <ele>274.0</ele>
-    <name>ONO - Milovice u Hořic</name>
-    <desc>amenity=fuel; brand=Tank ONO; brand:wikidata=Q2392813;
-    email=milovice@tank-ono.cz; fax=+420 493 592 377;
-    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=ONO - Milovice u
-    Hořic; opening_hours=24/7; operator=Tank ONO s.r.o.;
-    payment:cash=yes; payment:ccs=yes; payment:dkv=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:uta=yes;
-    payment:visa=yes; phone=+420 602 659 111; shop=yes;
-    toilets=yes; website=https://www.tank-ono.cz/; wifi=free;
-    id=node/309906411</desc>
-    <link href="https://www.tank-ono.cz/"></link>
+    <name>Tank Ono</name>
+    <desc>amenity=fuel; branch=Milovice u Hořic; brand=Tank Ono;
+    brand:website=https://tank-ono.cz; brand:wikidata=Q2392813;
+    cafe=yes; compressed_air=yes; email=milovice@tank-ono.cz;
+    fax=+420 493 592 377; fuel:HGV_diesel=yes; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    internet_access=wlan; internet_access:fee=customers; name=Tank
+    Ono; opening_hours=24/7; operator=Tank Ono; payment:cash=yes;
+    payment:ccs=yes; payment:dkv=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:uta=yes; payment:visa=yes;
+    phone=+420 602 659 111; toilets=yes;
+    website=https://www.tank-ono.cz/cz/index.php?page=pumpcard&amp;pump=7;
+    wheelchair=yes; id=node/309906411</desc>
+    <link href="https://tank-ono.cz"></link>
   </wpt>
   <wpt lat="49.3174688" lon="14.1323917">
     <ele>365.0</ele>
@@ -2587,19 +2590,22 @@ version="1.1" creator="togpx">
     id=node/337485082</desc>
     <link href="https://www.orlen.cz"></link>
   </wpt>
-  <wpt lat="50.1588139" lon="15.2345881">
+  <wpt lat="50.1586807" lon="15.2346652">
     <ele>215.0</ele>
-    <name>Tank Ono - ČS Kolaje u Poděbrad</name>
-    <desc>amenity=fuel; brand=Tank Ono; email=kolaje@tank-ono.cz;
-    fax=+420 325 651 072; fuel:HGV_diesel=yes; fuel:biodiesel=yes;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_91=yes;
-    fuel:octane_95=yes; name=Tank Ono - ČS Kolaje u Poděbrad;
-    opening_hours=24/7; operator=Tank ONO s.r.o.; phone=+420 325
-    651 072; shop=yes;
+    <name>Tank Ono</name>
+    <desc>amenity=fuel; branch=Kolaje; brand=Tank Ono;
+    brand:website=https://tank-ono.cz; brand:wikidata=Q2392813;
+    cafe=yes; compressed_air=yes; email=kolaje@tank-ono.cz;
+    fax=+420 325 651 072; fuel:HGV_diesel=yes; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=Tank Ono; opening_hours=24/7; operator=Tank Ono;
+    payment:american_express=yes; payment:cash=yes;
+    payment:ccs=yes; payment:dkv=yes; payment:mastercard=yes;
+    payment:uta=yes; payment:visa=yes; phone=+420 325 651 072;
+    toilets=yes;
     website=https://www.tank-ono.cz/cz/index.php?page=pumpcard&amp;pump=14;
-    id=node/338964210</desc>
-    <link href="https://www.tank-ono.cz/cz/index.php?page=pumpcard%26pump=14">
-    </link>
+    wheelchair=yes; id=node/338964210</desc>
+    <link href="https://tank-ono.cz"></link>
   </wpt>
   <wpt lat="50.0827915" lon="14.462092">
     <ele>247.0</ele>
@@ -3831,8 +3837,8 @@ version="1.1" creator="togpx">
   <wpt lat="50.3264861" lon="15.2635997">
     <ele>222.0</ele>
     <name>RoBiN OIL Kopidlno</name>
-    <desc>amenity=fuel; email=cs72@robinoil.cz; fuel:diesel=yes;
-    fuel:octane_95=yes; name=RoBiN OIL Kopidlno;
+    <desc>amenity=fuel; compressed_air=yes; email=cs72@robinoil.cz;
+    fuel:diesel=yes; fuel:octane_95=yes; name=RoBiN OIL Kopidlno;
     opening_hours=24/7; operator=RoBiN OIL s.r.o.; shop=yes;
     toilets=yes; website=http://www.robinoil.cz/;
     id=node/415384572</desc>
@@ -3965,15 +3971,13 @@ version="1.1" creator="togpx">
   <wpt lat="49.3253856" lon="17.5521514">
     <ele>217.0</ele>
     <name>Orlen</name>
-    <desc>amenity=fuel; brand=Orlen;
-    brand:facebook=https://www.facebook.com/orlencz;
+    <desc>amenity=fuel; brand=Orlen; brand:facebook=orlencz;
     brand:website=https://www.orlen.cz; brand:wikidata=Q971649;
     brand:wikipedia=cs:Orlen; compressed_air=yes; fuel:diesel=yes;
     fuel:octane_100=yes; fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
-    05:00-22:00; operator=Orlen Unipetrol RPA s.r.o. - Benzina,
-    odštěpný závod; toilets=yes; wheelchair=yes;
-    id=node/428927356</desc>
+    05:00-22:00; operator=Orlen Unipetrol RPA; toilets=yes;
+    wheelchair=yes; id=node/428927356</desc>
     <link href="https://www.orlen.cz"></link>
   </wpt>
   <wpt lat="49.6668417" lon="14.4235514">
@@ -4935,9 +4939,11 @@ version="1.1" creator="togpx">
     <ele>224.0</ele>
     <name>Prim Brno, Židenice</name>
     <desc>addr:city=Brno; addr:street=Rokytova; amenity=fuel;
-    fuel:diesel=yes; fuel:octane_95=yes; name=Prim Brno, Židenice;
-    opening_hours=06:00-22:00; operator=PETRA s.r.o.;
-    payment:cards=yes; payment:cash=yes; self_service=no;
+    fuel:diesel=yes; fuel:octane_95=yes;
+    image=http://www.csprim.cz/img/cs-brnorokytova-detail.jpg;
+    name=Prim Brno, Židenice; opening_hours=06:00-22:00;
+    operator=PETRA s.r.o.; payment:cards=yes; payment:cash=yes;
+    ref:vatin=CZ26496178; self_service=no;
     website=http://www.csprim.cz/cs-prim-brno-rokytova.html;
     id=node/579743467</desc>
     <link href="http://www.csprim.cz/cs-prim-brno-rokytova.html">
@@ -5334,9 +5340,9 @@ version="1.1" creator="togpx">
     <ele>258.0</ele>
     <name>OMV</name>
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; name=OMV; opening_hours=24/7;
-    operator=OMV Česká republika, s.r.o.; phone=+420281971711;
-    id=node/668643617</desc>
+    brand:wikipedia=en:OMV; compressed_air=yes; name=OMV;
+    opening_hours=24/7; operator=OMV Česká republika, s.r.o.;
+    phone=+420281971711; id=node/668643617</desc>
   </wpt>
   <wpt lat="49.8077018" lon="18.3402102">
     <ele>251.0</ele>
@@ -5357,9 +5363,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Velký Týnec; addr:housenumber=90;
     addr:postcode=78372; addr:street=Olomoucká; amenity=fuel;
     brand=Avia; brand:wikidata=Q300147; brand:wikipedia=de:Avia
-    International; fuel:diesel=yes; fuel:octane_95=yes; name=Avia
-    Olomouc, Olympia; opening_hours=07:00-21:00;
-    website=http://aviaczech.cz/; id=node/672492288</desc>
+    International; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Avia Olomouc, Olympia;
+    opening_hours=07:00-21:00; website=http://aviaczech.cz/;
+    id=node/672492288</desc>
     <link href="http://aviaczech.cz/"></link>
   </wpt>
   <wpt lat="49.3994327" lon="14.6411488">
@@ -5456,19 +5463,21 @@ version="1.1" creator="togpx">
     <name>node/690868528</name>
     <desc>amenity=fuel; brand=regent OIL; id=node/690868528</desc>
   </wpt>
-  <wpt lat="50.1728419" lon="13.7413121">
+  <wpt lat="50.172761" lon="13.7410718">
     <ele>381.0</ele>
-    <name>Tank Ono - ČS Krupá u Rakovníka</name>
-    <desc>amenity=fuel; brand=Tank Ono; email=krupa@tank-ono.cz;
-    fax=+420 602 742 661; fuel:HGV_diesel=yes; fuel:diesel=yes;
-    fuel:octane_91=yes; fuel:octane_95=yes; name=Tank Ono - ČS
-    Krupá u Rakovníka; opening_hours=24/7; operator=Tank ONO
-    s.r.o.; payment:cards=yes; payment:cash=yes;
-    payment:contactless=yes; phone=+420 313 575 259; shop=yes;
-    website=https://tank-ono.cz/; wheelchair=yes;
-    wikidata=Q2392813; wikipedia=cs:Tank ONO;
+    <name>Tank Ono</name>
+    <desc>amenity=fuel; branch=Krupá u Rakovníka; brand=Tank Ono;
+    brand:website=https://tank-ono.cz; brand:wikidata=Q2392813;
+    brand:wikipedia=cs:Tank ONO; compressed_air=yes;
+    email=krupa@tank-ono.cz; fax=+420 602 742 661;
+    fuel:HGV_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Tank Ono; opening_hours=24/7;
+    operator=Tank Ono; payment:american_express=yes;
+    payment:cash=yes; payment:ccs=yes; payment:dkv=yes;
+    payment:mastercard=yes; payment:uta=yes; payment:visa=yes;
+    phone=+420 313 575 259; toilets=yes; wheelchair=yes;
     id=node/693138582</desc>
-    <link href="https://tank-ono.cz/"></link>
+    <link href="https://tank-ono.cz"></link>
   </wpt>
   <wpt lat="49.9931376" lon="17.8129463">
     <ele>277.0</ele>
@@ -5953,8 +5962,7 @@ version="1.1" creator="togpx">
     addr:housenumber=11; addr:place=Loučná nad Desnou;
     addr:postcode=78811; amenity=fuel; brand=Avia; name=Avia Loučná
     nad Desnou; opening_hours=24/7; operator=Energotis;
-    ref:ruian:addr=8026980; website=http://aviaczech.cz/;
-    id=node/842376916</desc>
+    website=http://aviaczech.cz/; id=node/842376916</desc>
     <link href="http://aviaczech.cz/"></link>
   </wpt>
   <wpt lat="50.7752615" lon="14.7709552">
@@ -8463,7 +8471,7 @@ version="1.1" creator="togpx">
     id=node/1729295764</desc>
     <link href="https://www.orlen.cz"></link>
   </wpt>
-  <wpt lat="48.7964294" lon="16.9629726">
+  <wpt lat="48.7965617" lon="16.9631069">
     <ele>174.0</ele>
     <name>Eurobit</name>
     <desc>amenity=fuel; compressed_air=yes; fuel:adblue=yes;
@@ -8880,12 +8888,18 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; opening_hours=Mo-Su 05:00-21:00; shop=yes;
     id=node/1826096429</desc>
   </wpt>
-  <wpt lat="49.5924179" lon="18.0136493">
+  <wpt lat="49.5923975" lon="18.013656">
     <ele>286.0</ele>
     <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q154950;
-    brand:wikipedia=en:Royal Dutch Shell; name=Shell;
-    id=node/1828967601</desc>
+    <desc>amenity=fuel; branch=Nový Jičín, Karla Kryla;
+    brand=Shell; brand:facebook=ShellCeskaRepublika;
+    brand:website=https://www.shell.cz/; brand:wikidata=Q110716465;
+    compressed_air=yes; fuel:GTL_diesel=yes; fuel:adblue=yes;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=Shell; opening_hours=Mo-Su
+    05:00-22:00; operator=Shell Czech Republic; toilets=yes;
+    wheelchair=yes; id=node/1828967601</desc>
+    <link href="https://www.shell.cz/"></link>
   </wpt>
   <wpt lat="49.8661826" lon="18.4227968">
     <ele>262.0</ele>
@@ -8995,16 +9009,19 @@ version="1.1" creator="togpx">
     payment:cash=yes; payment:credit_cards=yes; self_service=no;
     id=node/1857338179</desc>
   </wpt>
-  <wpt lat="49.9473019" lon="15.2549897">
-    <ele>301.0</ele>
-    <name>Benzina</name>
-    <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; check_date=2024-02-23;
-    compressed_air=yes; fuel:adblue:canister=yes; fuel:cng=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    internet_access=wlan; internet_access:fee=no; name=Benzina;
-    opening_hours=05:00-22:00; operator=Unipetrol RPA, s.r.o. –
-    Benzina; wheelchair=yes; id=node/1857567723</desc>
+  <wpt lat="49.9472247" lon="15.255099">
+    <ele>298.0</ele>
+    <name>Orlen</name>
+    <desc>amenity=fuel; branch=Kutná Hora, Kouřimská; brand=Orlen;
+    brand:facebook=orlencz; brand:website=https://www.orlen.cz;
+    brand:wikidata=Q971649; brand:wikipedia=cs:Orlen;
+    check_date=2026-01-27; compressed_air=yes; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; fuel:adblue:canister=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
+    05:00-22:00; operator=Orlen Unipetrol RPA; toilets=yes;
+    wheelchair=yes; id=node/1857567723</desc>
+    <link href="https://www.orlen.cz"></link>
   </wpt>
   <wpt lat="49.6029945" lon="18.2558632">
     <ele>350.0</ele>
@@ -9058,11 +9075,12 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
     opening_hours=24/7; self_service=yes; id=node/1883205199</desc>
   </wpt>
-  <wpt lat="49.5836626" lon="18.1313283">
+  <wpt lat="49.5837233" lon="18.1313554">
     <ele>362.0</ele>
-    <name>Foto Moravia</name>
-    <desc>amenity=fuel; brand=Foto Moravia; compressed_air=yes;
-    name=Foto Moravia; source=survey; id=node/1887343747</desc>
+    <name>Foto Morava</name>
+    <desc>amenity=fuel; brand=Foto Morava; compressed_air=yes;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes; name=Foto
+    Morava; source=survey; id=node/1887343747</desc>
   </wpt>
   <wpt lat="49.5130051" lon="16.2468291">
     <ele>570.0</ele>
@@ -9254,7 +9272,7 @@ version="1.1" creator="togpx">
   <wpt lat="50.7471136" lon="15.0349586">
     <ele>419.0</ele>
     <name>ASB Liberec</name>
-    <desc>amenity=fuel;
+    <desc>amenity=fuel; compressed_air=no;
     contact:website=http://www.asb-bartos.cz/cerpaci-stanice.html;
     name=ASB Liberec; opening_hours=Mo-Sa 05:00-22:00, Su
     06:00-22:00; id=node/1984778853</desc>
@@ -10072,7 +10090,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.543982" lon="17.3261738">
     <ele>219.0</ele>
     <name>PRIM</name>
-    <desc>amenity=fuel; name=PRIM; id=node/2225017254</desc>
+    <desc>amenity=fuel; brand=Prim; brand:wikidata=Q58218055;
+    name=PRIM; id=node/2225017254</desc>
   </wpt>
   <wpt lat="49.4071608" lon="17.6794901">
     <ele>332.0</ele>
@@ -10541,15 +10560,15 @@ version="1.1" creator="togpx">
     08:00-18:00; ref:ruian:addr=27426254; source:addr=cuzk:ruian;
     wheelchair=yes; id=node/2347130290</desc>
   </wpt>
-  <wpt lat="48.8695792" lon="17.0066021">
+  <wpt lat="48.8696761" lon="17.0065054">
     <ele>235.0</ele>
-    <name>U sv. Huberta, s r.o.</name>
+    <name>U sv. Huberta</name>
     <desc>addr:conscriptionnumber=968; addr:country=CZ;
     addr:housenumber=968; addr:place=Dolní Bojanovice;
     addr:postcode=69617; addr:street=Hlavní; amenity=fuel;
-    fuel:diesel=yes; fuel:octane_95=yes; name=U sv. Huberta, s
-    r.o.; ref:ruian:addr=27450724; id=node/2351523307; ;
-    type=multipolygon; id=relation/18913795</desc>
+    fuel:diesel=yes; fuel:octane_95=yes; name=U sv. Huberta;
+    ref:ruian:addr=27450724; id=node/2351523307; ;
+    id=way/373910400</desc>
   </wpt>
   <wpt lat="49.8274695" lon="18.1737341">
     <ele>242.0</ele>
@@ -11226,8 +11245,8 @@ version="1.1" creator="togpx">
     addr:postcode=74221; addr:street=Obránců míru;
     addr:streetnumber=53a; amenity=fuel; brand=OMV;
     brand:wikidata=Q168238; brand:wikipedia=en:OMV;
-    fuel:diesel=yes; fuel:octane_95=yes; name=OMV;
-    opening_hours=Mo-Su 05:00-23:00; operator=OMV;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=OMV; opening_hours=Mo-Su 05:00-23:00; operator=OMV;
     payment:cash=yes; payment:mastercard=yes; payment:routex=yes;
     payment:uta=yes; payment:visa=yes; payment:visa_debit=yes;
     phone=+420556811405; id=node/2450823422</desc>
@@ -11574,14 +11593,12 @@ version="1.1" creator="togpx">
   <wpt lat="49.5725462" lon="17.2991828">
     <ele>218.0</ele>
     <name>Orlen</name>
-    <desc>amenity=fuel; brand=Orlen express;
-    brand:wikidata=Q971649; compressed_air=yes;
-    contact:facebook=https://www.facebook.com/orlencz;
-    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; internet_access=wlan;
+    <desc>amenity=fuel; brand=Orlen; brand:facebook=orlencz;
+    brand:website=https://www.orlen.cz/; brand:wikidata=Q971649;
+    compressed_air=yes; fuel:GTL_diesel=yes; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
-    05:00-22:00; operator=Orlen Unipetrol RPA s.r.o. - Benzina,
-    odštěpný závod; toilets=yes; website=https://www.orlen.cz/;
+    05:00-22:00; operator=Orlen Unipetrol RPA; toilets=yes;
     wheelchair=yes; id=node/2611468338</desc>
     <link href="https://www.orlen.cz/"></link>
   </wpt>
@@ -12736,7 +12753,10 @@ version="1.1" creator="togpx">
     brand:wikipedia=cs:MOL (holding); fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=MOL, Kopřivnice;
     opening_hours=05:00-22:00; operator=MOL Česká republika,
-    s.r.o.; website=https://molcesko.cz/; id=node/3203290853</desc>
+    s.r.o.; website=https://molcesko.cz/; id=node/3203290853; ;
+    building=yes; building:levels=2; building:ruian:type=19;
+    ref:ruian:building=8414190; source=cuzk:ruian;
+    id=way/32762113</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
   <wpt lat="50.2230416" lon="16.2860327">
@@ -12911,16 +12931,21 @@ version="1.1" creator="togpx">
     id=node/3261367414</desc>
     <link href="https://tank-ono.cz/"></link>
   </wpt>
-  <wpt lat="49.3571941" lon="14.2902058">
+  <wpt lat="49.3571745" lon="14.290189">
     <ele>413.0</ele>
-    <name>Tank Ono - ČS Podolí u Písku</name>
-    <desc>amenity=fuel; brand=Tank Ono; email=podoli@tank-ono.cz;
-    fax=+420 382 587 230; fuel:HGV_diesel=yes; fuel:biodiesel=yes;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes; name=Tank
-    Ono - ČS Podolí u Písku; opening_hours=24/7; operator=Tank ONO
-    s.r.o.; phone=+420 724 011 526; shop=yes;
-    website=https://tank-ono.cz/; id=node/3261434338</desc>
-    <link href="https://tank-ono.cz/"></link>
+    <name>Tank Ono</name>
+    <desc>amenity=fuel; branch=Podolí u Písku; brand=Tank Ono;
+    brand:website=https://tank-ono.cz; brand:wikidata=Q2392813;
+    compressed_air=yes; email=podoli@tank-ono.cz; fax=+420 382 587
+    230; fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:e85=yes;
+    fuel:octane_95=yes; name=Tank Ono; opening_hours=24/7;
+    operator=Tank Ono; payment:american_express=yes;
+    payment:cash=yes; payment:ccs=yes; payment:dkv=yes;
+    payment:mastercard=yes; payment:uta=yes; payment:visa=yes;
+    phone=+420 724 011 526; shower=yes; toilets=yes;
+    website=https://www.tank-ono.cz/cz/index.php?page=pumpcard&amp;pump=25;
+    wheelchair=yes; id=node/3261434338</desc>
+    <link href="https://tank-ono.cz"></link>
   </wpt>
   <wpt lat="49.6924495" lon="18.1272299">
     <ele>244.0</ele>
@@ -13167,13 +13192,12 @@ version="1.1" creator="togpx">
     <ele>451.0</ele>
     <name>Orlen</name>
     <desc>amenity=fuel; branch=Moravské Budějovice, Pražská;
-    brand=Orlen; brand:wikidata=Q971649; compressed_air=yes;
-    contact:facebook=https://www.facebook.com/orlencz;
-    fuel:GTL_diesel=yes; fuel:adblue:canister=yes; fuel:diesel=yes;
+    brand=Orlen; brand:facebook=orlencz;
+    brand:website=https://www.orlen.cz/; brand:wikidata=Q971649;
+    compressed_air=yes; fuel:adblue:canister=yes; fuel:diesel=yes;
     fuel:octane_100=yes; fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
-    05:00-23:00; operator=Orlen Unipetrol RPA s.r.o. - Benzina,
-    odštěpný závod; toilets=yes; website=https://www.orlen.cz/;
+    05:00-23:00; operator=Orlen Unipetrol RPA; toilets=yes;
     wheelchair=yes; id=node/3384974142</desc>
     <link href="https://www.orlen.cz/"></link>
   </wpt>
@@ -13622,13 +13646,13 @@ version="1.1" creator="togpx">
     294; website=https://www.polari.cz; id=node/3650705307</desc>
     <link href="https://www.polari.cz"></link>
   </wpt>
-  <wpt lat="50.0658731" lon="14.5488627">
-    <ele>263.0</ele>
-    <name>http://www.db9.cz/cze/</name>
+  <wpt lat="50.0658331" lon="14.5489282">
+    <ele>262.0</ele>
+    <name>DB9</name>
     <desc>amenity=fuel; brand=DB9; check_date=2024-10-20;
     email=db9-oil@centrum.cz; fuel:diesel=yes; fuel:octane_91=yes;
-    fuel:octane_95=yes; opening_hours=Mo-Fr 06:00-21:00, Sa,Su
-    08:00-20:00; phone=+420 775 111 119;
+    fuel:octane_95=yes; name=DB9; opening_hours=Mo-Fr 06:00-21:00,
+    Sa,Su 08:00-20:00; phone=+420 775 111 119;
     website=http://www.db9.cz/cze/; id=node/3653308940</desc>
     <link href="http://www.db9.cz/cze/"></link>
   </wpt>
@@ -13784,15 +13808,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="48.8560497" lon="16.4878038">
     <ele>185.0</ele>
-    <name>AS Drnholec</name>
-    <desc>addr:city=Drnholec; addr:housenumber=560;
-    addr:postcode=69183; addr:street=náměstí Svobody; amenity=fuel;
-    email=cs.drnholec@a-s.cz; fuel:HGV_diesel=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; internet_access=wlan;
-    internet_access:fee=no; name=AS Drnholec; opening_hours=Apr-Sep
-    Mo-Fr 06:00-21:00, Apr-Sep PH,Sa,Su 07:00-21:00, Oct-Mar Mo-Fr
-    06:00-20:00, Oct-Mar PH,Sa,Su 07:00-20:00; operator=Zaris
-    s.r.o.; website=https://www.zaris.cz/drnholec;
+    <name>Zaris</name>
+    <desc>amenity=fuel; branch=Drnholec; email=cs.drnholec@a-s.cz;
+    fuel:diesel=yes; fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Zaris; opening_hours=Mo-Fr
+    06:00-20:00, Sa,Su,PH 07:00-20:00; operator=Zaris;
+    website=https://www.zaris.cz/drnholec;
     id=node/3736767453</desc>
     <link href="https://www.zaris.cz/drnholec"></link>
   </wpt>
@@ -14698,12 +14719,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="49.746426" lon="13.4414434">
     <ele>395.0</ele>
-    <name>Benzina plus Plzeň, Rokycanská</name>
-    <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
-    brand:wikipedia=cs:Benzina; fuel:diesel=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; name=Benzina plus
-    Plzeň, Rokycanská; opening_hours=24/7; operator=Benzina,
-    s.r.o.; id=node/3883948448</desc>
+    <name>Orlen Plzeň, Rokycanská</name>
+    <desc>amenity=fuel; brand=Orlen; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    name=Orlen Plzeň, Rokycanská; opening_hours=24/7;
+    operator=ORLEN UNIPETROL RPA, s.r.o.; payment:cards=yes;
+    id=node/3883948448</desc>
   </wpt>
   <wpt lat="49.1388944" lon="13.2280124">
     <ele>756.0</ele>
@@ -14954,15 +14975,13 @@ version="1.1" creator="togpx">
   <wpt lat="48.744237" lon="16.7687376">
     <ele>223.0</ele>
     <name>Orlen</name>
-    <desc>amenity=fuel; brand=Orlen; brand:wikidata=Q971649;
-    compressed_air=yes;
-    contact:facebook=https://www.facebook.com/orlencz;
-    fuel:GTL_diesel=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    <desc>amenity=fuel; branch=Valtice; brand=Orlen;
+    brand:website=https://www.orlen.cz/; brand:wikidata=Q971649;
+    compressed_air=yes; contact:facebook=orlencz;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
     internet_access=wlan; internet_access:fee=no; name=Orlen;
-    opening_hours=Mo-Su 05:00-21:00; operator=Orlen Unipetrol RPA
-    s.r.o. - Benzina, odštěpný závod;
-    website=https://www.orlen.cz/; wheelchair=yes;
-    id=node/3971726658</desc>
+    opening_hours=Mo-Su 05:00-21:00; operator=Orlen Unipetrol RPA;
+    wheelchair=yes; id=node/3971726658</desc>
     <link href="https://www.orlen.cz/"></link>
   </wpt>
   <wpt lat="49.0545775" lon="16.6649226">
@@ -15024,14 +15043,19 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; check_date=2023-06-08; wheelchair=yes;
     id=node/3991105007</desc>
   </wpt>
-  <wpt lat="48.9875786" lon="14.4973496">
+  <wpt lat="48.9875804" lon="14.4973751">
     <ele>398.0</ele>
     <name>Lašek</name>
-    <desc>amenity=fuel; fuel:adblue=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Lašek; opening_hours=Mo-Su
-    06:30-19:00, Sa 08:00-12:00 || "tankomat"; operator=Lašek
-    s.r.o.; vending=fuel; vending_machine=yes;
+    <desc>amenity=fuel; cafe=yes; fuel:HGV_diesel=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Lašek; opening_hours=Mo-Fr 06:30-19:00 open "s obsluhou"
+    || Mo-Su 00:00-24:00 open "tankomat"; operator=Lašek;
+    payment:cash=yes; payment:css=yes; payment:eurowag=yes;
+    payment:jcb=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:mastercard_electronic=yes; payment:visa=yes;
+    website=https://www.lasek.cz/cerpaci-stanice/; wheelchair=yes;
     id=node/3991105008</desc>
+    <link href="https://www.lasek.cz/cerpaci-stanice/"></link>
   </wpt>
   <wpt lat="49.0230197" lon="16.2503174">
     <ele>268.0</ele>
@@ -15154,8 +15178,8 @@ version="1.1" creator="togpx">
     <name>Tank Ono - ČS&#160;Brno-Hviezdoslavova</name>
     <desc>amenity=fuel; brand=ONO; compressed_air=yes;
     fuel:diesel=yes; fuel:octane_95=yes; name=Tank Ono -
-    ČS&#160;Brno-Hviezdoslavova; operator=Tank ONO s.r.o.;
-    id=node/4237654657</desc>
+    ČS&#160;Brno-Hviezdoslavova; opening_hours=24/7; operator=Tank
+    ONO s.r.o.; id=node/4237654657</desc>
   </wpt>
   <wpt lat="49.4990855" lon="18.7635219">
     <ele>478.0</ele>
@@ -15390,8 +15414,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.7089999" lon="14.3942048">
     <ele>248.0</ele>
-    <name>node/4450746985</name>
-    <desc>amenity=fuel; id=node/4450746985</desc>
+    <name>PRIM</name>
+    <desc>amenity=fuel; compressed_air=yes; name=PRIM;
+    id=node/4450746985</desc>
   </wpt>
   <wpt lat="49.4822806" lon="17.2836945">
     <ele>203.0</ele>
@@ -15621,15 +15646,23 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
     name=DAJPP; phone=+420 553 652 011; id=node/4769904522</desc>
   </wpt>
-  <wpt lat="49.8660224" lon="17.8783688">
-    <ele>288.0</ele>
-    <name>MOL Hradec n. Moravicí</name>
-    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=cs:MOL (holding); fuel:diesel=yes;
-    fuel:octane_95=yes; name=MOL Hradec n. Moravicí;
-    opening_hours=05:00-20:00; operator=MOL Česká republika,
-    s.r.o.; website=https://molcesko.cz/; id=node/4799697997</desc>
-    <link href="https://molcesko.cz/"></link>
+  <wpt lat="49.8659192" lon="17.8783227">
+    <ele>289.0</ele>
+    <name>MOL</name>
+    <desc>amenity=fuel; branch=Hradec nad Moravicí; brand=MOL;
+    brand:facebook=molcesko; brand:instagram=mol_cesko;
+    brand:website=https://molcesko.cz/cz; brand:wikidata=Q549181;
+    brand:wikipedia=cs:MOL (holding); compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=MOL; opening_hours=Mo-Fr
+    05:00-22:00, Sa,Su 07:00-22:00; operator=MOL Česká republika;
+    payment:american_express=yes; payment:cash=yes;
+    payment:ccs=yes; payment:dkv=yes; payment:e100=yes;
+    payment:eurooil=yes; payment:ina=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:mol=yes; payment:slovnaft=yes;
+    payment:uta=yes; payment:v_pay=yes; payment:visa=yes;
+    toilets=yes; wheelchair=yes; id=node/4799697997</desc>
+    <link href="https://molcesko.cz/cz"></link>
   </wpt>
   <wpt lat="49.813728" lon="16.1066584">
     <ele>478.0</ele>
@@ -15954,8 +15987,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="50.0754884" lon="14.5316952">
     <ele>258.0</ele>
-    <name>node/4952394800</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
+    <name>CS Point</name>
+    <desc>amenity=fuel; compressed_air=no; fuel:diesel=yes;
+    fuel:octane_95=yes; name=CS Point; opening_hours=24/7;
     id=node/4952394800</desc>
   </wpt>
   <wpt lat="49.0562859" lon="17.4671121">
@@ -16210,12 +16244,19 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; name=LIEL CZ, s.r.o.; opening_hours=Mo-Su
     06:00-22:00; id=node/5387801291</desc>
   </wpt>
-  <wpt lat="49.2976969" lon="16.5437025">
+  <wpt lat="49.2977994" lon="16.543788">
     <ele>288.0</ele>
-    <name>Hungass</name>
-    <desc>amenity=fuel; brand=Hungass; fuel:lpg=yes;
-    fuel:octane_95=no; name=Hungass; payment=Cash, card;
-    id=node/5393817742</desc>
+    <name>Hunsgas</name>
+    <desc>amenity=fuel; brand=Hunsgas;
+    brand:website=https://www.hunsgas.cz; brand:wikidata=Q52857373;
+    email=hunsgas@hunsgas.cz; fuel:diesel=no; fuel:lpg=yes;
+    fuel:octane_95=no; internet_access=wlan;
+    internet_access:fee=customers; name=Hunsgas;
+    opening_hours=Mo-Fr 06:00-20:00, Sa,Su 08:00-18:00;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; self_service=yes; toilets=no;
+    wheelchair=yes; id=node/5393817742</desc>
+    <link href="https://www.hunsgas.cz"></link>
   </wpt>
   <wpt lat="50.2332365" lon="15.2139305">
     <ele>201.0</ele>
@@ -16295,15 +16336,17 @@ version="1.1" creator="togpx">
     shop=gas; id=node/5422665574</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
-  <wpt lat="49.6384205" lon="16.7132639">
+  <wpt lat="49.6384153" lon="16.7132374">
     <ele>351.0</ele>
-    <name>EuroOil Jevíčko, Třebovská</name>
-    <desc>amenity=fuel; brand=EuroOil;
-    contact:website=https://www.ceproas.cz/eurooil;
-    fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
-    internet_access=wlan; internet_access:fee=no; name=EuroOil
-    Jevíčko, Třebovská; opening_hours=Mo-Su 06:00-19:00;
-    operator=Čepro, a.s.; ref=317; self_service=no; shop=gas;
+    <name>EuroOil</name>
+    <desc>amenity=fuel; branch=Jevíčko, Třebovská; brand=EuroOil;
+    brand:facebook=EuroOil; brand:instagram=eurooilcz;
+    brand:website=https://www.ceproas.cz/eurooil;
+    brand:wikidata=Q110219457; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=EuroOil;
+    opening_hours=Mo-Su 06:00-19:00; operator=Čepro; ref=317;
+    self_service=no; shop=gas; toilets=yes; wheelchair=yes;
     id=node/5422665575</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
@@ -16514,16 +16557,18 @@ version="1.1" creator="togpx">
     shop=gas; id=node/5599873925</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
-  <wpt lat="49.3195417" lon="17.4606111">
+  <wpt lat="49.319528" lon="17.4605831">
     <ele>191.0</ele>
-    <name>EuroOil Hulín</name>
-    <desc>amenity=fuel; brand=EuroOil; brand:wikidata=Q110219457;
-    contact:website=https://www.ceproas.cz/eurooil;
-    fuel:biodiesel=yes; fuel:diesel=yes; fuel:e85=yes;
+    <name>EuroOil</name>
+    <desc>amenity=fuel; branch=Hulín; brand=EuroOil;
+    brand:facebook=EuroOil; brand:instagram=eurooilcz;
+    brand:website=https://www.ceproas.cz/eurooil;
+    brand:wikidata=Q110219457; fuel:diesel=yes; fuel:e85=yes;
     fuel:lpg=yes; fuel:octane_95=yes; internet_access=wlan;
-    internet_access:fee=no; name=EuroOil Hulín; opening_hours=Mo-Su
-    06:00-20:00; operator=Čepro, a.s.; ref=414; shop=gas;
-    id=node/5599873926</desc>
+    internet_access:fee=customers; name=EuroOil;
+    opening_hours=Mo-Su 06:00-20:00; operator=Čepro;
+    operator:wikidata=Q11171518; ref=414; shop=gas; toilets=yes;
+    wheelchair=yes; id=node/5599873926</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
   <wpt lat="49.3622451" lon="17.3764981">
@@ -17217,7 +17262,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.3012184" lon="13.4433341">
     <ele>535.0</ele>
     <name>EuroOil Kolinec</name>
-    <desc>amenity=fuel; brand=EuroOil;
+    <desc>addr:city=Kolinec; addr:postcode=34142; amenity=fuel;
+    brand=EuroOil; brand:wikidata=Q110219457;
+    check_date=2026-01-21;
     contact:website=https://www.ceproas.cz/eurooil;
     fuel:diesel=yes; fuel:e85=yes; fuel:octane_95=yes;
     internet_access=wlan; internet_access:fee=no; name=EuroOil
@@ -17348,15 +17395,18 @@ version="1.1" creator="togpx">
     a.s.; ref=213; shop=gas; id=node/5614197757</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
-  <wpt lat="50.142551" lon="14.6937058">
+  <wpt lat="50.1425539" lon="14.6937816">
     <ele>245.0</ele>
-    <name>EuroOil Mstětice</name>
-    <desc>amenity=fuel; brand=EuroOil; brand:wikidata=Q110219457;
-    contact:website=https://www.ceproas.cz/eurooil;
-    fuel:diesel=yes; fuel:octane_95=yes; name=EuroOil Mstětice;
-    opening_hours=Mo-Su 06:00-20:00; operator=Čepro, a.s.;
-    operator:wikidata=Q11171518; ref=51; shop=gas;
-    id=node/5614197758</desc>
+    <name>EuroOil</name>
+    <desc>amenity=fuel; branch=Mstětice; brand=EuroOil;
+    brand:facebook=EuroOil; brand:instagram=eurooilcz;
+    brand:website=https://www.ceproas.cz/eurooil;
+    brand:wikidata=Q110219457; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=EuroOil;
+    opening_hours=Mo-Su 06:00-20:00; operator=Čepro;
+    operator:wikidata=Q11171518; ref=51; toilets=yes;
+    wheelchair=yes; id=node/5614197758</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
   <wpt lat="50.2841968" lon="14.8303773">
@@ -18190,9 +18240,8 @@ version="1.1" creator="togpx">
     <ele>477.0</ele>
     <name>Orlen</name>
     <desc>amenity=fuel; branch=Dačice, Hradecká; brand=Orlen;
-    brand:facebook=https://www.facebook.com/orlencz;
-    brand:website=https://www.orlen.cz; brand:wikidata=Q971649;
-    compressed_air=yes; fuel:GTL_diesel=yes;
+    brand:facebook=orlencz; brand:website=https://www.orlen.cz;
+    brand:wikidata=Q971649; compressed_air=yes;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
@@ -18375,7 +18424,8 @@ version="1.1" creator="togpx">
     <desc>addr:city=Bruntál; addr:housenumber=24;
     addr:postcode=79201; addr:street=Olomoucká; amenity=fuel;
     brand=MOL; brand:wikidata=Q549181; brand:wikipedia=en:MOL
-    (company); name=MOL; id=node/6545902986</desc>
+    (company); compressed_air=yes; name=MOL;
+    id=node/6545902986</desc>
   </wpt>
   <wpt lat="49.8973938" lon="18.3600134">
     <ele>198.0</ele>
@@ -18722,15 +18772,17 @@ version="1.1" creator="togpx">
     website=https://www.benzina.cz/; id=node/6949440999</desc>
     <link href="https://www.benzina.cz/"></link>
   </wpt>
-  <wpt lat="48.8226453" lon="14.3355576">
+  <wpt lat="48.8226377" lon="14.3355508">
     <ele>530.0</ele>
-    <name>http://www.gasped.cz</name>
+    <name>Gasped</name>
     <desc>addr:city=Český Krumlov; addr:housenumber=301;
     addr:postcode=38101; addr:street=Domoradická; amenity=fuel;
-    brand=GASPED; email=gasped@gasped.cz; fax=+420 380 713 099;
-    operator=GASPED spol. s r.o.; phone=+420 380 713 317;
-    self_service=no; website=http://www.gasped.cz;
-    id=node/6967520720; ; fuel:lpg=yes; id=way/818018109</desc>
+    brand=Gasped; description=PHM OMV; email=gasped@gasped.cz;
+    fax=+420 380 713 099; fuel:adblue=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Gasped; opening_hours=Mo-Fr
+    06:00-20:00, Sa 07:00-19:00, Su off; operator=GASPED spol. s
+    r.o.; phone=+420 380 713 317; self_service=no;
+    website=http://www.gasped.cz; id=node/6967520720</desc>
     <link href="http://www.gasped.cz"></link>
   </wpt>
   <wpt lat="50.7317034" lon="15.1619156">
@@ -18778,18 +18830,19 @@ version="1.1" creator="togpx">
     s.r.o.; website=https://molcesko.cz/; id=node/6988061027</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
-  <wpt lat="48.8175858" lon="14.3060952">
-    <ele>507.0</ele>
-    <name>RAMVEJ BUS</name>
-    <desc>amenity=fuel; fuel:cng=yes; name=RAMVEJ BUS; phone=+420
-    380 711 781; id=node/7028331182</desc>
-  </wpt>
-  <wpt lat="48.8180342" lon="14.3050989">
+  <wpt lat="48.8180289" lon="14.3051036">
     <ele>509.0</ele>
-    <name>node/7028331183</name>
-    <desc>amenity=fuel; fuel:cng=yes; opening_hours=24/7;
-    phone=+420 733 670 161; self_service=yes;
-    id=node/7028331183</desc>
+    <name>Ramwejbus</name>
+    <desc>amenity=fuel; brand=Ramwejbus; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Ramwejbus;
+    opening_hours=Mo-Fr 08:00-16:00;
+    opening_hours:self_service=24/7; operator=Ramvej Bus;
+    payment:cash=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:visa=yes; phone=+420 733 670 161;
+    website=https://www.ramvejbus.cz/s-3/cerpaci-stanice-ramvejbus/;
+    wheelchair=yes; id=node/7028331183</desc>
+    <link href="https://www.ramvejbus.cz/s-3/cerpaci-stanice-ramvejbus/">
+    </link>
   </wpt>
   <wpt lat="48.8249795" lon="14.3355949">
     <ele>539.0</ele>
@@ -19068,10 +19121,10 @@ version="1.1" creator="togpx">
     <ele>378.0</ele>
     <name>KM-Prona, Liberec, Vratislavická</name>
     <desc>amenity=fuel; brand=KM-Prona; brand:wikidata=Q92342984;
-    email=liberec@km-prona.cz; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; internet_access=wlan; name=KM-Prona,
-    Liberec, Vratislavická; opening_hours=24/7; operator=KM -
-    PRONA, a.s.; phone=+420 482 310 089; shop=kiosk;
+    compressed_air=yes; email=liberec@km-prona.cz; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; internet_access=wlan;
+    name=KM-Prona, Liberec, Vratislavická; opening_hours=24/7;
+    operator=KM - PRONA, a.s.; phone=+420 482 310 089; shop=kiosk;
     website=https://km-prona.cz/cerpaci-stanice/seznam-stanic/36-liberec;
     id=node/7500318517</desc>
     <link href="https://km-prona.cz/cerpaci-stanice/seznam-stanic/36-liberec">
@@ -20275,8 +20328,7 @@ version="1.1" creator="togpx">
     <ele>207.0</ele>
     <name>MOL</name>
     <desc>amenity=fuel; branch=Mikulov; brand=MOL;
-    brand:facebook=https://www.facebook.com/molcesko;
-    brand:instagram=https://www.instagram.com/mol_cesko;
+    brand:facebook=molcesko; brand:instagram=mol_cesko;
     brand:website=https://molcesko.cz/cz; brand:wikidata=Q549181;
     brand:wikipedia=en:MOL (company); cafe=yes; compressed_air=yes;
     fuel:HGV_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
@@ -20495,15 +20547,19 @@ version="1.1" creator="togpx">
     id=node/7592729190</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
-  <wpt lat="50.1247948" lon="14.6145254">
+  <wpt lat="50.1247191" lon="14.6142532">
     <ele>275.0</ele>
     <name>Orlen</name>
-    <desc>amenity=fuel; brand=Orlen; fuel:GTL_diesel=yes;
-    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    internet_access=wlan; internet_access:fee=no; name=Orlen;
-    opening_hours=24/7; website=https://www.orlen.cz/;
+    <desc>amenity=fuel; branch=Horní Počernice, Novopacká;
+    brand=Orlen; brand:facebook=orlencz;
+    brand:website=https://www.orlen.cz; brand:wikidata=Q971649;
+    brand:wikipedia=cs:Orlen; compressed_air=yes;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Orlen; opening_hours=24/7;
+    operator=Orlen Unipetrol RPA; toilets=yes; wheelchair=yes;
     id=node/7592729191</desc>
-    <link href="https://www.orlen.cz/"></link>
+    <link href="https://www.orlen.cz"></link>
   </wpt>
   <wpt lat="50.0435758" lon="14.4405936">
     <ele>271.0</ele>
@@ -20667,9 +20723,9 @@ version="1.1" creator="togpx">
     <name>Tesco Olomouc</name>
     <desc>amenity=fuel; brand=Tesco; brand:wikidata=Q487494;
     brand:wikipedia=en:Tesco; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Tesco Olomouc; opening_hours=06:00-22:00; operator=Tesco
-    Stores ČR a.s.; self_service=no; website=https://itesco.cz/;
-    id=node/7600359176</desc>
+    level=0; name=Tesco Olomouc; opening_hours=06:00-22:00;
+    operator=Tesco Stores ČR a.s.; self_service=no;
+    website=https://itesco.cz/; id=node/7600359176</desc>
     <link href="https://itesco.cz/"></link>
   </wpt>
   <wpt lat="50.4261082" lon="14.2412391">
@@ -21575,13 +21631,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; branch=Křenovice, D1, směr Brno;
     brand=EuroOil; brand:facebook=https://www.facebook.com/EuroOil;
     brand:instagram=https://www.instagram.com/eurooilcz;
-    brand:wikidata=Q110219457; cafe=yes; fuel:adblue=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    internet_access=wlan; internet_access:fee=customers;
-    name=EuroOil; opening_hours=24/7; operator=Čepro; ref=539;
-    shop=convenience; toilets=yes;
-    website=https://www.ceproas.cz/eurooil; wheelchair=yes;
-    id=node/10771044993</desc>
+    brand:wikidata=Q110219457; cafe=yes; compressed_air=no;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; internet_access=wlan;
+    internet_access:fee=customers; name=EuroOil;
+    opening_hours=24/7; operator=Čepro; ref=539; shop=convenience;
+    toilets=yes; website=https://www.ceproas.cz/eurooil;
+    wheelchair=yes; id=node/10771044993</desc>
     <link href="https://www.ceproas.cz/eurooil"></link>
   </wpt>
   <wpt lat="49.9720765" lon="16.9977272">
@@ -21620,7 +21676,7 @@ version="1.1" creator="togpx">
     <name>one1 - Alžbětín</name>
     <desc>amenity=fuel; brand=F1; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=one1 - Alžbětín;
-    opening_hours=Mo-Su 05:00-22:00; shop=yes;
+    opening_hours=Mo-Su 05:00-22:00; shop=convenience;
     id=node/10805189284</desc>
   </wpt>
   <wpt lat="49.6493202" lon="12.532737">
@@ -22335,6 +22391,15 @@ version="1.1" creator="togpx">
     <ele>361.0</ele>
     <name>One1</name>
     <desc>amenity=fuel; name=One1; id=node/12471427840</desc>
+  </wpt>
+  <wpt lat="49.223324" lon="16.6135368">
+    <ele>223.0</ele>
+    <name>Darosplus LPG</name>
+    <desc>amenity=fuel; fuel:lpg=yes; name=Darosplus LPG;
+    opening_hours=Mo-Fr 07:00-19:00, Sa, Su 08:00-18:00;
+    phone=+420734754832; shop=gas;
+    website=https://www.darosplus.cz/; id=node/12546617628</desc>
+    <link href="https://www.darosplus.cz/"></link>
   </wpt>
   <wpt lat="48.8423873" lon="16.9027941">
     <ele>193.0</ele>
@@ -23190,8 +23255,7 @@ version="1.1" creator="togpx">
     <ele>525.0</ele>
     <name>Kralupol</name>
     <desc>amenity=fuel; branch=Příbram, Brodská; brand=Kralupol;
-    brand:facebook=https://www.facebook.com/Kralupol;
-    brand:instagram=https://www.instagram.com/kralupol;
+    brand:facebook=Kralupol; brand:instagram=kralupol;
     brand:website=https://kralupol.cz; brand:wikidata=Q58623408;
     compressed_air=yes; email=info@kralupol.cz; fuel:lpg=yes;
     internet_access=wlan; internet_access:fee=customers;
@@ -23204,10 +23268,9 @@ version="1.1" creator="togpx">
     <ele>522.0</ele>
     <name>Orlen</name>
     <desc>amenity=fuel; branch=Příbram, Brodská; brand=Orlen;
-    brand:facebook=https://www.facebook.com/orlencz;
-    brand:website=https://www.orlen.cz; brand:wikidata=Q971649;
-    brand:wikipedia=cs:Orlen; compressed_air=yes;
-    fuel:GTL_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
+    brand:facebook=orlencz; brand:website=https://www.orlen.cz;
+    brand:wikidata=Q971649; brand:wikipedia=cs:Orlen;
+    compressed_air=yes; fuel:adblue=yes; fuel:diesel=yes;
     fuel:octane_100=yes; fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
     05:00-22:00; operator=Orlen Unipetrol RPA s.r.o. - Benzina,
@@ -23568,14 +23631,12 @@ version="1.1" creator="togpx">
     <ele>538.0</ele>
     <name>Orlen</name>
     <desc>amenity=fuel; branch=Český Krumlov; brand=Orlen;
-    brand:wikidata=Q971649; compressed_air=yes;
-    contact:facebook=https://www.facebook.com/orlencz;
-    fuel:GTL_diesel=yes; fuel:adblue=yes; fuel:diesel=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; internet_access=wlan;
-    internet_access:fee=customers; name=Orlen; opening_hours=Mo-Su
-    05:00-23:00; operator=Orlen Unipetrol RPA s.r.o. - Benzina,
-    odštěpný závod; smoking=no; toilets=yes;
-    website=https://www.orlen.cz/; wheelchair=yes;
+    brand:facebook=orlencz; brand:website=https://www.orlen.cz/;
+    brand:wikidata=Q971649; compressed_air=yes; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    internet_access=wlan; internet_access:fee=customers;
+    name=Orlen; opening_hours=Mo-Su 05:00-23:00; operator=Orlen
+    Unipetrol RPA; smoking=no; toilets=yes; wheelchair=yes;
     id=node/13114838436</desc>
     <link href="https://www.orlen.cz/"></link>
   </wpt>
@@ -23950,6 +24011,87 @@ version="1.1" creator="togpx">
     payment:cng_card=yes; payment:credit_cards=yes;
     payment:debit_cards=yes; phone=+420 267 972 070; toilets=yes;
     wheelchair=yes; id=node/13415638635</desc>
+    <link href="https://cng.innogy.cz"></link>
+  </wpt>
+  <wpt lat="48.8662064" lon="16.8246721">
+    <ele>163.0</ele>
+    <name>Malinka</name>
+    <desc>amenity=fuel; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; name=Malinka;
+    website=https://malinka.cz/cerpaci-stanice/;
+    id=node/13428367973</desc>
+    <link href="https://malinka.cz/cerpaci-stanice/"></link>
+  </wpt>
+  <wpt lat="49.9674559" lon="14.6277056">
+    <ele>366.0</ele>
+    <name>node/13483600425</name>
+    <desc>amenity=fuel; fuel:lng=yes; id=node/13483600425</desc>
+  </wpt>
+  <wpt lat="50.6223783" lon="15.6472265">
+    <ele>484.0</ele>
+    <name>MOL</name>
+    <desc>amenity=fuel; branch=Vrchlabí, Prostřední Lánov;
+    brand=MOL; brand:facebook=molcesko; brand:instagram=mol_cesko;
+    brand:website=https://molcesko.cz/cz; brand:wikidata=Q549181;
+    brand:wikipedia=cs:MOL (holding); compressed_air=yes;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
+    internet_access=wlan; internet_access:fee=customers; name=MOL;
+    opening_hours=Mo-Su 06:00-21:00; operator=MOL Česká republika;
+    payment:american_express=yes; payment:cash=yes;
+    payment:ccs=yes; payment:dkv=yes; payment:e100=yes;
+    payment:eurooil=yes; payment:ina=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:mol=yes; payment:slovnaft=yes;
+    payment:uta=yes; payment:v_pay=yes; payment:visa=yes;
+    toilets=yes; wheelchair=yes; id=node/13504380620</desc>
+    <link href="https://molcesko.cz/cz"></link>
+  </wpt>
+  <wpt lat="50.086887" lon="14.4833193">
+    <ele>262.0</ele>
+    <name>Shell</name>
+    <desc>amenity=fuel; branch=Praha, Žižkov, U staré cihelny;
+    brand=Shell; brand:facebook=ShellCeskaRepublika;
+    brand:website=https://www.shell.cz/; brand:wikidata=Q110716465;
+    brand:wikipedia=cs:Shell (firma); compressed_air=yes;
+    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=Shell; opening_hours=24/7; operator=Shell Czech Republic;
+    toilets=yes; wheelchair=yes; id=node/13504623114</desc>
+    <link href="https://www.shell.cz/"></link>
+  </wpt>
+  <wpt lat="49.5850099" lon="17.9829097">
+    <ele>292.0</ele>
+    <name>LXM Group</name>
+    <desc>amenity=fuel; cafe=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; level=0; name=LXM Group;
+    opening_hours=24/7; toilets=yes;
+    website=https://lxmgroup.cz/tankovani-phm/; wheelchair=yes;
+    id=node/13504841910</desc>
+    <link href="https://lxmgroup.cz/tankovani-phm/"></link>
+  </wpt>
+  <wpt lat="49.5857777" lon="17.2864959">
+    <ele>215.0</ele>
+    <name>Nikey</name>
+    <desc>amenity=fuel; brand=Nikey; fuel:adblue=yes;
+    fuel:biodiesel=yes; fuel:diesel=yes; name=Nikey;
+    opening_hours=24/7; operator=Nikey; payment:ccs=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
+    payment:dkv=yes; payment:eurowag=yes; payment:uta=yes;
+    phone=+420 731 664 777; website=https://nikey.cz/p?id=25;
+    id=node/13506073902</desc>
+    <link href="https://nikey.cz/p?id=25"></link>
+  </wpt>
+  <wpt lat="48.8180103" lon="14.3050639">
+    <ele>509.0</ele>
+    <name>Innogy</name>
+    <desc>amenity=fuel; branch=Český Krumlov; brand=Innogy;
+    brand:facebook=innogycz; brand:instagram=innogy.cz;
+    brand:website=https://cng.innogy.cz; brand:wikidata=Q28920338;
+    email=cng@innogy.cz; fuel:cng=yes; name=Innogy;
+    opening_hours=24/7; operator=Innogy Energo;
+    operator:wikidata=Q54968106; payment:cng_card=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes; phone=+420
+    267 972 070;
+    website=https://www.cng.cz/stanice/jihocesky-kraj/cesky-krumlov-13931571;
+    wheelchair=yes; id=node/13514390669</desc>
     <link href="https://cng.innogy.cz"></link>
   </wpt>
   <wpt lat="50.03455035" lon="14.53594825323416">
@@ -24668,15 +24810,6 @@ version="1.1" creator="togpx">
     ref:ruian:building=22960015; source=cuzk:ruian;
     id=way/58529988</desc>
   </wpt>
-  <wpt lat="49.585033249999995" lon="17.983004536013517">
-    <ele>292.0</ele>
-    <name>EuroOil - Čepro a.s.</name>
-    <desc>amenity=fuel; brand=EuroOil - Čepro a.s.; building=yes;
-    building:levels=1; building:ruian:type=15; fuel:diesel=yes;
-    fuel:e85=yes; fuel:octane_95=yes; name=EuroOil - Čepro a.s.;
-    operator=EuroOil - Čepro a.s.; ref:ruian:building=41449703;
-    shop=kiosk; source=cuzk:ruian; id=way/58900032</desc>
-  </wpt>
   <wpt lat="49.11757285" lon="16.604049172247475">
     <ele>204.0</ele>
     <name>OMV</name>
@@ -24696,7 +24829,7 @@ version="1.1" creator="togpx">
     fuel:lpg=yes; fuel:octane_95=yes; layer=1; name=Shell;
     source=survey; wheelchair=yes; id=way/59315611</desc>
   </wpt>
-  <wpt lat="49.21581165" lon="17.62256106558887">
+  <wpt lat="49.21581165" lon="17.622561224781457">
     <ele>206.0</ele>
     <name>OMV</name>
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
@@ -24708,8 +24841,8 @@ version="1.1" creator="togpx">
   <wpt lat="50.689718150000004" lon="14.516133200000002">
     <ele>258.0</ele>
     <name>way/59474003</name>
-    <desc>amenity=fuel; building=roof; layer=1; source=cuzk:km;
-    id=way/59474003</desc>
+    <desc>amenity=fuel; building=roof; compressed_air=yes; layer=1;
+    source=cuzk:km; id=way/59474003</desc>
   </wpt>
   <wpt lat="50.426665" lon="15.781495066181817">
     <ele>338.0</ele>
@@ -24921,17 +25054,6 @@ version="1.1" creator="togpx">
     05:00-22:00; ref:ruian:building=10941738; source=cuzk:ruian;
     id=way/73912674</desc>
   </wpt>
-  <wpt lat="50.622503" lon="15.647203886108725">
-    <ele>484.0</ele>
-    <name>MOL, Vrchlabí I.</name>
-    <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=MOL, Vrchlabí I.; opening_hours=06:00-21:00; operator=MOL
-    Česká republika, s.r.o.; website=https://molcesko.cz/;
-    id=way/74389198</desc>
-    <link href="https://molcesko.cz/"></link>
-  </wpt>
   <wpt lat="49.358145050000005" lon="16.019578778261206">
     <ele>497.0</ele>
     <name>MOL Česká republika, s.r.o.</name>
@@ -25004,9 +25126,8 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=OMV Jičínská MB;
     opening_hours=Mo-Su 05:00-23:00; operator=OMV Česká republika,
-    s.r.o.; phone=+420 326330073; ref:ruian:addr=25437283;
-    source=cuzk:km; website=https://www.omv.cz/;
-    id=way/77498082</desc>
+    s.r.o.; phone=+420 326330073; source=cuzk:km;
+    website=https://www.omv.cz/; id=way/77498082</desc>
     <link href="https://www.omv.cz/"></link>
   </wpt>
   <wpt lat="49.44115995" lon="14.358638108908911">
@@ -25207,8 +25328,9 @@ version="1.1" creator="togpx">
   <wpt lat="49.539547" lon="18.20451575">
     <ele>399.0</ele>
     <name>Orlen-gas LPG</name>
-    <desc>amenity=fuel; building=yes; fuel:cng=no; fuel:lpg=yes;
-    name=Orlen-gas LPG; source=cuzk:km; id=way/95037353</desc>
+    <desc>amenity=fuel; building=yes; compressed_air=yes;
+    fuel:cng=no; fuel:lpg=yes; name=Orlen-gas LPG; source=cuzk:km;
+    id=way/95037353</desc>
   </wpt>
   <wpt lat="48.75675645" lon="16.876487312126972">
     <ele>153.0</ele>
@@ -25375,12 +25497,13 @@ version="1.1" creator="togpx">
     <ele>243.0</ele>
     <name>MOL, Lipník n. Bečvou</name>
     <desc>amenity=fuel; brand=MOL; brand:wikidata=Q549181;
-    brand:wikipedia=en:MOL (company); building=civic;
+    brand:wikipedia=en:MOL (company); building=retail;
     building:ruian:type=15; compressed_air=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=MOL, Lipník n. Bečvou;
+    fuel:octane_95=yes; level=0; name=MOL, Lipník n. Bečvou;
     opening_hours=05:00-22:00; operator=MOL Česká republika,
-    s.r.o.; ref:ruian:building=11261439; source=cuzk:ruian;
-    website=https://molcesko.cz/; id=way/106338311</desc>
+    s.r.o.; ref:ruian:building=11261439; self_service=partially;
+    source=cuzk:ruian; website=https://molcesko.cz/;
+    id=way/106338311</desc>
     <link href="https://molcesko.cz/"></link>
   </wpt>
   <wpt lat="49.08022285" lon="17.886802461922144">
@@ -25976,13 +26099,6 @@ version="1.1" creator="togpx">
     operator=C.S.Cargo; ref:ruian:building=42217008;
     source=cuzk:ruian; id=way/194509812</desc>
   </wpt>
-  <wpt lat="48.86631525" lon="16.82472205392571">
-    <ele>163.0</ele>
-    <name>way/199534157</name>
-    <desc>amenity=fuel; building=civic; building:ruian:type=5;
-    ref:ruian:building=10033467; source=cuzk:ruian;
-    id=way/199534157</desc>
-  </wpt>
   <wpt lat="49.0528642" lon="13.797304064957718">
     <ele>700.0</ele>
     <name>way/201011160</name>
@@ -26193,10 +26309,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Lipník nad Bečvou;
     addr:conscriptionnumber=1406; addr:housenumber=1406;
     addr:place=Lipník nad Bečvou I-Město; addr:postcode=75131;
-    addr:street=Hranická; amenity=fuel; building=yes; name=GAS;
-    opening_hours=Mo-Su 05:30-22:00; phone=+420 606 491 835;
-    ref:ruian:addr=11324287; self_service=no; source=cuzk:km;
-    id=way/215235576</desc>
+    addr:street=Hranická; amenity=fuel; building=retail;
+    building:levels=1; level=0; name=GAS; opening_hours=Mo-Su
+    05:30-22:00; phone=+420 606 491 835; ref:ruian:addr=11324287;
+    self_service=no; source=cuzk:km; id=way/215235576</desc>
   </wpt>
   <wpt lat="49.53066295" lon="17.609167931797753">
     <ele>247.0</ele>
@@ -26204,10 +26320,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Lipník nad Bečvou;
     addr:conscriptionnumber=1677; addr:housenumber=1677;
     addr:place=Lipník nad Bečvou I-Město; addr:postcode=75131;
-    addr:street=Hranická; amenity=fuel; building=yes; name=GAS;
-    opening_hours=Mo-Su 05:30-22:00; phone=+420 606 491 835;
-    ref:ruian:addr=75748223; self_service=no; source=cuzk:km;
-    id=way/215235824</desc>
+    addr:street=Hranická; amenity=fuel; building=retail;
+    building:levels=1; level=0; name=GAS; opening_hours=Mo-Su
+    05:30-22:00; phone=+420 606 491 835; ref:ruian:addr=75748223;
+    self_service=no; source=cuzk:km; id=way/215235824</desc>
   </wpt>
   <wpt lat="49.53226085" lon="17.599183486187545">
     <ele>251.0</ele>
@@ -26226,9 +26342,10 @@ version="1.1" creator="togpx">
     <ele>361.0</ele>
     <name>Marho s.r.o.</name>
     <desc>addr:postcode=25167; amenity=fuel; building=yes;
-    fuel:cng=yes; fuel:diesel=yes; fuel:lpg=yes;
-    fuel:octane_95=yes; opening_hours=24/7; operator=Marho s.r.o.;
-    source=bing:ortofoto; id=way/219212187</desc>
+    compressed_air=yes; fuel:cng=yes; fuel:diesel=yes;
+    fuel:lpg=yes; fuel:octane_95=yes; opening_hours=24/7;
+    operator=Marho s.r.o.; source=bing:ortofoto;
+    id=way/219212187</desc>
   </wpt>
   <wpt lat="49.585275949999996" lon="13.536352491918612">
     <ele>393.0</ele>
@@ -26631,7 +26748,7 @@ version="1.1" creator="togpx">
     <name>way/280762149</name>
     <desc>amenity=fuel; building=yes; id=way/280762149</desc>
   </wpt>
-  <wpt lat="49.47536375" lon="15.013840485194194">
+  <wpt lat="49.4753671" lon="15.013837978638183">
     <ele>566.0</ele>
     <name>NOVOPLYN</name>
     <desc>amenity=fuel; building=transportation;
@@ -26721,14 +26838,6 @@ version="1.1" creator="togpx">
     <name>Autocentrum KREANS s.r.o.</name>
     <desc>amenity=fuel; building=yes; operator=Autocentrum KREANS
     s.r.o.; id=way/303429601</desc>
-  </wpt>
-  <wpt lat="50.086910700000004" lon="14.483322059699084">
-    <ele>262.0</ele>
-    <name>Shell</name>
-    <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
-    brand:wikipedia=en:Royal Dutch Shell; building=roof; layer=1;
-    name=Shell; opening_hours=24/7; roof:shape=flat;
-    id=way/303644534</desc>
   </wpt>
   <wpt lat="50.0339271" lon="14.440146718921586">
     <ele>212.0</ele>
@@ -27104,13 +27213,16 @@ version="1.1" creator="togpx">
     fuel:octane_95=yes; name=Tesco; operator=Tesco;
     id=way/410798508</desc>
   </wpt>
-  <wpt lat="49.6092485" lon="15.15359925">
+  <wpt lat="49.609205700000004" lon="15.153460751426366">
     <ele>496.0</ele>
-    <name>OMV</name>
+    <name>OMV Dolní Kralovice</name>
     <desc>amenity=fuel; brand=OMV; brand:wikidata=Q168238;
-    brand:wikipedia=en:OMV; building=yes; layer=1; name=OMV;
-    opening_hours=24/7; phone=+420 777 196 625; toilets=yes;
-    toilets:access=permissive; id=way/412133090</desc>
+    brand:wikipedia=en:OMV; building=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; internet_access=wlan;
+    internet_access:fee=no; layer=1; name=OMV Dolní Kralovice;
+    opening_hours=24/7; payment:cash=yes; payment:contactless=yes;
+    payment:credit_cards=yes; phone=+420 777 196 625; toilets=yes;
+    toilets:access=yes; id=way/412133090</desc>
   </wpt>
   <wpt lat="49.9107002" lon="14.495874669934379">
     <ele>431.0</ele>
@@ -27321,7 +27433,7 @@ version="1.1" creator="togpx">
     <ele>255.0</ele>
     <name>EuroOil Rousínov</name>
     <desc>amenity=fuel; brand=EuroOil; building=industrial;
-    building:levels=1; building:ruian:type=16;
+    building:levels=1; building:ruian:type=16; compressed_air=yes;
     contact:website=https://www.ceproas.cz/eurooil;
     fuel:diesel=yes; fuel:octane_95=yes; internet_access=wlan;
     internet_access:fee=no; name=EuroOil Rousínov;
@@ -27530,11 +27642,11 @@ version="1.1" creator="togpx">
     addr:postcode=62800; addr:street=Žarošická; amenity=fuel;
     brand=Eurobit; compressed_air=yes; fuel:diesel=yes;
     fuel:octane_95=yes; fuel:octane_98=yes; name=Eurobit Vinohrady;
-    opening_hours=Mo-Su 06:00-22:00; operator=UNIXAN s.r.o.;
-    payment:american_express=yes; payment:ccs=yes;
-    payment:mastercard=yes; payment:uta=yes; payment:visa=yes;
-    self_service=no; website=https://www.eurobit.cz/;
-    id=way/868619258</desc>
+    opening_hours=Mo-Su 05:00-22:00; payment:american_express=yes;
+    payment:ccs=yes; payment:mastercard=yes; payment:uta=yes;
+    payment:visa=yes; ref:vatin=CZ28825829;
+    self_service:conditional=yes @ 22:00-05:00;
+    website=https://www.eurobit.cz/; id=way/868619258</desc>
     <link href="https://www.eurobit.cz/"></link>
   </wpt>
   <wpt lat="49.19953555" lon="16.665109054205466">
@@ -27835,16 +27947,6 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Benzina; brand:wikidata=Q11130894;
     compressed_air=yes; name=Orlen; id=way/1257767397</desc>
   </wpt>
-  <wpt lat="49.58577735" lon="17.286496321017218">
-    <ele>215.0</ele>
-    <name>https://nikey.cz/p?id=25</name>
-    <desc>addr:city=Olomouc; addr:housenumber=161/41;
-    addr:postcode=77900; addr:street=Sladkovského; amenity=fuel;
-    brand=Nikey; fuel:adblue=yes; hgv=yes; opening_hours=24/7;
-    operator=Nikey; phone=+420 731 664 777;
-    website=https://nikey.cz/p?id=25; id=way/1258728019</desc>
-    <link href="https://nikey.cz/p?id=25"></link>
-  </wpt>
   <wpt lat="49.797674400000005" lon="14.195612345469293">
     <ele>400.0</ele>
     <name>Shell</name>
@@ -27863,8 +27965,8 @@ version="1.1" creator="togpx">
   <wpt lat="49.527817049999996" lon="17.5920717">
     <ele>243.0</ele>
     <name>TOMEGAS s.r.o.</name>
-    <desc>amenity=fuel; building=yes; fuel:lpg=yes; level=1;
-    man_made=fuel_pump; name=TOMEGAS s.r.o.; operator=Lukáš
+    <desc>amenity=fuel; building=retail; compressed_air=no;
+    fuel:lpg=yes; level=0; name=TOMEGAS s.r.o.; operator=Lukáš
     Šmatlák; id=way/1301622671</desc>
   </wpt>
   <wpt lat="49.26950745" lon="16.27731115908816">

@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2026-01-01T23:17:41Z", "timestamp_areas_base":
-      "2026-01-01T15:10:30Z", "copyright": "The data included in
+      "2026-02-02T10:20:01Z", "timestamp_areas_base":
+      "2026-01-23T01:22:35Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -41,22 +41,6 @@ version="1.1" creator="togpx">
     sanitary_dump_station=yes; sanitary_dump_station:fee=no;
     seasonal=no; tourism=caravan_site; water_point=yes;
     id=node/1939353388</desc>
-  </wpt>
-  <wpt lat="48.4707121" lon="15.6979478">
-    <ele>205.0</ele>
-    <name>Reisemobilstellplatz Langenlois</name>
-    <desc>addr:city=Langenlois; addr:country=AT;
-    addr:housenumber=21; addr:postcode=3550;
-    addr:street=Krumpöck-Allee; capacity=7;
-    caravan_site=motorhome_stopover; caravan_site:type=town;
-    caravans=yes; charge=15 EUR; fee=yes; motorhome=designated;
-    name=Reisemobilstellplatz Langenlois; operator=Hotel Schloss
-    Haindorf; phone=+43 2734 2693; power_supply=yes;
-    tourism=caravan_site;
-    website=https://www.langenlois.at/reisemobilstellplaetze/a-reisemobilstellplatz-langenlois;
-    id=node/3503649464</desc>
-    <link href="https://www.langenlois.at/reisemobilstellplaetze/a-reisemobilstellplatz-langenlois">
-    </link>
   </wpt>
   <wpt lat="46.6061739" lon="13.9082364">
     <ele>485.0</ele>
@@ -352,7 +336,7 @@ version="1.1" creator="togpx">
     <ele>505.0</ele>
     <name>Wohnmobilstellplatz Obertraun</name>
     <desc>capacity=24; caravan_site=motorhome_stopover;
-    caravan_site:type=lake,parking_lot; charge=32 EUR; fee=no;
+    caravan_site:type=lake,parking_lot; charge=32 EUR; fee=yes;
     name=Wohnmobilstellplatz Obertraun; power_supply=no;
     sanitary_dump_station=no; tourism=caravan_site;
     website=https://www.obertraun.net/parken-in-obertraun/;
@@ -424,7 +408,7 @@ version="1.1" creator="togpx">
     <desc>capacity=10; caravan_site=motorhome_stopover;
     caravan_site:type=village; charge=27 EUR; fee=yes;
     internet_access=wlan; internet_access:fee=no; name=Strommer
-    Wohnmobilstellplatz; phone=+43 (0)2175 3695; power_supply=yes;
+    Wohnmobilstellplatz; phone=+43 2175 3695; power_supply=yes;
     power_supply:fee=no; sanitary_dump_station=yes; seasonal=no;
     shower=yes; toilets=yes; tourism=caravan_site; water_point=yes;
     water_point:fee=no;
@@ -693,6 +677,23 @@ version="1.1" creator="togpx">
     tourism=caravan_site; washing_machine=yes; water_point=yes;
     water_point:fee=no; wheelchair=yes; id=way/24878179</desc>
     <link href="http://www.reisemobilstellplatz-graz.at"></link>
+  </wpt>
+  <wpt lat="48.4708571" lon="15.698122985090944">
+    <ele>203.0</ele>
+    <name>Reisemobilstellplatz Langenlois</name>
+    <desc>addr:city=Langenlois; addr:country=AT;
+    addr:housenumber=21; addr:postcode=3550;
+    addr:street=Krumpöck-Allee; capacity=7;
+    caravan_site=motorhome_stopover; caravan_site:type=town;
+    caravans=yes; charge=15 EUR; charge:conditional=no @
+    motor_vehicle; fee=yes; motor_vehicle=yes;
+    motorhome=designated; name=Reisemobilstellplatz Langenlois;
+    operator=Hotel Schloss Haindorf; phone=+43 2734 2693;
+    power_supply=yes; tourism=caravan_site;
+    website=https://www.langenlois.at/reisemobilstellplaetze/a-reisemobilstellplatz-langenlois;
+    id=way/77354149</desc>
+    <link href="https://www.langenlois.at/reisemobilstellplaetze/a-reisemobilstellplatz-langenlois">
+    </link>
   </wpt>
   <wpt lat="48.13627405" lon="16.316044883727656">
     <ele>200.0</ele>
@@ -1606,10 +1607,10 @@ version="1.1" creator="togpx">
     <name>Campingplatz Steinmühl</name>
     <desc>addr:city=Ybbsitz; addr:country=AT; addr:postcode=3341;
     capacity=8; caravan_site=motorhome_stopover;
-    caravan_site:type=restaurant; charge=35 EUR; contact:mobile=+43
-    664 8517 306; email=office@landgasthof-steinmuehl.at; fee=yes;
+    caravan_site:type=restaurant; charge=35 EUR;
+    email=office@landgasthof-steinmuehl.at; fee=yes;
     name=Campingplatz Steinmühl; operator=Hofbauer KG; phone=+43
-    664 851 73 06; power_supply=yes; reservation=yes; shower=yes;
+    664 8517306; power_supply=yes; reservation=yes; shower=yes;
     source=https://guide.camping-club.de/campings/camping-steinmuhl-351;
     toilets=yes; tourism=caravan_site;
     website=https://www.landgasthof-steinmuehl.at/;
@@ -2118,5 +2119,11 @@ version="1.1" creator="togpx">
     <name>way/1455110263</name>
     <desc>fee=yes; power_supply=no; sanitary_dump_station=no;
     tourism=caravan_site; id=way/1455110263</desc>
+  </wpt>
+  <wpt lat="48.6921107" lon="15.325412736444939">
+    <ele>533.0</ele>
+    <name>way/1466424753</name>
+    <desc>surface=asphalt; tourism=caravan_site;
+    id=way/1466424753</desc>
   </wpt>
 </gpx>
