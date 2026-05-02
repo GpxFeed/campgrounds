@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2026-04-01T10:25:45Z", "timestamp_areas_base":
-      "2026-04-01T00:26:23Z", "copyright": "The data included in
+      "2026-05-02T09:52:50Z", "timestamp_areas_base":
+      "2026-05-02T05:12:42Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -186,10 +186,10 @@ version="1.1" creator="togpx">
   <wpt lat="45.6824354" lon="18.392552">
     <ele>92</ele>
     <name>INA Belišće</name>
-    <desc>addr:city=Belišće; addr:housenumber=1;
+    <desc>addr:city=Belišće; addr:country=HR; addr:housenumber=1;
     addr:postcode=31551; addr:street=Ulica Dolac; amenity=fuel;
     brand=INA; brand:wikidata=Q1662137; fuel:diesel=yes;
-    fuel:diesel+=yes; fuel:lpg=yes; fuel:octane_100=yes;
+    fuel:diesel_plus=yes; fuel:lpg=yes; fuel:octane_100=yes;
     fuel:octane_95=yes; name=INA Belišće; operator=INA;
     payment:cards=yes; payment:cash=yes; payment:credit_cards=yes;
     self_service=yes; id=node/490194312</desc>
@@ -541,7 +541,7 @@ version="1.1" creator="togpx">
     fuel:diesel=yes; fuel:lpg=no; fuel:octane_95=yes;
     id=node/1307855603</desc>
   </wpt>
-  <wpt lat="45.1696658" lon="17.9508134">
+  <wpt lat="45.1697021" lon="17.950784">
     <ele>87</ele>
     <name>Zovko</name>
     <desc>amenity=fuel; ethanol=no; fuel:biodiesel=no;
@@ -802,9 +802,11 @@ version="1.1" creator="togpx">
     <ele>40</ele>
     <name>Adria Oil</name>
     <desc>addr:housenumber=3; addr:street=Splitska ulica;
-    amenity=fuel; brand=Adria Oil; fuel:diesel=yes; fuel:lpg=yes;
+    amenity=fuel; brand=Adria Oil; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
     fuel:octane_95=yes; name=Adria Oil; opening_hours=Mo-Su
-    06:00-22:00; ref:vatin=HR03004159051; id=node/1649302791</desc>
+    06:00-22:00; ref:vatin=HR03004159051; wheelchair=yes;
+    id=node/1649302791</desc>
   </wpt>
   <wpt lat="45.7788145" lon="15.828059">
     <ele>121</ele>
@@ -1030,8 +1032,9 @@ version="1.1" creator="togpx">
     <ele>24</ele>
     <name>Lukoil</name>
     <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; name=Lukoil;
-    id=node/2082215270</desc>
+    brand:wikipedia=en:Lukoil; changing_table=no;
+    compressed_air=yes; name=Lukoil; valves=schrader;
+    wheelchair=yes; id=node/2082215270</desc>
   </wpt>
   <wpt lat="45.224237" lon="19.391678">
     <ele>83</ele>
@@ -1505,7 +1508,7 @@ version="1.1" creator="togpx">
     payment:visa_electron=yes; phone=+385 91 4971 300; toilets=no;
     id=node/3469399666</desc>
   </wpt>
-  <wpt lat="46.0663232" lon="16.9874943">
+  <wpt lat="46.0663337" lon="16.9874925">
     <ele>131</ele>
     <name>INA Virje</name>
     <desc>addr:city=Virje; addr:country=HR; addr:housenumber=6;
@@ -1807,10 +1810,10 @@ version="1.1" creator="togpx">
     <name>INA Imotski - Kaldrma</name>
     <desc>addr:city=Imotski; addr:country=HR; addr:postcode=21260;
     addr:street=Glavina Donja; amenity=fuel; brand=INA;
-    contact:phone=+385 4971 228; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; name=INA Imotski -
-    Kaldrma; opening_hours=24/7; operator=INA; self_service=yes;
-    shop=yes; id=node/8464648871</desc>
+    compressed_air=yes; contact:phone=+385 4971 228;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    name=INA Imotski - Kaldrma; opening_hours=24/7; operator=INA;
+    self_service=yes; shop=yes; id=node/8464648871</desc>
   </wpt>
   <wpt lat="44.2856099" lon="15.1229769">
     <ele>8</ele>
@@ -1819,10 +1822,11 @@ version="1.1" creator="togpx">
     fuel:octane_100=yes; fuel:octane_95=yes;
     id=node/8836523370</desc>
   </wpt>
-  <wpt lat="43.3215805" lon="16.9919786">
+  <wpt lat="43.3215578" lon="16.9918629">
     <ele>107</ele>
-    <name>node/8972909217</name>
-    <desc>amenity=fuel; name:en=Adria G-power;
+    <name>Adria oil</name>
+    <desc>amenity=fuel; changing_table=no; compressed_air=yes;
+    name=Adria oil; valves=schrader; wheelchair=yes;
     id=node/8972909217</desc>
   </wpt>
   <wpt lat="44.8340041" lon="13.922273">
@@ -1867,9 +1871,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="43.5474825" lon="16.4101819">
     <ele>5</ele>
-    <name>Crodux</name>
-    <desc>amenity=fuel; brand=Crodux; brand:wikidata=Q62274622;
-    name=Crodux; id=node/9353153631</desc>
+    <name>node/9353153631</name>
+    <desc>amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
+    changing_table=no; compressed_air=yes; valves=schrader;
+    wheelchair=yes; id=node/9353153631</desc>
   </wpt>
   <wpt lat="43.8251467" lon="15.5928756">
     <ele>-2</ele>
@@ -1884,11 +1889,11 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="44.1199895" lon="15.2629026">
     <ele>60</ele>
-    <name>Tri Bartola</name>
+    <name>Petrol</name>
     <desc>addr:city=Zadar; addr:housenumber=25/G;
-    addr:street=Hrvatskog sabora; amenity=fuel; fuel:diesel=yes;
-    fuel:octane_95=yes; name=Tri Bartola; source=survey;
-    id=node/9550276192</desc>
+    addr:street=Hrvatskog sabora; amenity=fuel; brand=Petrol;
+    fuel:diesel=yes; fuel:octane_95=yes; name=Petrol;
+    source=survey; id=node/9550276192</desc>
   </wpt>
   <wpt lat="45.3572937" lon="18.5315262">
     <ele>102</ele>
@@ -2073,8 +2078,9 @@ version="1.1" creator="togpx">
   <wpt lat="43.2858307" lon="17.0297743">
     <ele>38</ele>
     <name>Tifon</name>
-    <desc>amenity=fuel; name=Tifon;
-    website=https://pretrazivacpostaja.tifon.hr/;
+    <desc>amenity=fuel; changing_table=no; compressed_air=yes;
+    name=Tifon; valves=schrader;
+    website=https://pretrazivacpostaja.tifon.hr/; wheelchair=yes;
     id=node/10917674253</desc>
     <link href="https://pretrazivacpostaja.tifon.hr/"></link>
   </wpt>
@@ -2167,9 +2173,10 @@ version="1.1" creator="togpx">
   <wpt lat="45.0390821" lon="14.5693493">
     <ele>76</ele>
     <name>In'Sol</name>
-    <desc>amenity=fuel; compressed_air=yes; fuel:adblue=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; name=In'Sol;
-    shop=convenience; wheelchair=yes; id=node/11693484839</desc>
+    <desc>amenity=fuel; changing_table=no; compressed_air=yes;
+    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=In'Sol; valves=schrader; wheelchair=yes;
+    id=node/11693484839</desc>
   </wpt>
   <wpt lat="45.0301224" lon="14.5874731">
     <ele>52</ele>
@@ -2286,13 +2293,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Trogir; addr:country=HR; addr:housenumber=40;
     addr:postcode=21220; addr:street=Kneza Trpimira; amenity=fuel;
     branch=Trogir; brand=INA; brand:wikidata=Q1662137;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA; opening_hours=24/7; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
-    payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
-    phone=+385 91 4971 254; id=node/12741194624</desc>
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=INA;
+    opening_hours=24/7; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:dkv=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:uta=yes;
+    payment:visa=yes; payment:visa_electron=yes; phone=+385 91 4971
+    254; valves=schrader; wheelchair=yes;
+    id=node/12741194624</desc>
   </wpt>
   <wpt lat="42.6489204" lon="18.0948502">
     <ele>28</ele>
@@ -2417,6 +2426,30 @@ version="1.1" creator="togpx">
     1058; shop=yes; website=https://www.ina.hr/station/korenica/;
     id=node/13681201000</desc>
     <link href="https://www.ina.hr/station/korenica/"></link>
+  </wpt>
+  <wpt lat="43.3068484" lon="17.0068713">
+    <ele>44</ele>
+    <name>INA Makarska-Ratac</name>
+    <desc>amenity=fuel; brand=INA; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=INA Makarska-Ratac;
+    opening_hours=24/7; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:dkv=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:uta=yes;
+    payment:visa=yes; payment:visa_electron=yes; phone=+385 91 497
+    1236; shop=yes; wheelchair=yes; id=node/13727942296</desc>
+  </wpt>
+  <wpt lat="43.5173189" lon="16.2301595">
+    <ele>1</ele>
+    <name>MIA DIMŠIĆ DIANA KOVAĽOVÁ SILVIA MOHLEROVÁ LUCIA
+    MOHLEROVÁ MARCELKA PÁNIKOVÁ IVAN TÁSLER</name>
+    <desc>addr:city=Seget Donji; addr:housenumber=5;
+    addr:postcode=21218; addr:street=Ulica Gospe od Ružarija;
+    amenity=fuel; brand=DÁŠKA GUTTENOVÁ; mobile=+421 944 691 734;
+    name=MIA DIMŠIĆ DIANA KOVAĽOVÁ SILVIA MOHLEROVÁ LUCIA MOHLEROVÁ
+    MARCELKA PÁNIKOVÁ IVAN TÁSLER; operator=5oo vagónov;
+    id=node/13774391393</desc>
   </wpt>
   <wpt lat="44.00171225" lon="15.50174148080253">
     <ele>87</ele>
@@ -2731,11 +2764,11 @@ version="1.1" creator="togpx">
     <name>Petrol</name>
     <desc>addr:city=Split; addr:country=HR; addr:housenumber=bb;
     addr:postcode=21000; addr:street=Dujmovača; amenity=fuel;
-    brand=Petrol; brand:wikidata=Q174824; building=yes; fax=+385 21
-    260 830; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Petrol; opening_hours=Mo-Su
-    06:00-22:00; operator=Crodux; phone=+385 21 260 830;
-    id=way/102549154</desc>
+    brand=Petrol; brand:wikidata=Q174824; building=yes;
+    changing_table=no; compressed_air=yes; fax=+385 21 260 830;
+    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
+    name=Petrol; opening_hours=Mo-Su 06:00-22:00; operator=Crodux;
+    phone=+385 21 260 830; wheelchair=yes; id=way/102549154</desc>
   </wpt>
   <wpt lat="45.7485449" lon="17.590700807864792">
     <ele>116</ele>
@@ -2898,15 +2931,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Split; addr:country=HR; addr:housenumber=71;
     addr:postcode=21000; addr:street=Ulica Domovinskog rata;
     amenity=fuel; brand=INA; brand:wikidata=Q1662137; building=yes;
-    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    fuel:octane_98=yes; name=INA Split-Kman-sjever;
-    opening_hours=24/7; operator=INA; payment:american_express=yes;
-    payment:cash=yes; payment:diners_club=yes;
-    payment:discover_card=yes; payment:dkv=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:uta=yes;
-    payment:visa=yes; payment:visa_electron=yes; phone=+385 91 4971
-    242; roof:material=roof_tiles; roof:shape=gabled;
-    id=way/119140687</desc>
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=INA
+    Split-Kman-sjever; opening_hours=24/7; operator=INA;
+    payment:american_express=yes; payment:cash=yes;
+    payment:diners_club=yes; payment:discover_card=yes;
+    payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
+    phone=+385 91 4971 242; roof:material=roof_tiles;
+    roof:shape=gabled; wheelchair=yes; id=way/119140687</desc>
   </wpt>
   <wpt lat="43.52171175" lon="16.453865026835935">
     <ele>11</ele>
@@ -2914,11 +2947,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Split; addr:country=HR; addr:housenumber=21;
     addr:postcode=21000; addr:street=Hercegovačka ulica;
     amenity=fuel; brand=INA; brand:wikidata=Q1662137; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; name=INA
-    Split-Kopilica-sjever; opening_hours=Mo-Su 06:00-22:00;
-    operator=INA; payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=INA Split-Kopilica-sjever; opening_hours=Mo-Su
+    06:00-22:00; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 4971 244;
     roof:material=roof_tiles; roof:shape=gabled;
     id=way/119140690</desc>
@@ -2929,14 +2963,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Solin; addr:country=HR; addr:housenumber=5;
     addr:postcode=21210; addr:street=Splitska ulica; amenity=fuel;
     brand=INA; brand:wikidata=Q1662137; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA Solin-Meterize; opening_hours=Mo-Su 06:00-22:00;
-    operator=INA; payment:american_express=yes; payment:cash=yes;
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=INA
+    Solin-Meterize; opening_hours=Mo-Su 06:00-22:00; operator=INA;
+    payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
     payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
     phone=+385 91 4971 240; recycling:cooking_oil=yes;
-    id=way/119668834</desc>
+    wheelchair=yes; id=way/119668834</desc>
   </wpt>
   <wpt lat="43.507198" lon="16.504133783630685">
     <ele>56</ele>
@@ -3144,14 +3179,15 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.31828365" lon="18.416204049999997">
     <ele>106</ele>
-    <name>Crodux</name>
+    <name>Petrol</name>
     <desc>addr:city=Đakovo; addr:housenumber=10;
     addr:postcode=31400; addr:street=Vladimira Nazora;
-    amenity=fuel; brand=Crodux; brand:wikidata=Q62274622;
+    amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     building=yes; contact:fax=+385 31 810 588; contact:phone=+385
     31 810 588; fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Crodux; opening_hours=Mo-Su
-    06:00-24:00; operator=Crodux; id=way/140130283</desc>
+    fuel:octane_95=yes; name=Petrol; opening_hours=Mo-Su
+    06:00-24:00; operator=Petrol; self_service=yes;
+    id=way/140130283</desc>
   </wpt>
   <wpt lat="45.8758996" lon="16.370702441901017">
     <ele>118</ele>
@@ -3379,9 +3415,10 @@ version="1.1" creator="togpx">
   <wpt lat="45.351638" lon="14.366488487931036">
     <ele>178</ele>
     <name>Petrol</name>
-    <desc>amenity=fuel; building=yes; fuel:diesel=yes;
-    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol;
-    operator=Petrol; shop=yes; id=way/174633253</desc>
+    <desc>amenity=fuel; building=yes; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=Petrol; operator=Petrol; shop=yes;
+    wheelchair=yes; id=way/174633253</desc>
   </wpt>
   <wpt lat="45.5438995" lon="18.70877182812523">
     <ele>87</ele>
@@ -3686,11 +3723,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Novi Vinodolski; addr:housenumber=1a;
     addr:postcode=51250; addr:street=Obala Kneza Branimira;
     amenity=fuel; brand=INA; brand:wikidata=Q1662137; building=yes;
-    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Novi Vinodolski - obala;
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Novi Vinodolski - obala;
     seamark:small_craft_facility:category=fuel_station;
     seamark:type=small_craft_facility; self_service=yes;
-    id=way/231350540</desc>
+    wheelchair=yes; id=way/231350540</desc>
   </wpt>
   <wpt lat="43.94409075" lon="15.455384565676873">
     <ele>23</ele>
@@ -3800,14 +3837,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Novi Vinodolski; addr:country=HR;
     addr:housenumber=33/B; addr:postcode=51250; addr:street=Ulica
     kralja Tomislava; amenity=fuel; brand=INA;
-    brand:wikidata=Q1662137; building=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=INA Novi Vinodolski-magistrala;
-    opening_hours=Mo-Su 06:00-21:00; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    brand:wikidata=Q1662137; building=yes; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=INA Novi Vinodolski-magistrala; opening_hours=Mo-Su
+    06:00-21:00; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 497 1159;
-    id=way/248046634</desc>
+    wheelchair=yes; id=way/248046634</desc>
   </wpt>
   <wpt lat="45.80670365" lon="16.09701473141687">
     <ele>107</ele>
@@ -4092,8 +4130,10 @@ version="1.1" creator="togpx">
     <ele>203</ele>
     <name>Adria Oil</name>
     <desc>addr:housenumber=5/2; addr:street=Bartola Kašića;
-    amenity=fuel; building=roof; layer=1; name=Adria Oil;
-    ref:vatin=HR03004159051; id=way/279304625</desc>
+    amenity=fuel; building=roof; changing_table=no;
+    compressed_air=yes; layer=1; name=Adria Oil;
+    ref:vatin=HR03004159051; valves=schrader; wheelchair=yes;
+    id=way/279304625</desc>
   </wpt>
   <wpt lat="44.4623636" lon="15.601392748965342">
     <ele>598</ele>
@@ -4181,14 +4221,15 @@ version="1.1" creator="togpx">
     <name>INA Jablanac</name>
     <desc>addr:city=Jablanac; addr:country=HR;
     addr:housenumber=199; addr:postcode=53287; addr:street=Stinica;
-    amenity=fuel; brand=INA; building=yes; compressed_air=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; name=INA Jablanac;
-    opening_hours=Mo-Su 07:00-19:00; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
+    amenity=fuel; brand=INA; building=yes;
+    building:material=plaster; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=INA Jablanac; opening_hours=Mo-Su 07:00-19:00;
+    operator=INA; payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 4971 151; shop=yes;
-    id=way/292902514</desc>
+    valves=schrader; wheelchair=yes; id=way/292902514</desc>
   </wpt>
   <wpt lat="43.05197335" lon="17.4349002">
     <ele>14</ele>
@@ -4576,10 +4617,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rijeka; addr:country=HR; addr:housenumber=1b;
     addr:postcode=51000; addr:street=Zvonimirova ulica;
     amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
-    building=yes; contact:fax=+385 51 672 979; contact:phone=+385
-    51 672 979; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Petrol; opening_hours=24/7;
-    operator=Crodux; id=way/316556780</desc>
+    building=retail; building:levels=1; changing_table=no;
+    compressed_air=yes; contact:fax=+385 51 672 979;
+    contact:phone=+385 51 672 979; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol;
+    opening_hours=24/7; operator=Crodux; roof:levels=0;
+    wheelchair=yes; id=way/316556780</desc>
   </wpt>
   <wpt lat="45.442314100000004" lon="14.275142999999998">
     <ele>405</ele>
@@ -5001,10 +5044,11 @@ version="1.1" creator="togpx">
     <desc>addr:city=Biograd na Moru; addr:country=HR;
     addr:housenumber=45; addr:postcode=23210; addr:street=Dr.
     Franje Tuđmana; amenity=fuel; brand=INA;
-    brand:wikidata=Q1662137; building=yes; contact:phone=+385 91
-    4971 316; fuel:diesel=yes; fuel:octane_95=yes; name=INA Biograd
-    na Moru-Zagrebačka; opening_hours=Mo-Sa 07:00-19:00;
-    operator=INA; id=way/324709907</desc>
+    brand:wikidata=Q1662137; building=yes; changing_table=no;
+    compressed_air=yes; contact:phone=+385 91 4971 316;
+    fuel:diesel=yes; fuel:octane_95=yes; name=INA Biograd na
+    Moru-Zagrebačka; opening_hours=Mo-Sa 07:00-19:00; operator=INA;
+    wheelchair=yes; id=way/324709907</desc>
   </wpt>
   <wpt lat="45.91815135" lon="16.872822262385583">
     <ele>149</ele>
@@ -5240,7 +5284,7 @@ version="1.1" creator="togpx">
     opening_hours=Mo-Su 06:00-22:00; operator=INA;
     id=way/325062942</desc>
   </wpt>
-  <wpt lat="42.55889425" lon="18.263242631181694">
+  <wpt lat="42.558889300000004" lon="18.263224512811377">
     <ele>151</ele>
     <name>INA Čilipi</name>
     <desc>addr:city=Čilipi; addr:country=HR; addr:housenumber=25;
@@ -5417,15 +5461,16 @@ version="1.1" creator="togpx">
     <name>Interpetrol Šibenik</name>
     <desc>addr:city=Šibenik; addr:country=HR; addr:housenumber=33;
     addr:postcode=22000; addr:street=Zapadna magistrala;
-    amenity=fuel; brand=Interpetrol; building=yes; fax=+385 22 201
-    940; fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
+    amenity=fuel; brand=Interpetrol; building=yes;
+    changing_table=no; compressed_air=yes; fax=+385 22 201 940;
+    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_95=yes;
     fuel:octane_98=yes; name=Interpetrol Šibenik;
     opening_hours=24/7; operator=Interpetrol;
     payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:visa_debit=yes;
     payment:visa_electron=yes; phone=+385 22 201 931; shop=yes;
-    id=way/327325415</desc>
+    wheelchair=yes; id=way/327325415</desc>
   </wpt>
   <wpt lat="45.8035792" lon="15.919007688979583">
     <ele>118</ele>
@@ -5610,14 +5655,16 @@ version="1.1" creator="togpx">
     <name>INA Šibenik-Njivice</name>
     <desc>addr:city=Šibenik; addr:country=HR; addr:housenumber=2;
     addr:postcode=22000; addr:street=Šibenski most; amenity=fuel;
-    brand=INA; building=yes; fuel:HGV_diesel=yes; fuel:diesel=yes;
-    fuel:lpg=yes; fuel:octane_95=yes; name=INA Šibenik-Njivice;
+    brand=INA; building=yes; changing_table=no; compressed_air=yes;
+    fuel:HGV_diesel=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_95=yes; name=INA Šibenik-Njivice;
     opening_hours=Mo-Su 06:00-22:00; operator=INA;
     payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
     payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
-    phone=+385 91 4971 268; shop=yes; id=way/335899221</desc>
+    phone=+385 91 4971 268; shop=yes; wheelchair=yes;
+    id=way/335899221</desc>
   </wpt>
   <wpt lat="43.711022400000004" lon="15.912198550000005">
     <ele>17</ele>
@@ -5660,14 +5707,15 @@ version="1.1" creator="togpx">
     <desc>addr:city=Omiš; addr:country=HR; addr:housenumber=5;
     addr:postcode=21310; addr:street=Vukovarska cesta;
     amenity=fuel; branch=Omiš; brand=INA; brand:wikidata=Q1662137;
-    building=roof; compressed_air=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; fuel:octane_98=yes; layer=1; name=INA;
-    opening_hours=24/7; operator=INA; payment:american_express=yes;
-    payment:cash=yes; payment:diners_club=yes;
-    payment:discover_card=yes; payment:dkv=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:uta=yes;
-    payment:visa=yes; payment:visa_electron=yes; phone=+385 91 4971
-    238; website=https://www.ina.hr/station/omis/;
+    building=roof; changing_table=no; compressed_air=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
+    layer=1; name=INA; opening_hours=24/7; operator=INA;
+    payment:american_express=yes; payment:cash=yes;
+    payment:diners_club=yes; payment:discover_card=yes;
+    payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
+    payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
+    phone=+385 91 4971 238; valves=schrader;
+    website=https://www.ina.hr/station/omis/; wheelchair=yes;
     id=way/336801301</desc>
     <link href="https://www.ina.hr/station/omis/"></link>
   </wpt>
@@ -5719,7 +5767,7 @@ version="1.1" creator="togpx">
     payment:visa_electron=yes; phone=+385 91 4970 992;
     id=way/339196621</desc>
   </wpt>
-  <wpt lat="45.66390925" lon="15.643241890314641">
+  <wpt lat="45.6636679" lon="15.64314775">
     <ele>137</ele>
     <name>INA Jastrebarsko</name>
     <desc>addr:city=Jastrebarsko; addr:country=HR;
@@ -5767,14 +5815,14 @@ version="1.1" creator="togpx">
     <name>INA Karlobag-grad</name>
     <desc>addr:city=Karlobag; addr:housenumber=36;
     addr:postcode=53288; addr:street=Obala Vladimira Nazora;
-    amenity=fuel; brand=INA; building=yes; fuel:diesel=yes;
-    fuel:octane_95=yes; name=INA Karlobag-grad; opening_hours=Mo-Su
-    06:00-22:00; operator=INA; payment:american_express=yes;
-    payment:cash=yes; payment:diners_club=yes;
-    payment:discover_card=yes; payment:maestro=yes;
-    payment:mastercard=yes; payment:visa=yes;
+    amenity=fuel; brand=INA; building=yes; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    name=INA Karlobag-grad; opening_hours=Mo-Su 06:00-22:00;
+    operator=INA; payment:american_express=yes; payment:cash=yes;
+    payment:diners_club=yes; payment:discover_card=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 4971 057; shop=yes;
-    id=way/339235162</desc>
+    wheelchair=yes; id=way/339235162</desc>
   </wpt>
   <wpt lat="45.495342" lon="15.534302049828442">
     <ele>110</ele>
@@ -6213,29 +6261,16 @@ version="1.1" creator="togpx">
     <name>INA Makarska-Dugiš</name>
     <desc>addr:city=Makarska; addr:country=HR; addr:housenumber=63;
     addr:postcode=21300; addr:street=Dubrovačka ulicaw;
-    amenity=fuel; brand=INA; building=yes; compressed_air=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA Makarska-Dugiš; opening_hours=Mo-Su 06:00-22:00;
-    operator=INA; payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
-    payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
-    phone=+385 91 4971 234; roof:shape=gabled; shop=yes;
-    id=way/339732378</desc>
-  </wpt>
-  <wpt lat="43.30677985" lon="17.00698253793952">
-    <ele>44</ele>
-    <name>INA Makarska-Ratac</name>
-    <desc>addr:city=Makarska; addr:country=HR;
-    addr:housenumber=135; addr:postcode=21300;
-    addr:street=Vukovarska; amenity=fuel; brand=INA; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA Makarska-Ratac; opening_hours=24/7; operator=INA;
+    amenity=fuel; brand=INA; building=yes; changing_table=no;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    fuel:octane_98=yes; name=INA Makarska-Dugiš;
+    opening_hours=Mo-Su 06:00-22:00; operator=INA;
     payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
     payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
-    phone=+385 91 4971 236; shop=yes; id=way/339732381</desc>
+    phone=+385 91 4971 234; roof:shape=gabled; shop=yes;
+    wheelchair=yes; id=way/339732378</desc>
   </wpt>
   <wpt lat="44.5342158" lon="14.47229710920178">
     <ele>26</ele>
@@ -6850,13 +6885,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Primošten; addr:country=HR; addr:housenumber=1;
     addr:postcode=22202; addr:street=Splitska ulica; amenity=fuel;
     brand=INA; brand:wikidata=Q1662137; building=yes;
-    fuel:adblue=yes; fuel:diesel=yes; fuel:octane_95=yes; name=INA
-    Primošten; opening_hours=24/7; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:mol=yes;
-    payment:visa=yes; payment:visa_electron=yes; phone=+385 91 4971
-    264; website=https://www.ina.hr/; wheelchair=yes;
+    changing_table=no; compressed_air=yes; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:octane_95=yes; name=INA Primošten;
+    opening_hours=24/7; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:mol=yes; payment:visa=yes;
+    payment:visa_electron=yes; phone=+385 91 4971 264;
+    website=https://www.ina.hr/; wheelchair=yes;
     id=way/340494298</desc>
     <link href="https://www.ina.hr/"></link>
   </wpt>
@@ -6894,13 +6930,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rijeka; addr:country=HR; addr:housenumber=8;
     addr:postcode=51000; addr:street=Zvonimirova ulica;
     amenity=fuel; brand=INA; brand:wikidata=Q1662137; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA Rijeka-Mlaka; opening_hours=24/7; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
-    payment:diners_club=yes; payment:discover_card=yes;
-    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=INA Rijeka-Mlaka;
+    opening_hours=24/7; operator=INA; payment:american_express=yes;
+    payment:cash=yes; payment:diners_club=yes;
+    payment:discover_card=yes; payment:maestro=yes;
+    payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 4971 169;
-    id=way/340494305</desc>
+    wheelchair=yes; id=way/340494305</desc>
   </wpt>
   <wpt lat="45.32549115" lon="14.477735521287627">
     <ele>134</ele>
@@ -7556,13 +7593,14 @@ version="1.1" creator="togpx">
     <desc>addr:city=Vodice; addr:housenumber=21;
     addr:postcode=22211; addr:street=Magistrala; amenity=fuel;
     brand=INA; brand:wikidata=Q1662137; building=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; fuel:octane_98=yes;
-    name=INA Vodice; opening_hours=Mo-Su 06:00-22:00; operator=INA;
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; fuel:octane_98=yes; name=INA Vodice;
+    opening_hours=Mo-Su 06:00-22:00; operator=INA;
     payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:dkv=yes; payment:maestro=yes; payment:mastercard=yes;
     payment:uta=yes; payment:visa=yes; payment:visa_electron=yes;
-    phone=+385 91 4971 272; id=way/342480514</desc>
+    phone=+385 91 4971 272; wheelchair=yes; id=way/342480514</desc>
   </wpt>
   <wpt lat="44.95495975" lon="13.8494475">
     <ele>124</ele>
@@ -8253,9 +8291,9 @@ version="1.1" creator="togpx">
     <ele>4</ele>
     <name>Lukoil Dujmovača</name>
     <desc>amenity=fuel; brand=Lukoil; brand:wikidata=Q329347;
-    brand:wikipedia=en:Lukoil; building=yes; compressed_air=yes;
-    name=Lukoil Dujmovača; operator=Lukoil;
-    roof:material=roof_tiles; roof:shape=gabled;
+    brand:wikipedia=en:Lukoil; building=yes; changing_table=no;
+    compressed_air=yes; name=Lukoil Dujmovača; operator=Lukoil;
+    roof:material=roof_tiles; roof:shape=gabled; wheelchair=yes;
     id=way/443191184</desc>
   </wpt>
   <wpt lat="46.4151112" lon="16.688616449999998">
@@ -8273,8 +8311,9 @@ version="1.1" creator="togpx">
     <ele>2</ele>
     <name>way/444284874</name>
     <desc>amenity=fuel; brand=Petrol; building=yes;
-    fuel:diesel=yes; fuel:lpg=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; id=way/444284874</desc>
+    compressed_air=yes; fuel:diesel=yes; fuel:lpg=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes;
+    id=way/444284874</desc>
   </wpt>
   <wpt lat="46.1481807" lon="15.667575673754412">
     <ele>213</ele>
@@ -8312,10 +8351,10 @@ version="1.1" creator="togpx">
     <desc>addr:city=Zagreb; addr:country=HR; addr:housenumber=1b;
     addr:postcode=10000; addr:street=Avenija Marina Držića;
     amenity=fuel; branch=Zagreb-Držićeva-autobusni kolodvor;
-    brand=INA; brand:wikidata=Q1662137; compressed_air=yes;
-    fuel:diesel=yes; fuel:octane_95=yes; landuse=retail; name=INA;
-    opening_hours=Mo-Su 06:00-22:00; operator=INA;
-    payment:american_express=yes; payment:cash=yes;
+    brand=INA; brand:wikidata=Q1662137; check_date=2026-04-18;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_95=yes;
+    landuse=retail; name=INA; opening_hours=Mo-Su 06:00-22:00;
+    operator=INA; payment:american_express=yes; payment:cash=yes;
     payment:diners_club=yes; payment:discover_card=yes;
     payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
     payment:visa_electron=yes; phone=+385 91 4971 336;
@@ -8449,7 +8488,7 @@ version="1.1" creator="togpx">
     brand:wikipedia=en:Lukoil; building=yes; name=Lukoil;
     opening_hours=24/7; operator=Lukoil; id=way/560826512</desc>
   </wpt>
-  <wpt lat="45.6633432" lon="15.643608144295037">
+  <wpt lat="45.66340875" lon="15.643695794972455">
     <ele>140</ele>
     <name>Adria Oil Jaska</name>
     <desc>addr:city=Jastrebarsko; addr:street=Ulica dr. Franje
@@ -9274,7 +9313,8 @@ version="1.1" creator="togpx">
     <ele>60</ele>
     <name>Crodux</name>
     <desc>amenity=fuel; brand=Crodux; brand:wikidata=Q62274622;
-    building=yes; fuel:diesel=yes; name=Crodux;
+    building=yes; changing_table=no; compressed_air=yes;
+    fuel:diesel=yes; name=Crodux; wheelchair=yes;
     id=way/1084722704</desc>
   </wpt>
   <wpt lat="46.1802469" lon="16.34143158121484">
@@ -9733,8 +9773,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rijeka; addr:housenumber=111;
     addr:postcode=51000; addr:street=Martinkovac; amenity=fuel;
     brand=Petrol; brand:wikidata=Q174824; building=yes;
-    fuel:diesel=yes; fuel:octane_100=yes; fuel:octane_95=yes;
-    name=Petrol; operator=Petrol; id=way/1227808911</desc>
+    changing_table=no; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Petrol;
+    operator=Petrol; wheelchair=yes; id=way/1227808911</desc>
   </wpt>
   <wpt lat="45.79654585" lon="16.009344849999998">
     <ele>113</ele>
@@ -9842,7 +9883,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Petrol; brand:wikidata=Q174824;
     building=yes; name=Petrol; id=way/1293065330</desc>
   </wpt>
-  <wpt lat="46.0683213" lon="16.976962297255834">
+  <wpt lat="46.0683008" lon="16.976973697255836">
     <ele>140</ele>
     <name>Crodux</name>
     <desc>amenity=fuel; brand=Crodux; brand:wikidata=Q62274622;
@@ -10938,7 +10979,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Crodux</name>
+    <name>Petrol</name>
     <trkseg>
       <trkpt lat="45.3183632" lon="18.4161034"></trkpt>
       <trkpt lat="45.3182348" lon="18.4160695"></trkpt>
@@ -12054,6 +12095,7 @@ version="1.1" creator="togpx">
     <trkseg>
       <trkpt lat="44.7121358" lon="14.9194054"></trkpt>
       <trkpt lat="44.7121823" lon="14.9193642"></trkpt>
+      <trkpt lat="44.712148" lon="14.9192873"></trkpt>
       <trkpt lat="44.7121454" lon="14.9192815"></trkpt>
       <trkpt lat="44.7120988" lon="14.9193227"></trkpt>
       <trkpt lat="44.7121358" lon="14.9194054"></trkpt>
@@ -13200,11 +13242,11 @@ version="1.1" creator="togpx">
   <trk>
     <name>INA Čilipi</name>
     <trkseg>
-      <trkpt lat="42.5589399" lon="18.2631813"></trkpt>
-      <trkpt lat="42.5588667" lon="18.2631639"></trkpt>
-      <trkpt lat="42.5588486" lon="18.2633039"></trkpt>
-      <trkpt lat="42.5589218" lon="18.2633214"></trkpt>
-      <trkpt lat="42.5589399" lon="18.2631813"></trkpt>
+      <trkpt lat="42.5589268" lon="18.2631614"></trkpt>
+      <trkpt lat="42.5588702" lon="18.2631477"></trkpt>
+      <trkpt lat="42.5588519" lon="18.2632877"></trkpt>
+      <trkpt lat="42.5589084" lon="18.2633013"></trkpt>
+      <trkpt lat="42.5589268" lon="18.2631614"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -13687,11 +13729,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>INA Jastrebarsko</name>
     <trkseg>
-      <trkpt lat="45.6639493" lon="15.6432358"></trkpt>
-      <trkpt lat="45.6638997" lon="15.643186"></trkpt>
-      <trkpt lat="45.6638693" lon="15.643248"></trkpt>
-      <trkpt lat="45.6639188" lon="15.6432978"></trkpt>
-      <trkpt lat="45.6639493" lon="15.6432358"></trkpt>
+      <trkpt lat="45.6636611" lon="15.6430353"></trkpt>
+      <trkpt lat="45.6635909" lon="15.6431723"></trkpt>
+      <trkpt lat="45.6636747" lon="15.6432602"></trkpt>
+      <trkpt lat="45.6637277" lon="15.6431568"></trkpt>
+      <trkpt lat="45.6637449" lon="15.6431232"></trkpt>
+      <trkpt lat="45.6636611" lon="15.6430353"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -14048,16 +14091,6 @@ version="1.1" creator="togpx">
       <trkpt lat="43.2840757" lon="17.032938"></trkpt>
       <trkpt lat="43.2840274" lon="17.0329883"></trkpt>
       <trkpt lat="43.2840605" lon="17.0330485"></trkpt>
-    </trkseg>
-  </trk>
-  <trk>
-    <name>INA Makarska-Ratac</name>
-    <trkseg>
-      <trkpt lat="43.306797" lon="17.0069066"></trkpt>
-      <trkpt lat="43.3067259" lon="17.0069538"></trkpt>
-      <trkpt lat="43.3067627" lon="17.0070585"></trkpt>
-      <trkpt lat="43.3068338" lon="17.0070112"></trkpt>
-      <trkpt lat="43.306797" lon="17.0069066"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -16024,12 +16057,13 @@ version="1.1" creator="togpx">
   <trk>
     <name>Adria Oil Jaska</name>
     <trkseg>
-      <trkpt lat="45.6632286" lon="15.6433289"></trkpt>
-      <trkpt lat="45.6631243" lon="15.6435347"></trkpt>
-      <trkpt lat="45.6633916" lon="15.6438005"></trkpt>
-      <trkpt lat="45.6634832" lon="15.6436219"></trkpt>
-      <trkpt lat="45.6632948" lon="15.6434093"></trkpt>
-      <trkpt lat="45.6632286" lon="15.6433289"></trkpt>
+      <trkpt lat="45.6633978" lon="15.6435537"></trkpt>
+      <trkpt lat="45.6633635" lon="15.6436208"></trkpt>
+      <trkpt lat="45.6633219" lon="15.6437021"></trkpt>
+      <trkpt lat="45.6633108" lon="15.6437238"></trkpt>
+      <trkpt lat="45.6634197" lon="15.6438379"></trkpt>
+      <trkpt lat="45.6635067" lon="15.6436677"></trkpt>
+      <trkpt lat="45.6633978" lon="15.6435537"></trkpt>
     </trkseg>
   </trk>
   <trk>
@@ -18142,12 +18176,12 @@ version="1.1" creator="togpx">
   <trk>
     <name>Crodux</name>
     <trkseg>
-      <trkpt lat="46.0682243" lon="16.9766753"></trkpt>
-      <trkpt lat="46.0681306" lon="16.9771246"></trkpt>
-      <trkpt lat="46.0682806" lon="16.9771896"></trkpt>
-      <trkpt lat="46.068362" lon="16.9772249"></trkpt>
-      <trkpt lat="46.0684557" lon="16.9767756"></trkpt>
-      <trkpt lat="46.0682243" lon="16.9766753"></trkpt>
+      <trkpt lat="46.0682038" lon="16.9766867"></trkpt>
+      <trkpt lat="46.0681101" lon="16.977136"></trkpt>
+      <trkpt lat="46.0682601" lon="16.977201"></trkpt>
+      <trkpt lat="46.0683415" lon="16.9772363"></trkpt>
+      <trkpt lat="46.0684352" lon="16.976787"></trkpt>
+      <trkpt lat="46.0682038" lon="16.9766867"></trkpt>
     </trkseg>
   </trk>
   <trk>
