@@ -6,8 +6,8 @@ version="1.1" creator="togpx">
   <metadata>
     <copyright>
       <license>"osm3s": { "timestamp_osm_base":
-      "2026-05-02T10:07:21Z", "timestamp_areas_base":
-      "2026-05-02T05:12:42Z", "copyright": "The data included in
+      "2026-05-24T10:53:46Z", "timestamp_areas_base":
+      "2026-05-24T03:40:07Z", "copyright": "The data included in
       this document is from www.openstreetmap.org. The data is made
       available under ODbL." } // SRTM: { Elevation data missing in
       OSM was added by the NASA Shuttle Radar Topography Mission as
@@ -85,9 +85,9 @@ version="1.1" creator="togpx">
     <ele>369</ele>
     <name>Prijon Sport Center</name>
     <desc>name=Prijon Sport Center; tourism=camp_site;
-    website=http://www.prijon-sportcenter.si;
+    website=https://www.prijon-sportcenter.si/;
     id=node/1396411294</desc>
-    <link href="http://www.prijon-sportcenter.si"></link>
+    <link href="https://www.prijon-sportcenter.si/"></link>
   </wpt>
   <wpt lat="46.1733321" lon="14.4148363">
     <ele>334</ele>
@@ -303,10 +303,14 @@ version="1.1" creator="togpx">
   <wpt lat="45.7562386" lon="14.0610469">
     <ele>574</ele>
     <name>Camp Mirjam</name>
-    <desc>addr:housenumber=19; addr:postcode=6225;
-    addr:street=Razdrto; check_date=2026-04-27;
-    internet_access=wlan; name=Camp Mirjam; tourism=camp_site;
-    website=https://www.mirjam.si/en/campsite/;
+    <desc>access=customers; addr:housenumber=19;
+    addr:postcode=6225; addr:street=Razdrto; camp_site=serviced;
+    caravans=yes; check_date=2026-04-27; drinking_water=yes;
+    fee=yes; internet_access=wlan; internet_access:fee=customers;
+    name=Camp Mirjam; payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; shower=yes; static_caravans=no;
+    tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.mirjam.si/en/campsite/; wheelchair=limited;
     id=node/5237276042</desc>
     <link href="https://www.mirjam.si/en/campsite/"></link>
   </wpt>
@@ -547,8 +551,10 @@ version="1.1" creator="togpx">
   <wpt lat="46.3180656" lon="15.1611805">
     <ele>328</ele>
     <name>Camp Steska</name>
-    <desc>name=Camp Steska; toilets=yes; tourism=camp_site;
-    id=node/9963503258</desc>
+    <desc>access=customers; camp_site=serviced;
+    email=info@ribnik-steska.si; fee=yes; mobile=+386 41-354-531;
+    name=Camp Steska; operator=Turistična kmetija Cokan;
+    toilets=yes; tourism=camp_site; id=node/9963503258</desc>
   </wpt>
   <wpt lat="46.0905205" lon="14.6766646">
     <ele>261</ele>
@@ -561,12 +567,6 @@ version="1.1" creator="togpx">
     buildings of the Farm.; fee=yes; name=Camping Dolsko;
     payment:cash=yes; payment:credit_cards=yes; tents=yes;
     tourism=camp_site; id=node/9977024250</desc>
-  </wpt>
-  <wpt lat="46.380047" lon="14.825692">
-    <ele>1025</ele>
-    <name>Kamp NaturPlac</name>
-    <desc>name=Kamp NaturPlac; tourism=camp_site;
-    id=node/10883790452</desc>
   </wpt>
   <wpt lat="46.2609998" lon="14.205369">
     <ele>793</ele>
@@ -808,14 +808,15 @@ version="1.1" creator="togpx">
     <ele>558</ele>
     <name>Pivka jama</name>
     <desc>addr:city=Postojna; addr:housenumber=50;
-    addr:postcode=6230; addr:street=Veliki Otok; caravans=yes;
-    drinking_water=yes; email=avtokamp.pivka.jama@siol.net;
-    fax=+386 (0)5 7265 348; name=Pivka jama; phone=+386 (0)5 720 39
-    93; power_supply=yes; reservation=no;
-    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
-    tourism=camp_site; website=http://camping-postojna.com/en/;
-    id=way/417578360; ; name=Pivka Jama;
-    website=http://camping-postojna.com; id=node/13176259656</desc>
+    addr:postcode=6230; addr:street=Veliki Otok; cabins=yes;
+    caravans=yes; drinking_water=yes;
+    email=avtokamp.pivka.jama@siol.net; fax=+386 (0)5 7265 348;
+    name=Pivka jama; phone=+386 (0)5 720 39 93; power_supply=yes;
+    reservation=no; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    website=http://camping-postojna.com/en/; id=way/417578360; ;
+    name=Pivka Jama; website=http://camping-postojna.com;
+    id=node/13176259656</desc>
     <link href="http://camping-postojna.com/en/"></link>
   </wpt>
   <wpt lat="46.3389683" lon="14.1723924">
@@ -832,6 +833,23 @@ version="1.1" creator="togpx">
     <name>node/13750130601</name>
     <desc>internet_access=wlan; tourism=camp_site;
     id=node/13750130601</desc>
+  </wpt>
+  <wpt lat="46.3455466" lon="14.8265453">
+    <ele>419</ele>
+    <name>Kamp na otoku</name>
+    <desc>addr:city=Ljubno ob Savinji; addr:housenumber=7;
+    addr:postcode=3333; addr:street=Na Pečeh; name=Kamp na otoku;
+    phone=+386 41 390 515,+386 51 642 621; tourism=camp_site;
+    website=https://www.naotoku.si/; id=node/13818904322</desc>
+    <link href="https://www.naotoku.si/"></link>
+  </wpt>
+  <wpt lat="46.2877383" lon="14.9062748">
+    <ele>378</ele>
+    <name>Kamp Nirvana</name>
+    <desc>access=customers; cabins=3; capacity:persons=6;
+    caravans=no; contact:phone=+386 70 808 024; name=Kamp Nirvana;
+    note=better tag it tourism=camp lodging; shower=yes; tents=no;
+    toilets=yes; tourism=camp_site; id=node/13868234924</desc>
   </wpt>
   <wpt lat="46.1976037" lon="15.170759943354797">
     <ele>530</ele>
@@ -1011,9 +1029,10 @@ version="1.1" creator="togpx">
     Šobec; operator=tweede overnachting; phone=+386 4 5353700;
     power_supply=yes; sanitary_dump_station=yes; shower=yes;
     tents=yes; toilets=yes; tourism=camp_site;
-    website=http://sobec.si/; wheelchair=yes; wikidata=Q19938125;
-    wikipedia=en:Šobec Campground; id=way/168867597</desc>
-    <link href="http://sobec.si/"></link>
+    website=https://www.sobec.si/; wheelchair=yes;
+    wikidata=Q19938125; wikipedia=en:Šobec Campground;
+    id=way/168867597</desc>
+    <link href="https://www.sobec.si/"></link>
   </wpt>
   <wpt lat="45.5403287" lon="13.672267139456348">
     <ele>0</ele>
@@ -1162,9 +1181,9 @@ version="1.1" creator="togpx">
     operator=WES'M d.o.o.; phone=+386 5 3896007; power_supply=yes;
     ref:vatin=SI24372404; sanitary_dump_station=customers;
     shower=yes; static_caravans=no; tents=yes; toilets=yes;
-    tourism=camp_site; website=http://www.kamp-polovnik.com;
+    tourism=camp_site; website=https://www.kamp-polovnik.com/;
     id=way/351106654</desc>
-    <link href="http://www.kamp-polovnik.com"></link>
+    <link href="https://www.kamp-polovnik.com/"></link>
   </wpt>
   <wpt lat="46.262814649999996" lon="15.298484204454411">
     <ele>256</ele>
@@ -1347,17 +1366,20 @@ version="1.1" creator="togpx">
   <wpt lat="46.4850077" lon="13.837458612077434">
     <ele>751</ele>
     <name>Kamp Špik</name>
-    <desc>addr:city=Gozd Martuljek; addr:housenumber=15;
-    addr:postcode=4282; addr:street=Jezerci; camp_site=serviced;
-    caravans=yes; contact:email=info@camp-spik.si;
-    contact:phone=+386 51 634 466;
+    <desc>access=private; addr:city=Gozd Martuljek;
+    addr:housenumber=15; addr:postcode=4282; addr:street=Jezerci;
+    camp_site=serviced; caravans=yes; check_date=2026-05-05;
+    contact:email=info@camp-spik.si; contact:phone=+386 51 634 466;
     contact:website=http://www.camp-spik.com/; description=Camping
     Spik is situated in the midst of the Julian Alps, on the edge
     of the Triglav National Park.; description_1=Large touring site
     with hookup and modern toilet blocks; drinking_water=yes;
-    fee=yes; name=Kamp Špik; power_supply=yes;
-    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
-    tourism=camp_site; id=way/501369469</desc>
+    fee=yes; internet_access=wlan; internet_access:fee=customers;
+    name=Kamp Špik; payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; stars=3; tents=yes;
+    toilets=yes; tourism=camp_site; wheelchair=yes;
+    id=way/501369469</desc>
     <link href="http://www.camp-spik.com/"></link>
   </wpt>
   <wpt lat="46.369393450000004" lon="15.08518445058899">
@@ -1377,9 +1399,9 @@ version="1.1" creator="togpx">
     internet_access=wlan; internet_access:fee=no; motorhome=yes;
     name=Kamp Triglav; phone=+386 5 388 93 11; power_supply=yes;
     sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
-    tourism=camp_site; website=http://kamp-triglav.si/;
+    tourism=camp_site; website=https://kamp-triglav.si/;
     id=way/515021413</desc>
-    <link href="http://kamp-triglav.si/"></link>
+    <link href="https://kamp-triglav.si/"></link>
   </wpt>
   <wpt lat="46.16652695" lon="13.871371353196507">
     <ele>305</ele>
@@ -1388,7 +1410,8 @@ version="1.1" creator="togpx">
     addr:postcode=5242; addr:street=Koritnica; caravans=yes;
     check_date=2026-04-30; email=camp.sorli@gmail.com;
     internet_access=wlan; internet_access:fee=no; name=Kamp Šorli
-    Koritnica; name:en=Camping Sorli Koritnica;
+    Koritnica; name:en=Camping Sorli Koritnica; payment:cash=yes;
+    payment:credit_cards=yes; payment:debit_cards=yes;
     phone=+38641435261,+38631356367; source=GURS; source_dat=2021;
     tents=yes; tourism=camp_site;
     website=https://www.camp-koritnica.com/;
@@ -1699,10 +1722,10 @@ version="1.1" creator="togpx">
     <ele>155</ele>
     <name>David</name>
     <desc>addr:city=Črniče; addr:housenumber=46;
-    addr:postcode=5262; addr:street=Malovše; caravans=yes;
-    drinking_water=yes; fee=yes; name=David; power_supply=yes;
-    sanitary_dump_station=yes; shower=yes; static_caravans=no;
-    tents=yes; toilets=yes; tourism=camp_site;
+    addr:postcode=5262; addr:street=Malovše; cabins=no;
+    caravans=yes; drinking_water=yes; fee=yes; name=David;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    static_caravans=no; tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.kamp-david.si/; id=way/1255978499</desc>
     <link href="https://www.kamp-david.si/"></link>
   </wpt>
