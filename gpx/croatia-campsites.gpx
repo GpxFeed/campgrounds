@@ -4,17 +4,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
 version="1.1" creator="togpx">
   <metadata>
-    <copyright>
-      <license>"osm3s": { "timestamp_osm_base":
-      "2026-05-24T10:38:36Z", "timestamp_areas_base":
-      "2026-05-24T03:40:07Z", "copyright": "The data included in
-      this document is from www.openstreetmap.org. The data is made
-      available under ODbL." } // SRTM: { Elevation data missing in
-      OSM was added by the NASA Shuttle Radar Topography Mission as
-      public release version, if available there. } // { Check for
-      latest version of this file on:
-      https://github.com/GpxFeed/campgrounds }</license>
-    </copyright>
+    <desc>licenses - "osm3s": { "timestamp_osm_base":
+    "2026-06-01T13:01:15Z", "timestamp_areas_base":
+    "2026-05-12T07:36:16Z", "copyright": "The data included in this
+    document is from www.openstreetmap.org. The data is made
+    available under ODbL." } // SRTM: { Elevation data missing in
+    OSM was added by the NASA Shuttle Radar Topography Mission as
+    public release version, if available there. } // { Check for
+    latest version of this file on:
+    https://github.com/GpxFeed/campgrounds }</desc>
+    <author>
+      <name>gpxfeed</name>
+    </author>
   </metadata>
   <wpt lat="44.5406035" lon="14.883541">
     <ele>11</ele>
@@ -74,10 +75,11 @@ version="1.1" creator="togpx">
     <ele>7</ele>
     <name>Kamp Lisičina</name>
     <desc>addr:city=Omiš; addr:postcode=21310;
-    addr:street=Lisićina; caravans=yes; drinking_water=yes;
-    internet_access=wlan; kitchen=yes; name=Kamp Lisičina;
-    name:en=Camp Lisicina; note=cheap and quiet; power_supply=yes;
-    shower=yes; tents=yes; toilets=yes; toilets:wheelchair=no;
+    addr:street=Lisićina; cabins=no; caravans=yes;
+    drinking_water=yes; internet_access=wlan; kitchen=yes;
+    name=Kamp Lisičina; name:en=Camp Lisicina; note=cheap and
+    quiet; power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; toilets:wheelchair=no;
     tourism=camp_site; website=https://www.ac-lisicina.hr/en;
     wheelchair=yes; id=node/490178390</desc>
     <link href="https://www.ac-lisicina.hr/en"></link>
@@ -1262,7 +1264,8 @@ version="1.1" creator="togpx">
     <name>Odmoree Camp &amp; Hostel</name>
     <desc>caravans=yes; drinking_water=yes; name=Odmoree Camp &amp;
     Hostel; shower=yes; tents=yes; toilets=yes; tourism=camp_site;
-    id=node/10862705009</desc>
+    website=https://www.odmoree.com/; id=node/10862705009</desc>
+    <link href="https://www.odmoree.com/"></link>
   </wpt>
   <wpt lat="43.3072422" lon="17.0051636">
     <ele>36</ele>
@@ -1422,6 +1425,33 @@ version="1.1" creator="togpx">
     power_supply=yes; sanitary_dump_station=yes; shower=yes;
     tents=yes; toilets=yes; tourism=camp_site;
     id=node/13694653557</desc>
+  </wpt>
+  <wpt lat="45.4197729" lon="15.4822432">
+    <ele>131</ele>
+    <name>Camping Brig</name>
+    <desc>name=Camping Brig; tourism=camp_site;
+    id=node/13876715365</desc>
+  </wpt>
+  <wpt lat="45.1150465" lon="13.6285558">
+    <ele>10</ele>
+    <name>Val Saline</name>
+    <desc>caravans=yes; drinking_water=yes; internet_access=wlan;
+    name=Val Saline; power_supply=yes; shower=yes; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=https://www.campvalsaline.hr/de/val-saline-camping;
+    id=way/724534463; ; id=node/13895466133</desc>
+    <link href="https://www.campvalsaline.hr/de/val-saline-camping">
+    </link>
+  </wpt>
+  <wpt lat="43.9649362" lon="15.4142372">
+    <ele>2</ele>
+    <name>Camping Cremona</name>
+    <desc>check_date=2026-05-16; contact:mobile=+385 98 995 0601;
+    email=camping.cremona.turanj@gmail.com; name=Camping Cremona;
+    panoramax=e1e85384-f507-4880-b433-418e241e1b14;
+    source=https://osm.org/note/5294634; tourism=camp_site;
+    id=node/13899033236</desc>
+    <link href="https://osm.org/note/5294634"></link>
   </wpt>
   <wpt lat="44.965219649999995" lon="14.745120089444558">
     <ele>6</ele>
@@ -1847,12 +1877,16 @@ version="1.1" creator="togpx">
   <wpt lat="45.420524549999996" lon="15.484650240968286">
     <ele>125</ele>
     <name>Camp Slapić</name>
-    <desc>addr:city=Duga Resa; addr:housenumber=bb;
-    addr:postcode=47250; addr:street=Mrežnicki Brig bb;
-    caravans=yes; drinking_water=yes; internet_access=wlan;
-    internet_access:fee=no; name=Camp Slapić; name:en=Camping
-    Slapić; power_supply=yes; sanitary_dump_station=yes;
-    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    <desc>access=customers; addr:city=Duga Resa;
+    addr:housenumber=bb; addr:postcode=47250; addr:street=Mrežnicki
+    Brig bb; backcountry=no; cabins=yes; camp_site=serviced;
+    caravans=yes; check_date=2026-05-25; drinking_water=yes;
+    fee=yes; internet_access=wlan; internet_access:fee=no;
+    name=Camp Slapić; name:en=Camping Slapić; openfire=no;
+    payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; picnic_table=yes; power_supply=yes;
+    reservation=yes; sanitary_dump_station=yes; shower=yes;
+    static_caravans=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.campslapic.hr/; wheelchair=yes;
     id=way/67029474</desc>
     <link href="https://www.campslapic.hr/"></link>
@@ -2824,16 +2858,21 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="45.23032995" lon="15.23445808313167">
     <ele>322</ele>
-    <name>Kamp odmorište Sabljaci</name>
-    <desc>addr:city=Ogulin; addr:housenumber=65;
-    addr:postcode=47300; addr:street=Sabljak selo; caravans=yes;
+    <name>Kamp Odmorište Sabljaci</name>
+    <desc>access=customers; addr:city=Ogulin; addr:housenumber=65;
+    addr:postcode=47300; addr:street=Sabljak selo; backcountry=no;
+    cabins=no; camp_site=serviced; caravans=yes;
+    check_date=2026-05-24;
     contact:facebook=https://www.facebook.com/kamp.sabljaci;
-    internet_access=wlan; internet_access:fee=no; name=Kamp
-    odmorište Sabljaci; phone=+385 98 9023 085; power_supply=yes;
-    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
-    washing_machine=yes; water_supply=yes;
+    drinking_water=yes; fee=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Kamp Odmorište Sabljaci;
+    openfire=no; payment:cash=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; phone=+385 98 9023 085;
+    picnic_table=yes; power_supply=yes; sanitary_dump_station=yes;
+    shower=yes; static_caravans=no; tents=yes; toilets=yes;
+    tourism=camp_site; washing_machine=yes; water_supply=yes;
     website=https://www.kamp-odmoriste-sabljaci.hr/;
-    id=way/356975881</desc>
+    wheelchair=yes; id=way/356975881</desc>
     <link href="https://www.kamp-odmoriste-sabljaci.hr/"></link>
   </wpt>
   <wpt lat="43.8227375" lon="15.92100293371733">
@@ -3564,10 +3603,12 @@ version="1.1" creator="togpx">
   <wpt lat="44.33118585" lon="15.361903766208806">
     <ele>7</ele>
     <name>Camp Navis</name>
-    <desc>addr:housenumber=13; addr:street=E65; fee=yes; name=Camp
-    Navis; opening_hours=Mo-Su 07:00-19:00; phone=+385 91 5114 694;
-    tourism=camp_site; website=https://www.camp-navis.com/;
-    id=way/716026376</desc>
+    <desc>addr:housenumber=13; addr:street=E65; cabins=no;
+    caravans=yes; drinking_water=yes; fee=yes; name=Camp Navis;
+    opening_hours=Mo-Su 07:00-19:00; phone=+385 91 5114 694;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.camp-navis.com/; id=way/716026376</desc>
     <link href="https://www.camp-navis.com/"></link>
   </wpt>
   <wpt lat="44.3373975" lon="15.341327089223068">
@@ -3617,17 +3658,6 @@ version="1.1" creator="togpx">
     toilets=yes; tourism=camp_site; website=https://www.planik.hr/;
     id=way/724085438</desc>
     <link href="https://www.planik.hr/"></link>
-  </wpt>
-  <wpt lat="45.11806970000001" lon="13.62639816787452">
-    <ele>18</ele>
-    <name>Val Saline</name>
-    <desc>caravans=yes; drinking_water=yes; internet_access=wlan;
-    name=Val Saline; power_supply=yes; shower=yes; tents=yes;
-    toilets=yes; tourism=camp_site;
-    website=https://www.campvalsaline.hr/de/val-saline-camping;
-    id=way/724534463</desc>
-    <link href="https://www.campvalsaline.hr/de/val-saline-camping">
-    </link>
   </wpt>
   <wpt lat="44.11018335" lon="15.103348031672038">
     <ele>7</ele>
@@ -12085,7 +12115,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>Kamp odmorište Sabljaci</name>
+    <name>Kamp Odmorište Sabljaci</name>
     <trkseg>
       <trkpt lat="45.2307056" lon="15.2349774"></trkpt>
       <trkpt lat="45.2300703" lon="15.2336844"></trkpt>
