@@ -4,17 +4,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
 version="1.1" creator="togpx">
   <metadata>
-    <copyright>
-      <license>"osm3s": { "timestamp_osm_base":
-      "2026-05-24T10:25:30Z", "timestamp_areas_base":
-      "2026-05-24T03:40:07Z", "copyright": "The data included in
-      this document is from www.openstreetmap.org. The data is made
-      available under ODbL." } // SRTM: { Elevation data missing in
-      OSM was added by the NASA Shuttle Radar Topography Mission as
-      public release version, if available there. } // { Check for
-      latest version of this file on:
-      https://github.com/GpxFeed/campgrounds }</license>
-    </copyright>
+    <desc>licenses - "osm3s": { "timestamp_osm_base":
+    "2026-06-01T12:42:00Z", "timestamp_areas_base":
+    "2026-05-31T17:54:30Z", "copyright": "The data included in this
+    document is from www.openstreetmap.org. The data is made
+    available under ODbL." } // SRTM: { Elevation data missing in
+    OSM was added by the NASA Shuttle Radar Topography Mission as
+    public release version, if available there. } // { Check for
+    latest version of this file on:
+    https://github.com/GpxFeed/campgrounds }</desc>
+    <author>
+      <name>gpxfeed</name>
+    </author>
   </metadata>
   <wpt lat="55.7484462" lon="12.5576402">
     <ele>12.0</ele>
@@ -889,10 +890,10 @@ version="1.1" creator="togpx">
     <ele>75.0</ele>
     <name>OK</name>
     <desc>amenity=fuel; branch=Skærup Ø; brand=OK;
-    brand:wikidata=Q12329785; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=OK; opening_hours=24/7;
-    payment:american_express=yes; payment:cash=no;
-    payment:contactless=yes; payment:dankort=yes;
+    brand:wikidata=Q12329785; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=OK;
+    opening_hours=24/7; payment:american_express=yes;
+    payment:cash=no; payment:contactless=yes; payment:dankort=yes;
     payment:diners_club=yes; payment:jcb=yes; payment:maestro=yes;
     payment:mastercard=yes; payment:visa=yes; self_service=only;
     id=node/262137530</desc>
@@ -1404,7 +1405,8 @@ version="1.1" creator="togpx">
     <name>OK</name>
     <desc>amenity=fuel; branch=Høruphav; brand=OK;
     brand:wikidata=Q12329785; brand:wikipedia=da:OK a.m.b.a.;
-    check_date=2022-12-23; fuel:diesel=yes; fuel:octane_98=yes;
+    check_date=2026-05-27; check_date:compressed_air=2026-05-27;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_98=yes;
     name=OK; opening_hours=24/7; wheelchair=limited;
     id=node/290657556</desc>
   </wpt>
@@ -1682,10 +1684,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.0074947" lon="8.1300271">
     <ele>3.0</ele>
-    <name>Q8</name>
-    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q4119207;
-    brand:wikipedia=en:Kuwait Petroleum Corporation; name=Q8;
-    id=node/301590369</desc>
+    <name>node/301590369</name>
+    <desc>amenity=fuel; brand=F24; opening_hours=24/7;
+    self_service=only; wheelchair=no; id=node/301590369</desc>
   </wpt>
   <wpt lat="55.4713052" lon="9.1017187">
     <ele>65.0</ele>
@@ -1751,8 +1752,9 @@ version="1.1" creator="togpx">
   <wpt lat="55.6847974" lon="12.3888073">
     <ele>22.0</ele>
     <name>YX</name>
-    <desc>amenity=fuel; brand=YX Truck; fuel:HGV_diesel=yes;
-    fuel:adblue=yes; operator=YX; id=node/308075189</desc>
+    <desc>amenity=fuel; brand=YX; brand:wikidata=Q4580519;
+    fuel:HGV_diesel=yes; fuel:adblue=yes; name=YX; operator=YX;
+    id=node/308075189</desc>
   </wpt>
   <wpt lat="56.4130353" lon="10.0752833">
     <ele>34.0</ele>
@@ -1991,7 +1993,7 @@ version="1.1" creator="togpx">
   <wpt lat="55.7805005" lon="12.3701541">
     <ele>43.0</ele>
     <name>Q8 Værløse</name>
-    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
+    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q4119207;
     brand:wikipedia=en:Kuwait Petroleum Corporation;
     check_date=2024-01-07; compressed_air=yes; fuel:adblue=yes;
     fuel:diesel=yes; fuel:octane_95=yes; name=Q8 Værløse;
@@ -3245,7 +3247,8 @@ version="1.1" creator="togpx">
     <name>Ingo</name>
     <desc>amenity=fuel; branch=Brande; brand=Ingo;
     brand:wikidata=Q17048617; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Ingo; website=https://www.circlek.dk/station/ingo-brande;
+    name=Ingo; self_service=only;
+    website=https://www.circlek.dk/station/ingo-brande;
     id=node/611353147</desc>
     <link href="https://www.circlek.dk/station/ingo-brande"></link>
   </wpt>
@@ -3770,14 +3773,12 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.169376" lon="11.9570191">
     <ele>40.0</ele>
-    <name>Circle K</name>
-    <desc>amenity=fuel; branch=Tappernøje Vest; brand=Circle K;
-    brand:wikidata=Q3268010; compressed_air=yes; fuel:adblue=yes;
-    name=Circle K;
-    website=https://www.circlek.dk/station/circle-k-mc-tappernoje-vest;
-    id=node/611353617</desc>
-    <link href="https://www.circlek.dk/station/circle-k-mc-tappernoje-vest">
-    </link>
+    <name>OK</name>
+    <desc>amenity=fuel; branch=Tappernøje Vest; brand=OK;
+    brand:wikidata=Q12329785; compressed_air=yes; fuel:adblue=yes;
+    fuel:diesel=yes; fuel:e10=yes; fuel:octane_100=yes; name=OK;
+    website=https://www.ok.dk/; id=node/611353617</desc>
+    <link href="https://www.ok.dk/"></link>
   </wpt>
   <wpt lat="54.99172" lon="12.28405">
     <ele>5.0</ele>
@@ -4002,10 +4003,10 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.5857561" lon="12.32053">
     <ele>3.0</ele>
-    <name>node/611353685</name>
+    <name>Shell</name>
     <desc>amenity=fuel; branch=Hundige; brand=Shell;
-    source=www.statoil.dk, with permission;
-    id=node/611353685</desc>
+    brand:wikidata=Q110716465; name=Shell; source=www.statoil.dk,
+    with permission; id=node/611353685</desc>
   </wpt>
   <wpt lat="55.6768915" lon="12.3891518">
     <ele>22.0</ele>
@@ -4088,10 +4089,10 @@ version="1.1" creator="togpx">
     <ele>46.0</ele>
     <name>Shell</name>
     <desc>amenity=fuel; branch=Express Værløse; brand=Shell;
-    brand:wikidata=Q154950; brand:wikipedia=en:Royal Dutch Shell;
-    compressed_air=yes; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=Shell; opening_hours=24/7;
-    self_service=yes;
+    brand:wikidata=Q110716465; brand:wikipedia=en:Royal Dutch
+    Shell; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=Shell;
+    opening_hours=24/7; self_service=yes;
     website=https://find.shell.com/dk/fuel/DK_12509311-express-vaerlose/da_DK;
     id=node/611353725</desc>
     <link href="https://find.shell.com/dk/fuel/DK_12509311-express-vaerlose/da_DK">
@@ -4395,8 +4396,11 @@ version="1.1" creator="togpx">
     <ele>26.0</ele>
     <name>Circle K</name>
     <desc>amenity=fuel; branch=Skive Vest; brand=Circle K;
-    brand:wikidata=Q3268010; fuel:diesel=yes; fuel:octane_95=yes;
-    name=Circle K; source=Kaart Ground Survey 2017;
+    brand:wikidata=Q3268010; fuel:HGV_diesel=yes; fuel:diesel=yes;
+    fuel:octane_95=yes; name=Circle K; payment:cash=yes;
+    payment:contactless=yes; payment:credit_cards=yes;
+    payment:debit_cards=yes; self_service=yes; source=Kaart Ground
+    Survey 2017;
     website=https://www.circlek.dk/station/circle-k-holstebrovej-skive;
     id=node/611353789</desc>
     <link href="https://www.circlek.dk/station/circle-k-holstebrovej-skive">
@@ -4412,10 +4416,10 @@ version="1.1" creator="togpx">
   <wpt lat="56.36405" lon="8.61202">
     <ele>20.0</ele>
     <name>Circle K Nørrebrogade</name>
-    <desc>amenity=fuel; check_date=2026-02-26;
-    fuel:adblue:canister=yes; fuel:diesel=yes; fuel:e10=yes;
-    fuel:octane_95=yes; name=Circle K Nørrebrogade;
-    not:brand:wikidata=Q1776022; operator=Circle K;
+    <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
+    check_date=2026-02-26; fuel:adblue:canister=yes;
+    fuel:diesel=yes; fuel:e10=yes; fuel:octane_95=yes; name=Circle
+    K Nørrebrogade; not:brand:wikidata=Q1776022; operator=Circle K;
     source=www.statoil.dk, with permission;
     id=node/611353792</desc>
   </wpt>
@@ -5671,7 +5675,7 @@ version="1.1" creator="togpx">
     brand:wikidata=Q12310853; brand:wikipedia=da:F24; name=F24;
     id=node/1267707476</desc>
   </wpt>
-  <wpt lat="55.6509048" lon="12.2213861">
+  <wpt lat="55.650918" lon="12.2213849">
     <ele>35.0</ele>
     <name>Shell</name>
     <desc>amenity=fuel; brand=Shell; brand:wikidata=Q110716465;
@@ -6443,7 +6447,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; branch=Ikast; brand=F24;
     brand:wikidata=Q12310853; name=F24; id=node/1706270738</desc>
   </wpt>
-  <wpt lat="55.6588902" lon="12.3912048">
+  <wpt lat="55.6588728" lon="12.391258">
     <ele>13.0</ele>
     <name>OK</name>
     <desc>amenity=fuel; branch=Brøndby, Sdr. Ringvej; brand=OK;
@@ -6972,8 +6976,8 @@ version="1.1" creator="togpx">
     <ele>40.0</ele>
     <name>Shell</name>
     <desc>amenity=fuel; branch=Frederiksværk; brand=Shell;
-    brand:wikidata=Q154950; brand:wikipedia=en:Royal Dutch Shell;
-    compressed_air=yes; fvst:navnelbnr=110738; name=Shell;
+    brand:wikidata=Q110716465; brand:wikipedia=en:Royal Dutch
+    Shell; compressed_air=yes; fvst:navnelbnr=110738; name=Shell;
     opening_hours=Mo-Fr 06:00-22:00, Sa,Su 07:00-22:00;
     ref:DK:cvr=31623197; id=node/2086304897</desc>
   </wpt>
@@ -8077,7 +8081,7 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; branch=Frederikshavn; brand=Q8;
     brand:wikidata=Q4119207; fuel:diesel=yes; fuel:octane_91=yes;
     fuel:octane_95=yes; fvst:navnelbnr=23904; name=Q8;
-    opening_hours=5:30-23:00; payment:cash=yes;
+    opening_hours=05:30-23:00; payment:cash=yes;
     payment:mastercard=yes; payment:visa=yes; phone=+45 98 43 53
     99; ref:DK:cvr=61082913; ref:DK:cvr:pnummer=1004731297;
     website=https://www.q8.dk/paa-stationen/find-tankstation/9900-frederikshavn-soendergade-255/;
@@ -9458,8 +9462,14 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="56.2047496" lon="9.0146586">
     <ele>44.0</ele>
-    <name>node/4423320819</name>
-    <desc>amenity=fuel; id=node/4423320819</desc>
+    <name>OK</name>
+    <desc>amenity=fuel; brand=OK; brand:wikidata=Q12329785;
+    compressed_air=yes; fuel:diesel=yes; fuel:octane_100=yes;
+    fuel:octane_95=yes; name=OK; payment:american_express=yes;
+    payment:app=yes; payment:cash=no; payment:contactless=yes;
+    payment:dankort=yes; payment:diners_club=yes; payment:jcb=yes;
+    payment:maestro=yes; payment:mastercard=yes; payment:visa=yes;
+    self_service=only; id=node/4423320819</desc>
   </wpt>
   <wpt lat="54.6985829" lon="11.5981271">
     <ele>16.0</ele>
@@ -9473,13 +9483,6 @@ version="1.1" creator="togpx">
     <name>Uno-X</name>
     <desc>amenity=fuel; branch=Vildbjerg; brand=Uno-X;
     brand:wikidata=Q3362746; name=Uno-X; id=node/4455817716</desc>
-  </wpt>
-  <wpt lat="55.9647746" lon="12.5302422">
-    <ele>16.0</ele>
-    <name>OK</name>
-    <desc>amenity=fuel; brand=OK; brand:wikidata=Q12329785;
-    brand:wikipedia=da:OK a.m.b.a.; name=OK;
-    id=node/4456348022</desc>
   </wpt>
   <wpt lat="54.918991" lon="9.5932524">
     <ele>2.0</ele>
@@ -9500,8 +9503,9 @@ version="1.1" creator="togpx">
     <ele>28.0</ele>
     <name>F24</name>
     <desc>amenity=fuel; branch=Skive; brand=F24;
-    brand:wikidata=Q12310853; fvst:navnelbnr=27936; name=F24;
-    ref:DK:cvr=29486816; ref:DK:cvr:pnummer=1002720044;
+    brand:wikidata=Q12310853; fuel:diesel=yes; fuel:octane_95=yes;
+    fvst:navnelbnr=27936; name=F24; ref:DK:cvr=29486816;
+    ref:DK:cvr:pnummer=1002720044; self_service=yes;
     id=node/4458314642</desc>
   </wpt>
   <wpt lat="55.855102" lon="11.9842052">
@@ -9762,8 +9766,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="55.5961059" lon="12.1767998">
     <ele>55.0</ele>
-    <name>node/4807374863</name>
-    <desc>amenity=fuel; brand=YX; id=node/4807374863</desc>
+    <name>YX</name>
+    <desc>amenity=fuel; brand=YX; brand:wikidata=Q4580519; name=YX;
+    id=node/4807374863</desc>
   </wpt>
   <wpt lat="55.6422276" lon="12.1149306">
     <ele>42.0</ele>
@@ -9979,7 +9984,7 @@ version="1.1" creator="togpx">
     <ele>32.0</ele>
     <name>Q8</name>
     <desc>amenity=fuel; branch=Mørkhøj; brand=Q8;
-    brand:wikidata=Q1634762; car_wash=yes;
+    brand:wikidata=Q4119207; car_wash=yes;
     fuel:adblue:canister=yes; fuel:diesel=yes; fuel:octane_95=yes;
     fvst:navnelbnr=95034; name=Q8; opening_hours=Mo-Fr 05:00-21:00,
     Sa-Su 07:00-21:00; ref:DK:cvr=61082913; toilets=yes;
@@ -10790,12 +10795,6 @@ version="1.1" creator="togpx">
     <name>Bonus</name>
     <desc>amenity=fuel; fuel:diesel=yes; fuel:octane_95=yes;
     name=Bonus; id=node/6034171272</desc>
-  </wpt>
-  <wpt lat="55.3649286" lon="11.5273642">
-    <ele>47.0</ele>
-    <name>node/6049400110</name>
-    <desc>amenity=fuel; brand=Kongskilde Benzin;
-    id=node/6049400110</desc>
   </wpt>
   <wpt lat="55.442978" lon="10.182863">
     <ele>38.0</ele>
@@ -13185,8 +13184,9 @@ version="1.1" creator="togpx">
   <wpt lat="55.1150043" lon="12.0394763">
     <ele>8.0</ele>
     <name>Go'on Præstø</name>
-    <desc>amenity=fuel; fuel:diesel=yes; fuel:electricity=yes;
-    fuel:octane_95=yes; name=Go'on Præstø; operator=Go'on;
+    <desc>amenity=fuel; brand=Go'on; brand:wikidata=Q132010768;
+    fuel:diesel=yes; fuel:electricity=yes; fuel:octane_95=yes;
+    name=Go'on Præstø; operator=Go'on;
     operator:wikidata=Q132010768; self_service=yes;
     id=node/12657743770</desc>
   </wpt>
@@ -14142,6 +14142,19 @@ version="1.1" creator="togpx">
     fuel:HGV_diesel=yes; name=OK Truck; payment:dkv=yes;
     payment:uta=yes; id=node/13850263702</desc>
   </wpt>
+  <wpt lat="56.5702104" lon="8.9993685">
+    <ele>30.0</ele>
+    <name>OIL!</name>
+    <desc>amenity=fuel; brand=OIL!; brand:wikidata=Q2007561;
+    name=OIL!; id=node/13899686884</desc>
+  </wpt>
+  <wpt lat="56.4588847" lon="9.3735977">
+    <ele>31.0</ele>
+    <name>Uno-X Truck</name>
+    <desc>amenity=fuel; brand=Uno-X; brand:wikidata=Q3362746;
+    fuel:adblue=yes; fuel:diesel=yes; name=Uno-X Truck;
+    self_service=yes; id=node/13900774626</desc>
+  </wpt>
   <wpt lat="55.5116237" lon="9.39262536134687">
     <ele>42.0</ele>
     <name>Q8</name>
@@ -14571,7 +14584,7 @@ version="1.1" creator="togpx">
   <wpt lat="55.69875115" lon="12.472103284985316">
     <ele>16.0</ele>
     <name>Q8</name>
-    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q1634762;
+    <desc>amenity=fuel; brand=Q8; brand:wikidata=Q4119207;
     brand:wikipedia=en:Kuwait Petroleum Corporation; building=roof;
     layer=1; name=Q8; id=way/291897851</desc>
   </wpt>
@@ -16251,6 +16264,12 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=F24; brand:wikidata=Q12310853;
     building=roof; layer=1; name=F24; id=way/641505336</desc>
   </wpt>
+  <wpt lat="55.364921949999996" lon="11.527394849999997">
+    <ele>47.0</ele>
+    <name>Go’on</name>
+    <desc>amenity=fuel; brand=Go'on; brand:wikidata=Q132010768;
+    building=roof; layer=1; name=Go’on; id=way/642639540</desc>
+  </wpt>
   <wpt lat="55.06349" lon="10.589958299508927">
     <ele>33.0</ele>
     <name>OK</name>
@@ -16303,6 +16322,13 @@ version="1.1" creator="togpx">
     <desc>amenity=fuel; brand=Circle K; brand:wikidata=Q3268010;
     building=yes; fuel:diesel=yes; fuel:octane_95=yes; name=Circle
     K; self_service=yes; id=way/674446618</desc>
+  </wpt>
+  <wpt lat="55.9647866" lon="12.53025798073341">
+    <ele>16.0</ele>
+    <name>OK</name>
+    <desc>amenity=fuel; brand=OK; brand:wikidata=Q12329785;
+    brand:wikipedia=da:OK a.m.b.a.; building=roof; layer=1;
+    name=OK; id=way/674450356</desc>
   </wpt>
   <wpt lat="56.149405200000004" lon="9.767427353857563">
     <ele>85.0</ele>
@@ -16780,6 +16806,12 @@ version="1.1" creator="togpx">
     payment:visa=yes; self_service=yes; toilets=no;
     id=way/1288914759</desc>
   </wpt>
+  <wpt lat="55.1666992" lon="11.882521550000003">
+    <ele>34.0</ele>
+    <name>Uno-X</name>
+    <desc>amenity=fuel; brand=Uno-X; brand:wikidata=Q3362746;
+    building=roof; name=Uno-X; id=way/1299238764</desc>
+  </wpt>
   <wpt lat="55.93410645" lon="9.844302530165638">
     <ele>58.0</ele>
     <name>OK</name>
@@ -16931,10 +16963,10 @@ version="1.1" creator="togpx">
   <wpt lat="55.905127750000005" lon="12.475627636323761">
     <ele>22.0</ele>
     <name>Uno-X</name>
-    <desc>amenity=fuel; area=yes; brand=Uno-X;
-    brand:wikidata=Q3362746; brand:wikipedia=en:Uno-X;
-    building=roof; compressed_air=no; name=Uno-X;
-    opening_hours=Mo-Su 0:00-24:00; id=way/1479019096</desc>
+    <desc>amenity=fuel; brand=Uno-X; brand:wikidata=Q3362746;
+    brand:wikipedia=en:Uno-X; building=roof; compressed_air=no;
+    name=Uno-X; opening_hours=Mo-Su 0:00-24:00;
+    id=way/1479019096</desc>
   </wpt>
   <wpt lat="55.705882450000004" lon="11.670946411355128">
     <ele>36.0</ele>
@@ -16947,10 +16979,10 @@ version="1.1" creator="togpx">
     <ele>7.0</ele>
     <name>OK</name>
     <desc>amenity=fuel; branch=Alslev; brand=OK;
-    brand:wikidata=Q12329785; fuel:diesel=yes; fuel:octane_100=yes;
-    fuel:octane_95=yes; name=OK; opening_hours=24/7; phone=+45
-    70102033; self_service=yes; shop=no;
-    website=https://www.ok.dk/; id=way/1482299543</desc>
+    brand:wikidata=Q12329785; compressed_air=yes; fuel:diesel=yes;
+    fuel:octane_100=yes; fuel:octane_95=yes; name=OK;
+    opening_hours=24/7; phone=+45 70102033; self_service=yes;
+    shop=no; website=https://www.ok.dk/; id=way/1482299543</desc>
     <link href="https://www.ok.dk/"></link>
   </wpt>
   <wpt lat="57.054401850000005" lon="9.906584076322877">

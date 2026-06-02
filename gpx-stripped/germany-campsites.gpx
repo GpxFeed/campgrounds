@@ -4,17 +4,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
 version="1.1" creator="togpx">
   <metadata>
-    <copyright>
-      <license>"osm3s": { "timestamp_osm_base":
-      "2026-05-24T10:20:17Z", "timestamp_areas_base":
-      "2026-05-24T03:40:07Z", "copyright": "The data included in
-      this document is from www.openstreetmap.org. The data is made
-      available under ODbL." } // SRTM: { Elevation data missing in
-      OSM was added by the NASA Shuttle Radar Topography Mission as
-      public release version, if available there. } // { Check for
-      latest version of this file on:
-      https://github.com/GpxFeed/campgrounds }</license>
-    </copyright>
+    <desc>licenses - "osm3s": { "timestamp_osm_base":
+    "2026-06-01T12:34:51Z", "timestamp_areas_base":
+    "2026-05-31T17:54:30Z", "copyright": "The data included in this
+    document is from www.openstreetmap.org. The data is made
+    available under ODbL." } // SRTM: { Elevation data missing in
+    OSM was added by the NASA Shuttle Radar Topography Mission as
+    public release version, if available there. } // { Check for
+    latest version of this file on:
+    https://github.com/GpxFeed/campgrounds }</desc>
+    <author>
+      <name>gpxfeed</name>
+    </author>
   </metadata>
   <wpt lat="51.3952823" lon="13.0057192">
     <ele>151.0</ele>
@@ -27,7 +28,8 @@ version="1.1" creator="togpx">
     <desc>caravans=no; drinking_water=yes; fee=yes;
     name=Wasserwanderrastplatz Gützkow; openfire=yes;
     operator=Kanuverein Gützkow; phone=+49 160 97221638, +49 38353
-    277; shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    277; power_supply=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site;
     website=https://kanuverein-guetzkow.de/gaeste-info/;
     id=node/54849217</desc>
     <link href="https://kanuverein-guetzkow.de/gaeste-info/">
@@ -718,8 +720,10 @@ version="1.1" creator="togpx">
     <ele>129.0</ele>
     <name>Zeltplatz Königsee</name>
     <desc>addr:city=Kemberg; addr:country=DE; addr:postcode=06901;
-    addr:street=Mark Nauendorf; caravans=yes; name=Zeltplatz
-    Königsee; phone=+49 34921 21060,+49 34921 20489; tents=yes;
+    addr:street=Mark Nauendorf; cabins=yes; caravans=yes;
+    drinking_water=yes; name=Zeltplatz Königsee; phone=+49 34921
+    21060,+49 34921 20489; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; website=https://www.camping-koenigsee.de/;
     id=node/485778300</desc>
     <link href="https://www.camping-koenigsee.de/"></link>
@@ -984,7 +988,7 @@ version="1.1" creator="togpx">
   <wpt lat="53.9612071" lon="13.2258113">
     <ele>1.0</ele>
     <name>Wasserwanderrastplatz Alt Plestlin</name>
-    <desc>caravans=yes;
+    <desc>cabins=no; caravans=yes;
     charge:url=https://daten.verwaltungsportal.de/dateien//publicizing/5/6/1/1/4/B_20180322-_Entgeltordnung.pdf;
     fee=yes; name=Wasserwanderrastplatz Alt Plestlin; openfire=yes;
     phone=+49 174 7015180; shower=yes; tents=yes; toilets=yes;
@@ -3683,16 +3687,17 @@ version="1.1" creator="togpx">
   <wpt lat="53.3711327" lon="12.7777604">
     <ele>64.0</ele>
     <name>Wasserwanderrastplatz "Alte Fahrt"</name>
-    <desc>beachvolleyball=yes; cabins=no; camp_site=serviced;
-    canoe=yes; caravans=no; chess=yes; drinking_water=yes;
-    dryer=yes; fee=yes; motorcar=no; motorcycle=no; motorhome=no;
-    name=Wasserwanderrastplatz "Alte Fahrt"; object:city=Rechlin;
-    object:country=DE; object:postcode=17248; object:street=Bolter
-    Schleuse; official_name=Wasserwanderrastplatz Alte Fahrt;
+    <desc>cabins=no; camp_site=serviced; canoe=yes; caravans=no;
+    drinking_water=yes; dryer=yes; fee=yes; motorcar=no;
+    motorcycle=no; motorhome=no; name=Wasserwanderrastplatz "Alte
+    Fahrt"; object:city=Rechlin; object:country=DE;
+    object:postcode=17248; object:street=Bolter Schleuse;
+    official_name=Wasserwanderrastplatz Alte Fahrt;
     operator=Feriendorf "Alte Fahrt"; permanent_camping=no;
     playground=yes; power_supply=yes; sauna=yes; shower=yes;
-    static_caravans=no; surface=grass; table_tennis=yes; tents=yes;
-    toilets=yes; tourism=camp_site; washing_machine=yes;
+    sport=beachvolleyball,chess,table_tennis; static_caravans=no;
+    surface=grass; tents=yes; toilets=yes; tourism=camp_site;
+    washing_machine=yes;
     website=https://mueritz.com/wasserwandern/;
     id=node/5910361585</desc>
     <link href="https://mueritz.com/wasserwandern/"></link>
@@ -4159,11 +4164,12 @@ version="1.1" creator="togpx">
   <wpt lat="51.2916216" lon="12.0613171">
     <ele>94.0</ele>
     <name>Zeltwiese Bootshaus Bad Dürrenberg</name>
-    <desc>caravans=yes; description=Kanuvereinshaus mit Zeltwiese;
-    email=info@kc-bd.de; fee=yes; name=Zeltwiese Bootshaus Bad
-    Dürrenberg; operator=Kanu-Club Bad Dürrenberg e.V.; phone=+49
-    172 3529784; reservation=required; tents=yes; toilets=yes;
-    tourism=camp_site; website=https://www.kc-bd.de/tourismus/;
+    <desc>cabins=no; caravans=yes; description=Kanuvereinshaus mit
+    Zeltwiese; drinking_water=yes; email=info@kc-bd.de; fee=yes;
+    name=Zeltwiese Bootshaus Bad Dürrenberg; operator=Kanu-Club Bad
+    Dürrenberg e.V.; phone=+49 172 3529784; reservation=required;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    website=https://www.kc-bd.de/tourismus/;
     id=node/6620665573</desc>
     <link href="https://www.kc-bd.de/tourismus/"></link>
   </wpt>
@@ -4813,7 +4819,7 @@ version="1.1" creator="togpx">
     id=node/8532098419</desc>
     <link href="https://www.trekkingpark.de/die-plaetze"></link>
   </wpt>
-  <wpt lat="51.371958" lon="8.736014">
+  <wpt lat="51.3719329" lon="8.7359952">
     <ele>542.0</ele>
     <name>St. Muffert bei Heringhausen</name>
     <desc>access=permit; backcountry=yes; capacity:persons=4;
@@ -7629,8 +7635,8 @@ version="1.1" creator="togpx">
     <desc>addr:housenumber=9; addr:postcode=46499;
     addr:street=Heiligenbergweg; name=Campingplatz Hagener Meer;
     phone=+49 2857 2236; tourism=camp_site;
-    website=http://hagenermeer.de; id=node/13807886601</desc>
-    <link href="http://hagenermeer.de"></link>
+    website=https://hagenermeer.de/; id=node/13807886601</desc>
+    <link href="https://hagenermeer.de/"></link>
   </wpt>
   <wpt lat="47.9433666" lon="12.7465411">
     <ele>446.0</ele>
@@ -7648,7 +7654,7 @@ version="1.1" creator="togpx">
     addr:street=Seestr; id=node/13817921502</desc>
     <link href="https://www.strandcamp.de/"></link>
   </wpt>
-  <wpt lat="51.8284032" lon="8.8382437">
+  <wpt lat="51.8286293" lon="8.838016">
     <ele>180.0</ele>
     <name>Trekkingplattform Schlangen-Oesterholz</name>
     <desc>backcountry=yes; cabins=no; camp_site=basic; capacity=2;
@@ -7677,6 +7683,27 @@ version="1.1" creator="togpx">
     <desc>camp_site=basic; fee=yes; maxstay=1 night;
     name=Biwakplatz Wassersportcentrum "Himmelpfort Pian";
     tourism=camp_site; id=node/13865797125</desc>
+  </wpt>
+  <wpt lat="51.1860441" lon="13.5752895">
+    <ele>172.0</ele>
+    <name>Niederau</name>
+    <desc>internet_access=wlan; name=Niederau; tourism=camp_site;
+    id=node/13875751201</desc>
+  </wpt>
+  <wpt lat="50.5699212" lon="10.435926">
+    <ele>369.0</ele>
+    <name>node/13887149887</name>
+    <desc>tourism=camp_site; id=node/13887149887</desc>
+  </wpt>
+  <wpt lat="49.5895062" lon="11.6260708">
+    <ele>524.0</ele>
+    <name>Smitherson Farmland Campsite</name>
+    <desc>addr:housenumber=24; addr:postcode=92275;
+    addr:street=Pruppach; email=isabel.s.a.smith@gmail.com;
+    name=Smitherson Farmland Campsite; phone=+4917645926984;
+    tourism=camp_site; website=https://park4night.com/lieu/586164/;
+    id=node/13890774701</desc>
+    <link href="https://park4night.com/lieu/586164/"></link>
   </wpt>
   <wpt lat="48.4941463" lon="8.2885525">
     <ele>786.0</ele>
@@ -9919,8 +9946,8 @@ version="1.1" creator="togpx">
     <link href="https://www.nationalpark-bayerischer-wald.bayern.de/lernort/jugendzeltplatz/index.htm">
     </link>
   </wpt>
-  <wpt lat="52.928555" lon="7.291998977708007">
-    <ele>5.0</ele>
+  <wpt lat="52.928294199999996" lon="7.292512511942114">
+    <ele>4.0</ele>
     <name>Marinapark Emstal</name>
     <desc>caravans=yes; name=Marinapark Emstal; tourism=camp_site;
     type=multipolygon; website=https://www.marinapark.de/;
@@ -10320,10 +10347,13 @@ version="1.1" creator="togpx">
     <ele>722.0</ele>
     <name>Campingplatz Heidehof</name>
     <desc>addr:city=Laichingen; addr:housenumber=50;
-    addr:postcode=89150; addr:street=Heidehofstraße; caravans=yes;
-    fee=yes; name=Campingplatz Heidehof; permanent_camping=yes;
-    phone=+49 7333 6408; tents=yes; tourism=camp_site;
-    website=https://www.camping-heidehof.de/;
+    addr:postcode=89150; addr:street=Heidehofstraße; cabins=yes;
+    caravans=yes; drinking_water=yes; fee=yes; internet_access=no;
+    name=Campingplatz Heidehof; permanent_camping=yes; phone=+49
+    7333 6408; power_supply=yes; sanitary_dump_station=yes;
+    sauna=no; shower=yes; swimming_pool=outdoor; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=https://www.camping-heidehof.de/; wheelchair=yes;
     id=way/23129067</desc>
     <link href="https://www.camping-heidehof.de/"></link>
   </wpt>
@@ -10589,9 +10619,10 @@ version="1.1" creator="togpx">
     <name>Mölle Süd Camp</name>
     <desc>access=private; addr:city=Grünheide OT Alt Buchhorst;
     addr:postcode=15537; alt_name=Naturcampingplatz Möllensee;
-    email=vereinmsc@aol.com; fax=+493362502743; fee=yes; name=Mölle
-    Süd Camp; operator=Mölle - Süd - Camp e.V.; phone=+4933626345;
-    power_supply=yes; tourism=camp_site;
+    cabins=yes; caravans=yes; email=vereinmsc@aol.com;
+    fax=+493362502743; fee=yes; name=Mölle Süd Camp; operator=Mölle
+    - Süd - Camp e.V.; phone=+4933626345; power_supply=yes;
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
     website=https://moelle-sued-camp.de/; wikidata=Q123206418;
     id=way/24467111</desc>
     <link href="https://moelle-sued-camp.de/"></link>
@@ -10758,10 +10789,12 @@ version="1.1" creator="togpx">
     <desc>addr:city=Geesthacht; addr:country=DE;
     addr:housenumber=35; addr:postcode=21502;
     addr:street=Strandweg; addr:suburb=Tesperhude Strand;
-    caravans=yes; drinking_water=yes; name=Campingplatz "Hohes
-    Elbufer"; phone=+49 176 61573880, +49 4152 4639;
-    power_supply=yes; shower=yes; tents=yes; tourism=camp_site;
-    website=https://campen-ohne-deich.de/; id=way/24671021</desc>
+    cabins=no; caravans=yes; drinking_water=yes; name=Campingplatz
+    "Hohes Elbufer"; phone=+49 176 61573880, +49 4152 4639;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=yes; toilets=yes; tourism=camp_site;
+    website=https://campen-ohne-deich.de/; wheelchair=yes;
+    id=way/24671021</desc>
     <link href="https://campen-ohne-deich.de/"></link>
   </wpt>
   <wpt lat="51.134519" lon="7.933851918250323">
@@ -11110,9 +11143,11 @@ version="1.1" creator="togpx">
   <wpt lat="54.27777775" lon="13.70119695635565">
     <ele>-2.0</ele>
     <name>Surfoase Klein Zicker</name>
-    <desc>addr:housenumber=4; addr:street=Hauptstraße;
-    camp_site=serviced; email=surfoase@segelschule-ruegen.de;
-    name=Surfoase Klein Zicker; phone=+49 38308 30125;
+    <desc>addr:housenumber=4; addr:street=Hauptstraße; cabins=no;
+    camp_site=serviced; caravans=yes; drinking_water=no;
+    email=surfoase@segelschule-ruegen.de; name=Surfoase Klein
+    Zicker; phone=+49 38308 30125; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; wheelchair=limited; id=way/25681716</desc>
   </wpt>
   <wpt lat="51.6274755" lon="12.235522528371161">
@@ -12267,8 +12302,8 @@ version="1.1" creator="togpx">
     <name>Country Camp Oderwitz</name>
     <desc>access=customers; addr:city=Oderwitz;
     addr:housenumber=2d; addr:postcode=02791; addr:street=An der
-    Neubauernsiedlung; name=Country Camp Oderwitz; operator=Uwe
-    Adler; tourism=camp_site;
+    Neubauernsiedlung; caravans=yes; name=Country Camp Oderwitz;
+    operator=Uwe Adler; tents=yes; tourism=camp_site;
     website=https://www.countrycampoderwitz.de;
     id=way/28819803</desc>
     <link href="https://www.countrycampoderwitz.de"></link>
@@ -13043,19 +13078,6 @@ version="1.1" creator="togpx">
     washing_machine=yes; website=http://www.groenwohld-camping.de/;
     id=way/31991040</desc>
     <link href="http://www.groenwohld-camping.de/"></link>
-  </wpt>
-  <wpt lat="50.5695921" lon="10.435802309473686">
-    <ele>363.0</ele>
-    <name>Rohrer Stirn</name>
-    <desc>addr:street=Rohrer Stirn; capacity:caravans=30;
-    capacity:tents=15; caravans=yes; motorhome=yes; name=Rohrer
-    Stirn; opening_hours=Apr 1 - Oct 31; operator=Stadtwerke
-    Meiningen; shower=yes; tents=yes; toilets=yes;
-    tourism=camp_site;
-    website=https://www.stadtwerke-meiningen.de/freizeitbaeder/camping;
-    id=way/32000510</desc>
-    <link href="https://www.stadtwerke-meiningen.de/freizeitbaeder/camping">
-    </link>
   </wpt>
   <wpt lat="50.224404" lon="7.4087292888376926">
     <ele>77.0</ele>
@@ -14123,9 +14145,10 @@ version="1.1" creator="togpx">
     contact:email=info@camping-seeshaupt.com; contact:fax=+49 8801
     911807; contact:phone=+49 8801 1528;
     contact:website=https://camping-seeshaupt.com/; dog=yes;
-    dryer=yes; internet_access=wlan; name=Campingplatz Seeshaupt;
-    permanent_camping=yes; power_supply=yes; shower=yes; tents=no;
-    toilets=yes; tourism=camp_site; washing_machine=yes;
+    drinking_water=yes; dryer=yes; internet_access=wlan;
+    name=Campingplatz Seeshaupt; permanent_camping=yes;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
+    tents=no; toilets=yes; tourism=camp_site; washing_machine=yes;
     wheelchair=limited; id=way/35428485</desc>
     <link href="https://camping-seeshaupt.com/"></link>
   </wpt>
@@ -16638,9 +16661,9 @@ version="1.1" creator="togpx">
     contact:mobile=+49 173 6617121;
     email=campingplatz.erlengrund@t-online.de; name=Camping Im
     Erlengrund; phone=+49 2823 5583; tourism=camp_site;
-    website=http://www.campingclub-erlengrund.de/;
+    website=https://www.campingclub-erlengrund.de/;
     id=way/43204159</desc>
-    <link href="http://www.campingclub-erlengrund.de/"></link>
+    <link href="https://www.campingclub-erlengrund.de/"></link>
   </wpt>
   <wpt lat="51.2175886" lon="6.14651467183676">
     <ele>69.0</ele>
@@ -17463,9 +17486,10 @@ version="1.1" creator="togpx">
     <ele>-1.0</ele>
     <name>Belt-Camping-Fehmarn</name>
     <desc>access=customers; addr:city=Fehmarn; addr:housenumber=24;
-    addr:postcode=23769; addr:street=Altenteil; caravans=yes;
-    drinking_water=yes; fee=yes; name=Belt-Camping-Fehmarn;
-    operator=Familie Averhoff; power_supply=yes; shower=yes;
+    addr:postcode=23769; addr:street=Altenteil; cabins=no;
+    caravans=yes; drinking_water=yes; fee=yes;
+    name=Belt-Camping-Fehmarn; operator=Familie Averhoff;
+    power_supply=yes; sanitary_dump_station=yes; shower=yes;
     tents=yes; toilets=yes; toilets:wheelchair=yes;
     tourism=camp_site;
     website=https://www.belt-camping-fehmarn.de/; wheelchair=yes;
@@ -18126,7 +18150,7 @@ version="1.1" creator="togpx">
   <wpt lat="52.92746835" lon="7.2450074074006">
     <ele>6.0</ele>
     <name>Campingplatz Eiken</name>
-    <desc>layer=-1; name=Campingplatz Eiken; tourism=camp_site;
+    <desc>name=Campingplatz Eiken; tourism=camp_site;
     id=way/53499776</desc>
   </wpt>
   <wpt lat="52.92462295" lon="7.246038588945639">
@@ -22181,10 +22205,11 @@ version="1.1" creator="togpx">
     caravans=yes; contact:email=info@spreewaldcamping.de;
     contact:fax=+49 3542 3533; contact:phone=+49 3542 3533;
     contact:website=http://www.spreewaldcamping.de;
-    internet_access=wlan; internet_access:fee=customers;
-    name=Spreewald-Natur-Camping "Am Schlosspark";
-    power_supply=cee_17_blue; sanitary_dump_station=yes; stars=4;
-    tents=yes; tourism=camp_site;
+    drinking_water=yes; internet_access=wlan;
+    internet_access:fee=customers; name=Spreewald-Natur-Camping "Am
+    Schlosspark"; power_supply=cee_17_blue;
+    sanitary_dump_station=yes; shower=yes; stars=4; tents=yes;
+    toilets=yes; tourism=camp_site;
     website=https://www.spreewaldcamping-schloss.de/;
     id=way/94425116</desc>
     <link href="http://www.spreewaldcamping.de"></link>
@@ -24484,9 +24509,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Rosenberg; addr:housenumber=2;
     addr:postcode=73494; addr:street=Hüttenhof; caravans=yes;
     name=Waldcamping Hüttenhof; phone=+49 7963 203; tents=yes;
-    tourism=camp_site; website=http://www.waldcamp.de/;
+    tourism=camp_site; website=https://www.waldcamp.de/;
     id=way/112444399</desc>
-    <link href="http://www.waldcamp.de/"></link>
+    <link href="https://www.waldcamp.de/"></link>
   </wpt>
   <wpt lat="48.607091249999996" lon="13.345697818423869">
     <ele>331.0</ele>
@@ -25116,13 +25141,16 @@ version="1.1" creator="togpx">
   <wpt lat="54.42095345" lon="13.588587495404768">
     <ele>5.0</ele>
     <name>Campingpark Rügen</name>
-    <desc>access=customers; addr:city=Binz; addr:country=DE;
+    <desc>access=members; addr:city=Binz; addr:country=DE;
     addr:housenumber=19; addr:postcode=18609;
     addr:street=Strandstraße; addr:suburb=Prora; caravans=yes;
-    drinking_water=yes; name=Campingpark Rügen;
-    opening_hours=Apr-Oct; operator=Bundeswehr Sozialwerk e.V.;
-    power_supply=yes; sanitary_dump_station=yes; shower=yes;
-    tents=yes; toilets=yes; tourism=camp_site;
+    description=Buchungen der Unterkünfte und Stellplätze auf dem
+    Campingpark Rügen sind ausschließlich den Mitgliedern des
+    Bundeswehr Sozialwerks vorbehalten.; drinking_water=yes;
+    name=Campingpark Rügen; opening_hours=Apr-Oct;
+    operator=Bundeswehr Sozialwerk e.V.; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site;
     website=https://www.bundeswehr-sozialwerk.de/reiseangebot/unterkuenfte/campingpark-ruegen/;
     id=way/117892357</desc>
     <link href="https://www.bundeswehr-sozialwerk.de/reiseangebot/unterkuenfte/campingpark-ruegen/">
@@ -28959,8 +28987,9 @@ version="1.1" creator="togpx">
     <desc>addr:city=Königstein; addr:country=DE;
     addr:housenumber=7; addr:postcode=01824;
     addr:street=Nikolsdorfer Berg; addr:suburb=Leupoldishain;
-    caravans=yes; name=Campingplatz Nikolsdorfer Berg; phone=+49
-    35021 99144; tents=yes; tourism=camp_site;
+    cabins=yes; caravans=yes; name=Campingplatz Nikolsdorfer Berg;
+    phone=+49 35021 99144; power_supply=yes; shower=yes; tents=yes;
+    tourism=camp_site;
     website=http://www.camping-nikolsdorferberg.de;
     id=way/156375730</desc>
     <link href="http://www.camping-nikolsdorferberg.de"></link>
@@ -29885,7 +29914,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.6778687" lon="10.030843140081796">
     <ele>763.0</ele>
     <name>Waldbad Camping Isny</name>
-    <desc>caravans=yes; drinking_water=yes; dryer=yes;
+    <desc>cabins=yes; caravans=yes; drinking_water=yes; dryer=yes;
     email=info@camping-isny.de; fax=+49 7562 2389; name=Waldbad
     Camping Isny; phone=+49 7562 2389; power_supply=yes;
     sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
@@ -30211,7 +30240,7 @@ version="1.1" creator="togpx">
     tourism=camp_site; id=way/169317536</desc>
     <link href="http://www.camping-am-faehrsee-templin.de/"></link>
   </wpt>
-  <wpt lat="53.09621385" lon="13.433794362239567">
+  <wpt lat="53.09621385" lon="13.433800592238699">
     <ele>49.0</ele>
     <name>Naturcamp e.V. Röddelin</name>
     <desc>addr:city=Templin; addr:country=DE; addr:housenumber=23a;
@@ -30276,8 +30305,10 @@ version="1.1" creator="togpx">
   <wpt lat="50.38205065" lon="7.119083951077011">
     <ele>368.0</ele>
     <name>Falkenleymühle</name>
-    <desc>name=Falkenleymühle; tourism=camp_site;
-    id=way/169996912</desc>
+    <desc>cabins=no; caravans=yes; drinking_water=yes;
+    name=Falkenleymühle; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
+    tourism=camp_site; id=way/169996912</desc>
   </wpt>
   <wpt lat="53.7020783" lon="10.670216663145421">
     <ele>39.0</ele>
@@ -30559,9 +30590,9 @@ version="1.1" creator="togpx">
   <wpt lat="51.4995207" lon="13.982746466526066">
     <ele>102.0</ele>
     <name>Komfortcamping Senftenberger See</name>
-    <desc>email=komfortcamping@senftenberger-see.de;
+    <desc>caravans=yes; email=komfortcamping@senftenberger-see.de;
     name=Komfortcamping Senftenberger See; phone=+49 3573 661543;
-    tourism=camp_site;
+    tents=yes; tourism=camp_site;
     website=https://www.senftenberger-see.de/de/komfortcamping.html;
     id=way/172562214</desc>
     <link href="https://www.senftenberger-see.de/de/komfortcamping.html">
@@ -30672,7 +30703,8 @@ version="1.1" creator="togpx">
     contact:phone=+49 5446 644;
     contact:website=http://www.campingplatz-doenseler-heide.de;
     lastcheck=2023-06-29; name=Campingplatz Dönseler Heide;
-    tents=yes; tourism=camp_site; id=way/173997110</desc>
+    shower=yes; tents=yes; toilets=yes; tourism=camp_site;
+    id=way/173997110</desc>
     <link href="http://www.campingplatz-doenseler-heide.de"></link>
   </wpt>
   <wpt lat="50.590063650000005" lon="9.080188273069812">
@@ -30691,12 +30723,13 @@ version="1.1" creator="togpx">
   <wpt lat="51.191544199999996" lon="10.094620107449948">
     <ele>156.0</ele>
     <name>Werratalsee-Naturcamp-Meinhard</name>
-    <desc>addr:housenumber=1; addr:street=Am Seepark; caravans=no;
-    dog=yes; email=info@werratalsee-naturcamp-meinhard.de;
+    <desc>addr:housenumber=1; addr:street=Am Seepark; cabins=yes;
+    caravans=no; dog=yes; drinking_water=yes;
+    email=info@werratalsee-naturcamp-meinhard.de;
     internet_access=no; name=Werratalsee-Naturcamp-Meinhard;
     openfire=yes; opening_hours=24/7; phone=+49 5651 992621 0;
     power_supply=no; shower=hot; smoking=yes; tents=yes;
-    tourism=camp_site;
+    toilets=yes; tourism=camp_site;
     website=https://www.werratalsee-naturcamp-meinhard.de/;
     wheelchair=yes; id=way/174286488</desc>
     <link href="https://www.werratalsee-naturcamp-meinhard.de/">
@@ -32263,7 +32296,7 @@ version="1.1" creator="togpx">
     <name>Familien- und Kurcampingplatz Bensersiel</name>
     <desc>addr:city=Esens; addr:country=DE; addr:housenumber=8;
     addr:postcode=26427; addr:street=Am Strand;
-    addr:suburb=Bensersiel; camp_site=deluxe; caravans=yes;
+    addr:suburb=Bensersiel; camp_site=deluxe; caravans=yes; dog=no;
     name=Familien- und Kurcampingplatz Bensersiel;
     operator=Esens-Bensersiel Tourismus GmbH; power_supply=yes;
     sanitary_dump_station=yes; tents=yes; toilets=yes;
@@ -34153,8 +34186,9 @@ version="1.1" creator="togpx">
     <name>Wasserwanderrastplatz Pensin</name>
     <desc>backcountry=yes; caravans=no;
     contact:website=https://www.pensin-mv.de/wasserwanderrastplatz/;
-    fee=yes; name=Wasserwanderrastplatz Pensin; operator=Gemeinde
-    Kletzin, Herr Kunkel; tents=yes; tourism=camp_site;
+    drinking_water=yes; fee=yes; name=Wasserwanderrastplatz Pensin;
+    operator=Gemeinde Kletzin, Herr Kunkel; power_supply=no;
+    shower=no; tents=yes; toilets=yes; tourism=camp_site;
     id=way/236361557</desc>
     <link href="https://www.pensin-mv.de/wasserwanderrastplatz/">
     </link>
@@ -36477,11 +36511,13 @@ version="1.1" creator="togpx">
   <wpt lat="50.9386883" lon="10.063866820993105">
     <ele>206.0</ele>
     <name>Freizeitcamp Berka</name>
-    <desc>cabins=yes; caravans=no; email=uwe@freizeitcamp-werra.de;
-    internet_access=wlan; internet_access:fee=no;
-    leisure=recreation_ground; name=Freizeitcamp Berka; phone=+49
-    173 2958531; tents=yes; tourism=camp_site;
-    website=https://www.freizeitcamp-werra.de/;
+    <desc>cabins=yes; caravans=no; drinking_water=yes;
+    email=uwe@freizeitcamp-werra.de; internet_access=wlan;
+    internet_access:fee=no; leisure=recreation_ground;
+    name=Freizeitcamp Berka; phone=+49 173 2958531;
+    power_supply=yes; shower=yes; swimming_pool=no; tents=yes;
+    toilets=yes; tourism=camp_site;
+    website=https://www.freizeitcamp-werra.de/; wheelchair=no;
     id=way/303318477</desc>
     <link href="https://www.freizeitcamp-werra.de/"></link>
   </wpt>
@@ -37107,14 +37143,14 @@ version="1.1" creator="togpx">
     <ele>221.0</ele>
     <name>Abenteuercamp Lauenhain</name>
     <desc>addr:city=Mittweida; addr:housenumber=5;
-    addr:postcode=09648; addr:street=An der Talsperre;
+    addr:postcode=09648; addr:street=An der Talsperre; caravans=no;
     contact:website=https://abenteuercamp-lauenhain.de/;
     group_only=yes; name=Abenteuercamp Lauenhain; operator=Heiko
     Rudolph; tourism=camp_site; id=way/328643077</desc>
     <link href="https://abenteuercamp-lauenhain.de/"></link>
   </wpt>
-  <wpt lat="52.8925826" lon="11.503774315626817">
-    <ele>35.0</ele>
+  <wpt lat="52.89237665" lon="11.503616730591624">
+    <ele>33.0</ele>
     <name>Am See</name>
     <desc>cabins=yes; caravans=yes;
     email=camping@luftkurort-arendsee.de; name=Am See; phone=+49
@@ -39033,12 +39069,13 @@ version="1.1" creator="togpx">
     <ele>94.0</ele>
     <name>Camping Kollersee</name>
     <desc>backcountry=no; bar=yes; barrier=fence; caravans=yes;
-    email=anfrage@inselcamping-kollersee.de; fee=yes;
-    internet_access=yes; name=Camping Kollersee; nudism=no;
-    operator=SKR GmbH; phone=+49 6202 7601674; reservation=yes;
-    static_caravans=yes; swimming_pool=no; tents=yes;
-    tourism=camp_site; website=https://inselcamping-kollersee.de/;
-    wheelchair=yes; id=way/386849546</desc>
+    drinking_water=yes; email=anfrage@inselcamping-kollersee.de;
+    fee=yes; internet_access=yes; name=Camping Kollersee;
+    nudism=no; operator=SKR GmbH; phone=+49 6202 7601674;
+    reservation=yes; shower=yes; static_caravans=yes;
+    swimming_pool=no; tents=yes; tourism=camp_site;
+    website=https://inselcamping-kollersee.de/; wheelchair=yes;
+    id=way/386849546</desc>
     <link href="https://inselcamping-kollersee.de/"></link>
   </wpt>
   <wpt lat="49.5952538" lon="6.5707266627023495">
@@ -40328,10 +40365,11 @@ version="1.1" creator="togpx">
     <ele>83.0</ele>
     <name>Campingplatz am Großen Teich</name>
     <desc>addr:city=Torgau; addr:housenumber=30;
-    addr:postcode=04860; addr:street=Turnierplatzweg; caravans=yes;
-    drinking_water=yes; email=info@campingplatz-torgau.de; fee=yes;
-    internet_access=no; name=Campingplatz am Großen Teich;
-    operator=Stadt Torgau; phone=+49 3421 902875; power_supply=yes;
+    addr:postcode=04860; addr:street=Turnierplatzweg; cabins=yes;
+    caravans=yes; drinking_water=yes;
+    email=info@campingplatz-torgau.de; fee=yes; internet_access=no;
+    name=Campingplatz am Großen Teich; operator=Stadt Torgau;
+    phone=+49 3421 902875; power_supply=yes;
     sanitary_dump_station=yes; shower=yes; tents=yes; toilets=yes;
     tourism=camp_site; website=https://www.campingplatz-torgau.de;
     id=way/462638079</desc>
@@ -43731,12 +43769,14 @@ version="1.1" creator="togpx">
     <desc>access=customers; addr:city=Schönau-Berzdorf auf dem
     Eigen; addr:country=DE; addr:housenumber=5;
     addr:postcode=02899; addr:street=An der Blauen Lagune;
-    capacity:caravans=122; capacity:tents=16; caravans=yes;
-    contact:mobile=+49 1736 582966; dog=leashed;
-    email=info@camping-berzdorfer-see.de; fee=yes; motorhome=yes;
-    name=Piratencamp - Blaue Lagune; opening_hours=Apr-Oct;
-    operator=Campingpark Berzdorfer See GmbH; permanent_camping=no;
-    shower=yes; static_caravans=no; tents=yes; tourism=camp_site;
+    cabins=no; capacity:caravans=122; capacity:tents=16;
+    caravans=yes; contact:mobile=+49 1736 582966; dog=leashed;
+    drinking_water=yes; email=info@camping-berzdorfer-see.de;
+    fee=yes; motorhome=yes; name=Piratencamp - Blaue Lagune;
+    opening_hours=Apr-Oct; operator=Campingpark Berzdorfer See
+    GmbH; permanent_camping=no; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; static_caravans=no;
+    tents=yes; toilets=yes; tourism=camp_site;
     website=https://www.piraten-camp.com; id=way/760019286</desc>
     <link href="https://www.piraten-camp.com"></link>
   </wpt>
@@ -44265,8 +44305,9 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="53.427443600000004" lon="12.606805248949453">
     <ele>63.0</ele>
-    <name>way/817267672</name>
-    <desc>permanent_camping=only; tourism=camp_site;
+    <name>Campingplatz Hirschberg</name>
+    <desc>cabins=yes; caravans=yes; name=Campingplatz Hirschberg;
+    permanent_camping=only; tents=yes; tourism=camp_site;
     id=way/817267672</desc>
   </wpt>
   <wpt lat="53.4211003" lon="12.59173883234519">
@@ -46963,7 +47004,7 @@ version="1.1" creator="togpx">
     id=way/1175262844</desc>
     <link href="https://www.camping-weimar-tiefurt.de/"></link>
   </wpt>
-  <wpt lat="53.120730300000005" lon="10.325865439602879">
+  <wpt lat="53.12071365" lon="10.325858519939302">
     <ele>97.0</ele>
     <name>Lichtheideheim Glüsingen</name>
     <desc>access=customers; addr:city=Betzendorf; addr:country=DE;
@@ -48638,7 +48679,7 @@ version="1.1" creator="togpx">
     <name>Campotel Nord-Ostsee</name>
     <desc>addr:city=Silberstedt; addr:country=DE;
     addr:housenumber=2; addr:postcode=24887;
-    addr:street=Hollingstedter Straße; caravans=yes;
+    addr:street=Hollingstedter Straße; caravans=yes; dog=no;
     drinking_water=yes; email=info@campotel-nordostsee.de;
     name=Campotel Nord-Ostsee; phone=+49 4626 187952;
     power_supply=yes; shower=yes; tents=yes; toilets=yes;
@@ -49187,6 +49228,48 @@ version="1.1" creator="togpx">
     addr:postcode=29393; addr:street=Mühlenstraße;
     name=Campingplatz Mühlensee; tourism=camp_site;
     id=way/1512910934</desc>
+  </wpt>
+  <wpt lat="50.0450326" lon="10.933930321662285">
+    <ele>246.0</ele>
+    <name>way/1524559673</name>
+    <desc>access=private; caravans=yes; fixme=Lot's of caravans but
+    no signs, so probably not a public campsite; tents=no;
+    tourism=camp_site; id=way/1524559673</desc>
+  </wpt>
+  <wpt lat="50.25151395" lon="8.729182719158803">
+    <ele>134.0</ele>
+    <name>way/1524926650</name>
+    <desc>access=private,customers; camp_site=basic; caravans=no;
+    fee=yes; group_only=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1524926650</desc>
+  </wpt>
+  <wpt lat="50.25128525" lon="8.729314795154723">
+    <ele>134.0</ele>
+    <name>way/1524926651</name>
+    <desc>access=private,customers; camp_site=basic; caravans=no;
+    fee=yes; group_only=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1524926651</desc>
+  </wpt>
+  <wpt lat="50.25185645" lon="8.729014642494928">
+    <ele>131.0</ele>
+    <name>way/1524926652</name>
+    <desc>access=private,customers; camp_site=basic; caravans=no;
+    fee=yes; group_only=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1524926652</desc>
+  </wpt>
+  <wpt lat="50.251258750000005" lon="8.729778969048759">
+    <ele>134.0</ele>
+    <name>way/1524926653</name>
+    <desc>access=private,customers; camp_site=basic; caravans=no;
+    fee=yes; group_only=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1524926653</desc>
+  </wpt>
+  <wpt lat="50.25132935" lon="8.73022622263491">
+    <ele>133.0</ele>
+    <name>way/1524926654</name>
+    <desc>access=private,customers; camp_site=basic; caravans=no;
+    fee=yes; group_only=yes; static_caravans=no; surface=grass;
+    tents=yes; tourism=camp_site; id=way/1524926654</desc>
   </wpt>
   <wpt lat="49.7796776" lon="9.929146420004745">
     <ele>171.0</ele>
