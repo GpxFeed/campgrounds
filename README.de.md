@@ -15,12 +15,12 @@ Die ganze Geschichte ist in erster Linie für die Offline-Nutzung auf einem alte
 
 - Wohnmobilstellplatz Pois  - mehrere scheinen fälschlicherweise als "Wohnmobilstellplatz" klassifiziert zu sein und sind trotz alledem auch für Camper mit Zelt usw. geeignet.
 
-    - 20814 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 20816 Wohnmobilstellplätze   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Zusätzliche Pois für die Grundversorgung des reisenden Campers selbst und seines Kleintransporters, Motorrades, Gespanns oder Hippie-Busses
 
-    - 222574 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 174011 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 222576 Supermärkte   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 174010 Tankstellen  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Länder
 
