@@ -15,12 +15,12 @@ L'ensemble de l'application est principalement destinée à être utilisée hors
 
 - POIs de Camping-car - plusieurs semblent être mal classés comme "camping-cars" et malgré tout, ils conviennent aux campeurs avec tentes, etc.
 
-    - 20814 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 20816 Emplacements pour camping-cars   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - POIs supplémentaire pour les besoins fondamentaux du campeur voyageur lui-même et de sa camionnette, sa moto avec side-car ou son bus hippie.
 
-    - 222574 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 174011 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 222576 Supermarchés   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 174010 Stations d'essence  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Pays
 
