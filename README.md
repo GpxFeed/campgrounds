@@ -15,12 +15,12 @@ The whole application is primarily intended for offline use on an old quad core 
 
 - Caravan site pois  -  several seem to be wrongly classified as "Caravan site" and are nevertheless also suitable for campers with tent etc.
 
-    - 20814 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
+    - 20816 caravan sites   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/a/a1/Caravan-16.svg/16px-Caravan-16.svg.png)
 
 - Additional pois for basic supplies of the traveling camper himself and his micro van, motorcycle, sidecar rig or hippie bus
 
-    - 222574 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
-    - 174011 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
+    - 222576 supermarkets   ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/76/Supermarket-14.svg/16px-Supermarket-14.svg.png)
+    - 174010 fuel stations  ![alt text](https://wiki.openstreetmap.org/w/images/thumb/7/77/Fuel-16.svg/16px-Fuel-16.svg.png)
 
 - Countries
 
