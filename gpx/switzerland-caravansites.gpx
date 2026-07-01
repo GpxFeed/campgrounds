@@ -5,7 +5,7 @@ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/
 version="1.1" creator="togpx">
   <metadata>
     <desc>licenses - "osm3s": { "timestamp_osm_base":
-    "2026-06-01T12:31:45Z", "timestamp_areas_base":
+    "2026-07-01T14:47:30Z", "timestamp_areas_base":
     "2026-05-12T07:36:16Z", "copyright": "The data included in this
     document is from www.openstreetmap.org. The data is made
     available under ODbL." } // SRTM: { Elevation data missing in
@@ -1322,7 +1322,7 @@ version="1.1" creator="togpx">
   <wpt lat="47.1966807" lon="9.3095168">
     <ele>909</ele>
     <name>Wohnmobil-Stellplatz Unterwasser</name>
-    <desc>caravan_site=motorhome_stopover;
+    <desc>cabins=no; caravan_site=motorhome_stopover;
     caravan_site:type=village; caravans=no; charge=20.20 SFR;
     fee=yes; name=Wohnmobil-Stellplatz Unterwasser;
     power_supply=yes; power_supply:capacity=10;
@@ -1614,8 +1614,34 @@ version="1.1" creator="togpx">
     <ele>636</ele>
     <name>Schießstand Grenchen</name>
     <desc>capacity:caravans=2; charge=11 CHF; fee=yes;
-    name=Schießstand Grenchen; tourism=caravan_site;
-    id=node/13829528102</desc>
+    name=Schießstand Grenchen; power_supply=no;
+    sanitary_dump_station=no; tents=no; toilets=no;
+    tourism=caravan_site; id=node/13829528102</desc>
+  </wpt>
+  <wpt lat="46.8843954" lon="8.244684">
+    <ele>470</ele>
+    <name>Seefeld Park Sarnen | WoMo-Stellplatz</name>
+    <desc>addr:city=Sarnen; addr:housenumber=20;
+    addr:postcode=6060; addr:street=Seestrasse;
+    capacity:caravans=50; fee=yes; internet_access=wlan;
+    internet_access:fee=no; name=Seefeld Park Sarnen |
+    WoMo-Stellplatz; power_supply=no; sanitary_dump_station=no;
+    shower=yes; tents=no; toilets=yes; tourism=caravan_site;
+    id=node/13928661679</desc>
+  </wpt>
+  <wpt lat="47.4186224" lon="7.0710523">
+    <ele>460</ele>
+    <name>Porrentruy</name>
+    <desc>fee=Fahrzeug 10.- pro Person 3.- Strom gratis;
+    name=Porrentruy; operator=Gemeinde; power_supply=yes;
+    sanitary_dump_station=no; tourism=caravan_site;
+    id=node/13950820372</desc>
+  </wpt>
+  <wpt lat="47.577594" lon="9.061222">
+    <ele>416</ele>
+    <name>märstetten</name>
+    <desc>name=märstetten; tourism=caravan_site;
+    id=node/13955402502</desc>
   </wpt>
   <wpt lat="47.5038692" lon="9.445616413920384">
     <ele>401</ele>
@@ -1698,8 +1724,9 @@ version="1.1" creator="togpx">
     <name>Camping Julia</name>
     <desc>cabins=no; caravans=yes; drinking_water=yes; fee=yes;
     internet_access=wlan; internet_access:fee=no; name=Camping
-    Julia; power_supply=yes; sanitary_dump_station=yes; shower=yes;
-    surface=gravel; tents=no; toilets=yes; tourism=caravan_site;
+    Julia; permanent_camping=yes; power_supply=yes;
+    sanitary_dump_station=yes; shower=yes; surface=gravel;
+    tents=no; toilets=yes; tourism=caravan_site;
     id=way/34995090</desc>
   </wpt>
   <wpt lat="46.6320889" lon="8.590995151943702">
@@ -1880,12 +1907,13 @@ version="1.1" creator="togpx">
   <wpt lat="46.75422785" lon="7.536097079806725">
     <ele>662</ele>
     <name>Erlebnisland Grizzlybär</name>
-    <desc>access=yes; capacity:caravans=19; charge=12.5 CHF;
-    contact:phone=+41 33 356 26 55;
+    <desc>access=yes; cabins=no; capacity:caravans=19; charge=12.5
+    CHF; contact:phone=+41 33 356 26 55;
     contact:website=https://www.grizzlybaer.ch/uebernachten/stellplatz;
-    fee=yes; name=Erlebnisland Grizzlybär; operator=Grizzlybär;
-    parking=surface; power_supply=yes; reservation=required;
-    tourism=caravan_site;
+    drinking_water=yes; fee=yes; name=Erlebnisland Grizzlybär;
+    operator=Grizzlybär; parking=surface; power_supply=yes;
+    reservation=required; sanitary_dump_station=no; shower=yes;
+    tents=no; toilets=yes; tourism=caravan_site;
     website=https://www.grizzlybaer.ch/uebernachten/stellplatz;
     id=way/329483463</desc>
     <link href="https://www.grizzlybaer.ch/uebernachten/stellplatz">
@@ -1901,10 +1929,18 @@ version="1.1" creator="togpx">
   </wpt>
   <wpt lat="47.563407749999996" lon="8.06648105892165">
     <ele>301</ele>
-    <name>way/345616352</name>
-    <desc>capacity:caravans=4; internet_access=no; maxstay=180;
-    power_supply=yes; sanitary_dump_station=yes;
-    tourism=caravan_site; id=way/345616352</desc>
+    <name>Wohnmobilstellplatz Laufenburg CH</name>
+    <desc>addr=CH; capacity=4; charge=18 CHF/24h;
+    drinking_water=yes; email=stadtkanzlei@laufenburg.ch; fee=yes;
+    maxstay=7 days; motorhome=yes; name=Wohnmobilstellplatz
+    Laufenburg CH; operator=Stadt Laufenburg; phone=+41 62 874 13
+    50; power_supply=yes; reservation=no;
+    sanitary_dump_station=yes; tents=no; tourism=caravan_site;
+    wastewater_disposal=yes;
+    website=https://www.laufenburg.ch/wohnmobilstellplatz;
+    id=way/345616352</desc>
+    <link href="https://www.laufenburg.ch/wohnmobilstellplatz">
+    </link>
   </wpt>
   <wpt lat="47.190987899999996" lon="7.332795704061981">
     <ele>771</ele>
@@ -3012,7 +3048,7 @@ version="1.1" creator="togpx">
     </trkseg>
   </trk>
   <trk>
-    <name>way/345616352</name>
+    <name>Wohnmobilstellplatz Laufenburg CH</name>
     <trkseg>
       <trkpt lat="47.5633635" lon="8.0665018"></trkpt>
       <trkpt lat="47.563369" lon="8.0666237"></trkpt>
